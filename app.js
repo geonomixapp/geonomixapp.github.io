@@ -1242,6 +1242,34 @@
     }));
   }
 
+  // Question de la position (demande de l'auteur, 31 oct. 2026) : posée une fois, sur la page Actu. On n'utilise la
+  // position que pour savoir la zone (Europe, Amérique latine…) ; elle reste sur le téléphone. Sinon : choisir sa zone.
+  function zoneAskHTML() {
+    if (I18N.zoneAsked) return "";
+    return `
+      <div class="zone-ask reveal" id="zone-ask">
+        <p class="eyebrow">📍 ${I18N.t("Tes actus selon où tu es")}</p>
+        <p>${I18N.t("Geonomix peut utiliser ta position une seule fois pour savoir ta zone (Europe, Amérique latine, Asie…) et mettre en premier les actus qui te touchent. Seule la zone est gardée, sur ton téléphone ; rien n'est envoyé.")}</p>
+        <div class="zone-btns">
+          <button class="pill-btn blue" type="button" data-zone-go>${I18N.t("Utiliser ma position")}</button>
+          <a class="pill-btn outline" href="#/reglages">${I18N.t("Choisir ma zone")}</a>
+          <button class="more-btn" type="button" data-zone-no>${I18N.t("Non merci")}</button>
+        </div>
+        <p class="zone-msg" aria-live="polite"></p>
+      </div>`;
+  }
+  function bindZoneAsk(rerender) {
+    const box = app.querySelector("#zone-ask");
+    if (!box) return;
+    const msg = box.querySelector(".zone-msg");
+    box.querySelector("[data-zone-no]").addEventListener("click", () => { I18N.skipZone(); box.remove(); });
+    box.querySelector("[data-zone-go]").addEventListener("click", () => {
+      msg.textContent = I18N.t("Un instant…");
+      I18N.locate().then((z) => { msg.textContent = I18N.t("Ta zone : {z}. Les actus sont rangées pour toi.").replace("{z}", I18N.t(z)); setTimeout(rerender, 1400); })
+        .catch(() => { msg.innerHTML = `${I18N.t("Position refusée ou indisponible.")} <a href="#/reglages">${I18N.t("Choisir ma zone")} ›</a>`; });
+    });
+  }
+
   function renderActuIndex() {
     app.innerHTML = `
       <section class="wrap hero">
@@ -1267,6 +1295,7 @@
       </section>` : ""}
 
       <section class="wrap actu-days">
+        ${zoneAskHTML()}
         <h2 class="title reveal">L'actu.</h2>
         <div class="filters reveal">
           <div class="curtains" role="tablist" aria-label="${I18N.t("Rubriques")}">
@@ -1281,6 +1310,7 @@
       </section>
     `;
     bindAgenda(app);
+    bindZoneAsk(renderActuIndex);
     function drawList() {
       const list = news.filter((n) => inCurtain(n, actuTheme) && (actuRegion === "all" || n.region === actuRegion));
       const tabs = app.querySelectorAll(".curtains [data-atheme]");
@@ -3218,7 +3248,7 @@ function statGrid(figures, sources, theme = "geo") {
       <section class="wrap hero">
         <p class="eyebrow">Réglages</p>
         <h1 class="title">Langue et région.</h1>
-        <p class="lead">Par défaut, Geonomix s'affiche dans la langue de ton téléphone et met en avant les actus de ta région, d'après ton fuseau horaire. Aucune localisation n'est demandée.</p>
+        <p class="lead">Par défaut, Geonomix s'affiche dans la langue de ton téléphone et met en avant les actus de ta zone, devinée d'après ton fuseau horaire. Tu peux aussi la choisir, ou laisser ta position la trouver : seule la zone est gardée, sur ton téléphone.</p>
       </section>
       <section class="wrap settings">
         <h2 class="search-h">Langue</h2>
@@ -3226,17 +3256,23 @@ function statGrid(figures, sources, theme = "geo") {
           ${Object.entries(L).map(([k, name]) => `<button class="chip-btn" data-lang="${k}" aria-pressed="${I18N.lang === k}" lang="${k}">${name}</button>`).join("")}
         </div>
         ${I18N.lang !== "fr" && !(window.GEOCO_I18N && window.GEOCO_I18N.content) ? `<p class="row-sub settings-note">Les menus sont traduits ; les articles sont encore en français.</p>` : ""}
-        <h2 class="search-h">Ma région</h2>
-        <p class="row-sub">Ses actus passent en premier, et le globe s'ouvre sur elle.</p>
-        <div class="chips-row" role="group" aria-label="Région">
-          ${(I18N.REGIONS || []).map((r) => `<button class="chip-btn" data-region="${r}" aria-pressed="${I18N.region === r}">${r}</button>`).join("")}
+        <h2 class="search-h">${I18N.t("Ma zone")}</h2>
+        <p class="row-sub">${I18N.t("Ses actus et celles qui la touchent passent en premier, et le globe s'ouvre sur elle.")}</p>
+        <div class="chips-row" role="group" aria-label="${I18N.t("Ma zone")}">
+          ${(I18N.ZONES || []).map((z) => `<button class="chip-btn" data-zone="${z}" aria-pressed="${I18N.zone === z}">${I18N.t(z)}</button>`).join("")}
         </div>
+        <p class="zone-btns"><button class="pill-btn outline" type="button" data-zone-locate>📍 ${I18N.t("Utiliser ma position")}</button></p>
+        <p class="row-sub zone-msg" aria-live="polite"></p>
       </section>`;
     app.querySelectorAll("[data-lang]").forEach((b) => b.addEventListener("click", () => I18N.setLang(b.dataset.lang)));
-    app.querySelectorAll("[data-region]").forEach((b) => b.addEventListener("click", () => {
-      I18N.setRegion(b.dataset.region);
-      app.querySelectorAll("[data-region]").forEach((x) => x.setAttribute("aria-pressed", x === b));
-    }));
+    const zmark = () => app.querySelectorAll("[data-zone]").forEach((x) => x.setAttribute("aria-pressed", x.dataset.zone === I18N.zone));
+    app.querySelectorAll("[data-zone]").forEach((b) => b.addEventListener("click", () => { I18N.setZone(b.dataset.zone); zmark(); }));
+    const zl = app.querySelector("[data-zone-locate]"), zmsg = app.querySelector(".zone-msg");
+    if (zl) zl.addEventListener("click", () => {
+      zmsg.textContent = I18N.t("Un instant…");
+      I18N.locate().then((z) => { zmark(); zmsg.textContent = I18N.t("Ta zone : {z}. Les actus sont rangées pour toi.").replace("{z}", I18N.t(z)); })
+        .catch(() => { zmsg.textContent = I18N.t("Position refusée ou indisponible."); });
+    });
   }
 
   // Conditions générales d'utilisation : texte dans data/cgu.js.

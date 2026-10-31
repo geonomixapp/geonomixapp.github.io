@@ -473,7 +473,20 @@
   "Tout l'agenda": "Toda a agenda",
   "Et après ?": "E depois?",
   "Rubriques": "Secções",
-  "{n} pays": "{n} países"
+  "{n} pays": "{n} países",
+  "Tes actus selon où tu es": "As tuas notícias conforme onde estás",
+  "Geonomix peut utiliser ta position une seule fois pour savoir ta zone (Europe, Amérique latine, Asie…) et mettre en premier les actus qui te touchent. Seule la zone est gardée, sur ton téléphone ; rien n'est envoyé.": "O Geonomix pode usar a tua localização uma só vez para saber a tua zona (Europa, América Latina, Ásia…) e pôr primeiro as notícias que te afetam. Só a zona é guardada, no teu telemóvel; nada é enviado.",
+  "Utiliser ma position": "Usar a minha localização",
+  "Choisir ma zone": "Escolher a minha zona",
+  "Non merci": "Não, obrigado",
+  "Un instant…": "Um momento…",
+  "Ta zone : {z}. Les actus sont rangées pour toi.": "A tua zona: {z}. As notícias estão ordenadas para ti.",
+  "Position refusée ou indisponible.": "Localização recusada ou indisponível.",
+  "Ma zone": "A minha zona",
+  "Ses actus et celles qui la touchent passent en premier, et le globe s'ouvre sur elle.": "As suas notícias e as que a afetam aparecem primeiro, e o globo abre-se sobre ela.",
+  "Amérique du Nord": "América do Norte",
+  "Amérique latine": "América Latina",
+  "Océanie": "Oceânia"
  },
  "months": {
   "janvier": "janeiro",

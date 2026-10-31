@@ -54,7 +54,34 @@
   let region = detectRegion();
   // Zone plus fine que la région, pour classer les actus par importance (demande de l'auteur, 31 oct. 2026 :
   // un lecteur en Argentine ne voit pas les mêmes actus en tête qu'un lecteur en Europe).
+  // Zone choisie dans les réglages ou trouvée par la position (une seule fois, sur l'appareil ; seule la zone est gardée).
+  const ZKEY = "geoco.zone", ZONES = ["Europe", "Amérique du Nord", "Amérique latine", "Asie", "Océanie", "Moyen-Orient", "Afrique"];
+  const ZONE_REGION = { "Amérique du Nord": "Amériques", "Amérique latine": "Amériques", "Océanie": "Asie" };
+  function zoneAt(lat, lng) {
+    if (lng < -25) return lat >= 25 ? "Amérique du Nord" : "Amérique latine";
+    if (lat < -10 && lng > 110 || lng > 160) return "Océanie";
+    if (lat >= 12 && lat < 42 && lng >= 34 && lng < 63 || (lat >= 29 && lat < 34 && lng >= 32 && lng < 36)) return "Moyen-Orient";
+    if (lat < 37 && lng >= -25 && lng < 52) return "Afrique";
+    if (lat >= 35 && lng >= -25 && lng < 45) return "Europe";
+    return "Asie";
+  }
+  function setZone(z) {
+    if (!ZONES.includes(z)) return;
+    put(ZKEY, z); put(ZKEY + ".asked", "1");
+    region = ZONE_REGION[z] || z; put(RKEY, region);
+  }
+  // Demande la position, une fois : précision faible, rien n'est envoyé ni gardé à part la zone.
+  function locate() {
+    put(ZKEY + ".asked", "1");
+    return new Promise((ok, ko) => {
+      if (!navigator.geolocation) return ko(new Error("indisponible"));
+      navigator.geolocation.getCurrentPosition((p) => { const z = zoneAt(p.coords.latitude, p.coords.longitude); setZone(z); ok(z); },
+        (e) => ko(e), { enableHighAccuracy: false, maximumAge: 864e5, timeout: 15000 });
+    });
+  }
   function detectZone() {
+    const saved = get(ZKEY);
+    if (saved && ZONES.includes(saved)) return saved;
     let tz = "";
     try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ""; } catch (e) {}
     const cc = (prefs[0].split("-")[1] || "").toUpperCase();
@@ -204,6 +231,9 @@
     LANGS, REGIONS, lang, locale,
     get region() { return region; },
     get zone() { return detectZone(); },
+    ZONES, setZone, locate,
+    get zoneAsked() { return !!get(ZKEY + ".asked"); },
+    skipZone() { put(ZKEY + ".asked", "1"); },
     setLang(l) { put(LKEY, l === detectLangDefault() ? null : l); location.reload(); },
     setRegion(r) { region = r; put(RKEY, r); },
     applyContent, countryName, translate, t, watch,
