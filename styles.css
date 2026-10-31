@@ -1557,3 +1557,7 @@ section.flash { animation: partFlash 1.6s ease-out; }
 .zone-btns { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 12px 0 0; }
 .zone-msg { margin: 10px 0 0 !important; font-size: 14px !important; color: var(--text) !important; }
 .zone-msg:empty { display: none; }
+
+/* Brèves sur le globe (visibles quand on zoome) : point plus petit, étiquette plus discrète */
+.globe-pin.brief .globe-dot { transform: scale(.7); opacity: .85; }
+.globe-pin.brief .globe-label { font-size: 11px; opacity: .85; background: rgba(20,22,30,.7); }

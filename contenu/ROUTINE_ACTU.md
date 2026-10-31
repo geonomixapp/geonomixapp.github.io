@@ -25,6 +25,14 @@ L'appli classe les actus selon la zone du lecteur (deviné d'après son fuseau h
 - **Pour un lecteur européen**, l'ordre d'importance est : Europe (et France), puis Chine et Asie, États-Unis et Amérique du Nord, puis le reste, sauf effet direct sur nos économies (Ormuz, pétrole, gaz) qui remonte avec `impact: "monde"`.
 - **Ne jamais rater les grandes actus** qui concernent l'Europe, l'Amérique du Nord ou la Chine, même si les grands médias en parlent beaucoup (ex. le Canada qui veut devenir membre associé de l'UE).
 
+## Les brèves : plus de pays quand on zoome (demande de l'auteur, 31 oct. 2026)
+
+Vu de loin, le globe montre les actus principales ; quand on zoome sur une région (l'Europe par exemple), des **brèves** apparaissent en plus, avec un point plus discret. Chaque jour, en plus des actus principales, **6 à 10 brèves** (`level: 2`) :
+
+- d'abord les **grands pays qui n'ont pas eu d'actu** depuis quelques jours : Allemagne, Espagne, Italie, Portugal, Pays-Bas, Pologne, Suisse, Japon, Corée du Sud, Inde, Brésil, Mexique, Argentine, Canada, Australie… ;
+- une brève = un fait du jour ou de la veille, court : titre, résumé, 2 ou 3 points, 1 ou 2 paragraphes `why`, `forMe`, 1 ou 2 chiffres ; **mêmes règles de sources** (au moins 2) ;
+- elles passent après les actus principales dans les listes.
+
 ## À venir : les dates qui comptent (demande de l'auteur, 31 oct. 2026)
 
 Le lecteur doit voir loin : ce qui va se passer demain, dans la semaine, dans le mois. Chaque matin, mettre à jour `data/agenda.js` :
@@ -99,6 +107,7 @@ Copier une actu existante de `data/news.js` et remplir :
 - `sources` : `{ short, name, url }` (au moins 2)
 - `markets` (facultatif, voir « Le côté finance ») : `{ text: "phrase sourcée (facultatif)", items: [{ name: "TotalEnergies", ticker: "TTE", move: "+3,1 %", why: "Opère le gisement avec 40 % des parts [2] ; l'action a gagné 3,1 % à Paris le jour de l'annonce [3]." }] }` ; une variation (`move`) doit être sourcée dans `why`
 - `past` (obligatoire pour une actu `fin`, facultatif ailleurs) : `{ title: "phrase d'introduction (facultatif)", items: [{ when: "2008", what: "Le précédent, daté et chiffré [4].", lesson: "Ce qu'il a donné pour les marchés ou les investisseurs [5]." }] }` ; chaque `what` est sourcé (les chiffres historiques aussi, jamais de mémoire)
+- `level: 2` (facultatif) : brève, visible sur le globe seulement quand on zoome (voir « Les brèves »)
 - `zones` (facultatif) : zones touchées en plus du lieu (« Europe », « Amérique du Nord », « Amérique latine », « Asie », « Océanie », « Moyen-Orient », « Afrique ») ; `impact: "monde"` (facultatif) si l'effet est mondial et direct
 - `next` (facultatif) : `[{ when, what }]`, la prochaine étape datée et sourcée
 - `verify` (facultatif) : la raison si la source est unique ou fragile (voir « Fiabilité »)

@@ -408,7 +408,12 @@
       await loadLib();
       if (!document.body.contains(container)) return null;
 
-      const places = placesFrom(news);
+      // Brèves (`level: 2`, demande de l'auteur, 31 oct. 2026) : seulement quand on zoome sur une région ; vue de loin,
+      // le globe garde les actus principales. Les points des brèves sont plus discrets (classe `brief`).
+      const mainNews = news.filter((n) => (n.level || 1) < 2);
+      const placesFar = placesFrom(mainNews), placesNear = placesFrom(news);
+      placesNear.forEach((p) => { p.brief = p.items.every((it) => (it.news.level || 1) >= 2); });
+      let places = placesFar;
       let countryMode = null;
       const arcs = [];
       news.forEach((n) => (n.routes || []).forEach((r) => {
@@ -445,7 +450,7 @@
         .htmlLat("lat").htmlLng("lng").htmlAltitude(0.015)
         .htmlElement((p) => {
           const el = document.createElement("button");
-          el.className = p.left ? "globe-pin left" : "globe-pin";
+          el.className = (p.left ? "globe-pin left" : "globe-pin") + (p.brief ? " brief" : "");
           el.dataset.n = p.items.length;
           el.setAttribute("aria-label", `${p.title} : ${p.items.length} actu${p.items.length > 1 ? "s" : ""}`);
           el.innerHTML = `<span class="globe-dot"></span><span class="globe-label">${p.name}${p.items.length > 1 ? ` <em>${p.items.length}</em>` : ""}</span>`;
@@ -454,6 +459,17 @@
         });
 
       const controls = world.controls();
+      // Zoom : sous une certaine altitude, les brèves apparaissent ; en reculant, elles s'effacent.
+      let near = false;
+      const ZOOM_IN = 1.55;
+      const lod = () => {
+        if (countryMode || placesNear.length === placesFar.length) return;
+        const z = world.pointOfView().altitude < ZOOM_IN;
+        if (z === near) return;
+        near = z; places = z ? placesNear : placesFar;
+        world.htmlElementsData(places).ringsData(places);
+      };
+      controls.addEventListener("change", () => { clearTimeout(lod.t); lod.t = setTimeout(lod, 120); });
       controls.autoRotate = true;
       controls.autoRotateSpeed = 0.45;
       addZoom(world, container, controls);
@@ -511,7 +527,7 @@
 
       return {
         world,
-        places,
+        places: placesNear,
         focus,
         reset() {
           world.pointOfView({ lat: homeLat, lng: homeLng, altitude: homeAlt() }, 1400);

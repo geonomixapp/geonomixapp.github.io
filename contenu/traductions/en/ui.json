@@ -489,7 +489,9 @@
   "Ses actus et celles qui la touchent passent en premier, et le globe s'ouvre sur elle.": "Its news and the news that affects it come first, and the globe opens on it.",
   "Amérique du Nord": "North America",
   "Amérique latine": "Latin America",
-  "Océanie": "Oceania"
+  "Océanie": "Oceania",
+  "Chercher « {q} » dans l'actualité du web": "Search “{q}” in news on the web",
+  "Ouvre Google Actualités dans un nouvel onglet": "Opens Google News in a new tab"
  },
  "months": {
   "janvier": "Jan.",

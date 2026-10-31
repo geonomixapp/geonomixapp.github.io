@@ -275,6 +275,7 @@
     if (n.impact === "monde") s += 4;
     if ((NEIGHBOURS[Z] || []).some((z) => home.has(z) || (n.zones || []).includes(z))) s += 1;
     if ((n.geo || []).some((g) => POWERS.test(g.name || ""))) s += 1;
+    if ((n.level || 1) >= 2) s -= 3; // les brèves passent après les actus principales
     return s;
   }
   const nearFirst = (list) => list.map((n, i) => [n, i, relevance(n)]).sort((a, b) => (b[0].date > a[0].date) - (b[0].date < a[0].date) || b[2] - a[2] || a[1] - b[1]).map((x) => x[0]);
@@ -814,12 +815,35 @@
     return countryIdx;
   }
 
+  // Régions cherchables (une région → les mots qui la désignent : sa capitale, ses grandes villes).
+  const REGIONS_OF = { "Québec": ["quebec", "montreal", "laval", "gatineau"], "Ontario": ["ontario", "toronto", "ottawa"], "Catalogne": ["catalogne", "catalunya", "barcelone"],
+    "Bavière": ["baviere", "munich"], "Écosse": ["ecosse", "edimbourg", "glasgow"], "Californie": ["californie", "los angeles", "san francisco", "silicon valley"], "Texas": ["texas", "houston", "corpus christi", "austin"],
+    "Kurdistan": ["kurdistan", "erbil"], "Cisjordanie": ["cisjordanie", "ramallah"], "Sibérie": ["siberie"], "Donbass": ["donbass", "donetsk", "louhansk"], "Crimée": ["crimee", "sebastopol"] };
   function globeSearch(globe, { hero, el }) {
     const form = hero.querySelector(".globe-search");
     if (!form) return;
     const input = form.querySelector(".gs-input"), box = form.querySelector(".gs-suggest");
     let results = [];
     const dateShort = (d) => new Date(d + "T12:00:00").toLocaleDateString(LOCALE, { day: "numeric", month: "short" });
+
+    // Villes et régions (demande de l'auteur, 31 oct. 2026 : « je cherche Montréal, ça m'emmène au Canada ») : chaque lieu
+    // des actus (« Montréal » de « Montréal, Canada ») et quelques régions connues deviennent cherchables ; on ouvre alors
+    // la recherche précise sur ce lieu, pas la page du pays.
+    const textOf = (n) => foldS([n.title, n.summary, ...(n.points || []), ...(n.geo || []).map((g) => g.name)].join(" "));
+    let placeIdx = null;
+    function placesIndex() {
+      if (placeIdx) return placeIdx;
+      const m = new Map();
+      news.forEach((n) => (n.geo || []).forEach((g) => {
+        const parts = String(g.name || "").split(",").map((x) => x.trim()).filter(Boolean);
+        if (parts.length < 2) return;
+        const city = parts[0], key = foldS(city);
+        if (!m.has(key)) m.set(key, { name: city, country: parts[parts.length - 1], keys: [key] });
+      }));
+      Object.entries(REGIONS_OF).forEach(([name, keys]) => { const k = foldS(name); if (!m.has(k)) m.set(k, { name, country: "", keys: keys.map(foldS) }); else m.get(k).keys.push(...keys.map(foldS)); });
+      placeIdx = [...m.values()].map((p) => Object.assign(p, { count: news.filter((n) => p.keys.some((k) => textOf(n).includes(k))).length })).filter((p) => p.count);
+      return placeIdx;
+    }
 
     function suggest() {
       const q = foldS(input.value);
@@ -829,8 +853,16 @@
         .sort((a, b) => (b.keys.some((k) => k.startsWith(q)) - a.keys.some((k) => k.startsWith(q))) || (b.news.length + b.related.length) - (a.news.length + a.related.length)).slice(0, 4);
       const words = q.split(" ").filter((w) => w.length > 1);
       const events = news.filter((n) => { const t = foldS(n.title + " " + n.summary + " " + (n.geo || []).map((g) => g.name).join(" ")); return words.every((w) => t.includes(w)); }).slice(0, 5);
-      results = [...countries.map((c) => ({ kind: "country", c })), ...events.map((n) => ({ kind: "news", n }))];
-      box.innerHTML = results.length ? results.map((r, i) => r.kind === "country"
+      const cityHits = placesIndex().filter((p) => p.keys.some((k) => k.startsWith(q) || (q.length > 3 && k.includes(q)))
+        && !countries.some((c) => c.keys.includes(foldS(p.name)))).slice(0, 3);
+      results = [...cityHits.map((p) => ({ kind: "place", p })), ...countries.map((c) => ({ kind: "country", c })), ...events.map((n) => ({ kind: "news", n }))];
+      // Rien dans l'appli : on propose la recherche dans l'actualité du web.
+      results.push({ kind: "web", q: input.value.trim() });
+      box.innerHTML = results.length ? results.map((r, i) => r.kind === "place"
+        ? `<button type="button" class="gs-item" data-i="${i}" role="option"><span class="gs-flag">📍</span><span class="gs-main"><b>${r.p.name}</b><small>${I18N.t("{n} actus").replace("{n}", r.p.count)}${r.p.country ? ` · ${r.p.country}` : ""}</small></span><span class="gs-go">›</span></button>`
+        : r.kind === "web"
+        ? `<a class="gs-item gs-web" data-i="${i}" role="option" href="https://news.google.com/search?q=${encodeURIComponent(r.q)}&hl=${I18N.lang || "fr"}" target="_blank" rel="noopener"><span class="gs-flag">🌐</span><span class="gs-main"><b>${I18N.t("Chercher « {q} » dans l'actualité du web").replace("{q}", r.q.replace(/</g, "&lt;"))}</b><small>${I18N.t("Ouvre Google Actualités dans un nouvel onglet")}</small></span><span class="gs-go">↗</span></a>`
+        : r.kind === "country"
         ? `<button type="button" class="gs-item" data-i="${i}" role="option"><span class="gs-flag">${r.c.flag}</span><span class="gs-main"><b>${r.c.name}</b><small>${r.c.news.length + r.c.related.length ? I18N.t("{n} actus").replace("{n}", r.c.news.length + r.c.related.length) : I18N.t("Pas d'actu récente")}</small></span><span class="gs-go">›</span></button>`
         : `<button type="button" class="gs-item news ${r.n.theme}" data-i="${i}" role="option"><span class="gs-flag">📰</span><span class="gs-main"><b>${r.n.title}</b><small>${(r.n.geo && r.n.geo[0] && r.n.geo[0].name) || ""} · ${dateShort(r.n.date)}</small></span><span class="gs-go">›</span></button>`).join("")
         : `<p class="gs-none">${I18N.t("Rien trouvé. Essaie un pays (Canada, Ghana…) ou un mot (pétrole, taux…).")}</p>`;
@@ -862,6 +894,13 @@
       setTimeout(() => { location.hash = "#/pays/" + c.id; }, 350);
     }
 
+    // Ville ou région : la recherche précise sur ce lieu (ses actus d'abord, puis le pays).
+    function pickPlace(p) {
+      box.hidden = true; input.blur();
+      fly(`📍 ${p.name}`);
+      setTimeout(() => { location.hash = "#/recherche/" + encodeURIComponent(p.name); }, 350);
+    }
+
     function pickNews(n) {
       box.hidden = true; input.blur();
       const g = n.geo && n.geo[0];
@@ -877,13 +916,14 @@
       const b = e.target.closest(".gs-item");
       if (!b) return;
       const r = results[Number(b.dataset.i)];
-      r.kind === "country" ? pickCountry(r.c) : pickNews(r.n);
+      if (r.kind === "web") return;
+      r.kind === "place" ? pickPlace(r.p) : r.kind === "country" ? pickCountry(r.c) : pickNews(r.n);
     });
     form.addEventListener("submit", (e) => {
       e.preventDefault();
       suggest();
       const r = results[0];
-      if (r) r.kind === "country" ? pickCountry(r.c) : pickNews(r.n);
+      if (r && r.kind !== "web") r.kind === "place" ? pickPlace(r.p) : r.kind === "country" ? pickCountry(r.c) : pickNews(r.n);
     });
     document.addEventListener("pointerdown", (e) => { if (!form.contains(e.target)) box.hidden = true; });
   }
@@ -3157,8 +3197,15 @@ function statGrid(figures, sources, theme = "geo") {
     const toks = fold(q).split(/[^a-z0-9%]+/).filter((x) => x.length > 1 || /\d/.test(x));
     if (!toks.length) return null;
     const res = {};
+    // Une région connue (« Québec ») trouve aussi les actus de ses villes (« Montréal »).
+    const regionKeys = (Object.entries(REGIONS_OF).find(([name]) => fold(name) === toks.join(" ")) || [, null])[1];
     searchIndex.forEach((e) => {
       let score = 0;
+      if (regionKeys && e.kind !== "pays") {
+        if (!regionKeys.some((k) => e.h.includes(k))) return;
+        (res[e.kind] = res[e.kind] || []).push([(e.date ? e.date.replace(/-/g, "") / 1e8 : 0) + 5, e]);
+        return;
+      }
       if (e.kind === "pays") {
         // Pays : chaque mot tapé doit être le début d'un mot du nom (« mar » → Maroc, pas Danemark).
         const words = (e.t + " " + (e.alt || "")).split(/[^a-z0-9]+/);

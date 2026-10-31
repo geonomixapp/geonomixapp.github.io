@@ -490,7 +490,9 @@
   "Ses actus et celles qui la touchent passent en premier, et le globe s'ouvre sur elle.": "Ihre Nachrichten und die, die sie betreffen, kommen zuerst, und der Globus öffnet sich auf ihr.",
   "Amérique du Nord": "Nordamerika",
   "Amérique latine": "Lateinamerika",
-  "Océanie": "Ozeanien"
+  "Océanie": "Ozeanien",
+  "Chercher « {q} » dans l'actualité du web": "„{q}“ in den Nachrichten im Web suchen",
+  "Ouvre Google Actualités dans un nouvel onglet": "Öffnet Google News in einem neuen Tab"
  },
  "months": {
   "janvier": "Januar",

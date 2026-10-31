@@ -1050,6 +1050,229 @@ window.GEOCO.news = [
     ]
   },
   {
+    "id": "2026-10-31-espagne-pib-inflation-t3",
+    "region": "Europe",
+    "theme": "eco",
+    "geo": [
+      {
+        "name": "Madrid, Espagne",
+        "label": "Espagne",
+        "coords": [
+          -3.7,
+          40.42
+        ]
+      }
+    ],
+    "title": "L'Espagne grandit encore de 0,6 %, mais l'inflation reste près de 5 %",
+    "summary": "L'économie espagnole continue d'avancer plus vite que ses voisins, pendant que les prix de l'énergie gardent l'inflation haute.",
+    "points": [
+      "Le PIB espagnol a progressé de 0,6 % au troisième trimestre, après 0,7 % au deuxième, et de 2,7 % sur un an [1][2].",
+      "L'inflation est restée à 4,9 % sur un an en octobre, comme en septembre, poussée par l'énergie et la guerre au Moyen-Orient [1][3]."
+    ],
+    "why": [
+      "À retenir : l'Espagne reste l'une des économies les plus dynamiques de la zone euro, loin devant la France (−0,1 %) [1][2].",
+      "Une inflation aussi haute complique la tâche de la Banque centrale européenne, qui fixe un seul taux pour tous les pays de l'euro [3]."
+    ],
+    "forMe": "Si tu voyages ou fais des achats en Espagne, les prix y montent plus vite qu'en France en ce moment [1][3].",
+    "figures": [
+      {
+        "value": "+0,6 %",
+        "label": "PIB espagnol au 3e trimestre",
+        "src": 1
+      },
+      {
+        "value": "4,9 %",
+        "label": "inflation sur un an en octobre",
+        "src": 1
+      }
+    ],
+    "sources": [
+      {
+        "short": "Anadolu",
+        "name": "Anadolu Agency, « Spain's economy expands 0.6% in Q3 as annual inflation holds at 4.9% » (30 octobre 2026)",
+        "url": "https://www.aa.com.tr/en/economy/spains-economy-expands-06-in-q3-as-annual-inflation-holds-at-49-/4106067"
+      },
+      {
+        "short": "Global Banking & Finance",
+        "name": "Global Banking & Finance Review, « Spain's Economic Growth Slows to 0.6% in Q3 » (30 octobre 2026)",
+        "url": "https://www.globalbankingandfinance.com/spains-economic-growth-edges-down-0-6-third-quarter/"
+      },
+      {
+        "short": "InvestingLive",
+        "name": "InvestingLive, « Spain inflation remains stubbornly high near 5% as the ECB headache gets worse » (30 octobre 2026)",
+        "url": "https://investinglive.com/news/spain-inflation-remains-stubbornly-high-near-5-as-the-ecb-headache-gets-worse/"
+      }
+    ],
+    "date": "2026-10-31",
+    "level": 2,
+    "culture": [],
+    "dossiers": []
+  },
+  {
+    "id": "2026-10-31-allemagne-pib-t3-depenses-publiques",
+    "region": "Europe",
+    "theme": "eco",
+    "geo": [
+      {
+        "name": "Berlin, Allemagne",
+        "label": "Allemagne",
+        "coords": [
+          13.4,
+          52.52
+        ]
+      }
+    ],
+    "title": "L'Allemagne grandit de 0,2 %, un peu mieux que prévu, grâce à l'État",
+    "summary": "Malgré le choc de l'énergie et un Rhin au plus bas, l'économie allemande avance, portée par les dépenses publiques.",
+    "points": [
+      "Le PIB allemand a progressé de 0,2 % au troisième trimestre, alors que les économistes attendaient 0,1 %, et de 1,3 % sur un an [1][2].",
+      "La croissance vient surtout des dépenses publiques ; l'activité des entreprises privées reste faible [1].",
+      "L'économie a tenu malgré le choc énergétique de la guerre en Iran et un niveau record bas du Rhin, qui gêne l'industrie [2]."
+    ],
+    "why": [
+      "À retenir : la première économie d'Europe ne recule pas, mais elle dépend beaucoup de l'argent de l'État [1].",
+      "Le gouvernement prévoit 1,3 % de croissance en 2026 et 1,1 % en 2027 [1]."
+    ],
+    "forMe": "L'Allemagne est le premier client de la France : quand elle tient, les exportations françaises en profitent [1][2].",
+    "figures": [
+      {
+        "value": "+0,2 %",
+        "label": "PIB allemand au 3e trimestre",
+        "src": 1
+      },
+      {
+        "value": "+0,1 %",
+        "label": "ce qu'attendaient les économistes",
+        "src": 1
+      }
+    ],
+    "sources": [
+      {
+        "short": "RTÉ",
+        "name": "RTÉ, « German economy grew more than expected in third quarter » (30 octobre 2026)",
+        "url": "https://www.rte.ie/news/business/2026/1030/1597377-german-economy-grew-more-than-expected-in-third-quarter/"
+      },
+      {
+        "short": "France 24",
+        "name": "France 24 (AFP), « German economy logs 0.2% growth, faster than expected » (30 octobre 2026)",
+        "url": "https://www.france24.com/en/live-news/20261030-german-economy-logs-0-2-growth-faster-than-expected"
+      }
+    ],
+    "date": "2026-10-31",
+    "level": 2,
+    "culture": [],
+    "dossiers": []
+  },
+  {
+    "id": "2026-10-31-portugal-logement-manifestations-budget",
+    "region": "Europe",
+    "theme": "mix",
+    "geo": [
+      {
+        "name": "Lisbonne, Portugal",
+        "label": "Portugal",
+        "coords": [
+          -9.14,
+          38.72
+        ]
+      }
+    ],
+    "title": "Portugal : des milliers de manifestants pour le logement devant le Parlement, en plein débat budgétaire",
+    "summary": "Les prix des logements ont bondi de près de 20 % en un an ; la colère monte pendant que les députés discutent du budget 2027.",
+    "points": [
+      "Des milliers de personnes ont manifesté le 27 octobre devant le Parlement portugais à Lisbonne, pendant le premier débat sur le budget 2027 [1][2].",
+      "Selon l'institut national de statistique, les prix des logements ont augmenté de près de 20 % entre début 2025 et début 2026 [1].",
+      "Le gouvernement de Luís Montenegro met en avant la hausse des salaires prévue dans son budget [2]."
+    ],
+    "why": [
+      "À retenir : le logement devient la première colère sociale au Portugal, comme dans plusieurs pays d'Europe [1].",
+      "Le budget doit encore être voté ; la pression de la rue pèse sur les choix du gouvernement [1][2]."
+    ],
+    "forMe": "Lisbonne attire touristes et étrangers, ce qui fait monter les loyers pour les habitants : un débat qui existe aussi en France [1].",
+    "figures": [
+      {
+        "value": "≈ +20 %",
+        "label": "prix des logements en un an",
+        "src": 1
+      }
+    ],
+    "sources": [
+      {
+        "short": "AP (ABC News)",
+        "name": "Associated Press (ABC News), « Portugal's Parliament debates government spending plans as housing protests swell » (27 octobre 2026)",
+        "url": "https://abcnews.com/Business/wireStory/portugals-parliament-debates-government-spending-plans-housing-protests-137607440"
+      },
+      {
+        "short": "The Portugal News",
+        "name": "The Portugal News, « Portugal highlights wage growth in 2027 budget debate » (28 octobre 2026)",
+        "url": "https://www.theportugalnews.com/news/2026-10-28/portugal-highlights-wage-growth-in-2027-budget-debate/1107868"
+      }
+    ],
+    "date": "2026-10-31",
+    "level": 2,
+    "culture": [],
+    "dossiers": []
+  },
+  {
+    "id": "2026-10-31-italie-croissance-nulle-inflation",
+    "region": "Europe",
+    "theme": "eco",
+    "geo": [
+      {
+        "name": "Rome, Italie",
+        "label": "Italie",
+        "coords": [
+          12.5,
+          41.9
+        ]
+      }
+    ],
+    "title": "L'Italie à l'arrêt au 3e trimestre, avec une inflation au plus haut depuis plus de trois ans",
+    "summary": "Croissance nulle et prix de l'énergie en hausse : la troisième économie de la zone euro marque le pas.",
+    "points": [
+      "Selon les premiers chiffres de l'Istat, le PIB italien n'a pas progressé au troisième trimestre, un peu moins bien que prévu ; sur un an, il gagne 0,8 % [1][2].",
+      "L'inflation a atteint 5,4 % sur un an en octobre, son plus haut niveau depuis plus de trois ans, à cause de l'énergie [2][3]."
+    ],
+    "why": [
+      "À retenir : avec l'Allemagne qui progresse à peine et la France qui recule, la zone euro avance surtout grâce à l'Espagne [1][2].",
+      "Le ministre de l'Économie Giancarlo Giorgetti s'inquiète de l'effet des guerres sur le prix de l'énergie [2]."
+    ],
+    "forMe": "Une Italie à l'arrêt, c'est moins de commandes pour les entreprises françaises, dont elle est l'un des grands clients [1][2].",
+    "figures": [
+      {
+        "value": "0 %",
+        "label": "croissance de l'Italie au 3e trimestre",
+        "src": 1
+      },
+      {
+        "value": "5,4 %",
+        "label": "inflation sur un an en octobre",
+        "src": 2
+      }
+    ],
+    "sources": [
+      {
+        "short": "RTTNews",
+        "name": "RTTNews, « Italy Economy Stagnates In Q3; Inflation Highest In Over 3 Years » (30 octobre 2026)",
+        "url": "https://www.rttnews.com/3706513/italy-economy-stagnates-in-q3-inflation-highest-in-over-3-years.aspx"
+      },
+      {
+        "short": "QNC News",
+        "name": "QNC News, « Italy Inflation Hits Highest in Over Three Years as Economy Stalls » (30 octobre 2026)",
+        "url": "https://qncnews.com/2026/10/30/italy-inflation-hits-highest-in-over-three-years-as-economy-stalls/"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « Italy inflation surges to 5.4% as economy stalls » (30 octobre 2026)",
+        "url": "https://finance.yahoo.com/economy/articles/italy-inflation-surges-5-4-135329163.html"
+      }
+    ],
+    "date": "2026-10-31",
+    "level": 2,
+    "culture": [],
+    "dossiers": []
+  },
+  {
     "id": "2026-10-30-israel-elections-aucune-majorite",
     "date": "2026-10-30",
     "region": "Moyen-Orient",

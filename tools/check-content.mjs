@@ -71,6 +71,7 @@ news.forEach((n, i) => {
   const ZONES = ["Europe", "Amérique du Nord", "Amérique latine", "Asie", "Océanie", "Moyen-Orient", "Afrique"];
   (n.zones || []).forEach((z) => { if (!ZONES.includes(z)) err(w, `zone inconnue « ${z} »`); });
   if (n.impact != null && n.impact !== "monde") err(w, `impact : seulement "monde"`);
+  if (n.level != null && n.level !== 2) err(w, "level : seulement 2 (brève)");
   if (n.next) [].concat(n.next).forEach((x) => { if (!x.when || !x.what) err(w, "next : when et what obligatoires"); checkCites(w + " (après)", x.what, n.sources); });
   // « Ça s'est déjà passé » : chaque précédent est daté et sourcé.
   if (n.past) {
