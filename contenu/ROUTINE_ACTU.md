@@ -131,6 +131,8 @@ Les nouvelles actus se placent **en haut** du tableau. Le globe de l'accueil aff
 2. `node tools/build-lettre.mjs` fabrique la lettre du matin en PDF (`lettres/AAAA-MM-JJ.pdf`) et met à jour `data/lettres.js`. Vérifier qu'elle tient sur une page.
 3. Si un chiffre de l'onglet Chiffres (`data/indicators.js`) a été publié officiellement depuis (inflation, chômage), le mettre à jour avec sa date et sa source.
 4. On garde les actus des 14 derniers jours ; les plus anciennes peuvent être retirées.
+5. `node tools/build-quiz-data.mjs` puis `node tools/build-duel.mjs` : les quiz du Duel (« Les pays de l'actu », classements tirés des Chiffres) suivent les actus du jour.
+6. La lettre (demande de l'auteur, 31 oct. 2026) est sobre : 7 actus principales seulement (ni brèves ni Finance), effet mondial puis France et Europe d'abord ; l'ordre des actus dans `data/news.js` compte, mettre les plus importantes en premier.
 
 ## Traductions
 

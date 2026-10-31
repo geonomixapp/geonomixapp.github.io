@@ -26,7 +26,7 @@ try {
 
 const ctx = { window: {} };
 vm.createContext(ctx);
-for (const f of ["data/news.js", "data/indicators.js", "data/conflits.js", "data/world.js", "data/iso2.js", "data/anecdotes.js"]) {
+for (const f of ["data/news.js", "data/indicators.js", "data/conflits.js", "data/world.js", "data/iso2.js", "data/anecdotes.js", "data/agenda.js"]) {
   if (fs.existsSync(f)) vm.runInContext(fs.readFileSync(f, "utf8"), ctx, { filename: f });
 }
 const G = ctx.window.GEOCO;
@@ -47,8 +47,12 @@ const strip = (s) => String(s).replace(/\s*\[\d+\]/g, "");
 const THEMES = { eco: "Économie", geo: "Géopolitique", fin: "Finance", mix: "Éco & Géopo" };
 const longDate = new Date(day + "T12:00:00").toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
 
-// Les actus : jusqu'à 9, dans l'ordre du fichier (la rédaction met les plus importantes en premier).
-const items = todays.slice(0, 9);
+// L'essentiel seulement (demande de l'auteur, 31 oct. 2026 : « plus sobre, juste les informations principales ») :
+// 7 actus principales (pas les brèves, pas la Finance réservée aux abonnés), effet mondial d'abord, puis la France
+// et l'Europe, puis le reste dans l'ordre de la rédaction.
+const rank = (n) => (n.impact === "monde" ? 3 : 0) + (/France/.test((n.geo || []).map((g) => g.name).join(" ")) ? 2 : 0) + (n.region === "Europe" ? 1 : 0);
+const main = todays.filter((n) => (n.level || 1) < 2 && n.theme !== "fin");
+const items = (main.length ? main : todays).map((n, i) => [n, i]).sort((a, b) => rank(b[0]) - rank(a[0]) || a[1] - b[1]).map((x) => x[0]).slice(0, 7);
 const lead = items[0];
 const fig = (lead.figures || [])[0];
 const figSrc = fig && fig.src && lead.sources[fig.src - 1];
@@ -61,6 +65,8 @@ const data = { day, dateCap, items, fig, figSrc, C, latest, THEMES, strip, world
   // « Le saviez-vous ? » : une anecdote différente chaque jour.
   anecdote: (() => { const A = G.anecdotes || []; return A.length ? A[Math.floor(Date.parse(day + "T12:00:00Z") / 864e5) % A.length] : null; })(),
   // Numéro de l'édition : compté depuis la première lettre (7 octobre 2026).
+  // « À venir » : les 5 prochains rendez-vous de l'agenda.
+  agenda: (G.agenda || []).filter((a) => (a.end || a.date) >= day).sort((a, b) => (a.date < b.date ? -1 : 1)).slice(0, 5),
   number: Math.max(1, Math.round((Date.parse(day) - Date.parse("2026-10-07")) / 864e5) + 1) };
 const classicHtml = `<!doctype html><html lang="fr"><head><meta charset="utf-8"><style>
 @page { size: A4; margin: 0; }
@@ -118,7 +124,7 @@ footer { margin-top: 4mm; padding-top: 2.5mm; border-top: .5px solid #161616; fo
 <footer class="sans"><span>Chaque actu est expliquée en détail, avec toutes ses sources, dans l'application Geonomix.</span><span>Lettre n° ${esc(day)}</span></footer>
 </div></body></html>`;
 
-const autoStyle = Math.round(Date.parse(day) / 864e5) % 2 === 0 ? "journal" : "journal-couleur";
+const autoStyle = "journal"; // une seule version, sobre (avant : couleur un jour sur deux)
 const htmlFor = (st) => (st === "auto" ? STYLES[autoStyle](data) : st === "classique" ? classicHtml : STYLES[st](data));
 const browser = await chromium.launch(fs.existsSync("/opt/pw-browsers/chromium") ? { executablePath: "/opt/pw-browsers/chromium" } : {});
 const A4 = 1120;

@@ -123,11 +123,11 @@ function journal(d, { color = false } = {}) {
   const df = dayFigure(d);
   const pts = (lead.points || []).slice(0, 2).map((t) => esc(d.strip(t)));
   // L'actu principale : la carte de situation (pays + repère + chiffre clé) et, si possible, le graphique.
-  const leadArt = color ? figuresPanel(d, lead, P, { shape: true, big: true })
-    : [hasShape(d, lead) ? pressShape(d, lead, P, { big: true }) : "", canBars(lead) ? pressChart(lead, P, { noSource: true }) : !hasShape(d, lead) && lead.figures && lead.figures[0] ? pressNumber(lead.figures[0], P, lead.figures[1]) : ""]
-      .filter(Boolean).map((x) => `<div style="flex:1;min-width:0">${x}</div>`).join("");
+  // Une seule illustration, pour l'actu principale : le pays et son repère, sinon son chiffre clé.
+  const leadArt = hasShape(d, lead) ? `<div style="flex:1;min-width:0">${pressShape(d, lead, P, { big: true })}</div>`
+    : lead.figures && lead.figures[0] ? `<div style="flex:1;min-width:0">${pressNumber(lead.figures[0], P, lead.figures[1])}</div>` : "";
   const seenCourse = new Set();
-  const read = (n) => { const k = courseOf(n); if (!k || seenCourse.has(k)) return ""; seenCourse.add(k); return `<div class="also">Pour comprendre, le cours « ${esc(k)} » dans l'application.</div>`; };
+  const read = () => "";
   return doc(`
 html, body { background: #f7f3ea; } body { color: ${P.ink}; font-family: "Serif4", serif; }
 .page { padding: 10mm 12mm 9mm; background: #f7f3ea; }
@@ -185,12 +185,12 @@ td { padding: 1mm 0; border-bottom: .5px solid ${P.rule}; vertical-align: top; }
     <div class="src">Sources : ${esc(sourcesOf(lead))}</div>${read(lead)}</div>
   <div class="side">
     ${df ? `<div><h4>Le chiffre du jour</h4><div class="big" style="color:${P.accent}">${esc(df.value)}</div><p>${esc(df.label)}${df.place ? ` (${esc(df.place)})` : ""}.</p>${df.src ? `<div class="src">Source : ${esc(df.src)}</div>` : ""}</div>` : ""}
-    ${true ? `<div><h4>Les actus du jour, par région</h4><div style="margin-top:2mm">${regionStrip(d.items, "100%", Object.assign({}, P, { accents: P.regionColors, radius: 0 }))}</div></div>` : ""}
-    ${d.C ? `<div><h4>Le point conflits · ${esc(d.C.barometre.month)}</h4><div class="counts" style="margin-top:2mm"><div><b style="color:${P.accent}">${d.C.barometre.counts.worse}</b>s'aggravent</div><div><b>${d.C.barometre.counts.better}</b>s'améliorent</div><div><b>${d.C.barometre.counts.alerts}</b>alertes</div></div><p>${esc(d.C.barometre.worse.map((x) => x.name).join(", "))}.</p><div class="src">Source : CrisisWatch</div></div>` : ""}
+    ${(d.agenda || []).length ? `<div><h4>À venir</h4><div style="margin-top:2mm">${d.agenda.map((a) => `<p style="margin:0 0 1.8mm"><b style="font-family:'Franklin',sans-serif;font-size:7.6pt;letter-spacing:.04em">${esc(new Date(a.date + "T12:00:00").toLocaleDateString("fr-FR", { day: "numeric", month: "short" }).toUpperCase())}</b> ${esc(a.title)}</p>`).join("")}</div></div>` : ""}
+    ${false && d.C ? `<div><h4>Le point conflits · ${esc(d.C.barometre.month)}</h4><div class="counts" style="margin-top:2mm"><div><b style="color:${P.accent}">${d.C.barometre.counts.worse}</b>s'aggravent</div><div><b>${d.C.barometre.counts.better}</b>s'améliorent</div><div><b>${d.C.barometre.counts.alerts}</b>alertes</div></div><p>${esc(d.C.barometre.worse.map((x) => x.name).join(", "))}.</p><div class="src">Source : CrisisWatch</div></div>` : ""}
   </div>
 </div>
-<div class="cols">${rest.map((n, i) => { const art = color ? figuresPanel(d, n, P, { shape: shapes[i] }) : pressIllustration(plan[i], d, n, P); return `<div class="story${i % c === 0 ? " first" : ""}${i % c === c - 1 ? " last" : ""}"><div class="k gray">${kicker(d, n)}</div><h2>${esc(n.title)}</h2>${art ? `<div class="art">${art}</div>` : ""}<p>${dateline(n) ? `<span class="dl">${esc(dateline(n))} —</span> ` : ""}${esc(d.strip(n.summary))}${n.points && n.points[0] && d.strip(n.points[0]).length < 260 ? " " + esc(d.strip(n.points[0])) : ""}</p><div class="src">${esc(sourcesOf(n))}</div>${read(n)}</div>`; }).join("")}</div>
-<div class="band1"><div><h3>Les derniers chiffres</h3><table style="margin-top:1mm">${latestRows(d).map((x) => `<tr><td>${esc(x.label)} <span style="color:#8a8173">· ${esc(x.date)}, ${esc(x.source.short)}</span></td><td class="v">${esc(x.value)}</td></tr>`).join("")}</table></div></div>
+<div class="cols">${rest.map((n, i) => { const art = ""; return `<div class="story${i % c === 0 ? " first" : ""}${i % c === c - 1 ? " last" : ""}"><div class="k gray">${kicker(d, n)}</div><h2>${esc(n.title)}</h2>${art ? `<div class="art">${art}</div>` : ""}<p>${dateline(n) ? `<span class="dl">${esc(dateline(n))} —</span> ` : ""}${esc(d.strip(n.summary))}</p><div class="src">${esc(sourcesOf(n))}</div>${read(n)}</div>`; }).join("")}</div>
+<div class="band1"><div><h3>Les derniers chiffres</h3><table style="margin-top:1mm">${latestRows(d).slice(0, 4).map((x) => `<tr><td>${esc(x.label)} <span style="color:#8a8173">· ${esc(x.date)}, ${esc(x.source.short)}</span></td><td class="v">${esc(x.value)}</td></tr>`).join("")}</table></div></div>
 <div class="foot"><span>Chaque actu est expliquée en détail, avec toutes ses sources, dans l'application Geonomix.</span><span>${esc(d.day)}</span></div>
 </div>`);
 }
