@@ -1,0 +1,172 @@
+<meta charset="utf-8">
+<title>En-têtes des rideaux</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="styles.css">
+<style>
+/* Planche : 6 façons d'ouvrir un rideau (Économie, Géopolitique, Finance), avec les vraies actus du jour.
+   Chaque proposition se montre dans les trois thèmes (boutons en haut), aux couleurs de l'appli. */
+:root { --ink: #f5f5f7; --dim: #9a9aa3; --rule: rgba(255,255,255,.12); --pick: #3ddc97; --eco: #ff8a3d; --geo: #7d7bff; --fin: #34d399; --card: #1c1c1e; --sea: #0b1220; --land: #232838; color-scheme: dark; }
+body { background: #000; color: var(--ink); }
+.board { max-width: 1300px; margin: 0 auto; padding-block: 28px 70px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.board > h1 { font-family: "Times New Roman", Times, serif; font-size: clamp(28px, 4vw, 40px); margin: 0 0 8px; text-wrap: balance; }
+.board > p { color: var(--dim); max-width: 72ch; margin: 0 0 18px; font-size: 16px; line-height: 1.5; }
+.switch { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; display: flex; gap: 8px; padding: 10px 0; background: #000; border-bottom: 1px solid var(--rule); margin-bottom: 24px; }
+.switch button { border: 1px solid var(--rule); background: none; color: var(--ink); border-radius: 999px; padding: 8px 16px; font: 600 15px var(--font); cursor: pointer; display: inline-flex; gap: 8px; align-items: center; }
+.switch button i { width: 9px; height: 9px; border-radius: 50%; }
+.switch button[aria-pressed="true"] { background: var(--ink); color: #000; }
+.opt { display: grid; grid-template-columns: minmax(0, 300px) minmax(0, 1fr); gap: 24px; padding: 26px 0; border-bottom: 1px solid var(--rule); align-items: start; }
+@media (max-width: 760px) { .opt { grid-template-columns: 1fr; } }
+.opt .k { font: 700 12px var(--font); letter-spacing: .08em; text-transform: uppercase; color: var(--dim); }
+.opt h2 { font-family: "Times New Roman", Times, serif; font-size: 25px; margin: 6px 0 8px; }
+.opt p { margin: 0; color: var(--dim); font-size: 15px; line-height: 1.5; }
+.opt .mine { display: inline-block; margin-top: 10px; font: 700 12px var(--font); color: #062b1c; background: var(--pick); padding: 4px 10px; border-radius: 999px; }
+.stage { min-width: 0; --c: var(--eco); }
+.stage[data-t="geo"] { --c: var(--geo); } .stage[data-t="fin"] { --c: var(--fin); }
+.hdr { position: relative; border-radius: 22px; overflow: hidden; border: 1px solid var(--rule); background: var(--sea); min-height: 200px; }
+.cap { position: absolute; left: 18px; right: 18px; bottom: 14px; display: flex; justify-content: space-between; align-items: end; text-shadow: 0 1px 10px #000; pointer-events: none; }
+.cap b { font-family: "Times New Roman", Times, serif; font-size: 30px; }
+.cap span { font-size: 13px; opacity: .85; }
+
+/* 1 carte */
+.map svg { display: block; width: 100%; height: auto; }
+.map .l { fill: var(--land); stroke: var(--sea); stroke-width: .3; } .map .on { fill: var(--c); fill-opacity: .55; }
+.map .pt { fill: #fff; } .map .halo { fill: var(--c); opacity: .35; }
+/* 2 emblème */
+.emb { display: grid; grid-template-columns: 170px 1fr; align-items: center; gap: 18px; padding: 22px 22px 60px; background: radial-gradient(120% 120% at 0% 0%, color-mix(in srgb, var(--c) 22%, transparent), transparent 60%), var(--card); }
+.emb svg { width: 170px; height: 150px; }
+.emb .lines { display: grid; gap: 8px; }
+.emb .lines div { font-size: 15px; color: var(--ink); line-height: 1.35; padding-left: 12px; border-left: 2px solid var(--c); }
+@media (max-width: 520px) { .emb { grid-template-columns: 1fr; } .emb svg { width: 120px; height: 106px; } }
+/* 3 tableau de bord */
+.dash { background: var(--card); }
+.dash .cells { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: var(--rule); }
+.dash .cells > div { background: var(--card); padding: 18px 16px 70px; min-width: 0; }
+.dash .v { font: 700 32px/1 "Times New Roman", serif; color: var(--c); }
+.dash .l2 { font-size: 13px; color: var(--dim); margin-top: 8px; line-height: 1.35; }
+.dash .spark { margin-top: 12px; height: 34px; width: 100%; }
+@media (max-width: 520px) { .dash .v { font-size: 24px; } }
+/* 4 une illustrée */
+.une { background: #000; }
+.une .il svg { display: block; width: 100%; height: auto; aspect-ratio: 340/190; }
+.une .shade { position: absolute; inset: 0; background: linear-gradient(transparent 35%, rgba(0,0,0,.92)); }
+.une .t { position: absolute; left: 18px; right: 18px; bottom: 50px; font: 600 18px/1.3 var(--font); }
+.une .tag { position: absolute; right: 16px; top: 14px; font: 700 12px var(--font); letter-spacing: .08em; text-transform: uppercase; background: var(--c); color: #111; padding: 5px 10px; border-radius: 999px; }
+/* 5 globe */
+.glb { display: grid; grid-template-columns: 220px 1fr; align-items: center; gap: 16px; padding: 18px 18px 64px; background: radial-gradient(80% 120% at 20% 50%, color-mix(in srgb, var(--c) 18%, transparent), transparent 70%), #05070d; }
+.glb canvas { width: 220px; height: 220px; display: block; }
+.glb ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 7px; }
+.glb li { font-size: 14px; display: flex; gap: 8px; align-items: baseline; } .glb li b { color: var(--c); font-size: 12px; min-width: 70px; }
+@media (max-width: 560px) { .glb { grid-template-columns: 1fr; justify-items: center; } }
+/* 6 typographie + motif */
+.typo { padding: 26px 22px 60px; background: #07080b; overflow: hidden; }
+.typo .word { font: 900 clamp(48px, 9vw, 96px)/.9 "Times New Roman", serif; letter-spacing: -.03em; color: transparent; -webkit-text-stroke: 1.2px var(--c); position: relative; z-index: 1; }
+.typo .word em { font-style: normal; color: var(--c); -webkit-text-stroke: 0; }
+.typo svg.pat { position: absolute; inset: 0; width: 100%; height: 100%; opacity: .5; }
+.typo .tick { position: absolute; left: 0; right: 0; bottom: 46px; white-space: nowrap; font: 600 13px var(--font); color: var(--c); opacity: .8; animation: tick 30s linear infinite; }
+@keyframes tick { to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .typo .tick { animation: none; } }
+.verdict { margin-top: 34px; max-width: 74ch; font-size: 16px; line-height: 1.55; }
+.verdict h2 { font-family: "Times New Roman", Times, serif; font-size: 26px; margin: 0 0 8px; }
+.verdict p { color: var(--dim); margin: 0 0 10px; } .verdict b { color: var(--ink); }
+</style>
+<div class="board">
+  <h1>Ouvrir un rideau autrement</h1>
+  <p>Six façons d'annoncer « Économie », « Géopolitique » ou « Finance » en haut de chaque rideau. Elles utilisent toutes les vraies actus du 31 octobre. Change de thème avec les boutons : chaque proposition se met à jour.</p>
+  <div class="switch" role="group" aria-label="Thème">
+    <button aria-pressed="true" data-t="eco"><i style="background:var(--eco)"></i>Économie</button>
+    <button aria-pressed="false" data-t="geo"><i style="background:var(--geo)"></i>Géopolitique</button>
+    <button aria-pressed="false" data-t="fin"><i style="background:var(--fin)"></i>Finance</button>
+  </div>
+  <section class="opt"><div><span class="k">1 · Celle d'aujourd'hui</span><h2>La carte du monde</h2><p>Les pays du rideau s'allument, un point pulse sur chaque lieu. Corrigée : plus de traits qui coupent la carte en haut et en bas.</p></div><div class="stage" id="s1"></div></section>
+  <section class="opt"><div><span class="k">2</span><h2>L'emblème dessiné</h2><p>Un dessin propre à chaque thème (courbe et pièces, échiquier et boussole, chandeliers de Bourse) et les trois titres les plus importants du rideau à côté.</p></div><div class="stage" id="s2"></div></section>
+  <section class="opt"><div><span class="k">3</span><h2>Le tableau de bord</h2><p>Trois chiffres clés tirés des actus du rideau, avec une petite courbe : on voit tout de suite ce qui bouge.</p></div><div class="stage" id="s3"></div></section>
+  <section class="opt"><div><span class="k">4</span><h2>La une illustrée</h2><p>L'actu la plus importante du rideau en grand, avec son illustration (graphique, hémicycle, carte…) et le nom du rideau en étiquette.</p><span class="mine">Mon choix</span></div><div class="stage" id="s4"></div></section>
+  <section class="opt"><div><span class="k">5</span><h2>Le petit globe</h2><p>Une Terre qui tourne doucement, ses pays du rideau allumés, et la liste des lieux du jour à côté.</p></div><div class="stage" id="s5"></div></section>
+  <section class="opt"><div><span class="k">6</span><h2>Le mot en grand</h2><p>Le nom du rideau en très grandes lettres sur un motif propre au thème (courbe de prix, lignes de frontières, cours qui défilent), façon couverture de magazine.</p></div><div class="stage" id="s6"></div></section>
+  <section class="verdict">
+    <h2>Ce que j'en pense</h2>
+    <p><b>Je prendrais la 4, la une illustrée</b> : elle montre tout de suite ce qui compte dans le rideau. Et comme l'illustration change avec l'actu, l'en-tête n'est jamais le même d'un jour à l'autre.</p>
+    <p><b>On peut aussi les combiner</b> : la une illustrée en haut, puis la petite carte (1) en bandeau fin juste dessous pour voir où se passent les autres actus. La 2 (l'emblème) est la plus « marque », bien pour reconnaître le rideau au premier coup d'œil.</p>
+  </section>
+</div>
+<script src="data/content.js"></script>
+<script src="data/countries.js"></script>
+<script src="data/news.js"></script>
+<script>
+window.GeocoGlobe = { contains(f, x, y) {
+  const polys = f.geometry.type === "Polygon" ? [f.geometry.coordinates] : f.geometry.coordinates;
+  return polys.some((p) => { let inside = false; const r = p[0]; for (let i = 0, j = r.length - 1; i < r.length; j = i++) { const [xi, yi] = r[i], [xj, yj] = r[j]; if ((yi > y) !== (yj > y) && x < (xj - xi) * (y - yi) / (yj - yi) + xi) inside = !inside; } return inside; });
+} };
+</script>
+<script src="illus.js"></script>
+<script>
+const N = window.GEOCO.news, DAY = N[0].date, FEATS = window.GEOCO_COUNTRIES.features;
+const FIN = /Bourse|banques|raffinerie Dangote/i; // pour l'exemple : pas encore d'actu classée Finance
+const today = N.filter((n) => n.date === DAY && (n.level || 1) < 2).map((n) => Object.assign({}, n, { theme: FIN.test(n.title) ? "fin" : n.theme }));
+const of = (t) => today.filter((n) => n.theme === t || (n.theme === "mix" && t !== "fin"));
+const LABEL = { eco: "Économie", geo: "Géopolitique", fin: "Finance" };
+const COLOR = { eco: "#ff8a3d", geo: "#7d7bff", fin: "#34d399" };
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const lit = (list) => { const pts = list.flatMap((n) => n.geo || []).map((g) => g.coords); return [pts, new Set(FEATS.filter((f) => pts.some(([x, y]) => GeocoGlobe.contains(f, x, y))).map((f) => f.id))]; };
+const cap = (t, list, extra) => `<div class="cap"><b>${LABEL[t]}</b><span>${extra || `${list.length} actus`}</span></div>`;
+
+// 1. Carte (sans traits parasites : on coupe les tracés qui traversent la ligne de changement de date)
+const W = 360, H = 170, X = (lon) => (lon + 180) / 360 * W, Y = (lat) => (78 - Math.max(-58, Math.min(78, lat))) / 136 * H;
+const LAND = FEATS.filter((f) => f.id !== "010").map((f) => [f, (f.geometry.type === "Polygon" ? [f.geometry.coordinates] : f.geometry.coordinates)
+  .map((p) => p[0].map(([x, y], i, r) => (i && Math.abs(x - r[i - 1][0]) > 180 ? "M" : i ? "L" : "M") + X(x).toFixed(1) + "," + Y(y).toFixed(1)).join("")).join("")]);
+function opt1(t) { const l = of(t), [pts, on] = lit(l);
+  return `<div class="hdr map"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Carte ${LABEL[t]}">${LAND.map(([f, d]) => `<path class="l${on.has(f.id) ? " on" : ""}" d="${d}"/>`).join("")}${pts.map(([x, y]) => `<circle class="halo" cx="${X(x)}" cy="${Y(y)}" r="4"/><circle class="pt" cx="${X(x)}" cy="${Y(y)}" r="1.6"/>`).join("")}</svg>${cap(t, l, `${l.length} actus · ${on.size} pays`)}</div>`; }
+
+// 2. Emblème
+const EMB = {
+  eco: (c) => `<svg viewBox="0 0 170 150"><rect x="10" y="118" width="150" height="2" fill="#3a3a40"/>${[[22, 70], [52, 52], [82, 84], [112, 36]].map(([x, h]) => `<rect x="${x}" y="${118 - h}" width="22" height="${h}" rx="3" fill="${c}" opacity=".35"/>`).join("")}<path d="M16 96 L48 80 L78 92 L108 58 L150 30" fill="none" stroke="${c}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M140 26 L152 28 L150 40" fill="none" stroke="${c}" stroke-width="4" stroke-linecap="round"/>${[[132, 112], [146, 106], [158, 112]].map(([x, y]) => `<ellipse cx="${x}" cy="${y}" rx="11" ry="4" fill="#f5c86b"/><rect x="${x - 11}" y="${y - 6}" width="22" height="6" fill="#f5c86b"/><ellipse cx="${x}" cy="${y - 6}" rx="11" ry="4" fill="#ffe2a3"/>`).join("")}</svg>`,
+  geo: (c) => `<svg viewBox="0 0 170 150">${Array.from({ length: 16 }, (_, i) => `<rect x="${20 + (i % 4) * 26}" y="${30 + Math.floor(i / 4) * 26}" width="26" height="26" fill="${(i + Math.floor(i / 4)) % 2 ? "#2a2a33" : "#3a3a48"}"/>`).join("")}<path d="M58 106 v-30 c-8-4-8-16 0-20 c-6-10 14-14 10 0 c8 4 8 16 0 20 v30 z" fill="${c}"/><rect x="52" y="104" width="22" height="6" rx="2" fill="${c}"/><circle cx="132" cy="64" r="28" fill="none" stroke="${c}" stroke-width="3"/><path d="M132 42 L138 64 L132 86 L126 64 Z" fill="${c}"/><circle cx="132" cy="64" r="3" fill="#000"/><text x="132" y="31" fill="${c}" font-size="10" font-weight="700" text-anchor="middle">N</text></svg>`,
+  fin: (c) => { const cs = [[20, 60, 90, 50, 80], [42, 70, 96, 62, 74], [64, 50, 84, 44, 56], [86, 40, 70, 30, 66], [108, 30, 60, 26, 36], [130, 20, 52, 16, 28]];
+    return `<svg viewBox="0 0 170 150"><path d="M10 120 H160" stroke="#3a3a40"/>${cs.map(([x, top, bot, o, cl]) => { const up = cl < o; return `<line x1="${x + 7}" y1="${top}" x2="${x + 7}" y2="${bot}" stroke="${up ? c : "#ff6b6b"}" stroke-width="2"/><rect x="${x}" y="${Math.min(o, cl)}" width="14" height="${Math.max(4, Math.abs(o - cl))}" rx="2" fill="${up ? c : "#ff6b6b"}"/>`; }).join("")}<path d="M20 100 C60 96 90 80 150 40" fill="none" stroke="#f5f5f7" stroke-width="1.5" stroke-dasharray="3 4" opacity=".6"/></svg>`; } };
+function opt2(t) { const l = of(t); return `<div class="hdr emb">${EMB[t](COLOR[t])}<div class="lines">${l.slice(0, 3).map((n) => `<div>${esc(n.title)}</div>`).join("")}</div>${cap(t, l)}</div>`; }
+
+// 3. Tableau de bord : trois chiffres clés du rideau, avec une petite courbe décorative
+function opt3(t) { const l = of(t), figs = l.flatMap((n) => (n.figures || []).map((f) => ({ f, n }))).filter((x) => /\d/.test(x.f.value) && x.f.value.length < 12).slice(0, 3);
+  const spark = (i) => { const p = Array.from({ length: 12 }, (_, k) => 20 - 12 * Math.sin((k + i * 3) / 2.3) * (k / 12) - k * (i === 1 ? -0.6 : 0.8)); return `<svg class="spark" viewBox="0 0 120 34" preserveAspectRatio="none"><polyline points="${p.map((y, k) => `${k * 10.9},${Math.max(3, Math.min(31, y + 8))}`).join(" ")}" fill="none" stroke="${COLOR[t]}" stroke-width="2" vector-effect="non-scaling-stroke"/></svg>`; };
+  return `<div class="hdr dash"><div class="cells">${figs.map((x, i) => `<div><div class="v">${esc(x.f.value)}</div><div class="l2">${esc(x.f.label)}</div>${spark(i)}</div>`).join("")}</div>${cap(t, l)}</div>`; }
+
+// 4. Une illustrée
+function opt4(t) { const l = of(t), n = l[0]; if (!n) return "";
+  return `<div class="hdr une"><div class="il">${GeocoIllus.svg(n)}</div><div class="shade"></div><span class="tag">${LABEL[t]}</span><div class="t">${esc(n.title)}</div>${cap(t, l, l.length > 2 ? `+ ${l.length - 1} autres actus` : l.length === 2 ? "+ 1 autre actu" : "").replace(`<b>${LABEL[t]}</b>`, "<b></b>")}</div>`; }
+
+// 5. Petit globe (canvas, projection orthographique tournante)
+function opt5(t) { const l = of(t); return `<div class="hdr glb"><canvas width="440" height="440" data-t="${t}" aria-label="Globe ${LABEL[t]}"></canvas><ul>${l.slice(0, 6).map((n) => `<li><b>${esc(((n.geo || [])[0] || {}).label || "")}</b>${esc(n.title.length > 70 ? n.title.slice(0, 68) + "…" : n.title)}</li>`).join("")}</ul>${cap(t, l)}</div>`; }
+let spin = 0, raf = 0;
+function drawGlobes() {
+  document.querySelectorAll(".glb canvas").forEach((cv) => {
+    const t = cv.dataset.t, ctx = cv.getContext("2d"), R = 200, cx = 220, cy = 220, [, on] = lit(of(t));
+    const lam0 = (spin * 180 / Math.PI) % 360, phi0 = 20 * Math.PI / 180;
+    const proj = (lon, lat) => { const l = (lon - lam0) * Math.PI / 180, p = lat * Math.PI / 180; const cosc = Math.sin(phi0) * Math.sin(p) + Math.cos(phi0) * Math.cos(p) * Math.cos(l);
+      return [cx + R * Math.cos(p) * Math.sin(l), cy - R * (Math.cos(phi0) * Math.sin(p) - Math.sin(phi0) * Math.cos(p) * Math.cos(l)), cosc > 0]; };
+    ctx.clearRect(0, 0, 440, 440); ctx.fillStyle = "#0b1220"; ctx.beginPath(); ctx.arc(cx, cy, R, 0, 7); ctx.fill();
+    FEATS.forEach((f) => { (f.geometry.type === "Polygon" ? [f.geometry.coordinates] : f.geometry.coordinates).forEach((poly) => {
+      const pts = poly[0].map(([x, y]) => proj(x, y)); if (!pts.some((p) => p[2])) return;
+      ctx.beginPath(); pts.forEach(([x, y, v], i) => (i && v ? ctx.lineTo(x, y) : ctx.moveTo(x, y))); ctx.closePath();
+      ctx.fillStyle = on.has(f.id) ? COLOR[t] : "#262b3a"; ctx.fill(); }); });
+    ctx.strokeStyle = COLOR[t]; ctx.globalAlpha = .4; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(cx, cy, R, 0, 7); ctx.stroke(); ctx.globalAlpha = 1;
+  });
+  if (!matchMedia("(prefers-reduced-motion: reduce)").matches) { spin += 0.004; raf = requestAnimationFrame(drawGlobes); }
+}
+
+// 6. Mot en grand, motif du thème
+const PAT = {
+  eco: (c) => `<svg class="pat" viewBox="0 0 600 220" preserveAspectRatio="none"><path d="M0 170 L60 150 L120 160 L180 120 L240 130 L300 90 L360 100 L420 60 L480 70 L540 30 L600 40" fill="none" stroke="${c}" stroke-width="2"/><path d="M0 170 L60 150 L120 160 L180 120 L240 130 L300 90 L360 100 L420 60 L480 70 L540 30 L600 40 V220 H0Z" fill="${c}" opacity=".12"/></svg>`,
+  geo: (c) => `<svg class="pat" viewBox="0 0 600 220" preserveAspectRatio="none">${Array.from({ length: 9 }, (_, i) => `<path d="M${-40 + i * 70} 0 C${i * 70} 60 ${-60 + i * 70} 120 ${i * 70 + 10} 220" fill="none" stroke="${c}" stroke-width="1.2" stroke-dasharray="${i % 2 ? "6 5" : "0"}"/>`).join("")}</svg>`,
+  fin: () => "" };
+function opt6(t) { const l = of(t), word = LABEL[t];
+  const tick = t === "fin" ? `<div class="tick">${(l.flatMap((n) => (n.figures || []).map((f) => `${f.label.slice(0, 26)} ${f.value}`)).join("   ·   ") + "   ·   ").repeat(4)}</div>` : "";
+  return `<div class="hdr typo">${PAT[t](COLOR[t])}<div class="word">${esc(word.slice(0, -1))}<em>${esc(word.slice(-1))}</em></div>${tick}${cap(t, l).replace(`<b>${word}</b>`, "<b></b>")}</div>`; }
+
+const OPTS = [opt1, opt2, opt3, opt4, opt5, opt6];
+function render(t) {
+  OPTS.forEach((fn, i) => { const el = document.getElementById("s" + (i + 1)); el.dataset.t = t; el.innerHTML = fn(t); });
+  cancelAnimationFrame(raf); drawGlobes();
+}
+document.querySelectorAll(".switch button").forEach((b) => b.onclick = () => { document.querySelectorAll(".switch button").forEach((x) => x.setAttribute("aria-pressed", x === b)); render(b.dataset.t); });
+render("eco");
+</script>

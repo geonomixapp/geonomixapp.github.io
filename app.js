@@ -1198,8 +1198,8 @@
   function curtainCover(list, t) {
     if (!window.GEOCO_COUNTRIES || !window.GeocoGlobe) return "";
     const W = 360, H = 170, X = (lon) => (lon + 180) / 360 * W, Y = (lat) => (78 - Math.max(-58, Math.min(78, lat))) / 136 * H;
-    curtainCover.land = curtainCover.land || window.GEOCO_COUNTRIES.features.filter((f) => f.id !== "010").map((f) => [f,
-      (f.geometry.type === "Polygon" ? [f.geometry.coordinates] : f.geometry.coordinates).map((p) => "M" + p[0].map(([x, y]) => `${X(x).toFixed(1)},${Y(y).toFixed(1)}`).join("L") + "Z").join("")]);
+    curtainCover.land = curtainCover.land || window.GEOCO_COUNTRIES.features.filter((f) => f.id !== "010" && f.id !== "AQ" && !/antarct/i.test(f.properties.name || "")).map((f) => [f,
+      (f.geometry.type === "Polygon" ? [f.geometry.coordinates] : f.geometry.coordinates).map((p) => p[0].map(([x, y], i, r) => (i && Math.abs(x - r[i - 1][0]) > 180 ? "M" : i ? "L" : "M") + `${X(x).toFixed(1)},${Y(y).toFixed(1)}`).join("")).join("")]);
     const pts = list.flatMap((n) => n.geo || []).map((g) => g.coords).filter(Boolean);
     const lit = new Set(curtainCover.land.filter(([f]) => pts.some(([x, y]) => window.GeocoGlobe.contains(f, x, y))).map(([f]) => f.id));
     const label = CURTAINS.find((c) => c[0] === t)[1];
