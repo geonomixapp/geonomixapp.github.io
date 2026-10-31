@@ -30,7 +30,7 @@ L'appli classe les actus selon la zone du lecteur (deviné d'après son fuseau h
 Vu de loin, le globe montre les actus principales ; quand on zoome sur une région (l'Europe par exemple), des **brèves** apparaissent en plus, avec un point plus discret. Chaque jour, en plus des actus principales, **6 à 10 brèves** (`level: 2`) :
 
 - d'abord les **grands pays qui n'ont pas eu d'actu** depuis quelques jours : Allemagne, Espagne, Italie, Portugal, Pays-Bas, Pologne, Suisse, Japon, Corée du Sud, Inde, Brésil, Mexique, Argentine, Canada, Australie… ;
-- une brève = un fait du jour ou de la veille, court : titre, résumé, 2 ou 3 points, 1 ou 2 paragraphes `why`, `forMe`, 1 ou 2 chiffres ; **mêmes règles de sources** (au moins 2) ;
+- une brève = un fait du jour ou de la veille, plus courte (150 à 250 mots) mais tout aussi précise : titre, résumé, 3 ou 4 points, 2 paragraphes `why`, `forMe`, 1 ou 2 chiffres ; **mêmes règles de sources** (au moins 2) ;
 - elles passent après les actus principales dans les listes.
 
 ## À venir : les dates qui comptent (demande de l'auteur, 31 oct. 2026)
@@ -43,6 +43,22 @@ Le lecteur doit voir loin : ce qui va se passer demain, dans la semaine, dans le
 - Traduire `title`, `why` (et `verify`) en anglais et en espagnol comme les actus (clés `agenda.<id>.…`).
 
 Et sur chaque actu, quand une suite est connue : le champ **`next`** (« Et après ? ») : `[{ when: "5 novembre", what: "La Banque d'Angleterre décide de son taux [3]." }]`, la prochaine étape datée (vote, sommet, échéance, décision attendue). Toujours sourcé.
+
+## Des actus longues et précises (demande de l'auteur, 31 oct. 2026 : « plus de mots et surtout de spécificité »)
+
+Une actu n'est pas une dépêche de trois lignes : le lecteur doit en savoir assez pour l'expliquer à quelqu'un.
+
+- **Longueur** : une actu principale fait **350 à 550 mots** (`summary` + `points` + `why` + `forMe`), sans compter « Pour aller plus loin » ; une brève (`level: 2`) 150 à 250 mots. `check-content` avertit sous 300 mots (120 pour une brève).
+- **Spécificité, dans chaque actu** :
+  - **qui** : les noms et les fonctions (« Roland Lescure, ministre de l'Économie », pas « le gouvernement ») ; le nom de l'entreprise, de l'institution, du parti ;
+  - **combien** : les chiffres exacts avec leur unité et leur période, et un point de comparaison (avant, ailleurs, ce qui était attendu, le record) ;
+  - **quand et où** : la date du fait, la ville, le lieu précis ;
+  - **comment** : le mécanisme, l'enchaînement des causes, ce qui a déclenché le fait ;
+  - **ce qu'ils disent** : une ou deux déclarations attribuées (citation courte entre guillemets, traduite, sourcée), si possible des deux camps ;
+  - **le contexte** : ce qui s'est passé avant (dates), les chiffres de fond (part du PIB, population touchée, poids dans le monde) ;
+  - **la suite** : `next`, l'échéance datée.
+- Pas de remplissage : chaque phrase apporte un fait, un chiffre ou une explication. Mieux vaut chercher un détail précis de plus (deuxième, troisième recherche) qu'allonger avec des généralités.
+- Il faut donc **plus de sources** : 3 à 5 par actu principale, dont au moins une officielle ou une agence quand elle existe.
 
 ## Des faits marquants, pas des statistiques (le plus important après la fiabilité)
 
@@ -97,10 +113,10 @@ Copier une actu existante de `data/news.js` et remplir :
 - `theme` : `eco`, `geo`, `fin` (finance : entreprises, Bourse, marchés) ou `mix` (éco + géo)
 - `region` : `Europe`, `Amériques`, `Moyen-Orient`, `Afrique` ou `Asie`
 - `title` : titre clair, sans jargon
-- `summary` : une ou deux phrases
+- `summary` : deux ou trois phrases (40 à 60 mots) qui disent qui, quoi, où, combien
 - `geo` : `[{ name: "Nom complet", label: "Pays", coords: [longitude, latitude] }]` (le point sur le globe)
-- `points` : 3 phrases « ce qui s'est passé », avec sources
-- `why` : 1 à 3 paragraphes « pourquoi c'est important », la première phrase doit se lire seule
+- `points` : 5 à 7 phrases « ce qui s'est passé », avec sources (voir « Des actus longues et précises »)
+- `why` : 3 ou 4 paragraphes « pourquoi c'est important », la première phrase doit se lire seule
 - `forMe` : « Et moi, dans tout ça ? », l'impact concret pour un lecteur français
 - `figures` : 2 ou 3 chiffres clés avec `src`
 - `dossiers` : les cours liés (ids de `data/content.js`)

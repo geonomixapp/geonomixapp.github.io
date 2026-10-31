@@ -72,6 +72,12 @@ news.forEach((n, i) => {
   (n.zones || []).forEach((z) => { if (!ZONES.includes(z)) err(w, `zone inconnue « ${z} »`); });
   if (n.impact != null && n.impact !== "monde") err(w, `impact : seulement "monde"`);
   if (n.level != null && n.level !== 2) err(w, "level : seulement 2 (brève)");
+  // Des actus longues et précises (demande de l'auteur, 31 oct. 2026) : 350-550 mots, 150-250 pour une brève.
+  if (n.date >= "2026-10-31") {
+    const words = [n.summary, ...(n.points || []), ...(n.why || []), n.forMe].join(" ").replace(/\[\d+\]/g, "").split(/\s+/).filter(Boolean).length;
+    const min = n.level === 2 ? 120 : 300;
+    if (words < min) warn.push(`${w} : actu trop courte (${words} mots, au moins ${min} ; voir « Des actus longues et précises »)`);
+  }
   if (n.next) [].concat(n.next).forEach((x) => { if (!x.when || !x.what) err(w, "next : when et what obligatoires"); checkCites(w + " (après)", x.what, n.sources); });
   // « Ça s'est déjà passé » : chaque précédent est daté et sourcé.
   if (n.past) {
