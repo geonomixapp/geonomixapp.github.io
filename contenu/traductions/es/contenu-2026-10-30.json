@@ -69,11 +69,10 @@
  "news.2026-10-30-ormuz-petrole-114-shell-pas-temporaire.points.1": "El director ejecutivo de Shell, Wael Sawan, dijo que los precios ya no parecen temporales, porque las reservas mundiales son muy bajas [1][3]. Europa prometió liberar 42 millones de barriles de sus reservas en tres meses [1][3].",
  "news.2026-10-30-ormuz-petrole-114-shell-pas-temporaire.points.2": "Irán dice esperar lanzar en menos de una semana un plan de siete días para despejar el estrecho, pero según el Wall Street Journal un alto mando presentó a Donald Trump opciones militares, y este podría retomar los ataques tras las elecciones de mitad de mandato de Estados Unidos, la semana próxima [1][2]. Además, un petrolero fue alcanzado por un objeto no identificado al salir del estrecho [1][3].",
  "news.2026-10-30-ormuz-petrole-114-shell-pas-temporaire.why.0": "Para recordar: mientras el estrecho siga bloqueado, el precio no baja, y hasta una buena noticia diplomática se borra pronto por el riesgo de que se reanuden los ataques [1][2].",
- "news.2026-10-30-ormuz-petrole-114-shell-pas-temporaire.why.1": "El seguimiento del tráfico indica solo 2 pasos el 25 de octubre, frente a 85 diarios antes de la crisis [3]. Las cifras de precios varían según el contrato y la hora; los órdenes de magnitud coinciden.",
+ "news.2026-10-30-ormuz-petrole-114-shell-pas-temporaire.why.1": "El seguimiento del tráfico indica solo 2 pasos el 25 de octubre, frente a 85 al día antes de la crisis [3].",
  "news.2026-10-30-ormuz-petrole-114-shell-pas-temporaire.forMe": "Si el petróleo se mantiene en este nivel, la gasolina y el gasóleo pesarán más tiempo en tu presupuesto [1][3].",
  "news.2026-10-30-ormuz-petrole-114-shell-pas-temporaire.figures.0.label": "el barril de Brent, cierre del 29 de octubre",
  "news.2026-10-30-ormuz-petrole-114-shell-pas-temporaire.figures.1.label": "de subida del Brent en octubre, cuarto mes al alza",
  "news.2026-10-30-ormuz-petrole-114-shell-pas-temporaire.figures.2.value": "2 pasos",
- "news.2026-10-30-ormuz-petrole-114-shell-pas-temporaire.figures.2.label": "por el estrecho el 25 de octubre, frente a 85 diarios antes de la crisis",
- "news.2026-10-30-ormuz-petrole-114-shell-pas-temporaire.verify": "Los precios y los detalles de los incidentes difieren un poco según la fuente (contrato, hora); algunos artículos se apoyan en medios iraneses no verificados."
+ "news.2026-10-30-ormuz-petrole-114-shell-pas-temporaire.figures.2.label": "por el estrecho el 25 de octubre, frente a 85 diarios antes de la crisis"
 }

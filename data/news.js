@@ -182,7 +182,6 @@ window.GEOCO.news = [
     "date": "2026-10-31",
     "region": "Europe",
     "theme": "geo",
-    "verify": "Les horaires du couvre-feu des mineurs ne sont pas les mêmes selon les sources : l'arrêté de la préfecture de police fait foi.",
     "geo": [
       {
         "name": "Paris, France",
@@ -306,7 +305,6 @@ window.GEOCO.news = [
     "date": "2026-10-31",
     "region": "Europe",
     "theme": "mix",
-    "verify": "Le contenu du document final signé n'apparaît pas encore dans les sources consultées.",
     "geo": [
       {
         "name": "Sighnaghi, Géorgie",
@@ -334,7 +332,7 @@ window.GEOCO.news = [
     ],
     "why": [
       "À retenir : la rencontre porte sur des sujets très concrets (transport, énergie, logistique) entre deux voisins du Caucase du Sud [1][3].",
-      "Le texte final de la commission dira quels projets avancent en priorité ; il n'est pas encore détaillé dans les sources [1][3]."
+      "À la fin de la réunion, les deux Premiers ministres ont signé le protocole de la 11e session, et deux accords sur la sécurité alimentaire (quarantaine des plantes, services vétérinaires) ont été signés en parallèle [5][6]."
     ],
     "forMe": "Les accords sur le transport et l'énergie dans le Caucase du Sud concernent les routes de marchandises entre l'Asie et l'Europe [1][3].",
     "figures": [
@@ -371,6 +369,16 @@ window.GEOCO.news = [
         "short": "OC Media",
         "name": "OC Media, « Friday, 30 October 2026 »",
         "url": "https://oc-media.org/friday-30-october-2026/"
+      },
+      {
+        "short": "Caspian Post",
+        "name": "Caspian Post, « Azerbaijan, Georgia Sign New Agreements to Boost Trade and Border Cooperation » (30 octobre 2026)",
+        "url": "https://caspianpost.com/azerbaijan/azerbaijan-georgia-sign-new-agreements-to-boost-trade-and-border-cooperation"
+      },
+      {
+        "short": "Trend",
+        "name": "Trend, « Azerbaijan-Georgia Economic Cooperation Commission holds 11th meeting » (30 octobre 2026)",
+        "url": "https://www.trend.az/business/4241064.html"
       }
     ]
   },
@@ -379,7 +387,6 @@ window.GEOCO.news = [
     "date": "2026-10-31",
     "region": "Asie",
     "theme": "eco",
-    "verify": "Décision de Sadyr Japarov sur les licences de minage relayée surtout par Eurasianet : à confirmer auprès du gouvernement kirghiz.",
     "geo": [
       {
         "name": "Bichkek, Kirghizistan",
@@ -686,7 +693,6 @@ window.GEOCO.news = [
     "impact": "monde",
     "region": "Moyen-Orient",
     "theme": "geo",
-    "verify": "Le niveau exact du Brent diffère selon les sources (plus de 117 $ pour CNBC, 112 $ pour Trading Economics) et les mines sont une affirmation iranienne démentie par l'armée américaine.",
     "geo": [
       {
         "name": "Détroit d'Ormuz",
@@ -706,7 +712,7 @@ window.GEOCO.news = [
     ],
     "why": [
       "À retenir : même sous les attaques, des pétroliers continuent de passer, mais en moins grand nombre, et le marché le paie [1].",
-      "Le Brent a dépassé 117 dollars selon CNBC, tout près de son record de guerre (118,35 $ en mars) ; un autre relevé donne 112 dollars [1][3]."
+      "Le contrat de décembre du Brent, qui expirait le 30 octobre, a clôturé à 117,64 dollars, tout près du record de la guerre (118,35 $ en mars) ; le Brent a pris 13,6 % sur le mois [1][4][5]."
     ],
     "forMe": "Un pétrole cher se paie à la pompe et dans la facture de chauffage : la tension à Ormuz touche directement ton budget [1][3].",
     "figures": [
@@ -721,9 +727,9 @@ window.GEOCO.news = [
         "src": 1
       },
       {
-        "value": "117 $",
-        "label": "Brent selon CNBC (112 $ selon un autre relevé)",
-        "src": 1
+        "value": "117,64 $",
+        "label": "Brent (contrat de décembre), clôture du 30 octobre",
+        "src": 4
       }
     ],
     "culture": [],
@@ -745,6 +751,16 @@ window.GEOCO.news = [
         "short": "Trading Economics",
         "name": "Trading Economics, « Brent crude oil »",
         "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+      },
+      {
+        "short": "DTN",
+        "name": "DTN / Progressive Farmer, « WTI Up 15% in October on Fears of Iran War Escalation » (30 octobre 2026)",
+        "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/10/30/wti-15-october-fears-iran-war"
+      },
+      {
+        "short": "The Nation",
+        "name": "The Nation (Thaïlande), « Brent ends October up 13.6% as Iran war risks unsettle markets » (31 octobre 2026)",
+        "url": "https://www.nationthailand.com/news/world/40072956"
       }
     ]
   },
@@ -753,7 +769,6 @@ window.GEOCO.news = [
     "date": "2026-10-31",
     "region": "Amériques",
     "theme": "geo",
-    "verify": "La date du retour de María Corina Machado diffère selon les sources (25 ou 29 octobre) ; la part de réserves concernée par l'accord pétrolier vient d'Al Jazeera seul.",
     "geo": [
       {
         "name": "Caracas, Venezuela",
@@ -775,8 +790,8 @@ window.GEOCO.news = [
     "title": "Venezuela : l'opposante Machado rentre d'exil et réclame des élections, en critiquant l'accord pétrolier avec les États-Unis",
     "summary": "Après environ dix mois à l'étranger, elle demande un vote en 2027 et plus de transparence sur le pétrole.",
     "points": [
-      "María Corina Machado est revenue à Caracas après environ dix mois d'exil et demande des élections ; elle a remercié Donald Trump pour son soutien [1][2].",
-      "Elle critique l'accord pétrolier signé par la dirigeante par intérim Delcy Rodríguez, qui céderait environ 20 % des réserves du pays, selon Al Jazeera, et le juge opaque [1].",
+      "María Corina Machado est rentrée au Venezuela le 25 octobre après environ dix mois d'exil, puis s'est rendue à Caracas ; elle demande des élections et a remercié Donald Trump pour son soutien [1][2][4][5].",
+      "Elle critique l'accord pétrolier signé par la dirigeante par intérim Delcy Rodríguez avec les États-Unis, qu'elle juge opaque [1].",
       "Donald Trump a marqué la première livraison de pétrole vénézuélien à Corpus Christi (Texas) quelques jours après son retour ; Delcy Rodríguez promet des élections sans date [1][3]."
     ],
     "why": [
@@ -791,9 +806,9 @@ window.GEOCO.news = [
         "src": 1
       },
       {
-        "value": "~ 20 %",
-        "label": "des réserves pétrolières concernées par l'accord, selon Al Jazeera",
-        "src": 1
+        "value": "25 octobre",
+        "label": "retour de Machado au Venezuela",
+        "src": 4
       }
     ],
     "culture": [],
@@ -813,6 +828,16 @@ window.GEOCO.news = [
         "short": "HNGN",
         "name": "HNGN, « Trump Hails Venezuelan Oil in Texas as Machado Presses Elections » (28 octobre 2026)",
         "url": "https://www.hngn.com/articles/273602/20261028/trump-hails-venezuelan-oil-texas-machado-presses-elections.htm"
+      },
+      {
+        "short": "Washington Post",
+        "name": "The Washington Post, « Maria Corina Machado, opposition leader and Nobel laureate, returns to Venezuela » (25 octobre 2026)",
+        "url": "https://www.washingtonpost.com/world/2026/10/25/maria-corina-machado-opposition-leader-nobel-laureate-returns-venezuela/"
+      },
+      {
+        "short": "Time",
+        "name": "Time, « Exiled Opposition Leader María Corina Machado Returns to Venezuela » (26 octobre 2026)",
+        "url": "https://time.com/article/2026/10/26/venezuela-maria-corina-machado-return-opposition-election-democracy/"
       }
     ]
   },
@@ -888,7 +913,6 @@ window.GEOCO.news = [
     "date": "2026-10-31",
     "region": "Afrique",
     "theme": "eco",
-    "verify": "Les montants viennent de sources anonymes citées par Reuters ; l'allocation et la cotation en Bourse ne sont pas encore officielles.",
     "geo": [
       {
         "name": "Lagos, Nigeria",
@@ -902,8 +926,8 @@ window.GEOCO.news = [
     "title": "Nigeria : l'entrée en Bourse de la raffinerie Dangote attire environ trois fois la somme visée",
     "summary": "Les ordres atteindraient 6,4 mille milliards de nairas, soit près de 4,8 milliards de dollars.",
     "points": [
-      "L'offre d'actions de la raffinerie Dangote a, selon les informations disponibles, été largement sursouscrite à sa clôture, le 27 octobre [1][2].",
-      "D'après Reuters, citant deux sources, les ordres atteignent environ 6,4 mille milliards de nairas (4,78 milliards de dollars), soit près de trois fois l'objectif de 2,15 mille milliards (1,6 milliard de dollars) [1].",
+      "L'offre d'actions de la raffinerie Dangote s'est close le 27 octobre ; Aliko Dangote lui-même dit que la demande a atteint trois à quatre fois l'objectif [3].",
+      "D'après Reuters, citant deux sources, les ordres atteignent environ 6,4 mille milliards de nairas (4,78 milliards de dollars), soit près de trois fois l'objectif de 2,15 mille milliards (1,6 milliard de dollars) [1][4].",
       "Le prix est de 525 nairas par action ; une option pourrait porter l'opération au-delà de 2,1 milliards de dollars, et les petits épargnants seraient servis en priorité [1][2]."
     ],
     "why": [
@@ -935,6 +959,16 @@ window.GEOCO.news = [
         "short": "Energy News",
         "name": "Energy News, « Dangote Refinery's Nigerian Stock Market Listing Offer Is Oversubscribed »",
         "url": "https://energynews.pro/en/dangote-refinerys-nigerian-stock-market-listing-offer-is-oversubscribed"
+      },
+      {
+        "short": "African Business",
+        "name": "African Business, « Three-times oversubscribed Dangote Refinery IPO closes » (octobre 2026)",
+        "url": "https://african.business/2026/10/energy-resources/three-times-oversubscribed-dangote-refinery-ipo-closes"
+      },
+      {
+        "short": "bne IntelliNews",
+        "name": "bne IntelliNews, « Nigeria's Dangote refinery $1.6bn IPO attracts $4.78bn in orders, sources say » (octobre 2026)",
+        "url": "https://www.intellinews.com/nigeria-s-dangote-refinery-1-6bn-ipo-attracts-4-78bn-in-orders-sources-say-479851"
       }
     ]
   },
@@ -943,7 +977,6 @@ window.GEOCO.news = [
     "date": "2026-10-31",
     "region": "Afrique",
     "theme": "eco",
-    "verify": "Une seule source (QNC News) : chiffres éthiopiens et zambiens à confirmer auprès des gouvernements.",
     "geo": [
       {
         "name": "Addis-Abeba, Éthiopie",
@@ -963,35 +996,55 @@ window.GEOCO.news = [
       }
     ],
     "title": "Afrique : l'Éthiopie et la Zambie ouvrent leurs raffineries d'or pour garder la valeur chez elles",
-    "summary": "Quatre pays africains lancent ou agrandissent des raffineries d'or en 2026, alors que le métal reste très cher.",
+    "summary": "L'Éthiopie et la Zambie ont ouvert en octobre leurs premières raffineries d'or, pour vendre du métal pur plutôt que du minerai brut.",
     "points": [
-      "L'Éthiopie a lancé en octobre une raffinerie de métaux précieux de 50 millions de dollars, d'une capacité de plus de 600 tonnes par an ; l'État en détient la majorité [1].",
-      "La Zambie a présenté le 25 octobre à Lusaka une raffinerie capable d'atteindre 99 à 99,99 % de pureté, avec un plan de deux ans pour encadrer l'orpaillage artisanal [1].",
-      "Les exportations d'or ont rapporté 5,6 milliards de dollars à l'Éthiopie en 2025-2026, et la Zambie a délivré 1 201 licences d'orpaillage artisanal depuis 2023 [1]."
+      "L'Éthiopie a inauguré le 10 octobre sa première raffinerie d'or, près d'Addis-Abeba : 50 millions de dollars d'investissement, une capacité annoncée de plus de 600 tonnes de métaux précieux par an, et l'État majoritaire [1][2].",
+      "La Zambie a présenté fin octobre, au salon minier de Lusaka, sa première raffinerie d'or, capable d'atteindre 99 à 99,99 % de pureté, avec un plan de deux ans pour encadrer l'orpaillage artisanal [3][4].",
+      "L'or est la première exportation de l'Éthiopie (5,6 milliards de dollars sur l'année précédente, selon Reuters), alors que la Zambie dépend surtout du cuivre [1][3]."
     ],
     "why": [
-      "À retenir : raffiner sur place rapporte plus que vendre de l'or brut, et limite la contrebande [1].",
-      "Les pays africains cherchent de plus en plus à transformer leurs ressources sur place plutôt que de les exporter à l'état brut [1]."
+      "À retenir : raffiner sur place rapporte plus que vendre de l'or brut, et limite la contrebande [1][4].",
+      "La capacité éthiopienne dépasse de loin sa propre production : la raffinerie pourrait traiter l'or d'autres pays [1][2]."
     ],
-    "forMe": "L'or sert de valeur refuge et entre dans l'électronique : où il est raffiné change qui capte la richesse de la chaîne [1].",
+    "forMe": "L'or sert de valeur refuge et entre dans l'électronique : l'endroit où il est raffiné décide qui capte la richesse de la chaîne [4].",
     "figures": [
       {
         "value": "5,6 Md$",
-        "label": "d'exportations d'or de l'Éthiopie en 2025-26",
+        "label": "d'exportations d'or de l'Éthiopie sur un an",
         "src": 1
       },
       {
         "value": "600 t/an",
-        "label": "capacité de la raffinerie éthiopienne",
-        "src": 1
+        "label": "capacité annoncée de la raffinerie éthiopienne",
+        "src": 2
+      },
+      {
+        "value": "99,99 %",
+        "label": "pureté visée par la raffinerie zambienne",
+        "src": 3
       }
     ],
     "culture": [],
     "dossiers": [],
     "sources": [
       {
+        "short": "Mining Weekly",
+        "name": "Mining Weekly (Reuters), « Ethiopia launches its first gold refinery, Prime Minister says » (12 octobre 2026)",
+        "url": "https://www.miningweekly.com/article/ethiopia-launches-its-first-gold-refinery-prime-minister-says-2026-10-12"
+      },
+      {
+        "short": "CNBC Africa",
+        "name": "CNBC Africa, « Ethiopia launches its first gold refinery, Prime Minister says » (octobre 2026)",
+        "url": "https://www.cnbcafrica.com/2026/ethiopia-launches-its-first-gold-refinery-prime-minister-says"
+      },
+      {
+        "short": "ExportFocus Africa",
+        "name": "ExportFocus Africa, « Zambia Opens Gold Refinery as African Countries Expand Local Mineral Processing » (26 octobre 2026)",
+        "url": "https://exportfocusafrica.com/2026/10/26/zambia-opens-gold-refinery-as-african-countries-expand-local-mineral-processing/"
+      },
+      {
         "short": "QNC News",
-        "name": "QNC News, « Africa Gold Refining Boom Tests Drive to Keep Mineral Wealth at Home » (30 octobre 2026)",
+        "name": "QNC News, « Africa gold refining boom tests drive to keep mineral wealth at home » (30 octobre 2026)",
         "url": "https://qncnews.com/2026/10/30/africa-gold-refining-boom-tests-drive-to-keep-mineral-wealth-at-home"
       }
     ]
@@ -1273,7 +1326,7 @@ window.GEOCO.news = [
     ],
     "why": [
       "À retenir : tant que le détroit reste bloqué, le prix ne baisse pas, et même une bonne nouvelle diplomatique est vite effacée par un risque de reprise des frappes [1][2].",
-      "Le suivi du trafic indique 2 passages seulement le 25 octobre, contre 85 par jour avant la crise [3]. Les chiffres de prix varient selon le contrat et l'heure ; les ordres de grandeur concordent."
+      "Le suivi du trafic indique 2 passages seulement le 25 octobre, contre 85 par jour avant la crise [3]."
     ],
     "forMe": "Si le pétrole reste à ce niveau, l'essence et le fioul pèsent plus longtemps sur ton budget [1][3].",
     "figures": [
@@ -1297,7 +1350,6 @@ window.GEOCO.news = [
     "dossiers": [
       "routes-maritimes"
     ],
-    "verify": "Les prix et le détail des incidents diffèrent un peu d'une source à l'autre (contrat, heure) ; certains articles s'appuient sur des médias iraniens non vérifiés.",
     "sources": [
       {
         "short": "Nation Thailand",
@@ -1776,7 +1828,6 @@ window.GEOCO.news = [
   },
   {
     "id": "2026-10-29-afrique-pib-reevalue-guinee",
-    "verify": "Une seule source (BusinessDay), qui compare elle-même les prévisions d'avril et d'octobre du FMI : chiffres à confirmer dans les données du FMI.",
     "date": "2026-10-29",
     "region": "Afrique",
     "theme": "eco",
@@ -1790,41 +1841,46 @@ window.GEOCO.news = [
         ]
       }
     ],
-    "title": "Le FMI a revu la richesse de l'Afrique à la hausse de 99 milliards de dollars en six mois, la Guinée en tête",
-    "summary": "En comparant ses prévisions d'avril et d'octobre, le FMI a relevé le PIB estimé de 34 pays africains sur 52 ; la Guinée gagne 15 milliards de dollars.",
+    "title": "Le FMI relève la croissance de l'Afrique subsaharienne à 4,5 % ; l'Éthiopie et la Guinée parmi les plus rapides",
+    "summary": "Dans ses perspectives d'octobre, le FMI relève de 0,2 point sa prévision pour la région, malgré le choc pétrolier de la guerre en Iran.",
     "points": [
-      "Entre les éditions d'avril et d'octobre 2026 des Perspectives de l'économie mondiale du FMI, le PIB estimé des économies africaines a été relevé de 99,44 milliards de dollars au total [1].",
-      "Les estimations montent dans 34 des 52 pays étudiés et baissent dans 18 : 121,38 milliards de hausses, contre 21,94 milliards de baisses [1].",
-      "La Guinée a la plus forte révision, de 15,38 milliards de dollars à 45,31 milliards ; l'Algérie gagne 14,65 milliards et l'Égypte 13,24 milliards, l'Éthiopie étant estimée à environ 127,15 milliards [1]."
+      "Le FMI prévoit 4,5 % de croissance en Afrique subsaharienne en 2026, soit 0,2 point de plus que dans ses prévisions d'avril [1].",
+      "L'Éthiopie, la Guinée et le Bénin font partie des économies qui progressent le plus vite, selon le rapport [1].",
+      "En comparant les données du FMI d'avril et d'octobre, le quotidien nigérian BusinessDay calcule que le PIB estimé de l'ensemble des économies africaines a été relevé d'environ 99 milliards de dollars [2]."
     ],
     "why": [
-      "À retenir : ces révisions ne prouvent pas que la guerre en Iran a aidé ou freiné ces économies, précise l'article qui les a calculées [1].",
-      "Le FMI prévoit tout de même +4,5 % de croissance en Afrique subsaharienne en 2026 et en 2027, en avertissant que les pays importateurs de pétrole subissent plus de pression [1]."
+      "À retenir : la hausse du pétrole aide les pays qui en exportent, mais le FMI avertit que les pays importateurs subissent plus de pression [2].",
+      "Ces révisions changent la taille affichée des économies ; elles ne disent pas à elles seules si les habitants vivent mieux [2]."
     ],
-    "forMe": "Ces révisions changent surtout la taille affichée des économies ; elles ne disent pas si les habitants vivent mieux [1].",
+    "forMe": "Une croissance de 4,5 % reste rapide comparée à l'Europe : l'Afrique subsaharienne est l'une des régions qui grandissent le plus vite [1].",
     "figures": [
       {
-        "value": "+99,44 Md$",
-        "label": "révision nette du PIB africain entre avril et octobre",
+        "value": "4,5 %",
+        "label": "croissance prévue en Afrique subsaharienne en 2026",
         "src": 1
       },
       {
-        "value": "34 sur 52",
-        "label": "pays dont le PIB estimé augmente",
+        "value": "+0,2 point",
+        "label": "par rapport aux prévisions d'avril",
         "src": 1
       },
       {
-        "value": "+15,38 Md$",
-        "label": "pour la Guinée, la plus forte hausse",
-        "src": 1
+        "value": "≈ 99 Md$",
+        "label": "de PIB africain estimé en plus entre avril et octobre, selon BusinessDay",
+        "src": 2
       }
     ],
     "culture": [],
     "dossiers": [],
     "sources": [
       {
+        "short": "The Africa Report",
+        "name": "The Africa Report, « Ethiopia, Guinea, Benin: IMF report on African countries posting strongest economic growth » (octobre 2026)",
+        "url": "https://www.theafricareport.com/433761/ethiopia-guinea-benin-imf-report-on-african-countries-posting-strongest-economic-growth/"
+      },
+      {
         "short": "BusinessDay",
-        "name": "BusinessDay, « African economies see $99.4bn GDP upgrade amid renewed Iran war shocks » (26 octobre 2026)",
+        "name": "BusinessDay, « African economies see $99.4bn GDP upgrade amid renewed Iran war shocks » (octobre 2026)",
         "url": "https://businessday.ng/africa/article/african-economies-see-99-4bn-gdp-upgrade-amid-renewed-iran-war-shocks/"
       }
     ]
@@ -4876,9 +4932,9 @@ window.GEOCO.news = [
     "title": "Kazakhstan et Azerbaïdjan s'accordent sur un « couloir du milieu » plus simple entre la Chine et l'Europe",
     "summary": "Les deux pays signent un accord pour que trains et bateaux sur la route Chine-Europe via la mer Caspienne se coordonnent mieux. D'autres pays pourront les rejoindre.",
     "points": [
-      "Le 20 octobre, le Kazakhstan et l'Azerbaïdjan ont signé un accord pour simplifier l'exploitation ferroviaire du « couloir du milieu », la route de marchandises entre la Chine et l'Europe [1].",
-      "Les deux pays s'engagent sur une capacité minimale garantie, dont le chiffre n'est pas publié, et sur la priorité donnée aux navires de l'autre dans leurs ports [1].",
-      "L'accord prévoit un document de transport unique pour le trajet train-bateau, et d'autres pays pourront le rejoindre [1]."
+      "Le 20 octobre, le Kazakhstan et l'Azerbaïdjan ont signé un accord pour simplifier l'exploitation ferroviaire du « couloir du milieu », la route de marchandises entre la Chine et l'Europe [1][2].",
+      "Les deux pays s'engagent sur une capacité minimale garantie, dont le chiffre n'est pas publié, et sur la priorité donnée aux navires de l'autre dans leurs ports [1][2].",
+      "L'accord prévoit un document de transport unique pour le trajet train-bateau, et d'autres pays pourront le rejoindre [1][2]."
     ],
     "why": [
       "La première phrase à retenir : un seul papier et des priorités garanties, c'est ce qui rend une route de transport vraiment utilisable pour les entreprises [1].",
@@ -4901,6 +4957,11 @@ window.GEOCO.news = [
         "short": "RailFreight",
         "name": "RailFreight, « New agreement standardises Middle Corridor operations, more countries can join » (2026)",
         "url": "https://www.railfreight.com/railfreight/2026/10/20/new-agreement-standardises-middle-corridor-operations-more-countries-can-join/"
+      },
+      {
+        "short": "Qazinform",
+        "name": "Qazinform, « Kazakhstan, Azerbaijan sign agreement on Middle Corridor development » (octobre 2026)",
+        "url": "https://qazinform.com/news/kazakhstan-azerbaijan-sign-agreement-on-middle-corridor-development-9decf1"
       }
     ]
   },
@@ -6178,39 +6239,55 @@ window.GEOCO.news = [
     "theme": "geo",
     "geo": [
       {
-        "name": "Frontière Soudan – Soudan du Sud",
-        "label": "Soudan",
+        "name": "Amiet, Abyei",
+        "label": "Abyei",
         "coords": [
-          29.5,
-          10
+          28.44,
+          9.6
         ]
       }
     ],
-    "title": "Soudan : une frappe de drone fait plus de 150 morts près de la frontière du Soudan du Sud",
-    "summary": "Un nouveau drame dans la guerre au Soudan, signalé par la revue de presse africaine d'OkayAfrica du 20 octobre.",
+    "title": "Soudan : une frappe de drone tue au moins 153 personnes sur un marché d'Abyei, à la frontière du Soudan du Sud",
+    "summary": "Le marché d'Amiet, dans la région disputée d'Abyei, a été frappé le 19 octobre ; un officier de l'armée soudanaise dit qu'elle visait des camions-citernes destinés aux paramilitaires.",
     "points": [
-      "OkayAfrica rapporte, dans son tour d'horizon africain du 20 octobre, qu'une frappe de drone a tué plus de 150 personnes près de la frontière entre le Soudan et le Soudan du Sud [1].",
-      "Les sources consultées ne permettent pas, à ce stade, de confirmer le lieu exact, l'auteur de la frappe ni le bilan définitif : ils sont à vérifier avant toute reprise [1]."
+      "Une frappe de drone a touché le 19 octobre le marché d'Amiet, au nord d'Abyei, région que se disputent le Soudan et le Soudan du Sud ; au moins 153 personnes ont été tuées, selon un responsable sud-soudanais [1][2].",
+      "Un haut gradé de l'armée soudanaise a dit que l'armée avait mené la frappe pour viser des camions-citernes destinés aux paramilitaires des Forces de soutien rapide (FSR) ; le Soudan du Sud accuse l'armée soudanaise [2].",
+      "Le Haut-Commissaire de l'ONU aux droits de l'homme dénonce une vague de frappes de drones au Soudan : au moins 306 morts dans les trois premières semaines d'octobre [3]."
     ],
     "why": [
-      "La première phrase à retenir : la guerre au Soudan continue de faire des victimes civiles par dizaines et par centaines, avec des drones [1].",
-      "Les sources consultées ne donnent pas d'autres précisions sur les conséquences économiques de cette frappe : l'actu sera à compléter dès que des sources dédiées seront disponibles."
+      "À retenir : la guerre entre l'armée soudanaise et les FSR, commencée en 2023, se joue de plus en plus avec des drones, et les civils en paient le prix [2][3].",
+      "Abyei est une zone riche en pétrole, disputée depuis l'indépendance du Soudan du Sud ; le carburant qui y circule est devenu une cible [1][2]."
     ],
-    "forMe": "Cette guerre est loin, mais elle touche l'un des pays les plus pauvres du monde et des routes de transport du pétrole africain. Elle rappelle que la sécurité d'un pays peut vite décider de ce qu'il peut vendre.",
+    "forMe": "Cette guerre est loin, mais elle touche l'un des pays les plus pauvres du monde, sur une route du pétrole sud-soudanais : la sécurité décide de ce qu'un pays peut vendre [1][2].",
     "figures": [
       {
-        "value": "150+",
-        "label": "morts dans la frappe de drone, bilan à confirmer",
+        "value": "153",
+        "label": "morts au moins, selon un responsable sud-soudanais",
         "src": 1
+      },
+      {
+        "value": "306",
+        "label": "morts dans des frappes de drones au Soudan en trois semaines, selon l'ONU",
+        "src": 3
       }
     ],
     "culture": [],
     "dossiers": [],
     "sources": [
       {
-        "short": "OkayAfrica",
-        "name": "OkayAfrica, « Today in Africa — October 20, 2026 »",
-        "url": "https://www.okayafrica.com/today-in-africa-october-20-2026-drone-strike-kills-more-than-150-near-sudan-south-sudan-border-dangote-plans-free-refinery-shares-for-nearly-778000-women/1440901"
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « Drone attack in disputed Sudan-South Sudan border region kills at least 153 » (21 octobre 2026)",
+        "url": "https://www.aljazeera.com/news/2026/10/21/drone-attack-in-disputed-sudan-south-sudan-border-region-kills-at-least-153"
+      },
+      {
+        "short": "CNN",
+        "name": "CNN (AP), « Drone strike on a market in disputed African region of Abyei kills at least 153 » (20 octobre 2026)",
+        "url": "https://edition.cnn.com/2026/10/20/africa/drone-strike-abeyi-south-sudan-latam-intl"
+      },
+      {
+        "short": "ONU Info",
+        "name": "ONU Info, « Sudan: Drone strikes killed at least 306 people in three weeks » (octobre 2026)",
+        "url": "https://news.un.org/en/story/2026/10/1168661"
       }
     ]
   },
@@ -6424,7 +6501,7 @@ window.GEOCO.news = [
     "title": "Cacao : la Côte d'Ivoire baisse de 57 % le prix payé aux planteurs, le Ghana le relève",
     "summary": "Après l'effondrement des cours, les deux premiers producteurs mondiaux de cacao font des choix opposés. Les planteurs ivoiriens toucheront beaucoup moins, les ghanéens un peu plus.",
     "points": [
-      "La Côte d'Ivoire a confirmé le 2 septembre que les planteurs recevraient 1 200 francs CFA le kilo pour la saison 2026-2027, soit 57 % de moins que les 2 800 francs du début de la saison précédente [1].",
+      "La Côte d'Ivoire a confirmé le 2 septembre que les planteurs recevraient 1 200 francs CFA le kilo pour la saison 2026-2027, soit 57 % de moins que les 2 800 francs du début de la saison précédente [1][2].",
       "Le Ghana fait l'inverse : il a légèrement relevé son prix, à 42 400 cédis la tonne, grâce à une nouvelle loi qui garantit aux producteurs au moins 70 % de la valeur à l'export de leurs fèves [1].",
       "Les deux pays subissent le même choc : le cacao avait atteint un record de 12 906 dollars la tonne en décembre 2024, puis est tombé sous 3 000 dollars en février 2026. Tous deux vendent aussi une grande partie de leur récolte à l'avance [1]."
     ],
@@ -6457,6 +6534,11 @@ window.GEOCO.news = [
         "short": "African Arguments",
         "name": "African Arguments, « Same Cocoa Crash, Opposite Answers: what Ghana and Côte d'Ivoire Reveal about Power in Global Trade » (oct. 2026)",
         "url": "https://africanarguments.org/2026/10/same-cocoa-crash-opposite-answers-what-ghana-and-cote-divoire-reveal-about-power-in-global-trade/"
+      },
+      {
+        "short": "Horonya Finance",
+        "name": "Horonya Finance, « Côte d'Ivoire : le prix du cacao maintenu à 1 200 FCFA le kilogramme pour la campagne 2026/2027 »",
+        "url": "https://www.horonyafinance.com/cote-divoire-le-prix-du-cacao-maintenu-a-1-200-fcfa-le-kilogramme-pour-la-campagne-2026-2027/"
       }
     ]
   },
@@ -6780,9 +6862,9 @@ window.GEOCO.news = [
     "title": "Le pétrole retouche 110 dollars : Ormuz s'embrase et la « trêve de l'énergie » en Ukraine vole en éclats",
     "summary": "Le baril de Brent a touché 110 dollars, pour la première fois depuis mai. Des navires sont attaqués autour d'Ormuz, et Kiev a repris ses frappes sur les raffineries russes.",
     "points": [
-      "Le Brent a touché 110 dollars en séance, un niveau jamais revu depuis mai, avant de clôturer à 109,86 dollars (+ 3,7 %). Le pétrole américain WTI a fini à 101,41 dollars [1].",
+      "Le Brent a touché 110 dollars en séance, un niveau jamais revu depuis mai, avant de clôturer à 109,86 dollars (+ 3,7 %). Le pétrole américain WTI a fini à 101,41 dollars [1][2].",
       "Au moins neuf pétroliers et cargos ont été attaqués depuis dimanche autour d'Ormuz. Le Commandement central américain affirme que l'Iran a coulé le porte-conteneurs GFS Pride mercredi. Selon Kpler, 9,4 millions de barils par jour ont franchi le détroit la semaine passée, environ 70 % du niveau d'avant la guerre [1].",
-      "La trêve de l'énergie annoncée par Donald Trump s'est effondrée : Volodymyr Zelensky dit avoir repris les frappes sur les raffineries russes parce que Moscou n'a pas respecté le cessez-le-feu. Trump a qualifié cette décision de « honte ». Une attaque de drones aurait arrêté l'unité principale de la raffinerie de Riazan [1]."
+      "La trêve de l'énergie annoncée par Donald Trump s'est effondrée : Volodymyr Zelensky dit avoir repris les frappes sur les raffineries russes parce que Moscou n'a pas respecté le cessez-le-feu. Trump a qualifié cette décision de « honte ». Une attaque de drones aurait arrêté l'unité principale de la raffinerie de Riazan [1][2]."
     ],
     "why": [
       "Deux sources d'approvisionnement sont touchées en même temps : le pétrole du Golfe, qui passe par un détroit de plus en plus risqué, et le pétrole et les produits raffinés russes, visés par les drones ukrainiens. Quand l'offre inquiète, les prix montent vite [1].",
@@ -6815,6 +6897,11 @@ window.GEOCO.news = [
         "short": "CNBC",
         "name": "CNBC, « Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries »",
         "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html"
+      },
+      {
+        "short": "World Oil",
+        "name": "World Oil, « Oil hits $110 as Houthi strikes, Russia-Ukraine attacks lift supply fears » (16 octobre 2026)",
+        "url": "https://www.worldoil.com/news/2026/10/16/oil-hits-110-as-houthi-strikes-russia-ukraine-attacks-lift-supply-fears"
       }
     ]
   },

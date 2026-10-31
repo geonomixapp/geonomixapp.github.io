@@ -5,9 +5,9 @@ window.GEOCO.lettres = [
     "date": "2026-10-31",
     "file": "lettres/2026-10-31.pdf",
     "titles": [
+      "Le Canada veut devenir le premier « membre associé » de l'Union européenne d'ici juin 2027",
       "La France se contracte au troisième trimestre, alors que la zone euro résiste",
-      "Paris : des couvre-feux le week-end de la Toussaint après les pillages d'octobre",
-      "Pologne : le président fait demi-tour en plein vol pour défendre le chef de la Cour constitutionnelle"
+      "Paris : des couvre-feux le week-end de la Toussaint après les pillages d'octobre"
     ],
     "fileDark": "lettres/2026-10-31-sombre.pdf"
   },

@@ -80,11 +80,10 @@ window.GEOCO.agenda = [
     region: "Europe",
     place: "Paris",
     title: "Budget 2027 : vote de l'Assemblée nationale",
-    why: "Après le débat sur les recettes puis sur les dépenses, les députés doivent voter l'ensemble du budget de l'État et de la Sécurité sociale en première lecture [1] ; le texte doit être adopté avant le 31 décembre, sinon il faut une loi spéciale [1][2].",
-    verify: "Date donnée par un seul site spécialisé ; le calendrier du budget a déjà été décalé une fois.",
+    why: "Après le débat sur les recettes puis sur les dépenses, les députés votent l'ensemble du budget de l'État en première lecture [1][2] ; le texte doit être adopté avant le 31 décembre, sinon il faut une loi spéciale [2].",
     sources: [
-      { short: "France Transactions", name: "France Transactions, « Loi de finances 2027 »", url: "https://www.francetransactions.com/loi-finances-2027" },
-      { short: "Vie publique", name: "Vie publique, « Projet de loi de finances pour 2027 »", url: "https://www.vie-publique.fr/dossierlegislatif/JORFDOLE000054936498" }
+      { short: "Assemblée nationale", name: "Assemblée nationale, « Organisation de la discussion du projet de loi de finances pour 2027 »", url: "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1119828/file/organisation%20PLF%202027.pdf" },
+      { short: "Franceinfo", name: "Franceinfo, « Où en sont les débats sur le PLF et le PLFSS 2027 ? »", url: "https://www.franceinfo.fr/economie/budget/ou-en-sont-les-debats-sur-le-plf-et-le-plfss-2027-suivez-les-etapes-de-l-examen-du-budget-a-l-assemblee-et-au-senat_8254234.html" }
     ]
   },
   {
@@ -108,10 +107,10 @@ window.GEOCO.agenda = [
     region: "Moyen-Orient",
     place: "Vienne",
     title: "Grande réunion de l'OPEP+ sur la production de 2027",
-    why: "La réunion de fin d'année de l'OPEP+ fixe les grandes lignes de la production de l'année suivante [1]. C'est elle qui donne le ton du prix du pétrole pour l'hiver.",
-    verify: "Date annoncée en août par une seule source ; pas encore confirmée par l'OPEP.",
+    why: "La 42e réunion ministérielle de l'OPEP et de ses alliés est fixée au 29 novembre [1][2] ; c'est elle qui fixe les grandes lignes de la production de l'année suivante, et donne le ton du prix du pétrole pour l'hiver.",
     sources: [
-      { short: "Bernama", name: "Bernama, août 2026", url: "https://www.bernama.com/en/news.php?id=2589332" }
+      { short: "OPEP", name: "OPEP, communiqué de la 41e réunion ministérielle (7 juin 2026)", url: "https://www.opec.org/pr-detail/605-7-june-2026.html" },
+      { short: "Arab News", name: "Arab News, « OPEC+ agrees to keep November oil output targets steady » (octobre 2026)", url: "https://www.arabnews.com/business/opec-agrees-to-keep-november-oil-output-targets-steady-3004571" }
     ]
   },
   {

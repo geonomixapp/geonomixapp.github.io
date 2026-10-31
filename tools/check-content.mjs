@@ -222,6 +222,10 @@ focus.forEach((f) => {
 });
 
 const today = news.length ? news[0].date : "—";
+// « Source à vérifier » : au plus une par jour (on est un journal : on cherche les sources, demande de l'auteur).
+const verByDay = {};
+news.forEach((n) => { if (n.verify) verByDay[n.date] = (verByDay[n.date] || 0) + 1; });
+Object.entries(verByDay).forEach(([d, k]) => { if (k > 1) warn.push(`${d} : ${k} actus « source à vérifier » ; chercher d'autres sources (une par jour au plus)`); });
 // « À venir » (data/agenda.js) : dates valides, triées, sourcées ; les dates passées se retirent chaque matin.
 const agenda = ctx.window.GEOCO.agenda || [];
 const agIds = new Set();
