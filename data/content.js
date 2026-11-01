@@ -92,7 +92,7 @@ window.GEOCO = {
         "Le modèle IS-LM résume l'économie à court terme avec deux grandeurs seulement : la production (Y) et le taux d'intérêt (i) [1].",
         "La courbe IS montre l'équilibre du marché des biens, la courbe LM celui du marché de la monnaie ; l'économie se place là où elles se croisent.",
         "Quand l'État dépense plus, IS se déplace : la production monte, mais les taux aussi. Quand la banque centrale crée de la monnaie, LM se déplace : la production monte et les taux baissent.",
-        "En économie ouverte, tout dépend du taux de change : avec des changes fixes, c'est la politique budgétaire qui marche, avec des changes flexibles, c'est la politique monétaire [2].",
+        "En économie ouverte, tout dépend du taux de change : avec des changes fixes, c'est la politique budgétaire qui marche, avec des changes flexibles, c'est la politique monétaire, d'autant plus que les capitaux circulent librement [2].",
         "Surtout, la réponse dépend de l'école : pour un keynésien, la dépense publique relance ; pour un monétariste, seule la monnaie compte ; pour un nouveau classique, les gens anticipent et la relance ne sert à rien [11][12]. Et chaque école a dominé à une époque différente."
       ],
       sections: [
@@ -101,8 +101,8 @@ window.GEOCO = {
           paragraphs: [
             "Le modèle a été proposé par l'économiste britannique John Hicks en 1937, pour résumer en un schéma les idées de Keynes [1]. C'est une lecture de Keynes par des économistes formés à l'école néoclassique : on l'appelle souvent la « synthèse » entre les deux courants. On le simplifie ici au maximum : on ne regarde que deux variables. ==Y==, la production (c'est aussi le revenu de tout le pays, à peu près le PIB). ==i==, le taux d'intérêt, c'est-à-dire le prix de l'argent qu'on emprunte.",
             "La courbe IS (marché des biens). Quand le taux d'intérêt baisse, emprunter coûte moins cher : les entreprises investissent, les ménages achètent une voiture ou un logement à crédit. La demande monte, donc la production monte. Plus i est bas, plus Y est haut : la courbe IS descend.",
-            "La courbe LM (marché de la monnaie). Quand la production monte, on fait plus d'achats, donc on a besoin de plus d'argent sur son compte. Si la quantité de monnaie ne change pas, l'argent devient plus « rare » et son prix, le taux d'intérêt, monte. Plus Y est haut, plus i est haut : la courbe LM monte.",
-            "L'équilibre, c'est le point où les deux courbes se croisent : le seul couple (Y, i) où les deux marchés sont en équilibre en même temps. Toute la suite du cours consiste à déplacer une courbe et à regarder où va ce point."
+            "La courbe LM (marché de la monnaie). Selon Keynes, on garde de la monnaie pour deux raisons : pour ses ==achats== (plus la production et les revenus sont hauts, plus il en faut) et pour ==spéculer== (quand les taux sont bas, les titres rapportent peu et risquent de perdre de la valeur, alors on préfère garder de la monnaie). Quand la production monte, on a besoin de plus de monnaie pour ses achats ; si la quantité de monnaie ne change pas, on vend des titres pour en obtenir, leur prix baisse et le taux d'intérêt monte. Plus Y est haut, plus i est haut : la courbe LM monte.",
+            "L'équilibre, c'est le point où les deux courbes se croisent : le seul couple (Y, i) où les deux marchés sont en équilibre en même temps. Rien ne garantit qu'il corresponde au plein emploi : c'est l'idée de Keynes, l'économie peut rester durablement dans un ==équilibre de chômage involontaire==. Toute la suite du cours consiste à déplacer une courbe et à regarder où va ce point."
           ],
           diagram: {
             preset: "base",
@@ -117,7 +117,9 @@ window.GEOCO = {
             "L'État construit des routes, embauche, baisse des impôts : il ajoute de la demande. À taux d'intérêt égal, on produit plus, donc ==la courbe IS se déplace vers la droite==.",
             "Le nouveau point d'équilibre est plus à droite (Y monte) mais aussi plus haut (i monte). Pourquoi les taux montent-ils ? Parce que plus de production demande plus de monnaie, et que l'État emprunte pour financer ses dépenses.",
             "Ces taux plus hauts découragent une partie de l'investissement privé : c'est ==l'effet d'éviction==. La relance marche, mais moins que prévu : la production monte moins que la dépense publique ajoutée, une partie est « mangée » par la hausse des taux.",
-            "Petit calcul pour voir l'idée (chiffres imaginaires) : l'État dépense 10 milliards de plus. Ceux qui les reçoivent en dépensent une partie, qui devient le revenu d'autres, et ainsi de suite : c'est le ==multiplicateur==, la production peut monter de plus de 10 milliards. Mais si les taux montent et que les entreprises investissent 4 milliards de moins, il faut retirer cet effet d'éviction."
+            "Petit calcul pour voir l'idée (chiffres imaginaires) : l'État dépense 10 milliards de plus. Ceux qui les reçoivent en dépensent une partie, qui devient le revenu d'autres, et ainsi de suite : c'est le ==multiplicateur==, la production peut monter de plus de 10 milliards. Mais si les taux montent et que les entreprises investissent 4 milliards de moins, il faut retirer cet effet d'éviction.",
+            "L'effet d'éviction est d'autant plus faible que l'investissement est peu sensible au taux d'intérêt (IS très pentue), et il disparaît dans le piège à liquidité, où les taux ne montent pas.",
+            "==Emprunt ou impôt ?== Si l'État finance sa dépense en empruntant, il émet des titres : les taux montent davantage, l'éviction est plus forte. S'il la finance par un impôt du même montant, l'effet reste positif : c'est le ==théorème du budget équilibré== d'Haavelmo (sur le seul marché des biens, la production monte du montant de la dépense), avec une éviction plus faible. Et une baisse d'impôts relance moins qu'une hausse de dépense du même montant, car les ménages en épargnent une partie."
           ],
           diagram: {
             preset: "budget",
@@ -134,8 +136,8 @@ window.GEOCO = {
         {
           title: "La politique monétaire : la banque centrale crée de la monnaie",
           paragraphs: [
-            "La banque centrale (la BCE pour la zone euro, la Fed aux États-Unis) peut augmenter la quantité de monnaie, en baissant son taux directeur ou en achetant des titres. À production égale, l'argent devient plus abondant, donc moins cher : ==la courbe LM se déplace vers la droite== (ou vers le bas).",
-            "Le nouveau point est plus à droite (Y monte) et plus bas (i baisse). Ici, pas d'effet d'éviction : les taux plus bas encouragent l'investissement et le crédit, ce qui fait monter la production.",
+            "La banque centrale (la BCE pour la zone euro, la Fed aux États-Unis) peut augmenter la quantité de monnaie, en baissant son taux directeur ou en achetant des titres (« open market »). En achetant des titres, elle fait monter leur prix, donc baisser le taux d'intérêt. À production égale, l'argent devient plus abondant, donc moins cher : ==la courbe LM se déplace vers la droite== (ou vers le bas).",
+            "Le nouveau point est plus à droite (Y monte) et plus bas (i baisse). Ici, pas d'effet d'éviction : les taux plus bas encouragent l'investissement et le crédit, ce qui fait monter la production. La politique monétaire est d'autant plus efficace que l'investissement réagit fortement au taux d'intérêt.",
             "Elle peut aussi faire l'inverse pour calmer une économie qui chauffe ou une inflation trop forte : moins de monnaie, LM part vers la gauche, les taux montent et la production ralentit."
           ],
           diagram: {
@@ -160,7 +162,7 @@ window.GEOCO = {
             "Le problème : les deux instruments ne sont pas dans les mêmes mains. L'État décide du budget, la banque centrale (indépendante) de la monnaie. Quand ils tirent dans deux sens opposés, les taux s'envolent."
           ],
           example: {
-            title: "Exemple : Reagan contre Volcker, au début des années 1980",
+            title: "Exemple : Reagan contre Volcker, dans les années 1980",
             text: "Aux États-Unis, le président Ronald Reagan baisse fortement les impôts et augmente les dépenses militaires (IS à droite), pendant que la Fed de Paul Volcker serre la monnaie pour casser l'inflation (LM à gauche) [13][17]. Résultat prévu par le schéma : des taux d'intérêt très élevés, le taux de la Fed restant au-dessus de 14 % de février à juin 1982 [17]. Volcker demandait lui-même à la Maison-Blanche de réduire le déficit [13]."
           },
           diagram: {
@@ -217,14 +219,18 @@ window.GEOCO = {
           paragraphs: [
             "Dans la réalité, un pays commerce avec les autres et l'argent circule d'un pays à l'autre. Robert Mundell (prix Nobel 1999) et Marcus Fleming ont ajouté cette ouverture au modèle [2]. Une seule variable de plus : ==le taux de change==, le prix de la monnaie du pays en monnaie étrangère.",
             "Idée clé : si les capitaux circulent librement, le taux d'intérêt du pays ne peut pas s'écarter longtemps de celui du reste du monde. Si i monte, l'argent étranger afflue pour en profiter ; s'il baisse, l'argent part.",
-            "En changes flexibles (la monnaie flotte, comme l'euro face au dollar), la politique monétaire est très efficace : plus de monnaie, les taux baissent, l'argent part, la monnaie perd de la valeur, les exportations deviennent moins chères et la production monte. La politique budgétaire, elle, marche mal : la relance fait monter les taux, l'argent afflue, la monnaie s'apprécie, les exportations reculent et annulent la relance [2].",
-            "En changes fixes (la monnaie est attachée à une autre), c'est l'inverse : la banque centrale doit défendre le taux de change, donc elle perd la main sur la monnaie ; la politique budgétaire, elle, devient efficace [2]. Et une relance qui fait trop importer peut forcer à dévaluer.",
+            "Le modèle de base regarde une ==petite économie ouverte== : elle ne pèse pas sur le reste du monde, dont le revenu et le taux d'intérêt sont donnés. On ajoute à IS et LM une troisième courbe, l'équilibre de la balance des paiements (commerce + capitaux).",
+            "En changes flexibles (la monnaie flotte, comme l'euro face au dollar), la banque centrale garde la main sur sa monnaie, et ==la politique monétaire est encore plus efficace qu'en économie fermée== : plus de monnaie, les taux baissent, les capitaux sortent, la monnaie se déprécie, les exportations repartent et IS se déplace à son tour vers la droite. Plus les capitaux sont mobiles, plus l'effet est fort [2].",
+            "La politique budgétaire, elle, marche d'autant moins que les capitaux sont mobiles : la relance fait monter les taux, les capitaux affluent, la monnaie s'apprécie, les exportations reculent et annulent une partie de la relance (toute la relance si les capitaux sont parfaitement mobiles) [2].",
+            "En changes fixes (la monnaie est attachée à une autre), c'est l'inverse [2]. ==La politique monétaire ne sert à rien à long terme== : si la banque centrale crée de la monnaie, les taux baissent, les capitaux sortent, la monnaie est attaquée, et pour défendre la parité elle doit vendre ses réserves de devises, ce qui retire autant de monnaie qu'elle en avait créé.",
+            "==La politique budgétaire devient efficace, d'autant plus que les capitaux sont mobiles== : la relance fait monter les taux, les capitaux entrent, la monnaie tend à s'apprécier ; pour tenir la parité, la banque centrale achète des devises et crée de la monnaie, comme un policy mix involontaire. Si les capitaux sont peu mobiles, c'est l'inverse : les importations l'emportent, la monnaie est attaquée, la banque centrale doit retirer de la monnaie et l'éviction s'aggrave.",
+            "Dernier outil des changes fixes : ==la dévaluation==. Elle rend les exportations moins chères et doit améliorer la balance commerciale, mais d'abord elle la dégrade (on paie plus cher ce qu'on importe déjà) : c'est la ==courbe en J==. Elle est d'autant moins efficace que les capitaux sont mobiles.",
             "==Grand pays, petit pays.== Quand un petit pays relance par la monnaie avec des changes fixes, il doit défendre sa monnaie et n'obtient rien. Quand c'est le pays dominant (les États-Unis), sa détente monétaire se transmet aux autres, qui suivent pour garder leur taux de change : sa politique devient celle du monde.",
-            "==L'union monétaire (la zone euro).== Plus de taux de change entre les membres, une seule banque centrale, un seul taux d'intérêt. Si un pays relance seul par la dépense, il fait monter le taux commun : l'effet d'éviction est partagé par tous ses voisins. D'où les règles du Pacte de stabilité et de croissance : un déficit public d'au plus 3 % du PIB et une dette d'au plus 60 % [14]."
+            "==L'union monétaire (la zone euro).== Plus de taux de change entre les membres, une seule banque centrale, un seul taux d'intérêt. Si un pays relance seul par la dépense, il fait monter le taux commun : l'effet d'éviction est partagé par tous ses voisins. À l'inverse, une politique monétaire commune agit pareil sur tous. Et comme un pays n'a plus à craindre pour sa propre monnaie, la tentation de laisser filer les déficits augmente. D'où les règles du Pacte de stabilité et de croissance : un déficit public d'au plus 3 % du PIB et une dette d'au plus 60 %, avec des sanctions renforcées en 2011 [14]."
           ],
           example: {
             title: "Exemple : la relance française de 1981-1983",
-            text: "En 1981, le gouvernement de Pierre Mauroy relance la demande intérieure [8]. Une partie de la relance part en importations, le déficit extérieur se creuse, et le franc, rattaché aux autres monnaies européennes, doit être dévalué en octobre 1981 puis encore deux fois jusqu'en mars 1983 [8][9]. En mars 1983, le gouvernement change de cap : c'est le « tournant de la rigueur » [10]. La leçon du modèle ouvert : seul, un pays aux changes fixes qui relance « fuit » par ses importations."
+            text: "En 1981, le gouvernement de Pierre Mauroy relance la demande intérieure [8]. Une partie de la relance part en importations, le déficit extérieur se creuse, et le franc, rattaché aux autres monnaies européennes, doit être dévalué en octobre 1981 puis encore deux fois jusqu'en mars 1983 [8][9]. En mars 1983, le gouvernement change de cap : c'est le « tournant de la rigueur » [10]. La leçon du modèle ouvert : un pays aux changes fixes qui relance seul « fuit » par ses importations ; si les capitaux ne viennent pas compenser, la monnaie est attaquée et il faut dévaluer ou changer de politique."
           }
         },
         {
@@ -239,14 +245,14 @@ window.GEOCO = {
           title: "Les limites : un modèle utile, mais simplifié",
           paragraphs: [
             "Les prix sont fixes. IS-LM décrit le court terme et ignore l'inflation : il ne dit pas ce qui arrive aux prix quand la production monte. Pour ça, il faut d'autres modèles (offre et demande globales).",
-            "Le piège à liquidité. Quand les taux sont déjà à zéro, créer de la monnaie ne les fait plus baisser : LM est à plat, et la politique monétaire ne sert plus à rien dans le modèle. C'est la situation des États-Unis après décembre 2008, quand la Fed a fixé son taux entre 0 et 0,25 % [5] : il a fallu compter sur la relance budgétaire et sur d'autres outils.",
+            "Le piège à liquidité. Quand les taux sont déjà à leur plancher, tout le monde s'attend à ce qu'ils remontent (donc à ce que le prix des titres baisse) : on garde la monnaie supplémentaire au lieu d'acheter des titres, et les taux ne baissent plus. LM est à plat, et la politique monétaire ne sert plus à rien dans le modèle ; la politique budgétaire, elle, marche à plein. C'est la situation des États-Unis après décembre 2008, quand la Fed a fixé son taux entre 0 et 0,25 % [5] : il a fallu compter sur la relance budgétaire et sur d'autres outils.",
             "Les anticipations. Les ménages et les entreprises réagissent à ce qu'ils attendent : si on pense que la relance d'aujourd'hui sera payée par des impôts demain, on peut épargner au lieu de dépenser, et l'effet est plus faible. Le modèle ne tient pas compte de ces anticipations (c'est la critique de Robert Lucas).",
             "Un monde simplifié. Une seule production, un seul taux d'intérêt, pas de dette publique qui s'accumule, pas de banques qui peuvent refuser de prêter : utile pour comprendre le sens des effets, pas pour prévoir des chiffres précis."
           ],
           diagram: {
             preset: "trappe",
             steps: [
-              { label: "Taux à zéro", text: "Les taux sont déjà au plancher : LM est à plat là où IS la croise." },
+              { label: "Taux au plancher", text: "Les taux sont déjà au plancher : LM est à plat là où IS la croise." },
               { label: "Plus de monnaie", text: "LM s'allonge vers la droite, mais le point ne bouge pas : la politique monétaire ne marche plus." },
               { label: "L'État dépense", text: "IS va à droite : la production monte sans que les taux bougent. Dans le piège à liquidité, la relance budgétaire est très efficace." }
             ]
@@ -293,10 +299,10 @@ window.GEOCO = {
           explain: "Les taux ne peuvent plus baisser, donc créer de la monnaie ne sert à rien ; la dépense publique, elle, fait monter la production sans faire monter les taux."
         },
         {
-          q: "En changes fixes et avec des capitaux libres, quelle politique est efficace selon Mundell-Fleming ?",
+          q: "En changes fixes et avec des capitaux très mobiles, quelle politique est efficace selon Mundell-Fleming ?",
           options: ["La politique monétaire", "La politique budgétaire", "Aucune des deux", "Les deux"],
           answer: 1,
-          explain: "La banque centrale doit défendre le taux de change, elle perd la main sur la monnaie ; la politique budgétaire reste efficace."
+          explain: "La banque centrale doit défendre la parité, elle perd la main sur la monnaie ; la politique budgétaire est efficace, d'autant plus que les capitaux sont mobiles."
         },
         {
           q: "Pour un monétariste, la courbe LM est…",
