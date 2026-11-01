@@ -1454,6 +1454,7 @@
         <li>Les cours d'approfondissement et leurs quiz</li>
         <li>Tous les épisodes du podcast, en illimité</li>
         <li>Un article de presse sur deux, en entier</li>
+        <li>La fiche de révision de chaque article en PDF : idées, dates, notions, qui est qui, questions</li>
         <li>Le rideau Finance : toutes les actus des marchés, « Côté marchés » et les exemples du passé</li>
         <li>Les archives : Focus industrie, études de cas, lettres du matin</li>
         <li>Bientôt : flashcards et mode Concours</li>
@@ -2490,6 +2491,15 @@
     });
   }
 
+  // Fiche de révision en PDF (Geonomix+, demande de l'auteur du 1er nov. 2026) : fiches/<id>.pdf, fabriquée par
+  // tools/build-fiches.mjs (idées partie par partie, dates, chiffres, notions, qui est qui, questions et réponses).
+  function ficheBtn(c) {
+    if (!(window.GEOCO.fiches || []).includes(c.id)) return "";
+    return isPlus()
+      ? `<a class="fiche-btn reveal" href="fiches/${c.id}.pdf" target="_blank" rel="noopener" download><span aria-hidden="true">📄</span><span><b>${I18N.t("Fiche de révision")}</b><small>${I18N.t("PDF à imprimer : idées, dates, notions, qui est qui, questions")}</small></span></a>`
+      : `<a class="fiche-btn locked reveal" href="#/abonnement"><span aria-hidden="true">🔒</span><span><b>${I18N.t("Fiche de révision")} · ${offre.name}</b><small>${I18N.t("PDF à imprimer : idées, dates, notions, qui est qui, questions")}</small></span></a>`;
+  }
+
   function renderCulture(id, part) {
     const c = byId(culture, id);
     if (!c) return renderNotFound();
@@ -2524,6 +2534,7 @@
         <p class="lead reveal">${c.hook}</p>
         ${c.author ? `<p class="byline reveal">Par ${c.author}</p>` : ""}
         <p class="art-meta reveal">${articleMeta(c)}</p>
+        ${ficheBtn(c)}
         ${c.image ? heroImage(c.image) : `<div class="reveal">${articleCover(c, true, true)}</div>`}
       </section>
 

@@ -1,0 +1,98 @@
+{
+  "_": "Fiches de révision des articles (Geonomix+, demande de l'auteur du 1er nov. 2026). Complète ce que l'outil tools/build-fiches.mjs tire déjà de data/culture.js (l'essentiel, les idées clés de chaque partie, la frise, les chiffres). Ici : notions (term, def), personnes (name, role), questions pour se tester (q, a). Rien qui ne soit dans l'article.",
+  "voiture-champ-de-bataille": {
+    "concepts": [
+      { "term": "Coût d'achat / coût d'usage", "def": "Ce qu'on paie pour acheter la voiture, et ce qu'elle coûte chaque année (énergie, entretien). L'électrique coûte plus à l'achat (environ +16 000 € pour une citadine en 2022) mais moins à l'usage (environ −1 200 € par an)." },
+      { "term": "Dividende", "def": "Part des bénéfices versée aux actionnaires. En 1919, la Cour suprême du Michigan donne raison aux actionnaires de Ford qui réclamaient leurs dividendes : une entreprise sert d'abord le profit de ses actionnaires." },
+      { "term": "Luxe ou masse", "def": "Le choix d'un constructeur entre des voitures chères vendues à peu de clients (très rentables) et des voitures bon marché vendues en grand nombre. Le dilemme de Ford en 1904 revient avec l'électrique." },
+      { "term": "Coût de la tonne de CO2 évitée", "def": "L'argent public dépensé en aides divisé par le CO2 qu'elles évitent. Pour l'électrique : au moins 300 € par tonne, ce qui en fait une politique climatique chère." },
+      { "term": "Sécurité réclamée par les victimes", "def": "Idée de l'historien Lee Vinsel : les règles de sécurité automobile ne viennent pas d'abord des ingénieurs mais d'un conflit entre automobilistes, constructeurs et experts, après les accidents." }
+    ],
+    "people": [
+      { "name": "Henry Ford", "role": "Premier constructeur automobile du monde ; annonce une Ford T électrique en 1914, abandonnée fin 1914." },
+      { "name": "Thomas Edison", "role": "Inventeur, ami de Ford ; ses batteries nickel-fer étaient trop lentes à charger, trop faibles et trop chères." },
+      { "name": "Ralph Nader", "role": "Avocat américain ; son livre de 1965 sur les voitures dangereuses (« Ces voitures qui tuent » en France, 1966) lance le débat sur la sécurité." },
+      { "name": "Sally Clarke", "role": "Historienne ; montre que les premiers clients américains allaient en justice contre garagistes, vendeurs et constructeurs." },
+      { "name": "Lee Vinsel", "role": "Historien américain de la sécurité routière." },
+      { "name": "Mathieu Flonneau", "role": "Historien ; en France, la route a d'abord été équipée pour protéger le piéton." },
+      { "name": "Patrick Fridenson", "role": "Historien de l'automobile ; voit dans les notes ajoutées au livre de Nader une intervention du syndicat des constructeurs." }
+    ],
+    "questions": [
+      { "q": "Pourquoi la Ford T électrique de 1914 a-t-elle échoué ?", "a": "À cause des batteries d'Edison : trop longues à charger, pas assez puissantes, trop chères (1,5 million de dollars dépensés)." },
+      { "q": "Que dit la Cour suprême du Michigan en 1919 ?", "a": "Qu'une entreprise est d'abord dirigée pour le profit de ses actionnaires : elle donne raison aux actionnaires de Ford." },
+      { "q": "L'électrique est-elle plus chère ou moins chère qu'une thermique ?", "a": "Plus chère à l'achat (environ +16 000 € pour une citadine en 2022), moins chère à l'usage (environ −1 200 € par an)." },
+      { "q": "Quelle part des voitures des 10 % de ménages les plus modestes était électrique ?", "a": "Seulement 0,3 % : les ménages modestes risquent d'être les perdants de la transition." },
+      { "q": "En quelle année l'UE prévoit-elle la fin des ventes de voitures thermiques neuves ?", "a": "2035." }
+    ]
+  },
+  "reserves-strategiques": {
+    "concepts": [
+      { "term": "Réserve stratégique de pétrole", "def": "Stock de pétrole gardé par un pays (État ou entreprises obligées par la loi) pour tenir si les importations s'arrêtent." },
+      { "term": "Agence internationale de l'énergie (AIE)", "def": "Créée le 18 novembre 1974 après le choc pétrolier pour garantir l'approvisionnement : elle coordonne les « actions collectives » de mise sur le marché des stocks." },
+      { "term": "Règle des 90 jours", "def": "Chaque pays de l'AIE garde des stocks égaux à au moins 90 jours de ses importations nettes. Dans l'UE (directive de 2009) : le plus grand de 90 jours d'importations nettes ou 61 jours de consommation." },
+      { "term": "Importations nettes", "def": "Ce qu'un pays importe moins ce qu'il exporte. Un pays qui produit une partie de son pétrole importe moins, donc doit stocker moins." },
+      { "term": "Stocks publics / stocks obligatoires des entreprises", "def": "Deux façons de stocker. En crise, l'État vend ou prête ses stocks, ou abaisse le minimum imposé aux entreprises, qui peuvent alors vendre leurs réserves." },
+      { "term": "Brut / produits raffinés", "def": "Le brut doit passer par une raffinerie pour devenir essence, gazole ou kérosène. L'UE impose d'en garder une partie (au moins 30 jours ou un tiers) déjà raffinée." },
+      { "term": "Dôme de sel", "def": "Caverne étanche creusée en dissolvant le sel avec de l'eau : la façon la moins chère de stocker des centaines de millions de barils (réserve américaine)." },
+      { "term": "Premier choc pétrolier", "def": "En 1973-1974, l'embargo fait passer le baril d'environ 2,90 à 11,65 dollars (janvier 1974) : un prix multiplié par quatre." }
+    ],
+    "people": [
+      { "name": "Roland Lescure", "role": "Ministre de l'Économie ; en octobre 2026, les stocks servent « pour la première fois » à protéger le pouvoir d'achat." },
+      { "name": "AIE", "role": "Le « chef d'orchestre » des stocks des pays riches depuis 1974." },
+      { "name": "Strategic Petroleum Reserve", "role": "La réserve des États-Unis, stockée dans des dômes de sel (Bryan Mound, Big Hill, West Hackberry, Bayou Choctaw)." }
+    ],
+    "questions": [
+      { "q": "Combien de jours de stocks un pays de l'AIE doit-il garder ?", "a": "Au moins 90 jours de ses importations nettes de pétrole." },
+      { "q": "Quand et pourquoi l'AIE a-t-elle été créée ?", "a": "Le 18 novembre 1974, après l'embargo de 1973, pour garantir l'approvisionnement en pétrole des pays riches." },
+      { "q": "Pourquoi stocker du pétrole brut ne suffit-il pas ?", "a": "Il faut des raffineries pour le transformer ; si elles sont touchées ou si le pays importe surtout des carburants, le brut ne sert pas à grand-chose." },
+      { "q": "Pourquoi les Américains stockent-ils dans du sel ?", "a": "Les dômes de sel forment des cavernes étanches, faciles à agrandir, bien moins chères que des cuves en acier." },
+      { "q": "Les stocks font-ils baisser les prix ?", "a": "Un peu et pour un temps : ils font surtout gagner du temps, ils ne rouvrent pas un détroit." }
+    ]
+  },
+  "cables-sous-marins": {
+    "concepts": [
+      { "term": "Câble sous-marin", "def": "Câble posé au fond des mers qui transporte les données entre continents : environ 99 % du trafic internet intercontinental passe par eux." },
+      { "term": "Gutta-percha", "def": "Plastique naturel tiré de la sève d'un arbre ; il a permis d'isoler les fils dans l'eau de mer au XIXᵉ siècle et assuré la domination britannique sur cette industrie." },
+      { "term": "Navire câblier", "def": "Bateau spécialisé qui pose et répare les câbles. Ils sont rares et vieillissent, ce qui rallonge les réparations." },
+      { "term": "Goulet d'étranglement", "def": "Passage où beaucoup de câbles se concentrent (mer Rouge, Marseille, Singapour, détroit de Luçon) : un incident y coupe une grande part du trafic." },
+      { "term": "Hyperscalers", "def": "Les géants du numérique (Google, Meta, Microsoft, Amazon) devenus propriétaires de câbles : en 2020, ils utilisaient environ deux tiers de la capacité internationale." },
+      { "term": "Sabotage / accident", "def": "70 à 80 % des 150 à 200 pannes annuelles sont des accidents (ancres, chaluts). Prouver un sabotage exige de prouver l'intention." }
+    ],
+    "people": [
+      { "name": "Werner von Siemens", "role": "Ingénieur allemand ; en 1847, met au point l'enrobage des fils à la gutta-percha." },
+      { "name": "Cyrus Field", "role": "Homme d'affaires américain ; lance le premier câble transatlantique (1858), qui lâche au bout d'un mois." },
+      { "name": "La reine Victoria et James Buchanan", "role": "Échangent des messages par le câble de 1858 : environ 17 heures pour transmettre celui de la reine." },
+      { "name": "Alcatel Submarine Networks (ASN)", "role": "Champion français des câbles, repris à 80 % par l'État à Nokia (finalisé le 31 décembre 2024)." },
+      { "name": "Hong Tai 58", "role": "Navire soupçonné d'avoir coupé un câble près de Taïwan en février 2025 ; son capitaine condamné à 3 ans de prison." }
+    ],
+    "questions": [
+      { "q": "Quelle part du trafic internet entre continents passe par les câbles ?", "a": "Environ 99 %." },
+      { "q": "Quand date le premier câble transatlantique durable ?", "a": "1866, posé par le Great Eastern, après l'échec de 1865 (le câble de 1858 n'avait tenu qu'un mois)." },
+      { "q": "Combien de pannes de câbles par an, et d'où viennent-elles ?", "a": "150 à 200 par an, à 70-80 % des accidents liés à l'activité humaine (ancres, pêche)." },
+      { "q": "Pourquoi la mer Rouge est-elle un point sensible ?", "a": "Beaucoup de câbles entre l'Europe et l'Asie y passent ; la coupure de trois câbles (Seacom, AAE-1, EIG) a touché environ un quart du trafic de la région." },
+      { "q": "Qu'est-ce que « Baltic Sentry » ?", "a": "La mission de l'OTAN lancée en janvier 2025 pour surveiller la Baltique et dissuader les sabotages." }
+    ]
+  },
+  "barrage-renaissance": {
+    "concepts": [
+      { "term": "GERD (Grand barrage de la Renaissance)", "def": "Barrage éthiopien sur le Nil Bleu : 74 milliards de m³ de réservoir, 5 150 mégawatts, environ 4 milliards de dollars, inauguré le 9 septembre 2025." },
+      { "term": "Nil Bleu / Nil Blanc", "def": "Les deux branches du Nil. Le Nil Bleu, venu d'Éthiopie, apporte plus de 80 % de l'eau du fleuve ; le Nil Blanc vient des Grands Lacs." },
+      { "term": "Pays d'amont / pays d'aval", "def": "L'amont est là où le fleuve prend sa source (Éthiopie), l'aval là où il arrive (Soudan, Égypte). « La géographie donne du pouvoir » à l'amont." },
+      { "term": "Accords de 1929 et 1959", "def": "Signés sans les pays d'amont : veto de l'Égypte sur les projets (1929) et partage de l'eau, 55,5 milliards de m³ pour l'Égypte et 18,5 pour le Soudan (1959)." },
+      { "term": "Remplissage", "def": "Retenir une partie du débit pendant plusieurs saisons des pluies pour monter le niveau devant les turbines : plus il est rapide, plus l'électricité arrive tôt, mais plus l'aval manque d'eau." },
+      { "term": "Dommage significatif", "def": "Principe de la Déclaration de Khartoum (mars 2015) : chaque pays doit éviter de nuire aux autres. Tous l'acceptent, personne ne s'accorde sur son sens." }
+    ],
+    "people": [
+      { "name": "Abiy Ahmed", "role": "Premier ministre éthiopien ; à l'inauguration : « une grande réussite […] pour tous les peuples noirs »." },
+      { "name": "Abdel Fattah al-Sissi", "role": "Président égyptien ; qualifie le barrage de « menace existentielle »." },
+      { "name": "Commission du bassin du Nil", "role": "Créée par l'accord-cadre (« accord d'Entebbe ») entré en vigueur le 13 octobre 2024, que l'Égypte et le Soudan n'ont pas ratifié." }
+    ],
+    "questions": [
+      { "q": "Quelle part de son eau l'Égypte tire-t-elle du Nil ?", "a": "97 %." },
+      { "q": "D'où vient l'essentiel de l'eau qui arrive au Caire ?", "a": "De la pluie tombée en Éthiopie, par le Nil Bleu (plus de 80 % de l'eau du Nil)." },
+      { "q": "Pourquoi l'Éthiopie a-t-elle construit le GERD ?", "a": "Pour l'électricité : en 2025, seuls 44 % des Éthiopiens avaient un accès au moins de base, près de 71 millions de personnes en manquaient." },
+      { "q": "Pourquoi les pays d'amont rejettent-ils les accords de 1929 et 1959 ?", "a": "Ils n'étaient pas parties à ces textes, qui ne leur donnaient rien : ils estiment qu'ils ne les lient pas." },
+      { "q": "Quel est le vrai risque pour l'Égypte ?", "a": "Une sécheresse de plusieurs années pendant laquelle l'Éthiopie garderait de l'eau dans son réservoir." }
+    ]
+  }
+}
