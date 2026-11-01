@@ -1138,6 +1138,8 @@
           <div class="wrap">
             <h2 class="title reveal">${s.title}</h2>
             ${s.paragraphs.map((p) => `<p class="copy reveal">${para(p, d.sources)}</p>`).join("")}
+            ${s.diagram && window.GeocoISLM ? `<div class="reveal">${window.GeocoISLM.html(s.diagram)}</div>` : ""}
+            ${s.example ? `<aside class="art-box example reveal"><p class="eyebrow">${I18N.t("Exemple concret")}</p><h3>${s.example.title}</h3><p>${cite(s.example.text, d.sources)}</p></aside>` : ""}
           </div>
         </section>
       `).join("")}
@@ -1183,6 +1185,7 @@
 
     bindFigures(d.figures, d.theme, d.sources);
     mountVisuals(d.visuals);
+    if (window.GeocoISLM) window.GeocoISLM.mountAll(app);
 
     app.querySelectorAll(".fpill").forEach((p) =>
       p.addEventListener("click", () => p.setAttribute("aria-expanded", p.getAttribute("aria-expanded") !== "true"))

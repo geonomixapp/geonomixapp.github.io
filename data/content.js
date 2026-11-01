@@ -80,6 +80,188 @@ window.GEOCO = {
         }
       ]
     },
+    {
+      id: "is-lm",
+      emoji: "⚖️",
+      theme: "eco",
+      title: "Le modèle IS-LM : ce que peuvent l'État et la banque centrale",
+      hook: "Une crise frappe. L'État doit-il dépenser plus ? La banque centrale doit-elle baisser ses taux ? Deux courbes suffisent pour comprendre ce qui se passe, et pourquoi ça ne marche pas toujours.",
+      minutes: 9,
+      level: "Intermédiaire",
+      tldr: [
+        "Le modèle IS-LM résume l'économie à court terme avec deux grandeurs seulement : la production (Y) et le taux d'intérêt (i) [1].",
+        "La courbe IS montre l'équilibre du marché des biens, la courbe LM celui du marché de la monnaie ; l'économie se place là où elles se croisent.",
+        "Quand l'État dépense plus, IS se déplace : la production monte, mais les taux aussi. Quand la banque centrale crée de la monnaie, LM se déplace : la production monte et les taux baissent.",
+        "En économie ouverte, tout dépend du taux de change : avec des changes fixes, c'est la politique budgétaire qui marche, avec des changes flexibles, c'est la politique monétaire [2]."
+      ],
+      sections: [
+        {
+          title: "Deux variables, deux marchés",
+          paragraphs: [
+            "Le modèle a été proposé par l'économiste britannique John Hicks en 1937, pour résumer en un schéma les idées de Keynes [1]. On le simplifie ici au maximum : on ne regarde que deux variables. ==Y==, la production (c'est aussi le revenu de tout le pays, à peu près le PIB). ==i==, le taux d'intérêt, c'est-à-dire le prix de l'argent qu'on emprunte.",
+            "La courbe IS (marché des biens). Quand le taux d'intérêt baisse, emprunter coûte moins cher : les entreprises investissent, les ménages achètent une voiture ou un logement à crédit. La demande monte, donc la production monte. Plus i est bas, plus Y est haut : la courbe IS descend.",
+            "La courbe LM (marché de la monnaie). Quand la production monte, on fait plus d'achats, donc on a besoin de plus d'argent sur son compte. Si la quantité de monnaie ne change pas, l'argent devient plus « rare » et son prix, le taux d'intérêt, monte. Plus Y est haut, plus i est haut : la courbe LM monte.",
+            "L'équilibre, c'est le point où les deux courbes se croisent : le seul couple (Y, i) où les deux marchés sont en équilibre en même temps. Toute la suite du cours consiste à déplacer une courbe et à regarder où va ce point."
+          ],
+          diagram: {
+            preset: "base",
+            steps: [
+              { label: "L'équilibre", text: "Là où IS (biens) et LM (monnaie) se croisent : une production Y et un taux d'intérêt i." }
+            ]
+          }
+        },
+        {
+          title: "La politique budgétaire : l'État dépense plus",
+          paragraphs: [
+            "L'État construit des routes, embauche, baisse des impôts : il ajoute de la demande. À taux d'intérêt égal, on produit plus, donc ==la courbe IS se déplace vers la droite==.",
+            "Le nouveau point d'équilibre est plus à droite (Y monte) mais aussi plus haut (i monte). Pourquoi les taux montent-ils ? Parce que plus de production demande plus de monnaie, et que l'État emprunte pour financer ses dépenses.",
+            "Ces taux plus hauts découragent une partie de l'investissement privé : c'est ==l'effet d'éviction==. La relance marche, mais moins que prévu : la production monte moins que la dépense publique ajoutée, une partie est « mangée » par la hausse des taux.",
+            "Petit calcul pour voir l'idée (chiffres imaginaires) : l'État dépense 10 milliards de plus. Ceux qui les reçoivent en dépensent une partie, qui devient le revenu d'autres, et ainsi de suite : c'est le ==multiplicateur==, la production peut monter de plus de 10 milliards. Mais si les taux montent et que les entreprises investissent 4 milliards de moins, il faut retirer cet effet d'éviction."
+          ],
+          diagram: {
+            preset: "budget",
+            steps: [
+              { label: "Avant", text: "L'économie est au point E : production faible, chômage." },
+              { label: "L'État dépense plus", text: "IS va à droite : la production monte (Y↑) mais le taux d'intérêt aussi (i↑). La hausse des taux freine l'investissement privé : l'effet d'éviction." }
+            ]
+          },
+          example: {
+            title: "Exemple : le plan de relance américain de 2009",
+            text: "En pleine crise financière, Barack Obama signe le 17 février 2009 l'American Recovery and Reinvestment Act [4]. Coût estimé à son vote : 787 milliards de dollars sur dix ans, dont 501 milliards de dépenses et 286 milliards de baisses d'impôts [3]. C'est le cas d'école d'une relance budgétaire : déplacer IS vers la droite pour soutenir la production."
+          }
+        },
+        {
+          title: "La politique monétaire : la banque centrale crée de la monnaie",
+          paragraphs: [
+            "La banque centrale (la BCE pour la zone euro, la Fed aux États-Unis) peut augmenter la quantité de monnaie, en baissant son taux directeur ou en achetant des titres. À production égale, l'argent devient plus abondant, donc moins cher : ==la courbe LM se déplace vers la droite== (ou vers le bas).",
+            "Le nouveau point est plus à droite (Y monte) et plus bas (i baisse). Ici, pas d'effet d'éviction : les taux plus bas encouragent l'investissement et le crédit, ce qui fait monter la production.",
+            "Elle peut aussi faire l'inverse pour calmer une économie qui chauffe ou une inflation trop forte : moins de monnaie, LM part vers la gauche, les taux montent et la production ralentit."
+          ],
+          diagram: {
+            preset: "monnaie",
+            steps: [
+              { label: "Avant", text: "L'économie est au point E." },
+              { label: "Relance (plus de monnaie)", text: "LM va à droite : la production monte (Y↑) et le taux d'intérêt baisse (i↓)." },
+              { label: "Freinage (moins de monnaie)", text: "LM va à gauche : le taux d'intérêt monte (i↑) et la production ralentit (Y↓). C'est ce qu'a fait la BCE en 2022-2023 contre l'inflation." }
+            ]
+          },
+          example: {
+            title: "Exemple : la BCE freine en 2022-2023",
+            text: "Face à l'inflation, la Banque centrale européenne a relevé son taux de dépôt de −0,5 % en juillet 2022 à 4 % en septembre 2023 [6]. Dans le schéma, LM part vers la gauche : crédits plus chers, demande freinée, croissance plus faible, pour faire baisser l'inflation (que le modèle IS-LM, lui, ne montre pas)."
+          }
+        },
+        {
+          title: "Les deux ensemble : le « policy mix »",
+          paragraphs: [
+            "On peut combiner les deux politiques. Si l'État dépense plus (IS à droite) et que la banque centrale crée de la monnaie en même temps (LM à droite), la production monte beaucoup, et les taux n'ont pas besoin de monter : la banque centrale empêche l'effet d'éviction.",
+            "C'est ce qui s'est passé pendant le Covid : les États ont dépensé massivement pour soutenir les entreprises et les salariés, pendant que la BCE lançait le 18 mars 2020 un programme d'achat de titres de 750 milliards d'euros pour garder les taux bas [7]."
+          ],
+          diagram: {
+            preset: "mix",
+            steps: [
+              { label: "Avant", text: "L'économie est au point E." },
+              { label: "État + banque centrale", text: "IS et LM vont à droite ensemble : la production monte fortement (Y↑↑) et le taux d'intérêt reste à peu près stable." }
+            ]
+          }
+        },
+        {
+          title: "En économie ouverte : le taux de change change tout",
+          paragraphs: [
+            "Dans la réalité, un pays commerce avec les autres et l'argent circule d'un pays à l'autre. Robert Mundell (prix Nobel 1999) et Marcus Fleming ont ajouté cette ouverture au modèle [2]. Une seule variable de plus : ==le taux de change==, le prix de la monnaie du pays en monnaie étrangère.",
+            "Idée clé : si les capitaux circulent librement, le taux d'intérêt du pays ne peut pas s'écarter longtemps de celui du reste du monde. Si i monte, l'argent étranger afflue pour en profiter ; s'il baisse, l'argent part.",
+            "En changes flexibles (la monnaie flotte, comme l'euro face au dollar), la politique monétaire est très efficace : plus de monnaie, les taux baissent, l'argent part, la monnaie perd de la valeur, les exportations deviennent moins chères et la production monte. La politique budgétaire, elle, marche mal : la relance fait monter les taux, l'argent afflue, la monnaie s'apprécie, les exportations reculent et annulent la relance [2].",
+            "En changes fixes (la monnaie est attachée à une autre), c'est l'inverse : la banque centrale doit défendre le taux de change, donc elle perd la main sur la monnaie ; la politique budgétaire, elle, devient efficace [2]. Et une relance qui fait trop importer peut forcer à dévaluer."
+          ],
+          example: {
+            title: "Exemple : la relance française de 1981-1983",
+            text: "En 1981, le gouvernement de Pierre Mauroy relance la demande intérieure [8]. Une partie de la relance part en importations, le déficit extérieur se creuse, et le franc, rattaché aux autres monnaies européennes, doit être dévalué en octobre 1981 puis encore deux fois jusqu'en mars 1983 [8][9]. En mars 1983, le gouvernement change de cap : c'est le « tournant de la rigueur » [10]. La leçon du modèle ouvert : seul, un pays aux changes fixes qui relance « fuit » par ses importations."
+          }
+        },
+        {
+          title: "À quoi sert ce modèle ?",
+          paragraphs: [
+            "À raisonner vite. Face à une crise, il donne en deux courbes le sens des effets : qui fait monter la production, qui fait monter les taux, qui annule quoi.",
+            "À comprendre les débats. Faut-il relancer par la dépense publique ou par la monnaie ? Le modèle montre que ça dépend de l'état des taux, de l'ouverture du pays et de son régime de change.",
+            "À lire l'actualité. Quand la BCE monte ses taux, quand un État vote un plan de relance ou de rigueur, tu peux te demander : quelle courbe bouge, dans quel sens, et que deviennent la production et les taux ?"
+          ]
+        },
+        {
+          title: "Les limites : un modèle utile, mais simplifié",
+          paragraphs: [
+            "Les prix sont fixes. IS-LM décrit le court terme et ignore l'inflation : il ne dit pas ce qui arrive aux prix quand la production monte. Pour ça, il faut d'autres modèles (offre et demande globales).",
+            "Le piège à liquidité. Quand les taux sont déjà à zéro, créer de la monnaie ne les fait plus baisser : LM est à plat, et la politique monétaire ne sert plus à rien dans le modèle. C'est la situation des États-Unis après décembre 2008, quand la Fed a fixé son taux entre 0 et 0,25 % [5] : il a fallu compter sur la relance budgétaire et sur d'autres outils.",
+            "Les anticipations. Les ménages et les entreprises réagissent à ce qu'ils attendent : si on pense que la relance d'aujourd'hui sera payée par des impôts demain, on peut épargner au lieu de dépenser, et l'effet est plus faible. Le modèle ne tient pas compte de ces anticipations (c'est la critique de Robert Lucas).",
+            "Un monde simplifié. Une seule production, un seul taux d'intérêt, pas de dette publique qui s'accumule, pas de banques qui peuvent refuser de prêter : utile pour comprendre le sens des effets, pas pour prévoir des chiffres précis."
+          ],
+          diagram: {
+            preset: "trappe",
+            steps: [
+              { label: "Taux à zéro", text: "Les taux sont déjà au plancher : LM est à plat là où IS la croise." },
+              { label: "Plus de monnaie", text: "LM s'allonge vers la droite, mais le point ne bouge pas : la politique monétaire ne marche plus." },
+              { label: "L'État dépense", text: "IS va à droite : la production monte sans que les taux bougent. Dans le piège à liquidité, la relance budgétaire est très efficace." }
+            ]
+          }
+        }
+      ],
+      forMe: "Quand tu lis « la BCE relève ses taux » ou « le gouvernement annonce un plan de relance », tu sais maintenant quelle courbe bouge : taux plus hauts = crédits plus chers et croissance freinée ; dépense publique = plus d'activité, mais des taux qui peuvent monter et une dette à payer.",
+      figures: [
+        { value: "1937", label: "John Hicks propose le schéma IS-LM", src: 1 },
+        { value: "787 Md$", label: "le plan de relance américain de 2009 (coût estimé au vote)", src: 3 },
+        { value: "4 %", label: "le taux de dépôt de la BCE en septembre 2023, contre −0,5 % en juillet 2022", src: 6 },
+        { value: "0-0,25 %", label: "le taux de la Fed à partir de décembre 2008 : le piège à liquidité", src: 5 }
+      ],
+      terms: ["politique-budgetaire", "politique-monetaire", "multiplicateur", "effet-eviction", "piege-liquidite", "taux-de-change", "taux-directeur"],
+      quiz: [
+        {
+          q: "Dans le modèle IS-LM, que représente la courbe IS ?",
+          options: ["L'équilibre du marché des biens", "L'équilibre du marché de la monnaie", "L'inflation", "Le taux de change"],
+          answer: 0,
+          explain: "IS = marché des biens : plus le taux d'intérêt est bas, plus on investit et consomme, plus la production est haute."
+        },
+        {
+          q: "L'État augmente ses dépenses. Que se passe-t-il dans IS-LM ?",
+          options: ["Y baisse et i baisse", "Y monte et i monte", "Y monte et i baisse", "Rien ne bouge"],
+          answer: 1,
+          explain: "IS se déplace vers la droite : la production monte, mais le taux d'intérêt aussi, ce qui freine l'investissement privé (effet d'éviction)."
+        },
+        {
+          q: "La banque centrale crée plus de monnaie. Que se passe-t-il ?",
+          options: ["Y monte et i baisse", "Y baisse et i monte", "Y monte et i monte", "Seule l'inflation change"],
+          answer: 0,
+          explain: "LM se déplace vers la droite : l'argent est plus abondant et moins cher, les taux baissent et la production monte."
+        },
+        {
+          q: "Qu'est-ce que l'effet d'éviction ?",
+          options: ["Des entreprises qui quittent le pays", "La hausse des taux causée par la relance, qui réduit l'investissement privé", "Une baisse des impôts", "Une dévaluation"],
+          answer: 1,
+          explain: "La relance budgétaire fait monter les taux : une partie de l'investissement privé disparaît, ce qui réduit l'effet de la relance."
+        },
+        {
+          q: "Dans un piège à liquidité (taux déjà à zéro), quelle politique marche le mieux selon le modèle ?",
+          options: ["La politique monétaire", "La politique budgétaire", "Aucune", "Les deux pareil"],
+          answer: 1,
+          explain: "Les taux ne peuvent plus baisser, donc créer de la monnaie ne sert à rien ; la dépense publique, elle, fait monter la production sans faire monter les taux."
+        },
+        {
+          q: "En changes fixes et avec des capitaux libres, quelle politique est efficace selon Mundell-Fleming ?",
+          options: ["La politique monétaire", "La politique budgétaire", "Aucune des deux", "Les deux"],
+          answer: 1,
+          explain: "La banque centrale doit défendre le taux de change, elle perd la main sur la monnaie ; la politique budgétaire reste efficace."
+        }
+      ],
+      sources: [
+        { short: "Hicks (1937)", name: "John Hicks, « Mr. Keynes and the “Classics”; A Suggested Interpretation », Econometrica, avril 1937", url: "https://www.jstor.org/stable/1907242" },
+        { short: "Prix Nobel", name: "Fondation Nobel, prix d'économie 1999 attribué à Robert Mundell (communiqué)", url: "https://www.nobelprize.org/prizes/economic-sciences/1999/press-release/" },
+        { short: "Pew", name: "Pew Charitable Trusts, « Analysis of the American Recovery and Reinvestment Act », 17 février 2009", url: "https://www.pewtrusts.org/research-and-analysis/reports/2009/02/17/analysis-of-the-american-recovery-and-reinvestment-act" },
+        { short: "Congressional Research Service", name: "Congressional Research Service, « American Recovery and Reinvestment Act of 2009 (P.L. 111-5): Summary and Legislative History », R40537", url: "https://www.everycrsreport.com/reports/R40537.html" },
+        { short: "Fed", name: "Réserve fédérale, communiqué du FOMC du 16 décembre 2008", url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081216b.htm" },
+        { short: "BCE", name: "Banque centrale européenne, taux directeurs de la BCE", url: "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html" },
+        { short: "BCE", name: "Banque centrale européenne, « ECB announces €750 billion Pandemic Emergency Purchase Programme (PEPP) », 18 mars 2020", url: "https://www.ecb.europa.eu/press/pr/date/2020/html/ecb.pr200318_1~3949d6f266.en.html" },
+        { short: "Hérodote", name: "Hérodote, « Les années Mitterrand » (dossier)", url: "https://www.herodote.net/dossier-74.php" },
+        { short: "Slate", name: "Slate, « Le PS, pas plus avancé dans ses réflexions qu'il y a trente ans » (1983-2014)", url: "https://www.slate.fr/story/91853/parti-socialiste-1983-2014" },
+        { short: "Université de Lille", name: "Université de Lille (HAL), étude sur la politique économique de 1981-1983 et le tournant de la rigueur", url: "https://hal.univ-lille.fr/hal-04119998v1/document" }
+      ]
+    },
 
     {
       id: "droits-de-douane",
@@ -514,6 +696,11 @@ window.GEOCO = {
   ],
 
   glossary: [
+    { id: "politique-budgetaire", term: "Politique budgétaire", def: "Utiliser les dépenses publiques et les impôts pour agir sur l'activité : dépenser plus ou baisser les impôts pour relancer, l'inverse pour freiner (rigueur).", example: "Un plan de relance qui finance des travaux publics." },
+    { id: "politique-monetaire", term: "Politique monétaire", def: "Action de la banque centrale sur la quantité de monnaie et les taux d'intérêt pour soutenir l'activité ou freiner l'inflation.", example: "La BCE qui monte ou baisse ses taux directeurs." },
+    { id: "multiplicateur", term: "Multiplicateur", def: "Une dépense publique devient le revenu de quelqu'un, qui en dépense une partie, qui devient le revenu d'un autre… La production finale peut monter de plus que la dépense de départ.", example: "10 milliards dépensés peuvent faire monter la production de plus de 10 milliards." },
+    { id: "effet-eviction", term: "Effet d'éviction", def: "Quand la relance publique fait monter les taux d'intérêt, une partie de l'investissement privé disparaît : la dépense publique « évince » la dépense privée.", example: "L'État emprunte beaucoup, les taux montent, une entreprise renonce à construire une usine." },
+    { id: "piege-liquidite", term: "Piège à liquidité", def: "Situation où les taux d'intérêt sont déjà au plus bas : créer plus de monnaie ne les fait plus baisser, la politique monétaire perd son effet.", example: "Les États-Unis après 2008, avec un taux de la Fed proche de zéro." },
     { id: "inflation", term: "Inflation", def: "Hausse générale et durable des prix. Avec la même somme d'argent, on peut acheter moins de choses.", example: "Si l'inflation est de 3 %, un produit à 100 € coûte 103 € un an plus tard." },
     { id: "banque-centrale", term: "Banque centrale", def: "Institution qui gère la monnaie d'un pays ou d'une zone, veille à la stabilité des prix et prête aux banques.", example: "La BCE pour la zone euro, la Fed pour les États-Unis." },
     { id: "taux-directeur", term: "Taux directeur", def: "Taux d'intérêt fixé par la banque centrale. Il influence tous les autres taux : crédits immobiliers, prêts aux entreprises, livrets d'épargne.", example: "Quand la BCE monte ses taux, ton crédit immobilier coûte plus cher." },

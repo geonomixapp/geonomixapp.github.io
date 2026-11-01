@@ -1579,3 +1579,25 @@ section.flash { animation: partFlash 1.6s ease-out; }
 .fiche-btn small { display: block; color: var(--muted); font-size: 13px; margin-top: 2px; }
 .fiche-btn:hover { background: rgba(255,255,255,.09); }
 .fiche-btn.locked b { color: #f5c542; }
+
+/* Schéma IS-LM animé (cours IS-LM, 1er nov. 2026) */
+.ilm { margin: 22px 0 6px; padding: 14px 14px 16px; border-radius: 18px; background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.1); max-width: 560px; }
+.ilm-svg { width: 100%; height: auto; display: block; color: rgba(255,255,255,.55); }
+.ilm-axis { stroke: rgba(255,255,255,.55); stroke-width: 1.4; }
+.ilm-ax { fill: rgba(255,255,255,.7); font: 600 10.5px system-ui, sans-serif; }
+.ilm-c { fill: none; stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; }
+.ilm-c.is { stroke: #ff8a3d; } .ilm-c.lm { stroke: #8b7bff; }
+.ilm-c.ghost { stroke-width: 2; stroke-dasharray: 5 5; opacity: .45; }
+.ilm-c.new { stroke-dasharray: 400; stroke-dashoffset: 400; animation: ilmDraw .9s ease-out forwards; }
+@keyframes ilmDraw { to { stroke-dashoffset: 0; } }
+.ilm-name { font: 800 12px system-ui, sans-serif; } .ilm-name.is { fill: #ff8a3d; } .ilm-name.lm { fill: #8b7bff; } .ilm-name.ghost { opacity: .45; }
+.ilm-guide { stroke: rgba(255,255,255,.55); stroke-dasharray: 3 4; stroke-width: 1; } .ilm-guide.old { opacity: .35; }
+.ilm-tick { fill: rgba(255,255,255,.5); font: 600 10px system-ui, sans-serif; } .ilm-tick.on { fill: #fff; }
+.ilm-e { fill: #fff; stroke: #000; stroke-width: 1.5; animation: ilmPop .5s .5s both; } .ilm-e0 { fill: none; stroke: rgba(255,255,255,.45); stroke-width: 1.5; }
+.ilm-el { fill: #fff; font: 800 12px system-ui, sans-serif; animation: ilmPop .5s .5s both; }
+@keyframes ilmPop { from { opacity: 0; transform: scale(.4); transform-box: fill-box; transform-origin: center; } }
+.ilm-steps { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 0; }
+.ilm-steps button { border: 1px solid rgba(255,255,255,.18); background: transparent; color: inherit; border-radius: 99px; padding: 7px 13px; font: 600 13px system-ui, sans-serif; cursor: pointer; }
+.ilm-steps button[aria-pressed="true"] { background: #ff8a3d; border-color: #ff8a3d; color: #111; }
+.ilm-cap { margin: 10px 2px 0; font-size: 15px; line-height: 1.45; color: rgba(255,255,255,.85); min-height: 3em; }
+@media (prefers-reduced-motion: reduce) { .ilm-c.new, .ilm-e, .ilm-el { animation: none; stroke-dashoffset: 0; } }
