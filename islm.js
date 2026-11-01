@@ -1,7 +1,7 @@
 // Schéma IS-LM animé (cours « Le modèle IS-LM », demande de l'auteur du 1er nov. 2026 : « simplifier, le minimum
 // de variables, expliquer avec illustration »). Deux axes seulement : Y (production) et i (taux d'intérêt).
 // GeocoISLM.html(diagram) → le schéma + ses boutons d'étapes ; GeocoISLM.mountAll(root) branche les boutons.
-// diagram = { preset: "base" | "budget" | "monnaie" | "mix" | "trappe", steps: [{ label, text }] } :
+// diagram = { preset: "base" | "budget" | "monnaie" | "mix" | "trappe" | "keynes" | "monetariste", steps: [{ label, text }] } :
 // chaque étape (bouton) montre un état des courbes ; le point d'équilibre glisse de l'un à l'autre.
 (function () {
   const W = 340, H = 250, X0 = 44, Y0 = 210, X1 = 326, Y1 = 18;
@@ -14,6 +14,10 @@
   // Piège à liquidité : LM plate à i = 10 jusqu'à Y = 76 + s, puis elle monte.
   const LMT = (s) => ({ kind: "lm", pts: [[4, 10], [76 + s, 10], [90 + s, 42]] });
   const ISL = (s) => ({ kind: "is", pts: [[4 + s, 62], [58 + s, 4]] });
+  // Cas extrêmes selon les écoles : IS verticale (keynésien élémentaire : l'investissement ne dépend pas du taux),
+  // LM verticale (monétariste : pas de demande de monnaie pour spéculer, la monnaie fixe la production).
+  const ISV = (s) => ({ kind: "is", pts: [[48 + s, 92], [48 + s, 6]] });
+  const LMV = (s) => ({ kind: "lm", pts: [[50 + s, 6], [50 + s, 92]] });
 
   function cross(a, b) {
     for (let p = 0; p < a.pts.length - 1; p++) for (let q = 0; q < b.pts.length - 1; q++) {
@@ -31,6 +35,8 @@
     budget: [{ is: IS(0), lm: LM(0) }, { is: IS(20), lm: LM(0), was: { is: IS(0) } }],
     monnaie: [{ is: IS(0), lm: LM(0) }, { is: IS(0), lm: LM(20), was: { lm: LM(0) } }, { is: IS(0), lm: LM(-16), was: { lm: LM(0) } }],
     mix: [{ is: IS(0), lm: LM(0) }, { is: IS(18), lm: LM(18), was: { is: IS(0), lm: LM(0) } }],
+    keynes: [{ is: ISV(0), lm: LM(0) }, { is: ISV(0), lm: LM(20), was: { lm: LM(0) } }, { is: ISV(16), lm: LM(0), was: { is: ISV(0) } }],
+    monetariste: [{ is: IS(0), lm: LMV(0) }, { is: IS(20), lm: LMV(0), was: { is: IS(0) } }, { is: IS(0), lm: LMV(16), was: { lm: LMV(0) } }],
     trappe: [{ is: ISL(0), lm: LMT(0) }, { is: ISL(0), lm: LMT(10), was: { lm: LMT(0) } }, { is: ISL(18), lm: LMT(0), was: { is: ISL(0) } }],
   };
 

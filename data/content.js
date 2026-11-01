@@ -86,19 +86,20 @@ window.GEOCO = {
       theme: "eco",
       title: "Le modèle IS-LM : ce que peuvent l'État et la banque centrale",
       hook: "Une crise frappe. L'État doit-il dépenser plus ? La banque centrale doit-elle baisser ses taux ? Deux courbes suffisent pour comprendre ce qui se passe, et pourquoi ça ne marche pas toujours.",
-      minutes: 9,
+      minutes: 14,
       level: "Intermédiaire",
       tldr: [
         "Le modèle IS-LM résume l'économie à court terme avec deux grandeurs seulement : la production (Y) et le taux d'intérêt (i) [1].",
         "La courbe IS montre l'équilibre du marché des biens, la courbe LM celui du marché de la monnaie ; l'économie se place là où elles se croisent.",
         "Quand l'État dépense plus, IS se déplace : la production monte, mais les taux aussi. Quand la banque centrale crée de la monnaie, LM se déplace : la production monte et les taux baissent.",
-        "En économie ouverte, tout dépend du taux de change : avec des changes fixes, c'est la politique budgétaire qui marche, avec des changes flexibles, c'est la politique monétaire [2]."
+        "En économie ouverte, tout dépend du taux de change : avec des changes fixes, c'est la politique budgétaire qui marche, avec des changes flexibles, c'est la politique monétaire [2].",
+        "Surtout, la réponse dépend de l'école : pour un keynésien, la dépense publique relance ; pour un monétariste, seule la monnaie compte ; pour un nouveau classique, les gens anticipent et la relance ne sert à rien [11][12]. Et chaque école a dominé à une époque différente."
       ],
       sections: [
         {
           title: "Deux variables, deux marchés",
           paragraphs: [
-            "Le modèle a été proposé par l'économiste britannique John Hicks en 1937, pour résumer en un schéma les idées de Keynes [1]. On le simplifie ici au maximum : on ne regarde que deux variables. ==Y==, la production (c'est aussi le revenu de tout le pays, à peu près le PIB). ==i==, le taux d'intérêt, c'est-à-dire le prix de l'argent qu'on emprunte.",
+            "Le modèle a été proposé par l'économiste britannique John Hicks en 1937, pour résumer en un schéma les idées de Keynes [1]. C'est une lecture de Keynes par des économistes formés à l'école néoclassique : on l'appelle souvent la « synthèse » entre les deux courants. On le simplifie ici au maximum : on ne regarde que deux variables. ==Y==, la production (c'est aussi le revenu de tout le pays, à peu près le PIB). ==i==, le taux d'intérêt, c'est-à-dire le prix de l'argent qu'on emprunte.",
             "La courbe IS (marché des biens). Quand le taux d'intérêt baisse, emprunter coûte moins cher : les entreprises investissent, les ménages achètent une voiture ou un logement à crédit. La demande monte, donc la production monte. Plus i est bas, plus Y est haut : la courbe IS descend.",
             "La courbe LM (marché de la monnaie). Quand la production monte, on fait plus d'achats, donc on a besoin de plus d'argent sur son compte. Si la quantité de monnaie ne change pas, l'argent devient plus « rare » et son prix, le taux d'intérêt, monte. Plus Y est haut, plus i est haut : la courbe LM monte.",
             "L'équilibre, c'est le point où les deux courbes se croisent : le seul couple (Y, i) où les deux marchés sont en équilibre en même temps. Toute la suite du cours consiste à déplacer une courbe et à regarder où va ce point."
@@ -154,8 +155,14 @@ window.GEOCO = {
           title: "Les deux ensemble : le « policy mix »",
           paragraphs: [
             "On peut combiner les deux politiques. Si l'État dépense plus (IS à droite) et que la banque centrale crée de la monnaie en même temps (LM à droite), la production monte beaucoup, et les taux n'ont pas besoin de monter : la banque centrale empêche l'effet d'éviction.",
-            "C'est ce qui s'est passé pendant le Covid : les États ont dépensé massivement pour soutenir les entreprises et les salariés, pendant que la BCE lançait le 18 mars 2020 un programme d'achat de titres de 750 milliards d'euros pour garder les taux bas [7]."
+            "C'est ce qui s'est passé pendant le Covid : les États ont dépensé massivement pour soutenir les entreprises et les salariés, pendant que la BCE lançait le 18 mars 2020 un programme d'achat de titres de 750 milliards d'euros pour garder les taux bas [7].",
+            "Derrière le policy mix, il y a la ==règle de Tinbergen==, du nom du premier prix Nobel d'économie [15] : pour atteindre deux objectifs (par exemple plus de production ET des taux stables), il faut deux instruments. Avec la seule dépense publique, on ne peut pas tenir les deux.",
+            "Le problème : les deux instruments ne sont pas dans les mêmes mains. L'État décide du budget, la banque centrale (indépendante) de la monnaie. Quand ils tirent dans deux sens opposés, les taux s'envolent."
           ],
+          example: {
+            title: "Exemple : Reagan contre Volcker, au début des années 1980",
+            text: "Aux États-Unis, le président Ronald Reagan baisse fortement les impôts et augmente les dépenses militaires (IS à droite), pendant que la Fed de Paul Volcker serre la monnaie pour casser l'inflation (LM à gauche) [13][17]. Résultat prévu par le schéma : des taux d'intérêt très élevés, le taux de la Fed restant au-dessus de 14 % de février à juin 1982 [17]. Volcker demandait lui-même à la Maison-Blanche de réduire le déficit [13]."
+          },
           diagram: {
             preset: "mix",
             steps: [
@@ -165,12 +172,55 @@ window.GEOCO = {
           }
         },
         {
+          title: "Tout dépend de l'école : keynésiens contre monétaristes",
+          paragraphs: [
+            "Le même schéma ne dit pas la même chose selon la forme qu'on donne aux courbes, et ce choix dépend de l'école de pensée. C'est ce qui fait que des économistes sérieux, avec le même modèle, conseillent des politiques opposées.",
+            "==Le cas keynésien.== Pour les keynésiens les plus stricts, l'investissement dépend surtout du moral des entrepreneurs, pas du taux d'intérêt : la courbe IS est presque verticale. Baisser les taux ne sert alors à rien, il faut que l'État dépense. C'est aussi le cas du piège à liquidité, où LM est à plat (voir plus bas).",
+            "==Le cas monétariste.== Pour Milton Friedman (prix Nobel 1976) et les monétaristes, on garde la monnaie pour acheter, pas pour spéculer : la courbe LM est presque verticale [12]. C'est la quantité de monnaie qui fixe la production. Une relance budgétaire ne fait alors que monter les taux et évincer complètement l'investissement privé ; seule la monnaie agit, et à long terme, elle ne fait monter que les prix."
+          ],
+          diagram: {
+            preset: "keynes",
+            steps: [
+              { label: "Vision keynésienne", text: "IS est verticale : l'investissement ne réagit pas au taux d'intérêt." },
+              { label: "Plus de monnaie", text: "LM descend, les taux baissent… mais la production ne bouge pas : la politique monétaire est inefficace." },
+              { label: "L'État dépense", text: "IS va à droite : toute la dépense publique se transforme en production. Pas d'effet d'éviction." }
+            ]
+          }
+        },
+        {
+          title: "Le regard monétariste et néoclassique",
+          paragraphs: [
+            "Dans la vision monétariste, le schéma s'inverse : c'est la politique budgétaire qui ne sert à rien à court terme, la politique monétaire qui agit (voir le schéma).",
+            "Les ==nouveaux classiques== vont plus loin. Robert Lucas (prix Nobel 1995) met au centre les ==anticipations rationnelles== : les gens utilisent toute l'information disponible et ne se laissent pas surprendre durablement par la politique économique [16]. Robert Barro ajoute en 1974 l'==équivalence ricardienne== : si l'État s'endette aujourd'hui, les ménages savent qu'il faudra payer des impôts demain, alors ils épargnent ce qu'on leur donne, et la relance tombe à plat [11].",
+            "Mais ces résultats reposent sur des hypothèses fortes : des ménages qui pensent à leurs enfants, des marchés financiers parfaits, une politique de l'État parfaitement prévisible. Les études ne tranchent pas nettement pour ou contre [11]."
+          ],
+          diagram: {
+            preset: "monetariste",
+            steps: [
+              { label: "Vision monétariste", text: "LM est verticale : la quantité de monnaie fixe la production." },
+              { label: "L'État dépense", text: "IS va à droite, mais seule la hausse des taux en sort : la production ne bouge pas. L'éviction est totale." },
+              { label: "Plus de monnaie", text: "LM va à droite : la production monte d'autant. Seule la monnaie agit (et, à long terme, sur les prix)." }
+            ]
+          }
+        },
+        {
+          title: "Ça dépend aussi du moment : chaque école a eu son époque",
+          paragraphs: [
+            "==Années 1950-1960 : l'âge d'or keynésien.== Le modèle IS-LM guide les politiques économiques jusqu'à la fin des années 1960 : quand le chômage monte, l'État relance.",
+            "==Années 1970 : la stagflation.== Chômage ET inflation en même temps, ce que le modèle keynésien n'avait pas prévu. Les monétaristes gagnent la bataille des idées : Friedman reçoit le Nobel en 1976 [12], et au début des années 1980 la Fed de Paul Volcker serre la monnaie pour casser l'inflation [13].",
+            "==Années 1980-1990 : les nouveaux classiques.== Anticipations rationnelles, méfiance envers la relance, banques centrales indépendantes qui visent d'abord la stabilité des prix [16].",
+            "==Depuis 2008 : le retour de Keynes.== Avec des taux à zéro, on retrouve le piège à liquidité : les États relancent par la dépense, et les banques centrales inventent de nouveaux outils [5][7]. Retenir : un modèle est une paire de lunettes ; on change de lunettes quand le monde change."
+          ]
+        },
+        {
           title: "En économie ouverte : le taux de change change tout",
           paragraphs: [
             "Dans la réalité, un pays commerce avec les autres et l'argent circule d'un pays à l'autre. Robert Mundell (prix Nobel 1999) et Marcus Fleming ont ajouté cette ouverture au modèle [2]. Une seule variable de plus : ==le taux de change==, le prix de la monnaie du pays en monnaie étrangère.",
             "Idée clé : si les capitaux circulent librement, le taux d'intérêt du pays ne peut pas s'écarter longtemps de celui du reste du monde. Si i monte, l'argent étranger afflue pour en profiter ; s'il baisse, l'argent part.",
             "En changes flexibles (la monnaie flotte, comme l'euro face au dollar), la politique monétaire est très efficace : plus de monnaie, les taux baissent, l'argent part, la monnaie perd de la valeur, les exportations deviennent moins chères et la production monte. La politique budgétaire, elle, marche mal : la relance fait monter les taux, l'argent afflue, la monnaie s'apprécie, les exportations reculent et annulent la relance [2].",
-            "En changes fixes (la monnaie est attachée à une autre), c'est l'inverse : la banque centrale doit défendre le taux de change, donc elle perd la main sur la monnaie ; la politique budgétaire, elle, devient efficace [2]. Et une relance qui fait trop importer peut forcer à dévaluer."
+            "En changes fixes (la monnaie est attachée à une autre), c'est l'inverse : la banque centrale doit défendre le taux de change, donc elle perd la main sur la monnaie ; la politique budgétaire, elle, devient efficace [2]. Et une relance qui fait trop importer peut forcer à dévaluer.",
+            "==Grand pays, petit pays.== Quand un petit pays relance par la monnaie avec des changes fixes, il doit défendre sa monnaie et n'obtient rien. Quand c'est le pays dominant (les États-Unis), sa détente monétaire se transmet aux autres, qui suivent pour garder leur taux de change : sa politique devient celle du monde.",
+            "==L'union monétaire (la zone euro).== Plus de taux de change entre les membres, une seule banque centrale, un seul taux d'intérêt. Si un pays relance seul par la dépense, il fait monter le taux commun : l'effet d'éviction est partagé par tous ses voisins. D'où les règles du Pacte de stabilité et de croissance : un déficit public d'au plus 3 % du PIB et une dette d'au plus 60 % [14]."
           ],
           example: {
             title: "Exemple : la relance française de 1981-1983",
@@ -247,6 +297,24 @@ window.GEOCO = {
           options: ["La politique monétaire", "La politique budgétaire", "Aucune des deux", "Les deux"],
           answer: 1,
           explain: "La banque centrale doit défendre le taux de change, elle perd la main sur la monnaie ; la politique budgétaire reste efficace."
+        },
+        {
+          q: "Pour un monétariste, la courbe LM est…",
+          options: ["horizontale", "verticale", "décroissante", "inutile"],
+          answer: 1,
+          explain: "Sans demande de monnaie pour spéculer, c'est la quantité de monnaie qui fixe la production : LM est verticale, et la relance budgétaire n'a d'effet que sur les taux."
+        },
+        {
+          q: "Que dit l'équivalence ricardienne (Barro, 1974) ?",
+          options: ["La dépense publique double toujours la production", "Les ménages épargnent la relance financée par la dette, car ils anticipent les impôts futurs", "Il faut toujours dévaluer", "La monnaie n'a aucun rôle"],
+          answer: 1,
+          explain: "Les ménages savent que la dette d'aujourd'hui sera payée par des impôts demain : ils épargnent, et la relance tombe à plat (sous des hypothèses fortes)."
+        },
+        {
+          q: "Quelle école domine dans les années 1970, face à la stagflation ?",
+          options: ["Les keynésiens", "Les monétaristes", "Les mercantilistes", "Les physiocrates"],
+          answer: 1,
+          explain: "Chômage et inflation en même temps : le modèle keynésien est mis en difficulté, Friedman et les monétaristes gagnent la bataille des idées."
         }
       ],
       sources: [
@@ -259,10 +327,309 @@ window.GEOCO = {
         { short: "BCE", name: "Banque centrale européenne, « ECB announces €750 billion Pandemic Emergency Purchase Programme (PEPP) », 18 mars 2020", url: "https://www.ecb.europa.eu/press/pr/date/2020/html/ecb.pr200318_1~3949d6f266.en.html" },
         { short: "Hérodote", name: "Hérodote, « Les années Mitterrand » (dossier)", url: "https://www.herodote.net/dossier-74.php" },
         { short: "Slate", name: "Slate, « Le PS, pas plus avancé dans ses réflexions qu'il y a trente ans » (1983-2014)", url: "https://www.slate.fr/story/91853/parti-socialiste-1983-2014" },
-        { short: "Université de Lille", name: "Université de Lille (HAL), étude sur la politique économique de 1981-1983 et le tournant de la rigueur", url: "https://hal.univ-lille.fr/hal-04119998v1/document" }
+        { short: "Université de Lille", name: "Université de Lille (HAL), étude sur la politique économique de 1981-1983 et le tournant de la rigueur", url: "https://hal.univ-lille.fr/hal-04119998v1/document" },
+        { short: "Barro (1974)", name: "Robert J. Barro, « Are Government Bonds Net Wealth? », Journal of Political Economy, vol. 82, n° 6, 1974", url: "https://www.jstor.org/stable/1830280" },
+        { short: "Prix Nobel", name: "Fondation Nobel, prix d'économie 1976 attribué à Milton Friedman (communiqué)", url: "https://www.nobelprize.org/prizes/economic-sciences/1976/press-release/" },
+        { short: "Equitable Growth", name: "Washington Center for Equitable Growth, « What Was Going on Between the White House and the Federal Reserve in the Early 1980s? »", url: "https://equitablegrowth.org/going-white-house-federal-reserve-early-1980s-daily-focus/" },
+        { short: "Commission européenne", name: "Commission européenne, « Stability and Growth Pact »", url: "https://economy-finance.ec.europa.eu/economic-and-fiscal-governance/stability-and-growth-pact_en" },
+        { short: "Prix Nobel", name: "Fondation Nobel, prix d'économie 1969 attribué à Ragnar Frisch et Jan Tinbergen (communiqué)", url: "https://www.nobelprize.org/prizes/economic-sciences/1969/press-release/" },
+        { short: "Prix Nobel", name: "Fondation Nobel, prix d'économie 1995 attribué à Robert Lucas (communiqué)", url: "https://www.nobelprize.org/prizes/economic-sciences/1995/press-release/" },
+        { short: "Cato Institute", name: "Cato Institute, « The Reagan-Volcker Years in Retrospect », 2022", url: "https://www.cato.org/blog/reagan-volcker-years-retrospect-3" }
       ]
     },
 
+    {
+      id: "ecoles-economiques",
+      emoji: "🏛️",
+      theme: "eco",
+      title: "Les grandes écoles économiques : classiques, keynésiens, monétaristes…",
+      hook: "Face à une crise, deux économistes peuvent donner deux conseils opposés. Pas parce que l'un se trompe, mais parce qu'ils ne regardent pas l'économie avec les mêmes lunettes. Voici les grandes écoles, leur idée centrale et l'époque qui les a fait gagner.",
+      minutes: 12,
+      level: "Intermédiaire",
+      tldr: [
+        "Les classiques et les néoclassiques font confiance aux marchés : laissés libres, ils retrouvent l'équilibre, et l'État doit rester discret [1][2].",
+        "Keynes répond à la crise des années 1930 : la demande peut rester trop faible, le chômage durer, et l'État doit relancer [3].",
+        "Les monétaristes (Friedman) puis les nouveaux classiques (Lucas) reprennent la main dans les années 1970-1980 : surveiller la monnaie, se méfier de la relance [5][6].",
+        "Chaque école est née d'une crise que la précédente expliquait mal : la question à se poser n'est pas « qui a raison ? » mais « quelles lunettes pour quel moment ? »."
+      ],
+      sections: [
+        {
+          title: "Les classiques : le marché s'équilibre tout seul",
+          paragraphs: [
+            "En 1776, l'Écossais Adam Smith publie « La Richesse des nations » : chacun, en cherchant son propre intérêt, contribue sans le vouloir à la richesse de tous, comme guidé par une « main invisible » [1]. David Ricardo y ajoute en 1817 l'avantage comparatif, qui justifie le libre-échange.",
+            "L'idée centrale : ==les marchés s'ajustent==. Si les salaires sont trop hauts, ils baissent jusqu'à ce que tout le monde trouve un emploi. Selon la « loi de Say » (Jean-Baptiste Say), la production crée ses propres débouchés : il ne peut pas y avoir de manque durable de demande.",
+            "La monnaie n'est qu'un « voile » : elle ne change pas la production réelle, seulement les prix. L'État a des fonctions limitées : justice, défense, quelques infrastructures."
+          ],
+          example: {
+            title: "Face à une crise, le conseil classique",
+            text: "Ne rien forcer : laisser baisser les prix et les salaires, l'économie retrouvera d'elle-même le plein emploi. Équilibrer le budget de l'État."
+          }
+        },
+        {
+          title: "Les néoclassiques : l'économie mise en équations",
+          paragraphs: [
+            "Dans les années 1870, Léon Walras, William Jevons et Carl Menger changent de méthode : la valeur d'un bien vient de son utilité pour celui qui l'achète, et on raisonne « à la marge » (ce que rapporte une unité de plus) [2]. Walras construit l'équilibre général : tous les marchés s'équilibrent en même temps.",
+            "Leur héritage est immense : l'offre et la demande, les prix qui s'ajustent, la concurrence parfaite. C'est encore la base de la plupart des manuels d'économie.",
+            "Leur vision de la crise reste celle des classiques : le chômage durable vient de ce qui empêche les prix de s'ajuster (salaires minimums, syndicats, règles)."
+          ]
+        },
+        {
+          title: "Keynes : et si le marché ne se rétablissait pas tout seul ?",
+          paragraphs: [
+            "La crise de 1929 dure, le chômage reste massif pendant des années : les marchés ne se rétablissent pas. En 1936, John Maynard Keynes publie la « Théorie générale de l'emploi, de l'intérêt et de la monnaie » [3].",
+            "Son idée : ==c'est la demande qui fixe la production==. Si les ménages et les entreprises ont peur de l'avenir, ils dépensent moins, les entreprises produisent moins, embauchent moins, et le chômage peut durer : c'est un ==équilibre de sous-emploi==. Baisser les salaires peut même aggraver les choses, car les salariés consomment moins.",
+            "Le remède : ==l'État relance== la demande (dépenses publiques, baisse d'impôts), quitte à faire un déficit pendant la crise. La monnaie compte aussi, mais elle peut se heurter au piège à liquidité.",
+            "Keynes insiste aussi sur l'incertitude et les « esprits animaux » des investisseurs : l'investissement dépend de la confiance, pas seulement du taux d'intérêt."
+          ],
+          diagram: {
+            preset: "budget",
+            steps: [
+              { label: "La crise", text: "La demande est trop faible : l'économie est coincée au point E, avec du chômage." },
+              { label: "L'État relance", text: "La dépense publique pousse IS à droite : la production remonte. C'est la réponse keynésienne." }
+            ]
+          },
+          example: {
+            title: "Face à une crise, le conseil keynésien",
+            text: "Relancer : l'État dépense (grands travaux, aides) et accepte un déficit le temps que la demande privée reparte. Le plan américain de 2009 en est un exemple (voir le cours IS-LM)."
+          }
+        },
+        {
+          title: "La synthèse : Keynes à court terme, les classiques à long terme",
+          paragraphs: [
+            "Après la guerre, des économistes comme John Hicks (le modèle IS-LM, 1937) et Paul Samuelson réconcilient les deux camps : à court terme, les prix sont rigides et Keynes a raison ; à long terme, les prix s'ajustent et les néoclassiques ont raison [4].",
+            "C'est l'âge d'or keynésien des années 1950-1960 : forte croissance, plein emploi, et des États qui pilotent l'économie avec le budget et la monnaie. La courbe de Phillips semble offrir un choix : un peu plus d'inflation contre un peu moins de chômage."
+          ]
+        },
+        {
+          title: "Les monétaristes : la monnaie avant tout",
+          paragraphs: [
+            "Dans les années 1970, tout se dérègle : la stagflation (stagnation + inflation) mêle chômage et inflation, ce que la courbe de Phillips disait impossible. Milton Friedman, de l'université de Chicago, avait prévenu [5].",
+            "Ses idées : ==l'inflation est d'abord un phénomène monétaire== (trop de monnaie pour trop peu de biens) ; à long terme, il existe un ==chômage « naturel »== qu'on ne peut pas faire baisser durablement en créant de l'inflation ; la relance budgétaire évince l'investissement privé.",
+            "Son conseil : une ==règle simple==, faire croître la masse monétaire au même rythme que l'économie, plutôt que des relances au coup par coup. Friedman reçoit le prix Nobel en 1976 [5]."
+          ],
+          diagram: {
+            preset: "monetariste",
+            steps: [
+              { label: "Vision monétariste", text: "LM est verticale : c'est la quantité de monnaie qui fixe la production." },
+              { label: "L'État relance", text: "IS va à droite, mais seuls les taux montent : la relance budgétaire ne sert à rien." },
+              { label: "Plus de monnaie", text: "La production monte à court terme ; à long terme, seuls les prix montent." }
+            ]
+          },
+          example: {
+            title: "Face à une crise, le conseil monétariste",
+            text: "Ne pas multiplier les relances budgétaires ; stabiliser la croissance de la monnaie et lutter d'abord contre l'inflation. Au début des années 1980, la Fed de Paul Volcker serre la monnaie pour casser l'inflation américaine (voir le cours IS-LM)."
+          }
+        },
+        {
+          title: "Les nouveaux classiques : les gens anticipent",
+          paragraphs: [
+            "Robert Lucas (prix Nobel 1995) va plus loin avec les ==anticipations rationnelles== : les ménages et les entreprises utilisent toute l'information disponible et ne se laissent pas tromper longtemps [6]. Si l'État annonce une relance, ils en anticipent les effets (inflation, impôts futurs) et ajustent leur comportement : la relance perd son effet.",
+            "Robert Barro en tire l'==équivalence ricardienne== (1974) : une relance financée par la dette est épargnée par les ménages, qui prévoient les impôts de demain [7].",
+            "Conséquences pratiques : ==des règles plutôt que des surprises==, des banques centrales indépendantes et crédibles, chargées d'abord de la stabilité des prix. C'est le modèle de la BCE, créée en 1998."
+          ]
+        },
+        {
+          title: "Les nouveaux keynésiens : les prix ne s'ajustent pas si vite",
+          paragraphs: [
+            "Depuis les années 1980, une autre famille reprend les outils des nouveaux classiques (anticipations rationnelles, calculs rigoureux) mais garde l'intuition de Keynes : ==les prix et les salaires sont rigides==. Changer ses prix coûte (catalogues, contrats, négociations), et l'information est imparfaite : un vendeur d'occasion en sait plus que l'acheteur, ce qu'a montré George Akerlof (prix Nobel 2001) [8].",
+            "Résultat : à court terme, la politique économique peut aider. C'est aujourd'hui le cadre le plus utilisé par les banques centrales, qui le mélangent avec des idées des autres écoles."
+          ]
+        },
+        {
+          title: "Et les autres : autrichiens, marxistes, post-keynésiens…",
+          paragraphs: [
+            "==L'école autrichienne== (Friedrich Hayek, prix Nobel 1974) se méfie encore plus de l'État que les classiques : les prix transmettent une information qu'aucun planificateur ne peut réunir, et les crises viennent du crédit trop facile [9].",
+            "==Les marxistes== voient dans le capitalisme un conflit entre ceux qui possèdent le capital et ceux qui vendent leur travail, avec des crises qui reviennent par nature.",
+            "==Les post-keynésiens== prolongent l'incertitude radicale de Keynes et insistent sur la fragilité de la finance et le rôle de la monnaie créée par les banques."
+          ]
+        },
+        {
+          title: "Ce qu'il faut retenir : quelles lunettes pour quel moment ?",
+          paragraphs: [
+            "Chaque école est née d'une crise que la précédente expliquait mal : Keynes après 1929, les monétaristes après la stagflation des années 1970, le retour des idées keynésiennes après 2008, quand les taux sont tombés à zéro.",
+            "Aucune n'a raison partout et toujours. Quand le problème est une demande effondrée, les lunettes keynésiennes aident ; quand c'est l'inflation, les lunettes monétaristes ; quand la politique économique est imprévisible, celles des nouveaux classiques.",
+            "Dans un débat, demande-toi : ==de quelle école parle-t-il, et dans quelle situation sommes-nous ?== C'est souvent là que se cache le désaccord."
+          ]
+        }
+      ],
+      forMe: "Quand un responsable politique dit « il faut relancer » et qu'un autre répond « il faut réduire le déficit », tu peux reconnaître leurs écoles : le premier raisonne en keynésien, le second en classique ou en monétariste. Et te demander laquelle colle le mieux à la situation du moment.",
+      figures: [
+        { value: "1776", label: "« La Richesse des nations » d'Adam Smith", src: 1 },
+        { value: "1936", label: "la « Théorie générale » de Keynes", src: 3 },
+        { value: "1976", label: "prix Nobel de Milton Friedman, le père du monétarisme", src: 5 },
+        { value: "1995", label: "prix Nobel de Robert Lucas et des anticipations rationnelles", src: 6 }
+      ],
+      terms: ["politique-budgetaire", "politique-monetaire", "inflation", "effet-eviction", "piege-liquidite", "banque-centrale"],
+      quiz: [
+        {
+          q: "Selon la « loi de Say » des classiques…",
+          options: ["la production crée ses propres débouchés", "l'État doit toujours relancer", "l'inflation vient de la monnaie", "les prix sont rigides"],
+          answer: 0,
+          explain: "Pour les classiques, il ne peut pas y avoir de manque durable de demande : ce qu'on produit finit par se vendre."
+        },
+        {
+          q: "Quelle crise a fait naître la pensée de Keynes ?",
+          options: ["La stagflation des années 1970", "La crise de 1929 et la Grande Dépression", "La crise de 2008", "Le choc pétrolier"],
+          answer: 1,
+          explain: "Le chômage massif et durable des années 1930 contredisait l'idée que les marchés se rétablissent seuls ; la « Théorie générale » paraît en 1936."
+        },
+        {
+          q: "Pour Milton Friedman, l'inflation est d'abord…",
+          options: ["un phénomène monétaire", "la faute des syndicats", "le prix du pétrole", "une bonne chose"],
+          answer: 0,
+          explain: "Trop de monnaie pour trop peu de biens : pour les monétaristes, c'est la quantité de monnaie qui explique l'inflation."
+        },
+        {
+          q: "Que disent les anticipations rationnelles (Lucas) ?",
+          options: ["Les gens se trompent toujours", "Les gens utilisent toute l'information et ne se laissent pas tromper longtemps par la politique économique", "Les prix sont fixes", "La monnaie n'existe pas"],
+          answer: 1,
+          explain: "Si les gens anticipent les effets d'une relance, elle perd une grande partie de son efficacité : d'où la préférence pour des règles stables."
+        },
+        {
+          q: "Qu'est-ce qui distingue les nouveaux keynésiens ?",
+          options: ["Ils refusent les mathématiques", "Ils pensent que les prix et salaires sont rigides à court terme", "Ils veulent supprimer la monnaie", "Ils sont contre toute politique économique"],
+          answer: 1,
+          explain: "Ils gardent les outils modernes mais ajoutent des rigidités : à court terme, la politique économique peut aider."
+        }
+      ],
+      sources: [
+        { short: "Britannica", name: "Encyclopædia Britannica, « Adam Smith »", url: "https://www.britannica.com/biography/Adam-Smith" },
+        { short: "Britannica", name: "Encyclopædia Britannica, « Léon Walras »", url: "https://www.britannica.com/biography/Leon-Walras" },
+        { short: "Britannica", name: "Encyclopædia Britannica, « John Maynard Keynes »", url: "https://www.britannica.com/biography/John-Maynard-Keynes" },
+        { short: "Prix Nobel", name: "Fondation Nobel, prix d'économie 1970 attribué à Paul Samuelson (communiqué)", url: "https://www.nobelprize.org/prizes/economic-sciences/1970/press-release/" },
+        { short: "Prix Nobel", name: "Fondation Nobel, prix d'économie 1976 attribué à Milton Friedman (communiqué)", url: "https://www.nobelprize.org/prizes/economic-sciences/1976/press-release/" },
+        { short: "Prix Nobel", name: "Fondation Nobel, prix d'économie 1995 attribué à Robert Lucas (communiqué)", url: "https://www.nobelprize.org/prizes/economic-sciences/1995/press-release/" },
+        { short: "Barro (1974)", name: "Robert J. Barro, « Are Government Bonds Net Wealth? », Journal of Political Economy, vol. 82, n° 6, 1974", url: "https://www.jstor.org/stable/1830280" },
+        { short: "Prix Nobel", name: "Fondation Nobel, prix d'économie 2001 attribué à George Akerlof, Michael Spence et Joseph Stiglitz (communiqué)", url: "https://www.nobelprize.org/prizes/economic-sciences/2001/press-release/" },
+        { short: "Prix Nobel", name: "Fondation Nobel, prix d'économie 1974 attribué à Gunnar Myrdal et Friedrich von Hayek (communiqué)", url: "https://www.nobelprize.org/prizes/economic-sciences/1974/press-release/" }
+      ]
+    },
+    {
+      id: "eurodollars",
+      emoji: "🌊",
+      theme: "fin",
+      title: "Les eurodollars : ces dollars qui vivent hors des États-Unis",
+      hook: "Des milliers de milliards de dollars circulent dans des banques à Londres, Tokyo ou Singapour, loin du contrôle de la Fed. Ils sont nés de la guerre froide, et à chaque grande crise, c'est la Fed qui doit venir les sauver.",
+      minutes: 8,
+      level: "Intermédiaire",
+      tldr: [
+        "Un eurodollar, c'est simplement un dollar déposé dans une banque hors des États-Unis. Rien à voir avec l'euro : le mot est né bien avant [1][2].",
+        "Le marché est né au milieu des années 1950, quand des banques soviétiques ont placé leurs dollars à Londres et à Paris de peur qu'ils soient saisis aux États-Unis [1].",
+        "Il a grossi parce qu'il échappait aux règles américaines (plafonds de taux, réserves obligatoires) : fin 2019, les banques non américaines devaient environ 13 000 milliards de dollars [1][3].",
+        "Quand ces dollars viennent à manquer, comme en 2008 et en 2020, la Fed prête des dollars aux autres banques centrales : les « swap lines » [4][5]."
+      ],
+      sections: [
+        {
+          title: "Un dollar… qui n'est pas aux États-Unis",
+          paragraphs: [
+            "Quand une entreprise française dépose des dollars dans une banque à Paris, ou qu'une banque de Londres prête des dollars à une entreprise brésilienne, on parle d'==eurodollars== : des dollars déposés ou prêtés ==en dehors des États-Unis== [2].",
+            "Le préfixe « euro » vient de ce que les premiers se trouvaient en Europe, surtout à Londres. Il est resté, même pour des dollars à Tokyo ou à Singapour, et n'a aucun lien avec la monnaie européenne créée bien plus tard [2].",
+            "Ces dollars ne sont pas des billets cachés dans un coffre : ce sont des ==dettes en dollars inscrites au bilan de banques étrangères==. La banque à Londres doit des dollars à son client, et elle prête ces dollars à d'autres."
+          ],
+          example: {
+            title: "Exemple concret",
+            text: "Une compagnie aérienne indonésienne achète des avions payés en dollars. Elle emprunte ces dollars à une banque de Singapour, qui les a elle-même empruntés à un fonds ou à une autre banque. Aucun de ces dollars ne passe par une banque américaine : c'est un circuit d'eurodollars."
+          }
+        },
+        {
+          title: "Né de la guerre froide",
+          paragraphs: [
+            "Au milieu des années 1950, l'Union soviétique a besoin de dollars pour commercer, mais ses banques craignent que le gouvernement américain saisisse leurs avoirs déposés aux États-Unis. Elles les placent donc dans des banques à Londres et à Paris [1].",
+            "Les banques de Londres découvrent alors qu'elles peuvent accepter et prêter des dollars hors de portée des règles américaines. Le marché est lancé, avec la City comme centre [1][2]."
+          ]
+        },
+        {
+          title: "Pourquoi il a autant grossi",
+          paragraphs: [
+            "Aux États-Unis, la ==réglementation Q== plafonnait les taux d'intérêt que les banques pouvaient payer sur les dépôts, et les banques devaient garder des réserves obligatoires. À Londres, rien de tout ça : les banques pouvaient mieux rémunérer les dépôts en dollars et prêter moins cher [1][2].",
+            "Les banques américaines elles-mêmes s'y sont mises : en 1969, la Fed les autorise à passer par des « coquilles » aux Bahamas (Nassau) pour participer au marché sans ouvrir d'agence à Londres [1].",
+            "La concurrence de ce marché libre a fini par changer la banque américaine elle-même, jusqu'à la fin des plafonds de taux sur les dépôts [1]. Avec le choc pétrolier, les dollars des pays producteurs (les « pétrodollars ») viennent eux aussi grossir ce circuit."
+          ]
+        },
+        {
+          title: "Aujourd'hui : un géant que personne ne contrôle vraiment",
+          paragraphs: [
+            "La Banque des règlements internationaux (BRI), la « banque des banques centrales », mesure ce marché par les dettes en dollars des banques situées hors des États-Unis [3].",
+            "Fin 2019, les banques dont le siège n'est pas aux États-Unis devaient environ ==13 000 milliards de dollars==, presque autant qu'avant la crise de 2008, et l'essentiel était enregistré hors du territoire américain [3].",
+            "C'est une des raisons de la puissance du dollar : le monde entier emprunte, commerce et s'endette en dollars, même sans passer par l'Amérique (voir le cours sur le dollar). Mais c'est aussi une fragilité : la Fed crée les dollars, pas les banques de Londres ou de Tokyo."
+          ]
+        },
+        {
+          title: "Quand les dollars viennent à manquer : les « swap lines »",
+          paragraphs: [
+            "Une banque européenne qui a prêté des dollars à long terme et s'est financée en dollars à court terme est en danger si plus personne ne veut lui prêter de dollars. Elle ne peut pas en créer : seule la Fed le peut.",
+            "C'est ce qui arrive en 2008. Dès le 12 décembre 2007, la Fed ouvre des ==lignes d'échange (« swap lines »)== avec la Banque centrale européenne et la Banque nationale suisse : elle leur prête des dollars contre leur monnaie, et elles les reprêtent à leurs banques [4]. Le réseau monte jusqu'à 14 banques centrales, et en décembre 2008, plus de 580 milliards de dollars sont prêtés, soit plus de 25 % du bilan de la Fed [4].",
+            "En 2020, avec le Covid, le même mécanisme est relancé : l'utilisation des swap lines atteint 449 milliards de dollars en mai [5]."
+          ],
+          example: {
+            title: "Ce que ça montre",
+            text: "La Fed n'est pas seulement la banque centrale des États-Unis : en crise, elle devient le prêteur en dernier ressort de tout le système en dollars. Les pays qui ont une swap line avec elle sont protégés ; les autres doivent puiser dans leurs réserves ou se tourner vers le FMI."
+          }
+        },
+        {
+          title: "Utilité et limites",
+          paragraphs: [
+            "==Utile== : le marché des eurodollars permet au commerce mondial de se financer dans la monnaie qu'il utilise, à des taux souvent plus bas, partout dans le monde.",
+            "==Risqué== : il échappe en partie aux autorités, peut gonfler très vite, et repose en dernier ressort sur la bonne volonté de la Fed. Une crise de liquidité en dollars à Londres ou à Tokyo peut se transmettre à toute la planète.",
+            "==Géopolitique== : l'accès aux dollars devient un levier. Être coupé du circuit du dollar, comme avec les sanctions, peut paralyser un pays (voir le cours sur les sanctions)."
+          ]
+        }
+      ],
+      forMe: "Si ta banque, ton entreprise ou ton pays a besoin de dollars, il dépend de ce marché mondial, et donc, en cas de crise, des décisions de la Fed. C'est pour ça qu'une crise bancaire américaine peut faire trembler les marchés européens ou asiatiques.",
+      figures: [
+        { value: "≈ 13 000 Md$", label: "les dettes en dollars des banques non américaines fin 2019", src: 3 },
+        { value: "+ de 580 Md$", label: "les dollars prêtés par la Fed aux autres banques centrales en décembre 2008", src: 4 },
+        { value: "14", label: "banques centrales reliées à la Fed par des swap lines en 2008", src: 4 },
+        { value: "449 Md$", label: "le pic d'utilisation des swap lines en mai 2020", src: 5 }
+      ],
+      terms: ["monnaie-reserve", "banque-centrale", "taux-de-change", "politique-monetaire", "sanctions"],
+      quiz: [
+        {
+          q: "Qu'est-ce qu'un eurodollar ?",
+          options: ["Un euro converti en dollars", "Un dollar déposé dans une banque hors des États-Unis", "Une monnaie commune européenne et américaine", "Un billet de dollar imprimé en Europe"],
+          answer: 1,
+          explain: "C'est un dollar déposé ou prêté hors des États-Unis ; le nom vient de Londres, où le marché est né, pas de l'euro."
+        },
+        {
+          q: "Pourquoi les banques soviétiques ont-elles placé leurs dollars à Londres dans les années 1950 ?",
+          options: ["Pour payer moins d'impôts", "Par peur que leurs dollars soient saisis aux États-Unis", "Parce que l'euro existait déjà", "Pour acheter de l'or"],
+          answer: 1,
+          explain: "En pleine guerre froide, elles craignaient une saisie par le gouvernement américain : c'est l'origine du marché."
+        },
+        {
+          q: "Quelle règle américaine a fait grossir le marché des eurodollars ?",
+          options: ["La réglementation Q, qui plafonnait les taux des dépôts", "Le Pacte de stabilité", "La loi de Say", "Les accords de Bretton Woods"],
+          answer: 0,
+          explain: "Hors des États-Unis, pas de plafond de taux ni de réserves obligatoires : les banques de Londres pouvaient mieux rémunérer les dépôts en dollars."
+        },
+        {
+          q: "À quoi servent les « swap lines » de la Fed ?",
+          options: ["À prêter des dollars aux autres banques centrales en cas de crise", "À échanger de l'or", "À fixer le prix du pétrole", "À imprimer des euros"],
+          answer: 0,
+          explain: "Seule la Fed peut créer des dollars : en 2008 et en 2020, elle en a prêté aux autres banques centrales pour qu'elles dépannent leurs banques."
+        }
+      ],
+      sources: [
+        { short: "Fed de Boston", name: "Federal Reserve Bank of Boston, « Competition & Opportunity », Regional Review, 2001", url: "https://www.bostonfed.org/publications/regional-review/2001/quarter-3/competition-opportunity.aspx" },
+        { short: "Fed de Richmond", name: "Federal Reserve Bank of Richmond, « Instruments of the Money Market », chapitre 5 : « Eurodollars »", url: "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_05.pdf" },
+        { short: "BRI", name: "Banque des règlements internationaux, BIS Bulletin n° 27, « Global banks' dollar funding needs and central bank swap lines », 16 juillet 2020", url: "https://www.bis.org/publ/bisbull27.pdf" },
+        { short: "Fed de New York", name: "Federal Reserve Bank of New York, « The Federal Reserve's Dollar Liquidity Swap Lines » (2010)", url: "https://www.newyorkfed.org/newsevents/news/research/2010/rp100813.html" },
+        { short: "BRI", name: "Banque des règlements internationaux, BIS Bulletin n° 34, « Central bank swap lines and cross-border bank flows », décembre 2020", url: "https://www.bis.org/publ/bisbull34.htm" }
+      ],
+      visuals: [
+        {
+          kind: "chart",
+          type: "bar",
+          title: "Quand le monde manque de dollars",
+          subtitle: "Dollars prêtés par la Fed aux autres banques centrales (swap lines), au plus haut de chaque crise",
+          xLabel: "Crise",
+          unit: "Milliards de dollars",
+          suffix: " Md$",
+          data: [["Déc. 2008", 580], ["Mai 2020", 449]],
+          source: "Fed de New York (2010) ; BRI, BIS Bulletin n° 34 (2020)"
+        }
+      ]
+    },
     {
       id: "droits-de-douane",
       emoji: "🚧",
