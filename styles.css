@@ -1610,3 +1610,7 @@ section.flash { animation: partFlash 1.6s ease-out; }
 .plain-chain li::before { content: counter(pc); position: absolute; left: 12px; top: 9px; width: 22px; height: 22px; border-radius: 50%; background: #5be7ff; color: #071018; font: 800 12px/22px system-ui, sans-serif; text-align: center; }
 .plain-chain li + li { margin-top: 22px; }
 .plain-chain li + li::after { content: "↓"; position: absolute; left: 50%; top: -21px; transform: translateX(-50%); color: #5be7ff; font-weight: 800; }
+
+.ilm-a { fill: none; stroke: #fff; stroke-width: 1.6; stroke-dasharray: 2 2; } .ilm-al { fill: rgba(255,255,255,.7); font: 800 11px system-ui, sans-serif; }
+.ilm-ev { stroke: #ff5c5c; stroke-width: 2; fill: none; color: #ff5c5c; } .ilm-ev.rev { stroke: #5be7ff; color: #5be7ff; }
+.ilm-evl { fill: #ff8080; font: 800 10px system-ui, sans-serif; }

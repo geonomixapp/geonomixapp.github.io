@@ -499,7 +499,8 @@
   "production": "output",
   "taux d'intérêt": "interest rate",
   "Schéma IS-LM": "IS-LM diagram",
-  "En clair": "In plain words"
+  "En clair": "In plain words",
+  "éviction": "crowding out"
  },
  "months": {
   "janvier": "Jan.",

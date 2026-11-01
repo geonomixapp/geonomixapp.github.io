@@ -153,6 +153,39 @@ window.GEOCO = {
           }
         },
         {
+          title: "L'effet d'éviction, décortiqué : effet revenu, puis éviction",
+          paragraphs: [
+            "Une relance budgétaire agit en ==deux temps==, qu'il faut bien séparer. C'est là que l'effet d'éviction prend tout son sens.",
+            "==1. L'effet revenu (le multiplicateur keynésien).== Imaginons d'abord que le taux d'intérêt ne bouge pas. L'État dépense : les entreprises qui reçoivent ces commandes versent des salaires et achètent à d'autres entreprises ; ces revenus sont en partie dépensés, et deviennent les revenus d'autres ménages, et ainsi de suite. La production passe de Y₀ à Y₁ : c'est le point A du schéma, sur la nouvelle courbe IS mais au taux de départ. Plus les ménages consomment une grande part de chaque euro gagné, plus cet effet est fort.",
+            "==2. L'effet d'éviction (par le taux d'intérêt).== Mais le taux ne reste pas sage. Avec plus de production, les ménages et les entreprises ont besoin de plus de monnaie pour leurs achats ; pour s'en procurer, ils vendent des titres. En même temps, l'État émet des titres pour financer sa dépense. Trop de titres à vendre : leur prix baisse, donc ==le taux d'intérêt monte== (i₀ → i₁). À ce taux plus élevé, certains projets d'investissement ne sont plus rentables : des entreprises y renoncent. La production recule de Y₁ à Y₂.",
+            "==Le bilan.== La production finale Y₂ est plus haute qu'au départ (la relance marche), mais plus basse que Y₁. ==L'effet d'éviction, c'est cet écart Y₁ − Y₂== : la part de la relance « mangée » par l'investissement privé qui disparaît à cause de la hausse des taux.",
+            "==Ce qui le rend fort ou faible.== Il est faible si l'investissement réagit peu au taux d'intérêt (IS très pentue), ou si la demande de monnaie réagit beaucoup au taux (LM plate) ; il disparaît dans le piège à liquidité, ou si la banque centrale crée de la monnaie en même temps (policy mix). Il est total dans la vision monétariste (LM verticale) : toute la dépense publique remplace de la dépense privée.",
+            "==Les autres formes d'éviction==, à ne pas confondre : en économie ouverte avec changes flexibles, la hausse des taux attire les capitaux, la monnaie s'apprécie et ce sont les ==exportations== qui sont évincées ; avec l'équivalence ricardienne de Barro, ce sont les ménages qui ==épargnent== la relance en prévision des impôts futurs [11] ; et au plein emploi, l'État et les entreprises se disputent les mêmes travailleurs et les mêmes machines (éviction « réelle »)."
+          ],
+          plain: {
+            title: "avec des chiffres (imaginaires) pour fixer les idées",
+            steps: [
+              "L'État lance un plan de 10 milliards d'euros de travaux.",
+              "Effet revenu : à taux inchangé, les salaires versés sont dépensés, puis redépensés… la production pourrait monter de 15 milliards (point A).",
+              "Mais l'État emprunte ces 10 milliards et l'activité demande plus de monnaie : le taux d'intérêt monte de 0,5 point.",
+              "À ce taux, des entreprises renoncent à 5 milliards d'investissements (une usine, des machines) : c'est l'éviction.",
+              "Au final, la production monte de 10 milliards au lieu de 15 : la relance a marché, mais un tiers de son effet a été évincé."
+            ]
+          },
+          diagram: {
+            preset: "eviction",
+            steps: [
+              { label: "Avant", text: "L'économie est au point E : production Y₀, taux i₀." },
+              { label: "1. Effet revenu", text: "L'État dépense, IS passe en IS'. Si le taux restait à i₀, la production irait jusqu'à Y₁ (point A) : c'est le multiplicateur keynésien." },
+              { label: "2. Éviction", text: "Le taux monte de i₀ à i₁ : une partie de l'investissement privé disparaît, la production redescend de Y₁ à Y₂ (point E'). L'écart Y₁ − Y₂, en rouge, c'est l'effet d'éviction." }
+            ]
+          },
+          example: {
+            title: "Dans l'histoire : les États-Unis des années 1980",
+            text: "Sous Ronald Reagan, l'État baisse les impôts et augmente les dépenses militaires, pendant que la Fed de Paul Volcker serre la monnaie : le taux de la Fed reste au-dessus de 14 % de février à juin 1982 [17]. Le dollar s'envole, les exportations américaines souffrent : une éviction par les taux et par le change (voir notre article sur la Reaganomics)."
+          }
+        },
+        {
           title: "La politique monétaire : la banque centrale crée de la monnaie",
           paragraphs: [
             "La banque centrale (la BCE pour la zone euro, la Fed aux États-Unis) peut augmenter la quantité de monnaie, en baissant son taux directeur ou en achetant des titres (« open market »). En achetant des titres, elle fait monter leur prix, donc baisser le taux d'intérêt. À production égale, l'argent devient plus abondant, donc moins cher : ==la courbe LM se déplace vers la droite== (ou vers le bas).",
@@ -1153,7 +1186,7 @@ window.GEOCO = {
     { id: "politique-budgetaire", term: "Politique budgétaire", def: "Utiliser les dépenses publiques et les impôts pour agir sur l'activité : dépenser plus ou baisser les impôts pour relancer, l'inverse pour freiner (rigueur).", example: "Un plan de relance qui finance des travaux publics." },
     { id: "politique-monetaire", term: "Politique monétaire", def: "Action de la banque centrale sur la quantité de monnaie et les taux d'intérêt pour soutenir l'activité ou freiner l'inflation.", example: "La BCE qui monte ou baisse ses taux directeurs." },
     { id: "multiplicateur", term: "Multiplicateur", def: "Une dépense publique devient le revenu de quelqu'un, qui en dépense une partie, qui devient le revenu d'un autre… La production finale peut monter de plus que la dépense de départ.", example: "10 milliards dépensés peuvent faire monter la production de plus de 10 milliards." },
-    { id: "effet-eviction", term: "Effet d'éviction", def: "Quand la relance publique fait monter les taux d'intérêt, une partie de l'investissement privé disparaît : la dépense publique « évince » la dépense privée.", example: "L'État emprunte beaucoup, les taux montent, une entreprise renonce à construire une usine." },
+    { id: "effet-eviction", term: "Effet d'éviction", def: "Une relance budgétaire fait d'abord monter la production (effet revenu, le multiplicateur), puis le taux d'intérêt monte et une partie de l'investissement privé disparaît : c'est l'éviction, l'écart entre la hausse « à taux inchangé » et la hausse finale.", example: "L'État emprunte beaucoup, les taux montent, une entreprise renonce à construire une usine." },
     { id: "piege-liquidite", term: "Piège à liquidité", def: "Situation où les taux d'intérêt sont déjà au plus bas : créer plus de monnaie ne les fait plus baisser, la politique monétaire perd son effet.", example: "Les États-Unis après 2008, avec un taux de la Fed proche de zéro." },
     { id: "inflation", term: "Inflation", def: "Hausse générale et durable des prix. Avec la même somme d'argent, on peut acheter moins de choses.", example: "Si l'inflation est de 3 %, un produit à 100 € coûte 103 € un an plus tard." },
     { id: "banque-centrale", term: "Banque centrale", def: "Institution qui gère la monnaie d'un pays ou d'une zone, veille à la stabilité des prix et prête aux banques.", example: "La BCE pour la zone euro, la Fed pour les États-Unis." },

@@ -5,6 +5,216 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.culture = [
   {
+    id: "reaganomics",
+    cover: "reaganomics",
+    plus: false,
+    author: "Rédaction Geonomix",
+    kind: "Analyse",
+    theme: "eco",
+    title: "La Reaganomics : la révolution qui a voulu « libérer » l'économie américaine",
+    hook: "1980 : les prix américains montent de plus de 13 % par an, le chômage grimpe, et un ancien acteur promet de tout changer en baissant les impôts. Huit ans plus tard, l'inflation est domptée, la croissance revenue… et la dette a triplé. Retour sur l'expérience économique qui divise encore les économistes.",
+    tldr: [
+      "La Reaganomics, c'est la politique économique de Ronald Reagan (1981-1989), bâtie sur ==quatre piliers== : baisser les impôts, freiner les dépenses publiques, déréglementer et casser l'inflation par une monnaie serrée [1].",
+      "Elle s'appuie sur ==l'économie de l'offre== : en baissant les impôts, on pousserait à travailler, épargner et investir, au point que les recettes de l'État pourraient même augmenter (la « courbe de Laffer ») [1][8].",
+      "Résultats : l'inflation tombe d'environ 13,5 % en 1980 à 4,1 % en 1988 et la croissance repart fort, mais au prix d'une récession brutale en 1981-1982 (10,8 % de chômage) [3][14].",
+      "Revers : réarmement et baisses d'impôts creusent les déficits, ==la dette fédérale passe de 995 milliards à 2 900 milliards de dollars==, le dollar s'envole et le déficit commercial avec lui [5][11]."
+    ],
+    keyFigures: [
+      { value: "70 % → 28 %", label: "le taux d'impôt le plus haut sur le revenu, entre 1981 et la réforme de 1986", src: 2 },
+      { value: "10,8 %", label: "le taux de chômage fin 1982, un record depuis la Grande Dépression", src: 3 },
+      { value: "13,5 % → 4,1 %", label: "l'inflation annuelle, de 1980 à 1988", src: 14 },
+      { value: "× 3", label: "la dette fédérale : de 995 milliards à 2 900 milliards de dollars", src: 5 }
+    ],
+    timelineTitle: "Huit ans de Reaganomics",
+    timeline: [
+      { when: "1974", text: "L'économiste Arthur Laffer dessine sa « courbe » devant des conseillers de la Maison-Blanche, selon le récit popularisé par Jude Wanniski [8]." },
+      { when: "1980", text: "Inflation autour de 13,5 % : Reagan est élu contre Jimmy Carter [14]." },
+      { when: "1981", text: "20 janvier : investiture. 5 août : licenciement de plus de 11 000 contrôleurs aériens en grève [6]. 13 août : signature de la grande baisse d'impôts (ERTA) [2]." },
+      { when: "1982", text: "Récession la plus grave depuis les années 1930 : 10,8 % de chômage en novembre et décembre [3]. Août : hausse d'impôts pour limiter le déficit (TEFRA) [10]." },
+      { when: "1984", text: "Croissance de 7,3 % : Reagan est réélu [15]." },
+      { when: "1985", text: "22 septembre : accords du Plaza, pour faire baisser un dollar devenu trop fort [11]." },
+      { when: "1986", text: "Réforme fiscale : le taux le plus haut tombe de 50 % à 28 % [1]." },
+      { when: "1989", text: "Fin du second mandat : la dette fédérale a triplé en huit ans [5]." }
+    ],
+    sections: [
+      {
+        title: "« L'État n'est pas la solution, c'est le problème »",
+        quote: "Dans la crise actuelle, l'État n'est pas la solution à notre problème ; l'État est le problème. Ronald Reagan, 20 janvier 1981 [12].",
+        paragraphs: [
+          "Washington, 20 janvier 1981. Sur les marches du Capitole, Ronald Reagan, 69 ans, ancien acteur d'Hollywood et ancien gouverneur de Californie, prête serment. Son discours d'investiture contient une phrase qui résume tout un programme : ==« l'État n'est pas la solution à notre problème ; l'État est le problème »== [12].",
+          "Le pays qu'il reçoit va mal. Les prix ont augmenté d'environ 13 % en 1979, puis encore au même rythme en 1980 [3][14]. Pour casser cette inflation, la Réserve fédérale de Paul Volcker a fait grimper son taux directeur jusqu'à un niveau record d'environ 20 % [3]. Emprunter pour acheter une maison ou une voiture devient presque impossible. C'est la ==stagflation== : une économie qui stagne et des prix qui flambent en même temps, ce que les recettes keynésiennes des années 1960 n'arrivent plus à soigner (voir notre cours sur les écoles économiques).",
+          "Reagan arrive avec un diagnostic simple : l'État prélève trop, dépense trop et réglemente trop. Il faut libérer ceux qui produisent. Ce programme prendra un nom, d'abord moqueur puis revendiqué : la ==Reaganomics==."
+        ]
+      },
+      {
+        title: "Une courbe griffonnée sur une serviette",
+        quote: "À 0 % d'impôt, l'État ne gagne rien. À 100 %, personne ne travaille, et il ne gagne rien non plus.",
+        paragraphs: [
+          "L'histoire est devenue une légende. En 1974, dans un restaurant de Washington, le Two Continents, l'économiste Arthur Laffer explique à des conseillers de la Maison-Blanche, dont Dick Cheney, une idée simple, et la dessine [8]. La « serviette de Laffer » est aujourd'hui exposée au Smithsonian… même si son authenticité est discutée : celle du musée est en tissu et datée de septembre 1974, alors que le dîner aurait eu lieu après les élections de novembre [8].",
+          "L'idée, elle, est claire. Si l'impôt est à 0 %, l'État ne touche rien. S'il est à 100 %, plus personne n'a intérêt à travailler ou à déclarer ses revenus : l'État ne touche rien non plus. Entre les deux, il existe un taux qui rapporte le plus. Et si l'impôt est déjà très haut, ==le baisser pourrait faire rentrer plus d'argent==, parce que les gens travailleraient, investiraient et frauderaient moins. C'est la courbe de Laffer, popularisée en 1978 par le journaliste Jude Wanniski [8].",
+          "Derrière elle, toute une école : ==l'économie de l'offre==. Au lieu de relancer la demande comme Keynes (l'État dépense, les ménages consomment), elle veut stimuler l'offre : baisser les impôts et les règles pour que les entreprises produisent et investissent davantage. La question décisive, que la courbe ne tranche pas, est de savoir ==où se trouvaient vraiment les États-Unis sur la courbe en 1981== : assez haut pour qu'une baisse d'impôts se finance toute seule, ou non ?"
+        ],
+        box: {
+          kind: "info",
+          label: "Comment ça marche",
+          title: "Demande ou offre : deux façons de relancer",
+          text: [
+            "Relance par la demande (Keynes) : l'État dépense ou baisse les impôts des ménages qui consomment ; la consommation fait tourner les entreprises.",
+            "Relance par l'offre (Reagan) : on baisse surtout les impôts sur les hauts revenus, l'épargne et les entreprises, et on allège les règles ; l'espoir est que l'investissement et le travail augmentent, et que les bénéfices « ruissellent » vers tous."
+          ]
+        }
+      },
+      {
+        title: "Les quatre piliers",
+        quote: "Moins d'impôts, moins de dépenses, moins de règles, moins d'inflation.",
+        paragraphs: [
+          "La Reaganomics repose sur quatre piliers : ==réduire la croissance des dépenses publiques, baisser les taux d'imposition, alléger la réglementation, et freiner la masse monétaire pour casser l'inflation== [1].",
+          "Le premier acte arrive vite. Le 13 août 1981, Reagan signe l'Economic Recovery Tax Act (ERTA) [2]. Le taux d'impôt le plus élevé sur le revenu passe de 70 % à 50 %, le plus bas de 14 % à 11 %, avec des baisses étalées sur trois ans et des avantages pour l'investissement des entreprises [2].",
+          "Les dépenses, elles, sont réparties de façon très inégale. Reagan veut réduire les programmes sociaux et le rôle de l'État dans l'économie, mais il lance en même temps un ==vaste réarmement== face à l'Union soviétique [5]. Moins d'impôts, plus de défense : l'équation budgétaire ne tient que si la croissance et la courbe de Laffer font des miracles.",
+          "La déréglementation touche plusieurs secteurs de l'économie [1]. Et le quatrième pilier, la monnaie, n'est pas entre les mains du président mais de la Fed, indépendante : c'est Paul Volcker qui va s'en charger, à sa manière."
+        ]
+      },
+      {
+        title: "Le remède de cheval : Volcker et la récession de 1981-1982",
+        quote: "Pour casser l'inflation, il a fallu casser la croissance.",
+        paragraphs: [
+          "Paul Volcker, nommé par Carter en 1979, maintient des taux d'intérêt extrêmement élevés : le taux de la Fed reste au-dessus de 14 % de février à juin 1982 [13]. L'effet est celui prévu par le modèle IS-LM (voir notre cours) : la monnaie se raréfie, le crédit devient hors de prix, les achats de logements et de voitures s'effondrent, les entreprises investissent moins.",
+          "Le prix est terrible. L'économie plonge dans la récession la plus grave depuis la Grande Dépression : le chômage atteint ==10,8 % en novembre et décembre 1982== [3].",
+          "Reagan soutient pourtant Volcker. Et le pari finit par payer sur l'inflation : elle tombe à 4,1 % en 1988, contre environ 13,5 % en 1980 [14]. Beaucoup d'économistes attribuent d'ailleurs cette victoire d'abord à la Fed, plus qu'aux baisses d'impôts."
+        ],
+        box: {
+          kind: "archive",
+          label: "Le détail oublié",
+          title: "Les 11 000 contrôleurs aériens",
+          text: [
+            "Le 3 août 1981, environ 13 000 contrôleurs aériens fédéraux se mettent en grève pour leurs salaires et leurs conditions de travail, alors que la grève est interdite aux employés fédéraux [6]. Reagan leur donne 48 heures pour reprendre le travail, puis licencie les 11 345 qui refusent, avec interdiction à vie de travailler pour l'État fédéral [6]. Le syndicat est dissous en octobre [6].",
+            "Le message porte bien au-delà du ciel : dans tout le pays, les syndicats perdent du poids, et les hausses de salaires ralentissent. Bill Clinton lèvera l'interdiction en 1993 [7]."
+          ]
+        }
+      },
+      {
+        title: "Le grand écart : réarmement, déficits et dollar fort",
+        quote: "Un État qui baisse les impôts et augmente ses dépenses doit bien emprunter quelque part.",
+        paragraphs: [
+          "La croissance revient, mais les recettes ne suivent pas les promesses de la courbe de Laffer, et les dépenses militaires explosent. Les déficits se creusent. Pendant les huit ans de Reagan, ==la dette fédérale brute passe de 995 milliards à 2 900 milliards de dollars== [5].",
+          "Reagan doit corriger le tir. Dès 1982, il signe une hausse d'impôts, le Tax Equity and Fiscal Responsibility Act (TEFRA), qu'il défend à la télévision le 16 août en assurant qu'il ne renie pas sa politique [10]. D'autres hausses suivront. La Reaganomics n'a donc jamais été une baisse d'impôts continue.",
+          "Le mélange est explosif : ==un budget très expansionniste (IS vers la droite) et une monnaie très restrictive (LM vers la gauche)==. Résultat, exactement comme le prévoit le schéma : des taux d'intérêt très élevés. Ces taux attirent les capitaux du monde entier, qui achètent de la dette américaine : ==le dollar s'envole==. Les produits américains deviennent trop chers à l'étranger, les importations bon marché inondent le pays, et un ==déficit commercial== se creuse à côté du déficit budgétaire : ce sont les « déficits jumeaux » [11].",
+          "En septembre 1985, les États-Unis et quatre autres grandes économies se réunissent à l'hôtel Plaza de New York et s'entendent pour faire baisser le dollar : ce sont les accords du Plaza [11]. Le Japon, dont la monnaie s'apprécie fortement, en paiera le prix avec une bulle puis une longue crise [11]."
+        ],
+        box: {
+          kind: "info",
+          label: "Le cours pour comprendre",
+          title: "L'effet d'éviction, version 1980",
+          text: [
+            "C'est le cas d'école du cours IS-LM : une relance budgétaire fait monter les taux, et une partie de l'activité privée est évincée.",
+            "Ici, l'éviction passe par deux canaux : les taux (l'investissement et le logement souffrent) et le change (le dollar fort évince les exportations). C'est exactement la prédiction de Mundell-Fleming pour un pays aux changes flexibles."
+          ]
+        }
+      },
+      {
+        title: "Le monde paie aussi la note",
+        quote: "Quand les taux américains montent, ce n'est pas seulement l'Amérique qui serre sa ceinture.",
+        paragraphs: [
+          "La Reaganomics ne s'arrête pas aux frontières des États-Unis. Le dollar est la monnaie dans laquelle le monde s'endette, commerce et vend son pétrole (voir notre article sur le pétrodollar). Quand les taux américains grimpent à des niveaux records, ce sont aussi les pays endettés en dollars qui étouffent.",
+          "Dans les années 1970, les pays d'Amérique latine ont beaucoup emprunté auprès des banques américaines, souvent à taux variables [16]. Quand la Fed de Volcker fait exploser le coût de l'argent, leurs intérêts suivent. En août 1982, le ministre mexicain des Finances prévient la Fed, le Trésor et le FMI : le Mexique ne peut plus payer [17]. Les dettes latino-américaines détenues par les neuf plus grandes banques américaines représentent alors 176 % de leurs fonds propres [17]. Pour l'Amérique latine, les années 1980 deviennent la « décennie perdue » [16].",
+          "L'Europe ressent le choc autrement. Un dollar fort et des taux américains très élevés attirent les capitaux vers New York et obligent les autres pays à garder des taux élevés pour défendre leur monnaie. La France de 1981, qui relance seule pendant que l'Amérique serre la vis, en fait l'expérience : dévaluations du franc, puis tournant de la rigueur en 1983 (voir notre cours IS-LM).",
+          "C'est l'autre visage du « privilège » américain : ==une décision prise à Washington pour l'inflation américaine se transmet au monde entier==, par les taux et par le dollar. Les accords du Plaza de 1985, qui organisent la baisse du dollar avec le Japon, l'Allemagne, la France et le Royaume-Uni, montrent qu'à la fin, même Washington a dû tenir compte de ses partenaires [11]."
+        ]
+      },
+      {
+        title: "« Morning in America » : le retour de la croissance",
+        quote: "En 1984, l'Amérique se sent de nouveau forte, et le dit dans les urnes.",
+        paragraphs: [
+          "À partir de 1983, l'économie redémarre fortement. La croissance atteint ==7,3 % en 1984==, et Reagan est réélu triomphalement la même année [15]. L'inflation, elle, reste contenue [14].",
+          "En 1986, Reagan obtient une seconde grande réforme fiscale, votée avec les démocrates : le Tax Reform Act abaisse le taux le plus haut de 50 % à 28 %, simplifie le code des impôts et réduit le nombre de tranches, tout en supprimant de nombreuses niches [1]. Elle est souvent citée comme un modèle de réforme bipartisane.",
+          "Pour ses partisans, la Reaganomics a mis fin à la stagflation, relancé l'esprit d'entreprise et préparé la longue croissance des décennies suivantes, tout en contribuant, par la course aux armements, à l'épuisement de l'Union soviétique."
+        ]
+      },
+      {
+        title: "Le procès : ruissellement, inégalités et dette",
+        quote: "« Il est difficile de vendre le « ruissellement » » : l'aveu de David Stockman, directeur du Budget, en 1981 [9].",
+        paragraphs: [
+          "Les critiques sont tout aussi anciennes. En décembre 1981, le magazine The Atlantic publie de longs entretiens avec David Stockman, le jeune directeur du Budget de Reagan. Il y reconnaît que la baisse d'impôts était, selon ses mots, un « cheval de Troie » pour abaisser le taux le plus élevé, et que l'économie de l'offre est au fond une théorie du « ruissellement » [9]. L'article manque de lui coûter son poste [9].",
+          "Le ==ruissellement== (« trickle down »), c'est l'idée que les gains accordés aux plus riches et aux entreprises finissent par profiter à tous, par l'investissement et l'emploi. Ses critiques répondent que, dans les années 1980, ==les inégalités de revenus se creusent== aux États-Unis dans les années 1980, et que le pouvoir des syndicats recule fortement [15].",
+          "Reste la dette. La courbe de Laffer promettait que les baisses d'impôts se financeraient en partie seules : la plupart des économistes estiment qu'elles ne l'ont pas fait, puisque la dette a triplé [5]. Les défenseurs de Reagan répondent que le réarmement, et non les baisses d'impôts, explique l'essentiel des déficits, et que la victoire contre l'inflation valait ce prix."
+        ],
+        box: {
+          kind: "info",
+          label: "Face-à-face",
+          title: "Deux lectures du même bilan",
+          text: [
+            "Pour : fin de la stagflation, inflation ramenée à 4,1 % en 1988, croissance forte à partir de 1983, impôts plus simples, et une Amérique sortie renforcée de la guerre froide [14][15].",
+            "Contre : une récession très dure en 1982, une dette triplée, des déficits jumeaux, des inégalités en hausse et des syndicats affaiblis [3][5][11]. Et une victoire contre l'inflation surtout due à la Fed."
+          ]
+        }
+      },
+      {
+        title: "Ce qu'il en reste",
+        quote: "Quarante ans plus tard, chaque débat sur les impôts rejoue un peu 1981.",
+        paragraphs: [
+          "La Reaganomics a profondément changé le débat économique. Avec Margaret Thatcher au Royaume-Uni à la même époque, elle incarne le grand tournant libéral des années 1980 : moins d'État, plus de marché, des banques centrales qui font de l'inflation leur priorité.",
+          "Ses idées reviennent à chaque nouvelle baisse d'impôts aux États-Unis, avec les mêmes arguments des deux côtés : stimuler l'offre, ou creuser la dette et les inégalités ? La courbe de Laffer elle-même fait consensus sur le principe (trop d'impôt tue l'impôt), beaucoup moins sur le niveau où ce « trop » commence.",
+          "Pour un étudiant en économie, c'est un laboratoire grandeur nature : un policy mix extrême (budget expansionniste, monnaie restrictive), des taux records, un dollar fort et des déficits jumeaux, exactement ce que prévoient les modèles IS-LM et Mundell-Fleming. Et pour un citoyen, une leçon : ==une politique économique se juge sur tous ses effets, pas seulement sur ceux qu'on a promis==."
+        ]
+      }
+    ],
+    didYouKnow: "La « serviette de Laffer » exposée au Smithsonian est en tissu et datée du 13 septembre 1974, alors que l'originale aurait été en papier et le dîner postérieur aux élections de novembre 1974 : Laffer lui-même ne sait pas si c'est une reproduction [8].",
+    visuals: [
+      {
+        kind: "chart",
+        type: "bar",
+        title: "L'impôt des plus hauts revenus divisé par deux et demi",
+        subtitle: "Taux marginal le plus élevé de l'impôt fédéral sur le revenu, en %",
+        xLabel: "Période",
+        unit: "Taux le plus élevé (%)",
+        suffix: " %",
+        data: [["Avant 1981", 70], ["Après l'ERTA (1981)", 50], ["Après la réforme de 1986", 28]],
+        source: "Britannica ; Economic Recovery Tax Act de 1981"
+      },
+      {
+        kind: "chart",
+        type: "bar",
+        title: "La dette fédérale a triplé",
+        subtitle: "Dette fédérale brute des États-Unis, en milliards de dollars",
+        xLabel: "Date",
+        unit: "Milliards de dollars",
+        data: [["Début 1981", 995], ["Fin 1988", 2900]],
+        source: "PBS, Commanding Heights"
+      },
+      {
+        kind: "chart",
+        type: "bar",
+        title: "L'inflation domptée",
+        subtitle: "Hausse annuelle des prix à la consommation aux États-Unis, en %",
+        xLabel: "Année",
+        unit: "Inflation (%)",
+        suffix: " %",
+        decimals: 1,
+        data: [["1980", 13.5], ["1988", 4.1]],
+        source: "Outline of U.S. History (Département d'État), université de Groningue"
+      }
+    ],
+    sources: [
+      { short: "Britannica", name: "Encyclopædia Britannica, « Reaganomics »", url: "https://www.britannica.com/topic/Reaganomics" },
+      { short: "Wikipédia", name: "Wikipédia (anglais), « Economic Recovery Tax Act of 1981 »", url: "https://en.wikipedia.org/wiki/Economic_Recovery_Tax_Act_of_1981" },
+      { short: "AP / NBC", name: "Associated Press (via NBC DFW), « Paul Volcker, the Carter-Reagan Fed Chairman Who Beat Inflation, Dies at Age 92 », décembre 2019", url: "https://nbcdfw.com/news/national-international/paul-volcker-the-carter-reagan-fed-chairman-who-beat-inflation-dies-at-age-92/2270348" },
+      { short: "History.com", name: "History.com, « Reagan signs Economic Recovery Tax Act »", url: "https://history.com/this-day-in-history/reagan-signs-economic-recovery-tax-act-erta" },
+      { short: "PBS", name: "PBS, Commanding Heights, « Reaganomics »", url: "https://www.pbs.org/wgbh/commandingheights/shared/minitextlo/ess_reaganomics.html" },
+      { short: "ABA Journal", name: "ABA Journal, « August 5, 1981: Reagan fires air traffic controllers »", url: "https://www.abajournal.com/magazine/article/august_5_1981_reagan_fires_air_traffic_controllers" },
+      { short: "KUNC", name: "KUNC (radio publique), « Looking back on when President Reagan fired the air traffic controllers », 5 août 2021", url: "https://www.kunc.org/2021-08-05/looking-back-on-when-president-reagan-fired-the-air-traffic-controllers" },
+      { short: "Smithsonian", name: "Smithsonian Magazine, « How a Restaurant Doodle Launched a Political Movement »", url: "https://www.smithsonianmag.com/smithsonian-institution/restaurant-doodle-launched-political-movement-180963466/" },
+      { short: "Christian Science Monitor", name: "The Christian Science Monitor, 13 novembre 1981, sur l'article de The Atlantic consacré à David Stockman", url: "https://www.csmonitor.com/1981/1113/111313.html" },
+      { short: "Miller Center", name: "Miller Center (université de Virginie), « August 16, 1982: Address on Tax and Budget Legislation »", url: "https://millercenter.org/the-presidency/presidential-speeches/august-16-1982-address-tax-and-budget-legislation" },
+      { short: "JoongAng Daily", name: "Korea JoongAng Daily, « What's needed is a 'COEX Accord' » (sur les accords du Plaza du 22 septembre 1985)", url: "https://www.koreajoongangdaily.com/opinion/viewpoint-whats-needed-is-a-coex-accord/10267395" },
+      { short: "Bibliothèque Reagan", name: "Ronald Reagan Presidential Library, « Inaugural Address 1981 »", url: "https://www.reaganlibrary.gov/archives/speech/inaugural-address-1981" },
+      { short: "Cato Institute", name: "Cato Institute, « The Reagan-Volcker Years in Retrospect », 2022", url: "https://www.cato.org/blog/reagan-volcker-years-retrospect-3" },
+      { short: "Outline of U.S. History", name: "Département d'État des États-Unis, « Outline of U.S. History », « The economy in the 1980s » (université de Groningue)", url: "https://www.let.rug.nl/usa/outlines/history-2005/the-new-conservatism-and-a-new-world-order/the-economy-in-the-1980s.php" },
+      { short: "Wikipédia", name: "Wikipédia (anglais), « Reaganomics »", url: "https://en.wikipedia.org/wiki/Reaganomics" },
+      { short: "Federal Reserve History", name: "Federal Reserve History, « Latin American Debt Crisis of the 1980s »", url: "https://www.federalreservehistory.org/essays/latin-american-debt-crisis" },
+      { short: "FDIC", name: "FDIC, « History of the Eighties », vol. 1, chapitre sur la crise de la dette latino-américaine", url: "https://www.fdic.gov/resources/publications/history-eighties/volume-1/history-80s-volume-1-part2-05.pdf" }
+    ]
+  },
+  {
     id: "petrodollar",
     cover: "petrodollar",
     plus: false,

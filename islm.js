@@ -37,6 +37,9 @@
     mix: [{ is: IS(0), lm: LM(0) }, { is: IS(18), lm: LM(18), was: { is: IS(0), lm: LM(0) } }],
     keynes: [{ is: ISV(0), lm: LM(0) }, { is: ISV(0), lm: LM(20), was: { lm: LM(0) } }, { is: ISV(16), lm: LM(0), was: { is: ISV(0) } }],
     monetariste: [{ is: IS(0), lm: LMV(0) }, { is: IS(20), lm: LMV(0), was: { is: IS(0) } }, { is: IS(0), lm: LMV(16), was: { lm: LMV(0) } }],
+    // Effet d'éviction décomposé (demande de l'auteur, 1er nov. 2026) : 1) effet revenu (multiplicateur, à taux
+    // inchangé : point A sur IS' au taux i₀) ; 2) la hausse du taux ramène à E' : l'éviction = Y₁ − Y₂.
+    eviction: [{ is: IS(0), lm: LM(0) }, { is: IS(24), lm: LM(0), was: { is: IS(0) }, revenu: "only" }, { is: IS(24), lm: LM(0), was: { is: IS(0) }, revenu: "both" }],
     trappe: [{ is: ISL(0), lm: LMT(0) }, { is: ISL(0), lm: LMT(10), was: { lm: LMT(0) } }, { is: ISL(18), lm: LMT(0), was: { is: ISL(0) } }],
   };
 
@@ -51,6 +54,34 @@
       return `<text class="ilm-name ${c.kind}${ghost ? " ghost" : ""}" x="${Math.min(px(y) + 4, W - 24)}" y="${py(i) + (c.kind === "is" ? 12 : -4)}">${name}${ghost ? "" : ""}</text>`;
     };
     const was = state.was || {};
+    // Point A (effet revenu seul) : là où IS' passe au taux de départ i₀.
+    const onIS = (c, i) => { const [[y1, i1], [y2, i2]] = c.pts; return y1 + (i - i1) * (y2 - y1) / (i2 - i1); };
+    const A = state.revenu && e0 ? [onIS(state.is, e0[1]), e0[1]] : null;
+    const evict = A && state.revenu === "both" && e ? `
+      <circle class="ilm-a" cx="${px(A[0])}" cy="${py(A[1])}" r="5"/><text class="ilm-al" x="${px(A[0]) + 7}" y="${py(A[1]) + 15}">A</text>
+      <line class="ilm-guide old" x1="${px(A[0])}" y1="${py(A[1])}" x2="${px(A[0])}" y2="${Y0}"/>
+      <text class="ilm-tick" x="${px(A[0])}" y="${Y0 + 12}" text-anchor="middle">Y₁</text>
+      <path class="ilm-ev" d="M${px(A[0])},${Y0 - 8} L${px(e[0]) + 3},${Y0 - 8}" marker-end="url(#ilm-ar)"/>
+      <text class="ilm-evl" x="${(px(A[0]) + px(e[0])) / 2}" y="${Y0 - 13}" text-anchor="middle">${t("éviction")}</text>` : "";
+    if (A && state.revenu === "only") {
+      return `<svg viewBox="0 0 ${W} ${H}" class="ilm-svg" role="img" aria-label="${t("Schéma IS-LM")}">
+      <defs><marker id="ilm-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+      <line class="ilm-axis" x1="${X0}" y1="${Y0}" x2="${X1 + 6}" y2="${Y0}" marker-end="url(#ilm-ar)"/>
+      <line class="ilm-axis" x1="${X0}" y1="${Y0}" x2="${X0}" y2="${Y1 - 8}" marker-end="url(#ilm-ar)"/>
+      <text class="ilm-ax" x="${X1}" y="${Y0 + 18}" text-anchor="end">Y · ${t("production")}</text>
+      <text class="ilm-ax" x="${X0 - 6}" y="${Y1 - 10}">i · ${t("taux d'intérêt")}</text>
+      <path class="ilm-c is ghost" d="${path(was.is)}"/>${lab(was.is, "IS", true)}
+      <path class="ilm-c is new" d="${path(state.is)}"/>${lab(state.is, "IS'")}
+      <path class="ilm-c lm" d="${path(state.lm)}"/>${lab(state.lm, "LM")}
+      <circle class="ilm-e0" cx="${px(e0[0])}" cy="${py(e0[1])}" r="4.5"/>
+      <line class="ilm-guide old" x1="${px(e0[0])}" y1="${py(e0[1])}" x2="${px(e0[0])}" y2="${Y0}"/>
+      <text class="ilm-tick" x="${px(e0[0])}" y="${Y0 + 12}" text-anchor="middle">Y₀</text><text class="ilm-tick" x="${X0 - 4}" y="${py(e0[1]) + 3}" text-anchor="end">i₀</text>
+      <path class="ilm-ev rev" d="M${px(e0[0]) + 6},${py(e0[1])} L${px(A[0]) - 7},${py(A[1])}" marker-end="url(#ilm-ar)"/>
+      <line class="ilm-guide" x1="${px(A[0])}" y1="${py(A[1])}" x2="${px(A[0])}" y2="${Y0}"/>
+      <text class="ilm-tick on" x="${px(A[0])}" y="${Y0 + 12}" text-anchor="middle">Y₁</text>
+      <circle class="ilm-e" cx="${px(A[0])}" cy="${py(A[1])}" r="6"/><text class="ilm-el" x="${px(A[0]) + 9}" y="${py(A[1]) - 7}">A</text>
+      </svg>`;
+    }
     const moved = e0 && e && (Math.abs(e[0] - e0[0]) > 0.5 || Math.abs(e[1] - e0[1]) > 0.5);
     return `<svg viewBox="0 0 ${W} ${H}" class="ilm-svg" role="img" aria-label="${t("Schéma IS-LM")}">
       <defs><marker id="ilm-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
@@ -66,8 +97,9 @@
         <line class="ilm-guide old" x1="${px(e0[0])}" y1="${py(e0[1])}" x2="${px(e0[0])}" y2="${Y0}"/><line class="ilm-guide old" x1="${px(e0[0])}" y1="${py(e0[1])}" x2="${X0}" y2="${py(e0[1])}"/>
         ${Math.abs(e[0] - e0[0]) > 1 ? `<text class="ilm-tick" x="${px(e0[0])}" y="${Y0 + 12}" text-anchor="middle">Y₀</text>` : ""}${Math.abs(e[1] - e0[1]) > 1 ? `<text class="ilm-tick" x="${X0 - 4}" y="${py(e0[1]) + 3}" text-anchor="end">i₀</text>` : ""}` : ""}
       ${e ? `<line class="ilm-guide" x1="${px(e[0])}" y1="${py(e[1])}" x2="${px(e[0])}" y2="${Y0}"/><line class="ilm-guide" x1="${px(e[0])}" y1="${py(e[1])}" x2="${X0}" y2="${py(e[1])}"/>
-        <text class="ilm-tick on" x="${px(e[0])}" y="${Y0 + 12}" text-anchor="middle">${moved && Math.abs(e[0] - e0[0]) > 1 ? "Y₁" : "Y"}</text><text class="ilm-tick on" x="${X0 - 4}" y="${py(e[1]) + 3}" text-anchor="end">${moved && Math.abs(e[1] - e0[1]) > 1 ? "i₁" : "i"}</text>
+        <text class="ilm-tick on" x="${px(e[0])}" y="${Y0 + 12}" text-anchor="middle">${moved && Math.abs(e[0] - e0[0]) > 1 ? (A ? "Y₂" : "Y₁") : "Y"}</text><text class="ilm-tick on" x="${X0 - 4}" y="${py(e[1]) + 3}" text-anchor="end">${moved && Math.abs(e[1] - e0[1]) > 1 ? "i₁" : "i"}</text>
         <circle class="ilm-e" cx="${px(e[0])}" cy="${py(e[1])}" r="6"/><text class="ilm-el" x="${px(e[0]) + 9}" y="${py(e[1]) - 7}">${moved ? "E'" : "E"}</text>` : ""}
+      ${evict}
     </svg>`;
   }
 

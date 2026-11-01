@@ -367,5 +367,81 @@
         "a": "Parce que les paiements en dollars passent par le système bancaire américain : BNP Paribas a ainsi payé 8,9 milliards de dollars en 2014."
       }
     ]
+  },
+  "reaganomics": {
+    "concepts": [
+      {
+        "term": "Reaganomics",
+        "def": "Politique économique de Ronald Reagan (1981-1989) : baisser les impôts, freiner les dépenses publiques, déréglementer, casser l'inflation par une monnaie serrée."
+      },
+      {
+        "term": "Économie de l'offre",
+        "def": "Relancer en stimulant la production (impôts plus bas, moins de règles) plutôt que la demande ; opposée à la relance keynésienne."
+      },
+      {
+        "term": "Courbe de Laffer",
+        "def": "Au-delà d'un certain taux, augmenter l'impôt fait baisser les recettes ; donc baisser un impôt très haut peut rapporter plus. Toute la question est de savoir où l'on se trouve sur la courbe."
+      },
+      {
+        "term": "Stagflation",
+        "def": "Stagnation de l'activité et forte inflation en même temps, comme aux États-Unis à la fin des années 1970."
+      },
+      {
+        "term": "Ruissellement (trickle down)",
+        "def": "Idée que les gains accordés aux plus riches et aux entreprises profitent à tous par l'investissement et l'emploi ; très contestée."
+      },
+      {
+        "term": "Déficits jumeaux",
+        "def": "Déficit budgétaire et déficit commercial en même temps : dans les années 1980, le budget expansionniste et la monnaie serrée font monter les taux et le dollar, ce qui creuse le déficit commercial."
+      },
+      {
+        "term": "Accords du Plaza",
+        "def": "22 septembre 1985 : les grandes économies s'entendent pour faire baisser un dollar devenu trop fort."
+      }
+    ],
+    "people": [
+      {
+        "name": "Ronald Reagan",
+        "role": "Président des États-Unis (1981-1989) ; « l'État n'est pas la solution, c'est le problème »."
+      },
+      {
+        "name": "Paul Volcker",
+        "role": "Président de la Fed ; taux très élevés pour casser l'inflation, au prix de la récession de 1981-1982."
+      },
+      {
+        "name": "Arthur Laffer",
+        "role": "Économiste ; la courbe qui porte son nom, dessinée en 1974 selon la légende."
+      },
+      {
+        "name": "Jude Wanniski",
+        "role": "Journaliste ; popularise la courbe de Laffer et l'économie de l'offre en 1978."
+      },
+      {
+        "name": "David Stockman",
+        "role": "Directeur du Budget de Reagan ; en 1981, parle de « cheval de Troie » et de « ruissellement » dans The Atlantic."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Quels sont les quatre piliers de la Reaganomics ?",
+        "a": "Freiner les dépenses publiques, baisser les impôts, déréglementer, serrer la monnaie pour casser l'inflation."
+      },
+      {
+        "q": "Que dit la courbe de Laffer ?",
+        "a": "Qu'à 0 % comme à 100 % l'impôt ne rapporte rien ; si l'impôt est très haut, le baisser peut augmenter les recettes."
+      },
+      {
+        "q": "Quel est le prix de la victoire contre l'inflation ?",
+        "a": "La récession de 1981-1982, avec un chômage de 10,8 % fin 1982."
+      },
+      {
+        "q": "Pourquoi le dollar s'envole-t-il dans les années 1980 ?",
+        "a": "Budget expansionniste + monnaie restrictive = taux très élevés, qui attirent les capitaux : le dollar monte, le déficit commercial se creuse."
+      },
+      {
+        "q": "Que devient la dette fédérale sous Reagan ?",
+        "a": "Elle triple, de 995 milliards à 2 900 milliards de dollars."
+      }
+    ]
   }
 }

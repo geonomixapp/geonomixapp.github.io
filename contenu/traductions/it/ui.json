@@ -496,7 +496,8 @@
   "production": "produzione",
   "taux d'intérêt": "tasso d'interesse",
   "Schéma IS-LM": "Schema IS-LM",
-  "En clair": "In parole semplici"
+  "En clair": "In parole semplici",
+  "éviction": "spiazzamento"
  },
  "months": {
   "janvier": "gennaio",

@@ -2433,6 +2433,13 @@
       <ellipse class="ln" cx="282" cy="86" rx="24" ry="7"/><path class="ln" d="M258 86v50M306 86v50"/><path class="ln dim" d="M258 104c8 5 40 5 48 0M258 120c8 5 40 5 48 0"/>
       <circle class="ac" cx="352" cy="46" r="22"/>
       <path class="ac-f" d="M347 33h10v4h-10zM347 55h10v4h-10z"/><path class="ac" d="M358 38c-2-3-12-4-13 1s13 6 13 11-11 5-13 1M352 30v34"/>`,
+    // Reaganomics : les trois taux d'impôt qui baissent (70, 50, 28 %) et la dette qui grimpe.
+    reaganomics: `
+      <path class="ln" d="M0 142h400"/>
+      <path class="ln" d="M70 142V54h40v88M140 142V84h40v58M210 142v-48h40v48"/>
+      <path class="ln dim" d="M76 66h28M146 96h28M216 106h28"/>
+      <path class="ac" d="M40 128c60-4 120-14 180-36s100-46 150-78"/><path class="ac-f" d="M370 14l-14 2 8 10z"/>
+      <circle class="ac" cx="330" cy="112" r="18"/><path class="ac" d="M336 104c-2-3-11-4-12 1s12 5 12 10-10 5-12 1M330 98v28"/>`,
     barrage: `
       <circle class="ac" cx="330" cy="46" r="18"/>
       <path class="ln" d="M150 142l22-96h40l22 96"/><path class="ln dim" d="M160 100h64M166 74h52"/>
