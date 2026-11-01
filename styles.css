@@ -1601,3 +1601,12 @@ section.flash { animation: partFlash 1.6s ease-out; }
 .ilm-steps button[aria-pressed="true"] { background: #ff8a3d; border-color: #ff8a3d; color: #111; }
 .ilm-cap { margin: 10px 2px 0; font-size: 15px; line-height: 1.45; color: rgba(255,255,255,.85); min-height: 3em; }
 @media (prefers-reduced-motion: reduce) { .ilm-c.new, .ilm-e, .ilm-el { animation: none; stroke-dashoffset: 0; } }
+
+/* « En clair » : la chaîne de causes, étape par étape (cours, demande de l'auteur : vulgariser, 1er nov. 2026) */
+.plain-chain { margin: 22px 0 4px; max-width: 640px; }
+.plain-chain .eyebrow { color: #5be7ff; font-size: 13px; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 8px; }
+.plain-chain ol { list-style: none; margin: 0; padding: 0; counter-reset: pc; }
+.plain-chain li { position: relative; margin: 0; padding: 10px 14px 10px 44px; border-radius: 14px; background: rgba(91,231,255,.07); border: 1px solid rgba(91,231,255,.22); font-size: 16px; line-height: 1.4; counter-increment: pc; }
+.plain-chain li::before { content: counter(pc); position: absolute; left: 12px; top: 9px; width: 22px; height: 22px; border-radius: 50%; background: #5be7ff; color: #071018; font: 800 12px/22px system-ui, sans-serif; text-align: center; }
+.plain-chain li + li { margin-top: 22px; }
+.plain-chain li + li::after { content: "↓"; position: absolute; left: 50%; top: -21px; transform: translateX(-50%); color: #5be7ff; font-weight: 800; }

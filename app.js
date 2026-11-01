@@ -1139,6 +1139,7 @@
             <h2 class="title reveal">${s.title}</h2>
             ${s.paragraphs.map((p) => `<p class="copy reveal">${para(p, d.sources)}</p>`).join("")}
             ${s.diagram && window.GeocoISLM ? `<div class="reveal">${window.GeocoISLM.html(s.diagram)}</div>` : ""}
+            ${s.plain ? `<div class="plain-chain reveal"><p class="eyebrow">${I18N.t("En clair")}${s.plain.title ? " · " + s.plain.title : ""}</p><ol>${s.plain.steps.map((t) => `<li>${cite(t, d.sources)}</li>`).join("")}</ol></div>` : ""}
             ${s.example ? `<aside class="art-box example reveal"><p class="eyebrow">${I18N.t("Exemple concret")}</p><h3>${s.example.title}</h3><p>${cite(s.example.text, d.sources)}</p></aside>` : ""}
           </div>
         </section>

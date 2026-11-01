@@ -104,6 +104,15 @@ window.GEOCO = {
             "La courbe LM (marché de la monnaie). Selon Keynes, on garde de la monnaie pour deux raisons : pour ses ==achats== (plus la production et les revenus sont hauts, plus il en faut) et pour ==spéculer== (quand les taux sont bas, les titres rapportent peu et risquent de perdre de la valeur, alors on préfère garder de la monnaie). Quand la production monte, on a besoin de plus de monnaie pour ses achats ; si la quantité de monnaie ne change pas, on vend des titres pour en obtenir, leur prix baisse et le taux d'intérêt monte. Plus Y est haut, plus i est haut : la courbe LM monte.",
             "L'équilibre, c'est le point où les deux courbes se croisent : le seul couple (Y, i) où les deux marchés sont en équilibre en même temps. Rien ne garantit qu'il corresponde au plein emploi : c'est l'idée de Keynes, l'économie peut rester durablement dans un ==équilibre de chômage involontaire==. Toute la suite du cours consiste à déplacer une courbe et à regarder où va ce point."
           ],
+          plain: {
+            title: "le modèle en une image",
+            steps: [
+              "Imagine une balance avec deux plateaux : d'un côté ce que le pays produit (Y), de l'autre le prix de l'argent emprunté (i).",
+              "Quand l'argent est cher (i haut), on emprunte moins pour acheter une maison ou une machine : on produit moins. C'est la courbe IS.",
+              "Quand on produit beaucoup (Y haut), tout le monde a besoin d'argent pour payer : l'argent devient plus cher. C'est la courbe LM.",
+              "L'économie se pose là où les deux tiennent ensemble : c'est le point d'équilibre E."
+            ]
+          },
           diagram: {
             preset: "base",
             steps: [
@@ -121,6 +130,16 @@ window.GEOCO = {
             "L'effet d'éviction est d'autant plus faible que l'investissement est peu sensible au taux d'intérêt (IS très pentue), et il disparaît dans le piège à liquidité, où les taux ne montent pas.",
             "==Emprunt ou impôt ?== Si l'État finance sa dépense en empruntant, il émet des titres : les taux montent davantage, l'éviction est plus forte. S'il la finance par un impôt du même montant, l'effet reste positif : c'est le ==théorème du budget équilibré== d'Haavelmo (sur le seul marché des biens, la production monte du montant de la dépense), avec une éviction plus faible. Et une baisse d'impôts relance moins qu'une hausse de dépense du même montant, car les ménages en épargnent une partie."
           ],
+          plain: {
+            title: "l'État dépense 10 milliards",
+            steps: [
+              "L'État paie des entreprises pour rénover des écoles et des ponts.",
+              "Ces entreprises embauchent et versent des salaires : les ouvriers dépensent au supermarché, au restaurant…",
+              "Le supermarché et le restaurant vendent plus, embauchent à leur tour : la production monte plus que les 10 milliards (le multiplicateur).",
+              "Mais l'État a emprunté pour payer, et tout le monde a besoin de plus d'argent : les taux montent.",
+              "Avec des taux plus hauts, une PME renonce à acheter une nouvelle machine : c'est l'effet d'éviction, qui rogne une partie de la relance."
+            ]
+          },
           diagram: {
             preset: "budget",
             steps: [
@@ -140,6 +159,16 @@ window.GEOCO = {
             "Le nouveau point est plus à droite (Y monte) et plus bas (i baisse). Ici, pas d'effet d'éviction : les taux plus bas encouragent l'investissement et le crédit, ce qui fait monter la production. La politique monétaire est d'autant plus efficace que l'investissement réagit fortement au taux d'intérêt.",
             "Elle peut aussi faire l'inverse pour calmer une économie qui chauffe ou une inflation trop forte : moins de monnaie, LM part vers la gauche, les taux montent et la production ralentit."
           ],
+          plain: {
+            title: "la BCE monte ses taux, comme en 2022",
+            steps: [
+              "La BCE relève son taux : les banques empruntent plus cher auprès d'elle [6].",
+              "Les banques font payer plus cher leurs crédits : un crédit immobilier sur 25 ans coûte nettement plus en intérêts.",
+              "Des ménages renoncent à acheter un logement, des entreprises reportent un investissement.",
+              "Les ventes ralentissent : les entreprises produisent moins et augmentent moins leurs prix.",
+              "Résultat : l'inflation recule, mais la croissance ralentit aussi. Dans le schéma, LM part vers la gauche."
+            ]
+          },
           diagram: {
             preset: "monnaie",
             steps: [
@@ -161,6 +190,15 @@ window.GEOCO = {
             "Derrière le policy mix, il y a la ==règle de Tinbergen==, du nom du premier prix Nobel d'économie [15] : pour atteindre deux objectifs (par exemple plus de production ET des taux stables), il faut deux instruments. Avec la seule dépense publique, on ne peut pas tenir les deux.",
             "Le problème : les deux instruments ne sont pas dans les mêmes mains. L'État décide du budget, la banque centrale (indépendante) de la monnaie. Quand ils tirent dans deux sens opposés, les taux s'envolent."
           ],
+          plain: {
+            title: "le Covid, en 2020",
+            steps: [
+              "Les usines et les magasins ferment : la production s'effondre.",
+              "Les États paient le chômage partiel et prêtent aux entreprises : IS repart vers la droite.",
+              "En même temps, la BCE achète massivement des titres de dette (750 milliards d'euros annoncés le 18 mars 2020) pour que les taux restent bas [7] : LM va aussi à droite.",
+              "Comme les taux ne montent pas, la relance publique n'évince pas l'investissement privé : les deux politiques s'additionnent."
+            ]
+          },
           example: {
             title: "Exemple : Reagan contre Volcker, dans les années 1980",
             text: "Aux États-Unis, le président Ronald Reagan baisse fortement les impôts et augmente les dépenses militaires (IS à droite), pendant que la Fed de Paul Volcker serre la monnaie pour casser l'inflation (LM à gauche) [13][17]. Résultat prévu par le schéma : des taux d'intérêt très élevés, le taux de la Fed restant au-dessus de 14 % de février à juin 1982 [17]. Volcker demandait lui-même à la Maison-Blanche de réduire le déficit [13]."
@@ -228,6 +266,16 @@ window.GEOCO = {
             "==Grand pays, petit pays.== Quand un petit pays relance par la monnaie avec des changes fixes, il doit défendre sa monnaie et n'obtient rien. Quand c'est le pays dominant (les États-Unis), sa détente monétaire se transmet aux autres, qui suivent pour garder leur taux de change : sa politique devient celle du monde.",
             "==L'union monétaire (la zone euro).== Plus de taux de change entre les membres, une seule banque centrale, un seul taux d'intérêt. Si un pays relance seul par la dépense, il fait monter le taux commun : l'effet d'éviction est partagé par tous ses voisins. À l'inverse, une politique monétaire commune agit pareil sur tous. Et comme un pays n'a plus à craindre pour sa propre monnaie, la tentation de laisser filer les déficits augmente. D'où les règles du Pacte de stabilité et de croissance : un déficit public d'au plus 3 % du PIB et une dette d'au plus 60 %, avec des sanctions renforcées en 2011 [14]."
           ],
+          plain: {
+            title: "la France relance seule en 1981",
+            steps: [
+              "Le gouvernement distribue du pouvoir d'achat : les Français achètent plus [8].",
+              "Mais une bonne partie de ces achats, ce sont des produits importés (voitures, électroménager…) : la relance profite aussi aux usines étrangères.",
+              "La France importe plus qu'elle n'exporte : il faut vendre des francs pour payer en marks ou en dollars, le franc est sous pression.",
+              "Le franc étant attaché aux autres monnaies européennes, il faut le dévaluer, trois fois de 1981 à 1983 [8][9].",
+              "En mars 1983, le gouvernement change de cap : c'est le tournant de la rigueur [10]."
+            ]
+          },
           example: {
             title: "Exemple : la relance française de 1981-1983",
             text: "En 1981, le gouvernement de Pierre Mauroy relance la demande intérieure [8]. Une partie de la relance part en importations, le déficit extérieur se creuse, et le franc, rattaché aux autres monnaies européennes, doit être dévalué en octobre 1981 puis encore deux fois jusqu'en mars 1983 [8][9]. En mars 1983, le gouvernement change de cap : c'est le « tournant de la rigueur » [10]. La leçon du modèle ouvert : un pays aux changes fixes qui relance seul « fuit » par ses importations ; si les capitaux ne viennent pas compenser, la monnaie est attaquée et il faut dévaluer ou changer de politique."
@@ -249,6 +297,15 @@ window.GEOCO = {
             "Les anticipations. Les ménages et les entreprises réagissent à ce qu'ils attendent : si on pense que la relance d'aujourd'hui sera payée par des impôts demain, on peut épargner au lieu de dépenser, et l'effet est plus faible. Le modèle ne tient pas compte de ces anticipations (c'est la critique de Robert Lucas).",
             "Un monde simplifié. Une seule production, un seul taux d'intérêt, pas de dette publique qui s'accumule, pas de banques qui peuvent refuser de prêter : utile pour comprendre le sens des effets, pas pour prévoir des chiffres précis."
           ],
+          plain: {
+            title: "le piège à liquidité, après 2008",
+            steps: [
+              "En décembre 2008, la Fed a déjà mis son taux entre 0 et 0,25 % : elle ne peut presque plus le baisser [5].",
+              "Les banques et les ménages ont peur : même avec de l'argent pas cher, ils n'empruntent pas et gardent leur épargne.",
+              "Créer encore plus de monnaie ne change presque rien : c'est le piège.",
+              "Il reste l'État : en février 2009, le plan de relance de 787 milliards de dollars prend le relais [3][4]."
+            ]
+          },
           diagram: {
             preset: "trappe",
             steps: [
@@ -387,6 +444,16 @@ window.GEOCO = {
             "Le remède : ==l'État relance== la demande (dépenses publiques, baisse d'impôts), quitte à faire un déficit pendant la crise. La monnaie compte aussi, mais elle peut se heurter au piège à liquidité.",
             "Keynes insiste aussi sur l'incertitude et les « esprits animaux » des investisseurs : l'investissement dépend de la confiance, pas seulement du taux d'intérêt."
           ],
+          plain: {
+            title: "le cercle vicieux de la Grande Dépression",
+            steps: [
+              "Après le krach de 1929, les ménages ont peur et dépensent moins.",
+              "Les usines vendent moins, elles licencient.",
+              "Les chômeurs dépensent encore moins : les ventes rechutent, d'autres usines licencient.",
+              "Baisser les salaires n'aide pas : les salariés achètent encore moins.",
+              "Pour Keynes, il faut que quelqu'un dépense à la place des ménages : l'État."
+            ]
+          },
           diagram: {
             preset: "budget",
             steps: [
@@ -567,6 +634,16 @@ window.GEOCO = {
             "C'est ce qui arrive en 2008. Dès le 12 décembre 2007, la Fed ouvre des ==lignes d'échange (« swap lines »)== avec la Banque centrale européenne et la Banque nationale suisse : elle leur prête des dollars contre leur monnaie, et elles les reprêtent à leurs banques [4]. Le réseau monte jusqu'à 14 banques centrales, et en décembre 2008, plus de 580 milliards de dollars sont prêtés, soit plus de 25 % du bilan de la Fed [4].",
             "En 2020, avec le Covid, le même mécanisme est relancé : l'utilisation des swap lines atteint 449 milliards de dollars en mai [5]."
           ],
+          plain: {
+            title: "automne 2008",
+            steps: [
+              "Une banque européenne a prêté des dollars à des entreprises pour plusieurs années, en se finançant au jour le jour auprès d'autres banques.",
+              "Lehman Brothers fait faillite : plus personne ne fait confiance à personne, les autres banques arrêtent de lui prêter des dollars.",
+              "La BCE ne peut pas l'aider directement : elle crée des euros, pas des dollars.",
+              "La Fed prête des dollars à la BCE contre des euros (une swap line), et la BCE les reprête à ses banques [4].",
+              "Les banques tiennent le coup : la Fed a servi de pompier pour tout le système en dollars, pas seulement pour l'Amérique."
+            ]
+          },
           example: {
             title: "Ce que ça montre",
             text: "La Fed n'est pas seulement la banque centrale des États-Unis : en crise, elle devient le prêteur en dernier ressort de tout le système en dollars. Les pays qui ont une swap line avec elle sont protégés ; les autres doivent puiser dans leurs réserves ou se tourner vers le FMI."
@@ -634,6 +711,158 @@ window.GEOCO = {
           data: [["Déc. 2008", 580], ["Mai 2020", 449]],
           source: "Fed de New York (2010) ; BRI, BIS Bulletin n° 34 (2020)"
         }
+      ]
+    },
+    {
+      id: "petrodollar",
+      emoji: "🛢️",
+      theme: "mix",
+      title: "Le pétrodollar : pourquoi le pétrole se paie en dollars",
+      hook: "Quand tu fais le plein à Lyon ou à Montréal, le pétrole de ton réservoir a presque toujours été payé en dollars. Comment une monnaie américaine est-elle devenue le prix du pétrole du monde entier, et qu'est-ce que ça change pour toi ?",
+      minutes: 9,
+      level: "Débutant",
+      tldr: [
+        "Le pétrole se vend presque partout en dollars : pour acheter du pétrole, il faut d'abord des dollars. C'est ça, le « pétrodollar » [1][4].",
+        "Le système naît dans les années 1970 : après la fin du lien entre le dollar et l'or (1971) et le choc pétrolier (1973), les États-Unis et l'Arabie saoudite se rapprochent, et les dollars du pétrole repartent vers l'Amérique [1][2][7][8].",
+        "Ces montagnes de dollars, prêtées par les banques à l'Amérique latine, ont aussi préparé la crise de la dette de 1982 [5][6].",
+        "La « fin du pétrodollar » annoncée en 2024 était une fausse nouvelle : le pétrole saoudien se vend toujours en dollars [3][4]."
+      ],
+      sections: [
+        {
+          title: "C'est quoi, concrètement ?",
+          paragraphs: [
+            "Un pétrodollar, c'est simplement ==un dollar payé à un pays producteur de pétrole== pour son pétrole. Le mot désigne aussi tout le système qui va avec : le pétrole s'achète en dollars, et les pays producteurs replacent ensuite une partie de ces dollars ailleurs [1].",
+            "La conséquence est énorme : un pays qui veut du pétrole, même s'il n'a rien à voir avec les États-Unis, doit d'abord se procurer des dollars. Le monde entier a donc besoin de dollars en permanence."
+          ],
+          plain: {
+            title: "le Japon achète du pétrole saoudien",
+            steps: [
+              "Une raffinerie japonaise veut acheter un tanker de pétrole à l'Arabie saoudite.",
+              "Le prix est fixé en dollars : elle doit d'abord changer des yens contre des dollars.",
+              "L'Arabie saoudite reçoit ces dollars… et doit en faire quelque chose : les dépenser, les garder en banque, ou les placer.",
+              "Une bonne partie est placée en dollars, souvent dans des titres de la dette américaine : les dollars reviennent aux États-Unis.",
+              "Multiplie ça par tous les pays qui achètent du pétrole : c'est une pompe géante qui fait circuler des dollars autour de la planète."
+            ]
+          }
+        },
+        {
+          title: "1971-1973 : le dollar perd l'or, le pétrole flambe",
+          paragraphs: [
+            "Après la guerre, le dollar était « aussi bon que l'or » : les banques centrales étrangères pouvaient échanger leurs dollars contre de l'or à un prix fixe. Le 15 août 1971, Richard Nixon met fin à cette convertibilité [8]. Question : pourquoi le monde garderait-il des dollars qui ne sont plus garantis par l'or ?",
+            "Deux ans plus tard, en octobre 1973, des pays arabes producteurs décrètent un embargo contre les pays qui soutiennent Israël pendant la guerre du Kippour. Le prix du baril est multiplié par quatre [7]. Les pays du Golfe se retrouvent soudain avec beaucoup plus de dollars qu'ils ne peuvent en dépenser."
+          ]
+        },
+        {
+          title: "1974 : le rapprochement avec l'Arabie saoudite",
+          paragraphs: [
+            "En juillet 1974, le secrétaire au Trésor américain William Simon se rend en Arabie saoudite. Selon une enquête de Bloomberg publiée en 2016, l'idée est simple : les États-Unis achètent du pétrole saoudien et apportent à l'Arabie aide militaire et équipements, et l'Arabie replace des milliards de ses revenus pétroliers en bons du Trésor américain, ce qui aide à financer les dépenses des États-Unis [2].",
+            "Les achats saoudiens de dette américaine sont même restés discrets : ils étaient exclus des statistiques détaillées par pays publiées par le Trésor [2].",
+            "Attention aux mythes : il n'existe pas de document officiel connu qui obligerait l'Arabie saoudite à vendre son pétrole uniquement en dollars [1][3]. C'est un arrangement de fait, porté par des intérêts communs (sécurité contre dollars), plus qu'un contrat signé."
+          ],
+          plain: {
+            title: "le donnant-donnant",
+            steps: [
+              "L'Arabie saoudite a besoin d'un protecteur militaire et d'un endroit sûr pour placer ses dollars.",
+              "Les États-Unis ont besoin de pétrole et de prêteurs pour financer leurs déficits.",
+              "Arrangement : des armes et une protection d'un côté, des dollars recyclés en dette américaine de l'autre [2].",
+              "Résultat : le dollar reste la monnaie du pétrole, même sans or derrière."
+            ]
+          }
+        },
+        {
+          title: "Le recyclage : des dollars du désert aux crises d'Amérique latine",
+          paragraphs: [
+            "Les pays pétroliers ne pouvaient pas dépenser tous leurs dollars d'un coup. Ils les ont déposés dans les grandes banques occidentales (souvent sous forme d'eurodollars, à Londres : voir le cours sur les eurodollars), qui les ont prêtés à leur tour, en particulier aux pays d'Amérique latine : leurs emprunts auprès des banques américaines ont fortement augmenté dans les années 1970 [6].",
+            "Puis la Fed de Paul Volcker monte brutalement ses taux pour casser l'inflation : les intérêts à payer sur ces dettes en dollars s'envolent [6]. En août 1982, le Mexique annonce qu'il ne peut plus rembourser [5]. À ce moment, les dettes latino-américaines détenues par les neuf plus grandes banques américaines représentaient 176 % de leurs fonds propres [5]. Pour l'Amérique latine, les années 1980 deviendront la « décennie perdue » [6]."
+          ],
+          plain: {
+            title: "comment un baril saoudien a fait tomber le Mexique",
+            steps: [
+              "1974-1980 : le pétrole est cher, les pays du Golfe déposent leurs dollars dans les banques occidentales.",
+              "Les banques ont trop de dollars : elles les prêtent au Mexique, au Brésil, à l'Argentine, à des taux variables.",
+              "1979-1981 : pour casser l'inflation, la Fed fait grimper ses taux. Les intérêts de ces prêts grimpent avec eux.",
+              "Août 1982 : le Mexique ne peut plus payer [5]. Les banques prennent peur et coupent les crédits à toute la région.",
+              "Chômage, inflation, austérité : une décennie perdue pour l'Amérique latine [6]."
+            ]
+          }
+        },
+        {
+          title: "Pourquoi ça arrange les États-Unis",
+          paragraphs: [
+            "Comme le monde entier a besoin de dollars pour le pétrole et le commerce, il y a toujours des acheteurs pour la dette américaine : les États-Unis peuvent emprunter moins cher et plus facilement que les autres. C'est une partie du « privilège exorbitant » du dollar (voir le cours sur le dollar).",
+            "C'est aussi une arme : une grande partie des paiements en dollars passe par des banques qui dépendent du système américain, ce qui rend les sanctions américaines très efficaces (voir le cours sur les sanctions)."
+          ]
+        },
+        {
+          title: "« La fin du pétrodollar » en 2024 : vrai ou faux ?",
+          paragraphs: [
+            "En juin 2024, des publications virales affirment qu'un « accord du pétrodollar » de 50 ans entre les États-Unis et l'Arabie saoudite aurait expiré le 9 juin et que Riyad ne l'aurait pas renouvelé [3][4].",
+            "C'est ==faux==. Les vérificateurs de faits rappellent que le rapprochement de 1974 n'obligeait pas formellement l'Arabie saoudite à vendre son pétrole uniquement en dollars, et qu'en pratique elle a vendu tout son pétrole en dollars pendant des décennies [3][4].",
+            "La vraie question est plus lente : de plus en plus de pays (Chine, Russie, Inde…) cherchent à payer une partie de leur énergie dans d'autres monnaies, surtout depuis les sanctions. Le dollar reste dominant, mais il n'est plus sans concurrent."
+          ],
+          example: {
+            title: "Le bon réflexe face à une info choc",
+            text: "« Le pétrodollar est mort » : avant d'y croire, se demander quel document a expiré, qui l'annonce, et si les sources officielles ou les vérificateurs le confirment. Ici, aucun texte n'a expiré, et les ventes de pétrole saoudien en dollars continuaient [3][4]."
+          }
+        },
+        {
+          title: "Ce qu'il faut retenir",
+          paragraphs: [
+            "Le pétrodollar, c'est un cercle : le pétrole se paie en dollars, les pays producteurs replacent leurs dollars, souvent en Amérique, et le monde garde besoin de dollars.",
+            "Il est né d'une époque précise, les années 1970 : fin de l'or, choc pétrolier, guerre froide et besoin de protection des monarchies du Golfe.",
+            "Il a eu des effets très concrets, de la puissance financière américaine à la crise de la dette latino-américaine. Et il bouge lentement aujourd'hui, sans s'écrouler du jour au lendemain."
+          ]
+        }
+      ],
+      forMe: "Le prix de ton plein dépend du prix du baril… et du taux de change entre ta monnaie et le dollar. Quand le dollar monte face à l'euro ou au dollar canadien, le pétrole coûte plus cher pour toi, même si le baril n'a pas bougé.",
+      figures: [
+        { value: "1971", label: "Nixon met fin à la conversion du dollar en or", src: 8 },
+        { value: "× 4", label: "le prix du baril avec le choc pétrolier de 1973-1974", src: 7 },
+        { value: "176 %", label: "la dette latino-américaine détenue par les 9 plus grandes banques américaines, rapportée à leurs fonds propres (1982)", src: 5 },
+        { value: "Août 1982", label: "le Mexique ne peut plus rembourser", src: 5 }
+      ],
+      terms: ["opep", "monnaie-reserve", "taux-de-change", "dette-publique", "sanctions"],
+      quiz: [
+        {
+          q: "Qu'est-ce qu'un pétrodollar ?",
+          options: ["Une cryptomonnaie du Golfe", "Un dollar payé à un pays producteur pour son pétrole", "La monnaie de l'Arabie saoudite", "Un baril de pétrole"],
+          answer: 1,
+          explain: "Le pétrole se vend en dollars : les pays producteurs reçoivent des dollars, qu'ils dépensent ou replacent ensuite."
+        },
+        {
+          q: "Que se passe-t-il le 15 août 1971 ?",
+          options: ["Le premier choc pétrolier", "Nixon met fin à la conversion du dollar en or", "La création de l'OPEP", "La naissance de l'euro"],
+          answer: 1,
+          explain: "Le dollar n'est plus échangeable contre de l'or : il faut d'autres raisons pour que le monde continue d'en vouloir, dont le pétrole."
+        },
+        {
+          q: "Où sont allés une grande partie des pétrodollars des années 1970 ?",
+          options: ["Dans des coffres en or", "Dans les grandes banques occidentales, qui les ont prêtés notamment à l'Amérique latine", "Dans la Bourse de Tokyo uniquement", "Ils ont été détruits"],
+          answer: 1,
+          explain: "C'est le « recyclage » : déposés dans les banques, ils ont été prêtés, notamment au Mexique, au Brésil ou à l'Argentine."
+        },
+        {
+          q: "Pourquoi la crise de la dette éclate-t-elle en 1982 ?",
+          options: ["Le pétrole devient gratuit", "La Fed monte fortement ses taux : les intérêts des dettes en dollars s'envolent", "L'euro remplace le dollar", "Les banques refusent l'or"],
+          answer: 1,
+          explain: "Les prêts étaient à taux variables : quand la Fed a monté ses taux contre l'inflation, le Mexique ne pouvait plus payer (août 1982)."
+        },
+        {
+          q: "« L'accord du pétrodollar a expiré le 9 juin 2024 » : vrai ou faux ?",
+          options: ["Vrai", "Faux"],
+          answer: 1,
+          explain: "Aucun accord n'obligeait formellement l'Arabie saoudite à vendre en dollars, et ses ventes continuaient en dollars : les vérificateurs de faits ont classé l'info comme fausse."
+        }
+      ],
+      sources: [
+        { short: "NPR", name: "NPR (Planet Money, via CF Public), « How the petrodollar regime came to be and what losing it would mean for the U.S. », 6 mai 2026", url: "https://www.cfpublic.org/2026-05-06/how-the-petrodollar-regime-came-to-be-and-what-losing-it-would-mean-for-the-u-s" },
+        { short: "Bloomberg", name: "Bloomberg (Andrea Wong), « The Untold Story Behind Saudi Arabia's 41-Year U.S. Debt Secret », 2016 (repris par Malay Mail)", url: "https://www.malaymail.com/news/money/2016/05/31/the-untold-story-behind-saudi-arabias-41-year-us-debt-secret/1130991" },
+        { short: "PolitiFact", name: "PolitiFact, « The US dollar will continue to be used for oil sales », 20 juin 2024", url: "https://politifact.com/factchecks/2024/jun/20/facebook-posts/the-us-dollar-will-continue-to-be-used-for-oil-sal/" },
+        { short: "Asia Fact Check Lab", name: "Asia Fact Check Lab (RFA), « Did a deal between Saudi Arabia and US to sell oil in dollars expire? », juillet 2024", url: "https://www.rfa.org/english/news/afcl/afcl-us-saudi-oil-deal-07082024043619.html" },
+        { short: "FDIC", name: "FDIC, « History of the Eighties », vol. 1, chapitre sur la crise de la dette latino-américaine", url: "https://www.fdic.gov/resources/publications/history-eighties/volume-1/history-80s-volume-1-part2-05.pdf" },
+        { short: "Federal Reserve History", name: "Federal Reserve History, « Latin American Debt Crisis of the 1980s »", url: "https://www.federalreservehistory.org/essays/latin-american-debt-crisis" },
+        { short: "Federal Reserve History", name: "Federal Reserve History, « Oil Shock of 1973–74 »", url: "https://www.federalreservehistory.org/essays/oil-shock-of-1973-74" },
+        { short: "Federal Reserve History", name: "Federal Reserve History, « Nixon Ends Convertibility of U.S. Dollars to Gold and Announces Wage/Price Controls »", url: "https://www.federalreservehistory.org/essays/gold-convertibility-ends" }
       ]
     },
     {
