@@ -7,7 +7,7 @@
 
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.indicators = {
-  "updated": "2026-10-12",
+  "updated": "2026-11-01",
   "latest": [
     {
       "group": "Économie",
@@ -425,6 +425,36 @@ window.GEOCO.indicators = {
           "short": "Daryo",
           "name": "Daryo, « Uzbekistan's annual inflation slows to 6.4% in September » (consulté le 12 oct. 2026)",
           "url": "https://daryo.uz/en/2026/10/06/uzbekistans-annual-inflation-slows-to-6-4-in-september-down-from-8-in-2025/"
+        },
+        {
+          "short": "Euronews",
+          "name": "Euronews, « Germany, France, Italy and Spain: where was inflation highest in October? » (30 oct. 2026)",
+          "url": "https://www.euronews.com/2026/10/30/germany-france-italy-and-spain-where-was-inflation-highest-in-october"
+        },
+        {
+          "short": "Insee",
+          "name": "Insee, Informations rapides n° 266, estimation provisoire de l'indice des prix d'octobre 2026 (30 oct. 2026)",
+          "url": "https://www.insee.fr/fr/statistiques/9107965"
+        },
+        {
+          "short": "Istat",
+          "name": "Istat, Prezzi al consumo, dati provvisori ottobre 2026 (30 oct. 2026)",
+          "url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-dati-provvisori-ottobre-2026/"
+        },
+        {
+          "short": "ONS",
+          "name": "ONS, Consumer price inflation, UK: September 2026 (21 oct. 2026)",
+          "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/september2026"
+        },
+        {
+          "short": "CNBC",
+          "name": "CNBC, « CPI inflation report September 2026 » (14 oct. 2026, chiffres BLS)",
+          "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+        },
+        {
+          "short": "CNBC",
+          "name": "CNBC, « Japan inflation September » (23 oct. 2026)",
+          "url": "https://www.cnbc.com/2026/10/23/japan-inflation-september-highest-in-2026.html"
         }
       ],
       "values": {
@@ -604,9 +634,9 @@ window.GEOCO.indicators = {
           "s": 2
         },
         "250": {
-          "v": 3,
-          "d": "sept. 2026",
-          "s": 1
+          "v": 3.4,
+          "d": "oct. 2026",
+          "s": 27
         },
         "262": {
           "v": 1.9,
@@ -634,9 +664,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "276": {
-          "v": 3.3,
-          "d": "sept. 2026",
-          "s": 1
+          "v": 2.8,
+          "d": "oct. 2026",
+          "s": 26
         },
         "288": {
           "v": 5.2,
@@ -724,9 +754,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "380": {
-          "v": 4.2,
-          "d": "sept. 2026",
-          "s": 1
+          "v": 5.4,
+          "d": "oct. 2026",
+          "s": 28
         },
         "384": {
           "v": 1.2,
@@ -739,9 +769,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "392": {
-          "v": 1.9,
-          "d": "août 2026",
-          "s": 1
+          "v": 2.1,
+          "d": "sept. 2026",
+          "s": 31
         },
         "398": {
           "v": 9.3,
@@ -1100,8 +1130,8 @@ window.GEOCO.indicators = {
         },
         "724": {
           "v": 4.9,
-          "d": "sept. 2026",
-          "s": 1
+          "d": "oct. 2026",
+          "s": 26
         },
         "728": {
           "v": 41.6,
@@ -1194,9 +1224,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "826": {
-          "v": 3.1,
-          "d": "août 2026",
-          "s": 1
+          "v": 3.5,
+          "d": "sept. 2026",
+          "s": 29
         },
         "834": {
           "v": 4.3,
@@ -1204,9 +1234,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "840": {
-          "v": 3.4,
-          "d": "août 2026",
-          "s": 1
+          "v": 3.7,
+          "d": "sept. 2026",
+          "s": 30
         },
         "854": {
           "v": 0.1,

@@ -17,6 +17,2893 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.news = [
   {
+    "id": "2026-11-01-iran-ormuz-lettre-vance-plan-deux-jours",
+    "date": "2026-11-01",
+    "region": "Moyen-Orient",
+    "theme": "geo",
+    "impact": "monde",
+    "zones": [
+      "Europe",
+      "Asie",
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Doha, Qatar",
+        "label": "Qatar",
+        "coords": [
+          51.53,
+          25.29
+        ]
+      },
+      {
+        "name": "Détroit d'Ormuz, Iran",
+        "label": "Ormuz",
+        "coords": [
+          56.5,
+          26.6
+        ]
+      }
+    ],
+    "title": "Ormuz : Téhéran propose de rouvrir le détroit en deux jours, mais seulement si Washington cède sur ses conditions",
+    "summary": "Après une lettre du vice-président américain JD Vance, l'Iran envoie une délégation à Doha et propose, via le Qatar, de rouvrir Ormuz en deux jours. Mais son chef de la sécurité répète que rien ne bougera, ni détroit ni discussion nucléaire, tant que ses conditions ne sont pas acceptées [1][2].",
+    "points": [
+      "Le 31 octobre, Mohsen Rezaei, responsable de la sécurité iranienne, a dit qu'il n'y aurait ni pourparlers sur le nucléaire ni réouverture du détroit d'Ormuz tant que les États-Unis n'accepteraient pas les demandes de l'Iran [1].",
+      "Il a confirmé avoir lu une lettre de JD Vance, sans y répondre : « le ton de la lettre a complètement changé », a-t-il dit, la qualifiant de « très bon signe » [1][4].",
+      "Le chef de la diplomatie, Abbas Araghchi, dit que l'Iran et des médiateurs du Qatar ont conçu un plan pour rouvrir Ormuz en deux jours, à condition que Washington remplisse les conditions de Téhéran. C'est une version raccourcie du plan en sept jours qu'il avait présenté à l'ONU le 25 septembre [2][6].",
+      "Donald Trump avait rejeté ce premier plan fin septembre [2]. Cette fois, le secrétaire d'État Marco Rubio dit que le président « n'a pas encore décidé » de reprendre ou non les frappes contre l'Iran [3].",
+      "Les camps ne demandent pas la même chose d'abord : Washington veut des concessions nucléaires avant de reprendre les discussions, Téhéran veut que le blocus soit levé, que ses fonds gelés soient débloqués et que ses ventes de pétrole soient autorisées [5].",
+      "Une délégation iranienne est à Doha. Une délégation américaine serait attendue, mais ni Washington, ni Téhéran, ni Doha ne l'ont confirmé [5][6]. Selon le New York Times, des pourparlers pourraient s'ouvrir la semaine prochaine au Qatar ou en Turquie [4].",
+      "Sur l'eau, le commandement américain CENTCOM dit avoir détourné 144 navires dans le cadre du blocus, et le trafic dans le détroit reste environ 70 % sous son niveau d'avant-guerre, selon l'organisme britannique UKMTO [3]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : pour la première fois depuis des semaines, les deux camps parlent d'un contact, mais aucun ne bouge sur ses exigences, donc le détroit reste fermé [1][5].",
+      "Ormuz est le passage d'une grande part du pétrole du monde. Tant qu'il est fermé et que Washington bloque aussi les navires, avec un trafic encore environ 70 % sous son niveau d'avant-guerre, le transport du brut reste perturbé [3]. Une réouverture « en deux jours » serait un choc de détente pour les prix, mais elle dépend d'un accord que personne n'a encore signé.",
+      "Les déclarations se contredisent : Araghchi dit n'avoir aucun projet de rencontre avec des responsables américains, tout en parlant de l'outreach américain comme d'un « pas positif » [6]. Trump présente la lettre de Vance comme une aide pour que l'Iran obtienne des fournitures médicales, pas comme une reprise des négociations de paix [4]."
+    ],
+    "forMe": "Si Ormuz rouvre, l'essence et le gaz peuvent baisser en Europe en quelques semaines ; s'il reste fermé ou si les frappes reprennent, les prix du carburant et du chauffage restent hauts cet hiver.",
+    "next": [
+      {
+        "when": "Semaine du 2 novembre",
+        "what": "Des pourparlers pourraient s'ouvrir au Qatar ou en Turquie si Téhéran accepte, selon le New York Times [4]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "2 jours",
+        "label": "délai de réouverture d'Ormuz proposé par l'Iran, sous conditions",
+        "src": 2
+      },
+      {
+        "value": "144",
+        "label": "navires détournés par le blocus américain, selon CENTCOM",
+        "src": 3
+      },
+      {
+        "value": "70 %",
+        "label": "recul du trafic dans le détroit par rapport à l'avant-guerre (UKMTO)",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "routes-maritimes",
+      "sanctions"
+    ],
+    "sources": [
+      {
+        "short": "Times of Israel",
+        "name": "The Times of Israel, « Oct. 31: Senior Iranian official says no nuclear talks or reopening of Hormuz until US accepts Iran's demands » (31 oct. 2026)",
+        "url": "https://www.timesofisrael.com/liveblog-october-31-2026/"
+      },
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « Iran war live: Araghchi says talks under way on 2-day plan to reopen Hormuz » (1er nov. 2026)",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz"
+      },
+      {
+        "short": "Fox News",
+        "name": "Fox News, « No choice made yet by Trump on resuming military action against Iran, Rubio says » (31 oct. 2026)",
+        "url": "https://foxnews.com/live-news/us-iran-war-trump-israel-strait-hormuz-10-31-26"
+      },
+      {
+        "short": "China Daily",
+        "name": "China Daily, « Iran has not responded to Vance's letter yet: top security official » (1er nov. 2026)",
+        "url": "https://global.chinadaily.com.cn/a/202611/01/WS6ae67194e4b06d4aa0566436.html"
+      },
+      {
+        "short": "Iran International",
+        "name": "Iran International, « Iran says US tone shifts but demands still block talks » (31 oct. 2026)",
+        "url": "https://www.iranintl.com/en/202610317760"
+      },
+      {
+        "short": "Yahoo News",
+        "name": "Yahoo News, « Iran FM says US outreach a 'positive step' as delegation in Qatar for talks » (oct. 2026)",
+        "url": "https://www.yahoo.com/news/politics/articles/iran-fm-says-us-outreach-143137339.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-etats-unis-midterms-democrates-favoris",
+    "date": "2026-11-01",
+    "region": "Amériques",
+    "theme": "geo",
+    "zones": [
+      "Amérique du Nord",
+      "Europe",
+      "Asie",
+      "Amérique latine"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "name": "Washington, États-Unis",
+        "label": "États-Unis",
+        "coords": [
+          -77.04,
+          38.91
+        ]
+      }
+    ],
+    "title": "Midterms américaines à deux jours : les démocrates favoris pour la Chambre, le Sénat se joue à quelques points",
+    "summary": "Les Américains votent le 3 novembre pour renouveler la Chambre et un tiers du Sénat. Les démocrates mènent dans les sondages et plus de 43 millions de bulletins sont déjà déposés. Le sort des droits de douane et de la guerre en Iran peut en dépendre [1][3][4].",
+    "points": [
+      "Selon le prévisionniste Decision Desk HQ, cité par The Hill, les démocrates ont 80 % de chances de reprendre la Chambre des représentants et 57 % de chances de gagner le Sénat [2].",
+      "La moyenne des sondages de RealClearPolling donne 8,2 points d'avance aux démocrates dans l'intention de vote nationale pour le Congrès [1]. Dans le sondage Reuters/Ipsos publié le 26 octobre, ils mènent 47 % contre 36 % chez les électeurs inscrits [3].",
+      "La cote de Donald Trump est à 32 % dans ce même sondage, un point au-dessus du plus bas de son second mandat (31 %) mesuré la semaine précédente [3]. Les démocrates sont aussi jugés meilleurs sur l'économie, 37 % contre 33 % : avant la guerre en Iran, c'étaient les républicains qui avaient cet avantage [3].",
+      "Au Sénat, les républicains détiennent 53 sièges sur 100 : les démocrates doivent en gagner net quatre. Les courses les plus serrées : Texas (James Talarico contre Ken Paxton, environ 1,4 point d'avance pour Talarico, mais un sondage Quantus donne Paxton devant d'un point), Ohio, Caroline du Nord, Maine, Iowa [5][6][7].",
+      "Hakeem Jeffries, chef des démocrates à la Chambre, fait de l'annulation des droits de douane de Trump et de la fin de la guerre en Iran deux piliers de son programme ; il a aussi chargé des élus de préparer des enquêtes sur Trump et son entourage, et dit que la destitution n'est « ni sur la table ni hors de la table » [8][9]."
+    ],
+    "why": [
+      "Ce scrutin décide si Donald Trump garde les mains libres pour la seconde moitié de son mandat. Si les démocrates prennent la Chambre, plus aucune loi ne passe sans eux, et ils ont annoncé vouloir voter contre les droits de douane et contre la guerre en Iran [8][9].",
+      "Le contexte est celui d'une cote de popularité très basse, liée par les analystes à l'inflation qui a grimpé depuis que Trump a ordonné des frappes sur l'Iran [3]. C'est pour cela que l'économie, et pas seulement la politique, est au coeur de la campagne : les démocrates ont créé cinq groupes de travail sur le coût de la vie (logement, santé, garde d'enfants, courses, essence et énergie) [9].",
+      "Il faut rester prudent : un sondage n'est pas un résultat, les modèles divergent pour le Sénat, et un vote anticipé record (plus de 43 millions de bulletins déjà déposés, près de 10 millions de plus qu'en 2022) ne dit pas pour qui les gens ont voté [1][2][5]."
+    ],
+    "forMe": "Si tu es en Europe, l'issue compte pour tes factures : les droits de douane américains pèsent sur les exportations françaises et européennes, et la guerre en Iran pousse le prix du pétrole et de l'essence. Un Congrès qui bloque ou affaiblit Trump peut changer le rythme de ces décisions, sans les annuler automatiquement.",
+    "next": [
+      {
+        "when": "3 novembre",
+        "what": "Les bureaux de vote ferment à partir de 18 h (heure de la côte Est) dans certains États ; les premiers résultats tomberont dans la soirée [2]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "43 millions",
+        "label": "bulletins déjà déposés avant le jour du vote, près de 10 millions de plus qu'en 2022",
+        "src": 1
+      },
+      {
+        "value": "32 %",
+        "label": "cote d'approbation de Trump (Reuters/Ipsos, 26 oct.)",
+        "src": 3
+      },
+      {
+        "value": "80 %",
+        "label": "chances démocrates de reprendre la Chambre (Decision Desk HQ)",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "droits-de-douane"
+    ],
+    "sources": [
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « US midterms: 3 days to go, what latest polls say as early voting surges » (31 oct. 2026)",
+        "url": "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges"
+      },
+      {
+        "short": "The Hill",
+        "name": "The Hill, « 2026 midterm elections: When polls close, when results are expected » (oct. 2026)",
+        "url": "https://thehill.com/homenews/campaign/6175621-midterm-elections-polls-close-results/"
+      },
+      {
+        "short": "Reuters (Arab News)",
+        "name": "Reuters/Ipsos via Arab News, « Trump approval rises from record low to 32% ahead of midterm election » (26 oct. 2026)",
+        "url": "https://www.arabnews.com/world/trump-approval-rises-from-record-low-to-32-percent-ahead-of-midterm-election-reuters-ipsos-poll-finds-3008428"
+      },
+      {
+        "short": "PBS",
+        "name": "PBS NewsHour, « Early voting jumps across Senate battlegrounds as millions more Americans vote ahead of Election Day » (oct. 2026)",
+        "url": "https://www.pbs.org/newshour/politics/millions-more-americans-vote-ahead-of-election-day-as-early-voting-jumps-across-senate-battlegrounds"
+      },
+      {
+        "short": "Yahoo News",
+        "name": "Yahoo News, « The 2026 midterms are just 3 days away. Which party has a better chance of winning? » (oct. 2026)",
+        "url": "https://www.yahoo.com/news/politics/article/the-2026-midterms-are-next-week-which-party-has-a-better-chance-of-winning-heres-what-the-latest-polls-say-155319308.html"
+      },
+      {
+        "short": "Al Jazeera (Sénat)",
+        "name": "Al Jazeera, « Can Democrats win the US Senate? 10 key midterm races to watch » (31 oct. 2026)",
+        "url": "https://www.aljazeera.com/news/2026/10/31/can-democrats-win-the-us-senate-10-key-midterm-races-to-watch"
+      },
+      {
+        "short": "Newsweek",
+        "name": "Newsweek, « James Talarico vs. Ken Paxton: What Texas Polls Show One Week Before Midterm » (oct. 2026)",
+        "url": "https://www.newsweek.com/james-talarico-vs-ken-paxton-what-texas-polls-show-one-week-before-midterm-12621879"
+      },
+      {
+        "short": "PBS (programme)",
+        "name": "PBS NewsHour, « Here's what's on House Democrats' agenda if they sweep to power in midterm elections » (oct. 2026)",
+        "url": "https://www.pbs.org/newshour/politics/heres-whats-on-house-democrats-agenda-if-they-sweep-to-power-in-midterm-elections"
+      },
+      {
+        "short": "Christian Science Monitor",
+        "name": "The Christian Science Monitor, « Democrats plan investigations, affordability efforts if they reclaim Congress » (15 oct. 2026)",
+        "url": "https://www.csmonitor.com/USA/Politics/2026/1015/congress-midterms-democrats-jeffries"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-france-lyceens-troisieme-week-end-greve-5-novembre",
+    "date": "2026-11-01",
+    "region": "Europe",
+    "theme": "mix",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Paris, France",
+        "label": "France",
+        "coords": [
+          2.35,
+          48.86
+        ]
+      }
+    ],
+    "title": "Parti des lycées, le mouvement de la jeunesse tient en France un troisième samedi, avec 70 000 policiers et une grève générale le 5 novembre",
+    "summary": "Le 31 octobre, 320 000 personnes selon le gouvernement ont défilé en France pour un troisième week-end de suite, derrière des lycéens qui dénoncent profs absents et bâtiments abîmés. Plus de 560 arrestations ont eu lieu ; les syndicats appellent à la grève le 5 novembre [1][2][4].",
+    "points": [
+      "Le mouvement est parti des lycéens, qui protestent contre des bâtiments négligés, des professeurs manquants et un système d'admission à l'université jugé injuste pour les milieux modestes [2]. La FCPE (fédération de parents d'élèves) date son démarrage du 21 septembre [7].",
+      "Les cortèges rassemblent de moins en moins : 550 000 personnes le 17 octobre, 410 000 le 24, 320 000 le 31 selon le gouvernement, dont 70 000 à Paris ; l'intersyndicale étudiante en revendique 500 000 [1][4].",
+      "Le ministre de l'Intérieur Laurent Nuñez a mobilisé environ 70 000 policiers et gendarmes, craignant un « risque très élevé » de désordres à la nuit tombée, comme lors des pillages d'il y a deux semaines [2][9]. Le cortège parisien a été renvoyé en bordure de la ville, jusqu'à la porte de Charenton, où des bouteilles et des feux d'artifice ont visé la police, qui a répondu par des grenades et du gaz lacrymogène [2][4].",
+      "Bilan provisoire du ministère : 565 interpellations à 21 h, après 40 000 contrôles en amont. Nuñez juge que « les cortèges revendicatifs se sont bien passés » mais dénonce l'engagement des casseurs [4].",
+      "Le 5 novembre, la CGT, la CFDT, FO, l'UNSA, la FSU, Solidaires et la FA appellent à une grève interprofessionnelle ; l'enseignement privé sous contrat, plus de 2 millions d'élèves, la rejoint pour la première fois [8][10].",
+      "Hors de France, l'initiative « Gen Z regelt » a rassemblé des jeunes dans plus de 30 villes allemandes, contre un retour du service militaire, et des milliers de personnes ont défilé à Lisbonne pour le logement [1]."
+    ],
+    "why": [
+      "À retenir : ce n'est plus une simple colère lycéenne mais un mouvement social à plusieurs étages, qui relie école, coût de la vie et budget de l'État [1][6]. Les organisations lycéennes réclament le remplacement des professeurs absents et des moyens massifs ; les syndicats enseignants demandent l'annulation des suppressions de postes prévues au budget 2027 [6].",
+      "L'exécutif tente de séparer deux sujets. Emmanuel Macron a reconnu à Marseille un manque d'anticipation le 17 octobre et des effectifs de police insuffisants, et annoncé des parcours de manifestation hors des centres-villes [5]. Le gouvernement veut distinguer la réponse aux revendications de celle aux violences [6].",
+      "La méthode pèse aussi : après un adolescent de 14 ans à la mâchoire brisée par une grenade à Lens, Nuñez a annoncé que ce modèle ne serait plus utilisé contre des lycéens [10].",
+      "Le tournant se jouera le 5 novembre : si la grève interprofessionnelle mobilise, le budget 2027, déjà sans majorité à l'Assemblée, devra répondre à une demande de moyens pour l'école et les salaires que l'intersyndicale a mise sur la table [8]."
+    ],
+    "forMe": "Le 5 novembre, attends-toi à des écoles, des transports et des services publics perturbés. Certaines préfectures limitent les cortèges en centre-ville : vérifie les arrêtés avant de te déplacer.",
+    "figures": [
+      {
+        "value": "320 000",
+        "label": "manifestants le 31 octobre selon le gouvernement (550 000 le 17 octobre)",
+        "src": 1
+      },
+      {
+        "value": "565",
+        "label": "interpellations à 21 h le 31 octobre",
+        "src": 4
+      },
+      {
+        "value": "70 000",
+        "label": "policiers et gendarmes déployés",
+        "src": 9
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "PBS (AP)",
+        "name": "PBS NewsHour (AP), « A third weekend of protests in France as youth-led rallies sweep Europe » (31 oct. 2026)",
+        "url": "https://www.pbs.org/newshour/world/a-third-weekend-of-protests-in-france-as-youth-led-rallies-sweep-europe"
+      },
+      {
+        "short": "NPR",
+        "name": "NPR, « France seethes again as youth-led protests sweep Europe » (31 oct. 2026)",
+        "url": "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe"
+      },
+      {
+        "short": "CBC",
+        "name": "CBC News, « Youth-led protests sweep across France, Europe for a 3rd weekend » (oct. 2026)",
+        "url": "https://www.cbc.ca/news/world/france-student-protests-europe-9.7404105"
+      },
+      {
+        "short": "BFM TV",
+        "name": "BFM TV, « 422 interpellations, des cortèges revendicatifs calmes... Laurent Nuñez tire son bilan des manifestations du 31 octobre » (31 oct. 2026)",
+        "url": "https://www.shango.media/bfm-tv-on-va-rester-vigilants-422-interpellations-des-corteges-revendicatifs-calmes-laurent-nunez-tire-son-bilan-des-manifestations-du-31-octobre-12005641"
+      },
+      {
+        "short": "franceinfo",
+        "name": "franceinfo, « Emmanuel Macron s'attend à une journée à risques samedi 31 octobre » (26 oct. 2026)",
+        "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/emmanuel-macron-s-attend-a-une-journee-a-risques-samedi-31-octobre-et-annonce-que-les-prochains-traces-des-manifestations-autorisees-se-situeront-hors-des-centres-villes_8254276.html"
+      },
+      {
+        "short": "Le Nouveau Président",
+        "name": "Le Nouveau Président, « Mobilisation lycéenne d'octobre 2026 : origines, revendications, bilan » (oct. 2026)",
+        "url": "https://www.lenouveaupresident.com/journal/article/mobilisation-lyceens-octobre-2026"
+      },
+      {
+        "short": "FCPE",
+        "name": "FCPE, « Les revendications de la jeunesse doivent être entendues » (oct. 2026)",
+        "url": "https://www.fcpe.asso.fr/actualite/les-revendications-de-la-jeunesse-doivent-etre-entendues"
+      },
+      {
+        "short": "Écho des Tribunes",
+        "name": "L'Écho des Tribunes, « Grève du 5 novembre : sept rassemblements annoncés dans l'Hérault » (oct. 2026)",
+        "url": "https://echo-des-tribunes.com/herault-tribune/articles/greve-du-5-novembre-sept-rassemblements-annonces-dans-lherault-dont-un-a-montpellier"
+      },
+      {
+        "short": "Reuters",
+        "name": "Reuters (via Investing.com), « France braces for fresh unrest, government vows tough response » (oct. 2026)",
+        "url": "https://www.investing.com/news/economy-news/france-braces-for-fresh-unrest-government-vows-tough-response-4989212"
+      },
+      {
+        "short": "NBC News",
+        "name": "NBC News, « Gruesome injuries throw spotlight on France's policing of high school protests » (oct. 2026)",
+        "url": "https://www.nbcnews.com/world/europe/injuries-spotlight-frances-policing-high-school-protest-rcna602242"
+      },
+      {
+        "short": "Journal de l'économie",
+        "name": "Journal de l'économie, « Grève du 5 novembre : pourquoi l'enseignement privé bascule » (oct. 2026)",
+        "url": "https://www.journaldeleconomie.fr/greve-du-5-novembre-enseignement-prive/"
+      }
+    ],
+    "next": [
+      {
+        "when": "3 novembre",
+        "what": "L'Assemblée vote la partie recettes du budget 2027, sur fond de colère des enseignants contre les suppressions de postes [6]."
+      },
+      {
+        "when": "5 novembre",
+        "what": "Journée de grève et de manifestations de l'intersyndicale, avec l'enseignement privé sous contrat pour la première fois [8][10]."
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-france-fitch-perspective-negative-budget-2027",
+    "date": "2026-11-01",
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Paris, France",
+        "label": "France",
+        "coords": [
+          2.35,
+          48.86
+        ]
+      }
+    ],
+    "title": "Fitch place la dette de la France sous surveillance négative, à quelques jours du vote clé sur le budget 2027",
+    "summary": "Le 30 octobre, l'agence Fitch a gardé la note A+ de la France mais fait passer sa perspective à négative, après un trimestre de recul du PIB. Le ministre Roland Lescure y voit la preuve qu'il faut un budget avant fin d'année ; le vote sur les recettes a lieu le 3 novembre [1][2].",
+    "points": [
+      "Fitch a confirmé la note A+ et placé la perspective en négatif, lors d'un examen non programmé, en citant une croissance plus faible, des coûts d'emprunt plus hauts, un déficit plus large et un paysage politique très fragmenté [2].",
+      "L'agence voit la dette publique à environ 124 % du PIB en 2028, contre 115,7 % en 2025, et estime qu'il faudrait environ 3,5 % du PIB d'ajustements cumulés pour la stabiliser, contre 3 % en août [2]. Elle prévoit une croissance de 0,5 % en 2026 et 0,9 % en 2027 [2].",
+      "Fitch annonce un nouvel examen au plus tard fin février 2027 ; Moody's a laissé la France à Aa3 avec perspective négative quelques jours plus tôt, et S&P rendra son verdict le 27 novembre [2].",
+      "Le Premier ministre Sébastien Lecornu vise un déficit de 5 % du PIB en 2027, contre 5,4 % attendus en 2026, et affirme qu'il approcherait 6,5 % sans mesures ; les économies annoncées vont de 45 à 54 milliards d'euros selon les décomptes [4][5].",
+      "En commission, les députés ont rejeté le volet recettes dès le 9 octobre, seuls les élus du camp présidentiel votant pour [3]. Le 13 octobre, la motion de rejet des socialistes a échoué, le Rassemblement national refusant de la voter [4].",
+      "Le vote sur les recettes, prévu le 20 octobre, a été reporté au 3 novembre faute d'avoir fini d'examiner plus de 2 800 amendements ; si ce volet est rejeté, tout le budget tombe en première lecture [6]."
+    ],
+    "why": [
+      "À retenir : une perspective négative ne change pas la note mais signale qu'une baisse est possible [2]. Fitch cite aussi des coûts d'emprunt plus hauts : plus la dette coûte cher, plus les intérêts pèsent sur les budgets suivants [2].",
+      "Le budget se joue sans majorité. Le ministre des Relations avec le Parlement, Laurent Panifous, jugeait fin septembre qu'un vote serait « très difficile » [3]. Le gouvernement promet de ne pas utiliser le 49.3 ni les ordonnances sans obstruction ; les ordonnances, jamais employées pour un budget, ne seraient possibles qu'après le 17 décembre [4][6].",
+      "Roland Lescure parle d'une économie « à l'arrêt » et affirme que la France « ira dans le mur » sans budget [10]. Un média rapporte que Fitch table sur un déficit de 5,5 % avec le projet actuel, car l'activité plus faible et les concessions au Parlement diluent les économies [2].",
+      "Le calendrier est serré : l'Assemblée doit finir sa première lecture le 17 novembre, le Parlement le 17 décembre [6]."
+    ],
+    "forMe": "Une dette jugée plus risquée coûte plus cher à l'État, et ces intérêts se paient avec tes impôts ou par des économies sur les services publics. Rien ne change du jour au lendemain dans ton quotidien : surveille le vote du 3 novembre et l'avis de S&P le 27.",
+    "figures": [
+      {
+        "value": "A+",
+        "label": "note de la France, perspective passée à négative par Fitch",
+        "src": 2
+      },
+      {
+        "value": "124 %",
+        "label": "dette publique prévue en 2028 par Fitch (115,7 % en 2025)",
+        "src": 2
+      },
+      {
+        "value": "5 %",
+        "label": "déficit visé en 2027, contre 5,4 % attendus en 2026",
+        "src": 4
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux"
+    ],
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « France pushes 'responsible' 2027 budget as Fitch cuts debt outlook to 'negative' » (31 oct. 2026)",
+        "url": "https://www.euronews.com/2026/10/31/france-pushes-responsible-2027-budget-as-fitch-cuts-debt-outlook-to-negative"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « Fitch cuts France outlook to negative on ballooning debt and deficit risks » (30 oct. 2026)",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fitch-cuts-france-outlook-negative-220454290.html"
+      },
+      {
+        "short": "LCP",
+        "name": "LCP, « Budget 2027 : le gouvernement sur un fil à la veille de l'ouverture des débats à l'Assemblée » (12 oct. 2026)",
+        "url": "https://lcp.fr/actualites/budget-2027-le-gouvernement-sur-un-fil-a-la-veille-de-l-ouverture-des-debats-a-l"
+      },
+      {
+        "short": "Boursorama",
+        "name": "Boursorama, « Budget 2027 : Lecornu et le PS se confrontent, le RN veut aller au débat » (13 oct. 2026)",
+        "url": "https://www.boursorama.com/actualite-economique/actualites/budget-2027-lecornu-et-le-ps-se-confrontent-le-rn-veut-aller-au-debat-3afc929e37c6df00fab170696d0b0e8d"
+      },
+      {
+        "short": "France 24",
+        "name": "France 24, « Budget 2027 : Sébastien Lecornu veut faire 54 milliards d'euros d'économies » (17 sept. 2026)",
+        "url": "https://www.france24.com/fr/france/20260917-lecornu-pr%C3%A9sente-un-budget-offensif-avec-54-milliards-d-%C3%A9conomies"
+      },
+      {
+        "short": "NosParlementaires",
+        "name": "NosParlementaires, « Date du vote du budget 2027 : le 3 novembre, pas le 20 octobre » (oct. 2026)",
+        "url": "https://nosparlementaires.fr/actualites/budget-2027-calendrier-assemblee-cinq-semaines"
+      },
+      {
+        "short": "LCP",
+        "name": "LCP, « Budget 2027 : les députés durcissent l'exit tax pour revenir à sa version originelle » (30 oct. 2026)",
+        "url": "https://lcp.fr/actualites/budget-2027-les-deputes-durcissent-l-exit-tax-pour-revenir-a-sa-version-originelle"
+      },
+      {
+        "short": "Selectra",
+        "name": "Selectra, « Budget 2027 : les avantages fiscaux votés par les députés ne sont pas acquis, premier verdict le 3 novembre » (oct. 2026)",
+        "url": "https://selectra.info/finance/actualites/marche/budget-2027-niches-fiscales-deputes-votees"
+      },
+      {
+        "short": "Eurasia Business News",
+        "name": "Eurasia Business News, « French Economy Contracts 0.1% in Q3 2026 » (31 oct. 2026)",
+        "url": "https://eurasiabusinessnews.com/2026/10/31/french-economy-contracts-0-1-in-q3-2026/"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « French economy 'at a standstill' as budget uncertainty raises recession risk » (oct. 2026)",
+        "url": "https://finance.yahoo.com/economy/policy/articles/french-economy-stalls-budget-deadlock-175518010.html"
+      }
+    ],
+    "next": [
+      {
+        "when": "3 novembre",
+        "what": "Vote des députés sur la partie recettes du budget 2027 [6]."
+      },
+      {
+        "when": "17 novembre",
+        "what": "Fin du délai de l'Assemblée pour la première lecture [6]."
+      },
+      {
+        "when": "27 novembre",
+        "what": "S&P Global examine la note de la France (A+, perspective stable) [2]."
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-italie-greve-generale-riarmement-colisee",
+    "date": "2026-11-01",
+    "region": "Europe",
+    "theme": "mix",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Rome, Italie",
+        "label": "Italie",
+        "coords": [
+          12.5,
+          41.9
+        ]
+      }
+    ],
+    "title": "Italie : grève générale contre la vie chère et le réarmement, heurts près du Colisée et au moins un million de manifestants selon les syndicats",
+    "summary": "Le 30 octobre, le syndicat USB a paralysé une partie de l'Italie pendant 24 heures, dans plus de 40 villes, contre la vie chère et les dépenses militaires. Des heurts ont eu lieu à Rome et à Turin, le gouvernement Meloni défend son décret sécurité [1][2][7].",
+    "points": [
+      "La grève générale de 24 heures, appelée par le syndicat de base USB (Unione Sindacale di Base), a touché plus de 40 villes. C'est la plus grande journée de protestation du pays depuis l'automne 2025 [1].",
+      "Les chiffres divergent : l'USB a d'abord avancé plus de 1,5 million de participants, puis « au moins un million » en admettant une estimation difficile ; les organisateurs comptent 100 000 manifestants à Rome [6][4].",
+      "Le syndicat demande de déplacer l'argent des dépenses de défense vers la santé, le logement et les services sociaux, et réclame un « décret de sécurité sociale » à la place des décrets sécurité du gouvernement [7].",
+      "À Rome, environ 300 personnes se sont détachées du cortège, ont dressé des barricades de poubelles via Claudia près du Colisée et lancé des objets sur les policiers ; huit personnes ont été interpellées, et la place Montecitorio, près du Parlement, et la place Colonna, devant le bureau du Premier ministre, ont été fermées [1][4].",
+      "À Turin, place Castello, des manifestants ont lancé oeufs, bouteilles et peinture rouge ; la police a chargé avec des lances à eau [3].",
+      "Après les violences des 17 et 18 octobre à Milan, Turin et Bologne, le gouvernement a adopté un décret exceptionnel, qui permet des détentions préventives, et déployé 500 militaires en appui de la police [3]. Bloquer une route avec son corps est désormais un délit [6].",
+      "Giorgia Meloni a déclaré que « le vandalisme et le vol ne sont pas une protestation, c'est de la criminalité » [3]. Le gouvernement avait aussi proposé 175 millions d'euros d'aide aux routiers, agriculteurs et pêcheurs [3]."
+    ],
+    "why": [
+      "À retenir : la colère italienne ressemble à celle de la France, avec le même mélange de prix qui montent et de budgets publics qui se déplacent vers l'armée. Les syndicats lient explicitement le coût de la vie à l'effort de réarmement européen [2][7].",
+      "Les routiers, taxis et agriculteurs, déjà mobilisés ces dernières semaines, ont rejoint le mouvement à cause du prix des carburants et des dépenses de défense, ce qui élargit la base de la protestation au-delà des syndicats [3].",
+      "Le gouvernement choisit la fermeté : le vice-Premier ministre Matteo Salvini renvoie au décret sécurité, qui prévoit la prison pour les dégâts en manifestation et fait payer les parents [4].",
+      "La suite dépend de la rue : l'USB a promis de ne pas s'arrêter là, sans annoncer de date [7]."
+    ],
+    "forMe": "Si tu voyages en Italie, des grèves de transports (bus, trams, trains) peuvent toucher les trajets : consulte le calendrier officiel des grèves avant de réserver. Les tensions sociales y portent aussi sur le prix des carburants, un sujet qui concerne toute l'Europe.",
+    "figures": [
+      {
+        "value": "40+",
+        "label": "villes touchées par la grève du 30 octobre",
+        "src": 1
+      },
+      {
+        "value": "1 million",
+        "label": "manifestants au moins selon l'USB (1,5 million d'abord annoncé)",
+        "src": 6
+      },
+      {
+        "value": "500",
+        "label": "militaires déployés en appui de la police après les violences d'octobre",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Protesters clash with police near Colosseum as Italy stages nationwide strike » (30 oct. 2026)",
+        "url": "https://www.euronews.com/2026/10/30/italy-on-high-alert-as-thousands-take-the-streets-in-nationwide-strike"
+      },
+      {
+        "short": "France 24",
+        "name": "France 24, « 'Let's reclaim our future': Thousands protest across Italy over rising living costs » (30 oct. 2026)",
+        "url": "https://www.france24.com/en/europe/20261030-let-s-reclaim-our-future-thousands-protest-across-italy-over-rising-living-costs"
+      },
+      {
+        "short": "NBC News",
+        "name": "NBC News, « Italy's PM deploys troops as nation faces widespread strikes and port blockades » (oct. 2026)",
+        "url": "https://www.nbcnews.com/world/italy/italy-strikes-violent-protests-rome-colosseum-meloni-army-rome-milan-rcna606503"
+      },
+      {
+        "short": "Il Fatto Quotidiano",
+        "name": "Il Fatto Quotidiano, « Corteo Roma contro governo Meloni e riarmo » (30 oct. 2026)",
+        "url": "https://ilfattoquotidiano.it/2026/10/30/sciopero-generale-corteo-roma-riarmo-notizie/8556002"
+      },
+      {
+        "short": "Tgcom24",
+        "name": "Tgcom24, « Sciopero generale 30 ottobre: un milione di persone in piazza » (30 oct. 2026)",
+        "url": "https://www.tgcom24.mediaset.it/cronaca/sciopero-generale-30-ottobre-cortei-trasporti_118332719-202602k.shtml"
+      },
+      {
+        "short": "Tuttonotizie",
+        "name": "Tuttonotizie, « Sciopero del 30 ottobre, un milione in piazza secondo l'Usb: lo stesso sindacato ha diffuso anche 1,5 milioni » (oct. 2026)",
+        "url": "https://tuttonotizie.eu/societa/sciopero-30-ottobre-usb-milione-piazza-stime-blocco-stradale/"
+      },
+      {
+        "short": "USB",
+        "name": "Unione Sindacale di Base, « 30 ottobre è sciopero generale » (oct. 2026)",
+        "url": "https://www.usb.it/leggi-notizia/30-ottobre-e-sciopero-generale-0817.html"
+      }
+    ],
+    "next": [
+      {
+        "when": "Pas de date annoncée",
+        "what": "L'USB assure qu'elle ne s'arrêtera pas là [7]."
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-chine-usines-recul-octobre",
+    "date": "2026-11-01",
+    "region": "Asie",
+    "theme": "eco",
+    "zones": [
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Pékin, Chine",
+        "label": "Chine",
+        "coords": [
+          116.4,
+          39.9
+        ]
+      }
+    ],
+    "title": "Les usines chinoises passent en recul en octobre : les commandes à l'export et la consommation s'essoufflent",
+    "summary": "L'indice officiel des directeurs d'achat de l'industrie chinoise tombe à 49,3 en octobre, contre 50,1 en septembre, sous le seuil de 50 qui sépare croissance et recul. Les commandes venues de l'étranger reculent, la consommation retombe, et seule la haute technologie tient bon [1][3].",
+    "points": [
+      "Le Bureau national des statistiques a publié le 31 octobre un indice PMI manufacturier (enquête auprès des directeurs d'achat : au-dessus de 50, l'activité progresse ; en dessous, elle recule) de 49,3, contre 50,1 en septembre et 49,8 en août. Un sondage Reuters attendait 50,0 [1][4].",
+      "C'est la troisième contraction en quatre mois [4]. La production passe à 49,8 (1,9 point de moins qu'en septembre) et les nouvelles commandes à 49,4 (1,1 point de moins) [2].",
+      "Les nouvelles commandes à l'export tombent à 48,7 contre 50,0 en septembre : les commandes de fin d'année des clients étrangers, passées en avance en septembre, ont fléchi [1].",
+      "Huo Lihui, statisticienne du Bureau national des statistiques, évoque des achats avancés avant la fête nationale du début octobre et un environnement international compliqué [2]. L'indice de l'industrie des biens de consommation perd 1,9 point sur le mois [2].",
+      "Les services et la construction suivent : l'indice non manufacturier passe à 49,7 contre 50,2, et l'indice composite à 49,7 contre 50,7 [3].",
+      "La haute technologie résiste : 51,3 pour l'industrie high-tech et 50,6 pour la fabrication d'équipements, soit deux secteurs en expansion [3].",
+      "Zhang Liqun, de la Fédération chinoise de la logistique et des achats, estime que « l'insuffisance de la demande accroît la pression à la baisse sur l'économie » [1]."
+    ],
+    "why": [
+      "À retenir : la Chine ne peut plus compter seulement sur ses ventes à l'étranger pour tirer sa croissance, et sa demande intérieure reste faible [1][5].",
+      "Les achats des ménages ont grimpé pendant la longue semaine de congés d'octobre, puis ont retombé juste après [1]. Les économistes jugent que les exportations risquent de ne pas suffire à compenser une consommation qui stagne depuis longtemps [5]. Zhang Zhiwei, de Pinpoint Asset Management, dit que si la demande extérieure faiblit en 2027, « la Chine aura besoin d'un soutien politique plus important pour relancer la demande intérieure » [1].",
+      "Les relations commerciales avec Washington restent un facteur d'incertitude : la trêve entre les deux pays a été prolongée jusqu'au 10 janvier 2027, selon un porte-parole du ministère chinois du Commerce cité par un site spécialisé, mais la suspension chinoise des contrôles sur les terres rares n'a pas été confirmée noir sur blanc [6][7]."
+    ],
+    "forMe": "La Chine est le premier atelier du monde : si ses usines commandent moins, les prix de l'acier, du cuivre ou des composants peuvent se détendre, mais les exportateurs européens de machines et de produits de luxe vendent moins sur place.",
+    "next": [
+      {
+        "when": "10 novembre",
+        "what": "Date à laquelle devait s'achever la suspension par Pékin de ses contrôles à l'export de terres rares ; un responsable chinois la dit prolongée jusqu'au 10 janvier 2027 [6][7]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "49,3",
+        "label": "indice PMI manufacturier de la Chine en octobre (50,1 en septembre)",
+        "src": 1
+      },
+      {
+        "value": "48,7",
+        "label": "sous-indice des nouvelles commandes à l'export (50,0 en septembre)",
+        "src": 1
+      },
+      {
+        "value": "51,3",
+        "label": "indice de la haute technologie, seul secteur nettement au-dessus de 50",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "droits-de-douane"
+    ],
+    "sources": [
+      {
+        "short": "AP (US News)",
+        "name": "AP via U.S. News, « China's Factory Activity Slips as New Export Orders Weaken » (31 oct. 2026)",
+        "url": "https://www.usnews.com/news/business/articles/2026-10-31/chinas-factory-activity-slips-as-new-export-orders-weaken"
+      },
+      {
+        "short": "China Daily",
+        "name": "China Daily, « China's manufacturing PMI falls to 49.3 in October » (31 oct. 2026)",
+        "url": "https://global.chinadaily.com.cn/a/202610/31/WS6ae561fbe4b06d4aa05663b0.html"
+      },
+      {
+        "short": "Xinhua",
+        "name": "Xinhua, « Economic Watch: China's manufacturing PMI softens, high-tech sector maintains expansion » (31 oct. 2026)",
+        "url": "https://english.news.cn/20261031/d98d1f3fa92a45d6a26f234849bd4957/c.html"
+      },
+      {
+        "short": "Asharq Al-Awsat",
+        "name": "Asharq Al-Awsat, « China's Factory Activity Shrinks in October, Third Contraction in Four Months » (31 oct. 2026)",
+        "url": "https://english.aawsat.com/business/5335876-china%E2%80%99s-factory-activity-shrinks-october-third-contraction-four-months"
+      },
+      {
+        "short": "Manila Times",
+        "name": "The Manila Times, « China's factory activity contracts in October » (1er nov. 2026)",
+        "url": "https://www.manilatimes.net/2026/11/01/business/top-business/chinas-factory-activity-contracts-in-october/2458703"
+      },
+      {
+        "short": "Rinnovabili",
+        "name": "Rinnovabili, « Chinese rare earth exports: Trump-Xi truce extended to Jan 2027 » (2026)",
+        "url": "https://www.rinnovabili.net/policy-and-affairs/environmental-policies/chinese-rare-earth-exports-trump-xi-truce/"
+      },
+      {
+        "short": "FXStreet",
+        "name": "FXStreet, « China's rare earth leverage has an expiration date: November 10 » (14 oct. 2026)",
+        "url": "https://www.fxstreet.com/analysis/chinas-rare-earth-leverage-has-an-expiration-date-november-10-heres-what-beijing-is-deciding-202610141348"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-japon-banque-centrale-pause-decembre",
+    "date": "2026-11-01",
+    "region": "Asie",
+    "theme": "eco",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "name": "Tokyo, Japon",
+        "label": "Japon",
+        "coords": [
+          139.69,
+          35.69
+        ]
+      }
+    ],
+    "title": "Le Japon laisse ses taux à 1,25 % mais prépare une hausse en décembre : l'inflation de fond atteint enfin 2 %",
+    "summary": "La Banque du Japon a maintenu son taux directeur à 1,25 % le 30 octobre, par 8 voix contre 1. Elle juge pour la première fois depuis 2013 que l'inflation de fond est en ligne avec son objectif de 2 % et laisse entendre qu'une hausse pourrait venir en décembre [1][3].",
+    "points": [
+      "Le conseil de la Banque du Japon (BoJ) a laissé son taux à 1,25 %, le plus haut niveau depuis 1995, comme prévu par les marchés [1].",
+      "La décision passe par 8 voix contre 1 : le membre du conseil Hajime Takata voulait relever le taux à 1,5 %, estimant que l'inflation de fond avait atteint la cible de 2 % [3][4].",
+      "La banque écrit que l'inflation de fond est « globalement cohérente » avec son objectif de 2 %, un constat qu'elle n'avait jamais fait depuis l'adoption de cet objectif en 2013 [1].",
+      "Ses prévisions montent : l'inflation de l'exercice 2027 est relevée à 2,6 % contre 2,4 %, et l'indicateur hors produits frais et énergie à 2,7 % contre 2,6 % ; pour l'exercice 2028, elle reste à 2,0 % [1].",
+      "Le gouverneur Kazuo Ueda dit que la banque n'attendra pas passivement une hausse de l'inflation et ajustera sa politique si nécessaire, tout en précisant qu'elle ne peut pas encore « crier victoire » [3].",
+      "Un sondage Reuters cité par la presse financière donne 54 économistes sur 78 qui attendent un relèvement à 1,5 % d'ici la fin de l'année [3]. Après la décision, le dollar valait environ 157 yens [4][6].",
+      "Les prix à la consommation ont dépassé 2 % en septembre pour la première fois cette année, mais les aides à l'énergie de la Première ministre Sanae Takaichi les tiennent plus bas qu'ils ne seraient [1][2]."
+    ],
+    "why": [
+      "La première chose à retenir : après des décennies de prix quasi immobiles, le Japon est en train de sortir de la déflation, et sa banque centrale peut remonter ses taux sans freiner l'économie [1][2].",
+      "Le gouverneur avait préparé le terrain : devant le Parlement le 19 octobre, il disait que l'inflation de fond était « tout près » de 2 % et que ne pas ajuster le taux pourrait faire monter les taux longs, par crainte d'un dérapage des prix [5]. Cette stratégie lui permet de ne pas surprendre les marchés.",
+      "Pour la monnaie, la perspective d'une hausse soutient le yen face au dollar, mais l'effet reste mesuré tant que le taux japonais est bien plus bas que ceux des États-Unis [4][6]. Les aides à l'énergie du gouvernement compliquent la lecture de l'inflation : sans elles, elle serait plus haute [1]."
+    ],
+    "forMe": "Un yen plus fort rend les produits japonais plus chers, mais aussi les voyages au Japon moins avantageux pour les touristes français. Et quand le Japon, gros détenteur de dette étrangère, remonte ses taux, une partie de l'argent qu'il prêtait à l'étranger peut rentrer au pays.",
+    "next": [
+      {
+        "when": "Décembre 2026",
+        "what": "Prochaine réunion de la Banque du Japon, où une hausse à 1,5 % est attendue par la majorité des économistes sondés [3]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "1,25 %",
+        "label": "taux directeur de la Banque du Japon, le plus haut depuis 1995",
+        "src": 1
+      },
+      {
+        "value": "8 contre 1",
+        "label": "vote du conseil : Takata voulait déjà 1,5 %",
+        "src": 3
+      },
+      {
+        "value": "2,6 %",
+        "label": "inflation prévue pour l'exercice 2027 (2,4 % auparavant)",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux"
+    ],
+    "sources": [
+      {
+        "short": "CNBC",
+        "name": "CNBC, « BOJ holds rates as underlying inflation aligns with 2% target for first time since 2013 » (30 oct. 2026)",
+        "url": "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html"
+      },
+      {
+        "short": "Japan Times",
+        "name": "The Japan Times, « Bank of Japan holds rates steady even as inflation ticks up » (30 oct. 2026)",
+        "url": "https://www.japantimes.co.jp/business/2026/10/30/economy/boj-rates-steady-inflation/"
+      },
+      {
+        "short": "Seoul Economic Daily",
+        "name": "Seoul Economic Daily, « Bank of Japan Holds Rate at 1.25 Percent as Underlying Inflation Meets 2% Goal » (30 oct. 2026)",
+        "url": "https://en.sedaily.com/international/2026/10/30/bank-of-japan-holds-rate-at-125-percent-as-underlying"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « Analysts react to BOJ decision to keep rates steady » (30 oct. 2026)",
+        "url": "https://finance.yahoo.com/economy/policy/articles/instant-view-analysts-react-boj-032614967.html"
+      },
+      {
+        "short": "Arab News Japan",
+        "name": "Arab News Japan, « BOJ chief says underlying inflation 'quite close' to price goal » (oct. 2026)",
+        "url": "https://www.arabnews.jp/en/business/boj-chief-says-underlying-inflation-quite-close-to-price-goal-3000915"
+      },
+      {
+        "short": "FXStreet",
+        "name": "FXStreet, « Yen gains as BoJ signals further hikes while AI fears weigh on markets » (30 oct. 2026)",
+        "url": "https://www.fxstreet.com/analysis/yen-gains-as-boj-signals-further-hikes-while-ai-fears-weigh-on-markets-202610300852"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-sahara-occidental-mission-onu-sans-mandat",
+    "date": "2026-11-01",
+    "region": "Afrique",
+    "theme": "geo",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Rabat, Maroc",
+        "label": "Maroc",
+        "coords": [
+          -6.84,
+          34.02
+        ]
+      },
+      {
+        "name": "New York, États-Unis",
+        "label": "ONU",
+        "coords": [
+          -73.97,
+          40.75
+        ]
+      }
+    ],
+    "title": "Sahara occidental : le Conseil de sécurité ne renouvelle pas la mission de l'ONU, Russie et États-Unis s'étant bloqués",
+    "summary": "Le 30 octobre, deux textes rivaux sur la mission de l'ONU au Sahara occidental (MINURSO) ont échoué au Conseil de sécurité : la Russie a opposé son veto au projet américain. Son mandat expirait le 31 octobre ; le Maroc y voit la fin du dossier à l'ONU [1][3].",
+    "points": [
+      "Le projet américain prolongeait la mission d'un an, jusqu'au 31 octobre 2027, et la rebaptisait « Mission des Nations unies pour le Sahara occidental » [10]. Il a recueilli 11 voix pour, 3 abstentions et un vote contre, celui de la Russie, qui vaut veto [3][10].",
+      "Le texte russe, une simple reconduction d'un an, a obtenu 3 voix pour (dont, selon Morocco World News, la Somalie et l'Algérie, membre du Conseil), un contre et 11 abstentions ; les États-Unis ont voté contre. Aucun n'a été adopté [3][10].",
+      "L'ambassadeur américain Mike Waltz a dit que la Russie avait bloqué « ce que 11 autres membres du Conseil soutenaient » [3]. Le délégué russe a répondu que le Conseil ne peut pas préjuger de questions de souveraineté [3]. Le Royaume-Uni a exprimé une « immense déception » [3].",
+      "Washington a dit que, ce vote devant mener à une réduction de la mission, il fallait qu'elle soit « ordonnée et stable » [4].",
+      "Le Cabinet royal marocain a qualifié l'absence de renouvellement d'« évolution significative », estimant que la question devait sortir de l'examen du Conseil, et que la présence de la MINURSO dans les provinces du Sud devait prendre fin dans les prochains jours [3][8].",
+      "L'ambassadeur marocain à l'ONU, Omar Hilale, a affirmé que le rôle de l'Algérie au Conseil confirme son implication dans le conflit [7]. Le Front Polisario avait menacé de quitter le processus de paix si le projet américain passait sans changement [6].",
+      "La résolution 2797, adoptée le 31 octobre 2025, avait soutenu le plan d'autonomie marocain et prolongé la mission jusqu'au 31 octobre 2026 [9]."
+    ],
+    "why": [
+      "À retenir : la mission de l'ONU censée organiser un référendum au Sahara occidental n'a plus de mandat à la veille de son expiration, et aucune solution de remplacement n'est annoncée [1][2].",
+      "Le conflit oppose le Maroc, qui contrôle l'essentiel du territoire et propose une autonomie sous sa souveraineté, au Front Polisario, soutenu par l'Algérie, qui réclame l'autodétermination. Moscou, proche d'Alger, ne voulait pas d'un texte qui consacre la solution marocaine ; Washington voulait l'inscrire dans le mandat [3][5].",
+      "Le veto ne ferme pas le dossier pour autant : les États-Unis ou n'importe quel autre membre peuvent présenter un nouveau projet [1]. Les sources divergent sur la portée : Rabat y voit la clôture du dossier, des organisations comme Western Sahara Resource Watch (qui critique le projet américain) y voient un avenir incertain pour la mission [5]."
+    ],
+    "forMe": "Le Maroc et l'Algérie sont deux grands voisins de l'Europe pour le gaz, les phosphates et les migrations : leur rivalité autour du Sahara pèse sur la stabilité de la rive sud de la Méditerranée.",
+    "next": [
+      {
+        "when": "Dans les jours à venir",
+        "what": "Selon le Cabinet royal marocain, la présence de la MINURSO dans les provinces du Sud devrait prendre fin [8] ; un nouveau projet de résolution reste possible [1]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "11",
+        "label": "voix pour le projet américain, bloqué par le veto russe (3 abstentions)",
+        "src": 3
+      },
+      {
+        "value": "31 oct.",
+        "label": "date d'expiration du mandat de la MINURSO",
+        "src": 1
+      },
+      {
+        "value": "1 an",
+        "label": "durée de prolongation prévue par les deux textes rivaux",
+        "src": 10
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "The Star (Reuters)",
+        "name": "The Star (dépêche Reuters), « Russia, US veto rival UN Western Sahara resolutions, leaving peacekeeping mission in limbo » (31 oct. 2026)",
+        "url": "https://www.thestar.com.my/news/world/2026/10/31/russia-us-veto-rival-un-western-sahara-resolutions-leaving-peacekeeping-mission-in-limbo"
+      },
+      {
+        "short": "ONU",
+        "name": "ONU, communiqué SC/16498, « Following Contentious Debate, Security Council Fails to Adopt Resolution to Extend UN Mission for Referendum in Western Sahara » (30 oct. 2026)",
+        "url": "https://press.un.org/en/2026/sc16498"
+      },
+      {
+        "short": "Morocco World News",
+        "name": "Morocco World News, « Russia Vetoes UN Security Council Resolution on Western Sahara » (30 oct. 2026)",
+        "url": "https://www.moroccoworldnews.com/2026/10/344446/russia-vetoes-un-security-council-resolution-on-western-sahara/"
+      },
+      {
+        "short": "Mission des États-Unis à l'ONU",
+        "name": "Mission des États-Unis auprès de l'ONU, « Explanation of Vote on a U.S.-Drafted UN Security Council Resolution on MINURSO » (30 oct. 2026)",
+        "url": "https://usun.usmission.gov/explanation-of-vote-on-a-u-s-drafted-un-security-council-resolution-on-the-united-nations-mission-for-the-referendum-in-western-sahara-minurso/"
+      },
+      {
+        "short": "WSRW",
+        "name": "Western Sahara Resource Watch, « US and Russia veto competing Western Sahara resolutions, leaving MINURSO's future uncertain » (31 oct. 2026)",
+        "url": "https://wsrw.org/en/news/us-and-russia-veto-competing-western-sahara-resolutions-leaving-minursos-future-uncertain"
+      },
+      {
+        "short": "Middle East Online",
+        "name": "Middle East Online, « US plan to reshape UN mission prompts Polisario threat to withdraw » (oct. 2026)",
+        "url": "https://middle-east-online.com/en/us-plan-reshape-un-mission-prompts-polisario-threat-withdraw"
+      },
+      {
+        "short": "Barlamantoday",
+        "name": "Barlamantoday, « Morocco's UN Envoy Says Algeria's Security Council Role Confirms Its Involvement in Sahara Dispute » (31 oct. 2026)",
+        "url": "https://barlamantoday.com/2026/10/31/moroccos-un-envoy-says-algerias-security-council-role-confirms-its-involvement-in-sahara-dispute/"
+      },
+      {
+        "short": "Atalayar",
+        "name": "Atalayar, « The non-renewal of MINURSO's mandate marks the closure of the Western Sahara issue at the UN » (31 oct. 2026)",
+        "url": "https://www.atalayar.com/en/articulo/politics/the-non-renewal-of-minurso-s-mandate-marks-the-closure-of-the-western-sahara-issue-at-the/20261031000543230191.html"
+      },
+      {
+        "short": "Maroc.ma",
+        "name": "Gouvernement du Maroc (maroc.ma), « Resolution 2797 is Unprecedented Political Verdict, Roadmap to Definitively Resolve Dispute over Moroccan Sahara »",
+        "url": "https://maroc.ma/en/news/resolution-2797-unprecedented-political-verdict-roadmap-definitively-resolve-dispute-over-moroccan"
+      },
+      {
+        "short": "Xinhua",
+        "name": "Xinhua, « Security Council fails to renew mandate of UN mission for Western Sahara » (31 oct. 2026)",
+        "url": "https://english.news.cn/20261031/914a4f2428a646faae1df871b8f8adbc/c.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-armenie-ratifie-tripp-corridor-trump",
+    "date": "2026-11-01",
+    "region": "Europe",
+    "theme": "geo",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "name": "Erevan, Arménie",
+        "label": "Arménie",
+        "coords": [
+          44.51,
+          40.18
+        ]
+      },
+      {
+        "name": "Bakou, Azerbaïdjan",
+        "label": "Azerbaïdjan",
+        "coords": [
+          49.87,
+          40.41
+        ]
+      }
+    ],
+    "title": "L'Arménie ratifie le corridor américain TRIPP, mais la paix avec l'Azerbaïdjan reste bloquée par sa Constitution",
+    "summary": "Le 28 octobre, le Parlement arménien a ratifié par 63 voix contre 32 l'accord avec Washington sur le corridor TRIPP, qui reliera l'Azerbaïdjan à son exclave du Nakhitchevan à travers le sud du pays. Le traité de paix reste, lui, non signé [1][2].",
+    "points": [
+      "Le vote du 28 octobre a donné 63 voix pour et 32 contre, sans abstention. Le parti au pouvoir, Contrat civil, a voté pour ; les blocs d'opposition Alliance Arménie et Arménie forte ont voté contre [1].",
+      "Le projet doit relier l'Azerbaïdjan à son exclave du Nakhitchevan par le sud de l'Arménie. Une société de développement TRIPP le gérera, avec 74 % pour la partie américaine et 26 % pour l'Arménie [1].",
+      "La durée initiale est de 49 ans, prolongeable de 50 ans d'un commun accord ; en cas de prolongation, la part arménienne passerait à 49 % [1]. Les statuts de la société et le pacte d'actionnaires ne sont pas encore finalisés [1].",
+      "Le ministre des Affaires étrangères Ararat Mirzoyan assure que toutes les infrastructures sur le sol arménien seront placées sous la seule souveraineté et juridiction de l'Arménie [1]. Il n'exclut pas de lancer TRIPP avant la signature du traité de paix [6].",
+      "L'opposition demande l'inverse. Narek Karapetyan veut attendre la paix ; le président du Parlement Ruben Rubinyan répond que la mise en oeuvre de TRIPP n'est pas liée au traité [2][3].",
+      "Le traité de paix a été paraphé en août 2025 mais n'est pas signé ; Bakou exige que l'Arménie change sa Constitution, or Erevan ne réunit pas les deux tiers des voix nécessaires [2][7][9]. Mirzoyan dément un report de la signature [4].",
+      "Le 31 octobre, Mirzoyan a évoqué TRIPP et le processus de paix à Bahreïn avec le secrétaire général du Conseil de coopération du Golfe [8]."
+    ],
+    "why": [
+      "À retenir : l'Arménie accepte de placer un axe de transport de son territoire dans un montage à majorité américaine, au nom d'une ouverture économique vers l'Azerbaïdjan. L'accord découle de l'engagement pris à Washington le 8 août 2025 par Nikol Pashinyan, Ilham Aliyev et Donald Trump [1].",
+      "Pour Washington, c'est une présence durable dans le Caucase du Sud, qu'il pousse par des visites et des réunions d'investisseurs [7]. Pour Erevan, le débat est vif : Anna Grigoryan, cheffe du groupe Alliance Arménie, doute que l'accord apporte de vrais avantages réciproques [1].",
+      "Le blocage se déplace vers la politique intérieure. Pashinyan a dit qu'un traité pourrait être signé en 2027-2028 [2]. Mais la Constitution ne peut être changée sans une majorité des deux tiers, que le camp au pouvoir n'a pas [2].",
+      "Pour l'Azerbaïdjan, le traité attend un changement politique et juridique à Erevan : Bakou a répété cette exigence avant de signer [9]."
+    ],
+    "forMe": "TRIPP relierait l'Azerbaïdjan à son exclave sans passer par la Géorgie ou l'Iran, et pourrait changer à terme les routes de transport dans le Caucase, une zone de passage pour le gaz et le pétrole vers l'Europe. Rien n'est encore construit : il s'agit d'un cadre juridique.",
+    "figures": [
+      {
+        "value": "63 contre 32",
+        "label": "vote du Parlement arménien sur TRIPP, le 28 octobre",
+        "src": 1
+      },
+      {
+        "value": "74 %",
+        "label": "part américaine prévue dans la société TRIPP (26 % pour l'Arménie)",
+        "src": 1
+      },
+      {
+        "value": "49 ans",
+        "label": "durée initiale, prolongeable de 50 ans",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "routes-maritimes"
+    ],
+    "sources": [
+      {
+        "short": "JAMnews",
+        "name": "JAMnews, « Armenian parliament ratifies framework agreement on Trump Route (TRIPP) project » (28 oct. 2026)",
+        "url": "https://jam-news.net/armenian-parliament-ratifies-framework-agreement-on-trump-route-tripp-project/"
+      },
+      {
+        "short": "Armenian Weekly",
+        "name": "The Armenian Weekly, « Yerevan ratifies TRIPP, lacks two-thirds for constitutional changes » (29 oct. 2026)",
+        "url": "https://armenianweekly.com/2026/10/29/yerevan-ratifies-tripp-lacks-two-thirds-for-constitutional-changes/"
+      },
+      {
+        "short": "Armenpress",
+        "name": "Armenpress, « Speaker rejects opposition arguments linking TRIPP implementation to Armenia-Azerbaijan peace treaty » (oct. 2026)",
+        "url": "https://armenpress.am/en/article/1263993"
+      },
+      {
+        "short": "Armenpress",
+        "name": "Armenpress, « Mirzoyan rejects suggestion that peace treaty signing is being postponed » (oct. 2026)",
+        "url": "https://armenpress.am/en/article/1264128"
+      },
+      {
+        "short": "AzerNews",
+        "name": "AzerNews, « Armenian parliament ratifies US-backed TRIPP agreement » (28 oct. 2026)",
+        "url": "https://www.azernews.az/karabakh/266376.html"
+      },
+      {
+        "short": "1news.az",
+        "name": "1news.az, « Armenian foreign minister does not rule out launching TRIPP before signing peace treaty with Azerbaijan » (27 oct. 2026)",
+        "url": "https://1news.az/en/news/20261027130012291-Armenian-foreign-minister-does-not-rule-out-launching-TRIPP-before-signing-peace-treaty-with-Azerbaijan"
+      },
+      {
+        "short": "RFE/RL",
+        "name": "Radio Free Europe/Radio Liberty, « US Steps Up South Caucasus Push As Armenia-Azerbaijan Peace Hangs In Balance » (2026)",
+        "url": "https://www.rferl.org/a/us-south-caucasus-armenia-azerbaijan/33684033.html"
+      },
+      {
+        "short": "Report.az",
+        "name": "Report.az, « Armenia-Azerbaijan peace process discussed in Bahrain » (31 oct. 2026)",
+        "url": "https://report.az/en/region/armenia-azerbaijan-peace-process-discussed-in-bahrain"
+      },
+      {
+        "short": "Horizon Weekly",
+        "name": "Horizon Weekly, « Azerbaijan renews demands for political and legal changes in Armenia before peace deal » (oct. 2026)",
+        "url": "https://horizonweekly.ca/en/azerbaijan-renews-demands-for-political-and-legal-changes-in-armenia-before-peace-deal"
+      }
+    ],
+    "next": [
+      {
+        "when": "2027-2028",
+        "what": "Pashinyan évoque cette période pour une éventuelle signature du traité de paix [2]."
+      },
+      {
+        "when": "À définir",
+        "what": "Les statuts et le pacte d'actionnaires de la société TRIPP restent à finaliser [1]."
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-canada-carney-attendre-nouveau-president",
+    "date": "2026-11-01",
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique du Nord",
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Ottawa, Canada",
+        "label": "Canada",
+        "coords": [
+          -75.7,
+          45.42
+        ]
+      }
+    ],
+    "title": "Le Canada est prêt à attendre un autre président américain plutôt que de signer un mauvais accord",
+    "summary": "Le Premier ministre canadien Mark Carney dit qu'il refuse un accord commercial avec Washington « juste pour en avoir un » et qu'il attendra un nouveau président américain si besoin. Les discussions sont gelées depuis août, et chaque pays a ajouté des droits de douane cet automne [1][2][3].",
+    "points": [
+      "Dans un entretien accordé à Politico à Montréal, publié le 30 ou 31 octobre à la fin du 21e sommet UE-Canada, Mark Carney a déclaré qu'il ne conclurait pas un accord « juste pour en conclure un » et que, interrogé sur le cas où il faudrait attendre un nouveau locataire de la Maison-Blanche, il le ferait [1].",
+      "Selon Bloomberg, il a laissé entendre qu'il s'attend à ce que son pays reste dans le viseur de Donald Trump même après les élections américaines du 3 novembre. La Maison-Blanche n'avait pas réagi aux demandes de commentaire [1][2].",
+      "Les négociations ont peu avancé depuis que le Canada a quitté la table en août [1]. Le 22 août, après l'échec des pourparlers, Washington a mis en place de nouveaux droits de douane de 50 % sur certains produits canadiens, et Carney a annoncé que le Canada répondrait « dollar pour dollar » à partir du 8 septembre, notamment sur l'acier, les produits laitiers, l'électroménager, les machines agricoles, le papier et l'électronique [3].",
+      "Le représentant américain au Commerce, Jamieson Greer, avait alors dit qu'aucune nouvelle discussion n'était prévue et que le Canada avait « refusé de finaliser » l'accord sur les termes convenus plus tôt dans la semaine [3].",
+      "Le 29 octobre, Ottawa a publié « Le Plan pour un Canada plus fort », stratégie de sécurité de 13 pages : elle répète l'objectif d'aller vers 5 % du PIB pour la défense (norme de l'OTAN) d'ici 2035, contre 2 % en 2025-2026, et promet de « se préparer à toutes les éventualités, y compris la guerre » [6][7]."
+    ],
+    "why": [
+      "Ce qui change, c'est le ton : le Canada ne cherche plus un accord à tout prix avant les élections américaines, il accepte que le conflit dure, voire qu'il survive à Trump. C'est un pari politique et économique risqué, car la dispute porte sur des secteurs clés comme l'acier ou l'électronique [3].",
+      "Carney a de la marge sur le plan intérieur. Le 19 octobre, les Albertains ont rejeté la voie vers la séparation du Canada avec 74,9 % de voix contre, pour une participation de 70,4 % (plus de 2,2 millions de bulletins), ce qui a été salué par Carney et par la première ministre de l'Alberta, Danielle Smith [5].",
+      "Le pays se tourne en parallèle vers d'autres partenaires : le sommet avec l'Union européenne qui vient de se tenir à Montréal en est la preuve, et la stratégie de sécurité parle de chaînes d'approvisionnement et d'industrie « domestiques » [1][6]."
+    ],
+    "forMe": "Même si tu n'es pas au Canada, la guerre commerciale entre Washington et Ottawa joue sur le prix de l'acier, de l'aluminium, du bois et de l'énergie, et donc sur ce que paient les industriels européens. Elle pousse aussi le Canada à acheter ses armes et ses équipements ailleurs, ce qui peut ouvrir des marchés à l'Europe.",
+    "next": [
+      {
+        "when": "3 novembre",
+        "what": "Les Américains votent pour le Congrès ; Carney s'attend à rester dans le viseur de Trump après le scrutin [2][8]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "50 %",
+        "label": "nouveaux droits de douane américains sur certains produits canadiens (août 2026)",
+        "src": 3
+      },
+      {
+        "value": "74,9 %",
+        "label": "Albertains qui ont voté contre la séparation, le 19 octobre",
+        "src": 5
+      },
+      {
+        "value": "5 %",
+        "label": "part du PIB visée pour la défense d'ici 2035, contre 2 % en 2025-26",
+        "src": 6
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "droits-de-douane"
+    ],
+    "sources": [
+      {
+        "short": "Politico (Yahoo)",
+        "name": "Politico via Yahoo News, « Carney says he can wait out Trump for trade deal » (31 oct. 2026)",
+        "url": "https://www.yahoo.com/news/politics/articles/carney-says-wait-trump-trade-233505447.html"
+      },
+      {
+        "short": "Bloomberg",
+        "name": "Bloomberg, « Carney Says Canada Won't Rush US Trade Deal Without Favorable Terms » (31 oct. 2026)",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-31/carney-says-no-hurry-on-trade-deal-if-us-won-t-offer-good-terms"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8 » (22 août 2026)",
+        "url": "https://www.cnbc.com/2026/08/22/us-canada-trade-talks-collapse-ushering-in-wave-of-new-tariffs.html"
+      },
+      {
+        "short": "NPR",
+        "name": "NPR, « As Canada readies retaliatory tariffs, Mark Carney says his nation is 'at war' with U.S. » (22 août 2026)",
+        "url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs"
+      },
+      {
+        "short": "CNBC (Alberta)",
+        "name": "CNBC, « Alberta votes by large majority to remain part of Canada in boost for Carney » (20 oct. 2026)",
+        "url": "https://www.cnbc.com/2026/10/20/alberta-canada-vote-remain.html"
+      },
+      {
+        "short": "CBC",
+        "name": "CBC News, « Canada's new national security strategy will shield economy, modernize military » (29 oct. 2026)",
+        "url": "https://www.cbc.ca/news/politics/national-security-strategy-9.7401098"
+      },
+      {
+        "short": "Cabinet du PM",
+        "name": "Cabinet du Premier ministre du Canada, « Prime Minister Carney launches The Plan for a Stronger Canada » (29 oct. 2026)",
+        "url": "https://www.pm.gc.ca/en/news/news-releases/2026/10/29/prime-minister-carney-launches-plan-stronger-canada-strengthen"
+      },
+      {
+        "short": "The Hill",
+        "name": "The Hill, « 2026 midterm elections: When polls close, when results are expected » (oct. 2026)",
+        "url": "https://thehill.com/homenews/campaign/6175621-midterm-elections-polls-close-results/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-argentine-milei-125-milliards-peso",
+    "date": "2026-11-01",
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique latine",
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Buenos Aires, Argentine",
+        "label": "Argentine",
+        "coords": [
+          -58.38,
+          -34.6
+        ]
+      }
+    ],
+    "title": "Milei dit avoir 125 milliards de dollars pour défendre le peso, des économistes en voient 180 de nécessaires",
+    "summary": "Le président argentin Javier Milei affirme disposer de 125 milliards de dollars pour résister à une attaque contre le peso en 2027. Ce chiffre additionne des sources très différentes, pas des réserves. Le risque pays vient de bondir de 30 % en octobre, après la victoire de Lula au Brésil [1][3][6].",
+    "points": [
+      "Le 12 octobre, sur Radio Mitre, Javier Milei a déclaré avoir « 125 000 millions de dollars » pour affronter une attaque contre le peso l'an prochain, tout en disant : « je ne m'attends pas à une ruée, mais je me prépare » [1][3].",
+      "Son total additionne notamment environ 20 milliards de dollars d'achats de devises par la Banque centrale depuis novembre 2025, 20 milliards de lignes d'échange (swap) avec la Chine et 20 milliards avec le Trésor américain, jusqu'à 15 milliards de contrats à terme sur le dollar et 25 milliards d'échéances de dette qu'il compte refinancer [3]. Une semaine plus tôt, il disait 75 milliards [2].",
+      "Le calcul est contesté : l'économiste Miguel Ángel Broda estime qu'il faudrait environ 183 475 millions de dollars pour couvrir la masse monétaire et la dette publique en pesos détenue par le privé, et des analyses du secteur privé situent ce besoin au-dessus de 180 milliards [4]. Un swap (échange de devises entre banques centrales) donne accès à des ressources sous conditions, mais n'équivaut pas à des dollars librement disponibles [3].",
+      "Le dollar de gros a fini octobre à 1 537,34 pesos (1 517,52 fin septembre), loin du plafond de la bande de change fixée à 1 950,57 pesos [5][6]. La Banque centrale a acheté 1 395 millions de dollars en octobre, son meilleur mois depuis juillet (15 963 millions depuis le début de 2026), mais ses réserves ont reculé de 1 592 millions à 48 562 millions [5][6].",
+      "Le risque pays, qui mesure l'écart de taux que paie le pays pour emprunter, a clos le mois autour de 787 points de base, en hausse de 30 % sur octobre et au plus haut de 2026 [6].",
+      "Le 26 octobre, au lendemain du second tour brésilien, la Banque centrale a renoncé à acheter des dollars à cause de la tension sur les changes [7]. La défaite de Flávio Bolsonaro, le principal allié de Milei au Brésil, laisse le président argentin sans partenaire politique de poids dans la région [9]."
+    ],
+    "why": [
+      "Le chiffre de 125 milliards sert avant tout de message aux marchés : Milei dit qu'une attaque contre le peso ne passera pas. Mais, selon la presse argentine, il ne s'agit pas du montant que la Banque centrale détient (48,5 milliards en réserves), et sa fourchette a doublé en une semaine [2][3][6].",
+      "Sur le plan régional, Milei et le Chilien José Antonio Kast se retrouvent au sommet ibéro-américain de Madrid. La rencontre arrive après une tension passagère : le ministre chilien du Logement avait traité Milei de « de plus en plus fou » avant de s'excuser, selon Kast [12]."
+    ],
+    "forMe": "Si tu voyages en Argentine ou si tu y envoies de l'argent, le taux de change du peso décide de ce que tu paies. Pour un épargnant européen, un peso attaqué pèse sur les emprunts argentins, et le Brésil voisin a montré en octobre que les monnaies de la région réagissent ensemble.",
+    "next": [
+      {
+        "when": "4-5 novembre",
+        "what": "Milei participe au sommet ibéro-américain à Madrid, son 48e voyage à l'étranger depuis son arrivée au pouvoir [8]."
+      },
+      {
+        "when": "Avant le 5 novembre",
+        "what": "Kast arrive en Europe (Madrid, Rome, Vatican) et rentre au Chili dans la nuit du 5 novembre [11]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "125 Md$",
+        "label": "ce que Milei dit avoir contre une attaque sur le peso (75 Md$ une semaine plus tôt)",
+        "src": 2
+      },
+      {
+        "value": "787",
+        "label": "points de base de risque pays fin octobre, +30 % en un mois",
+        "src": 6
+      },
+      {
+        "value": "48,6 Md$",
+        "label": "réserves de la Banque centrale, après 1,4 Md$ d'achats en octobre",
+        "src": 6
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "dollar"
+    ],
+    "sources": [
+      {
+        "short": "Infobae",
+        "name": "Infobae, « Milei: Tengo USD 125.000 millones en la billetera para enfrentar una corrida el año que viene » (12 oct. 2026)",
+        "url": "https://www.infobae.com/economia/2026/10/12/milei-tenemos-usd-125000-millones-para-enfrentar-una-corrida-el-ano-que-viene/"
+      },
+      {
+        "short": "La Política Online",
+        "name": "La Política Online, « Milei ahora dice que necesita USD 125 mil millones para evitar una corrida, hace una semana era la mitad » (oct. 2026)",
+        "url": "https://www.lapoliticaonline.com/economia/milei-ahora-dice-que-necesita-usd-125-mil-millones-para-evitar-una-corrida-655/"
+      },
+      {
+        "short": "Diario Río Negro",
+        "name": "Diario Río Negro, « Javier Milei aseguró tener US$125.000 millones contra una corrida: qué suma esa cifra y por qué el dólar viene tranquilo en octubre » (oct. 2026)",
+        "url": "https://www.rionegro.com.ar/economia/javier-milei-aseguro-tener-us125-000-millones-contra-una-corrida-que-suma-esa-cifra-y-por-que-el-dolar-viene-tranquilo-en-octubre-4756909/"
+      },
+      {
+        "short": "Política y Medios",
+        "name": "Política y Medios, « Milei duplicó su cálculo para contener una corrida: afirma tener USD 125.000 millones, pero economistas advierten que no alcanza » (oct. 2026)",
+        "url": "https://politicaymedios.com.ar/nota/24544/milei-duplico-su-calculo-para-contener-una-corrida-afirma-tener-usd-125-000-millones-pero-economistas-advierten-que-no-alcanza"
+      },
+      {
+        "short": "Infobae (octobre)",
+        "name": "Infobae, « El Banco Central compró USD 1.395 millones en octubre y reforzó las reservas » (31 oct. 2026)",
+        "url": "https://www.infobae.com/economia/2026/10/31/el-banco-central-compro-usd-1395-millones-en-octubre-y-reforzo-las-reservas/"
+      },
+      {
+        "short": "MDZ",
+        "name": "MDZ, « El Banco Central compró US$1.395 millones en octubre pero las reservas cayeron a US$48.562 millones » (30 oct. 2026)",
+        "url": "https://www.mdzol.com/economia/2026/10/30/el-banco-central-compro-us1395-millones-en-octubre-pero-las-reservas-cayeron-a-us48562-millones-1992066.html"
+      },
+      {
+        "short": "Infobae (Brésil)",
+        "name": "Infobae, « El BCRA decidió no comprar reservas hoy ante la tensión cambiaria generada tras las elecciones en Brasil » (26 oct. 2026)",
+        "url": "https://www.infobae.com/economia/2026/10/26/el-bcra-decidio-no-comprar-reservas-hoy-ante-la-tension-cambiaria-generada-tras-las-elecciones-en-brasil/"
+      },
+      {
+        "short": "La Nación (voyage)",
+        "name": "La Nación, « Milei vuelve a viajar a España para la Cumbre Iberoamericana, en su salida 48° del país desde que asumió » (30 oct. 2026)",
+        "url": "https://www.lanacion.com.ar/politica/milei-vuelve-a-viajar-a-espana-para-la-cumbre-iberoamericana-en-su-salida-48-del-pais-desde-que-nid30102026/"
+      },
+      {
+        "short": "La Nación (Brésil)",
+        "name": "La Nación, « Tras la derrota y huida de Flavio Bolsonaro, el presidente Milei quedó sin socios en Brasil » (31 oct. 2026)",
+        "url": "https://lanacion.com.ar/politica/tras-la-derrota-y-huida-de-flavio-bolsonaro-el-presidente-milei-quedo-sin-socios-en-brasil-nid31102026"
+      },
+      {
+        "short": "Diario Huarpe",
+        "name": "Diario Huarpe, « Javier Milei confirmó su viaje a España y podría cruzarse con Lula da Silva en Madrid » (29 oct. 2026)",
+        "url": "https://www.diariohuarpe.com/nota/javier-milei-confirmo-su-viaje-a-espana-y-podria-cruzarse-con-lula-da-silva-en-madrid-2026102913110"
+      },
+      {
+        "short": "Pauta",
+        "name": "Pauta, « Gira de Kast por Europa: quiénes integran la comitiva presidencial y cuáles serán sus principales actividades » (30 oct. 2026)",
+        "url": "https://www.pauta.cl/actualidad/2026/10/30/gira-de-kast-por-europa-quienes-integran-la-comitiva-presidencial-y-cuales-seran-sus-principales-actividades.html"
+      },
+      {
+        "short": "Rio Times",
+        "name": "The Rio Times, « Kast Says Poduje Apologised Over Milei Remark in Chile » (16 oct. 2026)",
+        "url": "https://www.riotimesonline.com/chile-kast-poduje-milei-apology-2026/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-mexique-accord-droits-de-douane-avant-midterms",
+    "date": "2026-11-01",
+    "region": "Amériques",
+    "theme": "mix",
+    "zones": [
+      "Amérique du Nord",
+      "Amérique latine"
+    ],
+    "geo": [
+      {
+        "name": "Mexico, Mexique",
+        "label": "Mexique",
+        "coords": [
+          -99.13,
+          19.43
+        ]
+      }
+    ],
+    "title": "Le Mexique veut un accord sur l'acier, l'aluminium et les voitures avant les élections américaines",
+    "summary": "La présidente Claudia Sheinbaum dit être « très proche » d'un accord intérimaire avec Washington pour alléger les droits de douane sur les voitures, l'acier et l'aluminium. Elle le souhaite avant le 3 novembre, mais rien n'est signé, et le traité de libre-échange nord-américain reste en révision [1][3][5].",
+    "points": [
+      "Le 28 octobre, lors de sa conférence de presse quotidienne, Claudia Sheinbaum a dit vouloir un accord économique avec les États-Unis avant les élections de mi-mandat du 3 novembre, tout en précisant qu'on évaluait encore s'il était faisable dans ce délai [1].",
+      "Elle avait reconnu quelques jours plus tôt qu'il n'y avait pas de signature : « nous sommes très proches, mais nous n'avons pas encore d'accord » [5]. Le 12 octobre déjà, elle admettait que les droits américains sur les véhicules, l'acier et l'aluminium restaient en place [2].",
+      "Sur la table : une baisse des droits de douane américains sur les voitures légères mexicaines de 25 % à 15 %, et un allègement des 50 % qui frappent l'acier et l'aluminium [3]. Le ministre de l'Économie, Marcelo Ebrard, juge ces 50 % « insoutenables » et rappelle que le Mexique est en déficit pour l'acier face aux États-Unis [4].",
+      "Ebrard a rencontré le représentant américain au Commerce, Jamieson Greer, à Milwaukee, en marge de la réunion des ministres du Commerce du G20 [3]. Les points encore en suspens : les contreparties que demandent les États-Unis, le pourcentage de baisse et la date d'une annonce ; Washington s'inquiète aussi du contenu automobile et de l'investissement chinois [1].",
+      "Mexico prévoit d'acheter davantage de produits américains et de réduire ses importations venues d'ailleurs, selon une dépêche Reuters du 21 septembre : « les États-Unis demandent que leur déficit commercial soit réduit », a dit Sheinbaum [8].",
+      "Sur la révision de l'accord (T-MEC en espagnol, USMCA en anglais), le Mexique et le Canada demandent une prolongation de 16 ans ; Washington propose 10 ans avec une revue annuelle [1]. La date butoir du 1er juillet pour la revue commune a été manquée [7]."
+    ],
+    "why": [
+      "Le Mexique est aujourd'hui le seul des deux voisins des États-Unis à négocier vraiment : les discussions avec le Canada sont suspendues depuis août [3]. Un accord intérimaire lui donnerait un avantage sur l'industrie automobile et l'acier, deux secteurs où les chaînes de production sont intégrées des deux côtés de la frontière.",
+      "Pourquoi avant le 3 novembre ? Mexico n'a pas détaillé ses raisons, mais le scrutin américain peut changer le rapport de force à Washington : les démocrates, favoris pour la Chambre, ont fait de la baisse des droits de douane un de leurs sujets [1].",
+      "Il faut rester prudent : les sources divergent sur la date du prochain round de négociations (Ebrard a dit le 16 octobre qu'il devait avoir lieu « avant la fin de l'année ») et aucun accord n'est confirmé à ce jour [7]."
+    ],
+    "forMe": "Une voiture ou un appareil assemblé au Mexique pour le marché américain, c'est aussi des pièces européennes et asiatiques. Si les droits de douane baissent, les constructeurs peuvent vendre moins cher ou garder plus de marge ; s'ils restent, les prix montent surtout aux États-Unis, et les usines européennes concurrentes en profitent ou en souffrent selon le cas.",
+    "next": [
+      {
+        "when": "3 novembre",
+        "what": "Élections de mi-mandat aux États-Unis, date visée par Mexico pour un accord intérimaire [1]."
+      },
+      {
+        "when": "Avant la fin de 2026",
+        "what": "Quatrième round de négociations bilatérales, selon Marcelo Ebrard le 16 octobre [7]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "25 % → 15 %",
+        "label": "baisse envisagée des droits américains sur les voitures légères mexicaines",
+        "src": 3
+      },
+      {
+        "value": "50 %",
+        "label": "droits américains sur l'acier et l'aluminium, jugés insoutenables par Ebrard",
+        "src": 4
+      },
+      {
+        "value": "16 ans",
+        "label": "prolongation du traité demandée par le Mexique et le Canada, contre 10 ans proposés par Washington",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "droits-de-douane"
+    ],
+    "sources": [
+      {
+        "short": "El Imparcial",
+        "name": "El Imparcial, « Desea Sheinbaum acuerdo económico con EEUU antes de elecciones intermedias » (28 oct. 2026)",
+        "url": "https://www.elimparcial.com/mexico/2026/10/28/desea-sheinbaum-acuerdo-economico-con-eeuu-antes-de-elecciones-intermedias/"
+      },
+      {
+        "short": "La Jornada",
+        "name": "La Jornada, « Siguen los aranceles de EU a automotriz, acero y aluminio, reconoce Sheinbaum » (13 oct. 2026)",
+        "url": "https://www.jornada.com.mx/2026/10/13/economia/017n2eco"
+      },
+      {
+        "short": "Mexico Business News",
+        "name": "Mexico Business News, « Mexico Nears US Deal to Cut Auto, Steel and Aluminum Tariffs » (oct. 2026)",
+        "url": "https://mexicobusiness.news/automotive/news/mexico-nears-us-deal-cut-auto-steel-and-aluminum-tariffs"
+      },
+      {
+        "short": "Mexico Business (acier)",
+        "name": "Mexico Business News, « Ebrard Calls 50% Steel Tariffs Unsustainable at USMCA Talks » (oct. 2026)",
+        "url": "https://mexicobusiness.news/mining/news/ebrard-calls-50-steel-tariffs-unsustainable-usmca-talks"
+      },
+      {
+        "short": "El Heraldo de Saltillo",
+        "name": "El Heraldo de Saltillo, « México y EU aún no logran acuerdo para reducir aranceles al acero, aluminio y autos: Sheinbaum » (26 oct. 2026)",
+        "url": "https://elheraldodesaltillo.mx/2026/10/26/mexico-y-eu-aun-no-logran-acuerdo-para-reducir-aranceles-al-acero-aluminio-y-autos-sheinbaum/"
+      },
+      {
+        "short": "USTR",
+        "name": "Bureau du représentant américain au Commerce (USTR), « Joint Statement from Ambassador Jamieson Greer and Mexican Secretary of Economy Marcelo Ebrard » (juil. 2026)",
+        "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/joint-statement-ambassador-jamieson-greer-and-mexican-secretary-economy-marcelo-ebrard"
+      },
+      {
+        "short": "Latin Times",
+        "name": "Latin Times, « Mexico-U.S. Trade Talks Move Forward, but Steel, Autos and Canada Complicate the Deal » (oct. 2026)",
+        "url": "https://www.latintimes.com/mexico-us-trade-talks-move-forward-steel-autos-canada-complicate-deal-599955"
+      },
+      {
+        "short": "Reuters (Investing)",
+        "name": "Reuters via Investing.com, « Mexico plans to boost US imports as part of trade treaty review, Sheinbaum says » (21 sept. 2026)",
+        "url": "https://www.investing.com/news/economy-news/mexico-plans-to-boost-us-imports-as-part-of-trade-treaty-review-sheinbaum-says-4909389"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-bolivie-gaz-importations-privees",
+    "date": "2026-11-01",
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique latine"
+    ],
+    "geo": [
+      {
+        "name": "La Paz, Bolivie",
+        "label": "Bolivie",
+        "coords": [
+          -68.15,
+          -16.5
+        ]
+      }
+    ],
+    "title": "La Bolivie, ancienne reine du gaz, autorise les entreprises à en importer",
+    "summary": "Par un décret du 26 octobre, la Bolivie permet aux entreprises publiques et privées d'importer du gaz pour leur propre usage. Ses réserves ont fondu, et les autorités évoquent un manque possible dès 2029. Le pays, déjà secoué par la crise des carburants, doit aussi respecter son programme avec le FMI [1][2][3].",
+    "points": [
+      "Le décret suprême 5755, approuvé le 26 octobre, autorise l'importation exceptionnelle de gaz naturel et de gaz liquéfié par des entités publiques et privées, pour leur consommation propre ou pour produire de l'électricité. Le ministre des Hydrocarbures, Marcelo Blanco, précise que ce gaz ne pourra pas être revendu sur le marché intérieur [1][2].",
+      "Les réserves prouvées s'élevaient à environ 3,7 billions de pieds cubes (TCF) en mars 2026, contre 4,5 TCF en 2023, selon l'entreprise publique YPFB [3]. Une nouvelle certification, avec des données au 31 décembre 2025, doit sortir bientôt ; Blanco promet les résultats d'ici dix jours et écarte une pénurie de gaz pour la consommation intérieure [1][3].",
+      "La vice-ministre Tatiana Genuzio estime que l'offre pourrait devenir insuffisante vers 2029, quand production et demande se rejoindraient ; des responsables de YPFB parlent plutôt de 2030 ou 2031 [2][3]. Le gaz est fortement subventionné en Bolivie : les prix internationaux sont près de dix fois supérieurs aux prix locaux, dit-elle [2].",
+      "Le gouvernement attribue la chute à des années de dépenses d'exploration insuffisantes sous les gouvernements précédents [2]. La Bolivie, longtemps exportatrice de gaz vers ses voisins, devient donc progressivement acheteuse, selon la presse locale [5][6].",
+      "En parallèle, le président Rodrigo Paz a supprimé la subvention au diesel le 19 septembre, ce qui a fait passer le litre de 9,80 à 17,95 bolivianos, après l'approbation d'un prêt du FMI de 1,9 milliard de dollars (confirmé par le conseil du FMI le 2 octobre) [7][8]. La subvention à l'essence doit s'arrêter en janvier 2027 [7].",
+      "L'état d'exception, décrété le 20 juin après des blocages qui ont coûté plus de 3 milliards de dollars selon la presse, a été prolongé de 90 jours, jusqu'en décembre [7][9]."
+    ],
+    "why": [
+      "Un pays qui vendait du gaz et qui doit en acheter perd une recette en devises, celle qui payait les importations de carburant. Le gouvernement lie lui-même la crise des carburants à la baisse de la production de gaz et aux importations coûteuses, et le président Paz s'est excusé en août pour les pénuries.",
+      "Le gouvernement de Rodrigo Paz tente de répondre en laissant les entreprises se débrouiller avec leurs propres importations, en supprimant les subventions. Mais chaque étape touche au portefeuille des ménages, d'où la tension avec les syndicats, la COB et les transporteurs, qui ont menacé de nouvelles protestations après la fin de la subvention du diesel [7][8].",
+      "L'incertitude vient des chiffres : la nouvelle certification des réserves pourrait déplacer la date du « point de bascule » [2][3]."
+    ],
+    "forMe": "Si tu travailles pour une entreprise qui exploite des mines ou des usines en Bolivie, ou si tu suis les prix du lithium et de l'étain, l'accès à l'énergie devient un enjeu. Pour le reste, c'est un exemple de ce qui arrive quand un pays vit longtemps de l'exportation de gaz sans investir : le gaz que ses voisins achetaient diminue.",
+    "next": [
+      {
+        "when": "D'ici début novembre",
+        "what": "Le ministre Marcelo Blanco promet de présenter les résultats du calcul des réserves de gaz sous dix jours [1]."
+      },
+      {
+        "when": "Janvier 2027",
+        "what": "Fin annoncée de la subvention à l'essence, après celle du diesel [7]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "3,7 TCF",
+        "label": "réserves prouvées de gaz en mars 2026, contre 4,5 TCF en 2023",
+        "src": 3
+      },
+      {
+        "value": "2029",
+        "label": "année où l'offre pourrait devenir insuffisante, selon la vice-ministre Tatiana Genuzio",
+        "src": 2
+      },
+      {
+        "value": "+83 %",
+        "label": "hausse du prix du diesel depuis le 19 septembre (9,80 à 17,95 bolivianos le litre)",
+        "src": 8
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "La Razón",
+        "name": "La Razón (Bolivie), « Gobierno abre la puerta a importar gas para privados ante riesgos de crisis energética » (30 oct. 2026)",
+        "url": "https://larazon.bo/economia-y-empresa/2026/10/30/gobierno-abre-la-puerta-a-importar-gas-para-privados-ante-riesgos-de-crisis-energetica/"
+      },
+      {
+        "short": "Prensa Mercosur",
+        "name": "Prensa Mercosur, « Bolivia podría quedarse sin gas desde el 2029 » (29 oct. 2026)",
+        "url": "https://prensamercosur.org/2026/10/29/bolivia-podria-quedarse-sin-gas-desde-el-2029/"
+      },
+      {
+        "short": "ANF",
+        "name": "Agencia de Noticias Fides (ANF), « Las reservas de gas cayeron a 3,7 TCF y es posible que Bolivia importe el energético desde 2030 » (2026)",
+        "url": "https://www.noticiasfides.com/economia/las-reservas-de-gas-cayeron-a-3-7-tcf-y-es-posible-que-bolivia-importe-el-energetico-desde-2030"
+      },
+      {
+        "short": "El País (Bolivie)",
+        "name": "El País (Bolivie), « El drama del gas: reservas en caída y proyectos por concretar » (30 oct. 2026)",
+        "url": "https://elpais.bo/nacional/20261030_el-drama-del-gas-reservas-en-caida-y-proyectos-por-concretar.html"
+      },
+      {
+        "short": "Bloomberg Línea (gaz)",
+        "name": "Bloomberg Línea, « Bolivia se prepara para importar gas tras décadas como potencia exportadora » (2026)",
+        "url": "https://www.bloomberglinea.com/latinoamerica/bolivia/bolivia-se-prepara-para-importar-gas-tras-decadas-como-potencia-exportadora/"
+      },
+      {
+        "short": "La Época",
+        "name": "La Época (Bolivie), « Bolivia dejará de exportar gas ante la falta de explotación de pozos » (30 oct. 2026)",
+        "url": "https://www.la-epoca.com.bo/2026/10/30/bolivia-dejara-de-exportar-gas-ante-la-falta-de-explotacion-de-pozos-la-situacion-puede-tornarse-preocupante/"
+      },
+      {
+        "short": "Bloomberg Línea (FMI)",
+        "name": "Bloomberg Línea, « FMI aprueba programa de US$1.900 millones para apoyar las reformas económicas de Paz en Bolivia » (oct. 2026)",
+        "url": "https://www.bloomberglinea.com/latinoamerica/bolivia/fmi-aprueba-programa-de-us1900-millones-para-apoyar-las-reformas-economicas-de-paz-en-bolivia/"
+      },
+      {
+        "short": "Local 10",
+        "name": "Local 10, « Tras aprobación de crédito del FMI, el presidente de Bolivia elimina el subsidio al diésel » (19 sept. 2026)",
+        "url": "https://www.local10.com/espanol/2026/09/19/tras-aprobacion-de-credito-del-fmi-el-presidente-de-bolivia-elimina-el-subsidio-al-diesel/"
+      },
+      {
+        "short": "Infobae",
+        "name": "Infobae, « Sindicatos amenazaron con lanzar nuevas protestas tras la eliminación del subsidio al diésel en Bolivia » (21 sept. 2026)",
+        "url": "https://www.infobae.com/america/america-latina/2026/09/21/sindicatos-amenazaron-con-lanzar-nuevas-protestas-tras-la-eliminacion-del-subsidio-al-diesel-en-bolivia/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-france-faillites-ags-record-salaires",
+    "date": "2026-11-01",
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Paris, France",
+        "label": "France",
+        "coords": [
+          2.35,
+          48.86
+        ]
+      }
+    ],
+    "title": "Faillites en France : le fonds qui paie les salaires impayés a déjà avancé près de 2 milliards d'euros en neuf mois",
+    "summary": "L'AGS, qui garantit les salaires quand une entreprise est en difficulté, a avancé 1,96 milliard d'euros à 211 277 salariés de janvier à septembre 2026, 16,7 % de plus en un an. Les défaillances progressent moins vite que la facture, et un record est attendu [1][3].",
+    "points": [
+      "Selon le communiqué du 7 octobre de l'AGS, le régime a avancé 1,96 milliard d'euros sur neuf mois pour 211 277 salariés [1]. Le montant progresse de 16,7 % sur un an et le nombre de salariés pris en charge de 11,1 % [3].",
+      "L'AGS prévoyait en juillet 2,6 milliards d'euros d'avances sur l'année, un record depuis 1974 [5]. Elle table désormais sur 71 000 à 75 000 défaillances d'entreprises sur 2026 [3].",
+      "La Banque de France compte 70 766 défaillances sur douze mois à fin août, soit 4,8 % de plus en un an [4]. L'AGS ne couvre qu'une partie de ces cas : celles qui relèvent de sa garantie des salaires impayés [6].",
+      "L'industrie reste le premier secteur, avec 441,1 millions d'euros avancés pour près de 38 000 bénéficiaires ; le commerce et la construction suivent [6].",
+      "Les montants avancés augmentent plus vite (+16,7 %) que le nombre de salariés pris en charge (+11,1 %) : les dossiers coûtent plus cher en moyenne [3].",
+      "Autre signe : les emplois menacés par les procédures atteignent 160 369 de janvier à septembre, soit 2,8 % de plus [2]. La facture sociale monte plus vite que le nombre de dossiers [3]."
+    ],
+    "why": [
+      "À retenir : un ralentissement de certaines défaillances ne veut pas dire que ça va mieux, car la facture sociale grimpe plus vite que le nombre de dossiers [2][3]. L'AGS est le régime qui garantit les créances salariales, c'est-à-dire les salaires impayés quand une entreprise est en procédure [6].",
+      "Le contexte économique explique la tension : le PIB français a reculé de 0,1 % au troisième trimestre, après une stagnation au deuxième, et le ministre de l'Économie Roland Lescure parle d'une économie « à l'arrêt » [8][9]. Les entreprises fragiles ont peu de marge pour encaisser un choc.",
+      "Les manifestations d'octobre ajoutent un coup : la chambre de commerce chiffre à plus d'un milliard d'euros les pertes des commerçants [7].",
+      "Les chiffres de l'AGS et de la Banque de France ne se superposent pas : l'AGS ne compte que les entreprises de son périmètre de garantie, ce qui explique qu'on lise des totaux différents selon les sources [4][6]."
+    ],
+    "forMe": "Si ton employeur entre en procédure collective, c'est l'AGS qui avance les salaires impayés : le mandataire judiciaire de l'entreprise t'indique les démarches. Si tu es commerçant, fais le point avec ton assureur sur la couverture des dégâts en cas de manifestation.",
+    "figures": [
+      {
+        "value": "1,96 Md€",
+        "label": "avancés aux salariés par l'AGS en neuf mois (+16,7 % sur un an)",
+        "src": 1
+      },
+      {
+        "value": "211 277",
+        "label": "salariés pris en charge de janvier à septembre",
+        "src": 1
+      },
+      {
+        "value": "70 766",
+        "label": "défaillances sur douze mois à fin août (+4,8 %)",
+        "src": 4
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Petites Affiches",
+        "name": "Petites Affiches, « Défaillances d'entreprises : l'AGS a déjà avancé près de 2 milliards d'euros aux salariés en 2026 » (oct. 2026)",
+        "url": "https://www.petitesaffiches.fr/actualites,069/economie,045/defaillances-d-entreprises-l-ags-a,46504.html?lang=fr"
+      },
+      {
+        "short": "TPE Actu",
+        "name": "TPE Actu, « Faillites d'entreprises : 211 277 salariés aidés et près de 2 milliards d'euros avancés par l'AGS en 2026 » (27 oct. 2026)",
+        "url": "https://tpeactu.fr/2026/10/27/ags-defaillances-entreprises-salaries-octobre-2026/"
+      },
+      {
+        "short": "Presse Agence",
+        "name": "Presse Agence, « Défaillances d'entreprises : l'AGS prévoit une année 2026 record » (oct. 2026)",
+        "url": "https://presseagence.fr/paris-defaillances-dentreprises-lags-alerte-sur-une-annee-2026-record-et-des-consequences-sociales-aggravees/"
+      },
+      {
+        "short": "Banque de France",
+        "name": "Banque de France, « Business failures - France - 2026-08 » (oct. 2026)",
+        "url": "https://www.banque-france.fr/en/statistics/compagnies/business-failures-france-2026-08"
+      },
+      {
+        "short": "Journal des Entreprises",
+        "name": "Le Journal des Entreprises, « Vers un record des faillites d'entreprises : l'AGS tire le signal d'alarme » (juil. 2026)",
+        "url": "https://www.lejournaldesentreprises.com/article/vers-un-record-des-faillites-dentreprises-lags-tire-le-signal-dalarme-2146364"
+      },
+      {
+        "short": "Écho Drôme Ardèche",
+        "name": "Écho Drôme Ardèche, « L'économie en froid, l'AGS en surchauffe » (oct. 2026)",
+        "url": "https://mesinfos.fr/auvergne-rhone-alpes/l-economie-en-froid-l-ags-en-surchauffe-341384.html"
+      },
+      {
+        "short": "Reuters",
+        "name": "Reuters (via Investing.com), « France braces for fresh unrest, government vows tough response » (oct. 2026)",
+        "url": "https://www.investing.com/news/economy-news/france-braces-for-fresh-unrest-government-vows-tough-response-4989212"
+      },
+      {
+        "short": "Eurasia Business News",
+        "name": "Eurasia Business News, « French Economy Contracts 0.1% in Q3 2026 » (31 oct. 2026)",
+        "url": "https://eurasiabusinessnews.com/2026/10/31/french-economy-contracts-0-1-in-q3-2026/"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « French economy 'at a standstill' as budget uncertainty raises recession risk » (oct. 2026)",
+        "url": "https://finance.yahoo.com/economy/policy/articles/french-economy-stalls-budget-deadlock-175518010.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-somalie-onu-mission-politique-fermee",
+    "date": "2026-11-01",
+    "region": "Afrique",
+    "theme": "geo",
+    "zones": [
+      "Afrique"
+    ],
+    "geo": [
+      {
+        "name": "Mogadiscio, Somalie",
+        "label": "Somalie",
+        "coords": [
+          45.34,
+          2.05
+        ]
+      }
+    ],
+    "title": "Somalie : l'ONU ferme sa mission politique après trente ans, au moment où la Constitution et le calendrier électoral sont contestés",
+    "summary": "La Mission d'assistance transitoire des Nations unies en Somalie (UNTMIS) a cessé ses activités le 31 octobre, sur demande du gouvernement somalien. Ses tâches passent aux institutions somaliennes et aux agences de l'ONU, alors que l'opposition conteste le calendrier électoral [1][3][4].",
+    "points": [
+      "L'UNTMIS a fermé le 31 octobre 2026, à la fin d'une transition de deux ans prévue par les résolutions 2753 (2024) et 2809 (2025) du Conseil de sécurité, à la demande du gouvernement fédéral somalien [1][3].",
+      "C'est la fin de trois décennies de présence politique de l'ONU : le bureau politique UNPOS en 1995, la mission UNSOM en 2013, puis l'UNTMIS [1].",
+      "Selon une feuille de route convenue avec Mogadiscio, les fonctions de la mission passent aux institutions somaliennes et aux agences, fonds et programmes de l'ONU [3].",
+      "L'ONU précise qu'elle ne part pas : environ 25 entités des Nations unies continuent d'opérer en Somalie [1].",
+      "Raisedon Zenenga, chef par intérim de la mission, a dit que cette fermeture ne signifie pas la fin du partenariat entre la Somalie et l'ONU [2]. Le vice-Premier ministre Saleh Ahmed Jama a parlé d'un « jour de victoire » lors de la cérémonie à Mogadiscio [3].",
+      "Le secrétaire général António Guterres a salué les progrès de la Somalie tout en appelant à un soutien international continu face aux défis politiques, sécuritaires et humanitaires [1].",
+      "Aucun remplaçant n'a été désigné pour le rôle de médiation que jouait la mission, qui avait aidé des dirigeants rivaux à conclure des accords électoraux [1]. Selon le Somali Digest, un calendrier électoral que l'opposition a rejeté et une question constitutionnelle devant la Cour suprême font l'objet de différends [4]."
+    ],
+    "why": [
+      "À retenir : l'ONU quitte le rôle d'arbitre politique au moment où les règles du jeu électoral somalien sont encore contestées [1][4].",
+      "Le départ est voulu par Mogadiscio, qui veut reprendre la main sur ses affaires, mais il tombe dans un contexte de baisse des financements : l'UNICEF indiquait en août que 205 établissements de santé et de nutrition avaient fermé à cause des coupes dans l'aide [1]. Les agences qui restent font face à des problèmes de budget [3].",
+      "Un commentateur somalien juge la sortie prématurée et risquée pour les acquis de la reconstruction de l'État [5]. Les autorités, elles, la présentent comme une victoire de souveraineté [3]."
+    ],
+    "forMe": "La Somalie borde le golfe d'Aden, par où passent les navires entre l'Asie et le canal de Suez : l'instabilité du pays pèse sur la piraterie, les assurances maritimes et donc les prix du transport.",
+    "next": [],
+    "figures": [
+      {
+        "value": "30 ans",
+        "label": "de présence politique de l'ONU en Somalie, close le 31 octobre",
+        "src": 1
+      },
+      {
+        "value": "25",
+        "label": "entités de l'ONU qui restent en Somalie",
+        "src": 1
+      },
+      {
+        "value": "205",
+        "label": "établissements de santé et de nutrition fermés en août à cause des coupes d'aide (UNICEF)",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « UN closes Somalia mission, ending three decades of political engagement » (31 oct. 2026)",
+        "url": "https://www.aljazeera.com/news/2026/10/31/un-closes-somalia-mission-ending-three-decades-of-political-engagement"
+      },
+      {
+        "short": "UNTMIS",
+        "name": "UNTMIS, « Remarks by the Officer-in-Charge, Raisedon Zenenga, at the ceremony marking the closure of the mission » (oct. 2026)",
+        "url": "https://untmis.unmissions.org/en/press-releases/remarks-by-the-officer-in-charge-of-the-un-transitional-assistance-mission-in"
+      },
+      {
+        "short": "Somali Guardian",
+        "name": "Somali Guardian, « UN mission in Somalia (UNTMIS) closes after three decades » (31 oct. 2026)",
+        "url": "https://www.somaliguardian.com/news/somalia-news/un-mission-somalia-untmis-closes-after-three-decades/"
+      },
+      {
+        "short": "Somali Digest",
+        "name": "The Somali Digest, « UNTMIS Leaves Somalia on 31 October With the Constitution and the Election in Dispute » (oct. 2026)",
+        "url": "https://thesomalidigest.com/untmis-closes-constitution-election-dispute/"
+      },
+      {
+        "short": "Substack (M. Uluso)",
+        "name": "Mohamud Uluso (Substack), « The Closure of UNTMIS Operations: A Premature Exit That Risks Undermining Somalia's Fragile State-Building Gains » (oct. 2026)",
+        "url": "https://mohamuduluso.substack.com/p/the-closure-of-untmis-operations"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-alphabet-pire-seance-ia",
+    "date": "2026-11-01",
+    "region": "Amériques",
+    "theme": "fin",
+    "zones": [
+      "Europe",
+      "Asie"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "name": "Mountain View, États-Unis",
+        "label": "Alphabet",
+        "coords": [
+          -122.08,
+          37.39
+        ]
+      }
+    ],
+    "title": "Alphabet s’effondre de 13 % : Wall Street se demande si l’IA rapportera assez",
+    "summary": "Google a doublé ses ventes de cloud mais dépense tant dans l’IA que son cash-flow libre est négatif de 9 milliards de dollars. Son action a perdu près de 13 % jeudi 29 octobre, sa pire séance. Vendredi 30, le Nasdaq a cédé 2,9 % [2][5][6].",
+    "points": [
+      "Le 28 octobre, Alphabet a publié un chiffre d’affaires de 127,6 milliards de dollars (+25 %) et un bénéfice d’exploitation de 40,6 milliards (+30 %), mais manqué les attentes : 2,67 $ de bénéfice par action ajusté, contre 3,02 $ attendus [4].",
+      "Le cloud de Google a presque doublé, à 30,7 milliards de dollars (+103 %), au-dessus des 28,7 milliards attendus [4]. Ce n’est pas ce que les investisseurs ont retenu.",
+      "Les investissements du trimestre ont atteint 51,4 milliards de dollars, contre 24 milliards un an plus tôt [4]. Le groupe garde sa prévision 2026 de 195 à 205 milliards [1]. Anat Ashkenazi, directrice financière, attend une hausse « significative » en 2027 [4].",
+      "Résultat : un cash-flow libre négatif de 9,07 milliards de dollars sur le trimestre, alors que les analystes attendaient environ 2,7 milliards de positif [2].",
+      "Jeudi 29 octobre, l’action a chuté de près de 13 %, soit environ 500 milliards de dollars de valeur en moins. C’est la plus forte baisse en une séance depuis son entrée en Bourse en 2004 [2].",
+      "Vendredi 30, l’indice S&P 500 a perdu 1,8 % (7 580,07 points) et le Nasdaq 2,9 % [6]. Selon le Financial Times, OpenAI a ramené de 30 à 20 milliards de dollars la somme visée dans sa levée de fonds ; S&P Global a mis Meta sous perspective négative, tout en gardant sa note AA- [5]."
+    ],
+    "why": [
+      "À retenir : ce n’est pas la croissance qui inquiète, c’est la facture. Alphabet gagne de l’argent, mais ses dépenses en puces et en centres de données dépassent désormais ce que ses activités rapportent en cash [2][4].",
+      "Alphabet n’est pas seul. Meta a un cash-flow libre négatif de 2,1 milliards de dollars sur le trimestre, contre 10,6 milliards positifs un an plus tôt ; S&P table sur 140 milliards d’investissements cette année pour Meta, et Meta conteste sa lecture de ses revenus d’IA [5]. Quand les géants dépensent plus qu’ils n’encaissent, les prêteurs et les actionnaires veulent des preuves de rentabilité.",
+      "L’enjeu dépasse la Bourse américaine : ces entreprises pèsent lourd dans les indices mondiaux. Vendredi, les Bourses européennes ont aussi reculé sur ces craintes (l’indice STOXX 600 a perdu environ 0,4 %) [7]."
+    ],
+    "forMe": "Si tu as un plan d’épargne en actions ou un fonds indiciel mondial, une partie de tes placements est exposée à ces géants américains de la tech. Les valeurs de l’IA pèsent lourd dans les indices : leur recul se voit donc dans les fonds, même sans en détenir directement.",
+    "next": [
+      {
+        "when": "Prochain trimestre d’Alphabet",
+        "what": "La direction doit donner plus de détails sur la hausse de ses dépenses en 2027 à l’occasion de ses résultats du quatrième trimestre [4]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "−13 %",
+        "label": "chute de l’action Alphabet jeudi 29 octobre, la pire de son histoire en Bourse",
+        "src": 2
+      },
+      {
+        "value": "−9,07 Md$",
+        "label": "cash-flow libre d’Alphabet au troisième trimestre",
+        "src": 2
+      },
+      {
+        "value": "51,4 Md$",
+        "label": "investissements d’Alphabet sur le trimestre, contre 24 un an plus tôt",
+        "src": 4
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "CNBC (résultats)",
+        "name": "CNBC, « Alphabet sinks 10% as it holds 2026 capex unchanged, expects significant increase in 2027 » (28 oct. 2026)",
+        "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html"
+      },
+      {
+        "short": "CNBC (séance)",
+        "name": "CNBC, « Alphabet tanks nearly 13% for worst day ever, losing $500 billion in value » (29 oct. 2026)",
+        "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html"
+      },
+      {
+        "short": "Fortune",
+        "name": "Fortune, « Alphabet’s Google Cloud revenue doubles to $31 billion as cash flow stays deep red » (28 oct. 2026)",
+        "url": "https://fortune.com/2026/10/28/alphabet-google-stock-drops-cloud-revenue-doubles-free-cash-flow-negative/"
+      },
+      {
+        "short": "9to5Google",
+        "name": "9to5Google, « Alphabet reports Q3 2026 revenue of $127.6 billion » (28 oct. 2026)",
+        "url": "https://9to5google.com/2026/10/28/alphabet-q3-2026-earnings/"
+      },
+      {
+        "short": "Fortune (IA)",
+        "name": "Fortune, « AI boom hits a wall on Wall Street as OpenAI cuts fundraising target while Meta gets a credit warning » (31 oct. 2026)",
+        "url": "https://fortune.com/2026/10/31/ai-boom-bust-openai-fundraising-target-meta-credit-warning-cash-flow-capex/"
+      },
+      {
+        "short": "AP",
+        "name": "AP via WTOP, « How major US stock indexes fared Friday 10/30/2026 » (30 oct. 2026)",
+        "url": "https://wtop.com/national/2026/10/how-major-us-stock-indexes-fared-friday-10-30-2026"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « European shares slip as Amazon, Intel stoke AI cash-burn fears » (30 oct. 2026)",
+        "url": "https://ca.finance.yahoo.com/news/european-shares-slip-amazon-intel-084819142.html"
+      },
+      {
+        "short": "The Block",
+        "name": "The Block, « Meta selloff erases quarter of company’s value after metaverse losses top $9 billion » (27 oct. 2022)",
+        "url": "https://www.theblock.co/news/business/2022-10-27-meta-selloff-erases-quarter-of-companys-value-after-metaverse-losses-top-9-billion-180648"
+      },
+      {
+        "short": "Korea JoongAng Daily",
+        "name": "Korea JoongAng Daily (Reuters), « Investors dump tech stocks after record $593 billion Nvidia loss » (janv. 2025)",
+        "url": "https://www.koreajoongangdaily.com/business/investors-dump-tech-stocks-after-record-593-billion-nvidia-loss/12473281"
+      }
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : le cash-flow libre et le pari de l’IA",
+        "text": "Le cash-flow libre, c’est l’argent qui reste à une entreprise une fois payées ses activités courantes et ses investissements. Alphabet dépense 51,4 milliards de dollars en un trimestre, surtout en infrastructures d’IA, et ce que rapportent ses activités ne couvre plus la facture : le solde est négatif de 9,07 milliards [2][4]. Pour combler le trou, un groupe puise dans sa trésorerie ou emprunte, et les agences de notation regardent ce critère de près : S&P a ainsi dégradé la perspective de Meta à cause d’un cash-flow libre négatif [5]. L’action, elle, reflète les profits futurs que les investisseurs en attendent. Si les dépenses grimpent plus vite que les revenus de l’IA, ils revoient à la baisse ces profits, et la valeur baisse d’un coup, parfois de centaines de milliards [2][5]."
+      }
+    },
+    "past": {
+      "title": "Quand une grosse dépense inquiète les marchés",
+      "items": [
+        {
+          "when": "Mars 2020",
+          "what": "Alphabet avait signé sa pire séance en Bourse avec une baisse de 11,63 % ; le record du 29 octobre 2026 l’a dépassé [2].",
+          "lesson": "Le record de 2026 vient d’un doute sur la rentabilité des dépenses, et non d’un choc extérieur comme en 2020 [2]."
+        },
+        {
+          "when": "27 octobre 2022",
+          "what": "Meta (alors maison mère de Facebook) a perdu près de 20 % en une séance, clôturant à 105,02 $, après des résultats plombés par les dépenses du métavers, dont les pertes dépassaient 9 milliards de dollars sur l’année [8].",
+          "lesson": "Le marché avait sanctionné une dépense jugée sans retour visible ; un quart de la valeur de l’entreprise avait disparu [8]."
+        },
+        {
+          "when": "27 janvier 2025",
+          "what": "Nvidia a perdu 17 % et environ 593 milliards de dollars de valeur en une séance, record absolu, quand une IA chinoise bon marché (DeepSeek) a fait douter du besoin de dépenser autant en puces [9].",
+          "lesson": "Le record de perte tenait au doute sur la rentabilité de dépenses énormes, comme en 2026 [9]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "Les valeurs de l’IA sont les plus touchées par cette séance [5][6].",
+      "items": [
+        {
+          "name": "Alphabet (Google)",
+          "ticker": "GOOGL",
+          "move": "près de −13 %",
+          "why": "Chute de près de 13 % jeudi 29 octobre, soit environ 500 milliards de dollars de valeur boursière perdus [2]."
+        },
+        {
+          "name": "Meta Platforms",
+          "ticker": "META",
+          "why": "S&P Global a mis sa perspective de note sous « négative » (AA- confirmée) à cause d’un cash-flow libre négatif et de dépenses d’IA très élevées [5]."
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-01-intel-pire-chute-depuis-1974",
+    "date": "2026-11-01",
+    "region": "Amériques",
+    "theme": "fin",
+    "zones": [
+      "Asie",
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Santa Clara, États-Unis",
+        "label": "Intel",
+        "coords": [
+          -121.96,
+          37.35
+        ]
+      }
+    ],
+    "title": "Intel chute de près de 29 % : pire séance depuis 1974 et l’État américain perd 12 milliards",
+    "summary": "Le fabricant de puces américain a prévu un dernier trimestre plus faible que prévu, à cause du marché des PC. Vendredi 30 octobre, son action a clôturé en baisse de près de 29 %, à 65,76 dollars, et le secteur des puces a suivi [1][3].",
+    "points": [
+      "Intel a publié ses résultats le 29 octobre : 16,5 milliards de dollars de chiffre d’affaires au troisième trimestre, mais seulement 15 à 16 milliards prévus pour le quatrième [4].",
+      "Il table sur une marge brute d’environ 38 %, en baisse, à cause de la demande de PC plus faible, d’un incident dans l’usine Fab 28 (environ 300 millions de dollars de ventes en moins) et d’une offre limitée [4].",
+      "Le pôle PC (client computing) a vu ses ventes reculer de 9 % sur un trimestre, à 8,1 milliards de dollars. Intel attend 12 % de PC livrés en moins en 2026 et 10 % de moins en 2027 [1]. La direction voit un marché faible au moins jusqu’au premier semestre 2027 [5].",
+      "Les centres de données et l’IA progressent de 78 %, à 7,3 milliards de dollars, mais ne compensent pas [4].",
+      "L’action a perdu près de 29 % vendredi, sa pire journée depuis 1974, selon Yahoo Finance et TechSpot [1][2]. Bank of America a abaissé sa recommandation à « neutre » et son objectif de cours de 145 à 100 dollars [1].",
+      "La part d’environ 10 % de l’État américain dans le capital a perdu environ 12 milliards de dollars de valeur sur le papier [6]."
+    ],
+    "why": [
+      "À retenir : Intel est le symbole de la fabrication de puces américaine, et l’État américain en détient environ 10 %. Quand son titre s’effondre, c’est aussi l’argent public qui perd de la valeur [6].",
+      "Intel souffre d’un double front : le marché des PC, son cœur historique, se contracte, et le groupe ne prévoit pas de cash-flow positif cette année, en pleine dépense d’IA [1]. Les centres de données le sauvent en partie mais restent loin de combler le trou [4].",
+      "La chute est arrivée au lendemain de celle d’Alphabet. Les valeurs technologiques américaines ont perdu plus de 1 000 milliards de dollars de valeur, et les Bourses d’Asie et d’Europe ont suivi [1][3]."
+    ],
+    "forMe": "Les puces d’Intel équipent beaucoup d’ordinateurs portables. Si les ventes de PC baissent comme prévu, les fabricants pourraient revoir leurs prix ou leurs gammes. Côté épargne, un fonds mondial de grandes entreprises peut contenir Intel ou des valeurs de puces.",
+    "next": [
+      {
+        "when": "Fin 2026",
+        "what": "Intel doit lancer sa technologie de fabrication 18A-P pour ses propres produits d’ici la fin de l’année [5]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "−29 %",
+        "label": "recul de l’action Intel vendredi 30 octobre (65,76 $), pire séance depuis 1974",
+        "src": 1
+      },
+      {
+        "value": "−12 %",
+        "label": "livraisons de PC attendues par Intel en 2026",
+        "src": 1
+      },
+      {
+        "value": "12 Md$",
+        "label": "valeur perdue sur le papier par la participation de l’État américain",
+        "src": 6
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs"
+    ],
+    "sources": [
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « Intel shares plunge almost 30% as PC weakness and supply constraints overshadow server growth » (30 oct. 2026)",
+        "url": "https://finance.yahoo.com/technology/articles/intel-shares-plunge-almost-30-165700205.html"
+      },
+      {
+        "short": "TechSpot",
+        "name": "TechSpot, « Intel stock plunges nearly 30%, its worst day in 52 years » (30 oct. 2026)",
+        "url": "https://www.techspot.com/news/114402-intel-stock-plunges-nearly-30-worst-day-52.html"
+      },
+      {
+        "short": "Global Banking & Finance",
+        "name": "Global Banking & Finance, « Intel on course for worst day ever, triggers global chip rout » (30 oct. 2026)",
+        "url": "https://www.globalbankingandfinance.com/intel-warning-sparks-chip-rout-pc-weakness-clouds-turnaround/"
+      },
+      {
+        "short": "Intel (SEC)",
+        "name": "Intel, communiqué de résultats du 3e trimestre 2026 déposé auprès de la SEC (29 oct. 2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm"
+      },
+      {
+        "short": "Benzinga",
+        "name": "Benzinga, « Intel Q3 2026 Earnings Call Transcript » (29 oct. 2026)",
+        "url": "https://www.benzinga.com/news/26/10/62725076/intel-q3-2026-earnings-call-transcript"
+      },
+      {
+        "short": "Inshorts",
+        "name": "Inshorts, « Intel shares fall 30% in worst day in decades, US govt stake loses $12 billion » (30 oct. 2026)",
+        "url": "https://inshorts.com/en/news/intel-shares-fall-30--in-worst-day-in-decades--us-govt-stake-loses--12-billion-1793419164143"
+      },
+      {
+        "short": "Kontan (Reuters)",
+        "name": "Kontan, « Intel Shares Slump 26% as Turnaround Struggle Deepens » (2 août 2024)",
+        "url": "https://english.kontan.co.id/news/intel-shares-slump-26-as-turnaround-struggle-deepens"
+      },
+      {
+        "short": "Fox Business",
+        "name": "Fox Business, « Intel shares sink with 15% of workforce getting axed, suspends dividend » (2 août 2024)",
+        "url": "https://foxbusiness.com/markets/intel-shares-sink-15-workforce-getting-axed-suspends-dividend"
+      },
+      {
+        "short": "Korea JoongAng Daily",
+        "name": "Korea JoongAng Daily (Reuters), « Investors dump tech stocks after record $593 billion Nvidia loss » (janv. 2025)",
+        "url": "https://www.koreajoongangdaily.com/business/investors-dump-tech-stocks-after-record-593-billion-nvidia-loss/12473281"
+      }
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi une prévision décevante fait plus mal qu’un bon trimestre",
+        "text": "Une action reflète les profits que les investisseurs attendent dans les mois à venir, pas ceux déjà réalisés. Intel a pourtant battu les attentes sur le trimestre écoulé, mais sa prévision pour le dernier trimestre (15 à 16 milliards de dollars de ventes, marge brute vers 38 %) était en dessous de ce que le marché avait prévu [1][4]. Quand la prévision baisse, les analystes refont leurs calculs : plusieurs banques ont abaissé leur objectif de cours, dont Bank of America de 145 à 100 dollars [1]. Les ordres de vente tombent alors tous à l’ouverture, d’où une baisse de près de 30 % en une séance. Le secteur suit parce qu’une entreprise de puces sert de baromètre aux autres [3]."
+      }
+    },
+    "past": {
+      "title": "Les grandes chutes d’un géant de la puce",
+      "items": [
+        {
+          "when": "2 août 2024",
+          "what": "Intel avait déjà perdu 26 % en une journée, à 21,48 dollars, après l’annonce de la suspension de son dividende et de la suppression de plus de 15 % de ses postes [7][8].",
+          "lesson": "À l’époque, la baisse venait des coûts à réduire ; en 2026, elle vient d’un marché de PC qui se contracte [1][7]."
+        },
+        {
+          "when": "Juillet 1974",
+          "what": "L’action Intel avait perdu 31 % en une séance, la pire baisse de son histoire selon une source ; la séance du 30 octobre 2026 est la pire depuis cette date [1][7].",
+          "lesson": "La chute d’août 2024 n’était alors que la deuxième plus forte de l’histoire du titre [7]."
+        },
+        {
+          "when": "27 janvier 2025",
+          "what": "Nvidia a perdu 17 % et environ 593 milliards de dollars de valeur en une séance après l’apparition d’une IA chinoise bon marché, DeepSeek [9].",
+          "lesson": "Un choc sur un seul acteur de la puce entraîne tout le secteur, comme le 30 octobre 2026 [3][9]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "Le secteur des puces est entraîné par la baisse d’Intel [3].",
+      "items": [
+        {
+          "name": "Intel",
+          "ticker": "INTC",
+          "move": "près de −29 %",
+          "why": "Clôture à 65,76 dollars vendredi 30 octobre après une prévision de ventes et de marge décevante [1]."
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-01-or-chute-sous-3900-dollars",
+    "date": "2026-11-01",
+    "region": "Amériques",
+    "theme": "fin",
+    "zones": [
+      "Europe",
+      "Asie",
+      "Moyen-Orient"
+    ],
+    "geo": [
+      {
+        "name": "New York, États-Unis",
+        "label": "Or et argent",
+        "coords": [
+          -74,
+          40.71
+        ]
+      }
+    ],
+    "title": "L’or tombe sous 3 900 dollars, son plus bas niveau en un an, et l’argent perd 6 %",
+    "summary": "Vendredi 30 octobre, l’once d’or a perdu 3,5 % et clôturé autour de 3 880 dollars, un plus bas depuis plus d’un an. L’argent a reculé de 6 %. La chute de la tech, la hausse du pétrole et la perspective d’une hausse des taux américains pèsent [1][2][3].",
+    "points": [
+      "L’or comptant valait environ 3 879,90 dollars l’once vendredi soir, soit 141,60 dollars (3,52 %) de moins que la veille ; son plus bas de la semaine, 3 870,25 dollars, est le niveau le plus faible depuis plus d’un an [1].",
+      "L’argent a perdu 6,06 %, à 49,015 dollars l’once, et près de 9 % en une semaine, sa pire semaine depuis début juin [1].",
+      "Selon Kitco, la séance de Wall Street, menée par la tech, a poussé des investisseurs à vendre leurs métaux précieux pour couvrir des pertes ailleurs [1]. TradingKey ajoute la hausse du pétrole, une inflation américaine plus élevée et l’idée d’une hausse des taux de la Réserve fédérale (Fed) en décembre [3].",
+      "L’indice des prix PCE, préféré de la Fed, est ressorti à 3,6 % sur un an en septembre, dont 3,1 % hors énergie et alimentation, selon un résumé de l’inflation du 29 octobre [5]. La Fed a relevé son taux à 3,75-4,00 % le 16 septembre et l’a gardé le 28 octobre, avec deux voix pour une nouvelle hausse [4].",
+      "Les prévisions divergent : StoneX voit l’or revenir vers 3 000 dollars et l’argent dans le haut des 30 dollars ; CPM Group évoque 3 950 ou 3 800 dollars pour l’or [1]."
+    ],
+    "why": [
+      "À retenir : l’or sert de valeur refuge, et pourtant il baisse quand tout baisse. En période de stress, les investisseurs vendent ce qui a le mieux marché pour récupérer du cash [1].",
+      "L’or ne rapporte aucun intérêt. Quand les taux montent, détenir des obligations ou des liquidités rapporte plus, et l’or devient moins attractif : c’est le mécanisme que les analystes citent pour décembre [3][4].",
+      "Le métal vient de loin. Il avait atteint un record d’environ 5 595 dollars l’once le 29 janvier 2026, puis il a perdu 9,5 % le lendemain ; il cotait 4 132,99 dollars le 20 octobre, soit 26 % sous ce sommet [6][9]. Avec moins de 3 900 dollars, il est maintenant plus de 30 % sous ce record [1][9]."
+    ],
+    "forMe": "L’or physique (pièces, lingots) et les fonds sur l’or suivent ces mouvements. Pour un épargnant français, ce n’est pas une garantie de stabilité : le prix peut chuter de plusieurs pour cent en un jour, comme vendredi.",
+    "next": [
+      {
+        "when": "Décembre 2026",
+        "what": "Une hausse des taux de la Fed est jugée probable par les marchés, avec plus de 80 % de chances selon un résumé de marché [4]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "−3,5 %",
+        "label": "recul de l’once d’or vendredi 30 octobre, à environ 3 880 $",
+        "src": 1
+      },
+      {
+        "value": "−6 %",
+        "label": "recul de l’argent le même jour, à 49 $ l’once",
+        "src": 1
+      },
+      {
+        "value": "5 595 $",
+        "label": "record historique de l’or, le 29 janvier 2026",
+        "src": 9
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "dollar",
+      "inflation-taux"
+    ],
+    "sources": [
+      {
+        "short": "Kitco (rapport du soir)",
+        "name": "Kitco, « Gold falls below $3,900, silver tumbles as Wall Street selloff triggers liquidation » (30 oct. 2026)",
+        "url": "https://www.kitco.com/news/article/2026-10-30/gold-falls-below-3900-silver-tumbles-wall-street-selloff-triggers"
+      },
+      {
+        "short": "Kitco (plus bas)",
+        "name": "Kitco, « Gold prices plunge to one-year low below $3,900 as higher oil prices fuel fears of more pain ahead » (30 oct. 2026)",
+        "url": "https://www.kitco.com/news/article/2026-10-30/gold-prices-plunge-one-year-low-below-3900-higher-oil-prices-fuel-fears"
+      },
+      {
+        "short": "TradingKey",
+        "name": "TradingKey, « Spot Gold Plunges 3% to Breach $3,900: What Caused the Drop in Gold Prices? » (30 oct. 2026)",
+        "url": "https://www.tradingkey.com/analysis/commodities/metal/262261037-gold-prices-fall-below-3900-silver-what-causes-prices-to-drop-tradingkey"
+      },
+      {
+        "short": "Yahoo Finance (PCE)",
+        "name": "Yahoo Finance, « PCE report: Fed’s preferred inflation measure hits 3-year high, keeping talk of possible rate hike in play » (29 oct. 2026)",
+        "url": "https://finance.yahoo.com/economy/policy/article/pce-report-feds-preferred-inflation-measure-hits-3-year-high-keeping-talk-of-possible-rate-hike-in-play-124158491.html"
+      },
+      {
+        "short": "StockTitan (PCE)",
+        "name": "StockTitan, « PCE Inflation Report: Core Inflation Rose to 3.1% a Day After the Fed Held Rates » (29 oct. 2026)",
+        "url": "https://www.stocktitan.net/articles/september-2026-pce-inflation-data"
+      },
+      {
+        "short": "CBS News",
+        "name": "CBS News, « What is the highest gold price in history? Here’s how it’s changed over the past year » (2026)",
+        "url": "https://www.cbsnews.com/news/highest-gold-price-in-history-how-its-changed-from-2025-to-2026/"
+      },
+      {
+        "short": "Business Standard (Reuters)",
+        "name": "Business Standard (Reuters), « Gold collapses as investors race for exits, brace for end of bull market » (16 avr. 2013)",
+        "url": "https://www.business-standard.com/amp/article/reuters/gold-collapses-as-investors-race-for-exits-brace-for-end-of-bull-market-113041600036_1.html"
+      },
+      {
+        "short": "Business Standard (2025)",
+        "name": "Business Standard, « Gold prices tumble 6% in biggest drop since 2013 as investors rush to buy » (oct. 2025)",
+        "url": "https://www.business-standard.com/amp/world-news/gold-prices-tumble-6-in-biggest-drop-since-2013-as-investors-rush-to-buy-125102600784_1.html"
+      },
+      {
+        "short": "EBC",
+        "name": "EBC, « Highest Gold Price Ever: How Gold Reached $5,595 Faster Than Past Cycles » (2026)",
+        "url": "https://www.ebc.com/forex/gold-highest-price-ever-xauusd-record-2026"
+      }
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi l’or baisse quand les taux montent",
+        "text": "L’or ne verse ni intérêt ni dividende : son seul rendement est la hausse de son prix. Quand la Fed relève ses taux, les obligations et les comptes rémunérés rapportent davantage, et certains investisseurs vendent de l’or pour les acheter ; TradingKey cite cette attente d’une hausse en décembre parmi les causes de la chute [3][4]. Un deuxième mécanisme joue en cas de panique : quand les actions s’effondrent, des investisseurs qui ont emprunté doivent rendre de l’argent, vendent leurs placements les plus liquides, dont l’or et l’argent, même s’ils croient à leur valeur. Kitco parle de « liquidation » [1]."
+      }
+    },
+    "past": {
+      "title": "Les grandes chutes de l’or",
+      "items": [
+        {
+          "when": "15 avril 2013",
+          "what": "L’or a perdu environ 9 % en une séance, sa plus forte baisse depuis 1983, et l’argent 11 %, ce qui a confirmé un marché baissier (30 % sous le record de septembre 2011) [7].",
+          "lesson": "La baisse a marqué la fin d’un cycle de hausse de 12 ans [7]."
+        },
+        {
+          "when": "21 octobre 2025",
+          "what": "Après un record d’environ 4 381 dollars la veille, l’or a perdu près de 6 %, sa pire séance depuis 2013 (contrat de décembre à 4 087,70 dollars, -5,7 %) [8].",
+          "lesson": "La chute n’a pas été la fin du mouvement : l’or a atteint 5 595 dollars le 29 janvier 2026 [9]."
+        },
+        {
+          "when": "30 janvier 2026",
+          "what": "Au lendemain du record historique de 5 594,82 dollars, l’or a perdu 9,5 % en une séance, sa plus forte chute depuis 1983 [9].",
+          "lesson": "Le 20 octobre 2026, il cotait 4 132,99 dollars, 26 % sous ce record ; le 30 octobre, moins de 3 900 [6][1]."
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-01-mobico-national-express-rachat-leita",
+    "date": "2026-11-01",
+    "region": "Europe",
+    "theme": "fin",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Birmingham, Royaume-Uni",
+        "label": "Royaume-Uni",
+        "coords": [
+          -1.9,
+          52.49
+        ]
+      },
+      {
+        "name": "León, Espagne",
+        "label": "Espagne",
+        "coords": [
+          -5.57,
+          42.6
+        ]
+      }
+    ],
+    "title": "National Express passe sous pavillon espagnol : Mobico accepte 308 millions de livres, car sa dette l’étouffe",
+    "summary": "Le conseil de Mobico, propriétaire du transporteur britannique National Express, recommande une offre en cash de 46 pence par action du groupe espagnol Autobuses de León. L’action a gagné 11 % vendredi 30 octobre. Le rachat inclut plus d’un milliard de livres de dette [1][2][3].",
+    "points": [
+      "L’offre de Leita Mobility, filiale d’Autobuses de León, vaut 46 pence par action en espèces, soit environ 308 millions de livres pour les actions et environ 2,3 milliards avec la dette [1][3].",
+      "Elle dépasse de 55,1 % le cours du 20 octobre (29,7 pence) et de 89,3 % la moyenne des six derniers mois [1][2].",
+      "Autobuses de León appartient à 50,1 % à la famille Cosmen (CMC Group) et à 49,9 % au fonds Asterion. CMC détient déjà environ 26 % de Mobico [1].",
+      "La dette nette de Mobico atteignait 1,134 milliard de livres au 31 mars, avec un ratio d’endettement de 2,9 fois selon ses critères bancaires, contre un objectif de 1,5 à 2 fois. Environ 230 millions de livres de dette américaine arrivent à échéance en mai et juin 2027 [1].",
+      "L’action a clôturé à 38,6 pence le 29 octobre et a gagné 11 % le lendemain, vers 44 pence, soit un peu moins que les 46 pence offerts [2][4].",
+      "Phil White, président de Mobico, juge l’offre « un bon résultat » pour les parties prenantes. Des actionnaires représentant 26,2 % du capital se sont déjà engagés à voter pour [1][2]."
+    ],
+    "why": [
+      "À retenir : ce rachat est surtout un sauvetage. Le conseil écrit qu’avec sa dette et le refinancement de 2027, le groupe aurait un avenir trop incertain seul [1][3].",
+      "Mobico est tombé bas : l’action valait moins de 18 pence en mars, et sa note de crédit a été abaissée au niveau « spéculatif » [4][9]. L’offre initiale, plus basse, valait environ 282 millions de livres [9].",
+      "C’est aussi le signe d’un mouvement plus large : des entreprises britanniques cotées à bas prix sont rachetées par des groupes étrangers ou des fonds, ce que les médias appellent une vague de retraits de la Bourse de Londres [9]."
+    ],
+    "forMe": "Si tu voyages en bus au Royaume-Uni, National Express continue de rouler et rien n’indique dans l’annonce un changement de billets à court terme. Pour un actionnaire, le prix est fixé en espèces à 46 pence [1][2].",
+    "next": [
+      {
+        "when": "Premier semestre 2027",
+        "what": "Fin visée du rachat, sous réserve de l’accord des autorités et du vote des actionnaires lors d’une assemblée judiciaire (Court Meeting) [1]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "46 pence",
+        "label": "offre en cash par action, 55,1 % au-dessus du cours du 20 octobre",
+        "src": 1
+      },
+      {
+        "value": "+11 %",
+        "label": "hausse de l’action Mobico vendredi 30 octobre",
+        "src": 2
+      },
+      {
+        "value": "1,134 Md£",
+        "label": "dette nette au 31 mars 2026",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Annonce officielle (RNS)",
+        "name": "Mobico Group, « Recommended Cash Acquisition for Mobico Group PLC » (30 oct. 2026)",
+        "url": "https://www.investegate.co.uk/announcement/rns/mobico-group--mcg/recommended-cash-acquisition-for-mobico-group-plc/9849217"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Mobico shares jump 11% after accepting £308 million takeover bid from Leita » (30 oct. 2026)",
+        "url": "https://www.investing.com/news/stock-market-news/mobico-shares-jump-11-after-accepting-308-million-takeover-bid-from-leita-93CH-4986414"
+      },
+      {
+        "short": "BDaily",
+        "name": "BDaily, « National Express owner Mobico set for £308 million takeover » (30 oct. 2026)",
+        "url": "https://bdaily.co.uk/articles/2026/10/30/national-express-owner-mobico-set-for-ps308-million-takeover"
+      },
+      {
+        "short": "Yahoo Finance UK",
+        "name": "Yahoo Finance UK, « Mobico Group Agrees £308 Million Cash Takeover by Cosmen Family and Asterion Consortium » (30 oct. 2026)",
+        "url": "https://uk.finance.yahoo.com/news/mobico-group-agrees-308-million-075709593.html"
+      },
+      {
+        "short": "Shares Magazine",
+        "name": "Shares Magazine, « Spectris shares jump 15% after Advent takeover offer agreed » (2025)",
+        "url": "https://sharesmagazine.co.uk/news/shares/spectris-shares-jump-15-after-advent-takeover-offer-agreed"
+      },
+      {
+        "short": "AJ Bell (Alliance News)",
+        "name": "AJ Bell (Alliance News), « Advent says bid for Spectris final, leaving way clear for KKR » (2025)",
+        "url": "https://www.ajbell.co.uk/news/articles/brief-advent-says-bid-spectris-final-leaving-way-clear-kkr"
+      },
+      {
+        "short": "Bloomberg Law",
+        "name": "Bloomberg Law, « CVC, ADIA Agree to Buy Hargreaves Lansdown in £5.4 Billion Deal » (août 2024)",
+        "url": "https://news.bloomberglaw.com/us-law-week/cvc-adia-agree-to-buy-hargreaves-lansdown-in-5-4-billion-deal"
+      },
+      {
+        "short": "Morningstar UK",
+        "name": "Morningstar UK, « Hargreaves Lansdown shareholders approve CVC-led takeover » (oct. 2024)",
+        "url": "https://morningstar.co.uk/uk/news/AN_1728981468567561500/in-brief-hargreaves-lansdown-shareholders-approve-cvc-led-takeover.aspx"
+      },
+      {
+        "short": "Traders Union",
+        "name": "Traders Union, « Mobico enters talks on £282mn take-private deal amid London delisting wave » (oct. 2026)",
+        "url": "https://tradersunion.com/news/companies/show/3908203-mobico-takeover-talks-delisting/"
+      }
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi l’action monte, mais reste sous le prix de l’offre",
+        "text": "Quand un acheteur propose 46 pence en espèces, l’action monte vers ce prix, car chaque actionnaire peut espérer vendre à ce niveau [2]. Elle ne l’atteint pas tout de suite : à 44 pence, l’écart de 2 pence mesure le risque que l’opération échoue ou traîne [4]. Ici, il faut l’accord des actionnaires lors d’une assemblée judiciaire et des autorités, avec une fin visée au premier semestre 2027 [1]. Si le deal est signé comme prévu, l’écart se referme ; s’il échoue, l’action peut retomber, vers 29,7 pence avant l’annonce [1]. L’acheteur paie une prime élevée (55,1 %), car c’est ce qu’il faut pour convaincre des actionnaires qui ont perdu de l’argent [1]."
+      }
+    },
+    "past": {
+      "title": "Des rachats d’entreprises cotées à Londres",
+      "items": [
+        {
+          "when": "2025",
+          "what": "Spectris (instruments de mesure) : le fonds Advent offre une prime de 85 % par rapport au cours avant l’annonce et l’action gagne 15 % ; après une guerre d’enchères, KKR l’emporte à 4 147 pence en cash plus 28 pence de dividende (4,2 milliards de livres), avec 99,9 % de votes favorables [5][6].",
+          "lesson": "L’arrivée d’un second acheteur a fait monter le prix de 4 100 à 4 175 pence au total [6]."
+        },
+        {
+          "when": "Août 2024",
+          "what": "Hargreaves Lansdown : le consortium CVC, Nordic Capital et le fonds d’Abu Dhabi ADIA passe de 985 à 1 140 pence par action (5,4 milliards de livres), 54,1 % au-dessus du cours d’avant l’approche [7].",
+          "lesson": "Les actionnaires ont approuvé le rachat en octobre 2024 [8]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "Seul Mobico est concerné par l’offre.",
+      "items": [
+        {
+          "name": "Mobico Group (National Express)",
+          "ticker": "MCG",
+          "move": "+11 %",
+          "why": "L’action a gagné 11 % vendredi 30 octobre après l’annonce de l’offre à 46 pence par action [2]."
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-01-peso-philippin-record-64-pour-un-dollar",
+    "date": "2026-11-01",
+    "region": "Asie",
+    "theme": "fin",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "name": "Manille, Philippines",
+        "label": "Philippines",
+        "coords": [
+          120.98,
+          14.6
+        ]
+      }
+    ],
+    "title": "Le peso philippin passe sous 64 pour un dollar, malgré une hausse surprise des taux",
+    "summary": "Le peso philippin a clôturé à 64,17 pour un dollar mardi 27 octobre, un record. Cinq jours plus tôt, la banque centrale avait relevé son taux de 0,5 point, à 5,5 %. Pétrole cher et déficit extérieur pèsent sur la monnaie [1][2][3].",
+    "points": [
+      "Le peso a franchi pour la première fois 64 pour un dollar en cours de séance mardi 27 octobre, puis clôturé à 64,17 contre 63,95 la veille, nouveau record [1][2]. Le 23 octobre, c’était déjà son 31e plus bas de l’année, à 63,615 [6].",
+      "Le 22 octobre, la banque centrale (BSP) a relevé son taux directeur de 0,5 point, à 5,5 %, quatrième hausse d’affilée. Les 27 économistes interrogés par Reuters attendaient 0,25 point [3][4].",
+      "C’est la première hausse de 0,5 point depuis février 2023. Le gouverneur Eli Remolona dit : « nous ne ferions pas 50 points de base si nous ne pensions pas être un peu en retard » [4][5].",
+      "Il affirme aussi que la banque ne relève pas son taux pour défendre le peso [1]. La BSP juge le pétrole cher, les transports plus chers et les risques liés à El Niño responsables de l’inflation [4].",
+      "La banque prévoit un déficit de la balance des paiements de 9,2 milliards de dollars et un déficit courant de 19,1 milliards en 2026 [1]. Elle se dit prête à agir de nouveau [3]."
+    ],
+    "why": [
+      "À retenir : les Philippines importent beaucoup de pétrole, qui se paie en dollars. Plus le pétrole est cher, plus il faut de pesos pour acheter des dollars, ce qui affaiblit la monnaie [1]. Un peso faible renchérit à son tour les importations, dont l’essence : c’est le cercle de l’inflation importée [1].",
+      "La Fed américaine pèse aussi : l’attente d’une hausse de taux en décembre attire les capitaux vers le dollar [1].",
+      "La banque centrale a un dilemme : relever ses taux freine l’inflation mais ralentit la croissance. Remolona dit avoir estimé de combien le peso doit bouger pour devenir inflationniste, et que c’est alors que la banque intervient [1][4]. Un conseiller cité par un site financier craint un test du seuil de 65 pesos pour un dollar tant que les tensions persistent [10]."
+    ],
+    "forMe": "Si tu voyages aux Philippines, l’effet dépend du cours de l’euro face au dollar. Pour les Philippins, la facture de l’essence et des produits importés grimpe quand le peso baisse, ce qui nourrit l’inflation [1][4].",
+    "next": [
+      {
+        "when": "Prochaines réunions de la BSP",
+        "what": "Remolona dit rester ouvert à de nouvelles hausses de taux [3]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "64,17",
+        "label": "pesos pour un dollar à la clôture du 27 octobre, record",
+        "src": 1
+      },
+      {
+        "value": "5,5 %",
+        "label": "taux directeur de la BSP après la hausse surprise de 0,5 point du 22 octobre",
+        "src": 3
+      },
+      {
+        "value": "31",
+        "label": "31e plus bas historique du peso, atteint le 23 octobre",
+        "src": 6
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "dollar",
+      "inflation-taux"
+    ],
+    "sources": [
+      {
+        "short": "Rappler",
+        "name": "Rappler, « Philippine peso’s historic slide continues, hitting record low P64.17 per dollar » (27 oct. 2026)",
+        "url": "https://www.rappler.com/business/philippine-peso-dollar-exchange-rate-record-low-october-27-2026/"
+      },
+      {
+        "short": "Philstar",
+        "name": "Philstar, « Peso sinks past 64-level vs dollar, hits fresh low » (27 oct. 2026)",
+        "url": "https://www.philstar.com/business/2026/10/27/2566081/peso-sinks-past-64-level-vs-dollar-hits-fresh-low"
+      },
+      {
+        "short": "BusinessWorld",
+        "name": "BusinessWorld, « BSP surprises with jumbo rate hike, signals further tightening » (22 oct. 2026)",
+        "url": "https://bworldonline.com/top-stories/2026/10/22/788741/bsp-surprises-with-jumbo-rate-hike-signals-further-tightening/"
+      },
+      {
+        "short": "Manila Bulletin",
+        "name": "Manila Bulletin, « BSP delivers jumbo 50-basis-point rate hike as inflation pressures broaden » (22 oct. 2026)",
+        "url": "https://mb.com.ph/2026/10/22/bsp-delivers-jumbo-50-basis-point-rate-hike-as-inflation-pressures-broaden"
+      },
+      {
+        "short": "Bilyonaryo",
+        "name": "Bilyonaryo, « ‘Kind of behind the curve’: Remolona hikes 50 bps, floats 8% inflation in 2027 » (oct. 2026)",
+        "url": "https://bnc.bilyonaryo.com/kind-of-behind-the-curve-remolona-hikes-50-bps-floats-8-inflation-in-2027/business/"
+      },
+      {
+        "short": "Philstar (23 oct.)",
+        "name": "Philstar, « Philippine peso sinks to 31st record low at P63.615 » (23 oct. 2026)",
+        "url": "https://www.philstar.com/headlines/2026/10/23/2565242/philippine-peso-sinks-31st-record-low-p63615"
+      },
+      {
+        "short": "Philstar (2022)",
+        "name": "Philstar, « Peso slumps by 9.3% in 2022 » (30 déc. 2022)",
+        "url": "https://www.philstar.com/business/2022/12/30/2234129/peso-slumps-93-2022"
+      },
+      {
+        "short": "MUFG",
+        "name": "MUFG Research, note FX sur les Philippines (2022)",
+        "url": "https://mufgresearch.com/umbraco/surface/download/PrintPage/3789"
+      },
+      {
+        "short": "FMI",
+        "name": "IMF, document sur la crise asiatique de 1997 (float du peso le 11 juillet 1997)",
+        "url": "https://www.imf.org/external/pubs/ft/icm/97icm/pdf/file07.pdf"
+      },
+      {
+        "short": "EBC",
+        "name": "EBC, « Philippine Peso Hits Record Low of ₱64.17: What Comes Next? » (oct. 2026)",
+        "url": "https://www.ebc.com/forex/philippine-peso-record-low-64-usd-php-outlook"
+      }
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi une hausse de taux ne sauve pas toujours la monnaie",
+        "text": "Relever son taux directeur rend une monnaie plus attrayante : les investisseurs étrangers y gagnent plus. Mais cela ne marche que si ce taux est supérieur à ce que la Fed offre en dollars, et si les investisseurs ont confiance. Ici, la BSP a augmenté de 0,5 point alors que les marchés attendaient 0,25 : le peso a pourtant continué de baisser, parce que le pétrole cher et les déficits extérieurs créent une demande de dollars [1][3]. La banque dit d’ailleurs viser l’inflation, pas le cours du peso [1][4]. Remolona affirme que la hausse du 22 octobre n’a pas pour but de défendre le peso [1]."
+      }
+    },
+    "past": {
+      "title": "Quand le peso a lâché",
+      "items": [
+        {
+          "when": "Octobre 2022",
+          "what": "Le peso a atteint 59 pour un dollar, un record d’alors, et perdu 9,3 % sur l’année, avec une Fed qui relevait fortement ses taux [7].",
+          "lesson": "La BSP avait relevé ses taux plus fort que prévu pour contenir l’inflation importée, avec peu d’effet sur le peso [8]."
+        },
+        {
+          "when": "Juillet 1997",
+          "what": "Le 11 juillet 1997, après la chute du baht thaïlandais, les Philippines ont laissé flotter le peso ; il est passé de 26,40 à 42,7 pour un dollar en janvier 1998 [9].",
+          "lesson": "La banque centrale avait relevé ses taux au jour le jour jusqu’à 32 % et perdu plus de 1,5 milliard de dollars de réserves entre le 2 et le 10 juillet [9]."
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-01-coree-exportations-octobre",
+    "date": "2026-11-01",
+    "level": 2,
+    "region": "Asie",
+    "theme": "eco",
+    "zones": [
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Séoul, Corée du Sud",
+        "label": "Corée du Sud",
+        "coords": [
+          126.98,
+          37.57
+        ]
+      }
+    ],
+    "title": "Corée du Sud : les exportations presque doublent en un an, portées par les puces",
+    "summary": "Les exportations sud-coréennes ont atteint un record de 115,3 milliards de dollars en octobre, soit 93,7 % de plus qu'un an plus tôt. Les semi-conducteurs expliquent l'essentiel de ce bond, tiré par la demande d'intelligence artificielle [1][2].",
+    "points": [
+      "Les ventes à l'étranger ont atteint 115,3 milliards de dollars en octobre, contre 59,57 milliards en octobre 2025, mois raccourci par de longs congés [1][5].",
+      "Les puces représentent 56,4 milliards de dollars, en hausse de 259 % sur un an [1].",
+      "Les envois vers la Chine ont augmenté de 133,6 % (26,98 milliards de dollars) et vers les États-Unis de 185,8 % (24,9 milliards) [1].",
+      "Les importations ont progressé de 36 % (72,78 milliards), d'où un excédent commercial de 42,5 milliards ; sur dix mois, les exportations dépassent 900 milliards de dollars pour la première fois [1]."
+    ],
+    "why": [
+      "Le ministère du Commerce, de l'Industrie et des Ressources attribue la hausse à la forte demande mondiale de semi-conducteurs et aux investissements continus des géants de la tech dans les infrastructures d'IA [1].",
+      "Le mois d'octobre 2025 servait de base basse (+3,6 % seulement), ce qui amplifie le pourcentage ; dès la première moitié du mois, la tendance était déjà visible : 61,6 milliards de dollars sur les 20 premiers jours, soit 105,4 % de plus [3][5]."
+    ],
+    "forMe": "Les puces représentent près de la moitié de ce que la Corée vend au monde : son économie dépend donc du cycle de l'IA [1][3].",
+    "next": [],
+    "figures": [
+      {
+        "value": "115,3 Md$",
+        "label": "exportations sud-coréennes en octobre",
+        "src": 1
+      },
+      {
+        "value": "+259 %",
+        "label": "exportations de puces sur un an",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs"
+    ],
+    "sources": [
+      {
+        "short": "Korea Times",
+        "name": "The Korea Times, « Korea's monthly exports hit $115.3 bil. in Oct. on strong chip sales » (1er novembre 2026)",
+        "url": "https://www.koreatimes.co.kr/economy/20261101/koreas-monthly-exports-hit-1153-bil-in-oct-on-record-chip-sales"
+      },
+      {
+        "short": "JoongAng Daily",
+        "name": "Korea JoongAng Daily, « South Korea exports hit record $115.3 billion in October on chip demand » (1er novembre 2026)",
+        "url": "https://www.koreajoongangdaily.com/business/exports-jump-nearly-94-in-october-to-hit-record-1153-billion-on-chip-demand/12948409"
+      },
+      {
+        "short": "Korea Times (20 jours)",
+        "name": "The Korea Times, « Exports double in 1st 20 days of October on robust chip shipments » (21 octobre 2026)",
+        "url": "https://www.koreatimes.co.kr/economy/20261021/exports-double-in-1st-20-days-of-october-on-robust-chip-shipments"
+      },
+      {
+        "short": "MoneyToday",
+        "name": "MoneyToday, « Semiconductor exports hit $27.5 billion as Korea's mid-October exports reach record high » (21 octobre 2026)",
+        "url": "https://www.mt.co.kr/en/economy/2026/10/21/2026102108331616913"
+      },
+      {
+        "short": "WAM",
+        "name": "WAM, « Korea's exports up for 5th month at $59.57 billion in October » (novembre 2025)",
+        "url": "https://www.wam.ae/en/article/15ulfwi-koreas-exports-for-5th-month-5957-billion-october"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-suisse-bns-benefice-neuf-mois",
+    "date": "2026-11-01",
+    "level": 2,
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Berne, Suisse",
+        "label": "Suisse",
+        "coords": [
+          7.45,
+          46.95
+        ]
+      }
+    ],
+    "title": "Suisse : la banque centrale engrange 44 milliards de francs en neuf mois",
+    "summary": "La Banque nationale suisse (BNS) a annoncé le 30 octobre un bénéfice de 44,2 milliards de francs sur janvier-septembre, presque entièrement grâce à ses placements en devises étrangères. Cela relance l'espoir d'un versement à l'État en fin d'année [1][2].",
+    "points": [
+      "Le bénéfice des neuf premiers mois s'élève à 44,2 milliards de francs (environ 5,4 milliards de dollars selon Bloomberg) [1][2].",
+      "Les positions en devises ont rapporté 43,3 milliards, l'or 1,2 milliard de francs de gain de valeur [1].",
+      "Bloomberg note que ce résultat renforce la probabilité d'un versement à la Confédération en fin d'année [2].",
+      "Le taux directeur reste à 0 % ; la prochaine évaluation de la BNS est prévue le 10 décembre [1][3]."
+    ],
+    "why": [
+      "Dans le compte rendu publié le 22 octobre, la BNS juge que sa menace de vendre des francs n'est plus nécessaire, les achats de franc comme valeur refuge liés à la guerre s'étant calmés [3].",
+      "Le franc a perdu environ 3 % depuis juin, car les placements en franc, à taux nul, servent de monnaie d'emprunt pour acheter des actifs mieux rémunérés ailleurs [4]."
+    ],
+    "forMe": "Si tu voyages en Suisse, le franc a perdu environ 3 % depuis juin face aux autres monnaies, ce qui allège un peu la facture [4].",
+    "next": [
+      {
+        "when": "10 décembre 2026",
+        "what": "La BNS tient sa prochaine évaluation de politique monétaire [1]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "44,2 Md CHF",
+        "label": "bénéfice de la BNS sur neuf mois",
+        "src": 1
+      },
+      {
+        "value": "0 %",
+        "label": "taux directeur de la BNS",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux"
+    ],
+    "sources": [
+      {
+        "short": "Europa Wire",
+        "name": "Europa Wire, « Swiss National Bank Reports CHF 44.2 Billion Profit for First Nine Months of 2026 » (30 octobre 2026)",
+        "url": "https://news.europawire.eu/swiss-national-bank-reports-chf-44-2-billion-profit-for-first-nine-months-of-2026/eu-press-release/2026/10/30/13/54/03/185119/"
+      },
+      {
+        "short": "Bloomberg (profit)",
+        "name": "Bloomberg, « SNB Reports Nine-Month Profit on Foreign Currencies and Gold » (30 octobre 2026)",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-30/snb-reports-nine-month-profit-on-foreign-currencies-and-gold"
+      },
+      {
+        "short": "Bloomberg (compte rendu)",
+        "name": "Bloomberg, « SNB Judged Franc Threat No Longer Needed as Haven Flows Ebbed » (22 octobre 2026)",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-22/snb-judged-franc-threat-no-longer-needed-as-haven-flows-ebbed"
+      },
+      {
+        "short": "Vantage Markets",
+        "name": "Vantage Markets, « Swiss Franc Down 3% Since June, SNB Summary Reveals » (23 octobre 2026)",
+        "url": "https://www.vantagemarkets.com/market-news/swiss-franc-snb-discussion-summary-carry-trade-october-23-2026/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-mexique-pib-troisieme-trimestre",
+    "date": "2026-11-01",
+    "level": 2,
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Mexico, Mexique",
+        "label": "Mexique",
+        "coords": [
+          -99.13,
+          19.43
+        ]
+      }
+    ],
+    "title": "Mexique : l'économie ralentit moins que prévu au troisième trimestre",
+    "summary": "L'institut statistique mexicain (INEGI) a estimé le 30 octobre que le PIB a progressé de 0,9 % au troisième trimestre, contre 1,4 % au précédent, et de 3,2 % sur un an. Les deux chiffres dépassent les attentes [1][2].",
+    "points": [
+      "Le PIB a augmenté de 0,9 % par rapport au deuxième trimestre, que les économistes voyaient plutôt autour de 0,7 % [1][2].",
+      "Sur un an, la croissance atteint 3,2 %, au-dessus des 2,5 % à 3,0 % attendus selon les sources [2][3].",
+      "Les services progressent de 1,1 %, l'industrie de 0,8 %, tandis que les activités primaires (agriculture, pêche) reculent de 0,4 % [1][4].",
+      "De janvier à septembre, le PIB cumulé a gagné 1,8 %, selon Banamex [1]."
+    ],
+    "why": [
+      "Il s'agit d'une première estimation : l'INEGI publiera les chiffres définitifs du trimestre le 29 janvier 2027, et ils peuvent être révisés [1][2].",
+      "Selon l'une des sources, un rythme de 3,2 % sur un an serait le plus rapide depuis 2023 [3]."
+    ],
+    "forMe": "Si tu travailles avec le Mexique, son activité reste solide, avec des services en hausse de 1,1 % [1][4].",
+    "next": [
+      {
+        "when": "29 janvier 2027",
+        "what": "L'INEGI publie les chiffres définitifs du PIB du 3e trimestre [1]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "+0,9 %",
+        "label": "PIB mexicain au 3e trimestre",
+        "src": 1
+      },
+      {
+        "value": "+3,2 %",
+        "label": "croissance sur un an",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Mexico News Daily",
+        "name": "Mexico News Daily, « Mexico's third-quarter economic growth was 0.9%, slowing but above expectations » (30 octobre 2026)",
+        "url": "https://mexiconewsdaily.com/business/mexicos-third-quarter-economic-growth-was-0-9-slowing-but-above-expectations/"
+      },
+      {
+        "short": "Mexico Business News",
+        "name": "Mexico Business News, « Mexico 3Q2026 GDP Expands 0.9% » (30 octobre 2026)",
+        "url": "https://mexicobusiness.news/policyandeconomy/news/mexico-3q2026-gdp-expands-09"
+      },
+      {
+        "short": "Briefs",
+        "name": "Briefs, « Mexico GDP Rises 3.2% in Q3, Beats Forecasts » (30 octobre 2026)",
+        "url": "https://www.briefs.co/news/mexico-s-economy-grew-3-2-in-third-quarter-beating-forecasts/"
+      },
+      {
+        "short": "Rio Times",
+        "name": "The Rio Times, « Mexico Economy Grows 0.9% in Third Quarter » (30 octobre 2026)",
+        "url": "https://www.riotimesonline.com/mexico-economy-grows-0-9-third-quarter/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-canada-pib-stagne-hausse-taux",
+    "date": "2026-11-01",
+    "level": 2,
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Ottawa, Canada",
+        "label": "Canada",
+        "coords": [
+          -75.7,
+          45.42
+        ]
+      }
+    ],
+    "title": "Canada : l'économie fait du surplace, juste après une hausse des taux",
+    "summary": "Statistique Canada a annoncé le 30 octobre que le PIB a stagné en août, deuxième mois plat de suite. Deux jours plus tôt, la Banque du Canada avait relevé son taux à 2,5 % [1][2][4].",
+    "points": [
+      "Le PIB réel est resté inchangé en août, alors que l'estimation avancée annonçait +0,2 % et que les économistes attendaient +0,1 % [1][2][3].",
+      "Le commerce de gros recule de 1,4 % et l'administration fédérale baisse avec la fin du recensement ; le commerce de détail gagne 1,2 % [1][3].",
+      "Pour septembre, l'estimation avancée table sur −0,1 % ; la croissance du trimestre serait d'environ 1,3 % en rythme annuel, contre 2 % prévus par la Banque du Canada [1][3].",
+      "BMO réduit sa prévision 2026 à 1,5 %, contre 2 % [2]."
+    ],
+    "why": [
+      "Le 28 octobre, la Banque du Canada a relevé son taux de 0,25 point, à 2,5 %, première hausse en plus de trois ans, pour éviter que le pétrole cher ne se propage aux autres prix [4][5].",
+      "Son gouverneur Tiff Macklem a dit qu'une autre hausse pourrait être nécessaire mais qu'il avancerait prudemment ; la banque prévoit 2,9 % d'inflation en 2026 [5]. Une économie qui cale complique le choix."
+    ],
+    "forMe": "Si tu as un prêt à taux variable au Canada, son coût peut encore monter : la banque n'exclut pas une autre hausse [5].",
+    "next": [],
+    "figures": [
+      {
+        "value": "0,0 %",
+        "label": "croissance du PIB canadien en août",
+        "src": 1
+      },
+      {
+        "value": "2,5 %",
+        "label": "nouveau taux de la Banque du Canada",
+        "src": 4
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux"
+    ],
+    "sources": [
+      {
+        "short": "Statistique Canada",
+        "name": "Statistique Canada, « Le Quotidien : Produit intérieur brut par industrie, août 2026 » (30 octobre 2026)",
+        "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261030/dq261030a-eng.htm"
+      },
+      {
+        "short": "BNN Bloomberg",
+        "name": "BNN Bloomberg, « Timing of next rate hike in question after surprise stall in August GDP » (30 octobre 2026)",
+        "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/30/timing-of-next-rate-hike-in-question-after-surprise-stall-in-august-gdp/"
+      },
+      {
+        "short": "RBC Economics",
+        "name": "RBC Economics, « Canadian economic growth stalled in August despite resilient consumer activity » (30 octobre 2026)",
+        "url": "https://www.rbc.com/en/economics/canadian-analysis/data-flashes/canadian-economic-growth-stalled-in-august-despite-resilient-consumer-activity/"
+      },
+      {
+        "short": "Banque du Canada",
+        "name": "Banque du Canada, « Bank of Canada raises the policy rate by 25 basis points to 2½% » (28 octobre 2026)",
+        "url": "https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+      },
+      {
+        "short": "CP24",
+        "name": "CP24 / Presse canadienne, « Bank of Canada raises interest rate as inflation projected to worsen » (28 octobre 2026)",
+        "url": "https://www.cp24.com/news/canada/2026/10/28/bank-of-canada-raises-key-interest-rate-says-another-hike-possible/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-pays-bas-croissance-t3",
+    "date": "2026-11-01",
+    "level": 2,
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "La Haye, Pays-Bas",
+        "label": "Pays-Bas",
+        "coords": [
+          4.3,
+          52.08
+        ]
+      }
+    ],
+    "title": "Pays-Bas : une croissance de 0,6 %, tirée par l'industrie",
+    "summary": "L'économie néerlandaise a progressé de 0,6 % au troisième trimestre, selon une première estimation de l'office statistique CBS du 30 octobre. L'industrie y contribue le plus, et le deuxième trimestre est révisé à 0,7 % [1][2].",
+    "points": [
+      "Le PIB a gagné 0,6 % sur le trimestre, après 0,7 % au deuxième (révisé), la plus forte hausse trimestrielle en deux ans [1][2].",
+      "L'industrie manufacturière contribue le plus ; ses exportations de machines à puces portent la croissance [2][4].",
+      "La consommation des ménages et celle de l'État augmentent chacune de 0,4 % ; l'investissement recule de 0,1 % [2].",
+      "Les importations progressent moins vite que les exportations, ce qui améliore la balance commerciale [1][2]."
+    ],
+    "why": [
+      "L'économiste en chef du CBS, Peter Hein van Mulligen, parle d'une « bonne surprise » ; la ministre de l'Économie, Heleen Herbert, juge l'objectif de 1,5 % de croissance en 2026 atteignable, sans garantie [2].",
+      "En comparaison, l'Allemagne affiche +0,2 %, l'Espagne +0,6 %, l'Italie 0 % et la France −0,1 % [2]. Il s'agit d'une première estimation, révisable [1][3]."
+    ],
+    "forMe": "Les Pays-Bas font mieux que leurs grands voisins de la zone euro, grâce notamment aux exportations de machines pour puces [2][4].",
+    "next": [],
+    "figures": [
+      {
+        "value": "+0,6 %",
+        "label": "PIB néerlandais au 3e trimestre",
+        "src": 1
+      },
+      {
+        "value": "+0,7 %",
+        "label": "2e trimestre, révisé",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs"
+    ],
+    "sources": [
+      {
+        "short": "CBS",
+        "name": "CBS, « Dutch economy grew by 0.6 percent in Q3 2026 » (30 octobre 2026)",
+        "url": "https://www.cbs.nl/en-gb/news/2026/44/dutch-economy-grew-by-0-6-percent-in-q3-2026"
+      },
+      {
+        "short": "NL Times",
+        "name": "NL Times, « Dutch economy grew 0.6% in Q3, driven by manufacturing industry » (30 octobre 2026)",
+        "url": "https://nltimes.nl/2026/10/30/dutch-economy-grew-06-q3-driven-manufacturing-industry"
+      },
+      {
+        "short": "RTT News",
+        "name": "RTTNews, « Dutch Economy Grows 0.6% In Q3 » (30 octobre 2026)",
+        "url": "https://www.rttnews.com/3706424/dutch-economy-grows-0-6-in-q3.aspx"
+      },
+      {
+        "short": "Dealroom",
+        "name": "Dealroom, « Dutch economy grows 0.6% in Q3 as ASML and chip-machine exports pull it along » (30 octobre 2026)",
+        "url": "https://app.dealroom.co/news/note/dutch-economy-grows-0-6-in-q3-as-asml-and-chip-machine-exports-pull-it-along"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-australie-inflation-rba",
+    "date": "2026-11-01",
+    "level": 2,
+    "region": "Asie",
+    "theme": "eco",
+    "zones": [
+      "Océanie"
+    ],
+    "geo": [
+      {
+        "name": "Sydney, Australie",
+        "label": "Australie",
+        "coords": [
+          151.21,
+          -33.87
+        ]
+      }
+    ],
+    "title": "Australie : l'inflation à 4,3 %, une nouvelle hausse des taux attendue mardi",
+    "summary": "L'inflation australienne a atteint 4,3 % sur un an en septembre, contre 4,0 % en août. Les marchés misent désormais très largement sur une hausse du taux de la banque centrale (RBA), dont la décision tombe mardi 3 novembre [1][3].",
+    "points": [
+      "L'indice des prix à la consommation grimpe à 4,3 % sur douze mois en septembre, contre 4,0 % en août [1][2].",
+      "La mesure de l'inflation de fond (moyenne tronquée) a augmenté de 1,0 % sur le trimestre et de 3,7 % sur un an, au-dessus des 3,6 % attendus [2].",
+      "La RBA avait prévu 0,8 % sur le trimestre, ce qui rend la hausse plus probable [2].",
+      "Après la publication, les marchés donnaient environ 79 % de chances d'une hausse en novembre [3]."
+    ],
+    "why": [
+      "Le premier ministre Anthony Albanese attribue l'inflation en partie à la hausse du pétrole et au conflit au Moyen-Orient, tout en reconnaissant que la faire baisser reste un défi [1].",
+      "Le conseil de la RBA se réunit les 2 et 3 novembre, avec une annonce le 3 [4][5]. Selon les sources, les probabilités de hausse varient de 73 % à 90 %, donc rien n'est joué [2][3]."
+    ],
+    "forMe": "Si tu as un prêt immobilier en Australie, une hausse du taux de la RBA se répercute vite sur tes mensualités [1][4].",
+    "next": [
+      {
+        "when": "3 novembre 2026",
+        "what": "La RBA annonce sa décision sur le taux directeur après deux jours de réunion [4][5]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "4,3 %",
+        "label": "inflation australienne sur un an (septembre)",
+        "src": 1
+      },
+      {
+        "value": "3,7 %",
+        "label": "inflation de fond sur un an",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux"
+    ],
+    "sources": [
+      {
+        "short": "ABC News",
+        "name": "ABC News (Australie), « Inflation rate rises to 4.3 per cent in September, raising rate hike expectations » (28 octobre 2026)",
+        "url": "https://www.abc.net.au/news/2026-10-28/inflation-september-cpi-ahead-of-november-interest-rate-call/107317382"
+      },
+      {
+        "short": "investingLive",
+        "name": "investingLive, « Australia trimmed mean CPI rises to 3.7%, above forecasts, as RBA hike case firms » (28 octobre 2026)",
+        "url": "https://investinglive.com/news/australia-trimmed-mean-cpi-rises-to-3-7-above-forecasts-as-rba-hike-case-firms/"
+      },
+      {
+        "short": "Vantage Markets",
+        "name": "Vantage Markets, « AUD/USD Gives Back CPI Spike as RBA Odds Hit 79% and Fed Looms » (28 octobre 2026)",
+        "url": "https://www.vantagemarkets.com/market-analysis/why-australian-dollar-gave-back-cpi-gains-audusd-october-28-2026/"
+      },
+      {
+        "short": "Aussie",
+        "name": "Aussie, « What experts predict for the RBA's November 2026 interest rate decision » (octobre 2026)",
+        "url": "https://www.aussie.com.au/insights/news/expert-predictions-rba-rates/"
+      },
+      {
+        "short": "RBA Rate Watch",
+        "name": "RBA Rate Watch, « RBA November 2026 Meeting » (octobre 2026)",
+        "url": "https://rbaratewatch.com/rba-meeting/november-2026/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-01-argentine-reserves-banque-centrale",
+    "date": "2026-11-01",
+    "level": 2,
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique latine"
+    ],
+    "geo": [
+      {
+        "name": "Buenos Aires, Argentine",
+        "label": "Argentine",
+        "coords": [
+          -58.38,
+          -34.6
+        ]
+      }
+    ],
+    "title": "Argentine : la banque centrale achète des dollars, mais ses réserves reculent",
+    "summary": "La banque centrale argentine a acheté 1,395 milliard de dollars en octobre, son meilleur mois depuis juillet. Pourtant ses réserves brutes ont fini à 48,562 milliards le 30 octobre, après un record au-dessus de 50 milliards [1][3].",
+    "points": [
+      "Le BCRA a acheté 1,395 milliard de dollars en octobre, le total le plus haut depuis juillet, soit 15,963 milliards depuis janvier [1].",
+      "Les réserves brutes ont terminé le 30 octobre à 48,562 milliards de dollars, après une baisse de 1,592 milliard dans la seule séance du vendredi [1].",
+      "Le 23-24 octobre, elles dépassaient 50 000 millions, un nouveau maximum sous le président Javier Milei [3].",
+      "Le 27 octobre, la banque n'avait pas acheté de devises pendant deux séances consécutives, une première cette année [2]."
+    ],
+    "why": [
+      "Plus de réserves permettent à l'Argentine de rassurer les prêteurs et de défendre le peso, mais ce sont des réserves brutes, qui incluent des sommes à rembourser [1][3].",
+      "La presse économique oppose ces réserves record à une activité proche de la récession technique [4]. Les sources n'expliquent pas la chute de vendredi."
+    ],
+    "forMe": "Les réserves de la banque centrale servent de coussin pour le peso : elles ont dépassé 50 milliards de dollars en octobre avant de reculer [1][3].",
+    "next": [],
+    "figures": [
+      {
+        "value": "1,4 Md$",
+        "label": "achats de dollars par le BCRA en octobre",
+        "src": 1
+      },
+      {
+        "value": "48,6 Md$",
+        "label": "réserves brutes au 30 octobre",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Infobae (31 oct.)",
+        "name": "Infobae, « El Banco Central compró USD 1.395 millones en octubre y reforzó las reservas » (31 octobre 2026)",
+        "url": "https://www.infobae.com/economia/2026/10/31/el-banco-central-compro-usd-1395-millones-en-octubre-y-reforzo-las-reservas/"
+      },
+      {
+        "short": "Infobae (27 oct.)",
+        "name": "Infobae, « Por primera vez en el año, el BCRA no compró divisas por dos ruedas consecutivas » (27 octobre 2026)",
+        "url": "https://www.infobae.com/economia/2026/10/27/por-primera-vez-en-el-ano-el-bcra-no-compro-divisas-por-dos-ruedas-consecutivas/"
+      },
+      {
+        "short": "Canal 26",
+        "name": "Canal 26, « El Banco Central compró más de USD 1.200 millones en lo que va de octubre y las reservas superan los USD 50.000 millones » (24 octobre 2026)",
+        "url": "https://www.canal26.com/economia/2026/10/24/el-banco-central-compro-mas-de-usd-1200-millones-en-lo-que-va-de-octubre-y-las-reservas-superan-los-usd-50000-millones/"
+      },
+      {
+        "short": "Perfil",
+        "name": "Perfil, « La paradoja económica de Milei: reservas récord pero con la actividad al borde de la recesión técnica » (2026)",
+        "url": "https://www.perfil.com/noticias/economia/paradoja-economica-milei-reservas-record-actividad-borde-recesion-tecnica-a40.phtml"
+      }
+    ]
+  },
+  {
     "id": "2026-10-31-canada-ue-membre-associe",
     "date": "2026-10-31",
     "region": "Amériques",
@@ -7537,1077 +10424,6 @@ window.GEOCO.news = [
         "short": "Business Daily",
         "name": "Business Daily Africa, « State approves Sh45bn financing for struggling KQ »",
         "url": "https://www.businessdailyafrica.com/bd/corporate/companies/state-approves-sh45bn-financing-for-struggling-kq-5626396"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-17-petrole-110-dollars-ormuz-ukraine",
-    "date": "2026-10-17",
-    "region": "Moyen-Orient",
-    "theme": "mix",
-    "geo": [
-      {
-        "name": "Détroit d'Ormuz",
-        "label": "Ormuz",
-        "coords": [
-          56.5,
-          26.5
-        ]
-      }
-    ],
-    "title": "Le pétrole retouche 110 dollars : Ormuz s'embrase et la « trêve de l'énergie » en Ukraine vole en éclats",
-    "summary": "Le baril de Brent a touché 110 dollars, pour la première fois depuis mai. Des navires sont attaqués autour d'Ormuz, et Kiev a repris ses frappes sur les raffineries russes.",
-    "points": [
-      "Le Brent a touché 110 dollars en séance, un niveau jamais revu depuis mai, avant de clôturer à 109,86 dollars (+ 3,7 %). Le pétrole américain WTI a fini à 101,41 dollars [1][2].",
-      "Au moins neuf pétroliers et cargos ont été attaqués depuis dimanche autour d'Ormuz. Le Commandement central américain affirme que l'Iran a coulé le porte-conteneurs GFS Pride mercredi. Selon Kpler, 9,4 millions de barils par jour ont franchi le détroit la semaine passée, environ 70 % du niveau d'avant la guerre [1].",
-      "La trêve de l'énergie annoncée par Donald Trump s'est effondrée : Volodymyr Zelensky dit avoir repris les frappes sur les raffineries russes parce que Moscou n'a pas respecté le cessez-le-feu. Trump a qualifié cette décision de « honte ». Une attaque de drones aurait arrêté l'unité principale de la raffinerie de Riazan [1][2]."
-    ],
-    "why": [
-      "Deux sources d'approvisionnement sont touchées en même temps : le pétrole du Golfe, qui passe par un détroit de plus en plus risqué, et le pétrole et les produits raffinés russes, visés par les drones ukrainiens. Quand l'offre inquiète, les prix montent vite [1].",
-      "Cette annonce montre aussi la fragilité des « trêves » proclamées sans détails : celle de l'énergie n'aura tenu que quelques jours [1]."
-    ],
-    "forMe": "Un baril plus cher se paie à la pompe et sur la facture de chauffage, avec un petit délai. Si le prix reste autour de 110 dollars, l'essence et le gazole peuvent repartir à la hausse dans les semaines qui viennent.",
-    "figures": [
-      {
-        "value": "110 $",
-        "label": "plus haut du baril de Brent en séance, une première depuis mai",
-        "src": 1
-      },
-      {
-        "value": "9",
-        "label": "navires attaqués depuis dimanche autour d'Ormuz, au moins",
-        "src": 1
-      },
-      {
-        "value": "≈ 70 %",
-        "label": "du trafic pétrolier d'avant-guerre qui passe encore par Ormuz",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "routes-maritimes"
-    ],
-    "sources": [
-      {
-        "short": "CNBC",
-        "name": "CNBC, « Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries »",
-        "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html"
-      },
-      {
-        "short": "World Oil",
-        "name": "World Oil, « Oil hits $110 as Houthi strikes, Russia-Ukraine attacks lift supply fears » (16 octobre 2026)",
-        "url": "https://www.worldoil.com/news/2026/10/16/oil-hits-110-as-houthi-strikes-russia-ukraine-attacks-lift-supply-fears"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-17-chili-bolivie-visite-kast",
-    "date": "2026-10-17",
-    "region": "Amériques",
-    "theme": "geo",
-    "geo": [
-      {
-        "name": "La Paz, Bolivie",
-        "label": "Bolivie",
-        "coords": [
-          -68.15,
-          -16.5
-        ]
-      }
-    ],
-    "title": "Le Chili et la Bolivie se parlent enfin : première visite d'État depuis 71 ans, mais toujours pas de mer",
-    "summary": "Le président chilien José Antonio Kast est à La Paz. Les deux pays, brouillés depuis 1978, signent des accords sur les mines, l'électricité et la frontière, mais pas sur l'accès à la mer.",
-    "points": [
-      "Le président chilien José Antonio Kast a fait à La Paz la première visite d'État d'un dirigeant chilien en Bolivie depuis 71 ans. Les deux pays ont rompu leurs relations diplomatiques en 1978 et n'ont pas annoncé le retour des ambassades [1][2].",
-      "Les ministres ont signé des accords sur l'intégration minière, l'interconnexion électrique, des corridors reliant l'Atlantique au Pacifique, la sécurité à la frontière et le statut des Boliviens installés au Chili. Les deux pays vont aussi négocier la mise à jour d'un accord commercial [1][2].",
-      "L'accès souverain à la mer, que la Bolivie a perdu devant la Cour internationale de justice en 2018, n'était pas à l'ordre du jour. Le président Rodrigo Paz a rappelé que cette revendication figure dans la Constitution bolivienne, tout en disant que le passé ne doit pas freiner le développement [1][3]."
-    ],
-    "why": [
-      "Enclavée depuis la guerre du Pacifique (1879-1884), la Bolivie fait passer environ 70 % de son commerce extérieur par les ports du nord du Chili. Normaliser la relation, c'est donc d'abord faciliter ce passage [3].",
-      "Les responsables ont aussi évoqué la remise en service du chemin de fer Arica–La Paz, prévu par le traité de 1904, et un passage de frontière ouvert 24 heures sur 24 à Tambo Quemado–Chungará [1]. Kast a invité Paz au Chili en 2027 [1]."
-    ],
-    "forMe": "Tu n'es pas concerné au quotidien, mais c'est un bon exemple d'une idée simple : deux pays voisins, fâchés depuis près de cinquante ans, recommencent à commercer parce que leurs intérêts économiques l'emportent sur la querelle historique.",
-    "figures": [
-      {
-        "value": "71 ans",
-        "label": "depuis la dernière visite d'État d'un président chilien en Bolivie",
-        "src": 3
-      },
-      {
-        "value": "≈ 70 %",
-        "label": "du commerce extérieur de la Bolivie qui passe par des ports du nord du Chili",
-        "src": 3
-      },
-      {
-        "value": "1978",
-        "label": "année de la rupture des relations diplomatiques",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "MercoPress",
-        "name": "MercoPress, « Kast and Paz open the way in La Paz to normalising Chile-Bolivia relations »",
-        "url": "https://en.mercopress.com/2026/10/16/kast-and-paz-open-the-way-in-la-paz-to-normalising-chile-bolivia-relations"
-      },
-      {
-        "short": "UPI",
-        "name": "UPI, « Chilean, Bolivian presidents meet in La Paz for first time in 71 years »",
-        "url": "https://www.upi.com/Top_News/World-News/2026/10/16/latam-bolivia-chile-kast-Paz-meet/5351792172829/"
-      },
-      {
-        "short": "AP (Washington Times)",
-        "name": "AP, « Chile's president makes first state visit to Bolivia in 71 years as region shifts right »",
-        "url": "https://www.washingtontimes.com/news/2026/oct/16/chilean-president-makes-first-state-visit-bolivia-71-years-region/"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-17-indonesie-bourse-msci",
-    "date": "2026-10-17",
-    "region": "Asie",
-    "theme": "eco",
-    "geo": [
-      {
-        "name": "Jakarta, Indonésie",
-        "label": "Indonésie",
-        "coords": [
-          106.85,
-          -6.21
-        ]
-      }
-    ],
-    "title": "La Bourse d'Indonésie perd près de 12 % en un jour, sa pire chute depuis 1998",
-    "summary": "L'indice MSCI envisage de rétrograder l'Indonésie hors du club des marchés émergents. La Bourse de Jakarta s'est effondrée vendredi.",
-    "points": [
-      "L'indice de la Bourse de Jakarta a perdu 11,57 % vendredi et a fini à 5 185 points, son plus bas niveau de l'année. Bloomberg parle de la plus forte baisse en une séance depuis janvier 1998 [1][2].",
-      "Le fournisseur d'indices MSCI a ouvert jeudi une consultation sur un possible passage de l'Indonésie du statut de marché émergent à celui de « marché autonome ». Il invoque le manque de transparence sur qui détient les actions et des soupçons de manœuvres coordonnées sur les cours [1][2].",
-      "Ce n'est pas la première alerte de l'année : fin janvier, un avertissement similaire de MSCI avait déjà fait perdre environ 12 % à la Bourse et plus de 80 milliards de dollars de valeur en une semaine environ [3]."
-    ],
-    "why": [
-      "MSCI fabrique des indices que suivent de très gros fonds. Quand un pays en sort ou est rétrogradé, ces fonds peuvent devoir vendre ses actions, ce qui explique la panique des investisseurs.",
-      "La décision n'est pas prise : il s'agit d'une consultation, mais la simple menace suffit à faire chuter le marché [1][2]."
-    ],
-    "forMe": "Tu n'es probablement pas touché directement. C'est surtout un rappel que la confiance des investisseurs étrangers dans une Bourse peut s'évaporer en une journée quand les règles ou la transparence sont mises en doute.",
-    "figures": [
-      {
-        "value": "− 11,57 %",
-        "label": "chute de l'indice de Jakarta vendredi, à 5 185 points",
-        "src": 1
-      },
-      {
-        "value": "1998",
-        "label": "dernière fois qu'une séance avait été aussi mauvaise, selon Bloomberg",
-        "src": 2
-      },
-      {
-        "value": "80 Md$",
-        "label": "de valeur boursière perdue lors de l'alerte précédente de MSCI, fin janvier",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Jakarta Globe",
-        "name": "Jakarta Globe, « Indonesian Stocks End at 2026 Low After Losing 11.57% on MSCI Warning »",
-        "url": "https://jakartaglobe.id/business/indonesian-stocks-end-at-2026-low-after-losing-1157-on-msci-warning"
-      },
-      {
-        "short": "Bloomberg",
-        "name": "Bloomberg, « Indonesia Stocks Sink Most in 28 Years on MSCI Downgrade Warning »",
-        "url": "https://www.bloomberg.com/news/articles/2026-10-15/indonesia-s-emerging-market-status-under-consultation-msci-says"
-      },
-      {
-        "short": "Malay Mail",
-        "name": "Malay Mail, « Indonesian stocks shed US$80 billion on MSCI warning »",
-        "url": "https://malaymail.com/news/money/2026/02/02/gorenggoreng-saham-and-state-meddling-leave-indonesia-trailing-in-emerging-market-rally-after-us80b-wipeout/207779"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-17-armenie-onu-guterres-route-tripp",
-    "date": "2026-10-17",
-    "region": "Europe",
-    "theme": "geo",
-    "geo": [
-      {
-        "name": "Erevan, Arménie",
-        "label": "Arménie",
-        "coords": [
-          44.51,
-          40.18
-        ]
-      }
-    ],
-    "title": "Arménie : le chef de l'ONU à Erevan, une route à travers le pays pour relier l'Azerbaïdjan à son enclave, et un traité de paix toujours pas signé",
-    "summary": "Antonio Guterres rencontre le Premier ministre Pachinian pendant un sommet de l'ONU sur la nature. La paix avec l'Azerbaïdjan et le projet de route TRIPP sont au menu.",
-    "points": [
-      "Le secrétaire général de l'ONU, Antonio Guterres, est à Erevan pour le sommet des dirigeants de la COP17, la conférence de l'ONU sur la biodiversité. Il a rencontré jeudi le Premier ministre Nikol Pachinian ; c'est le deuxième patron de l'ONU à visiter l'Arménie [1][2].",
-      "Le traité de paix avec l'Azerbaïdjan, paraphé à Washington en août 2025, n'est toujours pas signé. Bakou réclame des changements dans la Constitution arménienne, et des prisonniers arméniens restent détenus en Azerbaïdjan [3].",
-      "Les deux hommes ont aussi parlé de TRIPP, une route et des infrastructures qui relieraient l'Azerbaïdjan à son enclave du Nakhitchevan en traversant le sud de l'Arménie. Un accord américano-arménien prévoit une société chargée de les construire, et des études techniques ont commencé [2][3]."
-    ],
-    "why": [
-      "L'Arménie n'a pas d'accès à la mer. Une route qui traverse son sud peut changer la carte des transports de la région, et c'est pour cela que ce projet est surveillé de près [3].",
-      "En marge du sommet, le président iranien Massoud Pezeshkian a rencontré le Premier ministre géorgien et plaidé pour un calendrier de coopération plus étroit. Tbilissi avait coupé ses liaisons aériennes avec l'Iran après des sanctions américaines contre des compagnies iraniennes [4]."
-    ],
-    "forMe": "Une paix durable dans le Caucase rendrait les routes entre l'Asie centrale, la Turquie et l'Europe plus sûres, donc les marchandises et l'énergie qui les empruntent plus fiables. Tu ne le verras pas dans ton quotidien, mais c'est l'un des chantiers qui redessinent le commerce eurasiatique.",
-    "figures": [
-      {
-        "value": "2e",
-        "label": "secrétaire général de l'ONU à visiter l'Arménie",
-        "src": 2
-      },
-      {
-        "value": "Août 2025",
-        "label": "paraphe du traité de paix à Washington, toujours non signé",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Armradio",
-        "name": "Armradio, « Pashinyan, Guterres discuss Armenia-Azerbaijan peace process, TRIPP project »",
-        "url": "https://en.armradio.am/2026/10/15/pashinyan-guterres-discuss-armenia-azerbaijan-peace-process-tripp-project/"
-      },
-      {
-        "short": "Report.az",
-        "name": "Report.az, « Pashinyan, Guterres discuss Armenia-Azerbaijan peace process and TRIPP »",
-        "url": "https://report.az/en/region/pashinyan-guterres-discuss-armenia-azerbaijan-peace-process-and-tripp"
-      },
-      {
-        "short": "Horizon Weekly",
-        "name": "Horizon Weekly, « Guterres backs Armenia-Azerbaijan peace process as Armenian prisoners remain in Baku »",
-        "url": "https://horizonweekly.ca/en/guterres-backs-armenia-azerbaijan-peace-process-as-armenian-prisoners-remain-in-baku/"
-      },
-      {
-        "short": "Korea Times",
-        "name": "Korea Times, « Iran denies nuclear ambitions, says ready for talks »",
-        "url": "https://www.koreatimes.co.kr/world/20261017/iran-denies-nuclear-ambitions-says-ready-for-talks"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-17-kenya-ebola-deuxieme-cas",
-    "date": "2026-10-17",
-    "region": "Afrique",
-    "theme": "mix",
-    "geo": [
-      {
-        "name": "Nairobi, Kenya",
-        "label": "Kenya",
-        "coords": [
-          36.82,
-          -1.29
-        ]
-      }
-    ],
-    "title": "Ebola arrive au Kenya : deuxième cas confirmé chez un proche du premier patient",
-    "summary": "Un homme de 39 ans, déjà isolé, est positif au virus Bundibugyo. Les autorités disent qu'il n'y a pas de transmission dans la population.",
-    "points": [
-      "Le ministère kényan de la Santé a confirmé le 14 octobre un deuxième cas d'Ebola : un homme de 39 ans, proche du premier malade, tombé malade le 13 octobre alors qu'il était déjà en quarantaine [1][2].",
-      "Deux laboratoires, dont celui de KEMRI-CDC, ont chacun confirmé la maladie à virus Bundibugyo. Le premier patient, un Kényan de 40 ans, est mort le 5 octobre à Nairobi [1][2].",
-      "Sur 128 contacts identifiés, 113 avaient été retrouvés, dont 108 en quarantaine au Kenya. Le ministère dit que les deux cas sont liés et qu'il n'y a pas de preuve de transmission plus large [1][2]."
-    ],
-    "why": [
-      "Le Kenya est touché par une épidémie venue de République démocratique du Congo, où se concentre l'essentiel des cas. L'organisation CARE la décrit comme la deuxième plus grande épidémie d'Ebola jamais enregistrée, avec plus de 9 000 cas [3].",
-      "Repérer et isoler les contacts très vite, comme le fait le Kenya, est ce qui permet de limiter la propagation [1][2]."
-    ],
-    "forMe": "Le risque pour toi est très faible : les cas kényans sont suivis et isolés. Mais une épidémie dans un grand pays d'Afrique de l'Est peut peser sur le tourisme, les vols et le commerce de la région.",
-    "figures": [
-      {
-        "value": "2",
-        "label": "cas confirmés au Kenya, dont 1 décès",
-        "src": 1
-      },
-      {
-        "value": "128",
-        "label": "contacts identifiés par les autorités kényanes",
-        "src": 1
-      },
-      {
-        "value": "> 9 000",
-        "label": "cas dans l'épidémie, presque tous en RD Congo, selon CARE",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "AP (ABC News)",
-        "name": "AP, « Kenya confirms second Ebola case, a relative of first patient »",
-        "url": "https://abcnews.com/International/wireStory/kenya-confirms-ebola-case-relative-patient-137261113"
-      },
-      {
-        "short": "CBC",
-        "name": "CBC, « Kenya confirms 2nd case of Ebola in relative of patient who died earlier this month »",
-        "url": "https://www.cbc.ca/news/world/kenya-second-case-ebola-confirmed-9.7380626"
-      },
-      {
-        "short": "CARE",
-        "name": "CARE, « Kenya confirms second case of Ebola, as cases surpass 9,000 »",
-        "url": "https://www.care.org/news-and-stories/kenya-confirms-second-case-ebola-bulletin-care-2026/"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-17-tanzanie-gaz-42-milliards",
-    "date": "2026-10-17",
-    "region": "Afrique",
-    "theme": "eco",
-    "geo": [
-      {
-        "name": "Dar es Salaam, Tanzanie",
-        "label": "Tanzanie",
-        "coords": [
-          39.28,
-          -6.82
-        ]
-      }
-    ],
-    "title": "Tanzanie : le plus gros projet de gaz du pays, 42 milliards de dollars, attend toujours sa signature",
-    "summary": "Le ministre des Finances dit qu'un accord est proche avec Shell et Equinor, mais il devait être signé avant juin et ne l'est toujours pas.",
-    "points": [
-      "Le ministre des Finances, Khamis Mussa Omar, a dit le 13 octobre que la Tanzanie était proche d'un accord sur son projet de gaz naturel liquéfié (GNL) de 42 milliards de dollars. Les accords définitifs ne sont pas signés [1].",
-      "L'objectif de les signer avant juin 2026 n'a pas été tenu. Une loi spéciale sur les investissements dans le GNL pourrait être prête d'ici la fin de 2026, selon un vice-ministre cité par bne IntelliNews [1].",
-      "Le projet vise 47,13 mille milliards de pieds cubes de gaz. Equinor et Shell le pilotent, avec ExxonMobil, Pavilion Energy, Medco Energi et la société d'État TPDC [2]."
-    ],
-    "why": [
-      "À 42 milliards de dollars, c'est le plus gros investissement jamais envisagé dans le pays, ce qui explique que le gouvernement veuille un cadre légal particulier avant de signer [2].",
-      "La production ne commencerait qu'environ huit ans après la signature : l'effet économique se joue donc sur le long terme [2]."
-    ],
-    "forMe": "Un projet de cette taille ne se voit pas à la pompe avant des années. Mais il montre pourquoi l'Afrique de l'Est attire les géants de l'énergie, et pourquoi leurs négociations avec les États prennent si longtemps.",
-    "figures": [
-      {
-        "value": "42 Md$",
-        "label": "coût du projet de GNL, le plus gros du pays",
-        "src": 2
-      },
-      {
-        "value": "47,13",
-        "label": "mille milliards de pieds cubes de gaz que le projet permettrait d'exploiter",
-        "src": 2
-      },
-      {
-        "value": "≈ 8 ans",
-        "label": "entre la signature et le début de la production",
-        "src": 2
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "bne IntelliNews",
-        "name": "bne IntelliNews, « Tanzania nears agreement on $42bn LNG project after years of delays »",
-        "url": "https://www.intellinews.com/tanzania-nears-agreement-on-42bn-lng-project-after-years-of-delays-475624"
-      },
-      {
-        "short": "Hydrocarbon Processing",
-        "name": "Hydrocarbon Processing, « Tanzania expects to sign $42-B mega LNG project before June »",
-        "url": "https://hydrocarbonprocessing.com/news/2026/01/tanzania-expects-to-sign-42-b-mega-lng-project-before-june/"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-17-yemen-houthis-mer-rouge-aden",
-    "date": "2026-10-17",
-    "region": "Moyen-Orient",
-    "theme": "geo",
-    "geo": [
-      {
-        "name": "Aden, Yémen",
-        "label": "Yémen",
-        "coords": [
-          45.03,
-          12.79
-        ]
-      }
-    ],
-    "title": "Yémen : les Houthis frappent le palais du gouvernement à Aden, le Conseil de sécurité s'alarme pour la mer Rouge",
-    "summary": "Après avoir pris le port de Moka le mois dernier, les rebelles attaquent la ville où siège le gouvernement. L'ONU condamne les attaques contre les aéroports, l'énergie et la navigation.",
-    "points": [
-      "Jeudi, une attaque contre le palais d'Al-Maashiq, à Aden, a fait 5 morts et 16 blessés selon le ministre yéménite de la Santé. Les médias proches des Houthis disent avoir visé le quartier général des opérations, dirigé par des officiers saoudiens [2].",
-      "Les Houthis ont pris le port de Moka le 10 septembre, puis l'île de Perim le lendemain, au bord du détroit de Bab-el-Mandeb. Le gouvernement parle d'un « repli tactique » ; des médias yéménites ont depuis dit l'avoir repris, ce que les Houthis démentent et que nous n'avons pas pu vérifier [3].",
-      "Le Conseil de sécurité de l'ONU a condamné le 15 octobre les attaques houthies contre des civils, des aéroports et des installations énergétiques, ainsi que les menaces sur la navigation en mer Rouge et dans le détroit de Bab-el-Mandeb [4]."
-    ],
-    "why": [
-      "Bab-el-Mandeb est la porte sud de la mer Rouge : les bateaux qui vont vers le canal de Suez passent par là. Celui qui tient la côte peut menacer le passage [3][4].",
-      "La guerre du Yémen se mêle à celle du Golfe : l'Arabie saoudite accuse l'Iran d'armer et d'entraîner les Houthis [2]."
-    ],
-    "forMe": "Si les navires évitent la mer Rouge, ils font le tour de l'Afrique : plus long et plus cher. Cela peut renchérir certains produits venus d'Asie et le transport des carburants.",
-    "figures": [
-      {
-        "value": "5",
-        "label": "morts dans l'attaque du palais d'Al-Maashiq à Aden, selon le ministre de la Santé",
-        "src": 2
-      },
-      {
-        "value": "16",
-        "label": "blessés",
-        "src": 2
-      },
-      {
-        "value": "10 sept.",
-        "label": "date de la prise de Moka par les Houthis",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "routes-maritimes"
-    ],
-    "sources": [
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « Fighting in Yemen intensifies: What's the latest on the battlefield? »",
-        "url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield"
-      },
-      {
-        "short": "Manila Times",
-        "name": "Manila Times, « Houthis attack Yemeni presidential palace »",
-        "url": "https://www.manilatimes.net/2026/10/17/world/americas-emea/houthis-attack-yemeni-presidential-palace/2447502"
-      },
-      {
-        "short": "Al Jazeera (Moka)",
-        "name": "Al Jazeera, « Yemen's Houthis seize strategic Red Sea city of Mocha »",
-        "url": "https://www.aljazeera.com/news/2026/9/10/yemens-houthis-seize-strategic-red-sea-city-of-mocha"
-      },
-      {
-        "short": "Yemen Monitor",
-        "name": "Yemen Monitor, « Yemen Welcomes UN Security Council's Position on Houthi Attacks on Its Territory and Saudi Arabia »",
-        "url": "https://www.yemenmonitor.com/en/Details/ArtMID/908/ArticleID/185034"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-17-singapour-brume-poursuites-entreprises",
-    "date": "2026-10-17",
-    "region": "Asie",
-    "theme": "mix",
-    "geo": [
-      {
-        "name": "Singapour",
-        "label": "Singapour",
-        "coords": [
-          103.82,
-          1.35
-        ]
-      }
-    ],
-    "title": "Brume toxique : Singapour menace de poursuivre les entreprises derrière les incendies indonésiens",
-    "summary": "Le Premier ministre Lawrence Wong dit chercher quelles sociétés sont responsables et évoque des poursuites. L'air est le plus pollué de l'année.",
-    "points": [
-      "Dans un message publié jeudi soir, le Premier ministre Lawrence Wong a dit que Singapour cherchait quelles entreprises pouvaient être responsables des incendies de forêts et de tourbières en Indonésie, et pourrait agir en vertu de sa loi contre la pollution transfrontalière [1][2].",
-      "L'indice de pollution du centre de l'île a atteint jusqu'à 229 vendredi, le plus haut de l'année. Singapour vit 12 jours d'affilée d'air malsain depuis le 5 octobre, sa plus longue série depuis la crise de 2015 [3].",
-      "L'Indonésie accepte l'aide étrangère, approuvée par le président Prabowo Subianto. Quatre personnes sont mortes à Java en combattant les feux [1][4]."
-    ],
-    "why": [
-      "Poursuivre des entreprises pour une fumée qui traverse les frontières est difficile : les enquêtes dépendent de la coopération des autorités étrangères, préviennent des juristes [1].",
-      "Le gouvernement singapourien a aussi accéléré la distribution de masques N95 à la population, signe que la situation est prise au sérieux [3]."
-    ],
-    "forMe": "Si tu voyages ou travailles en Asie du Sud-Est, la brume peut peser sur la santé et le quotidien : l'air est malsain à Singapour depuis près de deux semaines. C'est aussi un test pour savoir si les entreprises peuvent être tenues responsables de feux qui polluent d'autres pays.",
-    "figures": [
-      {
-        "value": "229",
-        "label": "indice de pollution (24 h) au centre de Singapour, record de l'année",
-        "src": 3
-      },
-      {
-        "value": "12 jours",
-        "label": "d'air malsain d'affilée, la plus longue série depuis 2015",
-        "src": 3
-      },
-      {
-        "value": "4",
-        "label": "morts à Java en luttant contre les incendies",
-        "src": 4
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "CNBC",
-        "name": "CNBC, « Gasping for clean air: Singapore battles relentless haze as Prime Minister Wong warns of action »",
-        "url": "https://www.cnbc.com/2026/10/16/singapore-haze-wong-warning-indonesia.html"
-      },
-      {
-        "short": "Japan Times",
-        "name": "Japan Times, « Singapore probing firms over haze-causing Indonesian fires »",
-        "url": "https://www.japantimes.co.jp/news/2026/10/16/asia-pacific/science-health/singapore-probe-haze-firms/"
-      },
-      {
-        "short": "The Online Citizen",
-        "name": "The Online Citizen, « Singapore haze: Central region's 24-hour PSI hits 229 at 3pm on 16 October, highest in 2026 »",
-        "url": "https://news.theonlinecitizen.com/2026/10/16/singapore-haze-central-region-s-24-hour-psi-hits-229-at-3pm-on-16-october-highest-in-2026"
-      },
-      {
-        "short": "Manila Times",
-        "name": "Manila Times, « Indonesia fires kill 4 as haze cloaks SEA »",
-        "url": "https://www.manilatimes.net/2026/10/17/world/asia-oceania/indonesia-fires-kill-4-as-haze-cloaks-sea/2447506"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-17-chine-ue-hybrides-terres-rares",
-    "date": "2026-10-17",
-    "region": "Asie",
-    "theme": "mix",
-    "geo": [
-      {
-        "name": "Pékin, Chine",
-        "label": "Chine",
-        "coords": [
-          116.4,
-          39.9
-        ]
-      }
-    ],
-    "title": "La Chine accepte de vendre deux fois moins de voitures hybrides à l'Europe, et promet une « voie rapide » pour les terres rares",
-    "summary": "Après deux jours de négociations à Pékin, l'UE annonce un accord de principe sur les hybrides. Pékin dit que les terres rares continueront d'arriver en Europe.",
-    "points": [
-      "Le commissaire européen au Commerce, Maroš Šefčovič, a annoncé le 9 octobre que la Chine réduirait ses exportations de voitures hybrides vers l'UE, après deux jours de discussions à Pékin avec le ministre du Commerce Wang Wentao. Cela concerne les hybrides classiques et rechargeables [1][2].",
-      "La « moitié » est calculée par rapport aux ventes prévues, pas aux ventes actuelles. Selon Šefčovič, cela éviterait l'arrivée de plusieurs millions de véhicules chinois en quatre ans par rapport à un scénario sans accord. Le dispositif (quotas ou engagements des constructeurs) n'est pas précisé, et l'accord doit encore être approuvé par l'UE [2].",
-      "Selon CNBC, la Chine a dit le 15 octobre rester prête à faciliter par une « voie rapide » les licences d'exportation de terres rares et d'aimants vers l'Europe, même à l'approche de l'échéance de l'accord commercial avec les États-Unis. Elle demande en échange à l'UE de soutenir certaines de ses exportations dans des secteurs à double usage [3]."
-    ],
-    "why": [
-      "Pour l'Europe, l'accord limiterait l'arrivée de véhicules chinois tout en lui faisant économiser des droits de douane [2].",
-      "Les sources divergent sur ce qui est réellement acquis : les gains de droits de douane sont chiffrés différemment selon les médias, et Pékin n'a pas promis de volumes de licences de terres rares [2][3]."
-    ],
-    "forMe": "Si tu cherches une voiture hybride, l'offre de modèles chinois pourrait se réduire. Les terres rares, elles, servent aux aimants des voitures électriques, des éoliennes et de nombreux appareils.",
-    "figures": [
-      {
-        "value": "÷ 2",
-        "label": "exportations chinoises d'hybrides vers l'UE par rapport aux prévisions",
-        "src": 2
-      },
-      {
-        "value": "2 jours",
-        "label": "de négociations à Pékin entre Šefčovič et Wang Wentao",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "droits-de-douane"
-    ],
-    "sources": [
-      {
-        "short": "CNBC (hybrides)",
-        "name": "CNBC, « China, Europe agree to cut Chinese hybrid vehicle exports by over half »",
-        "url": "https://www.cnbc.com/2026/10/09/china-europe-hybrid-vehicle-exports-deal.html"
-      },
-      {
-        "short": "EU Perspectives",
-        "name": "EU Perspectives, « China agrees to half hybrid exports as EU secures tariff savings »",
-        "url": "https://euperspectives.eu/2026/10/china-eu-hybrid-exports-tariff-deal/"
-      },
-      {
-        "short": "CNBC (terres rares)",
-        "name": "CNBC, « China indicates rare earths will keep flowing to EU, regardless of U.S. trade deal expiration »",
-        "url": "https://www.cnbc.com/2026/10/15/china-rare-earth-exports-europe.html"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-16-ethiopie-erythree-rupture",
-    "date": "2026-10-16",
-    "region": "Afrique",
-    "theme": "geo",
-    "geo": [
-      {
-        "name": "Adigrat, Tigré (nord de l'Éthiopie), près de la frontière érythréenne",
-        "label": "Éthiopie",
-        "coords": [
-          39.46,
-          14.28
-        ]
-      }
-    ],
-    "title": "L'Érythrée rompt avec l'Éthiopie, qui répète vouloir un accès à la mer Rouge",
-    "summary": "Après l'expulsion de 10 diplomates érythréens, Asmara a rompu ses relations. Addis-Abeba affirme que des soldats érythréens sont entrés dans le Tigré ; l'Érythrée dément.",
-    "points": [
-      "L'Éthiopie a dit au Conseil de sécurité de l'ONU que des soldats érythréens avaient avancé jusqu'à 60 kilomètres à l'intérieur du Tigré, sa région du nord. L'Érythrée dément et y voit un prétexte pour faire la guerre. Reuters n'a pas pu vérifier l'incursion de façon indépendante [1][2].",
-      "Les forces éthiopiennes et leurs alliés sont revenus à Adigrat, à environ 30 kilomètres de la frontière, après le retrait des troupes érythréennes. Selon ACLED, l'Éthiopie a utilisé des drones contre elles [2].",
-      "L'Érythrée a annoncé rompre ses relations diplomatiques après que l'Éthiopie a expulsé 10 de ses diplomates et fermé son ambassade à Asmara [1][2]."
-    ],
-    "why": [
-      "Un pays de plus de cent millions d'habitants sans accès à la mer menace de se brouiller avec le voisin qui a des ports. Le Premier ministre Abiy Ahmed répète que l'Éthiopie doit accéder à la mer Rouge ; il dit vouloir l'obtenir par la paix et le dialogue, mais l'Érythrée l'accuse de préparer une guerre d'agression [2].",
-      "Les deux pays s'étaient réconciliés en 2018 et avaient rouvert leurs postes-frontières, puis les relations se sont à nouveau dégradées. Les combats ont aussi repris entre l'armée éthiopienne et une alliance d'opposition qui inclut le TPLF, ce qui fragilise l'accord de paix de novembre 2022 [2]."
-    ],
-    "forMe": "Tu n'es pas touché directement, mais la mer Rouge est une route du commerce mondial. Un nouveau conflit dans la Corne de l'Afrique ajoute un risque de plus dans une région déjà tendue.",
-    "figures": [
-      {
-        "value": "60 km",
-        "label": "avancée affirmée de soldats érythréens dans le Tigré, selon l'Éthiopie (non vérifiée)",
-        "src": 2
-      },
-      {
-        "value": "10",
-        "label": "diplomates érythréens expulsés par l'Éthiopie",
-        "src": 2
-      },
-      {
-        "value": "≈ 30 km",
-        "label": "distance entre Adigrat et la frontière érythréenne",
-        "src": 2
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "AP (KSAT)",
-        "name": "AP, « Eritrean forces seen entering towns in Ethiopia's Tigray region after crossing border »",
-        "url": "https://www.ksat.com/news/world/2026/10/08/eritrean-forces-seen-entering-towns-in-ethiopias-tigray-region-after-crossing-border/"
-      },
-      {
-        "short": "Reuters (The Star)",
-        "name": "Reuters, « Ethiopian forces regain control of border city after reported Eritrean incursion »",
-        "url": "https://www.thestar.com.my/news/world/2026/10/10/ethiopian-forces-regain-control-of-border-city-after-reported-eritrean-incursion"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-16-namibie-boeuf-europe-fievre-aphteuse",
-    "date": "2026-10-16",
-    "region": "Afrique",
-    "theme": "eco",
-    "geo": [
-      {
-        "name": "Karasburg, sud de la Namibie",
-        "label": "Namibie",
-        "coords": [
-          18.75,
-          -28
-        ]
-      }
-    ],
-    "title": "L'Europe ferme sa porte au bœuf namibien à cause de la fièvre aphteuse",
-    "summary": "Depuis le 6 octobre, l'Union européenne a suspendu une partie des importations de viande de Namibie, après une épidémie dans le sud du pays.",
-    "points": [
-      "Un règlement européen adopté le 2 octobre est entré en vigueur le 6 octobre : il suspend les importations de bœuf frais, de viande de mouton et de chèvre, de certains animaux à sabots d'élevage ou sauvages, et de produits comme le biltong [1][3].",
-      "La fièvre aphteuse a été confirmée dans une ferme commerciale du district de Karasburg ; l'épidémie a été déclarée le 22 septembre et touchait 11 fermes [1][2].",
-      "Des exceptions existent : la viande ayant subi le traitement européen le plus strict contre le risque peut entrer, et la viande fraîche certifiée avant le 23 septembre peut encore arriver pendant 90 jours. L'accès préférentiel de la Namibie au marché européen reste inchangé [3]."
-    ],
-    "why": [
-      "L'Union européenne est de loin le premier client de la viande de bœuf namibienne : plus de 80 % de ses exportations de bœuf [1].",
-      "Le secteur était déjà fragile : les exportations de bœuf ont reculé de 41,1 % entre 2024 et 2025, de 22,7 millions à 13,4 millions de kilos, selon la Namibia Meat Board [1]. Des acheteurs européens se tournent déjà vers d'autres fournisseurs [2]."
-    ],
-    "forMe": "Si tu achètes de la viande importée, il se peut que d'autres pays prennent la place de la Namibie dans les rayons. Pour les éleveurs namibiens, c'est une perte de revenus immédiate.",
-    "figures": [
-      {
-        "value": "> 80 %",
-        "label": "part de l'Union européenne dans les exportations de bœuf de la Namibie",
-        "src": 1
-      },
-      {
-        "value": "− 41,1 %",
-        "label": "baisse des exportations de bœuf namibien entre 2024 et 2025",
-        "src": 1
-      },
-      {
-        "value": "11",
-        "label": "fermes touchées par l'épidémie",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Africanews",
-        "name": "Africanews, « EU suspends imports of meat from Namibia over FMD fears »",
-        "url": "https://www.africanews.com/2026/10/06/eu-suspends-imports-of-meat-from-namibia-over-fmd-fears/"
-      },
-      {
-        "short": "The Namibian",
-        "name": "The Namibian, « EU beef buyers turn to other suppliers amid FMD »",
-        "url": "https://www.namibian.com.na/eu-beef-buyers-turn-to-other-suppliers-amid-fmd/"
-      },
-      {
-        "short": "UE (SEAE)",
-        "name": "Délégation de l'UE en Namibie, « EU Statement on the foot and mouth disease outbreak in Namibia »",
-        "url": "https://www.eeas.europa.eu/delegations/namibia/eu-statement-foot-and-mouth-disease-outbreak-namibia_en"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-16-afghanistan-route-wakhan-chine",
-    "date": "2026-10-16",
-    "region": "Asie",
-    "theme": "mix",
-    "geo": [
-      {
-        "name": "Corridor du Wakhan, de Broghil à la frontière chinoise (Afghanistan)",
-        "label": "Afghanistan",
-        "coords": [
-          73.8,
-          37
-        ]
-      }
-    ],
-    "title": "Les talibans ouvrent une route vers la Chine pour ne plus dépendre du Pakistan",
-    "summary": "Une route de 121 kilomètres relie désormais le couloir du Wakhan, dans le nord-est de l'Afghanistan, à la frontière chinoise. Elle ne fait pas encore un vrai passage commercial.",
-    "points": [
-      "Le gouvernement taliban a inauguré le 4 octobre une route de 121 kilomètres qui va de Broghil, en face du district pakistanais de Chitral, jusqu'au « point zéro » de la frontière chinoise [1][2].",
-      "Elle a coûté environ 365 millions d'afghanis, soit près de 5,5 millions de dollars, et a été construite par des ingénieurs afghans, sans conseillers étrangers [1]. Selon un commentateur pakistanais, elle n'est pas goudronnée [2].",
-      "Pour Asia Times, ouvrir la route ne signifie pas qu'un passage commercial fonctionne déjà [1]."
-    ],
-    "why": [
-      "Jusqu'ici, l'Afghanistan, pays sans mer, dépend du Pakistan pour ses marchandises : elles passent par Karachi et par les postes de Torkham et de Chaman [2]. Cette route donne un chemin vers la Chine qui évite le territoire pakistanais [1][2].",
-      "Le contexte pèse : l'Afghanistan se plaint de frappes aériennes pakistanaises, que le Pakistan dit viser des militants, et la Chine s'inquiète de groupes armés près du Xinjiang [1]. Pour Pékin, c'est aussi une manière de moins dépendre du Pakistan et du corridor CPEC [1]."
-    ],
-    "forMe": "Cela n'a pas d'effet direct sur tes courses, mais c'est un exemple clair : quand un pays est coincé, il construit une route ailleurs pour changer ses dépendances.",
-    "figures": [
-      {
-        "value": "121 km",
-        "label": "longueur de la route, de Broghil à la frontière chinoise",
-        "src": 1
-      },
-      {
-        "value": "≈ 5,5 M$",
-        "label": "coût de la route (365 millions d'afghanis)",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Asia Times",
-        "name": "Asia Times, « Afghan road to China tests Pakistan's power and leverage »",
-        "url": "https://asiatimes.com/2026/10/afghan-road-to-china-tests-pakistans-power-and-leverage/"
-      },
-      {
-        "short": "Pakistan Observer",
-        "name": "Pakistan Observer, « Road through Wakhan: Turning a bypass into a bridge »",
-        "url": "https://pakobserver.net/?p=781142"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-16-venezuela-fmi-pas-de-dollar",
-    "date": "2026-10-16",
-    "region": "Amériques",
-    "theme": "eco",
-    "geo": [
-      {
-        "name": "Caracas, Venezuela",
-        "label": "Venezuela",
-        "coords": [
-          -66.9,
-          10.5
-        ]
-      }
-    ],
-    "title": "Le Venezuela dit non au dollar et présente au FMI son plan pétrole et mines",
-    "summary": "Le 14 octobre, à Bangkok, le vice-président à l'Économie a promis plus de pétrole et de minerais pour réparer l'eau et l'électricité, et a écarté la dollarisation.",
-    "points": [
-      "Le vice-président à l'Économie, Calixto Ortega, a présenté le 14 octobre aux réunions annuelles du FMI et de la Banque mondiale, à Bangkok, un plan pour augmenter la production de pétrole et de minerais et en réinvestir les recettes dans l'eau et l'électricité, négligées depuis une dizaine d'années [3].",
-      "Il a écarté d'adopter le dollar américain comme monnaie du pays : le bolívar doit, à terme, servir pour toute l'économie intérieure. La banque centrale parle d'une « remonétisation progressive » du bolívar et vise à moyen terme un objectif d'inflation [1][2][3].",
-      "Le FMI dit discuter d'un bureau technique dans le pays, mais le Venezuela n'a pas demandé de programme de financement [3]."
-    ],
-    "why": [
-      "Le Venezuela essaie de rouvrir sa porte à la finance mondiale. Le FMI prévoit +5 % de croissance en 2026 et +7 % en 2027, mais une inflation de 467,9 % fin 2026 : le prix de tout continue d'exploser [3][4].",
-      "Refuser le dollar est un choix politique autant qu'économique : cela garde une monnaie nationale, mais il faudra la rendre crédible. Selon le Rio Times, la présidente par intérim Delcy Rodríguez dirige le pays depuis la capture de Nicolás Maduro par les forces américaines en janvier 2026 [3]."
-    ],
-    "forMe": "Le Venezuela a de très grandes réserves de pétrole. Plus il produit, plus l'offre mondiale peut augmenter, ce qui pèse sur le prix à la pompe, mais le chemin est encore long.",
-    "figures": [
-      {
-        "value": "+ 5 %",
-        "label": "croissance prévue par le FMI au Venezuela en 2026 (+ 7 % en 2027)",
-        "src": 4
-      },
-      {
-        "value": "467,9 %",
-        "label": "inflation prévue par le FMI pour fin 2026",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "dollar",
-      "inflation-taux"
-    ],
-    "sources": [
-      {
-        "short": "Descifrado",
-        "name": "Descifrado, « BCV dice ante el FMI que busca “una remonetización progresiva” del bolívar »",
-        "url": "https://www.descifrado.com/2026/10/14/bcv-dice-ante-el-fmi-que-busca-una-remonetizacion-progresiva-del-bolivar/"
-      },
-      {
-        "short": "Última Hora",
-        "name": "Diario Última Hora, « Venezuela presenta al FMI cuatro pilares para consolidar estabilidad macroeconómica »",
-        "url": "https://www.diarioultimahoradigital.com.ve/2026/10/15/venezuela-presenta-al-fmi-cuatro-pilares-para-consolidar-estabilidad-macroeconomica/"
-      },
-      {
-        "short": "Rio Times",
-        "name": "The Rio Times, « Venezuela Pitches Oil and Mining Plan to the IMF in Bangkok »",
-        "url": "https://www.riotimesonline.com/venezuela-oil-and-mining-plan-imf-2026"
-      },
-      {
-        "short": "Últimas Noticias",
-        "name": "Últimas Noticias, « IMF projects that Venezuela's economy will grow by 5% in 2026 »",
-        "url": "https://en.ultimasnoticias.com.ve/actualidad/fmi-proyecta-que-la-economia-de-venezuela-crecera-5-en-2026/"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-16-costa-rica-megaprison",
-    "date": "2026-10-16",
-    "region": "Amériques",
-    "theme": "geo",
-    "geo": [
-      {
-        "name": "La Reforma, San Rafael de Alajuela (Costa Rica)",
-        "label": "Costa Rica",
-        "coords": [
-          -84.25,
-          10.03
-        ]
-      }
-    ],
-    "title": "Le Costa Rica prévoyait d'ouvrir une mégaprison de 5 100 places, copiée sur celle du Salvador",
-    "summary": "Le centre de haute sécurité contre le crime organisé devait ouvrir le 14 octobre. Il s'inspire de la prison géante de Nayib Bukele au Salvador.",
-    "points": [
-      "Le Costa Rica a annoncé l'ouverture, prévue le mercredi 14 octobre à 12 h 30, de son Centre de haute contention contre le crime organisé (CACCO), dans le complexe pénitentiaire de La Reforma [1]. Nous n'avons pas trouvé de compte rendu de la cérémonie elle-même.",
-      "La prison a une capacité de 5 100 détenus et s'inspire du CECOT, la méga-prison salvadorienne ; le Salvador a donné les plans. Son coût tourne autour de 35 millions de dollars [2][3].",
-      "Les médias costaricains annonçaient la présence de Nayib Bukele et du président colombien, sans confirmation de la présidence. Des organisations de défense des droits humains dénoncent des abus au CECOT, ce que le gouvernement salvadorien nie [1][2]."
-    ],
-    "why": [
-      "Le Costa Rica, longtemps connu pour sa tranquillité, copie une méthode dure venue de son voisin face à la montée du crime organisé. La nouvelle présidente Laura Fernández assume ce modèle [4].",
-      "Le projet doit augmenter de 40 % la capacité des prisons du pays [3]. Reste à voir si ce choix réduira vraiment la violence."
-    ],
-    "forMe": "Tu verras peut-être ce modèle cité dans d'autres pays : la sécurité devient un sujet central pour les élections en Amérique latine.",
-    "figures": [
-      {
-        "value": "5 100",
-        "label": "places dans la nouvelle prison",
-        "src": 2
-      },
-      {
-        "value": "+ 40 %",
-        "label": "hausse de la capacité carcérale du Costa Rica prévue par le projet",
-        "src": 3
-      },
-      {
-        "value": "≈ 35 M$",
-        "label": "coût estimé",
-        "src": 2
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "El Mundo (Salvador)",
-        "name": "Diario El Mundo, « Costa Rica inaugurará el 14 de octubre su megacárcel inspirada en el CECOT »",
-        "url": "https://diario.elmundo.sv/el-mundo/costa-rica-inaugurara-el-14-de-octubre-su-megacarcel-inspirada-en-el-cecot"
-      },
-      {
-        "short": "Bloomberg Línea",
-        "name": "Bloomberg Línea, « Costa Rica está por inaugurar su “megacárcel” : así es la prisión inspirada en el Cecot de Bukele »",
-        "url": "https://www.bloomberglinea.com/latinoamerica/costa-rica/costa-rica-esta-por-inaugurar-su-megacarcel-asi-es-la-prision-inspirada-en-el-cecot-de-bukele/"
-      },
-      {
-        "short": "Reuters (Internazionale)",
-        "name": "Reuters, « Costa Rica, weeks before election, hosts El Salvador President Bukele to inaugurate new mega-prison »",
-        "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/01/15/costa-rica-weeks-before-election-hosts-el-salvador-president-bukele-to-inaugurate-new-mega-prison"
-      },
-      {
-        "short": "Artículo 14",
-        "name": "Artículo 14, « La presidenta de Costa Rica, Laura Fernández, abraza el modelo Bukele con una megacárcel »",
-        "url": "https://www.articulo14.es/internacional/la-presidenta-de-costa-rica-laura-fernandez-abraza-el-modelo-bukele-con-una-megacarcel-para-combatir-el-crimen-organizado-20261008.html"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-16-grece-un-milliard-energie-clause-derogation",
-    "date": "2026-10-16",
-    "region": "Europe",
-    "theme": "eco",
-    "geo": [
-      {
-        "name": "Athènes, Grèce",
-        "label": "Grèce",
-        "coords": [
-          23.73,
-          37.98
-        ]
-      }
-    ],
-    "title": "Bruxelles autorise la Grèce à dépenser un milliard d'euros pour son énergie hors du plafond de dépenses",
-    "summary": "L'Union européenne a accepté d'étendre à l'énergie la « clause de sauvegarde » grecque : batteries, pompes à chaleur et trains financés par le pays lui-même.",
-    "points": [
-      "Le 9 octobre, l'Union européenne a accepté, pour la Grèce seulement, d'étendre la clause de dérogation nationale existante aux dépenses de résilience énergétique [1][2].",
-      "La Grèce prévoit environ un milliard d'euros d'investissements : stockage d'énergie, équipements des ménages, bâtiments publics et transports. Elle les finance avec ses propres ressources, pas par une nouvelle subvention européenne [1][2].",
-      "Parmi les projets : 200 millions d'euros pour des batteries associées aux énergies renouvelables, 200 millions pour des pompes à chaleur et des chauffe-eau solaires, et 320 millions pour la sécurité et l'extension du réseau ferré [2]."
-    ],
-    "why": [
-      "Normalement, un pays européen doit limiter la hausse de ses dépenses. Ici, la Grèce peut dépasser cette limite jusqu'à 0,3 % du PIB par an, et 0,6 % au total jusqu'en 2028, pour ces dépenses d'énergie [1][2].",
-      "Attention : ces sommes comptent quand même dans le déficit et dans la dette [1][2]. L'exception fait aussi de l'énergie un sujet de souveraineté : les États européens veulent mieux se protéger quand les prix s'envolent."
-    ],
-    "forMe": "Si tu paies tes factures d'énergie, c'est le genre de décision qui, à terme, peut aider à les stabiliser. Pour l'instant, c'est un signal que Bruxelles assouplit ses règles pour l'énergie.",
-    "figures": [
-      {
-        "value": "≈ 1 Md€",
-        "label": "investissements énergétiques grecs concernés",
-        "src": 1
-      },
-      {
-        "value": "0,3 % du PIB",
-        "label": "dépassement annuel autorisé, jusqu'à 0,6 % au total en 2028",
-        "src": 2
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Greek Reporter",
-        "name": "Greek Reporter, « EU Gives Green Light for Greece's €1 Billion Energy Investment Plan »",
-        "url": "https://greekreporter.com/2026/10/10/energy-investment-greece-eu/"
-      },
-      {
-        "short": "To Vima",
-        "name": "To Vima, « Greece Wins EU Approval to Spend More on Energy Resilience »",
-        "url": "https://www.tovima.com/finance/greece-wins-eu-approval-to-spend-more-on-energy-resilience/"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-16-irak-syrie-petrole-contourner-ormuz",
-    "date": "2026-10-16",
-    "region": "Moyen-Orient",
-    "theme": "mix",
-    "geo": [
-      {
-        "name": "Baniyas, côte syrienne",
-        "label": "Syrie",
-        "coords": [
-          35.95,
-          35.18
-        ]
-      }
-    ],
-    "title": "Pour contourner Ormuz, l'Irak se tourne vers la Syrie : de l'essence en camion, un oléoduc en projet",
-    "summary": "Un terminal syrien reçoit de l'essence destinée à l'Irak, et un oléoduc irakien traversant la Syrie est à l'étude.",
-    "points": [
-      "La Syrie a commencé à acheminer de l'essence importée vers l'Irak par son terminal pétrolier de Baniyas, dans le cadre d'un accord de trois mois renouvelable, selon l'agence officielle syrienne rapportée par des analystes. Le passage frontalier entre les deux pays sert déjà au commerce de pétrole et de gaz [2][3].",
-      "Un réseau irakien d'oléoducs irait de Haditha à Baniyas en traversant la Syrie, avec une capacité initiale d'environ deux millions de barils par jour, ce qui permettrait à l'Irak d'exporter sans passer par le détroit d'Ormuz [1].",
-      "Le FMI attribue la contraction de l'économie du Moyen-Orient en 2026 à la fermeture prolongée d'Ormuz [4]."
-    ],
-    "why": [
-      "Quand un détroit se ferme, il faut une autre porte de sortie. L'Irak, très dépendant du pétrole, cherche une sortie par la Méditerranée, via un pays qui sort à peine de la guerre civile [1].",
-      "Rien n'est encore construit : les analystes parlent d'une opportunité plus que d'un fait accompli, avec de grandes difficultés de sécurité et de financement [1]. Les chiffres du trafic viennent surtout des médias d'État syriens et des analyses, donc ils restent à prendre avec prudence [2][3]."
-    ],
-    "forMe": "Plus il y a de routes pour sortir le pétrole du Golfe, moins un blocage d'Ormuz fait grimper le prix de l'essence en France. Ces solutions restent pourtant partielles.",
-    "figures": [
-      {
-        "value": "≈ 2 M b/j",
-        "label": "capacité initiale envisagée pour l'oléoduc Haditha–Baniyas",
-        "src": 1
-      },
-      {
-        "value": "3 mois",
-        "label": "durée, renouvelable, de l'accord sur l'essence transitant par Baniyas",
-        "src": 2
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "routes-maritimes"
-    ],
-    "sources": [
-      {
-        "short": "Chatham House",
-        "name": "Chatham House, « New energy and trade routes could bypass Hormuz and change the Middle East. But major challenges remain »",
-        "url": "https://www.chathamhouse.org/2026/09/new-energy-and-trade-routes-could-bypass-hormuz-and-change-middle-east-major-challenges"
-      },
-      {
-        "short": "Jerusalem Post",
-        "name": "The Jerusalem Post, « Iraq-Syria border becoming the Middle East's most important new energy corridor »",
-        "url": "https://www.jpost.com/middle-east/article-909969"
-      },
-      {
-        "short": "Centre Alma",
-        "name": "Alma Research and Education Center, « The New Oil Route from Iraq to Syria »",
-        "url": "https://israel-alma.org/the-new-oil-route-from-iraq-to-syria-an-economic-corridor-becoming-an-operational-opportunity-for-iran/"
-      },
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « Middle East and Central Asia's economy to shrink in 2026 amid war, IMF says »",
-        "url": "https://www.aljazeera.com/economy/2026/10/13/middle-east-and-central-asias-economy-to-shrink-in-2026-amid-war-imf-says"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-16-casca-plus-rail-asie-centrale-europe",
-    "date": "2026-10-16",
-    "region": "Asie",
-    "theme": "mix",
-    "geo": [
-      {
-        "name": "Tachkent, Ouzbékistan (réunion des chemins de fer)",
-        "label": "Corridor CASCA+",
-        "coords": [
-          69.24,
-          41.3
-        ]
-      }
-    ],
-    "title": "Six chemins de fer d'Asie centrale et du Caucase s'allient pour faire passer plus de marchandises de Chine vers l'Europe",
-    "summary": "Réunis à Tachkent, les opérateurs ferroviaires de six pays ont signé un protocole pour accélérer le fret sur la route « CASCA+ ».",
-    "points": [
-      "Les 7 et 8 octobre, à Tachkent, les chemins de fer de l'Azerbaïdjan, du Kirghizistan, de l'Ouzbékistan, du Turkménistan, de la Géorgie et de la Turquie ont signé un protocole sur la route CASCA+ [1][2].",
-      "À l'ordre du jour : augmenter les volumes de fret, proposer des tarifs compétitifs pour les conteneurs réfrigérés, garantir un approvisionnement régulier en wagons porte-conteneurs et réduire le temps d'attente des conteneurs dans les ports [1].",
-      "Le « plus » de CASCA+ signifie que d'autres pays intéressés pourront rejoindre la route. L'objectif est d'augmenter le trafic venant d'Asie, en particulier de Chine, vers l'Europe [1][3]."
-    ],
-    "why": [
-      "Aujourd'hui, une grande partie des échanges Chine–Europe passe par la mer ou par la Russie. Ces pays veulent faire de leurs voies ferrées une alternative qui passe par le sud, via la Caspienne et le Caucase.",
-      "Les sources consultées ne donnent ni objectif de volume ni tarifs précis : c'est un accord de méthode, pas encore une preuve de résultats [1]."
-    ],
-    "forMe": "Beaucoup d'objets que tu achètes viennent d'Asie. Plus il existe de routes pour les transporter, moins un blocage sur l'une d'elles pèse sur les délais et les prix.",
-    "figures": [
-      {
-        "value": "6",
-        "label": "réseaux ferroviaires signataires du protocole",
-        "src": 1
-      },
-      {
-        "value": "7-8 oct.",
-        "label": "dates de la réunion de Tachkent",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "routes-maritimes"
-    ],
-    "sources": [
-      {
-        "short": "Caspian Post",
-        "name": "Caspian Post, « Six Countries Sign Deal to Expand CASCA+ Transport Corridor »",
-        "url": "https://caspianpost.com/azerbaijan/six-countries-sign-deal-to-expand-casca-transport-corridor"
-      },
-      {
-        "short": "Kun.uz",
-        "name": "Kun.uz, « Uzbekistan and partner countries sign protocol to expand CASCA+ rail corridor »",
-        "url": "https://kun.uz/en/04742370"
-      },
-      {
-        "short": "Trend",
-        "name": "Trend, « Uzbekistan, five countries sign protocol to develop CASCA+ route »",
-        "url": "https://www.trend.az/casia/uzbekistan/4232753.html"
       }
     ]
   },

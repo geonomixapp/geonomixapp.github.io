@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-01",
+    "file": "lettres/2026-11-01.pdf",
+    "titles": [
+      "Ormuz : Téhéran propose de rouvrir le détroit en deux jours, mais seulement si Washington cède sur ses conditions",
+      "Midterms américaines à deux jours : les démocrates favoris pour la Chambre, le Sénat se joue à quelques points",
+      "Parti des lycées, le mouvement de la jeunesse tient en France un troisième samedi, avec 70 000 policiers et une grève générale le 5 novembre"
+    ],
+    "fileDark": "lettres/2026-11-01-sombre.pdf"
+  },
+  {
     "date": "2026-10-31",
     "file": "lettres/2026-10-31.pdf",
     "titles": [
