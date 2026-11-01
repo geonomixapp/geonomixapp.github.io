@@ -2177,7 +2177,7 @@
         i++;
         if (i >= c.steps.length) { stopTour(); select(hasKey ? "key" : "all"); return; }
         select(c.steps[i].id);
-      }, 6500);
+      }, 3800); // 3,8 s par étape (demande de l'auteur, 1er nov. 2026 : avant 6,5 s, « trop long entre chaque »)
     }
     app.querySelectorAll(".chain-step").forEach((b) => b.addEventListener("click", () => { stopTour(); select(b.getAttribute("aria-pressed") === "true" ? (hasKey ? "key" : "all") : b.dataset.step); }));
     app.querySelectorAll(".chain-mode[data-mode]").forEach((b) => b.addEventListener("click", () => { stopTour(); select(b.dataset.mode); }));
