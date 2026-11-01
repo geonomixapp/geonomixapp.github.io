@@ -44,18 +44,27 @@ window.GEOCO.news = [
       }
     ],
     "title": "Le Canada veut devenir le premier « membre associé » de l'Union européenne d'ici juin 2027",
-    "summary": "Au sommet UE-Canada de Montréal, Mark Carney fixe un objectif : conclure d'ici juin 2027 les négociations sur un lien inédit avec l'Union, à mi-chemin entre partenaire et membre.",
+    "summary": "Au sommet UE-Canada de Montréal (29 et 30 octobre), le Premier ministre Mark Carney fixe un objectif : conclure d'ici juin 2027 les négociations sur un lien inédit avec l'Union, à mi-chemin entre partenaire et membre. Le mot « associé » a pourtant disparu de la déclaration finale, après l'objection de l'Allemagne [2][6].",
     "points": [
-      "Lors du sommet UE-Canada à Montréal, le Premier ministre Mark Carney a dit vouloir conclure d'ici juin 2027 les négociations pour faire du Canada le premier « membre associé » de l'Union européenne [1][2].",
-      "Il parle du « partenariat le plus profond possible sans adhésion, à cause de notre géographie » ; le mot « associé » ne figure pourtant pas dans la déclaration finale du sommet, l'Allemagne s'y étant opposée [2][3].",
-      "L'idée vient d'Ursula von der Leyen, présidente de la Commission européenne, qui l'a proposée le 16 septembre dans son discours sur l'état de l'Union [4]."
+      "Lors du 21e sommet UE-Canada, tenu à Montréal les 29 et 30 octobre, le Premier ministre Mark Carney a dit vouloir conclure d'ici juin 2027 les négociations pour faire du Canada le premier « membre associé » de l'Union européenne [1][2][6].",
+      "Il parle du « partenariat le plus profond possible sans adhésion, à cause de notre géographie » ; le mot « associé » ne figure pourtant pas dans la déclaration finale du sommet, l'Allemagne s'y étant opposée quelques heures avant l'arrivée de la délégation européenne à Montréal [2][3].",
+      "Le texte signé avec António Costa, président du Conseil européen, et Ursula von der Leyen, présidente de la Commission, engage les deux camps à travailler à une « association toujours plus étroite » et à en définir le concept d'ici le prochain sommet, en 2027, sans adhésion pleine [6].",
+      "L'idée vient d'Ursula von der Leyen, qui l'a proposée le 16 septembre dans son discours sur l'état de l'Union [4]. Carney a promis des débats, puis un vote, au Parlement canadien [2][3].",
+      "Le 30 octobre, Bruxelles et Ottawa ont aussi conclu les négociations d'un accord de commerce numérique, présenté côté canadien comme le premier du pays entièrement consacré à ce sujet : il fixe des règles sur les flux de données, les signatures et contrats électroniques et le commerce en ligne [7].",
+      "Cet accord complète le CETA, l'accord de libre-échange entre l'UE et le Canada appliqué provisoirement depuis 2017 [7]."
     ],
     "why": [
       "À retenir : c'est un statut qui n'existe pas encore. Il faudra l'inventer, le faire accepter par les 27 pays de l'Union, et le Parlement canadien devra voter [2][3].",
-      "Pour le Canada, c'est une façon de moins dépendre de son grand voisin américain, en pleine guerre commerciale avec Washington [3]. Pour l'Europe, c'est un allié de plus au moment où ses relations avec les États-Unis se tendent [3]. Un membre associé n'aurait en revanche ni citoyenneté européenne, ni libre circulation, ni commissaire, ni droit de vote dans les institutions de l'Union [5]."
+      "Le sommet montre l'écart entre l'ambition et le texte : les dirigeants parlent d'un membre associé, mais la déclaration ne retient que « association toujours plus étroite », et la définition précise est repoussée à 2027 [2][6]. Les États membres n'étaient pas tous d'accord, l'Allemagne en tête [2][3].",
+      "Pour le Canada, c'est une façon de moins dépendre de son grand voisin américain, en pleine guerre commerciale avec Washington [3]. Pour l'Europe, c'est un allié de plus au moment où ses relations avec les États-Unis se tendent [3].",
+      "Un membre associé n'aurait en revanche ni citoyenneté européenne, ni libre circulation, ni commissaire, ni droit de vote dans les institutions de l'Union [5]. Ce qui avance concrètement d'ici là, ce sont des accords sectoriels, comme le commerce numérique [7]."
     ],
-    "forMe": "Si le projet aboutit, les échanges entre l'Europe et le Canada deviendraient encore plus simples : produits, études, travail, défense. Et c'est un signe de plus que les alliances se redessinent face à la politique commerciale américaine [3][5].",
+    "forMe": "Rien ne change pour toi à court terme : le CETA s'applique déjà depuis 2017 [7], et le statut d'associé reste à définir. Si le projet aboutit, les échanges entre l'Europe et le Canada deviendraient encore plus simples : produits, études, travail, défense. C'est surtout un signe de plus que les alliances se redessinent face à la politique commerciale américaine [3][5].",
     "next": [
+      {
+        "when": "2027",
+        "what": "Les deux camps doivent définir le concept d'« association toujours plus étroite » d'ici le prochain sommet UE-Canada [6]."
+      },
       {
         "when": "Juin 2027",
         "what": "Objectif fixé par Mark Carney pour conclure les négociations [2]."
@@ -105,6 +114,16 @@ window.GEOCO.news = [
         "short": "Euronews",
         "name": "Euronews, « Que signifie pour un pays être membre associé de l'UE ? » (30 septembre 2026)",
         "url": "https://fr.euronews.com/2026/09/30/que-signifie-pour-un-pays-etre-membre-associe-de-lue"
+      },
+      {
+        "short": "Conseil de l'UE",
+        "name": "Conseil européen / Conseil de l'UE, « EU-Canada summit, 29-30 October 2026 » (page officielle du sommet)",
+        "url": "https://www.consilium.europa.eu/en/meetings/international-summit/2026/10/29-30/"
+      },
+      {
+        "short": "Commission européenne",
+        "name": "Commission européenne, « EU and Canada conclude negotiations on a digital trade agreement » (30 octobre 2026)",
+        "url": "https://policy.trade.ec.europa.eu/news/eu-and-canada-conclude-negotiations-digital-trade-agreement-2026-10-30_en"
       }
     ]
   },
@@ -124,17 +143,22 @@ window.GEOCO.news = [
       }
     ],
     "title": "La France se contracte au troisième trimestre, alors que la zone euro résiste",
-    "summary": "Le PIB français recule de 0,1 % entre juillet et septembre, quand la zone euro progresse de 0,4 %.",
+    "summary": "Le PIB français recule de 0,1 % entre juillet et septembre, après une stagnation au printemps, alors que les économistes attendaient une légère hausse. Pendant ce temps, la zone euro progresse de 0,4 % : le commerce extérieur, notamment l'aéronautique, tire la France vers le bas [1][5][6][7].",
     "points": [
-      "L'Insee estime que l'économie française a reculé de 0,1 % au troisième trimestre, alors que les économistes attendaient une légère hausse [1][2][3].",
-      "Le commerce extérieur pèse le plus (exportations en repli de 1,7 %), tandis que la consommation des ménages progresse de 0,4 % [2].",
-      "Dans le même temps, la zone euro grandit de 0,4 % (contre 0,6 % le trimestre précédent) et l'Allemagne de 0,2 % [3][4]."
+      "Selon la première estimation de l'Insee publiée le 30 octobre, le PIB de la France a reculé de 0,1 % au troisième trimestre, après 0,0 % au deuxième et −0,2 % au premier ; les économistes attendaient une légère hausse [1][2][3][5].",
+      "Le commerce extérieur pèse le plus : il retire 0,6 point à la croissance, après en avoir ajouté 0,6 au printemps ; les exportations reculent de 1,7 %, avec un net repli dans l'aéronautique [2][5][7].",
+      "La consommation des ménages progresse de 0,4 %, soutenue notamment par des achats de voitures électriques après la flambée des prix des carburants [2][5][7]. Les dépenses publiques augmentent de 0,3 % [7].",
+      "L'investissement recule encore, de 0,6 % après −0,5 % : −0,4 % pour les entreprises, −1,3 % pour les ménages et −0,3 % pour les administrations [2][5][7].",
+      "Dans le même temps, la zone euro grandit de 0,4 % (contre 0,6 % au deuxième trimestre) et l'UE de 0,5 % ; l'Allemagne progresse de 0,2 %, l'Espagne de 0,6 %, l'Italie reste à 0,0 % [3][4][6]. Seule la Lituanie fait pire que la France (−1,0 %) [6].",
+      "Roland Lescure, ministre de l'Économie, attribue le trou au recul de la production agricole touchée par la canicule et à celle de la production d'énergie ; il plaide pour « redonner confiance » en adoptant un budget [1][7]."
     ],
     "why": [
       "À retenir : la France est à la traîne de ses voisins, au moment où elle doit voter un budget serré [1][3].",
-      "Un PIB qui baisse veut dire moins de richesse produite, donc moins de recettes pour l'État, alors que le déficit est déjà élevé. Il ne s'agit que d'une première estimation : l'Insee la révisera [2]."
+      "Le ministre juge que l'économie « est à l'arrêt » et « ira dans le mur » sans redressement budgétaire, et appelle à un compromis au Parlement [1][7]. Le gouvernement table toujours sur 0,5 % de croissance en 2026 ; or l'acquis de croissance, ce que l'année aurait déjà si l'activité restait stable jusqu'en décembre, n'est que de 0,2 % [1][5][7].",
+      "Un PIB qui baisse veut dire moins de richesse produite, donc moins de recettes pour l'État, alors que le déficit est déjà élevé. La Banque de France prévoyait pourtant une hausse d'environ 0,1 % [2].",
+      "Il ne s'agit que d'une première estimation : Eurostat publiera une nouvelle estimation le 13 novembre, et l'Insee ses résultats détaillés le 27 novembre [5][6]."
     ],
-    "forMe": "Une économie qui cale pèse sur l'emploi et sur les marges de manœuvre du budget : c'est un argument de plus dans les débats sur les impôts et les dépenses des prochaines semaines [1][3].",
+    "forMe": "Une économie qui cale pèse sur l'emploi et sur les marges de manœuvre du budget : c'est un argument de plus dans les débats sur les impôts et les dépenses des prochaines semaines. À ton échelle, la consommation des ménages tient (+0,4 %), mais l'investissement des entreprises et des ménages continue de reculer [1][2][5].",
     "figures": [
       {
         "value": "−0,1 %",
@@ -174,6 +198,31 @@ window.GEOCO.news = [
         "short": "InvestingLive",
         "name": "InvestingLive, « Germany Q3 preliminary GDP +0.2% vs +0.1% q/q expected » (30 octobre 2026)",
         "url": "https://investinglive.com/news/germany-q3-preliminary-gdp-0-2-vs-0-1-q-q-expected/"
+      },
+      {
+        "short": "Insee",
+        "name": "Insee, « Le PIB recule légèrement au troisième trimestre 2026 (-0,1 % après 0,0 %) », Informations rapides n° 263 (30 octobre 2026)",
+        "url": "https://www.insee.fr/fr/statistiques/9111036"
+      },
+      {
+        "short": "Eurostat",
+        "name": "Eurostat, « GDP up by 0.4% in the euro area and by 0.5% in the EU » (30 octobre 2026)",
+        "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-30102026-ap"
+      },
+      {
+        "short": "franceinfo",
+        "name": "franceinfo, « Le PIB recule de 0,1 % au troisième trimestre 2026 en France, le ministre de l'Économie plaide pour « redonner confiance » en adoptant un budget » (30 octobre 2026)",
+        "url": "https://www.franceinfo.fr/economie/victime-d-une-baisse-des-exportations-le-pib-recule-de-0-1-au-troisieme-trimestre-2026-en-france-selon-l-insee_8260019.html"
+      }
+    ],
+    "next": [
+      {
+        "when": "13 novembre",
+        "what": "Eurostat publie une nouvelle estimation de la croissance de la zone euro [6]."
+      },
+      {
+        "when": "27 novembre",
+        "what": "L'Insee publie les résultats détaillés du troisième trimestre [5]."
       }
     ]
   },
@@ -193,17 +242,22 @@ window.GEOCO.news = [
       }
     ],
     "title": "Paris : des couvre-feux le week-end de la Toussaint après les pillages d'octobre",
-    "summary": "La préfecture de police interdit de circuler la nuit à des mineurs, puis à tous, dans certains quartiers du 30 octobre au 2 novembre.",
+    "summary": "La préfecture de police interdit de circuler la nuit aux mineurs non accompagnés dans plusieurs quartiers de Paris, puis à tous à République et aux Halles, du 30 octobre au 2 novembre. Elle invoque les pillages d'octobre et des risques de violences. Un précédent couvre-feu des mineurs avait été suspendu par la justice [1][2][3][4].",
     "points": [
-      "Un couvre-feu vise les mineurs non accompagnés dans plusieurs secteurs de Paris, de 21 h à 6 h, du vendredi soir au lundi 2 novembre au matin [1][2]. Un premier arrêté avait été suspendu par le tribunal administratif, une nouvelle mesure a suivi [1][2].",
-      "Un second arrêté interdit la circulation de tous, de 23 h à 6 h, dans les secteurs de République et de Châtelet-Les Halles, du 31 octobre au 2 novembre [2][3].",
-      "La préfecture invoque les pillages et dégradations des 17 et 18 octobre et les incidents du 24 octobre (142 interpellations) [3]."
+      "Un couvre-feu vise les mineurs non accompagnés dans plusieurs secteurs de Paris, de 21 h à 6 h, du vendredi soir au lundi 2 novembre au matin [1][2][6].",
+      "Un second arrêté interdit toute présence à tous, de 23 h à 6 h, sur la place de la République et dans le secteur de Châtelet-Les Halles, du 31 octobre au 2 novembre [2][3][6]. La préfecture invoque des risques de violences et des appels à commettre des exactions [2][6].",
+      "Le tribunal administratif de Paris avait suspendu le 28 octobre le précédent couvre-feu des mineurs (21 h–6 h, du lundi au jeudi), saisi par l'association Vigie Liberté ; le juge reprochait au préfet de ne donner aucun élément précis sur des risques liés aux mineurs à ces jours et ces heures [3][4]. Ce dispositif courait du 26 au 29 octobre [3].",
+      "La préfecture s'appuie sur les pillages et dégradations des 17 et 18 octobre : la nuit du 18, Paris a de nouveau été visé par des pillards après la mobilisation du 17 [3][7].",
+      "Le 24 octobre, le cortège parisien s'est déroulé globalement dans le calme, mais la préfecture a compté 142 interpellations, dont 126 gardes à vue ; la participation est estimée entre 110 000 et 250 000 personnes selon les sources [3][5]. Un couvre-feu avait déjà été instauré autour du forum des Halles et de la place de la République après le 17 octobre [5].",
+      "Après une cellule interministérielle de crise, le Premier ministre Sébastien Lecornu a demandé aux préfets des couvre-feux « partiels » et très localisés [1][6]."
     ],
     "why": [
       "À retenir : c'est une mesure rare dans la capitale, prise après plusieurs semaines de tensions [2][3].",
-      "Le Premier ministre avait demandé aux préfets des couvre-feux « partiels » et « localisés » [1]. La justice peut encore être saisie de nouveaux recours [2]."
+      "L'enjeu juridique est central : un couvre-feu limite la liberté d'aller et venir, et le juge administratif a déjà estimé le 28 octobre que la préfecture n'avait pas justifié la première version visant les mineurs [3][4]. Les nouveaux arrêtés devront donc tenir sur leur motivation, notamment les risques liés aux appels à commettre des exactions [2][6].",
+      "Le choix de zones très limitées, République et Châtelet-Les Halles, correspond à la consigne de Matignon de couvre-feux « partiels » et « localisés » [1][6]. Ce sont aussi les secteurs déjà placés sous couvre-feu après la mobilisation du 17 octobre [5].",
+      "La justice peut encore être saisie de nouveaux recours [2]."
     ],
-    "forMe": "Si tu es à Paris ce week-end, vérifie les rues concernées sur le site de la préfecture de police avant de sortir tard [2][3].",
+    "forMe": "Si tu es à Paris ce week-end, vérifie les rues concernées sur le site de la préfecture de police avant de sortir tard : à République et aux Halles, toute présence est interdite de 23 h à 6 h, et les mineurs non accompagnés ne peuvent pas circuler dès 21 h dans plusieurs quartiers [2][3][6].",
     "figures": [
       {
         "value": "21 h – 6 h",
@@ -238,6 +292,32 @@ window.GEOCO.news = [
         "short": "La Clé Publique",
         "name": "La Clé Publique, « Paris : couvre-feux dès 21 h, puis 23 h à République et aux Halles » (30 octobre 2026)",
         "url": "https://laclepublique.fr/paris/articles/2026/2026-10-30-couvre-feux-toussaint-paris/"
+      },
+      {
+        "short": "ICI",
+        "name": "ICI, « Paris : la justice suspend le couvre-feu qui avait été instauré pour les mineurs » (28 octobre 2026)",
+        "url": "https://www.ici.fr/infos/faits-divers-justice/paris-la-justice-suspend-le-couvre-feu-qui-avait-ete-instaure-pour-les-mineurs-jusqu-a-ce-jeudi-4099949?at_locale=68"
+      },
+      {
+        "short": "France 3 Paris IdF",
+        "name": "France 3 Paris Île-de-France, « Manifestation du 24 octobre à Paris : moins d'interpellations que la semaine passée, un défilé dans le calme avec peu d'incidents majeurs »",
+        "url": "https://france3-regions.franceinfo.fr/paris-ile-de-france/manifestation-du-24-octobre-a-paris-moins-d-interpellations-que-la-semaine-passee-un-defile-dans-le-calme-avec-peu-d-incidents-majeurs-3438816.html"
+      },
+      {
+        "short": "Actu17",
+        "name": "Actu17, « Paris : couvre-feu place de la République et aux Halles, toute présence interdite dès 23 heures »",
+        "url": "https://actu17.fr/societe/paris-couvre-feu-place-de-la-republique-et-aux-halles-toute-presence-interdite-des-23-heures.html"
+      },
+      {
+        "short": "CNews",
+        "name": "CNews, « Violences urbaines : Paris pris pour cible par les pillards pour la deuxième nuit consécutive » (19 octobre 2026)",
+        "url": "https://www.cnews.fr/france/2026-10-19/mobilisation-du-17-octobre-paris-pris-pour-cible-par-les-pillards-pour-la"
+      }
+    ],
+    "next": [
+      {
+        "when": "Lundi 2 novembre, au matin",
+        "what": "Fin prévue des arrêtés de couvre-feu pour le week-end de la Toussaint [1][2]."
       }
     ]
   },
@@ -257,17 +337,22 @@ window.GEOCO.news = [
       }
     ],
     "title": "Pologne : le président fait demi-tour en plein vol pour défendre le chef de la Cour constitutionnelle",
-    "summary": "Le gouvernement fait suspendre le président de la Cour, que le chef de l'État refuse de reconnaître comme écarté.",
+    "summary": "Vendredi 30 octobre, la juge Anna Korwin-Piotrowska a suspendu le président de la Cour constitutionnelle polonaise, Bogdan Święczkowski, et son adjoint. La Cour refuse cette décision, la police est intervenue et le président Karol Nawrocki a écourté son voyage au Sénégal pour se rendre sur place [1][2][3].",
     "points": [
-      "Le président de la Cour constitutionnelle, Bogdan Święczkowski, a été suspendu vendredi soir par des juges proches du gouvernement, qui l'accusent d'avoir enfreint la loi à plusieurs reprises [1][2].",
-      "La Cour répond qu'il reste son président ; lui et son adjoint se sont vu refuser l'entrée du bâtiment [1][2].",
-      "Le président Karol Nawrocki, qui partait au Sénégal, a fait faire demi-tour à son avion, s'est rendu à la Cour, a aidé le juge à entrer et a dénoncé une atteinte à l'ordre constitutionnel [2][3]."
+      "Le vendredi 30 octobre au soir, la juge Anna Korwin-Piotrowska a ordonné une « pause dans l'activité » du président de la Cour, Bogdan Święczkowski, et de son adjoint, Bartłomiej Sochański ; elle reproche au premier d'avoir enfreint la loi à plusieurs reprises [1][2].",
+      "Selon TVN24, l'ordre s'appuie sur l'article 130 de la loi sur l'organisation des tribunaux de droit commun, ce qui est contesté : la Cour affirme que Święczkowski reste président et Sochański vice-président [5].",
+      "La police et le Service de protection de l'État étaient devant le bâtiment et Święczkowski n'a pas été autorisé à entrer ; des manifestants ont coupé la chaîne d'une grille, et Jarosław Kaczyński (PiS) et Piotr Gliński sont entrés dans l'enceinte [5].",
+      "Le président Karol Nawrocki, en route pour une visite d'État au Sénégal, a fait faire demi-tour à son avion, a aidé le juge à entrer et est lui-même entré dans la Cour, accompagné de Zbigniew Kapiński, premier président de la Cour suprême [2][3][5].",
+      "Son cabinet dénonce une violation de l'ordre constitutionnel et une prise de contrôle par la force d'un organe constitutionnel ; le PiS et la Cour parlent de « coup d'État », ce que le camp gouvernemental conteste [2][4].",
+      "Le ministre de la Justice et procureur général, Waldemar Żurek, a déposé des demandes de levée de l'immunité de Święczkowski et de Sochański [5].",
+      "La nuit a aussi vu 3 manifestants interpellés [2]."
     ],
     "why": [
-      "À retenir : deux pouvoirs polonais se disputent qui dirige la plus haute juridiction du pays, et la rue s'en mêle [2][3].",
-      "Le gouvernement cherche depuis des semaines à écarter des juges nommés sous le précédent pouvoir (PiS), tandis que le président a refusé de faire prêter serment à cinq des huit nouveaux juges [3]. Les sources ne tranchent pas sur la légalité de la suspension."
+      "À retenir : deux camps polonais se disputent la direction de la plus haute juridiction du pays, et personne ne sait encore qui la dirige légalement [1][2].",
+      "Le conflit remonte à 2015 : la coalition sortante PO-PSL avait fait élire cinq juges par le Parlement avant les législatives d'octobre 2015, et le PiS a ensuite imposé ses propres nominations [4]. En décembre 2024, le président Andrzej Duda a nommé Święczkowski, ancien procureur proche de Zbigniew Ziobro, à la tête de la Cour [4].",
+      "Aujourd'hui, le camp gouvernemental juge ces nominations et cette direction irrégulières, tandis que Nawrocki a refusé de faire prêter serment à cinq des huit nouveaux juges élus par le Parlement [3][4]. Les sources ne tranchent pas sur la légalité de la suspension ; l'autorité de la juge Korwin-Piotrowska à prendre la direction est elle-même discutée [1][5]."
     ],
-    "forMe": "La Pologne est un voisin de poids dans l'Union européenne : un bras de fer sur l'État de droit peut compliquer les décisions prises à 27 [2][3].",
+    "forMe": "La Pologne pèse lourd dans l'Union européenne : si la Cour qui doit trancher sur les lois est paralysée, les arbitrages d'État de droit, et les décisions prises à 27, peuvent se compliquer. Retiens la date du 3 novembre, qui dira si la Cour siège à nouveau [2][4].",
     "figures": [
       {
         "value": "5 sur 8",
@@ -297,6 +382,22 @@ window.GEOCO.news = [
         "short": "CNN",
         "name": "CNN, « Polish president turns plane around to return home as court chief's suspension sparks protest » (31 octobre 2026)",
         "url": "https://edition.cnn.com/2026/10/31/europe/poland-protests-president-karol-nawrocki-flies-home-hnk-intl"
+      },
+      {
+        "short": "Euronews (explication)",
+        "name": "Euronews, « Poland's Constitutional Tribunal crisis explained: a decade-long dispute over legitimacy of the justice » (31 octobre 2026)",
+        "url": "https://www.euronews.com/2026/10/31/polands-constitutional-tribunal-crisis-explained-a-decade-long-dispute-over-legitimacy-of-"
+      },
+      {
+        "short": "TVN24",
+        "name": "TVN24, « Zawieszony Święczkowski, prezydent w siedzibie TK, protesty przed gmachem. To wydarzyło się w nocy » (31 octobre 2026)",
+        "url": "https://tvn24.pl/polska/trybunal-konstytucyjny-najwazniejsze-informacje-to-wydarzylo-sie-w-nocy-podsumowujemy-st9315322"
+      }
+    ],
+    "next": [
+      {
+        "when": "3 novembre 2026",
+        "what": "La juge Korwin-Piotrowska a convoqué une assemblée générale des juges de la Cour [4]."
       }
     ]
   },
@@ -324,17 +425,22 @@ window.GEOCO.news = [
       }
     ],
     "title": "Le Premier ministre azerbaïdjanais en Géorgie : transport et énergie au menu du Caucase du Sud",
-    "summary": "Ali Asadov a passé deux jours en Géorgie pour la commission économique commune des deux pays.",
+    "summary": "Le Premier ministre azerbaïdjanais Ali Asadov a fait une visite de travail de deux jours en Géorgie (29-30 octobre). Avec son homologue Irakli Kobakhidze, il a coprésidé à Sighnaghi la 11e commission économique commune et signé le protocole de la session, ainsi que des accords sur un poste-frontière et la sécurité alimentaire [1][3][5][6].",
     "points": [
-      "Le Premier ministre azerbaïdjanais Ali Asadov est arrivé à Tbilissi le 29 octobre pour une visite de travail de deux jours [1][3].",
-      "Il a eu un entretien en tête-à-tête avec son homologue géorgien Irakli Kobakhidze le 30 octobre à Sighnaghi, dans la région de Kakhétie [2][4].",
-      "L'ordre du jour couvrait l'économie, le commerce, les transports, l'énergie et la logistique, avec la 11e commission intergouvernementale et un document final attendu [1][3]."
+      "Ali Asadov est arrivé à Tbilissi le 29 octobre pour une visite de travail de deux jours [1][3].",
+      "Le 30 octobre, il s'est entretenu en tête-à-tête avec le Premier ministre géorgien Irakli Kobakhidze à Sighnaghi, dans la région de Kakhétie ; Civil.ge situe lui la réunion à Tbilissi, mais APA, Report.az et Trend parlent de Sighnaghi [2][4][6][7].",
+      "Les deux chefs de gouvernement ont coprésidé la 11e session de la commission intergouvernementale sur la coopération économique et signé son protocole [5][6].",
+      "L'ordre du jour couvrait le commerce, l'énergie, les infrastructures et les projets du Corridor du Milieu, et les deux camps ont convenu d'accélérer la démarcation et la délimitation de la frontière [7].",
+      "Un accord sur le fonctionnement du poste-frontière routier « Route de la soie – Ipek Yolu » a été signé, de même que des documents sur la coopération douanière [5][7].",
+      "Deux mémorandums ont été signés par l'Agence azerbaïdjanaise de sécurité alimentaire et l'Agence nationale géorgienne de l'alimentation : l'un sur la quarantaine des plantes, l'autre sur les services vétérinaires [5][7].",
+      "Selon Asadov, l'Azerbaïdjan est le premier investisseur en Géorgie, avec près de 4 milliards de dollars investis [7][8]."
     ],
     "why": [
-      "À retenir : la rencontre porte sur des sujets très concrets (transport, énergie, logistique) entre deux voisins du Caucase du Sud [1][3].",
-      "À la fin de la réunion, les deux Premiers ministres ont signé le protocole de la 11e session, et deux accords sur la sécurité alimentaire (quarantaine des plantes, services vétérinaires) ont été signés en parallèle [5][6]."
+      "À retenir : la rencontre porte sur des sujets très concrets (frontière, douane, transport, énergie) entre deux voisins qui sont aussi des maillons du Corridor du Milieu, la route de marchandises qui relie l'Asie à l'Europe [1][7].",
+      "Le chiffre à retenir est l'investissement azerbaïdjanais en Géorgie, de près de 4 milliards de dollars selon Asadov, un montant que Civil.ge rapporte aussi et qui est annoncé par la partie azerbaïdjanaise [7][8].",
+      "Les mémorandums sur la quarantaine des plantes et les services vétérinaires visent à faciliter les échanges de produits agricoles à la frontière ; les sources consultées ne donnent pas le détail des documents douaniers [5][7]."
     ],
-    "forMe": "Les accords sur le transport et l'énergie dans le Caucase du Sud concernent les routes de marchandises entre l'Asie et l'Europe [1][3].",
+    "forMe": "Les accords sur le transport et l'énergie dans le Caucase du Sud concernent les routes de marchandises entre l'Asie et l'Europe, et donc, à terme, les délais et les coûts de ce qui arrive en Europe [1][7].",
     "figures": [
       {
         "value": "11e",
@@ -379,6 +485,16 @@ window.GEOCO.news = [
         "short": "Trend",
         "name": "Trend, « Azerbaijan-Georgia Economic Cooperation Commission holds 11th meeting » (30 octobre 2026)",
         "url": "https://www.trend.az/business/4241064.html"
+      },
+      {
+        "short": "Civil.ge",
+        "name": "Civil.ge, « Georgia, Azerbaijan Hold Intergovernmental Meeting, Talk 'Speeding Up' Border Process »",
+        "url": "https://civil.ge/archives/756119"
+      },
+      {
+        "short": "Report.az (investissements)",
+        "name": "Report.az, « Azerbaijan is Georgia's largest investor with nearly $4 billion, Asadov says »",
+        "url": "https://report.az/en/foreign-politics/azerbaijan-is-georgia-s-largest-investor-with-nearly-4-billion-asadov-says"
       }
     ]
   },
@@ -398,17 +514,23 @@ window.GEOCO.news = [
       }
     ],
     "title": "Asie centrale : l'hiver menace des réseaux électriques d'époque soviétique, le Kirghizistan gèle le minage de cryptos",
-    "summary": "Le président kirghiz n'accordera plus de licence de minage tant que la production d'électricité n'aura pas augmenté.",
+    "summary": "Le président kirghiz Sadyr Japarov a annoncé qu'aucune nouvelle licence de minage de cryptomonnaies ne sera accordée tant que la production d'électricité n'aura pas progressé, alors qu'une étude de la Banque eurasienne de développement décrit un réseau d'Asie centrale souvent surchargé [1][4].",
     "points": [
-      "Eurasianet décrit un réseau d'Asie centrale fragile, souvent surchargé d'après une étude de la Banque eurasienne de développement : le problème tient moins à la capacité totale qu'au moment où l'électricité est disponible [1].",
-      "Le président kirghiz Sadyr Japarov a annoncé qu'aucune nouvelle licence ne serait accordée aux fermes de minage de cryptomonnaies, très gourmandes en courant, tant que la production ne progresse pas [1].",
-      "Au Kirghizistan et au Tadjikistan, les autorités misent sur l'économie d'énergie, l'arrêt des fermes de minage et davantage d'importations ; le Tadjikistan exporte du courant l'été mais en vend moins l'hiver [2]."
+      "Selon Eurasianet (30 octobre), l'administration de Sadyr Japarov ne délivrera plus de licence aux fermes de minage de cryptomonnaies, très gourmandes en courant, tant que la capacité de production ne s'améliore pas [1].",
+      "Japarov a aussi mis cette décision en balance avec les recettes fiscales du minage, et la demande a bondi ces dernières semaines avec l'arrivée précoce du froid [1].",
+      "L'étude de la Banque eurasienne de développement (BEAD) sur le réseau en 2024 relève des charges de 105 à 123 % des valeurs admissibles [1].",
+      "Le problème tient moins à la capacité installée qu'à sa disponibilité aux heures critiques : le 10 décembre 2024, environ 6,6 GW de capacité du système interconnecté étaient indisponibles ou limités [1][4].",
+      "La BEAD attend une hausse de la demande d'environ 27 % d'ici 2030 [4].",
+      "Le ministre kirghiz de l'Énergie a rencontré son homologue ouzbek le 28 octobre pour discuter de la stabilité des approvisionnements [1].",
+      "La centrale de Toktogui fournit environ 40 % de l'électricité du Kirghizistan, qui avait déjà suspendu ses fermes de minage jusqu'en mars 2026 à cause des faibles niveaux des réservoirs [2][5]."
     ],
     "why": [
       "À retenir : une grande partie des centrales et des lignes date de l'époque soviétique, et l'hiver est le moment où la demande explose [3].",
-      "La Banque mondiale estime que la demande d'électricité de la région pourrait tripler d'ici 2050 si la tendance se poursuit [3]."
+      "Le Kirghizistan dépend de l'hydroélectricité, donc du niveau de ses réservoirs. Le Tadjikistan exporte du courant l'été mais en vend moins l'hiver, quand sa propre demande monte ; le niveau du réservoir de la centrale de Nourek a baissé de 2,47 m en un an [2].",
+      "En novembre 2025, le Kirghizistan avait déjà suspendu toutes ses fermes de minage jusqu'en mars 2026 ; Caspian Post ne dit pas ce qu'il en est depuis le printemps [5].",
+      "La Banque mondiale estime que la demande d'électricité de la région pourrait tripler d'ici 2050 si la tendance se poursuit [3]. Les sources consultées ne précisent pas la base de calcul de la prévision de 27 % de la BEAD [4]."
     ],
-    "forMe": "Loin de chez toi, mais utile à savoir : les cryptomonnaies consomment de l'électricité réelle, et des pays entiers doivent parfois choisir entre elles et le chauffage [1][2].",
+    "forMe": "Loin de chez toi, mais utile à savoir : les cryptomonnaies consomment de l'électricité réelle, et des pays entiers doivent parfois choisir entre elles et le chauffage [1][5].",
     "figures": [
       {
         "value": "× 3",
@@ -433,6 +555,16 @@ window.GEOCO.news = [
         "short": "Caspian Post",
         "name": "Caspian Post, « Winter is Coming: Why Resource-Rich Central Asia is Facing an Energy Shortage »",
         "url": "https://caspianpost.com/opinion/winter-is-coming-why-resource-rich-central-asia-is-facing-an-energy-shortage"
+      },
+      {
+        "short": "Times of Central Asia (BEAD)",
+        "name": "The Times of Central Asia, « Central Asia Electricity Demand Expected to Rise 27% by 2030, EDB Says »",
+        "url": "https://timesca.com/central-asia-electricity-demand-expected-to-rise-27-by-2030-edb-says/"
+      },
+      {
+        "short": "Caspian Post (minage)",
+        "name": "Caspian Post, « Kyrgyzstan Temporarily Shuts Down Crypto Mining Farms Amid Energy Shortages »",
+        "url": "https://caspianpost.com/kyrgyzstan/kyrgyzstan-temporarily-shuts-down-crypto-mining-farms-amid-energy-shortages"
       }
     ]
   },
@@ -460,17 +592,23 @@ window.GEOCO.news = [
       }
     ],
     "title": "Le Bhoutan reçoit un Premier ministre thaïlandais pour la première fois depuis huit ans",
-    "summary": "Anutin Charnvirakul signe trois accords au royaume himalayen : santé, finance agricole verte et énergie solaire.",
+    "summary": "Le Premier ministre thaïlandais Anutin Charnvirakul est à Thimphou du 30 octobre au 1er novembre, une première pour un chef de gouvernement de son pays en huit ans. Trois accords sont signés (santé, finance agricole, énergie propre) et le libre-échange entre les deux pays est relancé [1][2][4].",
     "points": [
-      "Le Premier ministre thaïlandais Anutin Charnvirakul est en visite officielle au Bhoutan du 30 octobre au 1er novembre, la première d'un chef de gouvernement thaïlandais en huit ans [1][3].",
-      "La Thaïlande et le Bhoutan ont signé trois accords : santé, financement agricole « vert » et aide technique pour un projet solaire de 100 MW [2].",
-      "Les deux pays veulent aussi s'appuyer sur leur accord de libre-échange pour augmenter échanges et investissements [1][2]."
+      "Anutin Charnvirakul effectue une visite officielle au Bhoutan du 30 octobre au 1er novembre 2026, la première d'un Premier ministre thaïlandais depuis huit ans, à l'occasion du 37e anniversaire des relations diplomatiques [1][3][4].",
+      "Les discussions avec le Premier ministre bhoutanais, Tshering Tobgay, ont eu lieu le 30 octobre au bureau du Premier ministre, à Thimphou [4][5].",
+      "Trois accords ont été signés à Thimphou le samedi 31 octobre, en présence d'Anutin : santé, finance agricole et énergie propre, dont une aide technique pour un projet solaire de 100 MW [2][4].",
+      "L'accord de santé, conclu entre les ministères de la Santé des deux pays, couvre la couverture santé universelle, la prévention et le contrôle des maladies, la formation du personnel médical et la recherche ; il prévoit aussi que des patients bhoutanais puissent être soignés dans les hôpitaux publics thaïlandais [4].",
+      "Selon le porte-parole du gouvernement thaïlandais, Ekkapob Pianpises, ces accords visent à échanger savoir-faire et technologies, améliorer les soins, ouvrir l'accès au crédit aux agriculteurs et aux petites entreprises, et soutenir les énergies renouvelables [4].",
+      "Les deux dirigeants ont salué l'accord de libre-échange entre leurs pays, qu'ils espèrent voir entrer en vigueur le 1er janvier 2027 [5].",
+      "Le 1er novembre, Anutin doit se rendre à Gelephu pour le « Projet 108 », qui vise à achever 108 stupas en une seule journée ; il a dit qu'il fallait étudier d'autres investissements dans cette zone, au potentiel économique important [4]."
     ],
     "why": [
-      "À retenir : le Bhoutan, petit royaume coincé entre l'Inde et la Chine, diversifie ses partenaires, et la Thaïlande y gagne un allié peu banal [1][3].",
-      "La visite coïncide avec le 37e anniversaire des relations diplomatiques et avec un événement important à Gelephu le 1er novembre [1]."
+      "À retenir : le Bhoutan, petit royaume himalayen enclavé entre l'Inde et la Chine, ajoute à ses partenaires un voisin lointain d'Asie du Sud-Est, et la Thaïlande y gagne un allié peu banal [1][3].",
+      "Les trois accords sont concrets : des soins accessibles dans les hôpitaux thaïlandais, du crédit pour les agriculteurs et les petites entreprises, du solaire. Ils touchent à la vie quotidienne plutôt qu'à la seule diplomatie [2][4].",
+      "Le libre-échange est le cadre économique de la relation : les deux dirigeants le décrivent comme un mécanisme important pour augmenter les échanges et créer de nouvelles occasions économiques, mais son entrée en vigueur n'est espérée que pour le 1er janvier 2027 [5].",
+      "Gelephu, où Anutin se rend le 1er novembre, est citée par le Premier ministre thaïlandais comme une zone à fort potentiel pour de futurs investissements ; aucun accord précis sur Gelephu n'a été signalé à ce stade [4]."
     ],
-    "forMe": "Un petit pays peu connu s'ouvre à l'énergie solaire et à l'agriculture verte : l'Asie du Sud et du Sud-Est tissent des liens sans passer par les grandes puissances [1][2].",
+    "forMe": "Cette visite ne change rien à ton quotidien en France. Elle montre comment des pays moyens d'Asie nouent des accords directs (santé, agriculture, solaire, commerce) sans passer par les grandes puissances, ce qui pèse peu à peu sur les routes commerciales de la région [4][5].",
     "figures": [
       {
         "value": "8 ans",
@@ -505,6 +643,26 @@ window.GEOCO.news = [
         "short": "MGR Online",
         "name": "MGR Online, « Anutin departs on official visit to Bhutan »",
         "url": "https://en.mgronline.com/politics/anutin-departs-on-official-visit-to-bhutan-to-strengthen-relations-cooperate-on/"
+      },
+      {
+        "short": "Bangkok Post",
+        "name": "Bangkok Post, « Thailand, Bhutan sign three deals »",
+        "url": "https://www.bangkokpost.com/thailand/general/3346184/thailand-bhutan-sign-three-deals"
+      },
+      {
+        "short": "Nation Thailand (libre-échange)",
+        "name": "The Nation (Thaïlande), « Anutin and Bhutanese PM seek closer economic ties through FTA »",
+        "url": "https://www.nationthailand.com/news/world/40072964"
+      }
+    ],
+    "next": [
+      {
+        "when": "1er novembre 2026",
+        "what": "Anutin se rend à Gelephu pour le Projet 108 (108 stupas en une journée) [4]."
+      },
+      {
+        "when": "1er janvier 2027",
+        "what": "Date espérée par les deux pays pour l'entrée en vigueur de l'accord de libre-échange [5]."
       }
     ]
   },
@@ -524,17 +682,23 @@ window.GEOCO.news = [
       }
     ],
     "title": "L'Inde veut fabriquer ses propres conteneurs maritimes : dix fois plus d'ici quelques années",
-    "summary": "Le gouvernement débloque 10 000 crores de roupies pour produire des conteneurs aujourd'hui importés.",
+    "summary": "Le 28 octobre 2026, le cabinet indien a approuvé un plan de 10 000 crores de roupies (environ 1 milliard de dollars) pour fabriquer des conteneurs maritimes en Inde. Le but : passer d'environ 70 000 à 750 000 EVP par an, sur un programme qui court de 2027-28 à 2039-40 [1][2][4][5].",
     "points": [
-      "Le gouvernement indien a approuvé un plan de 10 000 crores de roupies (le « Container Manufacturing Promotion Scheme ») pour fabriquer des conteneurs dans le pays [1][2].",
-      "L'objectif est de passer d'environ 70 000 conteneurs-équivalents (EVP) par an à 750 000 [1].",
-      "Le plan court de 2027-28 à 2039-40 : trois ans pour construire les usines, puis dix ans de soutien à la production ; chaque nouvelle usine doit produire au moins 100 000 EVP par an [1][2]."
+      "Le cabinet de l'Union indienne a approuvé le mercredi 28 octobre 2026 le « Container Manufacturing Promotion Scheme » (CMPS), doté de 10 000 crores de roupies, annoncé à l'origine dans le budget présenté en février par la ministre des Finances Nirmala Sitharaman [1][4][5].",
+      "La capacité annuelle de fabrication doit passer d'environ 70 000 EVP (équivalents vingt pieds) à 750 000 EVP [1][5].",
+      "L'enveloppe se répartit ainsi : 8 891 crores pour une aide à l'exploitation, 859 crores pour des intérêts d'emprunt pris en charge (3 % par an sur les prêts à terme éligibles), 150 crores pour les essais et la certification, 100 crores pour la gestion et la formation [1][4][5].",
+      "Les fabricants touchent 49 500 roupies par conteneur de 20 pieds produit et vendu, et 86 625 roupies par conteneur de 40 pieds [4][5].",
+      "Une nouvelle usine doit produire au moins 100 000 EVP par an ; une usine existante doit ajouter au moins 25 000 EVP [1][5].",
+      "Le plan court de 2027-28 à 2039-40 : trois ans pour construire les usines, puis dix ans de soutien à la production [1][2].",
+      "Les estimations parlent d'environ 3 000 emplois directs et de plus de 50 000 emplois indirects [4][5]."
     ],
     "why": [
-      "À retenir : l'Inde cherche à ne plus dépendre de l'étranger pour un maillon de base du commerce mondial, le conteneur [1][3].",
-      "La mesure avait été annoncée dans le budget 2026-27 ; la plus grande part (8 891 crores) sert à aider les usines à produire [1][3]."
+      "À retenir : l'Inde veut cesser d'importer un maillon de base du commerce mondial, le conteneur, alors que ses ports et ses exportations croissent [1][3].",
+      "Le mécanisme est un paiement à l'unité : l'aide n'est versée que pour les conteneurs réellement produits et vendus, ce qui évite de financer des usines qui ne tournent pas [4][5].",
+      "Les seuils de capacité (100 000 EVP pour une nouvelle usine) visent des sites de taille industrielle plutôt que de petits ateliers : à raison de 100 000 EVP par site, atteindre 750 000 EVP suppose plusieurs usines [1][5].",
+      "Le programme s'étale sur 13 ans : l'effet sur les prix du transport ne se verra donc pas avant la fin des constructions, prévue au bout de trois ans [1][2]."
     ],
-    "forMe": "Presque tout ce que tu achètes a voyagé dans un conteneur : qui les fabrique, et à quel prix, joue sur le coût du transport maritime [1][3].",
+    "forMe": "Presque tout ce que tu achètes a voyagé dans un conteneur : qui les fabrique, et à quel prix, joue à long terme sur le coût du transport maritime et sur la dépendance des chaînes d'approvisionnement, mais ce plan ne devrait pas changer tes prix avant plusieurs années [1][3][5].",
     "figures": [
       {
         "value": "× 10",
@@ -545,6 +709,11 @@ window.GEOCO.news = [
         "value": "10 000 crores",
         "label": "de roupies d'aide publique",
         "src": 2
+      },
+      {
+        "value": "8 891 crores",
+        "label": "de roupies pour l'aide à la production",
+        "src": 4
       }
     ],
     "culture": [],
@@ -566,6 +735,22 @@ window.GEOCO.news = [
         "short": "Maritime Gateway",
         "name": "Maritime Gateway, « Container Manufacturing Promotion Scheme Wins ₹10,000 Crore Cabinet Approval »",
         "url": "https://www.maritimegateway.com/container-manufacturing-promotion-scheme-wins-%E2%82%B910000-crore-cabinet-approval/"
+      },
+      {
+        "short": "Business Standard",
+        "name": "Business Standard, « Cabinet approves ₹10,000 crore scheme to boost container manufacturing »",
+        "url": "https://www.business-standard.com/economy/news/cabinet-approves-10-000-crore-scheme-to-boost-container-manufacturing-126102801586_1.html"
+      },
+      {
+        "short": "Container News",
+        "name": "Container News, « India approves major container manufacturing support scheme »",
+        "url": "https://container-news.com/india-approves-major-container-manufacturing-support-scheme/"
+      }
+    ],
+    "next": [
+      {
+        "when": "2027-28",
+        "what": "Début de la période de soutien du programme, après la construction des usines [1][2]."
       }
     ]
   },
@@ -585,17 +770,22 @@ window.GEOCO.news = [
       }
     ],
     "title": "Le Vietnam veut garder ses plus grandes banques sous contrôle de l'État",
-    "summary": "Le gouvernement fixe un plancher de 65 % de capital public dans les grandes banques publiques d'ici 2030.",
+    "summary": "Le Vietnam a approuvé un plan de restructuration du capital public pour 2026-2030 qui concerne 21 entreprises. Dans les trois grandes banques BIDV, Vietcombank et VietinBank, l'État doit garder au moins 65 % du capital d'ici 2030 ; Agribank reste à 100 % public [1][2][5].",
     "points": [
-      "Le Vietnam a approuvé un plan fixant à 65 % au moins la part de l'État dans les grandes banques publiques d'ici 2030 [1][2][3].",
-      "L'État détient aujourd'hui environ 76,7 % de BIDV, 74,8 % de Vietcombank et 64,5 % de VietinBank, qui doit donc encore monter un peu [4].",
-      "Agribank reste, elle, détenue à 100 % par l'État jusqu'en 2030 ; le texte ne dit pas comment les objectifs seront atteints [4]."
+      "Le plan, approuvé selon les médias par le vice-Premier ministre Nguyen Van Thang et rendu public le 28 octobre 2026, couvre 21 entreprises publiques ou à capitaux publics pour la période 2026-2030 [2][4][5].",
+      "Pour BIDV, Vietcombank et VietinBank, la part minimale de l'État est fixée à 65 % d'ici 2030 [1][2][3].",
+      "BIDV (76,73 % aujourd'hui) et Vietcombank (74,8 %) pourraient donc voir la part publique baisser jusqu'à 65 % ; VietinBank est la seule qui doit monter, de 64,46 % à 65 %, soit 0,54 point de plus [4][5].",
+      "Agribank reste détenue à 100 % par l'État jusqu'en 2030 [4][5].",
+      "Le texte ne dit pas comment ces objectifs seront atteints ; le ministère des Finances et la Banque d'État du Vietnam sont chargés de la mise en oeuvre [4][5].",
+      "Le plan prévoit aussi de faire passer la part de l'État dans Vietnam Airlines de 39,29 % à 86,42 % [5]."
     ],
     "why": [
-      "À retenir : alors que beaucoup de pays vendent des parts de leurs banques, Hanoï choisit de garder la main sur le crédit de l'économie [1][2].",
-      "Contrôler les banques permet d'orienter les prêts vers les secteurs jugés stratégiques, mais limite la place des investisseurs privés [1][2]."
+      "À retenir : alors que beaucoup de pays vendent des parts de leurs banques, Hanoï fixe un plancher pour garder la main sur le crédit de son économie [1][2].",
+      "Le plancher de 65 % laisse un peu de marge : l'État peut céder une dizaine de points de BIDV et de Vietcombank, par exemple en ouvrant leur capital à des investisseurs, tout en gardant le contrôle [4][5].",
+      "Contrôler les banques permet d'orienter les prêts vers les secteurs jugés stratégiques, mais limite la place des investisseurs privés et étrangers au capital [1][2].",
+      "Le plan dépasse les banques : le Vietnam relève aussi la part publique dans sa compagnie aérienne, ce qui montre une logique de contrôle des groupes jugés stratégiques [1][5]."
     ],
-    "forMe": "Le Vietnam est devenu un atelier du monde pour l'électronique et le textile : la façon dont il finance ses usines concerne indirectement les produits que tu achètes [1][2].",
+    "forMe": "Le Vietnam est devenu un atelier du monde pour l'électronique et le textile : la façon dont il finance ses usines concerne indirectement les produits que tu achètes, même si ce plan n'a pas d'effet direct sur toi [1][2].",
     "figures": [
       {
         "value": "65 %",
@@ -630,6 +820,17 @@ window.GEOCO.news = [
         "short": "Retail Banker",
         "name": "Retail Banker International, « Vietnam sets 65% state ownership floor for key banks by 2030 »",
         "url": "https://www.retailbankerinternational.com/news/vietnam-sets-65-state-ownership-floor-for-banks/"
+      },
+      {
+        "short": "Xinhua",
+        "name": "Xinhua, « Vietnam to restructure state capital in major enterprises » (29 octobre 2026)",
+        "url": "https://english.news.cn/asiapacific/20261029/4db3882d2a6c4592a92689c35fd49f04/c.html"
+      }
+    ],
+    "next": [
+      {
+        "when": "2030",
+        "what": "Échéance pour que l'État détienne au moins 65 % de BIDV, Vietcombank et VietinBank [1][2]."
       }
     ]
   },
@@ -649,17 +850,22 @@ window.GEOCO.news = [
       }
     ],
     "title": "Cambodge : presque moitié moins de touristes étrangers qu'il y a un an",
-    "summary": "2,46 millions de visiteurs entre janvier et septembre, contre 4,38 millions un an plus tôt.",
+    "summary": "Le Cambodge a accueilli 2,46 millions de touristes étrangers de janvier à septembre 2026, contre 4,38 millions un an plus tôt, soit 43,7 % de moins. Selon le ministre du Tourisme, Huot Hak, les réseaux d'arnaques en ligne, les tensions avec la Thaïlande et le carburant cher expliquent ce recul [1][2].",
     "points": [
-      "Le Cambodge a reçu 2 464 033 touristes étrangers de janvier à septembre 2026, contre 4 377 466 à la même période de 2025, soit −43,7 % [1][2].",
-      "Les Vietnamiens (−28 %, 651 486) et les Chinois (−27,6 %, 643 314) restent les premiers visiteurs mais diminuent nettement ; les Américains reculent de 5,6 % [1].",
-      "Le ministre du Tourisme cite la mauvaise publicité liée aux réseaux d'arnaques en ligne, les frictions à la frontière avec la Thaïlande et la hausse du carburant due aux conflits au Moyen-Orient [1][2]."
+      "Le ministère du Tourisme a publié le 27 octobre 2026 un bilan de 2 464 033 touristes étrangers de janvier à septembre, contre 4 377 466 à la même période de 2025, soit −43,7 % [1][2].",
+      "Le Vietnam reste le premier marché avec 651 486 visiteurs (−28 %), devant la Chine avec 643 314 (−27,6 %) ; les Américains ne reculent que de 5,6 %, à 140 276 [1][2]. Le Vietnam a ainsi dépassé la Chine comme première source de visiteurs [3].",
+      "Le ministre Huot Hak attribue la baisse à la mauvaise publicité liée aux réseaux d'arnaques en ligne, aux frictions à la frontière avec la Thaïlande et aux conflits au Moyen-Orient, qui ont fait monter le prix du carburant et refroidi l'envie de voyager [1][2].",
+      "Le recul dure depuis des mois : le cumul était de −44,4 % sur les huit premiers mois de 2026 [5], il est de −43,7 % sur neuf mois [1][2].",
+      "À Angkor, 510 528 visiteurs étrangers ont acheté un billet de janvier à septembre, soit 27,6 % de moins qu'un an plus tôt ; les recettes de billets atteignent 24,23 millions de dollars (−25,9 %) [4]. Le site recule donc moins que le pays entier [1][4].",
+      "Les sources officielles parlent de « frictions » à la frontière thaïlandaise, sans détailler son effet sur les entrées par la route [1][2]."
     ],
     "why": [
-      "À retenir : le tourisme est un pilier de l'économie cambodgienne, et ce choc touche hôtels, guides et commerces autour d'Angkor [1][2].",
-      "Les sources ne mesurent pas la part de chaque cause dans la baisse [1][2]."
+      "À retenir : une baisse de plus de 40 % en neuf mois est un choc pour un pays où le tourisme est un pilier de l'économie, et il touche hôtels, guides et commerces autour d'Angkor [1][2][4].",
+      "Le ministre cite trois causes, mais les sources ne disent pas le poids de chacune dans la baisse [1][2]. Ce qui est mesuré, c'est l'écart selon l'origine : les deux grands voisins asiatiques perdent plus d'un quart de leurs visiteurs, les Américains un peu plus d'un vingtième [1][2].",
+      "Le lien avec la guerre autour d'Ormuz passe par le carburant : selon le ministre, le conflit au Moyen-Orient a fait monter son prix et freiné l'envie de voyager dans le monde [1][2].",
+      "Le ministère publie ses chiffres chaque mois (huit mois puis neuf mois), ce qui permet de suivre si le cumul annuel se stabilise [1][5]."
     ],
-    "forMe": "Le prix du carburant lié à la guerre autour d'Ormuz se répercute jusque sur les voyages en Asie du Sud-Est, et donc sur les destinations que tu peux envisager [1][2].",
+    "forMe": "Le prix du carburant lié à la guerre autour d'Ormuz se répercute jusque sur les voyages en Asie du Sud-Est, et donc sur les destinations que tu peux envisager. Si tu comptes visiter Angkor, sache que le site accueille nettement moins d'étrangers qu'avant [1][2][4].",
     "figures": [
       {
         "value": "−43,7 %",
@@ -670,6 +876,16 @@ window.GEOCO.news = [
         "value": "2,46 M",
         "label": "visiteurs contre 4,38 M en 2025",
         "src": 1
+      },
+      {
+        "value": "−5,6 %",
+        "label": "Américains, contre −28 % pour le Vietnam",
+        "src": 2
+      },
+      {
+        "value": "−27,6 %",
+        "label": "visiteurs étrangers à Angkor, janv.–sept.",
+        "src": 4
       }
     ],
     "culture": [],
@@ -684,6 +900,21 @@ window.GEOCO.news = [
         "short": "Khaosod English",
         "name": "Khaosod English (Xinhua), « Cambodia's int'l tourist arrivals plunge 43.7 pct in Jan.-Sept. » (27 octobre 2026)",
         "url": "https://www.khaosodenglish.com/news/asean/2026/10/27/cambodias-intl-tourist-arrivals-plunge-43-7-pct-in-jan-sept/"
+      },
+      {
+        "short": "VietnamPlus",
+        "name": "VietnamPlus, « Foreign tourist arrivals to Cambodia plunge 43.7% in nine months »",
+        "url": "https://en.vietnamplus.vn/foreign-tourist-arrivals-to-cambodia-plunge-437-in-nine-months-post354464.vnp"
+      },
+      {
+        "short": "The Star",
+        "name": "The Star (Xinhua), « Cambodia's Angkor international tourist arrivals plunge 27.6 per cent in first nine months » (1er octobre 2026)",
+        "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/01/cambodia039s-angkor-international-tourist-arrivals-plunge-276-per-cent-in-first-nine-months"
+      },
+      {
+        "short": "Xinhua",
+        "name": "Xinhua, « Cambodia's int'l tourist arrivals drop 44.4 pct in first 8 months of 2026 » (23 septembre 2026)",
+        "url": "https://english.news.cn/20260923/6f1f7584d35f48dfb3eb824b177dde9d/c.html"
       }
     ]
   },
@@ -704,17 +935,22 @@ window.GEOCO.news = [
       }
     ],
     "title": "Ormuz : l'Iran affirme que trois pétroliers ont sauté sur des mines, Washington dément",
-    "summary": "Les attaques contre les navires n'ont jamais été aussi nombreuses qu'en octobre, et les flux de pétrole baissent.",
+    "summary": "Les Gardiens de la Révolution iraniens affirment que trois pétroliers ont heurté des mines dans le détroit d'Ormuz ; le Commandement central américain (Centcom) assure qu'aucun navire n'en a touché. Octobre compte pourtant deux fois plus d'attaques que septembre, et le Brent a clôturé à 117,64 $ [1][2][6].",
     "points": [
-      "Les Gardiens de la Révolution iraniens affirment que trois pétroliers ont heurté des mines et pris feu dans le détroit d'Ormuz ; l'armée américaine nie, assurant que les routes principales ont été déminées [1][2].",
-      "Selon CNBC, plus de navires, surtout des pétroliers, ont été attaqués en octobre qu'à tout autre moment de la guerre, et le brut a pris plus de 13 % sur le mois [1].",
-      "Les exportations de brut par Ormuz ont atteint en moyenne près de 11,1 millions de barils par jour en octobre, mais seulement 7,3 millions la semaine finissant mercredi, plus de 40 % sous le niveau d'avant-guerre selon Kpler [1]."
+      "Les Gardiens de la Révolution affirment que trois pétroliers, dont un supertanker de plus de 2 millions de barils, ont heurté des mines et pris feu sur les routes sud du détroit les 29 et 30 octobre ; ces affirmations n'ont pas pu être confirmées de façon indépendante [2][7].",
+      "Le Centcom répond sur X que « aucun navire n'a heurté de mine » dans le détroit et que toutes les routes de transit principales reconnues au niveau international ont été déminées par les forces américaines [2][6].",
+      "CNBC compte deux fois plus d'attaques de navires en octobre qu'en septembre, où 15 incidents avaient été confirmés ; c'est plus que tout autre mois de la guerre [1].",
+      "Selon Kpler, le coût de transport du brut est monté à environ 21 $ le baril, contre 6,50 $ en septembre [1].",
+      "Les exportations de brut par Ormuz ont atteint en moyenne près de 11,1 millions de barils par jour en octobre (environ 2 % sous septembre), mais seulement 7,3 millions la semaine finissant le mercredi 28, plus de 40 % sous le niveau d'avant-guerre [1].",
+      "Le contrat de décembre du Brent, qui expirait le 30 octobre, a clôturé à 117,64 $, près du record de la guerre (118,35 $ en mars) ; le Brent a pris 13,6 % sur le mois et le WTI 15 % [1][4][5]."
     ],
     "why": [
       "À retenir : même sous les attaques, des pétroliers continuent de passer, mais en moins grand nombre, et le marché le paie [1].",
-      "Le contrat de décembre du Brent, qui expirait le 30 octobre, a clôturé à 117,64 dollars, tout près du record de la guerre (118,35 $ en mars) ; le Brent a pris 13,6 % sur le mois [1][4][5]."
+      "Le mécanisme est celui du coût : quand le risque monte, le transport coûte plus cher, et CNBC cite un analyste selon qui cela « commence à peser sur les marges » des raffineurs. Certains opérateurs envoient désormais leurs propres navires affronter le passage [1].",
+      "La dispute sur les mines est une affirmation contestée : l'Iran dit, Washington dément, et aucune source indépendante ne tranche [2][6][7]. Ce qui est établi, c'est la baisse des flux de la dernière semaine, de 11,1 à 7,3 millions de barils par jour [1].",
+      "Côté prix, le Brent est à moins d'un dollar de son sommet de mars (117,64 $ contre 118,35 $) après une hausse de 13,6 % en octobre : le marché pétrolier réagit au risque, avant même que les flux ne s'effondrent [1][4][5]."
     ],
-    "forMe": "Un pétrole cher se paie à la pompe et dans la facture de chauffage : la tension à Ormuz touche directement ton budget [1][3].",
+    "forMe": "Un pétrole cher se paie à la pompe et dans la facture de chauffage : la tension à Ormuz touche directement ton budget. Plus les flux baissent et plus le transport coûte cher, plus la hausse risque de durer [1][3].",
     "figures": [
       {
         "value": "7,3 M",
@@ -730,6 +966,16 @@ window.GEOCO.news = [
         "value": "117,64 $",
         "label": "Brent (contrat de décembre), clôture du 30 octobre",
         "src": 4
+      },
+      {
+        "value": "×2",
+        "label": "attaques de navires, octobre contre septembre (15)",
+        "src": 1
+      },
+      {
+        "value": "~21 $",
+        "label": "coût de transport par baril, contre 6,50 $ en septembre",
+        "src": 1
       }
     ],
     "culture": [],
@@ -761,6 +1007,16 @@ window.GEOCO.news = [
         "short": "The Nation",
         "name": "The Nation (Thaïlande), « Brent ends October up 13.6% as Iran war risks unsettle markets » (31 octobre 2026)",
         "url": "https://www.nationthailand.com/news/world/40072956"
+      },
+      {
+        "short": "Centcom",
+        "name": "Commandement central américain (Centcom) sur X, démenti des revendications des Gardiens de la Révolution (octobre 2026)",
+        "url": "https://x.com/CENTCOM/status/2094411076729262413"
+      },
+      {
+        "short": "Qazinform",
+        "name": "Qazinform, « Iran reports three tanker mine strikes in Hormuz; U.S. disputes claims »",
+        "url": "https://qazinform.com/news/iran-reports-three-tanker-mine-strikes-in-hormuz-us-disputes-claims-c3ee1c"
       }
     ]
   },
@@ -788,17 +1044,22 @@ window.GEOCO.news = [
       }
     ],
     "title": "Venezuela : l'opposante Machado rentre d'exil et réclame des élections, en critiquant l'accord pétrolier avec les États-Unis",
-    "summary": "Après environ dix mois à l'étranger, elle demande un vote en 2027 et plus de transparence sur le pétrole.",
+    "summary": "María Corina Machado, prix Nobel de la paix, est rentrée au Venezuela le 25 octobre après plus de dix mois d'exil. Le 29, elle a demandé des élections en 2027 et jugé trop opaque l'accord pétrolier conclu avec les États-Unis par la présidente par intérim Delcy Rodríguez, qui promet un vote sans date [1][4][6].",
     "points": [
-      "María Corina Machado est rentrée au Venezuela le 25 octobre après environ dix mois d'exil, puis s'est rendue à Caracas ; elle demande des élections et a remercié Donald Trump pour son soutien [1][2][4][5].",
-      "Elle critique l'accord pétrolier signé par la dirigeante par intérim Delcy Rodríguez avec les États-Unis, qu'elle juge opaque [1].",
-      "Donald Trump a marqué la première livraison de pétrole vénézuélien à Corpus Christi (Texas) quelques jours après son retour ; Delcy Rodríguez promet des élections sans date [1][3]."
+      "María Corina Machado, prix Nobel de la paix, est rentrée au Venezuela le 25 octobre 2026 après plus de dix mois d'exil [1][4][5].",
+      "Le 29 octobre, lors de sa première conférence de presse à l'université catholique Andrés Bello de Caracas, elle a réclamé des élections en 2027 et remercié l'administration Trump pour l'opération du 3 janvier qui a écarté Nicolás Maduro, une « porte de la liberté » ouverte selon elle [1].",
+      "Elle critique l'accord pétrolier : « Cet accord ne reflète pas les niveaux de transparence que la société vénézuélienne souhaite », a-t-elle dit, en précisant ne pas avoir vu le contrat [1].",
+      "Al Jazeera décrit un accord qui livrerait 20 % des réserves pétrolières du pays [1] ; le Rio Times écrit que le Pentagone y détient 35 % et que le contrat n'est pas public [7].",
+      "Un premier million de barils de brut vénézuélien est arrivé à Corpus Christi (Texas) le 27 octobre, sur deux pétroliers ; Donald Trump a salué la livraison [3][7].",
+      "Delcy Rodríguez affirme que les élections seront organisées par une « autorité électorale renouvelée », selon la Constitution, mais sans fixer de date [1][6]."
     ],
     "why": [
-      "À retenir : le Venezuela est dirigé par l'adjointe de Maduro, capturé par les États-Unis en janvier, et son pétrole part désormais vers le Texas [1][2].",
-      "La question est de savoir quand les Vénézuéliens voteront, et qui profitera du pétrole [1][3]."
+      "À retenir : Machado ne s'oppose pas à Washington, elle remercie Donald Trump, mais veut une date de vote et la publication du contrat pétrolier [1].",
+      "Delcy Rodríguez, ancienne vice-présidente de Maduro, dirige le pays depuis la capture de celui-ci par les États-Unis en janvier, et NPR rappelle qu'une grande partie des Vénézuéliens la rejettent en raison de son rôle sous Maduro [1][6].",
+      "Washington pousse lui aussi pour un scrutin : le secrétaire d'État Marco Rubio veut une Cour suprême et un conseil électoral non partisans en place d'ici quelques mois, puis le départ de Rodríguez et un vote dans les six mois ; il dit juger la dirigeante « sur ses actes » [6].",
+      "Les deux dossiers sont liés : le pétrole part déjà vers le Texas, alors que ni la date du vote ni le contenu du contrat ne sont connus [1][3][7]."
     ],
-    "forMe": "Plus de pétrole vénézuélien sur le marché peut aider à calmer les prix de l'énergie, mais l'accord soulève des questions de démocratie et de transparence [1][3].",
+    "forMe": "Plus de pétrole vénézuélien sur le marché peut aider à calmer les prix de l'énergie, mais l'accord soulève des questions de démocratie et de transparence. Tant que le contrat reste secret, on ne sait pas qui en profite [1][3][7].",
     "figures": [
       {
         "value": "~ 10 mois",
@@ -809,6 +1070,16 @@ window.GEOCO.news = [
         "value": "25 octobre",
         "label": "retour de Machado au Venezuela",
         "src": 4
+      },
+      {
+        "value": "1 M",
+        "label": "barils arrivés à Corpus Christi le 27 octobre",
+        "src": 7
+      },
+      {
+        "value": "6 mois",
+        "label": "délai de vote prévu après le départ de Rodríguez, selon le plan américain",
+        "src": 6
       }
     ],
     "culture": [],
@@ -838,6 +1109,22 @@ window.GEOCO.news = [
         "short": "Time",
         "name": "Time, « Exiled Opposition Leader María Corina Machado Returns to Venezuela » (26 octobre 2026)",
         "url": "https://time.com/article/2026/10/26/venezuela-maria-corina-machado-return-opposition-election-democracy/"
+      },
+      {
+        "short": "NPR",
+        "name": "NPR, « Pressure grows for Venezuela's authoritarian regime as opposition leader Machado returns » (29 octobre 2026)",
+        "url": "https://www.npr.org/2026/10/29/nx-s1-6019294/pressure-grows-for-venezuelas-authoritarian-regime-as-opposition-leader-machado-returns"
+      },
+      {
+        "short": "Rio Times",
+        "name": "The Rio Times, « Venezuela Oil Deal: Pentagon Has 35% and No Public Contract »",
+        "url": "https://www.riotimesonline.com/machado-questions-venezuela-oil-deal-2026/"
+      }
+    ],
+    "next": [
+      {
+        "when": "Dans les prochains mois",
+        "what": "Marco Rubio veut que la Cour suprême et le conseil électoral non partisans soient installés ; le vote suivrait dans les six mois après le départ de Delcy Rodríguez [6]."
       }
     ]
   },
@@ -865,17 +1152,22 @@ window.GEOCO.news = [
       }
     ],
     "title": "Le Pérou veut copier la mégaprison du Salvador : Keiko Fujimori visite le CECOT",
-    "summary": "La présidente péruvienne annonce deux nouvelles prisons, dont une sur le modèle salvadorien.",
+    "summary": "La présidente du Pérou, Keiko Fujimori, a visité le 29 octobre le CECOT, la mégaprison du Salvador, puis rencontré Nayib Bukele. Elle annonce deux nouvelles prisons au Pérou, dont une inspirée du CECOT, sans coût ni calendrier publiés. Des ONG alertent sur le coût humain du modèle.",
     "points": [
-      "La présidente du Pérou Keiko Fujimori a visité le jeudi 29 octobre le CECOT, la prison de très haute sécurité construite par Nayib Bukele au Salvador [1][2].",
-      "Elle a annoncé que le Pérou construirait deux nouvelles prisons, l'une inspirée du CECOT et l'autre à sécurité moindre, sans donner de coût ni de date [3].",
-      "Bukele a dit que le Salvador partagerait son expérience pour que le Pérou l'adapte à ses lois [3]."
+      "Keiko Fujimori, présidente du Pérou, a visité le jeudi 29 octobre le CECOT (Centre de confinement du terrorisme), la prison de très haute sécurité construite par le président salvadorien Nayib Bukele, lors d'un déplacement officiel de quatre jours au Salvador [1][4].",
+      "Le déplacement comprenait aussi un sommet bilatéral avec Nayib Bukele ; selon Latin Times, il a débouché sur des accords de coopération couvrant la sécurité publique, la gestion pénitentiaire et la prévention du crime [2][4].",
+      "Après la visite, elle a annoncé que le Pérou construirait deux nouvelles prisons : l'une pour les détenus les plus dangereux, sur le modèle du CECOT, l'autre pour des détenus jugés moins dangereux [3][4].",
+      "Elle a dit que cette visite « va nous inspirer beaucoup pour pouvoir reproduire ces prisons », en lien avec six prisons déjà en construction au Pérou, qui intégreraient le modèle de Bukele [4].",
+      "Les propositions salvadoriennes seront évaluées selon la législation péruvienne ; ni le budget, ni les sites, ni les dates des nouvelles prisons n'ont été précisés dans les articles consultés [3][4].",
+      "Le système carcéral péruvien est surpeuplé : les données de l'INPE, l'administration pénitentiaire, indiquent environ 150 % d'occupation en 2026, et l'armée surveille le périmètre de cinq prisons placées en urgence [5]."
     ],
     "why": [
-      "À retenir : le « modèle Bukele » séduit de plus en plus de dirigeants d'Amérique latine face à la criminalité [1][2].",
-      "Le CECOT est devenu célèbre quand l'administration Trump y a envoyé plus de 250 Vénézuéliens expulsés, accusés de liens avec un gang, sans preuves présentées [1]."
+      "À retenir : le « modèle Bukele » séduit de plus en plus de dirigeants d'Amérique latine face à la criminalité, et Keiko Fujimori est la dernière à visiter le CECOT [1][2].",
+      "Le CECOT est devenu célèbre quand l'administration Trump y a envoyé plus de 250 Vénézuéliens expulsés, accusés de liens avec un gang, sans preuves présentées [1].",
+      "Les organisations de défense des droits humains avertissent que ce modèle a un coût humain documenté, lié aux détentions massives et aux conditions d'enfermement ; elles surveillent déjà les projets péruviens [2].",
+      "Côté péruvien, le débat porte sur l'adaptation du modèle au droit national et sur la capacité réelle à financer et construire : le texte complet des accords signés n'est pas publié, et la suite reste à dater [3][4][5]."
     ],
-    "forMe": "La sécurité est devenue un thème électoral majeur dans la région, et les choix faits à Lima ou à San Salvador influencent les débats ailleurs [1][2].",
+    "forMe": "La sécurité est devenue un thème électoral majeur dans la région, et les choix faits à Lima ou à San Salvador influencent les débats ailleurs. Si tu suis l'Amérique latine, retiens que l'annonce est une intention : aucun budget ni calendrier n'est encore publié [1][2][3].",
     "figures": [
       {
         "value": "2",
@@ -905,6 +1197,16 @@ window.GEOCO.news = [
         "short": "Rio Times",
         "name": "The Rio Times, « Peru Plans New Prisons Like El Salvador's »",
         "url": "https://riotimesonline.com/peru-two-new-prisons-cecot-model-fujimori-2026"
+      },
+      {
+        "short": "Infobae (29 oct.)",
+        "name": "Infobae, « Keiko Fujimori confirma en El Salvador que las seis cárceles en construcción en Perú incorporarán el modelo Bukele » (29 octobre 2026)",
+        "url": "https://www.infobae.com/peru/2026/10/29/keiko-fujimori-confirma-en-el-salvador-que-las-seis-carceles-en-construccion-en-peru-incorporaran-el-modelo-bukele/"
+      },
+      {
+        "short": "Diálogo Américas",
+        "name": "Diálogo Américas, « Peru Tightens Prison Security to Break Criminal Command from Behind Bars » (octobre 2026)",
+        "url": "https://dialogo-americas.com/articles/peru-tightens-prison-security-to-break-criminal-command-from-behind-bars/"
       }
     ]
   },
@@ -924,17 +1226,23 @@ window.GEOCO.news = [
       }
     ],
     "title": "Nigeria : l'entrée en Bourse de la raffinerie Dangote attire environ trois fois la somme visée",
-    "summary": "Les ordres atteindraient 6,4 mille milliards de nairas, soit près de 4,8 milliards de dollars.",
+    "summary": "L'offre d'actions de la raffinerie Dangote, à Lagos, s'est close le 27 octobre après 44 jours. Selon Reuters, citant des sources, les ordres atteignent environ 6,4 mille milliards de nairas (4,78 milliards de dollars), près de trois fois l'objectif. L'allocation et la cotation restent à venir.",
     "points": [
-      "L'offre d'actions de la raffinerie Dangote s'est close le 27 octobre ; Aliko Dangote lui-même dit que la demande a atteint trois à quatre fois l'objectif [3].",
-      "D'après Reuters, citant deux sources, les ordres atteignent environ 6,4 mille milliards de nairas (4,78 milliards de dollars), soit près de trois fois l'objectif de 2,15 mille milliards (1,6 milliard de dollars) [1][4].",
-      "Le prix est de 525 nairas par action ; une option pourrait porter l'opération au-delà de 2,1 milliards de dollars, et les petits épargnants seraient servis en priorité [1][2]."
+      "L'offre publique d'actions de la raffinerie Dangote a ouvert le 14 septembre et s'est close le 27 octobre 2026, soit une fenêtre de 44 jours, après une prolongation de deux semaines accordée pour élargir la participation [3][5].",
+      "L'offre porte sur 4,1 milliards d'actions nouvelles à 525 nairas chacune, soit 2,15 mille milliards de nairas (environ 1,6 milliard de dollars) [4].",
+      "D'après Reuters, citant deux sources, les ordres atteignent environ 6,4 mille milliards de nairas (4,78 milliards de dollars), soit près de trois fois l'objectif [1][4].",
+      "Aliko Dangote, fondateur du groupe, dit lui-même que la demande a atteint trois à quatre fois l'objectif [3].",
+      "Une option de sur-allocation pourrait porter l'opération au-delà de 2,1 milliards de dollars, et les petits épargnants seraient servis en priorité [1][2].",
+      "Des investisseurs d'environ 119 pays ont souscrit, selon Legit.ng [5].",
+      "Les chiffres définitifs de souscription et d'allocation n'étaient pas encore publiés ; la cotation à la Bourse de Lagos, visée en novembre à l'origine, serait désormais attendue en décembre selon Legit.ng [5]."
     ],
     "why": [
       "À retenir : cette introduction en Bourse serait l'une des plus grosses d'Afrique, portée par l'appétit des investisseurs pour le raffinage local [1][2].",
-      "Les investisseurs pourraient n'obtenir qu'une partie des titres demandés ; l'allocation et la cotation à la Bourse de Lagos restent à venir [1][2]."
+      "Quand une offre est sursouscrite, la demande dépasse les titres disponibles : les investisseurs n'obtiennent qu'une partie de ce qu'ils ont demandé, et la priorité promise aux petits épargnants joue sur la répartition [1][2].",
+      "Le chiffre de 4,78 milliards de dollars vient de sources anonymes citées par Reuters, pas d'un communiqué officiel : il faut attendre l'annonce de l'allocation pour le confirmer [1][4].",
+      "La demande est supérieure à l'objectif d'environ 2,98 fois (6,4 divisé par 2,15), ce qui correspond à la formule « près de trois fois » retenue par les médias [1][4]."
     ],
-    "forMe": "Un raffineur africain géant réduit la dépendance du continent aux carburants importés, ce qui compte quand le pétrole est cher [1][2].",
+    "forMe": "Un raffineur africain géant réduit la dépendance du continent aux carburants importés, ce qui compte quand le pétrole est cher. Cette actu informe sur le fonctionnement d'une introduction en Bourse et ne constitue pas un conseil d'investissement [1][2].",
     "figures": [
       {
         "value": "~ 3 ×",
@@ -969,6 +1277,17 @@ window.GEOCO.news = [
         "short": "bne IntelliNews",
         "name": "bne IntelliNews, « Nigeria's Dangote refinery $1.6bn IPO attracts $4.78bn in orders, sources say » (octobre 2026)",
         "url": "https://www.intellinews.com/nigeria-s-dangote-refinery-1-6bn-ipo-attracts-4-78bn-in-orders-sources-say-479851"
+      },
+      {
+        "short": "Legit.ng",
+        "name": "Legit.ng, « Dangote Refinery Closes $1.6bn IPO as Investors From 119 Countries Rush for Shares » (octobre 2026)",
+        "url": "https://www.legit.ng/business-economy/capital-market/1738555-dangote-refinery-closes-16bn-ipo-investors-119-countries-rush-shares/"
+      }
+    ],
+    "next": [
+      {
+        "when": "Novembre ou décembre 2026 (date non confirmée)",
+        "what": "Allocation des actions puis cotation à la Bourse de Lagos ; Legit.ng évoque désormais décembre, des sources antérieures novembre [5]."
       }
     ]
   },
@@ -996,17 +1315,22 @@ window.GEOCO.news = [
       }
     ],
     "title": "Afrique : l'Éthiopie et la Zambie ouvrent leurs raffineries d'or pour garder la valeur chez elles",
-    "summary": "L'Éthiopie et la Zambie ont ouvert en octobre leurs premières raffineries d'or, pour vendre du métal pur plutôt que du minerai brut.",
+    "summary": "L'Éthiopie et la Zambie ont ouvert en octobre leurs premières raffineries d'or, pour vendre du métal pur plutôt que du minerai ou de l'or brut. Les deux pays suivent le Burkina Faso, mais les analystes jugent que l'approvisionnement et la certification restent les vrais tests.",
     "points": [
-      "L'Éthiopie a inauguré le 10 octobre sa première raffinerie d'or, près d'Addis-Abeba : 50 millions de dollars d'investissement, une capacité annoncée de plus de 600 tonnes de métaux précieux par an, et l'État majoritaire [1][2].",
-      "La Zambie a présenté fin octobre, au salon minier de Lusaka, sa première raffinerie d'or, capable d'atteindre 99 à 99,99 % de pureté, avec un plan de deux ans pour encadrer l'orpaillage artisanal [3][4].",
-      "L'or est la première exportation de l'Éthiopie (5,6 milliards de dollars sur l'année précédente, selon Reuters), alors que la Zambie dépend surtout du cuivre [1][3]."
+      "L'Éthiopie a inauguré le 10 octobre sa première raffinerie de métaux précieux, dans la zone économique spéciale de Bole Lemi, près d'Addis-Abeba : 50 millions de dollars d'investissement, une capacité annoncée de plus de 600 tonnes de métaux précieux par an, et l'État majoritaire [1][2].",
+      "Le Premier ministre Abiy Ahmed a annoncé le lancement le 12 octobre et dit que la raffinerie traitera aussi l'or d'Éthiopie et d'ailleurs, notamment de pays voisins [1][2].",
+      "L'or est la première exportation de l'Éthiopie : 5,6 milliards de dollars sur l'année précédente, selon Reuters [1].",
+      "La Zambie a présenté fin octobre, au salon Mining and Investment Insaka de Lusaka, la raffinerie de Minera Refineries Zambia Limited : elle affirme atteindre environ 99 % de pureté, et son laboratoire 99,99 % [3][4].",
+      "Le directeur général, Andrew Mukupa Katandula, propose un plan de deux ans : formaliser l'orpaillage artisanal, offrir des préfinancements ciblés aux mineurs et mieux suivre les ventes d'or [3][4].",
+      "Le Burkina Faso a ouvert en septembre Raffinor BF à Ouagadougou, d'une capacité initiale de 164 tonnes par an, avec une seconde phase prévue pour atteindre 515 tonnes [5]."
     ],
     "why": [
-      "À retenir : raffiner sur place rapporte plus que vendre de l'or brut, et limite la contrebande [1][4].",
-      "La capacité éthiopienne dépasse de loin sa propre production : la raffinerie pourrait traiter l'or d'autres pays [1][2]."
+      "À retenir : raffiner sur place rapporte plus que vendre de l'or brut, et peut limiter la contrebande, puisque l'or passe par un circuit contrôlé [1][4].",
+      "La capacité éthiopienne dépasse de loin sa propre production : la raffinerie ne tournera à plein que si elle traite l'or d'autres pays [1][2].",
+      "Pour la Zambie, l'approvisionnement est la contrainte principale : l'usine doit capter assez d'or de mineurs artisanaux pour tourner de façon rentable, d'où le plan de formalisation [3][4].",
+      "Les analystes jugent que posséder une raffinerie ne garantit ni les profits ni le contrôle de la filière : financement et certification internationale restent des obstacles, et la Guinée a, elle, interdit les exportations d'or brut [4][5]."
     ],
-    "forMe": "L'or sert de valeur refuge et entre dans l'électronique : l'endroit où il est raffiné décide qui capte la richesse de la chaîne [4].",
+    "forMe": "L'or sert de valeur refuge et entre dans l'électronique : l'endroit où il est raffiné décide qui capte la richesse de la chaîne. Ce mouvement africain peut donc changer, à terme, les circuits d'approvisionnement du métal [4].",
     "figures": [
       {
         "value": "5,6 Md$",
@@ -1046,6 +1370,11 @@ window.GEOCO.news = [
         "short": "QNC News",
         "name": "QNC News, « Africa gold refining boom tests drive to keep mineral wealth at home » (30 octobre 2026)",
         "url": "https://qncnews.com/2026/10/30/africa-gold-refining-boom-tests-drive-to-keep-mineral-wealth-at-home"
+      },
+      {
+        "short": "Miningmx",
+        "name": "Miningmx, « Burkina Faso joins Africa's gold refining drive » (2026)",
+        "url": "https://www.miningmx.com/trending/67585-burkina-faso-joins-africas-gold-refining-drive/"
       }
     ]
   },
@@ -1064,14 +1393,16 @@ window.GEOCO.news = [
       }
     ],
     "title": "L'Espagne grandit encore de 0,6 %, mais l'inflation reste près de 5 %",
-    "summary": "L'économie espagnole continue d'avancer plus vite que ses voisins, pendant que les prix de l'énergie gardent l'inflation haute.",
+    "summary": "L'institut statistique espagnol (INE) a publié le 30 octobre une première estimation : le PIB a progressé de 0,6 % au troisième trimestre, un dixième de moins qu'au deuxième, et l'inflation reste à 4,9 % en octobre [1][4].",
     "points": [
-      "Le PIB espagnol a progressé de 0,6 % au troisième trimestre, après 0,7 % au deuxième, et de 2,7 % sur un an [1][2].",
-      "L'inflation est restée à 4,9 % sur un an en octobre, comme en septembre, poussée par l'énergie et la guerre au Moyen-Orient [1][3]."
+      "Le PIB espagnol a progressé de 0,6 % sur le trimestre, après 0,7 % au deuxième, et de 2,7 % sur un an, contre 2,6 % au trimestre précédent [1][2][4].",
+      "En rythme trimestriel, la demande intérieure apporte 0,5 point de croissance et la demande extérieure 0,1 point ; consommation et investissement ralentissent, la dépense publique accélère à 0,9 % [4][6].",
+      "L'inflation annuelle reste à 4,9 % en octobre, comme en septembre, troisième mois de suite au-dessus de 4 % ; l'inflation sous-jacente est de 3,1 % [1][7][8].",
+      "Selon l'INE, les carburants baissent plus qu'il y a un an, ce qui freine l'indice ; le gaz, plus cher qu'il y a un an, le pousse à la hausse [7][8]."
     ],
     "why": [
       "À retenir : l'Espagne reste l'une des économies les plus dynamiques de la zone euro, loin devant la France (−0,1 %) [1][2].",
-      "Une inflation aussi haute complique la tâche de la Banque centrale européenne, qui fixe un seul taux pour tous les pays de l'euro [3]."
+      "Une inflation à 4,9 % complique la tâche de la Banque centrale européenne, qui fixe un seul taux pour toute la zone euro et a laissé son taux de dépôt à 2,5 % le 29 octobre [11]. L'Italie est à 5,4 % et l'Allemagne à 2,8 % [9]."
     ],
     "forMe": "Si tu voyages ou fais des achats en Espagne, les prix y montent plus vite qu'en France en ce moment [1][3].",
     "figures": [
@@ -1101,12 +1432,58 @@ window.GEOCO.news = [
         "short": "InvestingLive",
         "name": "InvestingLive, « Spain inflation remains stubbornly high near 5% as the ECB headache gets worse » (30 octobre 2026)",
         "url": "https://investinglive.com/news/spain-inflation-remains-stubbornly-high-near-5-as-the-ecb-headache-gets-worse/"
+      },
+      {
+        "short": "The Objective",
+        "name": "The Objective, « El PIB crece un 0,6% en el tercer trimestre, una décima menos que el anterior » (30 octobre 2026)",
+        "url": "https://theobjective.com/economia/2026-10-30/pib-trimestre-decima/"
+      },
+      {
+        "short": "Moncloa.com",
+        "name": "Moncloa.com, « La economía española crece una décima menos: el PIB se frena al 0,6% por inversión y consumo » (30 octobre 2026)",
+        "url": "https://www.moncloa.com/2026/10/30/economia-espanola-pib-freno-consumo-3458602/"
+      },
+      {
+        "short": "INE (comptes trimestriels)",
+        "name": "INE, Contabilidad Nacional Trimestral de España, avance du 3e trimestre 2026 (30 octobre 2026)",
+        "url": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736164439&menu=ultiDatos&idp=1254735576581"
+      },
+      {
+        "short": "The Objective (IPC)",
+        "name": "The Objective, « El IPC se mantiene en el 4,9% en octubre y encadena tres meses por encima del 4% » (30 octobre 2026)",
+        "url": "https://theobjective.com/economia/2026-10-30/ipc-49-octubre-meses-ecnima-4/"
+      },
+      {
+        "short": "INE (IPC)",
+        "name": "INE, Índice de precios de consumo, indicador adelantado de octubre 2026 (30 octobre 2026)",
+        "url": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176802&menu=ultiDatos&idp=1254735976607"
+      },
+      {
+        "short": "The Private Banker",
+        "name": "Le Private Banker, « Euro-Zone Inflation Splits as Italy Jumps to 5.4% and Germany Eases to 2.8% on Fuel Tax Cut » (31 octobre 2026)",
+        "url": "https://leprivatebanker.com/2026/10/31/euro-zone-inflation-splits-as-italy-jumps-to-5-4-and-germany-eases-to-2-8-on-fuel-tax-cut/"
+      },
+      {
+        "short": "Tickward",
+        "name": "Tickward, calendrier des réunions de la BCE en 2026",
+        "url": "https://tickward.com/en/calendars/central-bank-meeting-dates/2026/ecb"
+      },
+      {
+        "short": "Cryptoticker",
+        "name": "Cryptoticker, « ECB rate decision: 2.50 percent, Lagarde leaves » (octobre 2026)",
+        "url": "https://cryptoticker.io/en/ecb-rate-decision-october-2026-lagarde-exit/"
       }
     ],
     "date": "2026-10-31",
     "level": 2,
     "culture": [],
-    "dossiers": []
+    "dossiers": [],
+    "next": [
+      {
+        "when": "17 décembre",
+        "what": "La BCE tient sa dernière réunion de politique monétaire de l'année, avec de nouvelles projections économiques [10]."
+      }
+    ]
   },
   {
     "id": "2026-10-31-allemagne-pib-t3-depenses-publiques",
@@ -1123,17 +1500,18 @@ window.GEOCO.news = [
       }
     ],
     "title": "L'Allemagne grandit de 0,2 %, un peu mieux que prévu, grâce à l'État",
-    "summary": "Malgré le choc de l'énergie et un Rhin au plus bas, l'économie allemande avance, portée par les dépenses publiques.",
+    "summary": "L'Office fédéral de la statistique (Destatis) a publié le 30 octobre une première estimation : le PIB allemand a progressé de 0,2 % au troisième trimestre, alors que les analystes interrogés par FactSet attendaient 0,1 %. La dépense publique, défense et infrastructures, soutient l'activité [1][2][3].",
     "points": [
-      "Le PIB allemand a progressé de 0,2 % au troisième trimestre, alors que les économistes attendaient 0,1 %, et de 1,3 % sur un an [1][2].",
-      "La croissance vient surtout des dépenses publiques ; l'activité des entreprises privées reste faible [1].",
-      "L'économie a tenu malgré le choc énergétique de la guerre en Iran et un niveau record bas du Rhin, qui gêne l'industrie [2]."
+      "Le PIB a progressé de 0,2 % sur le trimestre (corrigé des prix, des variations saisonnières et du calendrier) et de 1,3 % sur un an ; Destatis n'a pas modifié ses chiffres des deux premiers trimestres [1][3].",
+      "La consommation est légèrement positive, mais les investissements reculent, selon les données provisoires [3].",
+      "Les exportations, très dynamiques au premier semestre, ralentissent nettement au troisième trimestre [3].",
+      "La Bundesbank, la banque centrale, jugeait le 21 octobre que l'économie avait probablement stagné ; elle citait des facteurs temporaires, dont le niveau très bas du Rhin, qui restreint le transport fluvial et pèse sur l'industrie [2][4][5]."
     ],
     "why": [
-      "À retenir : la première économie d'Europe ne recule pas, mais elle dépend beaucoup de l'argent de l'État [1].",
-      "Le gouvernement prévoit 1,3 % de croissance en 2026 et 1,1 % en 2027 [1]."
+      "À retenir : la première économie d'Europe ne recule pas, mais elle dépend beaucoup de l'argent de l'État. Le chancelier Friedrich Merz a lancé un plan massif de dépenses de défense et d'infrastructures, qui soutient l'économie cette année [2].",
+      "Le gouvernement prévoit 1,3 % de croissance en 2026 et 1,1 % en 2027 [1]. Le détail des investissements, des dépenses publiques et du commerce extérieur sera publié par Destatis le 25 novembre [3]."
     ],
-    "forMe": "L'Allemagne est le premier client de la France : quand elle tient, les exportations françaises en profitent [1][2].",
+    "forMe": "L'Allemagne est le premier client de la France : quand elle tient, les exportations françaises en profitent [1][2]. Mais si ses propres exportations s'essoufflent, son industrie achète moins [3].",
     "figures": [
       {
         "value": "+0,2 %",
@@ -1156,12 +1534,33 @@ window.GEOCO.news = [
         "short": "France 24",
         "name": "France 24 (AFP), « German economy logs 0.2% growth, faster than expected » (30 octobre 2026)",
         "url": "https://www.france24.com/en/live-news/20261030-german-economy-logs-0-2-growth-faster-than-expected"
+      },
+      {
+        "short": "Destatis",
+        "name": "Destatis, communiqué n° 381, « Bruttoinlandsprodukt im 3. Quartal 2026 um 0,2 % höher als im Vorquartal » (30 octobre 2026)",
+        "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_381_811.html"
+      },
+      {
+        "short": "Bloomberg",
+        "name": "Bloomberg, « Germany's Economy Probably Stagnated in Third Quarter: Bundesbank » (21 octobre 2026)",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-21/german-economy-probably-stagnated-in-third-quarter-bundesbank"
+      },
+      {
+        "short": "Democrata",
+        "name": "Democrata, « Bundesbank warns of slowdown and inflation in Germany » (octobre 2026)",
+        "url": "https://www.democrata.es/en/economy/the-bundesbank-confirms-the-halt-of-the-german-economy-in-the-third-quarter/"
       }
     ],
     "date": "2026-10-31",
     "level": 2,
     "culture": [],
-    "dossiers": []
+    "dossiers": [],
+    "next": [
+      {
+        "when": "25 novembre",
+        "what": "Destatis publie les résultats détaillés du PIB du troisième trimestre : investissements, dépenses publiques, commerce extérieur [3]."
+      }
+    ]
   },
   {
     "id": "2026-10-31-portugal-logement-manifestations-budget",
@@ -1178,34 +1577,70 @@ window.GEOCO.news = [
       }
     ],
     "title": "Portugal : des milliers de manifestants pour le logement devant le Parlement, en plein débat budgétaire",
-    "summary": "Les prix des logements ont bondi de près de 20 % en un an ; la colère monte pendant que les députés discutent du budget 2027.",
+    "summary": "Le 27 octobre, des milliers de personnes ont manifesté devant le Parlement à Lisbonne, au début du débat sur le budget 2027, adopté en première lecture le 28 [1][3][4].",
     "points": [
-      "Des milliers de personnes ont manifesté le 27 octobre devant le Parlement portugais à Lisbonne, pendant le premier débat sur le budget 2027 [1][2].",
-      "Selon l'institut national de statistique, les prix des logements ont augmenté de près de 20 % entre début 2025 et début 2026 [1].",
-      "Le gouvernement de Luís Montenegro met en avant la hausse des salaires prévue dans son budget [2]."
+      "Le dimanche précédent, la police a démantelé des campements de militants à Lisbonne et à Porto : 11 blessés légers, dont 3 policiers, selon elle ; 60 selon le collectif Casa para Viver [3].",
+      "Ils refusent des expulsions facilitées et la fin du plafonnement des loyers des nouveaux baux [3]. Selon l'institut national de statistique, les prix des logements ont augmenté de près de 20 % entre début 2025 et début 2026 [1].",
+      "Le Premier ministre Luís Montenegro juge l'action policière conforme à la « nécessité, proportionnalité et adéquation » [3] ; le président António José Seguro a condamné les violences [5].",
+      "Le 28 octobre, le budget a été adopté en première lecture malgré 79 voix contre, grâce à 60 abstentions dont 58 socialistes. Le chef du PS, José Luís Carneiro, dit que le pays ne peut pas entrer en crise politique [4][6]. Le gouvernement met en avant les salaires [2]."
     ],
     "why": [
-      "À retenir : le logement devient la première colère sociale au Portugal, comme dans plusieurs pays d'Europe [1].",
-      "Le budget doit encore être voté ; la pression de la rue pèse sur les choix du gouvernement [1][2]."
+      "À retenir : le logement est une colère sociale majeure au Portugal, et la rue pèse sur un gouvernement minoritaire qui ne passe que grâce au PS [1][4].",
+      "Le vote final a lieu le 24 novembre, après le travail en commission [4][6]. Seguro a convoqué le Conseil d'État [3]."
     ],
-    "forMe": "Lisbonne attire touristes et étrangers, ce qui fait monter les loyers pour les habitants : un débat qui existe aussi en France [1].",
+    "forMe": "Lisbonne attire touristes et étrangers, ce qui fait monter les loyers : un débat présent aussi en France [1].",
     "figures": [
       {
         "value": "≈ +20 %",
         "label": "prix des logements en un an",
         "src": 1
+      },
+      {
+        "value": "79 / 60",
+        "label": "voix contre / abstentions sur le budget",
+        "src": 6
+      }
+    ],
+    "next": [
+      {
+        "when": "24 novembre",
+        "what": "Vote final du budget 2027 au Parlement [4][6]."
+      },
+      {
+        "when": "Semaine suivant le 27 octobre",
+        "what": "Réunion du Conseil d'État convoquée par le président Seguro sur les manifestations [3]."
       }
     ],
     "sources": [
       {
         "short": "AP (ABC News)",
         "name": "Associated Press (ABC News), « Portugal's Parliament debates government spending plans as housing protests swell » (27 octobre 2026)",
-        "url": "https://abcnews.com/Business/wireStory/portugals-parliament-debates-government-spending-plans-housing-protests-137607440"
+        "url": "https://abcnews.com/Business/wireStory/portugals-parliament-debates-government-spending-plans-housing-protests-swell-137607440"
       },
       {
         "short": "The Portugal News",
         "name": "The Portugal News, « Portugal highlights wage growth in 2027 budget debate » (28 octobre 2026)",
         "url": "https://www.theportugalnews.com/news/2026-10-28/portugal-highlights-wage-growth-in-2027-budget-debate/1107868"
+      },
+      {
+        "short": "Reuters (Internazionale)",
+        "name": "Reuters, « Thousands rally outside Portugal's parliament over housing crisis, police operations » (27 octobre 2026)",
+        "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/27/thousands-rally-outside-portugal-s-parliament-over-housing-crisis-police-operations"
+      },
+      {
+        "short": "The Portugal News",
+        "name": "The Portugal News, « Portugal's 2027 State Budget approved in general terms by Parliament » (29 octobre 2026)",
+        "url": "https://www.theportugalnews.com/news/2026-10-29/portugals-2027-state-budget-approved-in-general-terms-by-parliament/1108113"
+      },
+      {
+        "short": "Portugal Resident",
+        "name": "Portugal Resident, « President Seguro breaks silence over police reaction to housing protests »",
+        "url": "https://www.portugalresident.com/president-seguro-breaks-silence-over-police-reaction-to-housing-protests/"
+      },
+      {
+        "short": "Reuters (Euronext)",
+        "name": "Reuters, « Portugal's 2027 budget bill passes first parliamentary hurdle » (28 octobre 2026)",
+        "url": "https://live.euronext.com/en/financial-news/portugals-2027-budget-bill-passes-first-parliamentary-hurdle"
       }
     ],
     "date": "2026-10-31",
@@ -1228,14 +1663,16 @@ window.GEOCO.news = [
       }
     ],
     "title": "L'Italie à l'arrêt au 3e trimestre, avec une inflation au plus haut depuis plus de trois ans",
-    "summary": "Croissance nulle et prix de l'énergie en hausse : la troisième économie de la zone euro marque le pas.",
+    "summary": "Le 30 octobre, l'Istat a publié un PIB stable au troisième trimestre, sous les attentes, et une inflation de 5,4 % en octobre, tirée par l'énergie [1][2][5].",
     "points": [
-      "Selon les premiers chiffres de l'Istat, le PIB italien n'a pas progressé au troisième trimestre, un peu moins bien que prévu ; sur un an, il gagne 0,8 % [1][2].",
-      "L'inflation a atteint 5,4 % sur un an en octobre, son plus haut niveau depuis plus de trois ans, à cause de l'énergie [2][3]."
+      "Selon l'estimation préliminaire de l'Istat, le PIB italien n'a pas progressé au troisième trimestre par rapport au deuxième, un peu moins bien que prévu ; sur un an, il gagne 0,8 % [1][4][5].",
+      "Les services et l'agriculture ont progressé, l'industrie a reculé ; le commerce extérieur net a pesé sur la croissance [4][5].",
+      "L'inflation a atteint 5,4 % sur un an en octobre contre 4,2 % en septembre (+0,9 % sur un mois), son plus haut niveau depuis août 2023 [2][3][6]. Les prix de l'énergie ont bondi de 31,4 % sur un an (22,6 % en septembre) et ceux de l'énergie régulée de 59,5 %, l'Istat renvoyant au contexte géopolitique [6].",
+      "Les salaires des conventions ont augmenté moins vite que les prix aux deuxième et troisième trimestres [7]."
     ],
     "why": [
-      "À retenir : avec l'Allemagne qui progresse à peine et la France qui recule, la zone euro avance surtout grâce à l'Espagne [1][2].",
-      "Le ministre de l'Économie Giancarlo Giorgetti s'inquiète de l'effet des guerres sur le prix de l'énergie [2]."
+      "À retenir : l'Italie fait exception parmi les grands pays européens avec cette accélération des prix, au moment où sa croissance s'arrête ; la zone euro avance surtout grâce à l'Espagne [1][2][7].",
+      "Le ministre de l'Économie Giancarlo Giorgetti dit que « les guerres pèsent sur l'énergie » et juge cet impact préoccupant [8]."
     ],
     "forMe": "Une Italie à l'arrêt, c'est moins de commandes pour les entreprises françaises, dont elle est l'un des grands clients [1][2].",
     "figures": [
@@ -1248,6 +1685,17 @@ window.GEOCO.news = [
         "value": "5,4 %",
         "label": "inflation sur un an en octobre",
         "src": 2
+      },
+      {
+        "value": "+31,4 %",
+        "label": "prix de l'énergie sur un an en octobre",
+        "src": 6
+      }
+    ],
+    "next": [
+      {
+        "when": "29 janvier 2027",
+        "what": "L'Istat publie sa prochaine estimation préliminaire du PIB [4]."
       }
     ],
     "sources": [
@@ -1265,6 +1713,31 @@ window.GEOCO.news = [
         "short": "Yahoo Finance",
         "name": "Yahoo Finance, « Italy inflation surges to 5.4% as economy stalls » (30 octobre 2026)",
         "url": "https://finance.yahoo.com/economy/articles/italy-inflation-surges-5-4-135329163.html"
+      },
+      {
+        "short": "Istat",
+        "name": "Istat, « Preliminary estimate of GDP, Q3 2026 » (30 octobre 2026)",
+        "url": "https://www.istat.it/en/press-release/preliminary-estimate-of-gdp-q3-2026/"
+      },
+      {
+        "short": "Il Sole 24 Ore",
+        "name": "Il Sole 24 Ore, « Italia's GDP in 2026: stagnation in the third quarter, with industry in decline and services on the rise »",
+        "url": "https://en.ilsole24ore.com/art/pil-italia-below-expectations-flat-for-the-third-quarter-of-2026-AJ4Ss2yB"
+      },
+      {
+        "short": "Il Sole 24 Ore",
+        "name": "Il Sole 24 Ore, « Inflation: Istat estimates +0.9 per cent in October, +5.4 per cent year-on-year »",
+        "url": "https://en.ilsole24ore.com/art/istat-estimates-inflation-at-09-per-cent-in-october-54-per-cent-for-the-year-a-record-high-in-2023-AJHFT9yB"
+      },
+      {
+        "short": "Sky TG24",
+        "name": "Sky TG24, « Italia, prezzi in salita, salari giù e Pil fermo: la fotografia dell'Istat » (31 octobre 2026)",
+        "url": "https://tg24.sky.it/economia/2026/10/31/rincari-italia-inflazione-istat"
+      },
+      {
+        "short": "Libero",
+        "name": "Libero, « Inflazione, Giorgetti: impatto delle guerre ed energia preoccupa »",
+        "url": "https://www.liberoquotidiano.it/news/tv-news/49495312/inflazione-giorgetti-impatto-delle-guerre-ed-energia-preoccupa/"
       }
     ],
     "date": "2026-10-31",
