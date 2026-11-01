@@ -24,6 +24,12 @@ const ctx = { window: {} };
 vm.createContext(ctx);
 vm.runInContext(fs.readFileSync("data/culture.js", "utf8"), ctx);
 const culture = ctx.window.GEOCO.culture;
+// Les cours (data/content.js remplace window.GEOCO : contexte à part). Leur fiche se fait toute seule :
+// notions = mots du lexique du cours, questions = son quiz, dates = phrases datées des parties.
+const ctx2 = { window: {} };
+vm.createContext(ctx2);
+vm.runInContext(fs.readFileSync("data/content.js", "utf8"), ctx2);
+const { dossiers, glossary } = ctx2.window.GEOCO;
 const extra = JSON.parse(fs.readFileSync("contenu/fiches.json", "utf8"));
 const only = process.argv[2];
 
@@ -40,12 +46,33 @@ function keySentences(sec, max = 2) {
     const sentences = p.match(/[^.!?]+[.!?]+(\s*\[\d+\])*|[^.!?]+$/g) || [p];
     for (const s of sentences) if (s.includes("==") && out.length < max) out.push(s.trim());
   }
-  if (!out.length) out.push((sec.paragraphs[0].match(/[^.!?]+[.!?]+/) || [sec.paragraphs[0]])[0].trim());
-  return out.map((s) => (plain(s).length > 240 ? esc(plain(s).slice(0, 236)) + "…" : rich(s)));
+  // Sans passage surligné (les cours) : la première phrase de chaque paragraphe, jusqu'à 3.
+  if (!out.length) sec.paragraphs.slice(0, 3).forEach((p) => out.push((p.match(/[^.!?]+[.!?]+(\s*\[\d+\])*/) || [p])[0].trim()));
+  return out.map((s) => (plain(s).length > 320 ? esc(plain(s).slice(0, 316)) + "…" : rich(s)));
+}
+
+function fromCourse(d) {
+  const x = extra[d.id] || {};
+  const dated = [];
+  d.sections.forEach((sec) => sec.paragraphs.forEach((p) => (p.match(/[^.!?]+[.!?]+(\s*\[\d+\])*/g) || [p]).forEach((t) => {
+    const y = plain(t).match(/\b(1[89]\d\d|20[0-4]\d)\b/);
+    if (y && !dated.some((z) => z.text === t.trim())) dated.push({ when: y[1], text: t.trim().length > 260 ? plain(t).slice(0, 256) + "…" : t.trim() });
+  })));
+  dated.sort((a, b) => a.when - b.when);
+  return {
+    id: d.id, title: d.title, kind: `Cours${d.level ? " · " + d.level : ""}`, theme: d.theme, hook: d.hook, tldr: d.tldr,
+    sections: d.sections, keyFigures: d.figures, sources: d.sources, what: "le cours",
+    timeline: dated.length >= 2 ? dated.slice(0, 12) : null, timelineTitle: "Les dates",
+    _x: {
+      concepts: [...(d.terms || []).map((id) => glossary.find((g) => g.id === id)).filter(Boolean).map((g) => ({ term: g.term, def: g.def + (g.example ? " Ex. : " + g.example : "") })), ...(x.concepts || [])],
+      people: x.people,
+      questions: [...(d.quiz || []).map((q) => ({ q: q.q, a: q.options[q.answer] + (q.explain ? " — " + q.explain : "") })), ...(x.questions || [])],
+    },
+  };
 }
 
 function html(c) {
-  const x = extra[c.id] || {};
+  const x = c._x || extra[c.id] || {};
   const qs = x.questions || [];
   return `<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Fiche — ${esc(c.title)}</title>
 <style>
@@ -103,8 +130,8 @@ ${c.tldr ? `<section class="tldr"><h2>L'essentiel</h2>${c.tldr.map((t) => `<p>${
 ${c.keyFigures ? `<section><h2>Les chiffres à retenir</h2><div class="figs">${c.keyFigures.map((f) => `<div class="fig"><b>${esc(f.value)}</b><span>${esc(plain(f.label))}</span></div>`).join("")}</div></section>` : ""}
 ${c.timeline ? `<section><h2>${esc(c.timelineTitle || "Les dates")}</h2><table>${c.timeline.map((t) => `<tr><td class="w">${esc(t.when)}</td><td>${esc(plain(t.text))}</td></tr>`).join("")}</table></section>` : ""}
 <div class="grid2">
-  ${x.concepts ? `<section><h2>Les notions</h2><dl>${x.concepts.map((k) => `<dt>${esc(k.term)}</dt><dd>${esc(k.def)}</dd>`).join("")}</dl></section>` : "<div></div>"}
-  ${x.people ? `<section><h2>Qui est qui</h2><dl>${x.people.map((k) => `<dt>${esc(k.name)}</dt><dd>${esc(k.role)}</dd>`).join("")}</dl></section>` : "<div></div>"}
+  ${x.concepts && x.concepts.length ? `<section><h2>Les notions</h2><dl>${x.concepts.map((k) => `<dt>${esc(k.term)}</dt><dd>${esc(k.def)}</dd>`).join("")}</dl></section>` : "<div></div>"}
+  ${x.people && x.people.length ? `<section><h2>Qui est qui</h2><dl>${x.people.map((k) => `<dt>${esc(k.name)}</dt><dd>${esc(k.role)}</dd>`).join("")}</dl></section>` : "<div></div>"}
 </div>
 ${qs.length ? `<div class="grid2"><section class="qz"><h2>Teste-toi</h2><ol>${qs.map((q) => `<li>${esc(q.q)}</li>`).join("")}</ol></section>
 <section class="ans"><h2>Réponses</h2><ol>${qs.map((q) => `<li>${esc(q.a)}</li>`).join("")}</ol></section></div>` : ""}
@@ -115,7 +142,7 @@ ${qs.length ? `<div class="grid2"><section class="qz"><h2>Teste-toi</h2><ol>${qs
 const browser = await chromium.launch(fs.existsSync("/opt/pw-browsers/chromium") ? { executablePath: "/opt/pw-browsers/chromium" } : {});
 fs.mkdirSync("fiches", { recursive: true });
 const done = [];
-for (const c of culture) {
+for (const c of [...culture, ...dossiers.map(fromCourse)]) {
   if (only && c.id !== only) { if (fs.existsSync(`fiches/${c.id}.pdf`)) done.push(c.id); continue; }
   const page = await browser.newPage();
   const tmp = path.join(ROOT, ".fiche-tmp.html");
@@ -124,10 +151,10 @@ for (const c of culture) {
   fs.unlinkSync(tmp);
   await page.pdf({ path: `fiches/${c.id}.pdf`, format: "A4", printBackground: true, displayHeaderFooter: true,
     headerTemplate: "<span></span>",
-    footerTemplate: `<div style="width:100%;margin:0 14mm;font:7px Helvetica,Arial,sans-serif;color:#777;display:flex;justify-content:space-between"><span>Geonomix+ · Fiche de révision · « ${esc(c.title)} » (article complet et sources dans l'application)</span><span><span class="pageNumber"></span> / <span class="totalPages"></span></span></div>` });
+    footerTemplate: `<div style="width:100%;margin:0 14mm;font:7px Helvetica,Arial,sans-serif;color:#777;display:flex;justify-content:space-between"><span>Geonomix+ · Fiche de révision · « ${esc(c.title)} » (${c.what || "l'article"} complet et ses sources dans l'application)</span><span><span class="pageNumber"></span> / <span class="totalPages"></span></span></div>` });
   await page.close();
   done.push(c.id);
-  console.log(`Fiche prête : fiches/${c.id}.pdf${extra[c.id] ? "" : " (sans notions ni questions : à ajouter dans contenu/fiches.json)"}`);
+  console.log(`Fiche prête : fiches/${c.id}.pdf${extra[c.id] || c._x ? "" : " (sans notions ni questions : à ajouter dans contenu/fiches.json)"}`);
 }
 await browser.close();
 fs.writeFileSync("data/fiches.js", `// Fiches de révision en PDF (Geonomix+), générées par tools/build-fiches.mjs : ne pas modifier à la main.\nwindow.GEOCO = window.GEOCO || {};\nwindow.GEOCO.fiches = ${JSON.stringify(done)};\n`);

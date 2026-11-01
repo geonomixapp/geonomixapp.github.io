@@ -1120,6 +1120,7 @@
         <p class="eyebrow reveal">${THEMES[d.theme]} · ${d.minutes} min · ${d.level}</p>
         <h1 class="title reveal">${d.title}</h1>
         <p class="lead reveal">${d.hook}</p>
+        ${ficheBtn(d)}
         ${heroImage(d.image)}
       </section>
 
@@ -1454,7 +1455,7 @@
         <li>Les cours d'approfondissement et leurs quiz</li>
         <li>Tous les épisodes du podcast, en illimité</li>
         <li>Un article de presse sur deux, en entier</li>
-        <li>La fiche de révision de chaque article en PDF : idées, dates, notions, qui est qui, questions</li>
+        <li>La fiche de révision de chaque article et de chaque cours en PDF : idées, dates, notions, qui est qui, questions</li>
         <li>Le rideau Finance : toutes les actus des marchés, « Côté marchés » et les exemples du passé</li>
         <li>Les archives : Focus industrie, études de cas, lettres du matin</li>
         <li>Bientôt : flashcards et mode Concours</li>
