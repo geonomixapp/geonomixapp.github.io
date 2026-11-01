@@ -5,6 +5,214 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.culture = [
   {
+    id: "petrodollar",
+    cover: "petrodollar",
+    plus: false,
+    author: "Rédaction Geonomix",
+    kind: "Enquête",
+    theme: "mix",
+    title: "Le pétrodollar : comment Washington a fait du pétrole l'allié du dollar",
+    hook: "Sur un croiseur américain ancré au milieu du canal de Suez, un président malade et un roi du désert scellent une amitié improbable. Trente ans plus tard, elle fera du dollar la monnaie du pétrole, et des États-Unis le gendarme du Golfe. Histoire d'un système que personne n'a jamais signé, mais que tout le monde utilise.",
+    tldr: [
+      "Le pétrole se paie presque partout en dollars : pour en acheter, le monde entier doit d'abord se procurer des dollars, et les pays producteurs replacent une grande partie de leurs gains en Amérique [7].",
+      "Le système naît dans les années 1970 : le dollar perd son lien avec l'or (1971), le prix du pétrole est multiplié par quatre (1973-1974), et ==Washington noue avec l'Arabie saoudite un partenariat sécurité contre dollars== [3][4][5][6].",
+      "Les États-Unis y gagnent un financement facile de leurs déficits et une arme financière ; ils en assument le prix : ==se poser en protecteur armé du Golfe==, de la doctrine Carter (1980) à la guerre du Golfe (1991) [10][12].",
+      "Le recyclage de ces dollars a aussi ses victimes : prêtés à l'Amérique latine, ils ont nourri la crise de la dette de 1982 [8][9]. Et non, le pétrodollar n'a pas « expiré » en 2024 [13][14]."
+    ],
+    keyFigures: [
+      { value: "14 févr. 1945", label: "rencontre Roosevelt – Ibn Saoud sur l'USS Quincy", src: 1 },
+      { value: "× 4", label: "le prix du baril avec le choc pétrolier de 1973-1974", src: 4 },
+      { value: "≈ 20 %", label: "la part saoudienne des bons du Trésor détenus à l'étranger en 1977", src: 6 },
+      { value: "149,5 Md$", label: "la dette américaine détenue par l'Arabie saoudite fin 2025", src: 15 }
+    ],
+    timelineTitle: "Du croiseur Quincy à la rumeur de 2024",
+    timeline: [
+      { when: "1945", text: "Roosevelt reçoit le roi Ibn Saoud sur l'USS Quincy, au Grand Lac Amer, de retour de Yalta [1][2]." },
+      { when: "1971", text: "Nixon met fin à la convertibilité du dollar en or : la monnaie américaine ne repose plus que sur la confiance [3]." },
+      { when: "1973", text: "Embargo pétrolier arabe : le prix du baril est multiplié par quatre [4]." },
+      { when: "1974", text: "Juin : commissions communes États-Unis – Arabie saoudite pour l'économie et la sécurité. Juillet : mission du secrétaire au Trésor William Simon à Riyad [5][6]." },
+      { when: "1980", text: "Doctrine Carter : toute tentative d'une puissance extérieure de contrôler le golfe Persique sera considérée comme une atteinte aux intérêts vitaux des États-Unis [10]." },
+      { when: "1982", text: "Août : le Mexique ne peut plus rembourser ses dettes en dollars, début de la crise de la dette latino-américaine [8][9]." },
+      { when: "1991", text: "Une coalition menée par les États-Unis chasse l'armée irakienne du Koweït [12]." },
+      { when: "2000", text: "L'Irak de Saddam Hussein obtient de vendre son pétrole « pétrole contre nourriture » en euros, pour défier Washington [11]." },
+      { when: "2014", text: "BNP Paribas paie 8,9 milliards de dollars à la justice américaine pour des paiements en dollars liés à des pays sous sanctions [17]." },
+      { when: "2022", text: "Gel des réserves de la banque centrale russe et exclusion de banques russes de SWIFT [16]." },
+      { when: "2024", text: "Une rumeur virale annonce la « fin du pétrodollar » : les vérificateurs de faits la démentent [13][14]." }
+    ],
+    sections: [
+      {
+        title: "Un roi, un président et un croiseur",
+        quote: "Ce jour-là, personne ne parle de dollars. On parle de sécurité, de pétrole et de la Palestine.",
+        paragraphs: [
+          "Février 1945. La guerre n'est pas finie, et Franklin D. Roosevelt rentre épuisé de la conférence de Yalta, où il vient de redessiner l'après-guerre avec Churchill et Staline. Sur le chemin du retour, il fait un détour : du 12 au 14 février, le croiseur USS Quincy jette l'ancre dans le Grand Lac Amer, au milieu du canal de Suez [1][2]. Un destroyer américain est allé chercher à Djeddah un invité de marque : Abdelaziz Ibn Saoud, fondateur du royaume d'Arabie saoudite [1].",
+          "Les deux hommes ne parlent pas la même langue ; un colonel des Marines, William Eddy, sert d'interprète [1]. La conversation est dominée par un désaccord : l'avenir de la Palestine, où Roosevelt soutient l'idée d'un foyer juif que le roi rejette [2]. Pourtant, cette rencontre est souvent présentée comme l'acte de naissance d'une alliance qui dure depuis 80 ans [2].",
+          "Pourquoi ? Parce que les intérêts se croisent. Les États-Unis savent déjà que le pétrole sera le sang de l'économie d'après-guerre, et que le sous-sol saoudien en regorge. Le royaume, lui, est jeune, immense, peu peuplé, entouré de voisins puissants : il a besoin d'un protecteur lointain, assez fort pour dissuader, assez éloigné pour ne pas coloniser. ==Le donnant-donnant de fond est posé : du pétrole contre de la sécurité.== Le dollar viendra plus tard."
+        ],
+        box: {
+          kind: "archive",
+          label: "Le détail oublié",
+          title: "Un rendez-vous au milieu du canal de Suez",
+          text: "Le Quincy n'est pas à quai : il est ancré dans le Grand Lac Amer, un élargissement du canal de Suez. Le roi est venu par la mer depuis Djeddah, à bord du destroyer USS Murphy envoyé spécialement pour lui [1]."
+        }
+      },
+      {
+        title: "1971 : le dollar sans or",
+        quote: "Le dollar ne vaut plus de l'or. Il ne vaut plus que ce que le monde veut bien en faire.",
+        paragraphs: [
+          "Depuis 1944 et les accords de Bretton Woods, le dollar est au centre du système monétaire : les autres monnaies lui sont rattachées, et les banques centrales étrangères peuvent échanger leurs dollars contre de l'or à un prix fixe. Le dollar est « aussi bon que l'or ».",
+          "Mais à la fin des années 1960, les États-Unis ont émis bien plus de dollars qu'ils n'ont d'or pour les garantir : la guerre du Vietnam et les programmes sociaux coûtent cher, et les étrangers commencent à réclamer de l'or. Le 15 août 1971, Richard Nixon ferme le « guichet de l'or » : les dollars ne sont plus convertibles [3].",
+          "Le choc est immense. ==Pourquoi le monde garderait-il des dollars qui ne sont plus garantis par rien d'autre que la puissance américaine ?== C'est précisément la question à laquelle le pétrole va répondre."
+        ]
+      },
+      {
+        title: "1973-1974 : le choc, puis l'entente",
+        quote: "Les pays du Golfe ont soudain plus de dollars qu'ils ne peuvent en dépenser. Washington sait exactement où les placer.",
+        paragraphs: [
+          "En octobre 1973, pendant la guerre du Kippour, des pays arabes producteurs décrètent un embargo contre les pays qui soutiennent Israël, dont les États-Unis. Le prix du baril est multiplié par quatre [4]. Les files d'attente aux stations-service américaines deviennent l'image de la décennie.",
+          "Pour Washington, c'est une double alerte : stratégique (le pétrole peut devenir une arme) et financière (des montagnes de dollars s'accumulent dans les caisses du Golfe). La réponse est diplomatique avant d'être monétaire. Le 8 juin 1974, le secrétaire d'État Henry Kissinger et le prince héritier Fahd annoncent la création de commissions communes : l'une pour la coopération économique, l'autre pour la sécurité [5].",
+          "En juillet 1974, le secrétaire au Trésor William Simon, ancien négociant en obligations, s'envole pour l'Arabie saoudite. Selon une enquête de Bloomberg publiée en 2016, la logique est la suivante : les États-Unis achètent du pétrole saoudien et fournissent aide militaire et équipements ; en échange, le royaume réinvestit des milliards de ses revenus pétroliers en bons du Trésor américain, ce qui aide à financer les dépenses de Washington [6].",
+          "Le Trésor met en place un traitement sur mesure : les achats saoudiens passent par des « ajouts » en dehors des enchères habituelles, et ils sont exclus des statistiques détaillées par pays publiées par l'administration [6]. En 1977, l'Arabie saoudite détient environ 20 % de tous les bons du Trésor américains détenus à l'étranger [6]."
+        ],
+        box: {
+          kind: "info",
+          label: "Vrai ou faux ?",
+          title: "Un « accord du pétrodollar » a-t-il été signé ?",
+          text: [
+            "Aucun document officiel connu n'oblige l'Arabie saoudite à vendre son pétrole uniquement en dollars [7][13]. Les textes de 1974 portent sur la coopération économique et militaire [5].",
+            "Le pétrodollar est donc un arrangement de fait, porté par des intérêts communs, bien plus qu'un contrat. C'est aussi ce qui l'a rendu solide : on ne peut pas « résilier » ce qui n'a jamais été signé."
+          ]
+        }
+      },
+      {
+        title: "Comment tourne la pompe à dollars",
+        quote: "Un tanker quitte le Golfe pour Yokohama. Le pétrole va au Japon, les dollars repartent vers New York.",
+        paragraphs: [
+          "Pour comprendre le système, suivons un seul tanker. Une raffinerie japonaise achète une cargaison de brut saoudien. Le prix est fixé en dollars : avant de payer, elle doit vendre des yens et acheter des dollars sur le marché des changes. Multiplie cette opération par tous les importateurs de la planète, de l'Inde à la France : ==le monde entier a besoin de dollars en continu, simplement pour faire tourner ses voitures et ses usines== [7].",
+          "Côté saoudien, les dollars s'accumulent. Le royaume en dépense une partie (salaires, infrastructures, importations), mais les revenus du pétrole dépassent longtemps de loin ce qu'il peut absorber. Le reste doit être placé, et le placement le plus sûr, le plus liquide et le plus vaste du monde, c'est la dette de l'État américain. C'est exactement ce que la mission Simon de 1974 a organisé [6].",
+          "La boucle se referme : les dollars sortis des États-Unis pour payer le pétrole y reviennent sous forme de prêts à l'État américain. Washington peut ainsi financer ses déficits sans faire monter ses taux d'intérêt autant qu'un autre pays. Et une partie de ces dollars sert aussi à acheter des armes et de l'expertise américaines : la commission économique de 1974 mobilise des experts américains sur des projets saoudiens, financés par le royaume lui-même [5]."
+        ],
+        box: {
+          kind: "info",
+          label: "Comment ça marche",
+          title: "La boucle en quatre temps",
+          text: [
+            "1. Un pays importateur achète des dollars pour payer son pétrole.",
+            "2. Le pays producteur encaisse ces dollars.",
+            "3. Il en replace une grande partie en dette américaine, en dépôts bancaires et en achats d'armes ou de services américains [5][6].",
+            "4. Ces dollars reviennent financer l'économie et l'État américains : la pompe repart pour un tour."
+          ]
+        }
+      },
+      {
+        title: "Pourquoi Washington y tenait tant",
+        quote: "Un pays dont la monnaie est demandée partout peut s'endetter dans sa propre monnaie, à bas prix, presque sans limite.",
+        paragraphs: [
+          "Vu de Washington, l'arrangement règle plusieurs problèmes d'un coup. D'abord, ==il garde le dollar au centre du monde== malgré la fin de l'or : comme le pétrole s'achète en dollars, chaque pays importateur, du Japon à la France, a besoin de dollars en permanence [7].",
+          "Ensuite, ==il finance l'Amérique==. Les dollars payés pour le pétrole reviennent en grande partie aux États-Unis, sous forme d'achats de dette publique : c'est ce que Simon est venu chercher en 1974 [6]. Un État dont la dette est toujours demandée emprunte moins cher et plus facilement que les autres ; c'est une partie de ce que le ministre français Valéry Giscard d'Estaing appelait, dès les années 1960, le « privilège exorbitant » du dollar.",
+          "Enfin, ==il ancre le Golfe dans le camp occidental== en pleine guerre froide. Chaque dollar placé à New York, chaque contrat d'armement, chaque ingénieur américain dans les champs pétroliers rend le royaume un peu plus dépendant de Washington, et un peu moins tenté par Moscou.",
+          "Les dirigeants saoudiens y trouvent aussi leur compte : un placement sûr et liquide pour des revenus gigantesques, et surtout la garantie qu'en cas de menace, la première armée du monde sera de leur côté. C'est cet équilibre qui explique la longévité du système, bien plus qu'une quelconque pression unilatérale."
+        ]
+      },
+      {
+        title: "Le gendarme du Golfe",
+        quote: "Toute tentative d'une force extérieure de prendre le contrôle du golfe Persique sera considérée comme une atteinte aux intérêts vitaux des États-Unis. Jimmy Carter, 23 janvier 1980 [10].",
+        paragraphs: [
+          "La promesse de protection va devenir une doctrine. En décembre 1979, l'Union soviétique envahit l'Afghanistan, à quelques centaines de kilomètres du détroit d'Ormuz. Le 23 janvier 1980, dans son discours sur l'état de l'Union, Jimmy Carter prévient : les États-Unis repousseront toute tentative d'une puissance extérieure de contrôler la région, ==y compris par la force militaire== [10]. C'est la doctrine Carter.",
+          "Pour la première fois, Washington déclare ouvertement que la sécurité des flux de pétrole du Golfe relève de ses intérêts vitaux. Le pétrole, le dollar et l'armée américaine forment désormais un même ensemble : les États-Unis protègent la région d'où viennent les barils, les barils se vendent en dollars, et les dollars reviennent financer l'Amérique, y compris son armée.",
+          "La doctrine est mise à l'épreuve en août 1990, quand l'Irak de Saddam Hussein envahit le Koweït. En janvier 1991, une coalition de plusieurs dizaines de pays, menée par les États-Unis, lance l'opération Tempête du désert et chasse l'armée irakienne [12]. Washington se pose alors clairement en ==gendarme du Golfe==, et plus largement en garant de l'ordre international d'après-guerre froide.",
+          "Ce rôle a ses défenseurs, qui y voient la condition d'un approvisionnement mondial stable dont profitent aussi l'Europe et l'Asie, et ses critiques, qui y voient la défense armée d'intérêts économiques américains. Les deux lectures s'appuient sur les mêmes faits : la présence militaire américaine dans le Golfe est indissociable du pétrole qui s'y trouve."
+        ],
+        box: {
+          kind: "info",
+          label: "Le cas qui fait débat",
+          title: "L'Irak, l'euro et 2003",
+          text: [
+            "En novembre 2000, l'Irak obtient de l'ONU que son pétrole vendu dans le cadre du programme « pétrole contre nourriture » soit payé en euros, un geste présenté comme un défi à la politique de sanctions de Washington [11]. La Maison-Blanche répond alors que la monnaie importe peu [11].",
+            "Certains auteurs relient ce choix à l'invasion de l'Irak en 2003. C'est une thèse, pas un fait établi : les raisons officielles et les débats de l'époque portaient sur les armes de destruction massive et le terrorisme. Geonomix la mentionne parce qu'elle circule beaucoup, pas parce qu'elle serait prouvée."
+          ]
+        }
+      },
+      {
+        title: "L'arme du dollar",
+        quote: "Quand le monde paie en dollars, le monde passe, d'une façon ou d'une autre, par les banques américaines.",
+        paragraphs: [
+          "Le pétrodollar a une conséquence moins visible que les porte-avions, mais tout aussi puissante. Comme une grande partie du commerce mondial, à commencer par le pétrole, se règle en dollars, la plupart des grands paiements internationaux passent à un moment par des banques américaines ou par des banques qui ne peuvent pas se passer de l'accès au marché américain. ==C'est ce qui donne aux sanctions américaines une portée mondiale.==",
+          "La France l'a appris à ses dépens. En 2014, la banque BNP Paribas accepte de plaider coupable devant la justice américaine et de payer 8,9 milliards de dollars, pour avoir fait transiter en dollars des paiements liés à des pays sous sanctions américaines, notamment le Soudan, l'Iran et Cuba [17]. Une banque européenne, sanctionnée par Washington, pour des opérations hors des États-Unis : c'est le dollar qui donne cette compétence.",
+          "En 2022, après l'invasion de l'Ukraine, les États-Unis, l'Union européenne et leurs alliés gèlent les réserves de la banque centrale russe placées chez eux et excluent plusieurs banques russes de SWIFT, la messagerie des virements internationaux [16]. Pour beaucoup de pays, c'est un signal : des réserves en dollars ou en euros peuvent être bloquées du jour au lendemain.",
+          "Vu de Washington, c'est un instrument de politique étrangère sans soldats, qui permet de faire respecter des règles sans guerre. Vu de Pékin, de Moscou ou de Téhéran, c'est une raison de chercher des alternatives. ==Le rôle de gendarme passe désormais autant par les banques que par les bases militaires.=="
+        ]
+      },
+      {
+        title: "Le revers : des dollars du désert à la faillite du Mexique",
+        quote: "Les dollars du pétrole ne sont pas restés dans le Golfe. Ils ont fait le tour du monde, et sont revenus sous forme de dettes.",
+        paragraphs: [
+          "Les pays du Golfe ne pouvaient pas dépenser d'un coup tous leurs revenus. Une grande partie a été déposée dans les grandes banques occidentales, souvent sous forme d'eurodollars à Londres. Ces banques, débordant de liquidités, les ont prêtés à leur tour, en particulier aux pays d'Amérique latine : leurs emprunts auprès des banques américaines ont fortement augmenté dans les années 1970 [8]. On appelle ce circuit le ==recyclage des pétrodollars==.",
+          "Les prêts étaient souvent à taux variables. Quand la Réserve fédérale de Paul Volcker relève brutalement ses taux pour casser l'inflation américaine, à partir de 1979, les intérêts à payer s'envolent [8]. En août 1982, le ministre mexicain des Finances prévient la Fed, le Trésor américain et le FMI : le Mexique ne peut plus payer [9].",
+          "Le danger est immense pour Wall Street : à ce moment, les dettes latino-américaines détenues par les neuf plus grandes banques américaines représentent 176 % de leurs fonds propres [9]. Washington et le FMI organisent des sauvetages, en échange de plans d'austérité sévères. Pour l'Amérique latine, les années 1980 deviennent la « décennie perdue » [8].",
+          "La leçon est importante : le pétrodollar n'est pas qu'un mécanisme qui renforce Washington. ==Il relie le prix du baril, les taux de la Fed et la dette des pays du Sud.== Une décision prise à Washington pour l'inflation américaine peut ruiner, à des milliers de kilomètres, des pays endettés en dollars."
+        ]
+      },
+      {
+        title: "Aujourd'hui : fin, ou lente mutation ?",
+        quote: "On a annoncé cent fois la mort du pétrodollar. Il est toujours là, mais il n'est plus seul.",
+        paragraphs: [
+          "En juin 2024, une rumeur fait le tour des réseaux : un « accord du pétrodollar » de 50 ans aurait expiré le 9 juin, et Riyad aurait refusé de le renouveler. C'est faux : aucun accord de ce type n'existait sous cette forme, et en pratique l'Arabie saoudite a vendu son pétrole en dollars pendant des décennies [13][14].",
+          "Le lien financier, lui, tient toujours : fin 2025, l'Arabie saoudite détenait encore 149,5 milliards de dollars de dette américaine, contre 137,5 milliards un an plus tôt [15].",
+          "Mais le monde a changé. Les grands acheteurs de pétrole sont désormais en Asie, la Russie vend une partie de son pétrole sous sanctions dans d'autres monnaies, et plusieurs pays cherchent à moins dépendre du dollar, précisément parce que Washington s'en sert comme d'une arme de sanction (voir plus haut, et notre cours sur les sanctions). Le pétrodollar n'est pas mort ; il est contesté, à la marge, par un monde plus multipolaire.",
+          "Pour toi, la conséquence est très concrète : le prix de ton plein dépend du prix du baril… exprimé en dollars. Quand le dollar monte face à l'euro ou au dollar canadien, ton carburant coûte plus cher, même si le baril n'a pas bougé. Le pétrodollar, c'est aussi ça : une décision prise à Washington, un tanker dans le Golfe, et ta facture à la pompe."
+        ]
+      }
+    ],
+    didYouKnow: "Quand le Trésor américain a commencé à publier, mois par mois, la dette détenue par chaque pays, il a fait une exception pour l'Arabie saoudite : ses avoirs sont longtemps restés absents du détail par pays [6].",
+    visuals: [
+      {
+        kind: "map",
+        title: "Les lieux du pétrodollar",
+        intro: "Du croiseur de 1945 à la faillite mexicaine de 1982 : touche un lieu pour zoomer.",
+        points: [
+          { name: "Grand Lac Amer (canal de Suez)", coords: [32.38, 30.38], zoom: 10, text: "14 février 1945 : Roosevelt reçoit le roi Ibn Saoud à bord de l'USS Quincy, de retour de Yalta." },
+          { name: "Riyad", coords: [46.72, 24.71], zoom: 10, text: "Capitale saoudienne. En juillet 1974, le secrétaire au Trésor William Simon y vient négocier le recyclage des revenus pétroliers en dette américaine." },
+          { name: "Washington", coords: [-77.04, 38.9], zoom: 10, text: "15 août 1971 : fin de la convertibilité du dollar en or. 23 janvier 1980 : doctrine Carter sur le golfe Persique." },
+          { name: "Détroit d'Ormuz", coords: [56.3, 26.6], zoom: 12, text: "Le passage obligé du pétrole du Golfe, au cœur de la doctrine Carter." },
+          { name: "Koweït", coords: [47.98, 29.37], zoom: 10, text: "Envahi par l'Irak en août 1990, libéré en 1991 par une coalition menée par les États-Unis." },
+          { name: "Londres", coords: [-0.12, 51.5], zoom: 10, text: "Centre du marché des eurodollars, où transitent une grande partie des pétrodollars recyclés." },
+          { name: "Mexico", coords: [-99.13, 19.43], zoom: 10, text: "Août 1982 : le Mexique ne peut plus rembourser ses dettes en dollars. Début de la « décennie perdue »." }
+        ],
+        source: "FRUS (Département d'État), Bloomberg, Federal Reserve History, FDIC, Britannica"
+      },
+      {
+        kind: "chart",
+        type: "bar",
+        title: "L'Arabie saoudite, toujours créancière de l'Amérique",
+        subtitle: "Dette publique américaine détenue par l'Arabie saoudite, en milliards de dollars, fin d'année",
+        xLabel: "Date",
+        unit: "Milliards de dollars",
+        decimals: 1,
+        data: [["Déc. 2024", 137.5], ["Déc. 2025", 149.5]],
+        source: "Argaam, d'après les données TIC du Trésor américain"
+      }
+    ],
+    sources: [
+      { short: "Département d'État", name: "Foreign Relations of the United States, 1945, vol. VIII, chap. 1 (mémorandum de la conversation du 14 février 1945 à bord de l'USS Quincy)", url: "https://history.state.gov/historicaldocuments/frus1945v08/ch1" },
+      { short: "Brookings", name: "Brookings Institution, « 75 years after a historic meeting on the USS Quincy, US-Saudi relations are in need of a true re-think », 2020", url: "https://www.brookings.edu/articles/75-years-after-a-historic-meeting-on-the-uss-quincy-us-saudi-relations-are-in-need-of-a-true-re-think/" },
+      { short: "Federal Reserve History", name: "Federal Reserve History, « Nixon Ends Convertibility of U.S. Dollars to Gold and Announces Wage/Price Controls »", url: "https://www.federalreservehistory.org/essays/gold-convertibility-ends" },
+      { short: "Federal Reserve History", name: "Federal Reserve History, « Oil Shock of 1973–74 »", url: "https://www.federalreservehistory.org/essays/oil-shock-of-1973-74" },
+      { short: "Middle East Institute", name: "Middle East Institute, « Cooperation under the radar: the US-Saudi Arabian Joint Commission on Economic Cooperation (JECOR) »", url: "https://mei.edu/publications/cooperation-under-radar-us-saudi-arabian-joint-commission-economic-cooperation-jecor" },
+      { short: "Bloomberg", name: "Bloomberg (Andrea Wong), « The Untold Story Behind Saudi Arabia's 41-Year U.S. Debt Secret », 2016 (repris par Malay Mail)", url: "https://www.malaymail.com/news/money/2016/05/31/the-untold-story-behind-saudi-arabias-41-year-us-debt-secret/1130991" },
+      { short: "NPR", name: "NPR (Planet Money, via CF Public), « How the petrodollar regime came to be and what losing it would mean for the U.S. », 6 mai 2026", url: "https://www.cfpublic.org/2026-05-06/how-the-petrodollar-regime-came-to-be-and-what-losing-it-would-mean-for-the-u-s" },
+      { short: "Federal Reserve History", name: "Federal Reserve History, « Latin American Debt Crisis of the 1980s »", url: "https://www.federalreservehistory.org/essays/latin-american-debt-crisis" },
+      { short: "FDIC", name: "FDIC, « History of the Eighties », vol. 1, chapitre sur la crise de la dette latino-américaine", url: "https://www.fdic.gov/resources/publications/history-eighties/volume-1/history-80s-volume-1-part2-05.pdf" },
+      { short: "Département d'État", name: "Foreign Relations of the United States, 1977-1980, vol. XVIII, note éditoriale sur la doctrine Carter (discours sur l'état de l'Union du 23 janvier 1980)", url: "https://history.state.gov/historicaldocuments/frus1977-80v18/d45" },
+      { short: "RFE/RL", name: "Radio Free Europe / Radio Liberty, sur le passage de l'Irak à l'euro pour ses ventes de pétrole (2000)", url: "https://rferl.org/a/1095057.html" },
+      { short: "Britannica", name: "Encyclopædia Britannica, « Persian Gulf War »", url: "https://www.britannica.com/event/Persian-Gulf-War" },
+      { short: "PolitiFact", name: "PolitiFact, « The US dollar will continue to be used for oil sales », 20 juin 2024", url: "https://politifact.com/factchecks/2024/jun/20/facebook-posts/the-us-dollar-will-continue-to-be-used-for-oil-sal/" },
+      { short: "Asia Fact Check Lab", name: "Asia Fact Check Lab (RFA), « Did a deal between Saudi Arabia and US to sell oil in dollars expire? », juillet 2024", url: "https://www.rfa.org/english/news/afcl/afcl-us-saudi-oil-deal-07082024043619.html" },
+      { short: "Argaam", name: "Argaam, « Saudi holdings of US Treasuries rise to $149.5B in December 2025 »", url: "https://www.argaam.com/en/article/articledetail/id/1881813" },
+      { short: "Conseil de l'UE", name: "Conseil de l'Union européenne, « Sanctions de l'UE contre la Russie »", url: "https://www.consilium.europa.eu/fr/policies/sanctions-against-russia/" },
+      { short: "Justice américaine", name: "Département de la Justice des États-Unis, « BNP Paribas Agrees to Plead Guilty and to Pay $8.9 Billion for Illegally Processing Financial Transactions for Countries Subject to U.S. Economic Sanctions », 30 juin 2014", url: "https://www.justice.gov/opa/pr/bnp-paribas-agrees-plead-guilty-and-pay-89-billion-illegally-processing-financial" }
+    ]
+  },
+  {
     "id": "voiture-champ-de-bataille",
     "cover": "voiture",
     "plus": false,

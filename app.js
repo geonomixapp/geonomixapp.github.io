@@ -2425,6 +2425,14 @@
       <path class="ac" d="M0 128c70-18 130 14 200 0s130-22 200-6"/>
       ${[70, 160, 250, 340].map((x) => `<circle class="ac-f" cx="${x}" cy="${x === 70 ? 121 : x === 160 ? 131 : x === 250 ? 121 : 119}" r="5"/>`).join("")}
       <path class="ln dim" d="M120 88c10-8 22-8 30 0-8 8-20 8-30 0zm30 0l8-6v12z"/>`,
+    // Pétrodollar : un tanker sur la mer, un baril, et le signe dollar qui remonte vers le soleil.
+    petrodollar: `
+      <path class="ln" d="M0 142h400"/>
+      <path class="ln" d="M40 120h170l-14 18H56z"/><path class="ln dim" d="M70 120v-10h40v10M130 120v-16h22v16"/>
+      <path class="ac" d="M0 150c40-6 80 6 120 0s80-6 120 0 80 6 160 0"/>
+      <ellipse class="ln" cx="282" cy="86" rx="24" ry="7"/><path class="ln" d="M258 86v50M306 86v50"/><path class="ln dim" d="M258 104c8 5 40 5 48 0M258 120c8 5 40 5 48 0"/>
+      <circle class="ac" cx="352" cy="46" r="22"/>
+      <path class="ac-f" d="M347 33h10v4h-10zM347 55h10v4h-10z"/><path class="ac" d="M358 38c-2-3-12-4-13 1s13 6 13 11-11 5-13 1M352 30v34"/>`,
     barrage: `
       <circle class="ac" cx="330" cy="46" r="18"/>
       <path class="ln" d="M150 142l22-96h40l22 96"/><path class="ln dim" d="M160 100h64M166 74h52"/>
