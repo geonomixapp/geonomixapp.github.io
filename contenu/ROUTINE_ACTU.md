@@ -60,6 +60,17 @@ Une actu n'est pas une dépêche de trois lignes : le lecteur doit en savoir ass
 - Pas de remplissage : chaque phrase apporte un fait, un chiffre ou une explication. Mieux vaut chercher un détail précis de plus (deuxième, troisième recherche) qu'allonger avec des généralités.
 - Il faut donc **plus de sources** : 3 à 5 par actu principale, dont au moins une officielle ou une agence quand elle existe.
 
+## Dernière minute : les passages de 13 h et 19 h (demande de l'auteur, 1er nov. 2026)
+
+Une info hyper importante qui tombe dans la journée va dans le fil tout de suite, sans attendre le lendemain matin.
+
+- Tâche planifiée « Geonomix : dernière minute », à 12 h 47 et 18 h 47 (heure de Paris). Elle ne refait pas le fil : elle cherche seulement s'il s'est passé **quelque chose de majeur** depuis le dernier passage.
+- **Majeur** = guerre ou attaque d'ampleur, détroit ou grande route commerciale fermée, décision surprise d'une grande banque centrale, gouvernement qui tombe ou dirigeant qui démissionne, coup d'État, résultat d'une élection nationale importante, krach ou choc de marché (indice, pétrole, monnaie) très fort, catastrophe majeure, sanction ou droits de douane qui changent la donne entre grandes puissances. Pas un fait simplement intéressant : celui-là attend la routine du matin. **S'il n'y a rien de majeur, on ne publie rien** (c'est le cas le plus courant).
+- L'actu porte `breaking: "HH:MM"` (heure de Paris de la publication) : pastille rouge « Dernière minute » et point rouge sur le globe pendant environ un jour et demi, en tête du fil.
+- **Sources** : au moins 2, dont de préférence une agence ou Euronews. Juste après les faits, si une seule source fiable confirme, on publie quand même une actu plus courte (au moins 150 mots) avec `verify` (« Une seule source pour l'instant, l'info vient de tomber ») et on écrit « selon Reuters… » ; le passage suivant ou la routine du matin complète (2e source, version longue de 350 à 550 mots, `verify` retiré).
+- Avant de publier : traductions en/es, `check-content`, `build-quiz-data`, `build-duel` ; **pas** de nouvelle lettre PDF (elle reste celle du matin).
+- Si une actu du jour devient périmée (le fait a changé), on la corrige plutôt que d'en ajouter une deuxième.
+
 ## Des faits marquants, pas des statistiques (le plus important après la fiabilité)
 
 Une actu, c'est **un fait nouveau qui change quelque chose** : une décision, un accord, une rupture, une crise, une élection, un conflit, un mouvement social, un choc sur les marchés. Pas seulement « le chiffre du mois est sorti ».
@@ -92,7 +103,7 @@ Une actu, c'est **un fait nouveau qui change quelque chose** : une décision, un
 ## Fiabilité (le plus important)
 
 - Chaque fait chiffré ou rapporté est suivi de `[n]`, qui renvoie à la n-ième source de la liste `sources`.
-- Sources de préférence : agences (Reuters, AFP, AP), grands médias économiques, institutions (FMI, Banque mondiale, banques centrales, instituts statistiques comme l'Insee ou Eurostat).
+- Sources de préférence : agences (Reuters, AFP, AP), **Euronews** (l'auteur la trouve très bien, 1er nov. 2026 : à chercher en priorité, en particulier pour l'Europe et la dernière minute, euronews.com/fr), grands médias économiques, institutions (FMI, Banque mondiale, banques centrales, instituts statistiques comme l'Insee ou Eurostat).
 - **Jamais de chiffre inventé ni « de mémoire »**. Si un chiffre n'est pas trouvé dans une source, on ne l'écrit pas.
 - Si les sources se contredisent, on prend la plus officielle et on reste prudent dans la formulation.
 - Les liens doivent être ceux des articles réellement consultés.

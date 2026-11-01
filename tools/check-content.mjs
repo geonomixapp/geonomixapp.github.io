@@ -72,6 +72,7 @@ news.forEach((n, i) => {
   (n.zones || []).forEach((z) => { if (!ZONES.includes(z)) err(w, `zone inconnue « ${z} »`); });
   if (n.impact != null && n.impact !== "monde") err(w, `impact : seulement "monde"`);
   if (n.level != null && n.level !== 2) err(w, "level : seulement 2 (brève)");
+  if (n.breaking != null && !/^([01]\d|2[0-3]):[0-5]\d$/.test(String(n.breaking))) err(w, "breaking : l'heure de Paris au format HH:MM");
   // Des actus longues et précises (demande de l'auteur, 31 oct. 2026) : 350-550 mots, 150-250 pour une brève.
   if (n.date >= "2026-10-31") {
     const words = [n.summary, ...(n.points || []), ...(n.why || []), n.forMe].join(" ").replace(/\[\d+\]/g, "").split(/\s+/).filter(Boolean).length;

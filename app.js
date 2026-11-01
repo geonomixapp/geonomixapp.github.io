@@ -276,9 +276,15 @@
     if ((NEIGHBOURS[Z] || []).some((z) => home.has(z) || (n.zones || []).includes(z))) s += 1;
     if ((n.geo || []).some((g) => POWERS.test(g.name || ""))) s += 1;
     if ((n.level || 1) >= 2) s -= 3; // les brèves passent après les actus principales
+    if (isBreaking(n)) s += 10; // « Dernière minute » : en tête du fil
     return s;
   }
   const nearFirst = (list) => list.map((n, i) => [n, i, relevance(n)]).sort((a, b) => (b[0].date > a[0].date) - (b[0].date < a[0].date) || b[2] - a[2] || a[1] - b[1]).map((x) => x[0]);
+
+  // « Dernière minute » (demande de l'auteur, 1er nov. 2026) : actu majeure publiée en cours de journée par les
+  // passages de 13 h et 19 h ; champ `breaking: "HH:MM"` (heure de Paris). La pastille reste jusqu'au surlendemain midi (60 h après minuit du jour de l'actu).
+  const isBreaking = (n) => !!n.breaking && Date.now() - Date.parse(n.date + "T00:00:00") < 60 * 3600 * 1000;
+  const brkBadge = (n, short) => isBreaking(n) ? `<span class="brk-badge"><i aria-hidden="true"></i>${I18N.t("Dernière minute")}${short ? "" : " · " + (I18N.lang === "fr" ? String(n.breaking).replace(":", " h ") : n.breaking)}</span>` : "";
 
   // Pastille de thème des actus : orange = économie, bleu-violet = géopolitique, les deux couleurs = les deux.
   const themeChip = (t) => `<span class="theme-chip ${t}"><i aria-hidden="true"></i>${THEMES[t]}</span>`;
@@ -286,7 +292,7 @@
   function newsCard(n) {
     return `
       <a class="news-card ${n.theme} reveal${isNear(n) ? " near" : ""}" href="#/actu/${n.id}">
-        <p class="eyebrow">${themeChip(n.theme)}${isNear(n) ? ` <span class="near-badge">📍 Près de chez toi</span>` : ""}${n.region ? ` · ${n.region}` : ""}${n.deep ? ` · <span class="deep-badge">＋ ${I18N.t("Approfondi")}</span>` : ""}${n.verify ? ` · <span class="verify-badge">⚠️ ${I18N.t("Source à vérifier")}</span>` : ""}${finLocked(n) ? " · " + plusTag() : ""}${episodesFor("news", n.id).length ? ` · <span class="pod-badge">🎙️ En podcast</span>` : ""}</p>
+        <p class="eyebrow">${brkBadge(n, true)}${themeChip(n.theme)}${isNear(n) ? ` <span class="near-badge">📍 Près de chez toi</span>` : ""}${n.region ? ` · ${n.region}` : ""}${n.deep ? ` · <span class="deep-badge">＋ ${I18N.t("Approfondi")}</span>` : ""}${n.verify ? ` · <span class="verify-badge">⚠️ ${I18N.t("Source à vérifier")}</span>` : ""}${finLocked(n) ? " · " + plusTag() : ""}${episodesFor("news", n.id).length ? ` · <span class="pod-badge">🎙️ En podcast</span>` : ""}</p>
         <h3>${n.title}</h3>
         <p class="summary">${n.summary}</p>
         <span class="more">Comprendre en 2 min ›</span>
@@ -300,10 +306,10 @@
   function mosaicCard(n, size, kind) {
     const ill = size !== "text" && window.GeocoIllus ? `<div class="mc-ill">${window.GeocoIllus.svg(n, kind, size === "side")}</div>` : "";
     return `
-      <a class="news-card mcard m-${size} ${n.theme}${isNear(n) ? " near" : ""}" href="#/actu/${n.id}" data-kind="${size === "text" ? "" : kind}">
+      <a class="news-card mcard m-${size} ${n.theme}${isNear(n) ? " near" : ""}${isBreaking(n) ? " breaking" : ""}" href="#/actu/${n.id}" data-kind="${size === "text" ? "" : kind}">
         ${ill}
         <div class="mc-body">
-          <p class="mc-meta"><i class="mc-dot ${n.theme}" title="${THEMES[n.theme]}"></i>${relDay(n.date)}${n.region ? ` · ${n.region}` : ""}${n.verify ? ` <span class="verify-badge" title="${I18N.t("Source à vérifier")}">⚠️</span>` : ""}${finLocked(n) ? ` <span class="plus-lock" title="${offre.name}">🔒</span>` : ""}</p>
+          <p class="mc-meta">${brkBadge(n, true)}<i class="mc-dot ${n.theme}" title="${THEMES[n.theme]}"></i>${relDay(n.date)}${n.region ? ` · ${n.region}` : ""}${n.verify ? ` <span class="verify-badge" title="${I18N.t("Source à vérifier")}">⚠️</span>` : ""}${finLocked(n) ? ` <span class="plus-lock" title="${offre.name}">🔒</span>` : ""}</p>
           <h3>${n.title}</h3>
           ${size === "big" || size === "text" ? `<p class="summary">${n.summary}</p>` : ""}
         </div>
@@ -1897,7 +1903,7 @@
     app.innerHTML = `
       <section class="wrap hero">
         <a class="back" href="#/actu">‹ Actu</a>
-        <p class="eyebrow reveal">${themeChip(n.theme)} ${formatDate(n.date)}</p>
+        <p class="eyebrow reveal">${brkBadge(n)}${themeChip(n.theme)} ${formatDate(n.date)}</p>
         <h1 class="title reveal">${n.title}</h1>
         <p class="lead reveal">${n.summary}</p>
         ${!n.image && window.GeocoIllus ? `<figure class="news-illus reveal">${window.GeocoIllus.svg(n)}</figure>` : ""}

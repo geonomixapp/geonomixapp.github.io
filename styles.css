@@ -1561,3 +1561,13 @@ section.flash { animation: partFlash 1.6s ease-out; }
 /* Brèves sur le globe (visibles quand on zoome) : point plus petit, étiquette plus discrète */
 .globe-pin.brief .globe-dot { transform: scale(.7); opacity: .85; }
 .globe-pin.brief .globe-label { font-size: 11px; opacity: .85; background: rgba(20,22,30,.7); }
+
+/* « Dernière minute » (1er nov. 2026) */
+.brk-badge { display: inline-flex; align-items: center; gap: 5px; margin-right: 8px; padding: 2px 8px; border-radius: 99px; background: #e5383b; color: #fff; font-size: 11px; font-weight: 800; letter-spacing: .02em; text-transform: uppercase; vertical-align: 1px; }
+.brk-badge i { width: 6px; height: 6px; border-radius: 50%; background: #fff; animation: brkPulse 1.2s ease-in-out infinite; }
+@keyframes brkPulse { 50% { opacity: .25; } }
+.mcard.breaking { box-shadow: inset 0 0 0 1.5px rgba(229,56,59,.75); }
+.globe-pin.breaking .globe-dot { background: #e5383b; box-shadow: 0 0 0 0 rgba(229,56,59,.7); animation: brkRing 1.6s ease-out infinite; }
+.globe-pin.breaking .globe-label { background: rgba(229,56,59,.9); }
+@keyframes brkRing { to { box-shadow: 0 0 0 12px rgba(229,56,59,0); } }
+@media (prefers-reduced-motion: reduce) { .brk-badge i, .globe-pin.breaking .globe-dot { animation: none; } }

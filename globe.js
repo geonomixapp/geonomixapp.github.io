@@ -413,6 +413,9 @@
       const mainNews = news.filter((n) => (n.level || 1) < 2);
       const placesFar = placesFrom(mainNews), placesNear = placesFrom(news);
       placesNear.forEach((p) => { p.brief = p.items.every((it) => (it.news.level || 1) >= 2); });
+      // « Dernière minute » : point rouge qui pulse (même durée que dans app.js).
+      const brk = (x) => !!x.breaking && Date.now() - Date.parse(x.date + "T00:00:00") < 60 * 3600 * 1000;
+      [...placesFar, ...placesNear].forEach((p) => { p.breaking = p.items.some((it) => brk(it.news)); });
       let places = placesFar;
       let countryMode = null;
       const arcs = [];
@@ -450,7 +453,7 @@
         .htmlLat("lat").htmlLng("lng").htmlAltitude(0.015)
         .htmlElement((p) => {
           const el = document.createElement("button");
-          el.className = (p.left ? "globe-pin left" : "globe-pin") + (p.brief ? " brief" : "");
+          el.className = (p.left ? "globe-pin left" : "globe-pin") + (p.brief ? " brief" : "") + (p.breaking ? " breaking" : "");
           el.dataset.n = p.items.length;
           el.setAttribute("aria-label", `${p.title} : ${p.items.length} actu${p.items.length > 1 ? "s" : ""}`);
           el.innerHTML = `<span class="globe-dot"></span><span class="globe-label">${p.name}${p.items.length > 1 ? ` <em>${p.items.length}</em>` : ""}</span>`;
