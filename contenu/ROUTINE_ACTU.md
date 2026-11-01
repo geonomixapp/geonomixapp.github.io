@@ -24,6 +24,7 @@ L'appli classe les actus selon la zone du lecteur (deviné d'après son fuseau h
 - **Assez d'actus pour chaque zone**, pour qu'un lecteur en Argentine, au Canada ou au Japon ait aussi ses actus en tête : chaque jour au moins **2 actus d'Amérique latine** (peso argentin, relations Argentine-Chili, Brésil, Mexique…), **2 d'Amérique du Nord** (États-Unis, Canada), **2 d'Asie** (Chine d'abord, Japon, Inde, Corée), 1 d'Océanie si possible, en plus de l'Europe, du Moyen-Orient et de l'Afrique.
 - **Pour un lecteur européen**, l'ordre d'importance est : Europe (et France), puis Chine et Asie, États-Unis et Amérique du Nord, puis le reste, sauf effet direct sur nos économies (Ormuz, pétrole, gaz) qui remonte avec `impact: "monde"`.
 - **Ne jamais rater les grandes actus** qui concernent l'Europe, l'Amérique du Nord ou la Chine, même si les grands médias en parlent beaucoup (ex. le Canada qui veut devenir membre associé de l'UE).
+- **Afrique du Nord chaque jour** (demande de l'auteur, 1er nov. 2026 : il n'y avait plus aucun point au Maghreb ni en Égypte sur le globe) : au moins **1 actu principale ou 1 brève par jour** sur le Maroc, l'Algérie, la Tunisie, la Libye ou l'Égypte (Sahara occidental, gaz algérien, FMI et dette égyptienne, canal de Suez, migrations, élections, mouvements sociaux en Tunisie…), avec `region: "Afrique"` (ou « Moyen-Orient » pour l'Égypte si le sujet l'est) ; ne jamais laisser la zone vide plus de 2 jours.
 
 ## Les brèves : plus de pays quand on zoome (demande de l'auteur, 31 oct. 2026)
 
