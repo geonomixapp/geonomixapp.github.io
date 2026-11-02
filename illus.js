@@ -26,6 +26,7 @@
     for (const f of n.figures || []) {
       const t = figText(f);
       if (!VS.test(" " + t + " ")) continue;
+      if (/%/.test(String(f.value))) continue; // des pourcentages ne se comptent pas en carrés (2 nov. 2026)
       const xs = ints(t).filter((x) => Number.isInteger(x) && !isYear(x));
       if (xs.length >= 2 && xs[0] > 0 && xs[1] > 0 && Math.max(xs[0], xs[1]) <= 400) {
         const [left, right] = (f.label || "").split(VS);
@@ -93,6 +94,8 @@
   const T = (x, y, s, o = {}) => `<text x="${x}" y="${y}"${o.anchor ? ` text-anchor="${o.anchor}"` : ""} fill="${o.fill || COL.text}" font-size="${o.size || 11}" font-weight="${o.weight || 600}"${o.serif ? ' font-family="Times New Roman, Times, serif"' : ""}>${esc(s)}</text>`;
   // Deux lignes au plus, coupées entre les mots.
   const wrap2 = (s, n) => { const w = String(s || "").split(/\s+/); let a = "", b = ""; for (const x of w) { if (!b && (a + " " + x).trim().length <= n) a = (a + " " + x).trim(); else b = (b + " " + x).trim(); } return [a, b.length > n ? b.slice(0, n - 1).trim() + "…" : b]; };
+  // Jusqu'à k lignes de n signes, sans couper la phrase au milieu (2 nov. 2026 : « il n'y a pas la suite des phrases »).
+  const wrapN = (s, n, k) => { const out = [""]; for (const x of String(s || "").replace(/\s*\[\d+\]/g, "").split(/\s+/)) { const cur = out[out.length - 1]; if (!cur || (cur + " " + x).length <= n) out[out.length - 1] = (cur + " " + x).trim(); else out.push(x); } if (out.length > k) { out.length = k; out[k - 1] = out[k - 1].replace(/\s*\S*$/, "") + "…"; } return out.filter(Boolean); };
   const fit = (s, width, max) => Math.max(12, Math.min(max, width / (0.56 * Math.max(1, String(s).length))));
   const short = (s, n = 34) => (s = String(s || ""), s.length > n ? s.slice(0, n - 1).trim() + "…" : s);
 
@@ -146,7 +149,8 @@
     const [d1, h1] = dots(v.a, 46, accent(n)), [d2] = dots(v.b, 46 + h1 + 26, COL.land);
     const [la, lb] = [(v.la || "").replace(/\(.*$/, "").trim(), (v.lb || "").replace(/\(.*$/, "").trim()];
     return `${T(14, 36, String(v.a), { size: 20, weight: 700, serif: true, fill: accent(n) })}${d1}
-      ${T(14, 46 + h1 + 20, String(v.b), { size: 20, weight: 700, serif: true, fill: COL.mute })}${d2}`;
+      ${T(14, 46 + h1 + 20, String(v.b), { size: 20, weight: 700, serif: true, fill: COL.mute })}${d2}
+      ${wrapN(v.f.label, 54, 2).map((l, k) => T(14, H - 30 + k * 14, l, { size: 11, weight: 500, fill: COL.mute })).join("")}`;
   }
   function drawShock(n, compact) {
     const f = shock(n) || (n.figures || [])[0];
@@ -158,45 +162,55 @@
     }
     const size = fit(v, 290, 54);
     return `<rect width="${W}" height="${H}" fill="#121318"/><rect x="0" y="0" width="6" height="${H}" fill="${accent(n)}"/>
-      ${T(22, 104, v, { size, weight: 700, serif: true, fill: accent(n) })}${T(24, 132, short(f.label, 44), { size: 12, weight: 500, fill: COL.mute })}`;
+      ${T(22, 104, v, { size, weight: 700, serif: true, fill: accent(n) })}${wrapN(f.label, 46, 3).map((l, k) => T(24, 132 + k * 16, l, { size: 12, weight: 500, fill: COL.mute })).join("")}`;
   }
 
   // Graphique en barres (31 oct. 2026, demande de l'auteur : « des graphiques, varie ») : au moins deux chiffres
   // clés en %, comparés sur une même échelle, barres négatives à gauche du zéro.
   const pct = (f) => { const m = String(f.value).replace(/[−–]/g, "-").match(/^\s*([+-]?\d+(?:[.,]\d+)?)\s*%/); return m ? num(m[1]) : null; };
-  const pcts = (n) => (n.figures || []).filter((f) => pct(f) != null && !isNaN(pct(f)));
+  // Barres seulement entre chiffres comparables (2 nov. 2026, l'auteur : trois % sans rapport côte à côte, c'est bizarre) :
+  // on garde les % dont l'étiquette partage au moins un mot important avec celle d'un autre % (« croissance », « inflation »…).
+  const WORDS = (s) => new Set(String(s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\[\d+\]/g, "").split(/[^a-z0-9]+/).filter((w) => w.length >= 5 && !/^(contre|depuis|entre|apres|avant|selon|toujours|encore|annee|annees|mois|avec|leurs|cette|their|which|about|sobre|desde|entre)$/.test(w)));
+  const pcts = (n) => {
+    const all = (n.figures || []).filter((f) => pct(f) != null && !isNaN(pct(f)));
+    const ws = all.map((f) => WORDS(f.label));
+    return all.filter((f, i) => ws.some((o, j) => j !== i && [...ws[i]].some((w) => o.has(w))));
+  };
   function drawBars(n) {
     const fs = pcts(n).slice(0, 4), max = Math.max(...fs.map((f) => Math.abs(pct(f)))) || 1;
     const neg = fs.some((f) => pct(f) < 0), x0 = neg ? 120 : 16, right = W - 76;
     const negW = x0 - 16, posW = right - x0, scale = neg ? Math.min(negW, posW) : posW;
-    const rowH = Math.min(46, (H - 24) / fs.length), bh = Math.max(8, Math.min(14, rowH - 26));
+    const rowH = Math.min(58, (H - 24) / fs.length), bh = Math.max(8, Math.min(12, rowH - 34));
     return `<rect width="${W}" height="${H}" fill="#121318"/>${neg ? `<line x1="${x0}" y1="14" x2="${x0}" y2="${H - 10}" stroke="${COL.mute}" stroke-opacity=".5"/>` : ""}
       ${fs.map((f, i) => { const v = pct(f), w = Math.max(3, Math.abs(v) / max * scale), y = 20 + i * rowH;
         const x = v < 0 ? x0 - w : x0, col = v < 0 ? COL.red : accent(n);
-        return `${T(16, y, short(f.label, 46), { size: 11, weight: 500, fill: COL.mute })}<rect x="${x.toFixed(1)}" y="${y + 6}" width="${w.toFixed(1)}" height="${bh}" rx="3" fill="${col}"/>
-          ${T(W - 14, y + 6 + bh - 2, short(f.value, 10), { anchor: "end", size: 15, weight: 700, serif: true, fill: col })}`; }).join("")}`;
+        // L'étiquette entière, sur deux lignes au besoin (avant : coupée à 46 signes, la phrase restait en suspens).
+        const lines = wrapN(f.label, 56, 2), dy = (lines.length - 1) * 12;
+        return `${lines.map((l, k) => T(16, y + k * 12, l, { size: 10.5, weight: 500, fill: COL.mute })).join("")}<rect x="${x.toFixed(1)}" y="${y + 6 + dy}" width="${w.toFixed(1)}" height="${bh}" rx="3" fill="${col}"/>
+          ${T(W - 14, y + 6 + dy + bh - 2, short(f.value, 14), { anchor: "end", size: 15, weight: 700, serif: true, fill: col })}`; }).join("")}`;
   }
   // Anneau : un pourcentage entre 1 et 100 (une part, un taux de remplissage).
-  const share = (n) => (n.figures || []).find((f) => { const v = pct(f); return v != null && v > 0 && v <= 100 && !/^\s*[+-]/.test(String(f.value).replace(/[−–]/g, "-")); });
+  const RATE = /droit|douane|tax|tarif|taux|rate|inflation|croissance|growth|hausse|baisse|interest|inter[eé]s|zoll|arancel|dazi/i;
+  const share = (n) => (n.figures || []).find((f) => { const v = pct(f); return v != null && v > 0 && v <= 100 && !/^\s*[+-]/.test(String(f.value).replace(/[−–]/g, "-")) && !RATE.test(f.label || ""); });
   function drawDonut(n) {
     const f = share(n), v = pct(f), r = 58, cx = 96, cy = H / 2, a = (v / 100) * Math.PI * 2;
     const ex = cx + r * Math.sin(a), ey = cy - r * Math.cos(a), large = v > 50 ? 1 : 0;
     return `<rect width="${W}" height="${H}" fill="#121318"/><circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${COL.land}" stroke-width="18"/>
       ${v >= 99.9 ? `<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${accent(n)}" stroke-width="18"/>` : `<path d="M${cx},${cy - r} A${r},${r} 0 ${large} 1 ${ex.toFixed(1)},${ey.toFixed(1)}" fill="none" stroke="${accent(n)}" stroke-width="18" stroke-linecap="round"/>`}
       ${T(cx, cy + 9, short(f.value, 8), { anchor: "middle", size: 26, weight: 700, serif: true })}
-      ${wrap2(f.label, 24).map((l, i) => T(178, cy - 6 + i * 18, l, { size: 13, weight: 500, fill: COL.mute })).join("")}`;
+      ${wrapN(f.label, 22, 5).map((l, i, a) => T(178, cy + 4 - (a.length - 1) * 8 + i * 17, l, { size: 13, weight: 500, fill: COL.mute })).join("")}`;
   }
   // Calendrier : la prochaine étape datée (champ next) ou un chiffre clé qui est une date.
   const MONTH = /janv|févr|mars|avril|mai|juin|juil|août|sept|oct|nov|déc|jan|feb|mar|apr|may|jun|jul|aug|sep|dec|ene|abr|ago|dic/i;
-  const dateFig = (n) => { const x = [].concat(n.next || [])[0]; if (x && x.when) return { value: x.when, label: x.what }; return (n.figures || []).find((f) => MONTH.test(f.value) && /\d/.test(f.value)); };
+  const dateFig = (n) => { const x = [].concat(n.next || [])[0]; if (x && x.when && /\d/.test(x.when) && MONTH.test(x.when)) return { value: x.when, label: x.what }; return (n.figures || []).find((f) => MONTH.test(f.value) && /\d/.test(f.value)); };
   function drawCalendar(n) {
     const d = dateFig(n), cx = 92, top = 34;
-    const parts = String(d.value).split(/\s+/), big = parts.find((p) => /\d/.test(p)) || parts[0], rest = parts.filter((p) => p !== big).join(" ");
+    const parts = String(d.value).split(/\s+/), big = parts.find((p) => /\d/.test(p)) || parts[0], rest = parts.find((p) => MONTH.test(p)) || parts.filter((p) => p !== big).join(" ");
     return `<rect width="${W}" height="${H}" fill="#121318"/><rect x="${cx - 54}" y="${top}" width="108" height="122" rx="14" fill="#f5f5f7"/>
       <rect x="${cx - 54}" y="${top}" width="108" height="32" rx="14" fill="${accent(n)}"/><rect x="${cx - 54}" y="${top + 18}" width="108" height="14" fill="${accent(n)}"/>
-      ${T(cx, top + 22, short(rest || "", 12).toUpperCase(), { anchor: "middle", size: 12, weight: 700, fill: "#111" })}
+      ${T(cx, top + 22, short(rest || "", 14).toUpperCase(), { anchor: "middle", size: 12, weight: 700, fill: "#111" })}
       ${T(cx, top + 92, short(big, 6), { anchor: "middle", size: fit(short(big, 6), 90, 46), weight: 700, serif: true, fill: "#111" })}
-      ${wrap2(String(d.label || "").replace(/\s*\[\d+\]/g, ""), 22).map((l, i) => T(170, 84 + i * 18, l, { size: 13, weight: 500, fill: COL.mute })).join("")}`;
+      ${wrapN(String(d.label || "").replace(/\s*\[\d+\]/g, "").split(/(?<=[.;])\s/)[0], 24, 8).map((l, i) => T(170, 42 + i * 15, l, { size: 12, weight: 500, fill: COL.mute })).join("")}`;
   }
   // Podium : un rang (« 1er », « 11e », « 3rd »).
   const rankFig = (n) => (n.figures || []).find((f) => /^\s*\d{1,3}\s*(?:er|re|e|ème|st|nd|rd|th|\.º|º)\s*$/i.test(f.value));
@@ -205,7 +219,7 @@
     return `<rect width="${W}" height="${H}" fill="#121318"/>${steps.map(([r, h], i) => { const x = 18 + i * 50, on = r === rank;
       return `<rect x="${x}" y="${H - 22 - h}" width="46" height="${h}" rx="6" fill="${on ? accent(n) : COL.land}"/>${T(x + 23, H - 30 - h + h / 2 + 22, String(r), { anchor: "middle", size: 20, weight: 700, serif: true, fill: on ? "#111" : COL.mute })}`; }).join("")}
       ${T(252, 92, short(f.value, 6), { anchor: "middle", size: 40, weight: 700, serif: true, fill: accent(n) })}
-      ${wrap2(f.label, 20).map((l, i) => T(252, 118 + i * 16, l, { anchor: "middle", size: 11, weight: 500, fill: COL.mute })).join("")}`;
+      ${wrapN(f.label, 22, 4).map((l, i) => T(252, 118 + i * 15, l, { anchor: "middle", size: 11, weight: 500, fill: COL.mute })).join("")}`;
   }
 
   // ---------- Choix de la forme ----------
