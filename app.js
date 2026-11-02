@@ -3421,7 +3421,48 @@ function statGrid(figures, sources, theme = "geo") {
       if (target) setTimeout(() => { target.scrollIntoView({ behavior: "smooth", block: "start" }); target.classList.add("flash"); }, 120);
     }
     document.querySelector(".nav-search") && document.querySelector(".nav-search").classList.toggle("active", section === "recherche");
+    groupCites(app);
     watchReveals();
+  }
+
+  // Sources regroupées (demande de l'auteur, 2 nov. 2026 : « beaucoup trop de sources collées, mets-les en dessous
+  // de 2-3 paragraphes ») : les petites mentions (Reuters) ne restent plus au fil des phrases ; elles sont réunies,
+  // sans doublon, dans une ligne discrète « Sources : … » après chaque groupe de 3 paragraphes (ou une liste entière).
+  // Les citations (pull) et chiffres clés gardent leur mention en place.
+  function groupCites(root) {
+    const KEEP = ".stat, .pull, .stat-grid, .ag-src, .source-list, .cite-group";
+    const units = new Map(); // bloc (p ou liste) -> ses mentions
+    root.querySelectorAll("a.cite").forEach((a) => {
+      if (a.closest(KEEP)) return;
+      const li = a.closest("li");
+      const unit = li ? li.closest("ul, ol") : a.closest("p");
+      if (!unit || !unit.parentElement) return;
+      if (!units.has(unit)) units.set(unit, []);
+      units.get(unit).push(a);
+    });
+    const done = new Set();
+    units.forEach((_, unit) => {
+      const box = unit.parentElement;
+      if (done.has(box)) return;
+      done.add(box);
+      let buf = [], last = null, count = 0;
+      const flush = () => {
+        if (!buf.length || !last) return;
+        const seen = new Set(), links = [];
+        buf.forEach((a) => { if (!seen.has(a.href)) { seen.add(a.href); links.push(`<a href="${a.href}" target="_blank" rel="noopener">${a.textContent.replace(/^\(|\)$/g, "")}</a>`); } });
+        last.insertAdjacentHTML("afterend", `<p class="cite-group${last.classList.contains("reveal") ? " reveal" : ""}"><span>${I18N.t("Sources")}</span> ${links.join(" · ")}</p>`);
+        buf = []; last = null; count = 0;
+      };
+      [...box.children].forEach((child) => {
+        const cites = units.get(child);
+        if (cites) {
+          cites.forEach((a) => { const sp = a.previousSibling; if (sp && sp.nodeType === 3) sp.textContent = sp.textContent.replace(/\s+$/, ""); a.remove(); buf.push(a); });
+          last = child; count++;
+          if (count >= 3 || child.matches("ul, ol")) flush();
+        } else if (buf.length && !child.matches("p")) flush();
+      });
+      flush();
+    });
   }
 
   // Geonomix Duel : sur claude.ai, on ouvre la version en ligne (classement commun à jour) ; ailleurs, la page duel.html.

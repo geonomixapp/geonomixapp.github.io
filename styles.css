@@ -1614,3 +1614,11 @@ section.flash { animation: partFlash 1.6s ease-out; }
 .ilm-a { fill: none; stroke: #fff; stroke-width: 1.6; stroke-dasharray: 2 2; } .ilm-al { fill: rgba(255,255,255,.7); font: 800 11px system-ui, sans-serif; }
 .ilm-ev { stroke: #ff5c5c; stroke-width: 2; fill: none; color: #ff5c5c; } .ilm-ev.rev { stroke: #5be7ff; color: #5be7ff; }
 .ilm-evl { fill: #ff8080; font: 800 10px system-ui, sans-serif; }
+
+/* Sources regroupées sous 2-3 paragraphes (2 nov. 2026) */
+.cite-group { margin: 6px 0 22px; font: 500 12.5px/1.5 var(--font); color: var(--muted); letter-spacing: 0; }
+.cite-group span { text-transform: uppercase; letter-spacing: .08em; font-size: 10.5px; margin-right: 4px; opacity: .8; }
+.cite-group a { color: var(--muted); text-decoration: none; border-bottom: 1px solid rgba(255,255,255,.18); }
+.cite-group a:hover { color: var(--blue-text); }
+.art-box .cite-group { margin-bottom: 0; }
+.art-box.archive .cite-group, .art-box.archive .cite-group a { color: #8a5a12; }
