@@ -751,6 +751,121 @@ window.GEOCO = {
       ]
     },
     {
+      id: "ascenseur-social",
+      emoji: "🛗",
+      theme: "eco",
+      title: "L'ascenseur social : ce que disent les données",
+      hook: "Gagner plus que ses parents : c'était presque garanti pour un Américain né en 1940, c'est une chance sur deux pour ceux nés dans les années 1980. Que s'est-il passé, et qu'est-ce qui aide un enfant à monter ? Un cours inspiré des travaux de l'économiste de Harvard Raj Chetty.",
+      minutes: 9,
+      level: "Débutant",
+      tldr: [
+        "Aux États-Unis, environ 90 % des enfants nés en 1940 ont fini par gagner plus que leurs parents ; pour ceux nés dans les années 1980, c'est à peu près 50 % [1][2].",
+        "La croissance n'a pas disparu : elle a surtout profité aux plus aisés. Avec un partage aussi égal qu'après-guerre, plus de 70 % de cette chute serait effacée, selon l'équipe de Chetty [1].",
+        "Le quartier où l'on grandit compte : des enfants partis avant 13 ans vers des quartiers moins pauvres gagnent nettement plus une fois adultes [4].",
+        "Les amis aussi : avoir des amis de milieux plus aisés est l'un des meilleurs prédicteurs de l'ascension sociale jamais mesurés [5]."
+      ],
+      sections: [
+        {
+          title: "Le rêve américain, mis en chiffre",
+          paragraphs: [
+            "Les économistes appellent ==mobilité absolue== la part des enfants qui, adultes, gagnent plus que leurs parents au même âge (en tenant compte de l'inflation). C'est une façon simple de mesurer le « rêve américain ».",
+            "En 2016, l'équipe de Raj Chetty, alors à Stanford puis à Harvard, la calcule pour toutes les générations depuis 1940 grâce aux données fiscales américaines. Résultat : ==environ 90 % pour les enfants nés en 1940, environ 50 % pour ceux nés dans les années 1980== [1][2].",
+            "Pourquoi cette chute ? La croissance a ralenti, mais surtout ses fruits sont allés de plus en plus vers le haut de l'échelle. Les auteurs calculent que si la croissance récente avait été partagée comme celle des années 1940-1950, plus de 70 % du recul serait effacé [1].",
+            "Ce diagnostic est discuté : en 2022, l'économiste Scott Winship retrouve la même baisse, mais selon ses calculs une croissance plus rapide aurait bien plus relevé la mobilité qu'un partage plus égal ; il conteste donc qu'elle s'explique surtout par la hausse des inégalités [3]. C'est un bon exemple de débat d'économistes : ==tout le monde est d'accord sur le chiffre, pas sur sa cause==."
+          ],
+          plain: {
+            title: "deux familles, deux générations",
+            steps: [
+              "Un ouvrier né en 1940 grandit dans une Amérique en forte croissance, où les salaires de tout le monde progressent.",
+              "Adulte, il gagne bien plus que son père : c'est le cas de 9 enfants sur 10 de sa génération [1].",
+              "Son petit-fils, né en 1984, entre sur le marché du travail quand la croissance profite surtout aux plus hauts revenus.",
+              "Il n'a plus qu'une chance sur deux de gagner plus que ses parents [1][2]."
+            ]
+          }
+        },
+        {
+          title: "Dis-moi où tu grandis…",
+          paragraphs: [
+            "Les données de Chetty montrent que deux enfants issus de familles aussi modestes n'ont pas du tout les mêmes chances selon la ville, et même le quartier, où ils grandissent.",
+            "Pour savoir si c'est le quartier lui-même qui joue, ou seulement le type de familles qui y vivent, les chercheurs ont repris une expérience grandeur nature des années 1990 : ==Moving to Opportunity==. Des familles pauvres tirées au sort ont reçu une aide pour déménager dans des quartiers moins pauvres ; d'autres non.",
+            "Comme c'est le hasard qui décide, on peut comparer. Résultat : ==les enfants partis avant 13 ans gagnent, adultes, environ 31 % de plus== que ceux restés dans leur quartier d'origine [4]. Plus on déménage jeune, plus l'effet est fort : c'est le temps passé dans un bon environnement qui compte."
+          ],
+          plain: {
+            title: "la loterie qui a changé des vies",
+            steps: [
+              "Années 1990 : des familles de logements sociaux très pauvres s'inscrivent à un programme fédéral.",
+              "Un tirage au sort décide qui reçoit un bon pour louer dans un quartier moins pauvre.",
+              "Les chercheurs suivent les enfants pendant des années grâce aux données fiscales.",
+              "Ceux qui ont déménagé avant 13 ans gagnent environ 31 % de plus une fois adultes [4] : le quartier a un vrai effet, pas seulement les familles qui y vivent."
+            ]
+          }
+        },
+        {
+          title: "Dis-moi qui sont tes amis…",
+          paragraphs: [
+            "En 2022, l'équipe de Chetty analyse, avec Meta, les amitiés de ==72 millions d'utilisateurs américains de Facebook== âgés de 25 à 44 ans, soit 21 milliards de liens d'amitié [5].",
+            "Elle mesure la ==« connectivité économique »== : la part d'amis de milieux aisés chez les personnes de milieux modestes. C'est l'un des meilleurs prédicteurs de l'ascension sociale jamais mesurés, bien plus que d'autres formes de lien social comme la densité des amitiés ou l'engagement associatif [5].",
+            "Pourquoi ? Les amis donnent des informations (sur les études, les métiers), des modèles et parfois des contacts. Et ces amitiés dépendent des lieux de rencontre : quand des milieux différents se croisent à l'école, ils se lient d'autant plus que l'établissement ne les sépare pas en groupes [5]."
+          ]
+        },
+        {
+          title: "Les « Einstein perdus »",
+          paragraphs: [
+            "Autre étude célèbre de l'équipe : qui devient inventeur ? Les chercheurs croisent les brevets et les revenus des parents. Les enfants des familles riches ont beaucoup plus de chances de déposer des brevets que des enfants tout aussi doués en mathématiques à l'école, mais issus de familles modestes [6].",
+            "Et l'exposition compte : ==grandir entouré d'inventeurs, voir des exemples d'innovation, augmente fortement les chances de devenir soi-même inventeur== [6]. Des talents se perdent simplement parce qu'ils n'ont jamais vu le métier de près : ce sont les « Einstein perdus »."
+          ]
+        },
+        {
+          title: "À quoi servent ces travaux ?",
+          paragraphs: [
+            "==Mesurer pour agir.== En cartographiant les chances de chaque quartier, ces travaux aident à cibler les aides au logement, les écoles et les programmes de mentorat là où ils changent le plus de choses.",
+            "==Changer la question.== Au lieu de demander seulement « combien redistribuer ? », on se demande aussi « où et comment donner sa chance à chaque enfant ? » : quartier, école, réseaux, modèles.",
+            "==Et en Europe ?== Ces données portent sur les États-Unis. Les mécanismes (lieu de vie, amis, exemples) valent sans doute ailleurs, mais leurs effets doivent être mesurés pays par pays avant d'en tirer des conclusions."
+          ]
+        },
+        {
+          title: "Les limites",
+          paragraphs: [
+            "==Une mesure parmi d'autres.== La mobilité « absolue » dépend beaucoup de la croissance générale ; la mobilité « relative » (changer de place dans l'échelle) raconte une autre histoire.",
+            "==Corrélation ou cause ?== Les amitiés entre milieux sont liées à l'ascension sociale, mais ce n'est pas forcément l'amitié qui la provoque : c'est pourquoi les expériences par tirage au sort, comme Moving to Opportunity, comptent tant [4].",
+            "==Des causes discutées.== Le rôle des inégalités dans la baisse de la mobilité fait débat entre économistes [1][3]."
+          ]
+        },
+        {
+          title: "Pour aller plus loin : le cours gratuit de Harvard",
+          paragraphs: [
+            "Ce cours s'inspire du cours « Using Big Data to Solve Economic and Social Problems » de Raj Chetty et Gregory Bruich, donné à Harvard. Il est en accès libre en ligne (en anglais) : 18 leçons avec vidéos, diapositives et notes, sans aucun prérequis en économie ou en statistiques [7].",
+            "Il couvre aussi l'éducation, la santé, l'innovation ou les inégalités, toujours avec la même méthode : partir des grandes bases de données pour répondre à des questions concrètes [7]."
+          ]
+        }
+      ],
+      forMe: "Ton parcours ne dépend pas que de tes notes : ton quartier, ton école, les gens que tu côtoies et les métiers que tu as pu voir de près comptent aussi. Pour un étudiant, c'est une raison de plus de multiplier les rencontres, les stages et les mentors.",
+      figures: [
+        { value: "≈ 90 % → 50 %", label: "Américains qui gagnent plus que leurs parents : nés en 1940, puis nés dans les années 1980", src: 1 },
+        { value: "+31 %", label: "revenus adultes des enfants partis avant 13 ans vers un quartier moins pauvre", src: 4 },
+        { value: "72 millions", label: "utilisateurs de Facebook étudiés pour mesurer la « connectivité économique »", src: 5 }
+      ],
+      terms: ["pib", "pouvoir-achat", "dette-publique"],
+      quiz: [
+        { q: "Quelle part des Américains nés dans les années 1980 gagnent plus que leurs parents ?", options: ["Environ 90 %", "Environ 50 %", "Environ 10 %", "Tous"], answer: 1, explain: "C'était environ 90 % pour les enfants nés en 1940 ; c'est tombé à environ 50 % pour ceux nés dans les années 1980." },
+        { q: "Qu'a montré l'expérience Moving to Opportunity ?", options: ["Le quartier n'a aucun effet", "Les enfants qui déménagent jeunes vers un quartier moins pauvre gagnent plus adultes", "Déménager fait baisser les revenus", "Seuls les adultes en profitent"], answer: 1, explain: "Les enfants partis avant 13 ans gagnent environ 31 % de plus une fois adultes." },
+        { q: "Qu'est-ce que la « connectivité économique » ?", options: ["Le débit internet d'un quartier", "La part d'amis de milieux aisés chez les personnes de milieux modestes", "Le nombre de banques", "Le taux de chômage"], answer: 1, explain: "C'est l'un des meilleurs prédicteurs de l'ascension sociale, selon l'étude de 2022 sur 72 millions d'utilisateurs de Facebook." },
+        { q: "Qui sont les « Einstein perdus » ?", options: ["Des physiciens disparus", "Des enfants doués qui ne deviennent pas inventeurs faute d'exposition à l'innovation", "Des brevets perdus", "Des chercheurs partis à l'étranger"], answer: 1, explain: "Voir des inventeurs de près augmente fortement les chances d'en devenir un ; beaucoup de talents de milieux modestes n'ont pas cette chance." }
+      ],
+      sources: [
+        { short: "Opportunity Insights", name: "Opportunity Insights, « The Fading American Dream: Trends in Absolute Income Mobility Since 1940 » (Chetty, Grusky, Hell, Hendren, Manduca, Narang)", url: "https://opportunityinsights.org/paper/the-fading-american-dream/" },
+        { short: "Harvard Gazette", name: "Harvard Gazette, « Chetty and Sandel take on the American dream », octobre 2023", url: "https://news.harvard.edu/gazette/story/2023/10/chetty-and-sandel-take-on-the-american-dream" },
+        { short: "Silicon Canals", name: "Silicon Canals, « The American dream can be put in a number and that number has halved » (présente la réanalyse de Scott Winship, 2022)", url: "https://siliconcanals.com/m-the-american-dream-can-be-put-in-a-number-and-that-number-has-halved-9-in-10-children-born-in-1940-grew-up-to-out-earn-their-parents-for-those-born-in-the-1980s-it-is-now-about-1-in-2-bar/" },
+        { short: "FMI", name: "FMI, Finance & Développement, « Harvard Economist Raj Chetty on Social Mobility and Big Data », septembre 2018", url: "https://www.imf.org/en/publications/fandd/issues/2018/09/harvard-economist-raj-chetty-profile-people/index.md" },
+        { short: "NBER", name: "NBER, Chetty et al., « Social Capital I: Measurement and Associations with Economic Mobility », document de travail 30313 (publié dans Nature, 2022)", url: "https://www.nber.org/system/files/working_papers/w30313/w30313.pdf" },
+        { short: "RSA", name: "RSA Journal, « Capital gains » (entretien avec Raj Chetty)", url: "https://www.thersa.org/rsa-journal/capital-gains" },
+        { short: "Opportunity Insights", name: "Opportunity Insights, « Using Big Data to Solve Economic and Social Problems » (cours en ligne gratuit)", url: "https://opportunityinsights.org/course/" }
+      ],
+      visuals: [
+        { kind: "chart", type: "bar", title: "Le rêve américain s'est rétréci", subtitle: "Part des enfants qui gagnent, adultes, plus que leurs parents, selon leur génération (États-Unis)", xLabel: "Nés en", unit: "Part (%)", suffix: " %", data: [["1940", 90], ["Années 1980", 50]], source: "Opportunity Insights (Chetty et al.)" }
+      ]
+    },
+    {
       id: "droits-de-douane",
       emoji: "🚧",
       theme: "mix",
@@ -1182,6 +1297,14 @@ window.GEOCO = {
     }
   ],
 
+  // Cours gratuits de Harvard pour aller plus loin (demande de l'auteur, 2 nov. 2026 : « Harvard propose des cours
+  // gratuits en ligne, inspire-toi ») : affichés dans l'onglet Cours ; nos cours s'en inspirent sans les recopier.
+  harvard: [
+    { title: "Using Big Data to Solve Economic and Social Problems", who: "Raj Chetty et Gregory Bruich", where: "Opportunity Insights (Harvard)", what: "18 leçons en vidéo sur l'ascenseur social, l'éducation, la santé et l'innovation, à partir des grandes bases de données ; aucun prérequis.", ours: "ascenseur-social", url: "https://opportunityinsights.org/course/" },
+    { title: "Justice Today: Money, Markets, and Morals", who: "Michael J. Sandel", where: "edX (Harvard)", what: "8 semaines sur la morale des marchés : jusqu'où peut-on tout acheter et vendre ? Où s'arrête la logique du marché ?", url: "https://pll.harvard.edu/course/justice-today-money-markets-and-morals-edx" },
+    { title: "U.S. Public Policy: Social, Economic, and Foreign Policies", who: "HarvardX", where: "edX", what: "Les politiques budgétaire et monétaire américaines, la fiscalité, les accords commerciaux et la politique étrangère.", ours: "is-lm", url: "https://www.edx.org/learn/public-policy/harvard-university-u-s-public-policy-social-economic-and-foreign-policies" },
+    { title: "Public Economics", who: "Harvard", where: "en ligne (vidéos)", what: "Impôts, aides sociales, biens publics, pollution et assurance sociale : ce que fait l'État et pourquoi.", url: "https://www.openculture.com/public-economics-a-free-online-course-from-harvard" }
+  ],
   glossary: [
     { id: "politique-budgetaire", term: "Politique budgétaire", def: "Utiliser les dépenses publiques et les impôts pour agir sur l'activité : dépenser plus ou baisser les impôts pour relancer, l'inverse pour freiner (rigueur).", example: "Un plan de relance qui finance des travaux publics." },
     { id: "politique-monetaire", term: "Politique monétaire", def: "Action de la banque centrale sur la quantité de monnaie et les taux d'intérêt pour soutenir l'activité ou freiner l'inflation.", example: "La BCE qui monte ou baisse ses taux directeurs." },
