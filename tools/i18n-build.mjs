@@ -27,8 +27,9 @@ if (missingArg) {
   const lang = missingArg.slice(10);
   const { content } = load(lang);
   const todo = Object.fromEntries(Object.entries(source).filter(([k]) => !(k in content)));
-  process.stdout.write(JSON.stringify(todo, null, 1));
-  process.exit(0);
+  // Attendre que tout soit écrit avant de quitter (sinon, dans un tube, la sortie est tronquée au-delà de ~64 Ko).
+  process.stdout.write(JSON.stringify(todo, null, 1), () => process.exit(0));
+  await new Promise(() => {});
 }
 
 fs.mkdirSync("data/i18n", { recursive: true });

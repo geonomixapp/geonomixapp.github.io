@@ -1623,10 +1623,6 @@ section.flash { animation: partFlash 1.6s ease-out; }
 .art-box .cite-group { margin-bottom: 0; }
 .art-box.archive .cite-group, .art-box.archive .cite-group a { color: #8a5a12; }
 
-/* Cours gratuits de Harvard (2 nov. 2026) */
-.harvard-list { display: grid; gap: 14px; margin-top: 18px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
-.harvard-card { padding: 16px 18px; border-radius: 16px; background: var(--surface); border: 1px solid rgba(165, 28, 48, .45); }
-.harvard-card .eyebrow { color: #e0606f; font-size: 12px; margin-bottom: 6px; }
-.harvard-card h3 { font-size: 18px; margin: 0 0 6px; }
-.harvard-card p { margin: 0 0 8px; font-size: 14.5px; line-height: 1.45; color: var(--muted); }
-.harvard-links a { color: var(--blue-text); text-decoration: none; font-weight: 600; }
+/* Mention « Inspiré d'un cours de Harvard » (2 nov. 2026) */
+.harvard-tag { display: inline-block; padding: 3px 10px; border-radius: 99px; border: 1px solid rgba(165, 28, 48, .55); color: #e0707e; font: 600 12.5px/1.4 var(--font); letter-spacing: 0; }
+.row-sub .harvard-tag { margin-top: 4px; font-size: 11.5px; }

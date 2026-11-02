@@ -1118,6 +1118,7 @@
       <section class="wrap hero">
         <a class="back" href="#/cours">‹ Cours</a>
         <p class="eyebrow reveal">${THEMES[d.theme]} · ${d.minutes} min · ${d.level}</p>
+        ${d.inspiredBy ? `<p class="reveal">${harvardTag(d)}</p>` : ""}
         <h1 class="title reveal">${d.title}</h1>
         <p class="lead reveal">${d.hook}</p>
         ${ficheBtn(d)}
@@ -2351,29 +2352,9 @@
   }
 
   // ---------- Cours ----------
-  // Les cours gratuits de Harvard (demande de l'auteur, 2 nov. 2026) : liens vers les cours en ligne, et vers
-  // le cours Geonomix qui s'en inspire quand il existe.
-  function harvardBlock() {
-    const list = (window.GEOCO.harvard || []);
-    if (!list.length) return "";
-    return `
-      <section class="section">
-        <div class="wrap">
-          <p class="eyebrow reveal">${I18N.t("Pour aller plus loin")}</p>
-          <h2 class="title reveal">${I18N.t("Les cours gratuits de Harvard.")}</h2>
-          <p class="copy reveal">${I18N.t("Des cours en ligne gratuits (en anglais) dont s'inspirent certains de nos cours. Geonomix les résume et les relie à l'actu ; pour tout le détail, va à la source.")}</p>
-          <div class="harvard-list reveal">
-            ${list.map((h) => `
-              <div class="harvard-card">
-                <p class="eyebrow">${h.who} · ${h.where}</p>
-                <h3>${h.title}</h3>
-                <p>${h.what}</p>
-                <p class="harvard-links"><a href="${h.url}" target="_blank" rel="noopener">${I18N.t("Voir le cours")} ↗</a>${h.ours && byId(dossiers, h.ours) ? ` · <a href="#/cours/${h.ours}">${I18N.t("Notre cours :")} ${byId(dossiers, h.ours).title} ›</a>` : ""}</p>
-              </div>`).join("")}
-          </div>
-        </div>
-      </section>`;
-  }
+  // Cours inspirés d'un cours de Harvard (demande de l'auteur, 2 nov. 2026 : « tu mets oui ce sont des cours
+  // d'Harvard, mais tu ne dis pas qu'ils sont disponibles en ligne gratuitement ») : simple mention, sans lien.
+  const harvardTag = (d) => d.inspiredBy ? `<span class="harvard-tag">🎓 ${I18N.t("Inspiré d'un cours de Harvard")} · ${d.inspiredBy}</span>` : "";
 
   function renderCoursIndex() {
     const readCount = dossiers.filter((d) => readSet.has(d.id)).length;
@@ -2394,15 +2375,13 @@
             ${dossiers.map((d) => `
               <a class="row" href="#/cours/${d.id}">
                 <span class="dot ${d.theme}"></span>
-                <div class="row-main"><div class="row-title">${d.title}</div><div class="row-sub">${THEMES[d.theme]} · ${d.minutes} min · ${d.level}${courseLocked(d) ? " · " + plusTag() : ""}</div></div>
+                <div class="row-main"><div class="row-title">${d.title}</div><div class="row-sub">${THEMES[d.theme]} · ${d.minutes} min · ${d.level}${courseLocked(d) ? " · " + plusTag() : ""}</div>${d.inspiredBy ? `<div class="row-sub">${harvardTag(d)}</div>` : ""}</div>
                 ${readSet.has(d.id) ? '<span class="check">Lu</span>' : ""}
                 <span class="chev" aria-hidden="true">›</span>
               </a>`).join("")}
           </div>
         </div>
       </section>
-
-      ${harvardBlock()}
 
       <section class="section alt">
         <div class="wrap">

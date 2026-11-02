@@ -173,6 +173,8 @@ L'appli s'affiche dans la langue du téléphone (français, anglais, espagnol, a
 
 Une actu non traduite s'affiche en français : ce n'est pas bloquant, mais `check-content` le signale.
 
+**Les cours et articles aussi** (2 nov. 2026) : la liste `--missing` contient aussi les cours (`dossiers.*`), articles (`culture.*`) et mots du lexique (`glossary.*`) ajoutés à la main dans la journée. Les traduire aussi, chaque matin, en plus des actus : au moins 150 textes par jour s'il en reste beaucoup (commencer par les plus récents), dans `contenu/traductions/<langue>/contenu-AAAA-MM-JJ-cours.json`, jusqu'à ce que `check-content` n'affiche plus « À traduire ».
+
 ## Publier l'aperçu
 
 Aperçu privé de l'appli : https://claude.ai/artifact/UxRba3w8oMS1KWe774hciT

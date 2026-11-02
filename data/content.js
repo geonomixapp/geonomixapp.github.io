@@ -753,6 +753,7 @@ window.GEOCO = {
     {
       id: "ascenseur-social",
       emoji: "🛗",
+      inspiredBy: "Raj Chetty",
       theme: "eco",
       title: "L'ascenseur social : ce que disent les données",
       hook: "Gagner plus que ses parents : c'était presque garanti pour un Américain né en 1940, c'est une chance sur deux pour ceux nés dans les années 1980. Que s'est-il passé, et qu'est-ce qui aide un enfant à monter ? Un cours inspiré des travaux de l'économiste de Harvard Raj Chetty.",
@@ -830,13 +831,6 @@ window.GEOCO = {
             "==Corrélation ou cause ?== Les amitiés entre milieux sont liées à l'ascension sociale, mais ce n'est pas forcément l'amitié qui la provoque : c'est pourquoi les expériences par tirage au sort, comme Moving to Opportunity, comptent tant [4].",
             "==Des causes discutées.== Le rôle des inégalités dans la baisse de la mobilité fait débat entre économistes [1][3]."
           ]
-        },
-        {
-          title: "Pour aller plus loin : le cours gratuit de Harvard",
-          paragraphs: [
-            "Ce cours s'inspire du cours « Using Big Data to Solve Economic and Social Problems » de Raj Chetty et Gregory Bruich, donné à Harvard. Il est en accès libre en ligne (en anglais) : 18 leçons avec vidéos, diapositives et notes, sans aucun prérequis en économie ou en statistiques [7].",
-            "Il couvre aussi l'éducation, la santé, l'innovation ou les inégalités, toujours avec la même méthode : partir des grandes bases de données pour répondre à des questions concrètes [7]."
-          ]
         }
       ],
       forMe: "Ton parcours ne dépend pas que de tes notes : ton quartier, ton école, les gens que tu côtoies et les métiers que tu as pu voir de près comptent aussi. Pour un étudiant, c'est une raison de plus de multiplier les rencontres, les stages et les mentors.",
@@ -858,11 +852,223 @@ window.GEOCO = {
         { short: "Silicon Canals", name: "Silicon Canals, « The American dream can be put in a number and that number has halved » (présente la réanalyse de Scott Winship, 2022)", url: "https://siliconcanals.com/m-the-american-dream-can-be-put-in-a-number-and-that-number-has-halved-9-in-10-children-born-in-1940-grew-up-to-out-earn-their-parents-for-those-born-in-the-1980s-it-is-now-about-1-in-2-bar/" },
         { short: "FMI", name: "FMI, Finance & Développement, « Harvard Economist Raj Chetty on Social Mobility and Big Data », septembre 2018", url: "https://www.imf.org/en/publications/fandd/issues/2018/09/harvard-economist-raj-chetty-profile-people/index.md" },
         { short: "NBER", name: "NBER, Chetty et al., « Social Capital I: Measurement and Associations with Economic Mobility », document de travail 30313 (publié dans Nature, 2022)", url: "https://www.nber.org/system/files/working_papers/w30313/w30313.pdf" },
-        { short: "RSA", name: "RSA Journal, « Capital gains » (entretien avec Raj Chetty)", url: "https://www.thersa.org/rsa-journal/capital-gains" },
-        { short: "Opportunity Insights", name: "Opportunity Insights, « Using Big Data to Solve Economic and Social Problems » (cours en ligne gratuit)", url: "https://opportunityinsights.org/course/" }
+        { short: "RSA", name: "RSA Journal, « Capital gains » (entretien avec Raj Chetty)", url: "https://www.thersa.org/rsa-journal/capital-gains" }
       ],
       visuals: [
         { kind: "chart", type: "bar", title: "Le rêve américain s'est rétréci", subtitle: "Part des enfants qui gagnent, adultes, plus que leurs parents, selon leur génération (États-Unis)", xLabel: "Nés en", unit: "Part (%)", suffix: " %", data: [["1940", 90], ["Années 1980", 50]], source: "Opportunity Insights (Chetty et al.)" }
+      ]
+    },
+    {
+      id: "morale-marches",
+      emoji: "⚖️",
+      theme: "eco",
+      inspiredBy: "Michael J. Sandel",
+      title: "Ce que l'argent ne devrait pas acheter : la morale des marchés",
+      hook: "Une amende pour les parents en retard qui les fait… arriver plus tard. Un droit de polluer qu'on achète en Bourse. Un rein qu'on peut vendre légalement en Iran. Jusqu'où le marché doit-il aller ? Un cours pour penser, avec des faits.",
+      minutes: 10,
+      level: "Intermédiaire",
+      tldr: [
+        "Les économistes jugent un marché d'abord à son efficacité ; le philosophe Michael Sandel pose deux autres questions : est-ce juste (équité), et est-ce que l'argent change la nature de ce qu'on échange (corruption) ?",
+        "Exemple célèbre : dans des crèches israéliennes, une amende pour les retards a fait augmenter les retards, et ils sont restés hauts même après sa suppression [1].",
+        "Le marché du carbone européen fait payer la pollution depuis 2005 : un outil efficace pour les uns, un « droit de polluer » pour les autres [2][3].",
+        "Payer des élèves, vendre un rein : les expériences réelles montrent que les incitations marchent… parfois, et pas toujours comme prévu [5][6]."
+      ],
+      sections: [
+        {
+          title: "La question qu'on ne pose plus",
+          paragraphs: [
+            "Depuis les années 1980, le marché s'est étendu à des domaines qui lui échappaient : santé, éducation, environnement, sécurité. Pour un économiste, un échange librement consenti profite aux deux parties ; si on peut créer un marché, on améliore souvent l'efficacité.",
+            "Le philosophe de Harvard Michael Sandel pose deux objections. ==L'équité== : un échange est-il vraiment libre quand l'un des deux est dans le besoin ? ==La corruption== (au sens de « dégradation ») : mettre un prix sur certaines choses change ce qu'elles sont ; une amitié achetée n'est plus une amitié.",
+            "Ce cours ne tranche pas : il te donne des cas réels, avec leurs chiffres, pour que tu te fasses ton avis."
+          ]
+        },
+        {
+          title: "L'amende qui a fait venir les parents… plus tard",
+          paragraphs: [
+            "Les économistes Uri Gneezy et Aldo Rustichini mènent une expérience dans des crèches en Israël. Dans 6 crèches sur 10, ils introduisent une amende pour les parents qui arrivent plus de 10 minutes en retard ; les 4 autres servent de comparaison [1].",
+            "Résultat inverse de celui attendu : ==les retards augmentent== dans les crèches avec amende, puis se stabilisent à un niveau plus élevé qu'avant. Et quand l'amende est supprimée, à la 17e semaine, les retards restent aussi hauts [1].",
+            "Leur explication tient dans le titre de leur article : ==« une amende est un prix »==. Avant, arriver en retard, c'était manquer de respect aux éducatrices. Avec l'amende, c'est un service qu'on paie : la gêne morale a disparu, et elle n'est pas revenue [1]."
+          ],
+          plain: {
+            title: "comment un prix tue une norme",
+            steps: [
+              "Avant : un parent en retard se sent coupable vis-à-vis de l'éducatrice qui l'attend. Il fait tout pour arriver à l'heure.",
+              "La crèche crée une amende pour les retards de plus de 10 minutes [1].",
+              "Le parent se dit : « Je paie, donc j'ai le droit. » Le retard devient un service acheté.",
+              "Les retards augmentent. Même quand l'amende disparaît, la culpabilité ne revient pas : les retards restent élevés [1]."
+            ]
+          }
+        },
+        {
+          title: "Payer pour polluer ?",
+          paragraphs: [
+            "Depuis 2005, l'Union européenne oblige les centrales électriques, les usines et les compagnies aériennes à posséder un « quota » pour chaque tonne de CO₂ qu'elles émettent. Le nombre total de quotas est plafonné et baisse avec le temps ; les entreprises peuvent les acheter et les revendre [2].",
+            "Le prix bouge comme sur un marché. Autour de 4 euros la tonne en février 2017, il dépasse pour la première fois ==100 euros en février 2023== [2], avant de redescendre sous 60 euros en 2024 [3].",
+            "Pour les économistes, c'est l'outil le plus efficace : on fixe la quantité de pollution, et ce sont les entreprises qui réduisent le moins cher qui réduisent le plus. Pour Sandel, le mot « droit de polluer » pose problème : payer pour polluer enlève à la pollution son caractère de faute.",
+            "La France a aussi une taxe carbone sur les carburants et le chauffage. Elle atteint 44,6 euros la tonne en 2018 ; la hausse prévue en 2019 est annulée après le mouvement des gilets jaunes, et elle reste figée depuis à ce niveau, loin des 100 euros visés pour 2030 [4]. ==Un prix efficace sur le papier peut être jugé injuste dans la rue.=="
+          ],
+          plain: {
+            title: "comment marche un marché du carbone",
+            steps: [
+              "L'Europe fixe un plafond total d'émissions et distribue ou vend des quotas : 1 quota = 1 tonne de CO₂ [2].",
+              "Une usine qui peut réduire ses émissions à bas prix le fait, et revend ses quotas en trop.",
+              "Une usine pour qui c'est très cher achète des quotas plutôt que de réduire.",
+              "Au total, les émissions respectent le plafond, au coût le plus bas possible. Le plafond baisse chaque année : le prix du quota monte, et polluer coûte de plus en plus cher [2]."
+            ]
+          }
+        },
+        {
+          title: "Payer les élèves pour apprendre ?",
+          paragraphs: [
+            "En 2007-2009, l'économiste de Harvard Roland Fryer teste des primes en argent dans plus de 250 écoles de Chicago, Dallas, Washington et New York, avec des groupes tirés au sort [5]. À Dallas, on paie les élèves pour lire des livres ; ailleurs, pour leurs notes.",
+            "Résultat : ==payer pour les résultats (les notes) ne marche pas==, tandis que payer pour les efforts (lire, venir en classe) a des effets plus encourageants [5]. Explication de Fryer : les élèves ne savent pas comment transformer leur envie de gagner la prime en meilleures notes [5].",
+            "La leçon rejoint celle des crèches : un prix change les comportements, mais pas toujours dans le sens prévu."
+          ]
+        },
+        {
+          title: "Peut-on vendre un rein ?",
+          paragraphs: [
+            "Presque partout, vendre un organe est interdit. L'Iran est une exception : depuis 1988, un programme encadré par l'État permet à un donneur vivant non apparenté de recevoir de l'argent pour un rein [6].",
+            "Ses défenseurs affirment qu'il a fait disparaître la liste d'attente pour une greffe de rein à la fin des années 1990 ; cette affirmation est contestée par d'autres spécialistes iraniens, qui soulignent la pauvreté des donneurs et la façon dont on mesure la liste d'attente [6][7].",
+            "C'est le cas parfait pour les deux objections de Sandel : ==le donneur est-il vraiment libre== s'il vend un rein parce qu'il est pauvre (équité) ? Et un don devenu vente garde-t-il le même sens (corruption) ? En face, l'argument économique : des milliers de malades attendent une greffe ailleurs."
+          ]
+        },
+        {
+          title: "Deux camps, deux questions",
+          paragraphs: [
+            "==Le camp de l'efficacité== demande : le marché produit-il le meilleur résultat au moindre coût ? Il rappelle que les interdits ont aussi des victimes (malades sans greffe, pollution non tarifée).",
+            "==Le camp de Sandel== demande : quelles valeurs le prix fait-il disparaître, et qui est contraint d'accepter l'échange ? Il rappelle qu'une société où tout s'achète devient plus dure pour ceux qui ont peu.",
+            "Dans le débat public, ces deux camps se croisent sans cesse : taxe carbone, péages urbains, prix de l'eau, rémunération du don du sang. Savoir reconnaître la question posée (efficacité ou valeurs ?) aide à comprendre le désaccord."
+          ],
+          example: {
+            title: "À toi de juger",
+            text: "Pour chaque cas, pose les deux questions : 1) Est-ce efficace ? 2) Est-ce juste, et est-ce que le prix change le sens de la chose ? Amende de crèche, quota de CO₂, prime scolaire, rein payé : tu verras que les réponses ne vont pas toujours dans le même sens."
+          }
+        }
+      ],
+      forMe: "Chaque fois qu'on propose de « mettre un prix » sur quelque chose (polluer, se garer, entrer en premier, réussir un examen), demande-toi s'il s'agit de rendre le système plus efficace, ou si ce prix change la façon dont les gens se comportent et jugent leurs actes.",
+      figures: [
+        { value: "6 crèches sur 10", label: "avec une amende pour les retards… qui ont augmenté", src: 1 },
+        { value: "> 100 €", label: "le prix d'une tonne de CO₂ sur le marché européen en février 2023, une première", src: 2 },
+        { value: "44,6 €", label: "la taxe carbone française par tonne, figée depuis 2018", src: 4 }
+      ],
+      terms: ["inflation", "pouvoir-achat"],
+      quiz: [
+        { q: "Qu'est-il arrivé aux retards dans les crèches où une amende a été créée ?", options: ["Ils ont disparu", "Ils ont augmenté", "Rien n'a changé", "Les crèches ont fermé"], answer: 1, explain: "L'amende a transformé le retard en service payant : les retards ont augmenté et sont restés hauts même après la suppression de l'amende." },
+        { q: "Comment fonctionne le marché européen du carbone ?", options: ["Une taxe fixe sur l'essence", "Un plafond d'émissions et des quotas qu'on achète et revend", "Une interdiction de polluer", "Une subvention aux usines"], answer: 1, explain: "Un quota par tonne de CO₂, un plafond total qui baisse, et des entreprises qui échangent leurs quotas." },
+        { q: "Quelles sont les deux objections de Sandel aux marchés ?", options: ["Le prix et la quantité", "L'équité et la corruption (le prix change le sens de la chose)", "L'inflation et le chômage", "L'offre et la demande"], answer: 1, explain: "Équité : un échange sous la contrainte n'est pas vraiment libre. Corruption : mettre un prix dégrade certaines choses." },
+        { q: "Dans l'expérience de Fryer, qu'est-ce qui marche le moins ?", options: ["Payer pour lire des livres", "Payer pour venir en classe", "Payer pour les notes", "Ne rien payer"], answer: 2, explain: "Payer pour les résultats ne marche pas : les élèves ne savent pas comment transformer la prime en meilleures notes." }
+      ],
+      sources: [
+        { short: "Gneezy et Rustichini", name: "Uri Gneezy et Aldo Rustichini, « A Fine is a Price », Journal of Legal Studies, 2000", url: "https://rady.ucsd.edu/_files/faculty-research/uri-gneezy/fine.pdf" },
+        { short: "Grist", name: "Grist, « EU carbon price hits 100 euros », février 2023", url: "https://grist.org/beacon/eu-carbon-price-hits-100-euros/" },
+        { short: "Expansión", name: "Expansión, « Valor de los mercados mundiales de carbono aumentó en 2023 », 12 février 2024", url: "https://expansion.mx/mercados/2024/02/12/valor-mercados-mundiales-carbono-aumento-2023-alcanza-record" },
+        { short: "Connaissance des énergies", name: "Connaissance des énergies, « Quel est le montant de la taxe carbone en France ? »", url: "https://www.connaissancedesenergies.org/questions-et-reponses-energies/quel-est-le-montant-de-la-taxe-carbone-en-france" },
+        { short: "Fryer (J-PAL)", name: "Roland G. Fryer, « Financial Incentives and Student Achievement: Evidence from Randomized Trials », Quarterly Journal of Economics, 2011 (via J-PAL)", url: "https://www.povertyactionlab.org/sites/default/files/publications/919_Financialincentives_and_student_Fryer_2011.pdf" },
+        { short: "PubMed", name: "Ghods et Savaj, « Iranian model of paid and regulated living-unrelated kidney donation », Clinical Journal of the American Society of Nephrology, 2006", url: "https://pubmed.ncbi.nlm.nih.gov/17699338/" },
+        { short: "Centre for Public Impact", name: "Centre for Public Impact, « Organ donations in Iran » (étude de cas)", url: "https://www.centreforpublicimpact.org/case-study/organ-donations-in-iran" }
+      ]
+    },
+    {
+      id: "role-etat",
+      emoji: "🏛️",
+      theme: "eco",
+      inspiredBy: "Économie publique",
+      title: "À quoi sert l'État ? Impôts, biens publics et pollution",
+      hook: "La France prélève plus de 42 % de sa richesse en impôts et cotisations, l'un des taux les plus élevés d'Europe. Pour faire quoi ? Quand le marché se débrouille-t-il seul, et quand faut-il l'État ? Les grandes idées de l'économie publique, avec des exemples concrets.",
+      minutes: 9,
+      level: "Débutant",
+      tldr: [
+        "En 2024, impôts et cotisations représentent 42,8 % du PIB en France selon l'Insee ; selon la méthode européenne, la France est 2e de l'UE, juste derrière le Danemark [1][2].",
+        "L'État intervient d'abord quand le marché échoue : biens publics que personne ne paierait seul, pollution dont personne ne paie le coût, risques que les assureurs privés couvrent mal.",
+        "Celui qui paie un impôt n'est pas toujours celui qui le supporte : c'est la question de « l'incidence fiscale ».",
+        "Mais l'État a aussi un coût : chaque impôt modifie les comportements, et un impôt mal conçu peut susciter un rejet massif, comme la taxe carbone en 2018 [3]."
+      ],
+      sections: [
+        {
+          title: "Combien prélève l'État ?",
+          paragraphs: [
+            "Les ==prélèvements obligatoires==, ce sont tous les impôts et cotisations sociales que les ménages et les entreprises doivent payer. En France, ils représentent 42,8 % du PIB en 2024 selon l'Insee, après un record de 45,4 % en 2022, le plus haut niveau mesuré depuis 1959 [1].",
+            "Selon la méthode européenne d'Eurostat, un peu plus large, le taux français atteint 45,3 % en 2024 : le 2e de l'Union européenne, derrière le Danemark (45,8 %) et devant la Belgique (45,1 %) [2].",
+            "Ces chiffres ne disent pas si c'est « trop » : ils mesurent combien de richesse passe par l'État, qui en reverse une grande partie aux ménages (retraites, santé, allocations). La vraie question de l'économie publique est : ==dans quels cas l'État fait-il mieux que le marché ?=="
+          ]
+        },
+        {
+          title: "Les biens publics : ce que personne ne paierait seul",
+          paragraphs: [
+            "Certains biens ont deux particularités. On ne peut pas empêcher quelqu'un d'en profiter (==non-exclusion==), et le fait que j'en profite n'en prive pas les autres (==non-rivalité==). Exemples : l'éclairage d'une rue, la défense nationale, un phare pour les bateaux, la recherche fondamentale.",
+            "Problème : chacun a intérêt à attendre que les autres paient, puisqu'il en profitera quand même. C'est le ==passager clandestin==. Résultat : laissé au marché, ce bien serait produit en trop faible quantité, voire pas du tout.",
+            "D'où l'impôt : l'État oblige tout le monde à contribuer, et finance ce que personne n'aurait financé seul."
+          ],
+          plain: {
+            title: "l'éclairage de ta rue",
+            steps: [
+              "Ta rue est sombre. Un lampadaire coûte cher, mais il profite à tous les voisins.",
+              "Chaque voisin se dit : « Si les autres paient, j'en profiterai gratuitement. »",
+              "Personne ne paie : la rue reste sombre, alors que tout le monde voulait de la lumière.",
+              "La mairie installe le lampadaire et le finance par les impôts locaux : chacun paie un peu, tout le monde en profite."
+            ]
+          }
+        },
+        {
+          title: "La pollution : un coût que personne ne paie",
+          paragraphs: [
+            "Quand une usine pollue une rivière, elle impose un coût aux pêcheurs et aux riverains sans le payer : c'est une ==externalité négative==. Comme ce coût n'apparaît pas dans son prix, elle produit trop.",
+            "La solution classique, proposée par l'économiste Arthur Pigou, est de ==taxer la pollution== au niveau du dommage causé : le pollueur intègre ce coût dans ses choix. C'est l'idée de la taxe carbone (voir aussi notre cours sur la morale des marchés).",
+            "En France, la taxe carbone sur l'énergie atteint 44,6 euros par tonne de CO₂ en 2018. Sa hausse prévue en 2019 est annulée face au mouvement des gilets jaunes, et elle reste bloquée depuis à ce niveau, alors que la trajectoire visait 100 euros en 2030 [3]. ==Un outil efficace pour l'économiste peut être rejeté s'il pèse surtout sur ceux qui n'ont pas d'alternative== (ménages qui roulent beaucoup, chauffage au fioul)."
+          ]
+        },
+        {
+          title: "Qui paie vraiment l'impôt ?",
+          paragraphs: [
+            "Celui qui verse l'impôt à l'État n'est pas toujours celui qui en supporte le poids : c'est la question de ==l'incidence fiscale==.",
+            "Exemple : les cotisations sociales « patronales » sont versées par l'employeur. Mais si elles augmentent, l'entreprise peut augmenter moins les salaires : une partie est alors supportée par les salariés. De même, une taxe sur un produit est souvent répercutée sur le prix, donc payée par le client.",
+            "Règle générale : ==c'est celui qui a le moins de solutions de rechange qui supporte la taxe==. Si les clients ne peuvent pas se passer du produit, ce sont eux qui paient ; s'ils peuvent facilement en changer, c'est le vendeur. Les droits de douane en sont un bon exemple (voir notre cours sur les droits de douane)."
+          ],
+          plain: {
+            title: "une taxe sur les cigarettes",
+            steps: [
+              "L'État augmente la taxe sur chaque paquet ; c'est le fabricant qui la verse.",
+              "Les fumeurs dépendants achètent presque autant, même plus cher.",
+              "Le fabricant augmente donc son prix presque du montant de la taxe.",
+              "Au final, ce sont surtout les fumeurs qui la paient, pas le fabricant."
+            ]
+          }
+        },
+        {
+          title: "Assurer ce que le marché assure mal",
+          paragraphs: [
+            "Chômage, maladie, vieillesse : pourquoi l'État s'en mêle-t-il ? Parce que les assurances privées y fonctionnent mal, à cause de ==l'information cachée==.",
+            "Si une assurance chômage était facultative, ceux qui craignent le plus de perdre leur emploi s'y inscriraient en priorité ; l'assureur devrait monter ses prix, les « bons risques » partiraient, et le système s'effondrerait. Les économistes appellent ce mécanisme la ==sélection adverse== (voir George Akerlof dans notre cours sur les écoles économiques).",
+            "En rendant l'assurance obligatoire pour tous, l'État casse ce cercle : tout le monde cotise, les bons comme les mauvais risques."
+          ]
+        },
+        {
+          title: "Les limites : l'État a aussi un coût",
+          paragraphs: [
+            "==Chaque impôt modifie les comportements.== Un impôt sur le travail peut décourager de travailler plus, un impôt sur l'épargne d'épargner : les économistes appellent « perte sèche » la richesse qui disparaît ainsi.",
+            "==L'État peut se tromper.== Il manque parfois d'information, cède à des groupes de pression ou réagit lentement : on parle « d'échecs de l'État », comme on parle d'échecs du marché.",
+            "==L'acceptation compte.== La taxe carbone française montre qu'un bon outil sur le papier ne suffit pas : il faut qu'il soit perçu comme juste [3]."
+          ]
+        }
+      ],
+      forMe: "Ta fiche de paie, ton plein d'essence, ton ticket de caisse : tout contient des prélèvements. Savoir à quoi ils servent (biens publics, assurance, lutte contre la pollution) et qui les supporte vraiment aide à juger les débats sur les impôts sans slogans.",
+      figures: [
+        { value: "42,8 %", label: "les prélèvements obligatoires en France en 2024, en part du PIB (Insee)", src: 1 },
+        { value: "2e", label: "le rang de la France dans l'UE en 2024 selon Eurostat, derrière le Danemark", src: 2 },
+        { value: "44,6 €", label: "la taxe carbone par tonne de CO₂, figée depuis 2018", src: 3 }
+      ],
+      terms: ["pib", "dette-publique", "pouvoir-achat"],
+      quiz: [
+        { q: "Qu'est-ce qu'un bien public au sens des économistes ?", options: ["Un bien vendu par l'État", "Un bien dont on ne peut exclure personne et que chacun peut utiliser sans priver les autres", "Un bien gratuit", "Un bien produit par une entreprise publique"], answer: 1, explain: "Non-exclusion et non-rivalité : un phare, l'éclairage public, la défense." },
+        { q: "Qu'est-ce qu'une externalité négative ?", options: ["Un impôt", "Un coût imposé à d'autres sans être payé, comme la pollution", "Une exportation", "Une dette"], answer: 1, explain: "Le pollueur ne paie pas le dommage qu'il cause aux autres : il produit donc trop." },
+        { q: "Qui supporte surtout une taxe ?", options: ["Toujours celui qui la verse", "Celui qui a le moins de solutions de rechange", "Toujours l'entreprise", "Personne"], answer: 1, explain: "C'est l'incidence fiscale : si les clients ne peuvent pas se passer du produit, ils paient l'essentiel." },
+        { q: "Pourquoi une assurance chômage facultative risque-t-elle de s'effondrer ?", options: ["Trop de chômeurs", "La sélection adverse : seuls les plus à risque s'assurent", "La fraude", "L'inflation"], answer: 1, explain: "Les bons risques partent, les prix montent, le système se vide : l'obligation casse ce cercle." }
+      ],
+      sources: [
+        { short: "Insee", name: "Insee, « Taux de prélèvements obligatoires rapportés au produit intérieur brut », données 1959-2025", url: "https://www.insee.fr/fr/statistiques/2381412" },
+        { short: "Législation fiscale", name: "Legifiscal, d'après Eurostat, « La France n° 2 européen en matière de pression fiscale »", url: "https://www.legifiscal.fr/actualites-fiscales/4309-eurostat-france-n2-europeen-matiere-pression-fiscale.html" },
+        { short: "Connaissance des énergies", name: "Connaissance des énergies, « Quel est le montant de la taxe carbone en France ? »", url: "https://www.connaissancedesenergies.org/questions-et-reponses-energies/quel-est-le-montant-de-la-taxe-carbone-en-france" }
       ]
     },
     {
@@ -1297,14 +1503,6 @@ window.GEOCO = {
     }
   ],
 
-  // Cours gratuits de Harvard pour aller plus loin (demande de l'auteur, 2 nov. 2026 : « Harvard propose des cours
-  // gratuits en ligne, inspire-toi ») : affichés dans l'onglet Cours ; nos cours s'en inspirent sans les recopier.
-  harvard: [
-    { title: "Using Big Data to Solve Economic and Social Problems", who: "Raj Chetty et Gregory Bruich", where: "Opportunity Insights (Harvard)", what: "18 leçons en vidéo sur l'ascenseur social, l'éducation, la santé et l'innovation, à partir des grandes bases de données ; aucun prérequis.", ours: "ascenseur-social", url: "https://opportunityinsights.org/course/" },
-    { title: "Justice Today: Money, Markets, and Morals", who: "Michael J. Sandel", where: "edX (Harvard)", what: "8 semaines sur la morale des marchés : jusqu'où peut-on tout acheter et vendre ? Où s'arrête la logique du marché ?", url: "https://pll.harvard.edu/course/justice-today-money-markets-and-morals-edx" },
-    { title: "U.S. Public Policy: Social, Economic, and Foreign Policies", who: "HarvardX", where: "edX", what: "Les politiques budgétaire et monétaire américaines, la fiscalité, les accords commerciaux et la politique étrangère.", ours: "is-lm", url: "https://www.edx.org/learn/public-policy/harvard-university-u-s-public-policy-social-economic-and-foreign-policies" },
-    { title: "Public Economics", who: "Harvard", where: "en ligne (vidéos)", what: "Impôts, aides sociales, biens publics, pollution et assurance sociale : ce que fait l'État et pourquoi.", url: "https://www.openculture.com/public-economics-a-free-online-course-from-harvard" }
-  ],
   glossary: [
     { id: "politique-budgetaire", term: "Politique budgétaire", def: "Utiliser les dépenses publiques et les impôts pour agir sur l'activité : dépenser plus ou baisser les impôts pour relancer, l'inverse pour freiner (rigueur).", example: "Un plan de relance qui finance des travaux publics." },
     { id: "politique-monetaire", term: "Politique monétaire", def: "Action de la banque centrale sur la quantité de monnaie et les taux d'intérêt pour soutenir l'activité ou freiner l'inflation.", example: "La BCE qui monte ou baisse ses taux directeurs." },
