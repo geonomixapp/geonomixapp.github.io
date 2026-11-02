@@ -8,27 +8,6 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.agenda = [
   {
-    "id": "2026-11-01-opep-production-decembre",
-    "date": "2026-11-01",
-    "theme": "eco",
-    "region": "Moyen-Orient",
-    "place": "Réunion en ligne",
-    "title": "L'OPEP+ décide combien de pétrole pomper en décembre",
-    "why": "Les sept pays qui pilotent la production (Arabie saoudite, Russie, Irak, Koweït, Kazakhstan, Algérie, Oman) se retrouvent chaque mois ; en octobre, ils ont gardé leurs quotas inchangés pour novembre [1][2]. S'ils ouvrent ou ferment le robinet, le prix du baril, et donc celui de l'essence, bouge.",
-    "sources": [
-      {
-        "short": "OPEP",
-        "name": "OPEP, communiqué du 4 octobre 2026",
-        "url": "https://opec.org/pr-detail/1891616-4-october-2026.html"
-      },
-      {
-        "short": "News on Air",
-        "name": "News on Air, 4 octobre 2026",
-        "url": "https://newsonair.gov.in/opec-seven-countries-decide-to-maintain-september-2026-oil-production-quotas-for-november/"
-      }
-    ]
-  },
-  {
     "id": "2026-11-03-midterms-etats-unis",
     "date": "2026-11-03",
     "theme": "geo",
@@ -447,6 +426,50 @@ window.GEOCO.agenda = [
         "short": "Arab News",
         "name": "Arab News, « OPEC+ agrees to keep November oil output targets steady » (octobre 2026)",
         "url": "https://www.arabnews.com/business/opec-agrees-to-keep-november-oil-output-targets-steady-3004571"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-29-vietnam-enquete-301",
+    "date": "2026-11-29",
+    "theme": "geo",
+    "region": "Asie",
+    "place": "Washington",
+    "title": "Washington doit trancher sur l'enquête commerciale visant le Vietnam",
+    "why": "Les États-Unis ont jusqu'au 29 novembre pour rendre leur décision sur l'enquête « section 301 » sur la propriété intellectuelle au Vietnam [1][2]. Elle peut déboucher sur des droits de douane contre un pays dont les échanges ont dépassé 1 000 milliards de dollars en dix mois.",
+    "news": "2026-11-02-vietnam-commerce-mille-milliards-enquete-301",
+    "sources": [
+      {
+        "short": "KPMG",
+        "name": "KPMG, « USTR initiates Section 301 investigation into Vietnam's IP practices »",
+        "url": "https://kpmg.com/us/en/taxnewsflash/news/2026/06/ustr-vietnam-section-301-investigation.html"
+      },
+      {
+        "short": "Federal Register",
+        "name": "Federal Register, initiation de l'enquête section 301 sur le Vietnam (3 juin 2026)",
+        "url": "https://www.federalregister.gov/documents/2026/06/03/2026-11043/initiation-of-section-301-investigation-and-request-for-public-comments-vietnams-acts-policies-and"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-29-espagne-legislatives",
+    "date": "2026-11-29",
+    "theme": "geo",
+    "region": "Europe",
+    "place": "Espagne",
+    "title": "Élections législatives anticipées en Espagne",
+    "why": "Pedro Sánchez a convoqué le scrutin après le rejet de deux décrets sur le logement [1][2]. Selon des sondages cités, la droite et l'extrême droite réunies dépasseraient 200 des 350 sièges ; un changement de gouvernement toucherait la politique du logement et du budget.",
+    "news": "2026-11-02-espagne-legislatives-29-novembre-logement",
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Pedro Sánchez calls early elections in Spain after defeat of housing decrees » (5 oct. 2026)",
+        "url": "https://euronews.com/2026/10/05/pedro-sanchez-calls-early-elections-in-spain-after-defeat-of-housing-decrees"
+      },
+      {
+        "short": "ITV News",
+        "name": "ITV News, « Spain's prime minister announces snap election for November » (5 oct. 2026)",
+        "url": "https://www.itv.com/news/2026-10-05/spains-prime-minister-announces-snap-election-for-november"
       }
     ]
   },

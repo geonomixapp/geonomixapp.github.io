@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-02",
+    "file": "lettres/2026-11-02.pdf",
+    "titles": [
+      "L'OPEP+ ne touche pas à ses quotas de décembre : le pétrole reste prisonnier de la guerre du Golfe",
+      "Le Vietnam dépasse les 1 000 milliards de dollars d'échanges, mais Washington doit trancher sur des droits de douane le 29 novembre",
+      "Chevron gagne 10,4 milliards de dollars en trois mois grâce au raffinage, et vise le double de pétrole au Venezuela"
+    ],
+    "fileDark": "lettres/2026-11-02-sombre.pdf"
+  },
+  {
     "date": "2026-11-01",
     "file": "lettres/2026-11-01.pdf",
     "titles": [

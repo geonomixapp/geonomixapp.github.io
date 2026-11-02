@@ -17,6 +17,499 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.news = [
   {
+    "id": "2026-11-02-opep-plus-quotas-decembre-inchanges",
+    "date": "2026-11-02",
+    "region": "Moyen-Orient",
+    "theme": "eco",
+    "impact": "monde",
+    "zones": [
+      "Europe",
+      "Asie",
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Riyad, Arabie saoudite",
+        "label": "OPEP+",
+        "coords": [
+          46.72,
+          24.71
+        ]
+      }
+    ],
+    "title": "L'OPEP+ ne touche pas à ses quotas de décembre : le pétrole reste prisonnier de la guerre du Golfe",
+    "summary": "Réunis dimanche 1er novembre, les sept pays qui pilotent la production de l'OPEP+ ont gardé leurs quotas de décembre inchangés, à environ 31,01 millions de barils par jour. C'est le troisième mois de pause d'affilée, alors que la plupart des producteurs du Golfe n'arrivent déjà plus à atteindre leurs objectifs [1][2][4].",
+    "points": [
+      "Les sept pays concernés (Arabie saoudite, Russie, Irak, Koweït, Algérie, Kazakhstan et Oman) ont décidé de maintenir en décembre leur production exigée à environ 31,01 millions de barils par jour, le niveau de septembre [2][4].",
+      "Pour les plus gros d'entre eux, cela donne environ 10,48 millions de barils par jour pour l'Arabie saoudite, 9,95 pour la Russie et 4,43 pour l'Irak [2][3].",
+      "C'est le troisième mois de pause consécutif : le groupe avait relevé ses quotas chaque mois d'avril à septembre, puis les a gelés pour octobre et pour novembre [2][5].",
+      "Le geste est surtout symbolique : les producteurs du Golfe pompent nettement en dessous de leurs objectifs, car leurs exportations restent gênées par la guerre avec l'Iran. Selon les sources de l'agence Reuters, elles tournent à 60 à 80 % de la normale depuis plusieurs mois [1].",
+      "Les chiffres de l'OPEP le confirment : en août, les sept pays ont extrait 25 millions de barils par jour, soit 630 000 de plus qu'en juillet, mais encore environ 5 millions de moins qu'en février, avant la guerre [5].",
+      "Le prix du baril reste très élevé : le Brent se tenait encore au-dessus de 114 dollars le 29 octobre, selon l'AFP, avec des variations qui suivent surtout les signaux de diplomatie entre Washington et Téhéran [6]."
+    ],
+    "why": [
+      "À retenir : en temps normal, une décision de l'OPEP+ fait bouger le prix du pétrole ; cette fois, elle compte presque moins que le détroit d'Ormuz. Quand un quota est plus haut que ce que les pays peuvent réellement produire, le relever ou le baisser ne change rien aux barils vendus. C'est exactement la situation de dimanche : la contrainte vient des routes d'exportation, pas de la décision du groupe [1][5].",
+      "Le vrai rendez-vous est la grande réunion des 21 membres de l'alliance, prévue le 29 novembre, où l'on s'attend à voir fixer les quotas de 2027. L'agence Reuters souligne que la guerre rend ce travail difficile : il faut estimer ce que chaque pays pourra produire une fois le conflit fini, alors que les installations et les routes sont encore perturbées [1].",
+      "Pour les pays producteurs, la facture est double. Ils profitent d'un baril cher, mais exportent moins que prévu ; pour les pays importateurs, comme ceux d'Europe et d'Asie, le prix élevé de l'énergie pèse sur la production, le transport et les ménages. Un retour des exportations du Golfe, par exemple après un accord sur Ormuz, ferait au contraire baisser les prix [1][6]."
+    ],
+    "forMe": "Tant que la production du Golfe est gênée, le prix de l'essence et du gazole reste lié aux nouvelles sur Ormuz bien plus qu'aux réunions de l'OPEP+. Le 29 novembre sera le prochain moment où les quotas de 2027, donc le prix du carburant l'an prochain, peuvent bouger.",
+    "next": [
+      {
+        "when": "29 novembre",
+        "what": "Réunion de tous les membres de l'OPEP+ : les quotas de 2027 doivent être discutés [1]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "31,01 Mb/j",
+        "label": "production exigée des sept pays en décembre, inchangée",
+        "src": 2
+      },
+      {
+        "value": "3e mois",
+        "label": "de pause consécutif pour les quotas",
+        "src": 2
+      },
+      {
+        "value": "114 $",
+        "label": "le baril de Brent le 29 octobre",
+        "src": 6
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "routes-maritimes"
+    ],
+    "sources": [
+      {
+        "short": "CNBC",
+        "name": "CNBC, « OPEC+ keeps December oil output targets steady ahead of tougher call for 2027 » (31 oct. 2026)",
+        "url": "https://www.cnbc.com/2026/10/31/opec-oil-output-targets-december.html"
+      },
+      {
+        "short": "Xinhua",
+        "name": "Xinhua, « OPEC+ to maintain oil output for 3rd consecutive month in December » (2 nov. 2026)",
+        "url": "https://english.news.cn/europe/20261102/f96df7a657a740ecb48628e90ca2f4d8/c.html"
+      },
+      {
+        "short": "Saudi Gazette",
+        "name": "Saudi Gazette, « OPEC+ agree to keep oil output quota steady for December »",
+        "url": "https://saudigazette.com.sa/article/665909/saudi-arabia/opec-agree-to-keep-oil-output-quota-steady-for-december"
+      },
+      {
+        "short": "Bloomberg",
+        "name": "Bloomberg, « OPEC+ Leaves Oil Output Targets Unchanged for December » (1er nov. 2026)",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-01/opec-leaves-oil-output-targets-unchanged-for-december"
+      },
+      {
+        "short": "OPEP",
+        "name": "OPEP, communiqué du 4 octobre 2026 (quotas de novembre)",
+        "url": "https://opec.org/pr-detail/616-4-october-2026.html"
+      },
+      {
+        "short": "AFP",
+        "name": "AFP via Connaissance des énergies, « Le Brent reste au-dessus de 114 dollars par baril » (29 oct. 2026)",
+        "url": "https://www.connaissancedesenergies.org/afp/le-petrole-recule-en-raison-despoirs-sur-la-diplomatie-entre-washington-et-teheran-261029"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-02-vietnam-commerce-mille-milliards-enquete-301",
+    "date": "2026-11-02",
+    "region": "Asie",
+    "theme": "eco",
+    "zones": [
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Hanoï, Vietnam",
+        "label": "Vietnam",
+        "coords": [
+          105.85,
+          21.03
+        ]
+      },
+      {
+        "name": "Washington, États-Unis",
+        "label": "Washington",
+        "coords": [
+          -77.04,
+          38.9
+        ]
+      }
+    ],
+    "title": "Le Vietnam dépasse les 1 000 milliards de dollars d'échanges, mais Washington doit trancher sur des droits de douane le 29 novembre",
+    "summary": "Sur dix mois, le commerce extérieur du Vietnam atteint environ 1 010,6 milliards de dollars, 32,3 % de plus qu'un an plus tôt. Au même moment, les États-Unis doivent rendre le 29 novembre leur décision sur une enquête qui peut mener à de nouveaux droits de douane contre Hanoï [1][2][3].",
+    "points": [
+      "Selon le ministère vietnamien de l'Industrie et du Commerce, les échanges de biens (exportations plus importations) ont atteint environ 1 010,6 milliards de dollars de janvier à octobre 2026, soit 32,3 % de plus que sur la même période de 2025 [1].",
+      "Cette réussite a un revers, que la presse vietnamienne souligne : la part de valeur réellement créée dans le pays reste faible, car les usines assemblent beaucoup de pièces importées [1].",
+      "Les États-Unis ont ouvert le 29 mai 2026 une enquête dite « section 301 » sur la façon dont le Vietnam protège la propriété intellectuelle (marques, brevets, contrefaçons). En avril, il avait déjà été classé « pays prioritaire » dans le rapport annuel du représentant américain au Commerce, une première depuis 2013 [3][5].",
+      "La décision finale est attendue au plus tard le 29 novembre 2026 ; elle peut s'accompagner de droits de douane ou d'autres mesures commerciales [2][3].",
+      "Hanoï conteste les accusations et met en avant une nouvelle loi sur la propriété intellectuelle entrée en vigueur en décembre 2025 [3].",
+      "Des entreprises s'opposent à de nouveaux droits : Tesla invoque les besoins des industriels américains en chaînes d'approvisionnement, et Samsung rappelle que le Vietnam est une base clé pour les smartphones et les équipements réseau vendus aux États-Unis. Selon Reuters, les milieux d'affaires sont divisés sur l'opportunité de les proposer ce mois-ci [2]."
+    ],
+    "why": [
+      "À retenir : le Vietnam est devenu l'une des usines du monde, et c'est ce qui l'expose. Quand les entreprises ont cherché à produire ailleurs qu'en Chine, une partie a choisi le Vietnam ; ses échanges dépassent désormais 1 000 milliards de dollars en dix mois, en hausse de 32,3 % [1].",
+      "Pour Washington, une enquête de section 301 est un outil rapide : elle permet de prononcer des droits de douane sans passer par le Congrès, à condition de démontrer des pratiques jugées déloyales. Ici, l'argument officiel porte sur la propriété intellectuelle : marques, brevets et contrefaçons [3][5].",
+      "Le dilemme est visible dans les prises de position des entreprises : taxer les produits vietnamiens, c'est aussi renchérir des produits fabriqués par des groupes américains ou leurs fournisseurs. C'est ce qui explique que les milieux d'affaires soient partagés [2]."
+    ],
+    "forMe": "Des vêtements, des chaussures, des meubles et de l'électronique vendus en Europe sont fabriqués au Vietnam. De nouveaux droits de douane américains pourraient détourner une partie de ces marchandises vers l'Europe, ou faire monter leurs prix, selon la réaction de Hanoï.",
+    "next": [
+      {
+        "when": "29 novembre",
+        "what": "Échéance de la décision américaine sur l'enquête section 301 visant le Vietnam [2][3]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "1 010,6 Md$",
+        "label": "commerce extérieur du Vietnam, janvier-octobre 2026",
+        "src": 1
+      },
+      {
+        "value": "+32,3 %",
+        "label": "par rapport à la même période de 2025",
+        "src": 1
+      },
+      {
+        "value": "29 nov.",
+        "label": "date limite de la décision américaine",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "droits-de-douane"
+    ],
+    "sources": [
+      {
+        "short": "Vietnam Times",
+        "name": "Vietnam Times, « Viet Nam News Today (Nov. 2): Vietnam's Trade Surpasses US$1 Trillion as Domestic Value-added Challenge Persists » (2 nov. 2026)",
+        "url": "https://vietnamtimes.thoidai.com.vn/viet-nam-news-today-nov-2-vietnams-trade-surpasses-us-1-trillion-as-domestic-value-added-challenge-persists-759933.html"
+      },
+      {
+        "short": "bdnews24",
+        "name": "bdnews24, « Tesla, Samsung oppose new US tariffs on Vietnam as probe deadline nears »",
+        "url": "https://bdnews24.com/business/47veltb6d2"
+      },
+      {
+        "short": "KPMG",
+        "name": "KPMG, « USTR initiates Section 301 investigation into Vietnam's IP practices » (juin 2026)",
+        "url": "https://kpmg.com/us/en/taxnewsflash/news/2026/06/ustr-vietnam-section-301-investigation.html"
+      },
+      {
+        "short": "Federal Register",
+        "name": "Federal Register, « Initiation of Section 301 Investigation … Vietnam's Acts, Policies, and Practices Related to Intellectual Property Protection and Enforcement » (3 juin 2026)",
+        "url": "https://www.federalregister.gov/documents/2026/06/03/2026-11043/initiation-of-section-301-investigation-and-request-for-public-comments-vietnams-acts-policies-and"
+      },
+      {
+        "short": "Supply Chain Dive",
+        "name": "Supply Chain Dive, « USTR initiates Section 301 probe of Vietnam »",
+        "url": "https://www.supplychaindive.com/news/ustr-initiates-section-301-probe-of-vietnam/821558/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-02-chevron-profit-raffinage-venezuela",
+    "date": "2026-11-02",
+    "region": "Amériques",
+    "theme": "fin",
+    "zones": [
+      "Europe",
+      "Asie"
+    ],
+    "geo": [
+      {
+        "name": "San Ramon, États-Unis",
+        "label": "Chevron",
+        "coords": [
+          -121.98,
+          37.78
+        ]
+      },
+      {
+        "name": "Caracas, Venezuela",
+        "label": "Venezuela",
+        "coords": [
+          -66.9,
+          10.48
+        ]
+      }
+    ],
+    "title": "Chevron gagne 10,4 milliards de dollars en trois mois grâce au raffinage, et vise le double de pétrole au Venezuela",
+    "summary": "Le géant pétrolier américain Chevron a annoncé le 30 octobre un bénéfice ajusté de 10,4 milliards de dollars au troisième trimestre, soit 5,28 dollars par action, plus que prévu. Ce sont ses raffineries, qui profitent du diesel cher, plus que le prix du brut qui portent ce résultat [1][2][4].",
+    "points": [
+      "Chevron a publié un bénéfice ajusté de 10,4 milliards de dollars pour le troisième trimestre, soit 5,28 dollars par action ; en comptant les éléments exceptionnels, le bénéfice atteint 9,9 milliards, soit 5,06 dollars par action [1][2].",
+      "Les analystes attendaient 4,83 dollars par action et le groupe avait gagné 1,85 dollar un an plus tôt [4].",
+      "Ce sont les activités aval, c'est-à-dire le raffinage, qui tirent le résultat : les marges ont augmenté et les raffineries américaines ont tourné à un niveau record, pour profiter du prix élevé du diesel. À l'inverse, les résultats de l'extraction ont reculé, car les prix de vente du brut étaient plus bas [2][4].",
+      "Le groupe annonce des records : une production d'environ 3,98 millions de barils équivalent pétrole par jour, un gaz naturel au-dessus de 9 milliards de pieds cubes par jour, et plus de 2 millions de barils par jour aux États-Unis pour le cinquième trimestre d'affilée [2].",
+      "Le flux de trésorerie disponible atteint 14,2 milliards de dollars sur le trimestre [2][3]. Le bénéfice ajusté est toutefois inférieur de 1,6 milliard à celui du trimestre précédent [2].",
+      "Chevron présente aussi un plan pour doubler sa production au Venezuela, jusqu'à 600 000 barils par jour d'ici 2031, avec un coût de production sous 20 dollars le baril [2][3]. Selon le Financial Times, Exxon et Chevron ont dégagé ensemble 25,3 milliards de dollars de bénéfice net sur le trimestre [7]."
+    ],
+    "why": [
+      "À retenir : quand le pétrole est cher à cause d'une guerre, ce ne sont pas toujours les puits qui rapportent le plus. Ici, les prix du brut ont pesé sur l'extraction, mais le diesel est resté cher : les raffineurs, qui transforment le brut en carburant, empochent l'écart entre les deux. Exxon a indiqué que les marges de raffinage ont ajouté environ 4,5 milliards de dollars à son bénéfice, tandis que le prix du brut l'a réduit de 1,3 milliard [4].",
+      "Le plan vénézuélien est le fait le plus politique de ce résultat : Chevron dit vouloir doubler sa production au Venezuela, jusqu'à 600 000 barils par jour d'ici 2031, à moins de 20 dollars le baril. C'est un projet de long terme, qui dépendra du cadre politique et juridique du pays [2][3].",
+      "Pour les investisseurs, la question est de savoir si ces profits sont durables. Ils reposent en partie sur des carburants chers ; si leurs prix baissaient, les marges de raffinage se resserreraient. C'est le mécanisme classique des pétrolières : leurs résultats montent quand l'énergie est chère, et retombent quand elle se normalise [4][6]."
+    ],
+    "forMe": "Si tu fais le plein, le diesel cher que tu paies est justement ce qui gonfle ces profits. Si ton épargne est investie dans un fonds mondial, les grandes pétrolières en font partie : leurs résultats comptent donc aussi pour ton portefeuille.",
+    "next": [
+      {
+        "when": "29 novembre",
+        "what": "L'OPEP+ fixe ses quotas de 2027, ce qui peut changer la donne pour le prix du baril et les pétrolières [8]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "10,4 Md$",
+        "label": "bénéfice ajusté de Chevron au troisième trimestre",
+        "src": 1
+      },
+      {
+        "value": "5,28 $",
+        "label": "par action, contre 4,83 $ attendus et 1,85 $ un an plus tôt",
+        "src": 4
+      },
+      {
+        "value": "600 000 b/j",
+        "label": "production visée au Venezuela d'ici 2031",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "sanctions"
+    ],
+    "sources": [
+      {
+        "short": "Chevron",
+        "name": "Chevron, « Chevron Reports Third Quarter 2026 Results » (communiqué du 30 oct. 2026)",
+        "url": "https://chevroncorp.gcs-web.com/static-files/f7346df8-1df5-4e07-8b15-70d18a1f072b"
+      },
+      {
+        "short": "GuruFocus",
+        "name": "GuruFocus, « Chevron Corp (CVX) (Q3 2026) Earnings Call Highlights: Record Production, $14.2 Billion Free Cash Flow, and a Bold Venezuela Growth Plan »",
+        "url": "https://www.gurufocus.com/news/9160537/chevron-corp-cvx-q3-2026-earnings-call-highlights-record-production-142-billion-free-cash-flow-and-a-bold-venezuela-growth-plan"
+      },
+      {
+        "short": "BigGo",
+        "name": "BigGo Finance, « Chevron Q3 2026 Earnings Call: $10.4 Billion Adjusted Profit, $14.2 Billion Free Cash Flow; Venezuela Plan to Double Output to 600,000 bpd by 2031 » (30 oct. 2026)",
+        "url": "https://finance.biggo.com/news/US_CVX_2026-10-30"
+      },
+      {
+        "short": "Political.org",
+        "name": "Political.org, « Exxon, Chevron and BP beat third-quarter forecasts as refining windfall offsets softer crude » (30 oct. 2026)",
+        "url": "https://political.org/2026/10/30/exxon-chevron-and-bp-beat-third-quarter-forecasts-as-refining-windfall-offsets-softer-crude/"
+      },
+      {
+        "short": "Business Standard",
+        "name": "Business Standard, « Oil giant Exxon Mobil rakes in profit of $19.66 bn in Q3, revenue doubles » (28 oct. 2022)",
+        "url": "https://www.business-standard.com/article/companies/oil-giant-exxon-mobil-rakes-in-profit-of-19-66-bn-in-q3-revenue-doubles-122102801003_1.html"
+      },
+      {
+        "short": "NPR",
+        "name": "NPR, « Exxon Mobil earnings, Chevron, Big Oil, Biden, windfall tax » (31 janv. 2023)",
+        "url": "https://www.npr.org/2023/01/31/1152776315/exxon-mobil-earnings-chevron-big-oil-biden-windfall-tax"
+      },
+      {
+        "short": "FT (via Digg)",
+        "name": "Financial Times via Digg, « ExxonMobil and Chevron's reported third-quarter net income totals $25.3 billion amid refining surge »",
+        "url": "https://digg.com/world-business/uus94ivi"
+      },
+      {
+        "short": "CNBC (OPEP+)",
+        "name": "CNBC, « OPEC+ keeps December oil output targets steady ahead of tougher call for 2027 » (31 oct. 2026)",
+        "url": "https://www.cnbc.com/2026/10/31/opec-oil-output-targets-december.html"
+      },
+      {
+        "short": "Brussels Times",
+        "name": "The Brussels Times, « ExxonMobil posts record profits in 2022 »",
+        "url": "https://brusselstimes.com/362829/exxonmobil-posts-record-profits-in-2022"
+      }
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi une pétrolière gagne même quand le brut baisse",
+        "text": "Une compagnie comme Chevron fait deux métiers. En amont, elle extrait le pétrole et le gaz, et elle gagne en fonction du prix du baril. En aval, elle raffine : elle achète du brut, le transforme en diesel, essence ou kérosène, et gagne l'écart (la marge de raffinage) entre le prix des carburants et celui du brut. Quand le diesel est plus cher que le brut dont il est fait, la marge grimpe et les raffineries gagnent beaucoup, même si le prix du baril pèse sur l'extraction. C'est ce que montre ce trimestre : le raffinage a fait monter les résultats de Chevron, l'extraction les a fait reculer [2][4]."
+      }
+    },
+    "past": {
+      "title": "Quand le pétrole fait gagner de l'argent aux pétrolières",
+      "items": [
+        {
+          "when": "3e trimestre 2022",
+          "what": "Exxon Mobil avait dégagé un bénéfice de 19,66 milliards de dollars en un seul trimestre, avec un chiffre d'affaires qui avait doublé [5].",
+          "lesson": "Un choc d'offre sur l'énergie peut faire exploser les profits des pétrolières, comme aujourd'hui avec le Golfe [5]."
+        },
+        {
+          "when": "Année 2022",
+          "what": "ExxonMobil a annoncé 55,7 milliards de dollars de bénéfice sur l'année, le plus haut jamais enregistré par une compagnie occidentale, et Chevron environ 35 milliards, des records liés à la hausse des prix après l'invasion russe de l'Ukraine [6][9].",
+          "lesson": "Ces profits records ont déclenché un débat politique aux États-Unis sur une taxe sur les surprofits [6]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "Deux majors américaines ont publié des résultats supérieurs aux attentes le 30 octobre [4][7].",
+      "items": [
+        {
+          "name": "Chevron",
+          "ticker": "CVX",
+          "why": "Bénéfice ajusté de 10,4 milliards de dollars, au-dessus des attentes des analystes (5,28 dollars par action contre 4,83) [1][4]."
+        },
+        {
+          "name": "Exxon Mobil",
+          "ticker": "XOM",
+          "why": "Selon son communiqué préliminaire, les marges de raffinage ont ajouté environ 4,5 milliards de dollars à son bénéfice du trimestre et la baisse du brut l'a réduit de 1,3 milliard [4]."
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-02-philippines-pas-de-sanctions-commerciales-chine",
+    "date": "2026-11-02",
+    "level": 2,
+    "region": "Asie",
+    "theme": "geo",
+    "zones": [
+      "Océanie"
+    ],
+    "geo": [
+      {
+        "name": "Manille, Philippines",
+        "label": "Philippines",
+        "coords": [
+          120.98,
+          14.6
+        ]
+      }
+    ],
+    "title": "Philippines : Manille exclut de punir Pékin par le commerce, malgré les tensions en mer de Chine méridionale",
+    "summary": "Le président philippin Ferdinand Marcos Jr. refuse de recourir à des sanctions commerciales ou à des restrictions d'exportation contre la Chine. Le pays dépend de Pékin pour 28,6 % de ses importations, soit 38,44 milliards de dollars en 2025 [1][2].",
+    "points": [
+      "Interrogée sur une possible restriction des exportations de nickel de la province de Surigao del Sur vers la Chine, la porte-parole de la présidence, Claire Castro, a écarté toute mesure de rétorsion commerciale. Le palais sépare les liens économiques de la défense du territoire [1][2].",
+      "La Chine est la première source d'importations des Philippines : 38,44 milliards de dollars de marchandises en 2025, soit 28,6 % du total [1].",
+      "Le pays a exporté 994,1 millions de dollars de minerai de nickel et de concentrés vers la Chine en 2025, contre 808,6 millions un an plus tôt, d'après les données de l'ONU compilées par la Banque mondiale [1].",
+      "Les autorités craignent qu'une dégradation des relations perturbe l'industrie et les exportations, car de nombreux secteurs utilisent des matières premières et des composants chinois [1]."
+    ],
+    "why": [
+      "À retenir : un pays peut être en tension militaire avec son premier fournisseur et refuser de couper le commerce, parce que la facture serait pour lui. Les Philippines dépendent de la Chine pour plus d'un quart de leurs importations, ce qui limite leurs moyens de pression [1].",
+      "La position est d'autant plus notable que Pékin a rappelé le 22 octobre à Manille de respecter le principe d'une seule Chine, alors que les Philippines se rapprochent de Taïwan pour traiter les activités dites « de zone grise » en mer [3]."
+    ],
+    "forMe": "Le nickel est un métal des batteries : une rupture commerciale entre Manille et Pékin pourrait toucher les prix de produits que tu achètes, des appareils électroniques aux véhicules électriques.",
+    "next": [],
+    "figures": [
+      {
+        "value": "28,6 %",
+        "label": "part de la Chine dans les importations philippines en 2025",
+        "src": 1
+      },
+      {
+        "value": "994 M$",
+        "label": "nickel exporté vers la Chine en 2025",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "BusinessWorld",
+        "name": "BusinessWorld, « Marcos rules out China trade curbs amid maritime dispute » (27 oct. 2026)",
+        "url": "https://bworldonline.com/the-nation/2026/10/27/789633/marcos-rules-out-china-trade-curbs-amid-maritime-dispute/"
+      },
+      {
+        "short": "Trader's Union",
+        "name": "Trader's Union, « Philippines rules out China trade curbs amid South China Sea tensions »",
+        "url": "https://tradersunion.com/news/geopolitics-trade/show/3982922-philippines-china-trade-south-china-sea/"
+      },
+      {
+        "short": "Business Today",
+        "name": "Business Today Malaysia, « China Reminds Philippines On 'One-China' Policy As Manila Builds Closer Ties To Taiwan » (22 oct. 2026)",
+        "url": "https://www.businesstoday.com.my/2026/10/22/china-reminds-philippines-on-one-china-policy-as-manila-builds-closer-ties-to-taiwan/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-02-espagne-legislatives-29-novembre-logement",
+    "date": "2026-11-02",
+    "level": 2,
+    "region": "Europe",
+    "theme": "geo",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Madrid, Espagne",
+        "label": "Espagne",
+        "coords": [
+          -3.7,
+          40.42
+        ]
+      }
+    ],
+    "title": "Espagne : un mois avant les législatives du 29 novembre, le logement dicte la campagne",
+    "summary": "Le Premier ministre Pedro Sánchez a convoqué des élections anticipées le 29 novembre, après le rejet par le Congrès de deux décrets sur le logement. Les sondages cités placent le Parti populaire et Vox ensemble au-dessus de 200 sièges sur 350 [1][2][3].",
+    "points": [
+      "Le 2 octobre, le Congrès des députés a rejeté deux décrets du gouvernement visant à limiter les expulsions et la spéculation immobilière ; les partis de droite ont voté ensemble contre [3][4].",
+      "Le 5 octobre, Pedro Sánchez a annoncé dans une allocution télévisée des élections générales anticipées au 29 novembre [1][2].",
+      "Le scrutin devait normalement avoir lieu au plus tard en août 2027 [3].",
+      "Selon des sondages cités par l'agence Bernama, le Parti populaire (droite) et Vox (extrême droite) obtiendraient ensemble plus de 200 des 350 sièges du Congrès [3]."
+    ],
+    "why": [
+      "À retenir : le logement est devenu le premier sujet politique espagnol. Les décrets rejetés visaient à protéger les locataires, et Sánchez parie que la colère face aux loyers peut lui servir d'argument de campagne [1][2][4].",
+      "Pour l'économie, l'enjeu est la stabilité d'un pays qui, selon les prévisions récentes, croît plus vite que l'Allemagne, la France et l'Italie : une coalition de droite pourrait changer la politique du logement et celle des dépenses publiques [5]."
+    ],
+    "forMe": "Si tu loues ou si tu achètes en Espagne, le résultat du 29 novembre compte : le nouveau gouvernement décidera de la politique du logement, c'est-à-dire des règles sur les loyers et les expulsions.",
+    "next": [
+      {
+        "when": "29 novembre",
+        "what": "Élections législatives anticipées en Espagne [1][2]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "29 nov.",
+        "label": "date des élections législatives anticipées",
+        "src": 1
+      },
+      {
+        "value": "+200 / 350",
+        "label": "sièges prêtés au PP et à Vox ensemble par des sondages",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Pedro Sánchez calls early elections in Spain after defeat of housing decrees » (5 oct. 2026)",
+        "url": "https://euronews.com/2026/10/05/pedro-sanchez-calls-early-elections-in-spain-after-defeat-of-housing-decrees"
+      },
+      {
+        "short": "ITV News",
+        "name": "ITV News, « Spain's prime minister announces snap election for November » (5 oct. 2026)",
+        "url": "https://www.itv.com/news/2026-10-05/spains-prime-minister-announces-snap-election-for-november"
+      },
+      {
+        "short": "Bernama",
+        "name": "Bernama, « Spain's Sanchez calls snap election » (oct. 2026)",
+        "url": "https://bernama.com/en/world/news.php?id=2615685"
+      },
+      {
+        "short": "Olive Press",
+        "name": "The Olive Press, « Sánchez dealt major blow as Spain housing reform is defeated » (2 oct. 2026)",
+        "url": "https://theolivepress.es/spain-news/2026/10/02/sanchez-dealt-major-blow-as-spain-housing-reform-is-defeated"
+      },
+      {
+        "short": "Rio Times",
+        "name": "The Rio Times, « Spain explained 2026: economy, politics vs Europe » (21 oct. 2026)",
+        "url": "https://riotimesonline.com/spain-explained-2026-economy-politics-vs-europe"
+      }
+    ]
+  },
+  {
     "id": "2026-11-01-iran-ormuz-lettre-vance-plan-deux-jours",
     "date": "2026-11-01",
     "region": "Moyen-Orient",
