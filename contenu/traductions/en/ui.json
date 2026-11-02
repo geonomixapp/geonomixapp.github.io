@@ -501,7 +501,7 @@
   "Schéma IS-LM": "IS-LM diagram",
   "En clair": "In plain words",
   "éviction": "crowding out",
-  "Inspiré d'un cours de Harvard": "Inspired by a Harvard course"
+  "Inspiré des cours de Harvard de {nom}": "Inspired by {nom}'s Harvard courses"
  },
  "months": {
   "janvier": "Jan.",

@@ -973,7 +973,7 @@ window.GEOCO = {
       id: "role-etat",
       emoji: "🏛️",
       theme: "eco",
-      inspiredBy: "Économie publique",
+      inspiredBy: "Raj Chetty",
       title: "À quoi sert l'État ? Impôts, biens publics et pollution",
       hook: "La France prélève plus de 42 % de sa richesse en impôts et cotisations, l'un des taux les plus élevés d'Europe. Pour faire quoi ? Quand le marché se débrouille-t-il seul, et quand faut-il l'État ? Les grandes idées de l'économie publique, avec des exemples concrets.",
       minutes: 9,

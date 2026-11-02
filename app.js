@@ -2354,7 +2354,8 @@
   // ---------- Cours ----------
   // Cours inspirés d'un cours de Harvard (demande de l'auteur, 2 nov. 2026 : « tu mets oui ce sont des cours
   // d'Harvard, mais tu ne dis pas qu'ils sont disponibles en ligne gratuitement ») : simple mention, sans lien.
-  const harvardTag = (d) => d.inspiredBy ? `<span class="harvard-tag">🎓 ${I18N.t("Inspiré d'un cours de Harvard")} · ${d.inspiredBy}</span>` : "";
+  // Formulation voulue par l'auteur (2 nov. 2026) : « Inspiré des cours de Harvard de <professeur> ».
+  const harvardTag = (d) => d.inspiredBy ? `<span class="harvard-tag">🎓 ${I18N.t("Inspiré des cours de Harvard de {nom}").replace("{nom}", d.inspiredBy)}</span>` : "";
 
   function renderCoursIndex() {
     const readCount = dossiers.filter((d) => readSet.has(d.id)).length;

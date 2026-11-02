@@ -498,7 +498,7 @@
   "Schéma IS-LM": "Esquema IS-LM",
   "En clair": "Em poucas palavras",
   "éviction": "efeito expulsão",
-  "Inspiré d'un cours de Harvard": "Inspirado num curso de Harvard"
+  "Inspiré des cours de Harvard de {nom}": "Inspirado nos cursos de Harvard de {nom}"
  },
  "months": {
   "janvier": "janeiro",

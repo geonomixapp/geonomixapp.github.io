@@ -135,7 +135,7 @@ window.GEOCO.culture = [
         quote: "« Il est difficile de vendre le « ruissellement » » : l'aveu de David Stockman, directeur du Budget, en 1981 [9].",
         paragraphs: [
           "Les critiques sont tout aussi anciennes. En décembre 1981, le magazine The Atlantic publie de longs entretiens avec David Stockman, le jeune directeur du Budget de Reagan. Il y reconnaît que la baisse d'impôts était, selon ses mots, un « cheval de Troie » pour abaisser le taux le plus élevé, et que l'économie de l'offre est au fond une théorie du « ruissellement » [9]. L'article manque de lui coûter son poste [9].",
-          "Le ==ruissellement== (« trickle down »), c'est l'idée que les gains accordés aux plus riches et aux entreprises finissent par profiter à tous, par l'investissement et l'emploi. Ses critiques répondent que, dans les années 1980, ==les inégalités de revenus se creusent== aux États-Unis dans les années 1980, et que le pouvoir des syndicats recule fortement [15].",
+          "Le ==ruissellement== (« trickle down »), c'est l'idée que les gains accordés aux plus riches et aux entreprises finissent par profiter à tous, par l'investissement et l'emploi. Ses critiques répondent que, dans les années 1980, ==les inégalités de revenus se creusent== aux États-Unis, et que le pouvoir des syndicats recule fortement [15].",
           "Reste la dette. La courbe de Laffer promettait que les baisses d'impôts se financeraient en partie seules : la plupart des économistes estiment qu'elles ne l'ont pas fait, puisque la dette a triplé [5]. Les défenseurs de Reagan répondent que le réarmement, et non les baisses d'impôts, explique l'essentiel des déficits, et que la victoire contre l'inflation valait ce prix."
         ],
         box: {

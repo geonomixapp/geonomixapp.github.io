@@ -502,7 +502,7 @@
   "Schéma IS-LM": "IS-LM-Diagramm",
   "En clair": "Einfach erklärt",
   "éviction": "Verdrängung",
-  "Inspiré d'un cours de Harvard": "Inspiriert von einem Harvard-Kurs"
+  "Inspiré des cours de Harvard de {nom}": "Inspiriert von den Harvard-Kursen von {nom}"
  },
  "months": {
   "janvier": "Januar",
