@@ -532,13 +532,29 @@ window.GEOCO.culture = [
           "Reste l'industrie : ==la plupart des électriques achetées en France sont fabriquées à l'étranger==, si bien que les aides soutiennent peu les usines françaises [2]."
         ],
         "visual": 2
+      },
+      {
+        "title": "La voiture électrique, nouvelle arme géopolitique",
+        "quote": "La bataille de la voiture ne se joue plus seulement chez les concessionnaires, mais entre États.",
+        "paragraphs": [
+          "Un siècle après Ford, la voiture redevient une affaire de puissance. Les batteries ont besoin de nickel, de lithium, de cobalt et de graphite, et ==les pays qui les contrôlent s'en servent==. En janvier 2020, l'Indonésie, premier producteur de minerai de nickel, en interdit l'exportation brute : elle veut que les usines de batteries et de voitures électriques s'installent chez elle [4].",
+          "La Chine, qui domine le raffinage de nombreux métaux, réplique sur le graphite, indispensable aux batteries : annoncés le 20 octobre 2023, des contrôles à l'exportation entrent en vigueur le 1er décembre 2023 [5]. Pékin assure qu'ils ne visent aucun pays en particulier [5].",
+          "Les États-Unis ferment leur marché. Le 14 mai 2024, la Maison-Blanche annonce que les droits de douane sur les voitures électriques chinoises passent de 25 % à 100 % [6]. Un geste en partie symbolique, notent des économistes, car ces voitures étaient déjà presque absentes du marché américain [7].",
+          "L'Europe, elle, hésite entre ouverture et protection. Après une enquête sur les subventions chinoises, elle impose à partir du 30 octobre 2024, pour cinq ans, des droits compensatoires sur les voitures électriques fabriquées en Chine, jusqu'à 35,3 % pour SAIC et les entreprises qui n'ont pas coopéré, en plus des 10 % de droits habituels sur les voitures [8].",
+          "==La voiture électrique est devenue un objet de rivalité entre puissances== : métaux, usines, subventions et droits de douane. Pour la France, la question « qui fabriquera ? » posée plus haut dépend autant de ces bras de fer que des aides aux ménages."
+        ]
       }
     ],
     "didYouKnow": "Pour sa « Très Petite Voiture », l'ancêtre de la 2 CV, Citroën a un temps imaginé de demander la suppression du permis de conduire, ou un permis gratuit [1].",
     "sources": [
       { "short": "Fridenson", "name": "Patrick Fridenson, « Les conflits comme moteurs de la première croissance de l'industrie automobile », dans Les sciences sociales face à l'automobile, 2026, p. 31-48", "url": "https://shs.cairn.info/les-sciences-sociales-face-a-lautomobile--9791031808581-page-31?lang=fr" },
       { "short": "France Stratégie", "name": "Alice Robinet et Maxime Gérardin, « Voiture électrique : à quel coût ? », La Note d'analyse de France Stratégie n° 115, novembre 2022", "url": "https://shs.cairn.info/revue-la-note-d-analyse-2022-10-page-1?lang=fr" },
-      { "short": "Mac's Motor City Garage", "name": "Bill McGuire, « Henry Ford's Electric Model T », 2021", "url": "https://macsmotorcitygarage.com/henry-fords-electric-model-t/" }
+      { "short": "Mac's Motor City Garage", "name": "Bill McGuire, « Henry Ford's Electric Model T », 2021", "url": "https://macsmotorcitygarage.com/henry-fords-electric-model-t/" },
+      {"short": "Al Jazeera", "name": "Al Jazeera, « World's biggest nickel ore maker bans exports from January 2020 », 2 septembre 2019", "url": "https://www.aljazeera.com/economy/2019/9/2/worlds-biggest-nickel-ore-maker-bans-exports-from-january-2020"},
+      {"short": "Fastmarkets", "name": "Fastmarkets, « China's graphite exports plunge in December after introduction of export controls », 2024", "url": "https://fastmarkets.com/insights/chinas-graphite-exports-plunge-in-december-after-introduction-of-export-controls"},
+      {"short": "CnEVPost", "name": "CnEVPost, « US announces tariff hike on Chinese EVs from 25% to 100% », 14 mai 2024", "url": "https://cnevpost.com/2024/05/14/us-announces-tariff-hike-on-chinese-evs/"},
+      {"short": "NTU Singapour", "name": "Université technologique de Nanyang, « US tariffs on Chinese EVs have more bark than bite », 16 mai 2024", "url": "https://ntu.edu.sg/sss/news-events/news/detail/us-tariffs-on-chinese-evs-have-more-bark-than-bite"},
+      {"short": "Commission européenne", "name": "Commission européenne, « EU Commission imposes countervailing duties on imports of battery electric vehicles (BEVs) from China », octobre 2024", "url": "https://trade.ec.europa.eu/access-to-markets/en/news/eu-commission-imposes-countervailing-duties-imports-battery-electric-vehicles-bevs-china"}
     ],
     "visuals": [
       {
@@ -733,6 +749,16 @@ window.GEOCO.culture = [
         "visual": 2
       },
       {
+        "title": "Stocker chez les autres : les ententes du pétrole de secours",
+        "quote": "Un pays producteur qui stocke son pétrole chez son client, c'est une assurance pour les deux.",
+        "paragraphs": [
+          "Les réserves ne sont pas qu'une affaire nationale. Elles donnent lieu à des ==ententes entre pays producteurs et pays consommateurs==, souvent discrètes. Le Japon en est l'exemple : une partie de sa sécurité repose sur des « stocks communs » avec des pays producteurs, l'équivalent de 7 jours de consommation fin 2025 [13].",
+          "L'Inde a suivi le même chemin. En janvier 2017, ADNOC signe avec l'organisme indien des réserves stratégiques un accord pour stocker 5,86 millions de barils de son brut dans les cavernes souterraines de Mangalore, sur la côte ouest de l'Inde [16].",
+          "L'entente grandit avec le temps. En mai 2026, en pleine crise d'Ormuz, ADNOC annonce vouloir porter ses stocks en Inde jusqu'à 30 millions de barils [19], et les Émirats envisagent de stocker du pétrole pour l'Inde à Fujaïrah, sur leur côte, hors du détroit [19]. En juillet 2026, la compagnie indienne ONGC annonce une nouvelle réserve d'environ 13 millions de barils à Mangalore ; l'Inde ne couvre alors qu'environ 9,5 jours de ses importations nettes avec ses réserves stratégiques [17][18].",
+          "Le principe est gagnant-gagnant : le producteur place son pétrole près d'un gros client et profite de cuves payées par d'autres ; le consommateur garde des barils à portée de main en cas de crise. ==Les réserves deviennent un outil de diplomatie== autant qu'un filet de sécurité, au même titre que les actions collectives décidées au sein de l'AIE."
+        ]
+      },
+      {
         "title": "Les débats : coût, usage politique, transition",
         "quote": "Une assurance que l'on paie tous les ans, et que l'on hésite à utiliser.",
         "paragraphs": [
@@ -820,7 +846,11 @@ window.GEOCO.culture = [
         "short": "The National",
         "name": "The National, « G7 members agree to release 100 million barrels of diesel and other reserves » (2 oct. 2026)",
         "url": "https://www.thenationalnews.com/business/energy/2026/10/02/g7-members-agree-to-release-100-million-barrels-of-diesel-and-other-reserves/"
-      }
+      },
+      {"short": "ADNOC", "name": "ADNOC, « ADNOC Signs Agreement for 5.86m Barrels Strategic Crude Oil Reserve in India », 2017", "url": "https://www.adnoc.ae/en/news-and-media/press-releases/2017/adnoc-signs-agreement-for-strategic-crude-oil-reserve-in-india"},
+      {"short": "Hydrocarbon Processing", "name": "Hydrocarbon Processing, « India's ONGC plans to build 13 MMbbl national strategic oil reserve », juillet 2026", "url": "https://hydrocarbonprocessing.com/news/2026/07/indias-ongc-plans-to-build-13-mmbbl-national-strategic-oil-reserve/"},
+      {"short": "ThePrint", "name": "ThePrint, « ONGC to build 13 million barrel strategic oil reserve in Mangalore », 2026", "url": "https://theprint.in/india/ongc-to-build-13-million-barrel-strategic-oil-reserve-in-mangalore/2983219/"},
+      {"short": "Deccan Chronicle", "name": "Deccan Chronicle, « Hormuz Lesson: India's ONGC Expands Strategic Oil Storage With New Mangalore Reserve », 2026", "url": "https://www.deccanchronicle.com/business/latest/indias-ongc-plans-to-build-175-million-ton-national-strategic-oil-reserve-1969788"}
     ],
     "visuals": [
       {
@@ -1092,6 +1122,27 @@ window.GEOCO.culture = [
         ]
       },
       {
+        "title": "Accords, alliances et petits câbles : la diplomatie sous-marine",
+        "quote": "Un câble de quelques milliers de kilomètres peut devenir une affaire d'État.",
+        "paragraphs": [
+          "La rivalité ne se joue pas seulement sur les grands câbles intercontinentaux. Elle se niche aussi dans de ==petits projets==, presque invisibles. Dans le Pacifique, le projet East Micronesia Cable, environ 73 millions de dollars, devait relier Nauru, Kiribati et les États fédérés de Micronésie. L'offre du chinois HMN (l'ancienne branche câbles de Huawei) était 20 % moins chère que celles d'Alcatel Submarine Networks et du japonais NEC [16].",
+          "Washington s'inquiète : le futur câble devait se raccorder près d'un autre, HANTRU-1, qui dessert une base américaine d'essais de défense antimissile dans l'atoll de Kwajalein. Après les avertissements américains, l'appel d'offres piloté par la Banque mondiale se termine en 2021 sans attribution [16]. En janvier 2023, les trois pays s'engagent à relancer le projet, cette fois avec des financements des États-Unis, du Japon et de l'Australie [17].",
+          "Les grandes puissances signent aussi des ==ententes politiques==. En septembre 2024, en marge de l'Assemblée générale de l'ONU, une déclaration commune proposée par les États-Unis fixe neuf principes pour la sécurité des câbles (fournisseurs de confiance, réparations rapides, diversité des routes) [18]. Parmi les premiers signataires : l'Union européenne, la France, le Japon, l'Australie, le Canada, mais aussi les États fédérés de Micronésie et les îles Marshall [18]. D'autres suivent : l'Italie en octobre, la Norvège le 19 novembre 2024, au lendemain de dégâts sur deux câbles de la Baltique [19].",
+          "La Chine a ses propres routes. Le câble PEACE, détenu par une filiale du groupe chinois Hengtong, relie le Pakistan à la France en passant par l'Égypte, Djibouti, la Somalie, le Kenya et les Seychelles ; il atterrit à Marseille en octobre 2021, avec Orange pour partenaire en France [20]. Ses premiers tronçons entrent en service le 22 décembre 2022 [21]. C'est l'une des briques des « routes de la soie numériques ».",
+          "L'Europe répond avec ses propres projets. Le câble Medusa, présenté comme le premier projet numérique du programme « Global Gateway » de l'UE, doit relier les deux rives de la Méditerranée sur environ 8 700 km, avec 19 points d'arrivée et une connexion pour tous les pays d'Afrique du Nord ; l'UE y a mis une subvention de 40 millions d'euros, passée par la Banque européenne d'investissement [22]. En décembre 2025, il atteint Nador, au Maroc [23]. ==Chaque câble posé est aussi un choix d'alliance.=="
+        ],
+        "box": {
+          "kind": "info",
+          "label": "En résumé",
+          "title": "Qui pose quoi, avec qui ?",
+          "text": [
+            "États-Unis et alliés : pressions contre les fournisseurs chinois, financements de câbles dans le Pacifique, déclaration de New York (2024) [16][17][18].",
+            "Chine : câbles comme PEACE, de l'Asie à Marseille via l'Afrique de l'Est [20].",
+            "Union européenne : Medusa, entre l'Europe et l'Afrique du Nord, et plan d'action de 2025 pour la sécurité des câbles [1][22]."
+          ]
+        }
+      },
+      {
         "title": "Protéger l'invisible",
         "quote": "Le droit de la mer oblige à punir, mais donne peu de moyens d'agir loin des côtes.",
         "paragraphs": [
@@ -1181,7 +1232,15 @@ window.GEOCO.culture = [
         "short": "Völkerrechtsblog",
         "name": "Völkerrechtsblog, « Seabed Warfare » (protection juridique des câbles : convention de 1884 et article 113 de la CNUDM)",
         "url": "https://voelkerrechtsblog.org/de/seabed-warfare/"
-      }
+      },
+      {"short": "Reuters / Nippon.com", "name": "Reuters (via Nippon.com), « Pacific undersea cable project sinks after U.S. warns against Chinese participation », 18 juin 2021", "url": "https://www.nippon.com/en/news/reu20210618KCN2DU06V/"},
+      {"short": "Pacific Island Times", "name": "Pacific Island Times, « FSM, Nauru, Kiribati agree to push forward a stalled fiber optic cable project », 2023", "url": "https://www.pacificislandtimes.com/post/fsm-nauru-kiribati-agree-to-push-forward-a-stalled-fiber-optic-cable-project"},
+      {"short": "Affaires mondiales Canada", "name": "Affaires mondiales Canada, « Joint Statement on the Security and Resilience of Undersea Cables in a Globally Digitalized World », septembre 2024", "url": "https://www.canada.ca/en/global-affairs/news/2024/09/joint-statement-on-the-security-and-resilience-of-undersea-cables-in-a-globally-digitalized-world.html"},
+      {"short": "Arctic Today", "name": "Arctic Today, « Sabotage threats loom as Norway joins international subsea cable initiative », novembre 2024", "url": "https://www.arctictoday.com/sabotage-threats-loom-as-norway-joins-international-subsea-cable-initiative"},
+      {"short": "Orange", "name": "Orange, « Orange, PCCW Global and PEACE Cable International jointly announce the landing of PEACE submarine cable in Marseille », 19 octobre 2021", "url": "https://www.orange.com/en/press-release/orange-pccw-global-and-peace-cable-international-jointly-announce-the-landing-of-peace-submarine-cable-in-marseille-234794"},
+      {"short": "Wikipédia", "name": "Wikipédia (anglais), « PEACE Cable »", "url": "https://en.wikipedia.org/wiki/PEACE_Cable"},
+      {"short": "BEI", "name": "Banque européenne d'investissement, « EU and EIB support helps accelerate MEDUSA high-speed digital connection under Mediterranean Sea », 2023", "url": "https://www.eib.org/en/press/all/2023-393-eu-eib-support-helps-accelerate-medusa-high-speed-digital-connection-under-mediterranean-sea"},
+      {"short": "Commission européenne", "name": "Commission européenne (DG MENA), « Medusa lands in Nador, advancing Morocco's role in Mediterranean connectivity », 17 décembre 2025", "url": "https://north-africa-middle-east-gulf.ec.europa.eu/news/medusa-lands-nador-advancing-moroccos-role-mediterranean-connectivity-2025-12-17_en"}
     ],
     "visuals": [
       {
@@ -1464,6 +1523,27 @@ window.GEOCO.culture = [
         ]
       },
       {
+        "title": "Quand le Nil redessine les alliances de la Corne de l'Afrique",
+        "quote": "Le barrage ne se négocie plus seulement autour d'une table : il pèse dans chaque alliance de la région.",
+        "paragraphs": [
+          "Faute d'accord sur l'eau, chacun cherche des alliés. Le 2 mars 2021, l'Égypte et le Soudan signent un accord de coopération militaire : formation, sécurité des frontières, lutte contre le terrorisme, industries militaires [16][17]. Quatre jours plus tard, à Khartoum, le président Abdel Fattah al-Sissi rejette toute tentative de « contrôler le Nil Bleu par des mesures unilatérales » [16].",
+          "Le 1er janvier 2024, l'Éthiopie, privée d'accès à la mer depuis l'indépendance de l'Érythrée, signe avec le Somaliland, territoire sécessionniste que personne ne reconnaît, un protocole qui doit lui ouvrir un accès à la mer Rouge. La Somalie le rejette dès le lendemain comme une atteinte à sa souveraineté [18]. Le Caire prend aussitôt le parti de Mogadiscio [19].",
+          "Le 10 octobre 2024, les présidents égyptien, érythréen et somalien se retrouvent à Asmara. Ils s'engagent à mieux protéger les frontières terrestres et maritimes de la Somalie [20]. Pour de nombreux analystes, c'est un ==axe destiné à faire pression sur l'Éthiopie==, y compris sur le barrage [21]. La Turquie joue ensuite les médiateurs : par la déclaration d'Ankara du 11 décembre 2024, l'Éthiopie et la Somalie s'entendent sur un accès commercial à la mer qui respecte la souveraineté somalienne [22].",
+          "Paradoxe : le même 1er janvier 2024, l'Égypte et l'Éthiopie entrent ensemble dans les BRICS, le club des grands pays émergents autour de la Chine, de l'Inde, du Brésil, de la Russie et de l'Afrique du Sud [23]. Deux rivaux du Nil siègent désormais à la même table.",
+          "Et la partie continue : en octobre 2026, l'Égypte, le Soudan, l'Érythrée et la Somalie se réunissent de nouveau et rejettent toute « mesure unilatérale » qui nuirait aux droits sur l'eau de l'Égypte et du Soudan [24]. ==Le barrage n'est plus seulement une question d'eau : c'est un fil qui relie toutes les tensions de la Corne de l'Afrique.=="
+        ],
+        "box": {
+          "kind": "info",
+          "label": "Qui est avec qui ?",
+          "title": "Les camps autour du Nil",
+          "text": [
+            "Côté égyptien : le Soudan (accord militaire de 2021), puis l'Érythrée et la Somalie (sommet d'Asmara, 2024) [16][20].",
+            "Côté éthiopien : l'accord avec le Somaliland pour un accès à la mer, contesté par la Somalie [18].",
+            "Les médiateurs : les États-Unis en 2020, l'Union africaine, puis la Turquie entre l'Éthiopie et la Somalie en 2024 [22]."
+          ]
+        }
+      },
+      {
         "title": "Ce que le Nil dit des guerres de l'eau",
         "quote": "Plus que d'une guerre de l'eau, le Nil est l'exemple d'une paix de l'eau qui n'arrive pas à s'écrire.",
         "paragraphs": [
@@ -1551,7 +1631,16 @@ window.GEOCO.culture = [
         "short": "Vatican News",
         "name": "Vatican News, « UN: Sudan war has displaced more than 7.3 million people », janvier 2024",
         "url": "https://vaticannews.va/en/world/news/2024-01/un-sudan-war-has-displaced-more-than-7-3-million-people.html"
-      }
+      },
+      {"short": "Al-Monitor", "name": "Al-Monitor, « Egypt, Sudan deepen military cooperation as Nile dam talks stall », mars 2021", "url": "https://www.al-monitor.com/originals/2021/03/egypt-sudan-cooperation-military-ethiopia-nile-dam-talks.html"},
+      {"short": "The EastAfrican", "name": "The EastAfrican, « Egypt-Sudan pact seen in light of Nile Basin tensions », 2021", "url": "https://www.theeastafrican.co.ke/tea/rest-of-africa/egypt-sudan-pact-3315414"},
+      {"short": "The National", "name": "The National, sur la réaction de l'Égypte à l'accord Éthiopie-Somaliland, 21 janvier 2024", "url": "https://www.thenationalnews.com/mena/egypt/2024/01/21/egypt-ethiopia-somalia-somaliland-deal/"},
+      {"short": "Mada Masr", "name": "Mada Masr, « As Ethiopia seeks Red Sea access via Somaliland, why is Egypt supporting Somalia? », 2024", "url": "https://www.madamasr.com/en/?p=352512"},
+      {"short": "VOA", "name": "Voice of America, « Egypt, Eritrea, Somalia meet amid heightened Horn tensions », octobre 2024", "url": "https://voaafrica.com/amp/egypt-eritrea-somalia-meet-amid-heightened-horn-tensions/7818584.html"},
+      {"short": "Critical Threats", "name": "Critical Threats (American Enterprise Institute), « Africa File, October 17, 2024: Egypt-Eritrea-Somalia summit »", "url": "https://www.criticalthreats.org/analysis/africa-file-october-17-2024-egypt-eritrea-somalia-summit-challenges-with-tigray-peace-process"},
+      {"short": "AFP / Macau Business", "name": "AFP (via Macau Business), « Somalia president visits Ethiopia in latest peace push »", "url": "https://macaubusiness.com/somalia-president-visits-ethiopia-in-latest-peace-push/"},
+      {"short": "Fondation Konrad-Adenauer", "name": "Fondation Konrad-Adenauer, « Ägyptische Perspektiven auf die BRICS-Konferenz in Brasilien »", "url": "https://www.kas.de/fr/laenderberichte/detail/-/content/aegyptische-perspektiven-auf-die-brics-konferenz-in-brasilien"},
+      {"short": "Anadolu", "name": "Agence Anadolu, « 4-way summit rejects unilateral measures harming water rights of Egypt, Sudan », octobre 2026", "url": "https://www.aa.com.tr/en/middle-east/4-way-summit-rejects-unilateral-measures-harming-water-rights-of-egypt-sudan/4077861"}
     ],
     "visuals": [
       {
