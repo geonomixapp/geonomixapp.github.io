@@ -86,6 +86,7 @@ Auteur : Célestin Noury (étudiant en économie). On lui parle **en français**
 ## Geonomix+ (prototype d'abonnement)
 
 - 3,99 €/mois ou 39,99 €/an ; offre « Membres fondateurs » (50 premiers : 2 mois offerts puis 2,99 €/mois à vie).
+- **Dollar canadien au Canada** (demande de l'auteur, 3 nov. 2026) : fuseaux canadiens → `DEVISE` = CAD, prix propres dans `devises.CAD` de data/plus.js (5,49 $ CA / mois, 54,99 $ CA / an, fondateurs 3,99 $ CA ; `PRIX` dans app.js), mention TPS/TVQ (ou TVH) sur la page d'abonnement, CGU à jour ; chaque produit RevenueCat doit aussi avoir un prix CAD.
 - **Devises** (choix de l'auteur, 29 oct. 2026) : euro en Europe et dans les outre-mer français, dollar ailleurs, **mêmes chiffres** (3,99 $, 39,99 $, 2,99 $), à augmenter plus tard au fur et à mesure ; devise d'après le fuseau horaire (`DEVISE` dans app.js, `euros()` l'utilise) ; mention « taxes de ton pays » hors d'Europe ; CGU article des prix à jour. Dès que RevenueCat est branché, la page affiche les prix de la boutique (`rcPrices`, `getOfferings({ currency: DEVISE })`) : il faudra créer chaque produit avec un prix EUR et un prix USD. Engagement 12 mois payé au mois : déconseillé à l'auteur (impayés, loi, RevenueCat), pas fait.
 - Réservé : cours d'approfondissement (`plus: true` dans `data/content.js`), archives (Focus et études de cas sauf le plus récent, enjeux des semaines passées,
   lettres au-delà des 7 dernières), un article sur deux, podcast au-delà de 2 épisodes. Toujours un aperçu gratuit.

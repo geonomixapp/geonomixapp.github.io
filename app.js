@@ -75,14 +75,21 @@
   // Même règle que tools/plus.mjs.
   const hashCode = (c) => sha256("code:" + String(c).trim().toUpperCase().replace(/\s+/g, ""));
   // Devise des prix (choix de l'auteur, 29 oct. 2026) : l'euro en Europe (et dans les outre-mer français),
-  // le dollar ailleurs, avec les mêmes chiffres (3,99 € ou 3,99 $). D'après le fuseau horaire, comme la région.
+  // le dollar canadien au Canada, le dollar américain ailleurs (3,99 € ou 3,99 $). D'après le fuseau horaire, comme la région.
   const DEVISE = (() => {
     let tz = "";
     try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ""; } catch (e) {}
     if (!tz) return "EUR";
-    return /^(Europe\/|Atlantic\/(Canary|Madeira|Azores|Reykjavik|Faroe)|Indian\/(Reunion|Mayotte)|America\/(Guadeloupe|Martinique|Cayenne|Miquelon|St_Barthelemy|Marigot)|Pacific\/(Noumea|Tahiti|Wallis))/.test(tz) ? "EUR" : "USD";
+    return /^(Europe\/|Atlantic\/(Canary|Madeira|Azores|Reykjavik|Faroe)|Indian\/(Reunion|Mayotte)|America\/(Guadeloupe|Martinique|Cayenne|Miquelon|St_Barthelemy|Marigot)|Pacific\/(Noumea|Tahiti|Wallis))/.test(tz) ? "EUR"
+      : /^(Canada\/|America\/(Toronto|Montreal|Vancouver|Edmonton|Winnipeg|Halifax|St_Johns|Regina|Moncton|Glace_Bay|Goose_Bay|Whitehorse|Dawson|Dawson_Creek|Fort_Nelson|Creston|Iqaluit|Rankin_Inlet|Resolute|Cambridge_Bay|Inuvik|Yellowknife|Swift_Current|Thunder_Bay|Nipigon|Rainy_River|Atikokan|Blanc-Sablon|Pangnirtung))/.test(tz) ? "CAD" : "USD";
   })();
-  const euros = (v) => v.toLocaleString(LOCALE, { style: "currency", currency: DEVISE, currencyDisplay: "narrowSymbol" });
+  // Dollar canadien au Canada (demande de l'auteur, 3 nov. 2026) : ses propres chiffres, dans data/plus.js (devises.CAD).
+  const PRIX = (() => {
+    const d = (PLUS.devises && PLUS.devises[DEVISE]) || {};
+    const F = PLUS.fondateurs || {};
+    return { mensuel: d.mensuel || PLUS.prix.mensuel, annuel: d.annuel || PLUS.prix.annuel, fondateur: d.fondateur || F.prix };
+  })();
+  const euros = (v) => v.toLocaleString(LOCALE, { style: "currency", currency: DEVISE, currencyDisplay: DEVISE === "CAD" ? "symbol" : "narrowSymbol" });
 
   // ---------- Paiement par RevenueCat (Web Billing, via Stripe) ----------
   // Actif dès qu'une clé publique « rcb_… » est dans data/plus.js (node tools/plus.mjs revenuecat cle …).
@@ -189,7 +196,7 @@
           <h2>La suite est réservée aux abonnés.</h2>
           <p>${why}</p>
           <div class="actions">
-            <a class="pill-btn blue lg" href="#/abonnement">Découvrir ${offre.name} · ${euros(PLUS.prix.mensuel)} / mois</a>
+            <a class="pill-btn blue lg" href="#/abonnement">Découvrir ${offre.name} · ${euros(PRIX.mensuel)} / mois</a>
             <a class="pill-btn outline lg" href="#/abonnement">J'ai un code</a>
           </div>
         </div>
@@ -1436,8 +1443,8 @@
           <p class="eyebrow">⭐ Membres fondateurs · les ${F.places} premiers</p>
           <p class="founder-left">${full ? "Complet" : `${F.restantes} place${F.restantes > 1 ? "s" : ""} restante${F.restantes > 1 ? "s" : ""}`}</p>
         </div>
-        <h2>${F.essaiMois} mois offerts, puis ${euros(F.prix)} par mois à vie.</h2>
-        <p class="founder-sub">Au lieu de ${euros(PLUS.prix.mensuel)}, tant que tu restes abonné. Avec le badge « Membre fondateur » et ton avis sur les prochaines rubriques.</p>
+        <h2>${F.essaiMois} mois offerts, puis ${euros(PRIX.fondateur)} par mois à vie.</h2>
+        <p class="founder-sub">Au lieu de ${euros(PRIX.mensuel)}, tant que tu restes abonné. Avec le badge « Membre fondateur » et ton avis sur les prochaines rubriques.</p>
         <div class="founder-bar" role="img" aria-label="${taken} places prises sur ${F.places}"><i style="width:${Math.min(100, (taken / F.places) * 100)}%"></i></div>
         ${full ? "" : RC && RC.paquets && RC.paquets.fondateurs
           ? `<button class="pill-btn blue lg" type="button" data-rc-buy="fondateurs">Devenir membre fondateur</button>`
@@ -1449,7 +1456,7 @@
   }
 
   function renderAbonnement() {
-    const yearSave = Math.round((PLUS.prix.mensuel * 12 - PLUS.prix.annuel) / PLUS.prix.mensuel);
+    const yearSave = Math.round((PRIX.mensuel * 12 - PRIX.annuel) / PRIX.mensuel);
     const buy = (k) => RC
       ? `<button class="pill-btn blue" type="button" data-rc-buy="${k}">S'abonner</button>`
       : PLUS.paiement && PLUS.paiement[k]
@@ -1489,7 +1496,7 @@
           </div>
           <div class="plan plan-plus reveal">
             <p class="eyebrow">${offre.name} · Mensuel</p>
-            <p class="plan-price" data-rc-price="mensuel">${euros(PLUS.prix.mensuel)}<small> / mois</small></p>
+            <p class="plan-price" data-rc-price="mensuel">${euros(PRIX.mensuel)}<small> / mois</small></p>
             <p class="plan-note">Sans engagement, résiliable à tout moment.</p>
             ${perks}
             ${buy("mensuel")}
@@ -1497,15 +1504,15 @@
           <div class="plan plan-plus plan-best reveal">
             <p class="plan-badge">${yearSave} mois offerts</p>
             <p class="eyebrow">${offre.name} · Annuel</p>
-            <p class="plan-price" data-rc-price="annuel">${euros(PLUS.prix.annuel)}<small> / an</small></p>
-            <p class="plan-note">Soit ${euros(PLUS.prix.annuel / 12)} par mois.</p>
+            <p class="plan-price" data-rc-price="annuel">${euros(PRIX.annuel)}<small> / an</small></p>
+            <p class="plan-note">Soit ${euros(PRIX.annuel / 12)} par mois.</p>
             ${perks}
             ${buy("annuel")}
           </div>
         </div>
         <p class="plus-msg" id="rc-msg" aria-live="polite"></p>
         ${RC || (PLUS.paiement && (PLUS.paiement.mensuel || PLUS.paiement.annuel)) ? `<p class="viz-cap" style="margin-top:18px">Paiement sécurisé par carte. L'abonnement se renouvelle automatiquement chaque mois ou chaque année au même prix, jusqu'à ce que tu le résilies ; tu peux résilier à tout moment, l'accès reste ouvert jusqu'à la fin de la période payée. Le prix total, taxes comprises, est affiché avant de payer, et une confirmation t'est envoyée par courriel. En t'abonnant, tu acceptes les <a href="#/cgu">conditions d'utilisation</a>.</p>` : `<p class="viz-cap" style="margin-top:18px">Le paiement sera ouvert au lancement public.</p>`}
-        ${DEVISE === "USD" ? `<p class="viz-cap">Prix en dollars hors d'Europe. Les taxes de ton pays peuvent s'ajouter au moment du paiement.</p>` : ""}
+        ${DEVISE === "USD" ? `<p class="viz-cap">Prix en dollars hors d'Europe. Les taxes de ton pays peuvent s'ajouter au moment du paiement.</p>` : DEVISE === "CAD" ? `<p class="viz-cap">Prix en dollars canadiens. La TPS et la TVQ (ou la TVH selon ta province) peuvent s'ajouter au moment du paiement.</p>` : ""}
 
         <form class="panel geo reveal plus-guest" id="code-form" autocomplete="off">
           <p class="eyebrow">Tu es un invité ?</p>
