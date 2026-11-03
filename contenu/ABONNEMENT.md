@@ -66,8 +66,8 @@ Sans clé, rien ne change (liens de paiement ou « Bientôt disponible »).
 2. **RevenueCat** (revenuecat.com) : un compte gratuit, puis un projet « Geonomix ».
 3. Dans le projet, ajoute une app de type **Web Billing** (« RevenueCat Billing ») et **connecte ton compte Stripe**.
 4. **Produits** (dans l'app Web Billing) : deux abonnements
-   - `plus_mensuel` : 3,99 €, 3,99 $ US et 5,49 $ CA, tous les mois (un prix par devise : l'appli demande EUR en Europe, CAD au Canada, USD ailleurs) ;
-   - `plus_annuel` : 39,99 €, 39,99 $ US et 54,99 $ CA, tous les ans ;
+   - `plus_mensuel` : 3,99 €, 3,99 $ US et 4,99 $ CA, tous les mois (un prix par devise : l'appli demande EUR en Europe, CAD au Canada, USD ailleurs) ;
+   - `plus_annuel` : 39,99 €, 39,99 $ US et 49,99 $ CA, tous les ans ;
    - (facultatif) `plus_fondateur` : 2,99 €, 2,99 $ US et 3,99 $ CA, tous les mois, avec 2 mois d'essai gratuit.
 5. **Entitlement** : crée `plus` et attache-lui les produits.
 6. **Offering** : crée `default` (et marque-la « courante ») avec les paquets **Monthly** (`$rc_monthly` → plus_mensuel)

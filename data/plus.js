@@ -9,8 +9,8 @@ window.GEOCO.plus = {
   },
   "devises": {
     "CAD": {
-      "mensuel": 5.49,
-      "annuel": 54.99,
+      "mensuel": 4.99,
+      "annuel": 49.99,
       "fondateur": 3.99
     }
   },
