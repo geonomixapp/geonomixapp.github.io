@@ -1626,3 +1626,57 @@ section.flash { animation: partFlash 1.6s ease-out; }
 /* Mention « Inspiré d'un cours de Harvard » (2 nov. 2026) */
 .harvard-tag { display: inline-block; padding: 3px 10px; border-radius: 99px; border: 1px solid rgba(165, 28, 48, .55); color: #e0707e; font: 600 12.5px/1.4 var(--font); letter-spacing: 0; }
 .row-sub .harvard-tag { margin-top: 4px; font-size: 11.5px; }
+
+/* ---------- Page Profil (#/profil) : abonnement, temps par domaine, Duel en petit ---------- */
+.nav-profile { margin-left: 8px; }
+@media (max-width: 560px) { .navbar-inner .nav-search.nav-profile { margin-left: 8px; } }
+.pf-head { display: flex; align-items: center; gap: 18px; margin: 8px 0 22px; }
+.pf-avatar {
+  position: relative; flex: none; width: 76px; height: 76px; border-radius: 50%;
+  display: grid; place-items: center; font-size: 32px; font-weight: 700; color: var(--text);
+  background: var(--surface); border: 2px solid var(--hairline);
+}
+.pf-avatar.is-plus { border-color: var(--gold); box-shadow: 0 0 0 4px rgba(245,200,107,.12); }
+.pf-avatar-star {
+  position: absolute; right: -4px; bottom: -4px; width: 28px; height: 28px; border-radius: 50%;
+  display: grid; place-items: center; font-size: 16px; background: var(--gold); color: #1b1300; border: 2px solid var(--bg, #000);
+}
+.pf-name { font-size: clamp(28px, 6vw, 44px); margin: 0; }
+.pf-region { margin: 4px 0 0; color: var(--muted); font-size: 15px; }
+.pf-sub { background: var(--surface); border: 1px solid var(--hairline); border-radius: 20px; padding: 18px 20px; display: grid; gap: 6px; justify-items: start; }
+.pf-sub.is-plus { border-color: rgba(245,200,107,.45); background: linear-gradient(135deg, rgba(245,200,107,.10), transparent 60%), var(--surface); }
+.pf-sub-name { margin: 0; font-size: 21px; font-weight: 700; }
+.pf-sub.is-plus .pf-sub-name { color: var(--gold); }
+.pf-star { color: var(--gold); }
+.pf-sub-meta { margin: 0; color: var(--muted); font-size: 15px; }
+.pf-founder { margin: 2px 0; display: inline-block; padding: 3px 10px; border-radius: 999px; background: var(--gold); color: #1b1300; font-size: 13px; font-weight: 700; }
+.pf-block { margin-top: 26px; background: var(--surface); border: 1px solid var(--hairline); border-radius: 20px; padding: 18px 20px; }
+.pf-block-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; }
+.pf-block-head h2 { margin: 0; font-size: 21px; }
+.pf-range button { font-size: 13px; padding: 5px 10px; }
+.pf-donut { display: flex; flex-wrap: wrap; align-items: center; gap: 22px; margin-top: 16px; }
+.pf-donut svg { width: 170px; height: 170px; flex: none; }
+.pf-donut circle { transition: stroke-dasharray .6s ease; }
+.pf-donut-big { fill: var(--text); font-size: 19px; font-weight: 700; }
+.pf-donut-small { fill: var(--muted); font-size: 11px; }
+.pf-legend { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; flex: 1; min-width: 200px; }
+.pf-legend li { display: grid; grid-template-columns: 12px 1fr auto auto; align-items: center; gap: 10px; font-size: 16px; }
+.pf-legend i { width: 12px; height: 12px; border-radius: 50%; }
+.pf-legend b { font-variant-numeric: tabular-nums; }
+.pf-legend em { font-style: normal; color: var(--muted); font-size: 14px; min-width: 58px; text-align: right; }
+.pf-top { margin: 14px 0 0; color: var(--muted); }
+.pf-week-title { margin: 20px 0 8px; color: var(--muted); font-size: 14px; }
+.pf-week { display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; align-items: end; }
+.pf-day { display: grid; gap: 6px; justify-items: center; font-size: 12px; color: var(--muted); }
+.pf-col { width: 100%; max-width: 34px; height: 90px; display: flex; flex-direction: column-reverse; border-radius: 8px; overflow: hidden; background: rgba(255,255,255,.04); }
+.pf-col i { display: block; width: 100%; }
+.pf-stats { margin-top: 18px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.pf-stats div { background: var(--surface); border: 1px solid var(--hairline); border-radius: 16px; padding: 14px; text-align: center; display: grid; gap: 2px; }
+.pf-stats b { font-size: 26px; }
+.pf-stats span { color: var(--muted); font-size: 13px; }
+.pf-duel {
+  margin-top: 18px; display: flex; align-items: center; gap: 12px; padding: 10px 16px; border-radius: 14px;
+  border: 1px solid var(--hairline); color: var(--muted); font-size: 14px; text-decoration: none;
+}
+.pf-duel span:first-child { color: #ffb066; font-weight: 600; }
+.pf-duel span:nth-child(2) { flex: 1; }

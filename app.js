@@ -3340,6 +3340,178 @@ function statGrid(figures, sources, theme = "geo") {
   }
 
   // ---------- Langue et région ----------
+  // ---------- Temps de lecture par domaine (pour la page Profil) ----------
+  // Demande de l'auteur (3 nov. 2026) : un profil avec un graphique « où je passe mon temps » (Éco, Géopo, Finance).
+  // On compte les secondes passées sur une actu, un cours ou un article (selon son thème ; « mix » = moitié Éco,
+  // moitié Géopo), seulement quand la page est visible et que le lecteur a bougé depuis moins de 90 s.
+  // Tout reste sur l'appareil (geoco.temps), rien n'est envoyé.
+  const TIME_KEY = "geoco.temps";
+  let timeData = {};
+  try { timeData = JSON.parse(localStorage.getItem(TIME_KEY) || "{}") || {}; } catch (e) { timeData = {}; }
+  if (!timeData.d || typeof timeData.d !== "object") timeData.d = {};
+  if (!timeData.lu || typeof timeData.lu !== "object") timeData.lu = {};
+  let timeTheme = null, lastMove = Date.now();
+  ["scroll", "pointerdown", "pointermove", "keydown", "touchstart", "wheel"].forEach((ev) =>
+    window.addEventListener(ev, () => { lastMove = Date.now(); }, { passive: true }));
+  function timeSave() {
+    const days = Object.keys(timeData.d).sort();
+    while (days.length > 120) delete timeData.d[days.shift()];
+    try { localStorage.setItem(TIME_KEY, JSON.stringify(timeData)); } catch (e) {}
+  }
+  function timeTrack(section, param) {
+    timeTheme = null;
+    if (!param) return;
+    let item = null, kind = "";
+    if (section === "actu") { item = byId(news, param); kind = "actus"; }
+    else if (section === "cours" || section === "dossier") { item = byId(dossiers, param); kind = "cours"; }
+    else if (section === "articles" || section === "culture") { item = byId(culture, param); kind = "articles"; }
+    if (!item || !item.theme) return;
+    timeTheme = item.theme;
+    const list = timeData.lu[kind] || (timeData.lu[kind] = []);
+    if (!list.includes(item.id)) { list.push(item.id); if (list.length > 3000) list.shift(); timeSave(); }
+  }
+  setInterval(() => {
+    if (!timeTheme || document.hidden || Date.now() - lastMove > 90000) return;
+    const day = timeData.d[today()] || (timeData.d[today()] = { eco: 0, geo: 0, fin: 0 });
+    if (timeTheme === "mix") { day.eco += 2.5; day.geo += 2.5; }
+    else if (day[timeTheme] !== undefined) day[timeTheme] += 5;
+    timeSave();
+  }, 5000);
+  function timeTotals(nDays) {
+    const out = { eco: 0, geo: 0, fin: 0 };
+    const from = nDays ? new Date(Date.now() - (nDays - 1) * 864e5).toISOString().slice(0, 10) : "";
+    Object.entries(timeData.d).forEach(([d, v]) => { if (d >= from) ["eco", "geo", "fin"].forEach((k) => { out[k] += v[k] || 0; }); });
+    return out;
+  }
+  const fmtMin = (s) => {
+    const m = Math.round(s / 60);
+    if (m < 1) return s > 0 ? "< 1 min" : "0 min";
+    return m < 60 ? `${m} min` : `${Math.floor(m / 60)} h ${String(m % 60).padStart(2, "0")}`;
+  };
+
+  // ---------- Page Profil (#/profil) ----------
+  function renderProfil() {
+    const DOM = [["eco", "Économie", "var(--c-eco)"], ["geo", "Géopolitique", "var(--c-geo)"], ["fin", "Finance", "var(--c-fin)"]];
+    let pseudo = "";
+    try { pseudo = (localStorage.getItem("geoco.duel.pseudo") || "").trim(); } catch (e) {}
+    let duel = null;
+    try { duel = JSON.parse(localStorage.getItem("geoduel-v3") || "null"); } catch (e) {}
+    const st = isPlus() ? (plusState || {}) : null;
+    const lu = timeData.lu || {};
+    const initial = (pseudo || "G").slice(0, 1).toUpperCase();
+
+    const subCard = st ? `
+        <div class="pf-sub is-plus">
+          <p class="pf-sub-name">${offre.name}${st.fondateur ? ` <span class="pf-star" title="Membre fondateur">★</span>` : ""}</p>
+          <p class="pf-sub-meta">${st.label || "Abonnement"}${st.jusqua ? ` · jusqu'au ${formatDate(st.jusqua)}` : ""}</p>
+          ${st.fondateur ? `<p class="pf-founder">⭐ Membre fondateur</p>` : ""}
+          <a class="more-btn" href="#/abonnement">Gérer mon abonnement ›</a>
+        </div>` : `
+        <div class="pf-sub">
+          <p class="pf-sub-name">Formule gratuite</p>
+          <p class="pf-sub-meta">L'actu, le globe, les cours pour débuter et la lettre du matin.</p>
+          <a class="pill-btn blue" href="#/abonnement">Découvrir ${offre.name}</a>
+        </div>`;
+
+    app.innerHTML = `
+      <section class="wrap hero pf">
+        <p class="eyebrow reveal">Mon profil</p>
+        <div class="pf-head reveal">
+          <div class="pf-avatar${st ? " is-plus" : ""}${st && st.fondateur ? " founder" : ""}" aria-hidden="true">${initial}${st && st.fondateur ? `<span class="pf-avatar-star">★</span>` : ""}</div>
+          <div>
+            <h1 class="title pf-name">${pseudo || "Lecteur Geonomix"}</h1>
+            <p class="pf-region">📍 ${I18N.regionName(I18N.region)} · <a href="#/reglages">Changer</a></p>
+          </div>
+        </div>
+        ${subCard}
+
+        <div class="pf-block reveal">
+          <div class="pf-block-head">
+            <h2>Où passe ton temps</h2>
+            <div class="segmented pf-range" role="group" aria-label="Période">
+              <button type="button" data-days="7" aria-pressed="true">7 jours</button>
+              <button type="button" data-days="30" aria-pressed="false">30 jours</button>
+              <button type="button" data-days="0" aria-pressed="false">Tout</button>
+            </div>
+          </div>
+          <div id="pf-time"></div>
+          <div id="pf-week"></div>
+        </div>
+
+        <div class="pf-stats reveal">
+          <div><b>${(lu.actus || []).length}</b><span>actus lues</span></div>
+          <div><b>${(lu.cours || []).length}</b><span>cours ouverts</span></div>
+          <div><b>${(lu.articles || []).length}</b><span>articles lus</span></div>
+        </div>
+
+        <a class="pf-duel reveal" href="duel.html">
+          <span>⚔ Duel</span>
+          <span>${duel && duel.points ? `${duel.points} points · ${duel.wins || 0} V · ${duel.draws || 0} N · ${duel.losses || 0} D` : "Pas encore joué"}</span>
+          <span aria-hidden="true">›</span>
+        </a>
+
+        <p class="viz-cap">Ces chiffres restent sur ton appareil : rien n'est envoyé.</p>
+      </section>`;
+
+    const box = app.querySelector("#pf-time");
+    function draw(nDays) {
+      const t = timeTotals(nDays);
+      const total = t.eco + t.geo + t.fin;
+      if (total < 30) {
+        box.innerHTML = `<p class="empty">Lis quelques actus, cours ou articles : ton graphique se remplira tout seul.</p>`;
+        return;
+      }
+      // Anneau en trois parts (SVG, sans bibliothèque).
+      const R = 54, C = 2 * Math.PI * R;
+      let off = 0;
+      const arcs = DOM.map(([k, , col]) => {
+        const len = (t[k] / total) * C;
+        const a = len > 0.5 ? `<circle r="${R}" cx="70" cy="70" fill="none" stroke="${col}" stroke-width="18" stroke-dasharray="${Math.max(0, len - 2)} ${C}" stroke-dashoffset="${-off}" transform="rotate(-90 70 70)"/>` : "";
+        off += len;
+        return a;
+      }).join("");
+      const top = DOM.slice().sort((a, b) => t[b[0]] - t[a[0]])[0];
+      box.innerHTML = `
+        <div class="pf-donut">
+          <svg viewBox="0 0 140 140" role="img" aria-label="Temps passé par domaine">
+            <circle r="${R}" cx="70" cy="70" fill="none" stroke="var(--hairline)" stroke-width="18"/>
+            ${arcs}
+            <text x="70" y="66" text-anchor="middle" class="pf-donut-big">${fmtMin(total)}</text>
+            <text x="70" y="86" text-anchor="middle" class="pf-donut-small">de lecture</text>
+          </svg>
+          <ul class="pf-legend">
+            ${DOM.map(([k, name, col]) => `<li><i style="background:${col}"></i><span>${name}</span><b>${Math.round((t[k] / total) * 100)} %</b><em>${fmtMin(t[k])}</em></li>`).join("")}
+          </ul>
+        </div>
+        <p class="pf-top">Ton domaine de prédilection : <b style="color:${top[2]}">${top[1]}</b></p>`;
+    }
+    // Les 7 derniers jours en barres empilées.
+    (function week() {
+      const days = [];
+      for (let i = 6; i >= 0; i--) {
+        const d = new Date(Date.now() - i * 864e5);
+        const key = d.toISOString().slice(0, 10);
+        const v = timeData.d[key] || {};
+        days.push({ d, v, sum: (v.eco || 0) + (v.geo || 0) + (v.fin || 0) });
+      }
+      const max = Math.max(60, ...days.map((x) => x.sum));
+      if (!days.some((x) => x.sum >= 30)) return;
+      app.querySelector("#pf-week").innerHTML = `
+        <p class="pf-week-title">Cette semaine</p>
+        <div class="pf-week">${days.map(({ d, v, sum }) => `
+          <div class="pf-day" title="${fmtMin(sum)}">
+            <div class="pf-col">${DOM.map(([k, , col]) => v[k] ? `<i style="height:${(v[k] / max) * 100}%;background:${col}"></i>` : "").join("")}</div>
+            <span>${d.toLocaleDateString(LOCALE, { weekday: "short" }).replace(".", "")}</span>
+          </div>`).join("")}
+        </div>`;
+    })();
+    app.querySelectorAll(".pf-range button").forEach((b) => b.addEventListener("click", () => {
+      app.querySelectorAll(".pf-range button").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+      draw(Number(b.dataset.days));
+    }));
+    draw(7);
+  }
+
   function renderSettings() {
     const L = I18N.LANGS || {};
     app.innerHTML = `
@@ -3414,6 +3586,7 @@ function statGrid(figures, sources, theme = "geo") {
     else if (section === "conflits") renderConflits(param, extra);
     else if (section === "recherche") renderSearch(param || "");
     else if (section === "reglages") renderSettings();
+    else if (section === "profil") renderProfil();
     else if (section === "lettres") renderLettres();
     else if (section === "abonnement") { renderAbonnement(); if (param && param.startsWith("bienv")) welcomePlus(); }
     else if (section === "anecdotes") renderAnecdotes(param);
@@ -3435,6 +3608,8 @@ function statGrid(figures, sources, theme = "geo") {
       if (target) setTimeout(() => { target.scrollIntoView({ behavior: "smooth", block: "start" }); target.classList.add("flash"); }, 120);
     }
     document.querySelector(".nav-search") && document.querySelector(".nav-search").classList.toggle("active", section === "recherche");
+    document.querySelector(".nav-profile") && document.querySelector(".nav-profile").classList.toggle("active", section === "profil");
+    timeTrack(section, param);
     groupCites(app);
     watchReveals();
   }

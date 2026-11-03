@@ -65,7 +65,7 @@ window.GEOCO.cgu = {
       titre: "7. Tes renseignements personnels",
       texte: [
         "<b>Responsable de la protection des renseignements personnels</b> : Célestin Noury, joignable à <a href=\"mailto:celestinnoury0@gmail.com\">celestinnoury0@gmail.com</a>.",
-        "Geonomix n'a pas de compte utilisateur et ne collecte pas ton nom. Tes réglages (langue, région, articles lus, épisodes écoutés, état de l'abonnement) restent sur ton appareil, dans le stockage du navigateur. Les effacer remet l'application à zéro.",
+        "Geonomix n'a pas de compte utilisateur et ne collecte pas ton nom. Tes réglages (langue, région, articles lus, temps de lecture par domaine, épisodes écoutés, état de l'abonnement) restent sur ton appareil, dans le stockage du navigateur. Les effacer remet l'application à zéro.",
         "Pour l'abonnement, un identifiant anonyme propre à ton appareil est transmis à RevenueCat, et le courriel que tu donnes au paiement est traité par Stripe, pour encaisser le paiement, t'envoyer la confirmation et gérer la résiliation.",
         "Dans le jeu en ligne, ton pseudo, tes points et tes réponses aux quiz sont enregistrés chez Supabase pour faire fonctionner le classement et les duels.",
         "Si tu l'acceptes, l'application utilise ta position une seule fois, sur ton appareil, pour savoir ta zone (Europe, Amérique latine, Asie…) et classer les actus. Ta position n'est ni envoyée ni gardée : seule la zone est enregistrée, dans le stockage de ton navigateur. Tu peux refuser et choisir ta zone dans les réglages.",
