@@ -1,6 +1,10 @@
 // Vérifie la cohérence du contenu avant chaque publication.
 // Usage : node tools/check-content.mjs   (code de sortie 1 s'il y a une erreur)
 import fs from "fs";
+
+// Sources fiables : une seule suffit (agences, grands médias, institutions officielles).
+const TRUSTED = /reuters|afp|agence france|associated press|\bap\b|apnews|bloomberg|euronews|bbc|le monde|lemonde|financial times|\bft\b|wall street journal|wsj|new york times|nytimes|washington post|the economist|les echos|le figaro|liberation|france ?info|franceinfo|radio france|france 24|rfi|cnbc|cnn|al jazeera|dw|deutsche welle|el pa[ií]s|nikkei|the guardian|guardian|politico|nhk|xinhua|kyodo|yonhap|insee|eurostat|banque centrale|central bank|bce|ecb|federal reserve|\bfed\b|fmi|imf|banque mondiale|world bank|ocde|oecd|onu|\bun\b|united nations|commission européenne|european commission|gouv|\.gov|ministère|ministry|élysée|maison-blanche|white house|opep|opec|aie|\biea\b|bri|\bbis\b/i;
+const trusted = (src) => TRUSTED.test(`${src.short || ""} ${src.name || ""} ${src.url || ""}`);
 import vm from "vm";
 
 const ctx = { window: {} };
@@ -55,8 +59,8 @@ news.forEach((n, i) => {
   if (!Array.isArray(n.why) || !n.why.length) err(w, "why manquant");
   if (!Array.isArray(n.figures) || !n.figures.length) err(w, "au moins 1 chiffre");
   checkSources(w, n.sources);
-  // Plusieurs sources de qualité ; sinon l'actu le dit (champ `verify`).
-  if (Array.isArray(n.sources) && n.sources.length < 2 && !n.verify) warn.push(`${w} : une seule source, ajouter une 2e source ou un champ verify (« Source à vérifier »)`);
+  // Une seule source suffit si elle est fiable (choix de l'auteur, 3 nov. 2026 : agence, grand média, institution) ; sinon 2e source ou `verify`.
+  if (Array.isArray(n.sources) && n.sources.length < 2 && !n.verify && !n.sources.some(trusted)) warn.push(`${w} : une seule source, ajouter une 2e source ou un champ verify (« Source à vérifier »)`);
   if (n.verify != null && (typeof n.verify !== "string" || !n.verify.trim())) err(w, "verify doit être une phrase (la raison)");
   [...(n.points || []), ...(n.why || []), n.summary, n.forMe].forEach((t) => checkCites(w, t, n.sources));
   // « Pour aller plus loin » : toutes les phrases sont sourcées comme le reste de l'actu.
@@ -246,7 +250,7 @@ agenda.forEach((a, i) => {
   if (a.region && !REGIONS.has(a.region)) err(w, `region invalide « ${a.region} »`);
   if (!a.title || !a.why) err(w, "title et why obligatoires");
   checkSources(w, a.sources); checkCites(w, a.why, a.sources);
-  if (Array.isArray(a.sources) && a.sources.length < 2 && !a.verify) warn.push(`${w} : une seule source, ajouter une 2e source ou verify`);
+  if (Array.isArray(a.sources) && a.sources.length < 2 && !a.verify && !a.sources.some(trusted)) warn.push(`${w} : une seule source, ajouter une 2e source ou verify`);
   if (a.news && !news.some((n) => n.id === a.news)) warn.push(`${w} : actu liée « ${a.news} » introuvable`);
   if ((a.end || a.date) < new Date().toISOString().slice(0, 10)) warn.push(`${w} : date passée, à retirer`);
 });
