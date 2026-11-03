@@ -62,12 +62,12 @@ Sans clé, rien ne change (liens de paiement ou « Bientôt disponible »).
 
 ### Ce que tu dois créer (une fois)
 
-1. **Stripe** (stripe.com) : un compte avec ton statut (micro-entreprise : SIRET), ton IBAN et ta pièce d'identité.
+1. **Stripe** (stripe.com) : compte canadien (dollars canadiens) créé ; reste à terminer la vérification (justificatif de domicile récent au nom et à l'adresse exacts du compte, pièce d'identité), puis à ajouter le NEQ quand l'entreprise est immatriculée. Activer dans Paramètres > E-mails clients l'envoi des reçus de paiement (les CGU promettent une confirmation par courriel).
 2. **RevenueCat** (revenuecat.com) : un compte gratuit, puis un projet « Geonomix ».
 3. Dans le projet, ajoute une app de type **Web Billing** (« RevenueCat Billing ») et **connecte ton compte Stripe**.
 4. **Produits** (dans l'app Web Billing) : deux abonnements
-   - `plus_mensuel` : 3,99 €, tous les mois ;
-   - `plus_annuel` : 39,99 €, tous les ans ;
+   - `plus_mensuel` : 3,99 € et 3,99 $ US, tous les mois (un prix par devise : l'appli demande EUR en Europe, USD ailleurs) ;
+   - `plus_annuel` : 39,99 € et 39,99 $ US, tous les ans ;
    - (facultatif) `plus_fondateur` : 2,99 €, tous les mois, avec 2 mois d'essai gratuit.
 5. **Entitlement** : crée `plus` et attache-lui les produits.
 6. **Offering** : crée `default` (et marque-la « courante ») avec les paquets **Monthly** (`$rc_monthly` → plus_mensuel)
