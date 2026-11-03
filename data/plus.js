@@ -39,9 +39,9 @@ window.GEOCO.plus = {
     "ouvert": true
   },
   "revenuecat": {
-    "cle": "",
-    "droit": "plus",
-    "offre": "",
+    "cle": "rcb_sb_ArXyFmTYKgBddtyDrWEtQhUIE",
+    "droit": "geonomix_pro",
+    "offre": "default",
     "paquets": {
       "mensuel": "$rc_monthly",
       "annuel": "$rc_annual",
