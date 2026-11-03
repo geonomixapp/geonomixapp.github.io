@@ -105,7 +105,10 @@
       let id = null;
       try { id = localStorage.getItem(RC_ID_KEY); } catch (e) {}
       if (!id) { id = Purchases.generateRevenueCatAnonymousAppUserId(); try { localStorage.setItem(RC_ID_KEY, id); } catch (e) {} }
-      return Purchases.configure({ apiKey: RC.cle, appUserId: id });
+      // forceEnableWalletMethods (option interne du SDK, lue dans Purchases.es.js 1.65.0) : Apple Pay et Google Pay
+      // affichés dès que le navigateur les accepte, même sans carte déjà enregistrée (demande de l'auteur, 3 nov. 2026 :
+      // « Apple Pay, absolument »). Une option inconnue serait simplement ignorée.
+      return Purchases.configure({ apiKey: RC.cle, appUserId: id, flags: { forceEnableWalletMethods: true } });
     }).catch(() => null);
     return rcReady;
   }
