@@ -1504,7 +1504,7 @@
           </div>
         </div>
         <p class="plus-msg" id="rc-msg" aria-live="polite"></p>
-        ${RC || (PLUS.paiement && (PLUS.paiement.mensuel || PLUS.paiement.annuel)) ? `<p class="viz-cap" style="margin-top:18px">Paiement sécurisé par carte bancaire. Résiliable à tout moment. En t'abonnant, tu acceptes les <a href="#/cgu">conditions d'utilisation</a>.</p>` : `<p class="viz-cap" style="margin-top:18px">Le paiement sera ouvert au lancement public.</p>`}
+        ${RC || (PLUS.paiement && (PLUS.paiement.mensuel || PLUS.paiement.annuel)) ? `<p class="viz-cap" style="margin-top:18px">Paiement sécurisé par carte. L'abonnement se renouvelle automatiquement chaque mois ou chaque année au même prix, jusqu'à ce que tu le résilies ; tu peux résilier à tout moment, l'accès reste ouvert jusqu'à la fin de la période payée. Le prix total, taxes comprises, est affiché avant de payer, et une confirmation t'est envoyée par courriel. En t'abonnant, tu acceptes les <a href="#/cgu">conditions d'utilisation</a>.</p>` : `<p class="viz-cap" style="margin-top:18px">Le paiement sera ouvert au lancement public.</p>`}
         ${DEVISE === "USD" ? `<p class="viz-cap">Prix en dollars hors d'Europe. Les taxes de ton pays peuvent s'ajouter au moment du paiement.</p>` : ""}
 
         <form class="panel geo reveal plus-guest" id="code-form" autocomplete="off">
