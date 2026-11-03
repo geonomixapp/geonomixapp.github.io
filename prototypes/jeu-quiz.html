@@ -1085,10 +1085,10 @@ h1, h2, h3, .question, .splash .big, .sheet h3, .daily h2, .mode h3 { font-weigh
 .mt-row { border-top-color: var(--line); }
 .mt-row.me { background: rgba(255, 138, 61, .1); }
 .mt-n { color: var(--text); }
-/* Arrière-plan : la poursuite TIE contre chasseur Jedi (canvas de duel-ships.js), fixe derrière le menu */
+/* Arrière-plan : champ d'étoiles (canvas de duel-stars.js), fixe derrière le menu */
 .arena { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
 .arena-cv { width: 100%; height: 100%; display: block; opacity: .62; }
-/* Les cartes laissent deviner la poursuite derrière elles */
+/* Les cartes laissent deviner les étoiles derrière elles */
 .card, .champion, .daily { background: rgba(28, 28, 30, .8); }
 .top, main, .tabs { position: relative; z-index: 1; }
 .top { position: sticky; z-index: 5; }
@@ -1138,7 +1138,7 @@ h1, h2, h3, .question, .splash .big, .sheet h3, .daily h2, .mode h3 { font-weigh
 .qz-card .qz-best { margin-right: 18px; }
 </style>
 
-<!-- Arrière-plan (demande de l'auteur, 28 oct. 2026) : un chasseur TIE poursuit un chasseur Jedi en tirant des lasers verts (duel-ships.js, three.js). Modèles : « Jedi Star Fighter » de Petri Liuhto (Sketchfab, CC BY-NC 4.0) et un chasseur TIE/LN fourni par l'auteur -->
+<!-- Arrière-plan : champ d'étoiles qui défile (duel-stars.js, three.js) -->
 <div class="arena" aria-hidden="true" data-mode="stars"></div>
 <header class="top">
   <div class="wrap">
@@ -3200,5 +3200,5 @@ h1, h2, h3, .question, .splash .big, .sheet h3, .daily h2, .mode h3 { font-weigh
   initShared();
 })();
 </script>
-<script type="module" src="duel-ships.js"></script>
+<script type="module" src="duel-stars.js"></script>
 <script type="module" src="duel-orbit.js"></script>
