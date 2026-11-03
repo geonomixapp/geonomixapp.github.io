@@ -157,7 +157,8 @@
     try {
       const pkg = rcPackage(await rc.getOfferings({ currency: DEVISE }), kind);
       if (!pkg) { if (msg) msg.textContent = "Cette offre n'est pas encore en vente."; return false; }
-      const res = await rc.purchase({ rcPackage: pkg });
+      // Formulaire de paiement dans la langue de l'appli (demande implicite de l'auteur, 3 nov. 2026 : il s'affichait en anglais).
+      const res = await rc.purchase({ rcPackage: pkg, selectedLocale: I18N.lang });
       if (res && res.customerInfo && res.customerInfo.entitlements.active[RC.droit || "plus"]) {
         setPlus({ via: "revenuecat", label: kind === "annuel" ? "Abonnement annuel" : kind === "fondateurs" ? "Membre fondateur" : "Abonnement mensuel", fondateur: kind === "fondateurs" });
         refreshLocks();
