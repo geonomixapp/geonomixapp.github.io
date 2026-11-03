@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-03",
+    "file": "lettres/2026-11-03.pdf",
+    "titles": [
+      "Le pétrole plonge de 7 % en une séance : Washington et Téhéran laissent entrouverte la porte de la diplomatie",
+      "France : 10 millions de barils de gazole sortent des stocks de l'État pour faire baisser la pompe de 12 à 18 centimes",
+      "Allemagne : les manifestations « Gen Z » contre la vie chère dégénèrent à Berlin et Francfort, avec des dizaines d'arrestations"
+    ],
+    "fileDark": "lettres/2026-11-03-sombre.pdf"
+  },
+  {
     "date": "2026-11-02",
     "file": "lettres/2026-11-02.pdf",
     "titles": [

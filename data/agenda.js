@@ -29,27 +29,6 @@ window.GEOCO.agenda = [
     ]
   },
   {
-    "id": "2026-11-03-rba-taux",
-    "date": "2026-11-03",
-    "theme": "fin",
-    "region": "Asie",
-    "place": "Sydney",
-    "title": "La Banque centrale d'Australie décide de son taux",
-    "why": "Réunion des 2 et 3 novembre, décision à 14 h 30 heure de Sydney, avec le rapport trimestriel de la banque [1][2]. Un taux plus haut renchérit les crédits immobiliers australiens et soutient le dollar australien, monnaie très liée aux prix des matières premières.",
-    "sources": [
-      {
-        "short": "RBA",
-        "name": "Reserve Bank of Australia, « 2026 Monetary Policy Board Meeting Dates »",
-        "url": "https://www.rba.gov.au/media-releases/2025/mr-25-02.html"
-      },
-      {
-        "short": "RBA Rate Watch",
-        "name": "RBA Rate Watch, « RBA Meeting Dates 2026 »",
-        "url": "https://rbaratewatch.com/rba-meeting-dates-2026/"
-      }
-    ]
-  },
-  {
     "id": "2026-11-04-bresil-copom-selic",
     "date": "2026-11-04",
     "theme": "fin",

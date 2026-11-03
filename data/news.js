@@ -17,6 +17,780 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.news = [
   {
+    "id": "2026-11-03-petrole-chute-espoir-pourparlers-iran",
+    "date": "2026-11-03",
+    "region": "Moyen-Orient",
+    "theme": "eco",
+    "impact": "monde",
+    "zones": [
+      "Europe",
+      "Asie",
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Détroit d'Ormuz",
+        "label": "Ormuz",
+        "coords": [
+          56.3,
+          26.6
+        ]
+      }
+    ],
+    "title": "Le pétrole plonge de 7 % en une séance : Washington et Téhéran laissent entrouverte la porte de la diplomatie",
+    "summary": "Lundi 2 novembre, le baril américain (WTI) a clôturé à 96,46 dollars, soit 7,4 % de moins en une séance, après que les États-Unis et l'Iran ont laissé entendre qu'ils donneraient sa chance à la diplomatie. Une partie de la « prime de guerre » ajoutée aux prix en octobre s'est évaporée [1][2][3].",
+    "points": [
+      "À la mi-journée à New York lundi 2 novembre, le Brent valait 104,66 dollars (−7,7 %) et le WTI 96,50 dollars (−7,3 %) [1][2].",
+      "À la clôture, le WTI, la référence américaine, a perdu 7,66 dollars, soit 7,36 %, et s'est arrêté à 96,46 dollars le baril [3].",
+      "Le déclencheur : les deux camps ont laissé entendre qu'ils donneraient une chance à la diplomatie. Cela a effacé une partie de la « prime de guerre », ce supplément de prix payé par les acheteurs quand ils craignent de manquer de pétrole, et qui avait fait monter le brut pendant tout octobre [2].",
+      "Selon MoneyCheck, des responsables iraniens et qataris en étaient lundi à un troisième jour d'échanges sur la réouverture du détroit d'Ormuz, par où passait avant la guerre une grande partie du pétrole du Golfe [5].",
+      "Attention aux comparaisons : le contrat de décembre du Brent est arrivé à échéance vendredi 30 octobre, à 117,64 dollars ; lundi, les cotations portaient déjà sur le contrat de janvier, si bien qu'une baisse de « 7,7 % » ne se calcule pas par rapport à 117,64 dollars [4].",
+      "Le répit reste fragile : selon FXEmpire, les cours ont un peu rebondi en début de séance asiatique après des informations sur une frappe américaine sur l'île iranienne de Qeshm, que des responsables américains décrivent comme défensive, avec un Brent à 105,25 dollars et un WTI à 96,93 dollars [6]. Goldman Sachs, de son côté, a relevé sa prévision de Brent pour décembre à 105 dollars, contre 90 dollars auparavant [5]."
+    ],
+    "why": [
+      "À retenir : aujourd'hui, le prix du pétrole mesure moins le nombre de barils disponibles que la probabilité de voir le détroit d'Ormuz rouvrir. Un simple signal diplomatique a suffi à faire reculer le WTI de plus de 7 dollars en une journée [2][3].",
+      "Le mécanisme est celui de la prime de guerre. Quand un détroit stratégique est bloqué, les acheteurs (raffineurs, États, négociants) paient plus cher pour sécuriser leurs livraisons. Dès que la menace paraît reculer, cette assurance devient moins utile et les cours baissent, même si aucun baril de plus n'a encore traversé le détroit [2].",
+      "La baisse peut s'inverser aussi vite. Le rebond signalé après la frappe sur Qeshm montre qu'un incident militaire suffit à ramener le risque dans les prix [6]. Et même après la chute de lundi, le baril reste autour de 100 dollars pour le Brent : l'économie mondiale n'est pas revenue aux prix d'avant la crise [1][4].",
+      "Pour les pays importateurs d'Europe et d'Asie, la bonne nouvelle serait un recul durable des carburants et du gaz. Pour les producteurs, la question est inverse : le prochain rendez-vous est la réunion de l'OPEP+ du 29 novembre, qui doit fixer la production de 2027 [7]."
+    ],
+    "forMe": "Si tu roules au diesel ou si tu chauffes ta maison au fioul, une baisse durable du baril finit par se voir à la pompe, avec quelques semaines de retard. Mais un seul jour de repli ne change pas encore les prix affichés : si les discussions échouent, la hausse peut revenir aussi vite.",
+    "next": [
+      {
+        "when": "29 novembre",
+        "what": "L'OPEP+ se réunit pour fixer ses quotas de production de 2027, ce qui peut relancer ou calmer les prix [7]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "−7,4 %",
+        "label": "baisse du WTI lundi 2 novembre, à 96,46 $ le baril",
+        "src": 3
+      },
+      {
+        "value": "117,64 $",
+        "label": "dernier prix du Brent de décembre, le 30 octobre",
+        "src": 4
+      },
+      {
+        "value": "105 $",
+        "label": "prévision de Goldman Sachs pour le Brent en décembre, contre 90 $",
+        "src": 5
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "routes-maritimes",
+      "sanctions"
+    ],
+    "sources": [
+      {
+        "short": "Quartz",
+        "name": "Quartz, « Crude oil sinks more than 7% as U.S.-Iran peace talks ease war fears » (2 nov. 2026)",
+        "url": "https://qz.com/oil-prices-sink-us-iran-talks-war-fears-110226"
+      },
+      {
+        "short": "OilPrice",
+        "name": "OilPrice.com, « Oil Prices Plunge 7% as U.S. and Iran Signal Room for Diplomacy »",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-7-as-US-and-Iran-Signal-Room-for-Diplomacy.html"
+      },
+      {
+        "short": "News Karnataka",
+        "name": "News Karnataka, « Oil prices fall 8% on US-Iran peace hopes » (3 nov. 2026)",
+        "url": "https://newskarnataka.com/business/oil-prices-fall-8-on-us-iran-peace-hopes/03112026/"
+      },
+      {
+        "short": "EnergyNow",
+        "name": "EnergyNow, « Oil Prices Plunge More Than 4% as U.S.-Iran Peace Talks Raise Hopes of Easing Middle East Supply Disruptions » (nov. 2026)",
+        "url": "https://energynow.com/2026/11/oil-prices-plunge-more-than-4-as-u-s-iran-peace-talks-raise-hopes-of-easing-middle-east-supply-disruptions/"
+      },
+      {
+        "short": "MoneyCheck",
+        "name": "MoneyCheck, « Oil Prices Drop Over 3% Today: Iran Peace Talks, Brent and WTI Latest »",
+        "url": "https://moneycheck.com/oil-prices-drop-over-3-today-iran-peace-talks-brent-and-wti-latest"
+      },
+      {
+        "short": "FXEmpire",
+        "name": "FXEmpire, « Oil Price Forecast: WTI and Brent Rebound on US Strike in Iran »",
+        "url": "https://www.fxempire.com/forecasts/article/oil-price-forecast-wti-and-brent-rebound-on-us-strike-in-iran-1642106"
+      },
+      {
+        "short": "CNBC (OPEP+)",
+        "name": "CNBC, « OPEC+ keeps December oil output targets steady ahead of tougher call for 2027 » (31 oct. 2026)",
+        "url": "https://www.cnbc.com/2026/10/31/opec-oil-output-targets-december.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-03-france-gazole-stocks-strategiques-baisse-pompe",
+    "date": "2026-11-03",
+    "region": "Europe",
+    "theme": "eco",
+    "geo": [
+      {
+        "name": "Paris, France",
+        "label": "France",
+        "coords": [
+          2.35,
+          48.86
+        ]
+      }
+    ],
+    "title": "France : 10 millions de barils de gazole sortent des stocks de l'État pour faire baisser la pompe de 12 à 18 centimes",
+    "summary": "Depuis le 1er novembre, la France libère 10 millions de barils de gazole de ses réserves stratégiques, vendus aux distributeurs à leur prix d'avant-crise. Le gouvernement vise une baisse de 12 à 18 centimes par litre d'ici janvier ; TotalEnergies promet 8 à 12 centimes aux particuliers [1][2][4].",
+    "points": [
+      "Le 7 octobre, le Premier ministre Sébastien Lecornu a annoncé la mise sur le marché de 10 millions de barils de gazole issus des stocks stratégiques, cédés aux distributeurs à leur prix d'avant-crise [1][3].",
+      "La décision découle de l'accord conclu par le G7 le 2 octobre, qui prévoit de mobiliser 100 millions de barils de produits pétroliers dans les réserves stratégiques des grandes économies [1].",
+      "Le gouvernement assure que les prix du gazole baisseront dès le 1er novembre, d'environ 12 à 18 centimes par litre entre novembre 2026 et janvier 2027 [1][4][5]. Un média automobile parle plutôt de 8 à 18 centimes : c'est une estimation de l'État, pas un prix constaté [6].",
+      "TotalEnergies s'est engagé à baisser ses prix de 8 à 12 centimes pour les particuliers et de 20 centimes pour le gazole non routier (GNR), utilisé par les chantiers et les engins agricoles [2].",
+      "Les 10 millions de barils représentent environ un cinquième du stock stratégique de gazole du pays [3].",
+      "Les entreprises éligibles peuvent aussi demander, du 2 au 30 novembre, une aide sur le gazole non routier pouvant atteindre 20 centimes par litre, dans la limite de 4 000 euros par entreprise et par mois [7][8]."
+    ],
+    "why": [
+      "À retenir : face à un carburant devenu cher, l'État puise dans ses réserves pour peser sur les prix, un levier rarement utilisé et qui ne dure pas. Il faut le lire comme un coup de pouce de quelques mois, pas comme une solution durable [1][3].",
+      "Le mécanisme est simple : en vendant 10 millions de barils aux distributeurs à leur prix d'avant-crise, l'État leur permet d'acheter une partie de leur gazole moins cher que sur le marché, et leur demande de répercuter l'économie à la pompe. Tout dépend donc de ce que les distributeurs font réellement de cet avantage : aucune source ne chiffre encore la baisse constatée dans les stations [1][2][4].",
+      "Le choix du G7 d'agir ensemble compte aussi : en libérant 100 millions de barils de produits pétroliers, les grandes économies veulent envoyer un signal aux marchés, sans pour autant remplacer ce que le conflit du Golfe a retiré de l'offre [1]. Un stock vendu n'est plus là en cas de nouvelle crise : c'est la contrepartie du geste.",
+      "Pour les chantiers et les exploitations, l'aide sur le gazole non routier (jusqu'à 20 centimes par litre, plafonnée à 4 000 euros par mois) vise à alléger une facture qui pèse directement sur leurs coûts [7][8]."
+    ],
+    "forMe": "Si tu roules au diesel, regarde les prix affichés dans les stations ces prochaines semaines : la baisse promise est de 12 à 18 centimes par litre, soit entre 6 et 9 euros d'économie sur un plein de 50 litres (calcul simple à partir de la fourchette du gouvernement). Si tu ne vois rien bouger, tu peux comparer plusieurs stations, la baisse n'étant pas répercutée partout au même rythme.",
+    "next": [
+      {
+        "when": "30 novembre",
+        "what": "Fin de la période pour demander l'aide sur le gazole non routier, jusqu'à 20 centimes par litre [7][8]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "10 millions",
+        "label": "de barils de gazole libérés des stocks stratégiques",
+        "src": 1
+      },
+      {
+        "value": "12 à 18 c",
+        "label": "de baisse visée par litre à la pompe, selon le gouvernement",
+        "src": 4
+      },
+      {
+        "value": "20 c/l",
+        "label": "de baisse promise par TotalEnergies sur le gazole non routier",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "routes-maritimes"
+    ],
+    "sources": [
+      {
+        "short": "Connaissance des énergies (AFP)",
+        "name": "Connaissance des énergies / AFP, « Le gouvernement assure que les prix du gazole baisseront dès le 1er novembre »",
+        "url": "https://www.connaissancedesenergies.org/afp/le-gouvernement-assure-que-les-prix-du-gazole-baisseront-des-le-1er-novembre-261012"
+      },
+      {
+        "short": "TotalEnergies (AFP)",
+        "name": "Connaissance des énergies / AFP, « Déstockage de gazole : TotalEnergies s'engage à baisser les prix de 8 à 12 centimes pour les particuliers, de 20 centimes pour le GNR »",
+        "url": "https://www.connaissancedesenergies.org/afp/destockage-de-gazole-totalenergies-sengage-a-baisser-les-prix-de-8-a-12-centimes-pour-les-particuliers-de-20-centimes-pour-le-gnr-261012"
+      },
+      {
+        "short": "Libération de gazole (AFP)",
+        "name": "Connaissance des énergies / AFP, « Libération de gazole : ce qu'il faut savoir »",
+        "url": "https://www.connaissancedesenergies.org/afp/liberation-de-gazole-ce-quil-faut-savoir-261008"
+      },
+      {
+        "short": "Selectra",
+        "name": "Selectra, « Gazole : stocks stratégiques, baisse de 12 à 18 centimes »",
+        "url": "https://selectra.info/energie/actualites/marche/gazole-stocks-strategiques-baisse-12-18-centimes"
+      },
+      {
+        "short": "Motor1",
+        "name": "Motor1 France, « Diesel : le gouvernement promet jusqu'à 18 centimes de baisse à la pompe »",
+        "url": "https://fr.motor1.com/news/811140/diesel-gouvernement-promet-18-centimes-baisse-pompe/"
+      },
+      {
+        "short": "L'Automobiliste",
+        "name": "L'Automobiliste, « Le gazole baissera de 8 à 18 centimes dès le 1er novembre 2026 » (13 oct. 2026)",
+        "url": "https://lautomobiliste.fr/13/10/2026/gazole-la-baisse-des-prix-promise-des-le-1er-novembre-2026/"
+      },
+      {
+        "short": "TPE Actu",
+        "name": "TPE Actu, « Ce qui change en novembre 2026 : gaz, carburant, crédit, arrêts de travail… » (29 oct. 2026)",
+        "url": "https://tpeactu.fr/2026/10/29/ce-qui-change-novembre-2026/"
+      },
+      {
+        "short": "info.gouv.fr",
+        "name": "info.gouv.fr, « Ce qui change en novembre 2026 »",
+        "url": "https://www.info.gouv.fr/actualite/ce-qui-change-en-novembre-2026"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-03-allemagne-gen-z-manifestations-heurts",
+    "date": "2026-11-03",
+    "region": "Europe",
+    "theme": "mix",
+    "geo": [
+      {
+        "name": "Berlin, Allemagne",
+        "label": "Allemagne",
+        "coords": [
+          13.4,
+          52.52
+        ]
+      },
+      {
+        "name": "Francfort, Allemagne",
+        "label": "Francfort",
+        "coords": [
+          8.68,
+          50.11
+        ]
+      }
+    ],
+    "title": "Allemagne : les manifestations « Gen Z » contre la vie chère dégénèrent à Berlin et Francfort, avec des dizaines d'arrestations",
+    "summary": "Samedi 31 octobre, plus de 140 000 jeunes s'étaient inscrits pour manifester dans 23 villes allemandes contre la vie chère. Les cortèges ont été suivis de heurts : 56 arrestations à Berlin, plus de 30 à Francfort, et des policiers blessés ; les syndicats de police attribuent la violence à des groupes autonomes [2][3][4].",
+    "points": [
+      "L'initiative « Gen Z regelt » (« la génération Z s'en occupe ») avait appelé à des rassemblements simultanés samedi 31 octobre ; plus de 140 000 élèves et jeunes s'étaient inscrits en ligne pour 23 villes, et les organisateurs promettaient des cortèges pacifiques [4].",
+      "À Berlin, la police a annoncé 56 arrestations provisoires et 27 policiers légèrement blessés ; le défilé a été interrompu plus tôt que prévu après des jets de pierres et de pyrotechnie [3].",
+      "À Francfort, plus de 30 personnes ont été interpellées dans la soirée et deux armes saisies ; à Cologne, cinq personnes ont été placées en garde à vue et une blessée [3].",
+      "Selon la chaîne ZDF, le ministre de l'Intérieur de Hesse, Roman Poseck, a évoqué « bien plus de 100 policiers blessés » ; Euronews Allemagne et ZDF décrivent des violences et des pillages dans la nuit [1][2].",
+      "Andreas Roßkopf, responsable de la police fédérale au syndicat GdP, a jugé que les protestations de la génération Z s'étaient révélées « très pacifiques » et que la violence venait de groupes autonomes [2][3].",
+      "Avant la journée, la police de Bavière avait annoncé une présence « massive » pour éviter les émeutes, et des syndicats de police avaient mis en garde contre l'influence de l'extrême gauche ; le mouvement s'inspire des cortèges de jeunes en France [5][6][8]."
+    ],
+    "why": [
+      "À retenir : le mouvement de jeunes contre la vie chère, né en France, a traversé le Rhin et prend en Allemagne une forme plus violente que ce qu'annonçaient ses organisateurs [1][2][6].",
+      "La vie chère est le fil rouge : la presse relie ces cortèges aux manifestations contre la vie chère, alors que la France se prépare à d'autres cortèges [7]. Ce qui change, c'est la méthode : une initiative lancée en ligne, sans parti ni syndicat, peut réunir des dizaines de milliers de jeunes en quelques jours, mais les organisateurs n'en contrôlent pas le service d'ordre. Quand quelques groupes cherchent l'affrontement, tout le mouvement est jugé sur eux, alors que la police fédérale elle-même reconnaît que la majorité du cortège était pacifique [2][3].",
+      "Pour le gouvernement allemand, le risque est politique avant d'être économique : le débat se déplace du pouvoir d'achat vers l'ordre public, et chaque camp en tire des arguments opposés. Les ministres de l'Intérieur des Länder (Bavière, Hesse) ont réagi sur la sécurité, pas sur les revendications [1][2][5]."
+    ],
+    "forMe": "Si tu voyages en Allemagne ou en France ces prochains jours, vérifie les cortèges prévus dans les grandes villes : des rues peuvent être fermées et les transports perturbés. Ce mouvement te concerne aussi si tu es étudiant : c'est ta génération qui est dans la rue, pour des prix qui ont monté plus vite que les salaires.",
+    "figures": [
+      {
+        "value": "140 000",
+        "label": "jeunes inscrits pour manifester dans 23 villes allemandes",
+        "src": 4
+      },
+      {
+        "value": "56",
+        "label": "arrestations provisoires à Berlin, selon la police",
+        "src": 3
+      },
+      {
+        "value": "+30",
+        "label": "interpellations à Francfort dans la soirée",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Euronews (DE)",
+        "name": "Euronews Allemagne, « Gen-Z-Proteste eskalieren : Gewalt und Plünderungen in der Nacht » (1er nov. 2026)",
+        "url": "https://de.euronews.com/2026/11/01/gen-z-proteste-eskalieren-gewalt-und-plunderungen-in-der-nacht"
+      },
+      {
+        "short": "ZDFheute",
+        "name": "ZDFheute, « « Gen Z regelt »-Demos von Krawallen und Plünderungen überschattet »",
+        "url": "https://www.zdfheute.de/politik/deutschland/gen-z-proteste-pluenderungen-gewalt-100.html"
+      },
+      {
+        "short": "Ad-hoc-news",
+        "name": "ad-hoc-news.de, « Gen-Z-Proteste : Mehr als 30 Festnahmen nach Ausschreitungen »",
+        "url": "https://www.ad-hoc-news.de/politik/gen-z-proteste-mehr-als-30-festnahmen-nach-ausschreitungen/70440344"
+      },
+      {
+        "short": "Türkiye Today",
+        "name": "Türkiye Today, « Gen Z protests draw over 140,000 young Germans in 23 cities »",
+        "url": "https://www.turkiyetoday.com/region/gen-z-protests-draw-over-140000-young-germans-in-23-cities-3231146"
+      },
+      {
+        "short": "Euronews (DE, 25 oct.)",
+        "name": "Euronews Allemagne, « Proteste in Deutschland : Polizei vor dem 31. Oktober » (25 oct. 2026)",
+        "url": "https://de.euronews.com/2026/10/25/proteste-deutschland-polizei-31-oktober"
+      },
+      {
+        "short": "Evangelisch.de",
+        "name": "evangelisch.de, « Nach Protesten in Frankreich : Gen Z will regeln »",
+        "url": "https://www.evangelisch.de/node/260258"
+      },
+      {
+        "short": "NewsBytes",
+        "name": "NewsBytes, « Cost of living protests hit Germany as France readies police »",
+        "url": "https://www.newsbytesapp.com/news/world/cost-of-living-protests-hit-germany-as-france-readies-police/tldr"
+      },
+      {
+        "short": "Stuttgarter Zeitung",
+        "name": "Stuttgarter Zeitung, « Gen-Z-Proteste : Polizei warnt vor linksextremer Einflussnahme in Deutschland »",
+        "url": "https://www.stuttgarter-zeitung.de/politik/gen-z-proteste-polizei-warnt-vor-linksextremer-einflussnahme-in-deutschland-79595132.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-03-bulgarie-yotova-elue-presidente",
+    "date": "2026-11-03",
+    "region": "Europe",
+    "theme": "geo",
+    "geo": [
+      {
+        "name": "Sofia, Bulgarie",
+        "label": "Bulgarie",
+        "coords": [
+          23.32,
+          42.7
+        ]
+      }
+    ],
+    "title": "Bulgarie : Iliana Yotova, jugée proche de Moscou, élue présidente avec 57,6 % des voix, au second tour d'un scrutin à faible participation",
+    "summary": "Dimanche 1er novembre, Iliana Yotova a remporté le second tour de la présidentielle bulgare avec 57,6 % des voix, 343 601 voix devant son rival Andrey Gyurov (environ 39,5 %). Elle devient la première femme élue à la tête de l'État, dans un pays marqué par la guerre en mer Noire et la vie chère [1][2][5].",
+    "points": [
+      "Selon les résultats finaux de la commission électorale, le binôme Iliana Yotova et Kiril Valchev a recueilli 57,566 % des voix, soit 343 601 voix de plus que celui d'Andrey Gyurov et de Georgi Kandev [1].",
+      "Andrey Gyurov, ancien Premier ministre de transition, a obtenu environ 39,5 % ; il a reconnu sa défaite dès la clôture des bureaux du second tour [1][2][8].",
+      "Iliana Yotova devient la première femme élue présidente de la Bulgarie ; elle assurait l'intérim de la fonction depuis janvier, après la démission de Rumen Radev, parti se présenter aux élections législatives [5][6].",
+      "Au premier tour, le 25 octobre, elle n'avait obtenu qu'environ 35 % des voix contre 32 % à Gyurov, avec une participation d'environ 20 %, un plancher historique [7][8].",
+      "Au second tour, la participation est restée faible, selon Reuters, et environ 2,95 % des votants ont choisi l'option « je ne soutiens personne » [1][2].",
+      "La campagne portait sur les attaques de drones contre la navigation en mer Noire et sur les difficultés économiques ; les deux finalistes avaient des positions différentes sur l'Ukraine [7]. Le Kyiv Independent décrit Iliana Yotova comme « favorable à la Russie », tandis que le South China Morning Post qualifie son rival de candidat pro-occidental [3][8]."
+    ],
+    "why": [
+      "À retenir : la Bulgarie, membre de l'Union européenne et de l'OTAN, vient d'élire une présidente que la presse ukrainienne présente comme proche de Moscou, au moment où la mer Noire est devenue une zone de danger pour les navires [3][7].",
+      "Le résultat est large (près de 18 points d'avance), mais la participation basse relativise le mandat : au premier tour, à peine un électeur sur cinq s'est déplacé, et le second tour a lui aussi été marqué par une faible affluence [1][2][8]. Ces scores traduisent surtout une lassitude d'un électorat fatigué par la vie chère et les crises politiques répétées.",
+      "Pour l'Union européenne, l'enjeu est de savoir si Sofia reste alignée sur les sanctions contre la Russie et sur le soutien à l'Ukraine. L'élection présidentielle ne décide pas seule de la politique du gouvernement, mais la présidente parle au nom du pays à l'étranger, et son ton compte pour Bruxelles comme pour Kiev [3][7].",
+      "Le contexte économique, lui, pèse sur le vote : l'AP cite explicitement les difficultés économiques et les attaques de drones sur la navigation en mer Noire parmi les thèmes de la campagne [7]."
+    ],
+    "forMe": "La Bulgarie est un pays de l'Union européenne : si tu y voyages ou si tu y as des collègues, des affaires ou de la famille, ce vote montre un pays divisé sur son rapport à la Russie. Pour ta vie de tous les jours, aucun effet immédiat, mais les positions de Sofia comptent lors des votes européens sur les sanctions.",
+    "figures": [
+      {
+        "value": "57,6 %",
+        "label": "des voix pour Iliana Yotova au second tour",
+        "src": 1
+      },
+      {
+        "value": "343 601",
+        "label": "voix d'avance sur Andrey Gyurov",
+        "src": 1
+      },
+      {
+        "value": "1re",
+        "label": "femme élue à la présidence de la Bulgarie",
+        "src": 5
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "sanctions"
+    ],
+    "sources": [
+      {
+        "short": "Novinite",
+        "name": "Novinite (Sofia News Agency), « Final Results Confirm Yotova's 57.5% Victory Over Gyurov »",
+        "url": "https://www.novinite.com/articles/241393/Final+Results+Confirm+Yotova's+57.5+Victory+Over+Gyurov"
+      },
+      {
+        "short": "Reuters (US News)",
+        "name": "Reuters via U.S. News, « Bulgaria's Iotova Wins Presidential Runoff, Near-Final Results Show » (2 nov. 2026)",
+        "url": "https://www.usnews.com/news/world/articles/2026-11-02/bulgarias-iotova-wins-presidential-runoff-near-final-results-show"
+      },
+      {
+        "short": "Kyiv Independent",
+        "name": "Kyiv Independent, « Russia-friendly Yotova wins Bulgaria's presidential runoff »",
+        "url": "https://kyivindependent.com/russia-friendly-yotova-wins-bulgarias-presidential-runoff/"
+      },
+      {
+        "short": "Bloomberg",
+        "name": "Bloomberg, « Bulgarian President Yotova Secures Second Term in Runoff Vote, Exit Poll Finds » (1er nov. 2026)",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-01/incumbent-yotova-wins-bulgarian-president-vote-exit-poll-shows"
+      },
+      {
+        "short": "AP (News Times)",
+        "name": "AP via News Times, « Iliana Yotova wins runoff to become Bulgaria's first elected female president »",
+        "url": "https://www.newstimes.com/news/world/article/iliana-yotova-wins-runoff-to-become-bulgaria-s-22505831.php"
+      },
+      {
+        "short": "OBCT",
+        "name": "Osservatorio Balcani Caucaso Transeuropa, « Bulgarian presidential election: Yotova wins, Radev celebrates »",
+        "url": "https://www.balcanicaucaso.org/en/cp_article/bulgarian-presidential-election-yotova-wins-radev-celebrates/"
+      },
+      {
+        "short": "AP (1er tour)",
+        "name": "AP, « Polls open for Bulgarians in presidential election centered on drone attacks on Black Sea shipping and economic hardship » (25 oct. 2026)",
+        "url": "https://www.wpri.com/news/us-and-world/ap-polls-open-for-bulgarians-in-presidential-election-centered-on-drone-attacks-on-black-sea-shipping-and-economic-hardship/amp/"
+      },
+      {
+        "short": "SCMP",
+        "name": "South China Morning Post, « Bulgaria presidential vote heads to run-off between incumbent and pro-West rival »",
+        "url": "https://www.scmp.com/news/world/europe/article/3372095/presidential-race-bulgaria-heads-run-after-record-low-turnout"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-03-australie-rba-taux-4-85",
+    "date": "2026-11-03",
+    "region": "Asie",
+    "theme": "eco",
+    "zones": [
+      "Océanie"
+    ],
+    "geo": [
+      {
+        "name": "Sydney, Australie",
+        "label": "Australie",
+        "coords": [
+          151.21,
+          -33.87
+        ]
+      }
+    ],
+    "title": "L'Australie relève son taux à 4,85 %, le plus haut depuis 18 ans, mais le conseil de la banque centrale se divise (6 voix contre 3)",
+    "summary": "Mardi 3 novembre, la Banque centrale d'Australie (RBA) a relevé son taux directeur de 0,25 point, à 4,85 %, son plus haut niveau depuis fin 2008. C'est la cinquième hausse de 2026, décidée par 6 voix contre 3, car l'inflation a atteint 4,3 % en septembre [1][2][3].",
+    "points": [
+      "Le conseil de politique monétaire de la RBA a relevé le taux cible de 25 points de base, à 4,85 %, « à la majorité » : six membres pour, trois contre [1][3].",
+      "C'est le niveau le plus élevé depuis fin 2008, la cinquième hausse de l'année, après un taux de 4,60 % en septembre [2][4][8].",
+      "La banque justifie sa décision par l'inflation, qui a atteint 4,3 % sur un an en septembre, bien au-dessus de sa fourchette cible de 2 à 3 % [1][2].",
+      "La RBA s'attend désormais à ce que l'inflation reste au-dessus de 3 % pendant l'année qui vient, jusqu'à la fin de 2027 selon ses prévisions [1][3].",
+      "Ses prévisions supposent que le taux monte encore d'environ 35 points de base d'ici mi-2027, en phase avec ce que les marchés anticipaient, mais le communiqué s'arrête avant d'annoncer de nouvelles hausses [5][6].",
+      "Pour un emprunteur, une hausse de 0,25 point ajoute environ 92 dollars australiens par mois sur un prêt immobilier de 600 000 dollars sur 25 ans, si la banque répercute la hausse en totalité [5]. Les quatre grandes banques du pays avaient prévu cette hausse [7]."
+    ],
+    "why": [
+      "À retenir : l'Australie resserre son crédit alors que l'inflation ne cède pas, et le vote 6-3 montre que le conseil hésite sur la suite. La RBA poursuit ainsi, en novembre, la hausse commencée en septembre [1][2][8].",
+      "Le mécanisme est classique : en renchérissant le crédit, la banque centrale veut freiner la dépense des ménages et des entreprises pour ramener l'inflation vers 2-3 %. Le coût est immédiat pour les emprunteurs, alors que l'effet sur les prix met du temps à venir [5].",
+      "Le message aux marchés est nuancé : les prévisions de la banque supposent une montée du taux d'environ 35 points de base d'ici mi-2027, conforme aux attentes, mais le communiqué insiste sur la dépendance aux données et ne promet pas de nouvelle hausse [5][6]. Le fait que trois membres sur neuf n'aient pas suivi la majorité laisse penser que la fin du cycle est discutée [1][3].",
+      "Pour les lecteurs hors d'Australie, ce vote est un rappel : une banque centrale relève ses taux quand l'inflation reste trop forte, même si cela coûte aux emprunteurs, et même quand son propre conseil est partagé."
+    ],
+    "forMe": "Si tu vis en Australie ou si tu y as de la famille, ta mensualité de prêt immobilier peut grimper d'une centaine de dollars australiens. En France, cette décision ne change rien directement à ton crédit, mais elle montre que la lutte contre l'inflation n'est pas finie dans les pays riches.",
+    "figures": [
+      {
+        "value": "4,85 %",
+        "label": "taux directeur de la RBA, le plus haut depuis fin 2008",
+        "src": 1
+      },
+      {
+        "value": "6 contre 3",
+        "label": "vote du conseil de la banque centrale",
+        "src": 3
+      },
+      {
+        "value": "4,3 %",
+        "label": "inflation sur un an en Australie en septembre",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux"
+    ],
+    "sources": [
+      {
+        "short": "RBA",
+        "name": "Reserve Bank of Australia, « Statement by the Monetary Policy Board: Monetary Policy Decision » (3 nov. 2026)",
+        "url": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html"
+      },
+      {
+        "short": "ABC News",
+        "name": "ABC News (Australie), « RBA lifts interest rates to highest level in 18 years to try to dampen inflation » (3 nov. 2026)",
+        "url": "https://www.abc.net.au/news/2026-11-03/rba-lifts-interest-rates-november-2026-highest-rate-in-18-years/107340050"
+      },
+      {
+        "short": "InvestingLive",
+        "name": "InvestingLive, « RBA lifts cash rate to 4.85% in split 6-3 vote, sees inflation above 3% until late 2027 »",
+        "url": "https://investinglive.com/central-banks/more-rba-lifts-cash-rate-to-4-85-in-split-6-3-vote-sees-inflation-above-3-until-late-2027/"
+      },
+      {
+        "short": "Newcastle Herald",
+        "name": "Newcastle Herald, « RBA rate hike: Cash rate lifted to 18-year high of 4.85 per cent »",
+        "url": "https://newcastleherald.com.au/story/9385057/rba-rate-hike-cash-rate-lifted-to-18-year-high-of-485-per-cent"
+      },
+      {
+        "short": "Domain",
+        "name": "Domain, « LIVE: RBA hikes interest rates to 4.85 per cent, an 18-year-high » (3 nov. 2026)",
+        "url": "https://www.domain.com.au/news/rba-interest-rates-live-updates-november-2026-decision-1577726/"
+      },
+      {
+        "short": "Sharecafe",
+        "name": "Sharecafe, « RBA Statement: Cash rate rises to 4.85% » (3 nov. 2026)",
+        "url": "https://www.sharecafe.com.au/2026/11/03/rba-statement-cash-rate-rises-to-4-85/"
+      },
+      {
+        "short": "Property Investment Professionals",
+        "name": "Property Investment Professionals, « RBA November 2026 Rate Decision: A Hike to 4.85% Is Now the Base Case »",
+        "url": "https://propertyinvestmentprofessionals.com.au/blog/rba-november-2026-rate-decision-preview-property-investors"
+      },
+      {
+        "short": "CommercialRealEstate",
+        "name": "commercialrealestate.com.au, « LIVE: RBA lifts interest rates to 4.6 per cent in 'devastating' September 2026 announcement »",
+        "url": "https://www.commercialrealestate.com.au/news/rba-interest-rates-live-updates-september-2026-decision-1560782/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-03-nasdaq-100-correction-puces-ia",
+    "date": "2026-11-03",
+    "region": "Amériques",
+    "theme": "fin",
+    "zones": [
+      "Europe",
+      "Asie"
+    ],
+    "geo": [
+      {
+        "name": "New York, États-Unis",
+        "label": "Wall Street",
+        "coords": [
+          -74.01,
+          40.71
+        ]
+      }
+    ],
+    "title": "Wall Street : le Nasdaq 100 entre en « correction » à cause des puces et de l'IA, alors que le pétrole s'effondre",
+    "summary": "Lundi 2 novembre, le Nasdaq 100 a cédé 1,4 % pour finir à 27 989,82 points, plus de 10 % sous son sommet du 6 octobre : c'est ce que les marchés appellent une correction, la troisième de l'année. Les puces ont tiré la baisse, pendant que le Dow Jones profitait du recul du pétrole [1][2][3].",
+    "points": [
+      "Le Nasdaq 100, l'indice des cent plus grosses entreprises non financières cotées au Nasdaq, a perdu 1,4 % lundi 2 novembre pour clôturer à 27 989,82 points [1][2].",
+      "Il se retrouve à plus de 10 % de son plus haut du 6 octobre, seuil à partir duquel on parle de « correction » ; c'est la troisième de l'année [1][2].",
+      "L'indice des semi-conducteurs de Philadelphie a reculé de 3,4 % lundi, après une chute de 7,2 % vendredi ; il a clôturé vendredi sous sa moyenne mobile à 200 jours pour la première fois depuis juin 2025 [2][3].",
+      "Selon Bloomberg, les résultats de géants de la tech ont amplifié les craintes sur les dépenses d'intelligence artificielle : les investisseurs se demandent si ces investissements rapporteront assez [1][4].",
+      "Oracle, AMD et Marvell ont figuré parmi les plus fortes baisses de la séance [5].",
+      "À l'inverse, le Dow Jones a progressé et le S&P 500 a baissé, alors que le prix du pétrole plongeait sur l'espoir de pourparlers entre Washington et Téhéran [6]."
+    ],
+    "why": [
+      "À retenir : le moteur de Wall Street depuis des mois, l'IA, est en train de changer de statut, de promesse à facture. Quand les investisseurs doutent que ces dépenses rapporteront assez, les actions de puces, les plus chères, sont les premières vendues [1][4].",
+      "Une « correction » n'est pas un krach : c'est une baisse de plus de 10 % par rapport au dernier sommet, sans que le marché soit forcément à l'arrêt. Elle indique que les acheteurs réclament un meilleur prix avant de reprendre des positions, et peut durer quelques semaines comme quelques mois [1][2].",
+      "Les puces sont à la fois la cause et le thermomètre : un indice qui perd 7,2 % un vendredi puis 3,4 % le lundi suivant montre que les vendeurs sont pressés, et le passage sous la moyenne à 200 jours, un repère suivi par beaucoup de gérants, peut déclencher des ventes automatiques [2][3].",
+      "Le lien avec la géopolitique est direct : quand le pétrole chute de 7 % sur l'espoir d'une détente avec l'Iran, les valeurs d'énergie reculent et les secteurs qui consomment du carburant respirent. C'est ce qui a soutenu le Dow Jones pendant que la tech baissait [6]."
+    ],
+    "forMe": "Si ton épargne est placée dans un fonds actions mondial ou un ETF qui suit les grandes valeurs américaines, une partie de ton portefeuille dépend de ces géants de la tech. Une correction fait baisser temporairement la valeur affichée, sans qu'on puisse dire si elle se prolongera : on ne conseille ni d'acheter ni de vendre.",
+    "next": [],
+    "figures": [
+      {
+        "value": "−1,4 %",
+        "label": "baisse du Nasdaq 100 lundi 2 novembre, à 27 989,82 points",
+        "src": 1
+      },
+      {
+        "value": "−3,4 %",
+        "label": "chute de l'indice des puces de Philadelphie lundi, après −7,2 % vendredi",
+        "src": 2
+      },
+      {
+        "value": "+10 %",
+        "label": "d'écart avec le sommet du 6 octobre : le seuil d'une correction",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs"
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : qu'est-ce qu'une « correction » en Bourse ?",
+        "text": "Quand un indice recule de plus de 10 % par rapport à son plus haut récent, on parle de correction. Les prix d'une action reflètent ce que les investisseurs attendent des bénéfices futurs : si ces attentes baissent, ou si le prix a trop monté, les vendeurs deviennent plus nombreux que les acheteurs et le cours recule. Un seuil technique comme la moyenne mobile à 200 jours (le cours moyen des 200 dernières séances) sert de repère : passer dessous pousse certains fonds à vendre automatiquement, ce qui amplifie la baisse [1][2][3]."
+      }
+    },
+    "past": {
+      "title": "Quand les puces et l'IA ont déjà fait trembler les marchés en 2026",
+      "items": [
+        {
+          "when": "Juillet 2026",
+          "what": "La Bourse sud-coréenne, dominée par les fabricants de puces, a chuté de près de 11 % en une séance sous l'effet de ventes massives de valeurs de semi-conducteurs [7].",
+          "lesson": "Les puces réagissent plus fort que le reste du marché : un doute sur l'IA se lit d'abord dans leurs cours [7]."
+        },
+        {
+          "when": "13 octobre 2026",
+          "what": "L'indice Kospi a perdu plus de 7 % sur des ventes de semi-conducteurs liées aux craintes sur le boom de l'IA [8].",
+          "lesson": "Le même scénario s'est répété à quelques mois d'intervalle, avant la correction du Nasdaq 100 du 2 novembre [1][8]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "Les valeurs de puces et de logiciels ont mené la baisse de lundi 2 novembre [2][5].",
+      "items": [
+        {
+          "name": "Nasdaq 100",
+          "ticker": "NDX",
+          "move": "−1,4 %",
+          "why": "Clôture à 27 989,82 points, plus de 10 % sous le sommet du 6 octobre [1][2]."
+        },
+        {
+          "name": "Indice des semi-conducteurs de Philadelphie",
+          "ticker": "SOX",
+          "move": "−3,4 %",
+          "why": "Après −7,2 % vendredi, sous sa moyenne à 200 jours [2][3]."
+        },
+        {
+          "name": "Oracle, AMD, Marvell",
+          "ticker": "ORCL / AMD / MRVL",
+          "why": "Cités parmi les valeurs les plus touchées de la séance de lundi [5]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Bloomberg",
+        "name": "Bloomberg, « Big Tech Selloff Pushes Nasdaq 100 Into Correction on AI Spending Worries » (2 nov. 2026)",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-02/nasdaq-100-enters-correction-as-megacap-results-amplify-ai-fears"
+      },
+      {
+        "short": "FinancialJuice",
+        "name": "FinancialJuice, « Nasdaq 100 Enters Correction as Chipmaker Selloff Offsets Oil Slump » (2 nov. 2026)",
+        "url": "https://features.financialjuice.com/2026/11/02/nasdaq-100-enters-correction-as-chipmaker-selloff-offsets-oil-slump-us-market-wrap/"
+      },
+      {
+        "short": "KuCoin News",
+        "name": "KuCoin News, « U.S. stocks fall as tech and chip sectors slump, Nasdaq enters correction »",
+        "url": "https://www.kucoin.com/news/flash/u-s-stocks-drop-as-tech-and-chip-sectors-plunge-nasdaq-enters-correction"
+      },
+      {
+        "short": "Econbrowser",
+        "name": "Econbrowser, « Nasdaq Correction » (nov. 2026)",
+        "url": "https://econbrowser.com/archives/2026/11/nasdaq-correction"
+      },
+      {
+        "short": "BBN Times",
+        "name": "BBN Times, « Nasdaq Today : Composite Falls as Oracle, AMD and Marvell Lead Fresh Tech Rout »",
+        "url": "https://www.bbntimes.com/technology/nasdaq-today-composite-falls-to-25-164-36-as-oracle-amd-and-marvell-lead-fresh-tech-rout"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « Stock market today : S&P 500 and Nasdaq extend tech sell-off, Dow gains as oil prices plunge » (2 nov. 2026)",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html"
+      },
+      {
+        "short": "Ahram (AP)",
+        "name": "Ahram Online / AP, « Asian shares slip, South Korea's Kospi index sinks nearly 11% on heavy selling of chipmakers » (juil. 2026)",
+        "url": "https://english.ahram.org.eg/News/573584.aspx"
+      },
+      {
+        "short": "AP (Kospi)",
+        "name": "AP via ClickOnDetroit, « South Korea's Kospi index sinks more than 7% on sell-off of semiconductor shares over AI boom worries » (13 oct. 2026)",
+        "url": "https://clickondetroit.com/news/2026/10/13/south-koreas-kospi-index-sinks-more-than-7-on-sell-off-of-semiconductor-shares-over-ai-boom-worries"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-03-apple-resultats-memoire-marge",
+    "date": "2026-11-03",
+    "region": "Amériques",
+    "theme": "fin",
+    "zones": [
+      "Asie",
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Cupertino, États-Unis",
+        "label": "Apple",
+        "coords": [
+          -122.03,
+          37.32
+        ]
+      }
+    ],
+    "title": "Apple bat les attentes avec 114,5 milliards de dollars de ventes, mais le coût des puces mémoire fait fondre sa marge et son action recule",
+    "summary": "Lundi 2 novembre, Apple a annoncé 114,5 milliards de dollars de chiffre d'affaires pour le trimestre de juillet à septembre, au-dessus des attentes. Mais son directeur financier prévient que la hausse du prix des puces mémoire va continuer à peser, et l'action a reculé en Bourse après la clôture [1][2][3].",
+    "points": [
+      "Apple a publié lundi 2 novembre, après la clôture de Wall Street, un chiffre d'affaires de 114,5 milliards de dollars pour son trimestre clos fin septembre, supérieur aux attentes des analystes [1][3] ; les ventes d'iPhone atteignent 57,58 milliards de dollars [1][2].",
+      "Les analystes attendaient environ 113,3 milliards de dollars de chiffre d'affaires et 1,99 dollar de bénéfice par action ; un an plus tôt, le trimestre équivalent avait rapporté 102,5 milliards de dollars [6].",
+      "Le directeur financier, Kevan Parekh, a expliqué que plus de 100 % de l'évolution de la marge brute d'un trimestre sur l'autre s'expliquait par le coût des puces mémoire [2][3].",
+      "Apple prévoit une marge brute de 47 à 48 % pour le trimestre de décembre, contre 50,1 % pour le trimestre de juin, et s'attend à des coûts de mémoire encore plus élevés ; ils continueront à monter après décembre [2][3].",
+      "L'entreprise vise un chiffre d'affaires de 153,8 à 158,1 milliards de dollars pour le trimestre de fin d'année, en hausse de 7 à 10 % [3].",
+      "Les iPhone 18 Pro et Pro Max ont été lancés à 1 199 et 1 299 dollars, soit 100 dollars de plus que les iPhone 17 Pro équivalents [3]. Après la clôture, l'action a reculé d'environ 2 % à 4 % selon les sources ; un site évoque une baisse plus forte, d'autres une quasi-stabilité [3][4][5]."
+    ],
+    "why": [
+      "À retenir : Apple vend plus, mais gagne moins sur chaque appareil, parce que les puces mémoire, composant indispensable de l'iPhone, coûtent plus cher. C'est ce qui explique que les marchés sanctionnent une entreprise qui pourtant bat les attentes de ventes [2][3].",
+      "Le mécanisme se comprend par la marge brute : c'est la part du prix de vente qui reste après le coût de fabrication. Si les composants renchérissent plus vite que les prix des produits, cette part baisse, et le bénéfice avec elle, même quand les ventes progressent. Apple a déjà relevé de 100 dollars le prix de ses iPhone 18 Pro, ce qui montre qu'elle répercute en partie la hausse sur ses clients [2][3].",
+      "Ce qui inquiète les investisseurs, c'est la durée : l'entreprise prévoit des coûts de mémoire encore plus élevés en décembre et au-delà, tandis que sa marge devrait être à 47-48 %, contre 50,1 % au trimestre précédent [2][3]. Pour un groupe valorisé sur sa capacité à dégager des profits réguliers, trois points de marge en moins pèsent lourd sur des dizaines de milliards de ventes.",
+      "La séance du 2 novembre était déjà difficile pour la tech : le Nasdaq 100 est entré en correction (voir notre actu sur le sujet), et c'est dans ce climat que les résultats d'Apple sont tombés."
+    ],
+    "forMe": "Si tu comptes changer de smartphone, attends-toi à des prix en hausse : Apple a déjà relevé ses iPhone 18 Pro de 100 dollars, et la mémoire coûte plus cher pour toute l'industrie. Si tu détiens des actions Apple via un fonds, une baisse après la clôture ne dit rien de l'avenir à long terme : on explique, on ne conseille ni d'acheter ni de vendre.",
+    "next": [],
+    "figures": [
+      {
+        "value": "114,5 Md$",
+        "label": "chiffre d'affaires d'Apple, juillet à septembre 2026",
+        "src": 1
+      },
+      {
+        "value": "47-48 %",
+        "label": "marge brute prévue pour le trimestre de décembre, contre 50,1 % en juin",
+        "src": 3
+      },
+      {
+        "value": "+100 $",
+        "label": "hausse du prix des iPhone 18 Pro par rapport aux iPhone 17 Pro",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs"
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi une entreprise qui bat les attentes voit son action baisser",
+        "text": "Le cours d'une action reflète ce que les investisseurs attendent des profits futurs, pas seulement les résultats passés. Quand une entreprise annonce des ventes meilleures que prévu mais prévient que ses coûts vont monter (ici, la mémoire), les acheteurs révisent à la baisse les bénéfices à venir : le cours peut reculer malgré de bons chiffres. La marge brute (le prix de vente moins le coût de fabrication) est suivie de près, car une marge qui baisse de trois points sur des dizaines de milliards de ventes retire des milliards de bénéfice [2][3]."
+      }
+    },
+    "past": {
+      "title": "Les résultats d'Apple, de l'an dernier à aujourd'hui",
+      "items": [
+        {
+          "when": "Trimestre de septembre 2024",
+          "what": "Apple avait réalisé un chiffre d'affaires de 94,9 milliards de dollars, en hausse de 6 %, dont 46,22 milliards de dollars pour l'iPhone [7].",
+          "lesson": "Deux ans plus tard, les ventes d'iPhone sont passées à 57,58 milliards de dollars sur le même trimestre, ce qui montre que la demande n'est pas le problème d'Apple aujourd'hui [1][7]."
+        },
+        {
+          "when": "Trimestre de juin 2026",
+          "what": "La marge brute d'Apple était de 50,1 % ; la prévision pour décembre la ramène à 47-48 % [2][3].",
+          "lesson": "La marge est le point faible : avec des ventes en hausse, c'est elle qui explique la baisse de l'action après la clôture [2][3]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "L'action Apple a baissé après la clôture de Wall Street, mais les sources ne donnent pas le même chiffre [3][4][5].",
+      "items": [
+        {
+          "name": "Apple",
+          "ticker": "AAPL",
+          "move": "−2 % à −4 %",
+          "why": "Recul en séance électronique après la publication, entre −2,2 % et −4 % selon les sources ; la marge brute prévue (47-48 %) et la hausse du coût des mémoires inquiètent [3][4]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Fortune",
+        "name": "Fortune, « Apple outpaces sales expectations as it continues to battle surging memory chip costs » (2 nov. 2026)",
+        "url": "https://fortune.com/2026/11/02/apple-outpaces-sales-expectations-as-it-continues-to-battle-surging-memory-chip-costs/"
+      },
+      {
+        "short": "Seoul Economic Daily",
+        "name": "Seoul Economic Daily, « Apple Warns Memory Cost Pressure Will Persist Past Year-End » (3 nov. 2026)",
+        "url": "https://en.sedaily.com/international/2026/11/03/apple-warns-memory-cost-pressure-will-persist-past-year-end"
+      },
+      {
+        "short": "TheStreet",
+        "name": "TheStreet, « Apple Tops Estimates but Shares Fall After Hours on Poor Margin Guidance »",
+        "url": "https://pro.thestreet.com/trade-ideas/apple-tops-estimates-but-shares-fall-after-hours-on-poor-margin-guidance"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Earnings call transcript : Apple tops Q4 2026 estimates but shares fall after hours »",
+        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-apple-tops-q4-2026-estimates-but-shares-fall-after-hours-93CH-4993172"
+      },
+      {
+        "short": "TradingView (Invezz)",
+        "name": "TradingView / Invezz, « Apple posts earnings beat with better than expected iPhone and Mac sales »",
+        "url": "https://www.tradingview.com/news/invezz:9518e5e1c094b:0-apple-posts-earnings-beat-with-better-than-expected-iphone-and-mac-sales/"
+      },
+      {
+        "short": "iThinkDiff",
+        "name": "iThinkDiff, « What to Expect from Apple's Q4 2026 Earnings on November 2 »",
+        "url": "https://www.ithinkdiff.com/apple-q4-2026-earnings-what-to-expect/"
+      },
+      {
+        "short": "Apple (2024)",
+        "name": "Apple Newsroom, « Apple reports fourth quarter results » (31 oct. 2024)",
+        "url": "https://www.apple.com/newsroom/2024/10/apple-reports-fourth-quarter-results/"
+      }
+    ]
+  },
+  {
     "id": "2026-11-02-opep-plus-quotas-decembre-inchanges",
     "date": "2026-11-02",
     "region": "Moyen-Orient",
@@ -10423,500 +11197,6 @@ window.GEOCO.news = [
         "short": "Lovguiden (Conseil)",
         "name": "Lovguiden, Conseil de l'UE : sommet du 16 octobre 2026 (énergie, budget)",
         "url": "https://www.lovguiden.dk/en/det-offentlige/raadet-for-den-europaeiske-union/2026-10-16-eu-topmoede-energipriser-ets2-naeste-eu-budget-og-montenegro"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-19-chine-croissance-exports-t3",
-    "date": "2026-10-19",
-    "region": "Asie",
-    "theme": "eco",
-    "geo": [
-      {
-        "name": "Pékin, Chine",
-        "label": "Chine",
-        "coords": [
-          116.4,
-          39.9
-        ]
-      }
-    ],
-    "title": "La Chine accélère grâce à ses exportations, mais ses habitants dépensent toujours peu",
-    "summary": "L'économie chinoise a progressé de 4,5 % entre juillet et septembre, mieux que prévu. Ce sont les ventes à l'étranger qui portent la croissance, pas la consommation des ménages.",
-    "points": [
-      "La Chine annonce 4,5 % de croissance sur un an pour le troisième trimestre, au-dessus des prévisions. Au deuxième trimestre, elle était à 4,3 %, la progression la plus lente en plus de trois ans [1][2].",
-      "Ce sont les exportations qui ont tiré le trimestre. Selon l'analyse de l'agence AP, la Chine est en passe de dépasser son excédent commercial record de 1 200 milliards de dollars de l'an dernier [1].",
-      "La demande intérieure reste faible, pesée par une crise de l'immobilier qui dure depuis des années. Un économiste cité par AP juge même ce chiffre de croissance « de moins en moins fiable » pour mesurer la santé de l'économie [1]."
-    ],
-    "why": [
-      "Le chiffre est bon, mais il cache un déséquilibre : la Chine produit beaucoup et vend le surplus au reste du monde, alors que ses propres habitants consomment peu [1].",
-      "Pékin s'est fixé une croissance de 4,5 % à 5 % pour 2026, et le FMI vient de ramener sa propre prévision à 4,5 %, tout juste le bas de la cible [1]. Plus la Chine exporte, plus ses partenaires, Europe en tête, s'inquiètent de voir leurs usines concurrencées."
-    ],
-    "forMe": "Quand la Chine vend plus qu'elle n'achète, ses produits arrivent en masse en Europe, à des prix bas : c'est bon pour ton porte-monnaie, mais cela met la pression sur les usines européennes et nourrit les débats sur les droits de douane.",
-    "figures": [
-      {
-        "value": "4,5 %",
-        "label": "croissance de la Chine au 3e trimestre, sur un an",
-        "src": 1
-      },
-      {
-        "value": "4,3 %",
-        "label": "croissance du trimestre précédent, la plus faible en plus de trois ans",
-        "src": 1
-      },
-      {
-        "value": "1 200",
-        "label": "milliards de dollars : excédent commercial record de l’an dernier, bientôt dépassé selon AP",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "droits-de-douane"
-    ],
-    "sources": [
-      {
-        "short": "AP / US News",
-        "name": "AP via US News, « China's Economy Accelerates on Robust Exports as Domestic Weakness Persists »",
-        "url": "https://www.usnews.com/news/business/articles/2026-10-18/chinas-economy-grew-4-5-in-the-previous-quarter-better-than-forecasts"
-      },
-      {
-        "short": "AP / 1News",
-        "name": "AP via 1News, « China's economy grew 4.5% in previous quarter, better than forecasts »",
-        "url": "https://www.1news.co.nz/2026/10/19/chinas-economy-grew-45-in-previous-quarter-better-than-forecasts/"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-19-guyana-croissance-petrole",
-    "date": "2026-10-19",
-    "region": "Amériques",
-    "theme": "eco",
-    "geo": [
-      {
-        "name": "Georgetown, Guyana",
-        "label": "Guyana",
-        "coords": [
-          -58.15,
-          6.8
-        ]
-      }
-    ],
-    "title": "Guyana : le petit pays qui grandit de près de 24 % par an grâce à son pétrole",
-    "summary": "La Banque mondiale relève sa prévision de croissance du Guyana à 23,7 % pour 2026, la plus rapide de la région, portée par le pétrole en mer.",
-    "points": [
-      "Dans sa mise à jour d'octobre sur l'Amérique latine et les Caraïbes, la Banque mondiale prévoit 23,7 % de croissance pour le Guyana en 2026. En avril, elle annonçait 16,3 % [1][2].",
-      "Le pays avait déjà vu son économie grandir de 33,8 % en 2023 puis de 43,8 % en 2024, et la Banque estime 19,3 % pour 2025 [1].",
-      "Le gouvernement est plus prudent : son budget 2026 table sur 16,2 % de croissance, avec un pétrole en hausse de 17,9 %, soit environ 840 000 barils par jour contre 715 000 en 2025 [3]."
-    ],
-    "why": [
-      "Le moteur, c'est le pétrole extrait au large des côtes : la Banque mondiale estime que le Guyana tire à lui seul la croissance de toute la sous-région [1].",
-      "L'écart entre 23,7 % (Banque mondiale) et 16,2 % (gouvernement) rappelle qu'une prévision n'est pas un résultat. Et un pays qui dépend autant d'une seule ressource reste exposé si le prix du baril ou la production baisse [1][3]."
-    ],
-    "forMe": "Quand le baril monte, comme en ce moment, certains petits pays producteurs s'enrichissent très vite. Mais ces revenus dépendent d'une seule ressource : si le prix ou la production baisse, la croissance retombe.",
-    "figures": [
-      {
-        "value": "23,7 %",
-        "label": "croissance prévue du Guyana en 2026 par la Banque mondiale (16,3 % en avril)",
-        "src": 1
-      },
-      {
-        "value": "43,8 %",
-        "label": "croissance de l'économie du Guyana en 2024",
-        "src": 1
-      },
-      {
-        "value": "840 000",
-        "label": "barils de pétrole par jour attendus en 2026 selon le budget (715 000 en 2025)",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Rio Times",
-        "name": "The Rio Times, « World Bank Lifts Guyana Growth to 23.7% »",
-        "url": "https://www.riotimesonline.com/guyana-world-bank-growth-forecast-23-7-percent-2026-2"
-      },
-      {
-        "short": "Guyana Chronicle",
-        "name": "Guyana Chronicle, « Guyana continues to lead regional growth » (6 oct. 2026)",
-        "url": "https://guyanachronicle.com/2026/10/06/guyana-continues-to-lead-regional-growth/"
-      },
-      {
-        "short": "OilNOW",
-        "name": "OilNOW, « Oil to remain dominant driver of Guyana's 16.2% growth in 2026 – Finance Minister »",
-        "url": "https://oilnow.gy/?p=91631"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-19-cacao-cote-divoire-ghana-prix",
-    "date": "2026-10-19",
-    "region": "Afrique",
-    "theme": "eco",
-    "geo": [
-      {
-        "name": "Abidjan, Côte d'Ivoire",
-        "label": "Côte d'Ivoire",
-        "coords": [
-          -4.02,
-          5.35
-        ]
-      },
-      {
-        "name": "Accra, Ghana",
-        "label": "Ghana",
-        "coords": [
-          -0.19,
-          5.6
-        ]
-      }
-    ],
-    "title": "Cacao : la Côte d'Ivoire baisse de 57 % le prix payé aux planteurs, le Ghana le relève",
-    "summary": "Après l'effondrement des cours, les deux premiers producteurs mondiaux de cacao font des choix opposés. Les planteurs ivoiriens toucheront beaucoup moins, les ghanéens un peu plus.",
-    "points": [
-      "La Côte d'Ivoire a confirmé le 2 septembre que les planteurs recevraient 1 200 francs CFA le kilo pour la saison 2026-2027, soit 57 % de moins que les 2 800 francs du début de la saison précédente [1][2].",
-      "Le Ghana fait l'inverse : il a légèrement relevé son prix, à 42 400 cédis la tonne, grâce à une nouvelle loi qui garantit aux producteurs au moins 70 % de la valeur à l'export de leurs fèves [1].",
-      "Les deux pays subissent le même choc : le cacao avait atteint un record de 12 906 dollars la tonne en décembre 2024, puis est tombé sous 3 000 dollars en février 2026. Tous deux vendent aussi une grande partie de leur récolte à l'avance [1]."
-    ],
-    "why": [
-      "L'explication habituelle est financière : la Côte d'Ivoire avait vendu une partie de sa récolte à l'avance à bas prix, alors que le Ghana avait déjà baissé son prix en février [1].",
-      "L'auteur de l'analyse y ajoute une autre raison : le rapport de force entre planteurs, État et acheteurs n'est pas le même dans les deux pays [1]. Pour des millions de familles, c'est la différence entre un revenu qui tient et un revenu qui s'effondre."
-    ],
-    "forMe": "Le cacao est la matière première du chocolat. Quand les prix mondiaux s'envolent puis retombent, ce sont les planteurs d'Afrique de l'Ouest qui encaissent le choc, bien avant que le prix de ta tablette ne change.",
-    "figures": [
-      {
-        "value": "− 57 %",
-        "label": "baisse du prix payé aux planteurs ivoiriens (1 200 francs CFA le kilo)",
-        "src": 1
-      },
-      {
-        "value": "12 906 $",
-        "label": "record du cacao en décembre 2024, la tonne",
-        "src": 1
-      },
-      {
-        "value": "70 %",
-        "label": "part minimale de la valeur export garantie aux producteurs ghanéens par la nouvelle loi",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "African Arguments",
-        "name": "African Arguments, « Same Cocoa Crash, Opposite Answers: what Ghana and Côte d'Ivoire Reveal about Power in Global Trade » (oct. 2026)",
-        "url": "https://africanarguments.org/2026/10/same-cocoa-crash-opposite-answers-what-ghana-and-cote-divoire-reveal-about-power-in-global-trade/"
-      },
-      {
-        "short": "Horonya Finance",
-        "name": "Horonya Finance, « Côte d'Ivoire : le prix du cacao maintenu à 1 200 FCFA le kilogramme pour la campagne 2026/2027 »",
-        "url": "https://www.horonyafinance.com/cote-divoire-le-prix-du-cacao-maintenu-a-1-200-fcfa-le-kilogramme-pour-la-campagne-2026-2027/"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-19-serbie-nis-raffinerie-sanctions",
-    "date": "2026-10-19",
-    "region": "Europe",
-    "theme": "mix",
-    "geo": [
-      {
-        "name": "Belgrade, Serbie",
-        "label": "Serbie",
-        "coords": [
-          20.46,
-          44.82
-        ]
-      }
-    ],
-    "title": "Serbie : la seule raffinerie du pays tourne sous dérogation américaine, jusqu'au 30 octobre",
-    "summary": "Le pétrolier serbe NIS, détenu par des Russes, est sous sanctions américaines. Washington lui permet de continuer à importer du brut jusqu'à la vente à un groupe hongrois.",
-    "points": [
-      "La Serbie a obtenu des États-Unis une nouvelle dérogation aux sanctions pour NIS : l'entreprise peut continuer à importer du pétrole brut jusqu'au 30 octobre, en attendant la vente de sa part russe majoritaire au hongrois MOL [1].",
-      "NIS exploite l'unique raffinerie de Serbie, qui couvre environ 80 % des besoins du pays [1].",
-      "Washington a sanctionné NIS en octobre 2025 pour frapper l'énergie russe, et exigé que Gazprom Neft et Gazprom cèdent leurs parts, soit 56 % au total. MOL a signé un accord provisoire en janvier et s'est engagé à garder la raffinerie de Pančevo ouverte [1][2]."
-    ],
-    "why": [
-      "Le pétrole arrive par l'oléoduc Janaf, qui passe par la Croatie : sans autorisation américaine, ce robinet peut se fermer. Et l'on ne sait pas encore si la dérogation sera prolongée ni si la vente est conclue [1].",
-      "C'est un exemple de la façon dont les sanctions visent une entreprise… et touchent tout un pays qui en dépend pour son carburant [1][2]."
-    ],
-    "forMe": "Les sanctions ne frappent pas que la Russie : elles se répercutent sur des pays tiers et sur leurs prix de carburant. C'est ce même type de chaîne qui relie des décisions prises à Washington au prix du plein dans toute l'Europe centrale.",
-    "figures": [
-      {
-        "value": "30/10",
-        "label": "date limite de la dérogation américaine accordée à NIS (30 octobre)",
-        "src": 1
-      },
-      {
-        "value": "≈ 80 %",
-        "label": "des besoins de la Serbie couverts par sa seule raffinerie",
-        "src": 1
-      },
-      {
-        "value": "56 %",
-        "label": "part de NIS détenue par les russes Gazprom Neft et Gazprom, à vendre à MOL",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "sanctions"
-    ],
-    "sources": [
-      {
-        "short": "SRN News",
-        "name": "SRN News, « Serbia secures US sanctions waiver for its Russian-owned NIS oil firm, energy minister says »",
-        "url": "https://srnnews.com/serbia-secures-us-sanctions-waiver-for-its-russian-owned-nis-oil-firm-energy-minister-says/"
-      },
-      {
-        "short": "Hungarian Conservative",
-        "name": "Hungarian Conservative, « Hungary's MOL Strikes Deal to Buy Russian Majority Stake in Serbia's Oil Firm NIS »",
-        "url": "https://www.hungarianconservative.com/articles/current/nis-mol-gazprom-oil-company-energy-us-sanctions/"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-19-malaisie-ue-libre-echange-palme",
-    "date": "2026-10-19",
-    "region": "Asie",
-    "theme": "geo",
-    "geo": [
-      {
-        "name": "Kuala Lumpur, Malaisie",
-        "label": "Malaisie",
-        "coords": [
-          101.69,
-          3.14
-        ]
-      }
-    ],
-    "title": "Malaisie–Europe : l'accord de libre-échange est fait à 80 %, mais l'huile de palme bloque encore",
-    "summary": "Kuala Lumpur vise une signature fin juin 2027 avec l'Union européenne. Les négociations durent depuis 2010, et l'accord ne s'appliquerait pas avant 2029.",
-    "points": [
-      "Le ministre malaisien du Commerce, Johari Abdul Ghani, a annoncé le 13 octobre que son pays veut signer l'accord avec l'Union européenne d'ici fin juin 2027. Près de 80 % des négociations sont terminées [1].",
-      "Les discussions ont commencé en 2010, bloquées en 2012 après sept séries de négociations à cause de désaccords sur l'huile de palme, puis repris en 2025 après une annonce du Premier ministre Anwar Ibrahim et d'Ursula von der Leyen [1].",
-      "Selon une analyse du MVO, l'accord ne s'appliquerait sans doute pas avant le second semestre 2029 : la relecture juridique, la traduction et la ratification prendront au moins 18 à 24 mois. Et l'accord UE-Indonésie donne déjà un accès préférentiel à l'huile de palme indonésienne [2]."
-    ],
-    "why": [
-      "L'huile de palme est le nœud du dossier : l'Europe pose des règles environnementales et la Malaisie estime qu'elles pénalisent son produit phare [1][2].",
-      "Chaque accord signé par un concurrent désavantage ceux qui n'en ont pas. La Malaisie se presse donc de conclure, sous peine de payer plus de droits de douane que l'Indonésie pendant la période de transition [2]."
-    ],
-    "forMe": "L'huile de palme est dans beaucoup de produits de tous les jours (biscuits, pâtes à tartiner, cosmétiques). Un accord pourrait faciliter ses échanges, mais il doit concilier commerce et protection des forêts, un sujet sur lequel les Européens sont très regardants.",
-    "figures": [
-      {
-        "value": "≈ 80 %",
-        "label": "des négociations Malaisie–UE déjà terminées",
-        "src": 1
-      },
-      {
-        "value": "06/2027",
-        "label": "objectif de signature fixé par le ministre malaisien (fin juin 2027)",
-        "src": 1
-      },
-      {
-        "value": "2010",
-        "label": "année du début des discussions, interrompues de 2012 à 2025",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "droits-de-douane"
-    ],
-    "sources": [
-      {
-        "short": "The Edge Malaysia",
-        "name": "The Edge Malaysia, édition du 13 octobre 2026 (déclarations de Johari Abdul Ghani)",
-        "url": "https://theedgemalaysia.com/node/821620"
-      },
-      {
-        "short": "MVO",
-        "name": "MVO, « EU–Malaysia: liberalising trade in palm oil »",
-        "url": "https://mvoketenorganisatie.h5mag.com/mvo_magazine_3_2026_en/eu-malaysia_liberalising_trade_in_palm_oil"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-19-iran-plan-sept-jours-ormuz",
-    "date": "2026-10-19",
-    "region": "Moyen-Orient",
-    "theme": "geo",
-    "geo": [
-      {
-        "name": "Téhéran, Iran",
-        "label": "Iran",
-        "coords": [
-          51.39,
-          35.69
-        ]
-      }
-    ],
-    "title": "Iran : le plan en sept jours pour rouvrir Ormuz reste sur la table, Washington en doute",
-    "summary": "Téhéran propose de rouvrir le détroit en échange de la fin du blocus naval américain et d'une levée des sanctions pétrolières. Le ministre iranien dit que l'offre tient toujours.",
-    "points": [
-      "L'Iran a présenté aux États-Unis, par des intermédiaires, un plan en sept jours : arrêt des combats, réouverture du détroit d'Ormuz et reprise des négociations sur le nucléaire [3].",
-      "Selon le ministre Abbas Araghchi, les premières étapes prendraient quatre à cinq jours, le détroit rouvrirait le sixième jour et les discussions sur un accord final commenceraient le septième. Téhéran demande en échange la levée du blocus naval américain, une dérogation sur ses ventes de pétrole et le dégel d'environ 12 milliards de dollars d'avoirs [2][3].",
-      "Le département d'État américain affirme que le détroit est déjà ouvert, et Mike Pompeo juge l'offre « probablement pas sérieuse ». Le Wall Street Journal a rapporté que Donald Trump l'aurait rejetée. Le 18 octobre, Abbas Araghchi a répété que la proposition restait sur la table [1][2][3]."
-    ],
-    "why": [
-      "Les deux camps ne décrivent même pas la situation de la même façon : pour Washington, Ormuz est ouvert, pour Téhéran, il faut négocier pour le rouvrir [3]. Tant que ce désaccord dure, les pétroliers hésitent et le baril reste cher.",
-      "Le plan lie trois sujets qui bloquent : le détroit, le nucléaire et les sanctions. Un accord sur l'un obligerait à avancer sur les deux autres [2][3]."
-    ],
-    "forMe": "Ormuz est un passage clé du pétrole du Golfe. Quand ce passage est incertain, le prix du carburant que tu paies en France peut monter quelques semaines plus tard.",
-    "figures": [
-      {
-        "value": "7",
-        "label": "jours : durée du plan iranien (détroit rouvert le 6e jour, négociations le 7e)",
-        "src": 2
-      },
-      {
-        "value": "≈ 12",
-        "label": "milliards de dollars d’avoirs iraniens gelés que l’Iran demande de libérer",
-        "src": 2
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "routes-maritimes",
-      "sanctions"
-    ],
-    "sources": [
-      {
-        "short": "Fox News",
-        "name": "Fox News, suivi en direct de la guerre États-Unis–Iran du 18 octobre 2026",
-        "url": "https://www.foxnews.com/live-news/us-iran-war-peace-talks-oil-strait-hormuz-trump-october-18"
-      },
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « Iran says it awaits US response on seven-day roadmap to end war » (25 sept. 2026)",
-        "url": "https://www.aljazeera.com/news/2026/9/25/iran-says-it-awaits-us-response-on-seven-day-roadmap-to-end-war"
-      },
-      {
-        "short": "ABC News (WJLA)",
-        "name": "ABC News, « Iran pitches seven day roadmap for ceasefire, renewed nuclear talks »",
-        "url": "https://wjla.com/news/nation-world/iran-pitches-seven-day-roadmap-for-ceasefire-renewed-nuclear-talks-strait-hormuz-tehran-nuclear-xi-jinping"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-19-ukraine-locomotives-ble-fer",
-    "date": "2026-10-19",
-    "region": "Europe",
-    "theme": "mix",
-    "geo": [
-      {
-        "name": "Kiev, Ukraine",
-        "label": "Ukraine",
-        "coords": [
-          30.52,
-          50.45
-        ]
-      }
-    ],
-    "title": "Ukraine : à court de locomotives, le pays peine à exporter son blé et son fer",
-    "summary": "Les frappes russes sur les trains ont presque vidé la réserve de locomotives. Kiev cherche des machines auprès de pays européens qui utilisent le même écartement de rails.",
-    "points": [
-      "Selon le Financial Times, citant le ministre de l'Agriculture Taras Vyssotski, l'Ukraine a presque épuisé sa réserve de locomotives à cause des frappes russes. Kiev discute avec des pays européens qui ont le même écartement de rails [1][2].",
-      "La Russie a intensifié ses attaques contre les trains qui transportent du blé et du minerai de fer, deux grandes exportations ukrainiennes. L'opérateur portuaire TIS a perdu trois locomotives près du port de Pivdennyi [1][2].",
-      "Depuis le début de l'invasion, 533 locomotives d'Ukrzaliznytsia et 75 d'entreprises privées ont été endommagées, selon des données du ministère citées par Radio Liberty. La Slovaquie en propose trois et la Lituanie trois autres [3][1]."
-    ],
-    "why": [
-      "Un champ de blé ne suffit pas : il faut des trains pour amener les grains jusqu'aux ports. Même si les ports de la mer Noire fonctionnent, le dernier maillon ferroviaire peut bloquer [1].",
-      "Les autorités estiment que les machines disponibles peuvent assurer le fonctionnement normal du réseau pour l'instant, mais la réserve de secours est presque épuisée [1][2]."
-    ],
-    "forMe": "L'Ukraine est un grand exportateur de céréales. Si ses trains manquent, ses livraisons de blé et de maïs peuvent ralentir, ce qui pèse sur les prix mondiaux de l'alimentation.",
-    "figures": [
-      {
-        "value": "533",
-        "label": "locomotives d'Ukrzaliznytsia endommagées depuis le début de l'invasion",
-        "src": 3
-      },
-      {
-        "value": "6",
-        "label": "locomotives proposées par la Slovaquie (3) et la Lituanie (3)",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Meduza",
-        "name": "Meduza, « Russian strikes leave Ukraine with almost no spare locomotives, further complicating grain exports » (5 oct. 2026)",
-        "url": "https://meduza.io/en/news/2026/10/05/russian-strikes-leave-ukraine-with-almost-no-spare-locomotives-further-complicating-grain-exports"
-      },
-      {
-        "short": "Kurs / FT",
-        "name": "Kurs, reprenant le Financial Times : « Ukraine has almost exhausted its locomotive reserve due to Russian strikes »",
-        "url": "https://kurs.com.ua/en/novost/1482607-ukrayina-maizhe-vicherpala-rezerv-lokomotiviv-cherez-rosiiski-udari-ft"
-      },
-      {
-        "short": "United24",
-        "name": "United24 Media, « Russian strikes damage 533 Ukrainian rail locomotives, forcing Kyiv to seek replacements »",
-        "url": "https://united24media.com/war-in-ukraine/russian-strikes-damage-533-ukrainian-rail-locomotives-forcing-kyiv-to-seek-replacements-23130"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-19-kenya-airways-sauvetage",
-    "date": "2026-10-19",
-    "region": "Afrique",
-    "theme": "eco",
-    "geo": [
-      {
-        "name": "Nairobi, Kenya",
-        "label": "Kenya",
-        "coords": [
-          36.82,
-          -1.29
-        ]
-      }
-    ],
-    "title": "Kenya sauve sa compagnie aérienne : 11 avions sur 34 sont cloués au sol",
-    "summary": "Le gouvernement kényan accorde 350 millions de dollars à Kenya Airways et transforme une partie de sa dette en capital. La compagnie cherche encore un investisseur stratégique.",
-    "points": [
-      "Le gouvernement kényan a approuvé un prêt d'actionnaire de 350 millions de dollars pour Kenya Airways, remboursable sur dix ans maximum et convertible en capital. L'argent doit servir à payer des dettes urgentes et à remettre des avions en service [1][2].",
-      "Il a aussi validé la conversion d'environ 122 milliards de shillings (près de 940 millions de dollars) de prêts publics en instrument assimilé à du capital. Cela n'apporte pas d'argent frais, mais allège la dette de la compagnie [1][2].",
-      "Onze des 34 avions de la compagnie sont cloués au sol, dont deux Boeing 787-8, avec une remise en service visée début 2027. Elle cherche au moins 1,5 milliard de dollars auprès d'un investisseur stratégique, attendu au premier trimestre 2027 [1][2]."
-    ],
-    "why": [
-      "Une compagnie nationale est un symbole, mais aussi un outil économique : elle relie le pays au monde pour le tourisme, les fleurs ou le café exportés. Sans avions, ces flux ralentissent [1].",
-      "Les mesures restent soumises à des approbations d'actionnaires et de régulateurs : le sauvetage n'est donc pas encore terminé [1]."
-    ],
-    "forMe": "Les compagnies publiques en difficulté sont un classique, de l'Afrique à l'Europe. Cela montre pourquoi les États hésitent entre les soutenir avec l'argent public et les laisser trouver un partenaire privé.",
-    "figures": [
-      {
-        "value": "350",
-        "label": "millions de dollars : prêt d’actionnaire approuvé pour Kenya Airways",
-        "src": 1
-      },
-      {
-        "value": "11/34",
-        "label": "avions de la compagnie actuellement cloués au sol",
-        "src": 1
-      },
-      {
-        "value": "1,5",
-        "label": "milliard de dollars de capital frais recherché auprès d’un investisseur stratégique",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Zawya",
-        "name": "Zawya, « Kenya approves $350mln in shareholder financing for Kenya Airways »",
-        "url": "https://zawya.com/en/economy/kenyas-approves-350mln-in-shareholder-financing-for-kenya-airways-1587023"
-      },
-      {
-        "short": "Business Daily",
-        "name": "Business Daily Africa, « State approves Sh45bn financing for struggling KQ »",
-        "url": "https://www.businessdailyafrica.com/bd/corporate/companies/state-approves-sh45bn-financing-for-struggling-kq-5626396"
       }
     ]
   },
