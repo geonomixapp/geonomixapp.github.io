@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-04",
+    "file": "lettres/2026-11-04.pdf",
+    "titles": [
+      "Midterms : les démocrates reprennent la Chambre et, selon NBC, le Sénat, et Wall Street encaisse",
+      "États-Unis : les offres d'emploi bondissent à 7,5 millions et font monter le pari d'une nouvelle hausse des taux de la Fed en décembre",
+      "Iran : frappe américaine sur l'île de Qeshm, mais le Qatar fait circuler un projet d'accord pour rouvrir Ormuz"
+    ],
+    "fileDark": "lettres/2026-11-04-sombre.pdf"
+  },
+  {
     "date": "2026-11-03",
     "file": "lettres/2026-11-03.pdf",
     "titles": [

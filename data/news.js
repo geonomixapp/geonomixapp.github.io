@@ -14295,5 +14295,247 @@ window.GEOCO.news = [
         "url": "https://www.lovguiden.dk/en/det-offentlige/raadet-for-den-europaeiske-union/2026-10-16-eu-topmoede-energipriser-ets2-naeste-eu-budget-og-montenegro"
       }
     ]
+  },
+  {
+    "id": "2026-10-07-rdc-cobalt",
+    "date": "2026-10-07",
+    "theme": "geo",
+    "region": "Afrique",
+    "title": "RDC : le pays du cobalt ferme le robinet pour faire monter les prix",
+    "summary": "La République démocratique du Congo, premier producteur mondial de cobalt, limite ses exportations. Le métal des batteries a flambé.",
+    "geo": [
+      {
+        "name": "Kolwezi (RDC)",
+        "label": "RD Congo",
+        "coords": [
+          25.47,
+          -10.71
+        ]
+      }
+    ],
+    "points": [
+      "Après avoir suspendu ses exportations en 2025, la RDC les plafonne à 87 000 tonnes par an en 2026 et 2027, soit 7 250 tonnes par mois [1].",
+      "Fin juin, l'autorité congolaise a même supprimé les quotas du deuxième trimestre non utilisés, retirant 15 000 à 20 000 tonnes du marché [3].",
+      "Le cobalt a commencé 2026 au-dessus de 56 000 dollars la tonne, un niveau plus vu depuis 2022 [2]."
+    ],
+    "why": [
+      "Le cobalt est indispensable aux batteries des téléphones et de nombreuses voitures électriques. La RDC en produit plus de la moitié du monde. En limitant l'offre, Kinshasa a réussi à faire remonter des prix qui s'étaient effondrés [1].",
+      "C'est le paradoxe de la RDC : un sous-sol parmi les plus riches de la planète (cobalt, cuivre, coltan), mais une population parmi les plus pauvres, et un est du pays déchiré par la guerre autour des mines."
+    ],
+    "forMe": "Ton smartphone contient probablement du cobalt congolais. Quand son prix monte, celui des batteries suit, et la course aux voitures électriques devient une course aux minerais.",
+    "figures": [
+      {
+        "value": "87 000 t",
+        "label": "de cobalt exportables par an en 2026-2027",
+        "src": 1
+      },
+      {
+        "value": "≈ 56 400 $",
+        "label": "la tonne de cobalt début 2026",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs"
+    ],
+    "sources": [
+      {
+        "short": "Benchmark",
+        "name": "Benchmark Mineral Intelligence, « DRC to lift cobalt export ban and impose quotas through 2027 »",
+        "url": "https://source.benchmarkminerals.com/article/drc-to-lift-cobalt-export-ban-and-impose-quotas-through-2027"
+      },
+      {
+        "short": "SunSirs",
+        "name": "SunSirs, « Cobalt prices surged in 2025, and here's the outlook for 2026 »",
+        "url": "https://www.sunsirs.com/m/page/commodity-news-detail/commodity-news-detail-29434.html"
+      },
+      {
+        "short": "Fastmarkets",
+        "name": "Fastmarkets, « DRC may reduce cobalt quota if market needs rebalancing, ARECOMS says »",
+        "url": "https://www.fastmarkets.com/insights/drc-may-reduce-cobalt-quota-if-market-needs-rebalancing-arecoms-says-exclusive/"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-07-indonesie-nickel",
+    "date": "2026-10-07",
+    "theme": "eco",
+    "region": "Asie",
+    "title": "Indonésie : le pays du nickel serre la vis",
+    "summary": "Premier producteur mondial de nickel, l'Indonésie réduit sa production et contrôle davantage ses exportations. Les prix remontent.",
+    "geo": [
+      {
+        "name": "Sulawesi (Indonésie)",
+        "label": "Indonésie",
+        "coords": [
+          121.9,
+          -2.8
+        ]
+      }
+    ],
+    "points": [
+      "L'Indonésie a réduit d'environ un tiers son quota de production de minerai de nickel pour 2026 [1].",
+      "À partir du 1er janvier 2027, certains produits du nickel ne pourront plus être exportés que par des entreprises d'État [2].",
+      "Le prix du nickel a dépassé 18 000 dollars la tonne, au plus haut depuis deux ans [3]."
+    ],
+    "why": [
+      "Depuis 2020, l'Indonésie interdit d'exporter son minerai brut : elle oblige les industriels à construire des usines de transformation sur place, souvent avec des capitaux chinois. Le pays est ainsi devenu un géant du nickel [3].",
+      "En limitant maintenant la production, Jakarta fait comme l'OPEP avec le pétrole : moins de volume pour des prix plus élevés."
+    ],
+    "forMe": "Le nickel entre dans l'acier inoxydable de ta cuisine et dans beaucoup de batteries de voitures électriques. Quand l'Indonésie bouge, ces prix bougent.",
+    "figures": [
+      {
+        "value": "≈ -1/3",
+        "label": "de quota de production de nickel en 2026",
+        "src": 1
+      },
+      {
+        "value": "> 18 000 $",
+        "label": "la tonne de nickel, au plus haut depuis deux ans",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Argus",
+        "name": "Argus Media, « Indonesia to cut nickel mining quota in 2026 »",
+        "url": "https://www.argusmedia.com/news-and-insights/latest-market-news/2787275-indonesia-to-cut-nickel-mining-quota-in-2026"
+      },
+      {
+        "short": "SMM",
+        "name": "SMM, « Indonesia government officially releases new export controls on FeNi and NPI » (juil. 2026)",
+        "url": "https://news.metal.com/newscontent/103996838-smm-tin-nhanh-niken-chính-phủ-indonesia-chính-thức-công-bố-các-biện-pháp-kiểm-soát-xuất-khẩu-mới-đối-với-feni-và-npi"
+      },
+      {
+        "short": "The Oregon Group",
+        "name": "The Oregon Group, « Can nickel prices hit $25,000 in 2026? »",
+        "url": "https://theoregongroup.com/commodities/nickel/can-nickel-prices-hit-25000-in-2026/"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-07-chine-terres-rares",
+    "date": "2026-10-07",
+    "theme": "geo",
+    "region": "Asie",
+    "title": "Terres rares : la Chine tient le monde entier, échéance le 10 novembre",
+    "summary": "Pékin a suspendu pour un an ses restrictions les plus dures sur les terres rares. La trêve expire dans un mois.",
+    "geo": [
+      {
+        "name": "Baotou (Chine)",
+        "label": "Chine",
+        "coords": [
+          109.84,
+          40.66
+        ]
+      }
+    ],
+    "points": [
+      "Annoncées en octobre 2025, les nouvelles restrictions chinoises à l'export de terres rares sont suspendues jusqu'au 10 novembre 2026 [1].",
+      "En juin 2026, la Chine a ajouté dix entreprises américaines à sa liste noire, dont le principal producteur de terres rares des États-Unis [2].",
+      "Les contrôles plus anciens sur le tungstène, le bismuth ou l'indium restent en vigueur [1]."
+    ],
+    "why": [
+      "Les terres rares sont 17 métaux indispensables aux aimants des moteurs électriques, des éoliennes, des smartphones et des missiles. La Chine domine l'essentiel du raffinage mondial, ce qui lui donne un énorme moyen de pression [3].",
+      "C'est la réponse de Pékin aux restrictions américaines sur les puces électroniques : chacun bloque ce dont l'autre a besoin. Le sommet Trump-Xi du 24 septembre n'a pas encore réglé la question [3]."
+    ],
+    "forMe": "Sans terres rares, pas de voitures électriques ni d'éoliennes en Europe. Les industriels européens surveillent la date du 10 novembre de très près.",
+    "figures": [
+      {
+        "value": "17",
+        "label": "métaux forment la famille des terres rares"
+      },
+      {
+        "value": "10 nov.",
+        "label": "fin de la suspension des restrictions chinoises",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs",
+      "droits-de-douane"
+    ],
+    "sources": [
+      {
+        "short": "Clark Hill",
+        "name": "Clark Hill, « China hits pause on rare-earth export controls and what it means for supply chains »",
+        "url": "https://www.clarkhill.com/news-events/news/china-hits-pause-on-rare-earth-export-controls-and-what-it-means-for-supply-chains/"
+      },
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « China adds 10 US firms, including rare-earth miner, to export control list » (22 juin 2026)",
+        "url": "https://www.aljazeera.com/news/2026/6/22/china-adds-10-us-firms-including-rare-earth-miner-to-export-control-list"
+      },
+      {
+        "short": "Rare Earth Exchanges",
+        "name": "Rare Earth Exchanges, « China rare earth export controls: November 2026 deadline explained »",
+        "url": "https://rareearthexchanges.com/news/china-rare-earth-controls-trump-xi-deadline/"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-07-guinee-simandou",
+    "date": "2026-10-07",
+    "theme": "eco",
+    "region": "Afrique",
+    "title": "Guinée : Simandou, la montagne de fer qui fait trembler l'Australie",
+    "summary": "Le plus grand gisement de fer inexploité du monde exporte enfin vers la Chine. Un tournant pour la Guinée et pour le marché de l'acier.",
+    "geo": [
+      {
+        "name": "Simandou (Guinée)",
+        "label": "Guinée",
+        "coords": [
+          -8.9,
+          8.6
+        ]
+      }
+    ],
+    "points": [
+      "La première cargaison de minerai de Simandou est partie début décembre 2025 [3].",
+      "En mai 2026, les exportations ont atteint environ 2,2 millions de tonnes sur le mois, un record [2].",
+      "Wood Mackenzie prévoit environ 16 millions de tonnes exportées en 2026, pour une capacité finale de 120 millions de tonnes par an [1]."
+    ],
+    "why": [
+      "Le projet, porté notamment par Rio Tinto et des groupes chinois, a nécessité plus de 600 km de voie ferrée et un nouveau port. Son minerai très riche intéresse la Chine, qui veut moins dépendre du fer australien [1].",
+      "Pour la Guinée, l'un des pays les plus pauvres du monde, c'est une chance historique, à condition que les revenus profitent vraiment à la population."
+    ],
+    "forMe": "Le fer sert à faire l'acier de nos voitures, immeubles et ponts. Une nouvelle source géante peut faire baisser son prix mondial et changer les rapports de force entre la Chine et l'Australie.",
+    "figures": [
+      {
+        "value": "120 Mt",
+        "label": "de capacité annuelle visée",
+        "src": 1
+      },
+      {
+        "value": "≈ 16 Mt",
+        "label": "d'exportations prévues en 2026",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "routes-maritimes"
+    ],
+    "sources": [
+      {
+        "short": "Wood Mackenzie",
+        "name": "Wood Mackenzie, « Simandou iron ore 2026 »",
+        "url": "https://www.woodmac.com/press-releases/simandou-iron-ore-2026/"
+      },
+      {
+        "short": "Miningmx",
+        "name": "Miningmx, « Simandou iron ore exports surge in ramp-up milestone »",
+        "url": "https://www.miningmx.com/news/ferrous-metals/65528-simandou-iron-ore-exports-surge-in-ramp-up-milestone/"
+      },
+      {
+        "short": "S&P Global",
+        "name": "S&P Global, première cargaison de Simandou arrivée en Chine (janv. 2026)",
+        "url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/011926-simandous-first-shipment-with-200000-mt-high-grade-iron-ore-arrives-in-china"
+      }
+    ]
   }
 ];
