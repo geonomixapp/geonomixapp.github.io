@@ -519,6 +519,170 @@ window.GEOCO.news = [
     ]
   },
   {
+    "id": "2026-11-03-belgique-de-wever-demission-budget",
+    "date": "2026-11-03",
+    "region": "Europe",
+    "theme": "geo",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Bruxelles, Belgique",
+        "label": "Belgique",
+        "coords": [
+          4.35,
+          50.85
+        ]
+      }
+    ],
+    "title": "Belgique : le Premier ministre Bart De Wever offre sa démission après l'échec des négociations budgétaires",
+    "summary": "Le lundi 2 novembre 2026, le Premier ministre belge Bart De Wever a remis sa démission au roi Philippe, après l'échec des discussions sur le budget au sein de sa coalition. Le roi n'a pas tranché : il consulte les chefs de partis et reverra De Wever vendredi [1][2][3].",
+    "points": [
+      "Les négociations budgétaires du gouvernement ont échoué dans la nuit du dimanche au lundi. Bart De Wever a alors offert sa démission au roi Philippe, selon le palais, qui précise qu'elle fait suite à l'échec des discussions au sein du gouvernement [1][2][3].",
+      "Le roi retient sa décision. Il consulte les chefs des groupes parlementaires à partir de mardi, puis recevra à nouveau le Premier ministre au palais vendredi. Il a appelé les partis à placer l'intérêt général et l'esprit de compromis au-dessus du reste [3][4].",
+      "Le gouvernement cherche 10 milliards d'euros d'économies d'ici 2029 pour réduire un déficit public qui dépasse 5 % du produit intérieur brut [3][4].",
+      "Le plan repose surtout sur des économies de dépenses, notamment dans la santé, et prévoit une hausse de la TVA. Le MR, le parti libéral francophone de la coalition, s'y oppose : il estime qu'un nouvel impôt alimenterait l'inflation [5].",
+      "Les marchés ont réagi : l'écart de taux entre la dette belge à dix ans et l'allemande a dépassé 1 point de pourcentage. La banque centrale de Belgique voit le déficit grimper à 5,7 % du PIB en 2028 [4].",
+      "Si le roi accepte la démission, de nouvelles élections pourraient être convoquées ; former un autre gouvernement avec les rapports de force issus du dernier scrutin reste aussi possible [3]."
+    ],
+    "why": [
+      "À retenir : un gouvernement tombe sur un chiffre, 10 milliards d'euros d'économies, et la Belgique risque de voir sa dette coûter plus cher à financer. Quand l'écart avec l'Allemagne dépasse 1 point, l'État belge emprunte plus cher que son voisin, et chaque point d'intérêt en plus pèse sur un déficit déjà supérieur à 5 % du PIB [4].",
+      "Le désaccord porte sur la manière de redresser les comptes. Une hausse de la TVA rapporte vite, mais elle renchérit les prix payés par tous ; les libéraux du MR la refusent justement pour cette raison [5]. Le palais a averti que le pays ne peut pas se permettre une longue crise politique [5].",
+      "Pour l'instant, rien n'est tranché : l'issue dépend des consultations du roi cette semaine et de sa nouvelle rencontre avec De Wever vendredi. Si les partis ne trouvent pas de compromis sur les 10 milliards d'économies, le pays risque de rester sans budget clair, et les marchés surveilleront chaque étape [3][4]."
+    ],
+    "forMe": "Si tu vis en Europe, ce qui se passe à Bruxelles te concerne de près : la ville abrite les institutions de l'Union européenne, et un pays membre dont la dette inquiète les marchés peut tirer vers le haut les taux de ses voisins. Surveille l'écart de taux avec l'Allemagne, c'est le thermomètre de cette crise.",
+    "next": [
+      {
+        "when": "vendredi 6 novembre",
+        "what": "Le roi Philippe reçoit à nouveau Bart De Wever au palais et doit dire s'il accepte la démission [3][4]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "10 Md€",
+        "label": "économies recherchées d'ici 2029",
+        "src": 3
+      },
+      {
+        "value": "> 5 %",
+        "label": "déficit public belge, en part du PIB",
+        "src": 3
+      },
+      {
+        "value": "+ 1 point",
+        "label": "écart de taux avec l'Allemagne à dix ans",
+        "src": 4
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "France 24",
+        "name": "France 24, « Belgian PM offers to quit over budget impasse » (2 nov. 2026)",
+        "url": "https://www.france24.com/en/live-news/20261102-belgian-pm-offers-to-quit-over-budget-impasse"
+      },
+      {
+        "short": "AP",
+        "name": "Associated Press, « Belgian prime minister quits after budget talks fail as king mulls whether to accept his resignation » (2 nov. 2026)",
+        "url": "https://abcnews.com/International/wireStory/belgian-prime-minister-quits-after-budget-talks-fail-137764313"
+      },
+      {
+        "short": "Brussels Times",
+        "name": "The Brussels Times, « Belgian King calls for political responsibility as he considers PM De Wever's resignation »",
+        "url": "https://www.brusselstimes.com/2387762/belgian-pm-de-wever-to-offer-resignation-to-king-after-failed-budget-talks-tbtb"
+      },
+      {
+        "short": "Briefs",
+        "name": "Briefs, « Belgium PM offers to quit as budget standoff lifts yields »",
+        "url": "https://www.briefs.co/news/bart-de-wever-tenders-resignation-as-belgium-s-budget-stando/"
+      },
+      {
+        "short": "Yahoo (AFP)",
+        "name": "Yahoo Actualités, « Belgian PM offers to quit over budget impasse »",
+        "url": "https://www.yahoo.com/news/politics/articles/belgian-pm-offers-quit-over-114045429.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-03-chine-bourse-rachats-actions-soutien",
+    "date": "2026-11-03",
+    "region": "Asie",
+    "theme": "eco",
+    "zones": [
+      "Asie"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "name": "Pékin, Chine",
+        "label": "Chine",
+        "coords": [
+          116.4,
+          39.9
+        ]
+      }
+    ],
+    "title": "Chine : après son pire mois en dix ans, la Bourse reçoit un soutien permanent de Pékin, mais les investisseurs restent froids",
+    "summary": "Pékin rend permanent son prêt aux entreprises pour racheter leurs propres actions, et en baisse le taux à 1 %. Le CSI 300 a perdu 8,5 % en octobre, son pire mois depuis plus de dix ans. Les gains de lundi se sont effacés mardi [1][2][3].",
+    "points": [
+      "La Banque populaire de Chine (PBOC), le régulateur bancaire (NFRA) et le régulateur boursier (CSRC) ont annoncé que le dispositif de prêts pour racheter des actions ou augmenter ses participations devient un outil de long terme, et non plus temporaire. Son taux passe de 1,25 % à 1 % [2].",
+      "Le montant signé de ces prêts atteint environ 440 milliards de yuans, dont plus de 280 milliards déjà versés. Le dispositif d'échange d'actifs pour les maisons de titres, fonds et assureurs s'élève à 105 milliards de yuans [2].",
+      "La PBOC annonce une nouvelle série d'opérations d'échange pour ces acteurs. La CSRC demande aux grandes valeurs de l'indice et aux champions technologiques de « racheter activement leurs actions », et les régulateurs étudient un assouplissement des exigences de marge [3].",
+      "Le CSI 300 a perdu 8,5 % en octobre, son pire mois en plus de dix ans ; il recule de 13 % depuis le début de l'année. L'indice STAR 50, qui regroupe des valeurs technologiques, a lâché environ 40 % depuis son sommet de fin juin [1][3].",
+      "Le Shanghai Composite a gagné 1,1 % lundi, sa plus forte hausse en une séance depuis le 27 août. Mais mardi matin, le CSI 300 et le Shanghai Composite perdaient chacun environ 1 % ; un gestionnaire de fonds juge ces mesures « inférieures aux attentes » [3]."
+    ],
+    "why": [
+      "À retenir : Pékin transforme une mesure d'urgence en outil permanent, ce qui montre que l'État compte sur la Bourse pour soutenir la confiance des ménages et des entreprises. Quand une entreprise rachète ses actions avec de l'argent emprunté à 1 %, elle réduit le nombre de titres en circulation, ce qui soutient le cours [2][1].",
+      "Le dispositif n'est pas nouveau. Le 24 septembre 2024, la PBOC avait lancé un programme de 300 milliards de yuans pour des rachats d'actions et un autre d'au moins 500 milliards pour des achats par des institutions non bancaires ; le CSI 300 avait alors connu sa plus forte hausse en une séance depuis 2008 [4].",
+      "Le problème, selon Breakingviews (Reuters), est que le soutien ne règle pas la cause : les bénéfices des entreprises doivent s'améliorer pour que la reprise tienne [1]."
+    ],
+    "forMe": "Si tu as un fonds ou un ETF qui contient des valeurs chinoises, ou si tu achètes des produits fabriqués en Chine, la santé de la Bourse chinoise compte : elle reflète la confiance dans la deuxième économie du monde. Pour comprendre, pas un conseil pour acheter ou vendre.",
+    "next": [],
+    "figures": [
+      {
+        "value": "− 8,5 %",
+        "label": "CSI 300 en octobre, pire mois en plus de dix ans",
+        "src": 3
+      },
+      {
+        "value": "1 %",
+        "label": "nouveau taux du prêt pour racheter des actions (1,25 % avant)",
+        "src": 2
+      },
+      {
+        "value": "440 Md¥",
+        "label": "montant signé des prêts de rachat et de hausse de participations",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Reuters Breakingviews",
+        "name": "Reuters Breakingviews, « China's stock rout prompts new contortions » (3 nov. 2026)",
+        "url": "https://www.breakingviews.com/columns/breaking-view/chinas-stock-rout-prompts-new-contortions-2026-11-03/"
+      },
+      {
+        "short": "PANews",
+        "name": "PANews, « PBOC and Two Other Authorities: Relending for Stock Buybacks and Increased Holdings Becomes Long-Term Institutional Arrangement, Rate Lowered to 1% » (2 nov. 2026)",
+        "url": "https://panews.io/articles/01a19c26-82c0-7535-b760-6bb7d57b9563"
+      },
+      {
+        "short": "Bloomingbit",
+        "name": "Bloomingbit, « China Stocks Suffer Worst Monthly Drop in a Decade as Authorities Unveil More Support Measures »",
+        "url": "https://en.bloomingbit.io/feed/news/123519"
+      },
+      {
+        "short": "The National",
+        "name": "The National, « Chinese stocks post biggest single-day rally since 2008 on stimulus boost » (30 sept. 2024)",
+        "url": "https://www.thenationalnews.com/business/markets/2024/09/30/chinese-stocks-post-biggest-single-day-rally-since-2008-on-stimulus-boost/"
+      }
+    ]
+  },
+  {
     "id": "2026-11-03-nasdaq-100-correction-puces-ia",
     "date": "2026-11-03",
     "region": "Amériques",
@@ -787,6 +951,146 @@ window.GEOCO.news = [
         "short": "Apple (2024)",
         "name": "Apple Newsroom, « Apple reports fourth quarter results » (31 oct. 2024)",
         "url": "https://www.apple.com/newsroom/2024/10/apple-reports-fourth-quarter-results/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-03-algerie-locales-candidats-invalides",
+    "date": "2026-11-03",
+    "level": 2,
+    "region": "Afrique",
+    "theme": "geo",
+    "zones": [
+      "Afrique"
+    ],
+    "geo": [
+      {
+        "name": "Alger, Algérie",
+        "label": "Algérie",
+        "coords": [
+          3.06,
+          36.75
+        ]
+      }
+    ],
+    "title": "Algérie : à trois semaines des élections locales, l'opposition dénonce l'écartement massif de ses candidats",
+    "summary": "Les élections communales et de wilayas du 28 novembre 2026 renouvelleront les assemblées locales pour cinq ans. Le RCD, le FFS, le PT et Jil El Jadid dénoncent un filtrage administratif de leurs candidatures [1][2].",
+    "points": [
+      "Le scrutin du 28 novembre doit renouveler pour cinq ans les assemblées communales et de wilayas. Le remplacement des candidatures non validées était possible jusqu'au 28 octobre ; les recours passent par les tribunaux administratifs [1][3].",
+      "Le FFS et le RCD visent l'article 184 de la loi électorale et parlent d'une purge ciblée, qui toucherait surtout les têtes de liste et les figures influentes [2][4].",
+      "L'autorité électorale ANIE recense 162 864 candidats, contre 134 140 en 2021, soit une hausse de 21,4 %. Elle n'a pas publié le nombre de candidats écartés, et des maires sortants figurent parmi eux [4].",
+      "Le boycott est risqué : la loi de 2026 sur les partis expose à une dissolution judiciaire les partis qui ne présentent pas de candidats à deux élections successives, ce qui complique la construction d'un front uni [1][3]."
+    ],
+    "why": [
+      "À retenir : l’opposition peut-elle encore peser sur le scrutin local si ses candidats sont écartés avant le vote ? Le dossier reste à suivre, car les chiffres des exclusions n’ont pas été publiés [4].",
+      "Le choix est étroit pour les partis : participer avec des listes amputées, ou boycotter au risque d'être dissous, selon les textes de 2026 [1][3]."
+    ],
+    "forMe": "Le Maghreb est un voisin direct de l'Europe et un fournisseur de gaz : la stabilité politique de l'Algérie compte pour les approvisionnements européens et pour les relations avec la France.",
+    "next": [
+      {
+        "when": "28 novembre",
+        "what": "Élections communales et de wilayas en Algérie [3]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "162 864",
+        "label": "candidats recensés par l'ANIE (134 140 en 2021)",
+        "src": 4
+      },
+      {
+        "value": "28 nov.",
+        "label": "date du scrutin local",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Jeune Afrique",
+        "name": "Jeune Afrique, « L'opposition algérienne démunie face aux invalidations de candidats aux élections locales de novembre »",
+        "url": "https://www.jeuneafrique.com/1854836/politique/lopposition-algerienne-demunie-face-aux-invalidations-de-candidats-aux-elections-locales-de-novembre/"
+      },
+      {
+        "short": "APA News",
+        "name": "APA News, « Algérie : l'opposition contre l'invalidation de candidatures »",
+        "url": "https://fr.apanews.net/security/algerie-lopposition-contre-linvalidation-de-candidatures/"
+      },
+      {
+        "short": "Wikipédia",
+        "name": "Wikipédia, « Élections locales algériennes de 2026 »",
+        "url": "https://fr.wikipedia.org/wiki/%C3%89lections_locales_alg%C3%A9riennes_de_2026"
+      },
+      {
+        "short": "Algérie360",
+        "name": "Algérie360, « Élections locales du 28 novembre : pourquoi l'ANIE a écarté des maires sortants »",
+        "url": "https://www.algerie360.com/elections-locales-2026-candidats-ecartes-article-184/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-03-chili-activite-septembre-cuivre",
+    "date": "2026-11-03",
+    "level": 2,
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique latine"
+    ],
+    "geo": [
+      {
+        "name": "Santiago, Chili",
+        "label": "Chili",
+        "coords": [
+          -70.65,
+          -33.45
+        ]
+      }
+    ],
+    "title": "Chili : l'économie progresse de 0,2 % en septembre, freinée par une chute de 12,1 % de la production minière",
+    "summary": "La Banque centrale du Chili a publié lundi 2 novembre son indicateur d'activité (Imacec) de septembre : +0,2 % sur un an, mieux qu'une stagnation attendue, mais l'extraction de cuivre a reculé de 12,1 % [1][2][3].",
+    "points": [
+      "L'Imacec, indicateur mensuel d'activité de la Banque centrale du Chili, a augmenté de 0,2 % en septembre 2026 par rapport à septembre 2025. Le mois comptait un jour ouvré de plus que l'an dernier [1][2].",
+      "Les secteurs de production de biens ont reculé de 2,0 %, tirés vers le bas par une baisse de 12,1 % du secteur minier. La banque centrale l'attribue à l'extraction de cuivre, touchée par des teneurs en minerai plus faibles et des arrêts d'exploitation temporaires [2].",
+      "Les activités hors mines ont progressé de 2,0 %, portées par le commerce, les services et l'industrie ; le commerce a gagné 4,5 % [2][3].",
+      "Le résultat dépasse la prévision d'une activité stable, après deux baisses mensuelles consécutives [3]. L'INE chilien chiffre la production de cuivre fin à 387 870 tonnes en septembre, soit 15,1 % de moins qu'un an plus tôt [3]."
+    ],
+    "why": [
+      "À retenir : le Chili reste très dépendant du cuivre. Quand les mines produisent moins, la croissance du pays le ressent aussitôt, même si le commerce et les services tiennent [2][3].",
+      "Le cuivre sert aux câbles, aux moteurs électriques et aux batteries : une production chilienne en recul de 15,1 % sur un an en septembre alimente les inquiétudes sur l'offre du métal [3]."
+    ],
+    "forMe": "Le cuivre entre dans les voitures électriques, les éoliennes et les réseaux électriques. Si les mines chiliennes produisent moins, l'offre du métal diminue, ce qui peut peser sur le prix des équipements qui en contiennent.",
+    "next": [],
+    "figures": [
+      {
+        "value": "+ 0,2 %",
+        "label": "Imacec de septembre 2026 sur un an",
+        "src": 2
+      },
+      {
+        "value": "− 12,1 %",
+        "label": "activité minière en septembre",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Banque centrale du Chili",
+        "name": "Banco Central de Chile, Imacec (central bank)",
+        "url": "https://www.bcentral.cl/en/web/banco-central/area/statistics/imacec"
+      },
+      {
+        "short": "El Ciudadano",
+        "name": "El Ciudadano, « Chilean Economy Stagnates: Imacec Grows Only 0.2% Year-On-Year in September Amidst 12.1% Mining Decline »",
+        "url": "https://www.elciudadano.com/en/chilean-economy-stagnates-imacec-grows-only-0-2-year-on-year-in-september-amidst-12-1-mining-decline/11/02/"
+      },
+      {
+        "short": "Finimize",
+        "name": "Finimize, « Chile's Economy Turned Positive Even As Copper Slipped »",
+        "url": "https://finimize.com/content/chiles-economy-kept-growing-even-as-copper-slumped"
       }
     ]
   },
