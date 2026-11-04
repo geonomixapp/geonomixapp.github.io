@@ -17,6 +17,2798 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.news = [
   {
+    "id": "2026-11-04-midterms-democrates-congres",
+    "date": "2026-11-04",
+    "region": "Amériques",
+    "theme": "geo",
+    "zones": [
+      "Amérique du Nord",
+      "Europe",
+      "Asie",
+      "Amérique latine"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "name": "Washington, États-Unis",
+        "label": "États-Unis",
+        "coords": [
+          -77.04,
+          38.91
+        ]
+      }
+    ],
+    "title": "Midterms : les démocrates reprennent la Chambre et, selon NBC, le Sénat, et Wall Street encaisse",
+    "summary": "Au soir du 3 novembre, NBC News projette que les démocrates gagnent la Chambre et le Sénat, ce qui priverait Donald Trump de son Congrès en janvier. Les contrats à terme sur le Nasdaq 100 ont reculé d'environ 2 %, le rendement à 10 ans a baissé et le dollar a cédé du terrain [1][5][6].",
+    "points": [
+      "NBC News projette que les démocrates remportent la Chambre des représentants et le Sénat ; il leur fallait gagner net trois sièges à la Chambre et quatre au Sénat, où les républicains en détenaient 53 sur 100 [1][4].",
+      "À la Chambre, les estimations vont d'environ 244 à 248 sièges démocrates, contre 218 nécessaires pour la majorité. Hakeem Jeffries a écrit « Victory for America! » et doit devenir président de la Chambre à l'ouverture de la session, le 3 janvier [2].",
+      "Au Sénat, les démocrates font basculer le Texas (James Talarico bat le procureur général Ken Paxton), la Caroline du Nord (Roy Cooper bat Michael Whatley), l'Ohio (Sherrod Brown bat Jon Husted), la Caroline du Sud (Annie Andrews) et l'Iowa (Josh Turek bat Ashley Hinson) [3][4]. Le Maine et l'Alaska ne sont pas encore tranchés [3].",
+      "Sur les marchés, les contrats à terme sur le S&P 500 ont perdu environ 1,1 à 1,3 % et ceux du Nasdaq 100 environ 2 %, les investisseurs craignant que les démocrates freinent la construction de centres de données pour l'IA [5][6].",
+      "Le rendement à 10 ans a baissé de près de 5 points de base, à 4,902 %, et l'indice du dollar a reculé de 0,32 % [5][7].",
+      "Avant le vote, Donald Trump avait déclaré à CBS News : « si on ne gagnait pas, je mettrais mon veto à tout ». Le soir même, il a dit au New York Times accepter les résultats et vouloir « travailler avec les démocrates » [8][9]."
+    ],
+    "why": [
+      "À retenir : pour la première fois du second mandat de Trump, le Congrès cesse d'être un simple relais. Une Chambre démocrate peut mener des enquêtes et refuser les textes que le président demande [2].",
+      "Sur les droits de douane, le changement est réel mais limité. Jeffries veut « restaurer l'autorité du Congrès » en la matière, mais Trump a promis son veto : sans majorité très large, un texte contre ses tarifs a peu de chances de devenir loi. L'effet probable : des votes symboliques, pas une annulation rapide [2][8].",
+      "Les marchés ont surtout réagi à l'IA, pas aux tarifs. Goldman Sachs juge qu'un Congrès démocrate pourrait réduire des avantages fiscaux pour ces centres, mais qu'un moratoire national reste peu probable [6]. La baisse des rendements, elle, traduit l'attente d'un Congrès bloqué, donc de moins de relance budgétaire [5].",
+      "Prudence : ce sont des projections, et deux courses du Sénat restent ouvertes. Depuis 1950, le S&P 500 était plus haut douze mois après chacune des 19 élections de mi-mandat (+15 % en moyenne, selon FXStreet), sans garantie [7]."
+    ],
+    "forMe": "Si tu es en Europe, les droits de douane américains ne tomberont pas du jour au lendemain : Trump garde son veto. Si ton épargne suit des fonds mondiaux ou des ETF américains, la tech et l'IA pèsent lourd dedans, et ce sont elles qui ont le plus vacillé. On ne dit pas s'il faut acheter ou vendre.",
+    "next": [
+      {
+        "when": "18 novembre",
+        "what": "Alaska : le décompte par vote préférentiel est prévu 15 jours après le scrutin, ce qui peut décider du Sénat si le Maine reste serré [3]."
+      },
+      {
+        "when": "3 janvier 2027",
+        "what": "Ouverture du nouveau Congrès : Hakeem Jeffries doit être élu président de la Chambre [2]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "−2 %",
+        "label": "contrats à terme Nasdaq 100 dans la nuit électorale",
+        "src": 6
+      },
+      {
+        "value": "4,902 %",
+        "label": "rendement des obligations américaines à 10 ans, en baisse de près de 5 points de base",
+        "src": 5
+      },
+      {
+        "value": "5",
+        "label": "sièges du Sénat basculés chez les démocrates selon NBC (dont Texas, Ohio, Caroline du Nord)",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "droits-de-douane"
+    ],
+    "markets": {
+      "text": "Les valeurs de la tech et de l'IA ont mené la baisse des contrats à terme [6].",
+      "items": [
+        {
+          "name": "Nasdaq 100 (contrats à terme)",
+          "ticker": "NDX",
+          "move": "−2 %",
+          "why": "Recul d'environ 2 à 2,2 % dans la nuit, les investisseurs craignant un ralentissement des centres de données [5][6]."
+        },
+        {
+          "name": "S&P 500 (contrats à terme)",
+          "ticker": "SPX",
+          "move": "−1,1 %",
+          "why": "Baisse de 1,1 à 1,3 % selon l'heure, pendant que les résultats tombaient [5][6]."
+        },
+        {
+          "name": "AMD, Super Micro",
+          "ticker": "AMD / SMCI",
+          "why": "Cités parmi les valeurs de puces et de serveurs à surveiller après le scrutin, à cause de leur lien avec les centres de données [6]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "NBC News",
+        "name": "NBC News, « Election 2026 live updates: Democrats win control of House and Senate, NBC News projects »",
+        "url": "https://www.nbcnews.com/politics/2026-election/live-blog/midterm-election-results-2026-news-trump-live-updates-rcna605763"
+      },
+      {
+        "short": "NBC News",
+        "name": "NBC News, « Democrats win control of the House of Representatives, with a vow to combat Trump »",
+        "url": "https://www.nbcnews.com/politics/2026-election/democrats-house-control-midterm-election-wins-trump-check-rcna603397"
+      },
+      {
+        "short": "NBC News",
+        "name": "NBC News, résultats du Sénat 2026",
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
+      },
+      {
+        "short": "CBS News",
+        "name": "CBS News, « Live election results for the 2026 midterms as Democrats win House and score major Texas and Ohio Senate victories »",
+        "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off » (3 nov. 2026)",
+        "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Stock futures fall on speculation Democrats to win big in midterms, slow data center buildout » (3 nov. 2026)",
+        "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
+      },
+      {
+        "short": "FXStreet",
+        "name": "FXStreet, « US Midterm Elections: Democrats score early wins, weighing on US Dollar » (4 nov. 2026)",
+        "url": "https://www.fxstreet.com/news/us-midterm-elections-democrats-score-early-wins-weighing-on-us-dollar-202611040244"
+      },
+      {
+        "short": "CBS News",
+        "name": "CBS News, « Trump says he is prepared to use \"tremendous powers\" if Democrats take control »",
+        "url": "https://www.cbsnews.com/news/trump-midterm-election-2026-interview/"
+      },
+      {
+        "short": "Clash Report",
+        "name": "Clash Report, « Trump says he will accept midterm results and work with Democrats » (citant le New York Times)",
+        "url": "https://clashreport.com/world/articles/trump-says-he-will-accept-midterm-results-and-work-with-democrats-nyt-says-9jfwj4oimjb"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-etats-unis-emploi-jolts-fed-hausse",
+    "date": "2026-11-04",
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique du Nord",
+      "Europe",
+      "Asie",
+      "Amérique latine"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "name": "Washington, États-Unis",
+        "label": "États-Unis",
+        "coords": [
+          -77.04,
+          38.91
+        ]
+      }
+    ],
+    "title": "États-Unis : les offres d'emploi bondissent à 7,5 millions et font monter le pari d'une nouvelle hausse des taux de la Fed en décembre",
+    "summary": "Le 3 novembre, les États-Unis ont publié 7,52 millions d'offres d'emploi pour septembre, bien au-dessus des prévisions. Le patron de la Fed, Kevin Warsh, a laissé les taux à 3,75-4,00 % le 28 octobre, avec deux voix pour une hausse. Les marchés voient une hausse en décembre [1][2][3].",
+    "points": [
+      "Les offres d'emploi (enquête JOLTS) ont atteint 7,52 millions en septembre, le niveau le plus haut depuis mai, soit 4,5 % des postes, et 420 000 de plus que prévu ; août a été révisé à la hausse de 111 000 [1][2].",
+      "Les démissions volontaires sont montées à 3,4 millions, un plus haut en 18 mois, et les licenciements ont baissé de 127 000 à 1,64 million, leur plus bas depuis mars 2025 [3][1].",
+      "Le 28 octobre, la Fed a gardé son taux directeur entre 3,75 % et 4,00 %, par 10 voix contre 2. Lisa Cook et Beth Hammack voulaient relever de 0,25 point [4][5].",
+      "Le communiqué dit que l'inflation « reste élevée » et que l'activité progresse « à un rythme soutenu ». Kevin Warsh, président de la Fed, a affirmé que la politique « n'a joué aucun rôle » dans la décision [4][5].",
+      "Cette pause suit une hausse de 0,25 point le 16 septembre, la première depuis juillet 2023 [5]. D'après l'outil CME FedWatch, la probabilité d'une hausse en décembre est de 82,6 % [4].",
+      "Après les offres d'emploi, le rendement à 10 ans est monté vers 4,96 %, avant de reculer à 4,90 % dans la nuit électorale [6][7]."
+    ],
+    "why": [
+      "À retenir : le marché du travail américain tient bien, et la Fed ne peut donc pas baisser la garde contre l'inflation. Quand les entreprises embauchent et que les salariés démissionnent pour gagner plus, les salaires et les prix ont tendance à monter [1][3].",
+      "C'est un virage : pendant des années, on attendait des baisses de taux. La Fed a au contraire remonté son taux en septembre, et deux membres du comité en voulaient déjà une autre fin octobre [4][5].",
+      "Pour le reste du monde, la hausse des taux américains pèse sur les monnaies et les dettes des pays émergents, et renforce le dollar. Les marchés regardent désormais l'emploi d'octobre, attendu autour de 40 000 à 62 000 créations de postes, avec un chômage proche de 4,2 % [3][6]."
+    ],
+    "forMe": "Si tu as un crédit à taux variable en dollars, ou si tu voyages aux États-Unis, un dollar fort et des taux élevés changent ton budget. En Europe, une Fed plus ferme tire aussi les taux du reste du monde vers le haut et peut peser sur les crédits. On ne dit pas s'il faut acheter ou vendre.",
+    "next": [
+      {
+        "when": "6 novembre",
+        "what": "Publication de l'emploi américain d'octobre : les prévisions vont de 40 000 à 62 000 emplois créés, chômage vers 4,2 % [6]."
+      },
+      {
+        "when": "8-9 décembre",
+        "what": "Prochaine réunion de la Fed, où une hausse de 0,25 point est envisagée [3][4]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "7,52 M",
+        "label": "offres d'emploi américaines en septembre, plus haut depuis mai",
+        "src": 1
+      },
+      {
+        "value": "3,75-4,00 %",
+        "label": "taux directeur de la Fed après le 28 octobre",
+        "src": 4
+      },
+      {
+        "value": "82,6 %",
+        "label": "probabilité d'une hausse en décembre selon CME FedWatch",
+        "src": 4
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "247 Wall St.",
+        "name": "247 Wall St., « September JOLTS Job Openings Hit 7.52M, Topping Forecasts by 420,000 »",
+        "url": "https://247wallst.com/cards/xpost-01m6gywdtkdn919dm0m5zp8eb0"
+      },
+      {
+        "short": "BLS",
+        "name": "Bureau of Labor Statistics, « Job Openings and Labor Turnover Summary, septembre 2026 »",
+        "url": "https://www.bls.gov/news.release/jolts.nr0.htm"
+      },
+      {
+        "short": "QUE.com",
+        "name": "QUE.com, « Job Openings Jump to 7.5 Million and Quits Hit an 18-Month High, Raising the Odds of a December Fed Rate Hike »",
+        "url": "https://que.com/job-openings-jump-to-7-5-million-and-quits-hit-an-18-month-high-raising-the-odds-of-a-december-fed-rate-hike/"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Fed interest rate decision October 2026: Fed holds rates steady » (28 oct. 2026)",
+        "url": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html"
+      },
+      {
+        "short": "CNN",
+        "name": "CNN, « Fed keeps interest rates unchanged, but two officials dissented in favor of a rate hike » (28 oct. 2026)",
+        "url": "https://www.cnn.com/2026/10/28/business/live-news/federal-reserve-interest-rate-october"
+      },
+      {
+        "short": "Babypips",
+        "name": "Babypips, « Financial & Forex Market Recap: Nov. 3, 2026 »",
+        "url": "https://babypips.com/news/daily-financial-forex-market-recap-2026-11-03"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off »",
+        "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-iran-qeshm-mediation-qatar",
+    "date": "2026-11-04",
+    "region": "Moyen-Orient",
+    "theme": "geo",
+    "impact": "monde",
+    "zones": [
+      "Europe",
+      "Asie",
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Île de Qeshm, Iran",
+        "label": "Iran",
+        "coords": [
+          55.9,
+          26.95
+        ]
+      },
+      {
+        "name": "Doha, Qatar",
+        "label": "Qatar",
+        "coords": [
+          51.53,
+          25.29
+        ]
+      }
+    ],
+    "title": "Iran : frappe américaine sur l'île de Qeshm, mais le Qatar fait circuler un projet d'accord pour rouvrir Ormuz",
+    "summary": "Le 2 novembre, veille des élections américaines, les États-Unis ont frappé l'île iranienne de Qeshm, dans le détroit d'Ormuz, qualifiant l'opération de défensive. En parallèle, des médiateurs qataris font circuler un projet d'accord, mais Téhéran et Washington restent loin l'un de l'autre [1][2][3].",
+    "points": [
+      "Des responsables américains ont décrit des frappes « défensives » et limitées sur l'île de Qeshm, après qu'un missile sol-air a été tiré depuis l'île contre un avion américain au-dessus d'Ormuz. Ils disent que ce n'est pas la reprise des grandes opérations [1][2].",
+      "Côté iranien, la télévision d'État a signalé plusieurs explosions. Les Gardiens de la Révolution affirment avoir abattu deux drones américains MQM-170 au sud de Qeshm et détruit un drone MQ-9 à l'est du détroit. Le chef du Parlement, Mohammad Bagher Ghalibaf, a averti d'un « nouveau champ de bataille » [2].",
+      "Les négociateurs iraniens ont quitté Doha dimanche 1er novembre sans accord. Un responsable a dit à Reuters que ce n'était pas dû à des difficultés dans les pourparlers, et qu'un projet de texte circulait [6].",
+      "Ce projet reprend le plan en sept étapes présenté par l'Iran en septembre : fin du blocus américain des ports iraniens, réouverture d'Ormuz au trafic commercial, dérogation pour les ventes de pétrole iranien, annulation des nouvelles sanctions, puis discussions ultérieures [6].",
+      "Des médiateurs qataris se sont rendus à Téhéran lundi soir. Un haut responsable iranien a dit à Reuters que les deux camps restaient loin d'un accord. Téhéran exige la levée des sanctions pétrolières, la fin du blocus naval et la libération de fonds gelés avant de rouvrir le détroit [3].",
+      "Le porte-parole de la diplomatie, Esmaïl Baghaï, dit avoir ramené de sept à deux jours le délai d'application du plan, mais « tout dépend » de l'acceptation de ses exigences par Washington.",
+      "Donald Trump affirme qu'un accord « pourrait arriver » et qu'il n'est « pas pressé » de décider de reprendre les frappes. Mardi 3 novembre, le Brent a perdu 1,17 $ pour clôturer à 103,60 $ [4][5]."
+    ],
+    "why": [
+      "À retenir : le détroit d'Ormuz reste fermé en pratique, et chaque incident militaire ou chaque signal diplomatique déplace le prix du pétrole en quelques heures. Le blocus touche environ 20 % de l'offre mondiale de pétrole [5].",
+      "Le point de blocage est une question d'ordre : l'Iran veut d'abord la levée du blocus, des sanctions et le dégel de ses fonds, puis seulement des discussions sur le nucléaire. Washington, lui, garde la pression militaire pendant que les médiateurs travaillent.",
+      "Les deux voies avancent en même temps. Des sources iraniennes citées par Reuters jugent une nouvelle attaque américaine plus probable qu'un accord, et l'inquiétude des marchés porte sur l'après-3 novembre, une fois le scrutin américain passé [3][5]. Donald Trump avait dit qu'il ne frapperait pas avant le vote, sans exclure de nouvelles actions ensuite [3].",
+      "Pour l'Europe et l'Asie, grosses importatrices d'énergie du Golfe, un accord ferait baisser les prix, un échec les ferait remonter [5]."
+    ],
+    "forMe": "Si tu fais le plein ou si tu chauffes au fioul, le prix dépend de ces négociations avec quelques semaines de décalage. Une baisse durable ne viendra qu'avec une réouverture réelle du détroit, pas avec de simples déclarations.",
+    "next": [
+      {
+        "when": "À partir du 4 novembre",
+        "what": "Une fois les élections américaines passées, Donald Trump n'exclut pas de nouvelles frappes, tandis que les médiateurs du Qatar poursuivent leurs allers-retours entre Doha, Téhéran et Washington [3]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "103,60 $",
+        "label": "Brent à la clôture du 3 novembre (−1,17 $)",
+        "src": 5
+      },
+      {
+        "value": "7 → 2 jours",
+        "label": "délai d'application du plan iranien, selon Téhéran",
+        "src": 4
+      },
+      {
+        "value": "≈ 20 %",
+        "label": "part de l'offre mondiale de pétrole touchée par le blocus",
+        "src": 5
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "sanctions"
+    ],
+    "sources": [
+      {
+        "short": "CNN",
+        "name": "CNN, « US military conducts strikes on Iran's Qeshm Island in defensive operation, officials say » (2 nov. 2026)",
+        "url": "https://www.cnn.com/2026/11/02/politics/us-strikes-iran-qeshm-island"
+      },
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Iran warns of 'new battlefield' after reported US strike on Qeshm » (3 nov. 2026)",
+        "url": "https://www.euronews.com/2026/11/03/iran-warns-of-new-battlefield-after-reported-us-strike-on-qeshm"
+      },
+      {
+        "short": "Reuters / Globe and Mail",
+        "name": "Reuters via The Globe and Mail, « Iran and U.S. still far from deal to end war, official says, as Qatar pushes mediation »",
+        "url": "https://www.theglobeandmail.com/world/article-iran-us-deal-to-end-war/"
+      },
+      {
+        "short": "France 24",
+        "name": "France 24, « Trump says deal with Tehran 'could happen' amid 'intensive' talks » (2 nov. 2026)",
+        "url": "https://www.france24.com/en/middle-east/20261102-iran-engages-us-in-intensive-negotiations-to-avert-fresh-war-outbreak"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Crude oil prices fall for second day as market hopes for diplomatic resolution to Iran war » (3 nov. 2026)",
+        "url": "https://cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+      },
+      {
+        "short": "Reuters / GMA",
+        "name": "Reuters via GMA News, « Iranians have left Doha talks, draft proposal for US deal being circulated, official says »",
+        "url": "https://www.gmanetwork.com/news/topstories/content/1008015/iranians-have-left-doha-talks-draft-proposal-for-us-deal-being-circulated-official-says/story/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-canada-carney-negociations-intenses",
+    "date": "2026-11-04",
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Ottawa, Canada",
+        "label": "Canada",
+        "coords": [
+          -75.7,
+          45.42
+        ]
+      },
+      {
+        "name": "Washington, États-Unis",
+        "label": "États-Unis",
+        "coords": [
+          -77.04,
+          38.91
+        ]
+      }
+    ],
+    "title": "Canada-États-Unis : après les midterms, Carney annonce des négociations « plus intenses » pour mettre fin à la guerre des droits de douane",
+    "summary": "Le 3 novembre, le Premier ministre canadien Mark Carney a affirmé que des négociations commerciales plus intenses avaient commencé avec Washington, après un appel avec Donald Trump. « Nous avons progressé, mais nous n'avons pas fini », a-t-il dit. Trump parle d'un accord « très proche » [1][2].",
+    "points": [
+      "Mark Carney a déclaré mardi 3 novembre que des discussions « plus intenses » avaient démarré, à la suite de son appel téléphonique de samedi avec Donald Trump [1][2].",
+      "Selon lui, les États-Unis « demandent moins et offrent plus », mais « nous n'y sommes pas tout à fait ». Il dit que certaines lignes rouges du Canada ne sont plus sur la table : la langue, la culture et la liberté de négocier avec d'autres marchés [1].",
+      "Trump a parlé du « concept » d'un accord et dit que les deux pays sont « très proches », sans donner de détails [2].",
+      "Les discussions portent surtout sur les droits de douane de la section 232 (sécurité nationale) sur l'acier, l'aluminium et les voitures : jusqu'à 50 % sur l'acier canadien et 25 % sur les automobiles [4].",
+      "La rupture date d'août : Carney avait interrompu les pourparlers à la dernière minute, et les États-Unis avaient imposé 50 % de droits sur environ 20 milliards de dollars de produits canadiens, que le Canada avait rendus par des mesures de rétorsion [1][3]. Selon le Globe and Mail, le secrétaire au Commerce Howard Lutnick avait réclamé des conditions plus dures [3].",
+      "Dennis Darby, patron de l'association Manufacturiers et Exportateurs du Canada, juge ces progrès « encourageants » : les droits imposés après la rupture ont été « vraiment dévastateurs » pour les petites et moyennes entreprises [4]."
+    ],
+    "why": [
+      "À retenir : le Canada et les États-Unis semblent revenir vers un accord, mais rien n'est signé. Washington a baissé ses exigences, d'après Carney, et le résultat des midterms ne change pas ses pouvoirs de décision sur les droits de douane de sécurité nationale [1].",
+      "L'enjeu est vital pour Ottawa : les États-Unis absorbent 72 % des exportations canadiennes de biens, et celles-ci ont reculé de 6,6 % en juillet, la plus forte baisse en pourcentage depuis avril 2025, tandis que les ventes vers d'autres pays battaient un record [5].",
+      "Pour Trump, un accord avant l'arrivée d'un Congrès démocrate permettrait de se présenter comme celui qui a tranché. Le Canada, lui, a déjà dit à la fin d'octobre être prêt à attendre plutôt que de signer un mauvais accord ; il garde donc un levier [1]."
+    ],
+    "forMe": "Si tu travailles dans l'acier, l'aluminium, l'automobile ou le bois, ou si tu achètes des produits fabriqués en Amérique du Nord, un accord pourrait faire baisser des droits de douane qui renchérissent les pièces et les voitures. Si tu es en Europe, c'est surtout un signal : Washington négocie secteur par secteur plutôt que par grands traités.",
+    "next": [
+      {
+        "when": "Dans les prochaines semaines",
+        "what": "Les équipes de Carney et de Trump doivent poursuivre la négociation, sans date de signature annoncée [2]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "72 %",
+        "label": "part des États-Unis dans les exportations canadiennes de biens",
+        "src": 5
+      },
+      {
+        "value": "−6,6 %",
+        "label": "exportations canadiennes vers les États-Unis en juillet",
+        "src": 5
+      },
+      {
+        "value": "50 %",
+        "label": "droits américains sur l'acier canadien, au cœur de la négociation",
+        "src": 4
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "droits-de-douane"
+    ],
+    "sources": [
+      {
+        "short": "BNN Bloomberg",
+        "name": "BNN Bloomberg, « More intense U.S. trade negotiations have started, Carney says » (4 nov. 2026)",
+        "url": "https://www.bnnbloomberg.ca/tariffs/2026/11/04/more-intense-us-trade-negotiations-have-started-carney-says/"
+      },
+      {
+        "short": "PBS NewsHour",
+        "name": "PBS NewsHour, « Canada's Carney reports progress in trade talks with Trump days before U.S. midterms »",
+        "url": "https://www.pbs.org/newshour/world/canadian-prime-minister-carney-reports-progress-in-trade-talks-with-trump-days-before-u-s-midterms"
+      },
+      {
+        "short": "The Globe and Mail",
+        "name": "The Globe and Mail, « Trade talks collapsed at last minute after U.S. commerce chief pressed for harsher terms, sources say »",
+        "url": "https://www.theglobeandmail.com/world/article-us-canada-trade-tariffs-trump-mark-carney-august-23/"
+      },
+      {
+        "short": "CTV News",
+        "name": "CTV News, « Progress on trade talks is encouraging, says Canadian industry group »",
+        "url": "https://www.ctvnews.ca/world/trumps-tariffs/article/progress-on-trade-talks-is-encouraging-says-canadian-industry-group/"
+      },
+      {
+        "short": "Statistique Canada",
+        "name": "Statistique Canada, « Commerce international de marchandises du Canada, juillet 2026 » (Le Quotidien)",
+        "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260903/dq260903a-eng.htm"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-mexique-peso-midterms-sheinbaum",
+    "date": "2026-11-04",
+    "region": "Amériques",
+    "theme": "mix",
+    "zones": [
+      "Amérique du Nord",
+      "Amérique latine"
+    ],
+    "geo": [
+      {
+        "name": "Mexico, Mexique",
+        "label": "Mexique",
+        "coords": [
+          -99.13,
+          19.43
+        ]
+      },
+      {
+        "name": "Washington, États-Unis",
+        "label": "États-Unis",
+        "coords": [
+          -77.04,
+          38.91
+        ]
+      }
+    ],
+    "title": "Le peso mexicain chute le jour des midterms, alors que Sheinbaum assure qu'« aucun changement » n'est à attendre avec Washington",
+    "summary": "Le 3 novembre, le peso a perdu environ 1,4 % face au dollar, autour de 18,84 pour un dollar, au moment des élections américaines. La présidente Claudia Sheinbaum a dit que le Mexique respecterait le résultat, alors que l'accord T-MEC et les droits de douane sur l'acier et les voitures restent en suspens [1][2][3].",
+    "points": [
+      "Le peso mexicain a clôturé le 3 novembre à 18,8385 pour un dollar (taux officiel de la banque centrale) : il a perdu 1,40 %, soit 26 centimes, selon Publimetro, et 1,6 % selon Milenio. Les opérateurs invoquent les élections américaines et la décision de la banque centrale attendue jeudi [1][2].",
+      "Lors de sa conférence de presse matinale, Claudia Sheinbaum a refusé de commenter le scrutin américain, a assuré que le Mexique respecterait « le résultat » et écarté tout changement dans la relation avec les États-Unis après le vote [3][4].",
+      "Mexico et Washington cherchaient un accord avant le scrutin sur les droits de douane de la section 232 (sécurité nationale) : l'équipe du ministre de l'Économie Marcelo Ebrard travaillait avec le secrétaire américain au Commerce Howard Lutnick, sans accord final fin octobre [5].",
+      "Le Mexique demande des droits plus bas sur les voitures, l'acier et l'aluminium, et aucun nouveau droit pendant la révision du T-MEC. Les États-Unis maintiennent 25 % sur les véhicules légers sans contenu américain et 50 % sur l'acier, l'aluminium et le cuivre [6].",
+      "Sur la durée de l'accord, Washington propose dix ans de plus avec des révisions annuelles, alors que Mexico et Ottawa voudraient seize ans [6]. Sheinbaum répète que réviser le T-MEC ne veut pas dire y mettre fin [5]."
+    ],
+    "why": [
+      "À retenir : le peso est la première variable à bouger quand Washington change, parce que le Mexique envoie la plus grande part de ses exportations aux États-Unis. Un recul de 1,4 % en une séance montre que les marchés craignent plus d'incertitude, pas une rupture [1][2].",
+      "Les résultats américains compliquent le calendrier. Un Congrès démocrate peut débattre des tarifs, mais le président garde la main sur les droits de la section 232, ceux qui frappent justement l'acier et les voitures mexicains. La négociation continue donc surtout entre l'exécutif des deux pays [5][6].",
+      "Sheinbaum cherche à rester neutre et à ne pas se fâcher avec Donald Trump. Elle a seulement salué la présence politique des Mexicano-Américains, dont celle du candidat Xavier Becerra, en course pour le poste de gouverneur de Californie [4]."
+    ],
+    "forMe": "Si tu pars au Mexique, un peso plus faible rend le séjour un peu moins cher en euros. Si tu importes ou achètes des produits mexicains (avocats, pièces automobiles), les droits de douane américains peuvent ralentir leur production. Pour les voitures assemblées là-bas, la facture dépend de l'accord à venir.",
+    "next": [
+      {
+        "when": "5 novembre",
+        "what": "La banque centrale du Mexique (Banxico) annonce sa décision de taux à 13 h, heure de Mexico ; le marché attend une pause à 6,50 % [7]."
+      },
+      {
+        "when": "6 novembre",
+        "what": "Publication de l'emploi américain d'octobre, que les opérateurs surveillent pour le dollar et le peso [7]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "18,84",
+        "label": "pesos pour un dollar à la clôture du 3 novembre (taux Banxico)",
+        "src": 1
+      },
+      {
+        "value": "−1,4 %",
+        "label": "baisse du peso le jour des midterms, selon Publimetro",
+        "src": 1
+      },
+      {
+        "value": "25 % / 50 %",
+        "label": "droits américains sur les véhicules sans contenu américain / sur l'acier, l'aluminium et le cuivre",
+        "src": 6
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "droits-de-douane",
+      "dollar"
+    ],
+    "sources": [
+      {
+        "short": "Publimetro",
+        "name": "Publimetro, « Elecciones en EE. UU. golpean al peso y dólar roza 19 pesos » (4 nov. 2026)",
+        "url": "https://www.publimetro.com.mx/noticias/2026/11/04/elecciones-ee-uu-golpean-peso-dolar-roza-19-pesos/"
+      },
+      {
+        "short": "Milenio",
+        "name": "Milenio, « Peso mexicano se deprecia 1.6 % : impacto de Banxico y elecciones de EU »",
+        "url": "https://www.milenio.com/negocios/cierre-del-dolar-cotizacion-peso-mexicano-hoy-3-noviembre-2026"
+      },
+      {
+        "short": "El Diario de Chihuahua",
+        "name": "El Diario de Chihuahua, « Descarta Sheinbaum cambios con EU tras elecciones » (3 nov. 2026)",
+        "url": "https://eldiariodechihuahua.mx/nacional/2026/nov/03/descarta-sheinbaum-cambios-con-eu-tras-elecciones-853934.html"
+      },
+      {
+        "short": "La Razón",
+        "name": "La Razón, « Sheinbaum : se respetará el resultado que arrojen elecciones en EU » (3 nov. 2026)",
+        "url": "https://www.razon.com.mx/mexico/2026/11/03/sheinbaum-se-respetara-el-resultado-que-arrojen-elecciones-en-eu/"
+      },
+      {
+        "short": "MVS Noticias",
+        "name": "MVS Noticias, « Busca Sheinbaum acuerdo sobre el T-MEC antes de elecciones en EU » (28 oct. 2026)",
+        "url": "https://mvsnoticias.com/nacional/2026/10/28/busca-sheinbaum-acuerdo-sobre-el-t-mec-antes-de-elecciones-en-eu-751536.html"
+      },
+      {
+        "short": "Rio Times",
+        "name": "Rio Times, « Mexico's Sheinbaum Says No USMCA Deal Yet »",
+        "url": "https://www.riotimesonline.com/mexico-sheinbaum-usmca-talks-no-deal-2026/"
+      },
+      {
+        "short": "Maya Comunicación",
+        "name": "Maya Comunicación, « Banxico decide su tasa el 5 de noviembre : qué esperan los analistas »",
+        "url": "https://mayacomunicacion.com.mx/banxico-decision-tasa-5-noviembre-2026/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-egypte-banque-du-caire-bourse",
+    "date": "2026-11-04",
+    "region": "Afrique",
+    "theme": "mix",
+    "zones": [
+      "Afrique",
+      "Moyen-Orient"
+    ],
+    "geo": [
+      {
+        "name": "Le Caire, Égypte",
+        "label": "Égypte",
+        "coords": [
+          31.24,
+          30.04
+        ]
+      }
+    ],
+    "title": "Égypte : la Banque du Caire entre en Bourse et rapporte plus de 650 millions de dollars à l'État",
+    "summary": "Lundi 2 novembre, la Banque du Caire a fait ses débuts à la Bourse égyptienne après la vente de 45 % de son capital à 5,30 livres l'action. L'opération rapporte plus de 650 millions de dollars à Banque Misr, sa maison mère publique, et relance le programme de privatisations exigé par le FMI [1][2][4].",
+    "points": [
+      "Le prix final de l'introduction en Bourse a été fixé à 5,30 livres égyptiennes par action, le haut de la fourchette. Cela valorise la banque à environ 80,83 milliards de livres, soit 1,46 milliard de dollars [4].",
+      "Il s'agit de 6,86 milliards d'actions, soit 45 % du capital, contre 30 % annoncés au départ. Toutes sont des actions existantes : l'argent va à Banque Misr, l'actionnaire public, et non à la Banque du Caire [4].",
+      "Le produit atteint environ 36,4 milliards de livres, plus de 650 millions de dollars. Selon EnterpriseAM, c'est la plus grosse introduction à la Bourse du Caire depuis au moins dix ans ; EFG Hermes, l'un des organisateurs, parle de la deuxième plus grande privatisation par Bourse de l'histoire du pays [2][3].",
+      "La demande a dépassé l'offre : l'opération a été sursouscrite environ six fois, selon Ecofin [4]. Deux investisseurs publics étrangers ont aussi pris des parts : la Société financière internationale (IFC, Banque mondiale) investit 100 millions de dollars et la BERD autant, soit 6,9 % du capital pour cette dernière [5].",
+      "L'action, cotée sous le code BQDC, a grimpé jusqu'à 7 % au cours de sa première séance, selon Reuters [6].",
+      "Le Premier ministre Moustafa Madbouly a salué l'engagement du gouvernement à « poursuivre son programme de cessions d'actifs de l'État ». Un haut responsable cité par EnterpriseAM dit que le Trésor prendra jusqu'à la moitié du produit pour alléger la pression de la dette publique [3]."
+    ],
+    "why": [
+      "À retenir : l'Égypte a besoin de dollars et de preuves qu'elle réforme. Vendre une partie d'une banque publique fait entrer des devises et montre aux investisseurs que les privatisations avancent enfin, après des années de retards [3][6].",
+      "Dans le cadre de son programme avec le FMI, Le Caire s'est engagé à céder des participations dans plus de 30 entreprises publiques [3]. L'introduction en Bourse était évoquée depuis 2007 et avait été repoussée à plusieurs reprises, notamment à cause de la pandémie et des guerres en Ukraine et à Gaza [6].",
+      "L'État garde pourtant le contrôle : Banque Misr conserve 55 % de la Banque du Caire [4]. Les investisseurs achètent donc une part d'une banque publique, pas une banque privatisée. L'analyse d'AGBI présentait cette opération comme un test des plans de privatisation du pays [7].",
+      "Le contexte reste tendu : la guerre dans le Golfe, qui pèse sur le canal de Suez et sur l'énergie, n'a pas empêché la demande de rester forte, comme l'avait anticipé la banque en octobre [7]."
+    ],
+    "forMe": "Si tu suis l'Égypte, voisine de l'Europe par la Méditerranée et porte du canal de Suez, cette opération montre si le pays arrive à attirer des capitaux sans nouvelle crise de la dette. Elle ne change rien pour ton épargne en France.",
+    "next": [],
+    "figures": [
+      {
+        "value": "5,30 LE",
+        "label": "prix de l'action (haut de la fourchette)",
+        "src": 4
+      },
+      {
+        "value": "> 650 M$",
+        "label": "levés par la vente de 45 % du capital",
+        "src": 1
+      },
+      {
+        "value": "55 %",
+        "label": "part restant à Banque Misr, donc à l'État",
+        "src": 4
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "markets": {
+      "text": "La Banque du Caire est cotée à la Bourse du Caire depuis le 2 novembre [6].",
+      "items": [
+        {
+          "name": "Banque du Caire",
+          "ticker": "BQDC",
+          "why": "Nouvelle cotée au Caire ; elle a gagné jusqu'à 7 % en séance lors de ses débuts, selon Reuters [6], après une introduction à 5,30 livres l'action [4]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Channels TV",
+        "name": "Channels Television, « Egypt Raises Over $650m In IPO Of State-Owned Bank » (2 nov. 2026)",
+        "url": "https://www.channelstv.com/2026/11/02/egypt-raises-over-650m-in-ipo-of-state-owned-bank/"
+      },
+      {
+        "short": "The New Arab",
+        "name": "The New Arab, « Egypt raises over $650m in IPO of state-owned bank »",
+        "url": "https://www.newarab.com/news/egypt-raises-over-650m-ipo-state-owned-bank"
+      },
+      {
+        "short": "EnterpriseAM",
+        "name": "EnterpriseAM Egypt, « Banque du Caire lands on EGX, the treasury to take up to half the proceeds » (3 nov. 2026)",
+        "url": "https://enterpriseam.com/egypt/2026/11/03/banque-du-caire-lands-on-egx-the-treasury-to-take-up-to-half-the-proceeds/"
+      },
+      {
+        "short": "Ecofin",
+        "name": "Agence Ecofin, « Egypt: Banque du Caire Prices IPO at Top of Range as Placement Is Six Times Oversubscribed »",
+        "url": "https://www.ecofinagency.com/news-finances/2710-60140-egypt-banque-du-caire-prices-ipo-at-top-of-range-as-placement-is-six-times-oversubscribed"
+      },
+      {
+        "short": "Zawya / Reuters",
+        "name": "Zawya (Reuters), « IFC, EBRD invest $200mln in Banque du Caire's IPO » (2 nov. 2026)",
+        "url": "https://www.tradingview.com/news/reuters.com,2026-11-02:newsml_Zaw8shLfg:0-zawya-ifc-ebrd-invest-200mln-in-banque-du-caire-s-ipo/"
+      },
+      {
+        "short": "Finimize",
+        "name": "Finimize, « Banque Du Caire's Long-Delayed IPO Finally Hit The Market » (citant Reuters)",
+        "url": "https://finimize.com/content/banque-du-caires-long-delayed-ipo-finally-hit-the-market"
+      },
+      {
+        "short": "AGBI",
+        "name": "AGBI, « Bank du Caire IPO will test Egypt's privatisation plans » (oct. 2026)",
+        "url": "https://www.agbi.com/analysis/markets/2026/10/bank-du-caire-ipo-will-test-egypts-privatisation-plans/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-malawi-carburant-devises",
+    "date": "2026-11-04",
+    "region": "Afrique",
+    "theme": "eco",
+    "zones": [
+      "Afrique"
+    ],
+    "geo": [
+      {
+        "name": "Lilongwe, Malawi",
+        "label": "Malawi",
+        "coords": [
+          33.78,
+          -13.96
+        ]
+      }
+    ],
+    "title": "Malawi : sans dollars, plus d'essence. Le président rentre au pays en pleine pénurie",
+    "summary": "Le Malawi n'a plus assez de devises pour payer son carburant : files d'attente de plusieurs jours, banques étrangères réticentes, accord avec le FMI bloqué. Le président Peter Mutharika est rentré vers le 1er novembre, après presque un mois en Afrique du Sud [1][2][6].",
+    "points": [
+      "Le pays consomme environ deux millions de litres de carburant par jour, ce qui demande environ 49 millions de dollars de devises par mois, selon la compagnie pétrolière nationale citée par Africanews [1].",
+      "Des banques étrangères hésitent à confirmer les lettres de crédit, ces garanties de paiement sans lesquelles les fournisseurs ne livrent pas. Certains vendeurs exigent d'être payés d'avance [1][3].",
+      "Un responsable du syndicat des chauffeurs de camions décrit des véhicules qui passent jusqu'à une semaine dans les files. À Blantyre, deux stations sur quinze visitées avaient de l'essence, avec des files jusqu'à 400 mètres [1].",
+      "Le gouvernement a cherché des financements d'urgence, y compris la vente d'or de ses réserves. Il met aussi en avant des problèmes logistiques liés aux troubles après l'élection en Tanzanie, par où passe une part du carburant [1].",
+      "Le FMI a quitté le pays en juin 2026 sans nouveau programme ; le précédent, de 175 millions de dollars, avait pris fin en mai 2025 après 35 millions seulement versés [4].",
+      "Le FMI veut un kwacha plus flexible. Le ministre des Finances, Joseph Mwanamvekha, écarte une dévaluation, car elle ne règlerait rien sans plus de devises. Malawi24 avait pourtant titré le 7 octobre que le président « accepte » de dévaluer ; le gouvernement dément [4][5][8].",
+      "Peter Mutharika est rentré d'Afrique du Sud vers le 1er novembre. Il reconnaît des difficultés de carburant, mais les attribue au transport [6]."
+    ],
+    "why": [
+      "À retenir : la pénurie d'essence est d'abord une pénurie de dollars. Le pays importe son carburant et le paie en devises ; sans elles, les camions, les taxis et les usines s'arrêtent [1][2].",
+      "Le cours officiel du kwacha est d'environ 1 749 pour un dollar, mais le marché parallèle a connu des écarts allant jusqu'à 150 % en mars 2025, selon le FMI. Plus l'écart est grand, plus les importateurs préfèrent le marché noir et plus l'État manque de devises [4].",
+      "La guerre au Moyen-Orient aggrave le problème : le pétrole plus cher alourdit la facture d'un pays qui n'a presque rien en réserve [1]. Le précédent existe : en 2012, le Malawi avait dévalué sa monnaie d'un tiers, un choc qui avait fait monter les prix [9].",
+      "Le dilemme est politique autant qu'économique. Dévaluer ferait monter le prix de tout ce qui est importé, mais refuser prolonge les pénuries et bloque l'aide du FMI [4][5]."
+    ],
+    "forMe": "Le Malawi est loin de la France, mais l'histoire est la même que dans d'autres pays pauvres : quand le pétrole monte, ce sont les pays sans réserves de change qui trinquent d'abord, puis leurs voisins par les migrations et les prix.",
+    "next": [],
+    "figures": [
+      {
+        "value": "49 M$",
+        "label": "devises nécessaires chaque mois pour le seul carburant",
+        "src": 1
+      },
+      {
+        "value": "≈ 1 749",
+        "label": "kwachas pour un dollar au cours officiel",
+        "src": 4
+      },
+      {
+        "value": "35 M$",
+        "label": "seulement versés sur 175 M$ du dernier programme du FMI",
+        "src": 4
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Africanews",
+        "name": "Africanews, « Fuel shortages push Malawians into endless queues and rising costs » (30 oct. 2026)",
+        "url": "https://www.africanews.com/2026/10/30/fuel-shortages-push-malawians-into-endless-queues-and-rising-costs/"
+      },
+      {
+        "short": "IOL",
+        "name": "IOL, « Malawi's fuel shortage becomes a national emergency as drivers queue for days » (22 oct. 2026)",
+        "url": "https://iol.co.za/news/brics/2026-10-22-malawis-fuel-shortage-becomes-a-national-emergency-as-drivers-queue-for-days/"
+      },
+      {
+        "short": "Further Africa",
+        "name": "Further Africa, « Malawi fuel crisis stalls transport as dollars dry up » (15 oct. 2026)",
+        "url": "https://furtherafrica.com/2026/10/15/malawi-fuel-crisis-stalls-transport-as-dollars-dry-up/"
+      },
+      {
+        "short": "Rio Times",
+        "name": "The Rio Times, « Malawi Forex Crisis Stalls a New IMF Programme »",
+        "url": "https://www.riotimesonline.com/malawi-forex-crisis-kwacha-imf-programme-2026/"
+      },
+      {
+        "short": "Nyasa Times",
+        "name": "Nyasa Times, « Cure or Just Painkiller? Malawi Rules Out Kwacha Devaluation as Solution to Forex Woes »",
+        "url": "https://www.nyasatimes.com/cure-or-just-painkiller-malawi-rules-out-kwacha-devaluation-as-solution-to-forex-woes/"
+      },
+      {
+        "short": "Malawi24",
+        "name": "Malawi24, « Video: Mutharika returns after nearly a month in South Africa » (1er nov. 2026)",
+        "url": "https://malawi24.com/2026/11/01/video-mutharika-returns-after-nearly-a-month-in-south-africa-when-will-he-leave-malawi-next/"
+      },
+      {
+        "short": "ONU Malawi",
+        "name": "ONU Malawi, « Middle East Conflict, Macro-Fiscal and Socio-Economic Impact on Malawi »",
+        "url": "https://malawi.un.org/en/download/204530/312225"
+      },
+      {
+        "short": "Malawi24",
+        "name": "Malawi24, « IMF deal: APM 'agrees' to devalue Malawi Kwacha » (7 oct. 2026)",
+        "url": "https://malawi24.com/2026/10/07/imf-deal-malawi-to-devalue-kwacha/"
+      },
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « Malawi devalues currency by a third » (8 mai 2012)",
+        "url": "https://www.aljazeera.com/economy/2012/5/8/malawi-devalues-currency-by-a-third"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-argentine-risque-pays-829",
+    "date": "2026-11-04",
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique latine",
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Buenos Aires, Argentine",
+        "label": "Argentine",
+        "coords": [
+          -58.38,
+          -34.6
+        ]
+      }
+    ],
+    "title": "Argentine : le risque pays bondit à 829 points et le dollar bat un record, les marchés retiennent leur souffle avant le verdict américain",
+    "summary": "Le 3 novembre, le risque pays argentin mesuré par JP Morgan est monté à 829 points, son plus haut depuis les élections d'octobre 2025, tandis que le dollar de gros battait un record nominal. Les investisseurs craignent que les élections américaines de mi-mandat réduisent le soutien de Washington à Javier Milei [1][2].",
+    "points": [
+      "Le risque pays, qui mesure l'écart entre ce que paie l'Argentine pour emprunter en dollars et ce que paient les États-Unis, a gagné 24 points (3 %) en une séance, à 829 points de base selon l'indicateur de JP Morgan. Il a doublé depuis son plancher de 403 points du 7 juillet [1][2].",
+      "Le dollar de gros a atteint un nouveau maximum nominal, autour de 1 551 pesos selon un média local [3].",
+      "Les obligations argentines en dollars et les actions argentines cotées à Wall Street sont tombées à leurs plus bas niveaux en un an, selon Infobae [1].",
+      "La banque centrale n'a acheté aucun dollar depuis le début de novembre ; ses réserves brutes s'élevaient à 50,293 milliards de dollars après une baisse de 148 millions [4].",
+      "Les analystes redoutent qu'une défaite du camp de Donald Trump au Congrès américain réduise sa marge de manœuvre pour aider Buenos Aires [5][7].",
+      "Washington a ouvert une ligne de swap (échange de devises) de 20 milliards de dollars avec l'Argentine ; la décision revient au Trésor américain, sans vote du Congrès [7]. Le secrétaire au Trésor, Scott Bessent, a dit que le Trésor était prêt à acheter des obligations argentines en dollars si la situation l'exigeait [6]."
+    ],
+    "why": [
+      "À retenir : l'Argentine paie plus cher pour emprunter parce que les investisseurs doutent de deux choses à la fois, le niveau des dollars en réserve à la banque centrale et la durée du soutien américain. Le jour du scrutin aux États-Unis, ces deux doutes se sont additionnés [1][5].",
+      "Le mécanisme est simple. Quand le risque pays monte, l'État argentin emprunte plus difficilement sur les marchés internationaux, alors que des échéances en dollars l'attendent dans les prochaines années. Infobae attribue la pression à la faiblesse des réserves nettes face à ces échéances et à la demande de dollars des épargnants, qui fait monter le cours [1].",
+      "Le gouvernement cherche à se démarquer du scrutin américain, mais la dépendance envers Donald Trump reste au centre du débat, note le média argentin Infocielo [8]. Les sources consultées ne donnent pas encore le résultat du vote américain : le marché peut donc bouger vite dans un sens comme dans l'autre."
+    ],
+    "forMe": "Si tu as de la famille, des économies ou des projets en Argentine, retiens que le peso et les obligations du pays dépendent autant de Washington que de Buenos Aires. Un risque pays au-dessus de 800 points signifie que les prêteurs exigent une forte prime pour prêter à l'Argentine.",
+    "next": [
+      {
+        "when": "4 novembre",
+        "what": "Les résultats des élections américaines de mi-mandat tombent ; ils conditionnent la lecture du soutien de Washington à Buenos Aires [5][7]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "829",
+        "label": "points de risque pays, le plus haut depuis octobre 2025",
+        "src": 2
+      },
+      {
+        "value": "403",
+        "label": "points au plancher du 7 juillet",
+        "src": 1
+      },
+      {
+        "value": "50,3 Md$",
+        "label": "réserves brutes de la banque centrale",
+        "src": 4
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "dollar"
+    ],
+    "sources": [
+      {
+        "short": "Infobae",
+        "name": "Infobae, « Riesgo país arriba de 800 puntos y activos en baja : por qué las acciones y los bonos argentinos tocaron mínimos en un año » (3 nov. 2026)",
+        "url": "https://www.infobae.com/economia/2026/11/03/riesgo-pais-arriba-de-800-puntos-y-activos-en-baja-por-que-las-acciones-y-los-bonos-argentinos-tocaron-minimos-en-un-ano/"
+      },
+      {
+        "short": "El Intransigente",
+        "name": "El Intransigente, « El riesgo país de Argentina escaló a 829 puntos, su nivel más alto desde octubre de 2025 » (3 nov. 2026)",
+        "url": "https://elintransigente.com/2026/11/03/argentina-riesgo-pais-supera-800-puntos-maximo-octubre-2025/"
+      },
+      {
+        "short": "Economis",
+        "name": "Economis, « El riesgo país trepó a 829 puntos y el dólar mayorista marcó un nuevo máximo nominal »",
+        "url": "https://economis.com.ar/el-riesgo-pais-trepo-a-829-puntos-y-el-dolar-mayorista-marco-un-nuevo-maximo-nominal/"
+      },
+      {
+        "short": "La Nación",
+        "name": "La Nación, « El Banco Central volvió a pausar la compra de reservas » (3 nov. 2026)",
+        "url": "https://www.lanacion.com.ar/economia/por-el-dolar-demandado-el-banco-central-vuelve-a-pausar-la-compra-de-reservas-nid03112026/"
+      },
+      {
+        "short": "iProfesional",
+        "name": "iProfesional, « Prevén impacto en bonos argentinos en dólares tras la elección en EEUU »",
+        "url": "https://www.iprofesional.com/finanzas/468145-bonos-acciones-argentinas-pueden-desplomarse-trump-pierde-estados-unidos-noviembre-2026"
+      },
+      {
+        "short": "Diario de Cuyo",
+        "name": "Diario de Cuyo, « Swap, compra de bonos y préstamo del Tesoro : los ejes de la ayuda de EE.UU. a Argentina »",
+        "url": "https://www.diariodecuyo.com.ar/politica/swap-compra-de-bonos-y-prestamo-del-tesoro-los-ejes-de-la-ayuda-de-eeuu-a-argentina-1775804.html"
+      },
+      {
+        "short": "El Intransigente (swap)",
+        "name": "El Intransigente, « Milei se juega el respaldo de Washington en las elecciones de medio término » (3 nov. 2026)",
+        "url": "https://elintransigente.com/2026/11/03/argentina-elecciones-medio-termino-estados-unidos-swap-comercio-mercados/"
+      },
+      {
+        "short": "Infocielo",
+        "name": "Infocielo, « Milei busca despegarse de las elecciones en EEUU, pero la dependencia de Trump sigue en el centro de la escena »",
+        "url": "https://www.infocielo.com/politica-y-economia/milei-busca-despegarse-de-las-elecciones-en-eeuu-pero-la-dependencia-de-trump-sigue-en-el-centro-de-la-escena"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-colombie-defaut-2027-loi-sauvetage",
+    "date": "2026-11-04",
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique latine"
+    ],
+    "geo": [
+      {
+        "name": "Bogotá, Colombie",
+        "label": "Colombie",
+        "coords": [
+          -74.07,
+          4.71
+        ]
+      }
+    ],
+    "title": "Colombie : le gouvernement prévient d'un défaut de paiement en 2027 si le Congrès refuse sa loi de sauvetage budgétaire",
+    "summary": "Le 3 novembre, le vice-président colombien José Manuel Restrepo a averti que le pays « entrerait en défaut » en 2027 sans la loi de sauvetage économique déposée le 29 octobre par le président Abelardo de la Espriella. Le Congrès doit la voter avant la fin de l'année [1][2].",
+    "points": [
+      "Restrepo a déclaré : « Si on ne fait rien, l'année prochaine, donc en 2027, nous allons entrer en défaut ». Il tient l'administration de l'ancien président Gustavo Petro pour responsable de la hausse de la dette [1].",
+      "Le ministre des Finances, Miguel Gómez, veut un vote avant la fin de 2026 [2]. Le président Abelardo de la Espriella a déposé un message d'urgence pour accélérer l'examen [10].",
+      "Selon le gouvernement, l'État encaisse 29 000 milliards de pesos par mois mais en dépense plus de 40 000 milliards, et le service annuel de la dette est passé de 118 000 à 155 000 milliards de pesos [8].",
+      "Sans réforme, le déficit public atteindrait un niveau record de 9,4 % du PIB en 2027, contre 7,2 % cette année, d'après une projection officielle rapportée par Reuters [7].",
+      "Le projet de loi (106 articles) prévoit de réduire de moitié les dépenses de contrats de prestation de services, de rembourser la TVA à environ 19 millions de personnes et de relever l'impôt sur le patrimoine [3][5][6].",
+      "Il vise à ramener le déficit primaire (hors intérêts de la dette) de 3,2 % du PIB à 2,1 % en 2027, puis à 0,3 % en 2028 [4].",
+      "Le FMI a salué publiquement le texte, selon El Tiempo [9]."
+    ],
+    "why": [
+      "À retenir : il ne s'agit pas d'un défaut déjà survenu mais d'un avertissement politique. Le gouvernement dit que, sans le plan, l'État aurait du mal à payer ses salaires publics et à financer ses programmes en 2027 [1][2]. Le Congrès, divisé, a le dernier mot.",
+      "Le mécanisme : quand les dépenses dépassent durablement les recettes, l'État emprunte davantage et paie plus d'intérêts, ce qui creuse encore le déficit. Avec 155 000 milliards de pesos de service de la dette par an, le gouvernement veut agir à la fois sur les dépenses et sur les impôts [8]. Selon le gouvernement, sept pesos d'ajustement sur dix viendraient de coupes de dépenses, de la réduction de la bureaucratie et de la vente d'actifs inutiles [11].",
+      "Le plan est contesté. D'après Pulzo, des élus critiquent les hausses d'impôts possibles et une centrale syndicale a appelé à une grève nationale [11]. Reuters notait en octobre que la Colombie, qui discute d'un prêt avec le FMI, aurait du mal à tenir ses engagements envers le Fonds [7]. Les sessions ordinaires du Congrès s'achèvent le 16 décembre [6]."
+    ],
+    "forMe": "Si tu suis les marchés émergents, retiens que la Colombie fait face à un déficit record et que le vote de cette loi décidera de la confiance des prêteurs. Pour un voyageur ou une entreprise exposée au peso colombien, un échec au Congrès pourrait peser sur la monnaie.",
+    "next": [
+      {
+        "when": "16 décembre",
+        "what": "Fin de la session ordinaire du Congrès colombien : le vote de la loi de sauvetage doit avoir lieu avant [6]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "9,4 %",
+        "label": "déficit prévu du PIB en 2027 sans réforme (7,2 % en 2026)",
+        "src": 7
+      },
+      {
+        "value": "155 000 Md",
+        "label": "pesos de service annuel de la dette (118 000 Md avant)",
+        "src": 8
+      },
+      {
+        "value": "106",
+        "label": "articles dans le projet de loi",
+        "src": 6
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Infobae",
+        "name": "Infobae, « Colombia podría comenzar a incumplir sus pagos en 2027 si el Congreso no aprueba la ley de rescate económico » (3 nov. 2026)",
+        "url": "https://www.infobae.com/colombia/2026/11/03/colombia-podria-comenzar-a-incumplir-sus-pagos-en-2027-si-el-congreso-no-aprueba-la-ley-de-rescate-economico-aseguro-el-vicepresidente-jose-manuel-restrepo-vamos-a-entrar-en-default/"
+      },
+      {
+        "short": "Semana",
+        "name": "Semana, « Sin reforma, Colombia entrará en default en 2027 : la advertencia del vicepresidente y del ministro de Hacienda »",
+        "url": "https://www.semana.com/economia/macroeconomia/articulo/sin-reforma-colombia-entrara-en-default-en-2027-la-advertencia-del-vicepresidente-y-del-ministro-de-hacienda/202641/"
+      },
+      {
+        "short": "Infobae (loi)",
+        "name": "Infobae, « Ley de Rescate Económico : el Gobierno De la Espriella propone devolver la totalidad del IVA a 19 millones de colombianos y reducir el gasto del Estado » (30 oct. 2026)",
+        "url": "https://www.infobae.com/colombia/2026/10/30/ley-de-rescate-economico-el-gobierno-de-la-espriella-propone-devolver-la-totalidad-del-iva-a-19-millones-de-colombianos-y-reducir-el-gasto-del-estado/"
+      },
+      {
+        "short": "La Silla Vacía",
+        "name": "La Silla Vacía, « Gobierno presenta ley de rescate : una tributaria con recorte de nómina »",
+        "url": "https://www.lasillavacia.com/en-vivo/gobierno-radica-ley-de-rescate-con-tributaria-de-petro-y-recorte-de-nomina/"
+      },
+      {
+        "short": "El Espectador",
+        "name": "El Espectador, « Ley de Rescate Económico llegó al Congreso : esto es lo que quiere el Gobierno »",
+        "url": "https://www.elespectador.com/economia/ley-de-rescate-economico-llego-al-congreso-esto-es-lo-que-propone-el-gobierno/"
+      },
+      {
+        "short": "Rio Times",
+        "name": "The Rio Times, « Colombia rescue law faces Congress »",
+        "url": "https://www.riotimesonline.com/colombia-rescue-law-faces-congress-2026/"
+      },
+      {
+        "short": "Reuters (The Star)",
+        "name": "Reuters via The Star, « Colombia faces hurdles to meet IMF commitments under possible lending deal » (9 oct. 2026)",
+        "url": "https://www.thestar.com.my/news/world/2026/10/09/colombia-faces-hurdles-to-meet-imf-commitments-under-possible-lending-deal"
+      },
+      {
+        "short": "Infobae (comptes)",
+        "name": "Infobae, « Vicepresidente y ministro de Hacienda destaparon las cuentas en rojo que habría dejado Petro » (3 nov. 2026)",
+        "url": "https://www.infobae.com/colombia/2026/11/03/vicepresidente-y-ministro-de-hacienda-destaparon-las-cuentas-en-rojo-que-habria-dejado-petro-en-colombia-encontramos-una-realidad-mucho-mas-grave/"
+      },
+      {
+        "short": "El Tiempo",
+        "name": "El Tiempo, « FMI celebra la ley de rescate fiscal que el Gobierno de Colombia presentó al Congreso »",
+        "url": "https://www.eltiempo.com/economia/sectores/fmi-celebra-la-ley-de-rescate-fiscal-que-el-gobierno-de-colombia-presento-al-congreso-para-ajustar-sus-finanzas-publicas-3597955"
+      },
+      {
+        "short": "IFM Noticias",
+        "name": "IFM Noticias, « Presidente Abelardo de la Espriella radicó mensaje de urgencia para acelerar Ley de Rescate Fiscal »",
+        "url": "https://ifmnoticias.com/colombia/presidente-abelardo-de-la-espriella-radico-mensaje-de-urgencia-para-acelerar-ley-de-rescate-fiscal/"
+      },
+      {
+        "short": "Pulzo",
+        "name": "Pulzo, « Vicepresidente de De la Espriella lanzó advertencia si no aprueban la reforma : Default »",
+        "url": "https://www.pulzo.com/economia/vicepresidente-espriella-lanzo-advertencia-si-no-aprueban-reforma-PP5346071"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-chine-canada-commerce-pekin-changhai",
+    "date": "2026-11-04",
+    "region": "Asie",
+    "theme": "eco",
+    "zones": [
+      "Asie",
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Pékin, Chine",
+        "label": "Chine",
+        "coords": [
+          116.41,
+          39.9
+        ]
+      },
+      {
+        "name": "Ottawa, Canada",
+        "label": "Canada",
+        "coords": [
+          -75.7,
+          45.42
+        ]
+      }
+    ],
+    "title": "Le Canada envoie deux ministres en Chine pour sauver ses exportations agricoles avant la fin des allègements de droits de douane",
+    "summary": "Du 3 au 6 novembre, le ministre canadien du Commerce international, Maninder Sidhu, copréside à Pékin une commission économique et commerciale avec son homologue chinois, puis se rend à Shanghai. Il doit obtenir que Pékin prolonge, avant la fin de l'année, ses allègements sur les produits agricoles canadiens [1][2].",
+    "points": [
+      "Maninder Sidhu copréside à Pékin la Commission économique et commerciale conjointe avec le ministre chinois du Commerce, Wang Wentao. C'est la première fois qu'elle se réunit au niveau ministériel [1].",
+      "Le ministre de l'Agriculture, Heath MacDonald, est aussi en Chine cette semaine, à Pékin puis à Shanghai [2]. Le Canada est invité d'honneur de la Foire internationale des importations de Chine à Shanghai, du 5 au 10 novembre [3].",
+      "Les exportations canadiennes vers la Chine ont atteint 29 milliards de dollars canadiens de janvier à août, en hausse de 36 % sur un an, selon les chiffres de M. Sidhu [1].",
+      "Depuis le 1er mars 2026, la Chine a ramené les droits sur la graine de colza (canola) canadienne d'environ 85 % à 14,9 % ; en échange, le Canada accepte un quota annuel de 49 000 véhicules électriques chinois taxés à 6,1 % au lieu de 100 % [6][7].",
+      "Les allègements sur le tourteau de colza et les pois, ainsi que la suspension des droits sur le homard et le crabe, s'arrêtent fin décembre. Le porc reste taxé à 25 % et l'huile de colza à 100 % [4].",
+      "Selon un ancien responsable des Affaires mondiales cité par le Globe and Mail, ces suspensions sont liées au traitement que le Canada réserve à l'acier chinois [4]."
+    ],
+    "why": [
+      "À retenir : Ottawa a une échéance précise, le 31 décembre, pour verrouiller ses gains agricoles en Chine, qui sont devenus importants pour ses exportateurs (+36 % sur huit mois). M. Sidhu dit vouloir « présenter de la certitude aux agriculteurs canadiens » [1][5].",
+      "L'accord repose sur un échange. Le Canada a ouvert son marché automobile à des voitures électriques chinoises, la Chine a rouvert le sien au colza canadien [6][7]. M. Sidhu fixe les quotas et choisit quels constructeurs en profitent ; il a rencontré BYD, XPeng et GAC à Canton et dit vouloir que les marques chinoises fabriquent leurs voitures au Canada [8].",
+      "Le calendrier est serré. Après Pékin et Shanghai, les dirigeants de la région se retrouvent à Shenzhen pour le sommet de l'APEC, les 18 et 19 novembre [9]. Les sources consultées ne disent pas encore si Pékin prolongera ses allègements agricoles."
+    ],
+    "forMe": "Si tu consommes de l'huile de colza, des pois ou des fruits de mer canadiens, ou si tu travailles dans l'automobile, retiens que ces droits de douane se négocient entre deux grandes puissances commerciales, et que les prix et les voitures disponibles en Amérique du Nord en dépendent.",
+    "next": [
+      {
+        "when": "5 au 10 novembre",
+        "what": "Foire internationale des importations de Chine à Shanghai, avec le Canada pays invité d'honneur [3]."
+      },
+      {
+        "when": "18-19 novembre",
+        "what": "Sommet des dirigeants de l'APEC à Shenzhen [9]."
+      },
+      {
+        "when": "31 décembre",
+        "what": "Fin des allègements chinois sur le tourteau de colza, les pois, le homard et le crabe canadiens [4]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "29 Md$ CA",
+        "label": "exportations canadiennes vers la Chine, janvier-août (+36 %)",
+        "src": 1
+      },
+      {
+        "value": "14,9 %",
+        "label": "droit chinois sur la graine de colza, contre près de 85 %",
+        "src": 7
+      },
+      {
+        "value": "49 000",
+        "label": "véhicules électriques chinois par an au tarif de 6,1 %",
+        "src": 7
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "droits-de-douane"
+    ],
+    "sources": [
+      {
+        "short": "RealAgriculture",
+        "name": "RealAgriculture, « Ministers MacDonald, Sidhu lead dual trade push in China as year-end tariff deadline looms » (nov. 2026)",
+        "url": "https://www.realagriculture.com/2026/11/ministers-macdonald-sidhu-lead-dual-trade-push-in-china-as-year-end-tariff-deadline-looms"
+      },
+      {
+        "short": "Canada.ca",
+        "name": "Agriculture et Agroalimentaire Canada, « Federal Agriculture Minister Heath MacDonald to travel to Beijing and Shanghai » (nov. 2026)",
+        "url": "https://www.canada.ca/en/agriculture-agri-food/news/2026/11/federal-agriculture-minister-heath-macdonald-to-travel-to-beijing-and-shanghai-to-advance-canadas-agriculture-and-agri-food-interests-in-china.html"
+      },
+      {
+        "short": "Délégués commerciaux du Canada",
+        "name": "Service des délégués commerciaux du Canada, « China International Import Expo (CIIE) 2026 »",
+        "url": "https://www.tradecommissioner.gc.ca/en/trade-events-training/2026/11/ciie.html"
+      },
+      {
+        "short": "The Globe and Mail",
+        "name": "The Globe and Mail, « Uncertainty hangs over future of suspended Chinese tariffs on Canadian farm products, seafood »",
+        "url": "https://www.theglobeandmail.com/politics/article-uncertainty-future-of-suspended-chinese-tariffs-canadian-farm-products/"
+      },
+      {
+        "short": "CTV / BNN",
+        "name": "CTV News via BNN Bloomberg, « Canada to discuss canola and seafood tariffs with China » (25 juin 2026)",
+        "url": "https://www.bnnbloomberg.ca/tariffs/2026/06/25/ctv-news-in-tokyo-canadas-trade-minister-to-put-canola-peas-and-seafood-on-negotiation-table/"
+      },
+      {
+        "short": "CBC",
+        "name": "CBC News, « Here's what you need to know about the Canada-China deal on EVs and canola »",
+        "url": "https://www.cbc.ca/news/politics/what-is-in-canada-s-trade-agreement-with-china-9.7049082"
+      },
+      {
+        "short": "Dupree Report",
+        "name": "The Dupree Report, « Canada Cuts 100% China EV Tariff in Exchange for Farm Access »",
+        "url": "https://www.thedupreereport.com/28714/"
+      },
+      {
+        "short": "Electric Vehicles",
+        "name": "Electric-vehicles.com, « Canada Trade Minister Meets with BYD, XPeng, GAC in China »",
+        "url": "https://eletric-vehicles.com/general/canada-trade-minister-meets-with-byd-xpeng-gac-in-china/"
+      },
+      {
+        "short": "Gouvernement de Shenzhen",
+        "name": "Gouvernement du district de Longgang, Shenzhen, « The 33rd APEC Economic Leaders' Meeting to occur in Shenzhen (11.18-19, 2026) »",
+        "url": "https://www.lg.gov.cn/english/news/latestnews/content/post_12588327.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-taiwan-garde-cotes-chinois-cote-est",
+    "date": "2026-11-04",
+    "region": "Asie",
+    "theme": "geo",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "name": "Taipei, Taïwan",
+        "label": "Taïwan",
+        "coords": [
+          121.56,
+          25.03
+        ]
+      }
+    ],
+    "title": "Taïwan accuse les garde-côtes chinois de « harceler » la navigation à l'est de l'île, une zone clé en cas de blocus",
+    "summary": "Taïwan dénonce une nouvelle patrouille de deux navires des garde-côtes chinois à l'est de l'île, le 31 octobre, qui ont interpellé des bateaux par radio. Taipei y voit une extension illégale de pouvoir et une répétition possible d'un blocus maritime ; Pékin parle de police maritime [1][2][3].",
+    "points": [
+      "Deux navires des garde-côtes chinois ont patrouillé le 31 octobre dans les eaux à l'est de Taïwan ; Pékin l'a présenté comme une opération de maintien de l'ordre, via la télévision d'État CCTV [4].",
+      "Les garde-côtes taïwanais disent que les Chinois ont harcelé des navires marchands par messages radio et tenté d'exercer une juridiction qu'ils n'ont pas. Taipei parle d'une extension claire de pouvoir, contraire au droit international, et a envoyé ses propres navires surveiller la zone [1][2].",
+      "Le même jour, un autre navire des garde-côtes chinois est entré dans les eaux proches des îles Pratas (Dongsha), tenues par Taïwan en mer de Chine méridionale ; les deux navires se sont approchés à un mille nautique l'un de l'autre au plus près, selon les garde-côtes taïwanais [3].",
+      "Taïwan affirme avoir déjà repoussé des navires des garde-côtes chinois hors des eaux de Pratas à 13 reprises depuis le début de l'année [1].",
+      "Depuis juin, Pékin a multiplié les patrouilles au large de la côte est de Taïwan, selon Reuters. Des responsables taïwanais estiment qu'elles servent à s'entraîner à un blocus, avec une combinaison de moyens militaires, paramilitaires et civils [1][5].",
+      "Pékin affirme que les eaux qu'il patrouille relèvent de sa juridiction [4]."
+    ],
+    "why": [
+      "À retenir : il n'y a ni tir ni collision, mais une pression qui s'installe jour après jour. En multipliant des patrouilles de « police » et des appels radio aux navires, Pékin cherche, selon Taipei, à installer une autorité de fait sur ces eaux [1][2].",
+      "La côte est compte parce que Taipei décrit cette zone comme une route d'approvisionnement critique en cas de blocus [2]. Un blocus ne ressemble pas à une invasion : il consiste à contrôler ou inspecter les navires qui entrent et sortent des ports, ce qui pourrait peser sur les livraisons d'énergie, de nourriture et de composants électroniques.",
+      "Les incidents se multiplient aussi près de Kinmen et de Pratas, où Pékin a renforcé sa présence selon le South China Morning Post [5]. Pékin, lui, soutient qu'il exerce sa juridiction dans ces eaux [4]."
+    ],
+    "forMe": "Une grande partie des puces électroniques du monde passe par Taïwan et ses routes maritimes. Une pression durable sur ces routes, même sans combat, peut renchérir l'assurance des navires et inquiéter les entreprises qui dépendent de ces composants.",
+    "next": [
+      {
+        "when": "18-19 novembre",
+        "what": "Les dirigeants de l'APEC se réunissent à Shenzhen, en Chine, dans ce contexte de tensions maritimes [6]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "2",
+        "label": "navires des garde-côtes chinois à l'est de Taïwan, le 31 octobre",
+        "src": 1
+      },
+      {
+        "value": "13",
+        "label": "expulsions de navires chinois des eaux de Pratas cette année",
+        "src": 1
+      },
+      {
+        "value": "1 mille",
+        "label": "distance minimale entre les deux navires près de Pratas",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "routes-maritimes"
+    ],
+    "sources": [
+      {
+        "short": "Reuters (Japan Times)",
+        "name": "Reuters via The Japan Times, « Taiwan says China harassing shipping with east coast patrol » (1er nov. 2026)",
+        "url": "https://www.japantimes.co.jp/news/2026/11/01/asia-pacific/taiwan-china-harassing-shipping/"
+      },
+      {
+        "short": "gCaptain",
+        "name": "gCaptain, « Taiwan Says China Harassing Shipping With East Coast Patrol »",
+        "url": "https://gcaptain.com/taiwan-says-china-harassing-shipping-with-east-coast-patrol/"
+      },
+      {
+        "short": "AP (Washington Times)",
+        "name": "Associated Press via The Washington Times, « Taiwan accuses China of harassment after standoff between coast guard ships » (1er nov. 2026)",
+        "url": "https://www.washingtontimes.com/news/2026/nov/1/taiwan-accuses-china-harassment-standoff-coast-guard-ships/"
+      },
+      {
+        "short": "Armées.com",
+        "name": "Armées.com, « Taïwan : deux navires chinois patrouillent à l'est de l'île, Taipei dénonce une pression maritime » (31 oct. 2026)",
+        "url": "https://armees.com/taiwan-garde-cotes-chinois-patrouille-est-ile-31-octobre-2026/"
+      },
+      {
+        "short": "SCMP",
+        "name": "South China Morning Post, « Beijing ramps up maritime patrols around Taiwan, prompting Taipei to shadow ships »",
+        "url": "https://www.scmp.com/news/china/politics/article/3372875/beijing-ramps-maritime-patrols-around-taiwan-prompting-taipei-shadow-ships"
+      },
+      {
+        "short": "Shenzhen",
+        "name": "Gouvernement du district de Longgang, Shenzhen, « The 33rd APEC Economic Leaders' Meeting to occur in Shenzhen (11.18-19, 2026) »",
+        "url": "https://www.lg.gov.cn/english/news/latestnews/content/post_12588327.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-nouvelle-zelande-election-cout-vie",
+    "date": "2026-11-04",
+    "region": "Asie",
+    "theme": "mix",
+    "zones": [
+      "Océanie"
+    ],
+    "geo": [
+      {
+        "name": "Wellington, Nouvelle-Zélande",
+        "label": "Nouvelle-Zélande",
+        "coords": [
+          174.78,
+          -41.29
+        ]
+      }
+    ],
+    "title": "Nouvelle-Zélande : à trois jours des élections, un scrutin serré sur fond de chômage au plus haut depuis 2015 et de vie chère",
+    "summary": "Les Néo-Zélandais votent samedi 7 novembre dans une élection serrée : les deux derniers sondages se contredisent et aucun des deux grands partis n'approche de la majorité. Le coût de la vie domine la campagne, alors que le chômage atteint 5,7 %, son plus haut niveau depuis 2015 [1][2][3].",
+    "points": [
+      "Le scrutin général a lieu le 7 novembre. Les sondages prévoient une course serrée, sans majorité nette pour la coalition du Premier ministre Christopher Luxon (National) ni pour les travaillistes de Chris Hipkins [1][3].",
+      "Le jour du dernier débat des chefs, deux sondages donnaient deux images opposées : celui de 1News-Verian plaçait National à 32 %, celui du Post/Freshwater mettait Labour légèrement devant [3]. Winston Peters, dirigeant de NZ First, a qualifié le sondage Verian de « nul » [3].",
+      "Dans le sondage Verian, Luxon recueille 20 % comme Premier ministre préféré, contre 17 % pour Hipkins, qui perd trois points [3]. Après un débat télévisé, 49 % d'un panel d'indécis jugeaient Hipkins gagnant, contre 24 % pour Luxon [2].",
+      "Le chômage a atteint 5,7 % au troisième trimestre, plus que les 5,5 % attendus, son plus haut niveau depuis 2015 ; les travaillistes en font un argument de campagne [1][4].",
+      "Les travaillistes proposent un impôt sur les plus-values pour financer des aides contre la vie chère ; Luxon promet aucun nouvel impôt et davantage d'accords de libre-échange. Les deux camps excluent de relever la TVA (GST) [1]."
+    ],
+    "why": [
+      "À retenir : l'économie néo-zélandaise ralentit et les ménages le sentent. Le coût de la vie est la première préoccupation des électeurs et le chômage est à son plus haut niveau depuis 2015, ce qui rend le gouvernement sortant vulnérable [1][4].",
+      "La banque centrale (RBNZ) doit composer avec une inflation qu'elle voit remonter à 4,4 % au dernier trimestre de l'année, surtout à cause des carburants, tandis que la demande intérieure reste faible, selon la banque Rabobank [4]. Le résultat du chômage a réduit les paris sur une hausse des taux de la banque centrale ; les opérateurs surveillent maintenant sa réunion de décembre [4].",
+      "Après le vote, si aucun camp n'obtient de majorité, la formation d'une coalition peut prendre du temps et retarder les décisions économiques. Ce calendrier dépendra des résultats de samedi."
+    ],
+    "forMe": "La Nouvelle-Zélande est un grand exportateur de produits laitiers et de viande. Un changement de gouvernement pourrait modifier sa politique fiscale et commerciale, mais l'effet sur ce que tu paies en Europe reste indirect et lent.",
+    "next": [
+      {
+        "when": "7 novembre",
+        "what": "Élections générales en Nouvelle-Zélande [1]."
+      },
+      {
+        "when": "17 novembre",
+        "what": "La banque centrale (RBNZ) publie son rapport sur la stabilité financière [4]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "5,7 %",
+        "label": "taux de chômage au 3e trimestre, plus haut depuis 2015",
+        "src": 1
+      },
+      {
+        "value": "32 %",
+        "label": "National dans le sondage 1News-Verian",
+        "src": 3
+      },
+      {
+        "value": "4,4 %",
+        "label": "inflation attendue au 4e trimestre, selon Rabobank",
+        "src": 4
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Bangkok Post",
+        "name": "Bangkok Post, « New Zealand votes with economy, cost of living in focus »",
+        "url": "https://www.bangkokpost.com/world/3348465/new-zealand-votes-with-economy-cost-of-living-in-focus"
+      },
+      {
+        "short": "1News",
+        "name": "1News, « Leaders debate: Luxon, Hipkins fire up over cost of living, trust, racism » (7 oct. 2026)",
+        "url": "https://www.1news.co.nz/2026/10/07/leaders-debate-luxon-hipkins-fire-up-over-cost-of-living-trust-racism/"
+      },
+      {
+        "short": "Newswire",
+        "name": "Newswire.co.nz, « Luxon and Hipkins clash in final debate as two polls split » (oct. 2026)",
+        "url": "https://newswire.co.nz/2026/10/luxon-hipkins-final-leaders-debate-two-polls-opposite-directions/"
+      },
+      {
+        "short": "InvestingLive",
+        "name": "InvestingLive, « Recap: New Zealand jobless rate hits 11-year high, kiwi slips as RBNZ hike bets fade »",
+        "url": "https://investinglive.com/news/recap-new-zealand-jobless-rate-hits-11-year-high-kiwi-slips-as-rbnz-hike-bets-fade/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-mongolie-oyu-tolgoi-seisme-frontiere",
+    "date": "2026-11-04",
+    "region": "Asie",
+    "theme": "eco",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "name": "Oyu Tolgoi, Mongolie",
+        "label": "Mongolie",
+        "coords": [
+          106.86,
+          43.02
+        ]
+      }
+    ],
+    "title": "Mongolie : le géant du cuivre Oyu Tolgoi pris en étau entre un éboulement sismique et les contrôles de la frontière chinoise",
+    "summary": "Le 29 octobre, une secousse sismique a provoqué un éboulement dans la mine souterraine d'Oyu Tolgoi, en Mongolie. Rio Tinto a arrêté les travaux avant de les relancer par étapes le 30. En parallèle, les camions de concentré de cuivre vers la Chine se raréfient à la frontière, pour une perte déjà estimée à 300 millions de dollars [1][3][4].",
+    "points": [
+      "Une secousse sismique a frappé la mine vers 18 h, heure locale, le 29 octobre, le long d'une zone de faille. L'éboulement s'est produit dans une zone de stockage temporaire voisine de la zone de production, sans dommage structurel pour la galerie principale ni pour les équipements, selon Rio Tinto [4][5].",
+      "Rio Tinto a compté trois blessés et aucun mort ; l'exploitant local, Oyu Tolgoi LLC, avait d'abord parlé de 15 blessés. Nous retenons le chiffre officiel de Rio [5][6].",
+      "Le 30 octobre, Rio a annoncé reprendre « progressivement » les travaux souterrains, sans dire quand la production retrouverait son niveau normal [6].",
+      "Le second problème se joue à la frontière : selon l'exploitant, les convois quotidiens de camions vers la Chine sont passés d'environ 13 à environ 4, et les exportations de concentré de cuivre vers la Chine ont reculé d'environ 70 % en deux semaines [1][2].",
+      "Les douaniers mongols évoquent des travaux de modernisation côté chinois, au poste de Ganqimaodu. Le ministre mongol des Transports ne voit aucun motif politique ; Pékin n'avait pas répondu à l'AP [1].",
+      "Le manque à gagner serait déjà d'environ 300 millions de dollars, et pourrait atteindre 1,2 milliard de dollars d'ici la fin de l'année si les restrictions durent. L'ambassade de Chine a indiqué que les travaux pourraient s'étendre jusqu'à fin décembre, au lieu de fin septembre [2][3].",
+      "Le tout s'ajoute à un litige fiscal : l'État mongol, actionnaire à 34 % (Rio en détient 66 %), réclame environ 450 millions de dollars d'impôts à Rio Tinto, un dossier désormais devant la justice [7]."
+    ],
+    "why": [
+      "À retenir : Oyu Tolgoi montre qu'une grande mine peut être bloquée par deux ennemis très différents, un séisme sous terre et une file de camions à la frontière, et que la Mongolie, enclavée, n'a qu'une porte de sortie pour son concentré de cuivre : la route vers les fonderies chinoises [1][6].",
+      "Le rapport de force est tendu depuis des mois. Selon le Financial Times, Oulan-Bator juge l'accord actuel injuste et voudrait relever sa part des revenus à environ 60 % ; le gouvernement a annoncé en mars qu'il rouvrirait les négociations [7]. En juin, des manifestants avaient déjà bloqué la route vers la Chine, et les exportations n'avaient repris que le lendemain [7].",
+      "Pour Rio Tinto, l'enjeu est la montée en puissance de la mine souterraine : le groupe vise en moyenne 500 000 tonnes de cuivre par an de 2028 à 2036 [9]. L'action Rio Tinto a reculé de 2,9 % en début de séance à Sydney après l'annonce de l'arrêt [8]."
+    ],
+    "forMe": "Le cuivre est dans les câbles, les moteurs et les réseaux électriques. Une mine qui ralentit ne change pas ton prix à la caisse demain, mais elle ajoute un risque sur l'offre mondiale d'un métal très demandé. Elle montre aussi qu'un pays enclavé dépend d'un voisin géant pour vendre ses ressources.",
+    "next": [
+      {
+        "when": "Fin décembre",
+        "what": "Date à laquelle, selon l'ambassade de Chine citée par l'AP, les travaux au poste de Ganqimaodu pourraient s'achever [2]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "−70 %",
+        "label": "exportations de concentré de cuivre vers la Chine en deux semaines",
+        "src": 1
+      },
+      {
+        "value": "300 M$",
+        "label": "perte estimée à ce jour, jusqu'à 1,2 Md$ d'ici fin 2026",
+        "src": 3
+      },
+      {
+        "value": "3",
+        "label": "employés blessés selon Rio Tinto (15 selon l'exploitant local)",
+        "src": 5
+      }
+    ],
+    "markets": {
+      "text": "Rio Tinto détient 66 % de la mine et en est l'opérateur [7].",
+      "items": [
+        {
+          "name": "Rio Tinto",
+          "ticker": "RIO",
+          "move": "−2,9 %",
+          "why": "Détient 66 % d'Oyu Tolgoi [7] ; l'action a reculé de 2,9 % en début de séance à Sydney après l'annonce de l'arrêt des travaux souterrains [8]."
+        }
+      ]
+    },
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "AP (Yahoo)",
+        "name": "AP, « Mongolian mining company says copper exports have dropped due to China border restrictions »",
+        "url": "https://www.yahoo.com/news/world/articles/mongolian-mining-company-says-copper-091928230.html"
+      },
+      {
+        "short": "AP (ABC News)",
+        "name": "AP via ABC News, « Mongolian mining company says copper exports have dropped due to China border restrictions »",
+        "url": "https://abcnews.com/Technology/wireStory/mongolian-mining-company-copper-exports-dropped-due-china-137666814"
+      },
+      {
+        "short": "Fortune",
+        "name": "Fortune, « Mongolia suffers $300 million decline in copper exports following China border restrictions » (29 oct. 2026)",
+        "url": "https://fortune.com/2026/10/29/mongolia-300-million-copper-exports-china-border-1-2-billion/"
+      },
+      {
+        "short": "Mining Weekly",
+        "name": "Mining Weekly, « Rio Tinto pauses Oyu Tolgoi underground copper mine after seismic event » (29 oct. 2026)",
+        "url": "https://www.miningweekly.com/article/rio-tinto-pauses-oyu-tolgoi-underground-copper-mine-after-seismic-event-2026-10-29"
+      },
+      {
+        "short": "Rio Tinto",
+        "name": "Rio Tinto, communiqué « Update on Oyu Tolgoi seismic event »",
+        "url": "https://www.riotinto.com/en/mn/news/releases/2026/update-on-oyu-tolgoi-seismic-event"
+      },
+      {
+        "short": "Trader's Union",
+        "name": "Trader's Union, « Rio Tinto restarts Oyu Tolgoi underground operations after Mongolia seismic disruption »",
+        "url": "https://tradersunion.com/news/companies/show/4033652-rio-tinto-oyu-tolgoi-restart/"
+      },
+      {
+        "short": "Northern Miner",
+        "name": "The Northern Miner, « Mongolia presses Rio Tinto for bigger Oyu Tolgoi cut »",
+        "url": "https://www.northernminer.com/news/mongolia-presses-rio-tinto-for-bigger-oyu-tolgoi-cut/1003888659/"
+      },
+      {
+        "short": "GuruFocus",
+        "name": "GuruFocus, « Rio Tinto suspends Oyu Tolgoi operations »",
+        "url": "https://www.gurufocus.com/news/9153460/rio-tinto-rio-suspends-oyu-tolgoi-operations-following-earthquake"
+      },
+      {
+        "short": "Mining Reporters",
+        "name": "Mining Reporters, « Rio Tinto 2026 guidance: copper, iron ore, lithium growth » (juil. 2026)",
+        "url": "https://www.miningreporters.com/noticia/news/2026/07/rio-tinto-2026-guidance-copper-iron-ore-lithium-growth"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-alstom-avertissement-coradia-max",
+    "date": "2026-11-04",
+    "region": "Europe",
+    "theme": "fin",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Saint-Ouen-sur-Seine, France",
+        "label": "France",
+        "coords": [
+          2.33,
+          48.91
+        ]
+      }
+    ],
+    "title": "Alstom s'effondre de 28 % : le constructeur de trains ne gagnera presque plus d'argent et va brûler 1,5 milliard d'euros",
+    "summary": "Lundi 2 novembre, Alstom a abaissé pour la deuxième fois de l'année ses prévisions : une marge d'environ 1 % au lieu de 6,5 %, et 1,5 milliard d'euros de trésorerie perdus sur l'exercice. L'action a clôturé en baisse de 28 %, puis a cédé plus de 6 % mardi [1][2][3].",
+    "points": [
+      "Alstom prévoit pour son exercice 2026/27, qui s'achève en mars 2027, une marge d'exploitation ajustée d'environ 1 %, contre 6,5 % attendus auparavant, et une hausse de son chiffre d'affaires de 2 à 4 %, contre environ 5 % [2][6].",
+      "Le groupe s'attend à un flux de trésorerie libre négatif de 1,5 milliard d'euros, alors qu'il prévoyait jusqu'ici un chiffre positif. Ce flux est l'argent qui reste après les dépenses courantes et les investissements [1][2].",
+      "Au premier semestre, la marge ajustée était déjà d'environ −4 %, contre +6,4 % un an plus tôt [1][2].",
+      "La cause principale est l'exécution de projets ferroviaires en Allemagne, en particulier la plateforme de trains régionaux Coradia Max : quand l'homologation et la mise en service prennent du retard, les paiements que verse le client à chaque étape sont repoussés [1][7].",
+      "Pour se protéger, Alstom lance un plan de réduction de sa dette d'environ 2 milliards d'euros d'ici septembre 2027, qui passera notamment par des ventes d'actifs [1][2].",
+      "À Paris, le titre a perdu jusqu'à 30 % à l'ouverture lundi et a fini la séance à −28 %. Mardi, il a reculé de plus de 6 % après que J.P. Morgan et Citi ont abaissé leur recommandation et leur objectif de cours, jugeant que la pression sur les marges durera plus longtemps [2][3][4].",
+      "C'est le deuxième avertissement de 2026 : en avril, Alstom avait déjà renoncé à sa cible de marge de 8 à 10 % et à son objectif de 1,5 milliard d'euros de cash cumulé sur trois ans. Le directeur général, Martin Sion, est en poste depuis avril [4][6]."
+    ],
+    "why": [
+      "À retenir : Alstom ne perd pas des clients, il perd de l'argent sur des trains déjà vendus. Les commandes continuent d'arriver, mais un train vendu à prix fixe coûte plus cher que prévu quand sa mise au point prend du retard, et l'argent n'est encaissé qu'aux étapes franchies [7][8].",
+      "La Bourse a puni très fort parce que le cash qui part est énorme par rapport à la taille du groupe : selon Citi, la prévision de −1,5 milliard d'euros équivaut à près de 20 % de la valeur boursière d'Alstom [2]. Citi relie aussi l'avertissement à environ 5 milliards d'euros de commandes de la plateforme Coradia [3]. Les investisseurs regardent alors moins le bénéfice que la capacité à payer ses dettes sans lever d'argent.",
+      "Le lien avec l'économie réelle est direct : Alstom fabrique surtout des trains pour des opérateurs publics, et un constructeur obligé de vendre des actifs pour réduire sa dette a moins de marge pour investir. En Allemagne, les clients attendent leurs rames plus longtemps que prévu [1][7]."
+    ],
+    "forMe": "Si tu as un PEA, une assurance-vie en unités de compte ou un fonds actions européen, Alstom en fait peut-être partie : une chute de 28 % en une séance sur une seule valeur pèse peu sur un portefeuille diversifié, mais elle rappelle qu'une action peut s'effondrer sur une seule annonce. On ne dit ni d'acheter ni de vendre.",
+    "next": [
+      {
+        "when": "Septembre 2027",
+        "what": "Échéance visée par Alstom pour réduire sa dette d'environ 2 milliards d'euros [1][2]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "≈ 1 %",
+        "label": "marge d'exploitation prévue par Alstom, contre 6,5 % avant l'avertissement",
+        "src": 6
+      },
+      {
+        "value": "−1,5 Md€",
+        "label": "flux de trésorerie libre attendu sur l'exercice 2026/27",
+        "src": 1
+      },
+      {
+        "value": "−28 %",
+        "label": "chute de l'action Alstom à la clôture de lundi 2 novembre",
+        "src": 4
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi un avertissement sur le cash fait chuter une action",
+        "text": "Le prix d'une action reflète ce que les investisseurs pensent que l'entreprise gagnera dans les années à venir. Un « avertissement sur résultats » change brutalement ces attentes : si la marge prévue passe de 6,5 % à 1 %, tous les bénéfices futurs imaginés sont recalculés à la baisse, et le cours suit en quelques minutes. Le cash pèse encore plus lourd que le bénéfice : un bénéfice peut figurer sur le papier, alors que le cash est l'argent réellement disponible pour payer les salaires, les fournisseurs et les dettes. Quand une entreprise annonce qu'elle va en consommer beaucoup, les investisseurs craignent qu'elle doive emprunter, vendre des actifs ou demander de l'argent à ses actionnaires, ce qui est coûteux pour eux [1][2][3]."
+      }
+    },
+    "past": {
+      "title": "Alstom et le cash : un scénario déjà vu",
+      "items": [
+        {
+          "when": "Octobre 2023",
+          "what": "Alstom a plongé de 36,35 % à 13,66 euros après avoir abaissé son objectif de cash libre annuel à une fourchette de −500 à −750 millions d'euros, avec un flux du premier semestre de −1,15 milliard d'euros [5].",
+          "lesson": "Un avertissement sur la trésorerie est puni plus fort qu'un simple recul du bénéfice, car il met en cause la solidité financière [5]."
+        },
+        {
+          "when": "Avril 2026",
+          "what": "Alstom a renoncé à sa cible de marge de 8 à 10 % et à son objectif de 1,5 milliard d'euros de cash libre cumulé sur 2024/25–2026/27 [6].",
+          "lesson": "Quand une entreprise retire ses objectifs à moyen terme, de nouvelles révisions peuvent suivre : celle du 2 novembre est la deuxième de l'année [4][6]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "L'action Alstom a lourdement chuté deux séances de suite à Paris [2][3][4].",
+      "items": [
+        {
+          "name": "Alstom",
+          "ticker": "ALO",
+          "move": "−28 %",
+          "why": "Clôture de lundi 2 novembre après l'abaissement des prévisions, avec jusqu'à −30 % en séance [2][4] ; nouveau recul de plus de 6 % mardi après les dégradations de J.P. Morgan et Citi [3]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Reuters",
+        "name": "Reuters via Global Banking & Finance, « Alstom cuts annual margin target, expects 1.5 billion euro cash burn »",
+        "url": "https://www.globalbankingandfinance.com/alstom-slashes-annual-margin-target-sees-1-5-billion-cash/"
+      },
+      {
+        "short": "Boursorama",
+        "name": "Boursorama, « Alstom plonge de 30 % après avoir abaissé ses perspectives » (2 nov. 2026)",
+        "url": "https://www.boursorama.com/bourse/actualites/alstom-plonge-de-30-apres-avoir-abaisse-ses-perspectives-f780ef8c36e3a6a5d9de2108e573b54f"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Alstom shares fall 6 % as J.P. Morgan, Citi flag prolonged margin pressure »",
+        "url": "https://ca.investing.com/news/stock-market-news/alstom-shares-fall-6-as-jp-morgan-citi-flag-prolonged-margin-pressure-4924787"
+      },
+      {
+        "short": "RTÉ",
+        "name": "RTÉ, « Alstom plunges as it slashes outlook second time in 2026 » (2 nov. 2026)",
+        "url": "https://www.rte.ie/news/business/2026/1102/1597621-alstom-plunges-as-it-slashes-outlook-second-time-in-2026/"
+      },
+      {
+        "short": "Option Finance",
+        "name": "Option Finance, « Alstom déraille en raison d'un lourd avertissement sur son cash-flow libre » (5 oct. 2023)",
+        "url": "https://www.optionfinance.fr/info-financiere-en-continu/d/2023-10-05-alstom-deraille-en-raison-dune-lourd-avertissement-sur-son-cash-flow-libre.html"
+      },
+      {
+        "short": "ABC Bourse",
+        "name": "ABC Bourse, « Alstom abandonne ses objectifs 2026/27, marges et cash-flow revus à la baisse »",
+        "url": "https://www.abcbourse.com/marches/alstom-abandonne-ses-objectifs-202627-marges-et-cash-flow-revus-a-la-baisse_695255"
+      },
+      {
+        "short": "The Rail Agenda",
+        "name": "The Rail Agenda, « Coradia Max delays force Alstom to find EUR 2bn to cut debt »",
+        "url": "https://therailagenda.com/p/coradia-max-delays-force-alstom-to"
+      },
+      {
+        "short": "Upside24",
+        "name": "Upside24, « Alstom abaisse ses objectifs 2026-27 et veut réduire sa dette de 2 milliards d'euros »",
+        "url": "https://www.upside24.com/articles/alstom-recoit-plus-de-commandes-et-doit-pourtant-trouver-2-milliards-d-euros"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-evonik-basf-refus-offre",
+    "date": "2026-11-04",
+    "region": "Europe",
+    "theme": "fin",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Essen, Allemagne",
+        "label": "Allemagne",
+        "coords": [
+          7.01,
+          51.46
+        ]
+      }
+    ],
+    "title": "Evonik dit non à BASF : des résultats en hausse de 40 % pour refuser une offre de 24 euros par action",
+    "summary": "Mardi 3 novembre, le chimiste allemand Evonik a publié un résultat d'exploitation en hausse de 40 % au troisième trimestre et redit qu'il ne négocie pas avec BASF, qui viserait 24 euros par action. Le titre cotait autour de 20,5 euros : le marché ne parie pas sur un accord rapide [1][2][4].",
+    "points": [
+      "Evonik, groupe allemand de chimie de spécialités, a annoncé au troisième trimestre un chiffre d'affaires de 3,83 milliards d'euros (+13 %) et un EBITDA ajusté de 629 millions d'euros (+40 %). L'EBITDA mesure le résultat avant intérêts, impôts et amortissements [1].",
+      "Le groupe affiche malgré tout une perte nette de 53 millions d'euros sur la période [1].",
+      "Pour 2026, Evonik attend désormais un EBITDA ajusté dans la moitié haute de sa fourchette de 2,0 à 2,2 milliards d'euros [1].",
+      "BASF avait confirmé le 25 septembre des discussions exploratoires avec Evonik et sa grande actionnaire, la fondation RAG-Stiftung, qui détient plus de 40 % du capital ; Evonik a confirmé avoir reçu une approche non contraignante en vue d'une offre publique [5][8].",
+      "Selon la presse, BASF aurait relevé son approche de 22,15 à 24 euros par action, soit plus de 11 milliards d'euros au total. BASF précise qu'il ne s'agit pas d'une offre formelle, qui ne viendrait que dans un document d'offre, et promet de ne pas imposer de licenciements secs jusqu'en 2032 [6][7].",
+      "Mardi, le directeur financier d'Evonik, Michael Rauch, a jugé le moment « vraiment étrange » : l'approche est arrivée juste après l'annonce de l'arrêt maladie du PDG Christian Kullmann, remplacé par Claus Rettig. Un porte-parole de BASF répond qu'un tel dossier se prépare pendant des mois [3][4].",
+      "Evonik reste sur la voie de l'indépendance et ne négocie pas, mais se dit prêt à un échange d'informations confidentiel. Son action cotait mardi autour de 20,5 euros à Xetra, nettement sous les 24 euros évoqués [2][4]."
+    ],
+    "why": [
+      "À retenir : une entreprise peut refuser une offre qui paraît généreuse si ses résultats montent et si son actionnaire de référence n'a pas dit son dernier mot. Ici, la fondation RAG-Stiftung, qui détient plus de 40 % du capital, n'a pas pris position publiquement, ce qui rend l'issue incertaine [8].",
+      "Le prix de l'action est un baromètre : à environ 20,5 euros contre 24 euros évoqués, l'écart montre que les investisseurs doutent qu'un accord se fasse vite, ou qu'il se fasse tout court. Les autorités de la concurrence, qui contrôlent les rapprochements entre grands groupes, sont aussi vues comme un obstacle possible [4][8].",
+      "Les résultats d'Evonik servent d'argument : un bénéfice d'exploitation en hausse de 40 % permet au groupe de dire que sa valeur est sous-estimée et que son indépendance a du sens [1][2]. Des commentateurs y voient aussi un signe de la pression qui pousse la chimie européenne à se regrouper [9]."
+    ],
+    "forMe": "Une offre de rachat peut faire bouger l'action d'une grande entreprise européenne, donc les fonds qui la détiennent, mais tant qu'aucune offre officielle n'existe, ces mouvements restent de la spéculation. Ce n'est ni un signal d'achat ni un signal de vente : on suit le calendrier des décisions.",
+    "next": [
+      {
+        "when": "Fin novembre",
+        "what": "Une réunion du conseil de surveillance est annoncée ; la fondation RAG-Stiftung n'a pas encore pris position [8]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "+40 %",
+        "label": "EBITDA ajusté d'Evonik au 3e trimestre, à 629 millions d'euros",
+        "src": 1
+      },
+      {
+        "value": "24 €",
+        "label": "prix par action évoqué pour l'approche de BASF, contre environ 20,5 € en Bourse",
+        "src": 4
+      },
+      {
+        "value": "> 40 %",
+        "label": "part du capital détenue par la fondation RAG-Stiftung",
+        "src": 8
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi l'action monte quand un rachat est évoqué, mais reste sous le prix proposé",
+        "text": "Quand un groupe annonce vouloir racheter un autre, il propose en général un prix supérieur au cours, la « prime ». L'action de la cible bondit dès que l'intention est connue, parce que les investisseurs pensent pouvoir revendre plus cher. Mais elle reste souvent sous le prix proposé tant que l'opération n'est pas sûre : il faut que le conseil d'administration accepte, que les gros actionnaires vendent et que les autorités de la concurrence donnent leur feu vert. L'écart entre le cours et le prix proposé mesure donc le doute du marché sur l'issue. Si l'offre devient officielle et que l'accord paraît acquis, l'écart se réduit ; si elle échoue, l'action peut retomber [4][6][8]."
+      }
+    },
+    "past": {
+      "title": "Offres hostiles ou non sollicitées : ce que 2026 a déjà montré en Allemagne",
+      "items": [
+        {
+          "when": "Mars 2026",
+          "what": "UniCredit a lancé une offre d'échange sur Commerzbank (0,485 action UniCredit pour une action Commerzbank), évaluée à environ 35 milliards d'euros par la presse [10].",
+          "lesson": "Le conseil de Commerzbank a recommandé de refuser l'offre, et le gouvernement allemand s'y est opposé : une offre à faible prime ne suffit pas à convaincre [10]."
+        },
+        {
+          "when": "3 juillet 2026",
+          "what": "À la fin de la période d'acceptation complémentaire, 17,6 % des actions Commerzbank avaient été apportées à l'offre d'UniCredit ; Commerzbank dit qu'aucun investisseur institutionnel n'y avait participé à un stade précédent [11][12].",
+          "lesson": "Même sans l'accord de la direction, une offre peut faire avancer l'acheteur, mais le transfert des titres restait soumis aux autorisations réglementaires [11]."
+        },
+        {
+          "when": "Septembre 2026",
+          "what": "L'action Evonik a bondi d'environ 12 % quand l'intérêt de BASF est devenu public [13].",
+          "lesson": "La rumeur fait monter le cours tout de suite ; la suite dépend de l'accord de la direction et de la fondation actionnaire [8][13]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "Evonik cote nettement sous le prix évoqué par BASF [4].",
+      "items": [
+        {
+          "name": "Evonik",
+          "ticker": "EVK",
+          "move": "−0,77 %",
+          "why": "Cotait 20,58 euros mardi à Xetra, en baisse de 0,77 % en séance, contre 24 euros par action évoqués pour l'approche de BASF [4]. Le titre avait gagné jusqu'à 5,2 % le 23 octobre sur l'information d'une offre relevée [6]."
+        },
+        {
+          "name": "BASF",
+          "ticker": "BAS",
+          "why": "Initiateur de l'approche : il précise qu'il ne s'agit pas d'une offre formelle et promet de ne pas imposer de licenciements secs jusqu'en 2032 en cas de rapprochement [6][7]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "MS Aktuell",
+        "name": "MS Aktuell, « Evonik mit 40 Prozent mehr Gewinn, BASF erhält eine Absage » (3 nov. 2026)",
+        "url": "https://ms-aktuell.de/welt/evonik-quartalszahlen-03-11-2026/"
+      },
+      {
+        "short": "MarketScreener",
+        "name": "MarketScreener, « Evonik setzt auf Eigenständigkeit und bekräftigt Absage an BASF »",
+        "url": "https://de.marketscreener.com/boerse-nachrichten/evonik-setzt-auf-eigenstaendigkeit-und-bekraeftigt-absage-an-basf-ce785fd9de8bf722"
+      },
+      {
+        "short": "dpa (RPR1)",
+        "name": "dpa via RPR1, « Evonik kritisiert BASF-Angebot : Merkwürdiger Zeitpunkt » (3 nov. 2026)",
+        "url": "https://www.rpr1.de/nachrichten/dpa-rheinland-pfalz/evonik-kritisiert-basf-angebot-merkwuerdiger-zeitpunkt"
+      },
+      {
+        "short": "finanzen.net",
+        "name": "finanzen.net, « Evonik-Aktie mit leichten Gewinnen : Quartalszahlen überzeugen, BASF bleibt unerwünscht »",
+        "url": "https://www.finanzen.net/nachricht/aktien/hoehere-preise-und-mengen-evonik-aktie-mit-leichten-gewinnen-quartalszahlen-ueberzeugen-basf-bleibt-unerwuenscht-16030832"
+      },
+      {
+        "short": "Evonik (EQS)",
+        "name": "Evonik, communiqué EQS : réception d'une approche non contraignante de BASF",
+        "url": "https://live.deutsche-boerse.com/news/EQS-Adhoc-Evonik-Industries-AG-confirms-receipt-of-a-non-binding-approach-from-BASF-SE-regarding-a-potential-takeover-offer-5b754edf-9a87-4b65-8446-6499fbeded0a"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Evonik shares surge as BASF reportedly sweetens takeover offer to €11B »",
+        "url": "https://ng.investing.com/news/stock-market-news/evonik-shares-surge-as-basf-reportedly-sweetens-takeover-offer-to-11b-2754116"
+      },
+      {
+        "short": "PlasticsToday",
+        "name": "PlasticsToday, « Amid merger talk, BASF pledges no forced layoffs through 2032 » (22 oct. 2026)",
+        "url": "https://www.plasticstoday.com/materials/amid-merger-talk-basf-pledges-no-forced-layoffs-through-2032"
+      },
+      {
+        "short": "Börse Global",
+        "name": "Börse Global, « Evonik Aktie : Schweigt die Stiftung weiter ? »",
+        "url": "https://www.boerse-global.de/evonik-aktie-schweigt-die-stiftung-weiter/835358"
+      },
+      {
+        "short": "Traders Union",
+        "name": "Traders Union, « BASF urged to revisit Evonik bid as chemicals consolidation pressures build in Europe »",
+        "url": "https://tradersunion.com/news/stocks/show/3551788-basf-evonik-bid-europe-chemicals/"
+      },
+      {
+        "short": "Irish Times",
+        "name": "Irish Times, « UniCredit launches €35bn Commerzbank takeover offer » (16 mars 2026)",
+        "url": "https://www.irishtimes.com/business/financial-services/2026/03/16/unicredit-launches-35bn-commerzbank-takeover-offer"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « UniCredit takeover offer for Commerzbank receives 17.6 % acceptance »",
+        "url": "https://www.investing.com/news/company-news/unicredit-takeover-offer-for-commerzbank-receives-176-acceptance-93CH-4780897"
+      },
+      {
+        "short": "Commerzbank",
+        "name": "Commerzbank, communiqué sur le niveau d'acceptation de l'offre d'UniCredit",
+        "url": "https://www.commerzbank.de/group/newsroom/press-releases/acceptance-level-unicredit-offer.html"
+      },
+      {
+        "short": "Trading-Treff",
+        "name": "Trading-Treff, « Evonik Aktie : Kurs springt 12 Prozent nach BASF-Interesse »",
+        "url": "https://trading-treff.de/aktien/evonik-aktie-kurs-springt-12-prozent-nach-basf-interesse"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-seoul-kospi-oracle-appel-de-fonds",
+    "date": "2026-11-04",
+    "region": "Asie",
+    "theme": "fin",
+    "zones": [
+      "Asie",
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Séoul, Corée du Sud",
+        "label": "Corée du Sud",
+        "coords": [
+          126.98,
+          37.57
+        ]
+      },
+      {
+        "name": "Austin, États-Unis",
+        "label": "Oracle",
+        "coords": [
+          -97.74,
+          30.27
+        ]
+      }
+    ],
+    "title": "Séoul décroche de 3,6 % : l'appel de fonds géant d'Oracle relance le doute sur la rentabilité de l'IA",
+    "summary": "Mardi 3 novembre, l'indice Kospi de Séoul a perdu 3,59 % pour finir à 5 648,79 points, entraîné par Samsung Electronics et SK hynix. Les investisseurs s'inquiètent de la rentabilité de l'IA après qu'Oracle a annoncé lever 20 milliards de dollars en actions et en obligations [1][2][3].",
+    "points": [
+      "Le Kospi a clôturé en baisse de 3,59 % à 5 648,79 points, soit −210,29 points, après avoir ouvert en recul de 2,46 % [1][2].",
+      "Selon le JoongAng Daily, Samsung Electronics a fini à 219 500 wons (−4,15 %) et SK hynix à 1,4 million de wons (−5,03 %) ; d'autres médias citent des baisses plus fortes en séance [1][7].",
+      "Les investisseurs étrangers ont vendu pour environ 1 500 milliards de wons d'actions coréennes [1].",
+      "Le déclencheur est Oracle : le groupe américain veut lever 20 milliards de dollars, soit environ 10 milliards en actions (86,2 millions de titres à 116 dollars, 11,2 % sous la clôture précédente de 130,67 dollars) et environ 10 milliards en obligations de 2029 à 2046, avec des taux de 7 % à 8,65 % [4][5].",
+      "Au 31 août, Oracle avait 125,34 milliards de dollars de dettes, auxquels s'ajoutent environ 288 milliards d'engagements de location, surtout pour des centres de données [5].",
+      "Selon les sources, l'action Oracle a reculé de 4,5 % à près de 9 % après l'annonce [4][6].",
+      "Les profits records ne protègent pas : Samsung a publié un chiffre d'affaires de 195,3 mille milliards de wons et un bénéfice d'exploitation de 107,4 mille milliards au troisième trimestre [3]."
+    ],
+    "why": [
+      "À retenir : Séoul sert de thermomètre à l'IA parce que l'indice dépend fortement de deux fabricants de puces mémoire. Quand Wall Street doute, la Corée le ressent dès l'ouverture suivante [1][3][7].",
+      "Oracle illustre le problème : pour bâtir des centres de données, il emprunte et vend des actions avec une décote de 11 %. Une émission d'actions dilue les actionnaires existants, et des obligations à 8,65 % montrent le prix du risque demandé par les prêteurs. Une obligation Oracle 2066 rendrait environ 8,4 %, contre 6,1 % pour Apple et Microsoft à 2062 [5][6].",
+      "Même des profits records ne suffisent plus : les investisseurs veulent savoir si les milliards dépensés dans l'IA rapporteront, pas seulement si les puces se vendent. Les clients des fabricants coréens sont ces entreprises qui s'endettent pour construire [3][5]."
+    ],
+    "forMe": "Les mémoires de Samsung et SK hynix se retrouvent dans les téléphones et les ordinateurs. Si ton épargne est dans un fonds actions Asie ou émergents, la Corée peut y peser lourd : regarde la composition de ton fonds. Un recul de 3,6 % en une séance n'est pas un krach, et on ne conseille ni d'acheter ni de vendre.",
+    "next": [],
+    "figures": [
+      {
+        "value": "−3,59 %",
+        "label": "baisse du Kospi mardi 3 novembre, à 5 648,79 points",
+        "src": 1
+      },
+      {
+        "value": "20 Md$",
+        "label": "montant levé par Oracle, moitié en actions, moitié en obligations",
+        "src": 4
+      },
+      {
+        "value": "8,65 %",
+        "label": "taux le plus élevé des obligations d'Oracle émises",
+        "src": 5
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs"
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi toute une Bourse peut dépendre de deux entreprises",
+        "text": "Un indice comme le Kospi pèse chaque entreprise selon sa valeur en Bourse : plus elle vaut cher, plus elle compte. Si deux géants des puces représentent une grande part de l'indice, leur baisse de 4 à 5 % suffit à faire reculer tout l'indice de plus de 3 %. Ces entreprises dépendent elles-mêmes des commandes de clients américains qui construisent des centres de données. Quand l'un d'eux doit lever de l'argent à prix cassé, comme Oracle, les investisseurs se demandent si les commandes futures resteront aussi élevées et vendent les fournisseurs d'abord. Émettre des actions « dilue » : chaque ancien actionnaire possède une part plus petite du gâteau, d'où la décote à 11 % [1][4][5]."
+      }
+    },
+    "past": {
+      "title": "Séoul a déjà plongé sur les doutes autour de l'IA en 2026",
+      "items": [
+        {
+          "when": "Juillet 2026",
+          "what": "L'indice Kospi a plongé de près de 11 % en une séance sous l'effet de ventes massives de valeurs de semi-conducteurs [8].",
+          "lesson": "Quand les puces vacillent, l'indice entier suit, tant leur poids est élevé [8]."
+        },
+        {
+          "when": "3 août 2026",
+          "what": "Le Kospi a perdu 338 points (−5,12 %) à 6 257,45, avec Samsung Electronics et SK hynix en baisse proche de 9 %, après un rebond la veille [10].",
+          "lesson": "Les rebonds sont fragiles : le marché a vite repris sa baisse [10]."
+        },
+        {
+          "when": "13 octobre 2026",
+          "what": "Le Kospi a perdu plus de 7 % sur des ventes de semi-conducteurs liées aux craintes sur le boom de l'IA [9].",
+          "lesson": "Le scénario se répète, avant la chute de 3,6 % du 3 novembre [1][9]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "Les deux géants coréens des puces ont mené la baisse à Séoul, pendant qu'Oracle reculait à Wall Street [1][4][6].",
+      "items": [
+        {
+          "name": "Kospi",
+          "ticker": "KOSPI",
+          "move": "−3,59 %",
+          "why": "Clôture à 5 648,79 points mardi 3 novembre [1][2]."
+        },
+        {
+          "name": "Samsung Electronics",
+          "ticker": "005930",
+          "move": "−4,15 %",
+          "why": "Fin de séance à 219 500 wons selon le JoongAng Daily ; d'autres médias citent près de −4,6 % [1][7]."
+        },
+        {
+          "name": "SK hynix",
+          "ticker": "000660",
+          "move": "−5,03 %",
+          "why": "Fin de séance à 1,4 million de wons selon le JoongAng Daily [1]."
+        },
+        {
+          "name": "Oracle",
+          "ticker": "ORCL",
+          "move": "−4,5 % à −9 %",
+          "why": "Recul après l'annonce de l'émission de 20 milliards de dollars ; l'ampleur varie selon les sources [4][6]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "JoongAng Daily",
+        "name": "JoongAng Daily, « Kospi plunges 3.5 percent as AI doubts hammer Korean chip, auto stocks »",
+        "url": "https://www.koreajoongangdaily.com/business/kospi-plunges-35-percent-as-ai-doubts-hammer-korean-chip-auto-stocks/12947570"
+      },
+      {
+        "short": "JoongAng Daily",
+        "name": "JoongAng Daily, « Kospi plunges 3.6 % as AI spending fears hammer Samsung, SK hynix »",
+        "url": "https://www.koreajoongangdaily.com/business/kospi-dips-over-3-following-escalating-ai-concerns/12953462"
+      },
+      {
+        "short": "Invezz",
+        "name": "Invezz, « Samsung and SK Hynix stocks plunge as a $20 billion AI shock rattles markets » (3 nov. 2026)",
+        "url": "https://invezz.com/news/2026/11/03/samsung-sk-hynix-stocks-plunge-oracle-ai-fears"
+      },
+      {
+        "short": "Anadolu",
+        "name": "Anadolu Agency, « Oracle plans $20 billion in stock, bond sales to fund AI expansion »",
+        "url": "https://www.aa.com.tr/en/world/oracle-plans-20-billion-in-stock-bond-sales-to-fund-ai-expansion/4109007"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « Oracle Announces $20 Billion Stock and Bond Offering to Fund AI Infrastructure Expansion »",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-announces-20-billion-stock-112347717.html"
+      },
+      {
+        "short": "BigGo Finance",
+        "name": "BigGo Finance, « Oracle Raises $20 Billion in Stock and Bonds in a Single Day to Fund AI Investment ; Shares Plunge 9 % »",
+        "url": "https://finance.biggo.com/news/d2d40183-24eb-4553-9335-2314ad5249d6"
+      },
+      {
+        "short": "Seoul Economic Daily",
+        "name": "Seoul Economic Daily, « Samsung, SK hynix slide on U.S. AI selloff ; KOSPI tests 5,700 » (3 nov. 2026)",
+        "url": "https://en.sedaily.com/finance/2026/11/03/samsung-sk-hynix-slide-on-us-ai-selloff-kospi-tests-5700"
+      },
+      {
+        "short": "Ahram (AP)",
+        "name": "Ahram Online / AP, « Asian shares slip, South Korea's Kospi index sinks nearly 11 % on heavy selling of chipmakers » (juil. 2026)",
+        "url": "https://english.ahram.org.eg/News/573584.aspx"
+      },
+      {
+        "short": "AP (Kospi)",
+        "name": "AP via ClickOnDetroit, « South Korea's Kospi index sinks more than 7 % on sell-off of semiconductor shares over AI boom worries » (13 oct. 2026)",
+        "url": "https://clickondetroit.com/news/2026/10/13/south-koreas-kospi-index-sinks-more-than-7-on-sell-off-of-semiconductor-shares-over-ai-boom-worries"
+      },
+      {
+        "short": "Segye",
+        "name": "Segye Ilbo, compte rendu de la séance du 3 août 2026 (Kospi −5,12 %)",
+        "url": "https://www.segye.com/newsView/20260803516261"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-amd-resultats-previsions-17-milliards",
+    "date": "2026-11-04",
+    "region": "Amériques",
+    "theme": "fin",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "name": "Santa Clara, États-Unis",
+        "label": "États-Unis",
+        "coords": [
+          -121.96,
+          37.35
+        ]
+      }
+    ],
+    "title": "AMD bat les attentes et vise 17 milliards de dollars de ventes au trimestre prochain, en pleine tempête sur les puces",
+    "summary": "Mardi 3 novembre après la clôture, AMD a annoncé un chiffre d'affaires record de 13,4 milliards de dollars au troisième trimestre (+45 %) et prévoit environ 17 milliards au quatrième, au-dessus des 16,3 attendus. Le titre a gagné 6 à 8 % en Bourse après la clôture [1][2][3].",
+    "points": [
+      "AMD a publié un chiffre d'affaires de 13,4 milliards de dollars, en hausse de 45 % sur un an, et un bénéfice par action ajusté de 2,09 dollars (+74 %), contre 1,94 dollar attendu par les analystes ; le chiffre d'affaires attendu était de 13,06 milliards [1][3].",
+      "En comptabilité standard, la marge brute est de 54 %, le résultat d'exploitation de 2,8 milliards de dollars et le bénéfice net de 2,4 milliards, soit 1,46 dollar par action [1].",
+      "L'activité centres de données, qui fournit les puces des serveurs d'IA, a presque doublé à 8,5 milliards de dollars et pèse environ 64 % des ventes [3].",
+      "Pour le quatrième trimestre, AMD vise environ 17 milliards de dollars, à plus ou moins 3 %, contre environ 16,3 milliards attendus, soit une croissance d'environ 66 % sur un an [2][3].",
+      "La directrice générale, Lisa Su, a expliqué que le chiffre d'affaires a dépassé le haut de la fourchette annoncée et que le troisième trimestre est le premier à générer des ventes pour les puces MI455 et les baies de serveurs Helios, avec une forte hausse attendue au quatrième [1][2].",
+      "Après la clôture, l'action a progressé d'environ 6,5 % selon une source et jusqu'à 8 % selon une autre [2][4].",
+      "Selon un résumé de la conférence avec les analystes, AMD vise aussi une croissance de son chiffre d'affaires supérieure à 80 % en 2027 [8]."
+    ],
+    "why": [
+      "À retenir : les résultats d'AMD montrent que la demande de puces pour l'IA ne s'arrête pas. Ce que les marchés interrogent, c'est le financement et la rentabilité chez les clients qui construisent des centres de données, pas les commandes elles-mêmes [1][5].",
+      "Les prévisions comptent plus que les résultats : un trimestre passé est déjà connu, alors que l'action reflète les bénéfices à venir. En visant 17 milliards de dollars contre 16,3 attendus, AMD relève les attentes pour les prochains mois, d'où la hausse après la clôture [2][3].",
+      "Le contraste est frappant avec Séoul, où Samsung et SK hynix ont chuté le même jour malgré des profits records. Le marché ne sanctionne plus les mauvais chiffres, mais le doute sur la durée du cycle : une entreprise qui prévoit une accélération rassure, celle qui lève de l'argent à prix cassé inquiète [5][6]."
+    ],
+    "forMe": "Les puces d'AMD équipent des ordinateurs, des consoles et des serveurs. Si ton épargne est dans un fonds actions américain ou technologique, elle en dépend en partie. Une hausse après la clôture ne dit pas comment le titre finira la séance de mercredi : on ne conseille ni d'acheter ni de vendre.",
+    "next": [],
+    "figures": [
+      {
+        "value": "13,4 Md$",
+        "label": "chiffre d'affaires d'AMD au 3e trimestre 2026, record (+45 %)",
+        "src": 1
+      },
+      {
+        "value": "≈ 17 Md$",
+        "label": "chiffre d'affaires visé pour le 4e trimestre, contre 16,3 attendus",
+        "src": 2
+      },
+      {
+        "value": "8,5 Md$",
+        "label": "ventes des centres de données, presque le double d'un an plus tôt",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs"
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi la prévision compte plus que le résultat",
+        "text": "Un résultat trimestriel décrit le passé ; le cours d'une action, lui, anticipe l'avenir. Les analystes publient donc, avant chaque annonce, une estimation de ce que l'entreprise va gagner (le « consensus »). Battre le consensus ne suffit pas : le marché regarde surtout les « prévisions » de la direction pour le trimestre suivant. Si elles sont supérieures aux attentes, comme les 17 milliards de dollars d'AMD, les investisseurs révisent à la hausse les bénéfices futurs et le cours monte. Si elles sont inférieures, l'action peut chuter même après de bons chiffres. Les mouvements « après la clôture » sont une première réaction, qui peut être corrigée à la réouverture [1][2][3]."
+      }
+    },
+    "past": {
+      "title": "Quand les puces ont déjà tenu leurs promesses, ou pas, en 2026",
+      "items": [
+        {
+          "when": "Août 2026",
+          "what": "Pour le troisième trimestre, AMD avait annoncé un chiffre d'affaires d'environ 13 milliards de dollars, à plus ou moins 300 millions, avec une marge brute ajustée proche de 56 % [7].",
+          "lesson": "Le chiffre réalisé, 13,4 milliards, dépasse le haut de cette fourchette (13,3 milliards) [1][7]."
+        },
+        {
+          "when": "2 novembre 2026",
+          "what": "L'indice des semi-conducteurs de Philadelphie a reculé de 3,4 % lundi, après −7,2 % vendredi ; le Nasdaq 100 est entré en « correction » [9][10].",
+          "lesson": "La veille des résultats d'AMD, le secteur était déjà sous forte pression, ce qui rend la réaction de mardi soir plus notable [9][10]."
+        },
+        {
+          "when": "3 novembre 2026",
+          "what": "Samsung a publié un chiffre d'affaires de 195,3 mille milliards de wons et un bénéfice d'exploitation de 107,4 mille milliards, mais son action a reculé d'environ 4 % à Séoul [5][6].",
+          "lesson": "Des profits records ne garantissent pas une hausse de l'action : tout dépend de ce que le marché anticipait [5]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "AMD a progressé après la clôture de Wall Street, pendant que les puces coréennes reculaient à Séoul [2][5].",
+      "items": [
+        {
+          "name": "AMD",
+          "ticker": "AMD",
+          "move": "+6,5 % après clôture",
+          "why": "Hausse d'environ 6,5 % après la clôture de mardi selon investingLive, jusqu'à 8 % selon un autre média [2][4]."
+        },
+        {
+          "name": "Samsung Electronics",
+          "ticker": "005930",
+          "move": "−4,15 %",
+          "why": "Recul à Séoul mardi, malgré des profits records [6]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "AMD (SEC)",
+        "name": "AMD, formulaire 8-K auprès de la SEC : résultats du 3e trimestre 2026",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000188/q32026991.htm"
+      },
+      {
+        "short": "investingLive",
+        "name": "investingLive, « AMD shares rise after hours as Q4 revenue outlook of $17bn tops forecasts on AI ramp »",
+        "url": "https://investinglive.com/stocks/amd-shares-rise-after-hours-as-q4-revenue-outlook-of-17bn-tops-forecasts-on-ai-ramp/"
+      },
+      {
+        "short": "Motley Fool",
+        "name": "The Motley Fool, « AMD forecasts 66 % Q4 growth on AI chip demand » (3 nov. 2026)",
+        "url": "https://www.fool.com/investing/2026/11/03/amd-forecasts-66-q4-growth-on-ai-chip-demand-rapid-earnings-reaction/"
+      },
+      {
+        "short": "XTB",
+        "name": "XTB, « AMD shares jump 7 % after stellar earnings »",
+        "url": "https://www.xtb.com/cy/market-analysis/news-and-research/amd-shares-jump-7-after-stellar-earnings-will-semiconductor-stocks-return-to-growth"
+      },
+      {
+        "short": "Invezz",
+        "name": "Invezz, « Samsung and SK Hynix stocks plunge as a $20 billion AI shock rattles markets » (3 nov. 2026)",
+        "url": "https://invezz.com/news/2026/11/03/samsung-sk-hynix-stocks-plunge-oracle-ai-fears"
+      },
+      {
+        "short": "JoongAng Daily",
+        "name": "JoongAng Daily, « Kospi plunges 3.5 percent as AI doubts hammer Korean chip, auto stocks »",
+        "url": "https://www.koreajoongangdaily.com/business/kospi-plunges-35-percent-as-ai-doubts-hammer-korean-chip-auto-stocks/12947570"
+      },
+      {
+        "short": "Hudson Labs",
+        "name": "Hudson Labs, « AMD Q3 2026 earnings preview : revenue guidance, key drivers »",
+        "url": "https://www.hudson-labs.com/research/amd-q3-2026-earnings-preview-revenue-guidance-key-drivers"
+      },
+      {
+        "short": "KuCoin News",
+        "name": "KuCoin News, « AMD Q3 earnings call : revenue exceeds $13B ; 2027 revenue growth target above 80 % »",
+        "url": "https://www.kucoin.com/news/flash/amd-q3-earnings-call-revenue-surpasses-13b-2027-revenue-growth-target-exceeds-80"
+      },
+      {
+        "short": "Bloomberg",
+        "name": "Bloomberg, « Big Tech selloff pushes Nasdaq 100 into correction on AI spending worries » (2 nov. 2026)",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-02/nasdaq-100-enters-correction-as-megacap-results-amplify-ai-fears"
+      },
+      {
+        "short": "FinancialJuice",
+        "name": "FinancialJuice, « Nasdaq 100 enters correction as chipmaker selloff offsets oil slump » (2 nov. 2026)",
+        "url": "https://features.financialjuice.com/2026/11/02/nasdaq-100-enters-correction-as-chipmaker-selloff-offsets-oil-slump-us-market-wrap/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-reddit-trafic-google-ia",
+    "date": "2026-11-04",
+    "region": "Amériques",
+    "theme": "fin",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "San Francisco, États-Unis",
+        "label": "États-Unis",
+        "coords": [
+          -122.42,
+          37.77
+        ]
+      }
+    ],
+    "title": "Reddit perd près de 30 % en Bourse malgré +53 % de ventes : Google et son IA lui coupent le robinet des visiteurs",
+    "summary": "Vendredi 30 octobre, l'action Reddit a chuté d'environ 30 % après des résultats pourtant solides : son patron, Steve Huffman, a expliqué que Google envoie de moins en moins de visiteurs vers le site, à cause de ses réponses générées par l'IA. Les prévisions du trimestre déçoivent aussi [1][2][3].",
+    "points": [
+      "Reddit a publié pour le troisième trimestre un chiffre d'affaires de 895 millions de dollars, en hausse de 53 % sur un an [1][2].",
+      "Pour le quatrième trimestre, le réseau vise 1,00 à 1,03 milliard de dollars de ventes, sous les 1,05 milliard attendus par les analystes [1][2].",
+      "Le PDG, Steve Huffman, a indiqué que les visites venant de Google ont reculé de plus d'un million en moyenne chaque semaine en octobre, la baisse s'accélérant en fin de trimestre. Il en attribue la cause aux fonctions d'IA de Google (AI Overviews et AI Mode), qui répondent directement aux questions dans la page de résultats [1][2].",
+      "Reddit a compté en moyenne 50,7 millions d'utilisateurs américains par jour au troisième trimestre ; il prévient que le total des utilisateurs quotidiens, autour de 130 millions, pourrait baisser d'une dizaine de pour cent si les visites de Google continuent de reculer [2][3].",
+      "Le réseau prévoit aussi de tester l'obligation de se connecter pour lire certains contenus [1].",
+      "L'action a chuté d'environ 29 à 30 % vendredi 30 octobre, autour de 91 dollars selon les sources [2][3]."
+    ],
+    "why": [
+      "À retenir : Reddit montre le revers de l'IA pour les sites qui vivent de la recherche. Quand Google répond lui-même à une question, l'internaute ne clique plus, et le site source perd les visites sur lesquelles reposent ses recettes publicitaires [2][3].",
+      "Le marché a puni la prévision, pas le passé : +53 % de ventes ne pèse pas face à une trajectoire qui dépend d'un acteur extérieur. Un site dont une grande part du trafic vient d'un moteur de recherche dépend d'un robinet qu'il ne contrôle pas [1][2].",
+      "Le lien avec l'économie est large : éditeurs, forums et sites d'avis voient leur audience dépendre des choix d'un seul géant. Les investisseurs se demandent qui capte la valeur quand l'IA résume les contenus des autres, comme le montre déjà le cas de Gartner [4][5]."
+    ],
+    "forMe": "Si tu lis Reddit, sache que le site prévoit de tester l'obligation de se connecter pour lire certains contenus. Si tu possèdes un fonds actions américain, tu y détiens peut-être des sites dépendants de Google. Ce n'est ni un conseil d'achat ni de vente.",
+    "next": [],
+    "figures": [
+      {
+        "value": "−30 %",
+        "label": "chute de l'action Reddit vendredi 30 octobre, à environ 91 dollars",
+        "src": 2
+      },
+      {
+        "value": "+53 %",
+        "label": "hausse du chiffre d'affaires de Reddit au 3e trimestre, à 895 millions de dollars",
+        "src": 1
+      },
+      {
+        "value": "1 M",
+        "label": "visites de Google perdues en moyenne chaque semaine en octobre",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi une action s'effondre quand l'audience dépend d'un seul moteur de recherche",
+        "text": "Les revenus d'un site comme Reddit viennent surtout de la publicité, et la publicité dépend du nombre de visiteurs. Une grande partie de ces visiteurs arrive via Google. Si Google affiche directement une réponse générée par l'IA, l'internaute n'a plus besoin de cliquer : le trafic baisse sans que le site ait rien changé. Les investisseurs achètent une action pour les bénéfices futurs ; si la source de l'audience se tarit, ces bénéfices sont revus à la baisse, même quand le trimestre écoulé était excellent. C'est pourquoi la prévision de chiffre d'affaires et les avertissements sur le trafic ont pesé davantage que les +53 % de ventes [1][2][3]."
+      }
+    },
+    "past": {
+      "title": "L'IA a déjà fait plonger des valeurs d'information en 2026",
+      "items": [
+        {
+          "when": "Février 2026",
+          "what": "Gartner, cabinet d'analyse et de conseil, a chuté d'environ 25 % à 151,30 dollars après une prévision 2026 décevante, et d'environ 36 % sur huit séances de baisse [4][6].",
+          "lesson": "Les analystes de marché y ont vu l'effet d'outils d'IA qui rendent moins nécessaires les services de conseil payants [6]."
+        },
+        {
+          "when": "2025",
+          "what": "L'action Gartner a perdu environ la moitié de sa valeur sur l'année 2025, selon le Motley Fool [5].",
+          "lesson": "La pression sur ces entreprises s'est installée progressivement avant les chutes brutales de 2026 [5][4]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "Reddit a lourdement chuté vendredi 30 octobre [2][3].",
+      "items": [
+        {
+          "name": "Reddit",
+          "ticker": "RDDT",
+          "move": "−29 % à −30 %",
+          "why": "Chute d'environ 29 à 30 % vendredi, vers 91 dollars, après la prévision de ventes et l'alerte sur le trafic de Google [2][3]."
+        },
+        {
+          "name": "Alphabet (Google)",
+          "ticker": "GOOGL",
+          "why": "Ses fonctions d'IA dans la recherche sont mises en cause par Reddit pour la baisse du trafic [1][2]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks » (29 oct. 2026)",
+        "url": "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html"
+      },
+      {
+        "short": "Deadline",
+        "name": "Deadline, « Reddit shares plunge 30 % after company says its Q3 search traffic was down meaningfully »",
+        "url": "https://deadline.com/2026/10/reddit-shares-plunge-q3-search-traffic-earnings-1237209538/"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « Reddit stock plunges 30 % as Google's AI search hits traffic and user growth »",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/reddit-stock-plunges-30-googles-193102830.html"
+      },
+      {
+        "short": "Goldesel",
+        "name": "Goldesel, « Gartner fällt 25 % nach schwacher FY26-Guidance : Aktie rutscht auf 151,30 »",
+        "url": "https://goldesel.de/aktien/news/gartner-fallt-25-nach-schwacher-fy26-guidance-aktie-rutscht-auf-15130"
+      },
+      {
+        "short": "Motley Fool",
+        "name": "The Motley Fool, « Why Gartner stock was cut in half in 2025 » (15 janv. 2026)",
+        "url": "https://www.fool.com/investing/2026/01/15/why-gartner-stock-was-cut-in-half-in-2025"
+      },
+      {
+        "short": "Trefis",
+        "name": "Trefis, « IT stock falls −36 % with 8-day losing spree on weak 2026 guidance » (6 févr. 2026)",
+        "url": "https://www.trefis.com/stock/it/articles2/589912/it-stock-falls-36-with-8-day-losing-spree-on-weak-2026-guidance/2026-02-06"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-arbor-realty-dividende-suspendu",
+    "date": "2026-11-04",
+    "region": "Amériques",
+    "theme": "fin",
+    "zones": [],
+    "geo": [
+      {
+        "name": "Uniondale, New York, États-Unis",
+        "label": "États-Unis",
+        "coords": [
+          -73.59,
+          40.7
+        ]
+      }
+    ],
+    "title": "Arbor Realty suspend son dividende : le prêteur des immeubles d'habitation protège son cash face aux impayés",
+    "summary": "Le prêteur immobilier américain Arbor Realty Trust a annoncé le 30 octobre la suspension immédiate de son dividende trimestriel, deux trimestres seulement après l'avoir réduit à 0,17 dollar. Il affiche une perte, des prêts en difficulté et veut grossir sa réserve de trésorerie [1][2][3].",
+    "points": [
+      "Arbor Realty Trust, société cotée à New York qui prête surtout pour des immeubles d'habitation collectifs, a suspendu son dividende trimestriel avec effet immédiat lors de sa conférence de résultats du 30 octobre [1][2][3].",
+      "La décision intervient deux trimestres après que le dividende avait été ramené à 0,17 dollar par action [1].",
+      "Selon Earnings Whispers, la perte nette comptable est de 0,51 dollar par action, contre un bénéfice de 0,20 dollar un an plus tôt [1].",
+      "Toujours selon cette source, 32 prêts, pour 647,6 millions de dollars de capital, sont classés « non performants », c'est-à-dire que les emprunteurs ne paient plus comme prévu [1].",
+      "La suspension économise environ 125 millions de dollars par an et doit faire passer la trésorerie d'environ 400 millions à quelque 700 millions de dollars d'ici la fin du premier trimestre 2027 [1].",
+      "L'action, déjà en forte baisse, aurait perdu environ 73 % depuis le début de 2026 selon 24/7 Wall St. ; Earnings Whispers note qu'elle avait reculé de 36,7 %, de 4,77 à 3,02 dollars, entre le résultat de juillet et la veille de celui-ci [1][4]."
+    ],
+    "why": [
+      "À retenir : un dividende suspendu est un signal d'alarme, pas une simple économie. Ces sociétés sont conçues pour verser l'essentiel de leurs revenus à leurs actionnaires ; quand elles arrêtent, c'est qu'elles veulent garder chaque dollar pour faire face aux pertes sur les prêts [1][2].",
+      "Le mécanisme est celui du crédit : Arbor prête aux propriétaires d'immeubles avec des taux variables. Quand le coût de la dette monte, les emprunteurs paient plus cher, certains n'y arrivent plus, et le prêteur voit ses revenus baisser et ses prêts douteux augmenter. Le magazine Bisnow avait déjà décrit la hausse du coût de la dette comme une pression sur le portefeuille de prêts historiques d'Arbor [5].",
+      "Le cas est à suivre parce que le crédit immobilier lie les Bourses aux banques et aux ménages : des prêts non remboursés sur des immeubles d'habitation touchent d'abord les prêteurs spécialisés, puis ceux qui les financent [1][5]."
+    ],
+    "forMe": "Si ton épargne est dans un fonds d'immobilier coté ou dans un fonds actions américain large, il peut contenir ce type de prêteurs. Ce cas rappelle qu'un dividende élevé n'est jamais garanti. Aucun conseil d'achat ni de vente.",
+    "next": [],
+    "figures": [
+      {
+        "value": "−73 %",
+        "label": "baisse de l'action Arbor depuis le début de 2026, selon 24/7 Wall St.",
+        "src": 4
+      },
+      {
+        "value": "647,6 M$",
+        "label": "prêts non performants (32 prêts), selon Earnings Whispers",
+        "src": 1
+      },
+      {
+        "value": "125 M$",
+        "label": "économie annuelle attendue grâce à la suspension du dividende",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi un prêteur immobilier coté suspend son dividende",
+        "text": "Un prêteur immobilier de ce type touche des intérêts sur ses prêts et en reverse l'essentiel à ses actionnaires sous forme de dividende. Quand des emprunteurs cessent de payer, les intérêts attendus disparaissent, et le prêteur doit mettre de côté de l'argent pour absorber les pertes. Comme son financement coûte lui aussi plus cher quand les taux montent, la marge se réduit des deux côtés. Suspendre le dividende permet de garder du cash, mais le marché y lit l'aveu que la situation est sérieuse, d'où la baisse de l'action. Le cash conservé sert à tenir jusqu'à ce que les prêts douteux soient réglés ou vendus [1][2][5]."
+      }
+    },
+    "past": {
+      "title": "Arbor avait déjà prévenu : des baisses de dividende en série",
+      "items": [
+        {
+          "when": "Février 2025",
+          "what": "Arbor a annoncé une baisse de 33 % de ses bénéfices et prévu une réduction de son dividende [6].",
+          "lesson": "Le signal d'alerte existait plus d'un an avant la suspension complète [6]."
+        },
+        {
+          "when": "Mai 2025",
+          "what": "Arbor a réduit son dividende et publié des bénéfices en recul [7].",
+          "lesson": "Deuxième réduction à quelques mois d'écart : les coupes successives ont précédé l'arrêt total du 30 octobre 2026 [1][7]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "L'action Arbor a fortement reculé en 2026 [1][4].",
+      "items": [
+        {
+          "name": "Arbor Realty Trust",
+          "ticker": "ABR",
+          "move": "−73 % depuis janvier",
+          "why": "Baisse depuis le début de 2026 selon 24/7 Wall St. [4] ; Earnings Whispers cite un recul de 36,7 % entre juillet et fin octobre, de 4,77 à 3,02 dollars [1]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Earnings Whispers",
+        "name": "Earnings Whispers, compte rendu des résultats d'Arbor Realty (30 oct. 2026)",
+        "url": "https://www.earningswhispers.com/article/ABR/r1027"
+      },
+      {
+        "short": "Panabee",
+        "name": "Panabee, « Arbor Realty suspends dividend, reports loss amid escalating credit stress »",
+        "url": "https://www.panabee.com/news/arbor-realty-trust-earnings-q3-2026"
+      },
+      {
+        "short": "Finviz",
+        "name": "Finviz, « Arbor Realty misses, suspends its dividend and shifts to defending liquidity as credit losses mount »",
+        "url": "https://finviz.com/news/412779/arbor-realty-misses-suspends-its-dividend-and-shifts-to-defending-liquidity-as-credit-losses-mount"
+      },
+      {
+        "short": "24/7 Wall St.",
+        "name": "24/7 Wall St., « Arbor Realty suspends its dividend as shares plunge 73 % in 2026 » (3 nov. 2026)",
+        "url": "https://247wallst.com/investing/2026/11/03/arbor-realty-suspends-its-dividend-as-shares-plunge-73-in-2026/"
+      },
+      {
+        "short": "Bisnow",
+        "name": "Bisnow, « Battered mortgage REIT suspends dividend to preserve cash »",
+        "url": "https://www.bisnow.com/news/national/multifamily/battered-mortgage-reit-shares-plummet-arbor-suspends-dividend"
+      },
+      {
+        "short": "The Real Deal",
+        "name": "The Real Deal, « Arbor Realty Trust reports 33 % drop in earnings, projects dividend cut » (21 févr. 2025)",
+        "url": "https://therealdeal.com/national/2025/02/21/arbor-realty-trust-reports-33-drop-in-earnings-projects-dividend-cut"
+      },
+      {
+        "short": "The Real Deal",
+        "name": "The Real Deal, « Arbor Realty Trust cuts dividend, reports earnings drop-off » (2 mai 2025)",
+        "url": "https://therealdeal.com/national/2025/05/02/arbor-realty-trust-cuts-dividend-reports-earnings-drop-off"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-canada-pme-droits-de-douane-exportations",
+    "date": "2026-11-04",
+    "level": 2,
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Toronto, Canada",
+        "label": "Canada",
+        "coords": [
+          -79.38,
+          43.65
+        ]
+      }
+    ],
+    "title": "Canada : les petits fabricants paient la rupture d'août, alors que les exportations vers les États-Unis reculent",
+    "summary": "Le patron des fabricants canadiens juge « encourageante » la reprise des pourparlers avec Washington, après une rupture d'août qui a coûté cher aux PME. Les exportations vers les États-Unis ont reculé de 6,6 % en juillet [1][2].",
+    "points": [
+      "Dennis Darby, président de Manufacturiers et Exportateurs du Canada, a salué le 3 novembre le retour à la table de négociation, après une rupture qu'il juge « très abrupte » en août [1].",
+      "Il estime que les droits imposés ensuite ont été « vraiment dévastateurs » pour les petites et moyennes entreprises [1].",
+      "Statistique Canada indique que les exportations vers les États-Unis ont baissé de 6,6 % en juillet, la plus forte baisse en pourcentage depuis avril 2025, alors que les ventes vers les autres pays ont atteint un record [2].",
+      "Les États-Unis représentent 72 % des exportations canadiennes de biens, selon Affaires mondiales Canada [3]."
+    ],
+    "why": [
+      "À retenir : les grands groupes peuvent chercher d'autres marchés, mais les PME dépendent d'un seul client. Une négociation qui traîne coûte donc le plus à celles qui ont le moins de marge [1][2].",
+      "Les chiffres de septembre sur le commerce canadien sont attendus le 4 novembre ; ils diront si la baisse vers les États-Unis s'est poursuivie [2]."
+    ],
+    "forMe": "Si tu achètes des produits canadiens (bois, métaux, sirop d'érable) ou travailles avec une entreprise du Canada, la dépendance au marché américain explique pourquoi un accord compte autant pour les prix et les livraisons.",
+    "next": [
+      {
+        "when": "4 novembre",
+        "what": "Statistique Canada doit publier le commerce de marchandises de septembre [2]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "−6,6 %",
+        "label": "exportations canadiennes vers les États-Unis en juillet",
+        "src": 2
+      },
+      {
+        "value": "72 %",
+        "label": "part des États-Unis dans les exportations de biens",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "droits-de-douane"
+    ],
+    "sources": [
+      {
+        "short": "CTV News",
+        "name": "CTV News, « Progress on trade talks is encouraging, says Canadian industry group »",
+        "url": "https://www.ctvnews.ca/world/trumps-tariffs/article/progress-on-trade-talks-is-encouraging-says-canadian-industry-group/"
+      },
+      {
+        "short": "Statistique Canada",
+        "name": "Statistique Canada, « Commerce international de marchandises du Canada, juillet 2026 » (Le Quotidien)",
+        "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260903/dq260903a-eng.htm"
+      },
+      {
+        "short": "Affaires mondiales Canada",
+        "name": "Affaires mondiales Canada, « État du commerce 2026 »",
+        "url": "https://international.canada.ca/en/global-affairs/corporate/reports/chief-economist/state-trade/2026"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-mexique-banxico-pause-attendue",
+    "date": "2026-11-04",
+    "level": 2,
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique latine",
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Mexico, Mexique",
+        "label": "Mexique",
+        "coords": [
+          -99.13,
+          19.43
+        ]
+      }
+    ],
+    "title": "Mexique : la banque centrale devrait faire une pause à 6,50 % jeudi, avec l'écart le plus faible avec la Fed depuis des années",
+    "summary": "Banxico annonce jeudi 5 novembre sa décision de taux. Une enquête auprès de 37 spécialistes montre que 25 d'entre eux attendent un taux inchangé à 6,50 %. L'écart avec le taux américain est tombé à 250 points de base [1][2].",
+    "points": [
+      "Banxico décide jeudi 5 novembre à 13 h, heure de Mexico. Bloomberg Economics s'attend à une quatrième réunion de suite sans changement, avec un ton restrictif [1][2].",
+      "Sur 37 spécialistes interrogés, 25 prévoient un taux maintenu à 6,50 % pour le reste de 2026 et pour 2027 ; certains analystes n'excluent pas une baisse de 0,25 point [1][2].",
+      "Avec le haut de la fourchette de la Fed à 4,00 %, l'écart entre les deux taux est de 250 points de base, le plus bas depuis que Banxico utilise le taux comme outil principal [1].",
+      "Le 24 septembre, la banque avait maintenu 6,50 % à l'unanimité [1]."
+    ],
+    "why": [
+      "À retenir : plus l'écart avec la Fed se réduit, moins le peso est attractif pour les investisseurs qui cherchent du rendement, ce qui explique en partie sa faiblesse du 3 novembre [1][3].",
+      "Une baisse de taux rendrait cet écart encore plus étroit à un moment où la Fed envisage de remonter les siens, ce qui est un argument pour la pause. L'emploi américain du 6 novembre peut aussi bouger le peso [1][2]."
+    ],
+    "forMe": "Si tu envoies de l'argent au Mexique ou y voyages, un peso fragile change le taux de change à ton avantage, mais un peso instable rend le prix des importations mexicaines plus incertain.",
+    "next": [
+      {
+        "when": "5 novembre",
+        "what": "Décision de taux de Banxico à 13 h (heure de Mexico) [1]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "6,50 %",
+        "label": "taux directeur de Banxico, attendu inchangé",
+        "src": 1
+      },
+      {
+        "value": "250 pb",
+        "label": "écart avec le haut de la fourchette de la Fed",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Maya Comunicación",
+        "name": "Maya Comunicación, « Banxico decide su tasa el 5 de noviembre : qué esperan los analistas »",
+        "url": "https://mayacomunicacion.com.mx/banxico-decision-tasa-5-noviembre-2026/"
+      },
+      {
+        "short": "XTB",
+        "name": "XTB, « Banxico decide tasas esta semana. ¿Qué esperar del USD/MXN? »",
+        "url": "https://www.xtb.com/lat/analisis-y-noticias/analisis-de-mercado/banxico-decide-tasas-esta-semana-que-esperar-del-usd-mxn"
+      },
+      {
+        "short": "Publimetro",
+        "name": "Publimetro, « Elecciones en EE. UU. golpean al peso y dólar roza 19 pesos »",
+        "url": "https://www.publimetro.com.mx/noticias/2026/11/04/elecciones-ee-uu-golpean-peso-dolar-roza-19-pesos/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-israel-herzog-consultations",
+    "date": "2026-11-04",
+    "level": 2,
+    "region": "Moyen-Orient",
+    "theme": "geo",
+    "zones": [
+      "Moyen-Orient",
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Jérusalem, Israël",
+        "label": "Israël",
+        "coords": [
+          35.21,
+          31.77
+        ]
+      }
+    ],
+    "title": "Israël : le président Herzog ouvre deux jours de consultations, Eisenkot devant Netanyahou dans les recommandations",
+    "summary": "Le président Isaac Herzog reçoit les partis les 4 et 5 novembre pour désigner qui tentera de former le gouvernement. Les chefs de l'opposition recommandent Gadi Eisenkot ; Benjamin Netanyahou propose un gouvernement « d'union nationale large » sous sa direction [2][3].",
+    "points": [
+      "Les consultations commencent mercredi 4 novembre à 17 h, avec les plus petits partis, dont le Sionisme religieux. Le Likoud et le parti Yashar d'Eisenkot passeront en dernier, jeudi soir [2].",
+      "Les résultats finaux donnent 53 sièges au bloc de Netanyahou, 48 à l'opposition et 19 aux partis arabes, sur 120 : aucun camp n'a les 61 voix [4].",
+      "Selon Ynet, Eisenkot cumulerait environ 60 recommandations contre 46 pour Netanyahou ; Herzog n'est pas obligé de choisir celui qui en a le plus [3].",
+      "Le candidat désigné aura 28 jours pour former un gouvernement, avec 14 jours de prolongation possible. Herzog a sept jours pour décider, soit jusqu'au 11 novembre [2]."
+    ],
+    "why": [
+      "À retenir : Netanyahou n'a plus de majorité sûre et le sort du pays se joue entre des petits partis, notamment les formations ultra-orthodoxes et les partis arabes [3][5].",
+      "Les positions restent bloquées : Eisenkot et ses alliés refusent la formule de Netanyahou, et les quatre principes des chefs de l'opposition, dont la reconnaissance d'Israël comme État juif, pourraient exclure certains partis arabes [2]."
+    ],
+    "forMe": "Le choix du prochain gouvernement israélien pèsera sur la guerre à Gaza, le Liban et les pourparlers avec l'Iran, donc sur le pétrole que tu paies.",
+    "next": [
+      {
+        "when": "11 novembre",
+        "what": "Date limite légale pour qu'Isaac Herzog confie à un député la mission de former le gouvernement [2]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "53 / 48 / 19",
+        "label": "sièges du bloc Netanyahou, de l'opposition et des partis arabes",
+        "src": 4
+      },
+      {
+        "value": "28 jours",
+        "label": "délai pour former un gouvernement, plus 14 possibles",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « Israeli opposition leaders back Eisenkot to oust Netanyahu » (3 nov. 2026)",
+        "url": "https://www.aljazeera.com/news/2026/11/3/israeli-opposition-leaders-back-eisenkot-to-oust-netanyahu"
+      },
+      {
+        "short": "Yahoo / AFP",
+        "name": "Yahoo News, « Israel president opens talks as rivals struggle to form government »",
+        "url": "https://www.yahoo.com/news/politics/articles/israel-president-opens-talks-rivals-020036434.html"
+      },
+      {
+        "short": "Ynet",
+        "name": "Ynetnews, « 60 for Eisenkot, 46 for Netanyahu: Who gets first shot at forming Israel's government? »",
+        "url": "https://www.ynetnews.com/article/sk8eaw4pge"
+      },
+      {
+        "short": "AP7AM",
+        "name": "AP7AM, « Israel election results: Netanyahu's Likud bloc wins 53 seats, opposition 48, Arab parties 19 »",
+        "url": "https://www.ap7am.com/en/138511/israel-election-results-netanyahus-likud-bloc-wins-53-seats-opposition-48-arab-parties-19"
+      },
+      {
+        "short": "Jerusalem Post",
+        "name": "The Jerusalem Post, « Israel Election: Gadi Eisenkot may get the mandate, but haredi parties hold the key »",
+        "url": "https://www.jpost.com/israel-election-2026/article-913674"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-maroc-comite-prix-gouvernement",
+    "date": "2026-11-04",
+    "level": 2,
+    "region": "Afrique",
+    "theme": "eco",
+    "zones": [
+      "Afrique"
+    ],
+    "geo": [
+      {
+        "name": "Rabat, Maroc",
+        "label": "Maroc",
+        "coords": [
+          -6.84,
+          34.02
+        ]
+      }
+    ],
+    "title": "Maroc : le nouveau gouvernement crée un comité pour surveiller les prix avant le Ramadan",
+    "summary": "Mardi 3 novembre, à Rabat, une réunion présidée par la cheffe du gouvernement a créé un comité interministériel chargé de suivre les prix et de protéger le pouvoir d'achat. C'est l'une des premières mesures du cabinet nommé à la mi-octobre [1][3].",
+    "points": [
+      "La réunion de mardi, présidée par Fatima Zahra El Mansouri, a décidé de créer un comité qui réunit tous les ministères concernés, selon Morocco World News. La presse locale lie la mesure à l'approche du Ramadan [1].",
+      "Le roi Mohammed VI a installé mi-octobre un gouvernement de 32 membres, qui garde plusieurs ministres clés et compte sept femmes. Les médias le présentent comme dirigé par la première femme cheffe du gouvernement du pays [3].",
+      "La cheffe du gouvernement et huit ministres ont démissionné de la Chambre des représentants, car un siège de député est incompatible avec une fonction ministérielle [2]."
+    ],
+    "why": [
+      "À retenir : les prix alimentaires pèsent sur les ménages marocains, et chaque Ramadan ravive les inquiétudes sur le panier de la ménagère. Un comité interministériel permet de coordonner contrôles, stocks et importations [1].",
+      "Pour un exécutif tout juste formé, c'est aussi un message politique : la vie chère est la première demande sociale, et la réponse arrive dès les premières semaines [1][3]."
+    ],
+    "forMe": "Le Maroc est l'un des premiers fournisseurs de fruits et légumes de la France ; une meilleure maîtrise de ses prix intérieurs compte aussi pour son agriculture exportatrice.",
+    "next": [],
+    "figures": [
+      {
+        "value": "32",
+        "label": "membres du nouveau gouvernement marocain, dont 7 femmes",
+        "src": 3
+      },
+      {
+        "value": "9",
+        "label": "membres du gouvernement ayant quitté la Chambre des représentants",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Morocco World News",
+        "name": "Morocco World News, « Morocco Creates Committee to Monitor Prices, Protect Purchasing Power » (nov. 2026)",
+        "url": "https://www.moroccoworldnews.com/2026/11/344905/morocco-creates-committee-to-monitor-prices-protect-purchasing-power/"
+      },
+      {
+        "short": "Morocco World News",
+        "name": "Morocco World News, « Morocco's Head of Government, Eight Ministers Resign from Parliament » (nov. 2026)",
+        "url": "https://www.moroccoworldnews.com/2026/11/344813/moroccos-head-of-government-eight-ministers-resign-from-parliament/"
+      },
+      {
+        "short": "Asharq Al-Awsat",
+        "name": "Asharq Al-Awsat, « Morocco Retains Key Ministers in New Government, Names Seven Women »",
+        "url": "https://english.aawsat.com/arab-world/5330471-morocco-retains-key-ministers-new-government-names-seven-women"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-coree-kospi-ia-chute",
+    "date": "2026-11-04",
+    "level": 2,
+    "region": "Asie",
+    "theme": "eco",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "name": "Séoul, Corée du Sud",
+        "label": "Corée du Sud",
+        "coords": [
+          126.98,
+          37.57
+        ]
+      }
+    ],
+    "title": "Corée du Sud : la Bourse de Séoul perd 3,6 % en une séance, entraînée par Samsung et SK hynix",
+    "summary": "Le 3 novembre, l'indice Kospi a chuté de 3,59 % à 5 648,79 points, à cause des craintes sur la rentabilité des dépenses d'intelligence artificielle. Samsung Electronics et SK hynix, qui pèsent près de la moitié de l'indice, ont tiré la baisse [1][2].",
+    "points": [
+      "Le Kospi a perdu 210,29 points, soit 3,59 %, pour clôturer à 5 648,79 points ; le won s'est replié à 1 341 pour un dollar [1].",
+      "Les investisseurs étrangers ont vendu pour 1 500 milliards de wons nets d'actions, tandis que les particuliers en achetaient pour 1 700 milliards [1].",
+      "Dans les premiers échanges, Samsung Electronics reculait de 4,15 % et SK hynix de 5,03 % [2]. L'annonce par Oracle d'une levée de 20 milliards de dollars a ravivé les craintes sur le financement de l'IA [3]."
+    ],
+    "why": [
+      "À retenir : la Bourse sud-coréenne dépend de deux entreprises de puces, qui pèsent près de la moitié de sa valeur totale [3]. Quand les investisseurs doutent de la rentabilité de l'IA, l'indice baisse donc beaucoup plus que l'économie ne le justifierait.",
+      "La chute vient après un octobre noir : selon Invezz, le Kospi a perdu 16,19 % en octobre, soit sa septième plus forte baisse mensuelle [3]. Mercredi 4 novembre, il a rebondi à l'ouverture de 2,43 % [4]."
+    ],
+    "forMe": "Si tu possèdes un fonds mondial ou un ETF, il contient sans doute Samsung ou SK hynix : les secousses de Séoul peuvent te concerner.",
+    "next": [],
+    "figures": [
+      {
+        "value": "−3,59 %",
+        "label": "Kospi le 3 novembre, à 5 648,79 points",
+        "src": 1
+      },
+      {
+        "value": "−16,19 %",
+        "label": "Kospi en octobre, selon Invezz",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs"
+    ],
+    "sources": [
+      {
+        "short": "Korea JoongAng Daily",
+        "name": "Korea JoongAng Daily, « Kospi plunges 3.6% as AI spending fears hammer Samsung, SK hynix »",
+        "url": "https://www.koreajoongangdaily.com/business/kospi-dips-over-3-following-escalating-ai-concerns/12953462"
+      },
+      {
+        "short": "Altcoin Buzz",
+        "name": "AltcoinBuzz, « KOSPI Falls 3.59% as AI Spending Fears Hit Samsung, SK hynix »",
+        "url": "https://www.altcoinbuzz.io/kospi-falls-ai-spending-fears-samsung-sk-hynix"
+      },
+      {
+        "short": "Invezz",
+        "name": "Invezz, « Samsung and SK Hynix stocks plunge as a $20 billion AI shock rattles markets » (3 nov. 2026)",
+        "url": "https://invezz.com/news/2026/11/03/samsung-sk-hynix-stocks-plunge-oracle-ai-fears"
+      },
+      {
+        "short": "Seoul Economic Daily",
+        "name": "Seoul Economic Daily, « KOSPI Opens 2.43% Higher at 5,786.13 » (4 nov. 2026)",
+        "url": "https://en.sedaily.com/finance/2026/11/04/kospi-opens-243-percent-higher-at-578613"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-bresil-focus-apres-election",
+    "date": "2026-11-04",
+    "level": 2,
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique latine"
+    ],
+    "geo": [
+      {
+        "name": "Brasilia, Brésil",
+        "label": "Brésil",
+        "coords": [
+          -47.93,
+          -15.78
+        ]
+      }
+    ],
+    "title": "Brésil : après l'élection, les économistes relèvent leurs prévisions d'inflation, de taux et de dollar",
+    "summary": "Dans le premier bulletin Focus de la banque centrale depuis l'élection présidentielle, publié le 3 novembre, le marché relève ses prévisions d'inflation à 5,22 % pour 2026 et de dollar à 5,34 réais, et abaisse celle de croissance à 1,76 % [1][2].",
+    "points": [
+      "L'inflation (IPCA) attendue pour 2026 passe de 5,19 % à 5,22 %, au-dessus du plafond de 4,5 % de la cible officielle ; pour 2027, elle passe de 4,34 % à 4,76 % [1].",
+      "Le taux directeur Selic attendu fin 2026 passe de 13,25 % à 13,50 %, alors qu'il est actuellement de 13,75 % selon l'Agência Brasil [1]. Le dollar attendu fin 2026 passe de 5,05 à 5,34 réais [1][3].",
+      "Le comité de politique monétaire (Copom) de la banque centrale décide du taux le 4 novembre ; nos sources ne donnent pas encore le résultat [5]."
+    ],
+    "why": [
+      "À retenir : le Focus est l'enquête hebdomadaire de la banque centrale auprès d'économistes. Ses prévisions montent presque partout (inflation, taux, dollar) et celle de croissance baisse, ce qui dessine un Brésil plus cher et plus lent que prévu [1][2].",
+      "Un taux élevé protège contre l'inflation mais freine l'investissement et le crédit. Côté activité, la confédération patronale CNI a abaissé sa prévision de croissance à 1,6 % pour 2026 et table sur un excédent commercial de 77,3 milliards de dollars cette année [4]."
+    ],
+    "forMe": "Si tu voyages au Brésil, un réal plus faible rend le pays moins cher en euros, mais l'inflation élevée pèse sur les ménages locaux.",
+    "next": [
+      {
+        "when": "8-9 décembre",
+        "what": "Prochaine réunion du Copom sur le taux Selic [5]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "5,22 %",
+        "label": "inflation attendue en 2026 (cible plafonnée à 4,5 %)",
+        "src": 1
+      },
+      {
+        "value": "13,50 %",
+        "label": "Selic attendue fin 2026, contre 13,25 % avant",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Agência Brasil",
+        "name": "Agência Brasil, « Mercado eleva projeção para inflação, juros e dólar em 2026 » (3 nov. 2026)",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mercado-eleva-projecao-para-inflacao-juros-e-dolar-em-2026"
+      },
+      {
+        "short": "Contec",
+        "name": "Contec, « Mercado vê inflação, juros e dólar mais altos e reduz previsão do PIB »",
+        "url": "https://contec.org.br/mercado-ve-inflacao-juros-e-dolar-mais-altos-e-reduz-previsao-do-pib/"
+      },
+      {
+        "short": "Grupo Ceres",
+        "name": "Grupo Ceres, « Mercado eleva projeções de inflação e reduz expectativa de crescimento do Brasil para 2026 e 2027 » (3 nov. 2026)",
+        "url": "https://grupoceres.net.br/2026/11/03/mercado-eleva-projecoes-de-inflacao-e-reduz-expectativa-de-crescimento-do-brasil-para-2026-e-2027/"
+      },
+      {
+        "short": "Agência Brasil (CNI)",
+        "name": "Agência Brasil, « CNI reduz previsão de crescimento do PIB para 1,6 % em 2026 » (oct. 2026)",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cni-reduz-previsao-de-crescimento-do-pib-para-16-em-2026"
+      },
+      {
+        "short": "Rankia",
+        "name": "Rankia Brasil, « Próxima reunião do Copom é em 4 de novembro : veja o calendário de 2026 e 2027 »",
+        "url": "https://rankia.com.br/proxima-reuniao-copom/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-inde-pmi-manufacturier-octobre",
+    "date": "2026-11-04",
+    "level": 2,
+    "region": "Asie",
+    "theme": "eco",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "name": "New Delhi, Inde",
+        "label": "Inde",
+        "coords": [
+          77.21,
+          28.61
+        ]
+      }
+    ],
+    "title": "Inde : l'activité des usines ralentit un peu en octobre, mais les commandes à l'export sont au plus haut depuis six mois",
+    "summary": "L'indice PMI manufacturier de HSBC pour l'Inde s'est établi à 54,7 en octobre, contre 55,1 en septembre, publié le 2 novembre. Les commandes venues de l'étranger progressent à leur rythme le plus rapide en six mois [1][2].",
+    "points": [
+      "L'indice (au-dessus de 50, l'activité augmente) recule à 54,7 contre 55,1 en septembre, mais reste bien au-dessus du seuil de 50 et de sa moyenne de long terme [1][2].",
+      "Les commandes à l'export augmentent le plus vite depuis six mois, venues notamment du Bangladesh, du Canada, de l'Indonésie, du Népal, d'Oman, d'Arabie saoudite, du Sri Lanka, du Royaume-Uni, des États-Unis et des Émirats arabes unis [3].",
+      "La production augmente encore fortement, mais moins vite qu'en septembre, et les pressions sur les coûts se sont atténuées dans les trois grandes catégories de produits [2].",
+      "Pranjul Bhandari, économiste en chef de HSBC pour l'Inde, attribue la hausse des exportations à une demande internationale solide [2]."
+    ],
+    "why": [
+      "À retenir : le PMI est un sondage mensuel auprès de directeurs d'achat ; il donne une idée de la santé de l'industrie avant les chiffres officiels du PIB. Ici, l'industrie indienne se porte bien, portée par l'étranger [1][2].",
+      "Les exportations sont un moteur important pour l'industrie indienne : les commandes étrangères tirent la production, et le ralentissement des hausses de coûts soulage les entreprises [2][3]."
+    ],
+    "forMe": "Si tu achètes des vêtements, des médicaments ou des pièces fabriqués en Inde, ce regain de commandes montre que le pays gagne des parts de marché dans le commerce mondial.",
+    "next": [],
+    "figures": [
+      {
+        "value": "54,7",
+        "label": "PMI manufacturier de l'Inde en octobre (55,1 en septembre)",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Business Standard",
+        "name": "Business Standard, « Manufacturing PMI eases to 54.7 in October despite strong export demand » (2 nov. 2026)",
+        "url": "https://www.business-standard.com/amp/economy/news/manufacturing-pmi-eases-to-54-7-in-october-despite-strong-export-demand-126110200290_1.html"
+      },
+      {
+        "short": "ANI",
+        "name": "ANI, « India's manufacturing PMI eases to 54.7 in October, export orders hit six-month high » (2 nov. 2026)",
+        "url": "https://aninews.in/news/business/indias-manufacturing-pmi-eases-to-547-in-october-export-orders-hit-six-month-high20261102111017/"
+      },
+      {
+        "short": "Maritime Gateway",
+        "name": "Maritime Gateway, « India's Manufacturing PMI Eases to 54.7 in October, but Export Orders Hit a Six-Month High »",
+        "url": "https://www.maritimegateway.com/indias-manufacturing-pmi-eases-to-54-7-in-october-but-export-orders-hit-a-six-month-high/"
+      }
+    ]
+  },
+  {
     "id": "2026-11-03-petrole-chute-espoir-pourparlers-iran",
     "date": "2026-11-03",
     "region": "Moyen-Orient",
@@ -11501,248 +14293,6 @@ window.GEOCO.news = [
         "short": "Lovguiden (Conseil)",
         "name": "Lovguiden, Conseil de l'UE : sommet du 16 octobre 2026 (énergie, budget)",
         "url": "https://www.lovguiden.dk/en/det-offentlige/raadet-for-den-europaeiske-union/2026-10-16-eu-topmoede-energipriser-ets2-naeste-eu-budget-og-montenegro"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-07-rdc-cobalt",
-    "date": "2026-10-07",
-    "theme": "geo",
-    "region": "Afrique",
-    "title": "RDC : le pays du cobalt ferme le robinet pour faire monter les prix",
-    "summary": "La République démocratique du Congo, premier producteur mondial de cobalt, limite ses exportations. Le métal des batteries a flambé.",
-    "geo": [
-      {
-        "name": "Kolwezi (RDC)",
-        "label": "RD Congo",
-        "coords": [
-          25.47,
-          -10.71
-        ]
-      }
-    ],
-    "points": [
-      "Après avoir suspendu ses exportations en 2025, la RDC les plafonne à 87 000 tonnes par an en 2026 et 2027, soit 7 250 tonnes par mois [1].",
-      "Fin juin, l'autorité congolaise a même supprimé les quotas du deuxième trimestre non utilisés, retirant 15 000 à 20 000 tonnes du marché [3].",
-      "Le cobalt a commencé 2026 au-dessus de 56 000 dollars la tonne, un niveau plus vu depuis 2022 [2]."
-    ],
-    "why": [
-      "Le cobalt est indispensable aux batteries des téléphones et de nombreuses voitures électriques. La RDC en produit plus de la moitié du monde. En limitant l'offre, Kinshasa a réussi à faire remonter des prix qui s'étaient effondrés [1].",
-      "C'est le paradoxe de la RDC : un sous-sol parmi les plus riches de la planète (cobalt, cuivre, coltan), mais une population parmi les plus pauvres, et un est du pays déchiré par la guerre autour des mines."
-    ],
-    "forMe": "Ton smartphone contient probablement du cobalt congolais. Quand son prix monte, celui des batteries suit, et la course aux voitures électriques devient une course aux minerais.",
-    "figures": [
-      {
-        "value": "87 000 t",
-        "label": "de cobalt exportables par an en 2026-2027",
-        "src": 1
-      },
-      {
-        "value": "≈ 56 400 $",
-        "label": "la tonne de cobalt début 2026",
-        "src": 2
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "semi-conducteurs"
-    ],
-    "sources": [
-      {
-        "short": "Benchmark",
-        "name": "Benchmark Mineral Intelligence, « DRC to lift cobalt export ban and impose quotas through 2027 »",
-        "url": "https://source.benchmarkminerals.com/article/drc-to-lift-cobalt-export-ban-and-impose-quotas-through-2027"
-      },
-      {
-        "short": "SunSirs",
-        "name": "SunSirs, « Cobalt prices surged in 2025, and here's the outlook for 2026 »",
-        "url": "https://www.sunsirs.com/m/page/commodity-news-detail/commodity-news-detail-29434.html"
-      },
-      {
-        "short": "Fastmarkets",
-        "name": "Fastmarkets, « DRC may reduce cobalt quota if market needs rebalancing, ARECOMS says »",
-        "url": "https://www.fastmarkets.com/insights/drc-may-reduce-cobalt-quota-if-market-needs-rebalancing-arecoms-says-exclusive/"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-07-indonesie-nickel",
-    "date": "2026-10-07",
-    "theme": "eco",
-    "region": "Asie",
-    "title": "Indonésie : le pays du nickel serre la vis",
-    "summary": "Premier producteur mondial de nickel, l'Indonésie réduit sa production et contrôle davantage ses exportations. Les prix remontent.",
-    "geo": [
-      {
-        "name": "Sulawesi (Indonésie)",
-        "label": "Indonésie",
-        "coords": [
-          121.9,
-          -2.8
-        ]
-      }
-    ],
-    "points": [
-      "L'Indonésie a réduit d'environ un tiers son quota de production de minerai de nickel pour 2026 [1].",
-      "À partir du 1er janvier 2027, certains produits du nickel ne pourront plus être exportés que par des entreprises d'État [2].",
-      "Le prix du nickel a dépassé 18 000 dollars la tonne, au plus haut depuis deux ans [3]."
-    ],
-    "why": [
-      "Depuis 2020, l'Indonésie interdit d'exporter son minerai brut : elle oblige les industriels à construire des usines de transformation sur place, souvent avec des capitaux chinois. Le pays est ainsi devenu un géant du nickel [3].",
-      "En limitant maintenant la production, Jakarta fait comme l'OPEP avec le pétrole : moins de volume pour des prix plus élevés."
-    ],
-    "forMe": "Le nickel entre dans l'acier inoxydable de ta cuisine et dans beaucoup de batteries de voitures électriques. Quand l'Indonésie bouge, ces prix bougent.",
-    "figures": [
-      {
-        "value": "≈ -1/3",
-        "label": "de quota de production de nickel en 2026",
-        "src": 1
-      },
-      {
-        "value": "> 18 000 $",
-        "label": "la tonne de nickel, au plus haut depuis deux ans",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Argus",
-        "name": "Argus Media, « Indonesia to cut nickel mining quota in 2026 »",
-        "url": "https://www.argusmedia.com/news-and-insights/latest-market-news/2787275-indonesia-to-cut-nickel-mining-quota-in-2026"
-      },
-      {
-        "short": "SMM",
-        "name": "SMM, « Indonesia government officially releases new export controls on FeNi and NPI » (juil. 2026)",
-        "url": "https://news.metal.com/newscontent/103996838-smm-tin-nhanh-niken-chính-phủ-indonesia-chính-thức-công-bố-các-biện-pháp-kiểm-soát-xuất-khẩu-mới-đối-với-feni-và-npi"
-      },
-      {
-        "short": "The Oregon Group",
-        "name": "The Oregon Group, « Can nickel prices hit $25,000 in 2026? »",
-        "url": "https://theoregongroup.com/commodities/nickel/can-nickel-prices-hit-25000-in-2026/"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-07-chine-terres-rares",
-    "date": "2026-10-07",
-    "theme": "geo",
-    "region": "Asie",
-    "title": "Terres rares : la Chine tient le monde entier, échéance le 10 novembre",
-    "summary": "Pékin a suspendu pour un an ses restrictions les plus dures sur les terres rares. La trêve expire dans un mois.",
-    "geo": [
-      {
-        "name": "Baotou (Chine)",
-        "label": "Chine",
-        "coords": [
-          109.84,
-          40.66
-        ]
-      }
-    ],
-    "points": [
-      "Annoncées en octobre 2025, les nouvelles restrictions chinoises à l'export de terres rares sont suspendues jusqu'au 10 novembre 2026 [1].",
-      "En juin 2026, la Chine a ajouté dix entreprises américaines à sa liste noire, dont le principal producteur de terres rares des États-Unis [2].",
-      "Les contrôles plus anciens sur le tungstène, le bismuth ou l'indium restent en vigueur [1]."
-    ],
-    "why": [
-      "Les terres rares sont 17 métaux indispensables aux aimants des moteurs électriques, des éoliennes, des smartphones et des missiles. La Chine domine l'essentiel du raffinage mondial, ce qui lui donne un énorme moyen de pression [3].",
-      "C'est la réponse de Pékin aux restrictions américaines sur les puces électroniques : chacun bloque ce dont l'autre a besoin. Le sommet Trump-Xi du 24 septembre n'a pas encore réglé la question [3]."
-    ],
-    "forMe": "Sans terres rares, pas de voitures électriques ni d'éoliennes en Europe. Les industriels européens surveillent la date du 10 novembre de très près.",
-    "figures": [
-      {
-        "value": "17",
-        "label": "métaux forment la famille des terres rares"
-      },
-      {
-        "value": "10 nov.",
-        "label": "fin de la suspension des restrictions chinoises",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "semi-conducteurs",
-      "droits-de-douane"
-    ],
-    "sources": [
-      {
-        "short": "Clark Hill",
-        "name": "Clark Hill, « China hits pause on rare-earth export controls and what it means for supply chains »",
-        "url": "https://www.clarkhill.com/news-events/news/china-hits-pause-on-rare-earth-export-controls-and-what-it-means-for-supply-chains/"
-      },
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « China adds 10 US firms, including rare-earth miner, to export control list » (22 juin 2026)",
-        "url": "https://www.aljazeera.com/news/2026/6/22/china-adds-10-us-firms-including-rare-earth-miner-to-export-control-list"
-      },
-      {
-        "short": "Rare Earth Exchanges",
-        "name": "Rare Earth Exchanges, « China rare earth export controls: November 2026 deadline explained »",
-        "url": "https://rareearthexchanges.com/news/china-rare-earth-controls-trump-xi-deadline/"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-07-guinee-simandou",
-    "date": "2026-10-07",
-    "theme": "eco",
-    "region": "Afrique",
-    "title": "Guinée : Simandou, la montagne de fer qui fait trembler l'Australie",
-    "summary": "Le plus grand gisement de fer inexploité du monde exporte enfin vers la Chine. Un tournant pour la Guinée et pour le marché de l'acier.",
-    "geo": [
-      {
-        "name": "Simandou (Guinée)",
-        "label": "Guinée",
-        "coords": [
-          -8.9,
-          8.6
-        ]
-      }
-    ],
-    "points": [
-      "La première cargaison de minerai de Simandou est partie début décembre 2025 [3].",
-      "En mai 2026, les exportations ont atteint environ 2,2 millions de tonnes sur le mois, un record [2].",
-      "Wood Mackenzie prévoit environ 16 millions de tonnes exportées en 2026, pour une capacité finale de 120 millions de tonnes par an [1]."
-    ],
-    "why": [
-      "Le projet, porté notamment par Rio Tinto et des groupes chinois, a nécessité plus de 600 km de voie ferrée et un nouveau port. Son minerai très riche intéresse la Chine, qui veut moins dépendre du fer australien [1].",
-      "Pour la Guinée, l'un des pays les plus pauvres du monde, c'est une chance historique, à condition que les revenus profitent vraiment à la population."
-    ],
-    "forMe": "Le fer sert à faire l'acier de nos voitures, immeubles et ponts. Une nouvelle source géante peut faire baisser son prix mondial et changer les rapports de force entre la Chine et l'Australie.",
-    "figures": [
-      {
-        "value": "120 Mt",
-        "label": "de capacité annuelle visée",
-        "src": 1
-      },
-      {
-        "value": "≈ 16 Mt",
-        "label": "d'exportations prévues en 2026",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "routes-maritimes"
-    ],
-    "sources": [
-      {
-        "short": "Wood Mackenzie",
-        "name": "Wood Mackenzie, « Simandou iron ore 2026 »",
-        "url": "https://www.woodmac.com/press-releases/simandou-iron-ore-2026/"
-      },
-      {
-        "short": "Miningmx",
-        "name": "Miningmx, « Simandou iron ore exports surge in ramp-up milestone »",
-        "url": "https://www.miningmx.com/news/ferrous-metals/65528-simandou-iron-ore-exports-surge-in-ramp-up-milestone/"
-      },
-      {
-        "short": "S&P Global",
-        "name": "S&P Global, première cargaison de Simandou arrivée en Chine (janv. 2026)",
-        "url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/011926-simandous-first-shipment-with-200000-mt-high-grade-iron-ore-arrives-in-china"
       }
     ]
   }

@@ -8,27 +8,6 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.agenda = [
   {
-    "id": "2026-11-03-midterms-etats-unis",
-    "date": "2026-11-03",
-    "theme": "geo",
-    "region": "Amériques",
-    "place": "États-Unis",
-    "title": "Élections de mi-mandat aux États-Unis",
-    "why": "Les 435 sièges de la Chambre des représentants, 35 sièges du Sénat et 39 postes de gouverneur sont en jeu [1][2]. Si le Congrès change de camp, le président aura plus de mal à faire passer ses lois, ses budgets et ses droits de douane.",
-    "sources": [
-      {
-        "short": "Khaleej Times",
-        "name": "Khaleej Times, « US midterm elections 2026: All you need to know »",
-        "url": "https://www.khaleejtimes.com/world/americas/us-midterm-elections-2026-voting-explainer"
-      },
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, 26 octobre 2026",
-        "url": "https://aljazeera.com/news/2026/10/26/us-midterm-elections-2026-in-maps-and-charts"
-      }
-    ]
-  },
-  {
     "id": "2026-11-04-bresil-copom-selic",
     "date": "2026-11-04",
     "theme": "fin",
@@ -92,6 +71,99 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-11-05-banxico-taux",
+    "date": "2026-11-05",
+    "theme": "eco",
+    "region": "Amériques",
+    "place": "Mexique",
+    "title": "Banxico décide de son taux directeur",
+    "why": "Le marché attend une pause à 6,50 % [1][2]. Une surprise ferait bouger le peso, déjà fragilisé par les midterms.",
+    "news": "2026-11-04-mexique-banxico-pause-attendue",
+    "sources": [
+      {
+        "short": "Maya Comunicación",
+        "name": "Maya Comunicación, « Banxico decide su tasa el 5 de noviembre »",
+        "url": "https://mayacomunicacion.com.mx/banxico-decision-tasa-5-noviembre-2026/"
+      },
+      {
+        "short": "XTB",
+        "name": "XTB, « Banxico decide tasas esta semana »",
+        "url": "https://www.xtb.com/lat/analisis-y-noticias/analisis-de-mercado/banxico-decide-tasas-esta-semana-que-esperar-del-usd-mxn"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-israel-herzog-likoud-yashar",
+    "date": "2026-11-05",
+    "theme": "geo",
+    "region": "Moyen-Orient",
+    "place": "Jérusalem",
+    "title": "Israël : Herzog reçoit le Likoud de Netanyahou et le parti Yashar d'Eisenkot",
+    "why": "C'est la dernière étape des consultations : le président entend les deux plus grands partis, tard dans la soirée, avant de désigner qui tentera de former le gouvernement [1][2]. Les recommandations de l'opposition et des petits partis pèseront sur son choix, mais il n'est pas obligé de les suivre [2].",
+    "news": "2026-11-04-israel-herzog-consultations",
+    "sources": [
+      {
+        "short": "Yahoo / AFP",
+        "name": "Yahoo News, « Israel president opens talks as rivals struggle to form government »",
+        "url": "https://www.yahoo.com/news/politics/articles/israel-president-opens-talks-rivals-020036434.html"
+      },
+      {
+        "short": "Ynet",
+        "name": "Ynetnews, « 60 for Eisenkot, 46 for Netanyahu: Who gets first shot at forming Israel's government? »",
+        "url": "https://www.ynetnews.com/article/sk8eaw4pge"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-chine-foire-importations-shanghai",
+    "date": "2026-11-05",
+    "end": "2026-11-10",
+    "theme": "eco",
+    "region": "Asie",
+    "place": "Shanghai",
+    "title": "Foire internationale des importations de Chine à Shanghai",
+    "why": "La 9e édition se tient du 5 au 10 novembre au Centre national d'exposition et de congrès de Shanghai ; le Canada y est pays invité d'honneur [1]. Environ 60 pays et organisations y exposent, et c'est l'occasion d'accords commerciaux entre la Chine et ses partenaires, comme les discussions agricoles avec Ottawa [1][2].",
+    "news": "2026-11-04-chine-canada-commerce-pekin-changhai",
+    "sources": [
+      {
+        "short": "Délégués commerciaux du Canada",
+        "name": "Service des délégués commerciaux du Canada, « China International Import Expo (CIIE) 2026 »",
+        "url": "https://www.tradecommissioner.gc.ca/en/trade-events-training/2026/11/ciie.html"
+      },
+      {
+        "short": "People's Daily",
+        "name": "People's Daily, « 57 countries, 3 international organizations confirm participation in CIIE Country Exhibition » (28 juil. 2026)",
+        "url": "https://en.people.cn/n3/2026/0728/c90000-20482367.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-commerzbank-resultats-t3",
+    "date": "2026-11-05",
+    "theme": "fin",
+    "region": "Europe",
+    "place": "Francfort",
+    "title": "Commerzbank présente ses résultats du troisième trimestre",
+    "why": "Selon un compte rendu, la banque allemande publie ses chiffres le 5 novembre, en pleine offre d'échange d'UniCredit (0,485 action UniCredit pour une action Commerzbank) [1][2]. À la fin de la période d'acceptation complémentaire, le 3 juillet, 17,6 % des titres avaient été apportés, le transfert restant soumis aux autorisations réglementaires [3].",
+    "sources": [
+      {
+        "short": "Finanztrends",
+        "name": "Finanztrends, « UniCredit Aktie : Kommission prüft Commerzbank-Übernahme »",
+        "url": "https://www.finanztrends.de/news/unicredit-aktie-kommission-prueft-commerzbank-uebernahme/"
+      },
+      {
+        "short": "Börse Global",
+        "name": "Börse Global, « UniCredit Aktie : Beantragt Freigabe für Commerzbank-Übernahme »",
+        "url": "https://www.boerse-global.de/unicredit-aktie-beantragt-freigabe-fuer-commerzbank-uebernahme/833385"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « UniCredit takeover offer for Commerzbank receives 17.6 % acceptance »",
+        "url": "https://www.investing.com/news/company-news/unicredit-takeover-offer-for-commerzbank-receives-176-acceptance-93CH-4780897"
+      }
+    ]
+  },
+  {
     "id": "2026-11-06-emploi-americain-octobre",
     "date": "2026-11-06",
     "theme": "eco",
@@ -109,6 +181,28 @@ window.GEOCO.agenda = [
         "short": "Thrive in Markets",
         "name": "Thrive in Markets, « Next NFP release: Fri 6 Nov 2026 »",
         "url": "https://thriveinmarkets.com/calendar/dates/nfp-2026/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-nouvelle-zelande-elections",
+    "date": "2026-11-07",
+    "theme": "geo",
+    "region": "Asie",
+    "place": "Wellington",
+    "title": "Élections générales en Nouvelle-Zélande",
+    "why": "Les Néo-Zélandais votent le 7 novembre dans un scrutin serré, dominé par le coût de la vie et un chômage à 5,7 % [1][2]. Le résultat dira si la coalition du Premier ministre Christopher Luxon reste en place ou si les travaillistes de Chris Hipkins reviennent, avec des choix différents sur les impôts et le commerce.",
+    "news": "2026-11-04-nouvelle-zelande-election-cout-vie",
+    "sources": [
+      {
+        "short": "Bangkok Post",
+        "name": "Bangkok Post, « New Zealand votes with economy, cost of living in focus »",
+        "url": "https://www.bangkokpost.com/world/3348465/new-zealand-votes-with-economy-cost-of-living-in-focus"
+      },
+      {
+        "short": "Newswire",
+        "name": "Newswire.co.nz, « Luxon and Hipkins clash in final debate as two polls split »",
+        "url": "https://newswire.co.nz/2026/10/luxon-hipkins-final-leaders-debate-two-polls-opposite-directions/"
       }
     ]
   },
@@ -131,6 +225,32 @@ window.GEOCO.agenda = [
         "short": "Wikipédia",
         "name": "Wikipédia (anglais), « 2026 United Nations Climate Change Conference »",
         "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-09-unicredit-resultats-t3",
+    "date": "2026-11-09",
+    "theme": "fin",
+    "region": "Europe",
+    "place": "Milan",
+    "title": "UniCredit publie ses résultats du troisième trimestre",
+    "why": "UniCredit a reporté l'approbation de ses comptes au 8 novembre, avec présentation et conférence avec les analystes le 9 novembre [1][2]. Ce sera l'occasion d'entendre la direction sur son offre pour Commerzbank, que la banque allemande et le gouvernement de Berlin refusent [1][3].",
+    "sources": [
+      {
+        "short": "Finanztrends",
+        "name": "Finanztrends, « UniCredit Aktie : Kommission prüft Commerzbank-Übernahme »",
+        "url": "https://www.finanztrends.de/news/unicredit-aktie-kommission-prueft-commerzbank-uebernahme/"
+      },
+      {
+        "short": "Börse Global",
+        "name": "Börse Global, « UniCredit Aktie : Beantragt Freigabe für Commerzbank-Übernahme »",
+        "url": "https://www.boerse-global.de/unicredit-aktie-beantragt-freigabe-fuer-commerzbank-uebernahme/833385"
+      },
+      {
+        "short": "Irish Times",
+        "name": "Irish Times, « UniCredit launches €35bn Commerzbank takeover offer » (16 mars 2026)",
+        "url": "https://www.irishtimes.com/business/financial-services/2026/03/16/unicredit-launches-35bn-commerzbank-takeover-offer"
       }
     ]
   },
@@ -173,6 +293,28 @@ window.GEOCO.agenda = [
         "short": "Report.az",
         "name": "Report.az, « US, China yet to agree on extending trade truce » (21 septembre 2026)",
         "url": "https://report.az/en/other-countries/us-china-yet-to-agree-on-extending-trade-truce"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-11-israel-herzog-delai-mandat",
+    "date": "2026-11-11",
+    "theme": "geo",
+    "region": "Moyen-Orient",
+    "place": "Jérusalem",
+    "title": "Israël : dernier jour pour que Herzog confie la formation du gouvernement",
+    "why": "La loi donne sept jours au président pour consulter les partis et désigner un député, soit jusqu'au 11 novembre ; ce dernier aura ensuite 28 jours pour former une majorité, avec 14 jours de prolongation possibles [1]. Un échec ouvrirait la voie à de nouvelles élections, ce qui prolongerait l'incertitude sur la guerre et la diplomatie régionale [1][2].",
+    "news": "2026-11-04-israel-herzog-consultations",
+    "sources": [
+      {
+        "short": "Yahoo / AFP",
+        "name": "Yahoo News, « Israel president opens talks as rivals struggle to form government »",
+        "url": "https://www.yahoo.com/news/politics/articles/israel-president-opens-talks-rivals-020036434.html"
+      },
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « Israeli opposition leaders back Eisenkot to oust Netanyahu » (3 nov. 2026)",
+        "url": "https://www.aljazeera.com/news/2026/11/3/israeli-opposition-leaders-back-eisenkot-to-oust-netanyahu"
       }
     ]
   },
@@ -240,6 +382,32 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-11-16-bruxelles-unicredit-commerzbank",
+    "date": "2026-11-16",
+    "theme": "fin",
+    "region": "Europe",
+    "place": "Bruxelles",
+    "title": "Bruxelles tranche sur UniCredit et Commerzbank",
+    "why": "La Commission européenne a fixé au 16 novembre sa date limite pour décider si UniCredit peut prendre le contrôle d'une part élevée de Commerzbank [1][2]. Une fois les autorisations obtenues, UniCredit disposerait de près de 50 % des droits de vote, ce qui change l'équilibre de la banque allemande [3].",
+    "sources": [
+      {
+        "short": "Finanztrends",
+        "name": "Finanztrends, « UniCredit Aktie : Kommission prüft Commerzbank-Übernahme »",
+        "url": "https://www.finanztrends.de/news/unicredit-aktie-kommission-prueft-commerzbank-uebernahme/"
+      },
+      {
+        "short": "Börse Global",
+        "name": "Börse Global, « UniCredit Aktie : Beantragt Freigabe für Commerzbank-Übernahme »",
+        "url": "https://www.boerse-global.de/unicredit-aktie-beantragt-freigabe-fuer-commerzbank-uebernahme/833385"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « UniCredit takeover offer for Commerzbank receives 17.6 % acceptance »",
+        "url": "https://www.investing.com/news/company-news/unicredit-takeover-offer-for-commerzbank-receives-176-acceptance-93CH-4780897"
+      }
+    ]
+  },
+  {
     "id": "2026-11-17-budget-2027-vote",
     "date": "2026-11-17",
     "theme": "eco",
@@ -303,6 +471,28 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-11-17-nouvelle-zelande-rbnz-stabilite",
+    "date": "2026-11-17",
+    "theme": "fin",
+    "region": "Asie",
+    "place": "Wellington",
+    "title": "La banque centrale néo-zélandaise publie son rapport sur la stabilité financière",
+    "why": "La RBNZ publie son rapport le 17 novembre, après les élections [1]. Il fait le point sur la solidité des banques et des ménages au moment où le chômage est au plus haut depuis 2015 et où les marchés attendent la réunion de décembre sur les taux [1][2].",
+    "news": "2026-11-04-nouvelle-zelande-election-cout-vie",
+    "sources": [
+      {
+        "short": "InvestingLive",
+        "name": "InvestingLive, « Recap: New Zealand jobless rate hits 11-year high, kiwi slips as RBNZ hike bets fade »",
+        "url": "https://investinglive.com/news/recap-new-zealand-jobless-rate-hits-11-year-high-kiwi-slips-as-rbnz-hike-bets-fade/"
+      },
+      {
+        "short": "RBNZ",
+        "name": "Reserve Bank of New Zealand, site officiel (calendrier des publications)",
+        "url": "https://www.rbnz.govt.nz/"
+      }
+    ]
+  },
+  {
     "id": "2026-11-18-apec-shenzhen",
     "date": "2026-11-18",
     "end": "2026-11-19",
@@ -346,6 +536,29 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-11-18-apec-shenzhen-sommet",
+    "date": "2026-11-18",
+    "end": "2026-11-19",
+    "theme": "geo",
+    "region": "Asie",
+    "place": "Shenzhen",
+    "title": "Sommet des dirigeants de l'APEC à Shenzhen",
+    "why": "Le 33e sommet de la coopération économique Asie-Pacifique se tient en Chine les 18 et 19 novembre, précédé du sommet des chefs d'entreprise les 17 et 18 [1][2]. Il réunit les économies de la région autour du commerce, et peut être le cadre de rencontres entre dirigeants sur les droits de douane et les chaînes d'approvisionnement.",
+    "news": "2026-11-04-chine-canada-commerce-pekin-changhai",
+    "sources": [
+      {
+        "short": "Shenzhen",
+        "name": "Gouvernement du district de Longgang, Shenzhen, « The 33rd APEC Economic Leaders' Meeting to occur in Shenzhen (11.18-19, 2026) »",
+        "url": "https://www.lg.gov.cn/english/news/latestnews/content/post_12588327.html"
+      },
+      {
+        "short": "CGTN",
+        "name": "CGTN, « 2026 APEC CEO Summit to be held on Nov 17-18 in China's Shenzhen »",
+        "url": "https://news.cgtn.com/news/2026-09-10/2026-APEC-CEO-Summit-to-be-held-on-Nov-17-18-in-China-s-Shenzhen-1QkpMIz9M2s/p.html"
+      }
+    ]
+  },
+  {
     "id": "2026-11-20-sommet-ue-royaume-uni",
     "date": "2026-11-20",
     "theme": "geo",
@@ -384,6 +597,28 @@ window.GEOCO.agenda = [
         "short": "TASS",
         "name": "TASS, « Palestinian President schedules parliamentary elections for November 28, 2026 »",
         "url": "https://tass.com/world/2158187"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-algerie-elections-locales",
+    "date": "2026-11-28",
+    "theme": "geo",
+    "region": "Afrique",
+    "place": "Algérie",
+    "title": "Algérie : élections communales et de wilayas",
+    "why": "Le scrutin renouvelle pour cinq ans les assemblées locales, avec 162 864 candidats recensés par l'autorité électorale, contre 134 140 en 2021 [1][2]. L'opposition dénonce l'écartement de candidats et un boycott exposerait les partis à une dissolution selon la loi de 2026 [1][2].",
+    "news": "2026-11-03-algerie-locales-candidats-invalides",
+    "sources": [
+      {
+        "short": "Jeune Afrique",
+        "name": "Jeune Afrique, « L'opposition algérienne démunie face aux invalidations de candidats aux élections locales de novembre »",
+        "url": "https://www.jeuneafrique.com/1854836/politique/lopposition-algerienne-demunie-face-aux-invalidations-de-candidats-aux-elections-locales-de-novembre/"
+      },
+      {
+        "short": "Algérie360",
+        "name": "Algérie360, « Élections locales du 28 novembre : pourquoi l'ANIE a écarté des maires sortants »",
+        "url": "https://www.algerie360.com/elections-locales-2026-candidats-ecartes-article-184/"
       }
     ]
   },
@@ -453,6 +688,29 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-12-08-fed-reunion-decembre",
+    "date": "2026-12-08",
+    "end": "2026-12-09",
+    "theme": "fin",
+    "region": "Amériques",
+    "place": "Washington, États-Unis",
+    "title": "Réunion de la Fed : hausse de taux envisagée",
+    "why": "Les marchés donnent plus de 80 % de chances à une hausse de 0,25 point [1][2]. Cela renchérirait le dollar et le crédit dans le monde.",
+    "news": "2026-11-04-etats-unis-emploi-jolts-fed-hausse",
+    "sources": [
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Fed interest rate decision October 2026 »",
+        "url": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html"
+      },
+      {
+        "short": "QUE.com",
+        "name": "QUE.com, « Job Openings Jump to 7.5 Million… »",
+        "url": "https://que.com/job-openings-jump-to-7-5-million-and-quits-hit-an-18-month-high-raising-the-odds-of-a-december-fed-rate-hike/"
+      }
+    ]
+  },
+  {
     "id": "2026-12-09-fed-taux",
     "date": "2026-12-09",
     "theme": "fin",
@@ -517,6 +775,28 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-12-16-colombie-fin-session-loi-sauvetage",
+    "date": "2026-12-16",
+    "theme": "eco",
+    "region": "Amériques",
+    "place": "Bogotá",
+    "title": "Colombie : fin de la session du Congrès, date limite pour la loi de sauvetage budgétaire",
+    "why": "Les sessions ordinaires du Congrès colombien s'achèvent le 16 décembre, et le gouvernement veut que la loi de sauvetage économique soit votée avant la fin de l'année [1][2]. Sans vote, le vice-président Restrepo avertit que le pays pourrait entrer en défaut en 2027.",
+    "news": "2026-11-04-colombie-defaut-2027-loi-sauvetage",
+    "sources": [
+      {
+        "short": "Rio Times",
+        "name": "The Rio Times, « Colombia rescue law faces Congress »",
+        "url": "https://www.riotimesonline.com/colombia-rescue-law-faces-congress-2026/"
+      },
+      {
+        "short": "Semana",
+        "name": "Semana, « Sin reforma, Colombia entrará en default en 2027 »",
+        "url": "https://www.semana.com/economia/macroeconomia/articulo/sin-reforma-colombia-entrara-en-default-en-2027-la-advertencia-del-vicepresidente-y-del-ministro-de-hacienda/202641/"
+      }
+    ]
+  },
+  {
     "id": "2026-12-17-bce-taux",
     "date": "2026-12-17",
     "theme": "fin",
@@ -534,6 +814,28 @@ window.GEOCO.agenda = [
         "short": "Eco3min",
         "name": "Eco3min, « ECB Meeting Calendar »",
         "url": "https://eco3min.fr/en/ecb-meeting-calendar/"
+      }
+    ]
+  },
+  {
+    "id": "2026-12-31-mongolie-ganqimaodu-travaux",
+    "date": "2026-12-31",
+    "theme": "eco",
+    "region": "Asie",
+    "place": "Ganqimaodu, frontière Chine-Mongolie",
+    "title": "Fin possible des travaux au poste frontière de Ganqimaodu",
+    "why": "Selon l'ambassade de Chine citée par l'AP, les travaux de modernisation qui ralentissent les camions pourraient durer jusqu'à fin décembre. Tant qu'ils durent, les exportations de cuivre d'Oyu Tolgoi vers la Chine restent freinées, avec des pertes pouvant atteindre 1,2 milliard de dollars d'ici la fin de l'année [1][2].",
+    "news": "2026-11-04-mongolie-oyu-tolgoi-seisme-frontiere",
+    "sources": [
+      {
+        "short": "AP (ABC News)",
+        "name": "AP via ABC News, « Mongolian mining company says copper exports have dropped due to China border restrictions »",
+        "url": "https://abcnews.com/Technology/wireStory/mongolian-mining-company-copper-exports-dropped-due-china-137666814"
+      },
+      {
+        "short": "Fortune",
+        "name": "Fortune, 29 octobre 2026",
+        "url": "https://fortune.com/2026/10/29/mongolia-300-million-copper-exports-china-border-1-2-billion/"
       }
     ]
   }
