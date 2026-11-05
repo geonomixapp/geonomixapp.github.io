@@ -467,22 +467,23 @@ window.GEOCO.news = [
         ]
       }
     ],
-    "title": "France : grève et manifestations contre la vie chère, 270 000 personnes dans les cortèges dès midi selon l'entourage du ministre de l'Intérieur",
-    "summary": "Jeudi 5 novembre, les syndicats appellent à la grève et à manifester dans toute la France contre la vie chère, après des semaines de mobilisation de la jeunesse. À midi, l'entourage du ministère de l'Intérieur comptait environ 270 000 manifestants ; la CGT en annonçait plus de 250 000 à 13 h [1][2][4].",
+    "title": "France : grève et manifestations contre la vie chère, 575 000 personnes dans les cortèges selon le ministère de l'Intérieur, 1,6 million selon la CGT",
+    "summary": "Jeudi 5 novembre, les syndicats ont appelé à la grève et à manifester dans toute la France contre la vie chère. Le ministère de l'Intérieur a compté 575 000 manifestants (600 000 à 17 h), la CGT près de 1,6 million, dont 350 000 à Paris ; 448 interpellations selon le ministère [1][7][8].",
     "points": [
       "L'appel est porté par une intersyndicale large (CFDT, CGT, FO, UNSA, FSU et Solidaires). Elle réclame une hausse générale des salaires, des pensions et du Smic, ainsi que la revalorisation du point d'indice des fonctionnaires, selon l'AFP [3][4].",
-      "À midi, l'entourage du ministère de l'Intérieur comptait environ 270 000 manifestants dans 180 cortèges, selon le direct de franceinfo [1]. La CGT annonçait, elle, plus de 250 000 personnes à 13 h dans 73 villes, et son dirigeant disait que le chiffre allait continuer à monter [2]. Ces deux comptages, faits à des heures et avec des méthodes différentes, ne sont pas comparables : ils sont provisoires.",
+      "Le ministère de l'Intérieur a d'abord compté environ 600 000 manifestants à 17 h dans 180 cortèges, un chiffre provisoire ramené à 575 000 dans un bilan ultérieur ; la CGT revendique près de 1,6 million de manifestants, dont 350 000 à Paris. À Paris, le ministère en compte 65 000 ; à Marseille, la préfecture de police 14 000 contre 150 000 selon la CGT [1][7][8]. À midi, l'entourage du ministère évoquait 270 000 personnes et la CGT plus de 250 000 à 13 h : ces premiers comptages, à des heures différentes, étaient provisoires [1][2].",
       "Avant la journée, une source sécuritaire évoquait entre 500 000 et 700 000 manifestants hors de Paris et jusqu'à 80 000 dans la capitale [5]. Pour comparer : le ministère avait compté 550 000 personnes le 17 octobre et 410 000 le 24 octobre, quand la CGT en revendiquait près de 800 000 [2].",
       "Les transports sont touchés : les quatre syndicats représentatifs de la SNCF appellent à la grève, avec des perturbations possibles sur les TGV, les Intercités et les TER [3][4].",
       "Dans l'éducation, le ministère annonçait près de 16 % d'enseignants grévistes et 33 % d'établissements d'enseignement supérieur perturbés [1][2]. Pour la première fois, tous les syndicats de l'enseignement privé sous contrat appellent aussi à la grève [4].",
       "Le ministre de l'Intérieur, Laurent Nuñez, a annoncé que policiers et gendarmes seraient de nouveau mobilisés, environ 70 000 au total [2].",
-      "La suite n'est pas tranchée : le mouvement des gilets jaunes parle d'une reconduction des blocages les 6 et 7 novembre, mais les syndicats, sauf Solidaires, ne parlent pas pour l'instant de prolonger la grève au-delà de jeudi [4][6]."
+      "La suite n'est pas tranchée : le mouvement des gilets jaunes parle d'une reconduction des blocages les 6 et 7 novembre, mais les syndicats, sauf Solidaires, ne parlent pas pour l'instant de prolonger la grève au-delà de jeudi [4][6].",
+      "Bilan des incidents à 18 h, selon le ministère de l'Intérieur : 448 interpellations, 53 membres des forces de l'ordre blessés et 86 interventions pour incendies, un bilan provisoire qui devait être consolidé [7]."
     ],
     "why": [
       "À retenir : la colère ne vient plus seulement de la jeunesse. Pendant des semaines, des jeunes ont manifesté contre la vie chère ; jeudi, ce sont les salariés, avec toutes les grandes confédérations réunies, ce qui est rare et donne au mouvement un poids que les journées isolées n'avaient pas [3][4].",
       "Le ressort économique est simple : les prix montent plus vite que les salaires pour une partie des ménages. Les revendications (Smic, pensions, point d'indice des fonctionnaires) visent donc le portefeuille directement, et l'État est concerné deux fois : comme employeur de ses fonctionnaires et comme législateur du salaire minimum et des pensions [3][4].",
       "Les chiffres de participation sont un enjeu politique en soi. Le ministère et la CGT donnent presque toujours des totaux très différents, et la bataille des chiffres sert à dire si le mouvement monte ou s'essouffle. La série des journées précédentes (550 000 le 17 octobre, 410 000 le 24 selon le ministère) sert de point de repère : un total supérieur à 410 000 jeudi soir signalerait une remontée [2].",
-      "Prudence : ces chiffres datent de la mi-journée et seront revus. Nous mettrons à jour dès que le décompte final du ministère et celui de la CGT seront publiés."
+      "Le décompte de fin de journée du ministère (575 000) dépasse ceux des deux journées précédentes (550 000 le 17 octobre, 410 000 le 24) : selon le décompte officiel, la mobilisation est la plus forte de la série. Les chiffres du ministère et de la CGT restent très éloignés, comme toujours [1][7][8]."
     ],
     "forMe": "Si tu prends le train ou si tu as des enfants scolarisés, vérifie dès maintenant les perturbations annoncées par ta compagnie et ton établissement : elles peuvent durer jusqu'à vendredi si le mouvement est reconduit.",
     "next": [
@@ -493,19 +494,19 @@ window.GEOCO.news = [
     ],
     "figures": [
       {
-        "value": "≈ 270 000",
-        "label": "manifestants à midi, selon l'entourage du ministère de l'Intérieur",
-        "src": 1
+        "value": "575 000",
+        "label": "manifestants selon le ministère de l'Intérieur (600 000 à 17 h)",
+        "src": 7
       },
       {
-        "value": "> 250 000",
-        "label": "manifestants à 13 h, selon la CGT",
-        "src": 2
+        "value": "≈ 1,6 M",
+        "label": "manifestants selon la CGT, dont 350 000 à Paris",
+        "src": 8
       },
       {
-        "value": "550 000",
-        "label": "manifestants le 17 octobre, selon le ministère (410 000 le 24)",
-        "src": 2
+        "value": "448",
+        "label": "interpellations à 18 h, selon le ministère",
+        "src": 7
       }
     ],
     "culture": [],
@@ -540,6 +541,16 @@ window.GEOCO.news = [
         "short": "Connexion France",
         "name": "Connexion France, « French union calls for anti-budget protests from November 6 »",
         "url": "https://www.connexionfrance.com/news/french-union-calls-for-anti-budget-protests-from-november-6/748962"
+      },
+      {
+        "short": "franceinfo (bilan)",
+        "name": "franceinfo, « DIRECT. Mobilisation du 5 novembre : près de 1,6 million de personnes ont défilé en France selon la CGT, 575 000 selon le ministère de l'Intérieur »",
+        "url": "https://www.franceinfo.fr/societe/manifestations/direct-greve-du-5-novembre-plus-de-250-actions-annoncees-dans-toute-la-france-selon-une-carte-de-la-ggt_8268827.html"
+      },
+      {
+        "short": "ICI",
+        "name": "ICI (France Bleu), « DIRECT - Grève du 5 novembre : « près de 1,6 million » de manifestants selon la CGT, 600 000 à 17 h selon le ministère »",
+        "url": "https://www.ici.fr/infos/economie-social/direct-greve-du-5-novembre-les-syndicats-dans-la-rue-ce-jeudi-pour-les-salaires-et-contre-la-vie-chere-7257620"
       }
     ]
   },
@@ -634,6 +645,298 @@ window.GEOCO.news = [
         "short": "France Épargne",
         "name": "France Épargne, « BofA prévoit deux hausses de taux de la Banque d'Angleterre jusqu'à 4,25 % en février »",
         "url": "https://www.france-epargne.fr/news/bofa-prevoit-deux-hausses-de-taux-de-la-banque-dangleterre-jusqua-425-en-fevrier.md"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-argentine-risque-pays-900-wall-street",
+    "date": "2026-11-05",
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique latine",
+      "Amérique du Nord"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "name": "Buenos Aires, Argentine",
+        "label": "Argentine",
+        "coords": [
+          -58.38,
+          -34.6
+        ]
+      }
+    ],
+    "title": "Argentine : le risque pays dépasse 900 points, obligations et actions décrochent après les élections américaines",
+    "summary": "Jeudi 5 novembre, le risque pays argentin mesuré par JP Morgan a franchi la barre des 900 points, entre 915 et 927 selon les médias, son plus haut depuis octobre 2025. Les obligations en dollars ont perdu jusqu'à 3,7 %, le Merval entre 3 et 4,2 % et Mercado Libre 14 % [1][2][3][4].",
+    "points": [
+      "Le risque pays, qui mesure l'écart entre le taux auquel l'Argentine emprunte en dollars et celui des États-Unis, est passé de 852 points à la clôture de mercredi à 915-927 points jeudi, selon les médias consultés ; iProfesional signale un pic de séance à 982 avant un recul à 927 [1][3][5].",
+      "C'est le niveau le plus élevé depuis le 24 octobre 2025, d'après Cadena 3. La veille, le 3 novembre, il était à 829 points, contre un plancher de 403 le 7 juillet [4][6].",
+      "Les obligations souveraines en dollars ont reculé jusqu'à 3,5-3,7 % ; les Globales 2038 et 2035 figurent parmi les plus touchées, selon Rosario Finanzas [3][5].",
+      "Le Merval a perdu entre 3 % (85 628 points) et 4,2 % (84 564 points) selon l'heure et le média ; Mercado Libre, la grande entreprise du commerce en ligne cotée à Wall Street, a chuté de 14 % après la publication de ses résultats trimestriels [2][4].",
+      "Une analyste de l'Oficina de Inversiones, citée par La Nación, attribue la baisse surtout à un facteur mondial : Wall Street a de nouveau reculé après le rebond de mercredi, qui avait suivi la victoire démocrate aux élections américaines de mi-mandat [2].",
+      "Le ministre de l'Économie, Luis Caputo, a affirmé que le résultat du scrutin américain ne changerait pas sensiblement la relation bilatérale ; le marché regarde les échéances : environ 1,3 milliard de dollars à régler au FMI entre novembre et décembre, et 4,4 milliards aux détenteurs d'obligations en janvier, selon la presse argentine [3][5]."
+    ],
+    "why": [
+      "À retenir : le risque pays est le thermomètre de la confiance des prêteurs. Quand il monte, l'Argentine doit offrir un rendement plus élevé pour emprunter en dollars, et au-delà d'environ 900 points les investisseurs commencent à se demander si le pays pourra rembourser sans aide extérieure [1][3].",
+      "Le choc vient de deux côtés. Dehors, la baisse de Wall Street réduit l'appétit pour les pays émergents ; dedans, les analystes craignent que la victoire démocrate au Congrès réduise la marge de manœuvre de Donald Trump pour aider Javier Milei, alors que Washington a ouvert une ligne de swap (échange de devises) de 20 milliards de dollars avec Buenos Aires et que Scott Bessent, secrétaire au Trésor, s'est dit prêt à acheter des obligations argentines si nécessaire [6][7].",
+      "Les réserves brutes de la banque centrale s'élevaient à 50,3 milliards de dollars le 3 novembre et elle n'avait acheté aucun dollar depuis le début du mois : le pays a peu de marge pour faire face à des échéances en dollars si les marchés se ferment [8].",
+      "Le recul de Mercado Libre, première capitalisation latino-américaine de sa catégorie cotée à New York, montre que la baisse touche aussi des entreprises privées, pas seulement l'État [4]."
+    ],
+    "forMe": "Si tu as de la famille ou des économies en Argentine, retiens que le peso et les dettes du pays réagissent autant à Wall Street et à Washington qu'à Buenos Aires. Pour un lecteur européen, l'effet direct est faible, mais c'est un test : un pays émergent très endetté en dollars est le premier à souffrir quand la Bourse américaine baisse.",
+    "next": [
+      {
+        "when": "Novembre-décembre",
+        "what": "Environ 1,3 milliard de dollars d'échéances envers le FMI, puis 4,4 milliards envers les détenteurs d'obligations en janvier [3]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "915-927",
+        "label": "points de risque pays le 5 novembre, contre 852 la veille",
+        "src": 1
+      },
+      {
+        "value": "−14 %",
+        "label": "Mercado Libre après ses résultats trimestriels",
+        "src": 4
+      },
+      {
+        "value": "50,3 Md$",
+        "label": "réserves brutes de la banque centrale (3 novembre)",
+        "src": 8
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "dollar"
+    ],
+    "markets": {
+      "items": [
+        {
+          "name": "Mercado Libre",
+          "ticker": "MELI",
+          "move": "−14 %",
+          "why": "Plateforme de commerce en ligne très présente en Argentine ; son action a chuté de 14 % après la présentation de son bilan trimestriel [4]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Infobae",
+        "name": "Infobae, « El riesgo país de la Argentina sigue subiendo y rompe la barrera de los 900 puntos básicos » (5 nov. 2026)",
+        "url": "https://www.infobae.com/economia/2026/11/05/el-riesgo-pais-de-la-argentina-sigue-subiendo-y-rompe-la-barrera-de-los-900-puntos-basicos/"
+      },
+      {
+        "short": "La Nación",
+        "name": "La Nación, « Se dispara el riesgo país por encima de los 900 puntos y caen los bonos argentinos » (5 nov. 2026)",
+        "url": "https://lanacion.com.ar/economia/se-dispara-el-riesgo-pais-por-encima-de-los-900-puntos-y-caen-los-bonos-argentinos-nid05112026"
+      },
+      {
+        "short": "iProfesional",
+        "name": "iProfesional, « Los bonos argentinos caen hasta 3,7 % y el riesgo país supera los 900 puntos »",
+        "url": "https://iprofesional.com/finanzas/468436-bonos-argentinos-caen-hasta-3-por-ciento-y-el-riesgo-pais-llega-a-982-puntos"
+      },
+      {
+        "short": "Cadena 3",
+        "name": "Cadena 3, « El riesgo país rompió la barrera de los 900 puntos y las acciones argentinas caen hasta 14 % »",
+        "url": "https://cadena3.com/noticia/politica-y-economia/el-riesgo-pais-rompio-la-barrera-de-los-900-puntos-y-las-acciones-argentinas-caen-hasta-14_610526"
+      },
+      {
+        "short": "Rosario Finanzas",
+        "name": "Rosario Finanzas, « Riesgo país supera los 915 puntos tras elecciones en EEUU, bonos y acciones argentinas caen »",
+        "url": "https://rosariofinanzas.ar/noticias/riesgo-pais-supera-los-915-puntos-tras-elecciones-en-eeuu-bonos-y-acciones-argentinas-caen"
+      },
+      {
+        "short": "Infobae (3 nov.)",
+        "name": "Infobae, « Riesgo país arriba de 800 puntos y activos en baja » (3 nov. 2026)",
+        "url": "https://www.infobae.com/economia/2026/11/03/riesgo-pais-arriba-de-800-puntos-y-activos-en-baja-por-que-las-acciones-y-los-bonos-argentinos-tocaron-minimos-en-un-ano/"
+      },
+      {
+        "short": "Diario de Cuyo",
+        "name": "Diario de Cuyo, « Swap, compra de bonos y préstamo del Tesoro : los ejes de la ayuda de EE.UU. a Argentina »",
+        "url": "https://www.diariodecuyo.com.ar/politica/swap-compra-de-bonos-y-prestamo-del-tesoro-los-ejes-de-la-ayuda-de-eeuu-a-argentina-1775804.html"
+      },
+      {
+        "short": "La Nación (BCRA)",
+        "name": "La Nación, « El Banco Central volvió a pausar la compra de reservas » (3 nov. 2026)",
+        "url": "https://www.lanacion.com.ar/economia/por-el-dolar-demandado-el-banco-central-vuelve-a-pausar-la-compra-de-reservas-nid03112026/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-paraguay-pena-demission-ueno-bank",
+    "date": "2026-11-05",
+    "region": "Amériques",
+    "theme": "mix",
+    "zones": [
+      "Amérique latine"
+    ],
+    "geo": [
+      {
+        "name": "Asunción, Paraguay",
+        "label": "Paraguay",
+        "coords": [
+          -57.58,
+          -25.26
+        ]
+      }
+    ],
+    "title": "Paraguay : le président Santiago Peña démissionne après la faillite d'Ueno Bank, la guarani perd 8 %",
+    "summary": "Jeudi 5 novembre, le président paraguayen Santiago Peña a démissionné quelques heures après l'intervention de la banque centrale sur Ueno Bank, sixième banque du pays, qui comptait plus de 60 % des adultes parmi ses clients. Le guarani a perdu environ 8 % et le risque pays a bondi [1][2][3].",
+    "points": [
+      "La crise a commencé le 29 octobre 2026 : Ueno Bank a informé la banque centrale du Paraguay (BCP) qu'elle ne pouvait pas reconstituer environ 70 millions de dollars de sa réserve obligatoire, selon Infobae [3].",
+      "Selon CBC, Santiago Peña a démissionné quelques heures après que la banque centrale a pris le contrôle d'Ueno Bank, qui comptait plus de 60 % des adultes du pays parmi ses clients ; La Nación (Costa Rica) parle de trois millions de Paraguayens privés d'accès à leur épargne [2][4].",
+      "Bloomberg Línea décrit Ueno comme la sixième banque du pays et indique que la démission est intervenue pendant que la Chambre des députés débattait d'une demande de destitution contre le président [1][6].",
+      "Les accusations portent sur des conflits d'intérêts : selon La Nación, Santiago Peña a été actionnaire d'Ueno Holding jusqu'en 2025, année où il s'est retiré de la société [4].",
+      "Huit dirigeants de la banque ont été arrêtés et le président de la banque centrale, Carlos Carvallo, a lui aussi démissionné [4].",
+      "Infobae rapporte un guarani en baisse d'environ 8 % et un risque pays paraguayen en forte hausse ; la banque centrale et l'association des banques (Asoban) affirment que la faillite ne touche pas l'ensemble du système financier [3][5].",
+      "Selon Bloomberg Línea, c'est le vice-président Pedro Alliana qui aurait pris la présidence en cas de destitution de Peña ; La Nación signale que l'opposition voulait aussi un procès politique contre lui [1][4]."
+    ],
+    "why": [
+      "À retenir : quand une grande banque tombe, ce sont d'abord les épargnants qui paient. Ueno comptait plus de 60 % des adultes parmi ses clients : l'intervention de la banque centrale a donc touché une très large partie de la population, ce qui explique la rapidité de la crise politique [2][4].",
+      "Le mécanisme est classique. Une banque doit garder une partie des dépôts en réserve auprès de la banque centrale (la réserve obligatoire). Quand elle ne peut plus la reconstituer, comme Ueno le 29 octobre pour environ 70 millions de dollars, la banque centrale intervient pour éviter une panique : si chacun veut retirer son argent en même temps, aucune banque ne peut rembourser tout le monde [3].",
+      "La question politique s'ajoute à la question bancaire : le soupçon de conflit d'intérêts entre le chef de l'État et la banque a transformé une faillite en crise de régime. Le départ du président de la banque centrale et l'arrestation de huit dirigeants montrent que l'affaire touche à la fois le pouvoir et la supervision bancaire [1][4].",
+      "Pour le reste de la région, le risque est la contagion : un guarani en chute de 8 % et un risque pays qui monte rappellent aux investisseurs que les pays émergents très dépendants de leurs banques locales sont fragiles, au moment même où l'Argentine voit son risque pays franchir les 900 points [3]."
+    ],
+    "forMe": "Si tu as de l'argent ou de la famille au Paraguay, retiens que la banque centrale et l'association des banques disent que le reste du système n'est pas touché ; la question est de savoir quand et comment les déposants d'Ueno récupéreront leur épargne, ce que les sources consultées ne disent pas encore.",
+    "figures": [
+      {
+        "value": "> 60 %",
+        "label": "des adultes paraguayens clients d'Ueno Bank",
+        "src": 2
+      },
+      {
+        "value": "≈ 70 M$",
+        "label": "réserve obligatoire qu'Ueno ne pouvait plus reconstituer (29 octobre)",
+        "src": 3
+      },
+      {
+        "value": "≈ −8 %",
+        "label": "baisse du guarani",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Bloomberg Línea",
+        "name": "Bloomberg Línea, « El presidente de Paraguay, Santiago Peña, renuncia tras la quiebra de Ueno Bank »",
+        "url": "https://www.bloomberglinea.com/latinoamerica/el-presidente-de-paraguay-santiago-pena-renuncia-tras-la-quiebra-de-ueno-bank/"
+      },
+      {
+        "short": "CBC",
+        "name": "CBC News, « Bank collapse sinks Paraguay's President Santiago Peña, who resigns as customers fear their savings are gone »",
+        "url": "https://www.cbc.ca/news/world/paraguay-ueno-bank-crisis-pena-resignation-9.7410656"
+      },
+      {
+        "short": "Infobae",
+        "name": "Infobae, « Impacto financiero por el colapso del Ueno Bank : saltó el riesgo país de Paraguay y el guaraní se devaluó 8 % » (5 nov. 2026)",
+        "url": "https://www.infobae.com/economia/2026/11/05/impacto-financiero-por-el-colapso-del-ueno-bank-salto-el-riesgo-pais-de-paraguay-y-el-guarani-se-devaluo-8/"
+      },
+      {
+        "short": "La Nación (Costa Rica)",
+        "name": "La Nación, « ¿Qué pasó en Paraguay con la intervención del Ueno Bank ? »",
+        "url": "https://www.nacion.com/el-mundo/que-paso-en-paraguay-con-la-intervencion-del-ueno/BD5OJNT2JVET5O2HEUZIYSOQ24/story/"
+      },
+      {
+        "short": "El Colombiano",
+        "name": "El Colombiano, « ¿Qué pasó con Ueno Bank, el banco que llevó a la renuncia del presidente de Paraguay ? »",
+        "url": "https://www.elcolombiano.com/negocios/quiebra-ueno-bank-crisis-politica-renuncia-santiago-pena-presidente-paraguay-DH43222346"
+      },
+      {
+        "short": "Bloomberg Línea (Congrès)",
+        "name": "Bloomberg Línea, « Quiebra de Ueno Bank sacude a Paraguay : miles reclaman sus ahorros y el Congreso debate destituir a Peña »",
+        "url": "https://www.bloomberglinea.com/latinoamerica/quiebra-de-ueno-bank-sacude-a-paraguay-miles-reclaman-sus-ahorros-y-el-congreso-debate-destituir-a-pena/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-russie-japan-tobacco-jti-tutelle-poutine",
+    "date": "2026-11-05",
+    "region": "Europe",
+    "theme": "mix",
+    "zones": [
+      "Asie",
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Moscou, Russie",
+        "label": "Russie",
+        "coords": [
+          37.62,
+          55.75
+        ]
+      }
+    ],
+    "title": "Poutine place les usines russes de Japan Tobacco International sous tutelle de l'État",
+    "summary": "Jeudi 5 novembre, un décret de Vladimir Poutine a placé sous « gestion temporaire » les participations de Japan Tobacco International (JTI) dans quatre usines russes, confiées à une société russe, Industrial Assets. Les propriétaires gardent leurs titres mais perdent la direction [1][2][3].",
+    "points": [
+      "Le décret, publié le 5 novembre sur le portail juridique officiel russe, vise quatre sociétés de fabrication : Donskoy Tabak, Pereslavl-Tabak, JTI Yelets et Kres Neva, selon l'agence TASS [2].",
+      "Leur gestion est confiée à une entité nommée Industrial Assets, dont le décret ne donne pas d'autre précision que sa raison sociale, d'après les médias qui l'ont consulté [2][3].",
+      "Le mécanisme repose sur un décret présidentiel d'avril 2023 : il permet à Moscou de placer sous gestion temporaire les actifs détenus en Russie par des entreprises de pays jugés « inamicaux ». Le propriétaire reste propriétaire sur le papier, mais perd le droit de gérer [1][3].",
+      "Le Japon, membre du G7, fait partie des pays que la Russie classe comme inamicaux ; le porte-parole du Kremlin a relié ces mesures à l'origine des propriétaires, selon la presse ayant relayé ses déclarations [1][4].",
+      "JTI est décrite comme le premier fabricant de tabac de Russie ; un entretien du Financial Times avec le PDG de Japan Tobacco indiquait en 2024 que la Russie représentait environ 20 % des profits du groupe [3].",
+      "Le même mécanisme avait déjà frappé Metro, Auchan, Nestlé et Leroy Merlin en septembre ; dans les cas précédents, des ventes à une fraction de la valeur ont souvent suivi, selon la Novaïa Gazeta citée par Liga [1][3].",
+      "Le Kremlin dément saisir des biens étrangers : Vladimir Poutine avait qualifié de « mensonges et provocations » ces accusations devant le club Valdaï en octobre. La presse occidentale et japonaise parle d'une saisie qui ne dit pas son nom [1][3][4]."
+    ],
+    "why": [
+      "À retenir : une mise « sous gestion temporaire » est une prise de contrôle sans changement de propriétaire officiel. L'entreprise garde les titres, mais l'État russe choisit qui dirige l'usine et encaisse les profits, ce qui prépare souvent une vente forcée à bas prix [1][3].",
+      "Pour Japan Tobacco, l'enjeu est financier : la Russie pèse environ un cinquième de ses profits selon l'entretien de 2024 de son PDG au Financial Times. Perdre le contrôle de quatre usines, c'est perdre une part importante du groupe, et le risque d'une cession à vil prix s'ajoute à la perte de gestion [3].",
+      "Pour la géopolitique, c'est un signe de plus de la dégradation des relations entre Moscou et Tokyo, déjà tendues par les sanctions japonaises liées à la guerre en Ukraine. La Russie utilise ses lois d'exception pour faire payer aux pays « inamicaux » le prix des sanctions, en prenant des actifs que leurs entreprises ne peuvent pas emporter [1][4].",
+      "Les investisseurs étrangers encore présents en Russie reçoivent un avertissement : après les distributeurs et les marques de grande consommation, un fabricant industriel est visé. Ce sont des actifs concrets, usines et marques, qu'aucune décision de justice étrangère ne peut protéger sur place [1][3]."
+    ],
+    "forMe": "Si tu travailles pour une entreprise qui a encore des activités en Russie, ou si tu suis les sanctions, retiens que quitter ce pays peut coûter cher : rester expose à la prise de contrôle, partir oblige souvent à vendre à un prix très bas.",
+    "next": [
+      {
+        "when": "À suivre",
+        "what": "Reste à savoir si Japan Tobacco conteste le décret ou négocie une sortie, et si d'autres actifs étrangers suivent [1][3]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "4",
+        "label": "usines russes de JTI placées sous gestion temporaire",
+        "src": 2
+      },
+      {
+        "value": "≈ 20 %",
+        "label": "part de la Russie dans les profits du groupe Japan Tobacco (entretien FT de 2024)",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "sanctions"
+    ],
+    "sources": [
+      {
+        "short": "Nikkei Asia",
+        "name": "Nikkei Asia, « Putin seizes control of Japan Tobacco units as Moscow-Tokyo ties fray »",
+        "url": "https://asia.nikkei.com/politics/international-relations/putin-seizes-control-of-japan-tobacco-units-as-moscow-tokyo-ties-fray"
+      },
+      {
+        "short": "TASS",
+        "name": "TASS, « Putin places Japan Tobacco's Russian assets under temporary management »",
+        "url": "https://tass.com/politics/2213281"
+      },
+      {
+        "short": "Liga.net",
+        "name": "Liga.net, « Kremlin seizes Japan Tobacco's Russian factories »",
+        "url": "https://biz.liga.net/en/fmcg/news/kremlin-seizes-japan-tobaccos-russian-factories-despite-business-as-usual"
+      },
+      {
+        "short": "ProtoThema",
+        "name": "ProtoThema, « Russia seizes control of Japan Tobacco's assets by Putin decree as Coca-Cola HBC shares plunge » (5 nov. 2026)",
+        "url": "https://en.protothema.gr/2026/11/05/russia-seizes-control-of-japan-tobaccos-assets-by-putin-decree-as-coca-cola-hbc-shares-plunge/"
+      },
+      {
+        "short": "Nippon.com",
+        "name": "Nippon.com, « Japan Tobacco's Assets to Be Placed under Russian Management »",
+        "url": "https://nippon.com/en/articles/-/56985"
       }
     ]
   },
@@ -1105,6 +1408,377 @@ window.GEOCO.news = [
     ]
   },
   {
+    "id": "2026-11-05-cvs-scission-pharmacies-aetna",
+    "date": "2026-11-05",
+    "region": "Amériques",
+    "theme": "fin",
+    "zones": [
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Woonsocket, États-Unis",
+        "label": "États-Unis",
+        "coords": [
+          -71.51,
+          42
+        ]
+      }
+    ],
+    "title": "CVS Health veut se couper en deux, pharmacies d'un côté, assurance Aetna de l'autre, et son action perd 13 %",
+    "summary": "Mercredi 4 novembre, CVS Health a annoncé qu'elle se scinderait en deux sociétés cotées : les quelque 9 000 pharmacies d'un côté, l'assureur Aetna et la gestion des médicaments de l'autre. L'action a chuté d'environ 12,6 % à 79,94 dollars, les investisseurs y voyant une manœuvre défensive [1][2][3].",
+    "points": [
+      "La société qui garde le nom CVS Health regroupera Aetna, le gestionnaire de prestations pharmaceutiques Caremark, CVS Specialty, Oak Street Health et Signify Health ; David Joyner, président et directeur général, y conserve ses fonctions [1][2].",
+      "La seconde, CVS Pharmacy, reprendra les quelque 9 000 magasins, la pharmacie par correspondance, MinuteClinic et Health100, avec Prem Shah, aujourd'hui président de groupe, comme directeur général [2].",
+      "La séparation est attendue au premier semestre 2028, sous réserve de l'accord final du conseil d'administration ; les actionnaires recevraient des titres des deux sociétés sans impôt, selon l'entreprise [2].",
+      "Selon Reuters, l'action a plongé de 12,6 % à 79,94 dollars ; d'autres médias parlent de 12 à 13 %. Kevin Caliendo, analyste d'UBS, explique que l'annonce a surpris et qu'elle est perçue comme une manœuvre défensive face à la réglementation plutôt que comme une offensive [1][3].",
+      "David Joyner présente le projet comme une décision prise « en position de force », en citant le redressement de l'activité Medicare d'Aetna et les bons résultats des pharmacies, malgré un troisième trimestre solide [2][3].",
+      "Un projet de loi bipartisan, le Patients Before Monopolies Act, interdirait à une entreprise qui possède un assureur ou un gestionnaire de prestations de posséder aussi une pharmacie ; les analystes citent aussi la dette et le dividende comme questions ouvertes [2][4]."
+    ],
+    "why": [
+      "À retenir : en Bourse, une scission est souvent saluée quand elle libère de la valeur, mais ici le marché a sanctionné l'annonce parce qu'il y lit une réponse à la pression politique, pas un choix de stratégie [1][3].",
+      "CVS est un cas rare : l'entreprise vend des médicaments au comptoir, assure des millions de patients et négocie les prix des médicaments pour d'autres assureurs. Cette intégration verticale est justement ce que le projet de loi vise. En séparant les deux métiers, CVS réduit le risque d'une interdiction brutale, mais perd les synergies qui justifiaient l'ensemble [2][3].",
+      "Le calendrier, 2028, est long : d'ici là, l'entreprise doit répartir sa dette entre les deux sociétés et décider du sort du dividende, deux points que les analystes jugent non résolus [4]."
+    ],
+    "forMe": "Rien à faire de direct : cette actu t'explique pourquoi une annonce de scission peut faire baisser une action. Si tu aimes le secteur de la santé américain, c'est un signe que le modèle « assureur + pharmacie + gestionnaire de médicaments » est sous pression politique. Ce n'est pas un conseil d'acheter ou de vendre.",
+    "next": [
+      {
+        "when": "Premier semestre 2028",
+        "what": "Date prévue de la séparation, sous réserve de l'accord final du conseil d'administration [2]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "−12,6 %",
+        "label": "recul de l'action CVS à 79,94 $ après l'annonce",
+        "src": 1
+      },
+      {
+        "value": "≈ 9 000",
+        "label": "pharmacies qui iraient dans CVS Pharmacy",
+        "src": 2
+      },
+      {
+        "value": "117 Md$",
+        "label": "taille du groupe, selon Bloomberg",
+        "src": 4
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : une scission (spin-off), pourquoi l'action peut monter ou baisser",
+        "text": "Dans une scission, une entreprise sépare une activité en une société distincte et distribue ses actions aux actionnaires existants : chacun possède alors deux titres au lieu d'un. La théorie : chaque société, plus simple à comprendre, peut être mieux valorisée, et sa direction se concentre sur un seul métier. Mais le marché regarde aussi le pourquoi. Si la scission paraît contrainte (pression des régulateurs ou d'actionnaires activistes), il y voit une manœuvre défensive et fait baisser le cours. Elle dépend aussi de la dette : l'une des deux sociétés peut hériter d'une charge plus lourde. Le contrepoids, c'est qu'une société qui se sépare perd les économies que lui offrait sa taille [1][3][5][6]."
+      }
+    },
+    "past": {
+      "title": "Quand de grands groupes se sont séparés",
+      "items": [
+        {
+          "when": "2 avril 2024",
+          "what": "General Electric se divise : au premier jour de Bourse, le nouveau GE Vernova perd 2 dollars à 140 dollars après un début de séance en hausse, tandis que GE Aerospace recule de plus de 18 %, à 136 dollars [5].",
+          "lesson": "Le cours de l'ancienne société baisse mécaniquement du poids de ce qui part : la valeur doit se juger sur l'ensemble des deux titres."
+        },
+        {
+          "when": "Avril 2024",
+          "what": "Après sa séparation, GE Vernova gagne plus de 20 % en quelques jours quand GE Aerospace recule d'environ 5 %, alors que Solventum, issue de 3M, baisse à cause de ses dettes et de la part gardée par sa maison mère [6].",
+          "lesson": "Une scission réussit ou non selon la dette héritée et le nombre d'actions que la maison mère peut encore revendre."
+        }
+      ]
+    },
+    "markets": {
+      "items": [
+        {
+          "name": "CVS Health",
+          "ticker": "CVS",
+          "move": "−12,6 %",
+          "why": "Pharmacies, assureur Aetna et gestionnaire de prestations Caremark dans une même société : l'action a reculé de 12,6 % à 79,94 dollars après l'annonce de la scission [1]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Reuters (Euronext)",
+        "name": "Reuters / Euronext, « CVS to break up $117 billion business, separating pharmacies from insurance; shares fall »",
+        "url": "https://live.euronext.com/en/financial-news/cvs-break-117-billion-business-separating-pharmacies-insurance-shares-fall"
+      },
+      {
+        "short": "The Daily Record",
+        "name": "The Daily Record, « CVS to split pharmacies from insurance in $117 billion breakup » (4 nov. 2026)",
+        "url": "https://thedailyrecord.com/2026/11/04/cvs-split-pharmacies-insurance-117-billion-breakup/"
+      },
+      {
+        "short": "Star Advertiser",
+        "name": "Star-Advertiser, « CVS shares plunge 13% after surprise plan to split company » (4 nov. 2026)",
+        "url": "https://www.staradvertiser.com/2026/11/04/breaking-news/cvs-shares-plunge-13-after-surprise-plan-to-split-company/"
+      },
+      {
+        "short": "Bloomberg",
+        "name": "Bloomberg, « CVS Plans to Break Up $117 Billion Healthcare Conglomerate » (4 nov. 2026)",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-04/cvs-plans-to-break-up-117-billion-healthcare-conglomerate"
+      },
+      {
+        "short": "Times Union",
+        "name": "Times Union, « Vernova splits from GE, starts trading shares Tuesday »",
+        "url": "https://www.timesunion.com/business/article/vernova-splits-ge-starts-trading-shares-tuesday-19378956.php"
+      },
+      {
+        "short": "Super.news",
+        "name": "Super.news, « GE Vernova shares surge post-split, outperforming GE Aerospace » (3 avr. 2024)",
+        "url": "https://super.news/en/articles/2024/04/03/ge-vernova-shares-surge-post-split-outperforming-ge-aerospace-signaling-strong-market-interest"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-nextdc-goodman-digital-realty-participation",
+    "date": "2026-11-05",
+    "region": "Asie",
+    "theme": "fin",
+    "zones": [
+      "Océanie",
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Sydney, Australie",
+        "label": "Australie",
+        "coords": [
+          151.21,
+          -33.87
+        ]
+      }
+    ],
+    "title": "NextDC s'envole de 51 % : Goodman et Digital Realty achètent en douce près de 10 % du géant australien des centres de données",
+    "summary": "Jeudi 5 novembre, l'action du groupe australien de centres de données NextDC a clôturé en hausse de 50,8 % après que Goodman Group et l'américain Digital Realty ont acquis jusqu'à 9,9 % de son capital à 9,50 dollars australiens l'action, 45 % au-dessus de la clôture de la veille [1][2][3].",
+    "points": [
+      "L'achat passe par une société commune, Ackland Investments No.1, détenue à parts égales par Goodman et Digital Realty, qui a monté un « aftermarket bookbuild » (placement après la clôture) mercredi pour acheter jusqu'à 9,9 % de NextDC à 9,50 A$ l'action [1][3].",
+      "Ce prix est supérieur de 45 % à la clôture de mercredi, 6,53 A$ ; selon Reuters, qui cite un document d'investisseurs, l'opération vaut environ 715 millions de dollars australiens, soit 501 millions de dollars américains [1][3].",
+      "Le conseil d'administration de NextDC a qualifié la manœuvre d'« opportuniste » et dit en ignorer l'issue ; les acheteurs ont indiqué ne pas avoir l'intention de lancer une offre de contrôle pour l'instant, tout en se réservant ce droit [3].",
+      "Selon CNBC, le titre a clôturé en hausse de 50,84 % jeudi ; en séance, d'autres médias relevaient 43 % (9,34 A$) puis 45,8 % (9,52 A$) [1][3].",
+      "NextDC avait perdu plus de 40 % depuis janvier, l'essentiel fin octobre quand il a suspendu tous ses futurs développements et abaissé ses prévisions de revenus ; même après la hausse, l'action reste environ 37 % sous son niveau d'il y a un an [3].",
+      "L'opération intervient alors que les valeurs américaines des centres de données ont reculé la veille, par crainte d'un contrôle plus strict après la victoire démocrate aux élections de mi-mandat [3]."
+    ],
+    "why": [
+      "À retenir : quand un investisseur achète une grosse part d'une société cotée sans la racheter, il fait monter le cours parce que les autres actionnaires se demandent s'il ira plus loin. Ici le prix payé (9,50 A$) est devenu un plancher de référence [1][3].",
+      "Les centres de données, où sont stockés et calculés les services d'intelligence artificielle, sont devenus un actif très recherché : les infrastructures de calcul manquent, et construire coûte cher. Goodman, groupe immobilier logistique, et Digital Realty, un des grands acteurs mondiaux, parient qu'un NextDC affaibli vaut plus que son cours de la veille [3].",
+      "Les prises de participation sous la barre de 10 % sont une étape classique avant une offre : elles permettent d'entrer au capital sans avoir à déclarer une offre publique complète, tout en gênant une éventuelle offre rivale. Reste à voir si Goodman et Digital Realty iront plus loin [3]."
+    ],
+    "forMe": "Rien à faire de direct : cette actu montre comment l'envie de posséder des centres de données, au cœur de l'IA, pousse même un titre en difficulté à bondir de moitié en une séance. Ce n'est pas un conseil d'acheter ou de vendre.",
+    "figures": [
+      {
+        "value": "+50,8 %",
+        "label": "hausse de NextDC à la clôture du 5 novembre",
+        "src": 1
+      },
+      {
+        "value": "9,50 A$",
+        "label": "prix payé, 45 % au-dessus de la clôture de la veille (6,53 A$)",
+        "src": 3
+      },
+      {
+        "value": "≈ 715 M A$",
+        "label": "valeur de l'opération pour jusqu'à 9,9 % du capital",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs"
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi une prise de participation de 9,9 % fait bondir une action",
+        "text": "Acheter près de 10 % d'une société, c'est une position d'attente : l'acheteur peut rester actionnaire ou monter plus tard vers une offre de rachat. Le marché fait deux calculs : un acheteur qui paie 45 % de prime donne un prix de référence, et un acheteur important peut revenir. Les autres actionnaires cessent alors de vendre en dessous de ce prix, et le cours rejoint souvent le prix payé. Le risque inverse : si l'acheteur renonce, la prime peut se dégonfler. Le conseil de la société visée peut aussi résister en la qualifiant d'opportuniste, comme ici [1][3]."
+      }
+    },
+    "past": {
+      "title": "Quand les centres de données ont changé de mains",
+      "items": [
+        {
+          "when": "2024",
+          "what": "Blackstone et CPP Investments rachètent le groupe de centres de données AirTrunk à Macquarie et PSP pour plus de 24 milliards de dollars australiens de valeur d'entreprise (dette comprise) [4].",
+          "lesson": "Les centres de données sont devenus un actif de grande valeur pour les fonds d'infrastructure."
+        },
+        {
+          "when": "2020",
+          "what": "Des investisseurs menés par Macquarie avaient pris le contrôle d'AirTrunk pour environ 3 milliards de dollars australiens, selon un résumé d'opération [5].",
+          "lesson": "En quatre ans, la valeur du même actif a été multipliée par plusieurs fois : le marché paie le temps d'avance et la capacité de calcul."
+        }
+      ]
+    },
+    "markets": {
+      "items": [
+        {
+          "name": "NextDC",
+          "ticker": "NXT",
+          "move": "+50,8 %",
+          "why": "Opérateur australien de centres de données ; l'action a clôturé en hausse de 50,84 % après l'annonce de la prise de participation de Goodman et Digital Realty [1]."
+        },
+        {
+          "name": "Goodman Group",
+          "ticker": "GMG",
+          "why": "Groupe immobilier qui détient, avec Digital Realty, la société qui achète jusqu'à 9,9 % de NextDC [1][3]."
+        },
+        {
+          "name": "Digital Realty",
+          "ticker": "DLR",
+          "why": "Opérateur américain de centres de données, partenaire de Goodman dans l'opération [1][3]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "CNBC",
+        "name": "CNBC, « NextDC shares surge 51% on Goodman, Digital Realty stake purchases » (5 nov. 2026)",
+        "url": "https://www.cnbc.com/2026/11/05/nextdc-goodman-group-digital-realty-data-centers-.html"
+      },
+      {
+        "short": "IBTimes Australie",
+        "name": "IBTimes Australia, « NextDC Shares Rocket 48% After Goodman and Digital Realty Launch Surprise Raid »",
+        "url": "https://www.ibtimes.com.au/nextdc-shares-surge-goodman-digital-realty-stake-1877927"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « NextDC shares surge 43% as Goodman, Digital Realty buy stake »",
+        "url": "https://au.investing.com/news/stock-market-news/nextdc-shares-surge-43-as-goodman-digital-realty-buy-stake-4744845"
+      },
+      {
+        "short": "DCD",
+        "name": "DatacenterDynamics, « AirTrunk sold: Blackstone and CPP to acquire APAC data center operator for AU$24bn »",
+        "url": "https://www.datacenterdynamics.com/en/news/blackstone-and-cpp-to-acquire-apac-data-center-firm-airtrunk-for-au24bn/"
+      },
+      {
+        "short": "MergerSight",
+        "name": "MergerSight, « Blackstone's $16.14bn Acquisition of AirTrunk »",
+        "url": "https://www.mergersight.com/post/blackstone-s-16-14bn-acquisition-of-airtrunk"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-rheinmetall-chute-previsions-arminius",
+    "date": "2026-11-05",
+    "region": "Europe",
+    "theme": "fin",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Düsseldorf, Allemagne",
+        "label": "Allemagne",
+        "coords": [
+          6.78,
+          51.23
+        ]
+      }
+    ],
+    "title": "Rheinmetall chute de plus de 15 % : le géant allemand de l'armement abaisse de nouveau ses prévisions",
+    "summary": "Jeudi 5 novembre, l'action de Rheinmetall a plongé de 15 à plus de 17 % selon l'heure après un second avertissement sur ses prévisions de 2026 : le chiffre d'affaires visé passe à environ 13,2 milliards d'euros, contre 13,7 à 14,2 milliards, à cause du report du contrat Arminius [1][2][3].",
+    "points": [
+      "Rheinmetall ramène son objectif de chiffre d'affaires annuel à environ 13,2 milliards d'euros, contre une fourchette précédente de 13,7 à 14,2 milliards, selon Euronews [1].",
+      "La cause principale est le report du contrat Arminius, un programme de véhicules blindés Boxer pour la Bundeswehr, l'armée allemande, selon BFM Bourse [3].",
+      "L'action a perdu plus de 17 % vers 10 h (heure de Paris) selon Euronews, 16 % en fin d'après-midi selon BFM Bourse et jusqu'à 17 % selon d'autres médias : l'écart tient à l'heure de mesure [1][2][3].",
+      "Depuis janvier, le titre a perdu environ 50 %, d'après BFM Bourse [3].",
+      "Les ventes du troisième trimestre ont pourtant progressé de 32 % ; l'attention du marché s'est portée sur les prévisions annuelles et non sur le trimestre écoulé [2].",
+      "JPMorgan a réduit son objectif de cours de 1 350 à 1 150 euros tout en gardant sa recommandation « neutre » [2].",
+      "C'est le second avertissement de l'année : en août, l'annulation des frégates F126 avait déjà conduit Rheinmetall à réduire ses prévisions de ventes [4][5]."
+    ],
+    "why": [
+      "À retenir : une action peut chuter même si les ventes progressent. Ce que le marché achète, c'est la croissance future ; quand Rheinmetall retire environ 500 millions d'euros à ses ventes attendues, il révise à la baisse tout ce que les investisseurs avaient imaginé pour les années suivantes [1][3].",
+      "Le cas est révélateur du secteur de la défense européenne : les commandes sont énormes, mais leur calendrier dépend de décisions politiques et de contrats publics. Un report de contrat côté Bundeswehr suffit à décaler des centaines de millions d'euros de ventes d'une année à l'autre [3].",
+      "Pour l'Europe qui se réarme, c'est un rappel que produire plus vite des blindés, des munitions et des navires est plus difficile que de voter des budgets : les retards industriels coûtent cher aux entreprises comme aux armées [2][3]."
+    ],
+    "forMe": "Rien à faire de direct : cette actu t'explique pourquoi un avertissement sur les prévisions fait plonger une action, même quand l'entreprise grandit. Ce n'est pas un conseil d'acheter ou de vendre.",
+    "figures": [
+      {
+        "value": "≈ 13,2 Md€",
+        "label": "chiffre d'affaires 2026 visé, contre 13,7 à 14,2 Md€ avant",
+        "src": 1
+      },
+      {
+        "value": "−15 % à −17 %",
+        "label": "recul de l'action selon l'heure",
+        "src": 1
+      },
+      {
+        "value": "−50 %",
+        "label": "performance de l'action depuis janvier",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi un avertissement sur les prévisions fait plonger une action",
+        "text": "Le cours d'une action reflète ce que les investisseurs pensent que l'entreprise gagnera dans les années à venir. Chaque entreprise publie des prévisions (guidance) pour l'année ; quand elle les abaisse, le marché revoit à la baisse tous les bénéfices futurs, et le prix baisse en quelques minutes. Le trimestre passé compte moins que ce que l'entreprise annonce pour la suite. Un second avertissement dans l'année est pire qu'un premier : il fait douter de la capacité de la direction à tenir ses engagements, ce qui renforce la baisse. Ici, les ventes du troisième trimestre ont progressé de 32 %, mais la baisse de l'objectif annuel a dominé [1][2][3]."
+      }
+    },
+    "past": {
+      "title": "Quand Rheinmetall a déjà déçu en 2026",
+      "items": [
+        {
+          "when": "24 juin 2026",
+          "what": "Berlin annule le programme des frégates F126 : l'action Rheinmetall recule de 13 % selon IndexBox, de près de 19 % selon une autre source [5][6].",
+          "lesson": "Une décision politique allemande suffit à faire plonger l'action : le client principal est l'État."
+        },
+        {
+          "when": "6 août 2026",
+          "what": "Rheinmetall abaisse sa prévision de chiffre d'affaires 2026 à 13,7-14,2 milliards d'euros (contre 14,0-14,5), en retirant environ 300 millions d'euros liés aux frégates, et maintient son objectif de bénéfice ; l'action baisse d'environ 5,5 % en séance, selon Reuters [4][7].",
+          "lesson": "Un avertissement qui ne touche que les ventes fait moins baisser l'action qu'un avertissement qui ébranle la confiance dans le calendrier."
+        }
+      ]
+    },
+    "markets": {
+      "items": [
+        {
+          "name": "Rheinmetall",
+          "ticker": "RHM",
+          "move": "−15 % à −17 %",
+          "why": "Groupe allemand d'armement, fournisseur de la Bundeswehr ; l'action a reculé de plus de 17 % en début de séance, 16 % en fin d'après-midi selon BFM Bourse, après l'abaissement de ses prévisions [1][3]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Rheinmetall chute de plus de 17 % après un nouvel avertissement sur ses prévisions » (5 nov. 2026)",
+        "url": "https://fr.euronews.com/2026/11/05/rheinmetall-chute-de-plus-de-17-apres-un-nouvel-avertissement-sur-ses-previsions"
+      },
+      {
+        "short": "ABC Bourse",
+        "name": "ABC Bourse, « Rheinmetall dévisse de plus de 16 % en Bourse, ces retards qui font dérailler ses prévisions pour 2026 »",
+        "url": "https://www.abcbourse.com/marches/rheinmetall-devisse-de-plus-de-16-en-bourse-ces-retards-qui-font-derailler-se_705691"
+      },
+      {
+        "short": "BFM Bourse",
+        "name": "BFM Bourse, « Un abaissement de prévisions qui ébranle la confiance… Rheinmetall plonge de 15 % (-50 % en 2026) »",
+        "url": "https://www.tradingsat.com/actualites/informations-societes/un-abaissement-de-previsions-qui-ebranle-la-confiancenouvelle-deception-pour-la-star-de-la-defense-europeenne-rheinmetall-qui-plonge-de-15-et-tombe-de-son-piedestal-en-bourse-50-en-2026-1173255.html"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Rheinmetall stock volatile after trimming guidance as Germany's F126 warship cancellation hits sales outlook » (6 août 2026)",
+        "url": "https://www.cnbc.com/2026/08/06/rheinmetall-stock-earnings-guidance-frigate.html"
+      },
+      {
+        "short": "IndexBox",
+        "name": "IndexBox, « Germany Cancels F126 Frigate Project: Rheinmetall Shares Plunge, TKMS Wins New Orders »",
+        "url": "https://www.indexbox.io/blog/rheinmetall-shares-drop-13-after-germany-cancels-f126-frigate-order/"
+      },
+      {
+        "short": "Breaking Defense",
+        "name": "Breaking Defense, « Rheinmetall projects $346 million naval loss after F126 frigate cancellation » (août 2026)",
+        "url": "https://breakingdefense.com/2026/08/rheinmetall-projects-346-million-naval-loss-after-f126-frigate-cancellation/"
+      },
+      {
+        "short": "MarketScreener",
+        "name": "MarketScreener, « Rheinmetall cuts outlook after frigate setback but sticks to naval goals »",
+        "url": "https://www.marketscreener.com/news/rheinmetall-scales-down-2026-sales-outlook-on-scrapped-frigate-programme-ce7f50dcd189f021"
+      }
+    ]
+  },
+  {
     "id": "2026-11-05-bresil-copom-selic-pause-13-75",
     "date": "2026-11-05",
     "level": 2,
@@ -1453,6 +2127,380 @@ window.GEOCO.news = [
         "short": "CNBC (Europe)",
         "name": "CNBC, « China says rare earth exports to Europe will continue past U.S. trade deadline » (15 octobre 2026)",
         "url": "https://www.cnbc.com/2026/10/15/china-rare-earth-exports-europe.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-tunisie-algerie-zone-libre-echange-frontaliere",
+    "date": "2026-11-05",
+    "level": 2,
+    "region": "Afrique",
+    "theme": "eco",
+    "zones": [
+      "Afrique"
+    ],
+    "geo": [
+      {
+        "name": "Tunis, Tunisie",
+        "label": "Tunisie",
+        "coords": [
+          10.18,
+          36.81
+        ]
+      }
+    ],
+    "title": "Tunisie et Algérie ouvrent des discussions pour une zone de libre-échange à leur frontière",
+    "summary": "Jeudi 5 novembre, le ministre tunisien du Commerce, Samir Abid, a annoncé que Tunis et Alger avaient engagé des discussions pour créer une zone de libre-échange à leur frontière commune. Quatre projets d'accords sont sur la table, d'après La Presse de Tunisie [1].",
+    "points": [
+      "Selon La Presse de Tunisie, les négociations portent sur quatre projets d'accords : un accord de partenariat économique, un accord de reconnaissance mutuelle des certificats de conformité, un accord sur le transit des marchandises et un accord sectoriel sur les composants automobiles [1].",
+      "L'idée n'est pas neuve : en juin 2026, un responsable du ministère tunisien du Commerce, Chadhli Maï, avait indiqué qu'une étude sur une zone commerciale et logistique franche le long de la frontière venait d'être réalisée [2].",
+      "Maghreb Émergent rapporte aussi que les deux gouvernements évoquent des zones de libre-échange aux frontières « pour bientôt » ; l'accord préférentiel existant entre les deux pays est en cours d'évaluation pour être élevé au rang d'accord de libre-échange [3]."
+    ],
+    "why": [
+      "À retenir : une zone de libre-échange frontalière vise à remplacer le commerce informel, souvent de contrebande, par des échanges déclarés, avec moins de droits de douane et des contrôles reconnus des deux côtés [1][3].",
+      "Pour la Tunisie, voisine de l'Algérie à l'ouest et de la Libye à l'est, c'est un moyen d'élargir ses débouchés alors que ses régions frontalières souffrent du chômage ; pour l'Algérie, c'est une ouverture à ses voisins, dans un contexte où ses échanges avec le Maroc continuent de baisser [1][3]."
+    ],
+    "forMe": "Si tu suis le Maghreb, c'est un signe de rapprochement économique entre Tunis et Alger. Rien n'est signé : il s'agit de discussions, et aucune date de conclusion n'est annoncée dans les sources consultées.",
+    "figures": [
+      {
+        "value": "4",
+        "label": "projets d'accords en discussion entre Tunis et Alger",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "La Presse de Tunisie",
+        "name": "La Presse de Tunisie, « Tunisie-Algérie : des discussions engagées pour créer une zone de libre-échange à la frontière » (5 nov. 2026)",
+        "url": "https://www.lapresse.tn/2026/11/05/tunisie-algerie-des-discussions-engagees-pour-creer-une-zone-de-libre-echange-a-la-frontiere/"
+      },
+      {
+        "short": "Tuniscope",
+        "name": "Tuniscope, « Zone commerciale géante entre Tunisie et Algérie en préparation » (24 juin 2026)",
+        "url": "https://www.tuniscope.com/article/434653/tunisie/actualites/zone-commerciale-geante-entre-tunisie-et-algerie-en-preparation-57477117"
+      },
+      {
+        "short": "Maghreb Émergent",
+        "name": "Maghreb Émergent, « Algérie-Tunisie : des zones de libre-échange aux frontières pour bientôt »",
+        "url": "https://maghrebemergent.news/fr/algerie-tunisie-des-zones-de-libre-echanges-aux-frontieres-pour-bientot/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-mexique-douane-controles-importations-asie",
+    "date": "2026-11-05",
+    "level": 2,
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique du Nord",
+      "Asie"
+    ],
+    "geo": [
+      {
+        "name": "Mexico, Mexique",
+        "label": "Mexique",
+        "coords": [
+          -99.13,
+          19.43
+        ]
+      }
+    ],
+    "title": "Mexique : la douane durcit les contrôles sur les importations asiatiques, sous pression de Washington",
+    "summary": "Mercredi 4 novembre, l'agence nationale des douanes du Mexique (ANAM) a annoncé un renforcement des contrôles sur les importations d'Asie, en ciblant les fausses valeurs et les fausses origines. Washington veut des règles d'origine plus strictes dans la révision de l'accord commercial nord-américain [1].",
+    "points": [
+      "L'ANAM vise les marchandises dont la valeur ou l'origine est falsifiée ; selon le Rio Times, on ignore si Washington jugera ces contrôles suffisants dans la révision de l'ACEUM (USMCA) [1].",
+      "Dans cette révision, le Mexique et le Canada demandent une prolongation de 16 ans, alors que les États-Unis proposent dix ans avec examen annuel ; la présidente Claudia Sheinbaum veut des baisses de droits américains sur les voitures, l'acier et l'aluminium et aucun nouveau droit pendant les discussions [2][3].",
+      "Le 1er janvier 2026, le Mexique avait lui-même relevé ses droits de 5 à 50 % sur 1 463 lignes de produits venant de pays sans accord commercial, dont la Chine [3]."
+    ],
+    "why": [
+      "À retenir : les États-Unis veulent éviter que des produits chinois entrent chez eux via le Mexique ; renforcer les contrôles est la réponse mexicaine à cette exigence de règles d'origine plus strictes [1][2].",
+      "Plus de 80 % des exportations mexicaines vers les États-Unis, celles qui respectent les règles de l'accord, entrent sans droits de douane, selon les autorités mexicaines : l'enjeu est donc de garder ce régime [3]."
+    ],
+    "forMe": "Si tu achètes des produits fabriqués au Mexique ou si tu suis la guerre commerciale, retiens que le sort de l'accord se joue sur un détail technique : d'où vient réellement chaque pièce.",
+    "figures": [
+      {
+        "value": "16 ans",
+        "label": "prolongation demandée par le Mexique et le Canada (les États-Unis : 10 ans, examen annuel)",
+        "src": 2
+      },
+      {
+        "value": "> 80 %",
+        "label": "des exportations mexicaines conformes qui entrent sans droits aux États-Unis",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "droits-de-douane"
+    ],
+    "sources": [
+      {
+        "short": "The Rio Times",
+        "name": "The Rio Times, « Mexico Tightens Checks on Chinese Imports »",
+        "url": "https://riotimesonline.com/mexico-customs-checks-chinese-imports-asia-2026"
+      },
+      {
+        "short": "The Rio Times (ACEUM)",
+        "name": "The Rio Times, « Mexico's Sheinbaum Says No USMCA Deal Yet »",
+        "url": "https://www.riotimesonline.com/mexico-sheinbaum-usmca-talks-no-deal-2026/"
+      },
+      {
+        "short": "Mexico News Daily",
+        "name": "Mexico News Daily, « Sheinbaum confirms first formal USMCA review meeting »",
+        "url": "https://mexiconewsdaily.com/politics/sheinbaum-usmca-review-mananera-tuesday/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-italie-leonardo-60-milliards-commandes",
+    "date": "2026-11-05",
+    "level": 2,
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Rome, Italie",
+        "label": "Italie",
+        "coords": [
+          12.5,
+          41.9
+        ]
+      }
+    ],
+    "title": "Italie : Leonardo dépasse 60 milliards d'euros de commandes grâce à la hausse des budgets de défense",
+    "summary": "Jeudi 5 novembre, le groupe italien de défense Leonardo a annoncé que ses commandes avaient dépassé 60 milliards d'euros pour la première fois, à 60,4 milliards sur neuf mois, en hausse de 28 %. Le marché a réagi de façon mitigée [1][2][3].",
+    "points": [
+      "Les commandes atteignent 60,4 milliards d'euros sur les neuf premiers mois de 2026, +28 % sur un an, selon Euronews et IndexBox [1][4].",
+      "Environ 6 milliards d'euros de cette hausse viennent de l'acquisition de la division Défense d'Iveco, finalisée en mars [4].",
+      "Le bénéfice net ajusté bondit de 74,2 % à 812 millions d'euros, selon Investing.com [3].",
+      "Leonardo relève son objectif de commandes 2026 à environ 29,5 milliards d'euros, contre 28,2 milliards, et maintient son objectif de chiffre d'affaires à 22,1 milliards [3].",
+      "Boursorama (AFP) donne une autre mesure, les prises de commandes du trimestre : 23,3 milliards d'euros, +27,8 %, et titre que Leonardo dépasse les attentes mais que la Bourse reste sur sa faim [2]."
+    ],
+    "why": [
+      "À retenir : la hausse des dépenses militaires en Europe se voit dans les carnets de commandes des industriels. Leonardo, qui fait drones, aéronautique, espace et défense, en profite, mais une bonne nouvelle déjà attendue ne fait pas toujours monter l'action [1][2].",
+      "Le contraste avec Rheinmetall, qui chute le même jour pour un contrat reporté, montre que la défense européenne n'avance pas toute à la même vitesse : les commandes sont là, mais la livraison et le calendrier font la différence [1][2]."
+    ],
+    "forMe": "Si tu suis le réarmement européen, c'est un chiffre qui montre où va l'argent : vers les drones, l'aéronautique et l'espace, chez un acteur italien présent partout en Europe.",
+    "figures": [
+      {
+        "value": "60,4 Md€",
+        "label": "commandes sur neuf mois (+28 %)",
+        "src": 1
+      },
+      {
+        "value": "812 M€",
+        "label": "bénéfice net ajusté (+74,2 %)",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Leonardo dépasse 60 milliards d'euros de commandes avec la hausse de la défense » (5 nov. 2026)",
+        "url": "https://fr.euronews.com/2026/11/05/leonardo-depasse-60-milliards-deuros-de-commandes-avec-la-hausse-de-la-defense"
+      },
+      {
+        "short": "Boursorama (AFP)",
+        "name": "Boursorama, « Leonardo dépasse les attentes, mais la Bourse reste sur sa faim » (5 nov. 2026)",
+        "url": "https://www.boursorama.com/bourse/actualites/leonardo-depasse-les-attentes-mais-la-bourse-reste-sur-sa-faim-a6fc51b5b896b70a9f11ffc5a6a9ad81"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Leonardo relève ses prévisions de commandes 2026 après neuf mois solides »",
+        "url": "https://fr.investing.com/news/earnings/leonardo-releve-ses-previsions-de-commandes-2026-apres-neuf-mois-solides-3677319"
+      },
+      {
+        "short": "IndexBox",
+        "name": "IndexBox, « Leonardo Tops €60 Billion in Orders After 28% Rise in First Nine Months of 2026 »",
+        "url": "https://www.indexbox.io/blog/leonardo-surpasses-60-billion-euros-in-orders-for-first-time/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-europe-alertes-bombe-vols-evreux",
+    "date": "2026-11-05",
+    "level": 2,
+    "region": "Europe",
+    "theme": "geo",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Évreux, France",
+        "label": "France",
+        "coords": [
+          1.15,
+          49.02
+        ]
+      }
+    ],
+    "title": "Alertes à la bombe sur plus d'une douzaine de vols européens : un avion dérouté vers la base d'Évreux",
+    "summary": "Jeudi 5 novembre, au moins 12 vols européens ont fait l'objet d'alertes à la bombe, avec des appareils escortés par des chasseurs et deux vols détournés. Un A320 Dublin-Rome a été dérouté vers la base aérienne d'Évreux, selon les services du Premier ministre français [1][2].",
+    "points": [
+      "Un A320 reliant Dublin à Rome a été dérouté vers la base aérienne d'Évreux (Eure) après une alerte à la bombe, ont annoncé jeudi les services du Premier ministre français [1].",
+      "Selon le parquet d'Évreux, cité par l'AFP, le pilote irlandais aurait refusé d'atterrir sur la base militaire, préférant un aéroport civil ; une nuit sur place était envisagée selon l'évolution de la situation [1].",
+      "La vague est plus large : au moins 12 vols européens ont été visés jeudi, plusieurs appareils ont été escortés par des avions de chasse et deux vols ont été détournés [1].",
+      "Une dizaine de vols commerciaux avaient déjà été visés mardi, par des alertes qui se sont révélées fausses selon les autorités [1]."
+    ],
+    "why": [
+      "À retenir : des alertes en série sur plusieurs vols le même jour obligent les États à mobiliser chasseurs, bases militaires et aéroports, pour un coût et une perturbation bien supérieurs à ce que coûte l'envoi d'un message. Les sources consultées ne disent pas encore qui est derrière ces alertes [1].",
+      "Pour les compagnies et les voyageurs, ce sont des retards et des déroutements ; pour les États, un test de leur coordination de sécurité aérienne en Europe [1][2]."
+    ],
+    "forMe": "Si tu voles en Europe ces jours-ci, vérifie l'état de ton vol : des déroutements et des retards sont possibles, même si les alertes précédentes se sont révélées fausses.",
+    "figures": [
+      {
+        "value": "≥ 12",
+        "label": "vols européens visés par des alertes jeudi 5 novembre",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "franceinfo (AFP)",
+        "name": "franceinfo, « Un avion de ligne A320 reliant Dublin à Rome a été dérouté vers la base aérienne d'Évreux à la suite d'une alerte à la bombe, annonce Matignon » (5 nov. 2026)",
+        "url": "https://www.franceinfo.fr/france/un-avion-de-ligne-a320-reliant-dublin-a-rome-a-ete-deroute-vers-la-base-aerienne-d-evreux-a-la-suite-d-une-alerte-a-la-bombe-annonce-matignon_8268986.html"
+      },
+      {
+        "short": "Euronews",
+        "name": "Euronews, « L'info du jour, 5 novembre 2026 (soir) »",
+        "url": "https://fr.euronews.com/video/2026/11/05/linfo-du-jour-5-novembre-2026-soir"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-ouzbekistan-pauvrete-recule-banque-mondiale",
+    "date": "2026-11-05",
+    "level": 2,
+    "region": "Asie",
+    "theme": "eco",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "name": "Tachkent, Ouzbékistan",
+        "label": "Ouzbékistan",
+        "coords": [
+          69.24,
+          41.31
+        ]
+      }
+    ],
+    "title": "Ouzbékistan : la pauvreté tombe de 17 % à 5,8 % en quatre ans, selon la Banque mondiale",
+    "summary": "Selon l'évaluation de la Banque mondiale, le taux de pauvreté national de l'Ouzbékistan est passé de 17,0 % à 5,8 % entre 2021 et 2025, soit 3,7 millions de personnes sorties de la pauvreté. La hausse des salaires et de l'emploi salarié en est le moteur principal [1][2].",
+    "points": [
+      "Le taux de pauvreté national est passé de 17,0 % à 5,8 % entre 2021 et 2025, ce qui a sorti 3,7 millions de personnes de la pauvreté, selon la Banque mondiale [1].",
+      "La classe moyenne est passée de 37 % à plus de 72 % de la population sur la même période [1].",
+      "L'Ouzbékistan représente près de 40 % de la baisse globale de la pauvreté en Europe et en Asie centrale au seuil des pays à revenu intermédiaire supérieur [1].",
+      "Le moteur principal est la hausse de l'emploi salarié et des salaires [1].",
+      "Limites : deux tiers des nouveaux emplois sont dans la construction et le commerce, environ 85 % sont informels et la productivité du travail a baissé ; 22 % de la population reste vulnérable à un retour dans la pauvreté [1].",
+      "Le gouvernement annonce de son côté 3,6 % pour les neuf premiers mois de 2026, un chiffre non comparable aux estimations de la Banque mondiale [2]."
+    ],
+    "why": [
+      "À retenir : en quatre ans, un pays d'Asie centrale a divisé son taux de pauvreté par trois, parce que les gens ont trouvé des emplois mieux payés. C'est l'un des reculs les plus rapides de la région selon la Banque mondiale [1][2].",
+      "La fragilité est dans la qualité des emplois : informels, concentrés dans la construction et le commerce, avec une productivité qui baisse. Un ralentissement de ces secteurs pourrait faire repartir la pauvreté pour les 22 % de personnes encore vulnérables [1]."
+    ],
+    "forMe": "Si tu suis les pays émergents, l'Ouzbékistan est un cas d'école : une croissance qui réduit la pauvreté vite, mais qui dépend d'emplois informels.",
+    "figures": [
+      {
+        "value": "17,0 % → 5,8 %",
+        "label": "taux de pauvreté national, 2021-2025",
+        "src": 1
+      },
+      {
+        "value": "3,7 M",
+        "label": "personnes sorties de la pauvreté",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Banque mondiale",
+        "name": "Banque mondiale, « Uzbekistan Poverty and Equity Assessment: Rising to Prosperity »",
+        "url": "https://www.worldbank.org/en/country/uzbekistan/publication/uzbekistan-poverty-and-equity-assessment-rising-to-prosperity-broadening-opportunities-for-all"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « Uzbekistan's poverty rate falls as World Bank highlights role of wages and employment »",
+        "url": "https://uk.finance.yahoo.com/news/uzbekistans-poverty-rate-falls-world-120100648.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-ue-certificat-culture-ia-eleves-15-ans",
+    "date": "2026-11-05",
+    "level": 2,
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Bruxelles, Belgique",
+        "label": "Belgique",
+        "coords": [
+          4.35,
+          50.85
+        ]
+      }
+    ],
+    "title": "UE : un certificat de « culture de l'IA » pour les élèves de 15 ans dès 2027-2028",
+    "summary": "Jeudi 5 novembre, dans son paquet « éducation et compétences », la Commission européenne a annoncé un projet pilote de certificat de « littératie en IA » pour les élèves de 15 ans à partir de l'année scolaire 2027-2028. La vice-présidente Roxana Mînzatu veut apprendre aux jeunes à vérifier ce que produit l'IA [1][2][3].",
+    "points": [
+      "La Commission expérimentera dès 2027-2028 un certificat européen de littératie en IA pour les élèves de 15 ans [1][2].",
+      "Selon Roxana Mînzatu, vice-présidente de la Commission, il doit aider les jeunes à comprendre le fonctionnement de l'IA, à vérifier les informations qu'elle fournit, à repérer les manipulations et à savoir quand se déconnecter [3].",
+      "Le projet répond à un recul des compétences de base : selon PISA 2025, environ un élève de 15 ans sur trois dans l'UE est en difficulté en lecture et en mathématiques [1].",
+      "L'UE n'a pas de compétence directe sur les politiques éducatives des 27 États membres : le certificat reste une expérimentation coordonnée, dont les modalités ne sont pas encore connues [3].",
+      "En parallèle, huit États membres, dont la Belgique, ont formé un consortium pour développer les infrastructures numériques et d'IA de leur enseignement [4]."
+    ],
+    "why": [
+      "À retenir : l'Europe veut que les jeunes sachent utiliser l'IA et s'en méfier, au moment où elle entre dans les devoirs et les recherches. Le certificat serait un diplôme européen reconnu, mais l'école reste une compétence nationale [1][3].",
+      "Pour l'économie, l'enjeu est la compétitivité : former des travailleurs capables de maîtriser ces outils, et ne pas dépendre d'outils conçus ailleurs [1]."
+    ],
+    "forMe": "Si tu as un adolescent ou si tu enseignes, retiens que rien ne change avant 2027-2028 et que le certificat sera d'abord un essai.",
+    "figures": [
+      {
+        "value": "1 sur 3",
+        "label": "élèves de 15 ans en difficulté en lecture et en maths dans l'UE (PISA 2025)",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Renew Europe",
+        "name": "Renew Europe, « Europe's competitiveness push reaches the classroom » (5 nov. 2026)",
+        "url": "https://www.reneweuropegroup.eu/news/2026-11-05/europes-competitiveness-push-reaches-the-classroom"
+      },
+      {
+        "short": "IndexBox",
+        "name": "IndexBox, « EU Plans AI Literacy Certificate for School Pupils »",
+        "url": "https://www.indexbox.io/blog/eu-to-launch-ai-literacy-certificate-for-15-year-old-students-by-2027-2028/"
+      },
+      {
+        "short": "El Universal",
+        "name": "El Universal, « Unión Europea planea incorporar certificados de alfabetización en IA »",
+        "url": "https://www.eluniversal.com.mx/mundo/union-europea-planea-incorporar-certificados-de-alfabetizacion-en-ia-buscan-ayudar-a-jovenes-a-saber-cuando-desconectarse/"
+      },
+      {
+        "short": "La Libre (Belga)",
+        "name": "La Libre, « École : alliance de 8 pays UE, dont la Belgique, pour les infrastructures numériques et IA » (5 nov. 2026)",
+        "url": "https://www.lalibre.be/dernieres-depeches/2026/11/05/ecole-alliance-de-8-pays-ue-dont-la-belgique-pour-les-infrastructures-numeriques-et-ia-4EUAWAQDTJF7THSBT2NTTFWOBA/"
       }
     ]
   },
