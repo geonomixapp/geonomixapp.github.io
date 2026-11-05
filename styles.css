@@ -1685,3 +1685,10 @@ section.flash { animation: partFlash 1.6s ease-out; }
 .brand-logo { height: 38px; width: auto; vertical-align: middle; }
 @media (max-width: 560px) { .brand .brand-logo { height: 30px; } }
 .brand .brand-mark { display: none; }
+
+/* Photos d'actus (Wikimedia Commons) sur les cartes de la mosaïque, crédit en petit */
+.mc-photo { position: relative; overflow: hidden; padding: 0 !important; }
+.mc-photo img { display: block; width: 100%; height: 100%; min-height: 160px; object-fit: cover; }
+.m-side .mc-photo img { min-height: 0; aspect-ratio: 1; }
+.mc-credit { position: absolute; right: 6px; bottom: 5px; max-width: 90%; padding: 2px 6px; border-radius: 6px; background: rgba(0,0,0,.55); color: #ddd; font-size: 10px; line-height: 1.3; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hero-img figcaption { font-size: 12px; }

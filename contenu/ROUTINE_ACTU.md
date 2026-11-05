@@ -118,6 +118,14 @@ Une actu, c'est **un fait nouveau qui change quelque chose** : une décision, un
 - Si aucune source sérieuse ne confirme un fait, on ne publie pas l'actu.
 - **Ne jamais publier zéro actu** (31 oct. 2026 : la routine s'est arrêtée sans rien publier). Si les sites de presse ne s'ouvrent pas (réseau bloqué), **les résultats de la recherche web comptent comme sources** : titre, résumé, date et adresse de chaque article trouvé. Un résultat d'une source fiable (agence, grand média, officielle), ou deux résultats de médias sérieux différents qui disent la même chose, suffisent ; on ne garde que les faits et chiffres présents dans ces résumés, et on met `verify` quand c'est mince (une seule source, résumé flou, date incertaine). Les sujets de la veille (J-1) sont acceptés si ceux du jour manquent.
 
+## Photos (demande de l'auteur, 5 nov. 2026 : « des images de bonne qualité comme Euronews, avec la source »)
+
+- **Une photo sur chaque actu principale quand on en trouve une bonne**, dans le champ `image` : `{ "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/…/1280px-….jpg", "alt": "ce qu'on voit sur la photo", "credit": "Photo : Auteur, CC BY-SA 4.0, via Wikimedia Commons" }`. Elle s'affiche en grand sur la page de l'actu et sur la carte de la mosaïque (à la place de l'illustration dessinée).
+- **Seulement des photos libres de Wikimedia Commons** (licences CC0, domaine public, CC BY, CC BY-SA ; jamais « NC » ni « ND ») : chercher avec l'API (`https://commons.wikimedia.org/w/api.php?action=query&list=search&srnamespace=6&srsearch=…&format=json`, puis `prop=imageinfo&iiprop=url|extmetadata&iiurlwidth=1280` pour l'adresse, l'auteur et la licence). **Jamais de photo d'Euronews, de l'AFP, de Reuters, d'AP, de Getty ou d'un autre média** : elles sont protégées et payantes, même avec la source citée. Jamais d'image générée présentée comme une vraie photo.
+- **La photo doit montrer le vrai sujet** : le lieu (le détroit d'Ormuz, le siège de la BCE, le Parlement), la personne (portrait officiel), l'entreprise (siège, usine, produit) ou la scène d'un type proche (une manifestation à Paris pour une grève en France). Une photo ancienne est acceptée si elle n'est pas présentée comme celle du jour : l'`alt` dit ce qu'elle montre et quand (« Le siège de la BCE à Francfort, en 2015 »). Si rien de pertinent, pas de photo (l'illustration dessinée reste).
+- **Crédit obligatoire et exact** : auteur, licence, « via Wikimedia Commons ». Largeur 1280 px (adresse « thumb »), jamais l'original de plusieurs Mo.
+- Si `commons.wikimedia.org` ou `upload.wikimedia.org` sont bloqués dans la session, ne mets pas de photo et dis-le dans le résumé.
+
 ## Format d'une actu
 
 Copier une actu existante de `data/news.js` et remplir :

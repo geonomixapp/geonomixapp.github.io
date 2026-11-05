@@ -315,7 +315,11 @@
   // sans grand titre par jour : la date est une petite mention sur la carte.
   const MOSAIC = ["big", "tall", "tall", "side", "side", "tall", "text", "tall", "side", "tall"];
   function mosaicCard(n, size, kind) {
-    const ill = size !== "text" && window.GeocoIllus ? `<div class="mc-ill">${window.GeocoIllus.svg(n, kind, size === "side")}</div>` : "";
+    // Photo d'illustration si l'actu en a une (demande de l'auteur, 5 nov. 2026 : « des images de bonne qualité
+    // comme Euronews, avec la source ») : photo libre (Wikimedia Commons), crédit en petit sur la photo.
+    const photo = n.image && n.image.src && size !== "text"
+      ? `<div class="mc-ill mc-photo"><img src="${n.image.src}" alt="${(n.image.alt || "").replace(/"/g, "&quot;")}" loading="lazy" onerror="this.parentNode.remove()"><span class="mc-credit">${n.image.credit || ""}</span></div>` : "";
+    const ill = photo || (size !== "text" && window.GeocoIllus ? `<div class="mc-ill">${window.GeocoIllus.svg(n, kind, size === "side")}</div>` : "");
     return `
       <a class="news-card mcard m-${size} ${n.theme}${isNear(n) ? " near" : ""}${isBreaking(n) ? " breaking" : ""}" href="#/actu/${n.id}" data-kind="${size === "text" ? "" : kind}">
         ${ill}
