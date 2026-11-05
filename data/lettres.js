@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-05",
+    "file": "lettres/2026-11-05.pdf",
+    "titles": [
+      "Iran : Téhéran juge « peu convaincante » la réponse américaine sur Ormuz, mais le Qatar maintient les discussions",
+      "Zone euro : l'inflation grimpe à 4 % en octobre, son plus haut depuis trois ans, et la BCE se rapproche d'une hausse de taux en décembre",
+      "Ukraine : une frappe russe sur une école-abri fait au moins 33 morts, et Zelensky vient à Berlin demander de l'énergie et de l'argent"
+    ],
+    "fileDark": "lettres/2026-11-05-sombre.pdf"
+  },
+  {
     "date": "2026-11-04",
     "file": "lettres/2026-11-04.pdf",
     "titles": [
