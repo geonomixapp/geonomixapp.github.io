@@ -42,7 +42,7 @@ begin
   select decrypted_secret into secret from vault.decrypted_secrets where name = 'notif_secret' limit 1;
   if secret is null then return new; end if;
   perform net.http_post(
-    url := 'https://xnwaiyhquydhpcqnovtc.supabase.co/functions/v1/notifier',
+    url := 'https://xnwaiyhquydhpcqnovtc.supabase.co/functions/v1/swift-handler',
     headers := jsonb_build_object('Content-Type', 'application/json', 'x-notif-secret', secret),
     body := jsonb_build_object('type', 'db', 'collection', new.collection, 'id', new.id, 'owner', new.owner,
       'data', new.data, 'old', case when tg_op = 'UPDATE' then old.data else null end)

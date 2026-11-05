@@ -30,7 +30,7 @@ Code : `notifs.js` (appli), `sw.js` (affichage), `contenu/supabase-notifier.ts` 
 
 ## 4. La Dernière minute (GitHub)
 Dépôt geonomixapp/geonomixapp.github.io > **Settings** > **Secrets and variables** > **Actions** > **New repository secret** :
-- `NOTIF_URL` = `https://xnwaiyhquydhpcqnovtc.supabase.co/functions/v1/notifier`
+- `NOTIF_URL` = `https://xnwaiyhquydhpcqnovtc.supabase.co/functions/v1/swift-handler`
 - `NOTIF_SECRET` = le même mot de passe qu'à l'étape 2.
 
 ## 5. Tester
