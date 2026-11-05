@@ -1,6 +1,6 @@
 // Service worker : met l'application en cache pour qu'elle marche hors connexion.
 // Pense à changer la version quand tu modifies des fichiers, pour forcer la mise à jour.
-const CACHE = "geonomix-v114";
+const CACHE = "geonomix-v115";
 const FILES = [
   "./",
   "index.html",
@@ -17,6 +17,7 @@ const FILES = [
   "duel-stars.js",
   "duel-orbit.js",
   "duel-db.js",
+  "notifs.js",
   "data/content.js",
   "data/news.js",
   "data/culture.js",
@@ -67,4 +68,21 @@ self.addEventListener("fetch", (event) => {
       })
       .catch(() => caches.match(event.request))
   );
+});
+
+// Notifications (notifs.js, fonction Supabase « notifier ») : { title, body, url, tag }.
+self.addEventListener("push", (event) => {
+  let d = {};
+  try { d = event.data ? event.data.json() : {}; } catch (e) { d = { body: event.data ? event.data.text() : "" }; }
+  event.waitUntil(self.registration.showNotification(d.title || "Geonomix", {
+    body: d.body || "", tag: d.tag || undefined, icon: "assets/icon-192.png", badge: "assets/icon-192.png", data: { url: d.url || "./" },
+  }));
+});
+self.addEventListener("notificationclick", (event) => {
+  event.notification.close();
+  const url = new URL((event.notification.data && event.notification.data.url) || "./", self.registration.scope).href;
+  event.waitUntil(self.clients.matchAll({ type: "window", includeUncontrolled: true }).then((list) => {
+    for (const c of list) if (c.url.split("#")[0] === url.split("#")[0] && "focus" in c) { c.navigate(url); return c.focus(); }
+    return self.clients.openWindow(url);
+  }));
 });

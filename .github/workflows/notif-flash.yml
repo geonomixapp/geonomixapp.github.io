@@ -1,0 +1,22 @@
+# Envoie la notification « Dernière minute » quand une actu avec le champ breaking est publiée.
+# Secrets du dépôt à créer (Settings > Secrets and variables > Actions) : NOTIF_URL et NOTIF_SECRET.
+name: Notification Dernière minute
+on:
+  push:
+    branches: [claude/geoeconomic-news-app-9exkx9]
+    paths: [data/news.js]
+jobs:
+  flash:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 50
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: git show ${{ github.event.before }}:data/news.js > /tmp/avant.js 2>/dev/null || git show HEAD~1:data/news.js > /tmp/avant.js || echo "" > /tmp/avant.js
+      - run: node tools/flash-nouvelles.mjs /tmp/avant.js data/news.js
+        env:
+          NOTIF_URL: ${{ secrets.NOTIF_URL }}
+          NOTIF_SECRET: ${{ secrets.NOTIF_SECRET }}

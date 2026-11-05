@@ -3451,6 +3451,8 @@ function statGrid(figures, sources, theme = "geo") {
           <div><b>${(lu.articles || []).length}</b><span>articles lus</span></div>
         </div>
 
+        <div class="pf-block reveal" id="pf-notifs"></div>
+
         <a class="pf-duel reveal" href="duel.html">
           <span>⚔ Duel</span>
           <span>${duel && duel.points ? `${duel.points} points · ${duel.wins || 0} V · ${duel.draws || 0} N · ${duel.losses || 0} D` : "Pas encore joué"}</span>
@@ -3511,6 +3513,31 @@ function statGrid(figures, sources, theme = "geo") {
             <span>${d.toLocaleDateString(LOCALE, { weekday: "short" }).replace(".", "")}</span>
           </div>`).join("")}
         </div>`;
+    })();
+    // Notifications (notifs.js) : peu nombreuses, chacune réglable.
+    (function notifBlock() {
+      const box = app.querySelector("#pf-notifs");
+      const N = window.GeocoNotifs;
+      if (!box || !N) return;
+      const KINDS = [["duel", "⚔️ C'est à toi de jouer au Duel"], ["classement", "📉 Quelqu'un te dépasse au classement (top 20)"], ["flash", "🔴 Dernière minute : un fait majeur"]];
+      function draw(msg) {
+        const st = N.status(), pr = N.prefs();
+        const head = `<div class="pf-block-head"><h2>Notifications</h2></div>`;
+        let body = "";
+        if (st === "bientot") body = `<p class="pf-note">Bientôt : les notifications arrivent dans les prochains jours.</p>`;
+        else if (st === "ios-ecran") body = `<p class="pf-note">Sur iPhone et iPad, ajoute d'abord Geonomix à ton écran d'accueil : touche <b>Partager</b> puis <b>Sur l'écran d'accueil</b>, et ouvre l'appli depuis son icône.</p>`;
+        else if (st === "non") body = `<p class="pf-note">Ton navigateur ne permet pas les notifications.</p>`;
+        else if (st === "refuse") body = `<p class="pf-note">Tu as refusé les notifications. Pour les réactiver, autorise-les pour ce site dans les réglages de ton navigateur.</p>`;
+        else if (st === "inactif") body = `<p class="pf-note">Très peu de notifications : seulement quand c'est à toi de jouer, quand on te dépasse, ou pour un fait vraiment majeur.</p><button class="pill-btn blue" type="button" id="nf-on">Activer les notifications</button>`;
+        else body = `<ul class="pf-toggles">${KINDS.map(([k, l]) => `<li><label><input type="checkbox" data-nf="${k}"${pr[k] !== false ? " checked" : ""}> ${l}</label></li>`).join("")}</ul><button class="more-btn" type="button" id="nf-off">Désactiver les notifications</button>`;
+        box.innerHTML = head + body + (msg ? `<p class="pf-note">${msg}</p>` : "");
+        const on = box.querySelector("#nf-on");
+        if (on) on.addEventListener("click", async () => { on.disabled = true; try { await N.enable(); draw(); } catch (e) { draw(N.status() === "refuse" ? "" : "Impossible d'activer les notifications pour le moment."); } });
+        const off = box.querySelector("#nf-off");
+        if (off) off.addEventListener("click", async () => { await N.disable(); draw(); });
+        box.querySelectorAll("[data-nf]").forEach((c) => c.addEventListener("change", () => N.setPref(c.dataset.nf, c.checked)));
+      }
+      draw();
     })();
     app.querySelectorAll(".pf-range button").forEach((b) => b.addEventListener("click", () => {
       app.querySelectorAll(".pf-range button").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
