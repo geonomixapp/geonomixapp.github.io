@@ -17,6 +17,997 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.news = [
   {
+    "id": "2026-11-05-iran-reponse-americaine-peu-convaincante",
+    "date": "2026-11-05",
+    "region": "Moyen-Orient",
+    "theme": "geo",
+    "zones": [
+      "Europe",
+      "Asie",
+      "Amérique du Nord"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "name": "Doha, Qatar",
+        "label": "Qatar",
+        "coords": [
+          51.53,
+          25.29
+        ]
+      },
+      {
+        "name": "Détroit d'Ormuz",
+        "label": "Ormuz",
+        "coords": [
+          56.27,
+          26.57
+        ]
+      }
+    ],
+    "title": "Iran : Téhéran juge « peu convaincante » la réponse américaine sur Ormuz, mais le Qatar maintient les discussions",
+    "summary": "Mercredi 4 novembre, l'Iran a estimé que la réponse de Washington à son plan de réouverture du détroit d'Ormuz ne répondait pas à ses sept conditions. Donald Trump a confirmé des frappes sur une île iranienne, un autre pétrolier a été attaqué, et le Qatar affirme que les deux camps restent à la table [1][2][5].",
+    "points": [
+      "Selon Al Jazeera, l'Iran a jugé le 4 novembre « peu convaincante » la réponse américaine à son plan. Mohsen Rezaei, secrétaire du Conseil suprême de sécurité nationale, a affirmé qu'elle ne remplissait pas les sept conditions de Téhéran, dont la levée des sanctions et la fin du blocus naval américain [1].",
+      "Le plan iranien prévoit de rouvrir le détroit en deux jours, à condition que les États-Unis satisfassent ces sept exigences. Le ministre des Affaires étrangères, Abbas Araghchi, dit que l'issue dépend des réponses données aux questions de l'Iran [3][5].",
+      "Donald Trump a confirmé avoir ordonné des frappes sur une île iranienne proche du détroit, et un autre pétrolier a été attaqué dans la zone, selon Al Jazeera [1].",
+      "Le porte-parole du ministère qatari des Affaires étrangères assure que les deux parties « restent engagées dans le processus de négociation » et que le Qatar facilite un « échange de propositions en temps réel » [2][5].",
+      "La délégation iranienne, menée par le vice-ministre des Affaires étrangères Kazem Gharibabadi, a transmis des messages aux Américains via le Qatar pendant trois jours à Doha, puis a quitté la ville. Un responsable a précisé que ce n'était « pas à cause de difficultés », qu'un projet d'accord circulait et qu'une nouvelle rencontre restait possible [3][4].",
+      "Côté américain, Donald Trump affirme que la guerre se terminera « très bientôt, d'une façon ou d'une autre ». Le secrétaire d'État Marco Rubio indique que le président n'a pas décidé de lancer de nouvelles frappes et préférerait une solution diplomatique [1][2].",
+      "Sur les marchés, le pétrole américain (WTI) a perdu environ 8 % mercredi, une chute que Yahoo Finance relie surtout au résultat des élections américaines [6]."
+    ],
+    "why": [
+      "À retenir : les deux camps ne parlent pas de la même chose. L'Iran lie la réouverture du détroit à sept conditions, dont la levée des sanctions et la fin du blocus naval ; il juge la réponse américaine insuffisante, mais personne ne quitte la table [1][5].",
+      "Le Qatar joue le rôle de boîte aux lettres. La délégation iranienne n'a pas négocié face à face : elle a transmis des messages que Doha fait circuler en temps réel. C'est ce qui explique qu'on entende à la fois « non, ce n'est pas assez » et « les discussions continuent » [3][5].",
+      "Pour l'économie, le détroit est le point sensible : une partie du pétrole mondial y passe, et un pétrolier attaqué suffit à faire remonter les prix. Le baril américain a reculé de 8 % mercredi, mais cette baisse reflète un espoir politique, pas un accord signé [1][6].",
+      "Prudence : ce sont les déclarations des parties, rapportées par des médias, et chaque camp présente la situation à son avantage. Aucune source indépendante ne confirme encore le contenu exact du projet d'accord [2][3]."
+    ],
+    "forMe": "Si tu fais le plein ou chauffes ta maison au gazole ou au gaz, ce dossier pèse sur tes prix : un accord ferait baisser le pétrole, un nouvel incident le ferait remonter. Rien n'est joué, donc ne compte pas sur une baisse durable à la pompe dès demain.",
+    "next": [
+      {
+        "when": "Dans les prochains jours",
+        "what": "Un responsable iranien évoque une nouvelle rencontre possible avec les médiateurs qataris, sans date [3]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "7",
+        "label": "conditions posées par l'Iran pour rouvrir le détroit",
+        "src": 1
+      },
+      {
+        "value": "2 jours",
+        "label": "délai de réouverture prévu par le plan iranien",
+        "src": 3
+      },
+      {
+        "value": "−8 %",
+        "label": "pétrole américain (WTI) mercredi 4 novembre",
+        "src": 6
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "sanctions",
+      "routes-maritimes"
+    ],
+    "sources": [
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « Iran says US reply to Hormuz plan 'unconvincing'; Trump confirms strikes » (4 novembre 2026)",
+        "url": "https://aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes"
+      },
+      {
+        "short": "CBS News",
+        "name": "CBS News, « Iran war live updates : Tehran touts proposal to reopen the Strait of Hormuz »",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-sanctions/"
+      },
+      {
+        "short": "PBS NewsHour",
+        "name": "PBS NewsHour, « Iran's delegation has left negotiations in Qatar after a tense weekend. Here's where things stand »",
+        "url": "https://www.pbs.org/newshour/world/irans-delegation-has-left-negotiations-in-qatar-after-a-tense-weekend-heres-where-things-stand"
+      },
+      {
+        "short": "CNBC (Reuters)",
+        "name": "CNBC / Reuters, « Iran, Qatari mediators hold third day of talks to end U.S.-Iran war » (1er novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/01/iranian-negotiators-in-qatar-to-continue-talks-to-end-war-reuters.html"
+      },
+      {
+        "short": "Türkiye Today",
+        "name": "Türkiye Today, « Iran says Qatar-mediated Hormuz talks continue without final deal »",
+        "url": "https://www.turkiyetoday.com/region/iran-says-qatar-mediated-hormuz-talks-continue-without-final-deal-3231501"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « Markets News, Nov. 4, 2026: Dow Jumps Nearly 1,600 Points… WTI Oil Slides 8% »",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-dow-futures-135650348.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-zone-euro-inflation-4-pour-cent-octobre",
+    "date": "2026-11-05",
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Francfort, Allemagne",
+        "label": "Zone euro",
+        "coords": [
+          8.68,
+          50.11
+        ]
+      }
+    ],
+    "title": "Zone euro : l'inflation grimpe à 4 % en octobre, son plus haut depuis trois ans, et la BCE se rapproche d'une hausse de taux en décembre",
+    "summary": "Selon la première estimation d'Eurostat publiée le 4 novembre, l'inflation de la zone euro est passée de 3,8 % à 4,0 % en octobre, un sommet depuis trois ans. L'énergie en est le moteur (+20,8 % sur un an), alors que l'inflation hors énergie et alimentation reste à 2,5 % [1][2].",
+    "points": [
+      "Eurostat estime l'inflation annuelle de la zone euro à 4,0 % en octobre, contre 3,8 % en septembre. C'est le double de la cible de 2 % de la Banque centrale européenne (BCE) et un plus haut depuis trois ans, selon CNBC [1][2].",
+      "Les prix de l'énergie ont augmenté de 20,8 % sur un an, contre 18,9 % en septembre : ils expliquent l'essentiel de la hausse [1][2].",
+      "L'inflation « sous-jacente », qui exclut l'énergie, l'alimentation, l'alcool et le tabac, est restée stable à 2,5 %. Les services ont accéléré de 3,2 % à 3,3 % [1][2].",
+      "Les écarts entre pays sont larges : la Lituanie affiche le taux le plus élevé (6,1 %), Malte le plus bas (2,3 %) [2].",
+      "La BCE a laissé ses taux inchangés à sa réunion d'octobre. Avant la publication, les marchés donnaient un peu plus de 72 % de chances à une hausse en décembre, selon Seeking Alpha [1][3].",
+      "Joachim Nagel, président de la Bundesbank, garde la porte ouverte à une hausse en décembre, selon un compte rendu de ses propos [4].",
+      "Il s'agit d'une estimation rapide : les chiffres définitifs d'octobre seront publiés le 18 novembre et ses composantes peuvent être révisées [2][3]."
+    ],
+    "why": [
+      "À retenir : cette inflation vient surtout de l'énergie, pas d'une économie qui surchauffe. Quand le pétrole, le gaz et l'électricité coûtent 20,8 % de plus qu'il y a un an, la hausse se voit tout de suite à la pompe et sur les factures [1][2].",
+      "Pour la BCE, le dilemme est réel. Relever les taux renchérit le crédit et freine l'activité, mais ne fait pas baisser le prix du pétrole. Le fait que l'inflation sous-jacente reste à 2,5 % pourrait, selon un commentateur, indiquer que le cycle de hausses approche de sa fin ; les services à 3,3 % montrent en revanche que la hausse commence à gagner d'autres prix [1][3].",
+      "L'écart entre la Lituanie (6,1 %) et Malte (2,3 %) rappelle qu'un même taux directeur s'applique à vingt économies très différentes, ce qui complique la tâche de la BCE [2].",
+      "Prudence : la décision de décembre dépendra aussi des chiffres de novembre et de l'évolution du pétrole. Les probabilités des marchés bougent d'une semaine à l'autre [3][4]."
+    ],
+    "forMe": "Si tu as un crédit immobilier à taux variable, une hausse des taux de la BCE se verrait sur tes mensualités ; à taux fixe, rien ne change pour toi. Les prix de l'énergie, eux, pèsent déjà sur ton budget.",
+    "next": [
+      {
+        "when": "18 novembre",
+        "what": "Eurostat publie les chiffres définitifs d'inflation d'octobre [2][3]."
+      },
+      {
+        "when": "17 décembre",
+        "what": "Réunion de la BCE : une hausse de 25 points de base est envisagée par les marchés [3][4]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "4,0 %",
+        "label": "inflation de la zone euro en octobre, contre 3,8 % en septembre",
+        "src": 1
+      },
+      {
+        "value": "+20,8 %",
+        "label": "prix de l'énergie sur un an",
+        "src": 1
+      },
+      {
+        "value": "2,5 %",
+        "label": "inflation hors énergie et alimentation, stable",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux"
+    ],
+    "sources": [
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Euro zone inflation hits 4% for first time in three years as interest rate hike looms » (4 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html"
+      },
+      {
+        "short": "Le Private Banker",
+        "name": "Le Private Banker, « Euro-Zone Inflation Hits 4.0%, Double the ECB Target, as Energy Costs Jump 20.8% » (4 novembre 2026)",
+        "url": "https://leprivatebanker.com/2026/11/04/euro-zone-inflation-hits-4-0-double-the-ecb-target-as-energy-costs-jump-20-8-and-nagel-backs-december-hike/"
+      },
+      {
+        "short": "Seeking Alpha",
+        "name": "Seeking Alpha, « Eurozone October Inflation Brings ECB Closer To December Hike »",
+        "url": "https://seekingalpha.com/article/4962208-eurozone-october-inflation-brings-ecb-closer-december-hike"
+      },
+      {
+        "short": "InvestingLive",
+        "name": "InvestingLive, « ECB policymaker Nagel keeps December rate hike in play despite case for October pause »",
+        "url": "https://investinglive.com/central-banks/ecb-policymaker-nagel-keeps-december-rate-hike-in-play-despite-case-for-october-pause/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-ukraine-zaporijjia-ecole-abri-berlin-aide",
+    "date": "2026-11-05",
+    "region": "Europe",
+    "theme": "geo",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Zaporijjia, Ukraine",
+        "label": "Ukraine",
+        "coords": [
+          35.14,
+          47.84
+        ]
+      },
+      {
+        "name": "Berlin, Allemagne",
+        "label": "Allemagne",
+        "coords": [
+          13.4,
+          52.52
+        ]
+      }
+    ],
+    "title": "Ukraine : une frappe russe sur une école-abri fait au moins 33 morts, et Zelensky vient à Berlin demander de l'énergie et de l'argent",
+    "summary": "Lundi 2 novembre, des bombes russes ont frappé une école de la région de Zaporijjia qui servait d'abri et de point d'aide : au moins 33 morts selon Volodymyr Zelensky, qui évoque jusqu'à 70 victimes. Le 3 novembre à Berlin, il a plaidé pour son réseau électrique et les 11,6 milliards d'euros d'aide allemande prévus pour 2027 [1][2][3][6].",
+    "points": [
+      "La frappe a eu lieu lundi 2 novembre à Komyshuvakha, dans la région de Zaporijjia. Selon Zelensky : « Les Russes ont frappé en premier au moment où les gens arrivaient, quelques bombes aériennes. Puis un deuxième coup, avec d'autres bombes, cette fois sur l'abri » [1][4].",
+      "L'école servait d'abri et, chaque lundi, de lieu de distribution d'aide humanitaire. Le Kyiv Independent comptait d'abord 24 morts, dont deux sauveteurs et quatre policiers ; le bilan est ensuite monté à au moins 33 morts selon Zelensky [1][2].",
+      "CBS News indique que le bilan est passé à 40 morts, et que Zelensky a évoqué un bilan pouvant atteindre 70 personnes en réclamant des défenses antiaériennes [3].",
+      "Le ministère russe de la Défense affirme avoir visé des forces ukrainiennes dans la zone et revendique jusqu'à 25 militaires ukrainiens tués ; la Russie dément viser délibérément des civils [1].",
+      "Selon Zelensky, la frappe est venue juste avant une nouvelle salve de centaines de drones et de dizaines de missiles de croisière et balistiques contre les infrastructures énergétiques, malgré les appels de Donald Trump à une trêve de l'énergie [5].",
+      "Mardi 3 novembre à Berlin, il a rencontré la présidente du Bundestag, Julia Klöckner, sur la protection du réseau électrique : « la situation de notre réseau est très difficile en ce moment, avec de grosses coupures dans de nombreuses régions » [6][7].",
+      "L'Allemagne a inscrit 11,6 milliards d'euros d'aide à l'Ukraine dans son projet de budget fédéral 2027, pas encore voté ; Zelensky a remercié Berlin et demandé que cette décision soit adoptée [6][7]."
+    ],
+    "why": [
+      "À retenir : la guerre frappe les civils et l'économie en même temps. Un abri bombardé à deux reprises, puis des centrales et des lignes électriques visées : l'Ukraine doit protéger ses habitants et son réseau à l'approche de l'hiver [1][6].",
+      "Si Zelensky insiste sur l'énergie, c'est que les coupures sont déjà fortes, comme il l'a dit à Berlin. L'argent allemand de 2027 ne règle pas l'hiver 2026, mais il garantit la durée du soutien, ce qui compte pour les budgets de l'État ukrainien [6][7].",
+      "Deux versions s'opposent : Kiev parle de civils tués dans un abri, Moscou d'une frappe contre des militaires. Le bilan n'est pas définitif et a changé d'un média à l'autre (24, 33, 40, jusqu'à 70 évoqués) : on retient donc les chiffres attribués à Zelensky, comme tels [1][3].",
+      "Sur le plan politique, Zelensky a dit espérer que le résultat des élections américaines aiderait l'Ukraine, notamment par un soutien du Congrès, dans un entretien à la télévision allemande ZDF [8]."
+    ],
+    "forMe": "Si tu vis en Europe, cette guerre passe aussi par ton budget : l'aide à l'Ukraine pèse sur les finances publiques allemandes et européennes, donc sur la dette et les impôts. Rien n'est acquis pour 2027 tant que le Bundestag n'a pas voté.",
+    "next": [
+      {
+        "when": "12 novembre",
+        "what": "La commission du budget du Bundestag tient sa dernière séance sur le budget fédéral 2027, qui contient l'aide à l'Ukraine [9]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "≥ 33",
+        "label": "morts de la frappe sur l'école-abri, selon Zelensky",
+        "src": 1
+      },
+      {
+        "value": "11,6 Md€",
+        "label": "aide allemande à l'Ukraine prévue au budget 2027",
+        "src": 6
+      },
+      {
+        "value": "70",
+        "label": "bilan maximal évoqué par Zelensky",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Kyiv Independent",
+        "name": "Kyiv Independent, « 'Exceptionally horrific strike' — Russian bombs hit school used as humanitarian aid center in Zaporizhzhia Oblast, killing 33 »",
+        "url": "https://kyivindependent.com/exceptionally-horrific-strike-russian-bombs-strike-school-used-as-humanitarian-aid-center-in-zaporizhzhia-oblast-killing-24/"
+      },
+      {
+        "short": "Globe and Mail (Reuters)",
+        "name": "The Globe and Mail / Reuters, « Russia bombs school used as aid distribution point, killing at least 33 »",
+        "url": "https://www.theglobeandmail.com/world/article-russian-bombing-ukraine-zelensky/"
+      },
+      {
+        "short": "CBS News",
+        "name": "CBS News, « Ukraine's leader says Russian 'insane attack' on aid center may have killed 70 people, pleads for air defenses »",
+        "url": "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/"
+      },
+      {
+        "short": "ABC News (Australie)",
+        "name": "ABC News (Australie), « Russia's 'vile terrorist strike' kills dozens at school used as aid centre » (4 novembre 2026)",
+        "url": "https://www.abc.net.au/news/2026-11-04/russian-strike-on-school-kills-dozens-n-ukraine/107343894"
+      },
+      {
+        "short": "CNN",
+        "name": "CNN, « Russian bombing of Ukrainian aid center is one of the war's 'deadliest attacks,' Zelensky says » (3 novembre 2026)",
+        "url": "https://www.cnn.com/2026/11/03/europe/ukraine-russia-zaporiszhzha-school-strike-intl"
+      },
+      {
+        "short": "Présidence ukrainienne",
+        "name": "Site officiel de la présidence de l'Ukraine, « Volodymyr Zelenskyy discussed support for Ukraine's energy sector and further financial assistance with the President of the Bundestag »",
+        "url": "https://www.president.gov.ua/en/news/volodimir-zelenskij-obgovoriv-iz-prezidentkoyu-bundestagu-pi-107129"
+      },
+      {
+        "short": "Kyiv Post",
+        "name": "Kyiv Post, « Zelensky Brings Ukraine's Energy Needs to Bundestag as €11.6B Aid Awaits Vote »",
+        "url": "https://kyivpost.com/post/89056"
+      },
+      {
+        "short": "Jerusalem Post",
+        "name": "The Jerusalem Post, « Volodymyr Zelensky hopes US midterm outcome will help Ukraine »",
+        "url": "https://jpost.com/international/article-913873"
+      },
+      {
+        "short": "Bundestag",
+        "name": "Bundestag, « Haushalt 2027 : Ablauf der Beratungen »",
+        "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw34-haushalt-2027-ablauf-1187766"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-etats-unis-chine-treve-10-novembre-terres-rares",
+    "date": "2026-11-05",
+    "region": "Asie",
+    "theme": "mix",
+    "zones": [
+      "Amérique du Nord",
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Pékin, Chine",
+        "label": "Chine",
+        "coords": [
+          116.4,
+          39.9
+        ]
+      },
+      {
+        "name": "Washington, États-Unis",
+        "label": "États-Unis",
+        "coords": [
+          -77.04,
+          38.91
+        ]
+      }
+    ],
+    "title": "États-Unis–Chine : la trêve commerciale court jusqu'au 10 janvier, mais le 10 novembre reste une date-clé pour les terres rares",
+    "summary": "Annoncée fin septembre, pendant la visite d'État de Xi Jinping à Washington, la prolongation de deux mois de la trêve commerciale repousse au 10 janvier 2027 la pause sur certaines hausses de droits de douane. Plusieurs échéances tombent pourtant le 10 novembre, dont la suspension chinoise de contrôles sur les terres rares [1][2][3].",
+    "points": [
+      "Le secrétaire américain au Trésor, Scott Bessent, a annoncé, alors que Xi Jinping entamait sa visite d'État, que la trêve, qui devait expirer en novembre, était prolongée jusqu'au 10 janvier. Selon les sources, l'annonce date du 23 ou du 24 septembre [1][3].",
+      "La Chine avait suspendu pour un an, jusqu'au 10 novembre 2026, ses contrôles à l'exportation sur les terres rares décidés le 9 octobre 2025, a confirmé son ministère du Commerce. Cette suspension ne tient que tant que la trêve tient [2][3].",
+      "Les contrôles chinois d'avril 2025, qui visent sept terres rares précises, n'ont jamais été suspendus et exigent toujours une licence du ministère du Commerce [2].",
+      "Côté américain, Washington a suspendu sa règle dite des « affiliées » (Affiliates Rule) : un cabinet juridique relevait que le Bureau de l'industrie et de la sécurité n'avait pas encore publié l'avis formalisant la prolongation de deux mois [4].",
+      "178 exclusions de la « section 301 » (droits de douane américains sur des produits chinois) expirent aussi le 10 novembre 2026 [5][6].",
+      "Les licences restent un point dur : Reuters a rapporté que certaines entreprises américaines ont attendu plus de six mois pour en obtenir une [2][3].",
+      "Donald Trump et Xi Jinping sont attendus à Shenzhen pour le sommet de l'APEC, le 18 novembre [6]."
+    ],
+    "why": [
+      "À retenir : le 10 novembre n'est plus la fin de la trêve, mais ce n'est pas une date anodine. Ce que la Chine a mis en pause, les contrôles sur les terres rares d'octobre 2025, reprend effet à cette date si rien n'est renouvelé [2][3].",
+      "Les terres rares sont des métaux utilisés dans les aimants, des moteurs de voitures électriques aux équipements de défense. Une licence qui tarde, c'est une usine qui attend : l'enjeu est autant dans les délais que dans les interdictions [2][3].",
+      "La prolongation est courte, deux mois. Des analystes la décrivent comme une trêve tactique plutôt qu'un changement de fond, selon Coface [7].",
+      "Nous n'avons trouvé, ce jeudi, aucune annonce sur le renouvellement de la suspension chinoise du 10 novembre : c'est le point à surveiller dans les prochains jours [6]."
+    ],
+    "forMe": "Si tu travailles dans l'automobile, l'électronique ou les énergies renouvelables, ces métaux comptent pour les coûts et les délais. Pour le consommateur, l'effet se voit plus tard, sur le prix et la disponibilité de certains appareils et véhicules électriques.",
+    "next": [
+      {
+        "when": "10 novembre",
+        "what": "Fin de la suspension chinoise des contrôles d'octobre 2025 sur les terres rares, et expiration de 178 exclusions de la section 301 [3][5]."
+      },
+      {
+        "when": "18 novembre",
+        "what": "Rencontre attendue entre Donald Trump et Xi Jinping à l'APEC, à Shenzhen [6]."
+      },
+      {
+        "when": "10 janvier 2027",
+        "what": "Nouvelle échéance de la trêve commerciale [1]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "10 janv. 2027",
+        "label": "nouvelle échéance de la trêve commerciale",
+        "src": 1
+      },
+      {
+        "value": "178",
+        "label": "exclusions de la section 301 qui expirent le 10 novembre",
+        "src": 5
+      },
+      {
+        "value": "+ 6 mois",
+        "label": "attente de licence signalée par certaines entreprises américaines",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "droits-de-douane"
+    ],
+    "sources": [
+      {
+        "short": "CNBC",
+        "name": "CNBC, « U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit » (24 septembre 2026)",
+        "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html"
+      },
+      {
+        "short": "Rinnovabili",
+        "name": "Rinnovabili, « Chinese rare earth exports: Trump-Xi truce extended to Jan 2027 »",
+        "url": "https://www.rinnovabili.net/policy-and-affairs/environmental-policies/chinese-rare-earth-exports-trump-xi-truce/"
+      },
+      {
+        "short": "Startup Fortune",
+        "name": "Startup Fortune, « US and China extend their rare earth truce by just two months to January »",
+        "url": "https://startupfortune.com/us-and-china-extend-their-rare-earth-truce-by-just-two-months-to-january/"
+      },
+      {
+        "short": "Cozen O'Connor (CM Trade Law)",
+        "name": "CM Trade Law, « U.S.-China Trade Truce Extended Two Months: BIS Affiliates Rule Suspension Follows »",
+        "url": "https://www.cmtradelaw.com/2026/09/u-s-china-trade-truce-extended-two-months-bis-affiliates-rule-suspension-follows/"
+      },
+      {
+        "short": "Thomson Reuters",
+        "name": "Thomson Reuters Tax & Accounting, « Section 301 exclusions expire November 2026 »",
+        "url": "https://tax.thomsonreuters.com/blog/section-301-exclusions-expiration/"
+      },
+      {
+        "short": "Venn Strategies",
+        "name": "Venn Strategies, « Venn Trade Weekly - November 3, 2026 »",
+        "url": "https://vennstrategies.substack.com/p/venn-trade-weekly-november-3-2026"
+      },
+      {
+        "short": "Coface",
+        "name": "Coface, « US-China tactical deal: Tariffs, tech, and rare earths »",
+        "url": "https://www.coface.com/news-economy-and-insights/us-china-trade-agreement-a-tactical-truce-not-a-strategic-shift"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-wall-street-dow-3-pour-cent-midterms-petrole",
+    "date": "2026-11-05",
+    "region": "Amériques",
+    "theme": "fin",
+    "zones": [
+      "Europe",
+      "Asie"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "name": "New York, États-Unis",
+        "label": "Wall Street",
+        "coords": [
+          -74.01,
+          40.71
+        ]
+      }
+    ],
+    "title": "Wall Street s'envole de 3 % au lendemain des midterms, et le pétrole recule de 8 %",
+    "summary": "Mercredi 4 novembre, le Dow Jones a gagné 3,03 % à 53 356 points, sa meilleure séance depuis avril 2025, après la victoire des démocrates aux élections de mi-mandat. Le S&P 500 a pris 1,58 % et le Nasdaq 1,44 %, pendant que le pétrole américain perdait environ 8 % [1][2][3].",
+    "points": [
+      "Le Dow Jones a progressé de 1 569,40 points (3,03 %) à 53 356,12 ; le S&P 500 de 1,58 % à 7 688,62 ; le Nasdaq Composite de 1,44 % à 25 736,51, selon CNBC [1].",
+      "C'est la meilleure séance du Dow depuis avril 2025 [1].",
+      "Les investisseurs ont lu le résultat net des élections comme la fin d'une incertitude politique ; l'acceptation du résultat par Donald Trump faisait partie du tableau, selon The Washington Times [4].",
+      "Les valeurs de l'énergie ont le plus reculé, le brut américain WTI cédant environ 8 % dans la séance [2][3].",
+      "Un récapitulatif de marché relève aussi que les obligations d'État américaines ont monté, sur l'idée qu'un gouvernement divisé limiterait les dépenses, et que l'indice du dollar est tombé à 101,21 à un moment, son plus bas depuis le 30 septembre [5].",
+      "D'autres récapitulatifs affichent des chiffres très différents (Dow en baisse de 0,4 %). Nous retenons les chiffres de clôture de CNBC, cohérents avec l'ampleur de la hausse décrite par Yahoo Finance et TheStreet [1][2][3]."
+    ],
+    "why": [
+      "À retenir : une Bourse déteste l'incertitude. Quand le résultat d'une élection est net, les investisseurs savent à quoi s'en tenir et reprennent des risques ; la hausse de 3 % vient bien plus de là que d'une mesure économique précise [1][4].",
+      "Le recul du pétrole est le point le plus frappant. Selon les récapitulatifs, il est lié à l'espoir qu'un Congrès partagé réduise les tensions au Moyen-Orient. Le même jour pourtant, l'Iran jugeait peu convaincante la réponse américaine : le marché a réagi à un espoir, pas à un fait [2][5].",
+      "L'histoire est plutôt rassurante, sans rien garantir : depuis 1950, le S&P 500 était plus haut douze mois après chacune des 19 élections de mi-mandat, mais l'échantillon est petit [6]."
+    ],
+    "forMe": "Si ton épargne est placée en actions (PEA, assurance-vie en unités de compte, fonds indiciels), une séance à +3 % ne change rien pour un horizon de plusieurs années, pas plus qu'une séance à −3 %. On ne dit ni d'acheter ni de vendre.",
+    "next": [
+      {
+        "when": "6 novembre",
+        "what": "Publication du rapport américain sur l'emploi d'octobre, qui peut faire bouger les marchés [9]."
+      },
+      {
+        "when": "8-9 décembre",
+        "what": "Réunion de la Fed, avec une hausse de taux envisagée [10]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "+3,03 %",
+        "label": "Dow Jones mercredi 4 novembre, à 53 356 points",
+        "src": 1
+      },
+      {
+        "value": "−8 %",
+        "label": "pétrole américain (WTI) dans la séance",
+        "src": 2
+      },
+      {
+        "value": "19 sur 19",
+        "label": "midterms suivies d'un S&P 500 plus haut un an après, depuis 1950",
+        "src": 6
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "dollar"
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi un résultat d'élection fait bouger la Bourse",
+        "text": "Le prix d'une action reflète ce que les investisseurs attendent des bénéfices futurs, corrigé du risque. Avant une élection, personne ne sait quelles lois, quels impôts ou quels droits de douane vont suivre : les investisseurs exigent une prime de risque plus élevée, donc paient les actions moins cher. Quand le résultat tombe, une partie de cette incertitude disparaît d'un coup et les cours montent, même si rien de concret n'a encore changé. Certains secteurs dépendent en plus de décisions précises (énergie, santé, armement) et réagissent selon ce que le nouveau rapport de force laisse prévoir. Le pétrole, lui, bouge aussi avec la géopolitique : si les risques de conflit paraissent reculer, la prime de risque sur le baril diminue [1][2][5]."
+      }
+    },
+    "past": {
+      "title": "Les élections de mi-mandat et la Bourse : ce que l'histoire a donné",
+      "items": [
+        {
+          "when": "Depuis 1950",
+          "what": "Le S&P 500 était plus haut douze mois après chacune des 19 élections de mi-mandat, avec un gain moyen de 15,1 % [6].",
+          "lesson": "L'incertitude pèse avant le vote et se dissipe après ; mais l'échantillon est petit et rien ne garantit que cela se reproduise [6]."
+        },
+        {
+          "when": "1930 et 1938",
+          "what": "Selon une analyse du Motley Fool, ce sont les deux seules élections de mi-mandat suivies d'un rendement négatif sur douze mois [7].",
+          "lesson": "Le schéma n'est pas une loi : il existe des exceptions, même dans un échantillon très favorable [7]."
+        },
+        {
+          "when": "Depuis 1938",
+          "what": "Selon Fidelity, le S&P 500 a enregistré une hausse de prix dans les douze mois suivant ces élections dans 95 % des cas [8].",
+          "lesson": "Les élections ont rarement été le principal moteur des rendements à long terme, selon Fidelity [8]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "Chiffres de clôture du mercredi 4 novembre [1].",
+      "items": [
+        {
+          "name": "Dow Jones",
+          "ticker": "DJIA",
+          "move": "+3,03 %",
+          "why": "Clôture à 53 356,12 points, sa meilleure séance depuis avril 2025 [1]."
+        },
+        {
+          "name": "S&P 500",
+          "ticker": "SPX",
+          "move": "+1,58 %",
+          "why": "Clôture à 7 688,62 points [1]."
+        },
+        {
+          "name": "Nasdaq Composite",
+          "ticker": "COMP",
+          "move": "+1,44 %",
+          "why": "Clôture à 25 736,51 points [1]."
+        },
+        {
+          "name": "Pétrole américain",
+          "ticker": "WTI",
+          "move": "−8 %",
+          "why": "Le baril recule d'environ 8 % dans la séance, les valeurs de l'énergie étant les plus touchées [2][3]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Stock market news for Nov. 4, 2026 »",
+        "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « Markets News, Nov. 4, 2026: Dow Jumps Nearly 1,600 Points as Stocks Soar After Democrats' Decisive Win in Midterms; WTI Oil Slides 8% »",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-dow-futures-135650348.html"
+      },
+      {
+        "short": "TheStreet",
+        "name": "TheStreet, « Stock Market Today (Nov. 4, 2026): Stocks rise, oil collapses after Dems sweep midterm elections »",
+        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-04-2026"
+      },
+      {
+        "short": "The Washington Times",
+        "name": "The Washington Times, « Wall Street rallies after clear-cut result in midterms » (4 novembre 2026)",
+        "url": "https://www.washingtontimes.com/news/2026/nov/4/wall-street-rallies-clear-cut-result-midterms/"
+      },
+      {
+        "short": "Babypips",
+        "name": "Babypips, « Financial & Forex Market Recap: Nov. 4, 2026 »",
+        "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-04"
+      },
+      {
+        "short": "Pepperstone",
+        "name": "Pepperstone, « Do stocks rally after midterms? »",
+        "url": "https://pepperstone.com/en/insights/guides/cfds/do-stocks-rally-after-midterms"
+      },
+      {
+        "short": "The Motley Fool",
+        "name": "The Motley Fool, « History Says the S&P 500 Could Rise After This Happens in 2026 » (4 février 2026)",
+        "url": "https://www.fool.com/investing/2026/02/04/history-says-sp-500-could-rise-after-this-happens"
+      },
+      {
+        "short": "Fidelity",
+        "name": "Fidelity, « The surprising truth about midterms and stocks »",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/the-surprising-truth-about-midterms-and-stocks"
+      },
+      {
+        "short": "BLS",
+        "name": "Bureau of Labor Statistics, calendrier de publication « Employment Situation »",
+        "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Fed interest rate decision October 2026 »",
+        "url": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-or-repasse-4000-dollars-dollar-faible",
+    "date": "2026-11-05",
+    "region": "Amériques",
+    "theme": "fin",
+    "zones": [
+      "Europe",
+      "Asie",
+      "Moyen-Orient"
+    ],
+    "geo": [
+      {
+        "name": "New York, États-Unis",
+        "label": "Or et argent",
+        "coords": [
+          -74.01,
+          40.71
+        ]
+      }
+    ],
+    "title": "L'or repasse au-dessus de 4 000 dollars : +3 % en une séance, porté par un dollar en recul après les midterms",
+    "summary": "Mercredi 4 novembre, l'once d'or a gagné près de 3 % à environ 4 054 dollars, repassant au-dessus de 4 000 dollars après un prix fixé à 3 913 dollars vendredi. L'argent a bondi de 4,6 % à 52,49 dollars. Les victoires démocrates ont affaibli le dollar [1][2][3].",
+    "points": [
+      "L'or comptant cotait environ 4 053,68 dollars l'once, en hausse de 116,29 dollars (2,95 %) sur la journée. Fortune relevait 4 046 dollars à 8 h 45, heure de New York [1][2].",
+      "L'argent gagnait 2,30 dollars (4,58 %), à 52,49 dollars l'once ; le rapport entre le prix de l'or et celui de l'argent est tombé vers 77 [1].",
+      "Les fonds cotés ont suivi : GLD (or) a clôturé en hausse de 3,68 % à 372,49 dollars et SLV (argent) de 5,17 % à 47,16 dollars, selon Rio Times [3].",
+      "L'or avait perdu la barre des 4 000 dollars la semaine précédente : son prix de l'après-midi à Londres (LBMA) avait été fixé à 3 913 dollars vendredi [1][3].",
+      "Les articles relient la hausse à la victoire des démocrates au Congrès et à un dollar plus faible : l'indice du dollar est tombé à 101,21 à un moment, son plus bas depuis le 30 septembre [1][3][4]."
+    ],
+    "why": [
+      "À retenir : l'or ne rapporte aucun intérêt et se paie en dollars. Quand le dollar baisse, il devient moins cher pour les acheteurs qui paient dans d'autres monnaies, ce qui soutient la demande [1][3].",
+      "Le rebond ne change pas le tableau d'ensemble : l'or reste très en dessous de son record de janvier, environ 5 595 dollars l'once le 29 janvier 2026 [5][6]. Vendredi encore, il touchait son plus bas en un an [9].",
+      "La suite dépendra des taux américains : une hausse de la Fed en décembre rendrait l'or, qui ne rapporte rien, moins attractif face aux placements qui rapportent un intérêt, et c'est l'argument qu'avançaient les analystes vendredi [7]."
+    ],
+    "forMe": "L'or physique (pièces, lingots) et les fonds sur l'or suivent ces mouvements. Pour un épargnant français, le métal n'est pas une garantie de stabilité : son prix a varié de 3 % en une séance cette semaine, et de plus de 3 % à la baisse vendredi. On ne dit ni d'acheter ni de vendre.",
+    "next": [
+      {
+        "when": "8-9 décembre",
+        "what": "Réunion de la Fed, avec une hausse de taux envisagée [8]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "+2,95 %",
+        "label": "once d'or mercredi 4 novembre, à environ 4 054 $",
+        "src": 1
+      },
+      {
+        "value": "+4,58 %",
+        "label": "once d'argent, à 52,49 $",
+        "src": 1
+      },
+      {
+        "value": "3 913 $",
+        "label": "prix de l'or fixé à Londres vendredi 30 octobre",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "dollar"
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi l'or réagit au dollar et aux taux",
+        "text": "L'or se vend en dollars sur les marchés mondiaux. Si le dollar baisse, un acheteur européen ou asiatique paie moins cher dans sa propre monnaie, et la demande peut augmenter. De plus, l'or ne verse ni intérêt ni dividende : quand les taux montent, les obligations et les comptes rémunérés rapportent davantage, et l'or devient moins attractif ; quand les taux baissent ou que le dollar faiblit, c'est l'inverse. Enfin, l'or est un refuge, mais pas toujours : en cas de forte chute des Bourses, certains investisseurs le vendent pour récupérer du cash ailleurs, ce qui explique les chutes brutales de la semaine dernière [1][3][7]."
+      }
+    },
+    "past": {
+      "title": "L'or, des hausses rapides et des chutes brutales",
+      "items": [
+        {
+          "when": "21 octobre 2025",
+          "what": "Après un record à 4 381,21 dollars la veille, l'or a perdu jusqu'à 6,3 % en une séance, sa plus forte baisse en pourcentage depuis avril 2013 [10].",
+          "lesson": "Après une hausse très rapide, une simple pause des acheteurs peut provoquer une chute de plusieurs pour cent en un jour [10]."
+        },
+        {
+          "when": "29-30 janvier 2026",
+          "what": "L'or a atteint un record d'environ 5 595 dollars l'once le 29 janvier, puis a perdu 9,5 % le lendemain [5][6].",
+          "lesson": "Un record n'a pas empêché une correction brutale ; le métal s'échangeait encore plus de 30 % sous ce sommet à la fin octobre [5][9]."
+        },
+        {
+          "when": "30 octobre 2026",
+          "what": "L'or a chuté de 3,5 % à environ 3 880 dollars, son plus bas en plus d'un an, la tech entraînant les autres marchés [9].",
+          "lesson": "Cinq jours plus tard, il a regagné près de 175 dollars l'once : les mouvements sont rapides dans les deux sens [1][9]."
+        }
+      ]
+    },
+    "markets": {
+      "items": [
+        {
+          "name": "Once d'or",
+          "ticker": "XAU",
+          "move": "+2,95 %",
+          "why": "L'or comptant gagne 116,29 dollars à environ 4 053,68 dollars [1]."
+        },
+        {
+          "name": "Fonds sur l'or",
+          "ticker": "GLD",
+          "move": "+3,68 %",
+          "why": "Clôture à 372,49 dollars [3]."
+        },
+        {
+          "name": "Fonds sur l'argent",
+          "ticker": "SLV",
+          "move": "+5,17 %",
+          "why": "Clôture à 47,16 dollars [3]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "USAGOLD",
+        "name": "USAGOLD, « Gold Surges 3% To $4,053 As Democrats Sweep Congress; Silver Jumps 4.6% » (4 novembre 2026)",
+        "url": "https://www.usagold.com/daily-precious-metals-market-report-november-4-2026/"
+      },
+      {
+        "short": "Fortune",
+        "name": "Fortune, « Current price of gold: November 4, 2026 »",
+        "url": "https://fortune.com/article/current-price-of-gold-11-04-2026/"
+      },
+      {
+        "short": "Rio Times",
+        "name": "The Rio Times, « Gold Tops US$4,000 as Silver Jumps » (4 novembre 2026)",
+        "url": "https://www.riotimesonline.com/gold-silver-precious-metals-wednesday-november-4-2026/"
+      },
+      {
+        "short": "Babypips",
+        "name": "Babypips, « Financial & Forex Market Recap: Nov. 4, 2026 »",
+        "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-04"
+      },
+      {
+        "short": "CBS News",
+        "name": "CBS News, « Highest gold price in history: how it's changed from 2025 to 2026 »",
+        "url": "https://www.cbsnews.com/news/highest-gold-price-in-history-how-its-changed-from-2025-to-2026/"
+      },
+      {
+        "short": "EBC",
+        "name": "EBC, « Gold highest price ever (XAUUSD record 2026) »",
+        "url": "https://www.ebc.com/forex/gold-highest-price-ever-xauusd-record-2026"
+      },
+      {
+        "short": "TradingKey",
+        "name": "TradingKey, « Gold prices fall below $3,900, silver… what causes prices to drop »",
+        "url": "https://www.tradingkey.com/analysis/commodities/metal/262261037-gold-prices-fall-below-3900-silver-what-causes-prices-to-drop-tradingkey"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Fed interest rate decision October 2026 »",
+        "url": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html"
+      },
+      {
+        "short": "Kitco",
+        "name": "Kitco, « Gold falls below $3,900, silver tumbles as Wall Street selloff triggers… » (30 octobre 2026)",
+        "url": "https://www.kitco.com/news/article/2026-10-30/gold-falls-below-3900-silver-tumbles-wall-street-selloff-triggers"
+      },
+      {
+        "short": "Business Today",
+        "name": "Business Today, « Gold and silver prices drop sharply, marking biggest decline since 2013 and 2021 » (21 octobre 2025)",
+        "url": "https://www.businesstoday.in/personal-finance/investment/story/gold-and-silver-prices-drop-sharply-marking-biggest-decline-since-2013-and-2021-499097-2025-10-21"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-bresil-copom-selic-pause-13-75",
+    "date": "2026-11-05",
+    "level": 2,
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique latine"
+    ],
+    "geo": [
+      {
+        "name": "Brasilia, Brésil",
+        "label": "Brésil",
+        "coords": [
+          -47.93,
+          -15.78
+        ]
+      }
+    ],
+    "title": "Brésil : la banque centrale suspend ses baisses de taux à 13,75 % après la réélection de Lula",
+    "summary": "Mercredi 4 novembre, le comité de politique monétaire (Copom) a laissé à l'unanimité le taux Selic à 13,75 %, mettant fin à cinq baisses de suite. Reuters relie la pause à la perspective d'une inflation plus élevée après la réélection de Luiz Inácio Lula da Silva [1][2].",
+    "points": [
+      "Le Copom, que préside Gabriel Galípolo, a voté à l'unanimité le maintien du taux Selic à 13,75 %, après cinq baisses consécutives [1][3].",
+      "La décision était attendue : 33 des 48 économistes interrogés par Reuters et 26 sur 31 dans un sondage Bloomberg prévoyaient une pause [1][2].",
+      "Avant la réunion, l'inflation s'élevait à 4,58 % et le real était plus faible ; le taux reste environ 9 points au-dessus de l'inflation [3].",
+      "Les responsables ont relevé leur prévision d'inflation pour 2027 à 4,7 %, contre 3,9 % [2], et répété que la politique monétaire doit rester « substantiellement restrictive » [1]."
+    ],
+    "why": [
+      "À retenir : une banque centrale baisse ses taux quand elle estime que les prix sont sous contrôle. Ici, elle s'arrête parce que la prévision d'inflation de 2027 monte, et que la réélection de Lula, selon Reuters, fait craindre davantage de dépenses publiques [1][2].",
+      "Le Copom n'a donné aucun signal sur la suite ; sa prochaine réunion, les 8 et 9 décembre, est la dernière de l'année [3]."
+    ],
+    "forMe": "Au Brésil, un taux directeur élevé rend les crédits et les achats à crédit plus chers ; pour un investisseur étranger, il rend les placements en réaux plus rémunérateurs mais la monnaie plus sensible aux nouvelles politiques.",
+    "next": [
+      {
+        "when": "8-9 décembre",
+        "what": "Dernière réunion du Copom de 2026 [3]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "13,75 %",
+        "label": "taux Selic maintenu à l'unanimité",
+        "src": 1
+      },
+      {
+        "value": "4,7 %",
+        "label": "prévision d'inflation 2027 du Copom, contre 3,9 %",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux"
+    ],
+    "sources": [
+      {
+        "short": "Reuters (via Investing.com)",
+        "name": "Reuters / Investing.com, « Brazil's central bank ends run of rate cuts after Lula election win »",
+        "url": "https://www.investing.com/news/economy-news/brazils-central-bank-ends-run-of-rate-cuts-after-lula-election-win-5001496"
+      },
+      {
+        "short": "Briefs",
+        "name": "Briefs, « Brazil holds Selic at 13.75%, pausing rate cuts »",
+        "url": "https://www.briefs.co/news/brazil-s-central-bank-holds-selic-at-13-75-pausing-rate-cuts/"
+      },
+      {
+        "short": "The Rio Times",
+        "name": "The Rio Times, « Brazil Halts Rate Cuts at 13.75% in November »",
+        "url": "https://www.riotimesonline.com/brazil-central-bank-holds-selic-13-75-copom-4-november-2026/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-coree-du-sud-exportations-octobre-record-puces",
+    "date": "2026-11-05",
+    "level": 2,
+    "region": "Asie",
+    "theme": "eco",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "name": "Séoul, Corée du Sud",
+        "label": "Corée du Sud",
+        "coords": [
+          126.98,
+          37.57
+        ]
+      }
+    ],
+    "title": "Corée du Sud : les exportations bondissent de 94 % en octobre, portées par les puces",
+    "summary": "Selon les chiffres publiés le 1er novembre, les exportations sud-coréennes ont atteint environ 115,3 milliards de dollars en octobre, en hausse de 93,7 % sur un an, tirées par les semi-conducteurs. Le ministre du Commerce juge quasi acquis le seuil de 1 000 milliards de dollars sur l'année [1][2].",
+    "points": [
+      "D'après le Korea Times, les exportations d'octobre ont atteint 115,3 milliards de dollars, un record mensuel, en hausse de 93,7 % sur un an [1].",
+      "Les semi-conducteurs expliquent environ 73 % de l'augmentation, selon une analyse reposant sur des données de la Banque de Corée [2].",
+      "Le calendrier gonfle la comparaison : la fête de Chuseok est tombée en septembre cette année, contre octobre en 2025, ce qui a ajouté des jours ouvrés en octobre [2].",
+      "Le ministre du Commerce, Kim Jung-kwan, a déclaré que franchir 1 000 milliards de dollars d'exportations sur l'année en novembre était pratiquement acquis [2]."
+    ],
+    "why": [
+      "À retenir : l'économie sud-coréenne dépend de plus en plus des puces, et donc de la demande des centres de données d'intelligence artificielle. Quand celle-ci grimpe, les exportations explosent ; quand les investisseurs doutent, la Bourse de Séoul chute, comme cette semaine [1][2].",
+      "Prudence sur les chiffres : l'effet calendrier de Chuseok exagère la hausse, et la part exacte des puces varie selon les sources [2]."
+    ],
+    "forMe": "Les puces de mémoire de Samsung et SK hynix se retrouvent dans les smartphones, les ordinateurs et les serveurs : leur prix influence celui de ces appareils.",
+    "next": [
+      {
+        "when": "Novembre",
+        "what": "Le gouvernement attend de franchir le seuil de 1 000 milliards de dollars d'exportations sur l'année [2]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "+93,7 %",
+        "label": "exportations sud-coréennes en octobre sur un an",
+        "src": 1
+      },
+      {
+        "value": "115,3 Md$",
+        "label": "exportations d'octobre, un record mensuel",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs"
+    ],
+    "sources": [
+      {
+        "short": "The Korea Times",
+        "name": "The Korea Times, « Korea's monthly exports hit $115.3 bil. in Oct. on record chip sales » (1er novembre 2026)",
+        "url": "https://www.koreatimes.co.kr/economy/20261101/koreas-monthly-exports-hit-1153-bil-in-oct-on-record-chip-sales"
+      },
+      {
+        "short": "Xenospectrum",
+        "name": "Xenospectrum, « Korea October exports and chip unit price »",
+        "url": "https://xenospectrum.com/en/korea-october-exports-chip-unit-price/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-chine-services-pmi-octobre-ralentissement",
+    "date": "2026-11-05",
+    "level": 2,
+    "region": "Asie",
+    "theme": "eco",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "name": "Shanghai, Chine",
+        "label": "Chine",
+        "coords": [
+          121.47,
+          31.23
+        ]
+      }
+    ],
+    "title": "Chine : l'activité des services ralentit en octobre, à son plus bas depuis trois mois",
+    "summary": "L'indice RatingDog de l'activité des services chinois est tombé à 50,8 en octobre, contre 51,6 en septembre, sous les 51,5 attendus. C'est son plus bas depuis juillet, et la confiance des entreprises a reculé [1][2].",
+    "points": [
+      "L'indice RatingDog des services (ex-Caixin) est passé de 51,6 en septembre à 50,8 en octobre ; au-dessus de 50, l'activité progresse, mais plus lentement [1][2][3].",
+      "Les marchés attendaient 51,5 [3].",
+      "Les commandes à l'exportation ont continué de croître pour le sixième mois, mais moins vite qu'en septembre [1].",
+      "Les coûts des entreprises ont augmenté au rythme le plus rapide en cinq mois, alors qu'elles ont baissé leurs prix de vente pour le deuxième mois de suite, ce qui pèse sur leurs marges [1][3].",
+      "La confiance des entreprises est tombée à un plus bas de trois mois [1][2]."
+    ],
+    "why": [
+      "À retenir : les services, qui regroupent commerces, transports, finance et restauration, sont le principal débouché des consommateurs chinois. Leur ralentissement, avec des prix en baisse, montre une demande intérieure encore fragile [1][2].",
+      "Cette publication s'ajoute à d'autres signaux : le rythme de l'industrie est repassé sous 50 selon un autre suivi des PMI d'octobre, ce qui nourrit le débat sur le soutien à la demande [4]."
+    ],
+    "forMe": "Si ton activité vend en Chine (luxe, agroalimentaire, tourisme, machines), une demande intérieure molle pèse sur les commandes ; à l'inverse, des prix chinois en baisse peuvent se retrouver, plus tard, dans les produits importés.",
+    "next": [
+      {
+        "when": "10 novembre",
+        "what": "Échéance des mesures de la trêve commerciale entre Washington et Pékin, avec un rendez-vous Trump-Xi prévu à l'APEC le 18 novembre [5]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "50,8",
+        "label": "indice des services en octobre, contre 51,6 en septembre",
+        "src": 1
+      },
+      {
+        "value": "51,5",
+        "label": "niveau attendu par les marchés",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Reuters (via TradingView)",
+        "name": "Reuters / TradingView, « China's services growth slows to three-month low as confidence weakens »",
+        "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_ZRN00ERQK:0-china-s-services-growth-slows-to-three-month-low-as-confidence-weakens/"
+      },
+      {
+        "short": "New Straits Times",
+        "name": "New Straits Times, « China's services growth slows to three-month low as confidence weakens » (novembre 2026)",
+        "url": "https://www.nst.com.my/amp/business/economy/2026/11/1570324/chinas-services-growth-slows-three-month-low-confidence-weakens"
+      },
+      {
+        "short": "FXStreet",
+        "name": "FXStreet, « China's RatingDog Services PMI eases to 50.8 in October »",
+        "url": "https://www.fxstreet.com/news/chinas-ratingdog-services-pmi-eases-to-508-in-october-202611040148"
+      },
+      {
+        "short": "Muhammed Ikbal Yilmaz",
+        "name": "China's PMIs, October 2026: manufacturing back below 50 as orders and prices ease",
+        "url": "https://muhammedikbalyilmaz.com/posts/china-pmi-october-2026"
+      },
+      {
+        "short": "Venn Strategies",
+        "name": "Venn Strategies, « Venn Trade Weekly - November 3, 2026 »",
+        "url": "https://vennstrategies.substack.com/p/venn-trade-weekly-november-3-2026"
+      }
+    ]
+  },
+  {
     "id": "2026-11-04-midterms-democrates-congres",
     "date": "2026-11-04",
     "region": "Amériques",
@@ -462,6 +1453,172 @@ window.GEOCO.news = [
         "short": "Statistique Canada",
         "name": "Statistique Canada, « Commerce international de marchandises du Canada, juillet 2026 » (Le Quotidien)",
         "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260903/dq260903a-eng.htm"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-france-greve-5-novembre-intersyndicale",
+    "date": "2026-11-04",
+    "culture": [],
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Paris, France",
+        "label": "France",
+        "coords": [
+          2.35,
+          48.86
+        ]
+      }
+    ],
+    "title": "France : veille de grève générale, les cinq syndicats et la jeunesse manifestent jeudi contre la vie chère",
+    "summary": "Jeudi 5 novembre, une journée de grève et de manifestations est appelée par la CFDT, la CGT, FO, l'Unsa et la FSU, après des semaines de mobilisation des lycéens et des étudiants. Salaires, services publics et emploi sont au cœur des revendications ; trains et écoles seront perturbés [1][2][3].",
+    "points": [
+      "L'intersyndicale (CFDT, CGT, FO, Unsa, FSU) appelle les salariés du privé et du public à faire grève et à défiler jeudi 5 novembre, avec des revendications sur les salaires, les services publics, l'emploi et l'industrie, rapporte l'AFP [1]. La CGT demande aussi un autre budget de l'État et de la Sécurité sociale [1].",
+      "Selon une note interne du ministère de l'Intérieur citée par L'Express et Orange, 500 000 à 700 000 manifestants sont attendus en régions. Le ministre de l'Intérieur, Laurent Nuñez, a parlé d'une journée « sensible » [3].",
+      "À la SNCF, la CGT, l'Unsa ferroviaire, SUD-Rail et la CFDT ont déposé un préavis de 24 heures sur les salaires et l'emploi. Une réunion avec la direction mardi 3 novembre n'a pas désamorcé le conflit. La SNCF prévoit un trafic « légèrement perturbé » pour les TGV et « perturbé » pour les Intercités et les TER ; un TER sur deux circulera dans les Hauts-de-France [2]. En Île-de-France, la RATP table sur un trafic normal, le RER B sera perturbé [2].",
+      "À Lyon, les métros B, C et D et les deux funiculaires seront à l'arrêt toute la journée [3].",
+      "Les lycéens et les étudiants, déjà dans la rue depuis plusieurs semaines, bloquent des lycées et des universités mardi et jeudi, selon franceinfo ; la coordination des gilets jaunes appelle de son côté à un « 5 novembre du peuple » [1][4]."
+    ],
+    "why": [
+      "À retenir : après des semaines de mobilisation de la jeunesse, les syndicats de salariés prennent le relais, selon l'AFP. Le sujet commun est la vie chère : quand les prix montent plus vite que les salaires, les revendications se rejoignent [1].",
+      "La date n'est pas neutre. L'Assemblée examine le budget 2027, où le gouvernement veut de grosses économies, et ne parvient pas à voter la partie recettes (voir notre brève du jour). Les syndicats veulent peser avant le vote [1][4].",
+      "Pour le gouvernement, le risque est double : un jeudi noir dans les transports, puis un mouvement qui s'installe. Le Premier ministre n'a pas encore annoncé de date pour recevoir les organisations de jeunesse, d'après la CGT [4]."
+    ],
+    "forMe": "Si tu prends le train jeudi, vérifie ton trajet : un TER sur deux dans les Hauts-de-France, des Intercités perturbés. Si tu es lycéen ou étudiant, des blocages peuvent fermer ton établissement. À Paris, métro et bus devraient rouler normalement.",
+    "next": [
+      {
+        "when": "6 et 7 novembre",
+        "what": "La coordination des gilets jaunes appelle à de nouvelles actions, après la journée du 5 [4]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "500 000 à 700 000",
+        "label": "manifestants attendus en régions selon une note interne de l'Intérieur",
+        "src": 3
+      },
+      {
+        "value": "1 TER sur 2",
+        "label": "circulera dans les Hauts-de-France jeudi",
+        "src": 2
+      },
+      {
+        "value": "5",
+        "label": "syndicats dans l'appel : CFDT, CGT, FO, Unsa, FSU",
+        "src": 1
+      }
+    ],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "France 24 / AFP",
+        "name": "France 24 (AFP), « Mobilisation du 5 novembre en France : au tour du monde du travail de descendre dans la rue » (2 nov. 2026)",
+        "url": "https://www.france24.com/fr/info-en-continu/20261102-mobilisation-du-5-novembre-en-france-au-tour-du-monde-du-travail-de-descendre-dans-la-rue"
+      },
+      {
+        "short": "franceinfo",
+        "name": "franceinfo, « Grève du 5 novembre : la SNCF prévoit quelques perturbations jeudi, la RATP table sur un trafic normal en Île-de-France »",
+        "url": "https://www.franceinfo.fr/economie/greve/greve-du-5-novembre-la-sncf-prevoit-quelques-perturbations-jeudi-la-ratp-table-sur-un-trafic-normal-en-ile-de-france_8266229.html"
+      },
+      {
+        "short": "Orange / L'Express",
+        "name": "Actualités Orange (L'Express), « Grève du 5 novembre : nombre de manifestants, transports impactés… à quoi s'attendre »",
+        "url": "https://actu.orange.fr/france/greve-du-5-novembre-nombre-de-manifestants-transports-impactes-a-quoi-s-attendre-pour-cette-journee-de-mobilisation-l-express-via-6medias-CNT000002txVW6.html"
+      },
+      {
+        "short": "franceinfo",
+        "name": "franceinfo, « Blocages des lycées et des universités, grève du 5 novembre, manifestations de gilets jaunes… Quelles sont les mobilisations prévues cette semaine ? »",
+        "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/blocages-des-lycees-et-des-universites-greve-du-5-novembre-manifestations-de-gilets-jaunes-a-quoi-faut-il-s-attendre-cette-semaine_8263529.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-ue-elargissement-sommet-euronews",
+    "date": "2026-11-04",
+    "culture": [],
+    "region": "Europe",
+    "theme": "geo",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Bruxelles, Belgique",
+        "label": "Belgique",
+        "coords": [
+          4.35,
+          50.85
+        ]
+      },
+      {
+        "name": "Tbilissi, Géorgie",
+        "label": "Géorgie",
+        "coords": [
+          44.79,
+          41.72
+        ]
+      }
+    ],
+    "title": "Élargissement de l'UE : le Monténégro vise 2028, l'Ukraine voit la Hongrie lâcher prise, la Géorgie reste bloquée",
+    "summary": "Le 3 novembre à Bruxelles, le sommet d'Euronews sur l'élargissement a montré un club à plusieurs vitesses : le Monténégro, l'Albanie et la Moldavie avancent, l'Ukraine espère ouvrir ses deux derniers dossiers de négociation avant la fin de l'année, tandis que la Géorgie n'a proposé aucune sortie de crise [1][2][3].",
+    "points": [
+      "Le Monténégro vise une adhésion en 2028, comme 28e membre de l'UE. Sa ministre des Affaires européennes, Maida Gorčević, a prévenu que son pays n'acceptera pas une adhésion « de seconde classe » ; selon Euronews, son avance est freinée par des différends bilatéraux avec la Croatie, hérités des guerres yougoslaves des années 1990 [1].",
+      "L'envoyé de l'Ukraine auprès de l'UE, Taras Kachka, a dit à Euronews que la Hongrie n'a « pas de nouvelles objections de fond » à l'ouverture des deux derniers groupes de négociation, les clusters 4 et 5, qu'il espère voir ouverts d'ici la fin de 2026. Pour lui, le mot « blocage » est trompeur : Budapest demande surtout du temps pour étudier les documents [3].",
+      "L'UE a ouvert les clusters 2 et 3 pour l'Ukraine en octobre, à Luxembourg. Kachka garde l'objectif de finir les négociations en 2027 ou 2028, voire plus tôt si les réformes vont plus vite que prévu [3]. Euronews lie ces progrès au changement de gouvernement en Hongrie [1].",
+      "Mais l'agence Ukrinform rappelle qu'aux réunions du groupe de travail du Conseil des 20 et 27 octobre, la Hongrie a refusé d'approuver les conclusions de l'examen des clusters 4 et 5, alors qu'elle avait levé ses objections sur deux autres [4]. Les deux lectures ne sont donc pas encore tranchées.",
+      "En Géorgie, le Premier ministre Irakli Kobakhidze a assuré qu'il reste attaché à l'adhésion, mais il a rejeté la faute sur la Commission européenne et refusé de revoir les lois controversées qui ont gelé la candidature. Il a jugé l'évaluation de Bruxelles fausse et assimilée à du chantage politique [2]. En novembre 2024, Tbilissi avait annoncé qu'il ne chercherait pas à ouvrir les négociations avant la fin de 2028 [2].",
+      "L'Arménie a ouvert une autre porte : son Premier ministre a jugé « réaliste » une candidature formelle en 2027 ou 2028 [1]."
+    ],
+    "why": [
+      "À retenir : l'élargissement n'est plus un slogan, c'est un calendrier. Le Monténégro (2028) et l'Ukraine (négociations finies en 2027-2028) donnent des dates, ce qui oblige l'UE à régler ses propres questions : budget, agriculture, droit de veto [1][3].",
+      "La Hongrie était le principal verrou pour Kiev. Si son nouveau gouvernement lève ses objections, l'Ukraine peut avancer vite ; si le refus du 20 et du 27 octobre se confirme, le calendrier de Kachka glisse [3][4]. L'Ukraine a aussi refusé, selon Euronews, des exceptions agricoles à son adhésion [1].",
+      "L'élargissement dépend aussi de la politique des Vingt-Sept : le Premier ministre croate a averti que la présidentielle française, avec la montée des forces eurosceptiques, pourrait faire dérailler le processus [1]. Pour le reste de la région, la commissaire à l'Élargissement, Marta Kos, aurait parlé de pays « candidats seulement sur le papier » [1]."
+    ],
+    "forMe": "Si tu vis dans l'UE, l'arrivée de nouveaux membres touchera surtout l'agriculture et le budget européen : les Ukrainiens ont déjà refusé des exceptions agricoles, et les États membres négocient la répartition des fonds du prochain budget 2028-2034.",
+    "next": [
+      {
+        "when": "D'ici fin 2026",
+        "what": "L'Ukraine espère l'ouverture des clusters 4 et 5, selon son envoyé auprès de l'UE [3]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "2028",
+        "label": "année visée par le Monténégro pour devenir le 28e membre de l'UE",
+        "src": 1
+      },
+      {
+        "value": "2 et 3",
+        "label": "clusters de négociation ukrainiens ouverts en octobre ; les clusters 4 et 5 restent à ouvrir",
+        "src": 3
+      }
+    ],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Progress and pitfalls on the path to a bigger EU: Five takeaways from the Euronews Enlargement Summit » (3 nov. 2026)",
+        "url": "https://www.euronews.com/2026/11/03/progress-and-pitfalls-on-the-path-to-a-bigger-eu-five-takeaways-from-the-euronews-enlargem"
+      },
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Georgia PM offers no way out of EU accession deadlock in Euronews interview » (3 nov. 2026)",
+        "url": "https://www.euronews.com/2026/11/03/georgia-pm-offers-no-way-out-of-eu-accession-deadlock-in-euronews-interview"
+      },
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Hungary is not blocking Ukraine's EU accession talks, Kyiv's ambassador insists » (via inkl)",
+        "url": "https://www.inkl.com/news/hungary-is-not-blocking-ukraines-eu-accession-talks-kyivs-ambassador-insists"
+      },
+      {
+        "short": "Ukrinform",
+        "name": "Ukrinform, « Hungary has no new substantive objections to opening Ukraine's final negotiation clusters — Kachka »",
+        "url": "https://www.ukrinform.net/rubric-polytics/4180948-hungary-has-no-new-substantive-objections-to-opening-ukraines-final-negotiation-clusters-kachka.html"
       }
     ]
   },
@@ -2805,6 +3962,76 @@ window.GEOCO.news = [
         "short": "Maritime Gateway",
         "name": "Maritime Gateway, « India's Manufacturing PMI Eases to 54.7 in October, but Export Orders Hit a Six-Month High »",
         "url": "https://www.maritimegateway.com/indias-manufacturing-pmi-eases-to-54-7-in-october-but-export-orders-hit-a-six-month-high/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-04-france-budget-2027-vote-recettes-reporte",
+    "date": "2026-11-04",
+    "culture": [],
+    "level": 2,
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Paris, France",
+        "label": "France",
+        "coords": [
+          2.35,
+          48.86
+        ]
+      }
+    ],
+    "title": "France : le vote sur les recettes du budget 2027 n'a pas eu lieu, faute d'avoir fini les amendements",
+    "summary": "Le vote solennel sur la partie « recettes » du budget 2027, prévu mardi 3 novembre à l'Assemblée, a été reporté : les députés n'ont pas terminé l'examen des amendements. Sans majorité pour le Premier ministre Sébastien Lecornu, un rejet est jugé probable et le 49.3 est évoqué [1][2][3].",
+    "points": [
+      "Le vote prévu mardi après-midi n'a pas eu lieu, car le « marathon » de la partie recettes n'était pas terminé, indique LCP [1]. C'est le deuxième report, après celui du 20 octobre [1].",
+      "En séance, David Amiel, ministre des Comptes publics, a défendu un prélèvement de 5,5 milliards d'euros sur les collectivités locales, jugé impératif, et reproché aux députés d'avoir dégradé de 10 milliards d'euros le déficit prévu par leurs amendements, selon La Gazette des communes [3].",
+      "LCP juge « plus que probable » que la partie recettes soit rejetée, faute de majorité, comme le budget de la Sécurité sociale [1].",
+      "Si le vote échoue, le gouvernement peut recourir à l'article 49.3 ou, après les délais constitutionnels, aux ordonnances de l'article 47, détaille Public Sénat [2]."
+    ],
+    "why": [
+      "À retenir : la France entre dans novembre sans que la partie recettes du budget soit votée, et sans majorité claire pour la faire adopter [1][2].",
+      "Le blocage nourrit la colère sociale : les syndicats réclament un autre budget, et la grève du 5 novembre intervient en plein débat [2]."
+    ],
+    "forMe": "Un budget non voté ne change rien à ton salaire demain, mais il décidera de tes impôts et des aides en 2027 : suis la suite des débats à l'Assemblée.",
+    "next": [
+      {
+        "when": "Dans les prochains jours",
+        "what": "L'examen des amendements reprend ; le gouvernement garde le 49.3 et les ordonnances en réserve [2]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "5,5 Md€",
+        "label": "prélèvement voulu sur les collectivités locales par le gouvernement",
+        "src": 3
+      },
+      {
+        "value": "10 Md€",
+        "label": "dégradation du déficit due aux amendements, selon le ministre",
+        "src": 3
+      }
+    ],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "LCP",
+        "name": "LCP, « Budget 2027 : le marathon de la partie recettes n'étant pas terminé, le vote solennel prévu ce mardi n'aura pas lieu »",
+        "url": "https://lcp.fr/actualites/budget-2027-le-marathon-de-la-partie-recettes-n-etant-pas-termine-le-vote-solennel-prevu"
+      },
+      {
+        "short": "Public Sénat",
+        "name": "Public Sénat, « Budget 2027 : calendrier, 49.3, ordonnances… Quelles sont les échéances à venir et les scénarios possibles ? »",
+        "url": "https://www.publicsenat.fr/actualites/politique/budget-2027-calendrier-49-3-ordonnancesquelles-sont-les-echeances-a-venir-et-les-scenarios-possibles"
+      },
+      {
+        "short": "La Gazette des communes",
+        "name": "La Gazette des communes, « PLF 2027 : en séance publique, les députés recalent la « CPEB » […], le vote final de la partie « recettes » reporté »",
+        "url": "https://www.lagazettedescommunes.com/club-finances/finances-publiques/lois-de-finances/plf-2027-les-deputes-recalent-en-seance-publique-la-cpeb-et-les-autres-mesures-phares-sur-les-collectivites-locales-le-vote-final-de-la-partie-recettes-reporte.FE7OXDCSNREFZIHAVHRFSAJ25Y.html"
       }
     ]
   },

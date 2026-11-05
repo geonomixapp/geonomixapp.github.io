@@ -8,48 +8,6 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.agenda = [
   {
-    "id": "2026-11-04-bresil-copom-selic",
-    "date": "2026-11-04",
-    "theme": "fin",
-    "region": "Amériques",
-    "place": "Brasilia",
-    "title": "Le Brésil fixe son taux directeur (Selic)",
-    "why": "Le comité de politique monétaire de la banque centrale brésilienne se réunit les 3 et 4 novembre ; le taux Selic est à 14,25 % depuis juin selon la presse brésilienne, et la réunion suivante aura lieu les 8 et 9 décembre [1][2]. Il détermine le coût du crédit dans la première économie d'Amérique latine et pèse sur le réal.",
-    "sources": [
-      {
-        "short": "Poder360",
-        "name": "Poder360, « Saiba quando o Copom vai reunir em 2026 para tratar da Selic »",
-        "url": "https://www.poder360.com.br/poder-economia/leia-as-datas-das-reunioes-do-copom-de-2026/"
-      },
-      {
-        "short": "B3",
-        "name": "B3 Bora Investir, « Copom terá 8 reuniões em 2026 : veja calendário e projeção para a Selic »",
-        "url": "https://borainvestir.b3.com.br/noticias/copom-tera-8-reunioes-em-2026-veja-calendario-e-projecao-para-a-selic/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-04-zone-euro-inflation-octobre",
-    "date": "2026-11-04",
-    "theme": "eco",
-    "region": "Europe",
-    "place": "Luxembourg",
-    "title": "Inflation de la zone euro en octobre : première estimation d'Eurostat",
-    "why": "Eurostat publie à 11 h (heure de Paris) l'estimation rapide d'octobre, après 3,8 % en septembre [1][2]. Les premiers chiffres nationaux sont très contrastés : 2,8 % en Allemagne, 3,8 % en France (indice européen), 5,6 % en Italie ; un chiffre élevé conforterait ceux qui, à la BCE, veulent relever les taux.",
-    "sources": [
-      {
-        "short": "Eurostat",
-        "name": "Eurostat, estimation rapide d'inflation de septembre 2026 (prochaine publication : 4 novembre)",
-        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap"
-      },
-      {
-        "short": "Eurostat (PDF)",
-        "name": "Eurostat, communiqué du 16 octobre 2026 sur l'inflation (via Poder360)",
-        "url": "https://static.poder360.com.br/uploads/2026/10/integra-eurostat-inflacao-16out2026.pdf"
-      }
-    ]
-  },
-  {
     "id": "2026-11-05-banque-angleterre-taux",
     "date": "2026-11-05",
     "theme": "fin",
@@ -276,23 +234,29 @@ window.GEOCO.agenda = [
     ]
   },
   {
-    "id": "2026-11-10-treve-douaniere-chine-etats-unis",
+    "id": "2026-11-10-chine-terres-rares-suspension",
     "date": "2026-11-10",
     "theme": "geo",
     "region": "Asie",
-    "place": "Washington et Pékin",
-    "title": "Fin de la trêve douanière entre les États-Unis et la Chine",
-    "why": "La trêve prolongée en 2025 expire le 10 novembre ; en septembre, les deux pays n'avaient pas encore conclu de prolongation, le représentant américain au commerce Jamieson Greer évoquant 3 à 6 mois de plus [1][2]. Sans accord, les droits de douane pourraient remonter sur des centaines de milliards de dollars d'échanges.",
+    "place": "Pékin et Washington",
+    "title": "Fin de la suspension chinoise des contrôles sur les terres rares",
+    "why": "La Chine avait suspendu pour un an, jusqu'au 10 novembre 2026, ses contrôles d'octobre 2025 sur les terres rares, tandis que la trêve douanière a été prolongée de deux mois, jusqu'au 10 janvier 2027 [1][2]. 178 exclusions de la section 301 expirent aussi ce jour-là [3]. Sans renouvellement, des licences d'exportation redeviennent nécessaires pour ces métaux.",
+    "news": "2026-11-05-etats-unis-chine-treve-10-novembre-terres-rares",
     "sources": [
       {
-        "short": "Transport Topics",
-        "name": "Transport Topics, « Trump Extends China Tariff Truce for 90 Days to Nov. 10 »",
-        "url": "https://www.ttnews.com/articles/us-china-extends-tariff-truce"
+        "short": "CNBC",
+        "name": "CNBC, « U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit » (24 septembre 2026)",
+        "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html"
       },
       {
-        "short": "Report.az",
-        "name": "Report.az, « US, China yet to agree on extending trade truce » (21 septembre 2026)",
-        "url": "https://report.az/en/other-countries/us-china-yet-to-agree-on-extending-trade-truce"
+        "short": "Rinnovabili",
+        "name": "Rinnovabili, « Chinese rare earth exports: Trump-Xi truce extended to Jan 2027 »",
+        "url": "https://www.rinnovabili.net/policy-and-affairs/environmental-policies/chinese-rare-earth-exports-trump-xi-truce/"
+      },
+      {
+        "short": "Thomson Reuters",
+        "name": "Thomson Reuters Tax & Accounting, « Section 301 exclusions expire November 2026 »",
+        "url": "https://tax.thomsonreuters.com/blog/section-301-exclusions-expiration/"
       }
     ]
   },

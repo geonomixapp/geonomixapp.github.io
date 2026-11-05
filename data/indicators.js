@@ -7,17 +7,17 @@
 
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.indicators = {
-  "updated": "2026-11-01",
+  "updated": "2026-11-05",
   "latest": [
     {
       "group": "Économie",
-      "value": "3,8 %",
+      "value": "4,0 %",
       "label": "Inflation dans la zone euro",
-      "date": "septembre 2026",
+      "date": "octobre 2026 (estimation rapide)",
       "link": "#/chiffres/inflation",
       "source": {
-        "short": "Eurostat",
-        "url": "https://newsable.asianetnews.com/business/euro-area-inflation-jumps-to-3-8-in-september-driven-by-energy-articleshow-hzzngdy"
+        "short": "Eurostat (via CNBC)",
+        "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html"
       }
     },
     {
