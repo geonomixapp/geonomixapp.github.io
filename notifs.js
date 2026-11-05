@@ -11,7 +11,7 @@
   "use strict";
   // Clé publique VAPID (faite pour être publique ; la clé privée reste dans les secrets de Supabase).
   // À remplir quand l'auteur l'a fabriquée avec cles-notifs.html.
-  const VAPID_PUBLIC = "";
+  const VAPID_PUBLIC = "BIricDsmQb2rXg4g9v4VMzbBckaC9YQqAdgTYetPqZ_gY4xnNLi20IJQZwvXWOFqUgckIrDGmyzJlne92-BKBtU";
   const CFG = { url: "https://xnwaiyhquydhpcqnovtc.supabase.co", key: "sb_publishable_paIqtOPDAYGDFnq7DTFQyA_VpZKx33t" };
   const SDK = "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.4/+esm";
   const KEY = "geoco.notifs";
