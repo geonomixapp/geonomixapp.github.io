@@ -120,11 +120,12 @@ Une actu, c'est **un fait nouveau qui change quelque chose** : une décision, un
 
 ## Photos (demande de l'auteur, 5 nov. 2026 : « des images de bonne qualité comme Euronews, avec la source »)
 
-- **Une photo sur chaque actu principale quand on en trouve une bonne**, dans le champ `image` : `{ "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/…/1280px-….jpg", "alt": "ce qu'on voit sur la photo", "credit": "Photo : Auteur, CC BY-SA 4.0, via Wikimedia Commons" }`. Elle s'affiche en grand sur la page de l'actu et sur la carte de la mosaïque (à la place de l'illustration dessinée).
+- **Une photo sur chaque actu principale quand on en trouve une bonne**, dans le champ `image` : `{ "src": "<le thumburl donné par l'API (thumb.wikimedia.org ou upload.wikimedia.org), largeur 1280>", "alt": "ce qu'on voit sur la photo", "credit": "Photo : Auteur, CC BY-SA 4.0, via Wikimedia Commons" }`. Elle s'affiche en grand sur la page de l'actu et sur la carte de la mosaïque (à la place de l'illustration dessinée).
 - **Seulement des photos libres de Wikimedia Commons** (licences CC0, domaine public, CC BY, CC BY-SA ; jamais « NC » ni « ND ») : chercher avec l'API (`https://commons.wikimedia.org/w/api.php?action=query&list=search&srnamespace=6&srsearch=…&format=json`, puis `prop=imageinfo&iiprop=url|extmetadata&iiurlwidth=1280` pour l'adresse, l'auteur et la licence). **Jamais de photo d'Euronews, de l'AFP, de Reuters, d'AP, de Getty ou d'un autre média** : elles sont protégées et payantes, même avec la source citée. Jamais d'image générée présentée comme une vraie photo.
 - **La photo doit montrer le vrai sujet** : le lieu (le détroit d'Ormuz, le siège de la BCE, le Parlement), la personne (portrait officiel), l'entreprise (siège, usine, produit) ou la scène d'un type proche (une manifestation à Paris pour une grève en France). Une photo ancienne est acceptée si elle n'est pas présentée comme celle du jour : l'`alt` dit ce qu'elle montre et quand (« Le siège de la BCE à Francfort, en 2015 »). Si rien de pertinent, pas de photo (l'illustration dessinée reste).
 - **Crédit obligatoire et exact** : auteur, licence, « via Wikimedia Commons ». Largeur 1280 px (adresse « thumb »), jamais l'original de plusieurs Mo.
-- Si `commons.wikimedia.org` ou `upload.wikimedia.org` sont bloqués dans la session, ne mets pas de photo et dis-le dans le résumé.
+- Envoie un en-tête User-Agent (« GeonomixBot/1.0 (geonomixapp.github.io) ») et au plus une requête par seconde, sinon Wikimedia répond 429. Accès réseau ouvert par l'auteur le 5 nov. 2026.
+- Si `commons.wikimedia.org` est quand même bloqué dans la session, ne mets pas de photo et dis-le dans le résumé.
 
 ## Format d'une actu
 
