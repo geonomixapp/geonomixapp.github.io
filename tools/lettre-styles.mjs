@@ -133,6 +133,7 @@ html, body { background: #f7f3ea; } body { color: ${P.ink}; font-family: "Serif4
 .page { padding: 10mm 12mm 9mm; background: #f7f3ea; }
 .top { display: flex; justify-content: space-between; font: 600 7.5pt "Franklin", sans-serif; letter-spacing: .06em; text-transform: uppercase; color: #3d3831; }
 .mast { text-align: center; font: 900 50pt/1 "Playfair", serif; letter-spacing: -.01em; margin: 3mm 0 1.5mm; }
+.mast img { height: 22mm; width: auto; }
 .tag { text-align: center; font: italic 400 10pt "Serif4", serif; color: #4a443b; }
 .rule2 { border-top: 2.5px solid ${P.ink}; border-bottom: .6px solid ${P.ink}; height: 3px; margin: 3mm 0 1.6mm; }
 .bar { display: flex; justify-content: space-between; font: 600 7.5pt "Franklin", sans-serif; color: #3d3831; padding-bottom: 1.6mm; border-bottom: .6px solid ${P.ink}; }
@@ -174,7 +175,7 @@ td { padding: 1mm 0; border-bottom: .5px solid ${P.rule}; vertical-align: top; }
 .foot { margin-top: 3mm; padding-top: 2mm; border-top: .6px solid ${P.ink}; display: flex; justify-content: space-between; font: 400 7pt "Franklin", sans-serif; color: #5c554a; }
 `, `<div class="page" id="page">
 <div class="top"><span>${esc(d.dateCap)}</span><span>Édition du matin · N° ${d.number}</span></div>
-<div class="mast">Geonomix</div>
+<div class="mast"><img src="assets/logo-clair.png" alt="Geonomix"></div>
 <div class="tag">L'économie et la géopolitique, expliquées chaque matin</div>
 <div class="rule2"></div>
 <div class="bar"><span>${d.items.length} actus</span><span>Toutes les sources sont dans l'application</span></div>
@@ -295,6 +296,7 @@ body { background: #fff; color: #111; font-family: "Serif4", serif; }
 .cover::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(0,0,0,.55), rgba(0,0,0,0) 30%, rgba(0,0,0,0) 45%, rgba(0,0,0,.85)); }
 .cover > * { position: relative; z-index: 1; }
 .mast { text-align: center; padding-top: 9mm; font: 900 46pt/1 "Playfair", serif; letter-spacing: -.01em; }
+.mast img { height: 20mm; width: auto; }
 .under { text-align: center; font: 600 7.5pt "Franklin", sans-serif; letter-spacing: .18em; text-transform: uppercase; margin-top: 2.5mm; opacity: .9; }
 .cl { position: absolute; left: 14mm; right: 14mm; bottom: 10mm; }
 .cl .k { font: 700 7.5pt "Franklin", sans-serif; letter-spacing: .14em; text-transform: uppercase; color: #ffd27a; }
@@ -314,7 +316,7 @@ body { background: #fff; color: #111; font-family: "Serif4", serif; }
 .foot { padding: 0 14mm 7mm; font: 400 6.8pt "Franklin", sans-serif; color: #777; display: flex; justify-content: space-between; }
 `, `<div class="page" id="page">
 <div class="cover">
-  <div class="mast">Geonomix</div>
+  <div class="mast"><img src="assets/logo-sombre-hd.png" alt="Geonomix"></div>
   <div class="under">Le magazine du matin · ${esc(d.dateCap)}</div>
   <div class="cl"><div class="place">${esc((lead.geo && lead.geo[0] && (lead.geo[0].label || lead.geo[0].name)) || "")} · vu du ciel</div><div class="k">${kicker(d, lead)}</div><h1>${esc(lead.title)}</h1><p>${esc(d.strip(lead.summary))}</p></div>
 </div>

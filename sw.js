@@ -1,6 +1,6 @@
 // Service worker : met l'application en cache pour qu'elle marche hors connexion.
 // Pense à changer la version quand tu modifies des fichiers, pour forcer la mise à jour.
-const CACHE = "geonomix-v110";
+const CACHE = "geonomix-v111";
 const FILES = [
   "./",
   "index.html",
@@ -39,7 +39,8 @@ const FILES = [
   "assets/icon.svg",
   "assets/icon-180.png",
   "assets/icon-192.png",
-  "assets/icon-512.png"
+  "assets/icon-512.png",
+  "assets/logo-sombre.png"
 ];
 
 self.addEventListener("install", (event) => {

@@ -1680,3 +1680,8 @@ section.flash { animation: partFlash 1.6s ease-out; }
 }
 .pf-duel span:first-child { color: #ffb066; font-weight: 600; }
 .pf-duel span:nth-child(2) { flex: 1; }
+
+/* Logo Geonomix (choix de l'auteur, 5 nov. 2026 : globe « soleil du matin » à la place du « o ») */
+.brand-logo { height: 38px; width: auto; vertical-align: middle; }
+@media (max-width: 560px) { .brand .brand-logo { height: 30px; } }
+.brand .brand-mark { display: none; }
