@@ -450,6 +450,194 @@ window.GEOCO.news = [
     ]
   },
   {
+    "id": "2026-11-05-france-greve-5-novembre-corteges",
+    "date": "2026-11-05",
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Paris, France",
+        "label": "France",
+        "coords": [
+          2.35,
+          48.86
+        ]
+      }
+    ],
+    "title": "France : grève et manifestations contre la vie chère, 270 000 personnes dans les cortèges dès midi selon l'entourage du ministre de l'Intérieur",
+    "summary": "Jeudi 5 novembre, les syndicats appellent à la grève et à manifester dans toute la France contre la vie chère, après des semaines de mobilisation de la jeunesse. À midi, l'entourage du ministère de l'Intérieur comptait environ 270 000 manifestants ; la CGT en annonçait plus de 250 000 à 13 h [1][2][4].",
+    "points": [
+      "L'appel est porté par une intersyndicale large (CFDT, CGT, FO, UNSA, FSU et Solidaires). Elle réclame une hausse générale des salaires, des pensions et du Smic, ainsi que la revalorisation du point d'indice des fonctionnaires, selon l'AFP [3][4].",
+      "À midi, l'entourage du ministère de l'Intérieur comptait environ 270 000 manifestants dans 180 cortèges, selon le direct de franceinfo [1]. La CGT annonçait, elle, plus de 250 000 personnes à 13 h dans 73 villes, et son dirigeant disait que le chiffre allait continuer à monter [2]. Ces deux comptages, faits à des heures et avec des méthodes différentes, ne sont pas comparables : ils sont provisoires.",
+      "Avant la journée, une source sécuritaire évoquait entre 500 000 et 700 000 manifestants hors de Paris et jusqu'à 80 000 dans la capitale [5]. Pour comparer : le ministère avait compté 550 000 personnes le 17 octobre et 410 000 le 24 octobre, quand la CGT en revendiquait près de 800 000 [2].",
+      "Les transports sont touchés : les quatre syndicats représentatifs de la SNCF appellent à la grève, avec des perturbations possibles sur les TGV, les Intercités et les TER [3][4].",
+      "Dans l'éducation, le ministère annonçait près de 16 % d'enseignants grévistes et 33 % d'établissements d'enseignement supérieur perturbés [1][2]. Pour la première fois, tous les syndicats de l'enseignement privé sous contrat appellent aussi à la grève [4].",
+      "Le ministre de l'Intérieur, Laurent Nuñez, a annoncé que policiers et gendarmes seraient de nouveau mobilisés, environ 70 000 au total [2].",
+      "La suite n'est pas tranchée : le mouvement des gilets jaunes parle d'une reconduction des blocages les 6 et 7 novembre, mais les syndicats, sauf Solidaires, ne parlent pas pour l'instant de prolonger la grève au-delà de jeudi [4][6]."
+    ],
+    "why": [
+      "À retenir : la colère ne vient plus seulement de la jeunesse. Pendant des semaines, des jeunes ont manifesté contre la vie chère ; jeudi, ce sont les salariés, avec toutes les grandes confédérations réunies, ce qui est rare et donne au mouvement un poids que les journées isolées n'avaient pas [3][4].",
+      "Le ressort économique est simple : les prix montent plus vite que les salaires pour une partie des ménages. Les revendications (Smic, pensions, point d'indice des fonctionnaires) visent donc le portefeuille directement, et l'État est concerné deux fois : comme employeur de ses fonctionnaires et comme législateur du salaire minimum et des pensions [3][4].",
+      "Les chiffres de participation sont un enjeu politique en soi. Le ministère et la CGT donnent presque toujours des totaux très différents, et la bataille des chiffres sert à dire si le mouvement monte ou s'essouffle. La série des journées précédentes (550 000 le 17 octobre, 410 000 le 24 selon le ministère) sert de point de repère : un total supérieur à 410 000 jeudi soir signalerait une remontée [2].",
+      "Prudence : ces chiffres datent de la mi-journée et seront revus. Nous mettrons à jour dès que le décompte final du ministère et celui de la CGT seront publiés."
+    ],
+    "forMe": "Si tu prends le train ou si tu as des enfants scolarisés, vérifie dès maintenant les perturbations annoncées par ta compagnie et ton établissement : elles peuvent durer jusqu'à vendredi si le mouvement est reconduit.",
+    "next": [
+      {
+        "when": "6 et 7 novembre",
+        "what": "Les gilets jaunes appellent à reconduire blocages et manifestations ; Solidaires est le seul syndicat à évoquer une prolongation [4][6]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "≈ 270 000",
+        "label": "manifestants à midi, selon l'entourage du ministère de l'Intérieur",
+        "src": 1
+      },
+      {
+        "value": "> 250 000",
+        "label": "manifestants à 13 h, selon la CGT",
+        "src": 2
+      },
+      {
+        "value": "550 000",
+        "label": "manifestants le 17 octobre, selon le ministère (410 000 le 24)",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "franceinfo",
+        "name": "franceinfo, « DIRECT. Manifestations du 5 novembre : 33 % des établissements d'enseignement supérieur perturbés » (5 novembre 2026)",
+        "url": "https://www.franceinfo.fr/societe/manifestations/direct-greve-du-5-novembre-plus-de-250-actions-annoncees-dans-toute-la-france-selon-une-carte-de-la-ggt_8268827.html"
+      },
+      {
+        "short": "CNews",
+        "name": "CNews, « En direct – Manifestations du 5 novembre : plus de 250 000 personnes dans les cortèges à 13 h, selon la CGT » (5 novembre 2026)",
+        "url": "https://www.cnews.fr/france/2026-11-05/manifestations-du-5-novembre-plus-de-250000-personnes-dans-les-corteges-13h-selon"
+      },
+      {
+        "short": "AFP (Boursedirect)",
+        "name": "AFP, « Mobilisation du 5 novembre en France : au tour du monde du travail de descendre dans la rue »",
+        "url": "https://www.boursedirect.fr/fr/actualites/categorie/a-la-une/mobilisation-du-5-novembre-en-france-au-tour-du-monde-du-travail-de-descendre-dans-la-rue-afp-f52fab0b48bb25f93994def6c36f63625b4e1938"
+      },
+      {
+        "short": "Sortiraparis",
+        "name": "Sortiraparis, « Grève générale du 5 novembre 2026 : transports, écoles, une grosse mobilisation attendue »",
+        "url": "https://www.sortiraparis.com/redirect-article/354559"
+      },
+      {
+        "short": "Time France",
+        "name": "Time France, « 5 novembre : jusqu'à 780 000 manifestants attendus, la France sous haute tension »",
+        "url": "https://www.timefrance.fr/politique/5-novembre-jusqua-780-000-manifestants-attendus-la-france-sous-haute-tension/"
+      },
+      {
+        "short": "Connexion France",
+        "name": "Connexion France, « French union calls for anti-budget protests from November 6 »",
+        "url": "https://www.connexionfrance.com/news/french-union-calls-for-anti-budget-protests-from-november-6/748962"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-royaume-uni-banque-angleterre-hausse-4-pour-cent",
+    "date": "2026-11-05",
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Londres, Royaume-Uni",
+        "label": "Royaume-Uni",
+        "coords": [
+          -0.09,
+          51.51
+        ]
+      }
+    ],
+    "title": "Royaume-Uni : la Banque d'Angleterre relève son taux à 4 %, sa première hausse depuis 2023, à cause de l'énergie",
+    "summary": "Jeudi 5 novembre, la Banque d'Angleterre a relevé son taux directeur de 0,25 point, de 3,75 % à 4 %, par 8 voix contre 1. Il s'agit de sa première hausse depuis 2023. Son gouverneur, Andrew Bailey, prévient que le conflit au Moyen-Orient peut encore en appeler d'autres [1][2][3].",
+    "points": [
+      "Le comité de politique monétaire (MPC) a décidé jeudi 5 novembre de porter le taux directeur à 4 %, contre 3,75 % auparavant, par 8 voix contre 1 [1][2]. Une seule membre, Catherine Mann, voulait plus fort : une hausse de 0,50 point, à 4,25 % [1][2].",
+      "Tous les neuf membres étaient donc favorables à un resserrement ; la divergence porte sur son ampleur. C'est le sens du titre « unanime » de City AM, qui parle du sens de la décision et non du détail du vote [1].",
+      "En septembre, la banque avait maintenu son taux à 3,75 % par 6 voix contre 3, trois membres réclamant déjà une hausse immédiate. Le basculement s'est donc fait en un seul trimestre [4][5].",
+      "Moteur de la décision : l'énergie. La perturbation des approvisionnements a fait monter les prix des carburants et les factures d'énergie des ménages. L'inflation britannique atteignait 3,5 % en septembre, et la banque la voit monter autour de 5 % à la mi-2027 [1][3].",
+      "Andrew Bailey, gouverneur, a mis en garde contre l'idée d'une « longue séquence inévitable de hausses », tout en ajoutant qu'« à moins que le conflit au Moyen-Orient soit résolu », cette hausse ne semble pas non plus devoir être la dernière [1].",
+      "Les marchés l'attendaient : avant la réunion, ils donnaient plus de 96 % de chances à une hausse ; Bank of America prévoyait deux hausses de 0,25 point, en novembre puis en février, pour arriver à 4,25 % [5][6]. Résultat : peu de réaction immédiate des Bourses et des marchés d'obligations, selon MoneyWeek [3]."
+    ],
+    "why": [
+      "À retenir : une banque centrale qui relève ses taux alors que l'économie souffre d'un choc extérieur choisit de combattre l'inflation avant la croissance. L'énergie plus chère n'est pas causée par les Britanniques, mais si les prix montent partout et que les salaires et les prix suivent, l'inflation s'installe. La banque monte donc ses taux pour casser cette spirale [1][3].",
+      "Le mécanisme : un taux directeur plus haut rend les crédits plus chers (prêts immobiliers, crédits aux entreprises), donc freine la demande et les hausses de prix. C'est le même raisonnement que celui de la BCE, dont la prochaine réunion est le 17 décembre.",
+      "Le détail du vote compte autant que la hausse : 8 contre 1, avec une voix pour 0,50 point, penche vers le « faucon ». Les analystes avaient prévenu que la réaction de la livre dépendrait de ce partage des voix et du ton de Bailey. Nous n'avons pas trouvé de variation de la livre après l'annonce, donc nous n'en indiquons pas [3]."
+    ],
+    "forMe": "Si tu vis, étudies ou travailles au Royaume-Uni, ou si tu as un crédit à taux variable lié au taux de la Banque d'Angleterre, ta mensualité peut monter. En France, rien ne change directement, mais c'est un signal de plus que les banques centrales d'Europe durcissent le ton face à l'énergie.",
+    "next": [
+      {
+        "when": "Prochaines réunions",
+        "what": "Bailey juge la hausse peut-être pas la dernière si le conflit au Moyen-Orient continue ; Bank of America prévoit une nouvelle hausse en février [1][6]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "4 %",
+        "label": "nouveau taux directeur (3,75 % avant)",
+        "src": 1
+      },
+      {
+        "value": "8 contre 1",
+        "label": "vote du comité ; une voix pour 4,25 %",
+        "src": 2
+      },
+      {
+        "value": "3,5 %",
+        "label": "inflation britannique en septembre ; ≈ 5 % attendus mi-2027",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux"
+    ],
+    "sources": [
+      {
+        "short": "City AM",
+        "name": "City AM, « Bank of England hikes interest rates to four per cent » (5 novembre 2026)",
+        "url": "https://www.cityam.com/interest-rates-hiked-to-four-per-cent-in-unanimous-vote/"
+      },
+      {
+        "short": "Le Private Banker",
+        "name": "Le Private Banker, « Bank of England Raises Rates to 4 % in 8-1 Vote, Its First Hike Since 2023, as Mann Pushes for 50 Basis Points » (5 novembre 2026)",
+        "url": "https://leprivatebanker.com/2026/11/05/bank-of-england-raises-rates-to-4-in-8-1-vote-its-first-hike-since-2023-as-mann-pushes-for-50-basis-points/"
+      },
+      {
+        "short": "MoneyWeek",
+        "name": "MoneyWeek, « Live: Bank of England raises interest rates » (5 novembre 2026)",
+        "url": "https://moneyweek.com/economy/news/live/uk-interest-rates-november-bank-of-england"
+      },
+      {
+        "short": "Eastern Herald",
+        "name": "Eastern Herald, « Bank of England Holds at 3.75 % as Hawkish Split Signals November Rate Rise » (18 septembre 2026)",
+        "url": "https://easternherald.com/2026/09/18/bank-of-england-holds-3-75-percent-mpc-split-november-hike/"
+      },
+      {
+        "short": "investingLive",
+        "name": "investingLive, « Bank of England preview: first hike to 4 % expected as energy pushes inflation to 3.5 % »",
+        "url": "https://investinglive.com/central-banks/bank-of-england-preview-first-hike-to-4-expected-as-energy-pushes-inflation-to-3-5/"
+      },
+      {
+        "short": "France Épargne",
+        "name": "France Épargne, « BofA prévoit deux hausses de taux de la Banque d'Angleterre jusqu'à 4,25 % en février »",
+        "url": "https://www.france-epargne.fr/news/bofa-prevoit-deux-hausses-de-taux-de-la-banque-dangleterre-jusqua-425-en-fevrier.md"
+      }
+    ]
+  },
+  {
     "id": "2026-11-05-wall-street-dow-3-pour-cent-midterms-petrole",
     "date": "2026-11-05",
     "region": "Amériques",
@@ -788,6 +976,135 @@ window.GEOCO.news = [
     ]
   },
   {
+    "id": "2026-11-05-zillow-chute-prevision-immobilier",
+    "date": "2026-11-05",
+    "region": "Amériques",
+    "theme": "fin",
+    "zones": [
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Seattle, États-Unis",
+        "label": "États-Unis",
+        "coords": [
+          -122.33,
+          47.61
+        ]
+      }
+    ],
+    "title": "Zillow plonge de 16 % : le site immobilier prévoit moins de ventes que prévu, et son action a déjà perdu près de la moitié cette année",
+    "summary": "Zillow, le grand site américain d'annonces immobilières, a publié mercredi 4 novembre ses résultats du troisième trimestre : 724 millions de dollars de ventes (+7 %), mais en dessous des attentes, et une prévision prudente pour la fin d'année. L'action a chuté d'environ 16 % après la clôture [1][2][3].",
+    "points": [
+      "Selon le communiqué de Zillow, les ventes du troisième trimestre ont progressé de 7 % sur un an, à 724 millions de dollars, contre environ 753 millions attendus par les analystes (TipRanks) [1][2].",
+      "Le bénéfice ajusté par action est ressorti à 0,55 dollar, sous les 0,58 attendus. En comptabilité classique (GAAP), Zillow affiche une perte nette de 158 millions de dollars, soit 0,70 dollar par action [2].",
+      "Pour le quatrième trimestre, l'entreprise prévoit entre 635 et 665 millions de dollars de ventes, une fourchette inférieure à ce que les analystes espéraient [2].",
+      "Les causes avancées : des taux de crédit immobilier élevés et un marché américain du logement toujours faible, qui pèsent sur son activité résidentielle, et un trafic en baisse sur son site [2].",
+      "Le bénéfice ajusté exclut un règlement de 165 millions de dollars lié à l'action collective des actionnaires sur Zillow Offers, son ancienne activité d'achat-revente de maisons [1].",
+      "CNBC a relevé, parmi les plus fortes baisses après la clôture mercredi, Zillow (plus de 16 %), à côté d'Expedia (plus de 7 %) [3]. Depuis janvier, l'action Zillow a déjà perdu 48,6 % [2]."
+    ],
+    "why": [
+      "À retenir : en Bourse, une entreprise est jugée sur ce qu'elle promet de gagner, pas sur ce qu'elle vient de gagner. Les ventes de Zillow progressent de 7 %, mais comme les analystes en attendaient davantage et que la prévision est plus basse que leurs attentes, l'action recule : le marché révise à la baisse les gains futurs [2][3].",
+      "Zillow vit du logement : annonces, publicité aux agents immobiliers, prêts. Quand les taux de crédit restent hauts, moins de ménages achètent, donc moins de visites et moins de revenus. C'est un baromètre de la santé du marché immobilier américain, lié aux décisions de la Réserve fédérale [2].",
+      "Le trafic en baisse du site est un second signal : moins de visiteurs veut dire moins de contacts à vendre aux agents. Une inquiétude proche de celle de Reddit cette semaine, qui perd du trafic au profit des réponses de l'intelligence artificielle de Google."
+    ],
+    "forMe": "Rien à faire de direct : cette actu t'explique pourquoi un bon chiffre de ventes ne suffit pas à faire monter une action. Si tu suis l'immobilier américain, c'est un indice de plus que la demande reste freinée par le coût du crédit. Ce n'est pas un conseil d'acheter ou de vendre.",
+    "figures": [
+      {
+        "value": "724 M$",
+        "label": "ventes du 3e trimestre (+7 % ; ≈ 753 M$ attendus)",
+        "src": 2
+      },
+      {
+        "value": "635–665 M$",
+        "label": "prévision de ventes du 4e trimestre, sous les attentes",
+        "src": 2
+      },
+      {
+        "value": "−48,6 %",
+        "label": "performance de l'action Zillow depuis janvier",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux"
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi une prévision décevante fait plonger une action",
+        "text": "Le cours d'une action reflète ce que les investisseurs pensent que l'entreprise gagnera dans les années à venir. Les analystes publient des attentes (chiffre d'affaires, bénéfice par action) ; quand l'entreprise fait moins, c'est un « raté » (miss). La prévision que l'entreprise donne pour le trimestre suivant (guidance) compte souvent davantage que le trimestre passé : si elle est sous les attentes, les investisseurs révisent à la baisse leurs gains futurs, et le prix baisse tout de suite. Après la clôture, on parle d'échanges en « séance prolongée » : le mouvement peut s'atténuer ou s'amplifier le lendemain [2][3]."
+      }
+    },
+    "past": {
+      "title": "Quand le logement fait trembler les plateformes immobilières",
+      "items": [
+        {
+          "when": "2 novembre 2021",
+          "what": "Zillow annonce l'arrêt de Zillow Offers, son activité d'achat-revente de maisons : une dépréciation de stocks de 304,4 millions de dollars au troisième trimestre, environ 25 % des effectifs supprimés. Le PDG, Rich Barton, explique que la prévision des prix des maisons s'est révélée plus imprévisible qu'attendu [4][5].",
+          "lesson": "Une plateforme qui prend le risque des prix sur son bilan peut perdre plus que ce que ses prévisions suggéraient."
+        },
+        {
+          "when": "Octobre 2022",
+          "what": "Opendoor, Offerpad et Redfin touchent leurs plus bas historiques la même semaine, avec la baisse des prix des maisons, la hausse des taux de crédit et la chute générale des marchés ; Redfin approchait 100 dollars début 2021 [6].",
+          "lesson": "Les actions du secteur réagissent d'abord aux taux de crédit, avant les résultats."
+        },
+        {
+          "when": "Août 2024",
+          "what": "Après que le président de la Fed, Jerome Powell, a laissé entrevoir des baisses de taux, l'action Opendoor monte de 24 % en deux séances, Offerpad d'un niveau semblable [7].",
+          "lesson": "Le mouvement inverse existe : l'espoir de taux plus bas relance le secteur aussi vite."
+        }
+      ]
+    },
+    "markets": {
+      "items": [
+        {
+          "name": "Zillow Group",
+          "ticker": "Z",
+          "move": "−16 % après la clôture",
+          "why": "Site d'annonces immobilières dont les ventes dépendent des achats de logements ; l'action a reculé de plus de 16 % en séance prolongée après ses résultats [3], et perd 48,6 % depuis janvier [2]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Zillow (SEC)",
+        "name": "Zillow Group, communiqué sur les résultats du 3e trimestre 2026 (formulaire 8-K, 4 novembre 2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001617640/000161764026000068/q32026991.htm"
+      },
+      {
+        "short": "TipRanks",
+        "name": "TipRanks, « Zillow Stock Plunges on Q3 Miss as Housing Market Weakness Persists »",
+        "url": "https://www.tipranks.com/news/zillow-stock-plunges-on-q3-miss-as-housing-market-weakness-persists"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Stocks making the biggest moves after hours: Coherent, AppLovin, Expedia, Qualcomm and more » (4 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/04/stocks-making-the-biggest-moves-after-hours-cohr-app-expe-more.html"
+      },
+      {
+        "short": "Zillow (SEC 2021)",
+        "name": "Zillow Group, formulaire 8-K du 2 novembre 2021 (arrêt de Zillow Offers)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1617640/000161764021000085/z-20211102.htm"
+      },
+      {
+        "short": "CNN",
+        "name": "CNN, « Zillow to exit its home buying business and cut 25 % of staff » (2 novembre 2021)",
+        "url": "https://www.cnn.com/2021/11/02/homes/zillow-exit-ibuying-home-business"
+      },
+      {
+        "short": "Inman",
+        "name": "Inman, « The big iBuyers are getting brutalized in the stock market » (7 octobre 2022)",
+        "url": "https://inman.com/2022/10/07/the-big-ibuyers-are-getting-brutalized-in-the-stock-market"
+      },
+      {
+        "short": "The Motley Fool",
+        "name": "The Motley Fool, « Interest rates: can Opendoor break the iBuying curse » (31 août 2024)",
+        "url": "https://www.fool.com/investing/2024/08/31/interest-rates-can-opendoor-break-ibuying-curse"
+      }
+    ]
+  },
+  {
     "id": "2026-11-05-bresil-copom-selic-pause-13-75",
     "date": "2026-11-05",
     "level": 2,
@@ -1004,6 +1321,138 @@ window.GEOCO.news = [
         "short": "Venn Strategies",
         "name": "Venn Strategies, « Venn Trade Weekly - November 3, 2026 »",
         "url": "https://vennstrategies.substack.com/p/venn-trade-weekly-november-3-2026"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-egypte-fmi-programme-fin-decembre",
+    "date": "2026-11-05",
+    "level": 2,
+    "region": "Afrique",
+    "theme": "eco",
+    "zones": [
+      "Moyen-Orient",
+      "Afrique"
+    ],
+    "geo": [
+      {
+        "name": "Le Caire, Égypte",
+        "label": "Égypte",
+        "coords": [
+          31.24,
+          30.04
+        ]
+      }
+    ],
+    "title": "Égypte : le programme du FMI s'achève en décembre, et la guerre au Moyen-Orient pèse sur le canal de Suez",
+    "summary": "Le programme de prêts du FMI à l'Égypte prend fin en décembre 2026, après cinq programmes depuis 2016 pour près de 30 milliards de dollars. Le 2 novembre, Le Caire a signé un prêt d'un milliard de dollars avec la Banque mondiale, alors que la guerre pèse sur ses recettes en devises [1][2][3].",
+    "points": [
+      "Selon le centre de réflexion TIMEP, le programme actuel du FMI se termine en décembre 2026. Depuis 2016, l'Égypte a reçu des financements du FMI dans le cadre de cinq programmes, pour un total de près de 30 milliards de dollars [1].",
+      "Le 2 novembre, l'Égypte a signé un accord d'un milliard de dollars avec la Banque mondiale, alors que la guerre accentue ses difficultés économiques, rapporte The National [2].",
+      "Dans un article du 21 septembre, le FMI estime que la réponse de politique économique de l'Égypte l'a aidée à absorber les contrecoups de la guerre au Moyen-Orient, tout en notant que des fragilités importantes demeurent. Il constate aussi une reprise graduelle de l'activité du canal de Suez après des perturbations [3]."
+    ],
+    "why": [
+      "À retenir : le canal de Suez est l'une des principales sources de devises de l'Égypte, et la guerre au Moyen-Orient en réduit les recettes. Les chiffres divergent selon les sources, entre 4,4 et 4,7 milliards de dollars récemment, contre près de 10 milliards avant les attaques en mer Rouge [1][3]. Moins de devises, c'est plus de difficulté à payer ses importations et sa dette.",
+      "La fin du programme du FMI marque un tournant : il a servi d'ancre pour les réformes et pour rassurer les prêteurs. La question, débattue le 16 novembre par TIMEP, est de savoir si l'Égypte doit en demander un nouveau [1]."
+    ],
+    "forMe": "Si tu suis les prix de l'énergie ou du transport maritime, le canal de Suez est un maillon : moins de bateaux qui y passent, ce sont des trajets plus longs et plus chers pour les marchandises vers l'Europe.",
+    "figures": [
+      {
+        "value": "≈ 30 Md$",
+        "label": "financements du FMI à l'Égypte depuis 2016 (5 programmes)",
+        "src": 1
+      },
+      {
+        "value": "1 Md$",
+        "label": "accord signé avec la Banque mondiale le 2 novembre",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "routes-maritimes"
+    ],
+    "sources": [
+      {
+        "short": "TIMEP",
+        "name": "The Tahrir Institute for Middle East Policy, « A Decade with the IMF: What's Next for Egypt? » (3 novembre 2026)",
+        "url": "https://timep.org/2026/11/03/a-decade-with-the-imf-whats-next-for-egypt/"
+      },
+      {
+        "short": "The National",
+        "name": "The National, « Egypt signs $1 billion World Bank deal as war compounds economic pressures » (2 novembre 2026)",
+        "url": "https://www.thenationalnews.com/news/mena/2026/11/02/egypt-signs-1-billion-world-bank-deal-as-war-compounds-economic-pressures/"
+      },
+      {
+        "short": "FMI",
+        "name": "FMI, « Resilience Under Pressure: Egypt's Economy Defied Expectations » (21 septembre 2026)",
+        "url": "https://www.imf.org/en/news/articles/2026/09/21/cf-resilience-under-pressure-egypts-economy-defied-expectations"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-chine-minerais-critiques-participations-etrangeres",
+    "date": "2026-11-05",
+    "level": 2,
+    "region": "Asie",
+    "theme": "mix",
+    "zones": [
+      "Asie",
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Pékin, Chine",
+        "label": "Chine",
+        "coords": [
+          116.4,
+          39.9
+        ]
+      }
+    ],
+    "title": "Chine : Pékin rachète des mines à l'étranger pour garder la main sur les minerais critiques",
+    "summary": "Selon CNBC, la Chine étend ses participations dans des mines à l'étranger pour renforcer son emprise sur les minerais critiques. Elle produit environ 92 % des terres rares raffinées du monde, selon l'Agence internationale de l'énergie, mais les pays hôtes commencent à limiter les exportations de minerai brut [1].",
+    "points": [
+      "CNBC rapporte le 4 novembre que Pékin élargit ses prises de participation dans des mines hors de Chine [1].",
+      "La Chine produit environ 92 % des terres rares raffinées dans le monde, selon l'Agence internationale de l'énergie citée par CNBC [1].",
+      "Les pays qui accueillent ces mines réagissent : ils limitent les exportations de minerai non transformé et exigent que les partenaires étrangers raffinent sur place [1].",
+      "En septembre, la Chine a exporté 4 269,8 tonnes de terres rares, soit 6,7 % de plus qu'un an plus tôt ; sur les neuf premiers mois, les exportations restent en baisse de 9,6 %, à 43 711 tonnes, selon des données douanières citées par Reuters [2]."
+    ],
+    "why": [
+      "À retenir : l'avantage chinois ne tient pas seulement aux mines, mais surtout au raffinage, l'étape qui rend les minerais utilisables. En achetant des mines et en gardant le raffinage, Pékin contrôle la chaîne de bout en bout. Les pays producteurs veulent à leur tour garder cette étape chez eux [1].",
+      "La suspension d'un an des contrôles chinois à l'exportation d'octobre 2025 court jusqu'au 10 novembre 2026 ; aucune prolongation chinoise n'est publiée à ce jour, même si Washington évoque une trêve jusqu'au 10 janvier 2027 [2][3]. Le ministère chinois du Commerce a dit en octobre qu'il continuerait à approuver des licences pour l'Europe, quel que soit le sort de l'accord avec les États-Unis [3]."
+    ],
+    "forMe": "Les terres rares entrent dans les moteurs de voiture électrique, les éoliennes et les téléphones : une tension sur leur approvisionnement peut, à terme, renchérir ces produits.",
+    "figures": [
+      {
+        "value": "92 %",
+        "label": "des terres rares raffinées dans le monde sont chinoises (AIE)",
+        "src": 1
+      },
+      {
+        "value": "4 269,8 t",
+        "label": "exportées en septembre (+6,7 % sur un an)",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "CNBC",
+        "name": "CNBC, « China expands overseas mining stakes, tightening grip on critical minerals » (4 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/04/china-critical-minerals-rare-earths-trump-japan-export-control-.html"
+      },
+      {
+        "short": "Technology.org",
+        "name": "Technology.org, « China's Rare-Earth Export Pause: What Ends on 10 November » (19 octobre 2026)",
+        "url": "https://www.technology.org/2026/10/19/china-rare-earth-export-pause-november-10/"
+      },
+      {
+        "short": "CNBC (Europe)",
+        "name": "CNBC, « China says rare earth exports to Europe will continue past U.S. trade deadline » (15 octobre 2026)",
+        "url": "https://www.cnbc.com/2026/10/15/china-rare-earth-exports-europe.html"
       }
     ]
   },
