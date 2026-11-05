@@ -3616,6 +3616,8 @@ function statGrid(figures, sources, theme = "geo") {
     }
     document.querySelector(".nav-search") && document.querySelector(".nav-search").classList.toggle("active", section === "recherche");
     document.querySelector(".nav-profile") && document.querySelector(".nav-profile").classList.toggle("active", section === "profil");
+    // Logo entouré sur l'accueil (demande de l'auteur, 5 nov. 2026 : « bien montrer qu'on est dessus »).
+    document.querySelector(".brand") && document.querySelector(".brand").classList.toggle("active", !section);
     timeTrack(section, param);
     groupCites(app);
     watchReveals();

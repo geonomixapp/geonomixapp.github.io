@@ -1692,3 +1692,9 @@ section.flash { animation: partFlash 1.6s ease-out; }
 .m-side .mc-photo img { min-height: 0; aspect-ratio: 1; }
 .mc-credit { position: absolute; right: 6px; bottom: 5px; max-width: 90%; padding: 2px 6px; border-radius: 6px; background: rgba(0,0,0,.55); color: #ddd; font-size: 10px; line-height: 1.3; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .hero-img figcaption { font-size: 12px; }
+
+/* Le logo Geonomix est un bouton : entouré quand on est sur l'accueil, comme les onglets (demande de l'auteur, 5 nov. 2026) */
+.navbar-inner .brand { padding: 4px 12px; border: 1px solid transparent; border-radius: 999px; transition: border-color .2s, background .2s; }
+.navbar-inner .brand:hover { border-color: var(--hairline); }
+.navbar-inner .brand.active { border-color: var(--text); background: rgba(255,255,255,.06); }
+@media (max-width: 560px) { .navbar-inner .brand { padding: 3px 9px; } }
