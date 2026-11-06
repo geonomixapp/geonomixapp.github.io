@@ -8,71 +8,6 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.agenda = [
   {
-    "id": "2026-11-05-banque-angleterre-taux",
-    "date": "2026-11-05",
-    "theme": "fin",
-    "region": "Europe",
-    "place": "Londres",
-    "title": "La Banque d'Angleterre fixe son taux",
-    "why": "Décision à midi, heure de Londres, avec un nouveau rapport sur la politique monétaire [1][2]. Un taux plus haut renchérit les crédits des ménages et des entreprises britanniques et fait souvent monter la livre.",
-    "sources": [
-      {
-        "short": "Finance Calendar",
-        "name": "Finance Calendar, « Bank of England MPC Rate Decision November 2026 »",
-        "url": "https://www.financecalendar.com/event/bank-of-england-mpc-rate-decision-november-2026/"
-      },
-      {
-        "short": "Cambridge Currencies",
-        "name": "Cambridge Currencies, « Next Bank of England interest rate decision »",
-        "url": "https://cambridgecurrencies.com/next-bank-of-england-interest-rate-decision-date/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-banxico-taux",
-    "date": "2026-11-05",
-    "theme": "eco",
-    "region": "Amériques",
-    "place": "Mexique",
-    "title": "Banxico décide de son taux directeur",
-    "why": "Le marché attend une pause à 6,50 % [1][2]. Une surprise ferait bouger le peso, déjà fragilisé par les midterms.",
-    "news": "2026-11-04-mexique-banxico-pause-attendue",
-    "sources": [
-      {
-        "short": "Maya Comunicación",
-        "name": "Maya Comunicación, « Banxico decide su tasa el 5 de noviembre »",
-        "url": "https://mayacomunicacion.com.mx/banxico-decision-tasa-5-noviembre-2026/"
-      },
-      {
-        "short": "XTB",
-        "name": "XTB, « Banxico decide tasas esta semana »",
-        "url": "https://www.xtb.com/lat/analisis-y-noticias/analisis-de-mercado/banxico-decide-tasas-esta-semana-que-esperar-del-usd-mxn"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-israel-herzog-likoud-yashar",
-    "date": "2026-11-05",
-    "theme": "geo",
-    "region": "Moyen-Orient",
-    "place": "Jérusalem",
-    "title": "Israël : Herzog reçoit le Likoud de Netanyahou et le parti Yashar d'Eisenkot",
-    "why": "C'est la dernière étape des consultations : le président entend les deux plus grands partis, tard dans la soirée, avant de désigner qui tentera de former le gouvernement [1][2]. Les recommandations de l'opposition et des petits partis pèseront sur son choix, mais il n'est pas obligé de les suivre [2].",
-    "news": "2026-11-04-israel-herzog-consultations",
-    "sources": [
-      {
-        "short": "Yahoo / AFP",
-        "name": "Yahoo News, « Israel president opens talks as rivals struggle to form government »",
-        "url": "https://www.yahoo.com/news/politics/articles/israel-president-opens-talks-rivals-020036434.html"
-      },
-      {
-        "short": "Ynet",
-        "name": "Ynetnews, « 60 for Eisenkot, 46 for Netanyahu: Who gets first shot at forming Israel's government? »",
-        "url": "https://www.ynetnews.com/article/sk8eaw4pge"
-      }
-    ]
-  },
-  {
     "id": "2026-11-05-chine-foire-importations-shanghai",
     "date": "2026-11-05",
     "end": "2026-11-10",
@@ -92,32 +27,6 @@ window.GEOCO.agenda = [
         "short": "People's Daily",
         "name": "People's Daily, « 57 countries, 3 international organizations confirm participation in CIIE Country Exhibition » (28 juil. 2026)",
         "url": "https://en.people.cn/n3/2026/0728/c90000-20482367.html"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-commerzbank-resultats-t3",
-    "date": "2026-11-05",
-    "theme": "fin",
-    "region": "Europe",
-    "place": "Francfort",
-    "title": "Commerzbank présente ses résultats du troisième trimestre",
-    "why": "Selon un compte rendu, la banque allemande publie ses chiffres le 5 novembre, en pleine offre d'échange d'UniCredit (0,485 action UniCredit pour une action Commerzbank) [1][2]. À la fin de la période d'acceptation complémentaire, le 3 juillet, 17,6 % des titres avaient été apportés, le transfert restant soumis aux autorisations réglementaires [3].",
-    "sources": [
-      {
-        "short": "Finanztrends",
-        "name": "Finanztrends, « UniCredit Aktie : Kommission prüft Commerzbank-Übernahme »",
-        "url": "https://www.finanztrends.de/news/unicredit-aktie-kommission-prueft-commerzbank-uebernahme/"
-      },
-      {
-        "short": "Börse Global",
-        "name": "Börse Global, « UniCredit Aktie : Beantragt Freigabe für Commerzbank-Übernahme »",
-        "url": "https://www.boerse-global.de/unicredit-aktie-beantragt-freigabe-fuer-commerzbank-uebernahme/833385"
-      },
-      {
-        "short": "Investing.com",
-        "name": "Investing.com, « UniCredit takeover offer for Commerzbank receives 17.6 % acceptance »",
-        "url": "https://www.investing.com/news/company-news/unicredit-takeover-offer-for-commerzbank-receives-176-acceptance-93CH-4780897"
       }
     ]
   },
@@ -213,6 +122,45 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-11-09-eurogroupe-candidats-bce",
+    "date": "2026-11-09",
+    "theme": "fin",
+    "region": "Europe",
+    "place": "Bruxelles",
+    "title": "L'Eurogroupe examine les candidats à la succession de Christine Lagarde à la BCE",
+    "why": "Les ministres des Finances de la zone euro passent en revue les candidatures [1]. Le successeur, qui devra réunir au moins 16 des 21 pays et 65 % de la population, fixera la ligne sur les taux et l'euro.",
+    "news": "2026-11-06-bce-succession-lagarde-candidats",
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Who will replace Lagarde? Eurozone picks nominees as race for ECB top job begins » (3 novembre 2026)",
+        "url": "https://www.euronews.com/2026/11/03/who-will-replace-lagarde-eurozone-picks-nominees-as-race-for-ecb-top-job-begins"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-09-conference-sociale-matignon",
+    "date": "2026-11-09",
+    "theme": "eco",
+    "region": "Europe",
+    "place": "Paris",
+    "title": "France : conférence sociale à Matignon sur les salaires et le pouvoir d'achat",
+    "why": "Le Premier ministre réunit syndicats et patronat après la grève du 5 novembre [1]. Les syndicats réclament une hausse du Smic, qui n'est pas arrêtée à ce stade.",
+    "news": "2026-11-06-france-conference-sociale-matignon-salaires",
+    "sources": [
+      {
+        "short": "Europe 1",
+        "name": "Europe 1, « Sébastien Lecornu réunira lundi à Matignon une conférence sociale avec les syndicats et le patronat »",
+        "url": "https://www.europe1.fr/politique/sebastien-lecornu-reunira-lundi-a-matignon-une-conference-sociale-avec-les-syndicats-et-le-patronat-1211417"
+      },
+      {
+        "short": "Francemag",
+        "name": "Francemag, « Grève du 5 novembre : après une mobilisation massive, Sébastien Lecornu convoque syndicats et patronat à Matignon »",
+        "url": "https://www.francemag.fr/article/3952/greve-du-5-novembre-apres-une-mobilisation-massive-sebastien-lecornu-convoque-syndicats-et-patronat-a-matignon"
+      }
+    ]
+  },
+  {
     "id": "2026-11-10-etats-unis-inflation-octobre",
     "date": "2026-11-10",
     "theme": "eco",
@@ -259,6 +207,25 @@ window.GEOCO.agenda = [
         "url": "https://tax.thomsonreuters.com/blog/section-301-exclusions-expiration/"
       }
     ]
+  },
+  {
+    "id": "2026-11-10-abou-dhabi-pourparlers-ukraine",
+    "date": "2026-11-10",
+    "end": "2026-11-11",
+    "theme": "geo",
+    "region": "Moyen-Orient",
+    "place": "Abou Dhabi",
+    "title": "Pourparlers à trois États-Unis–Russie–Ukraine à Abou Dhabi",
+    "why": "Après les réunions de Bruxelles sur la reconstruction, première rencontre à trois prévue [1]. Un progrès pèserait sur les prix de l'énergie et sur les sanctions contre la Russie.",
+    "news": "2026-11-06-ukraine-bruxelles-reconstruction-abou-dhabi",
+    "sources": [
+      {
+        "short": "EU Reporter",
+        "name": "EU Reporter, « Ukraine moves closer to EU membership as Brussels hosts talks on post-war prosperity » (4 novembre 2026)",
+        "url": "https://www.eureporter.co/world/ukraine/2026/11/04/ukraine-moves-closer-to-eu-membership-as-brussels-hosts-talks-on-post-war-prosperity/"
+      }
+    ],
+    "verify": "Date annoncée dans la couverture de la réunion de Bruxelles, pas encore confirmée par une source officielle."
   },
   {
     "id": "2026-11-11-israel-herzog-delai-mandat",

@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-06",
+    "file": "lettres/2026-11-06.pdf",
+    "titles": [
+      "Wall Street s'effondre : le Nasdaq perd 5,5 % en une séance, un peu plus de 2 000 milliards de dollars de Bourse partent en fumée",
+      "L'Asie plonge dans le sillage de Wall Street : Séoul perd plus de 8 % en séance, Tokyo entre en « marché baissier »",
+      "Vance impute la déroute des républicains à la guerre en Iran, et le pétrole tombe sous 95 dollars"
+    ],
+    "fileDark": "lettres/2026-11-06-sombre.pdf"
+  },
+  {
     "date": "2026-11-05",
     "file": "lettres/2026-11-05.pdf",
     "titles": [

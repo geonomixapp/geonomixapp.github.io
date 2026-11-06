@@ -17,6 +17,1017 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.news = [
   {
+    "id": "2026-11-06-wall-street-krach-tech-nasdaq-correction",
+    "date": "2026-11-06",
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Europe",
+      "Asie",
+      "Amérique du Nord"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "name": "New York, États-Unis",
+        "label": "Wall Street",
+        "coords": [
+          -74.01,
+          40.71
+        ]
+      }
+    ],
+    "title": "Wall Street s'effondre : le Nasdaq perd 5,5 % en une séance, un peu plus de 2 000 milliards de dollars de Bourse partent en fumée",
+    "summary": "Jeudi 5 novembre, le Nasdaq a chuté de 5,5 % à 24 315 points, sa pire séance depuis avril 2025, et entre en « correction ». Le S&P 500 a perdu environ 4,3 %, le Dow Jones 3,4 %. Les investisseurs craignent un ralentissement des investissements dans l'IA après la victoire des démocrates aux élections de mi-mandat [1][2][3].",
+    "points": [
+      "Le Nasdaq Composite a clôturé à 24 315,00 points (−5,5 %), soit plus de 10 % sous son dernier record : c'est la définition d'une « correction ». Le S&P 500 a reculé d'environ 4,3 % à 7 358,13 points, et le Dow Jones de 1 833 points (−3,4 %) à 51 521,28, effaçant toute la hausse de la veille [1][2].",
+      "Le groupe des « Sept Magnifiques » (Nvidia, Microsoft, Apple, Alphabet, Amazon, Meta, Tesla) a perdu plus de 1 000 milliards de dollars de valeur boursière en une séance, selon CNBC. Nvidia a cédé près de 9 % (plus de 440 milliards de dollars), ce qui la fait passer en baisse sur l'année ; Tesla a reculé de 10,8 %, Meta de 3,9 %, Microsoft de 3,6 %, Alphabet et Amazon de 2,2 %, Apple de 1,5 % [2].",
+      "Les chiffres d'ensemble varient selon les médias : CNN parle de 2 500 milliards de dollars de capitalisation effacés, Benzinga de 2 200 milliards, avec un indice de peur VIX en hausse de 39 % [3][5]. À la Bourse de New York, 2 344 valeurs ont baissé contre 416 à la hausse, près de six pour une [2].",
+      "L'explication avancée par CNBC et NBC : la crainte que la construction de centres de données pour l'intelligence artificielle ralentisse après le résultat des élections de mi-mandat, que les démocrates ont remportées au Congrès, avec des élus et gouverneurs susceptibles de durcir les règles [1][4].",
+      "Les mauvaises nouvelles d'entreprises se sont ajoutées : Qualcomm a perdu plus de 9 % après des prévisions décevantes liées à la pénurie de mémoire, et Intel, malgré une hausse de 78 % de ses ventes pour centres de données la semaine passée, avait déjà été sanctionnée en Bourse pour une prévision plus faible que prévu liée à la même pénurie [1].",
+      "La veille, mercredi 4 novembre, le Dow Jones avait pourtant gagné 3 % : la séance de jeudi efface donc le soulagement post-électoral en vingt-quatre heures [2]."
+    ],
+    "why": [
+      "À retenir : ce n'est pas une mauvaise statistique économique qui fait chuter la Bourse, c'est un doute sur l'avenir de l'intelligence artificielle. Une grande partie de la hausse récente de Wall Street repose sur l'idée que les géants de la tech vont continuer à investir massivement dans des centres de données. Si ces dépenses ralentissent, les bénéfices attendus de Nvidia et de ses fournisseurs sont à revoir à la baisse, et leurs actions aussi [1][2].",
+      "Ce qui rend la chute violente, c'est que beaucoup d'investisseurs avaient les mêmes paris : quand tout le monde vend en même temps, les prix baissent d'un coup. La séance a d'ailleurs touché presque tout le marché (près de six valeurs en baisse pour une en hausse à New York), pas seulement la tech [2][3].",
+      "Le lien avec la politique est une hypothèse des analystes, pas un fait démontré : aucune loi n'a été votée, et les démocrates n'ont encore rien proposé de précis. Les marchés réagissent à une crainte, pas à une décision [1][4].",
+      "Autre point de prudence : les chiffres de pertes en milliards de dollars sont de la valeur boursière, pas de l'argent réellement perdu par des entreprises. Cette valeur peut revenir aussi vite qu'elle est partie, ou non [3]."
+    ],
+    "forMe": "Si tu as un PEA, une assurance-vie en unités de compte ou un fonds indiciel mondial, une partie de ton épargne est exposée aux géants américains de la tech : tu as sans doute vu une baisse sur ton relevé. Une séance ne change rien à un placement sur dix ans, et on ne dit ni d'acheter ni de vendre.",
+    "next": [
+      {
+        "when": "6 novembre",
+        "what": "Rapport américain sur l'emploi d'octobre à 8 h 30 (Washington) : les économistes attendent environ 59 000 créations de postes et un chômage à 4,2 %, selon CNBC [6]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "−5,5 %",
+        "label": "Nasdaq Composite jeudi 5 novembre, à 24 315 points",
+        "src": 1
+      },
+      {
+        "value": "1 000 Md$",
+        "label": "valeur perdue en une séance par les Sept Magnifiques",
+        "src": 2
+      },
+      {
+        "value": "2 344 contre 416",
+        "label": "valeurs en baisse contre valeurs en hausse à New York",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs"
+    ],
+    "markets": {
+      "text": "Clôture du jeudi 5 novembre [2].",
+      "items": [
+        {
+          "name": "Nvidia",
+          "ticker": "NVDA",
+          "move": "−9 %",
+          "why": "Plus de 440 milliards de dollars de capitalisation perdus ; l'action passe en baisse sur l'année [2]."
+        },
+        {
+          "name": "Tesla",
+          "ticker": "TSLA",
+          "move": "−10,8 %",
+          "why": "Plus forte baisse des Sept Magnifiques [2]."
+        },
+        {
+          "name": "Qualcomm",
+          "ticker": "QCOM",
+          "move": "−9 %",
+          "why": "Baisse de plus de 9 % après des prévisions de trimestre décevantes [1]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "CNBC",
+        "name": "CNBC, « AI meltdown: Nvidia and Qualcomm drop more than 9%, pushing Nasdaq to worst day since April 2025 » (5 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+      },
+      {
+        "short": "CNBC (stats)",
+        "name": "CNBC, « Magnificent 7 loses $1 trillion. The most eye-popping stats from Thursday's tech stock plunge » (5 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html"
+      },
+      {
+        "short": "CNN",
+        "name": "CNN, « Stock markets plunge as massive tech sell-off wipes $2.5 trillion » (5 novembre 2026)",
+        "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"
+      },
+      {
+        "short": "NBC News",
+        "name": "NBC News, « Stocks plunge as election outcome and AI worries crush tech shares »",
+        "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
+      },
+      {
+        "short": "Benzinga",
+        "name": "Benzinga, « VIX Spikes 39% as AI Rout Wipes Out $2.2 Trillion: Stock Market Today »",
+        "url": "https://www.benzinga.com/markets/equities/26/11/62939997/stock-market-today-vix-spikes-ai-tech-rout-wipes-out-2-trillion-nvidia-amd"
+      },
+      {
+        "short": "CNBC (emploi)",
+        "name": "CNBC, « The October jobs report is out Friday. Here's everything to expect » (5 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-asie-bourses-kospi-nikkei-taiwan-chute",
+    "date": "2026-11-06",
+    "region": "Asie",
+    "theme": "eco",
+    "zones": [
+      "Asie",
+      "Amérique du Nord",
+      "Europe"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "name": "Séoul, Corée du Sud",
+        "label": "Corée du Sud",
+        "coords": [
+          126.98,
+          37.57
+        ]
+      },
+      {
+        "name": "Tokyo, Japon",
+        "label": "Japon",
+        "coords": [
+          139.69,
+          35.69
+        ]
+      },
+      {
+        "name": "Taipei, Taïwan",
+        "label": "Taïwan",
+        "coords": [
+          121.56,
+          25.04
+        ]
+      }
+    ],
+    "title": "L'Asie plonge dans le sillage de Wall Street : Séoul perd plus de 8 % en séance, Tokyo entre en « marché baissier »",
+    "summary": "Vendredi 6 novembre, les Bourses asiatiques ont chuté après le krach tech de Wall Street : le Kospi a perdu plus de 8 % en séance et déclenché un coupe-circuit, le Nikkei a plongé de plus de 6 % et se retrouve plus de 20 % sous son sommet de juin, et la Bourse de Taïwan a cédé environ 8 à 9 % [1][2][3].",
+    "points": [
+      "À Séoul, l'indice Kospi a perdu plus de 8 % en séance et déclenché un coupe-circuit qui a suspendu les échanges, passant sous 5 000 points pour la première fois depuis février. SK Hynix a reculé d'environ 11,7 % et Samsung Electronics de près de 10 %, selon BeInCrypto ; ces chiffres sont ceux de la séance, pas de la clôture [1][7].",
+      "La veille déjà, jeudi 5 novembre, le Kospi avait fini en baisse de 5,3 % avec le déclenchement d'un mécanisme de suspension du trading programmé. Les investisseurs étrangers ont vendu 20,6 trillions de wons d'actions Samsung et SK Hynix (environ 10,9 trillions pour SK Hynix et 9,7 pour Samsung), selon le média coréen MoneyToday [4].",
+      "À Tokyo, le Nikkei 225 a chuté de 6 à 6,7 % selon les médias et est passé sous 57 000 points, plus de 20 % sous son sommet de juin 2026 : c'est la définition d'un « marché baissier » [3][8]. Advantest, Tokyo Electron et Kioxia, fournisseurs de l'industrie des puces, ont subi les plus fortes baisses [3][8].",
+      "SoftBank Group, très exposé à l'intelligence artificielle, a perdu environ 9 à 14 % selon les relevés, après avoir aussi été fragilisé par le blocage chinois de son rachat de la branche robotique d'ABB [5][8].",
+      "À Taïwan, l'indice Taiex a ouvert en baisse d'environ 9 % et le géant des puces TSMC a reculé de 7 à 10 % selon les moments de la séance [2][6].",
+      "Les analystes relient la chute à celle de Wall Street (Nasdaq −5,5 %) et à la crainte que des mesures politiques américaines freinent la construction de centres de données [1][6]."
+    ],
+    "why": [
+      "À retenir : l'économie de la Corée du Sud, de Taïwan et du Japon est liée à celle de la puce électronique. Samsung, SK Hynix, TSMC et leurs fournisseurs fabriquent les composants qui équipent les centres de données américains ; quand Wall Street doute de l'IA, leurs actions subissent le même choc, souvent en plus fort [1][2].",
+      "Pour la Corée, l'effet est massif : Samsung et SK Hynix pèsent lourd à la Bourse de Séoul, et les investisseurs étrangers ont déjà vendu pour plus de 20 trillions de wons de leurs titres le jeudi [4].",
+      "Les coupe-circuits sont des mécanismes automatiques qui suspendent les échanges quelques minutes quand une baisse dépasse un seuil, pour laisser les investisseurs reprendre leur souffle. Ils n'empêchent pas la baisse : ils la ralentissent [2].",
+      "Prudence : les chiffres de clôture exacts du vendredi 6 novembre ne figurent pas encore dans les articles que nous avons consultés ; ceux de cette page sont des niveaux de séance et peuvent changer [1][3]."
+    ],
+    "forMe": "Si tu as des actions ou un fonds d'actions mondial, une partie contient les grandes valeurs asiatiques de la tech. Si tu achètes un téléphone ou un ordinateur, la hausse du prix des puces de mémoire se répercute aussi sur les prix des appareils, indépendamment des Bourses.",
+    "figures": [
+      {
+        "value": "−8 %",
+        "label": "Kospi de Séoul en séance vendredi 6 novembre, sous 5 000 points",
+        "src": 1
+      },
+      {
+        "value": "20 %",
+        "label": "Nikkei sous son sommet de juin : marché baissier",
+        "src": 3
+      },
+      {
+        "value": "20,6 trillions de wons",
+        "label": "actions Samsung et SK Hynix vendues par les étrangers jeudi",
+        "src": 4
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs"
+    ],
+    "markets": {
+      "text": "Niveaux de séance du vendredi 6 novembre, non de clôture [1][2][3].",
+      "items": [
+        {
+          "name": "SK Hynix",
+          "ticker": "000660",
+          "move": "−11,7 %",
+          "why": "Chute en séance à Séoul [7]."
+        },
+        {
+          "name": "Samsung Electronics",
+          "ticker": "005930",
+          "move": "−10 %",
+          "why": "Baisse d'environ 10 % en séance [7]."
+        },
+        {
+          "name": "SoftBank Group",
+          "ticker": "9984",
+          "move": "−9,3 %",
+          "why": "Baisse de 9,3 % à 3 611 yens, entre la chute de la tech et le blocage de son rachat dans la robotique [5]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Business Standard",
+        "name": "Business Standard, « Asian markets crash as AI rout rocks US markets, Kospi plunges 8% » (6 novembre 2026)",
+        "url": "https://www.business-standard.com/markets/news/asian-markets-crash-as-ai-rout-rocks-us-markets-kospi-plunges-8-126110600087_1.html"
+      },
+      {
+        "short": "Gulf News",
+        "name": "Gulf News, « Global stock rout: Why are Asian markets falling sharply? »",
+        "url": "https://gulfnews.com/business/markets/asian-markets-follow-us-plunge-as-ai-stocks-face-fresh-sell-off-1.500737887"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Stock futures fall after Nasdaq correction; Japan's Nikkei 225 enters bear market: Live updates » (5 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+      },
+      {
+        "short": "MoneyToday",
+        "name": "MoneyToday, « Foreigners dump 20.6 trillion won in Samsung and SK hynix shares as 'blue wave' hits KOSPI » (5 novembre 2026)",
+        "url": "https://www.mt.co.kr/en/stock/2026/11/05/2026110517110160047"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Why is SoftBank stock tumbling today? »",
+        "url": "https://www.investing.com/news/stock-market-news/why-is-softbank-stock-tumbling-today-93CH-5006386"
+      },
+      {
+        "short": "Tokenpost",
+        "name": "Tokenpost, « Taiwan Stocks Plunge Nearly 9% as AI Selloff Spreads Across Asia »",
+        "url": "https://www.tokenpost.com/news/investing/49719"
+      },
+      {
+        "short": "BeInCrypto",
+        "name": "BeInCrypto, « Wall Street's AI Sell-Off Spills Into Seoul, Sinking KOSPI Below 5,000 »",
+        "url": "https://beincrypto.com/kospi-circuit-breaker-index-below-5000/"
+      },
+      {
+        "short": "Tokenpost (Nikkei)",
+        "name": "Tokenpost, « Japan's Nikkei 225 Falls 6.72% as SoftBank Shares Slide 14% »",
+        "url": "https://www.tokenpost.com/news/investing/49668"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-iran-vance-guerre-defaite-petrole-brent",
+    "date": "2026-11-06",
+    "region": "Moyen-Orient",
+    "theme": "geo",
+    "zones": [
+      "Amérique du Nord",
+      "Europe",
+      "Asie"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "name": "Washington, États-Unis",
+        "label": "États-Unis",
+        "coords": [
+          -77.04,
+          38.9
+        ]
+      },
+      {
+        "name": "Détroit d'Ormuz",
+        "label": "Ormuz",
+        "coords": [
+          56.27,
+          26.57
+        ]
+      }
+    ],
+    "title": "Vance impute la déroute des républicains à la guerre en Iran, et le pétrole tombe sous 95 dollars",
+    "summary": "Après la défaite des républicains aux élections de mi-mandat, le vice-président JD Vance écrit que « la raison pour laquelle nous avons perdu, c'est la guerre ». Donald Trump juge ces propos « en grande partie vrais » mais défend son choix. Le Brent a perdu 8,7 % mercredi, à 94,62 dollars [1][2][3].",
+    "points": [
+      "Dans un message publié sur les réseaux sociaux, JD Vance a écrit que la guerre en Iran est la raison de la défaite des républicains, qui ont perdu les deux chambres du Congrès. Selon NBC et CBC, il cite aussi le coût de la vie, l'inflation et la relation des États-Unis avec Israël [1][4].",
+      "Interrogé à la Maison-Blanche mercredi, Donald Trump a jugé ces propos « en grande partie vrais » tout en défendant sa décision d'attaquer l'Iran, selon ABC News [2].",
+      "Le Brent a perdu 8,7 % mercredi 4 novembre pour clôturer à 94,62 dollars le baril, et le brut américain WTI à 88,12 dollars. Des analystes cités par CNBC estiment que ce résultat donne à Donald Trump une plus grande incitation à conclure un accord avec l'Iran [3].",
+      "Selon Gulf News, Donald Trump a dit au Financial Times mardi qu'il n'avait pas de projet immédiat de frappes. Jeudi 5, le Brent a touché son plus bas niveau en environ deux mois avant de rebondir légèrement vendredi, les acheteurs restant attentifs aux attaques de pétroliers [5].",
+      "Du côté iranien, la position reste que le détroit d'Ormuz demeure fermé tant que les États-Unis ne mettent pas fin à la guerre et ne satisfont pas ses conditions. Les Gardiens de la Révolution ont affirmé que deux pétroliers et un remorqueur avaient pris feu dans le détroit [5].",
+      "Le Qatar poursuit sa médiation entre les deux camps, comme le rappelle notre actu de la veille sur la réponse iranienne jugée « peu convaincante » [5]."
+    ],
+    "why": [
+      "À retenir : pour la première fois, la guerre pèse ouvertement sur la politique intérieure américaine. Quand le numéro deux de l'exécutif explique publiquement une défaite électorale par un conflit, la pression monte pour y mettre fin ou pour obtenir un accord vite [1][3].",
+      "Les marchés ont compris le signal avant les diplomates : le Brent est passé d'environ 104 dollars à 94,62 dollars en une séance sans qu'aucun accord ne soit signé. Le baril anticipe une probabilité plus forte de réouverture du détroit, pas un fait [3].",
+      "Mais rien n'est joué : l'Iran maintient ses conditions et des incidents continuent sur l'eau. Un seul pétrolier attaqué suffit à inverser la tendance en quelques heures [5].",
+      "Ce que dit chaque camp reste à lire avec recul : les déclarations de Vance sont une analyse politique de son parti, pas un avis des électeurs, et celles de l'Iran sont des positions de négociation [1][5]."
+    ],
+    "forMe": "Si tu roules ou chauffes ton logement au fioul, le baril à moins de 95 dollars est une bonne nouvelle pour tes prix dans quelques semaines, mais la baisse peut s'inverser vite. Ne compte pas dessus pour ton budget de novembre.",
+    "next": [
+      {
+        "when": "10-11 novembre",
+        "what": "Pourparlers à trois (États-Unis, Russie, Ukraine) à Abou Dhabi, qui peuvent aussi peser sur les prix de l'énergie [6]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "94,62 $",
+        "label": "baril de Brent à la clôture du 4 novembre, en baisse de 8,7 %",
+        "src": 3
+      },
+      {
+        "value": "88,12 $",
+        "label": "baril de WTI le même jour",
+        "src": 3
+      },
+      {
+        "value": "2 chambres",
+        "label": "du Congrès passées aux démocrates",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "sanctions",
+      "routes-maritimes"
+    ],
+    "sources": [
+      {
+        "short": "NBC News",
+        "name": "NBC News, « Vance says the 'real reason' for GOP rout was anger over Iran war »",
+        "url": "https://www.nbcnews.com/politics/2026-election/vance-says-ranger-iran-war-caused-gop-midterm-losses-rcna607446"
+      },
+      {
+        "short": "ABC News",
+        "name": "ABC News, « Vance blames Iran war for Republicans' midterms defeat. Trump says he would 'do it again' »",
+        "url": "https://abcnews.com/Politics/vance-blames-iran-war-republicans-midterms-defeat-trump/story?id=137849295"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Crude oil prices fall as Vance blames GOP election defeat on Iran war » (4 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
+      },
+      {
+        "short": "CBC",
+        "name": "CBC, « JD Vance blames Iran war for midterm thumping. Is he really blaming Trump? »",
+        "url": "https://www.cbc.ca/news/world/trump-midterms-jd-vance-iran-war-9.7409264"
+      },
+      {
+        "short": "Gulf News",
+        "name": "Gulf News, « Trump Weighs Iran Strikes or Deal After Midterm Loss as Oil Prices Drop to $93 »",
+        "url": "https://gulfnews.com/world/mena/trump-weighs-iran-strikes-or-deal-after-midterm-loss-as-vance-urges-agreement-qatar-mediates-brent-oil-falls-to-93-1.500736556"
+      },
+      {
+        "short": "EU Reporter",
+        "name": "EU Reporter, « Ukraine moves closer to EU membership as Brussels hosts talks on post-war prosperity » (4 novembre 2026)",
+        "url": "https://www.eureporter.co/world/ukraine/2026/11/04/ukraine-moves-closer-to-eu-membership-as-brussels-hosts-talks-on-post-war-prosperity/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-france-conference-sociale-matignon-salaires",
+    "date": "2026-11-06",
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Paris, France",
+        "label": "France",
+        "coords": [
+          2.35,
+          48.86
+        ]
+      }
+    ],
+    "title": "France : après la grève, Lecornu réunit syndicats et patronat lundi à Matignon, sans hausse du Smic arrêtée",
+    "summary": "Au lendemain d'une grève nationale sur les salaires, le Premier ministre Sébastien Lecornu a convoqué lundi 9 novembre une « conférence sociale » avec les syndicats et le patronat. Le ministère de l'Intérieur compte environ 575 000 manifestants, la CGT 1,6 million. Aucune hausse du Smic n'est décidée à ce stade [1][2].",
+    "points": [
+      "Jeudi 5 novembre, le ministère de l'Intérieur a compté environ 575 000 manifestants en France, dont 65 000 à Paris. La CGT en revendique « près de 1,6 million », dont 350 000 à Paris [1].",
+      "Le ministère fait état de 448 interpellations, 53 membres des forces de l'ordre blessés et 86 interventions pour incendies à 18 h, tout en jugeant que le défilé des cortèges déclarés s'est « globalement bien déroulé ». Des tensions ont été signalées à Paris, Lyon, Rennes et Toulouse [1].",
+      "Les responsables de la CFDT et de la CGT ont salué « un succès ». La mobilisation portait sur les salaires et la vie chère, avec une revendication de hausse du Smic [1][2].",
+      "Sébastien Lecornu a annoncé une conférence sociale lundi 9 novembre à Matignon avec les représentants des salariés et des employeurs, pour « apporter des réponses aux questions de pouvoir d'achat et de salaires », selon Matignon [2][3].",
+      "Il a demandé au ministre du Travail, Jean-Pierre Farandou, de finaliser d'ici dimanche les concertations en cours ; David Amiel poursuit les échanges avec les syndicats de la fonction publique [2].",
+      "Le secrétaire général de Force ouvrière, Frédéric Souillot, a déclaré qu'aujourd'hui « vivre avec un revenu en deçà de 2 000 euros, on n'y arrive pas » [2]. Selon une source citée par Europe 1, aucune hausse du Smic n'est encore arrêtée [2]."
+    ],
+    "why": [
+      "À retenir : le gouvernement répond à une rue très mobilisée en ouvrant une négociation avec les partenaires sociaux. La question ouverte est de savoir si Matignon mettra un coup de pouce au Smic sur la table : les syndicats le réclament, et rien n'est arrêté à ce stade [2][3].",
+      "L'écart entre les chiffres du ministère et de la CGT (575 000 contre 1,6 million) est classique : chaque camp compte à sa façon, et ni l'un ni l'autre n'est neutre. Retenons que la mobilisation est importante, sans trancher entre les deux [1].",
+      "Le contexte est l'inflation : l'énergie tire les prix en zone euro, à 4,0 % en octobre selon Eurostat, ce qui rogne le pouvoir d'achat et alimente les revendications salariales [4].",
+      "Prudence : ce qui sera décidé lundi n'est pas connu, et des pistes évoquées dans les médias peuvent ne pas se concrétiser [2]."
+    ],
+    "forMe": "Si tu es au Smic ou près du Smic, la conférence de lundi peut déboucher sur une revalorisation, mais rien n'est annoncé. Ce qui ne change pas : tes prix à la pompe et sur tes factures dépendent surtout du pétrole et du gaz.",
+    "next": [
+      {
+        "when": "9 novembre",
+        "what": "Conférence sociale à Matignon avec syndicats et patronat sur les salaires et le pouvoir d'achat [2][3]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "575 000",
+        "label": "manifestants le 5 novembre selon le ministère de l'Intérieur (1,6 million selon la CGT)",
+        "src": 1
+      },
+      {
+        "value": "448",
+        "label": "interpellations selon le ministère",
+        "src": 1
+      },
+      {
+        "value": "9 novembre",
+        "label": "conférence sociale à Matignon",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux"
+    ],
+    "sources": [
+      {
+        "short": "franceinfo",
+        "name": "franceinfo, « Mobilisation du 5 novembre : la déambulation des cortèges déclarés s'est globalement bien déroulée, rapporte le ministère de l'Intérieur, qui fait état de 448 interpellations »",
+        "url": "https://www.franceinfo.fr/societe/manifestations/direct-greve-du-5-novembre-plus-de-250-actions-annoncees-dans-toute-la-france-selon-une-carte-de-la-ggt_8268827.html"
+      },
+      {
+        "short": "Europe 1",
+        "name": "Europe 1, « Sébastien Lecornu réunira lundi à Matignon une conférence sociale avec les syndicats et le patronat »",
+        "url": "https://www.europe1.fr/politique/sebastien-lecornu-reunira-lundi-a-matignon-une-conference-sociale-avec-les-syndicats-et-le-patronat-1211417"
+      },
+      {
+        "short": "ICI",
+        "name": "ICI (France Télévisions et Radio France), « Grève du 5 novembre : près de 1,6 million de manifestants selon la CGT, 600 000 à 17 h selon le ministère »",
+        "url": "https://www.ici.fr/infos/economie-social/direct-greve-du-5-novembre-les-syndicats-dans-la-rue-ce-jeudi-pour-les-salaires-et-contre-la-vie-chere-7257620"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Euro zone inflation hits 4% for first time in three years as interest rate hike looms » (4 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-ukraine-bruxelles-reconstruction-abou-dhabi",
+    "date": "2026-11-06",
+    "region": "Europe",
+    "theme": "geo",
+    "zones": [
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Bruxelles, Belgique",
+        "label": "Bruxelles",
+        "coords": [
+          4.35,
+          50.85
+        ]
+      },
+      {
+        "name": "Abou Dhabi, Émirats arabes unis",
+        "label": "Abou Dhabi",
+        "coords": [
+          54.37,
+          24.45
+        ]
+      }
+    ],
+    "title": "Ukraine : Bruxelles réunit Américains et Européens sur la reconstruction, des pourparlers à trois sont prévus à Abou Dhabi les 10 et 11 novembre",
+    "summary": "Les 4 et 5 novembre, la Commission européenne a réuni l'Ukraine, les États-Unis, la France, l'Allemagne, le Royaume-Uni, l'OTAN et la Banque mondiale à Bruxelles pour parler de reconstruction et de garanties de sécurité. La Russie, qui n'était pas invitée, a poursuivi ses frappes. Des pourparlers États-Unis–Russie–Ukraine sont prévus à Abou Dhabi [1][2][3].",
+    "points": [
+      "La Commission européenne a accueilli le 4 novembre des représentants de l'Ukraine, des États-Unis, de la France, de l'Allemagne, du Royaume-Uni, de l'OTAN et de la Banque mondiale, sans la Russie, pour affiner des scénarios de développement économique d'après-guerre et identifier des instruments financiers pour la reconstruction et l'investissement [1][2].",
+      "Rustem Oumerov, le négociateur en chef ukrainien, a indiqué que les discussions se poursuivaient un second jour au siège de l'OTAN à Bruxelles. La Commission présente la réunion comme le prolongement de rencontres organisées par les États-Unis à Miami en octobre [1][2].",
+      "Le même jour, la Commission a estimé que l'Ukraine a fait des progrès significatifs vers l'adhésion à l'Union européenne et qu'elle s'attend à ce que tous les chapitres de négociation restants soient ouverts d'ici fin 2026 [3].",
+      "Des pourparlers à trois entre États-Unis, Russie et Ukraine sont prévus les 10 et 11 novembre à Abou Dhabi [3].",
+      "Pendant ce temps, la Russie et l'Ukraine ont échangé des frappes aériennes, selon l'Associated Press [2].",
+      "Giorgia Meloni a écrit au président du Conseil européen António Costa que la multiplication des formats de négociation rend l'Europe « moins crédible » pour mettre fin à la guerre, d'après le résumé de la une d'Euronews du 5 novembre [4]."
+    ],
+    "why": [
+      "À retenir : la diplomatie a deux voies qui se croisent. D'un côté, les Européens et les Américains préparent l'après-guerre (argent, investissements, garanties de sécurité). De l'autre, les négociateurs essaient de s'asseoir à la même table que la Russie, à Abou Dhabi. Ces deux voies doivent s'accorder pour qu'un accord de paix tienne [1][3].",
+      "Pour l'économie européenne, la reconstruction est un enjeu énorme : qui finance, avec quel argent public ou privé, et quelles entreprises y participent. Les discussions de Bruxelles visent justement à trouver des instruments financiers adaptés [1].",
+      "La lettre de Meloni touche un problème réel : entre Américains, Européens et institutions de l'UE, plusieurs formats de discussion coexistent. Elle plaide pour une voix européenne plus claire ; la position des autres capitales n'est pas connue à ce stade [4].",
+      "Prudence : aucune décision chiffrée de financement n'a été annoncée à l'issue de ces deux jours dans les articles consultés [1][2]."
+    ],
+    "forMe": "Si tu es un contribuable français, la reconstruction de l'Ukraine se financera en partie par des budgets européens et nationaux : le sujet reviendra dans les débats sur le budget. Pour l'énergie et les prix, un accord de paix serait plutôt une bonne nouvelle, mais il n'est pas imminent.",
+    "next": [
+      {
+        "when": "10-11 novembre",
+        "what": "Pourparlers à trois États-Unis–Russie–Ukraine à Abou Dhabi [3]."
+      },
+      {
+        "when": "Fin 2026",
+        "what": "La Commission espère l'ouverture de tous les chapitres de négociation d'adhésion de l'Ukraine [3]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "2 jours",
+        "label": "de discussions à Bruxelles, les 4 et 5 novembre",
+        "src": 1
+      },
+      {
+        "value": "10-11 nov.",
+        "label": "pourparlers à trois prévus à Abou Dhabi",
+        "src": 3
+      },
+      {
+        "value": "Fin 2026",
+        "label": "objectif d'ouverture de tous les chapitres d'adhésion",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "sanctions"
+    ],
+    "sources": [
+      {
+        "short": "eunews",
+        "name": "eunews, « Tomorrow European countries, US, NATO, and World Bank convene for Ukraine summit » (3 novembre 2026)",
+        "url": "https://www.eunews.it/en/2026/11/03/european-countries-us-nato-and-world-bank-convene-in-brussels-for-ukraine-reconstruction-summit/"
+      },
+      {
+        "short": "AP (WTOP)",
+        "name": "Associated Press via WTOP, « Russia and Ukraine trade airstrikes as reconstruction and security talks resume in Brussels »",
+        "url": "https://wtop.com/world/2026/11/russia-and-ukraine-trade-airstrikes-as-reconstruction-and-security-talks-resume-in-brussels/"
+      },
+      {
+        "short": "EU Reporter",
+        "name": "EU Reporter, « Ukraine moves closer to EU membership as Brussels hosts talks on post-war prosperity » (4 novembre 2026)",
+        "url": "https://www.eureporter.co/world/ukraine/2026/11/04/ukraine-moves-closer-to-eu-membership-as-brussels-hosts-talks-on-post-war-prosperity/"
+      },
+      {
+        "short": "Euronews",
+        "name": "Euronews, archive des actualités du 5 novembre 2026",
+        "url": "https://www.euronews.com/2026/11/05"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-bce-succession-lagarde-candidats",
+    "date": "2026-11-06",
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Francfort, Allemagne",
+        "label": "BCE",
+        "coords": [
+          8.68,
+          50.11
+        ]
+      }
+    ],
+    "title": "Qui pour remplacer Christine Lagarde à la tête de la BCE ? Les candidatures se ferment vendredi, les ministres des Finances en discutent lundi",
+    "summary": "Christine Lagarde quittera la Banque centrale européenne le 7 février 2027, neuf mois avant la fin de son mandat. Les pays de la zone euro désignent leurs candidats : les candidatures se ferment vendredi 6 novembre et les ministres des Finances de l'Eurogroupe les examinent lundi 9 novembre [1][2].",
+    "points": [
+      "Selon Euronews, Christine Lagarde a annoncé qu'elle partirait le 7 février 2027, raccourcissant de presque neuf mois son mandat de huit ans [1].",
+      "La zone euro choisit ses candidats : les candidatures se ferment vendredi 6 novembre, et les ministres des Finances de la zone euro doivent les passer en revue lundi 9 novembre. Ce n'est pas encore un vote [1].",
+      "Le choix final revient aux dirigeants de l'Union européenne, une fois que le Parlement européen et le Conseil des gouverneurs de la BCE auront donné leur avis. Il faut le soutien d'au moins 16 des 21 pays de la zone euro, représentant au moins 65 % de sa population [1].",
+      "Klaas Knot, ancien président de la banque centrale néerlandaise jusqu'en 2025, est cité parmi les principaux prétendants. Le président de la Bundesbank, Joachim Nagel, revient aussi dans plusieurs récits [1][2].",
+      "Un compte rendu publié en février indiquait que Christine Lagarde envisageait ce départ anticipé pour permettre à Emmanuel Macron et à Friedrich Merz de choisir ensemble son successeur ; selon ce compte rendu, un candidat doit pouvoir compter à la fois sur le soutien de l'Allemagne et de la France [2].",
+      "Dans le même temps, la BCE affronte une inflation de 4,0 % en zone euro en octobre, et les marchés envisagent une hausse de taux à sa réunion du 17 décembre [3]."
+    ],
+    "why": [
+      "À retenir : le futur patron de la BCE décidera des taux d'intérêt de vingt pays, ce qui touche les crédits, l'épargne et la valeur de l'euro. Le choix est donc autant politique qu'économique, et il faut un accord franco-allemand pour qu'il passe [1][2].",
+      "La date du départ compte : Christine Lagarde part alors que l'inflation remonte et qu'une hausse de taux est envisagée en décembre. Son successeur héritera d'une BCE qui s'apprête peut-être à relever ses taux [3].",
+      "Le profil des candidats comptera : un ancien gouverneur néerlandais comme Klaas Knot ou le président de la Bundesbank n'ont pas le même poids politique à Paris et à Berlin, et il faut les deux capitales d'accord [1][2].",
+      "Prudence : la liste officielle des candidats n'a pas été publiée dans les articles que nous avons consultés, et des noms cités dans la presse peuvent ne pas se présenter [1]."
+    ],
+    "forMe": "Si tu as un crédit immobilier à taux variable ou un projet de prêt, la ligne de la prochaine direction de la BCE aura un effet sur tes taux dans les années qui viennent. À court terme, c'est la décision de décembre qui compte, pas ce choix.",
+    "next": [
+      {
+        "when": "9 novembre",
+        "what": "Les ministres des Finances de la zone euro examinent les candidatures à Bruxelles [1]."
+      },
+      {
+        "when": "17 décembre",
+        "what": "Réunion de la BCE : une hausse de taux est envisagée par les marchés [3]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "7 février 2027",
+        "label": "date du départ annoncé de Christine Lagarde",
+        "src": 1
+      },
+      {
+        "value": "16 sur 21",
+        "label": "pays de la zone euro nécessaires pour désigner le successeur",
+        "src": 1
+      },
+      {
+        "value": "65 %",
+        "label": "de la population de la zone euro à réunir",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux"
+    ],
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Who will replace Lagarde? Eurozone picks nominees as race for ECB top job begins » (3 novembre 2026)",
+        "url": "https://www.euronews.com/2026/11/03/who-will-replace-lagarde-eurozone-picks-nominees-as-race-for-ecb-top-job-begins"
+      },
+      {
+        "short": "Malay Mail",
+        "name": "Malay Mail, « ECB succession race begins: Lagarde plans early departure to secure Macron-Merz choice » (18 février 2026)",
+        "url": "https://www.malaymail.com/news/money/2026/02/18/ecb-succession-race-begins-lagarde-plans-early-departure-to-secure-macron-merz-choice/209579"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Euro zone inflation hits 4% for first time in three years as interest rate hike looms » (4 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-puces-nvidia-amd-intel-pire-seance-depuis-2020",
+    "date": "2026-11-06",
+    "region": "Amériques",
+    "theme": "fin",
+    "zones": [
+      "Asie",
+      "Europe"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "name": "Santa Clara, États-Unis",
+        "label": "Nvidia",
+        "coords": [
+          -121.96,
+          37.35
+        ]
+      }
+    ],
+    "title": "Les puces vivent leur pire séance depuis 2020 : AMD perd 17 %, Nvidia près de 9 %, 28 valeurs sur 30 en marché baissier",
+    "summary": "Jeudi 5 novembre, l'indice des semi-conducteurs de Philadelphie a plongé de 12,3 %, sa pire séance depuis le 16 mars 2020. AMD a perdu 17,4 %, Intel 10,4 %, Nvidia près de 9 %, et Qualcomm plus de 9 % après des prévisions décevantes liées à la pénurie de mémoire [1][2][3].",
+    "points": [
+      "L'indice des semi-conducteurs de Philadelphie (SOX) a chuté de 12,3 %, sa pire séance depuis le 16 mars 2020 ; selon Benzinga, 28 des 30 valeurs de l'indice sont désormais en marché baissier, c'est-à-dire plus de 20 % sous leur sommet [1].",
+      "AMD a cédé 17,4 %, Intel 10,4 % et Nvidia 8,9 %, selon Investing.com ; CNBC parle de plus de 9 % pour Nvidia, qui perd plus de 440 milliards de dollars de capitalisation et passe en baisse sur l'année [2][3].",
+      "Qualcomm avait publié ses résultats la veille : son bénéfice par action prévu pour le trimestre en cours est de 2,15 à 2,35 dollars sur un chiffre d'affaires de 10,4 à 11,2 milliards, contre 2,27 dollars et 10,48 milliards attendus par les analystes. Les ventes de sa branche téléphones reculent de 26 % sur un an à 5,1 milliards, et sa marge brute tombe à 52,4 % [4].",
+      "Intel, qui avait annoncé la semaine passée une hausse de 78 % de ses ventes pour centres de données, a été sanctionnée en Bourse pour une prévision plus faible que prévu, liée à la pénurie de mémoire, selon CNBC [2]. AMD a dit cette semaine que ses ventes de centres de données avaient plus que doublé [2].",
+      "Le déclencheur est le même que pour l'ensemble de Wall Street : la crainte que la construction de centres de données ralentisse après les élections de mi-mandat, avec une possible réglementation plus stricte [3].",
+      "Le lendemain, la baisse s'est propagée à l'Asie : SK Hynix et Samsung ont perdu environ 10 à 12 % en séance à Séoul, TSMC 7 à 10 % à Taipei [5]."
+    ],
+    "why": [
+      "À retenir : une action de puces vaut les bénéfices que le marché attend dans le futur. Même des résultats en hausse (AMD, Intel) ne suffisent pas si les prévisions déçoivent ou si la demande future devient incertaine : le cours baisse parce que l'avenir est revu à la baisse, pas le passé [2][4].",
+      "La pénurie de mémoire est le fil rouge : elle renchérit les composants pour les fabricants de téléphones et d'ordinateurs (Qualcomm, Apple) et limite les ventes de ceux qui ne trouvent pas assez de puces. C'est un problème d'offre, pas de demande, selon la direction de Qualcomm [4].",
+      "L'ampleur du choc, la pire séance des puces depuis mars 2020, montre à quel point ces actions étaient devenues le coeur de la Bourse américaine. Quand elles baissent, elles entraînent presque tout l'indice [1][3]."
+    ],
+    "forMe": "Si tu as un fonds mondial ou un ETF Nasdaq, les puces y pèsent lourd : ta valeur de portefeuille a probablement baissé cette semaine. On n'explique pas ici ce qu'il faut faire de ton épargne, seulement pourquoi ça bouge.",
+    "next": [
+      {
+        "when": "6 novembre",
+        "what": "Rapport américain sur l'emploi d'octobre à 8 h 30 (Washington) [6]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "−12,3 %",
+        "label": "indice des semi-conducteurs de Philadelphie, pire séance depuis mars 2020",
+        "src": 1
+      },
+      {
+        "value": "−17,4 %",
+        "label": "AMD jeudi 5 novembre",
+        "src": 3
+      },
+      {
+        "value": "28 sur 30",
+        "label": "valeurs de l'indice en marché baissier",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs"
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi des résultats en hausse peuvent faire chuter une action",
+        "text": "Le prix d'une action n'est pas la photographie du dernier trimestre : c'est une estimation de tous les bénéfices que l'entreprise réalisera dans les années à venir. Quand la direction publie des prévisions (la « guidance ») inférieures à celles attendues par les analystes, le marché recalcule : si le bénéfice futur baisse un peu, la valeur de l'entreprise baisse beaucoup, surtout quand l'action était chère. À cela s'ajoute l'effet de troupeau : beaucoup d'investisseurs détiennent les mêmes valeurs ; quand certains vendent, les prix baissent, ce qui force d'autres à vendre pour limiter leurs pertes. C'est ce qui explique une chute de 12 % de tout un secteur en une séance. Une « correction » désigne une baisse de plus de 10 % depuis le dernier record, un « marché baissier » une baisse de plus de 20 % [1][2][3][4]."
+      }
+    },
+    "past": {
+      "title": "Les grandes chutes des valeurs technologiques : ce que l'histoire récente a donné",
+      "items": [
+        {
+          "when": "27 janvier 2025",
+          "what": "L'arrivée du modèle d'IA chinois DeepSeek fait perdre à Nvidia près de 17 % et entre 589 et 600 milliards de dollars de valeur en une séance, le record pour une entreprise américaine ; le Nasdaq recule de 3,1 % [7].",
+          "lesson": "Le précédent record, en septembre 2024, était de 279 milliards de dollars, déjà pour Nvidia [7]."
+        },
+        {
+          "when": "3 avril 2025",
+          "what": "Après l'annonce de droits de douane américains, le Nasdaq recule d'environ 5,9 %, sa pire baisse depuis mars 2020 [8].",
+          "lesson": "La baisse s'est poursuivie le lendemain : le Nasdaq est entré en marché baissier le 4 avril 2025, selon ABC News [9]."
+        },
+        {
+          "when": "16 mars 2020",
+          "what": "Dernière séance aussi mauvaise pour l'indice des semi-conducteurs de Philadelphie (SOX), selon Benzinga [1].",
+          "lesson": "Jeudi 5 novembre 2026 est donc la pire séance du secteur depuis plus de six ans [1]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "Clôture du jeudi 5 novembre [3].",
+      "items": [
+        {
+          "name": "AMD",
+          "ticker": "AMD",
+          "move": "−17,4 %",
+          "why": "Baisse malgré des ventes de centres de données plus que doublées [2][3]."
+        },
+        {
+          "name": "Nvidia",
+          "ticker": "NVDA",
+          "move": "−8,9 %",
+          "why": "Plus de 440 milliards de dollars de capitalisation perdus, selon CNBC [2][3]."
+        },
+        {
+          "name": "Intel",
+          "ticker": "INTC",
+          "move": "−10,4 %",
+          "why": "Baisse de 10,4 % après une prévision faible liée à la pénurie de mémoire [2][3]."
+        },
+        {
+          "name": "Qualcomm",
+          "ticker": "QCOM",
+          "move": "−9 %",
+          "why": "Prévision du trimestre inférieure aux attentes, ventes téléphones −26 % [4]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Benzinga",
+        "name": "Benzinga, « Chip Stocks Worst Day Since 2020: 28 of 30 in Bear Market »",
+        "url": "https://benzinga.com/markets/equities/26/11/62961405/chip-stocks-worst-day-since-2020-soxx-bear-market"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « AI meltdown: Nvidia and Qualcomm drop more than 9%, pushing Nasdaq to worst day since April 2025 » (5 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Nasdaq closes in correction territory on Wall Street's worst day since April 2025 »",
+        "url": "https://www.investing.com/news/stock-market-news/us-stock-index-futures-steady-after-midterms-rally-5001919"
+      },
+      {
+        "short": "CNBC (Qualcomm)",
+        "name": "CNBC, « Qualcomm stock drops 7% on weak earnings forecast as memory shortage weighs on smartphone sales » (4 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html"
+      },
+      {
+        "short": "Business Standard",
+        "name": "Business Standard, « Asian markets crash as AI rout rocks US markets, Kospi plunges 8% » (6 novembre 2026)",
+        "url": "https://www.business-standard.com/markets/news/asian-markets-crash-as-ai-rout-rocks-us-markets-kospi-plunges-8-126110600087_1.html"
+      },
+      {
+        "short": "CNBC (emploi)",
+        "name": "CNBC, « The October jobs report is out Friday. Here's everything to expect »",
+        "url": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html"
+      },
+      {
+        "short": "Korea JoongAng Daily",
+        "name": "Korea JoongAng Daily, « Investors dump tech stocks after record $593 billion Nvidia loss » (janvier 2025)",
+        "url": "https://www.koreajoongangdaily.com/business/investors-dump-tech-stocks-after-record-593-billion-nvidia-loss/12473281"
+      },
+      {
+        "short": "Schaeffer's",
+        "name": "Schaeffer's Research, « Stocks log worst day since 2020 as selloff reaches fever pitch » (3 avril 2025)",
+        "url": "https://www.schaeffersresearch.com/content/ezines/2025/04/03/stocks-log-worst-day-since-2020-as-selloff-reaches-fever-pitch"
+      },
+      {
+        "short": "ABC News",
+        "name": "ABC News, « Dow closes down 2,200 points, Nasdaq enters bear market amid tariff fallout » (4 avril 2025)",
+        "url": "https://abc7.com/post/stock-markets-slide-deeper-amid-trump-tariffs-fallout/16125759/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-softbank-abb-robotique-chine-bloque-rachat",
+    "date": "2026-11-06",
+    "region": "Asie",
+    "theme": "fin",
+    "zones": [
+      "Europe",
+      "Asie"
+    ],
+    "geo": [
+      {
+        "name": "Tokyo, Japon",
+        "label": "SoftBank",
+        "coords": [
+          139.69,
+          35.69
+        ]
+      },
+      {
+        "name": "Zurich, Suisse",
+        "label": "ABB",
+        "coords": [
+          8.54,
+          47.37
+        ]
+      },
+      {
+        "name": "Pékin, Chine",
+        "label": "Chine",
+        "coords": [
+          116.4,
+          39.9
+        ]
+      }
+    ],
+    "title": "La Chine bloque le rachat à 5,4 milliards de dollars de la robotique d'ABB par SoftBank, qui perd 9 % en Bourse",
+    "summary": "Selon le Financial Times, les autorités chinoises ont interdit le rachat par SoftBank de la branche robotique du suisse ABB, un accord de 5,375 milliards de dollars signé en octobre 2025. ABB confirme l'interdiction pour son activité en Chine, mais dit que les deux groupes continuent de discuter ; l'action SoftBank a perdu 9,3 % [1][2][3].",
+    "points": [
+      "SoftBank avait accepté en octobre 2025 d'acheter 100 % d'ABB Robotics pour environ 5,375 milliards de dollars. L'unité a réalisé environ 2,3 milliards de dollars de chiffre d'affaires en 2024, soit environ 7 % du groupe ABB, et emploie environ 7 000 personnes [2][3].",
+      "Le Financial Times a rapporté que les régulateurs chinois ont fait savoir à SoftBank qu'ils n'autoriseraient pas l'achat [1][2].",
+      "ABB a ensuite confirmé avoir été informé par SoftBank que le bureau chinois chargé de l'examen de sécurité des investissements étrangers « a interdit l'acquisition de l'activité ABB Robotics en Chine » [3].",
+      "L'accord avait passé l'examen de concurrence chinois en février 2026 ; c'est l'examen de sécurité qui bloque, avec des craintes sur le transfert d'actifs développés en Chine vers une société japonaise et sur d'éventuelles fuites de données liées aux robots [3].",
+      "Les sources divergent sur l'état de l'accord : ABB affirme que les deux sociétés poursuivent les discussions pour le faire avancer, et SoftBank étudierait un nouveau dépôt de dossier [3].",
+      "L'action SoftBank a perdu 9,3 % à 3 611 yens vendredi, un mouvement aussi lié à la chute de la tech et d'Arm Holdings (environ −5 % la veille à Wall Street), dont SoftBank détient environ 90 % [3][4]."
+    ],
+    "why": [
+      "À retenir : une grande acquisition doit être approuvée dans chaque pays où l'entreprise visée est présente, et un seul « non » peut tout arrêter. Ici, le refus chinois porte sur l'activité d'ABB Robotics en Chine, et ABB a confirmé l'interdiction [1][3].",
+      "La raison avancée n'est pas la concurrence mais la sécurité : Pékin ne veut pas que des technologies développées en Chine passent sous contrôle étranger. C'est un instrument devenu courant dans la rivalité technologique entre grandes puissances [3].",
+      "Pour SoftBank, c'est un coup dur pour sa stratégie de robotique liée à l'intelligence artificielle, annoncée par son fondateur Masayoshi Son. L'action était déjà fragilisée par la chute des valeurs de l'IA [2][4]."
+    ],
+    "forMe": "Si tu travailles dans l'industrie, la robotique d'ABB équipe des usines en Europe et en Asie : l'enjeu est de savoir qui contrôlera ces technologies. Pour ton épargne, ce n'est qu'un des chocs de la semaine sur les valeurs liées à l'IA.",
+    "next": [
+      {
+        "when": "À venir",
+        "what": "ABB et SoftBank disent poursuivre les discussions ; SoftBank étudierait un nouveau dépôt auprès des autorités chinoises, sans date [3]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "5,375 Md$",
+        "label": "prix prévu du rachat d'ABB Robotics par SoftBank",
+        "src": 3
+      },
+      {
+        "value": "−9,3 %",
+        "label": "action SoftBank vendredi 6 novembre, à 3 611 yens",
+        "src": 4
+      },
+      {
+        "value": "7 %",
+        "label": "part d'ABB Robotics dans le chiffre d'affaires d'ABB",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs"
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi un pays peut bloquer un rachat entre deux entreprises étrangères",
+        "text": "Quand un groupe en achète un autre, chaque pays où ce dernier a une activité importante peut examiner l'opération sous deux angles. L'angle « concurrence » vérifie que l'achat ne crée pas un monopole. L'angle « sécurité nationale » vérifie que l'achat ne donne pas à un étranger le contrôle de technologies, de données ou d'infrastructures jugées sensibles. Un seul refus suffit à bloquer la partie de l'accord située dans le pays, et souvent à faire échouer l'ensemble. Les contrats prévoient donc une date limite et parfois une indemnité de rupture. Pour les marchés, ces blocages sont un risque : le prix de l'action de l'acheteur monte avant l'accord et chute quand il s'éloigne [1][2][3]."
+      }
+    },
+    "past": {
+      "title": "Des rachats bloqués par la Chine : précédents",
+      "items": [
+        {
+          "when": "Août 2023",
+          "what": "Intel renonce à racheter l'israélien Tower Semiconductor pour 5,4 milliards de dollars, faute d'approbation du régulateur chinois, après avoir étendu deux fois l'échéance ; Intel verse 353 millions de dollars d'indemnité de rupture à Tower [5].",
+          "lesson": "Une opération de 5,4 milliards de dollars peut échouer à la dernière échéance à cause d'un seul régulateur ; l'acheteur peut payer une indemnité [5]."
+        },
+        {
+          "when": "2018",
+          "what": "Les régulateurs chinois ont bloqué le rachat de NXP Semiconductors par Qualcomm pour 44 milliards de dollars, selon Global Finance [6].",
+          "lesson": "Les précédents entre grandes entreprises américaines et la Chine montrent que Pékin utilise son droit d'approbation comme levier dans les rivalités technologiques [6]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "Variation de séance du vendredi 6 novembre [4].",
+      "items": [
+        {
+          "name": "SoftBank Group",
+          "ticker": "9984",
+          "move": "−9,3 %",
+          "why": "Action à 3 611 yens, entre la chute des valeurs d'IA et le blocage du rachat [4]."
+        },
+        {
+          "name": "ABB",
+          "ticker": "ABBN",
+          "why": "Vendeur de la branche robotique ; confirme l'interdiction en Chine et dit poursuivre les discussions [3]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Financial Times (via Yahoo)",
+        "name": "Financial Times, « SoftBank's $5.4bn takeover of ABB robotics unit blocked by China » (relayé par Yahoo Finance)",
+        "url": "https://finance.yahoo.com/technology/ai/articles/softbank-5-4-bln-takeover-034551741.html"
+      },
+      {
+        "short": "InvestingLive",
+        "name": "InvestingLive, « China blocks SoftBank's $5.4 billion ABB robotics deal, FT says, in blow to Son's AI push »",
+        "url": "https://investinglive.com/stocks/china-blocks-softbank-s-5-4-billion-abb-robotics-deal-ft-says-in-blow-to-son-s-ai-push/"
+      },
+      {
+        "short": "Startup Fortune",
+        "name": "Startup Fortune, « China blocks SoftBank's $5.4 billion bid for ABB's robotics unit »",
+        "url": "https://startupfortune.com/china-blocks-softbanks-54-billion-bid-for-abbs-robotics-unit/"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Why is SoftBank stock tumbling today? »",
+        "url": "https://www.investing.com/news/stock-market-news/why-is-softbank-stock-tumbling-today-93CH-5006386"
+      },
+      {
+        "short": "SCMP",
+        "name": "South China Morning Post, « Intel ends deal to buy Tower Semiconductor after failure to gain Chinese regulatory approval » (août 2023)",
+        "url": "https://www.scmp.com/tech/tech-war/article/3231304/intel-ends-deal-buy-tower-semiconductor-after-failure-gain-chinese-regulatory-approval"
+      },
+      {
+        "short": "Global Finance",
+        "name": "Global Finance, « China Tells Intel 'No' »",
+        "url": "https://gfmag.com/economics-policy-regulation/china-tells-intel-no/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06-europe-prix-alimentaires-produits-frais-france",
+    "date": "2026-11-06",
+    "level": 2,
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Paris, France",
+        "label": "France",
+        "coords": [
+          2.35,
+          48.86
+        ]
+      }
+    ],
+    "title": "Prix alimentaires en Europe : les produits frais restent 8 % plus chers en France, mais l'Allemagne et l'Europe de l'Est connaissent un tout autre sort",
+    "summary": "Selon l'Insee, les prix de l'alimentation en France ont augmenté de 1,2 % en octobre sur un an, mais ceux des produits frais de 8 %, contre 9,5 % en septembre. Dans la zone euro, les aliments non transformés ont progressé de 4,6 %, les transformés de 0,5 % seulement [1].",
+    "points": [
+      "En France, l'Insee relève que les prix de l'alimentation ont augmenté de 1,2 % en octobre sur un an, tandis que les produits frais coûtent 8 % de plus qu'il y a un an, après +9,5 % en septembre [1].",
+      "En Allemagne, l'alimentation n'a augmenté que de 0,4 % en octobre ; au Portugal, les aliments non transformés ont progressé de 3,7 % [1].",
+      "Dans la zone euro, les aliments non transformés (fruits, légumes, viande, poisson) ont progressé de 4,6 % en octobre, contre 0,5 % pour les aliments transformés [1].",
+      "Dans les chiffres de septembre, les plus récents pour tous les pays de l'Union, Chypre affichait la plus forte hausse (+4 % pour l'alimentation et les boissons sans alcool), tandis que les prix baissaient en Lettonie, en Hongrie et en Tchéquie, de 3,8 % à 4,8 % [1]."
+    ],
+    "why": [
+      "À retenir : l'inflation à 4 % en zone euro ne se retrouve pas partout dans le panier de courses. Les produits frais montent beaucoup plus que les produits transformés (+4,6 % contre +0,5 % en zone euro) [1].",
+      "La comparaison entre pays est délicate : les chiffres de septembre (pour tous les pays) et d'octobre (pour certains) ne mesurent pas la même chose, et les écarts viennent aussi de points de départ très différents [1]."
+    ],
+    "forMe": "Si tu fais tes courses, ce sont surtout les fruits et légumes qui pèsent, pas les produits en boîte ou en paquet : tes dépenses de produits frais montent plus que la moyenne de ton panier.",
+    "figures": [
+      {
+        "value": "+8 %",
+        "label": "prix des produits frais en France sur un an en octobre",
+        "src": 1
+      },
+      {
+        "value": "+1,2 %",
+        "label": "alimentation en France sur un an en octobre",
+        "src": 1
+      },
+      {
+        "value": "+4,6 %",
+        "label": "aliments non transformés en zone euro en octobre",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux"
+    ],
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Food prices in Europe: Where are grocery costs rising fastest? » (5 novembre 2026)",
+        "url": "https://www.euronews.com/2026/11/05/food-prices-in-europe-where-are-grocery-costs-rising-fastest"
+      }
+    ]
+  },
+  {
     "id": "2026-11-05-iran-reponse-americaine-peu-convaincante",
     "date": "2026-11-05",
     "region": "Moyen-Orient",
@@ -15632,1391 +16643,6 @@ window.GEOCO.news = [
         "short": "Qazinform",
         "name": "Qazinform, « Kazakhstan, Azerbaijan sign agreement on Middle Corridor development » (octobre 2026)",
         "url": "https://qazinform.com/news/kazakhstan-azerbaijan-sign-agreement-on-middle-corridor-development-9decf1"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-22-arabie-saoudite-diplomates-americains-partent",
-    "date": "2026-10-22",
-    "region": "Moyen-Orient",
-    "theme": "geo",
-    "geo": [
-      {
-        "name": "Riyad, Arabie saoudite",
-        "label": "Riyad",
-        "coords": [
-          46.68,
-          24.71
-        ]
-      }
-    ],
-    "title": "Les États-Unis font partir leurs diplomates non essentiels d'Arabie saoudite, sous les frappes des Houthis",
-    "summary": "Washington ordonne aux employés non urgents de son gouvernement et à leurs familles de quitter le royaume. Les attaques des Houthis (rebelles du Yémen) touchent des aéroports et un champ pétrolier.",
-    "points": [
-      "Le Département d'État a ordonné le 21 octobre le départ des employés non urgents du gouvernement américain et de leurs familles en Arabie saoudite, uniquement dans ce pays [1][3].",
-      "Selon Reuters, l'ordre suit des attaques : au moins un mort et huit blessés à l'aéroport civil de Dammam, et deux morts dans une attaque de drone sur un champ pétrolier ; plus tôt ce mois-ci, une frappe sur l'aéroport de Riyad avait fait 12 morts et plus de 300 blessés [1][2].",
-      "Quatre responsables américains disent que les représentations d'autres pays du Golfe vont aussi demander à des familles de partir [1]. Les employés américains doivent demander une autorisation spéciale pour utiliser un aéroport du pays [3]."
-    ],
-    "why": [
-      "La première phrase à retenir : quand un pays retire ses diplomates, il dit que la situation de sécurité est pire que prévu, y compris dans un allié proche et grand producteur de pétrole [1][2].",
-      "L'ambassade tournait déjà avec peu de monde depuis des mois, et l'armée américaine réduit discrètement sa présence dans la région, selon CBS [2][4]. Pour l'économie, un Golfe plus risqué veut dire des assurances plus chères et un pétrole plus nerveux."
-    ],
-    "forMe": "Le Golfe fournit une grande part du pétrole du monde. Si les voyages, les aéroports ou les champs pétroliers y sont menacés, le prix de l'essence peut remonter même en France.",
-    "figures": [
-      {
-        "value": "12",
-        "label": "morts lors de la frappe de début octobre sur l'aéroport de Riyad (plus de 300 blessés)",
-        "src": 2
-      },
-      {
-        "value": "8",
-        "label": "blessés à l'aéroport de Dammam, avec au moins un mort",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "ABC News",
-        "name": "ABC News (Australie), « US orders embassy staff, families to leave Saudi Arabia amid Houthi strikes » (22 oct. 2026)",
-        "url": "https://www.abc.net.au/news/2026-10-22/us-diplomats-to-leave-saudi-arabia-amid-houthi-strikes/107295684"
-      },
-      {
-        "short": "CBS News",
-        "name": "CBS News, « U.S. ordering some government staff to depart Saudi Arabia, reducing military footprint in Middle East » (oct. 2026)",
-        "url": "https://www.cbsnews.com/news/us-saudi-arabia-ordered-departure-houthis/"
-      },
-      {
-        "short": "Washington Times",
-        "name": "The Washington Times, « Non-essential U.S. personnel, families told to leave Saudi Arabia amid growing Houthi strikes » (21 oct. 2026)",
-        "url": "https://www.washingtontimes.com/news/2026/oct/21/non-essential-us-personnel-families-told-leave-saudi-arabia-amid/"
-      },
-      {
-        "short": "NewsNation",
-        "name": "NewsNation, « US orders diplomats to leave Saudi Arabia » (oct. 2026)",
-        "url": "https://www.newsnationnow.com/world/us-orders-diplomats-leave-saudi-arabia/"
-      },
-      {
-        "short": "Al-Monitor (Reuters)",
-        "name": "Al-Monitor (dépêche Reuters), « Saudi says it intercepted Houthi missiles fired south, test years-long truce » (juil. 2026)",
-        "url": "https://www.al-monitor.com/originals/2026/07/saudi-says-it-intercepted-houthi-missiles-fired-south-test-years-long-truce"
-      },
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « Yemen fighting expands as Houthis attack Saudi airport: What to know » (11 oct. 2026)",
-        "url": "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know"
-      },
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « Saudi Arabia says 12 killed, 300 wounded in Houthi attack on Riyadh airport » (10 oct. 2026)",
-        "url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
-      },
-      {
-        "short": "Département d'État",
-        "name": "U.S. Department of State, Foreign Affairs Manual, 3 FAM 3770 (départs autorisés et ordonnés)",
-        "url": "https://fam.state.gov/fam/03fam/03fam3770.html"
-      },
-      {
-        "short": "US Navy",
-        "name": "U.S. Naval Forces Central Command, fiche « Departure » (allocations en cas de départ autorisé ou ordonné)",
-        "url": "https://www.cusnc.navy.mil/Portals/17/Departure%20Flyer%20%2811%20x%208_5%20in%29.pdf"
-      },
-      {
-        "short": "The National",
-        "name": "The National, « From fragile truce to new Houthi threats: how Yemen crisis reignited » (13 juil. 2026)",
-        "url": "https://www.thenationalnews.com/news/mena/2026/07/13/from-fragile-truce-to-new-houthi-threats-how-yemen-crisis-reignited/"
-      },
-      {
-        "short": "Hürriyet Daily News",
-        "name": "Hürriyet Daily News, « Saudi Arabia faces further Houthi attacks after calls for halt » (oct. 2026)",
-        "url": "https://www.hurriyetdailynews.com/saudi-arabia-faces-further-houthi-attacks-after-calls-for-halt-228002"
-      }
-    ],
-    "deep": {
-      "context": {
-        "title": "Quatre ans de trêve, puis la rechute",
-        "paragraphs": [
-          "Depuis le printemps 2022, une trêve informelle tenait entre l'Arabie saoudite et les Houthis, après des années de guerre au Yémen et des attaques houthies contre des installations énergétiques saoudiennes [5]. Le 13 juillet 2026, les Houthis ont tiré des missiles vers l'aéroport d'Abha, dans le sud du royaume, en accusant Riyad d'avoir bombardé un aéroport qu'ils contrôlent. C'était la première attaque revendiquée contre le royaume depuis le début de la trêve [5].",
-          "Le contexte s'était déjà tendu au sud du Yémen : fin 2025, un mouvement séparatiste soutenu par les Émirats arabes unis a pris le contrôle d'une grande partie du sud du pays [5]. En janvier 2026, les Émirats ont mis fin à leur présence antiterroriste au Yémen après une frappe saoudienne sur des véhicules de leurs forces [10]. Les deux alliés d'hier ne jouent donc plus la même partie.",
-          "L'escalade a culminé le 10 octobre : la frappe sur l'aéroport King Khalid de Riyad était la troisième de la semaine contre cet aéroport. Parmi les 12 morts figuraient quatre Saoudiens et des victimes de sept autres nationalités, dont un Américain [7]. La coalition menée par Riyad a parlé de crime de guerre ; les Houthis, eux, n'ont pas revendiqué cette frappe [6]."
-        ]
-      },
-      "explainer": {
-        "title": "« Personnel non essentiel » : ce que dit vraiment l'ordre",
-        "text": "Le Département d'État a deux crans avant la fermeture d'une ambassade. Le premier, le « départ autorisé », est volontaire : les employés et leurs familles peuvent partir aux frais de l'État, mais ceux qui le veulent restent [8]. Le second, choisi ici, est le « départ ordonné » : il est obligatoire et sert à réduire le nombre d'Américains présents sur place [8]. Les familles reçoivent alors des aides pour se loger et vivre ailleurs le temps de la crise [9]. L'ambassade, elle, reste ouverte : seuls les postes jugés indispensables (sécurité, consulat d'urgence, direction) restent pourvus. Passer d'un cran à l'autre est donc un signal : Washington juge que le risque ne se limite plus à quelques incidents."
-      },
-      "watch": {
-        "title": "Ce qui peut se passer ensuite",
-        "items": [
-          {
-            "when": "Dans les prochains jours",
-            "what": "Selon quatre responsables américains, d'autres représentations dans le Golfe vont aussi demander à des familles de partir : la mesure pourrait s'étendre au-delà du royaume [1]."
-          },
-          {
-            "when": "La riposte saoudienne",
-            "what": "Après la frappe du 10 octobre, la coalition a promis de répondre « fermement » [7]. Une riposte d'ampleur pourrait relancer les tirs vers les villes saoudiennes."
-          },
-          {
-            "when": "Les aéroports hors du conflit ?",
-            "what": "Les Houthis se disent prêts à des mesures réciproques pour tenir les aéroports, les ports et les sites humanitaires à l'écart des combats [7]. Un accord limité de ce type serait un premier pas vers une désescalade."
-          },
-          {
-            "when": "Les sites pétroliers",
-            "what": "Les Houthis affirment avoir visé deux installations de Saudi Aramco, dont le complexe de Khurais au sud-est de Riyad ; ces affirmations n'ont pas été vérifiées [11]. Une attaque confirmée sur le pétrole serait suivie de près par les marchés."
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "2026-10-22-liban-qatar-centrales-electriques-gnl",
-    "date": "2026-10-22",
-    "region": "Moyen-Orient",
-    "theme": "mix",
-    "geo": [
-      {
-        "name": "Beyrouth, Liban",
-        "label": "Liban",
-        "coords": [
-          35.5,
-          33.89
-        ]
-      }
-    ],
-    "title": "Le Qatar propose au Liban deux centrales électriques et vingt ans de gaz pour sortir de ses coupures de courant",
-    "summary": "Un projet de plan vu par Reuters prévoit deux centrales construites en trois ans. Rien n'est encore signé : les deux gouvernements doivent l'approuver.",
-    "points": [
-      "Le projet, vu par Reuters, prévoit que le Qatar construise deux centrales à gaz, à Deir Ammar (nord) et à Zahrani (sud), de 825 mégawatts chacune, en trois ans [1][2].",
-      "QatarEnergy fournirait le gaz naturel liquéfié pendant 20 ans, par un navire-terminal flottant et par le gazoduc arabe qui passe par la Syrie. Le plan ajoute 800 MW de solaire et 440 MW d'éolien [1][2].",
-      "Le financement viendrait de capitaux privés et non de l'argent public libanais ; les paiements restent à négocier. Le Premier ministre Nawaf Salam veut présenter le plan au gouvernement bientôt [1][3]."
-    ],
-    "why": [
-      "La première phrase à retenir : le Liban, ruiné et souvent dans le noir, pourrait voir son électricité financée par le Qatar plutôt que par son État [1][3].",
-      "C'est un projet de plan, pas un contrat : il doit être approuvé par Beyrouth et Doha, et les plans électriques libanais ont souvent buté sur les tarifs et la gestion de la compagnie publique [1]. La Banque mondiale prévoit que l'économie libanaise recule de 6,4 % cette année [4]."
-    ],
-    "forMe": "Quand un pays n'a pas d'électricité fiable, ses entreprises ferment et ses habitants partent. Le gaz du Qatar qui passe par la Syrie montre aussi que les routes de l'énergie se redessinent autour du détroit d'Ormuz.",
-    "figures": [
-      {
-        "value": "2 × 825 MW",
-        "label": "deux centrales à gaz prévues en trois ans",
-        "src": 1
-      },
-      {
-        "value": "20 ans",
-        "label": "durée du contrat de gaz naturel liquéfié proposé par QatarEnergy",
-        "src": 2
-      },
-      {
-        "value": "−6,4 %",
-        "label": "recul de l'économie libanaise prévu cette année par la Banque mondiale",
-        "src": 4
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Devdiscourse (Reuters)",
-        "name": "Devdiscourse (dépêche Reuters), « EXCLUSIVE-Qatari electricity lifeline for Lebanon includes two power plants, LNG supply deal » (oct. 2026)",
-        "url": "https://www.devdiscourse.com/article/international/3994809-exclusive-qatari-electricity-lifeline-for-lebanon-includes-two-power-plantslng-supply-deal"
-      },
-      {
-        "short": "OilPrice",
-        "name": "OilPrice.com, « Qatar Offers Lebanon 2 Gas Plants and 20 Years of LNG Piped Through Syria » (oct. 2026)",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/Qatar-Offers-Lebanon-2-Gas-Plants-and-20-Years-of-LNG-Piped-Through-Syria.html"
-      },
-      {
-        "short": "Modern Diplomacy",
-        "name": "Modern Diplomacy, « Qatar Offers Lebanon Energy Lifeline With Two Power Plants and LNG Supply Deal » (19 oct. 2026)",
-        "url": "https://moderndiplomacy.eu/2026/10/19/qatar-offers-lebanon-energy-lifeline-with-two-power-plants-and-lng-supply-deal/"
-      },
-      {
-        "short": "The National",
-        "name": "The National, « World Bank says Middle East economy to contract 2.1% in 2026 on Iran war » (6 oct. 2026)",
-        "url": "https://www.thenationalnews.com/business/economy/2026/10/06/world-bank-says-middle-east-economy-to-contract-21-in-2026-on-iran-war/"
-      },
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « Qatar announces ‘massive’ solar plant project in Lebanon » (16 oct. 2026)",
-        "url": "https://www.aljazeera.com/news/2026/10/16/qatar-announces-massive-solar-plant-project-in-lebanon"
-      },
-      {
-        "short": "Ministère de l'Énergie (Liban)",
-        "name": "Ministère libanais de l'Énergie et de l'Eau / EDL, présentation du plan électrique (31 mars 2022)",
-        "url": "https://energyandwater.gov.lb/mediafiles/articles/doc-100777-2022_03_31_10_19_47.pdf"
-      },
-      {
-        "short": "Banque mondiale",
-        "name": "Banque mondiale, document de projet sur le secteur électrique libanais (avril 2023)",
-        "url": "https://documents1.worldbank.org/curated/en/099050223040511121/pdf/P1805010e52d050b0a2420997c31f1dfe0.pdf"
-      },
-      {
-        "short": "BLOMInvest",
-        "name": "BLOMInvest Bank, « Turning the Lights On: Solutions for Lebanon's Electricity Crisis » (févr. 2026)",
-        "url": "https://blog.blominvestbank.com/wp-content/uploads/2026/02/Turning-the-Lights-On-Solutions-for-Lebanons-Electricity-Crisis.pdf"
-      },
-      {
-        "short": "L'Orient-Le Jour",
-        "name": "L'Orient Today, « EDL to issue new tariffs in February 2023 »",
-        "url": "https://today.lorientlejour.com/article/1318304/edl-to-issue-new-tariffs-in-february-2023.html"
-      },
-      {
-        "short": "Power Technology",
-        "name": "Power Technology, « Lebanon energy reform plan »",
-        "url": "https://www.power-technology.com/comment/lebanon-energy-reform-plan/"
-      },
-      {
-        "short": "Wikipédia",
-        "name": "Wikipédia (en), « Arab Gas Pipeline »",
-        "url": "https://en.wikipedia.org/wiki/Arab_Gas_Pipeline"
-      },
-      {
-        "short": "Al Arabiya",
-        "name": "Al Arabiya, « Egypt's natural gas to reach Lebanon by year end: Minister » (14 sept. 2021)",
-        "url": "https://english.alarabiya.net/News/middle-east/2021/09/14/Egypt-s-natural-gas-to-reach-Lebanon-by-year-end-Minister"
-      },
-      {
-        "short": "BNN Bloomberg (Reuters)",
-        "name": "BNN Bloomberg (dépêche Reuters), « Egyptian gas to reach Lebanon by year-end, says minister » (14 sept. 2021)",
-        "url": "https://www.bnnbloomberg.ca/egyptian-gas-to-reach-lebanon-by-year-end-says-minister-1.1652109"
-      },
-      {
-        "short": "L'Orient-Le Jour",
-        "name": "L'Orient Today, « Gas imports to Lebanon: Jordan gives green light, what happens next »",
-        "url": "https://today.lorientlejour.com/article/1546905/gas-imports-to-lebanon-jordan-gives-green-light-what-happens-next.html"
-      },
-      {
-        "short": "Libnanews",
-        "name": "Libnanews, « L'électricité du Liban frappée par le choc pétrolier » (2026)",
-        "url": "https://en.libnanews.com/l-electricity-from-lebanon-hit-by-oil-shock/"
-      }
-    ],
-    "deep": {
-      "numbers": {
-        "title": "Une compagnie publique à bout de souffle",
-        "items": [
-          {
-            "value": "2 à 3 h",
-            "label": "d'électricité publique par jour en moyenne à partir de mi-2021, selon la Banque mondiale [7]"
-          },
-          {
-            "value": "≈ 40 %",
-            "label": "de l'électricité perdue sur le réseau en 2021 (pertes techniques et vols), selon le ministère de l'Énergie [6]"
-          },
-          {
-            "value": "43 Md$",
-            "label": "ajoutés à la dette publique par les subventions à Électricité du Liban de 1994 à 2020 [8]"
-          },
-          {
-            "value": "1994",
-            "label": "année du dernier changement de tarif avant la nouvelle grille annoncée par EDL pour février 2023 [9]"
-          }
-        ]
-      },
-      "context": {
-        "title": "Le gazoduc qui devait déjà tout régler",
-        "paragraphs": [
-          "L'idée d'alimenter le Liban en gaz par la Syrie n'est pas neuve. Le gazoduc arabe, long d'environ 1 200 km, a été construit par étapes pour exporter le gaz égyptien vers la Jordanie, la Syrie et le Liban ; le gaz arrive régulièrement au Liban à partir d'octobre 2009 [11].",
-          "Le flux s'est vite tari : l'Égypte, qui consommait de plus en plus, a réduit ses exportations, puis des attaques contre le tuyau pendant la guerre en Syrie ont coupé la route vers le Liban [13]. En 2021, les ministres de quatre pays ont voulu relancer le projet pour alimenter la centrale de Deir Ammar, d'une capacité de 450 MW [12]. La Banque mondiale devait financer l'accord, mais à condition que le Liban relève ses tarifs et crée une autorité de régulation de l'électricité ; faute de régulateur, elle n'a pas donné son feu vert [10].",
-          "Dans l'intervalle, EDL a remonté sa production : fin février 2026, elle fournissait en moyenne 7 à 9 heures de courant par jour. Le choc pétrolier régional l'a de nouveau fait chuter, à environ deux heures par jour dans certaines zones comme Tripoli [15]. Selon L'Orient-Le Jour, le tronçon Syrie-Liban du gazoduc n'est toujours pas en service et sa remise en état se poursuit [14]."
-        ]
-      },
-      "sides": {
-        "title": "Qui veut quoi",
-        "items": [
-          {
-            "who": "Doha",
-            "says": "Le Premier ministre qatari, en visite à Beyrouth le 16 octobre, a annoncé une centrale solaire qu'il a qualifiée de « massive », développée par QatarEnergy avec le français TotalEnergies comme premier projet [5]. Le document vu par Reuters cherche à attirer des capitaux privés [1]."
-          },
-          {
-            "who": "Le gouvernement de Nawaf Salam",
-            "says": "Le Premier ministre affirme que le Qatar financera, construira et fera tourner le projet sans que le Trésor libanais avance d'argent, et veut le soumettre vite au Conseil des ministres [5]."
-          },
-          {
-            "who": "La Banque mondiale et les bailleurs",
-            "says": "Ils lient depuis des années leur aide à des réformes : hausse de tarifs restés bas pendant des décennies et autorité de régulation indépendante, chargée de fixer les prix et de surveiller les contrats avec le privé [10]. En 2022, le tarif moyen encaissé restait sous 1 centime le kWh, pour un coût d'environ 30 centimes [6]."
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "2026-10-22-ghana-fin-exportation-minerais-bruts-2030",
-    "date": "2026-10-22",
-    "region": "Afrique",
-    "theme": "mix",
-    "geo": [
-      {
-        "name": "Accra, Ghana",
-        "label": "Ghana",
-        "coords": [
-          -0.19,
-          5.6
-        ]
-      }
-    ],
-    "title": "Le Ghana veut cesser d'exporter ses minerais bruts d'ici 2030 : bauxite, manganèse, fer et lithium",
-    "summary": "Le président Mahama l'a annoncé lundi à Accra. Les entreprises devront transformer sur place, mais aucune loi n'est encore publiée.",
-    "points": [
-      "Le président John Dramani Mahama a annoncé le 19 octobre, lors d'un sommet minier à Accra, que le Ghana supprimera d'ici 2030 les exportations de minerais non transformés [1][2].",
-      "Cela concerne la bauxite (le minerai de l'aluminium), le manganèse, le fer et le lithium. Les investisseurs devront financer la transformation sur place, avec ces obligations inscrites dans leurs contrats [1][3].",
-      "Aucune loi, aucun règlement ni aucune liste de minerais n'est encore publié ; Mahama promet des mesures juridiques et un calendrier transparent [1][3]. Le pays interdit déjà l'export de ferraille et de métaux non ferreux [3]."
-    ],
-    "why": [
-      "La première phrase à retenir : le plus gros producteur d'or d'Afrique veut garder la valeur ajoutée chez lui, au lieu de vendre la roche brute [1][4].",
-      "L'idée est d'avoir des usines, des emplois et plus de revenus, mais elle a un prix : transformer exige de l'électricité et des investisseurs prêts à attendre. Pour l'or, l'effet direct serait limité, car les grandes mines fondent déjà leur minerai en lingots (doré) avant l'export [4]."
-    ],
-    "forMe": "L'aluminium, le manganèse (acier) et le lithium (batteries) se retrouvent dans les voitures et les smartphones. Si plusieurs pays africains imitent le Ghana, ces matières peuvent coûter plus cher à importer brutes, mais viendraient plus souvent déjà raffinées.",
-    "figures": [
-      {
-        "value": "2030",
-        "label": "date visée pour la fin des exportations de minerais bruts",
-        "src": 1
-      },
-      {
-        "value": "4",
-        "label": "minerais cités : bauxite, manganèse, fer, lithium",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Bloomberg",
-        "name": "Bloomberg, « Ghana to End Unprocessed Mineral Exports by 2030, President Mahama Says » (19 oct. 2026)",
-        "url": "https://www.bloomberg.com/news/articles/2026-10-19/ghana-plans-to-ban-raw-mineral-exports-by-2030-president-says"
-      },
-      {
-        "short": "GNA",
-        "name": "Agence de presse ghanéenne GNA, « Ghana targets 2030 to end raw mineral ore exports » (oct. 2026)",
-        "url": "https://gna.org.gh/2026/10/ghana-targets-2030-to-end-raw-mineral-ore-exports/"
-      },
-      {
-        "short": "Nairametrics",
-        "name": "Nairametrics, « Ghana plans to ban exports of unprocessed minerals by 2030 » (20 oct. 2026)",
-        "url": "https://nairametrics.com/2026/10/20/ghana-plans-to-ban-exports-of-unprocessed-minerals-by-2030/"
-      },
-      {
-        "short": "Rio Times",
-        "name": "The Rio Times, « Ghana Restates Plan to End Raw Ore Exports » (oct. 2026)",
-        "url": "https://www.riotimesonline.com/ghana-2030-raw-mineral-export-ban/"
-      },
-      {
-        "short": "USITC",
-        "name": "Commission du commerce international des États-Unis (USITC), « Nickel and Indonesia, part 1 » (note d'information)",
-        "url": "https://www.usitc.gov/publications/332/executive_briefings/ebot_nickel_and_indonesia_part_1.pdf"
-      },
-      {
-        "short": "AIE",
-        "name": "Agence internationale de l'énergie (AIE), « Prohibition of the export of nickel ore » (fiche de politique publique)",
-        "url": "https://www.iea.org/policies/16084-prohibition-of-the-export-of-nickel-ore"
-      },
-      {
-        "short": "Commission européenne",
-        "name": "Commission européenne, « WT/DS592 – Indonesia – Export restrictions on raw materials for the production of stainless steel »",
-        "url": "https://policy.trade.ec.europa.eu/enforcement-and-protection/dispute-settlement/wto-dispute-settlement/wto-disputes-cases-involving-eu/wtds592-indonesia-export-restrictions-raw-materials-production-stainless-steel-and-subsidies-new_en"
-      },
-      {
-        "short": "The Conversation",
-        "name": "The Conversation, « Indonesia's claim that banning nickel exports spurs downstreaming is questionable » (2022)",
-        "url": "https://theconversation.com/indonesias-claim-that-banning-nickel-exports-spurs-downstreaming-is-questionable-180229"
-      },
-      {
-        "short": "AP / Manufacturing.net",
-        "name": "Associated Press (repris par Manufacturing.net), « Indonesia Tightens Control on World's Largest Nickel Supply as U.S. Scrambles for Critical Minerals »",
-        "url": "https://www.manufacturing.net/supply-chain/news/22960938/indonesia-tightens-control-on-worlds-largest-nickel-supply-as-us-scrambles-for-critical-minerals"
-      },
-      {
-        "short": "MyJoyOnline",
-        "name": "MyJoyOnline, « President Mahama puts mining firms on notice over 2030 raw mineral ore export ban » (oct. 2026)",
-        "url": "https://www.myjoyonline.com/president-mahama-puts-mining-firms-on-notice-over-2030-raw-mineral-ore-export-ban/"
-      },
-      {
-        "short": "Graphic Online",
-        "name": "Graphic Online, « GIADEC makes significant progress towards developing an integrated aluminium industry » (2022)",
-        "url": "https://www.graphic.com.gh/business/business-news/giadec-makes-significant-progress-towards-developing-an-integrated-aluminium-industry.html"
-      },
-      {
-        "short": "SMM",
-        "name": "Shanghai Metals Market (SMM), « Import of Ghana Manganese Ore Under Dual Squeeze » (2026)",
-        "url": "https://news.metal.com/newscontent/104089301-smm-analysisimport-of-ghana-manganese-ore-under-dual-squeeze-resonance-of-price-signals-and-policy-uncertainties"
-      },
-      {
-        "short": "News Ghana",
-        "name": "News Ghana, « Ghana Manganese Company unveils US$450 million refinery plan » (2024)",
-        "url": "https://www.newsghana.com.gh/ghana-manganese-company-unveils-us450-million-refinery-plan/"
-      },
-      {
-        "short": "Mining Weekly",
-        "name": "Mining Weekly, « Ghana's Parliament ratifies Atlantic Lithium's Ewoyaa mining lease » (20 mars 2026)",
-        "url": "https://www.miningweekly.com/article/ghanas-parliament-ratifies-atlantic-lithiums-ewoyaa-mining-lease-2026-03-20"
-      },
-      {
-        "short": "Ecofin",
-        "name": "Agence Ecofin, « Ghana greenlights $185 million Ewoyaa lithium project » (mars 2026)",
-        "url": "https://www.ecofinagency.com/news-industry/2303-53985-ghana-greenlights-185-million-ewoyaa-lithium-project"
-      },
-      {
-        "short": "MyJoyOnline",
-        "name": "MyJoyOnline, « Why Ghana has banned unrefined gold exports – GoldBod official provides details » (2026)",
-        "url": "https://www.myjoyonline.com/why-ghana-has-banned-unrefined-gold-exports-goldbod-official-provides-details/"
-      },
-      {
-        "short": "MyJoyOnline",
-        "name": "MyJoyOnline, « Govt must put its skin in the game – Chamber of Mines demands tax, power relief for local gold refining » (2026)",
-        "url": "https://www.myjoyonline.com/govt-must-put-its-skin-in-the-game-chamber-of-mines-demands-tax-power-relief-for-local-gold-refining/"
-      }
-    ],
-    "deep": {
-      "context": {
-        "title": "Le précédent indonésien : six ans sans nickel brut",
-        "paragraphs": [
-          "L'idée n'est pas neuve. L'Indonésie a appliqué dès 2014 une loi de 2009 qui interdisait d'exporter le minerai non transformé, dont le nickel [5]. Elle a rouvert la porte en 2017 au minerai pauvre (moins de 1,7 % de nickel), puis a tout refermé le 1er janvier 2020 [6].",
-          "Le résultat est spectaculaire. Selon S&P Global Market Intelligence, la part de l'Indonésie dans l'offre mondiale de nickel est passée de 31,5 % en 2020 à environ 60 % en 2024 [9]. Les fonderies se sont multipliées, financées en grande partie par des capitaux étrangers [8].",
-          "Le bilan reste discuté. Le président Joko Widodo affirmait que les exportations liées au nickel étaient passées de 2,1 à 30 milliards de dollars ; des économistes notent que ces chiffres n'ont pas été détaillés et qu'un métal transformé contient aussi le prix de l'énergie et des autres intrants [8]. L'Union européenne a porté plainte à l'OMC : le panel lui a donné raison le 30 novembre 2022, mais l'Indonésie a fait appel le 8 décembre devant un organe d'appel qui ne fonctionne plus, ce qui bloque l'affaire [7]."
-        ]
-      },
-      "explainer": {
-        "title": "Comment ça marche : « transformer sur place »",
-        "text": "Un minerai passe par plusieurs étapes avant de devenir un métal. Pour l'aluminium : on extrait la bauxite, une raffinerie en tire l'alumine (une poudre blanche), puis une fonderie la transforme en métal grâce à beaucoup d'électricité. Le Ghana possède le début et la fin de la chaîne, mais pas le milieu : une mine de bauxite à Awaso et la fonderie VALCO à Tema, sans raffinerie. En 2022, toute la bauxite d'Awaso partait donc à l'étranger, pendant que VALCO importait son alumine [11]. Une interdiction d'exporter le brut oblige à construire le maillon manquant sur place. Pour le manganèse, l'entreprise qui exploite la mine de Nsuta, filiale du groupe chinois Tianyuan, a présenté un projet de raffinerie d'environ 450 millions de dollars [13]. Pour l'or, c'est déjà fait : depuis le 1er septembre 2026, l'or « doré » des négociants agréés doit être raffiné au Ghana avant l'export [16]."
-      },
-      "numbers": {
-        "title": "Les chiffres de fond",
-        "items": [
-          {
-            "value": "5,3 Mt",
-            "label": "minerai de manganèse importé du Ghana par la Chine en 2025, 16 % de ses achats de ce minerai (douanes chinoises citées par SMM) [12]"
-          },
-          {
-            "value": "185 M$",
-            "label": "coût annoncé de la mine de lithium d'Ewoyaa, où l'État ghanéen détient 13 % (Ecofin) [15]"
-          },
-          {
-            "value": "≈ 60 %",
-            "label": "part de l'Indonésie dans l'offre mondiale de nickel en 2024, contre 31,5 % en 2020 (S&P Global) [9]"
-          }
-        ]
-      },
-      "watch": {
-        "title": "Les étapes à surveiller",
-        "items": [
-          {
-            "when": "Au Parlement",
-            "what": "Le projet de loi minière déposé au Parlement permettrait au ministre d'interdire l'export de minerais bruts, mais seulement par un règlement à part, et sans date butoir [10]."
-          },
-          {
-            "when": "Décision d'investissement à Ewoyaa",
-            "what": "Le Parlement a ratifié le bail de la première mine de lithium du pays le 20 mars 2026 ; reste à boucler le financement avant la décision finale d'investissement [14]."
-          },
-          {
-            "when": "Janvier 2029",
-            "what": "Fin du mandat de John Mahama, qui ne peut pas se représenter : l'échéance de 2030 reviendra à son successeur [10]."
-          },
-          {
-            "when": "D'ici là",
-            "what": "Les compagnies minières demandent déjà des baisses de taxes et une électricité plus sûre pour raffiner l'or sur place ; les mêmes demandes reviendront pour les autres minerais [17]."
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "2026-10-22-burkina-faso-ghana-reduit-carburant",
-    "date": "2026-10-22",
-    "region": "Afrique",
-    "theme": "mix",
-    "geo": [
-      {
-        "name": "Ouagadougou, Burkina Faso",
-        "label": "Burkina Faso",
-        "coords": [
-          -1.52,
-          12.37
-        ]
-      }
-    ],
-    "title": "Le Burkina Faso et le Mali privés de moitié de leur carburant : le Ghana garde le sien",
-    "summary": "Le distributeur public ghanéen réduit ses ventes de diesel et d'essence à ses voisins du Sahel, qui n'ont pas de mer. Le Burkina n'a reçu que la moitié de ce qu'il demandait.",
-    "points": [
-      "Le distributeur public ghanéen BOST réduit depuis août ses exportations de diesel et d'essence vers le Burkina Faso et le Mali, pour protéger l'approvisionnement du Ghana [1][2].",
-      "Pour juillet et août, le Burkina n'a reçu que 40 000 tonnes de carburant sur les 80 000 demandées [3].",
-      "Le directeur de BOST résume : « Le carburant est disponible, mais à un coût élevé » [2]."
-    ],
-    "why": [
-      "La première phrase à retenir : deux pays du Sahel, qui se disent souverains, dépendent d'un voisin côtier pour faire rouler leurs camions et leurs générateurs [3].",
-      "Le Burkina et le Mali ne sont pas reliés à la mer : quand un pays de transit garde son carburant, les prix montent et les coupures arrivent. Cette tension arrive dans un monde où le pétrole est plus cher à cause de la crise d'Ormuz [1][3]."
-    ],
-    "forMe": "Le carburant manquant ralentit les mines d'or et le transport de marchandises du Sahel. Cela pèse sur l'or et l'uranium qui sortent de la région, et sur les migrations quand l'économie locale s'étouffe.",
-    "figures": [
-      {
-        "value": "40 000 t",
-        "label": "carburant livré au Burkina Faso en juillet-août, sur 80 000 demandées",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Adom Online",
-        "name": "Adom Online, « BOST cuts fuel exports to Burkina Faso and Mali to protect local supply » (2026)",
-        "url": "https://www.adomonline.com/bost-cuts-fuel-exports-to-burkina-faso-and-mali-to-protect-local-supply/"
-      },
-      {
-        "short": "MyJoyOnline",
-        "name": "MyJoyOnline, « BOST cuts fuel exports to Burkina Faso and Mali to protect local supply » (2026)",
-        "url": "https://www.myjoyonline.com/bost-cuts-fuel-exports-to-burkina-faso-and-mali-to-protect-local-supply/"
-      },
-      {
-        "short": "Afrik.com",
-        "name": "Afrik.com, « Mali et Burkina Faso : la souveraineté de l'AES rattrapée par sa dépendance au carburant » (2026)",
-        "url": "https://www.afrik.com/mali-burkina-faso-souverainete-aes-carburant-ghana"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-22-haiti-soldats-salvadoriens-disparus",
-    "date": "2026-10-22",
-    "region": "Amériques",
-    "theme": "geo",
-    "geo": [
-      {
-        "name": "Croix-des-Bouquets, Haïti",
-        "label": "Haïti",
-        "coords": [
-          -72.22,
-          18.58
-        ]
-      }
-    ],
-    "title": "Haïti : quatre soldats salvadoriens de la force anti-gangs disparus après une embuscade",
-    "summary": "Leur véhicule a brûlé près de Port-au-Prince. El Salvador cherche ses soldats sous le feu des gangs.",
-    "points": [
-      "Quatre militaires salvadoriens de la Force de répression des gangs, soutenue par l'ONU, ont fui leur véhicule en feu à Croix-des-Bouquets, au nord de Port-au-Prince, et sont portés disparus [1][2].",
-      "L'armée salvadorienne dit avoir tenté plusieurs fois de les rejoindre par terre et par air ; ses hélicoptères ont essuyé des tirs [1][2].",
-      "Le porte-parole de l'ONU, Stéphane Dujarric, a condamné l'attaque et demandé leur libération [1]. Une dépêche titrée sur le président Nayib Bukele rapporte qu'il annonce une opération militaire pour récupérer les soldats [3]."
-    ],
-    "why": [
-      "La première phrase à retenir : la force internationale qui doit reprendre Haïti aux gangs perd déjà des hommes, et un pays d'Amérique centrale se retrouve en première ligne [1][2].",
-      "Les sources ne disent pas encore si les quatre sont captifs ou cachés. Plus l'attaque dure, plus la capitale est coupée du reste du pays, ce qui bloque aide et marchandises [1][2]."
-    ],
-    "forMe": "Haïti est à deux heures d'avion de la Floride. Quand l'État s'effondre, la nourriture manque et les départs en bateau augmentent, ce qui nourrit les débats sur la migration jusqu'en Europe.",
-    "figures": [
-      {
-        "value": "4",
-        "label": "soldats salvadoriens portés disparus",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « Search under way for four soldiers missing after gang attack in Haiti » (19 oct. 2026)",
-        "url": "https://www.aljazeera.com/news/2026/10/19/search-under-way-for-four-soldiers-missing-after-gang-attack-in-haiti"
-      },
-      {
-        "short": "Devdiscourse",
-        "name": "Devdiscourse, « Four Salvadoran air force members missing after gang ambush in Haiti » (oct. 2026)",
-        "url": "https://www.devdiscourse.com/article/international/3994931-four-salvadoran-air-force-members-missing-after-gang-ambush-in-haiti"
-      },
-      {
-        "short": "Daily Independent (AP)",
-        "name": "Daily Independent, « El Salvador's Bukele announces military operation to rescue hostages held by gangs in Haiti » (oct. 2026)",
-        "url": "https://yourvalley.net/stories/el-salvadors-bukele-announces-military-operation-to-rescue-hostages-held-by-gangs-in-haiti,731775"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-22-sri-lanka-chine-quitte-hub-colombo",
-    "date": "2026-10-22",
-    "region": "Asie",
-    "theme": "mix",
-    "geo": [
-      {
-        "name": "Colombo, Sri Lanka",
-        "label": "Sri Lanka",
-        "coords": [
-          79.85,
-          6.93
-        ]
-      }
-    ],
-    "title": "Sri Lanka : une entreprise d'État chinoise abandonne son grand centre logistique du port de Colombo",
-    "summary": "Le projet de 392 millions de dollars continue, mais il faut trouver un autre investisseur.",
-    "points": [
-      "China Merchants Port Holdings se retire du centre logistique prévu au port de Colombo, a annoncé l'autorité portuaire du Sri Lanka le 19 octobre, selon l'AFP [1][2].",
-      "Le projet de 392 millions de dollars, signé en 2023, donnait 70 % à China Merchants, 15 % à l'autorité portuaire et 15 % à une entreprise de construction sri-lankaise [1][3]. L'autorité cherche un nouvel investisseur pour le site de 150 000 m² et passera par un partenariat public-privé [1][2].",
-      "Les chiffres divergent : un média sri-lankais parle d'environ 280 millions de dollars [2]. China Merchants dit que mettre fin au projet est dans l'intérêt des parties [1]."
-    ],
-    "why": [
-      "La première phrase à retenir : un grand groupe chinois renonce à un projet au Sri Lanka, pays que la Chine avait aidé et où elle est très présente [1][3].",
-      "C'était le premier grand investissement étranger annoncé après l'effondrement de l'économie sri-lankaise en 2022 [1][3]. China Merchants continue d'exploiter un terminal à conteneurs de 500 millions de dollars à Colombo [1]."
-    ],
-    "forMe": "Colombo est une escale importante des cargos entre l'Asie et l'Europe. Quand un projet de port s'arrête, la concurrence entre grandes puissances pour ces routes devient visible.",
-    "figures": [
-      {
-        "value": "392 M$",
-        "label": "valeur du centre logistique abandonné (un média local cite environ 280 M$)",
-        "src": 3
-      },
-      {
-        "value": "70 %",
-        "label": "part prévue pour China Merchants",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "routes-maritimes"
-    ],
-    "sources": [
-      {
-        "short": "Deccan Chronicle",
-        "name": "Deccan Chronicle, « China Exits Sri Lanka Port Logistics Venture in Major Setback » (oct. 2026)",
-        "url": "https://www.deccanchronicle.com/world/china-exits-sri-lanka-port-logistics-venture-in-major-setback-1997154"
-      },
-      {
-        "short": "Ada Derana",
-        "name": "Ada Derana, déclaration de l'autorité portuaire sur le centre logistique de Colombo (oct. 2026)",
-        "url": "https://adaderana.lk/news/250181"
-      },
-      {
-        "short": "Hellenic Shipping News",
-        "name": "Hellenic Shipping News, « Sri Lanka, China to build $392mln logistics hub at Colombo Port » (2023)",
-        "url": "https://www.hellenicshippingnews.com/sri-lanka-china-to-build-392mln-logistics-hub-at-colombo-port/"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-22-inde-nouvelle-zelande-accord-libre-echange",
-    "date": "2026-10-22",
-    "region": "Asie",
-    "theme": "eco",
-    "geo": [
-      {
-        "name": "Wellington, Nouvelle-Zélande",
-        "label": "Nouvelle-Zélande",
-        "coords": [
-          174.78,
-          -41.29
-        ]
-      },
-      {
-        "name": "New Delhi, Inde",
-        "label": "Inde",
-        "coords": [
-          77.21,
-          28.61
-        ]
-      }
-    ],
-    "title": "L'Inde et la Nouvelle-Zélande ouvrent leurs marchés : laine et charbon sans droits de douane",
-    "summary": "Leur accord de libre-échange devait entrer en vigueur le 20 octobre, après neuf mois de négociations.",
-    "points": [
-      "L'accord, signé à New Delhi le 27 avril et ratifié le 21 septembre, devait s'appliquer à partir du 20 octobre [1][2]. Les sources consultées datent d'avant cette date et ne confirment pas encore l'entrée en vigueur.",
-      "L'Inde obtient un accès sans droits de douane pour toutes ses lignes de produits ; certains produits indiens payaient jusqu'à 10 % [1][3].",
-      "La Nouvelle-Zélande dit que 57 % de ses exportations vers l'Inde, dont la laine et le charbon, seront sans droits dès le premier jour, avec un second palier au 1er janvier 2027 [3][4]."
-    ],
-    "why": [
-      "La première phrase à retenir : l'Inde multiplie les accords commerciaux au moment où les droits de douane américains changent la donne [1][3].",
-      "Les deux pays veulent à peu près doubler leurs échanges et se sont engagés à faire le point un an après l'entrée en vigueur [4]."
-    ],
-    "forMe": "Quand des pays se mettent d'accord sans passer par les États-Unis ni l'Europe, les routes du commerce se diversifient. À long terme, cela peut changer d'où viennent la laine, le bois ou les médicaments vendus en France.",
-    "figures": [
-      {
-        "value": "57 %",
-        "label": "exportations néo-zélandaises vers l'Inde sans droits de douane dès le premier jour",
-        "src": 3
-      },
-      {
-        "value": "100 %",
-        "label": "lignes de produits indiens sans droits de douane en Nouvelle-Zélande",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "droits-de-douane"
-    ],
-    "sources": [
-      {
-        "short": "Deccan Herald",
-        "name": "Deccan Herald, « India-New Zealand FTA comes into force on October 20 » (2026)",
-        "url": "https://www.deccanherald.com/business/india-new-zealand-fta-comes-into-force-on-october-20-4188622"
-      },
-      {
-        "short": "All India Radio",
-        "name": "All India Radio / Newsonair, « India-New Zealand free trade agreement finalised, comes into force on Oct 20: Piyush Goyal » (21 sept. 2026)",
-        "url": "https://newsonair.gov.in/india-new-zealand-free-trade-agreement-finalised-comes-into-force-on-oct-20-piyush-goyal/"
-      },
-      {
-        "short": "Maritime Gateway",
-        "name": "Maritime Gateway, « India-New Zealand FTA kicks in from October 20 with duty-free access for all Indian exports » (2026)",
-        "url": "https://www.maritimegateway.com/india-new-zealand-fta-kicks-in-from-october-20-with-duty-free-access-for-all-indian-exports/"
-      },
-      {
-        "short": "MFAT",
-        "name": "Ministère néo-zélandais des Affaires étrangères et du Commerce, résumé de l'accord de libre-échange Nouvelle-Zélande–Inde (2026)",
-        "url": "https://www.mfat.govt.nz/assets/Trade-agreements/NZ-India-FTA/New-Zealand-India-Free-Trade-Agreement-Summary.pdf"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-22-belgique-avoirs-russes-gel-ukraine",
-    "date": "2026-10-22",
-    "region": "Europe",
-    "theme": "mix",
-    "geo": [
-      {
-        "name": "Bruxelles, Belgique",
-        "label": "Belgique",
-        "coords": [
-          4.35,
-          50.85
-        ]
-      }
-    ],
-    "title": "Belgique : le Premier ministre assure que Bruxelles renonce à utiliser les avoirs russes gelés pour l'Ukraine",
-    "summary": "Plus de 190 milliards d'euros russes dorment surtout en Belgique. Bart De Wever pense que la Commission européenne ne proposera plus de s'en servir.",
-    "points": [
-      "Devant le Parlement belge, après le dernier sommet européen, Bart De Wever a dit être confiant que la Commission ne proposera plus de financer l'Ukraine avec les avoirs russes, selon l'agence russe TASS [1]. Ce n'est pas une décision officielle de la Commission.",
-      "Environ 193 milliards d'euros, fin septembre, sont conservés surtout chez Euroclear, une société financière belge [2].",
-      "En décembre 2025, l'UE avait gelé ces avoirs sans limite de temps, et les dirigeants avaient choisi d'emprunter 90 milliards d'euros pour l'Ukraine sur deux ans [2][3]."
-    ],
-    "why": [
-      "La première phrase à retenir : l'idée d'utiliser l'argent russe gelé pour l'Ukraine, qui divisait l'Europe, semble abandonnée au profit de l'emprunt [1][3].",
-      "La Belgique craignait des représailles de la Russie, car l'argent est chez elle. L'information vient d'une seule dépêche, d'une agence d'État russe : à confirmer par une source belge ou européenne [1]."
-    ],
-    "forMe": "C'est de la dette européenne commune, donc de l'argent public européen, qui finance l'aide à l'Ukraine, plutôt que l'argent russe gelé.",
-    "figures": [
-      {
-        "value": "193 Md€",
-        "label": "avoirs russes gelés fin septembre, surtout chez Euroclear",
-        "src": 2
-      },
-      {
-        "value": "90 Md€",
-        "label": "prêt européen à l'Ukraine décidé en décembre 2025, sur deux ans",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "sanctions"
-    ],
-    "sources": [
-      {
-        "short": "TASS",
-        "name": "TASS, « Belgian PM expects European Commission to end calls for seizing Russian assets » (21 oct. 2026)",
-        "url": "https://tass.com/world/2205825"
-      },
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « EU indefinitely freezes hundreds of billions in Russian funds » (12 déc. 2025)",
-        "url": "https://www.aljazeera.com/news/2025/12/12/eu-looks-set-to-indefinitely-freeze-hundreds-of-billions-in-russian-funds"
-      },
-      {
-        "short": "Fortune",
-        "name": "Fortune, « EU indefinitely freezes Russian assets to prevent Hungary and Slovakia blocking billions for Ukraine » (13 déc. 2025)",
-        "url": "https://fortune.com/2025/12/13/eu-indefinitely-freezes-russian-assets-prevent-hungary-slovakia-billions-euros-ukraine/"
-      },
-      {
-        "short": "Euroclear",
-        "name": "Euroclear, « Euroclear delivers Q1 2026 results » (communiqué, 8 mai 2026)",
-        "url": "https://www.euroclear.com/newsandinsights/en/press/2026/mr-12-euroclear-delivers-q1-2026-results.html"
-      },
-      {
-        "short": "Euroclear",
-        "name": "Euroclear, « Euroclear delivers strong 2025 results » (communiqué, 4 févr. 2026)",
-        "url": "https://www.euroclear.com/newsandinsights/en/press/2026/mr-06-euroclear-delivers-strong-2025-results.html"
-      },
-      {
-        "short": "Financial Forum",
-        "name": "Revue bancaire et financière (Financial Forum), « The impact of the sanctions against Russia and Russian countermeasures »",
-        "url": "https://financialforum.be/fr/articles/the-impact-of-the-sanctions-against-russia-and-russian-countermeasures"
-      },
-      {
-        "short": "bne IntelliNews",
-        "name": "bne IntelliNews, « EU outlines structure of reparations loan backed by frozen Russian assets for Ukraine » (déc. 2025)",
-        "url": "https://www.intellinews.com/eu-outlines-structure-of-reparations-loan-backed-by-frozen-russian-assets-for-ukraine-415282"
-      },
-      {
-        "short": "APA",
-        "name": "APA, « Commission unveils €165B loan to Ukraine using Russian frozen assets » (3 déc. 2025)",
-        "url": "https://en.apa.az/europe/commission-unveils-eur165b-loan-to-ukraine-using-russian-frozen-assets-485346"
-      },
-      {
-        "short": "NV",
-        "name": "The New Voice of Ukraine (NV), « EU chooses joint borrowing for Ukraine, puts Russian assets on ice » (19 déc. 2025)",
-        "url": "https://english.nv.ua/amp/eu-chooses-joint-borrowing-for-ukraine-puts-russian-assets-on-ice-50569735.html"
-      },
-      {
-        "short": "The Star",
-        "name": "The Star (dépêche), « Belgium rejects renewed push on frozen Russian assets » (3 sept. 2026)",
-        "url": "https://www.thestar.com.my/news/world/2026/09/03/belgium-rejects-renewed-push-on-frozen-russian-assets"
-      },
-      {
-        "short": "Interfax-Ukraine",
-        "name": "Interfax-Ukraine, « Zelenskyy urges EU to resolve issue of Russia's frozen assets to prevent them from being returned to Russia » (oct. 2026)",
-        "url": "https://en.interfax.com.ua/news/general/1221570.html"
-      },
-      {
-        "short": "Courthouse News",
-        "name": "Courthouse News Service, « Zelenskyy asks for $78 billion in European aid for Ukraine » (oct. 2026)",
-        "url": "https://www.courthousenews.com/zelenskyy-asks-for-78-billion-in-european-aid-for-ukraine/"
-      },
-      {
-        "short": "Meduza",
-        "name": "Meduza, « Moscow court orders Belgian depositary Euroclear to pay massive damages to Russia's central bank » (15 mai 2026)",
-        "url": "https://meduza.io/en/news/2026/05/15/moscow-court-orders-belgian-depositary-euroclear-to-pay-massive-damages-to-russia-s-central-bank"
-      },
-      {
-        "short": "Interfax-Ukraine",
-        "name": "Interfax-Ukraine, « Belgian PM convinced EU won't revive plan to use frozen Russian assets for Ukraine » (oct. 2026)",
-        "url": "https://en.interfax.com.ua/news/general/1224317.html"
-      },
-      {
-        "short": "A News",
-        "name": "A News, « Belgian premier says EU will not propose using frozen Russian assets for Ukraine » (21 oct. 2026)",
-        "url": "https://anews.com.tr/world/2026/10/21/belgian-premier-says-eu-will-not-propose-using-frozen-russian-assets-for-ukraine"
-      },
-      {
-        "short": "Kyiv Post",
-        "name": "Kyiv Post, « EU Leaders Stall Reparation Loan Talks as Belgium Insists on Legal Guarantees » (2025)",
-        "url": "https://www.kyivpost.com/post/62907"
-      }
-    ],
-    "deep": {
-      "explainer": {
-        "title": "Comment ça marche : de l'argent gelé qui rapporte",
-        "text": "Euroclear est un dépositaire central de titres : une sorte de coffre-fort où les banques centrales et les investisseurs du monde entier gardent leurs obligations. Quand les sanctions ont bloqué la Banque centrale de Russie en 2022, ses titres sont restés chez Euroclear. En arrivant à échéance, ils ne remboursent pas la Russie : l'argent reste sur les comptes d'Euroclear Bank, qui devra le rendre le jour où les sanctions seront levées [6]. Euroclear replace cet argent, ce qui lui rapporte des intérêts : 5 milliards d'euros de revenus en 2025, en baisse de 26 % avec la baisse des taux [5]. Depuis 2024, une règle européenne oblige à reverser ces bénéfices exceptionnels à un fonds pour l'Ukraine : 6,6 milliards d'euros versés à fin mars 2026, le reste étant gardé en réserve contre les risques [4]. Fin mars 2026, sur les 237 milliards d'euros du bilan d'Euroclear Bank, 200 milliards étaient des avoirs russes sous sanctions [4]. Le « prêt de réparation », proposé par la Commission le 3 décembre 2025 pour 165 milliards d'euros [8], allait plus loin : il s'agissait d'échanger cet argent contre des obligations émises par l'UE et de le prêter à l'Ukraine, qui ne l'aurait remboursé que si la Russie payait des réparations [7]."
-      },
-      "sides": {
-        "title": "Qui dit quoi",
-        "items": [
-          {
-            "who": "La Belgique",
-            "says": "Bart De Wever exigeait que les 26 autres pays garantissent tout le prêt pour que la Belgique ne paie pas seule en cas de procès [16]. En septembre 2026, son ministre des Affaires étrangères Maxime Prévot jugeait encore qu'utiliser ces avoirs « par un procédé proche de la confiscation » comportait « des risques importants » [10]."
-          },
-          {
-            "who": "Les partisans de l'utilisation",
-            "says": "La Pologne, les Pays-Bas, l'Espagne et la Suède ont écrit à la Commission fin août 2026 pour lui demander d'étudier de nouvelles façons d'utiliser ces avoirs ; la cheffe de la diplomatie de l'UE, Kaja Kallas, a dit que la discussion continuerait [10]."
-          },
-          {
-            "who": "L'Ukraine",
-            "says": "Volodymyr Zelensky demande que la totalité des avoirs reste protégée et puisse servir, de peur qu'ils ne soient un jour rendus à la Russie [11]. Il a demandé aux Européens environ 78 milliards de dollars pour l'an prochain [12]."
-          },
-          {
-            "who": "La Russie",
-            "says": "Sa banque centrale a attaqué Euroclear à Moscou. Le 15 mai 2026, un tribunal moscovite lui a accordé environ 18 170 milliards de roubles (200 milliards d'euros) ; Euroclear ne reconnaît pas ce tribunal et a annoncé faire appel [13]."
-          }
-        ]
-      },
-      "watch": {
-        "title": "Ce qui peut encore bouger",
-        "items": [
-          {
-            "when": "Budget ukrainien de 2027",
-            "what": "Le prêt de 90 milliards couvre 2026 et 2027 [3] ; la nouvelle demande de Kiev pose la question d'un financement supplémentaire, et donc des avoirs russes [12]."
-          },
-          {
-            "when": "Prochains sommets européens",
-            "what": "Selon De Wever, la Commission s'est engagée à ne pas rouvrir le dossier, mais il n'exclut pas qu'un autre pays le remette sur la table [14][15]."
-          },
-          {
-            "when": "Appel d'Euroclear",
-            "what": "Euroclear conteste le jugement de Moscou et a annoncé faire appel ; la Banque centrale russe elle-même juge la décision non définitive [13]."
-          },
-          {
-            "when": "Fin de la guerre",
-            "what": "Les dirigeants européens ont prévu que les avoirs restent immobilisés jusqu'à ce que la Russie cesse la guerre et indemnise l'Ukraine [9]."
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "2026-10-21-samarkand-asie-centrale-minerais",
-    "date": "2026-10-21",
-    "region": "Asie",
-    "theme": "mix",
-    "geo": [
-      {
-        "name": "Samarcande, Ouzbékistan",
-        "label": "Samarcande",
-        "coords": [
-          66.96,
-          39.65
-        ]
-      },
-      {
-        "name": "Bichkek, Kirghizistan",
-        "label": "Kirghizistan",
-        "coords": [
-          74.59,
-          42.87
-        ]
-      },
-      {
-        "name": "Douchanbé, Tadjikistan",
-        "label": "Tadjikistan",
-        "coords": [
-          68.78,
-          38.56
-        ]
-      },
-      {
-        "name": "Achgabat, Turkménistan",
-        "label": "Turkménistan",
-        "coords": [
-          58.38,
-          37.95
-        ]
-      }
-    ],
-    "title": "Samarcande : Washington part chercher les minerais d'Asie centrale, là où la Chine est déjà installée",
-    "summary": "Le chef de la diplomatie américaine a réuni cinq pays d'Asie centrale. Au menu : une route commerciale qui évite la Russie et les minerais critiques.",
-    "points": [
-      "Marco Rubio a lancé lundi à Samarcande (Ouzbékistan) des discussions avec les ministres des Affaires étrangères de l'Ouzbékistan, du Kazakhstan, du Kirghizistan, du Tadjikistan et du Turkménistan, avant de partir pour l'Inde [1][2].",
-      "Les États-Unis et les cinq pays ont publié une déclaration commune qui soutient les investissements dans la route commerciale transcaspienne, une coopération industrielle plus étroite et des douanes simplifiées. Les parties voient aussi plus de possibilités pour extraire et transformer des minerais [2][3].",
-      "L'Ouzbékistan a signé les accords Artemis (coopération spatiale), et Marco Rubio a rencontré le ministre kazakh des Affaires étrangères sur le commerce, l'énergie, les minerais critiques et la technologie [1]. Des entreprises chinoises ont déjà signé plusieurs accords dans l'énergie, que Washington cherche à contrebalancer [1]."
-    ],
-    "why": [
-      "La première phrase à retenir : les États-Unis veulent leur part des minerais d'Asie centrale, une région enclavée où la Chine et la Russie pèsent depuis longtemps [1][3].",
-      "La route transcaspienne passe par la mer Caspienne et le Caucase au lieu de la Russie : c'est ce qui la rend intéressante pour les pays enclavés qui veulent vendre ailleurs. Pour l'instant, la déclaration est un soutien politique : les chiffres des investissements ne sont pas annoncés dans les sources consultées [2][3]."
-    ],
-    "forMe": "Les minerais critiques entrent dans les batteries, les puces et les armes. Plus les grandes puissances se les disputent, plus leurs prix peuvent devenir instables, et cela finit par se voir sur le prix des voitures électriques et de l'électronique.",
-    "figures": [
-      {
-        "value": "5",
-        "label": "pays d'Asie centrale réunis autour du secrétaire d'État américain (Ouzbékistan, Kazakhstan, Kirghizistan, Tadjikistan, Turkménistan)",
-        "src": 2
-      },
-      {
-        "value": "100",
-        "label": "entreprises américaines dans la délégation de Marco Rubio, selon Daryo (d'autres médias en citent plus de 200)",
-        "src": 4
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "sanctions"
-    ],
-    "sources": [
-      {
-        "short": "Manila Times",
-        "name": "The Manila Times, « US looks to boost foothold in Central Asia » (20 oct. 2026)",
-        "url": "https://www.manilatimes.net/2026/10/20/world/asia-oceania/us-looks-to-boost-foothold-in-central-asia/2449111"
-      },
-      {
-        "short": "Département d'État",
-        "name": "Département d'État américain, « C5+1: Historic Partnership, Prosperous Future » (oct. 2026)",
-        "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/c51-historic-partnership-prosperous-future/"
-      },
-      {
-        "short": "Euronews",
-        "name": "Euronews, « Rubio puts Trans-Caspian trade and critical minerals at centre of Central Asia talks » (19 oct. 2026)",
-        "url": "https://www.euronews.com/2026/10/19/rubio-puts-trans-caspian-trade-and-critical-minerals-at-centre-of-central-asia-talks"
-      },
-      {
-        "short": "Daryo",
-        "name": "Daryo, « Marco Rubio to visit Uzbekistan with 100 company delegation » (28 sept. 2026)",
-        "url": "https://daryo.uz/en/2026/09/28/marco-rubio-to-visit-uzbekistan-with-100-company-delegation/"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-21-inde-petrole-russe-droits-de-douane-rubio",
-    "date": "2026-10-21",
-    "region": "Asie",
-    "theme": "mix",
-    "geo": [
-      {
-        "name": "Bombay, Inde",
-        "label": "Inde",
-        "coords": [
-          72.88,
-          19.08
-        ]
-      },
-      {
-        "name": "Jamnagar, Inde",
-        "label": "Jamnagar",
-        "coords": [
-          70.07,
-          22.47
-        ]
-      }
-    ],
-    "title": "Pétrole russe : Washington suspend sa menace de droits de douane jusqu'à 100 % et envoie Rubio voir la plus grande raffinerie indienne",
-    "summary": "Une loi américaine permettrait de taxer jusqu'à 100 % les produits des plus gros acheteurs de pétrole russe, dont l'Inde. Elle est en pause, le temps d'une visite à Bombay et Jamnagar.",
-    "points": [
-      "La loi sur les sanctions viserait les cinq plus gros importateurs de pétrole ou de gaz russes, dont l'Inde et la Chine, avec des droits de douane pouvant atteindre 100 % sur les produits qu'ils vendent aux États-Unis. Elle est pour l'instant suspendue [1][2].",
-      "Marco Rubio, qui a qualifié l'Inde d'« allié important », explique que Donald Trump veut profiter d'une fenêtre de 60 jours pour mesurer l'effet de ces droits. L'ambassadeur américain Sergio Gor attend une décision d'ici une dizaine de jours [1][2].",
-      "Le secrétaire d'État était attendu mardi à Bombay, puis à la raffinerie de Jamnagar, au programme de l'énergie ; il saute New Delhi, ce qui irrite en Inde [2][3]. Le ministre indien du Commerce affirme que la première phase de l'accord commercial est conclue et en cours de rédaction juridique [2]."
-    ],
-    "why": [
-      "Washington tient dans sa main un outil très fort : taxer les pays qui achètent du pétrole russe. Mais s'en servir contre l'Inde, un partenaire de poids, risquerait de fâcher un allié et de renchérir les produits indiens [1][2].",
-      "Les droits de douane américains sur les produits indiens ont déjà été relevés à 50 % en 2025 à cause du pétrole russe, puis ramenés à 18 % [2]. Le commerce entre les deux pays a crû de près de 12 % en 2025, à environ 240 milliards de dollars [3]. Les résultats des discussions de mardi ne figurent pas dans les sources consultées."
-    ],
-    "forMe": "Si des droits de douane de 100 % frappaient l'Inde ou la Chine, des produits comme les médicaments génériques, les textiles ou l'électronique pourraient coûter plus cher en magasin. La menace reste suspendue : une décision est attendue dans les prochains jours.",
-    "figures": [
-      {
-        "value": "100 %",
-        "label": "niveau maximal des droits de douane prévus par la loi sur les acheteurs de pétrole russe (suspendue)",
-        "src": 1
-      },
-      {
-        "value": "18 %",
-        "label": "droits de douane américains sur les produits indiens, après 50 % en 2025",
-        "src": 2
-      },
-      {
-        "value": "240 Md$",
-        "label": "commerce entre les États-Unis et l'Inde en 2025 (+12 %), selon un analyste cité par Al Jazeera",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "droits-de-douane",
-      "sanctions"
-    ],
-    "sources": [
-      {
-        "short": "Open Magazine",
-        "name": "Open The Magazine, « Rubio Leaves for India, Calls It an ‘Important Ally’ as US Pauses Russia-Linked Tariff Threat » (oct. 2026)",
-        "url": "https://openthemagazine.com/world/rubio-leaves-for-india-calls-it-an-important-ally-as-us-pauses-russia-linked-tariff-threat"
-      },
-      {
-        "short": "Republic",
-        "name": "Republic World, « ‘India an Important Ally’: Rubio Says Trump Studying Impact of Possible Tariffs » (18 oct. 2026)",
-        "url": "https://www.republicworld.com/india/india-an-important-ally-rubio-says-trump-studying-impact-of-possible-tariffs-on-countries-like-india-2026-10-18-139164"
-      },
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « Why Marco Rubio’s visit to Mumbai has ruffled feathers in India » (18 oct. 2026)",
-        "url": "https://www.aljazeera.com/news/2026/10/18/why-marco-rubios-visit-to-mumbai-has-ruffled-feathers-in-india"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-21-bangladesh-croissance-fmi-plus-faible-depuis-1989",
-    "date": "2026-10-21",
-    "region": "Asie",
-    "theme": "eco",
-    "geo": [
-      {
-        "name": "Dacca, Bangladesh",
-        "label": "Bangladesh",
-        "coords": [
-          90.41,
-          23.81
-        ]
-      }
-    ],
-    "title": "Bangladesh : la croissance pourrait tomber à son plus bas niveau en près de quarante ans",
-    "summary": "Le FMI prévoit seulement 3,2 % de croissance pour l'exercice 2026-2027 et une inflation proche de 11 %.",
-    "points": [
-      "Dans ses prévisions d'octobre, publiées le 13 octobre aux réunions du FMI et de la Banque mondiale à Bangkok, le FMI table sur 3,2 % de croissance au Bangladesh pour l'exercice 2026-2027, contre 4,3 % annoncés en avril [1][2].",
-      "Si cela se confirme, ce serait la croissance annuelle la plus faible depuis l'exercice 1988-1989 (3,11 %) [1].",
-      "Le FMI prévoit aussi une inflation moyenne de 10,9 %, plus haute que les 8,6 % de la Banque mondiale. En septembre, l'inflation était de 8,34 % selon l'institut statistique du pays [1]. La Banque mondiale (3,4 %) et la Banque asiatique de développement (4 %) ont aussi revu leurs prévisions à la baisse [1][2]."
-    ],
-    "why": [
-      "La première phrase à retenir : un pays qui a longtemps grandi vite se retrouve avec une croissance faible et des prix qui montent en même temps [1].",
-      "Pour une économie qui habille une grande partie du monde, un tel ralentissement pèse sur les salaires, les emplois et les commandes [1]. Les trois grandes institutions s'accordent sur le sens (moins de croissance), mais pas sur l'ampleur : c'est pourquoi il faut lire ces chiffres comme des prévisions, pas des résultats [1][2]."
-    ],
-    "forMe": "Une grande part des vêtements vendus en France est cousue au Bangladesh. Un pays qui ralentit et dont les coûts montent peut, à terme, faire bouger les prix des vêtements ou les délais de livraison.",
-    "figures": [
-      {
-        "value": "3,2 %",
-        "label": "croissance prévue par le FMI en 2026-2027 (4,3 % en avril)",
-        "src": 1
-      },
-      {
-        "value": "10,9 %",
-        "label": "inflation moyenne prévue par le FMI pour 2026-2027",
-        "src": 1
-      },
-      {
-        "value": "8,34 %",
-        "label": "inflation observée en septembre 2026",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "inflation-taux"
-    ],
-    "sources": [
-      {
-        "short": "Dhaka Tribune",
-        "name": "Dhaka Tribune, « IMF: Bangladesh's GDP growth may drop to 3.2% in FY27 »",
-        "url": "https://www.dhakatribune.com/business/421987/imf-bangladesh-s-inflation-may-rise-to-10.9%25"
-      },
-      {
-        "short": "Asia News Network",
-        "name": "Asia News Network, « IMF joins World Bank, Asia Development Bank in lowering Bangladesh growth outlook »",
-        "url": "https://asianews.network/?p=307720"
-      },
-      {
-        "short": "Prothom Alo",
-        "name": "Prothom Alo, « Inflation may rise to nearly 11pc this fiscal year, IMF forecasts »",
-        "url": "https://en.prothomalo.com/business/local/gtiqn8o3y4"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-21-irak-kirkouk-bp-champs-petrole",
-    "date": "2026-10-21",
-    "region": "Moyen-Orient",
-    "theme": "eco",
-    "geo": [
-      {
-        "name": "Kirkouk, Irak",
-        "label": "Irak",
-        "coords": [
-          44.39,
-          35.47
-        ]
-      }
-    ],
-    "title": "Irak : BP revient aux commandes des quatre grands champs pétroliers de Kirkouk",
-    "summary": "Les champs passent des sociétés d'État irakiennes à un organisme commun avec BP, qui vise 450 000 barils par jour.",
-    "points": [
-      "Jeudi 15 octobre, l'exploitation des quatre grands champs de Kirkouk est passée des sociétés d'État North Oil et North Gas à un organisme d'exploitation commun avec BP. Le ministre irakien du Pétrole a supervisé le transfert par visioconférence [1][2].",
-      "L'objectif est de porter la production à 450 000 barils par jour. Le contrat avait été activé en octobre 2025, avec une production de départ d'environ 328 000 barils par jour [2][3].",
-      "En mars, BP avait retiré son personnel pour des raisons de sécurité pendant la guerre régionale, et la société d'État North Oil Company avait repris l'exploitation des champs [3]. La prochaine étape comprend la formation du personnel du ministère et le transfert de savoir-faire [2]."
-    ],
-    "why": [
-      "La première phrase à retenir : l'Irak fait revenir un géant occidental sur ses plus vieux champs, au moment où le pétrole se vend très cher [1][2].",
-      "Le pays est un grand producteur, mais ses voies d'exportation dépendent du détroit d'Ormuz, aujourd'hui sous tension. Produire plus à Kirkouk n'a de sens que si le pétrole peut sortir [2]."
-    ],
-    "forMe": "Plus de pétrole irakien sur le marché peut aider à calmer les prix du carburant. Mais tant que le détroit d'Ormuz reste fragile, l'effet à la pompe reste incertain.",
-    "figures": [
-      {
-        "value": "450 000",
-        "label": "barils par jour visés à Kirkouk",
-        "src": 2
-      },
-      {
-        "value": "328 000",
-        "label": "barils par jour de production de départ prévue au contrat de 2025",
-        "src": 3
-      },
-      {
-        "value": "4",
-        "label": "grands champs de Kirkouk concernés",
-        "src": 2
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "routes-maritimes"
-    ],
-    "sources": [
-      {
-        "short": "Shafaq News",
-        "name": "Shafaq News, « BP partnership takes over Kirkuk's four oilfields »",
-        "url": "https://shafaq.com/en/Economy/BP-partnership-takes-over-Kirkuk-s-four-oilfields"
-      },
-      {
-        "short": "Iraqi News",
-        "name": "Iraqi News, 15 octobre 2026",
-        "url": "https://www.iraqinews.com/?p=239949"
-      },
-      {
-        "short": "Rudaw",
-        "name": "Rudaw, « Energy giant BP withdraws from four Kirkuk oil, gas fields; NOC takes over amid regional war » (16 mars 2026)",
-        "url": "https://www.rudaw.net/english/business/16032026"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-21-riyad-conference-investissement-houthis",
-    "date": "2026-10-21",
-    "region": "Moyen-Orient",
-    "theme": "mix",
-    "geo": [
-      {
-        "name": "Riyad, Arabie saoudite",
-        "label": "Riyad",
-        "coords": [
-          46.72,
-          24.71
-        ]
-      }
-    ],
-    "title": "Riyad : sous les missiles houthis, la vitrine des investisseurs passe en partie à distance",
-    "summary": "L'Arabie saoudite laisse des dirigeants suivre sa grande conférence d'investissement en ligne, après des attaques sur la capitale.",
-    "points": [
-      "Selon des sources citées par The Standard, l'Arabie saoudite laisse des dirigeants assister à sa conférence d'investissement FII à distance, après des attaques [1]. Des patrons du pétrole se sont retirés, mais le forum reste prévu en personne [2].",
-      "Les houthis ont touché le principal aéroport de Riyad, et l'Arabie saoudite a intercepté de nouvelles attaques de missiles houthis sur la capitale [2]. Le Misk Global Forum du mois prochain a été annulé, et la 6e édition du festival du film de la mer Rouge est repoussée au 4e trimestre 2027, sans que ses organisateurs invoquent la guerre [2][3].",
-      "Dans sa note du 19 octobre, BNP Paribas prévoit pour 2026 une baisse de 2 % du PIB de la région Moyen-Orient–Afrique du Nord et de 4,8 % pour les pays du Golfe, seul Oman gardant une croissance positive (4,1 %) [4]."
-    ],
-    "why": [
-      "La première phrase à retenir : même le pays qui veut devenir la vitrine économique du Golfe doit désormais adapter ses grands rendez-vous à la guerre [1][2].",
-      "Ces événements servent à attirer les capitaux étrangers. Les voir réduits ou annulés montre que le risque sécuritaire pèse sur les projets de diversification de l'économie saoudienne [2][4]. Les chiffres de BNP sont une prévision d'une banque, pas un résultat."
-    ],
-    "forMe": "Quand le Golfe est instable, le pétrole reste cher. Le Brent s'échangeait autour de 108 dollars le baril le 19 octobre [4]. Cela finit par se voir dans le prix du carburant et des billets d'avion.",
-    "figures": [
-      {
-        "value": "−4,8 %",
-        "label": "baisse du PIB attendue en 2026 dans les pays du Golfe (BNP Paribas)",
-        "src": 4
-      },
-      {
-        "value": "−2 %",
-        "label": "baisse du PIB attendue en 2026 au Moyen-Orient et en Afrique du Nord (BNP Paribas)",
-        "src": 4
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "routes-maritimes"
-    ],
-    "sources": [
-      {
-        "short": "The Standard",
-        "name": "The Standard (HK), « Saudi Arabia to let executives attend FII conference remotely after attacks, sources say »",
-        "url": "https://www.thestandard.com.hk/world/article/345474/Saudi-Arabia-to-let-executives-attend-FII-conference-remotely-after-attacks-sources-say"
-      },
-      {
-        "short": "Energy Connects",
-        "name": "Energy Connects, « Saudi Arabia intercepts new Houthi missile attacks on Riyadh » (oct. 2026)",
-        "url": "https://www.energyconnects.com/news/gas-lng/2026/october/saudi-arabia-intercepts-new-houthi-missile-attacks-on-riyadh/"
-      },
-      {
-        "short": "Al-Monitor",
-        "name": "Al-Monitor, « Saudi Arabia pauses star-studded Red Sea film festival as Houthis hit kingdom » (sept. 2026)",
-        "url": "https://www.al-monitor.com/originals/2026/09/saudi-arabia-pauses-star-studded-red-sea-film-festival-houthis-hit-kingdom"
-      },
-      {
-        "short": "BNP Paribas",
-        "name": "BNP Paribas, EcoNews du 19 octobre 2026",
-        "url": "https://economic-research.bnpparibas.com/html/en-US/EcoNews-19-October-2026-10/19/2026,53859"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-21-soudan-frappe-drone-frontiere-soudan-du-sud",
-    "date": "2026-10-21",
-    "region": "Afrique",
-    "theme": "geo",
-    "geo": [
-      {
-        "name": "Amiet, Abyei",
-        "label": "Abyei",
-        "coords": [
-          28.44,
-          9.6
-        ]
-      }
-    ],
-    "title": "Soudan : une frappe de drone tue au moins 153 personnes sur un marché d'Abyei, à la frontière du Soudan du Sud",
-    "summary": "Le marché d'Amiet, dans la région disputée d'Abyei, a été frappé le 19 octobre ; un officier de l'armée soudanaise dit qu'elle visait des camions-citernes destinés aux paramilitaires.",
-    "points": [
-      "Une frappe de drone a touché le 19 octobre le marché d'Amiet, au nord d'Abyei, région que se disputent le Soudan et le Soudan du Sud ; au moins 153 personnes ont été tuées, selon un responsable sud-soudanais [1][2].",
-      "Un haut gradé de l'armée soudanaise a dit que l'armée avait mené la frappe pour viser des camions-citernes destinés aux paramilitaires des Forces de soutien rapide (FSR) ; le Soudan du Sud accuse l'armée soudanaise [2].",
-      "Le Haut-Commissaire de l'ONU aux droits de l'homme dénonce une vague de frappes de drones au Soudan : au moins 306 morts dans les trois premières semaines d'octobre [3]."
-    ],
-    "why": [
-      "À retenir : la guerre entre l'armée soudanaise et les FSR, commencée en 2023, se joue de plus en plus avec des drones, et les civils en paient le prix [2][3].",
-      "Abyei est une zone riche en pétrole, disputée depuis l'indépendance du Soudan du Sud ; le carburant qui y circule est devenu une cible [1][2]."
-    ],
-    "forMe": "Cette guerre est loin, mais elle touche l'un des pays les plus pauvres du monde, sur une route du pétrole sud-soudanais : la sécurité décide de ce qu'un pays peut vendre [1][2].",
-    "figures": [
-      {
-        "value": "153",
-        "label": "morts au moins, selon un responsable sud-soudanais",
-        "src": 1
-      },
-      {
-        "value": "306",
-        "label": "morts dans des frappes de drones au Soudan en trois semaines, selon l'ONU",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « Drone attack in disputed Sudan-South Sudan border region kills at least 153 » (21 octobre 2026)",
-        "url": "https://www.aljazeera.com/news/2026/10/21/drone-attack-in-disputed-sudan-south-sudan-border-region-kills-at-least-153"
-      },
-      {
-        "short": "CNN",
-        "name": "CNN (AP), « Drone strike on a market in disputed African region of Abyei kills at least 153 » (20 octobre 2026)",
-        "url": "https://edition.cnn.com/2026/10/20/africa/drone-strike-abeyi-south-sudan-latam-intl"
-      },
-      {
-        "short": "ONU Info",
-        "name": "ONU Info, « Sudan: Drone strikes killed at least 306 people in three weeks » (octobre 2026)",
-        "url": "https://news.un.org/en/story/2026/10/1168661"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-21-ue-sommet-gaz-140-pourcent-mesures-energie",
-    "date": "2026-10-21",
-    "region": "Europe",
-    "theme": "eco",
-    "geo": [
-      {
-        "name": "Bruxelles, Belgique",
-        "label": "Bruxelles",
-        "coords": [
-          4.35,
-          50.85
-        ]
-      }
-    ],
-    "title": "Le gaz coûte 140 % plus cher qu'en février : les Européens sortent leurs mesures d'urgence avant l'hiver",
-    "summary": "Au sommet de mi-octobre, les dirigeants de l'UE ont décidé de premières mesures sur l'énergie, alors que le budget 2028-2034 divise.",
-    "points": [
-      "Ursula von der Leyen a indiqué que les prix du gaz dans l'UE ont augmenté de 140 % depuis février et que le gazole a doublé. Elle a cité des chèques énergie pour les familles modestes en France et en Roumanie [1].",
-      "Les dirigeants ont convenu de mesures à court terme : prolonger le cadre temporaire des aides d'État, repousser d'un an certaines obligations du règlement sur le méthane, lancer un dialogue sur les capacités de raffinage et renforcer les achats groupés d'énergie [2][3].",
-      "Les discussions sur le budget européen 2028-2034 restent tendues : le Conseil veut un accord avant la fin 2026 pour que l'argent circule sans interruption dès janvier 2028 [2][3]."
-    ],
-    "why": [
-      "La première phrase à retenir : l'Europe entre dans l'hiver avec un gaz beaucoup plus cher et répond par des mesures de court terme plutôt que par une réforme profonde [1][2].",
-      "Les aides d'État permettent aux gouvernements de soutenir leurs entreprises et leurs ménages, mais elles coûtent de l'argent public à un moment où le budget commun est disputé [2][3]."
-    ],
-    "forMe": "Un gaz plus cher se retrouve sur les factures de chauffage et d'électricité, et dans le prix de produits qui demandent beaucoup d'énergie. Les États peuvent compenser en partie avec des aides, financées par l'impôt.",
-    "figures": [
-      {
-        "value": "+140 %",
-        "label": "hausse des prix du gaz dans l'UE depuis février, selon Ursula von der Leyen",
-        "src": 1
-      },
-      {
-        "value": "×2",
-        "label": "prix du gazole, doublé selon la présidente de la Commission",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Lovguiden (Commission)",
-        "name": "Lovguiden, « Von der Leyen : gaspriser op 140 % » (6 oct. 2026)",
-        "url": "https://lovguiden.dk/en/det-offentlige/europa-kommissionen-press-corner/2026-10-06-von-der-leyen-gaspriser-op-140-maalrettet-stoette-og-faelles-energiindkoeb"
-      },
-      {
-        "short": "The Star",
-        "name": "The Star, « EU summit exposes budget tensions as bloc outlines energy relief measures » (17 oct. 2026)",
-        "url": "https://www.thestar.com.my/news/world/2026/10/17/eu-summit-exposes-budget-tensions-as-bloc-outlines-energy-relief-measures"
-      },
-      {
-        "short": "Lovguiden (Conseil)",
-        "name": "Lovguiden, Conseil de l'UE : sommet du 16 octobre 2026 (énergie, budget)",
-        "url": "https://www.lovguiden.dk/en/det-offentlige/raadet-for-den-europaeiske-union/2026-10-16-eu-topmoede-energipriser-ets2-naeste-eu-budget-og-montenegro"
       }
     ]
   },
