@@ -7,7 +7,7 @@
 
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.indicators = {
-  "updated": "2026-11-05",
+  "updated": "2026-11-07",
   "latest": [
     {
       "group": "Économie",
@@ -1535,6 +1535,16 @@ window.GEOCO.indicators = {
           "short": "Destatis",
           "name": "Europe August 2026: EU unemployment rate at 6.1% (données Eurostat) (consulté le 8 oct. 2026)",
           "url": "https://www.destatis.de/Europa/EN/Topic/Population-Labour-Social-Issues/Labour-market/EULabourMarketCrisis.html"
+        },
+        {
+          "short": "CNBC",
+          "name": "CNBC, « U.S. economy added 165,000 jobs in October… unemployment rate slips to 4.1% » (6 nov. 2026)",
+          "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
+        },
+        {
+          "short": "AFP (Boursorama)",
+          "name": "AFP via Boursorama, « Canada : le taux de chômage augmente à 6,7 % en octobre » (6 nov. 2026)",
+          "url": "https://www.boursorama.com/bourse/actualites/canada-le-taux-de-chomage-augmente-a-6-7-en-octobre-95f70af0d8b93fe77873768e03746ead"
         }
       ],
       "values": {
@@ -1569,9 +1579,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "124": {
-          "v": 6.4,
-          "d": "août 2026",
-          "s": 1
+          "v": 6.7,
+          "d": "oct. 2026",
+          "s": 26
         },
         "132": {
           "v": 11.9,
@@ -2249,9 +2259,9 @@ window.GEOCO.indicators = {
           "s": 4
         },
         "840": {
-          "v": 4.2,
-          "d": "sept. 2026",
-          "s": 1
+          "v": 4.1,
+          "d": "oct. 2026",
+          "s": 25
         },
         "854": {
           "v": 3.5,

@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-07",
+    "file": "lettres/2026-11-07.pdf",
+    "titles": [
+      "Emploi américain : 165 000 postes créés en octobre, plus du double des attentes, et la Fed garde la hausse de taux en vue",
+      "Iran : Trump dit qu'une décision sur de nouvelles frappes ou un accord viendra « bientôt », et appelle l'émir du Qatar",
+      "Kyiv dans le noir : les ponts sur le Dniepr visés par la Russie, et Zelensky et le maire Klitschko s'accusent mutuellement"
+    ],
+    "fileDark": "lettres/2026-11-07-sombre.pdf"
+  },
+  {
     "date": "2026-11-06",
     "file": "lettres/2026-11-06.pdf",
     "titles": [

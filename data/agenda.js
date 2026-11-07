@@ -31,27 +31,6 @@ window.GEOCO.agenda = [
     ]
   },
   {
-    "id": "2026-11-06-emploi-americain-octobre",
-    "date": "2026-11-06",
-    "theme": "eco",
-    "region": "Amériques",
-    "place": "Washington",
-    "title": "Emploi américain : le rapport d'octobre",
-    "why": "Le Bureau des statistiques du travail publie à 8 h 30 (heure de New York) les créations d'emplois et le taux de chômage d'octobre [1][2]. En septembre, seuls 29 000 emplois avaient été créés et le chômage était monté à 4,2 % ; un nouveau chiffre faible changerait les paris sur la Fed, donc le dollar et les Bourses.",
-    "sources": [
-      {
-        "short": "BLS",
-        "name": "Bureau of Labor Statistics, calendrier de publication « Employment Situation »",
-        "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
-      },
-      {
-        "short": "Thrive in Markets",
-        "name": "Thrive in Markets, « Next NFP release: Fri 6 Nov 2026 »",
-        "url": "https://thriveinmarkets.com/calendar/dates/nfp-2026/"
-      }
-    ]
-  },
-  {
     "id": "2026-11-07-nouvelle-zelande-elections",
     "date": "2026-11-07",
     "theme": "geo",
@@ -267,6 +246,27 @@ window.GEOCO.agenda = [
         "short": "Bundestag (hib)",
         "name": "Bundestag, hib 839/2026, commission du budget (16 octobre 2026)",
         "url": "https://www.bundestag.de/1225360"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-argentine-inflation-octobre",
+    "date": "2026-11-12",
+    "theme": "eco",
+    "region": "Amériques",
+    "place": "Buenos Aires",
+    "title": "Argentine : l'inflation d'octobre",
+    "why": "L'institut INDEC publie le 12 novembre l'inflation d'octobre ; en septembre, elle était de 33,4 % sur un an selon Trading Economics, et la prévision de consensus pour octobre tourne autour de 33,2 % [1]. Le chiffre dira si la politique du peso fort de Javier Milei continue de ralentir les prix, au prix d'une croissance freinée [2].",
+    "sources": [
+      {
+        "short": "Trading Economics",
+        "name": "Trading Economics, « Argentina Inflation Rate » (calendrier : publication du 12 novembre)",
+        "url": "https://tradingeconomics.com/argentina/inflation-cpi"
+      },
+      {
+        "short": "Bloomberg",
+        "name": "Bloomberg, « ARS/USD: Milei's Strong Peso Holds Back Argentina's Economic Growth » (17 septembre 2026)",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-17/ars-usd-milei-s-strong-peso-holds-back-argentina-s-economic-growth"
       }
     ]
   },
@@ -638,6 +638,24 @@ window.GEOCO.agenda = [
         "short": "QUE.com",
         "name": "QUE.com, « Job Openings Jump to 7.5 Million… »",
         "url": "https://que.com/job-openings-jump-to-7-5-million-and-quits-hit-an-18-month-high-raising-the-odds-of-a-december-fed-rate-hike/"
+      }
+    ]
+  },
+  {
+    "id": "2026-12-08-bresil-copom-decembre",
+    "date": "2026-12-08",
+    "end": "2026-12-09",
+    "theme": "eco",
+    "region": "Amériques",
+    "place": "Brasília",
+    "title": "Brésil : réunion de la banque centrale sur la Selic",
+    "why": "Après avoir arrêté ses baisses à 13,75 % le 5 novembre, le Copom se réunit les 8 et 9 décembre, en même temps que la Fed : sa décision dira si le Brésil reste prudent face à un dollar à son plus haut de l'année [1].",
+    "news": "2026-11-07-bresil-selic-maintenue-13-75-reelection-lula",
+    "sources": [
+      {
+        "short": "Bloomberg Línea",
+        "name": "Bloomberg Línea Brasil, « Banco Central interrompe cortes e mantém Selic em 13,75% após reeleição de Lula »",
+        "url": "https://www.bloomberglinea.com.br/brasil/banco-central-interrompe-cortes-e-mantem-selic-em-1375-apos-reeleicao-de-lula/"
       }
     ]
   },

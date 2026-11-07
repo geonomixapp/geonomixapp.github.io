@@ -17,6 +17,1168 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.news = [
   {
+    "id": "2026-11-07-emploi-americain-165000-fed-hausse-decembre",
+    "date": "2026-11-07",
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Europe",
+      "Asie",
+      "Amérique latine"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "name": "Washington, États-Unis",
+        "label": "Emploi américain",
+        "coords": [
+          -77.04,
+          38.91
+        ]
+      }
+    ],
+    "title": "Emploi américain : 165 000 postes créés en octobre, plus du double des attentes, et la Fed garde la hausse de taux en vue",
+    "summary": "Vendredi 6 novembre, le Bureau des statistiques du travail a annoncé 165 000 créations d'emplois aux États-Unis en octobre, contre environ 59 000 à 65 000 attendues, et un chômage revenu à 4,1 %. Wall Street a fini en ordre dispersé : le Nasdaq rebondit de 1,09 % après sa chute de la veille [1][2][3].",
+    "points": [
+      "Selon le Bureau des statistiques du travail (BLS), l'économie américaine a créé 165 000 emplois en octobre. Les économistes en attendaient environ 59 000 selon CNBC, 65 000 selon d'autres sources : le chiffre est plus de deux fois supérieur au consensus [1][2].",
+      "Le taux de chômage est tombé à 4,1 %, contre 4,2 % attendu et 4,2 % en septembre. Une mesure plus large du sous-emploi, qui compte aussi les temps partiels subis, est en revanche montée de 0,3 point à 7,9 % [1].",
+      "Les salaires horaires moyens ont progressé de 0,4 % sur un mois et de 3,1 % sur un an. Les chiffres de septembre ont été relevés : 60 000 emplois au lieu de 29 000 annoncés au départ, soit 84 000 postes de plus qu'estimé sur les deux mois cumulés [1].",
+      "Les services aux entreprises et aux professionnels ont ajouté 70 000 postes, la santé a continué de recruter, et l'industrie manufacturière a gagné 19 000 emplois [1][2].",
+      "À Wall Street, la séance a été partagée : le Nasdaq Composite a gagné 1,09 % à 24 579,42 points, le S&P 500 0,31 % à 7 376,86 points, tandis que le Dow Jones a reculé de 0,46 % à 51 285,73 points, selon l'AFP [3].",
+      "Le rebond de la technologie est resté timide après la pire séance du Nasdaq depuis avril 2025, jeudi. Les rendements des obligations du Trésor américain ont monté après le rapport, ce qui a pesé sur une partie du marché [3]."
+    ],
+    "why": [
+      "À retenir : un bon chiffre d'emploi n'est pas toujours une bonne nouvelle pour la Bourse. Quand l'économie américaine recrute plus que prévu, la banque centrale (la Fed) a moins de raisons d'assouplir sa politique, et certains analystes y voient même un argument pour relever encore les taux en décembre [2][3].",
+      "Le contexte explique cette lecture. Depuis la guerre en Iran, le prix de l'énergie a fait remonter l'inflation, et la Fed est devant un choix délicat : soutenir l'emploi ou freiner les prix. Un marché du travail solide lui donne de la marge pour choisir la seconde option, au risque de renchérir le crédit pour les ménages et les entreprises [2].",
+      "Le rapport est aussi bon signe pour la croissance : les emplois créés en septembre et octobre sont plus nombreux que prévu, ce qui écarte pour l'instant le scénario d'un décrochage de l'économie. Mais une seule publication ne fait pas une tendance, et les révisions de chiffres sont fréquentes [1].",
+      "Pour le reste du monde, la décision de la Fed compte : des taux américains plus élevés attirent les capitaux vers le dollar et peuvent fragiliser les monnaies et les dettes de pays émergents, comme on l'a vu cette semaine sur le réal brésilien [3]."
+    ],
+    "forMe": "Si tu as un crédit immobilier à taux variable ou un projet d'emprunt, la trajectoire des taux américains influence celle des taux européens, même si la BCE décide seule. Un dollar plus fort renchérit aussi le pétrole, payé en dollars, et donc la pompe. Ce rapport ne change rien à ton quotidien du jour au lendemain, mais il éloigne l'idée d'une baisse rapide des taux.",
+    "next": [
+      {
+        "when": "10 novembre",
+        "what": "Publication de l'inflation américaine d'octobre, l'autre chiffre que la Fed surveille avant sa réunion de décembre [1]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "165 000",
+        "label": "emplois créés aux États-Unis en octobre (≈ 59 000 attendus)",
+        "src": 1
+      },
+      {
+        "value": "4,1 %",
+        "label": "taux de chômage américain, contre 4,2 % en septembre",
+        "src": 1
+      },
+      {
+        "value": "+3,1 %",
+        "label": "salaires horaires sur un an",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux",
+      "dollar"
+    ],
+    "sources": [
+      {
+        "short": "CNBC",
+        "name": "CNBC, « U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1% » (6 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
+      },
+      {
+        "short": "Benzinga",
+        "name": "Benzinga, « October Jobs Report: Payrolls Smash Estimates at 165K »",
+        "url": "https://www.benzinga.com/markets/economic-data/26/11/62974776/october-jobs-report-nonfarm-payrolls-unemployment-rate"
+      },
+      {
+        "short": "AFP (Boursorama)",
+        "name": "AFP via Boursorama, « Wall Street termine dans le désordre, rebond du Nasdaq » (6 novembre 2026)",
+        "url": "https://www.boursorama.com/bourse/actualites/wall-street-termine-dans-le-desordre-rebond-du-nasdaq-cf309a06c5d44f52937e5fb530ab498c"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-iran-trump-decision-frappes-qatar-ormuz",
+    "date": "2026-11-07",
+    "region": "Moyen-Orient",
+    "theme": "geo",
+    "zones": [
+      "Europe",
+      "Asie",
+      "Amérique du Nord"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "name": "Téhéran, Iran",
+        "label": "Iran",
+        "coords": [
+          51.39,
+          35.69
+        ]
+      },
+      {
+        "name": "Doha, Qatar",
+        "label": "Qatar",
+        "coords": [
+          51.53,
+          25.29
+        ]
+      }
+    ],
+    "title": "Iran : Trump dit qu'une décision sur de nouvelles frappes ou un accord viendra « bientôt », et appelle l'émir du Qatar",
+    "summary": "Jeudi 5 novembre, Donald Trump a affirmé qu'une décision sur de nouvelles frappes contre l'Iran ou sur un accord serait prise bientôt. Il a aussi appelé l'émir du Qatar, médiateur du dossier d'Ormuz, tandis que Téhéran juge la réponse américaine insuffisante et qu'un pétrolier de plus a été attaqué cette semaine [1][2].",
+    "points": [
+      "Dans le Bureau ovale, Donald Trump a déclaré que l'Iran était « largement détruit » et qu'il faudrait plus de vingt ans pour le reconstruire. Il a ajouté qu'il pourrait devoir « détruire le reste », sans exclure de nouvelles frappes, malgré la défaite de son camp aux élections de mi-mandat [1].",
+      "Selon Axios, cité par plusieurs médias, un responsable américain affirme que le commandement militaire américain pour la région (CENTCOM) prépare de grandes opérations et n'attend que l'ordre de Washington. Fox News indique que Trump a réuni jeudi son équipe de sécurité nationale sur une reprise des opérations [1][3].",
+      "Un responsable américain a confirmé à CBS que Trump a appelé l'émir du Qatar, cheikh Tamim ben Hamad Al Thani, pour discuter des efforts visant à mettre fin à la guerre. L'Iran a de son côté intensifié sa diplomatie, avec la Russie et les Émirats arabes unis [1][2].",
+      "Côté iranien, le secrétaire du Conseil suprême de sécurité nationale a jugé la réponse de Washington en deçà des attentes, et le ministère des Affaires étrangères a dit que « la prochaine étape » revenait à Trump [1].",
+      "Téhéran se dit prêt à rouvrir le détroit d'Ormuz en deux jours, contre sept dans son plan initial présenté en septembre via le Qatar, mais à condition que ses demandes soient satisfaites. Le Brent valait environ 106 dollars le 2 novembre, contre environ 70 dollars avant la guerre, selon l'AFP [4].",
+      "Les signaux américains restent contradictoires : en début de semaine, Trump avait dit au Financial Times que Washington n'avait pas de plan immédiat pour reprendre les frappes, et une frappe américaine avait visé une installation antiaérienne iranienne le mardi 3 novembre [1][3]."
+    ],
+    "why": [
+      "À retenir : on est à un point de bascule, et les deux issues, accord ou reprise des frappes, ont des conséquences directes sur le prix du carburant et de l'énergie en Europe. Le détroit d'Ormuz, par où passe une grande partie du pétrole et du gaz du Golfe, reste le nœud du dossier [4].",
+      "Le Qatar est le canal principal : Doha parle chaque jour aux deux camps et pousse un accord entre l'Iran et Oman sur les conditions de passage, étape jugée préalable à la reprise des discussions entre Washington et Téhéran. L'appel de Trump à l'émir montre que la voie diplomatique n'est pas fermée [2][4].",
+      "Les déclarations de Trump jouent aussi sur les marchés : le Brent a perdu environ 13 % cette semaine, essentiellement sur l'espoir d'un progrès diplomatique. Une reprise des frappes inverserait vite ce mouvement, Eurasia Group évoquant 110 à 125 dollars le baril en cas d'escalade [5].",
+      "Reste une part d'incertitude : une partie des informations vient de sources anonymes américaines, et des signaux opposés circulent à quelques jours d'écart. Le plus prudent est de lire ces annonces comme des positions de négociation, pas comme des décisions prises."
+    ],
+    "forMe": "Le prix de l'essence et du gazole en France suit celui du pétrole avec quelques jours de retard : une reprise des frappes pourrait annuler la baisse de la dernière semaine, un accord la prolonger. Cela pèse aussi sur la facture de chauffage et sur l'inflation, donc sur les décisions de la BCE.",
+    "next": [
+      {
+        "when": "Dans les prochains jours",
+        "what": "Décision américaine annoncée par Trump sur de nouvelles frappes ou un accord, selon ses déclarations du 5 novembre [1]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "2 jours",
+        "label": "pour rouvrir Ormuz, selon Téhéran (7 jours dans le plan de septembre)",
+        "src": 4
+      },
+      {
+        "value": "106 $",
+        "label": "le baril de Brent le 2 novembre, contre ≈ 70 $ avant la guerre",
+        "src": 4
+      },
+      {
+        "value": "−13 %",
+        "label": "baisse hebdomadaire du Brent, au 6 novembre",
+        "src": 5
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "routes-maritimes",
+      "sanctions"
+    ],
+    "sources": [
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « Russia to UAE, Iran steps up diplomacy amid Trump threats: What we know » (6 novembre 2026)",
+        "url": "https://www.aljazeera.com/news/2026/11/6/russia-to-uae-iran-steps-up-diplomacy-amid-trump-threats-what-we-know"
+      },
+      {
+        "short": "CBS News",
+        "name": "CBS News, « Iran War Updates: Trump touts imminent decision on new U.S. strikes, keeping up threats, but also diplomacy »",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+      },
+      {
+        "short": "Fox News",
+        "name": "Fox News, « Trump weighs resuming Iran war as CENTCOM prepares for possible strikes »",
+        "url": "https://www.foxnews.com/live-news/iran-war-news-trump-israel-elections-november-5"
+      },
+      {
+        "short": "AFP (Connaissance des énergies)",
+        "name": "AFP via Connaissance des énergies, « Téhéran accélère son calendrier sur Ormuz » (2 novembre 2026)",
+        "url": "https://www.connaissancedesenergies.org/afp/liran-parle-dintenses-consultations-avec-washington-via-les-mediateurs-261102"
+      },
+      {
+        "short": "Reuters (Vietnam.vn)",
+        "name": "Vietnam.vn, citant Reuters, « Prix du pétrole aujourd'hui, 6 novembre : le Brent… » ",
+        "url": "https://www.vietnam.vn/fr/gia-dau-hom-nay-6-11-brent-lai-tang-gan-4-do-lo-ngai-nguon-cung"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-ukraine-kyiv-ponts-dniepr-coupures-zelensky-klitschko",
+    "date": "2026-11-07",
+    "region": "Europe",
+    "theme": "geo",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Kyiv, Ukraine",
+        "label": "Kyiv",
+        "coords": [
+          30.52,
+          50.45
+        ]
+      }
+    ],
+    "title": "Kyiv dans le noir : les ponts sur le Dniepr visés par la Russie, et Zelensky et le maire Klitschko s'accusent mutuellement",
+    "summary": "Vendredi 6 novembre, des frappes russes ont plongé Kyiv dans l'obscurité, avec des coupures d'électricité et d'eau sans précédent, selon Reuters. Le président Volodymyr Zelensky et le maire Vitali Klitschko se renvoient la responsabilité d'une préparation insuffisante, alors que Moscou vise pour la première fois les ponts sur le Dniepr [1][2].",
+    "points": [
+      "Selon Reuters, Volodymyr Zelensky et Vitali Klitschko ont échangé vendredi de nouvelles accusations sur l'absence de préparation de la capitale face aux frappes russes, qui ont provoqué des pannes d'électricité et d'eau d'une ampleur inédite [1].",
+      "Zelensky a qualifié la situation d'« extrêmement grave » et laissé entendre que l'administration municipale portait une part de responsabilité. C'est la pire situation énergétique que connaisse le pays, selon ses propos rapportés par Reuters [1].",
+      "Les frappes ont mis hors service trois centrales thermiques de DTEK, le plus grand producteur privé d'électricité du pays, et imposé des coupures d'urgence à Kyiv, dans la région de Kyiv et dans celle de Dnipropetrovsk [3]. Les pannes ont aussi interrompu à plusieurs reprises le métro [1].",
+      "Les ponts de Kyiv sur le Dniepr sont attaqués pour la première fois en près de cinq ans de guerre. En octobre déjà, deux jours d'assauts avaient fermé en tout ou en partie trois des six ponts routiers de la ville, selon France 24 [1][4].",
+      "Le pont du Nord et le pont du Sud transportent chaque jour des dizaines de milliers d'habitants d'une rive à l'autre ; leur fermeture crée des embouteillages massifs dans la capitale, selon le Kyiv Independent [5].",
+      "Dans son adresse du soir, Zelensky a dit disposer de renseignements selon lesquels la Russie prépare une nouvelle attaque contre l'énergie, les ponts sur le Dniepr et des infrastructures civiles ; l'Ukraine manque de systèmes antiaériens pour abattre les missiles rapides et les drones [1][5]."
+    ],
+    "why": [
+      "À retenir : la guerre se joue désormais sur les infrastructures dont dépend la vie quotidienne, électricité, eau, ponts, à l'approche de l'hiver. Frapper les ponts de la capitale vise à isoler les deux rives, ralentir l'acheminement de l'aide et user le moral de la population [1][5].",
+      "La querelle entre Zelensky et Klitschko est ancienne. Reuters rappelle que les élections sont interdites en temps de guerre en Ukraine : les deux hommes restent donc en poste au-delà de leur mandat, ce qui nourrit les accusations croisées sur la responsabilité des pannes [1].",
+      "Le manque d'antimissiles reste le point faible : sans systèmes capables d'intercepter des missiles balistiques rapides, aucune protection des centrales ou des ponts n'est complète. Zelensky met ce manque en avant dans ses appels à ses partenaires [1][5].",
+      "Quatre ans et demi de guerre ont déjà usé le réseau électrique : chaque centrale touchée réduit un peu plus la marge de production du pays pour l'hiver."
+    ],
+    "forMe": "Pour un lecteur français, l'effet est indirect mais réel : plus la guerre dure et touche les infrastructures énergétiques ukrainiennes, plus la demande d'aide financière et militaire à l'Europe augmente, et cela pèse sur les budgets nationaux. Les réfugiés ukrainiens en Europe peuvent aussi devenir plus nombreux si l'hiver est dur.",
+    "next": [
+      {
+        "when": "10 novembre",
+        "what": "Nouveau cycle de pourparlers à Abou Dhabi entre États-Unis, Russie et Ukraine [1]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "3 ponts sur 6",
+        "label": "fermés en tout ou partie à Kyiv après les frappes d'octobre",
+        "src": 4
+      },
+      {
+        "value": "3 centrales",
+        "label": "thermiques de DTEK mises hors service",
+        "src": 3
+      },
+      {
+        "value": "1re fois",
+        "label": "que les ponts de la capitale sont visés depuis le début de la guerre",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Reuters (US News)",
+        "name": "Reuters via US News, « Zelenskiy, Kyiv Mayor Trade Blame as Russian Strikes Plunge City Into Darkness » (6 novembre 2026)",
+        "url": "https://usnews.com/news/world/articles/2026-11-06/zelenskiy-kyiv-mayor-trade-blame-as-russian-strikes-plunge-city-into-darkness"
+      },
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « At least 73 injured as Russia bombs Ukrainian hospital and power plants » (3 novembre 2026)",
+        "url": "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants"
+      },
+      {
+        "short": "Kyiv Post",
+        "name": "Kyiv Post, « Zelensky Warns of Fresh Russian Strikes on Bridges, Energy Grid »",
+        "url": "https://www.kyivpost.com/post/89396"
+      },
+      {
+        "short": "France 24",
+        "name": "France 24, « Russia strikes another Kyiv bridge, deepening travel chaos in Ukraine's capital » (3 octobre 2026)",
+        "url": "https://www.france24.com/en/europe/20261003-russia-strikes-another-major-bridge-in-kyiv"
+      },
+      {
+        "short": "Kyiv Independent",
+        "name": "Kyiv Independent, « Russia preparing major attack against Ukraine's bridges, critical infrastructure, Zelensky warns »",
+        "url": "https://kyivindependent.com/russia-preparing-major-attack-against-ukraines-bridges-critical-infrastructure-zelensky-warns/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-royaume-uni-banque-angleterre-hausse-taux-4-pourcent",
+    "date": "2026-11-07",
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Londres, Royaume-Uni",
+        "label": "Banque d'Angleterre",
+        "coords": [
+          -0.09,
+          51.51
+        ]
+      }
+    ],
+    "title": "La Banque d'Angleterre relève son taux à 4 %, sa première hausse depuis août 2023, et voit l'inflation approcher 5 %",
+    "summary": "Jeudi 5 novembre, la Banque d'Angleterre a relevé son taux directeur de 0,25 point à 4 %, par 8 voix contre 1. Elle invoque la flambée de l'énergie liée à la guerre au Moyen-Orient et prévoit une inflation proche de 5 % mi-2027, contre 2 % visés [1][2][3].",
+    "points": [
+      "Le comité de politique monétaire a voté 8 voix contre 1 pour une hausse de 0,25 point du taux directeur, à 4 %. La neuvième voix, celle de Catherine Mann, réclamait une hausse de 0,5 point [1][3].",
+      "C'est la première hausse depuis août 2023, après une longue série de baisses. La banque justifie sa décision par la hausse des prix mondiaux de l'énergie, aggravée par le conflit au Moyen-Orient, et veut limiter les « effets de second tour », c'est-à-dire la contagion à d'autres prix et aux salaires [1][4].",
+      "Ses nouvelles prévisions sont nettement plus sombres : l'inflation devrait approcher 5 % vers la mi-2027, contre 3,5 % estimé en septembre. Boursorama évoque un scénario pire, avec une inflation au-dessus de 6 % l'an prochain [2][3].",
+      "Le gouverneur Andrew Bailey a dit comprendre les arguments en faveur d'une nouvelle hausse, avant d'adopter ensuite une approche plus conditionnelle, à condition que le conflit au Moyen-Orient ne s'apaise pas. La banque ne veut pas que l'on y voie le début d'une longue série de hausses [2][3].",
+      "Sur les marchés, le rendement des obligations d'État britanniques à dix ans a un peu monté, autour de 5,15 %, et celui à deux ans autour de 4,78 %. La livre n'a profité que brièvement de la décision, et la Bourse de Londres a reculé le même jour avec la chute de la tech américaine [3][5]."
+    ],
+    "why": [
+      "À retenir : le Royaume-Uni rejoint les pays qui remontent leurs taux face à une inflation d'origine énergétique, comme l'Australie, qui l'a fait mardi. C'est un signe que la guerre du Golfe ne se contente plus de peser sur le pétrole : elle change la politique des banques centrales [3][5].",
+      "Le dilemme est connu : relever les taux freine les prix, mais aussi le crédit, les investissements et l'emploi. Une inflation à 5 % ronge le pouvoir d'achat, mais des taux à 4 % alourdissent les remboursements des ménages britanniques, dont beaucoup ont un crédit immobilier à taux révisable [1].",
+      "Le message de Bailey, plus nuancé que le chiffre, compte autant que la hausse : selon Commerzbank, la prochaine hausse pourrait venir en février plutôt qu'en décembre. Les marchés se calent donc moins sur une série automatique que sur la trajectoire du pétrole [3].",
+      "Pour les finances publiques britanniques, des taux plus hauts renchérissent la dette : le Trésor paiera plus cher chaque nouvel emprunt."
+    ],
+    "forMe": "Si tu as des liens avec le Royaume-Uni (études, famille, achat immobilier, voyages), la livre et les taux locaux comptent. Pour un lecteur en France, la décision est surtout un signal : la BCE, qui se prononce le 17 décembre, pourrait elle aussi être poussée à relever ses taux si l'inflation de la zone euro (4 % en octobre) ne baisse pas.",
+    "next": [
+      {
+        "when": "18 novembre",
+        "what": "Publication de l'inflation britannique d'octobre, premier chiffre après la hausse [3]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "4 %",
+        "label": "nouveau taux directeur, première hausse depuis août 2023",
+        "src": 1
+      },
+      {
+        "value": "8 contre 1",
+        "label": "vote du comité (un membre voulait +0,5 point)",
+        "src": 3
+      },
+      {
+        "value": "≈ 5 %",
+        "label": "inflation attendue mi-2027 (3,5 % prévus en septembre)",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux"
+    ],
+    "markets": {
+      "text": "Après la décision du jeudi 5 novembre [3].",
+      "items": [
+        {
+          "name": "Obligations d'État britanniques (gilts)",
+          "ticker": "",
+          "move": "",
+          "why": "Le rendement à dix ans a un peu monté, autour de 5,15 %, et celui à deux ans autour de 4,78 % [3]."
+        },
+        {
+          "name": "Livre sterling",
+          "ticker": "GBP",
+          "move": "",
+          "why": "Elle n'a profité que brièvement de la décision et a rendu ses gains dans la journée [3]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "AFP (Boursorama)",
+        "name": "AFP via Boursorama, « La Banque d'Angleterre relève son taux directeur » (5 novembre 2026)",
+        "url": "https://www.boursorama.com/bourse/actualites/la-banque-d-angleterre-releve-son-taux-directeur-3574ad4ce06ebe05ec21ecbc2b4a9006"
+      },
+      {
+        "short": "AFP (Boursorama, inflation)",
+        "name": "AFP via Boursorama, « La Banque d'Angleterre remonte son taux à 4 % et sonne l'alerte sur l'inflation » (5 novembre 2026)",
+        "url": "https://www.boursorama.com/actualite-economique/actualites/la-banque-d-angleterre-remonte-son-taux-a-4-et-sonne-l-alerte-sur-l-inflation-303d131feca2f4593f6deb1101bffb2d"
+      },
+      {
+        "short": "FXStreet (Commerzbank)",
+        "name": "FXStreet, « British Pound: Hawkish BoE but Pound upside capped » (Commerzbank, 6 novembre 2026)",
+        "url": "https://www.fxstreet.com/news/british-pound-hawkish-boe-but-pound-upside-capped-commerzbank-202611061320"
+      },
+      {
+        "short": "Banque d'Angleterre",
+        "name": "Bank of England, « Interest rates and Bank Rate: our latest decision »",
+        "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
+      },
+      {
+        "short": "PolitiqueMatin",
+        "name": "PolitiqueMatin, « La Banque d'Angleterre relève ses taux tandis que la Bourse de Londres recule »",
+        "url": "https://www.politiquematin.fr/banque-angleterre-taux-ftse-100-6-novembre-2026"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-canada-chomage-6-7-pourcent-octobre-guerre-commerciale",
+    "date": "2026-11-07",
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Ottawa, Canada",
+        "label": "Canada",
+        "coords": [
+          -75.7,
+          45.42
+        ]
+      }
+    ],
+    "title": "Canada : le chômage monte à 6,7 % en octobre, son plus haut en six mois, avec 4 700 emplois perdus malgré 15 000 attendus",
+    "summary": "Selon Statistique Canada, le pays a perdu 4 700 emplois en octobre alors que les économistes en attendaient 15 000 de plus, et le taux de chômage est passé de 6,5 % à 6,7 %, son plus haut niveau en six mois. C'est la troisième hausse de suite, dans le contexte de la guerre commerciale avec les États-Unis [1][2][3].",
+    "points": [
+      "Le Canada a perdu 4 700 emplois en octobre, selon l'enquête sur la population active de Statistique Canada, publiée vendredi 6 novembre. Le consensus des économistes tablait sur un gain d'environ 15 000 emplois [1][3].",
+      "Le taux de chômage est passé à 6,7 %, contre 6,5 % en septembre : c'est la troisième hausse mensuelle consécutive et le niveau le plus haut depuis six mois [1][2].",
+      "Sur un an, l'emploi n'a progressé que de 17 000 postes, soit 0,1 %. Le commerce de gros et de détail a perdu 28 800 emplois sur le mois [3].",
+      "Les jeunes sont les plus touchés : le chômage des 15-24 ans a bondi à 13,7 % en octobre. Au Québec, le taux de chômage s'établit à 5,7 % [3].",
+      "Les médias canadiens relient cette faiblesse à la guerre commerciale avec les États-Unis, principal client du pays, qui pèse sur les exportations et les embauches [2][3].",
+      "Ces chiffres tombent environ une semaine après que la Banque du Canada a relevé son taux directeur à 2,5 %, selon la presse : l'institut fait donc face à un marché du travail qui se tasse au moment même où il resserre sa politique [3]."
+    ],
+    "why": [
+      "À retenir : le Canada cumule deux pressions contraires. L'énergie plus chère fait monter les prix, ce qui pousse la banque centrale à relever ses taux, tandis que les droits de douane américains freinent les entreprises exportatrices, ce qui fait baisser l'emploi [2][3].",
+      "Un chômage à 6,7 % reste plus élevé qu'aux États-Unis (4,1 % en octobre). L'écart illustre la façon dont une économie très dépendante d'un seul client commercial encaisse un conflit tarifaire : les secteurs liés aux exportations, comme l'industrie, le bois ou l'automobile, sont les premiers exposés.",
+      "Le chômage des jeunes à 13,7 % est un signal d'alerte social : un jeune qui entre sur le marché du travail dans une période de faible embauche en garde des séquelles sur ses revenus pendant des années [3].",
+      "Politiquement, ces chiffres augmentent la pression sur le gouvernement d'Ottawa pour diversifier ses débouchés commerciaux, de l'Union européenne à la Chine, sujets de plusieurs de nos actus récentes."
+    ],
+    "forMe": "Si tu as de la famille ou des projets au Canada (études, permis de travail, expatriation), le marché de l'emploi est moins porteur qu'il y a un an, surtout pour les jeunes. Pour un lecteur en France, c'est aussi un exemple de ce que peuvent provoquer des droits de douane sur un pays exportateur.",
+    "next": [],
+    "figures": [
+      {
+        "value": "6,7 %",
+        "label": "taux de chômage au Canada en octobre (6,5 % en septembre)",
+        "src": 1
+      },
+      {
+        "value": "−4 700",
+        "label": "emplois en octobre, contre +15 000 attendus",
+        "src": 1
+      },
+      {
+        "value": "13,7 %",
+        "label": "chômage des 15-24 ans",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "droits-de-douane"
+    ],
+    "sources": [
+      {
+        "short": "AFP (Boursorama)",
+        "name": "AFP via Boursorama, « Canada : le taux de chômage augmente à 6,7 % en octobre » (6 novembre 2026)",
+        "url": "https://www.boursorama.com/bourse/actualites/canada-le-taux-de-chomage-augmente-a-6-7-en-octobre-95f70af0d8b93fe77873768e03746ead"
+      },
+      {
+        "short": "La Liberté",
+        "name": "La Liberté, « Canada : le taux de chômage augmente à 6,7 % en octobre » (6 novembre 2026)",
+        "url": "https://www.la-liberte.ca/2026/11/06/canada-le-taux-de-chomage-augmente-a-67-en-octobre/"
+      },
+      {
+        "short": "Les Affaires",
+        "name": "Les Affaires, « Le taux de chômage a augmenté pour atteindre 6,7 % en octobre au pays »",
+        "url": "https://www.lesaffaires.com/bourse/economie/le-taux-de-chomage-a-augmente-pour-atteindre-67-en-octobre-au-pays/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-fin-petrole-brent-recule-13-pourcent-semaine",
+    "date": "2026-11-07",
+    "region": "Moyen-Orient",
+    "theme": "fin",
+    "zones": [
+      "Europe",
+      "Asie",
+      "Amérique du Nord"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "name": "Détroit d'Ormuz, Iran / Oman",
+        "label": "Brent",
+        "coords": [
+          56.5,
+          26.6
+        ]
+      }
+    ],
+    "title": "Le pétrole perd près de 13 % en une semaine : le Brent repasse sous 100 dollars sur l'espoir d'une sortie de crise à Ormuz",
+    "summary": "Le Brent a fini la semaine autour de 98 dollars le baril, en recul d'environ 13 % sur cinq séances, sa plus forte baisse hebdomadaire depuis la mi-avril, selon Trading Economics. Les marchés parient sur la diplomatie au Moyen-Orient, mais la menace de nouvelles frappes américaines garde les prix très nerveux [1][2][3].",
+    "points": [
+      "Vendredi 6 novembre, le baril de Brent s'est établi autour de 98 dollars, selon Trading Economics et Prix du baril (98,16 à 98,32 dollars selon la source et le contrat suivi) [1][2].",
+      "La baisse sur la semaine atteint environ 13 %, la plus forte depuis la mi-avril, d'après Trading Economics. Jeudi, le cours était descendu à son plus bas depuis le 31 août, selon Reuters [1][3].",
+      "Les opérateurs misent sur la diplomatie : le Qatar fait circuler un projet d'accord pour rouvrir le détroit d'Ormuz, et Téhéran se dit prêt à le rouvrir en deux jours si ses conditions sont acceptées. Le Brent valait encore 106 dollars le 2 novembre, contre environ 70 avant la guerre, selon l'AFP [4].",
+      "Le risque inverse demeure : Donald Trump a dit qu'il déciderait bientôt de nouvelles frappes, et des attaques contre des pétroliers continuent dans la zone. Eurasia Group estime qu'en cas d'escalade, le Brent pourrait atteindre 110 à 125 dollars [2][5].",
+      "Un baril à 98 dollars reste plus d'un tiers au-dessus de son niveau d'avant-guerre : la baisse corrige une partie de la flambée, elle ne l'efface pas [4]."
+    ],
+    "why": [
+      "À retenir : le prix du pétrole ne reflète pas seulement l'offre et la demande, mais surtout la probabilité que le détroit d'Ormuz rouvre ou se referme. Chaque déclaration politique déplace ce pari et donc le cours, d'où l'ampleur des mouvements de la semaine [3][5].",
+      "On appelle « prime de risque géopolitique » la part du prix qui paie le danger d'une rupture d'approvisionnement. Quand l'espoir d'un accord monte, cette prime se dégonfle d'un coup, et le prix baisse sans qu'aucun baril de plus ne soit produit [3].",
+      "Cette détente a des effets en chaîne : elle allège la facture énergétique des pays importateurs comme l'Europe, l'Inde ou la Chine, soulage un peu l'inflation, et donc la pression sur les banques centrales qui viennent de relever leurs taux (Australie, Royaume-Uni) [1].",
+      "Mais un mouvement de 13 % en une semaine est aussi le signe d'un marché fragile. Les prix peuvent repartir aussi vite à la hausse : le 17 octobre, le Brent touchait encore 110 dollars quand Ormuz s'était embrasé."
+    ],
+    "forMe": "Si tu conduis ou chauffes ton logement au fioul, la baisse du brut devrait se voir à la pompe ou sur ta facture avec un délai de quelques jours à quelques semaines, sans garantie : elle dépend du taux de change et des marges des raffineurs. On ne dit pas qu'il faut faire le plein maintenant.",
+    "next": [
+      {
+        "when": "29 novembre",
+        "what": "Grande réunion de l'OPEP+ sur la production de 2027, rendez-vous qui peut réorienter les cours [3]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "≈ 98 $",
+        "label": "le baril de Brent à la clôture du 6 novembre",
+        "src": 1
+      },
+      {
+        "value": "−13 %",
+        "label": "sur la semaine, plus forte baisse depuis la mi-avril",
+        "src": 1
+      },
+      {
+        "value": "≈ 70 $",
+        "label": "le baril avant la guerre",
+        "src": 4
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "routes-maritimes",
+      "sanctions"
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi le pétrole baisse quand on espère la paix",
+        "text": "Le pétrole se négocie sur des contrats à terme : on achète aujourd'hui un baril livrable dans quelques semaines. Son prix intègre donc ce que les opérateurs pensent qu'il se passera, pas seulement ce qui se passe. Quand le passage par un détroit comme Ormuz est menacé, les acheteurs paient plus cher pour être sûrs d'être livrés : c'est la prime de risque. Si un accord paraît possible, cette prime fond et le cours baisse, même avant que les tankers ne repartent. À l'inverse, une frappe ou une attaque de navire la fait remonter en quelques minutes. Les grandes banques et fonds, qui prennent des positions à l'achat ou à la vente, amplifient ces mouvements : quand beaucoup vendent en même temps, la baisse s'accélère [1][3][5]."
+      }
+    },
+    "past": {
+      "title": "Les précédents : ce que le pétrole a fait après un pic de crise",
+      "items": [
+        {
+          "when": "2022",
+          "what": "L'invasion de l'Ukraine et des stocks mondiaux bas portent le prix du brut à son plus haut niveau, corrigé de l'inflation, depuis 2014 ; à partir du 8 juin, les cours reculent jusqu'à la fin de l'année, la crainte d'une récession réduisant la demande [6].",
+          "lesson": "Le dernier jour de 2022, le Brent clôturait à 85 dollars, soit 7 dollars de plus qu'au 3 janvier : la flambée de l'année avait été presque entièrement effacée [6]."
+        },
+        {
+          "when": "14 juillet 2022",
+          "what": "Le pétrole tombe à son plus bas depuis mars, la hausse de l'inflation américaine faisant craindre de plus fortes hausses de taux et un ralentissement de la demande [7].",
+          "lesson": "Les craintes de récession peuvent faire baisser le prix du brut même quand l'offre reste tendue [7]."
+        },
+        {
+          "when": "Décembre 2022",
+          "what": "Selon un récapitulatif de Reuters, le brut américain et le Brent ont rendu tous les gains de l'année [8].",
+          "lesson": "Une année de hausses liées à la guerre peut s'effacer en quelques mois quand la peur de l'offre recule [8]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Trading Economics",
+        "name": "Trading Economics, « Brent crude oil – Price, chart, historical data, news »",
+        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+      },
+      {
+        "short": "Prix du baril",
+        "name": "Prix du baril, « Le pétrole se stabilise après une semaine de chute »",
+        "url": "https://prixdubaril.com/news-petrole/75184-le-petrole-se-stabilise-apres-une-semaine-de-chute.html"
+      },
+      {
+        "short": "Reuters (Vietnam.vn)",
+        "name": "Vietnam.vn, citant Reuters, « Prix du pétrole aujourd'hui, 6 novembre »",
+        "url": "https://www.vietnam.vn/fr/gia-dau-hom-nay-6-11-brent-lai-tang-gan-4-do-lo-ngai-nguon-cung"
+      },
+      {
+        "short": "AFP (Connaissance des énergies)",
+        "name": "AFP via Connaissance des énergies, « Téhéran accélère son calendrier sur Ormuz » (2 novembre 2026)",
+        "url": "https://www.connaissancedesenergies.org/afp/liran-parle-dintenses-consultations-avec-washington-via-les-mediateurs-261102"
+      },
+      {
+        "short": "CBS News",
+        "name": "CBS News, « More ships attacked in Persian Gulf, oil prices rebound slightly after post-midterm plunge »",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
+      },
+      {
+        "short": "EIA",
+        "name": "U.S. Energy Information Administration, « Crude oil prices increased in first-half 2022 and declined in second-half 2022 »",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=55079"
+      },
+      {
+        "short": "Fortune",
+        "name": "Fortune, « Oil hits its lowest price since March as soaring U.S. inflation inspires fear of bigger interest rate hikes » (14 juillet 2022)",
+        "url": "https://fortune.com/2022/07/14/oil-hits-its-lowest-price-since-march-as-soaring-u-s-inflation-inspires-fear-of-bigger-interest-rate-hikes/"
+      },
+      {
+        "short": "Reuters (Khaleej Times)",
+        "name": "Reuters via Khaleej Times, « Explainer: What happened to the 2022 global oil rally? »",
+        "url": "https://www.khaleejtimes.com/business/explainer-what-happened-to-the-2022-global-oil-rally"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-fin-obligations-rendements-emploi-bons-chiffres-mauvais-signal",
+    "date": "2026-11-07",
+    "region": "Amériques",
+    "theme": "fin",
+    "zones": [
+      "Europe",
+      "Asie",
+      "Amérique latine"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "name": "New York, États-Unis",
+        "label": "Marché obligataire",
+        "coords": [
+          -74.01,
+          40.71
+        ]
+      }
+    ],
+    "title": "Pourquoi un bon chiffre de l'emploi fait grimacer Wall Street : les rendements des obligations américaines remontent",
+    "summary": "Après le rapport d'emploi de vendredi (165 000 postes créés, chômage à 4,1 %), les rendements des obligations du Trésor américain ont monté et la Bourse a fini en ordre dispersé. Un bon chiffre pour l'économie devient un risque pour les actions, car il éloigne les baisses de taux de la Fed [1][2].",
+    "points": [
+      "Vendredi 6 novembre, l'économie américaine a affiché 165 000 créations d'emplois en octobre contre environ 59 000 attendues, un chômage à 4,1 % et des salaires en hausse de 3,1 % sur un an [1].",
+      "Les marchés ont réagi de manière mitigée : les rendements des Treasuries ont monté, selon l'AFP, et le Nasdaq a rebondi de 1,09 % tandis que le Dow Jones a reculé de 0,46 % [2].",
+      "Selon Zonebourse, la probabilité d'une nouvelle hausse de taux de la Fed en décembre est remontée après le rapport, ce qui pèse sur les valeurs technologiques, très sensibles au coût de l'argent [2].",
+      "Le Nasdaq sortait de sa pire séance depuis avril 2025 jeudi (−5,5 %) : le rebond de vendredi n'efface qu'une petite partie de cette baisse [2].",
+      "En août 2026, la logique inverse avait joué : des employeurs avaient supprimé 23 000 postes, un résultat surprise qui avait fait grimper les actions, les marchés y voyant la fin possible des hausses de taux [3]."
+    ],
+    "why": [
+      "À retenir : la Bourse ne regarde pas seulement la santé de l'économie, mais surtout la réaction attendue de la banque centrale. Plus l'emploi est solide, plus la Fed peut garder des taux élevés longtemps, et plus les actions, dont la valeur dépend de bénéfices futurs, paraissent chères [2].",
+      "Le rendement d'une obligation est le taux que l'État paie pour emprunter. Quand il monte, placer son argent en obligations devient plus attrayant et les actions moins, surtout les plus chères comme la tech. C'est un vieux réflexe de marché : « bonne nouvelle, mauvaise nouvelle » [2][4].",
+      "Il y a aussi un effet sur le reste du monde : des rendements américains plus hauts attirent les capitaux vers le dollar, ce qui pèse sur les monnaies émergentes. Le réal brésilien est tombé vendredi à son plus bas niveau de l'année face au dollar, le dollar valant 5,51 réais.",
+      "Cela dit, un seul rapport ne change pas le cap : la Fed a encore l'inflation d'octobre, publiée le 10 novembre, pour affiner sa décision de décembre."
+    ],
+    "forMe": "Si tu as une assurance-vie en unités de compte, un PEA ou un fonds indiciel, ces va-et-vient de court terme ne devraient pas changer ta stratégie de long terme. Les taux d'emprunt, eux, suivent plutôt la trajectoire des rendements : si tu prévois un crédit, surveille leur évolution. On n'explique pas ici quoi acheter ou vendre.",
+    "next": [
+      {
+        "when": "8 et 9 décembre",
+        "what": "Réunion de la Fed, avec une hausse de taux envisagée, selon les analystes cités par la presse financière [2]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "165 000",
+        "label": "emplois créés en octobre (≈ 59 000 attendus)",
+        "src": 1
+      },
+      {
+        "value": "+1,09 %",
+        "label": "Nasdaq vendredi, après −5,5 % jeudi",
+        "src": 2
+      },
+      {
+        "value": "−0,46 %",
+        "label": "Dow Jones vendredi",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux",
+      "dollar"
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : les rendements, les taux de la Fed et les actions",
+        "text": "Un État qui emprunte émet des obligations : il s'engage à rembourser avec un intérêt. Le prix de ces obligations varie chaque jour sur le marché ; quand il baisse, le rendement (l'intérêt rapporté au prix payé) monte. Les investisseurs comparent sans cesse ce rendement, quasi sans risque, au gain espéré des actions. Quand l'emploi est fort, ils estiment que la banque centrale gardera ses taux élevés, ils vendent des obligations dont le rendement monte, et les actions perdent en attrait relatif, surtout celles dont les bénéfices sont lointains, comme la technologie. C'est pourquoi un bon chiffre économique peut faire baisser la Bourse : ce n'est pas l'économie qui est jugée mauvaise, mais le coût de l'argent qui reste haut [1][2][4]."
+      }
+    },
+    "past": {
+      "title": "Les précédents : quand les rendements montent, les actions souffrent",
+      "items": [
+        {
+          "when": "19 octobre 2023",
+          "what": "Le rendement des obligations américaines à dix ans franchit brièvement 5 % pour la première fois depuis juillet 2007, selon l'Associated Press ; Wall Street recule [5].",
+          "lesson": "Un rendement qui monte vite alourdit le coût du crédit pour toute l'économie et fait baisser les actions [5]."
+        },
+        {
+          "when": "27 octobre 2023",
+          "what": "Le S&P 500 termine environ 10 % sous son record de juillet, ce qui répond à la définition d'une « correction », dans un contexte de rendements élevés et de résultats d'entreprises décevants [6].",
+          "lesson": "La correction s'est installée en quelques semaines de hausse des taux, pas à cause d'un krach économique [6]."
+        },
+        {
+          "when": "7 août 2026",
+          "what": "Des employeurs suppriment de façon inattendue 23 000 emplois : les actions américaines bondissent, les investisseurs espérant que la Fed n'aura pas à relever ses taux [3].",
+          "lesson": "Le même marché réagit en sens inverse selon ce qu'il croit de la Fed : la mauvaise nouvelle devient bonne pour la Bourse [3]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "CNBC",
+        "name": "CNBC, « U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1% » (6 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
+      },
+      {
+        "short": "AFP (Boursorama)",
+        "name": "AFP via Boursorama, « Wall Street termine dans le désordre, rebond du Nasdaq » (6 novembre 2026)",
+        "url": "https://www.boursorama.com/bourse/actualites/wall-street-termine-dans-le-desordre-rebond-du-nasdaq-cf309a06c5d44f52937e5fb530ab498c"
+      },
+      {
+        "short": "AP (Local 10)",
+        "name": "Associated Press via Local 10, « US stocks jump as employers unexpectedly cut 23,000 jobs, raising hopes for easier rate policy » (7 août 2026)",
+        "url": "https://www.local10.com/news/2026/08/07/us-stocks-jump-as-employers-unexpectedly-cut-23000-jobs-raising-hopes-for-easier-rate-policy/"
+      },
+      {
+        "short": "Zonebourse",
+        "name": "Zonebourse, « Wall Street clôture sans direction claire, timide rebond pour la tech » (6 novembre 2026)",
+        "url": "https://www.zonebourse.com/actualite-bourse/wall-street-cloture-sans-direction-claire-timide-rebond-pour-la-tech-ce785fd2dc8bf62c"
+      },
+      {
+        "short": "AP (Observer-Reporter)",
+        "name": "Associated Press via Observer-Reporter, « Wall Street falls after 10-year yield climbs to the cusp of 5% » (19 octobre 2023)",
+        "url": "https://www.observer-reporter.com/ap/2023/oct/19/wall-street-falls-after-year-yield-climbs-to-the-cusp-of/"
+      },
+      {
+        "short": "HeyGoTrade",
+        "name": "HeyGoTrade, « What happened in the markets – 23-27 Oct 2023 »",
+        "url": "https://insights.heygotrade.com/market-recap/what-happened-in-the-markets-23-27-oct-2023"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-fin-novo-nordisk-releve-previsions-wegovy-pilule",
+    "date": "2026-11-07",
+    "region": "Europe",
+    "theme": "fin",
+    "zones": [
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Bagsværd, Danemark",
+        "label": "Novo Nordisk",
+        "coords": [
+          12.45,
+          55.76
+        ]
+      }
+    ],
+    "title": "Novo Nordisk relève ses prévisions pour la troisième fois en 2026, portée par la pilule Wegovy, mais les baisses de prix américaines l'attendent",
+    "summary": "Mercredi 4 novembre, le laboratoire danois Novo Nordisk a relevé ses prévisions 2026 pour la troisième fois, après un troisième trimestre meilleur que prévu : 79,2 milliards de couronnes de ventes, soit 5,6 milliards de plus qu'attendu. Son titre a grimpé jusqu'à 6 % à Copenhague [1][2][3].",
+    "points": [
+      "Novo Nordisk table désormais sur une évolution de ses ventes et de son résultat opérationnel ajusté entre −2 % et +2 % à taux de change constants en 2026, contre un repli allant jusqu'à 6 % dans sa précédente prévision [1][2].",
+      "Au troisième trimestre, les ventes ont atteint 79,2 milliards de couronnes danoises contre 73,6 milliards attendus par les analystes (FactSet). Le résultat opérationnel ajusté a progressé de 27 % à 31,7 milliards [1][2].",
+      "Le Wegovy en comprimés, lancé aux États-Unis, a généré 5,39 milliards de couronnes, contre 4,62 milliards attendus selon Reuters, et capterait environ 80 % des nouvelles prescriptions orales dans ce pays. Les ventes de Wegovy injectable (20,4 milliards) et d'Ozempic (29,7 milliards) dépassent aussi les attentes [1][2].",
+      "À Copenhague, l'action a pris jusqu'à 6 % en début de séance avant de s'établir autour de +3,4 %, mais elle accuse toujours une baisse d'environ 13 % depuis le début de l'année [2].",
+      "Le PDG Mike Doustdar a prévenu qu'un bon trimestre ne suffisait pas à parler de redressement durable : les prix catalogues américains du Wegovy et de l'Ozempic baisseront à 675 dollars à partir du 1er janvier 2027 [2][3]."
+    ],
+    "why": [
+      "À retenir : le marché ne regarde pas seulement les ventes du trimestre, mais surtout la capacité de l'entreprise à tenir ses marges quand les prix baissent. Novo vendait plus de produits, mais avait été sanctionné en 2025 pour avoir réduit ses prévisions, signe que la confiance des investisseurs se gagne trimestre après trimestre [1][4].",
+      "La pilule est l'enjeu stratégique : elle élargit le marché des traitements contre l'obésité à des patients qui refusent l'injection, et elle donne à Novo une arme face à son rival américain Eli Lilly. Mais cette bataille se joue aussi sur les prix, que Washington pousse à la baisse [1][2].",
+      "Le dossier se joue aussi aux États-Unis, où les prix des traitements contre l'obésité sont au cœur du débat politique : Novo y baisse ses prix catalogue à 675 dollars en janvier 2027 [2].",
+      "La prudence s'impose : Citi maintient une recommandation neutre sur le titre, et un trimestre fort peut être suivi d'un trimestre décevant si les prix américains baissent plus vite que les volumes n'augmentent [2]."
+    ],
+    "forMe": "Si tu es patient en France ou si tu connais quelqu'un sous traitement contre l'obésité ou le diabète, la concurrence entre Novo et Lilly peut jouer sur les prix et l'accès aux traitements, y compris en Europe, où ils sont remboursés différemment. Si tu as un fonds mondial, Novo y pèse, mais ce n'est pas un conseil d'achat ou de vente.",
+    "next": [],
+    "figures": [
+      {
+        "value": "79,2 Md DKK",
+        "label": "ventes du 3e trimestre (73,6 Md attendus)",
+        "src": 2
+      },
+      {
+        "value": "+27 %",
+        "label": "résultat opérationnel ajusté",
+        "src": 2
+      },
+      {
+        "value": "675 $",
+        "label": "prix catalogue américain du Wegovy et de l'Ozempic dès janvier 2027",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : la « guidance », ces prévisions que le marché guette",
+        "text": "Une entreprise cotée publie chaque trimestre ses résultats, mais aussi des prévisions pour l'année, la « guidance ». C'est cette fourchette, plus que le passé, qui fait bouger l'action : le prix d'une action reflète les bénéfices futurs. Quand la direction relève sa guidance, elle signale que ses bénéfices à venir seront plus élevés que prévu, ce qui peut faire monter le titre ; quand elle l'abaisse, l'inverse se produit, souvent brutalement si l'action était déjà chère. Les analystes comparent les chiffres publiés à leur « consensus », leur moyenne d'attentes : un résultat meilleur que le consensus est une « bonne surprise » [1][2][4]."
+      }
+    },
+    "past": {
+      "title": "Le précédent : quand Novo avait baissé ses prévisions",
+      "items": [
+        {
+          "when": "29 juillet 2025",
+          "what": "Novo Nordisk abaisse sa prévision de croissance des ventes à 8-14 % contre 13-21 % en mai, et son titre clôture en baisse de 21,7 % à 346,9 couronnes, malgré un deuxième trimestre en hausse [4][5].",
+          "lesson": "La direction invoquait les copies de médicaments, un marché plus lent que prévu et la concurrence : le marché punit le recul de la confiance plus que les chiffres passés [4][5]."
+        },
+        {
+          "when": "29 juillet 2025",
+          "what": "Le même jour, Reuters rapporte que 70 milliards de dollars de valeur boursière ont été effacés, et l'américain Eli Lilly perd 5 % en début de séance ; la direction annonce aussi l'arrivée de Mike Doustdar comme PDG [5].",
+          "lesson": "Une mauvaise nouvelle chez un géant d'un secteur peut contaminer ses concurrents [5]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "Séance du mercredi 4 novembre à Copenhague [2].",
+      "items": [
+        {
+          "name": "Novo Nordisk",
+          "ticker": "NOVO B",
+          "move": "+3,4 %",
+          "why": "Hausse après un trimestre au-dessus des attentes et une prévision relevée ; jusqu'à +6 % en début de séance, mais environ −13 % depuis janvier [2]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Novo shares jump as Wegovy pill sales impress, drugmaker hikes outlook » (4 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/04/novo-q3-earnings-wegovy-sales.html"
+      },
+      {
+        "short": "Benzinga",
+        "name": "Benzinga, « Why Is Novo Nordisk Stock Surging Wednesday? »",
+        "url": "https://www.benzinga.com/markets/earnings/26/11/62863179/novo-nordisk-raises-2026-outlook-as-wegovy-pill-shines"
+      },
+      {
+        "short": "24/7 Wall St.",
+        "name": "24/7 Wall St., « Novo Nordisk Stock Jumps 6% as Wegovy Hits a Stunning 80% Milestone » (4 novembre 2026)",
+        "url": "https://247wallst.com/investing/2026/11/04/novo-nordisk-stock-jumps-6-as-wegovy-hits-a-stunning-80-milestone/"
+      },
+      {
+        "short": "CBS News",
+        "name": "CBS News, « Novo Nordisk shares fall 20% after company names new CEO and lowers its financial outlook » (juillet 2025)",
+        "url": "https://www.cbsnews.com/amp/news/novo-nordisk-shares-down-copycat-drugs-july-2025"
+      },
+      {
+        "short": "Shropshire Star",
+        "name": "Shropshire Star (PA), « Ozempic and Wegovy maker Novo Nordisk sees shares tumble on profit alert » (29 juillet 2025)",
+        "url": "https://www.shropshirestar.com/uk-news/2025/07/29/ozempic-and-wegovy-maker-novo-nordisk-sees-shares-tumble-on-profit-alert"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-mexique-banxico-baisse-taux-6-25",
+    "date": "2026-11-07",
+    "level": 2,
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique latine",
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Mexico, Mexique",
+        "label": "Mexique",
+        "coords": [
+          -99.13,
+          19.43
+        ]
+      }
+    ],
+    "title": "Mexique : la banque centrale baisse son taux à 6,25 % sur un vote serré, et Sheinbaum approuve",
+    "summary": "Jeudi 5 novembre, la banque centrale du Mexique (Banxico) a réduit son taux de 0,25 point, à 6,25 %, par 3 voix contre 2. La présidente Claudia Sheinbaum juge la décision responsable, alors que le peso a fini vendredi à 18,62 pour un dollar [1][2].",
+    "points": [
+      "Banxico a baissé son taux directeur de 25 points de base à 6,25 %, à la majorité de trois votes contre deux : le comité est donc divisé sur la poursuite des baisses [1].",
+      "Selon la presse mexicaine, les membres favorables estiment que les conditions existent pour ce geste sans risque inflationniste. Claudia Sheinbaum a salué une décision responsable, jugeant que des taux plus bas peuvent favoriser l'investissement [1].",
+      "Le peso a clôturé vendredi 6 novembre à 18,62 unités pour un dollar, mettant fin à une série de baisses, selon Milenio [2].",
+      "Le contexte reste incertain : la Réserve fédérale américaine pourrait relever ses taux en décembre, ce qui réduit l'écart avec le Mexique et peut peser sur le peso [1][3]."
+    ],
+    "why": [
+      "À retenir : le Mexique baisse ses taux alors que la Fed et d'autres banques centrales pourraient les relever. Cet écart est un pari : il soutient la croissance mexicaine, mais expose le peso si le dollar s'envole [1][3].",
+      "Le dossier du traité commercial avec les États-Unis (le T-MEC) pèse aussi : Sheinbaum disait fin octobre que Mexico et Washington étaient proches d'un accord pour réduire les droits de douane sur l'automobile, l'acier et l'aluminium, sans annonce finale à ce jour [3]."
+    ],
+    "forMe": "Si tu as de la famille au Mexique ou si tu voyages là-bas, un peso stable aide ; pour les entreprises françaises implantées dans le pays (automobile, aéronautique), la baisse du crédit est un soutien, mais l'accord avec Washington compte plus encore.",
+    "figures": [
+      {
+        "value": "6,25 %",
+        "label": "taux directeur de Banxico",
+        "src": 1
+      },
+      {
+        "value": "3 contre 2",
+        "label": "vote du comité",
+        "src": 1
+      },
+      {
+        "value": "18,62",
+        "label": "pesos pour un dollar, vendredi",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux"
+    ],
+    "sources": [
+      {
+        "short": "El Imparcial",
+        "name": "El Imparcial, « Sheinbaum descarta problemas económicos por recorte de Banxico; baja tasa a 6.25% » (6 novembre 2026)",
+        "url": "https://www.elimparcial.com/mexico/2026/11/06/sheinbaum-descarta-problemas-economicos-por-recorte-de-banxico-baja-tasa-a-625/"
+      },
+      {
+        "short": "Milenio",
+        "name": "Milenio, « Cierre del dólar: cotización del peso mexicano hoy 6 de noviembre de 2026 »",
+        "url": "https://www.milenio.com/negocios/cierre-del-dolar-cotizacion-peso-mexicano-hoy-6-noviembre-2026"
+      },
+      {
+        "short": "El Financiero",
+        "name": "El Financiero, « Sheinbaum confirma que México y EU están cerca de cerrar un acuerdo por el T-MEC » (20 octobre 2026)",
+        "url": "https://www.elfinanciero.com.mx/economia/2026/10/20/sheinbaum-confirma-que-mexico-y-eu-estan-cerca-de-cerrar-un-acuerdo-por-el-t-mec-hay-buena-actitud/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-bresil-selic-maintenue-13-75-reelection-lula",
+    "date": "2026-11-07",
+    "level": 2,
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique latine"
+    ],
+    "geo": [
+      {
+        "name": "Brasília, Brésil",
+        "label": "Brésil",
+        "coords": [
+          -47.88,
+          -15.79
+        ]
+      }
+    ],
+    "title": "Brésil : la banque centrale arrête ses baisses de taux à 13,75 % après la réélection de Lula, et le dollar atteint son plus haut de l'année",
+    "summary": "Mercredi 5 novembre, le Comité de politique monétaire brésilien a maintenu le taux Selic à 13,75 %, à l'unanimité, mettant fin à cinq baisses de suite. Vendredi, le dollar a fini à 5,51 réais, son plus haut de l'année, tandis que l'Ibovespa a gagné 1,39 % [1][2][3].",
+    "points": [
+      "Le Copom a laissé la Selic à 13,75 % par an, par décision unanime. C'est la première réunion après le second tour de la présidentielle, que Lula a remporté, et elle interrompt cinq baisses consécutives [1].",
+      "Selon Bloomberg, la réélection surprise de Luiz Inácio Lula da Silva a agité les marchés et assombri les perspectives d'inflation [1].",
+      "Vendredi 6 novembre, le dollar a clôturé à 5,508 à 5,511 réais selon les sources, en hausse d'environ 0,4 %, son plus haut niveau de l'année, après les chiffres américains de l'emploi supérieurs aux attentes [2][3].",
+      "L'indice Ibovespa a fini en hausse de 1,39 % à 168 498 points et signe sa première semaine positive après trois semaines de baisse. La banque XP a ramené sa prévision de croissance 2027 à 0,3 % [2]."
+    ],
+    "why": [
+      "À retenir : l'élection a remis la question de la discipline budgétaire au centre. Quand les investisseurs doutent des finances publiques, ils exigent des taux plus hauts pour prêter au pays, et la banque centrale doit rester prudente [1].",
+      "Le prochain rendez-vous est fixé aux 8 et 9 décembre, en même temps que la Fed, ce qui exposera le réal à deux décisions décisives [1][3]."
+    ],
+    "forMe": "Un réal faible rend les produits brésiliens (café, soja, minerai de fer, jus d'orange) moins chers en euros, mais renchérit les importations du pays et le crédit des Brésiliens. Pour un voyage au Brésil, le change est actuellement favorable.",
+    "figures": [
+      {
+        "value": "13,75 %",
+        "label": "taux Selic, maintenu à l'unanimité",
+        "src": 1
+      },
+      {
+        "value": "5,51 R$",
+        "label": "pour un dollar, plus haut de l'année",
+        "src": 3
+      },
+      {
+        "value": "+1,39 %",
+        "label": "Ibovespa vendredi, à 168 498 points",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux",
+      "dollar"
+    ],
+    "sources": [
+      {
+        "short": "Bloomberg Línea",
+        "name": "Bloomberg Línea Brasil, « Banco Central interrompe cortes e mantém Selic em 13,75% após reeleição de Lula »",
+        "url": "https://www.bloomberglinea.com.br/brasil/banco-central-interrompe-cortes-e-mantem-selic-em-1375-apos-reeleicao-de-lula/"
+      },
+      {
+        "short": "InfoMoney",
+        "name": "InfoMoney, « Ibovespa fecha com ganhos e tem primeira semana positiva depois de três; dólar sobe » (6 novembre 2026)",
+        "url": "https://infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-06112026"
+      },
+      {
+        "short": "Diário do Comércio",
+        "name": "Diário do Comércio, « Dólar vai a R$ 5,511, maior valor do ano; Bolsa fecha em alta »",
+        "url": "https://dcomercio.com.br/publicacao/s/dolar-vai-a-r-5-511-maior-valor-do-ano-bolsa-fecha-em-alta"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-allemagne-production-industrielle-septembre-automobile",
+    "date": "2026-11-07",
+    "level": 2,
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Berlin, Allemagne",
+        "label": "Allemagne",
+        "coords": [
+          13.4,
+          52.52
+        ]
+      }
+    ],
+    "title": "Allemagne : la production industrielle progresse de 0,7 % en septembre, portée par l'automobile et la pharmacie",
+    "summary": "L'office fédéral de la statistique Destatis a annoncé vendredi 6 novembre une hausse de 0,7 % de la production industrielle allemande en septembre, alors que les économistes attendaient une stabilité. Les commandes à l'industrie, publiées la veille, ont gagné 4,4 % après un recul de 10,1 % en août [1][2][3].",
+    "points": [
+      "La production industrielle a augmenté de 0,7 % sur un mois en septembre, contre une stabilité attendue par les économistes. Le chiffre d'août a été révisé de +2 % à +1 % [1].",
+      "Selon Euronews, la production automobile a mené la hausse, avec un rebond du secteur pharmaceutique de 8 % sur un mois. La construction a reculé de 2,6 % et la fabrication de machines et d'équipements de 6,5 %, selon Destatis [3].",
+      "Les commandes à l'industrie ont progressé de 4,4 % en septembre, un peu moins que les 4,6 % attendus, après avoir chuté de 10,1 % le mois précédent [2].",
+      "Un économiste cité par Euronews juge que les prix élevés de l'énergie et la hausse des taux restent des risques majeurs, tout en voyant une croissance modeste à court terme [3]."
+    ],
+    "why": [
+      "À retenir : l'industrie allemande, moteur de l'Europe, tient mieux que prévu malgré l'énergie chère. Mais les chiffres sont volatils d'un mois sur l'autre, et le recul des machines (6,5 %) montre que la fragilité reste forte [1][3].",
+      "Ces données comptent pour la France : une industrie allemande qui produit plus achète en général plus de pièces et de composants à ses voisins."
+    ],
+    "forMe": "Une industrie allemande en meilleure forme est plutôt une bonne nouvelle pour l'emploi des sous-traitants français, notamment dans l'automobile et l'aéronautique. Les hausses de taux (Royaume-Uni, Australie) restent le risque pour la suite.",
+    "figures": [
+      {
+        "value": "+0,7 %",
+        "label": "production industrielle allemande en septembre (stable attendue)",
+        "src": 1
+      },
+      {
+        "value": "+4,4 %",
+        "label": "commandes à l'industrie en septembre (après −10,1 % en août)",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Option Finance",
+        "name": "Option Finance, « Allemagne : la production industrielle surprend à la hausse en septembre » (6 novembre 2026)",
+        "url": "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-11-06-allemagne-la-production-industrielle-surprend-a-la-hausse-en-septembre.html"
+      },
+      {
+        "short": "Option Finance (commandes)",
+        "name": "Option Finance, « Allemagne : rebond des commandes industrielles en septembre, légèrement inférieur aux attentes » (5 novembre 2026)",
+        "url": "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-11-05-allemagne-rebond-des-commandes-industrielles-en-septembre-legerement-inferieur-aux-attentes.html"
+      },
+      {
+        "short": "Euronews (Yahoo Finance)",
+        "name": "Euronews via Yahoo Finance, « La reprise automobile dope la production industrielle allemande en septembre »",
+        "url": "https://fr.finance.yahoo.com/actualites/reprise-automobile-dope-production-industrielle-121627256.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-australie-rba-hausse-taux-4-85-vote-partage",
+    "date": "2026-11-07",
+    "level": 2,
+    "region": "Asie",
+    "theme": "eco",
+    "zones": [
+      "Océanie",
+      "Asie"
+    ],
+    "geo": [
+      {
+        "name": "Sydney, Australie",
+        "label": "Australie",
+        "coords": [
+          151.21,
+          -33.87
+        ]
+      }
+    ],
+    "title": "Australie : la banque centrale relève son taux à 4,85 % sur un vote partagé 6 contre 3, son plus haut depuis 2008",
+    "summary": "Mardi 3 novembre, la banque centrale australienne (RBA) a relevé son taux de 4,60 % à 4,85 %, par 6 voix contre 3. C'est la cinquième hausse de l'année et le niveau le plus élevé depuis 18 ans, avec une inflation attendue à 4,5 % fin 2026 [1][2][3].",
+    "points": [
+      "Six membres du conseil de politique monétaire ont voté pour une hausse de 0,25 point, à 4,85 %, et trois pour laisser le taux à 4,60 % : la RBA est donc divisée [2][3].",
+      "La banque a fortement relevé ses prévisions : l'inflation devrait atteindre 4,5 % au quatrième trimestre 2026, contre 3,6 % dans la prévision précédente, et ne reviendra pas dans le haut de la cible de 2 à 3 % avant fin 2027 [3].",
+      "La RBA cite une inflation élevée et largement diffusée, ainsi que la guerre au Moyen-Orient et la hausse du pétrole, tout en reconnaissant un ralentissement : marché immobilier en baisse et chômage en hausse [1][3].",
+      "Selon ABC, deux hausses supplémentaires au premier semestre 2027 ne peuvent pas être exclues ; d'autres analystes jugent une pause en décembre possible, le vote partagé affaiblissant l'idée d'un nouveau relèvement immédiat [1][2]."
+    ],
+    "why": [
+      "À retenir : l'Australie est l'une des premières économies avancées à resserrer fortement sa politique à cause de l'énergie, et le Royaume-Uni l'a suivie jeudi. Le choc pétrolier de la guerre du Golfe pousse les banques centrales à relever leurs taux, au risque de ralentir leur économie [1][3].",
+      "Pour l'Asie-Pacifique, les taux australiens comptent : le dollar australien et les prix des matières premières exportées (fer, charbon, gaz) servent de baromètre pour la Chine et ses voisins."
+    ],
+    "forMe": "Pour un lecteur français, l'effet direct est faible, mais c'est un signal de plus que la période des baisses de taux est terminée dans plusieurs pays. Si tu prévois un séjour ou des études en Australie, le coût du crédit local grimpe.",
+    "figures": [
+      {
+        "value": "4,85 %",
+        "label": "taux directeur de la RBA, plus haut depuis 2008",
+        "src": 1
+      },
+      {
+        "value": "6 contre 3",
+        "label": "vote du conseil",
+        "src": 2
+      },
+      {
+        "value": "4,5 %",
+        "label": "inflation attendue fin 2026 (3,6 % auparavant)",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux"
+    ],
+    "sources": [
+      {
+        "short": "ABC News",
+        "name": "ABC News (Australie), « RBA lifts interest rates to highest level in 18 years to try to dampen inflation » (3 novembre 2026)",
+        "url": "https://www.abc.net.au/news/2026-11-03/rba-lifts-interest-rates-november-2026-highest-rate-in-18-years/107340050"
+      },
+      {
+        "short": "SBS News",
+        "name": "SBS News, « RBA's Cup Day call takes rates to 18-year high; board divided over decision »",
+        "url": "https://www.sbs.com.au/news/live-blog/rba-november-2026-interest-rates-decision-live/f6csn2n1w"
+      },
+      {
+        "short": "Banque de réserve d'Australie",
+        "name": "Reserve Bank of Australia, « Statement by the Monetary Policy Board: Monetary Policy Decision » (3 novembre 2026)",
+        "url": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-rdc-fmi-accord-ebola-240-millions",
+    "date": "2026-11-07",
+    "level": 2,
+    "region": "Afrique",
+    "theme": "eco",
+    "zones": [
+      "Afrique"
+    ],
+    "geo": [
+      {
+        "name": "Kinshasa, RD Congo",
+        "label": "RD Congo",
+        "coords": [
+          15.27,
+          -4.32
+        ]
+      }
+    ],
+    "title": "RD Congo : le FMI conclut un accord préliminaire avec un décaissement de 240 millions de dollars pour lutter contre Ebola",
+    "summary": "Cette semaine, le Fonds monétaire international a conclu un accord préliminaire avec la RD Congo, avec un décaissement prévu de 240 millions de dollars pour faire face à l'épidémie d'Ebola, selon le service économique du Trésor français. Le FMI a aussi trouvé un accord avec le Burkina Faso le 4 novembre [1][2].",
+    "points": [
+      "Selon les Brèves économiques d'Afrique centrale du Trésor français (semaine du 2 au 6 novembre 2026), les services du FMI ont conclu un accord préliminaire avec la RD Congo prévoyant un décaissement de 240 millions de dollars pour la lutte contre Ebola [1].",
+      "Un tel accord « au niveau des services » doit encore être validé par le conseil d'administration du FMI avant que l'argent ne soit versé : ce n'est pas un versement immédiat [1][2].",
+      "Par ailleurs, le FMI a conclu le 4 novembre 2026 un accord au niveau des services avec le Burkina Faso [2].",
+      "L'épidémie pèse déjà sur la région : l'Ouganda a imposé fin octobre 21 jours de quarantaine, aux frais des voyageurs, à ceux qui reviennent de RD Congo."
+    ],
+    "why": [
+      "À retenir : une épidémie coûte cher à un pays déjà fragile. Les dépenses de santé, la baisse des échanges et des déplacements creusent le déficit, et un financement du FMI permet d'éviter une crise de la dette en pleine urgence sanitaire [1].",
+      "Pour la RD Congo, premier producteur mondial de cobalt, la stabilité compte aussi pour les industries de batteries et d'électronique qui en dépendent."
+    ],
+    "forMe": "Le cobalt congolais se retrouve dans les batteries de téléphones et de voitures électriques : une crise sanitaire prolongée pourrait perturber les mines et les livraisons, donc les prix. Pour un voyage en Afrique centrale, les consignes de santé varient selon les pays.",
+    "figures": [
+      {
+        "value": "240 M$",
+        "label": "décaissement prévu du FMI pour la lutte contre Ebola",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Trésor (DG Trésor)",
+        "name": "Direction générale du Trésor, « Brèves économiques d'Afrique centrale – Semaine du 2 au 6 novembre 2026 »",
+        "url": "https://www.tresor.economie.gouv.fr/Articles/2026/11/02/breves-economiques-d-afrique-centrale-semaine-du-2-au-6-novembre-2026"
+      },
+      {
+        "short": "FMI",
+        "name": "Fonds monétaire international, page d'accueil (accord au niveau des services avec le Burkina Faso, 4 novembre 2026)",
+        "url": "https://www.imf.org/fr/home"
+      }
+    ]
+  },
+  {
     "id": "2026-11-06-wall-street-krach-tech-nasdaq-correction",
     "date": "2026-11-06",
     "region": "Amériques",
