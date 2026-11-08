@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-08",
+    "file": "lettres/2026-11-08.pdf",
+    "titles": [
+      "Ormuz : de nouvelles frappes « mineures » sur l'Iran, mais le Qatar dément l'échec des pourparlers et Rubio dit que rien n'est décidé",
+      "France : le gouvernement veut faire passer le Smic au-dessus de 1 500 euros net, avant la conférence sociale de lundi",
+      "Budget 2027 : l'Assemblée a tout rejeté, 458 voix contre zéro, et la taxe au gigaoctet disparaît avec le reste"
+    ],
+    "fileDark": "lettres/2026-11-08-sombre.pdf"
+  },
+  {
     "date": "2026-11-07",
     "file": "lettres/2026-11-07.pdf",
     "titles": [
