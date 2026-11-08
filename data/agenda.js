@@ -31,28 +31,6 @@ window.GEOCO.agenda = [
     ]
   },
   {
-    "id": "2026-11-07-nouvelle-zelande-elections",
-    "date": "2026-11-07",
-    "theme": "geo",
-    "region": "Asie",
-    "place": "Wellington",
-    "title": "Élections générales en Nouvelle-Zélande",
-    "why": "Les Néo-Zélandais votent le 7 novembre dans un scrutin serré, dominé par le coût de la vie et un chômage à 5,7 % [1][2]. Le résultat dira si la coalition du Premier ministre Christopher Luxon reste en place ou si les travaillistes de Chris Hipkins reviennent, avec des choix différents sur les impôts et le commerce.",
-    "news": "2026-11-04-nouvelle-zelande-election-cout-vie",
-    "sources": [
-      {
-        "short": "Bangkok Post",
-        "name": "Bangkok Post, « New Zealand votes with economy, cost of living in focus »",
-        "url": "https://www.bangkokpost.com/world/3348465/new-zealand-votes-with-economy-cost-of-living-in-focus"
-      },
-      {
-        "short": "Newswire",
-        "name": "Newswire.co.nz, « Luxon and Hipkins clash in final debate as two polls split »",
-        "url": "https://newswire.co.nz/2026/10/luxon-hipkins-final-leaders-debate-two-polls-opposite-directions/"
-      }
-    ]
-  },
-  {
     "id": "2026-11-09-cop31-antalya",
     "date": "2026-11-09",
     "end": "2026-11-20",
@@ -446,28 +424,6 @@ window.GEOCO.agenda = [
     ]
   },
   {
-    "id": "2026-11-18-apec-shenzhen",
-    "date": "2026-11-18",
-    "end": "2026-11-19",
-    "theme": "geo",
-    "region": "Asie",
-    "place": "Shenzhen, Chine",
-    "title": "Sommet de l'APEC à Shenzhen",
-    "why": "Les dirigeants des 21 économies d'Asie-Pacifique, dont les États-Unis et la Chine, se retrouvent dans la ville des géants chinois de la tech [1][2]. Une rencontre entre dirigeants américain et chinois peut y relancer ou geler la guerre commerciale.",
-    "sources": [
-      {
-        "short": "Shenzhen",
-        "name": "Gouvernement de Shenzhen, « APEC 2026 »",
-        "url": "https://www.sz.gov.cn/en_szgov/news/infocus/APEC2026/News/content/post_12977146.html"
-      },
-      {
-        "short": "CGTN",
-        "name": "CGTN, 17 octobre 2026",
-        "url": "https://news.cgtn.com/news/2026-10-17/APEC-2026-30-days-to-go-until-Shenzhen-hosts-world-leaders-1RjNBWgfQxG/p.html"
-      }
-    ]
-  },
-  {
     "id": "2026-11-18-royaume-uni-inflation-octobre",
     "date": "2026-11-18",
     "theme": "eco",
@@ -678,27 +634,6 @@ window.GEOCO.agenda = [
         "short": "Bloomberg Línea",
         "name": "Bloomberg Línea Brasil, « Banco Central interrompe cortes e mantém Selic em 13,75% após reeleição de Lula »",
         "url": "https://www.bloomberglinea.com.br/brasil/banco-central-interrompe-cortes-e-mantem-selic-em-1375-apos-reeleicao-de-lula/"
-      }
-    ]
-  },
-  {
-    "id": "2026-12-09-fed-taux",
-    "date": "2026-12-09",
-    "theme": "fin",
-    "region": "Amériques",
-    "place": "Washington",
-    "title": "La Fed fixe son taux, avec ses prévisions pour 2027",
-    "why": "Dernière réunion de l'année de la banque centrale américaine, avec ses prévisions et le « graphique à points » où chaque dirigeant indique où il voit les taux [1][2]. Le dollar, les crédits et les Bourses du monde entier en dépendent.",
-    "sources": [
-      {
-        "short": "Fed Rate Calc",
-        "name": "Fed Rate Calc, « FOMC Meeting Schedule 2026 »",
-        "url": "https://fedratecalc.com/fomc-meeting-schedule/"
-      },
-      {
-        "short": "Eco3min",
-        "name": "Eco3min, « FOMC Meeting Calendar »",
-        "url": "https://eco3min.fr/en/fomc-meeting-calendar/"
       }
     ]
   },
