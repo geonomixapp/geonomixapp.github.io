@@ -472,6 +472,389 @@ window.GEOCO.news = [
     ]
   },
   {
+    "id": "2026-11-07-chine-rencontre-xi-trump-poutine-shenzhen",
+    "date": "2026-11-07",
+    "region": "Asie",
+    "theme": "geo",
+    "zones": [
+      "Asie",
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "name": "Pékin, Chine",
+        "label": "Xi, Trump, Poutine",
+        "coords": [
+          116.4,
+          39.9
+        ]
+      }
+    ],
+    "title": "Xi, Trump et Poutine à la même table ? Pékin confirme pour la première fois des discussions, peut-être à Shenzhen",
+    "summary": "Pékin a confirmé pour la première fois qu'une rencontre entre Xi Jinping, Donald Trump et Vladimir Poutine est en discussion. Rien n'est arrêté : elle pourrait avoir lieu en marge du sommet de l'APEC à Shenzhen, les 18 et 19 novembre, et des analystes doutent qu'elle produise des résultats concrets [1][2][3].",
+    "points": [
+      "Cette semaine, la diplomatie chinoise a reconnu pour la première fois publiquement qu'elle étudiait l'idée d'une rencontre entre les dirigeants chinois, russe et américain. Elle dit rester en contact avec « les parties concernées » ; sa porte-parole Mao Ning, citée par les médias américains, s'est exprimée sur le sujet [2][4].",
+      "Le Kremlin avait ouvert la voie le 3 novembre en disant qu'un tel sommet était en discussion [3]. Selon les informations reprises par la presse, c'est Vladimir Poutine qui aurait proposé l'idée à Donald Trump lors d'un appel le 9 octobre [1][2].",
+      "Rien n'est fixé, ni la date ni le lieu. L'hypothèse la plus citée est une rencontre en marge du sommet de l'APEC (coopération économique Asie-Pacifique) prévu à Shenzhen du 18 au 19 novembre [1][2].",
+      "D'après une source citée par le Financial Times et relayée par les médias, Washington et Moscou pressent tous deux Pékin d'accepter [2].",
+      "Les analystes interrogés par l'agence AP doutent que les trois dirigeants, aux intérêts opposés, s'entendent sur du concret : la réunion pourrait surtout servir de photo de famille [1]. Donald Trump a dit préférer parler de contrôle des armements nucléaires plutôt que de l'Ukraine [2]."
+    ],
+    "why": [
+      "À retenir : si elle a lieu, NBC la qualifie de rencontre « historique » : les dirigeants des États-Unis, de la Russie et de la Chine ne se sont jamais retrouvés à trois. La confirmation chinoise montre que Pékin accepte de se placer au centre du jeu diplomatique [1][2].",
+      "Pour l'Europe, l'enjeu est direct : l'Ukraine pourrait être discutée sans les Européens autour de la table. Un sommet à trois sans l'UE poserait la question de la place des Européens dans les discussions qui les concernent au premier chef.",
+      "Côté économie, le calendrier est serré : la trêve commerciale entre Washington et Pékin, les terres rares et les sanctions contre la Russie sont tous liés à la relation entre ces trois capitales. Un geste de détente (ou un échec) à Shenzhen pourrait bouger le prix du pétrole, les Bourses et les chaînes d'approvisionnement."
+    ],
+    "forMe": "Si tu vis en Europe, ce qui se décide entre Washington, Moscou et Pékin touche ton énergie, tes prix et la sécurité du continent, même si l'Europe n'est pas invitée. À suivre : le sommet de l'APEC du 18 au 19 novembre.",
+    "next": [
+      {
+        "when": "18-19 novembre",
+        "what": "Sommet de l'APEC à Shenzhen, où une rencontre Xi-Trump-Poutine pourrait se tenir en marge, sans rien d'annoncé à ce stade [1][2]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "18-19 nov.",
+        "label": "sommet de l'APEC à Shenzhen, lieu possible de la rencontre",
+        "src": 1
+      },
+      {
+        "value": "9 oct.",
+        "label": "appel où Poutine aurait proposé l'idée à Trump",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "sanctions"
+    ],
+    "sources": [
+      {
+        "short": "AP via Business Standard",
+        "name": "AP, « China says discussions underway on Xi, Trump and Putin trilateral meeting » (7 novembre 2026)",
+        "url": "https://www.business-standard.com/world-news/china-says-discussions-underway-on-xi-trump-and-putin-trilateral-meeting-126110700050_1.html"
+      },
+      {
+        "short": "NBC News",
+        "name": "NBC News, « China confirms discussions are underway on a historic Xi-Trump-Putin meeting »",
+        "url": "https://www.nbcnews.com/world/china/china-confirms-discussions-are-underway-historic-xi-trump-putin-meetin-rcna607938"
+      },
+      {
+        "short": "The Moscow Times",
+        "name": "The Moscow Times, « Russia, China and U.S. Summit Under Discussion, Kremlin Says » (3 novembre 2026)",
+        "url": "https://www.themoscowtimes.com/2026/11/03/russia-china-and-us-summit-under-discussion-kremlin-says-a94163"
+      },
+      {
+        "short": "Meduza",
+        "name": "Meduza, « China confirms for the first time that it's in talks over a possible Trump-Xi-Putin meeting » (4 novembre 2026)",
+        "url": "https://meduza.io/amp/en/news/2026/11/04/china-confirms-for-the-first-time-that-it-s-in-talks-over-a-possible-trump-xi-putin-meeting"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-ue-chine-coupe-circuit-pekin-menace-xi-stocker",
+    "date": "2026-11-07",
+    "region": "Europe",
+    "theme": "mix",
+    "zones": [
+      "Europe",
+      "Asie"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "name": "Bruxelles, Belgique",
+        "label": "UE-Chine",
+        "coords": [
+          4.35,
+          50.85
+        ]
+      }
+    ],
+    "title": "Commerce UE-Chine : Pékin menace de riposter au « coupe-circuit » européen, et Xi se dit « partenaire » de l'Europe",
+    "summary": "Jeudi à Bruxelles, l'ambassadeur de Chine auprès de l'UE a menacé de représailles si l'Union adopte des mesures unilatérales contre les intérêts chinois. Le lendemain à Pékin, Xi Jinping a répété à Christian Stocker, le chancelier autrichien, que la Chine n'est pas la source des problèmes de l'Europe [1][2][3].",
+    "points": [
+      "Le 5 novembre, lors du 14e Forum Chine-Europe à Bruxelles, l'ambassadeur de Chine auprès de l'UE, Cai Run, a averti que Pékin riposterait si l'Union adoptait des mesures jugées discriminatoires. Il n'a pas précisé la nature des contre-mesures [1].",
+      "Bruxelles prépare un outil surnommé « kill switch » (coupe-circuit) qui lui permettrait de réagir vite quand la décision d'un pays tiers perturbe gravement son marché. Selon Euronews, la France et l'Allemagne l'ont réclamé début octobre [1].",
+      "Les dirigeants de l'UE ont aussi demandé à la Commission des mesures (quotas, droits de douane) contre les importations chinoises dans la chimie et les machines [1].",
+      "Le déséquilibre est massif : Euronews cite 559,4 milliards d'euros de biens chinois importés par l'UE, contre 199,6 milliards d'euros exportés vers la Chine [1].",
+      "Vendredi 6 novembre à Pékin, Xi Jinping a reçu le chancelier autrichien Christian Stocker. Selon les médias d'État chinois, il a dit que la Chine est « un partenaire et un compagnon de route » qui peut aider l'Europe, pas la cause de ses difficultés, et a appelé à régler les frictions commerciales par le dialogue [2][3].",
+      "Christian Stocker a répondu que l'Autriche soutient le développement des relations UE-Chine et souhaite que les deux camps règlent leurs différends par une discussion franche. Pékin propose de coopérer avec Vienne dans l'IA, les voitures électriques, le numérique et l'économie verte [3]."
+    ],
+    "why": [
+      "À retenir : la Chine tient deux discours en même temps, la main tendue à Vienne et la menace à Bruxelles. Elle espère que les pays qui dépendent le moins de ses importations pèseront contre des mesures européennes communes [1][3].",
+      "Le contexte économique explique la tension : les exportations chinoises ont atteint un record de 447,18 milliards de dollars en septembre 2026 (+36,3 % sur un an), dont des puces en hausse de plus de 108 %, selon Al Jazeera. Les industriels européens de la chimie et des machines voient arriver cette marchandise bon marché [4].",
+      "Pour l'UE, l'enjeu est de défendre ses usines sans déclencher une guerre commerciale : Pékin pèse lourd dans les approvisionnements de l'industrie européenne, ce qui rend toute escalade risquée des deux côtés."
+    ],
+    "forMe": "Si tu travailles dans l'industrie (chimie, machines, automobile) ou si tu achètes des produits chinois, ce bras de fer peut jouer sur les prix et sur l'emploi en Europe. Un coupe-circuit européen se traduirait surtout par des droits de douane ou des quotas à la frontière.",
+    "next": [
+      {
+        "when": "10 novembre",
+        "what": "Publication des chiffres du commerce extérieur chinois d'octobre, où l'on verra si la vague d'exportations continue [5]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "559,4 Md €",
+        "label": "biens chinois importés par l'UE (199,6 Md € exportés)",
+        "src": 1
+      },
+      {
+        "value": "+36,3 %",
+        "label": "exportations chinoises en septembre 2026, un record",
+        "src": 4
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "droits-de-douane"
+    ],
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Pékin menace l'UE de représailles face à ses projets de protection du marché » (6 novembre 2026)",
+        "url": "https://fr.euronews.com/2026/11/06/pekin-menace-lue-de-represailles-face-a-ses-projets-de-protection-du-marche"
+      },
+      {
+        "short": "Anadolu",
+        "name": "Anadolu, « China is Europe's partner, not source of its problems: Xi » (6 novembre 2026)",
+        "url": "https://www.aa.com.tr/en/asia-pacific/china-is-europes-partner-not-source-of-its-problems-xi/4114336"
+      },
+      {
+        "short": "Ambassade de Chine",
+        "name": "Ambassade de Chine aux États-Unis, « President Xi Jinping Meets with Austrian Chancellor Christian Stocker » (6 novembre 2026)",
+        "url": "https://us.china-embassy.gov.cn/eng/zgyw/202611/t20261106_12055104.htm"
+      },
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « China's exports surge amid AI-driven demand » (14 octobre 2026)",
+        "url": "https://www.aljazeera.com/economy/2026/10/14/chinas-exports-sugrge"
+      },
+      {
+        "short": "Trading Economics",
+        "name": "Trading Economics, calendrier du commerce extérieur chinois (publication d'octobre prévue le 10 novembre 2026)",
+        "url": "https://tradingeconomics.com/china/exports-yoy"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-fmi-zone-euro-regles-budgetaires-assouplissement",
+    "date": "2026-11-07",
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Washington, États-Unis",
+        "label": "FMI",
+        "coords": [
+          -77.04,
+          38.9
+        ]
+      }
+    ],
+    "title": "Le FMI met l'Europe en garde : assouplir encore les règles budgétaires de la zone euro serait une erreur",
+    "summary": "Le Fonds monétaire international (FMI) estime que la zone euro doit durcir sa gestion des finances publiques plutôt que de relâcher ses règles budgétaires, alors que des pays touchés par la crise énergétique, dont l'Italie de Giorgia Meloni, réclament plus de flexibilité [1].",
+    "points": [
+      "Vendredi 6 novembre, Euronews a rapporté l'avertissement du FMI contre un nouvel assouplissement des règles budgétaires de la zone euro. L'institution juge que l'Union doit plutôt consolider ses finances publiques [1].",
+      "Une procédure de déficit excessif, assortie d'un ajustement de 1,5 %, est déjà en place dans l'ensemble du bloc, avec une marge accordée pour les dépenses de défense [1].",
+      "Les pays les plus touchés par la crise énergétique, dont l'Italie de Giorgia Meloni, demandent davantage de flexibilité [1].",
+      "Dans un rapport présenté à Bangkok le 16 octobre, le FMI estimait qu'environ trois quarts des pays européens devaient resserrer leur discipline budgétaire, avec un ajustement moyen d'environ 3,5 % du PIB, alors que les plans négociés avec la Commission en prévoient en moyenne environ 2 % [2].",
+      "Le marché de la dette est déjà sous tension : le rendement de l'OAT française à 10 ans est monté jusqu'à 5,07 % en séance le 21 octobre, selon Saxo, et l'écart avec le Bund allemand est resté très supérieur à 100 points de base depuis fin septembre [3][4]."
+    ],
+    "why": [
+      "À retenir : deux logiques s'opposent. D'un côté, des gouvernements qui veulent dépenser pour amortir le choc énergétique et réarmer ; de l'autre, le FMI, qui craint qu'un cadre trop souple fasse monter les taux auxquels les États empruntent [1][2].",
+      "Les règles budgétaires européennes servent à rassurer les prêteurs : elles limitent le déficit et la dette. Quand les investisseurs doutent d'un pays, ils exigent un taux plus élevé pour lui prêter, et la charge de la dette augmente, ce qui est le cas de la France en ce moment [3][4].",
+      "Le débat touche aussi la BCE, qui n'a pas la même urgence quand les États s'endettent plus : si les gouvernements relancent, la banque centrale peut devoir relever ses taux plus fort contre l'inflation (4 % en octobre dans la zone euro)."
+    ],
+    "forMe": "Si tu es citoyen français, ces règles décident en partie du budget de l'État, donc des impôts, des services publics et du taux de ton futur crédit immobilier. Si l'Europe assouplit, la dette grimpe ; si elle serre, la facture peut tomber sur les dépenses publiques.",
+    "next": [],
+    "figures": [
+      {
+        "value": "≈ 3,5 % du PIB",
+        "label": "ajustement moyen jugé nécessaire par le FMI (plans : ≈ 2 %)",
+        "src": 2
+      },
+      {
+        "value": "5,07 %",
+        "label": "rendement maximal de l'OAT à 10 ans le 21 octobre",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "is-lm"
+    ],
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Le FMI met en garde contre un nouvel assouplissement des règles budgétaires de la zone euro » (6 novembre 2026)",
+        "url": "https://fr.euronews.com/2026/11/06/le-fmi-met-en-garde-contre-un-nouvel-assouplissement-des-regles-budgetaires-de-la-zone-eur"
+      },
+      {
+        "short": "Entrevue",
+        "name": "Entrevue, « Dette publique : le FMI lance un avertissement à l'Europe et réclame des réformes économiques urgentes »",
+        "url": "https://entrevue.fr/economie/dette-publique-le-fmi-lance-un-avertissement-a-leurope-et-reclame/"
+      },
+      {
+        "short": "Saxo",
+        "name": "Saxo, « OAT 10 ans » (22 octobre 2026)",
+        "url": "https://www.home.saxo/fr-fr/content/articles/macro/oat-10y-22102026"
+      },
+      {
+        "short": "Option Finance",
+        "name": "Option Finance, « France : le risque souverain retrouve ses niveaux de la crise de la dette européenne » (1er octobre 2026)",
+        "url": "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-10-01-france-le-risque-souverain-retrouve-ses-niveaux-de-la-crise-de-la-dette-europeenne.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-france-quatrieme-samedi-mobilisation-vie-chere",
+    "date": "2026-11-07",
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Paris, France",
+        "label": "France",
+        "coords": [
+          2.35,
+          48.86
+        ]
+      }
+    ],
+    "title": "France : quatrième samedi de mobilisation contre la vie chère, deux jours avant la conférence sociale de Matignon",
+    "summary": "Une centaine de manifestations sont prévues ce samedi 7 novembre en France contre la vie chère et pour la jeunesse, pour le quatrième samedi de suite, deux jours avant la conférence sociale annoncée par le Premier ministre Sébastien Lecornu [1][2].",
+    "points": [
+      "Selon Euronews, environ une centaine de rassemblements sont organisés ce samedi dans le pays, quatrième samedi consécutif de mobilisation [1].",
+      "À Paris, l'intersyndicale (CGT, FO, FSU, Solidaires, CFDT) et les organisations de jeunesse (Union étudiante, Fage, Unef, USL) appellent à défiler entre République et Nation à partir de 14 h, sous le mot d'ordre « contre la vie chère et pour la jeunesse » [2].",
+      "Les gilets jaunes maintiennent de leur côté un rassemblement non autorisé place de la Concorde [2].",
+      "La journée de jeudi avait réuni à Paris environ 350 000 personnes selon la CGT et 65 000 selon le ministère de l'Intérieur : l'écart entre les deux chiffres reste énorme [2].",
+      "Lundi 9 novembre, Sébastien Lecornu réunit syndicats et patronat à Matignon pour une conférence sociale, sans hausse du Smic arrêtée à ce stade [1]."
+    ],
+    "why": [
+      "À retenir : la mobilisation dure parce que les prix pèsent sur les ménages et que la réponse du gouvernement n'est pas encore connue. Les syndicats arrivent à la conférence sociale avec un rapport de force : quatre samedis et une grande journée de grève en cinq jours [1][2].",
+      "Les étudiants et lycéens rejoignent le mouvement : c'est ce qui change par rapport aux grèves habituelles, car la jeunesse porte la question des loyers, du coût de la vie et de l'emploi [2].",
+      "Pour l'exécutif, la marge est étroite : le déficit commercial et la dette française inquiètent les marchés, ce qui limite les hausses de dépenses (salaires, aides) qu'il peut accorder sans dégrader encore le budget."
+    ],
+    "forMe": "Si tu vis en France, ces manifestations peuvent déboucher sur des décisions qui te concernent directement : salaire minimum, aides au logement, prix de l'énergie. Les cortèges peuvent aussi perturber les transports ce samedi à Paris.",
+    "next": [
+      {
+        "when": "Lundi 9 novembre",
+        "what": "Conférence sociale réunissant syndicats et patronat à Matignon [1]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "≈ 100",
+        "label": "manifestations prévues ce samedi en France",
+        "src": 1
+      },
+      {
+        "value": "350 000 / 65 000",
+        "label": "manifestants à Paris jeudi, selon la CGT / le ministère",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « France : nouvelle journée de manifestations ce samedi » (7 novembre 2026)",
+        "url": "https://fr.euronews.com/2026/11/07/france-nouvelle-journee-de-manifestations-ce-samedi"
+      },
+      {
+        "short": "ICI",
+        "name": "ICI (France Bleu), « Mobilisation du 7 novembre : à quoi faut-il s'attendre à Paris ? »",
+        "url": "https://www.ici.fr/ile-de-france/paris-75/paris/mobilisation-du-7-novembre-a-quoi-faut-il-s-attendre-a-paris-2720540"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-07-ukraine-zelensky-madrid-amerique-latine-reseau-electrique",
+    "date": "2026-11-07",
+    "region": "Europe",
+    "theme": "geo",
+    "zones": [
+      "Europe",
+      "Amérique latine"
+    ],
+    "geo": [
+      {
+        "name": "Madrid, Espagne",
+        "label": "Zelensky à Madrid",
+        "coords": [
+          -3.7,
+          40.42
+        ]
+      }
+    ],
+    "title": "À Madrid, Zelensky demande à l'Amérique latine des transformateurs et des câbles pour sauver le réseau électrique ukrainien",
+    "summary": "En visite à Madrid, en marge du sommet ibéro-américain, Volodymyr Zelensky a lancé un appel urgent aux dirigeants latino-américains : transformateurs du Brésil, du Mexique, d'Argentine et de Colombie, câbles du Chili, générateurs d'Espagne, pour éviter l'effondrement du réseau ukrainien [1][2].",
+    "points": [
+      "Volodymyr Zelensky est arrivé en Espagne cette semaine, à l'occasion de la 30e Cumbre Iberoamericana, et a vu le chef du gouvernement Pedro Sánchez [2][3].",
+      "Devant les dirigeants de la région, il a demandé de l'aide « le plus vite possible » pour sauver le réseau électrique de l'Ukraine des attaques russes incessantes. Il cherche des transformateurs (Brésil, Mexique, Argentine, Colombie), des câbles (Chili), des générateurs et du matériel électrique (Espagne) [2].",
+      "Il a demandé aux gouvernements de mettre ses équipes en contact direct avec les fabricants pour accélérer les livraisons, car le matériel doit correspondre aux normes du réseau ukrainien [2].",
+      "Il a aussi reçu le roi Felipe VI, auquel il a présenté ses condoléances après la collision ferroviaire près de Tolède, et s'est entretenu avec le secrétaire général de l'ONU, António Guterres. Sur le plan militaire, il a de nouveau réclamé des missiles Patriot [2].",
+      "Selon Euronews, le président argentin Javier Milei a boycotté la cérémonie d'ouverture et le dîner d'État, et n'est venu qu'à la séance plénière, un camouflet pour l'hôte Pedro Sánchez, à trois semaines des élections générales espagnoles du 29 novembre [2].",
+      "Sur le terrain, de nouvelles frappes russes ont touché Kyiv ce samedi : cinq blessés, un pont et des infrastructures énergétiques endommagés [4]."
+    ],
+    "why": [
+      "À retenir : l'Ukraine élargit sa recherche d'aide au-delà de l'Europe et des États-Unis. L'Amérique latine produit des transformateurs et des câbles, et ces pièces manquent à Kyiv à l'approche de l'hiver [2].",
+      "La visite montre aussi les divisions du camp occidental : Milei, proche de Washington, snobe la cérémonie d'un gouvernement de gauche, ce qui rappelle que la guerre en Ukraine se mêle aux querelles politiques internes de chaque pays [2].",
+      "Le sujet est économique : chaque frappe sur le réseau coûte de la production industrielle, de l'activité et des exportations à l'Ukraine, et pousse les pays alliés à financer des équipements plutôt que des armes."
+    ],
+    "forMe": "Si tu vis en Europe, un réseau ukrainien à terre pousse des millions de réfugiés supplémentaires à fuir vers l'ouest cet hiver. Cela pèse aussi sur la demande d'aide financière à l'UE.",
+    "next": [
+      {
+        "when": "29 novembre",
+        "what": "Élections générales en Espagne, que cette visite et le sommet ibéro-américain précèdent de peu [2]."
+      }
+    ],
+    "figures": [
+      {
+        "value": "5",
+        "label": "blessés dans les frappes russes sur Kyiv ce samedi",
+        "src": 4
+      },
+      {
+        "value": "29 nov.",
+        "label": "élections générales en Espagne",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « À Madrid, Zelensky lance un appel urgent à l'aide pour sauver le réseau électrique ukrainien » (6 novembre 2026)",
+        "url": "https://fr.euronews.com/2026/11/06/a-madrid-zelensky-lance-un-appel-urgent-a-laide-pour-sauver-le-reseau-electrique-ukrainien"
+      },
+      {
+        "short": "Euronews (en)",
+        "name": "Euronews, « Zelenskyy urges Latin American leaders to help repair Ukraine's power grid » (6 novembre 2026)",
+        "url": "https://www.euronews.com/2026/11/06/zelenskyy-urges-latin-american-leaders-to-help-repair-ukraines-power-grid"
+      },
+      {
+        "short": "Tribuna",
+        "name": "Tribuna, « El presidente Zelenski llega a España en visita oficial por la Cumbre Iberoamericana » (5 novembre 2026)",
+        "url": "https://tribuna.com.mx/politica-y-economia/2026/11/05/el-presidente-zelenski-llega-a-espana-en-visita-oficial-por-la-cumbre-iberoamericana_711249/"
+      },
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Frappes russes sur Kyiv : cinq blessés, un pont et des infrastructures énergétiques endommagés » (7 novembre 2026)",
+        "url": "https://fr.euronews.com/2026/11/07/frappes-russes-sur-kyiv-cinq-blesses-un-pont-et-des-infrastructures-energetiques-endommage"
+      }
+    ]
+  },
+  {
     "id": "2026-11-07-fin-petrole-brent-recule-13-pourcent-semaine",
     "date": "2026-11-07",
     "region": "Moyen-Orient",
@@ -845,6 +1228,137 @@ window.GEOCO.news = [
     ]
   },
   {
+    "id": "2026-11-07-fin-rebond-ia-wall-street-vix-credit",
+    "date": "2026-11-07",
+    "region": "Amériques",
+    "theme": "fin",
+    "zones": [
+      "Amérique du Nord",
+      "Europe",
+      "Asie"
+    ],
+    "geo": [
+      {
+        "name": "Wall Street, États-Unis",
+        "label": "Rebond après le krach IA",
+        "coords": [
+          -74.01,
+          40.71
+        ]
+      }
+    ],
+    "title": "Après le krach de l'IA, Wall Street rebondit, mais l'assurance contre les défauts de crédit s'envole : les signaux d'alarme restent orange",
+    "summary": "Après la chute de jeudi (Nasdaq 100 : −6,4 %, 2 300 milliards de dollars de capitalisation effacés), Wall Street a rebondi vendredi, mais l'indice de la peur reste élevé et la hausse de l'assurance contre les défauts est, selon Reuters, le signal d'alarme le plus net [1][2][3].",
+    "points": [
+      "Jeudi 5 novembre, le Nasdaq 100 a chuté de 6,4 % à 26 629,81 points, selon Saxo, soit environ 2 300 milliards de dollars de valeur boursière effacés selon NBC et Yahoo Finance. Le Nasdaq Composite a lâché 5,31 % et le S&P 500 4,24 % [1][2][3].",
+      "Vendredi, le Nasdaq 100 a regagné près de 2 % (Reuters) ; le S&P 500 a fini à 7 376,86 points (+0,31 %) selon Yahoo Finance, tandis que le Dow Jones reculait d'environ 0,4 % après un chiffre d'emploi américain plus fort que prévu, qui a fait monter les rendements [2][3].",
+      "Le VIX, l'indice de la peur, avait dépassé 28 jeudi, son plus haut depuis fin mars, en hausse de plus de 40 % sur la semaine selon Reuters ; il est redescendu à 24,31 vendredi [2][3].",
+      "Selon Reuters, des indicateurs de stress sont à l'orange sans être au rouge. Le plus inquiétant est le crédit : les investisseurs achètent beaucoup plus d'assurances contre un défaut de paiement d'emprunteurs [2].",
+      "Les puces ont rebondi : AMD a gagné 10,77 % après sa chute de la veille [4]. La couverture de presse relie la chute aux élections de mi-mandat : un Congrès démocrate pourrait scruter de plus près le secteur de l'IA et freiner la construction de centres de données [2]."
+    ],
+    "why": [
+      "À retenir : un rebond d'un jour ne règle rien. Les marchés ont vu qu'une grande partie de leurs gains récents reposait sur l'IA, et la question est de savoir si la hausse était justifiée par les bénéfices ou par l'enthousiasme [2].",
+      "Le crédit est le baromètre à suivre : quand des investisseurs achètent de la protection contre les défauts, ils craignent que des entreprises très endettées pour financer leurs investissements en IA peinent à rembourser. Reuters précise toutefois que le saut du VIX reste modéré face à celui d'août 2024 ou d'avril 2025 [2].",
+      "Les taux comptent aussi : un emploi américain solide fait monter les rendements, donc le coût du crédit, ce qui pèse sur les valeurs dont les profits sont attendus loin dans le futur."
+    ],
+    "forMe": "Si tu as une assurance-vie, un PEA ou un ETF monde, tu portes indirectement ces géants de la technologie : leur chute se voit sur ton relevé. Pour comprendre, pas pour décider : une forte volatilité n'est pas une raison de conseiller d'acheter ou de vendre.",
+    "next": [],
+    "figures": [
+      {
+        "value": "−6,4 %",
+        "label": "Nasdaq 100 jeudi 5 novembre",
+        "src": 1
+      },
+      {
+        "value": "28 → 24",
+        "label": "le VIX (jeudi, puis vendredi)",
+        "src": 3
+      },
+      {
+        "value": "2 300 Md $",
+        "label": "valeur boursière effacée jeudi",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : le VIX et l'assurance contre les défauts",
+        "text": "Le VIX mesure la volatilité que les investisseurs anticipent sur le S&P 500 pour les trente jours à venir : il se déduit du prix des options, c'est-à-dire des contrats d'assurance contre une baisse. Quand la peur monte, ces assurances coûtent plus cher et le VIX grimpe [2]. Le crédit a son propre baromètre : les « credit default swaps » (CDS), des contrats qui paient l'acheteur si un emprunteur ne rembourse pas. Si leur prix monte, c'est que les investisseurs voient plus de risques de faillite. Quand le VIX et les CDS montent ensemble, la panique ne reste pas dans les actions, elle touche le financement des entreprises [2]."
+      }
+    },
+    "past": {
+      "title": "Les précédents : quand la peur a gagné les marchés",
+      "items": [
+        {
+          "when": "5 août 2024",
+          "what": "Le VIX dépasse 65 en cours de séance, son plus haut depuis 2020, et le Nikkei perd environ 12 % [5]. La Banque des règlements internationaux attribue le stress au débouclage des « carry trades » financés en yens [6].",
+          "lesson": "Une panique de quelques jours causée par la technique des marchés (positions financées en yens) : la tempête est retombée vite [6]."
+        },
+        {
+          "when": "3 avril 2025",
+          "what": "Après l'annonce des droits de douane « Liberation Day », le S&P 500 chute de 4,84 % en une séance ; il ne repasse en hausse sur l'année que le 13 mai [7].",
+          "lesson": "Il a fallu environ six semaines pour effacer la perte de l'année : le choc venait de la politique commerciale, pas d'un problème de bénéfices [7]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "Séance du vendredi 6 novembre à Wall Street [3][4].",
+      "items": [
+        {
+          "name": "AMD",
+          "ticker": "AMD",
+          "move": "+10,77 %",
+          "why": "Rebond après la chute de la veille sur les puces, selon TheStreet [4]."
+        },
+        {
+          "name": "Nasdaq 100",
+          "ticker": "NDX",
+          "move": "≈ +2 %",
+          "why": "Regagne une partie de la chute de plus de 6 % de jeudi, selon Reuters [2]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Saxo",
+        "name": "Saxo, « Market Quick Take - AI chip rout spreads from Wall Street to Asia » (6 novembre 2026)",
+        "url": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---ai-chip-rout-spreads-from-wall-street-to-asia---6-november-2026-06112026"
+      },
+      {
+        "short": "Reuters (Investing.com)",
+        "name": "Reuters via Investing.com, « AI rout sets off market alarm signals as traders brace for what's next »",
+        "url": "https://www.investing.com/news/economy-news/ai-rout-sets-off-market-alarm-signals-as-traders-brace-for-whats-next-5008902"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « Stock Market Today (Nov. 6, 2026): Nasdaq, S&P 500 rise after midterms AI rout »",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-6-144816072.html"
+      },
+      {
+        "short": "TheStreet",
+        "name": "TheStreet, « Stock Market Today (Nov. 6, 2026) »",
+        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-06-2026"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Stock market news for August 5, 2024 »",
+        "url": "https://www.cnbc.com/2024/08/04/stock-market-today-live-updates.html"
+      },
+      {
+        "short": "BIS",
+        "name": "Banque des règlements internationaux, « The market turbulence and carry trade unwind of August 2024 » (Bulletin n° 90)",
+        "url": "https://www.bis.org/publications/bulletin-90-market-turbulence-and-carry-trade-unwind-august-2024.pdf"
+      },
+      {
+        "short": "Wikipédia",
+        "name": "Wikipédia, « 2025 stock market crash »",
+        "url": "https://en.wikipedia.org/wiki/2025_stock_market_crash"
+      }
+    ]
+  },
+  {
     "id": "2026-11-07-mexique-banxico-baisse-taux-6-25",
     "date": "2026-11-07",
     "level": 2,
@@ -1175,6 +1689,362 @@ window.GEOCO.news = [
         "short": "FMI",
         "name": "Fonds monétaire international, page d'accueil (accord au niveau des services avec le Burkina Faso, 4 novembre 2026)",
         "url": "https://www.imf.org/fr/home"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "level": 2,
+    "next": [],
+    "culture": [],
+    "dossiers": [],
+    "id": "2026-11-07-maroc-gasoil-aide-transporteurs-prolongee",
+    "region": "Afrique",
+    "theme": "eco",
+    "zones": [
+      "Afrique",
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Rabat, Maroc",
+        "label": "Maroc",
+        "coords": [
+          -6.84,
+          34.02
+        ]
+      }
+    ],
+    "title": "Maroc : le gasoil repart à la hausse, et le gouvernement prolonge l'aide aux transporteurs",
+    "summary": "Le gouvernement marocain a annoncé lundi 2 novembre la poursuite de son soutien exceptionnel et direct aux transporteurs, sur quinze jours de plus, alors que le prix du gasoil a de nouveau monté depuis le 1er novembre [1][2].",
+    "points": [
+      "La nouvelle tranche d'aide couvre une période supplémentaire de quinze jours, pour les professionnels du transport routier de voyageurs et de marchandises. Les inscriptions ouvrent le 10 novembre sur une plateforme électronique dédiée, selon l'agence MAP [1][2].",
+      "Le gasoil coûte plus cher depuis le 1er novembre. L'aide, réactivée en mars 2026 dans le contexte des tensions au Moyen-Orient, ne change pas directement les prix à la pompe : elle compense les transporteurs, pas les automobilistes [2][3].",
+      "Le dispositif existe depuis 2022 ; le montant cumulé versé avoisinerait 11 milliards de dirhams, selon le ministre du Transport et de la Logistique [3]. Les opérateurs restent inquiets de la durée de ce soutien [3]."
+    ],
+    "why": [
+      "À retenir : le Maroc importe son carburant, donc la crise au Moyen-Orient se lit directement sur ses prix. En payant les transporteurs, l'État évite que la hausse du gasoil se répercute sur le prix des légumes, des fruits et des voyages [2][3].",
+      "Le coût budgétaire s'accumule, quinze jours après quinze jours : c'est la limite de cette politique."
+    ],
+    "forMe": "Si tu as de la famille au Maroc ou si tu y voyages, les prix du transport et des produits frais dépendent de cette aide. Pour un lecteur français, c'est un exemple de ce que la crise du pétrole fait à un pays importateur.",
+    "figures": [
+      {
+        "value": "15 jours",
+        "label": "durée de la nouvelle tranche d'aide",
+        "src": 1
+      },
+      {
+        "value": "≈ 11 Md MAD",
+        "label": "montant cumulé versé depuis 2022, selon le ministre",
+        "src": 3
+      }
+    ],
+    "sources": [
+      {
+        "short": "Gouvernement du Maroc",
+        "name": "Gouvernement du Maroc (maroc.ma), « Hausse des prix des produits pétroliers : poursuite du soutien exceptionnel et direct destiné aux professionnels du transport routier »",
+        "url": "https://maroc.ma/fr/actualites/hausse-des-prix-des-produits-petroliers-poursuite-du-soutien-exceptionnel-et-direct-destine-aux"
+      },
+      {
+        "short": "Maghreb Émergent",
+        "name": "Maghreb Émergent, « Maroc : le gasoil flambe, le gouvernement prolonge les aides aux transporteurs »",
+        "url": "https://maghrebemergent.news/fr/maroc-le-gasoil-flambe-le-gouvernement-prolonge-les-aides-aux-transporteurs/"
+      },
+      {
+        "short": "Le Desk",
+        "name": "Le Desk, « Nouvelle aide au transport : la relance des subventions n'efface pas les craintes des opérateurs »",
+        "url": "https://ledesk.ma/enclair/nouvelle-aide-au-transport-la-relance-des-subventions-nefface-pas-les-craintes-des-operateurs/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "level": 2,
+    "next": [],
+    "culture": [],
+    "dossiers": [],
+    "id": "2026-11-07-algerie-tomate-280-dinars-prix",
+    "region": "Afrique",
+    "theme": "eco",
+    "zones": [
+      "Afrique"
+    ],
+    "geo": [
+      {
+        "name": "Alger, Algérie",
+        "label": "Algérie",
+        "coords": [
+          3.06,
+          36.75
+        ]
+      }
+    ],
+    "title": "Algérie : la tomate à 250-280 dinars le kilo, une flambée des prix qui dure depuis septembre",
+    "summary": "En Algérie, la tomate de bonne qualité se vend entre 250 et 280 dinars le kilo sur les marchés de gros et de détail, selon Maghreb Émergent. La hausse a commencé en septembre et ne ralentit pas, malgré un plan de l'État pour faire baisser les prix [1][2].",
+    "points": [
+      "Selon Maghreb Émergent (4 novembre), la tomate de bonne qualité atteint 250 à 280 dinars le kilo sur les marchés, et 260 à 280 dans les magasins de fruits et légumes. Le média parle d'une flambée « historique » [1].",
+      "La hausse a commencé en septembre et ne ralentit pas, toujours d'après le média algérien [1].",
+      "Algérie360 évoque un plan de l'État pour faire chuter le prix de la tomate, après que le kilo a dépassé les 280 dinars [2]."
+    ],
+    "why": [
+      "À retenir : la tomate est un produit de base de la cuisine algérienne, et sa flambée se lit directement dans le budget des ménages. Le gouvernement multiplie les mesures (plafonnement du prix de la pomme de terre à 90 dinars le kilo début octobre, selon RFI) pour contenir l'inflation alimentaire [2].",
+      "Le mot « historique » est celui du média : les sources ne datent pas toutes précisément cette vague, et d'autres épisodes de forte hausse ont déjà eu lieu."
+    ],
+    "forMe": "Pour un lecteur français, c'est un rappel que la hausse des prix alimentaires touche aussi le sud de la Méditerranée, comme la hausse des produits frais en Europe.",
+    "figures": [
+      {
+        "value": "250-280 DA",
+        "label": "prix du kilo de tomate de bonne qualité",
+        "src": 1
+      }
+    ],
+    "sources": [
+      {
+        "short": "Maghreb Émergent",
+        "name": "Maghreb Émergent, « Prix de la tomate en Algérie : le kilogramme atteint 280 dinars, une flambée historique » (4 novembre 2026)",
+        "url": "https://maghrebemergent.news/fr/prix-de-la-tomate-en-algerie-le-kilogramme-atteint-280-dinars-une-flambee-historique/"
+      },
+      {
+        "short": "Algérie360",
+        "name": "Algérie360, « Elle a dépassé les 280 DA/kg : voici le plan de l'État pour faire chuter le prix de la tomate »",
+        "url": "https://www.algerie360.com/elle-a-depasse-les-280-da-kg-voici-le-plan-de-letat-pour-faire-chuter-le-prix-de-la-tomate/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "level": 2,
+    "next": [],
+    "culture": [],
+    "dossiers": [],
+    "id": "2026-11-07-perou-depasse-chili-pib-fmi",
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique latine"
+    ],
+    "geo": [
+      {
+        "name": "Lima, Pérou",
+        "label": "Pérou",
+        "coords": [
+          -77.04,
+          -12.05
+        ]
+      }
+    ],
+    "title": "Amérique latine : le Pérou s'apprête à passer devant le Chili en taille d'économie, selon le FMI",
+    "summary": "Selon les projections d'octobre du FMI, le PIB nominal du Chili (402,2 milliards de dollars) ne devance plus celui du Pérou (399,6 milliards) que de 2,65 milliards en 2026, et le Pérou passerait devant en 2027 [1][2].",
+    "points": [
+      "Dans la mise à jour du FMI du 12 octobre, le PIB nominal du Chili atteint 402 243 millions de dollars et celui du Pérou 399 593 millions, soit un écart de 2 650 millions [1][2].",
+      "Pour 2027, le FMI projette 413 597 millions de dollars pour le Pérou, contre 413 443 millions pour le Chili : le Pérou passerait devant, de peu [2].",
+      "La croissance explique le rattrapage : en 2026 le FMI prévoit +3 % au Pérou et +0,6 % au Chili (contre 2,4 % annoncés en avril pour ce dernier), puis +2,9 % et +2,6 % en 2027 [2][3]."
+    ],
+    "why": [
+      "À retenir : cela fait presque quarante ans que le Chili est devant ; 1989 est la dernière année où le Pérou l'avait dépassé, selon un média péruvien [2]. Le titre du quotidien chilien La Tercera du 7 novembre l'annonce sans détour.",
+      "Attention : le PIB nominal ne dit rien du niveau de vie par habitant, qui reste plus élevé au Chili [2]."
+    ],
+    "forMe": "Si tu suis l'économie mondiale, cela montre que les pays riches en cuivre et en minerais ne profitent pas tous de la même façon des cours des matières premières : le Pérou, plus stable, rattrape son voisin.",
+    "figures": [
+      {
+        "value": "2,65 Md $",
+        "label": "écart de PIB nominal Chili-Pérou en 2026 (FMI)",
+        "src": 2
+      },
+      {
+        "value": "+3 % / +0,6 %",
+        "label": "croissance 2026 du Pérou / du Chili (FMI)",
+        "src": 3
+      }
+    ],
+    "sources": [
+      {
+        "short": "CNN Chile",
+        "name": "CNN Chile, « FMI prevé PIB nominal de Chile superará US$ 400.000 millones este año »",
+        "url": "https://www.cnnchile.com/negocios/fmi-preve-pib-nominal-chile-superara-us-400000-millones-este-ano-alcanzara-us-519000-millones-2031/"
+      },
+      {
+        "short": "Perú Retail",
+        "name": "Perú Retail, « Economía peruana podría superar a la chilena en 2027 después de 38 años según el FMI »",
+        "url": "https://www.peru-retail.com/economia-peruana-podria-superar-a-la-chilena-en-2027-despues-de-38-anos-segun-el-fmi/"
+      },
+      {
+        "short": "T13",
+        "name": "T13, « FMI recorta proyección de crecimiento de Chile a 0,6 % » (13 octobre 2026)",
+        "url": "https://www.t13.cl/amp/noticia/nacional/fmi-recorta-proyeccion-crecimiento-chile-0-6-asi-quedaron-resto-las-economias-s-13-10-2026"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "level": 2,
+    "next": [],
+    "culture": [],
+    "dossiers": [],
+    "id": "2026-11-07-espagne-urda-parquet-europeen-fraude-fonds",
+    "region": "Europe",
+    "theme": "mix",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Urda, Espagne",
+        "label": "Espagne",
+        "coords": [
+          -3.72,
+          39.43
+        ]
+      }
+    ],
+    "title": "Espagne : après la collision de trains d'Urda, le Parquet européen enquête sur d'éventuelles fraudes aux fonds de la ligne Madrid-Séville",
+    "summary": "Le Parquet européen (EPPO) a ouvert une enquête sur d'éventuelles fraudes aux aides européennes destinées à la rénovation de la ligne à grande vitesse Madrid-Séville, après la collision d'Urda, près de Tolède. Aucune fraude n'est établie à ce stade [1][2].",
+    "points": [
+      "Selon Euronews, l'EPPO cherche des irrégularités dans l'usage des fonds européens prévus pour moderniser la ligne. Des mesures d'enquête sont menées au siège de l'Adif, le gestionnaire public du réseau, et dans d'autres organismes publics. Le parquet n'a cité aucune entreprise ni aucun contrat [1][2].",
+      "Une première procédure sur la même ligne avait été ouverte en mars, après l'accident de janvier en Andalousie, qui avait fait 46 morts [1].",
+      "Le bilan cité pour la collision d'Urda est de 69 morts. Les médias ne s'accordent pas sur la date de l'accident (28 octobre ou 2 novembre), et la presse précise que les soupçons financiers ne sont pas liés, à ce stade, aux causes techniques [1][2]."
+    ],
+    "why": [
+      "À retenir : l'Espagne a reçu des milliards d'euros de fonds de relance pour ses infrastructures, et un drame ferroviaire pose la question du contrôle de cet argent. L'enquête européenne montre que Bruxelles surveille l'usage de ses fonds [1][2].",
+      "Le sujet est politique : l'accident survient trois semaines avant les élections générales du 29 novembre, ce qui rend le dossier sensible pour le gouvernement."
+    ],
+    "forMe": "Si tu prends le train en Europe, l'enquête rappelle que la sécurité dépend de l'entretien des lignes, donc de l'argent investi dans les infrastructures. Pour le contribuable européen, c'est une affaire de bon usage des fonds de l'UE.",
+    "figures": [
+      {
+        "value": "69",
+        "label": "morts dans la collision d'Urda, bilan cité",
+        "src": 1
+      },
+      {
+        "value": "46",
+        "label": "morts dans l'accident de janvier en Andalousie",
+        "src": 1
+      }
+    ],
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « EU prosecutors probe fraud claims over funds for Spanish rail line hit by deadly crash » (6 novembre 2026)",
+        "url": "https://www.euronews.com/2026/11/06/eu-prosecutors-probe-fraud-claims-over-funds-for-spanish-rail-line-hit-by-deadly-crash"
+      },
+      {
+        "short": "franceinfo",
+        "name": "franceinfo, « Le Parquet européen lance une enquête sur d'éventuelles fraudes aux aides après le drame ferroviaire d'Urda »",
+        "url": "https://www.franceinfo.fr/monde/espagne/accident-de-trains-pres-de-tolede/le-parquet-europeen-lance-une-enquete-sur-d-eventuelles-fraudes-aux-aides-apres-le-drame-ferroviaire-d-urda_8270771.html"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "level": 2,
+    "next": [],
+    "culture": [],
+    "dossiers": [],
+    "id": "2026-11-07-france-intemperies-corse-inondations-deux-morts",
+    "region": "Europe",
+    "theme": "mix",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "name": "Porto-Vecchio, France",
+        "label": "Corse",
+        "coords": [
+          9.28,
+          41.59
+        ]
+      }
+    ],
+    "title": "Corse : deux morts dans les inondations, la voiture d'un couple emportée entre Porto-Vecchio et Bonifacio",
+    "summary": "Deux personnes de plus de 70 ans sont mortes dans la nuit du jeudi 5 au vendredi 6 novembre en Corse-du-Sud, après que leur voiture a été emportée par les inondations. Le Gard et l'Hérault ont aussi été touchés par les intempéries [1][2].",
+    "points": [
+      "Selon la préfecture, la voiture, à bord de laquelle se trouvaient trois personnes, a été emportée vers 1 h du matin sur la RT10, entre Porto-Vecchio et Bonifacio. Leur fille a survécu [2].",
+      "La préfecture a mis à l'abri 80 personnes dans un gymnase de Porto-Vecchio et activé une cellule de crise. Les secours ont mené 43 interventions dans la nuit et mis 32 personnes en sécurité dans le sud de l'île [2].",
+      "Selon Météo-France, le plus gros des intempéries semblait passé vendredi matin, la perturbation se décalant vers l'Italie. Un épisode précédent, le 20 octobre, avait déjà fait des victimes en Corse [2]."
+    ],
+    "why": [
+      "À retenir : les épisodes méditerranéens violents se répètent dans le sud de la France, avec un coût humain et des dégâts sur les routes et les habitations. Deux épisodes mortels en moins de trois semaines en Corse relancent le débat sur la prévention et l'indemnisation [1][2].",
+      "Pour les assureurs et l'État, chaque épisode s'ajoute à la facture du régime des catastrophes naturelles."
+    ],
+    "forMe": "Si tu vis ou si tu passes dans le sud de la France en automne, ces épisodes se produisent vite : en cas de vigilance orange ou rouge, évite la route et ne traverse jamais une zone inondée en voiture.",
+    "figures": [
+      {
+        "value": "2",
+        "label": "morts, en Corse-du-Sud",
+        "src": 2
+      },
+      {
+        "value": "80",
+        "label": "personnes mises à l'abri à Porto-Vecchio",
+        "src": 2
+      }
+    ],
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Intempéries : deux morts en Corse dans des inondations, le Gard et l'Hérault également touchés » (6 novembre 2026)",
+        "url": "https://fr.euronews.com/2026/11/06/intemperies-deux-morts-en-corse-dans-des-inondations-le-gard-et-lherault-egalement-touches"
+      },
+      {
+        "short": "franceinfo",
+        "name": "franceinfo, « Deux personnes retrouvées mortes en Corse-du-Sud après que leur voiture a été emportée par les inondations »",
+        "url": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/inondations-et-crues/deux-personnes-ont-ete-retrouvees-mortes-en-corse-du-sud-apres-que-leur-voiture-a-ete-emportee-par-les-inondations_8270402.html"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "level": 2,
+    "next": [],
+    "culture": [],
+    "dossiers": [],
+    "id": "2026-11-07-chine-loi-anticorruption-transfrontaliere",
+    "region": "Asie",
+    "theme": "geo",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "name": "Pékin, Chine",
+        "label": "Chine",
+        "coords": [
+          116.4,
+          39.9
+        ]
+      }
+    ],
+    "title": "Chine : Pékin adopte une loi contre la corruption transfrontalière, et les entreprises devront se doter d'un service de conformité",
+    "summary": "Le comité permanent de l'Assemblée nationale populaire a adopté vendredi 6 novembre une loi contre la corruption au-delà des frontières, a indiqué l'agence Xinhua. Elle prolonge la campagne anticorruption de Xi Jinping et oblige les entreprises chinoises à créer des fonctions de conformité [1].",
+    "points": [
+      "Selon Xinhua, la loi vise à approfondir la coopération internationale contre la corruption et à protéger la souveraineté et la sécurité du pays [1].",
+      "Les entreprises chinoises devront mettre en place des fonctions de conformité contre la corruption [1].",
+      "Le texte compte six chapitres et 47 articles : mécanismes institutionnels, traitement des affaires, coopération internationale, devoirs d'intégrité et de conformité, responsabilité juridique. Il vise à combler les vides juridiques autour de la corruption liée aux activités à l'étranger, à récupérer des avoirs illicites et à renforcer le contrôle des entreprises chinoises qui opèrent hors du pays [2].",
+      "Le projet avait été examiné une première fois en août, à la 24e session du comité permanent de l'Assemblée nationale populaire ; la date d'entrée en vigueur n'apparaît pas dans les sources consultées [2]."
+    ],
+    "why": [
+      "À retenir : la Chine s'équipe d'un outil légal pour poursuivre des personnes et des fonds à l'étranger, ce qui peut compliquer la vie des entreprises étrangères qui travaillent avec elle [1].",
+      "Pour les groupes européens implantés en Chine, la conformité devient un enjeu de plus, à côté des tensions commerciales avec l'UE."
+    ],
+    "forMe": "Si tu travailles dans une entreprise qui a des partenaires ou des filiales en Chine, de nouvelles obligations de conformité peuvent s'appliquer aux contrats et aux paiements.",
+    "figures": [
+      {
+        "value": "47",
+        "label": "articles dans la loi adoptée vendredi 6 novembre",
+        "src": 2
+      }
+    ],
+    "sources": [
+      {
+        "short": "China Global South",
+        "name": "China Global South Project, « China Expands Xi Jinping's Anti-Graft Drive With New Cross-Border Corruption Law » (6 novembre 2026)",
+        "url": "https://chinaglobalsouth.com/2026/11/06/china-xi-jinping-cross-border-corruption-law-anti-graft/"
+      },
+      {
+        "short": "Prensa Latina",
+        "name": "Prensa Latina, « China passes Law against Cross-Border Corruption » (6 novembre 2026)",
+        "url": "https://www.plenglish.com/news/2026/11/06/china-passes-law-against-cross-border-corruption/"
       }
     ]
   },

@@ -207,6 +207,28 @@ window.GEOCO.agenda = [
     "verify": "Date annoncée dans la couverture de la réunion de Bruxelles, pas encore confirmée par une source officielle."
   },
   {
+    "id": "2026-11-10-chine-commerce-exterieur-octobre",
+    "date": "2026-11-10",
+    "theme": "eco",
+    "region": "Asie",
+    "place": "Pékin",
+    "title": "Chine : chiffres du commerce extérieur d'octobre",
+    "why": "Les exportations chinoises ont atteint un record de 447,18 milliards de dollars en septembre (+36,3 % sur un an) ; les chiffres d'octobre diront si la vague continue, au moment où l'UE prépare un « coupe-circuit » contre les importations chinoises [1][2].",
+    "news": "2026-11-07-ue-chine-coupe-circuit-pekin-menace-xi-stocker",
+    "sources": [
+      {
+        "short": "Trading Economics",
+        "name": "Trading Economics, calendrier du commerce extérieur chinois (publication d'octobre prévue le 10 novembre 2026)",
+        "url": "https://tradingeconomics.com/china/exports-yoy"
+      },
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « China's exports surge amid AI-driven demand » (14 octobre 2026)",
+        "url": "https://www.aljazeera.com/economy/2026/10/14/chinas-exports-sugrge"
+      }
+    ]
+  },
+  {
     "id": "2026-11-11-israel-herzog-delai-mandat",
     "date": "2026-11-11",
     "theme": "geo",
