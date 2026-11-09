@@ -1702,3 +1702,52 @@ section.flash { animation: partFlash 1.6s ease-out; }
 .pf-toggles { list-style: none; padding: 0; margin: 12px 0; display: grid; gap: 10px; }
 .pf-toggles label { display: flex; gap: 10px; align-items: center; font-size: 16px; cursor: pointer; }
 .pf-toggles input { width: 20px; height: 20px; accent-color: var(--blue); }
+
+/* ---------- Chiffres : « Chez toi » (compare.js) ---------- */
+.cmp-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 22px 0 18px; }
+.cmp-card { text-align: left; background: var(--card, #1c1c1e); border: 1px solid rgba(255,255,255,.08); border-radius: 16px; padding: 14px; color: inherit; font: inherit; cursor: pointer; }
+.cmp-card span { display: block; font-size: 13px; opacity: .7; }
+.cmp-card b { display: block; font-size: 28px; margin: 4px 0 2px; }
+.cmp-card small { font-size: 12px; opacity: .6; }
+.cmp-card.on { border-color: #ff8a3d; box-shadow: 0 0 0 1px #ff8a3d inset; }
+.cmp-tools { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; }
+.cmp-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 8px; }
+.cmp-chip { display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px; border-radius: 999px; background: rgba(255,255,255,.06); font-size: 14px; }
+.cmp-chip i { width: 10px; height: 10px; border-radius: 50%; background: var(--c); }
+.cmp-chip button { background: none; border: 0; color: inherit; opacity: .6; font-size: 16px; cursor: pointer; padding: 0 0 0 2px; }
+.cmp-chart { position: relative; margin-top: 6px; min-height: 120px; }
+.cmp-chart svg { display: block; overflow: visible; touch-action: pan-y; }
+.cmp-grid { stroke: rgba(255,255,255,.08); }
+.cmp-grid.zero { stroke: rgba(255,255,255,.3); }
+.cmp-axis { fill: rgba(255,255,255,.5); font-size: 11px; }
+.cmp-line { fill: none; stroke-width: 2.4; stroke-linejoin: round; stroke-linecap: round; }
+.cmp-line.dash { stroke-dasharray: 5 4; stroke-width: 1.8; }
+.cmp-cursor { stroke: rgba(255,255,255,.4); }
+.cmp-hit { fill: transparent; cursor: crosshair; }
+.cmp-tip { position: absolute; top: 0; transform: translateX(-50%); background: rgba(20,20,22,.95); border: 1px solid rgba(255,255,255,.12); border-radius: 10px; padding: 8px 10px; font-size: 13px; pointer-events: none; white-space: nowrap; }
+.cmp-tip b { display: block; margin-bottom: 2px; }
+.cmp-tip span { display: flex; align-items: center; gap: 6px; }
+.cmp-tip i { width: 8px; height: 8px; border-radius: 50%; }
+.cmp-empty { opacity: .6; padding: 30px 0; text-align: center; }
+.cmp-add { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+.cmp-add input { flex: 1 1 220px; min-width: 0; padding: 10px 14px; border-radius: 12px; border: 1px solid rgba(255,255,255,.12); background: rgba(255,255,255,.04); color: inherit; font: inherit; }
+.cmp-home { background: none; border: 0; color: #7c8cff; font: inherit; cursor: pointer; }
+@media (max-width: 560px) { .cmp-card { padding: 10px; } .cmp-card b { font-size: 21px; } .cmp-card span { font-size: 12px; } }
+
+/* Difficulté des cours : pistes de ski */
+.piste { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
+.piste i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+.piste-verte i { background: #22c55e; }
+.piste-bleue i { background: #3b82f6; }
+.piste-rouge i { background: #ef4444; }
+.piste-noire i { background: #0b0b0b; box-shadow: 0 0 0 1.5px #fff; transform: rotate(45deg); border-radius: 1px; }
+.piste-note { font-size: 14px; opacity: .8; margin-top: 6px; }
+
+/* Difficulté des cours : pistes de ski */
+.piste { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
+.piste i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+.piste-verte i { background: #22c55e; }
+.piste-bleue i { background: #3b82f6; }
+.piste-rouge i { background: #ef4444; }
+.piste-noire i { background: #0b0b0b; box-shadow: 0 0 0 1.5px #fff; transform: rotate(45deg); border-radius: 1px; }
+.piste-note { font-size: 14px; opacity: .8; margin-top: 6px; }

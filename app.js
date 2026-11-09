@@ -1114,7 +1114,7 @@
       app.innerHTML = `
         <section class="wrap hero">
           <a class="back" href="#/cours">‹ Cours</a>
-          <p class="eyebrow reveal">${THEMES[d.theme]} · ${d.minutes} min · ${d.level} · ${plusTag()}</p>
+          <p class="eyebrow reveal">${THEMES[d.theme]} · ${d.minutes} min · ${pisteTag(d)} · ${plusTag()}</p>
           <h1 class="title reveal">${d.title}</h1>
           <p class="lead reveal">${d.hook}</p>
         </section>
@@ -1132,7 +1132,8 @@
     app.innerHTML = `
       <section class="wrap hero">
         <a class="back" href="#/cours">‹ Cours</a>
-        <p class="eyebrow reveal">${THEMES[d.theme]} · ${d.minutes} min · ${d.level}</p>
+        <p class="eyebrow reveal">${THEMES[d.theme]} · ${d.minutes} min · ${pisteTag(d)}</p>
+        ${pisteNote(d)}
         ${d.inspiredBy ? `<p class="reveal">${harvardTag(d)}</p>` : ""}
         <h1 class="title reveal">${d.title}</h1>
         <p class="lead reveal">${d.hook}</p>
@@ -1986,7 +1987,7 @@
             ${doss.map((d) => `
               <a class="row" href="#/cours/${d.id}">
                 <span class="dot ${d.theme}"></span>
-                <div class="row-main"><div class="row-title">${d.title}</div><div class="row-sub">${d.minutes} min · ${d.level}</div></div>
+                <div class="row-main"><div class="row-title">${d.title}</div><div class="row-sub">${d.minutes} min · ${pisteTag(d)}</div></div>
                 <span class="chev" aria-hidden="true">›</span>
               </a>`).join("")}
           </div>
@@ -2370,6 +2371,21 @@
   // Cours inspirés d'un cours de Harvard (demande de l'auteur, 2 nov. 2026 : « tu mets oui ce sont des cours
   // d'Harvard, mais tu ne dis pas qu'ils sont disponibles en ligne gratuitement ») : simple mention, sans lien.
   // Formulation voulue par l'auteur (2 nov. 2026) : « Inspiré des cours de Harvard de <professeur> ».
+  // Difficulté des cours en pistes de ski (demande de l'auteur, 9 nov. 2026 : « enlève Débutant, Intermédiaire, mets un autre système »).
+  const PISTES = {
+    verte: ["Piste verte", "Aucune notion requise : on part de zéro."],
+    bleue: ["Piste bleue", "Quelques notions de base suffisent ; tout est expliqué en route."],
+    rouge: ["Piste rouge", "Plus technique : des mécanismes à suivre pas à pas."],
+    noire: ["Piste noire", "Pour aller au fond : schémas et débats d'économistes, idéal après les pistes rouges."]
+  };
+  function pisteTag(d) {
+    const p = PISTES[d.piste];
+    return p ? `<span class="piste piste-${d.piste}" title="${I18N.t(p[1])}"><i aria-hidden="true"></i>${I18N.t(p[0])}</span>` : "";
+  }
+  function pisteNote(d) {
+    const p = PISTES[d.piste];
+    return p ? `<p class="piste-note reveal">${I18N.t(p[1])}</p>` : "";
+  }
   const harvardTag = (d) => d.inspiredBy ? `<span class="harvard-tag">🎓 ${I18N.t("Inspiré des cours de Harvard de {nom}").replace("{nom}", d.inspiredBy)}</span>` : "";
 
   function renderCoursIndex() {
@@ -2391,7 +2407,7 @@
             ${dossiers.map((d) => `
               <a class="row" href="#/cours/${d.id}">
                 <span class="dot ${d.theme}"></span>
-                <div class="row-main"><div class="row-title">${d.title}</div><div class="row-sub">${THEMES[d.theme]} · ${d.minutes} min · ${d.level}${courseLocked(d) ? " · " + plusTag() : ""}</div>${d.inspiredBy ? `<div class="row-sub">${harvardTag(d)}</div>` : ""}</div>
+                <div class="row-main"><div class="row-title">${d.title}</div><div class="row-sub">${THEMES[d.theme]} · ${d.minutes} min · ${pisteTag(d)}${courseLocked(d) ? " · " + plusTag() : ""}</div>${d.inspiredBy ? `<div class="row-sub">${harvardTag(d)}</div>` : ""}</div>
                 ${readSet.has(d.id) ? '<span class="check">Lu</span>' : ""}
                 <span class="chev" aria-hidden="true">›</span>
               </a>`).join("")}
@@ -2797,6 +2813,8 @@ function statGrid(figures, sources, theme = "geo") {
         <h3>${d.name || iso}</h3>
         <p>${cite(d.text || d.t, d.sources || C.sources)}</p>`;
       card.querySelector(".sheet-close").addEventListener("click", () => { card.hidden = true; });
+      const go = card.querySelector(".cmp-go");
+      if (go) go.addEventListener("click", () => { card.hidden = true; cmp.add(id); });
     }
 
     let globe = null;
@@ -2868,7 +2886,7 @@ function statGrid(figures, sources, theme = "geo") {
     const fmtV = (v) => v.toLocaleString(LOCALE, { maximumFractionDigits: 1 });
 
     app.innerHTML = `
-      ${latestBlock()}
+      <div id="cmp-root"></div>
 
       <section class="wrap hero">
         <p class="eyebrow reveal">Chiffres · Le monde</p>
@@ -2897,6 +2915,8 @@ function statGrid(figures, sources, theme = "geo") {
 
       <div id="ind-sources"></div>
 
+      ${latestBlock()}
+
       ${(data.focus || []).map((z) => `
       <section class="section alt focus" id="focus-${z.id}">
         <div class="wrap">
@@ -2918,6 +2938,9 @@ function statGrid(figures, sources, theme = "geo") {
       ${sourcesBlock(z.sources)}`).join("")}
     `;
     if (window.GeocoViz) window.GeocoViz.mountAll((data.focus || []).map((z) => z.chart));
+    // « Chez toi » : les chiffres du pays du lecteur, comparés dans le temps (compare.js).
+    const flagOf = (id) => { const a2 = (window.GEOCO_ISO2 || {})[id] || ""; return /^[A-Z]{2}$/.test(a2) ? String.fromCodePoint(...[...a2].map((c) => 127397 + c.charCodeAt(0))) : "🌍"; };
+    const cmp = window.GeocoCompare ? window.GeocoCompare.mount(app.querySelector("#cmp-root"), { data, nameOf, locale: LOCALE, unitSep, flag: flagOf }) : null;
 
     let globe = null;
     const card = app.querySelector("#ind-card");
@@ -2931,12 +2954,15 @@ function statGrid(figures, sources, theme = "geo") {
         <p class="eyebrow">${ind.label}</p>
         <h3>${name}</h3>
         ${d ? `<div class="bigstat grad mix">${fmtV(d.v)}${unitSep}${ind.unit}</div><p class="ind-date">${d.d}</p>` : `<p class="ind-date">Pas de donnée pour l'instant.</p>`}
+        ${cmp ? `<button type="button" class="more cmp-go">Comparer dans le temps ›</button>` : ""}
         ${(data.focus || []).filter((z) => z.country === id).map((z) => `<a class="more focus-link" href="#/chiffres" data-focus="${z.id}">${z.eyebrow} ›</a>`).join("")}`;
       card.querySelectorAll("[data-focus]").forEach((a) => a.addEventListener("click", (e) => {
         e.preventDefault();
         document.getElementById("focus-" + a.dataset.focus).scrollIntoView({ behavior: "smooth" });
       }));
       card.querySelector(".sheet-close").addEventListener("click", () => { card.hidden = true; });
+      const go = card.querySelector(".cmp-go");
+      if (go) go.addEventListener("click", () => { card.hidden = true; cmp.add(id); });
     }
 
     function draw() {
