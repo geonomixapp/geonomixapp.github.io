@@ -1776,82 +1776,151 @@ window.GEOCO = {
       emoji: "💾",
       theme: "mix",
       title: "Puces électroniques : pourquoi Taïwan est au cœur du monde",
-      hook: "Ton téléphone, ta voiture et l'intelligence artificielle dépendent de minuscules puces fabriquées en grande partie sur une seule île.",
-      minutes: 4,
+      hook: "Ton téléphone, ta voiture et l'intelligence artificielle dépendent de minuscules puces fabriquées en grande partie sur une seule île. Comment un objet inventé en 1947 est devenu l'enjeu d'une rivalité entre les États-Unis et la Chine, pourquoi le Japon a perdu sa place, et pourquoi on parle de « bouclier de silicium » ?",
+      minutes: 20,
       piste: "bleue",
       tldr: [
-        "Les semi-conducteurs (ou puces) sont le « cerveau » de presque tous les objets électroniques.",
-        "Les puces les plus avancées sont fabriquées en très grande majorité à Taïwan, par l'entreprise TSMC.",
-        "États-Unis, Chine et Europe se livrent une course pour sécuriser cette technologie devenue stratégique."
+        "Les semi-conducteurs (ou puces) sont le « cerveau » de presque tous les objets électroniques. Le premier microprocesseur, l'Intel 4004 de 1971, comptait environ 2 300 transistors ; une puce d'IA de Nvidia en 2024 en compte 208 milliards [5].",
+        "En 2021, 92 % des capacités de production des puces les plus avancées (sous 10 nanomètres) étaient à Taïwan, le reste en Corée du Sud [3]. TSMC, fondée en 1987, en est le géant.",
+        "La pénurie de 2021 a coûté environ 210 milliards de dollars de ventes à l'automobile et fait manquer 7,7 millions de voitures [6].",
+        "Depuis le 7 octobre 2022, les États-Unis limitent fortement l'accès de la Chine aux puces et machines avancées [7] ; en août 2023, Huawei surprend avec un téléphone doté d'une puce chinoise gravée en 7 nanomètres [8].",
+        "Les États-Unis (CHIPS Act, 52,7 milliards de dollars, août 2022) et l'Europe (European Chips Act, plus de 43 milliards d'euros, objectif 20 % du marché mondial en 2030) subventionnent leurs usines [2][9]."
       ],
       sections: [
         {
           title: "Une chaîne mondiale ultra-spécialisée",
           paragraphs: [
             "Fabriquer une puce mobilise plusieurs pays : la conception est souvent américaine (Nvidia, Apple, Qualcomm), les machines les plus pointues sont néerlandaises (ASML est le seul fabricant au monde des machines de lithographie EUV), et la fabrication des puces les plus fines se fait à Taïwan.",
-            "Cette spécialisation est très efficace, mais elle crée des points de fragilité : si un maillon casse, toute la chaîne s'arrête. La pénurie de puces de 2021 a par exemple bloqué des usines automobiles dans le monde entier."
+            "Cette spécialisation est très efficace, mais elle crée des points de fragilité : si un maillon casse, toute la chaîne s'arrête. La pénurie de puces de 2021 a par exemple bloqué des usines automobiles dans le monde entier.",
+            "Une puce passe par des centaines d'étapes : on part d'un ==disque de silicium ultra-pur== (le « wafer »), sur lequel on grave des circuits par couches successives avec de la lumière, des produits chimiques et des gaz. Les usines, appelées ==« fabs »==, coûtent plus de 20 milliards de dollars pour les plus modernes et doivent être plus propres qu'un bloc opératoire.",
+            "Aucun pays ne maîtrise toute la chaîne. Les États-Unis dominent la conception et les logiciels de conception, le Japon et l'Europe les machines et les produits chimiques, Taïwan et la Corée du Sud la fabrication avancée, la Chine l'assemblage et les puces plus simples [3]. ==Chaque pays tient une partie de l'otage.=="
+          ]
+        },
+        {
+          title: "1947-1971 : du transistor au microprocesseur",
+          paragraphs: [
+            "Tout commence en ==décembre 1947== aux Laboratoires Bell, près de New York : trois chercheurs, John Bardeen, Walter Brattain et William Shockley, mettent au point le ==transistor==, un minuscule interrupteur électrique sans pièce mobile. Il remplace les lampes à vide, grosses, fragiles et gourmandes. Ils recevront le prix Nobel de physique en 1956.",
+            "À la fin des années 1950, Jack Kilby (Texas Instruments) et Robert Noyce (Fairchild) ont l'idée de graver plusieurs transistors sur une même plaque : c'est le ==circuit intégré==, la première « puce ». Shockley s'installe en Californie ; ses anciens employés fondent Fairchild, puis Intel : la ==Silicon Valley== est née.",
+            "En 1965, Gordon Moore, futur cofondateur d'Intel, remarque que le nombre de transistors sur une puce double à intervalles réguliers. Cette ==« loi de Moore »==, qui est une observation et non une loi physique, guide l'industrie pendant cinquante ans : tous les deux ans environ, les puces deviennent deux fois plus denses.",
+            "Le 15 novembre 1971, Intel commercialise le ==4004==, le premier microprocesseur vendu au public : environ ==2 300 transistors== [5]. En 2024, la puce Blackwell de Nvidia, conçue pour l'intelligence artificielle, en compte ==208 milliards== [5], soit environ 90 millions de fois plus."
+          ],
+          plain: {
+            title: "ce qu'est un transistor",
+            steps: [
+              "Un transistor est un interrupteur minuscule : il laisse passer le courant (1) ou le bloque (0).",
+              "En combinant des milliers d'interrupteurs, on peut additionner, comparer, mémoriser : c'est le langage binaire des ordinateurs.",
+              "Plus les transistors sont petits, plus on en met sur une puce, et plus elle calcule vite en consommant peu.",
+              "D'environ 2 300 transistors en 1971 à 208 milliards en 2024 [5] : c'est ce qui a rendu possibles les smartphones et l'IA."
+            ]
+          }
+        },
+        {
+          title: "Les années 1980 : quand le Japon dominait",
+          paragraphs: [
+            "On l'a oublié, mais dans les années 1980, le leader mondial des puces n'est pas Taïwan : c'est le ==Japon==. Ses géants (NEC, Toshiba, Hitachi, Fujitsu) produisent des puces mémoire de grande qualité à bas prix. Entre 1980 et 1989, la part japonaise du marché mondial passe d'environ 27 % à 52 %, tandis que celle des États-Unis tombe de 57 % à 35 % [10].",
+            "Washington y voit une menace pour sa sécurité : l'armée américaine dépend de puces japonaises. Le ==2 septembre 1986==, sous la pression américaine, le Japon signe un accord sur les semi-conducteurs : il s'engage à ne plus vendre à perte à l'étranger et à ouvrir son marché aux puces étrangères [10]. En 1987, les États-Unis imposent même des droits de douane de 100 % sur certains produits électroniques japonais.",
+            "Dans les années suivantes, l'industrie japonaise décline, prise en étau entre les accords, l'éclatement de sa bulle financière et la montée de concurrents coréens (Samsung) et taïwanais. ==C'est un précédent important== : les États-Unis ont déjà utilisé le commerce pour freiner un rival technologique, bien avant la Chine."
+          ]
+        },
+        {
+          title: "1987 : TSMC et l'invention de la « fonderie »",
+          paragraphs: [
+            "En 1987, à Taïwan, l'ingénieur ==Morris Chang==, passé par Texas Instruments, fonde TSMC avec le soutien de l'État taïwanais. Son idée est nouvelle : ne concevoir ==aucune puce à son nom== et fabriquer celles des autres. C'est le modèle de la ==« fonderie pure »== : TSMC ne fait jamais concurrence à ses clients [4].",
+            "Ce modèle libère les inventeurs : une entreprise peut concevoir des puces sans dépenser des dizaines de milliards dans une usine. Apple, Nvidia, AMD ou Qualcomm deviennent des entreprises « sans usine » (« fabless »), qui confient la fabrication à TSMC.",
+            "En se consacrant entièrement à la fabrication, TSMC accumule une expérience que personne ne rattrape. En 2021, selon l'association américaine du secteur et le cabinet BCG, ==92 % des capacités mondiales de production des puces les plus avancées== (sous 10 nanomètres) sont à Taïwan, et les 8 % restants en Corée du Sud [3]. Intel, l'ancien roi, a pris du retard.",
+            "D'où la formule souvent entendue : ==les puces les plus avancées du monde sont fabriquées sur une île de 36 000 km², à environ 130 km de la Chine continentale.=="
           ]
         },
         {
           title: "Pourquoi Taïwan est si sensible",
           paragraphs: [
             "La Chine considère Taïwan comme une partie de son territoire et n'exclut pas d'en reprendre le contrôle. Les États-Unis, eux, soutiennent l'île sur le plan militaire.",
-            "Une crise autour de Taïwan ne serait donc pas seulement un conflit régional : elle pourrait priver le monde de la majorité de ses puces avancées. Certains parlent de « bouclier de silicium » : l'importance de TSMC protégerait l'île, car personne n'a intérêt à ce que sa production s'arrête."
+            "Une crise autour de Taïwan ne serait donc pas seulement un conflit régional : elle pourrait priver le monde de la majorité de ses puces avancées. Certains parlent de ==« bouclier de silicium »== : l'importance de TSMC protégerait l'île, car personne n'a intérêt à ce que sa production s'arrête.",
+            "Ce bouclier a ses limites. Une usine de puces ne se capture pas comme un puits de pétrole : elle dépend de machines étrangères, de pièces de rechange, de logiciels et d'ingénieurs. En cas d'invasion, elle s'arrêterait probablement d'elle-même. Certains responsables américains ont même évoqué l'idée de rendre les usines inutilisables plutôt que de les laisser tomber aux mains de Pékin.",
+            "Pour réduire le risque, TSMC construit aussi des usines à l'étranger : en Arizona aux États-Unis, au Japon, en Allemagne à Dresde. Mais les puces les plus avancées restent d'abord produites à Taïwan."
           ]
+        },
+        {
+          title: "2021 : la pénurie qui a arrêté les usines",
+          paragraphs: [
+            "Au début de la pandémie, en 2020, les constructeurs automobiles annulent leurs commandes de puces, pensant vendre moins de voitures. Au même moment, tout le monde achète ordinateurs, consoles et téléphones pour le télétravail. Les fondeurs réaffectent leur production.",
+            "Quand la demande de voitures repart, il n'y a plus de puces. Une voiture moderne en contient des centaines, pour les freins, les vitres, l'écran ou le moteur. Les usines s'arrêtent, des voitures presque finies attendent sur les parkings. Selon le cabinet AlixPartners, la pénurie fait perdre environ ==210 milliards de dollars de ventes== aux constructeurs en 2021 et empêche de fabriquer ==7,7 millions de véhicules== [6].",
+            "La crise a plusieurs causes cumulées : la demande liée au télétravail et à la 5G, des usines touchées par des incendies ou des sécheresses, et les sanctions américaines contre Huawei, qui ont poussé des entreprises à stocker massivement des puces [6]. Elle révèle aux gouvernements que ==des puces à quelques dollars peuvent bloquer des industries entières==."
+          ]
+        },
+        {
+          title: "La guerre des puces entre Washington et Pékin",
+          paragraphs: [
+            "Le ==7 octobre 2022==, le département américain du Commerce publie des règles d'exportation sans précédent : il interdit de vendre à la Chine les puces les plus puissantes pour l'IA, les machines pour fabriquer des puces avancées, et même l'aide d'ingénieurs américains à des usines chinoises de pointe [7]. Les Pays-Bas et le Japon, qui fabriquent les machines indispensables, suivent avec leurs propres restrictions.",
+            "L'objectif est clair : ==empêcher la Chine de rattraper son retard== dans les puces les plus fines, essentielles pour l'IA et l'armement. La Chine riposte en limitant à partir de l'été 2023 ses exportations de gallium et de germanium, deux métaux utilisés dans l'électronique dont elle est le premier producteur.",
+            "Le ==29 août 2023==, coup de théâtre : Huawei lance le Mate 60 Pro, un téléphone équipé d'une puce conçue par sa filiale HiSilicon et ==fabriquée en Chine par SMIC, avec une finesse de 7 nanomètres== [8]. Les contrôles visaient justement à bloquer la Chine au-delà de 10 nanomètres [8]. SMIC y est parvenu avec des machines plus anciennes, au prix d'un rendement plus faible.",
+            "Le débat reste ouvert : les restrictions ralentissent-elles vraiment la Chine, ou la poussent-elles à développer plus vite sa propre industrie ? Probablement les deux à la fois : la Chine reste en retard sur les puces les plus avancées, mais investit des sommes considérables pour ne plus dépendre de l'étranger."
+          ],
+          plain: {
+            title: "pourquoi une machine néerlandaise compte autant",
+            steps: [
+              "Pour graver les puces les plus fines, il faut une lumière ultraviolette extrême (EUV), produite par des machines d'ASML, seul fabricant au monde.",
+              "Les Pays-Bas, alliés des États-Unis, interdisent de vendre ces machines à la Chine.",
+              "Sans elles, les usines chinoises doivent utiliser d'anciennes machines plusieurs fois de suite pour graver plus fin : c'est possible, mais plus lent et plus cher.",
+              "La Chine parvient au 7 nanomètres en 2023 [8], mais reste derrière TSMC, qui produit déjà plus fin à grande échelle."
+            ]
+          }
         },
         {
           title: "La course à la souveraineté",
           paragraphs: [
-            "Depuis 2022, les États-Unis limitent l'exportation de puces et de machines avancées vers la Chine, pour freiner ses progrès, notamment en intelligence artificielle. La Chine investit massivement pour produire ses propres puces.",
-            "Les États-Unis (CHIPS Act) comme l'Union européenne (European Chips Act) subventionnent aussi la construction d'usines sur leur sol pour être moins dépendants de l'Asie."
+            "Les États-Unis adoptent le ==CHIPS and Science Act en août 2022== : 52,7 milliards de dollars pour la fabrication, la recherche et la formation, dont 39 milliards d'aides aux usines [9]. Intel, TSMC, Samsung et Micron annoncent des usines sur le sol américain.",
+            "L'Union européenne répond avec le ==European Chips Act==, approuvé en 2023 : il vise à mobiliser plus de ==43 milliards d'euros== d'investissements publics et privés, avec l'objectif de doubler la part européenne du marché mondial pour atteindre ==20 % en 2030== [2][9]. L'Europe ne pèse aujourd'hui qu'environ 10 % du marché ou moins, selon les estimations [9].",
+            "Ces plans suscitent des doutes : une grande partie de l'argent européen n'est pas nouvelle mais redéployée depuis d'autres budgets [9], les usines manquent d'ingénieurs, et certains projets ont été reportés. Construire une usine prend des années, et rattraper l'avance de TSMC en prendrait davantage.",
+            "Le Japon, la Corée du Sud, l'Inde et la Chine ont aussi lancé leurs propres plans. On assiste à un tournant : après trente ans de mondialisation où chacun se spécialisait, ==les États veulent produire chez eux ce qu'ils jugent vital==, même si cela coûte plus cher."
+          ]
+        },
+        {
+          title: "L'IA, nouvelle ruée vers l'or",
+          paragraphs: [
+            "Depuis l'arrivée des grands modèles d'intelligence artificielle, la demande de puces spécialisées explose. Les ==processeurs graphiques== de Nvidia, conçus à l'origine pour les jeux vidéo, se révèlent parfaits pour entraîner ces modèles, car ils font des milliers de calculs en parallèle.",
+            "Nvidia, qui ne fabrique pas ses puces (c'est TSMC qui s'en charge [5]), devient l'une des entreprises les plus chères du monde. Les grands groupes du numérique dépensent des dizaines de milliards de dollars par an en centres de données remplis de ces puces.",
+            "Cette ruée renforce encore le rôle de Taïwan et la tension géopolitique : les puces d'IA les plus puissantes sont précisément celles que les États-Unis interdisent d'exporter vers la Chine [7]. ==Les puces sont devenues pour le XXIe siècle ce que le pétrole était pour le XXe== : une ressource dont dépend la puissance, et que les États veulent contrôler."
           ]
         }
       ],
-      forMe: "Une seule usine à l'arrêt peut retarder la livraison de ta voiture, faire monter le prix de ta console ou ralentir le développement des outils d'IA que tu utilises.",
+      forMe: "Chaque fois que tu achètes un téléphone, une console ou une voiture, une partie de son prix et de sa disponibilité dépend de quelques usines à Taïwan et de machines fabriquées aux Pays-Bas. Quand tu entends parler de tensions dans le détroit de Taïwan ou de nouvelles restrictions sur les puces, c'est aussi de tes futurs achats qu'il s'agit.",
       figures: [
         { value: "≈ 90 %", label: "des puces les plus avancées sont produites à Taïwan" },
-        { value: "1", label: "seul fabricant de machines EUV au monde : ASML (Pays-Bas)" }
+        { value: "1", label: "seul fabricant de machines EUV au monde : ASML (Pays-Bas)" },
+        { value: "2 300 → 208 Md", label: "transistors : Intel 4004 (1971), puis puce Blackwell de Nvidia (2024)", src: 5 },
+        { value: "92 %", label: "des capacités de production sous 10 nanomètres à Taïwan en 2021", src: 3 },
+        { value: "≈ 210 Md$", label: "de ventes perdues par l'automobile à cause de la pénurie de 2021", src: 6 },
+        { value: "20 %", label: "la part du marché mondial visée par l'Europe en 2030", src: 9 }
       ],
       terms: ["semi-conducteur", "souverainete", "dependance", "chaine-appro"],
       quiz: [
-        {
-          q: "Quelle entreprise fabrique la majorité des puces les plus avancées ?",
-          options: ["Apple", "TSMC", "Samsung", "Intel"],
-          answer: 1,
-          explain: "TSMC, basée à Taïwan, fabrique les puces conçues par Apple, Nvidia et beaucoup d'autres. Apple conçoit ses puces mais ne les fabrique pas."
-        },
-        {
-          q: "Que désigne le « bouclier de silicium » ?",
-          options: [
-            "Un système de défense antimissile",
-            "L'idée que l'importance mondiale des puces taïwanaises protège l'île",
-            "Une protection d'écran de téléphone",
-            "Une alliance militaire en Asie"
-          ],
-          answer: 1,
-          explain: "Comme le monde entier dépend des puces taïwanaises, une attaque contre l'île aurait un coût énorme pour tous, y compris pour la Chine."
-        }
+        { q: "Quelle entreprise fabrique la majorité des puces les plus avancées ?", options: ["Intel", "Samsung", "TSMC", "Nvidia"], answer: 2, explain: "TSMC, à Taïwan, fabrique les puces conçues par Apple, Nvidia, AMD et bien d'autres." },
+        { q: "Que désigne le « bouclier de silicium » ?", options: ["Une protection anti-virus", "L'idée que l'importance de TSMC protège Taïwan d'une attaque", "Un satellite militaire", "Un traité de 1986"], answer: 1, explain: "Personne n'aurait intérêt à arrêter la production des puces les plus avancées du monde." },
+        { q: "Où et quand le transistor a-t-il été inventé ?", options: ["À Taïwan en 1987", "Aux Laboratoires Bell en 1947", "Chez Intel en 1971", "Au Japon en 1986"], answer: 1, explain: "Bardeen, Brattain et Shockley, prix Nobel de physique 1956." },
+        { q: "Que dit la « loi de Moore » (1965) ?", options: ["Les puces coûtent toujours plus cher", "Le nombre de transistors sur une puce double à intervalles réguliers", "Taïwan produira toutes les puces", "Les ordinateurs ralentissent"], answer: 1, explain: "Une observation qui a guidé l'industrie pendant cinquante ans." },
+        { q: "Quel pays dominait le marché des puces à la fin des années 1980 ?", options: ["La Chine", "Le Japon", "Taïwan", "La France"], answer: 1, explain: "Sa part a dépassé 50 % ; l'accord de 1986 avec les États-Unis a marqué le début de son déclin." },
+        { q: "Qu'est-ce que le modèle de la « fonderie pure » inventé par TSMC ?", options: ["Fondre du métal", "Fabriquer les puces conçues par d'autres sans jamais leur faire concurrence", "Vendre des puces sous sa propre marque", "Recycler les vieux téléphones"], answer: 1, explain: "Il a permis l'essor d'entreprises sans usine comme Nvidia ou Apple." },
+        { q: "Pourquoi le Huawei Mate 60 Pro a-t-il surpris en août 2023 ?", options: ["Il était très bon marché", "Sa puce était fabriquée en Chine en 7 nanomètres, malgré les restrictions américaines", "Il n'avait pas d'écran", "Il était fabriqué par TSMC"], answer: 1, explain: "SMIC y est parvenu avec des machines plus anciennes ; les contrôles visaient à bloquer la Chine au-delà de 10 nanomètres." },
+        { q: "Quel objectif s'est fixé l'Union européenne avec son Chips Act ?", options: ["5 % du marché mondial", "20 % du marché mondial en 2030", "Racheter TSMC", "Interdire les puces étrangères"], answer: 1, explain: "Doubler sa part de marché, avec plus de 43 milliards d'euros d'investissements visés." }
       ],
       sources: [
         { short: "SIA", name: "Semiconductor Industry Association", url: "https://www.semiconductors.org/" },
-        { short: "Commission européenne", name: "Commission européenne, European Chips Act", url: "https://digital-strategy.ec.europa.eu/fr/policies/european-chips-act" }
+        { short: "Commission européenne", name: "Commission européenne, European Chips Act", url: "https://digital-strategy.ec.europa.eu/fr/policies/european-chips-act" },
+        { short: "BCG et SIA", name: "BCG et Semiconductor Industry Association, « Strengthening the Global Semiconductor Supply Chain in an Uncertain Era », avril 2021", url: "https://www.semiconductors.org/wp-content/uploads/2021/05/BCG-x-SIA-Strengthening-the-Global-Semiconductor-Value-Chain-April-2021_1.pdf" },
+        { short: "TrendForce", name: "TrendForce, « What is the global significance of the Taiwanese semiconductor industry's advanced processes? », juin 2021", url: "https://www.trendforce.com/news/2021/06/28/what-is-the-global-significance-of-the-taiwanese-semiconductor-industrys-advanced-processes/" },
+        { short: "All About Circuits", name: "All About Circuits, « Nvidia Reveals Blackwell » (208 milliards de transistors), et ComputerBase, « Intel 4004 : 50 ans »", url: "https://www.allaboutcircuits.com/news/nvidia-reveals-blackwell-worlds-most-power-chip-for-ai/" },
+        { short: "AlixPartners (via TechSpot)", name: "TechSpot, « Chip shortage hits auto industry hard, $210 billion loss expected in 2021 » (prévision d'AlixPartners, septembre 2021)", url: "https://www.techspot.com/news/91403-chip-shortage-hits-auto-industry-hard-210-billion.html" },
+        { short: "Jones Day", name: "Jones Day, « U.S. Government Issues Sweeping Controls Relating to Semiconductors, Advanced Computing, and China », octobre 2022", url: "https://www.jonesday.com/en/insights/2022/10/us-government-issues-sweeping-controls-relating-to-semiconductors-advanced-computing-and-china" },
+        { short: "CSIS", name: "CSIS, « Chip Race: China Gives Huawei the Steering Wheel: Huawei's New Smartphone and the Future of Semiconductor Export Controls », 2023", url: "https://www.csis.org/analysis/chip-race-china-gives-huawei-steering-wheel-huaweis-new-smartphone-and-future" },
+        { short: "MVPro", name: "MVPro, « The Chips Acts: how the U.S. and EU are rebuilding semiconductor sovereignty differently »", url: "https://mvpromedia.com/the-chips-acts-how-the-u-s-and-eu-are-rebuilding-semiconductor-sovereignty-differently/" },
+        { short: "Sénat américain", name: "Sénat des États-Unis, commission des Finances, audition 102-155 (1991) sur l'accord nippo-américain sur les semi-conducteurs", url: "https://www.finance.senate.gov/imo/media/doc/hrg102-155.pdf" }
       ],
       visuals: [
-        {
-          kind: "map",
-          title: "Une puce, trois continents",
-          intro: "Les étapes clés de la fabrication d'une puce avancée. Touche un lieu pour zoomer.",
-          points: [
-            { name: "Santa Clara", coords: [-121.96, 37.35], zoom: 12, text: "La Silicon Valley, en Californie : c'est ici que Nvidia (entre autres) conçoit ses puces. Mais elle ne les fabrique pas." },
-            { name: "Veldhoven", coords: [5.4, 51.42], zoom: 12, text: "Aux Pays-Bas, siège d'ASML, seul fabricant au monde des machines de lithographie EUV indispensables aux puces les plus fines." },
-            { name: "Hsinchu", coords: [120.97, 24.8], zoom: 12, text: "Au nord de Taïwan, siège de TSMC, qui fabrique la très grande majorité des puces les plus avancées du monde." },
-            { name: "Détroit de Taïwan", coords: [119.6, 24.3], zoom: 9, text: "Environ 130 km au plus étroit séparent Taïwan de la Chine continentale." }
-          ],
-          source: "SIA ; sites des entreprises"
-        }
+        { kind: "map", title: "Une puce, trois continents", intro: "Les étapes clés de la fabrication d'une puce avancée. Touche un lieu pour zoomer.", points: [{ name: "Santa Clara", coords: [-121.96, 37.35], zoom: 12, text: "La Silicon Valley, en Californie : c'est ici que Nvidia (entre autres) conçoit ses puces. Mais elle ne les fabrique pas." }, { name: "Veldhoven", coords: [5.4, 51.42], zoom: 12, text: "Aux Pays-Bas, siège d'ASML, seul fabricant au monde des machines de lithographie EUV indispensables aux puces les plus fines." }, { name: "Hsinchu", coords: [120.97, 24.8], zoom: 12, text: "Au nord de Taïwan, siège de TSMC (fondée en 1987), qui fabrique la très grande majorité des puces les plus avancées du monde." }, { name: "Détroit de Taïwan", coords: [119.6, 24.3], zoom: 9, text: "Environ 130 km au plus étroit séparent Taïwan de la Chine continentale." }, { name: "Shanghai", coords: [121.47, 31.23], zoom: 10, text: "Siège de SMIC, le principal fabricant chinois, qui a produit en 2023 une puce en 7 nanomètres pour Huawei malgré les restrictions américaines." }], source: "SIA ; sites des entreprises ; CSIS" },
+        { kind: "chart", type: "bar", title: "Le Japon avait pris la première place", subtitle: "Part du marché mondial des semi-conducteurs", xLabel: "Pays et année", unit: "Part (%)", suffix: " %", data: [["Japon 1980", 27], ["Japon 1989", 52], ["États-Unis 1980", 57], ["États-Unis 1989", 35]], source: "Sénat des États-Unis, audition de 1991" }
       ]
     },
-
     {
       id: "sanctions",
       plus: true, // cours d'approfondissement : réservé à Geonomix+
