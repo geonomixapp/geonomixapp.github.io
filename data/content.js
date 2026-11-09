@@ -756,23 +756,25 @@ window.GEOCO = {
       inspiredBy: "Raj Chetty",
       theme: "eco",
       title: "L'ascenseur social : ce que disent les données",
-      hook: "Gagner plus que ses parents : c'était presque garanti pour un Américain né en 1940, c'est une chance sur deux pour ceux nés dans les années 1980. Que s'est-il passé, et qu'est-ce qui aide un enfant à monter ? Un cours inspiré des travaux de l'économiste de Harvard Raj Chetty.",
-      minutes: 9,
+      hook: "Gagner plus que ses parents : c'était presque garanti pour un Américain né en 1940, c'est une chance sur deux pour ceux nés dans les années 1980. Pourquoi ? Et qu'est-ce qui aide vraiment un enfant à monter : la ville, le quartier, les amis, l'école, l'université ? Un long cours inspiré des travaux de l'économiste de Harvard Raj Chetty, avec un détour par la France.",
+      minutes: 26,
       level: "Débutant",
       tldr: [
         "Aux États-Unis, environ 90 % des enfants nés en 1940 ont fini par gagner plus que leurs parents ; pour ceux nés dans les années 1980, c'est à peu près 50 % [1][2].",
-        "La croissance n'a pas disparu : elle a surtout profité aux plus aisés. Avec un partage aussi égal qu'après-guerre, plus de 70 % de cette chute serait effacée, selon l'équipe de Chetty [1].",
-        "Le quartier où l'on grandit compte : des enfants partis avant 13 ans vers des quartiers moins pauvres gagnent nettement plus une fois adultes [4].",
-        "Les amis aussi : avoir des amis de milieux plus aisés est l'un des meilleurs prédicteurs de l'ascension sociale jamais mesurés [5]."
+        "Les chances changent énormément d'une ville à l'autre : un enfant pauvre a 4,4 % de chances d'atteindre le cinquième le plus riche à Charlotte, 12,9 % à San José [7].",
+        "Le quartier a un effet réel : chaque année d'enfance passée dans un meilleur environnement rapproche l'enfant des résultats de ce quartier d'environ 4 % [8]. Et aider les familles à chercher un logement fait passer de 14 % à 54 % la part de celles qui s'installent dans un quartier favorable [9].",
+        "Les amis, l'université et l'exposition aux métiers comptent aussi : avoir des amis de milieux aisés est l'un des meilleurs prédicteurs de l'ascension sociale [5], et les enfants du top 1 % ont dix fois plus de chances de devenir inventeurs que ceux de la moitié la moins riche [6].",
+        "En France, il faudrait plus de six générations à une famille modeste pour atteindre le revenu moyen, selon l'OCDE [13] ; un enfant de cadre supérieur a environ 4,5 fois plus de chances qu'un enfant d'ouvrier d'être parmi les 20 % les plus aisés [14]."
       ],
       sections: [
         {
           title: "Le rêve américain, mis en chiffre",
           paragraphs: [
-            "Les économistes appellent ==mobilité absolue== la part des enfants qui, adultes, gagnent plus que leurs parents au même âge (en tenant compte de l'inflation). C'est une façon simple de mesurer le « rêve américain ».",
-            "En 2016, l'équipe de Raj Chetty, alors à Stanford puis à Harvard, la calcule pour toutes les générations depuis 1940 grâce aux données fiscales américaines. Résultat : ==environ 90 % pour les enfants nés en 1940, environ 50 % pour ceux nés dans les années 1980== [1][2].",
-            "Pourquoi cette chute ? La croissance a ralenti, mais surtout ses fruits sont allés de plus en plus vers le haut de l'échelle. Les auteurs calculent que si la croissance récente avait été partagée comme celle des années 1940-1950, plus de 70 % du recul serait effacé [1].",
-            "Ce diagnostic est discuté : en 2022, l'économiste Scott Winship retrouve la même baisse, mais selon ses calculs une croissance plus rapide aurait bien plus relevé la mobilité qu'un partage plus égal ; il conteste donc qu'elle s'explique surtout par la hausse des inégalités [3]. C'est un bon exemple de débat d'économistes : ==tout le monde est d'accord sur le chiffre, pas sur sa cause==."
+            "Les économistes appellent ==mobilité absolue== la part des enfants qui, adultes, gagnent plus que leurs parents au même âge, une fois l'inflation retirée. C'est une façon simple et parlante de mesurer le « rêve américain » : chaque génération vit-elle mieux que la précédente ?",
+            "En 2016, l'équipe de Raj Chetty (alors à Stanford, aujourd'hui à Harvard, où il dirige le laboratoire Opportunity Insights) la calcule pour toutes les générations depuis 1940. Pour cela, elle relie de façon anonyme les déclarations de revenus des enfants à celles de leurs parents, des dizaines de millions de foyers. Résultat : ==environ 90 % pour les enfants nés en 1940, environ 50 % pour ceux nés dans les années 1980== [1][2].",
+            "Pourquoi une telle chute ? Deux explications se combinent. La croissance a ralenti depuis les années 1970. Et surtout, ses fruits sont allés de plus en plus vers le haut de l'échelle. Les auteurs font une expérience de pensée : si la croissance récente avait été partagée comme celle des années 1940-1950, ==plus de 70 % du recul serait effacé== ; à l'inverse, une croissance plus forte mais aussi inégale n'en effacerait qu'une petite partie [1].",
+            "Ce diagnostic est discuté : en 2022, l'économiste Scott Winship retrouve la même baisse mais, selon ses calculs, une croissance plus rapide aurait bien plus relevé la mobilité qu'un partage plus égal ; il conteste donc qu'elle s'explique surtout par la hausse des inégalités [3]. C'est un bon exemple de débat d'économistes : ==tout le monde est d'accord sur le chiffre, pas sur sa cause==.",
+            "Ce débat n'est pas que théorique. Si la cause principale est le ralentissement de la croissance, la priorité est de la relancer. Si c'est le partage, la priorité est de mieux répartir ses fruits : salaires, impôts, éducation. Selon la réponse, on ne propose pas les mêmes politiques."
           ],
           plain: {
             title: "deux familles, deux générations",
@@ -785,66 +787,164 @@ window.GEOCO = {
           }
         },
         {
+          title: "Deux façons de mesurer : monter, ou changer de place",
+          paragraphs: [
+            "La mobilité absolue a un défaut : elle dépend beaucoup de la croissance générale. Si toute l'économie s'enrichit, presque tout le monde gagne plus que ses parents, même si personne ne change de rang. Les économistes regardent donc aussi la ==mobilité relative== : un enfant né en bas de l'échelle finit-il plus haut que ses parents dans le classement des revenus de sa génération ?",
+            "Pour la mesurer, on range les familles en cinq groupes de même taille, les ==quintiles== : les 20 % les plus pauvres, puis les 20 % suivants, et ainsi de suite jusqu'aux 20 % les plus riches. La question devient : ==quelle est la probabilité qu'un enfant né dans le quintile du bas atteigne le quintile du haut ?== S'il n'y avait aucun lien entre l'origine et la réussite, ce serait 20 %.",
+            "Les deux mesures racontent des histoires différentes. Un pays peut avoir une forte mobilité absolue (tout le monde s'enrichit) et une faible mobilité relative (chacun reste à sa place), ou l'inverse. ==Le « rêve américain » mélange les deux== : vivre mieux que ses parents, et avoir sa chance de monter quel que soit son point de départ.",
+            "Ces chiffres ne mesurent que des revenus. Ils ne disent rien de la santé, du bonheur ou du métier exercé. Mais le revenu a un grand avantage : il est enregistré pour presque tout le monde dans les données fiscales, ce qui permet de suivre des millions d'enfants, et pas seulement quelques milliers interrogés dans une enquête."
+          ],
+          example: {
+            title: "Lire une probabilité de mobilité",
+            text: "« 7,5 % des enfants du quintile du bas atteignent le quintile du haut » veut dire : sur 1 000 enfants nés parmi les 20 % les plus pauvres, 75 se retrouvent adultes parmi les 20 % les plus riches. Dans un monde où l'origine ne compterait pas du tout, ils seraient 200. Plus le chiffre se rapproche de 20 %, plus la société est « mobile »."
+          }
+        },
+        {
+          title: "Une carte des chances : Charlotte contre San José",
+          paragraphs: [
+            "En 2014, Chetty et ses collègues Nathaniel Hendren, Patrick Kline et Emmanuel Saez publient une carte de la mobilité aux États-Unis, zone par zone, à partir des données fiscales de plus de 40 millions d'enfants [7]. La surprise est la taille des écarts à l'intérieur d'un même pays.",
+            "Un enfant né dans les 20 % les plus pauvres a ==4,4 % de chances d'atteindre les 20 % les plus riches s'il grandit à Charlotte, en Caroline du Nord, contre 12,9 % à San José, en Californie== [7] : presque trois fois plus. Même pays, même monnaie, mêmes lois fédérales, et pourtant des chances très différentes.",
+            "Les chercheurs regardent ce que les zones à forte mobilité ont en commun. Cinq traits ressortent : ==moins de ségrégation entre quartiers riches et pauvres, moins d'inégalités de revenus, de meilleures écoles primaires, plus de liens sociaux (associations, vie collective) et des familles plus stables== [7].",
+            "Les auteurs préviennent : ce sont des ==corrélations, pas des causes démontrées== [7]. Une ville peut avoir de bonnes écoles et une forte mobilité parce qu'elle attire des familles qui investissent beaucoup dans leurs enfants. Pour savoir si c'est le lieu lui-même qui agit, il faut une autre méthode : suivre des enfants qui déménagent."
+          ]
+        },
+        {
           title: "Dis-moi où tu grandis…",
           paragraphs: [
-            "Les données de Chetty montrent que deux enfants issus de familles aussi modestes n'ont pas du tout les mêmes chances selon la ville, et même le quartier, où ils grandissent.",
-            "Pour savoir si c'est le quartier lui-même qui joue, ou seulement le type de familles qui y vivent, les chercheurs ont repris une expérience grandeur nature des années 1990 : ==Moving to Opportunity==. Des familles pauvres tirées au sort ont reçu une aide pour déménager dans des quartiers moins pauvres ; d'autres non.",
-            "Comme c'est le hasard qui décide, on peut comparer. Résultat : ==les enfants partis avant 13 ans gagnent, adultes, environ 31 % de plus== que ceux restés dans leur quartier d'origine [4]. Plus on déménage jeune, plus l'effet est fort : c'est le temps passé dans un bon environnement qui compte."
+            "Pour savoir si le quartier agit vraiment, les chercheurs ont repris une expérience grandeur nature des années 1990 : ==Moving to Opportunity==. Des familles de logements sociaux très pauvres ont été tirées au sort : certaines ont reçu un bon pour louer dans un quartier moins pauvre, d'autres non.",
+            "Comme c'est le hasard qui décide, on peut comparer les deux groupes comme dans un essai de médicament. Pendant longtemps, les résultats ont déçu : les revenus des adultes n'avaient presque pas bougé. Mais en 2015, l'équipe de Chetty regarde les enfants devenus adultes : ==ceux partis avant 13 ans gagnent environ 31 % de plus== que ceux restés dans leur quartier d'origine [4]. Pour ceux partis adolescents, le gain disparaît.",
+            "Une deuxième étude, sur des millions de familles qui déménagent pour toutes sortes de raisons, précise le mécanisme. Quand une famille s'installe dans une zone où les enfants réussissent mieux, ==les résultats de ses enfants se rapprochent de ceux des enfants du lieu d'environ 4 % par année d'enfance passée là-bas== [8]. Et dans l'autre sens, aller vers une zone moins favorable fait perdre environ 4 % par an [8].",
+            "Pour séparer l'effet du lieu de celui de la famille, les chercheurs comparent des frères et sœurs : quand une famille déménage, le cadet passe plus d'années dans le nouveau quartier que l'aîné. Si le cadet réussit mieux, à famille égale, c'est le lieu qui agit [8]. Conclusion : ==ce n'est pas seulement l'adresse qui compte, c'est le temps passé dans un bon environnement pendant l'enfance==."
           ],
           plain: {
             title: "la loterie qui a changé des vies",
             steps: [
               "Années 1990 : des familles de logements sociaux très pauvres s'inscrivent à un programme fédéral.",
               "Un tirage au sort décide qui reçoit un bon pour louer dans un quartier moins pauvre.",
-              "Les chercheurs suivent les enfants pendant des années grâce aux données fiscales.",
-              "Ceux qui ont déménagé avant 13 ans gagnent environ 31 % de plus une fois adultes [4] : le quartier a un vrai effet, pas seulement les familles qui y vivent."
+              "Les chercheurs suivent les enfants pendant vingt ans grâce aux données fiscales.",
+              "Ceux qui ont déménagé avant 13 ans gagnent environ 31 % de plus une fois adultes [4] ; plus le déménagement est précoce, plus le gain est grand, environ 4 % par année d'enfance passée dans le meilleur quartier [8]."
+            ]
+          }
+        },
+        {
+          title: "Aider les familles à déménager : l'expérience de Seattle",
+          paragraphs: [
+            "Si le quartier compte autant, pourquoi les familles modestes ne s'installent-elles pas d'elles-mêmes dans les quartiers favorables ? Aux États-Unis, beaucoup reçoivent déjà une aide au logement (le « Housing Choice Voucher ») utilisable presque partout. Pourtant, la plupart restent dans des quartiers pauvres.",
+            "En 2018, Chetty et des chercheurs du MIT et de Harvard lancent avec les offices du logement de Seattle et du comté de King un essai tiré au sort : ==Creating Moves to Opportunity==. Les familles du groupe test reçoivent, en plus de leur aide habituelle, des informations sur les quartiers favorables, un accompagnement pour monter leur dossier de location, de l'aide pour chercher, un petit soutien financier (caution, frais), et des conseillers qui démarchent des propriétaires [9].",
+            "Résultat de la première année : ==54 % des familles accompagnées s'installent dans un quartier favorable, contre environ 14 % dans le groupe sans accompagnement== [9]. Les familles n'étaient pas obligées de choisir ces quartiers et gardaient leur aide quoi qu'elles décident [9].",
+            "Leçon de Chetty : la ségrégation à Seattle ne vient pas surtout de préférences profondes des familles pour certains quartiers, mais d'obstacles concrets : manque d'information, propriétaires réticents, frais d'entrée, démarches compliquées [9]. ==Un petit coup de pouce bien placé change beaucoup de choses.=="
+          ],
+          plain: {
+            title: "pourquoi une aide au logement ne suffit pas",
+            steps: [
+              "Une mère seule reçoit un bon de logement : elle peut louer presque partout.",
+              "Mais elle ne sait pas quels quartiers ont de bonnes écoles, les propriétaires des beaux quartiers ne la rappellent pas, et elle n'a pas de quoi payer la caution.",
+              "Une conseillère lui montre les quartiers favorables, l'aide à monter son dossier, appelle des propriétaires et avance la caution [9].",
+              "Avec cet accompagnement, plus d'une famille sur deux s'installe dans un quartier favorable, contre une sur sept sans lui [9]."
             ]
           }
         },
         {
           title: "Dis-moi qui sont tes amis…",
           paragraphs: [
-            "En 2022, l'équipe de Chetty analyse, avec Meta, les amitiés de ==72 millions d'utilisateurs américains de Facebook== âgés de 25 à 44 ans, soit 21 milliards de liens d'amitié [5].",
-            "Elle mesure la ==« connectivité économique »== : la part d'amis de milieux aisés chez les personnes de milieux modestes. C'est l'un des meilleurs prédicteurs de l'ascension sociale jamais mesurés, bien plus que d'autres formes de lien social comme la densité des amitiés ou l'engagement associatif [5].",
-            "Pourquoi ? Les amis donnent des informations (sur les études, les métiers), des modèles et parfois des contacts. Et ces amitiés dépendent des lieux de rencontre : quand des milieux différents se croisent à l'école, ils se lient d'autant plus que l'établissement ne les sépare pas en groupes [5]."
+            "En 2022, l'équipe de Chetty publie dans la revue Nature une étude géante, menée avec Meta : les amitiés de ==72 millions d'utilisateurs américains de Facebook== âgés de 25 à 44 ans, soit 21 milliards de liens d'amitié, rattachés à leur ville, leur lycée et leur université [5].",
+            "Elle mesure la ==« connectivité économique »== : la part d'amis de milieux aisés chez les personnes de milieux modestes. Dans certaines villes, les personnes modestes ont presque autant d'amis aisés que la moyenne ; dans d'autres, presque aucun. Et cette mesure prédit l'ascension sociale d'un lieu mieux que la plupart des autres facteurs étudiés, bien plus que la densité des amitiés ou l'engagement associatif [5].",
+            "Pourquoi les amis comptent-ils autant ? Ils donnent des informations (sur les études, les bourses, les métiers qui recrutent), des modèles (« si lui l'a fait, je peux le faire »), des normes (aller à l'université devient normal) et parfois des contacts pour un stage ou un emploi.",
+            "L'étude montre aussi d'où vient le manque d'amitiés entre milieux. Une moitié vient de ==l'exposition== : les milieux ne se croisent pas, parce qu'ils vivent dans des quartiers et vont dans des écoles différents. L'autre moitié vient de ce que les chercheurs appellent le ==« biais d'amitié »== : même quand ils se croisent dans le même lycée, ils se lient peu, par exemple parce que l'établissement les sépare en filières ou en activités différentes [5].",
+            "Conséquence pratique : pour favoriser ces liens, il ne suffit pas de mélanger les élèves dans un même bâtiment. Il faut aussi des lieux où ils font des choses ensemble : classes mélangées, clubs, sport, projets communs."
           ]
+        },
+        {
+          title: "Les écarts qui résistent",
+          paragraphs: [
+            "En 2018, l'équipe de Chetty étudie la mobilité selon l'origine ethnique, à partir des données de 20 millions d'enfants et de leurs parents suivis de 1989 à 2015 [10]. Les Américains noirs et amérindiens ont une mobilité ascendante bien plus faible et une mobilité descendante bien plus forte que les Américains blancs [10].",
+            "Le résultat le plus frappant concerne les garçons. ==À revenu des parents identique, les garçons noirs gagnent moins une fois adultes que les garçons blancs dans 99 % des quartiers américains== [10]. Et l'écart persiste même entre garçons qui ont grandi dans le même quartier [10].",
+            "Les chercheurs écartent plusieurs explications. Les différences de capacités ne rendent pas compte de ces écarts, et les ressources du quartier, comme la qualité des écoles, ne suffisent pas à elles seules à les expliquer [10].",
+            "Leur conclusion : réduire l'écart demandera des efforts qui traversent les frontières de quartier et de classe sociale, et qui visent spécifiquement la mobilité des hommes noirs [10]. Ce travail montre la force des données, mais aussi leurs limites : elles disent où et combien, mieux que pourquoi."
+          ]
+        },
+        {
+          title: "L'université : ascenseur pour tous, ou pour quelques-uns ?",
+          paragraphs: [
+            "L'université est souvent présentée comme le grand ascenseur social. En 2017, l'équipe de Chetty publie les ==« bulletins de mobilité » des universités américaines==, à partir de données fiscales sur plus de 30 millions d'étudiants inscrits entre 1999 et 2013 [12].",
+            "Pour chaque établissement, ils calculent un ==taux de mobilité== : la part d'étudiants venus des 20 % les plus pauvres (l'accès), multipliée par la part de ces étudiants qui atteignent, adultes, les 20 % les plus riches (la réussite). En moyenne, ce taux est de 1,7 % [12].",
+            "Les champions ne sont pas les plus prestigieuses. Les grandes universités privées ont un taux de réussite très élevé, mais accueillent très peu d'étudiants pauvres. Ce sont ==des universités publiques de rang moyen, comme celles de la ville de New York (CUNY) ou de l'État de Californie (Cal State), qui font monter le plus d'enfants du bas vers le haut== [12]. Les auteurs précisent que ce sont des constats, pas la preuve que l'université en est la cause [12].",
+            "En 2023, une autre étude regarde les admissions dans les universités les plus sélectives, les « Ivy-Plus » (Ivy League, Stanford, MIT, Duke, Chicago). ==À notes égales au test d'entrée, les enfants du top 1 % ont plus de deux fois plus de chances d'y étudier que ceux de la classe moyenne== [11]. Près de la moitié de cet avantage vient de la préférence pour les enfants d'anciens élèves, les « legacy » ; une autre part, des sportifs recrutés et d'évaluations « personnelles » plus favorables [11].",
+            "Pourquoi c'est important ? Parce que ces universités forment une grande partie des dirigeants : l'étude montre qu'y être admis augmente nettement les chances d'atteindre le top 1 % des revenus et d'aller dans une grande université de recherche ou une entreprise prestigieuse [11]. ==Qui entre dans ces écoles décide en partie qui dirigera le pays.=="
+          ],
+          example: {
+            title: "Calculer un taux de mobilité",
+            text: "Une université accueille 20 % d'étudiants venus des familles les plus pauvres (accès), et 30 % d'entre eux atteignent adultes les 20 % les plus riches (réussite). Son taux de mobilité vaut 20 % × 30 % = 6 % : sur 100 étudiants, 6 ont fait tout le trajet du bas vers le haut. Une université prestigieuse avec 4 % d'étudiants pauvres et 60 % de réussite n'a que 4 % × 60 % = 2,4 %."
+          }
         },
         {
           title: "Les « Einstein perdus »",
           paragraphs: [
-            "Autre étude célèbre de l'équipe : qui devient inventeur ? Les chercheurs croisent les brevets et les revenus des parents. Les enfants des familles riches ont beaucoup plus de chances de déposer des brevets que des enfants tout aussi doués en mathématiques à l'école, mais issus de familles modestes [6].",
-            "Et l'exposition compte : ==grandir entouré d'inventeurs, voir des exemples d'innovation, augmente fortement les chances de devenir soi-même inventeur== [6]. Des talents se perdent simplement parce qu'ils n'ont jamais vu le métier de près : ce sont les « Einstein perdus »."
+            "Autre étude célèbre de l'équipe, publiée en 2019 : qui devient inventeur aux États-Unis ? Les chercheurs croisent les dépôts de brevets avec les revenus des parents et les notes à l'école [6].",
+            "Le constat est brutal : ==les enfants du top 1 % des revenus ont dix fois plus de chances de devenir inventeurs que ceux de la moitié la moins riche== [6]. Est-ce parce qu'ils sont plus doués ? Les notes en mathématiques au primaire prédisent bien qui invente. Mais même parmi les meilleurs élèves en mathématiques, les enfants riches inventent beaucoup plus que les enfants modestes [6].",
+            "La clé, c'est ==l'exposition== : grandir dans une ville où il y a beaucoup d'inventeurs, ou avoir des parents inventeurs, augmente fortement les chances d'en devenir un, et souvent dans le même domaine précis que les adultes qu'on a côtoyés [6]. Selon les auteurs, seule une petite part des écarts (environ 6 %) s'explique par des différences de capacités à la naissance [6].",
+            "Les auteurs en tirent une idée forte : ==beaucoup de talents se perdent simplement parce qu'ils n'ont jamais vu le métier de près==. Ce sont les « Einstein perdus ». Mentorats, stages, rencontres avec des chercheurs dans les écoles des quartiers modestes pourraient en récupérer une partie [6]."
           ]
+        },
+        {
+          title: "Et en France ?",
+          paragraphs: [
+            "Les données de Chetty portent sur les États-Unis, mais la question se pose partout. En 2018, l'OCDE publie un rapport au titre parlant : ==« Un ascenseur social en panne ? »== [13]. En moyenne dans les pays riches, il faudrait environ cinq générations, soit 150 ans, pour qu'un enfant d'une famille pauvre atteigne le revenu moyen ; deux à trois dans les pays nordiques, neuf ou plus dans certains pays émergents [13].",
+            "Pour la France, l'estimation est de ==plus de six générations== [13], plus que la moyenne des pays riches. Paradoxe souvent relevé : la France redistribue beaucoup par les impôts et les aides, ce qui réduit les écarts de niveau de vie, mais l'origine sociale pèse lourd sur les diplômes et les revenus avant redistribution.",
+            "La même année, l'organisme public France Stratégie publie ==« Nés sous la même étoile ? »==, une étude sur le lien entre le métier des parents et le niveau de vie des enfants devenus adultes [14]. Un enfant de cadre supérieur a environ ==4,5 fois plus de chances qu'un enfant d'ouvrier d'appartenir aux 20 % les plus aisés== [14]. Un fils de médecin ou d'avocat a environ une chance sur deux d'y être, un fils de professeur 40 %, mais seulement 12 % des enfants d'auxiliaire de vie ou d'employé de ménage [14].",
+            "Le diagnostic de France Stratégie : ==« l'inégalité des chances en France est d'abord une inégalité des chances éducatives »== [14]. Les enfants de cadres accèdent bien plus souvent aux études longues, et le diplôme pèse ensuite beaucoup sur le revenu. Le quartier, les réseaux et l'exposition aux métiers, mis en avant par Chetty, s'ajoutent à cette inégalité scolaire."
+          ],
+          plain: {
+            title: "deux élèves de 15 ans, à Paris",
+            steps: [
+              "Inès, fille d'un cadre, a des parents qui connaissent les classes préparatoires, les écoles et leurs concours.",
+              "Karim, fils d'un ouvrier, a d'aussi bonnes notes, mais personne autour de lui n'a fait d'études longues.",
+              "Inès vise une grande école ; Karim choisit une filière courte, faute d'information et de modèle.",
+              "Adultes, l'écart de diplôme devient un écart de revenu : c'est le mécanisme que décrit France Stratégie [14]. Un mentor ou un stage aurait pu changer la donne de Karim, comme le suggèrent les travaux sur l'exposition [6]."
+            ]
+          }
         },
         {
           title: "À quoi servent ces travaux ?",
           paragraphs: [
-            "==Mesurer pour agir.== En cartographiant les chances de chaque quartier, ces travaux aident à cibler les aides au logement, les écoles et les programmes de mentorat là où ils changent le plus de choses.",
-            "==Changer la question.== Au lieu de demander seulement « combien redistribuer ? », on se demande aussi « où et comment donner sa chance à chaque enfant ? » : quartier, école, réseaux, modèles.",
-            "==Et en Europe ?== Ces données portent sur les États-Unis. Les mécanismes (lieu de vie, amis, exemples) valent sans doute ailleurs, mais leurs effets doivent être mesurés pays par pays avant d'en tirer des conclusions."
+            "==Mesurer pour agir.== En cartographiant les chances de chaque quartier (leur « Atlas des opportunités » est public), ces travaux aident à cibler les aides au logement, les écoles et les programmes de mentorat là où ils changent le plus de choses. L'expérience de Seattle en est un exemple direct [9].",
+            "==Investir tôt.== Puisque l'effet du quartier s'accumule année après année pendant l'enfance [8], agir tôt rapporte plus. Une étude d'Opportunity Insights sur 133 politiques publiques américaines montre que les investissements dans la santé et l'éducation des enfants modestes ont souvent le meilleur rendement, et que beaucoup ==se sont remboursés d'eux-mêmes== grâce aux impôts payés plus tard par ces enfants devenus adultes [15].",
+            "==Changer la question.== Au lieu de demander seulement « combien redistribuer ? », on se demande aussi « où et comment donner sa chance à chaque enfant ? » : quartier, école, réseaux, modèles, accès aux universités.",
+            "==Utiliser les données.== Ces études n'ont été possibles qu'en reliant, de façon anonyme, des données fiscales à grande échelle. C'est la méthode que Chetty enseigne à Harvard : utiliser les grandes bases de données pour répondre à des questions sociales concrètes, et tester les solutions par tirage au sort."
           ]
         },
         {
           title: "Les limites",
           paragraphs: [
-            "==Une mesure parmi d'autres.== La mobilité « absolue » dépend beaucoup de la croissance générale ; la mobilité « relative » (changer de place dans l'échelle) raconte une autre histoire.",
-            "==Corrélation ou cause ?== Les amitiés entre milieux sont liées à l'ascension sociale, mais ce n'est pas forcément l'amitié qui la provoque : c'est pourquoi les expériences par tirage au sort, comme Moving to Opportunity, comptent tant [4].",
-            "==Des causes discutées.== Le rôle des inégalités dans la baisse de la mobilité fait débat entre économistes [1][3]."
+            "==Une mesure parmi d'autres.== La mobilité absolue dépend beaucoup de la croissance générale ; la mobilité relative raconte une autre histoire. Et le revenu n'est pas tout : santé, satisfaction ou métier choisi n'apparaissent pas dans ces chiffres.",
+            "==Corrélation ou cause ?== La carte des chances [7] et les amitiés entre milieux [5] sont liées à l'ascension sociale, mais ce n'est pas forcément le lieu ou l'amitié qui la provoque. C'est pourquoi les expériences par tirage au sort, comme Moving to Opportunity et Seattle, comptent tant [4][9].",
+            "==Des causes discutées.== Le rôle des inégalités dans la baisse de la mobilité fait débat entre économistes [1][3].",
+            "==Des données américaines.== Les mécanismes (lieu de vie, amis, exemples) valent sans doute ailleurs, mais leurs effets doivent être mesurés pays par pays. En France, les données reliant parents et enfants sont plus rares, ce qui rend les comparaisons fines plus difficiles.",
+            "==Des solutions à grande échelle ?== Une expérience qui marche avec quelques centaines de familles ne marche pas forcément pour tout un pays : si toutes les familles modestes s'installaient dans les mêmes quartiers favorables, ces quartiers changeraient eux-mêmes."
           ]
         }
       ],
-      forMe: "Ton parcours ne dépend pas que de tes notes : ton quartier, ton école, les gens que tu côtoies et les métiers que tu as pu voir de près comptent aussi. Pour un étudiant, c'est une raison de plus de multiplier les rencontres, les stages et les mentors.",
+      forMe: "Ton parcours ne dépend pas que de tes notes : ton quartier, ton école, les gens que tu côtoies et les métiers que tu as pu voir de près comptent aussi. Pour un étudiant, c'est une raison de plus de multiplier les rencontres, les stages et les mentors, et, quand tu le pourras, d'ouvrir à ton tour la porte à des plus jeunes qui n'ont pas ces contacts.",
       figures: [
         { value: "≈ 90 % → 50 %", label: "Américains qui gagnent plus que leurs parents : nés en 1940, puis nés dans les années 1980", src: 1 },
+        { value: "4,4 % / 12,9 %", label: "chances pour un enfant pauvre d'atteindre les 20 % les plus riches : Charlotte, puis San José", src: 7 },
         { value: "+31 %", label: "revenus adultes des enfants partis avant 13 ans vers un quartier moins pauvre", src: 4 },
-        { value: "72 millions", label: "utilisateurs de Facebook étudiés pour mesurer la « connectivité économique »", src: 5 }
+        { value: "14 % → 54 %", label: "familles qui s'installent dans un quartier favorable, sans puis avec accompagnement (Seattle)", src: 9 },
+        { value: "× 10", label: "chances de devenir inventeur pour un enfant du top 1 %, par rapport à la moitié la moins riche", src: 6 },
+        { value: "6 générations", label: "le temps qu'il faudrait en France à une famille modeste pour atteindre le revenu moyen (OCDE)", src: 13 }
       ],
       terms: ["pib", "pouvoir-achat", "dette-publique"],
       quiz: [
         { q: "Quelle part des Américains nés dans les années 1980 gagnent plus que leurs parents ?", options: ["Environ 90 %", "Environ 50 %", "Environ 10 %", "Tous"], answer: 1, explain: "C'était environ 90 % pour les enfants nés en 1940 ; c'est tombé à environ 50 % pour ceux nés dans les années 1980." },
-        { q: "Qu'a montré l'expérience Moving to Opportunity ?", options: ["Le quartier n'a aucun effet", "Les enfants qui déménagent jeunes vers un quartier moins pauvre gagnent plus adultes", "Déménager fait baisser les revenus", "Seuls les adultes en profitent"], answer: 1, explain: "Les enfants partis avant 13 ans gagnent environ 31 % de plus une fois adultes." },
+        { q: "Quelle est la différence entre mobilité absolue et mobilité relative ?", options: ["Aucune", "Absolue : gagner plus que ses parents ; relative : changer de rang dans l'échelle des revenus", "Absolue : en euros ; relative : en dollars", "Absolue : pour les riches ; relative : pour les pauvres"], answer: 1, explain: "Si tout le monde s'enrichit, la mobilité absolue est forte même si personne ne change de rang." },
+        { q: "Dans un monde où l'origine ne compterait pas, quelle part des enfants du quintile du bas atteindrait le quintile du haut ?", options: ["0 %", "5 %", "20 %", "50 %"], answer: 2, explain: "Chaque quintile regroupe 20 % de la population : sans lien entre origine et réussite, chacun aurait 20 % de chances d'arriver en haut." },
+        { q: "Un enfant pauvre a-t-il les mêmes chances de monter à Charlotte et à San José ?", options: ["Oui, c'est le même pays", "Non : 4,4 % à Charlotte contre 12,9 % à San José", "Non : il a plus de chances à Charlotte", "On ne sait pas le mesurer"], answer: 1, explain: "Près de trois fois plus de chances à San José, selon la carte de Chetty, Hendren, Kline et Saez (2014)." },
+        { q: "Qu'a montré l'expérience Moving to Opportunity ?", options: ["Le quartier n'a aucun effet", "Les enfants qui déménagent jeunes vers un quartier moins pauvre gagnent plus adultes", "Déménager fait baisser les revenus", "Seuls les adultes en profitent"], answer: 1, explain: "Les enfants partis avant 13 ans gagnent environ 31 % de plus une fois adultes ; pour les adolescents, le gain disparaît." },
+        { q: "Dans l'expérience de Seattle, qu'est-ce qui a fait passer de 14 % à 54 % la part des familles installées dans un quartier favorable ?", options: ["Une obligation de déménager", "Un accompagnement : information, aide au dossier, contacts avec les propriétaires, aide financière", "Une hausse des loyers", "La construction de nouveaux logements"], answer: 1, explain: "Les familles restaient libres de leur choix : ce sont les obstacles concrets qui les retenaient, pas leurs préférences." },
         { q: "Qu'est-ce que la « connectivité économique » ?", options: ["Le débit internet d'un quartier", "La part d'amis de milieux aisés chez les personnes de milieux modestes", "Le nombre de banques", "Le taux de chômage"], answer: 1, explain: "C'est l'un des meilleurs prédicteurs de l'ascension sociale, selon l'étude de 2022 sur 72 millions d'utilisateurs de Facebook." },
-        { q: "Qui sont les « Einstein perdus » ?", options: ["Des physiciens disparus", "Des enfants doués qui ne deviennent pas inventeurs faute d'exposition à l'innovation", "Des brevets perdus", "Des chercheurs partis à l'étranger"], answer: 1, explain: "Voir des inventeurs de près augmente fortement les chances d'en devenir un ; beaucoup de talents de milieux modestes n'ont pas cette chance." }
+        { q: "Quelles universités américaines font monter le plus d'enfants du bas vers le haut ?", options: ["Les plus prestigieuses (Harvard, Stanford)", "Des universités publiques de rang moyen, comme CUNY ou Cal State", "Les universités en ligne", "Aucune"], answer: 1, explain: "Les plus prestigieuses ont une forte réussite mais accueillent très peu d'étudiants pauvres ; CUNY et Cal State combinent accès et réussite." },
+        { q: "Qui sont les « Einstein perdus » ?", options: ["Des physiciens disparus", "Des enfants doués qui ne deviennent pas inventeurs faute d'exposition à l'innovation", "Des brevets perdus", "Des chercheurs partis à l'étranger"], answer: 1, explain: "Les enfants du top 1 % ont dix fois plus de chances d'inventer ; voir des inventeurs de près est une clé." },
+        { q: "Selon France Stratégie, d'où vient d'abord l'inégalité des chances en France ?", options: ["Du climat", "De l'inégalité des chances éducatives", "Des impôts", "Du prix des logements seulement"], answer: 1, explain: "Les enfants de cadres font plus souvent des études longues, et le diplôme pèse ensuite sur le revenu." }
       ],
       sources: [
         { short: "Opportunity Insights", name: "Opportunity Insights, « The Fading American Dream: Trends in Absolute Income Mobility Since 1940 » (Chetty, Grusky, Hell, Hendren, Manduca, Narang)", url: "https://opportunityinsights.org/paper/the-fading-american-dream/" },
@@ -852,10 +952,21 @@ window.GEOCO = {
         { short: "Silicon Canals", name: "Silicon Canals, « The American dream can be put in a number and that number has halved » (présente la réanalyse de Scott Winship, 2022)", url: "https://siliconcanals.com/m-the-american-dream-can-be-put-in-a-number-and-that-number-has-halved-9-in-10-children-born-in-1940-grew-up-to-out-earn-their-parents-for-those-born-in-the-1980s-it-is-now-about-1-in-2-bar/" },
         { short: "FMI", name: "FMI, Finance & Développement, « Harvard Economist Raj Chetty on Social Mobility and Big Data », septembre 2018", url: "https://www.imf.org/en/publications/fandd/issues/2018/09/harvard-economist-raj-chetty-profile-people/index.md" },
         { short: "NBER", name: "NBER, Chetty et al., « Social Capital I: Measurement and Associations with Economic Mobility », document de travail 30313 (publié dans Nature, 2022)", url: "https://www.nber.org/system/files/working_papers/w30313/w30313.pdf" },
-        { short: "RSA", name: "RSA Journal, « Capital gains » (entretien avec Raj Chetty)", url: "https://www.thersa.org/rsa-journal/capital-gains" }
+        { short: "NBER", name: "NBER, Bell, Chetty, Jaravel, Petkova et Van Reenen, « Who Becomes an Inventor in America? The Importance of Exposure to Innovation », document de travail 24062 (Quarterly Journal of Economics, 2019)", url: "https://www.nber.org/papers/w24062" },
+        { short: "QJE", name: "Chetty, Hendren, Kline et Saez, « Where is the Land of Opportunity? The Geography of Intergenerational Mobility in the United States », Quarterly Journal of Economics, novembre 2014", url: "https://eml.berkeley.edu/~saez/chetty-friedman-kline-saezQJE14mobility.pdf" },
+        { short: "NBER", name: "NBER, Chetty et Hendren, « The Impacts of Neighborhoods on Intergenerational Mobility I: Childhood Exposure Effects », document de travail 23001 (Quarterly Journal of Economics, 2018)", url: "https://www.nber.org/papers/w23001" },
+        { short: "J-PAL", name: "J-PAL, « Creating Moves to Opportunity in Seattle-King County » (Bergman, Chetty, DeLuca, Hendren, Katz, Palmer)", url: "https://www.povertyactionlab.org/node/2415" },
+        { short: "NBER", name: "NBER, Chetty, Hendren, Jones et Porter, « Race and Economic Opportunity in the United States: An Intergenerational Perspective », document de travail 24441, 2018", url: "https://www.nber.org/papers/w24441.pdf" },
+        { short: "Opportunity Insights", name: "Opportunity Insights, Chetty, Deming et Friedman, « Diversifying Society's Leaders? The Causal Effects of Admission to Highly Selective Private Colleges », juillet 2023", url: "https://opportunityinsights.org/paper/collegeadmissions/" },
+        { short: "Stanford", name: "Stanford Center on Poverty and Inequality, « Mobility Report Cards: The Role of Colleges in Intergenerational Mobility » (Chetty, Friedman, Saez, Turner, Yagan), 2017", url: "https://inequality.stanford.edu/node/9499" },
+        { short: "OCDE", name: "OCDE, « A Broken Social Elevator? How to Promote Social Mobility », juin 2018, et VoxEU, « France, inequality, and the social elevator »", url: "https://cepr.org/voxeu/columns/france-inequality-and-social-elevator" },
+        { short: "France Stratégie", name: "France Stratégie, « Nés sous la même étoile ? Origine sociale et niveau de vie », note d'analyse n° 68, juillet 2018", url: "https://solidarites.gouv.fr/sites/solidarite/files/2023-03/nes_sous_la_meme_etoile_france_strategie.pdf" },
+        { short: "Harvard Gazette", name: "Harvard Gazette, « Opportunity Insights study finds investing in disadvantaged children brings greater long-term results », juillet 2019 (Hendren et Sprung-Keyser)", url: "https://news.harvard.edu/gazette/story/2019/07/opportunity-insights-study-finds-investing-in-disadvantaged-children-brings-greater-long-term-results" }
       ],
       visuals: [
-        { kind: "chart", type: "bar", title: "Le rêve américain s'est rétréci", subtitle: "Part des enfants qui gagnent, adultes, plus que leurs parents, selon leur génération (États-Unis)", xLabel: "Nés en", unit: "Part (%)", suffix: " %", data: [["1940", 90], ["Années 1980", 50]], source: "Opportunity Insights (Chetty et al.)" }
+        { kind: "chart", type: "bar", title: "Le rêve américain s'est rétréci", subtitle: "Part des enfants qui gagnent, adultes, plus que leurs parents, selon leur génération (États-Unis)", xLabel: "Nés en", unit: "Part (%)", suffix: " %", data: [["1940", 90], ["Années 1980", 50]], source: "Opportunity Insights (Chetty et al.)" },
+        { kind: "chart", type: "bar", title: "Même pays, chances différentes", subtitle: "Probabilité qu'un enfant né dans les 20 % les plus pauvres atteigne les 20 % les plus riches", xLabel: "Ville", unit: "Probabilité (%)", suffix: " %", data: [["Charlotte", 4.4], ["San José", 12.9]], source: "Chetty, Hendren, Kline et Saez (2014)" },
+        { kind: "chart", type: "bar", title: "Le coup de pouce de Seattle", subtitle: "Part des familles aidées au logement qui s'installent dans un quartier favorable", xLabel: "Groupe", unit: "Part (%)", suffix: " %", data: [["Aide seule", 14], ["Aide + accompagnement", 54]], source: "J-PAL, Creating Moves to Opportunity" }
       ]
     },
     {
@@ -864,30 +975,50 @@ window.GEOCO = {
       theme: "eco",
       inspiredBy: "Michael J. Sandel",
       title: "Ce que l'argent ne devrait pas acheter : la morale des marchés",
-      hook: "Une amende pour les parents en retard qui les fait… arriver plus tard. Un droit de polluer qu'on achète en Bourse. Un rein qu'on peut vendre légalement en Iran. Jusqu'où le marché doit-il aller ? Un cours pour penser, avec des faits.",
-      minutes: 10,
+      hook: "Une amende pour les parents en retard qui les fait… arriver plus tard. Une compensation qui fait refuser un projet qu'on acceptait gratuitement. Un droit de polluer qu'on achète en Bourse. Un rein qu'on peut vendre légalement en Iran. Jusqu'où le marché doit-il aller ? Un long cours pour penser, avec des faits et des expériences réelles.",
+      minutes: 25,
       level: "Intermédiaire",
       tldr: [
-        "Les économistes jugent un marché d'abord à son efficacité ; le philosophe Michael Sandel pose deux autres questions : est-ce juste (équité), et est-ce que l'argent change la nature de ce qu'on échange (corruption) ?",
-        "Exemple célèbre : dans des crèches israéliennes, une amende pour les retards a fait augmenter les retards, et ils sont restés hauts même après sa suppression [1].",
-        "Le marché du carbone européen fait payer la pollution depuis 2005 : un outil efficace pour les uns, un « droit de polluer » pour les autres [2][3].",
-        "Payer des élèves, vendre un rein : les expériences réelles montrent que les incitations marchent… parfois, et pas toujours comme prévu [5][6]."
+        "Les économistes jugent un marché d'abord à son efficacité ; le philosophe de Harvard Michael Sandel pose deux autres questions : est-ce juste (équité), et l'argent change-t-il la nature de ce qu'on échange (corruption) ?",
+        "Des expériences réelles montrent qu'un prix peut chasser la motivation morale : dans des crèches israéliennes, une amende a fait augmenter les retards [1] ; en Suisse, offrir une compensation a fait chuter l'acceptation d'un site de déchets nucléaires d'environ la moitié à environ un quart des habitants [10][11].",
+        "Mais un prix peut aussi être accepté et efficace : le marché européen du carbone a accompagné une baisse d'environ 50 % des émissions des secteurs couverts depuis 2005 [13], et le péage urbain de Stockholm, d'abord impopulaire, a été adopté par référendum après un essai [14].",
+        "Payer des élèves, payer le sang, vendre un rein : les incitations marchent… parfois, et pas toujours comme prévu [5][9][6]. Certains marchés sont aussi rejetés parce qu'ils choquent, ce que l'économiste Alvin Roth appelle la « répugnance » [12]."
       ],
       sections: [
         {
           title: "La question qu'on ne pose plus",
           paragraphs: [
-            "Depuis les années 1980, le marché s'est étendu à des domaines qui lui échappaient : santé, éducation, environnement, sécurité. Pour un économiste, un échange librement consenti profite aux deux parties ; si on peut créer un marché, on améliore souvent l'efficacité.",
-            "Le philosophe de Harvard Michael Sandel pose deux objections. ==L'équité== : un échange est-il vraiment libre quand l'un des deux est dans le besoin ? ==La corruption== (au sens de « dégradation ») : mettre un prix sur certaines choses change ce qu'elles sont ; une amitié achetée n'est plus une amitié.",
-            "Ce cours ne tranche pas : il te donne des cas réels, avec leurs chiffres, pour que tu te fasses ton avis."
+            "Depuis les années 1980, le marché s'est étendu à des domaines qui lui échappaient : santé, éducation, environnement, sécurité, vie privée. Pour un économiste, un échange librement consenti profite aux deux parties ; si l'on peut créer un marché là où il n'y en avait pas, on améliore souvent l'efficacité, c'est-à-dire qu'on obtient plus avec les mêmes ressources.",
+            "Le philosophe de Harvard Michael Sandel, connu pour son cours « Justice » suivi par des milliers d'étudiants, résume son inquiétude par une formule : nous sommes passés ==d'une économie de marché à une société de marché==. Une économie de marché est un outil pour produire des biens. Une société de marché est un mode de vie où presque tout est à vendre.",
+            "Il pose deux objections. ==L'équité== : un échange est-il vraiment libre quand l'un des deux est dans le besoin ? ==La corruption==, au sens de « dégradation » : mettre un prix sur certaines choses change ce qu'elles sont ; un prix Nobel acheté ne vaut plus un prix Nobel, une amitié achetée n'est plus une amitié.",
+            "Ce cours ne tranche pas : il te donne des cas réels, avec leurs chiffres, pour que tu te fasses ton avis. Tu verras que l'argent a parfois exactement l'effet prévu, parfois l'effet inverse, et que la frontière entre ce qui « se vend » et ce qui « ne se vend pas » change selon les pays et les époques."
+          ]
+        },
+        {
+          title: "Tout s'achète ? Quelques prix réels",
+          paragraphs: [
+            "Le livre de Sandel « Ce que l'argent ne saurait acheter » (2012) s'ouvre sur une liste de prix bien réels. En Californie, ==un détenu peut payer environ 82 dollars la nuit pour une cellule plus propre et plus calme== [8]. Dans des écoles de Dallas, on a payé ==2 dollars par livre lu== à de jeunes élèves pour les encourager à lire [8]. Et à Washington, on peut payer quelqu'un pour faire la queue à sa place devant une audition au Congrès [8].",
+            "Pour l'économiste, rien de choquant : chacun obtient ce qu'il veut, le détenu un meilleur sommeil, la prison une recette, le lobbyiste une place, le « faiseur de queue » un revenu. Les deux parties y gagnent, personne n'est forcé.",
+            "Pour Sandel, chaque exemple soulève l'une de ses deux questions. La cellule payante : est-il juste que le confort en prison dépende de l'argent du détenu ? Les 2 dollars par livre : l'enfant apprend-il à aimer lire, ou à lire pour l'argent ? La file d'attente : une audition publique doit-elle être plus accessible aux lobbyistes qui paient qu'aux citoyens qui attendent ?",
+            "==Ces exemples ne sont pas des abus isolés==, dit Sandel : ils montrent une tendance. Plus l'argent compte dans l'accès aux biens de la vie (santé, éducation, sécurité, influence politique), plus les inégalités de revenus pèsent lourd dans la vie de chacun."
+          ]
+        },
+        {
+          title: "Les deux objections, de près",
+          paragraphs: [
+            "==L'équité, ou la contrainte.== Un échange n'est vraiment libre que si chacun peut dire non sans perdre beaucoup. Quand quelqu'un vend un rein pour rembourser une dette, ou accepte un travail dangereux parce qu'il n'a rien d'autre, on peut se demander s'il choisit vraiment. Cette objection ne vise pas le marché en lui-même : elle vise les inégalités qui le faussent. Dans une société plus égale, elle perdrait de sa force.",
+            "==La corruption, ou la dégradation.== Cette objection est plus profonde : même entre deux personnes aussi riches l'une que l'autre, mettre un prix peut changer le sens de la chose. Le sang donné devient du sang vendu, le service civique devient un emploi, la lecture devient un travail payé. Ici, ce n'est pas l'inégalité qui pose problème, c'est l'argent lui-même.",
+            "Les économistes répondent souvent que l'argent ne change pas les choses : un livre lu reste un livre lu, quelle que soit la raison. Mais une branche de l'économie, l'économie comportementale, a montré qu'ils se trompent parfois. Elle parle ==d'effet d'éviction de la motivation== : une récompense en argent peut chasser une motivation plus profonde (le devoir, la fierté, l'envie d'aider), et au total, les gens en font moins.",
+            "Les sections qui suivent présentent les expériences les plus connues sur ce sujet. Retiens la grille : pour chaque cas, demande-toi ==si le prix marche, et ce qu'il change==."
           ]
         },
         {
           title: "L'amende qui a fait venir les parents… plus tard",
           paragraphs: [
-            "Les économistes Uri Gneezy et Aldo Rustichini mènent une expérience dans des crèches en Israël. Dans 6 crèches sur 10, ils introduisent une amende pour les parents qui arrivent plus de 10 minutes en retard ; les 4 autres servent de comparaison [1].",
-            "Résultat inverse de celui attendu : ==les retards augmentent== dans les crèches avec amende, puis se stabilisent à un niveau plus élevé qu'avant. Et quand l'amende est supprimée, à la 17e semaine, les retards restent aussi hauts [1].",
-            "Leur explication tient dans le titre de leur article : ==« une amende est un prix »==. Avant, arriver en retard, c'était manquer de respect aux éducatrices. Avec l'amende, c'est un service qu'on paie : la gêne morale a disparu, et elle n'est pas revenue [1]."
+            "Les économistes Uri Gneezy et Aldo Rustichini mènent une expérience dans des crèches en Israël. Pendant quatre semaines, ils comptent simplement les retards des parents. Puis, dans 6 crèches sur 10, ils introduisent une amende pour les parents qui arrivent plus de 10 minutes en retard ; les 4 autres servent de comparaison [1].",
+            "Résultat inverse de celui attendu : ==les retards augmentent== dans les crèches avec amende, puis se stabilisent à un niveau plus élevé qu'avant. Et quand l'amende est supprimée, à la 17e semaine, les retards restent aussi hauts [1]. Dans les crèches sans amende, rien ne bouge.",
+            "Leur explication tient dans le titre de leur article : ==« une amende est un prix »==. Avant, arriver en retard, c'était manquer de respect aux éducatrices qui attendent. Avec l'amende, c'est un service qu'on paie : la gêne morale a disparu. Et elle n'est pas revenue quand l'amende a été retirée [1].",
+            "Leçon pour toute politique publique : ==une norme sociale, une fois remplacée par un prix, ne revient pas forcément quand on retire le prix==. Les auteurs notent aussi que l'amende était faible ; une amende beaucoup plus lourde aurait sans doute fait baisser les retards. Le problème n'est pas l'argent en général, c'est un petit prix qui remplace une obligation morale."
           ],
           plain: {
             title: "comment un prix tue une norme",
@@ -900,12 +1031,39 @@ window.GEOCO = {
           }
         },
         {
+          title: "Quand l'argent fait fuir le civisme : les déchets nucléaires suisses",
+          paragraphs: [
+            "Au début des années 1990, la Suisse cherche où stocker ses déchets nucléaires faiblement et moyennement radioactifs. Les économistes Bruno Frey et Felix Oberholzer-Gee en profitent pour interroger leurs habitants [10][11].",
+            "Première question : accepteriez-vous le site dans votre commune ? ==Environ la moitié des habitants interrogés répondent oui== (50,8 % selon l'enquête), malgré le risque perçu [11]. Beaucoup y voient un devoir civique : il faut bien stocker ces déchets quelque part.",
+            "Deuxième question : et si le pays vous versait chaque année une compensation importante ? Logiquement, l'acceptation devrait monter, puisqu'on ajoute un avantage. ==Elle s'effondre à environ un quart== (24,6 %) [11]. Les auteurs l'expliquent par deux effets : l'argent est vu comme un pot-de-vin, et il remplace le sens du devoir par un calcul où le risque paraît alors trop mal payé [10].",
+            "Cette expérience est souvent citée par Sandel : ==ajouter un prix ne s'additionne pas toujours à la motivation morale ; il peut la remplacer==. Elle ne veut pas dire qu'il ne faut jamais compenser les riverains d'une installation gênante. Elle dit que la façon de compenser compte : un chèque à chaque habitant n'a pas le même sens qu'un projet pour toute la commune."
+          ],
+          plain: {
+            title: "pourquoi un chèque peut faire dire non",
+            steps: [
+              "On demande : « Accepteriez-vous ce site pour le bien du pays ? » Un habitant sur deux répond oui, par devoir [11].",
+              "On ajoute : « On vous paiera chaque année. » La question change de nature.",
+              "L'habitant se dit : « Si on me paie, c'est que c'est dangereux, et ce prix est-il suffisant ? » Le devoir s'efface, le calcul commence.",
+              "Il n'y a plus qu'un habitant sur quatre pour dire oui [11] : la compensation a chassé le civisme [10]."
+            ]
+          }
+        },
+        {
+          title: "Payer le sang ?",
+          paragraphs: [
+            "En 1970, le sociologue britannique Richard Titmuss compare dans « The Gift Relationship » le don du sang gratuit au Royaume-Uni et le sang payé aux États-Unis. Il défend une idée qui a d'abord fait sourire les économistes : ==payer le sang pourrait réduire le nombre de donneurs== et la qualité du sang, parce que l'argent chasserait l'esprit du don [9].",
+            "Près de quarante ans plus tard, en 2008, les économistes suédois Carl Mellström et Magnus Johannesson testent cette idée à Göteborg. Des personnes intéressées par le don du sang sont réparties au hasard en trois groupes : pas de paiement, 50 couronnes (environ 7 dollars), ou le choix entre ces 50 couronnes et un don de la même somme à une association [9].",
+            "Chez les hommes, le paiement ne change rien. Chez les femmes, ==la part de volontaires tombe d'environ 52 % à 30 % quand on les paie== [9]. Et quand elles peuvent reverser l'argent à une association, la part remonte au niveau du groupe sans paiement [9]. Les auteurs avancent une explication : donner son sang est aussi une façon de montrer qu'on est généreux, et le paiement brouille ce signal [9].",
+            "Titmuss avait donc en partie raison, mais pas pour tout le monde. Aujourd'hui, la plupart des pays européens, dont la France, reposent sur le don de sang bénévole ; d'autres, comme les États-Unis, rémunèrent le don de plasma. ==Le même produit, deux philosophies.=="
+          ]
+        },
+        {
           title: "Payer pour polluer ?",
           paragraphs: [
             "Depuis 2005, l'Union européenne oblige les centrales électriques, les usines et les compagnies aériennes à posséder un « quota » pour chaque tonne de CO₂ qu'elles émettent. Le nombre total de quotas est plafonné et baisse avec le temps ; les entreprises peuvent les acheter et les revendre [2].",
-            "Le prix bouge comme sur un marché. Autour de 4 euros la tonne en février 2017, il dépasse pour la première fois ==100 euros en février 2023== [2], avant de redescendre sous 60 euros en 2024 [3].",
-            "Pour les économistes, c'est l'outil le plus efficace : on fixe la quantité de pollution, et ce sont les entreprises qui réduisent le moins cher qui réduisent le plus. Pour Sandel, le mot « droit de polluer » pose problème : payer pour polluer enlève à la pollution son caractère de faute.",
-            "La France a aussi une taxe carbone sur les carburants et le chauffage. Elle atteint 44,6 euros la tonne en 2018 ; la hausse prévue en 2019 est annulée après le mouvement des gilets jaunes, et elle reste figée depuis à ce niveau, loin des 100 euros visés pour 2030 [4]. ==Un prix efficace sur le papier peut être jugé injuste dans la rue.=="
+            "Le prix bouge comme sur un marché. Autour de 4 euros la tonne en février 2017, il dépasse pour la première fois ==100 euros en février 2023== [2], avant de redescendre sous 60 euros en 2024 [3]. Selon la Commission européenne, ==les émissions des secteurs couverts ont baissé d'environ 50 % depuis 2005==, surtout grâce à la production d'électricité [13].",
+            "Pour les économistes, c'est l'outil le plus efficace : on fixe la quantité de pollution, et ce sont les entreprises qui réduisent le moins cher qui réduisent le plus. Pour Sandel, l'expression « droit de polluer » pose problème : ==payer pour polluer enlève à la pollution son caractère de faute==, comme l'amende de crèche enlevait au retard son caractère d'impolitesse. Il donne l'exemple de la différence entre une amende (une sanction) et un prix (un service) : un quota ressemble à un prix.",
+            "La France a aussi une taxe carbone sur les carburants et le chauffage. Elle atteint 44,6 euros la tonne en 2018 ; la hausse prévue en 2019 est annulée après le mouvement des gilets jaunes, et elle reste figée depuis à ce niveau, loin des 100 euros visés pour 2030 [4]. ==Un prix efficace sur le papier peut être jugé injuste dans la rue==, surtout par ceux qui n'ont pas d'autre choix que la voiture."
           ],
           plain: {
             title: "comment marche un marché du carbone",
@@ -913,16 +1071,26 @@ window.GEOCO = {
               "L'Europe fixe un plafond total d'émissions et distribue ou vend des quotas : 1 quota = 1 tonne de CO₂ [2].",
               "Une usine qui peut réduire ses émissions à bas prix le fait, et revend ses quotas en trop.",
               "Une usine pour qui c'est très cher achète des quotas plutôt que de réduire.",
-              "Au total, les émissions respectent le plafond, au coût le plus bas possible. Le plafond baisse chaque année : le prix du quota monte, et polluer coûte de plus en plus cher [2]."
+              "Au total, les émissions respectent le plafond, au coût le plus bas possible. Le plafond baisse chaque année : le prix du quota monte, et polluer coûte de plus en plus cher [2]. Résultat : environ 50 % d'émissions en moins dans ces secteurs depuis 2005 [13]."
             ]
           }
+        },
+        {
+          title: "Payer pour circuler : Londres et Stockholm",
+          paragraphs: [
+            "Le péage urbain est un autre « prix » mis sur un comportement : rouler en voiture dans le centre aux heures de pointe. En ==février 2003, Londres instaure un péage de 5 livres par jour== pour entrer dans le centre en semaine, de 7 h à 18 h [14]. Le trafic baisse nettement dès le lancement, et le soutien des Londoniens progresse dans les mois qui suivent [14].",
+            "Stockholm choisit une méthode originale : ==un essai de sept mois, de janvier à juillet 2006, puis un référendum== en septembre 2006 [14]. Avant l'essai, le péage est très impopulaire. Après l'avoir vu fonctionner (moins de bouchons, des bus plus rapides), 53 % des votants l'approuvent, et il devient permanent en 2007 [14].",
+            "Cet exemple montre l'autre face du débat : ==un prix peut être accepté quand on en voit les effets et quand l'argent sert à quelque chose de visible==, comme les transports en commun. Ici, le prix ne détruit pas une norme morale ; il remplace la file d'attente des bouchons, où tout le monde perd du temps, par un tarif.",
+            "Sandel lui-même ne rejette pas tous les prix. Sa question est toujours : quelle valeur ce bien a-t-il, et le prix la respecte-t-il ? Rouler dans un centre-ville n'est pas un acte moral ; la circulation y est un bien rare qu'il faut partager, et un prix peut le faire de façon plus juste que l'encombrement."
+          ]
         },
         {
           title: "Payer les élèves pour apprendre ?",
           paragraphs: [
             "En 2007-2009, l'économiste de Harvard Roland Fryer teste des primes en argent dans plus de 250 écoles de Chicago, Dallas, Washington et New York, avec des groupes tirés au sort [5]. À Dallas, on paie les élèves pour lire des livres ; ailleurs, pour leurs notes.",
-            "Résultat : ==payer pour les résultats (les notes) ne marche pas==, tandis que payer pour les efforts (lire, venir en classe) a des effets plus encourageants [5]. Explication de Fryer : les élèves ne savent pas comment transformer leur envie de gagner la prime en meilleures notes [5].",
-            "La leçon rejoint celle des crèches : un prix change les comportements, mais pas toujours dans le sens prévu."
+            "Résultat : ==payer pour les résultats (les notes) ne marche pas==, tandis que payer pour les efforts (lire, venir en classe, bien se tenir) a des effets plus encourageants [5]. Explication de Fryer : les élèves veulent la prime, mais ne savent pas comment transformer leur envie en meilleures notes ; payer une action concrète qu'ils maîtrisent marche mieux [5].",
+            "Sandel répond par une autre question : même si les primes marchaient, ==qu'apprend l'enfant ?== Qu'on lit pour gagner de l'argent, ou qu'on lit parce que c'est passionnant ? Si l'habitude de lire disparaît quand la prime s'arrête, comme les retards restaient hauts après l'amende de crèche, le gain est fragile.",
+            "La leçon rejoint celle des crèches et des déchets suisses : ==un prix change les comportements, mais pas toujours dans le sens prévu, et parfois il change aussi les raisons pour lesquelles on agit==."
           ]
         },
         {
@@ -930,34 +1098,63 @@ window.GEOCO = {
           paragraphs: [
             "Presque partout, vendre un organe est interdit. L'Iran est une exception : depuis 1988, un programme encadré par l'État permet à un donneur vivant non apparenté de recevoir de l'argent pour un rein [6].",
             "Ses défenseurs affirment qu'il a fait disparaître la liste d'attente pour une greffe de rein à la fin des années 1990 ; cette affirmation est contestée par d'autres spécialistes iraniens, qui soulignent la pauvreté des donneurs et la façon dont on mesure la liste d'attente [6][7].",
-            "C'est le cas parfait pour les deux objections de Sandel : ==le donneur est-il vraiment libre== s'il vend un rein parce qu'il est pauvre (équité) ? Et un don devenu vente garde-t-il le même sens (corruption) ? En face, l'argument économique : des milliers de malades attendent une greffe ailleurs."
+            "C'est le cas parfait pour les deux objections de Sandel : ==le donneur est-il vraiment libre== s'il vend un rein parce qu'il est pauvre (équité) ? Et un don devenu vente garde-t-il le même sens (corruption) ? En face, l'argument économique : des milliers de malades attendent une greffe ailleurs, et certains meurent avant d'en recevoir une.",
+            "L'économiste Alvin Roth, prix Nobel 2012, a trouvé une troisième voie : ==les échanges de reins sans argent==. Quand un proche veut donner un rein à un malade mais n'est pas compatible, on organise un échange avec une autre paire dans le même cas : chaque donneur donne au malade de l'autre. Roth a aidé à créer le programme d'échange de reins de Nouvelle-Angleterre, aux États-Unis [12]. Ces échanges ne suscitent pas le rejet que provoque le paiement des organes [12]."
+          ],
+          plain: {
+            title: "un échange de reins, sans argent",
+            steps: [
+              "Paul veut donner un rein à sa femme Anne, mais ils ne sont pas compatibles.",
+              "Dans une autre ville, Léa veut donner un rein à son frère Marc : pas compatibles non plus.",
+              "Par chance, Paul est compatible avec Marc, et Léa avec Anne.",
+              "On organise l'échange : Paul donne à Marc, Léa donne à Anne. Deux greffes, aucun paiement, et personne n'a vendu son corps : c'est le principe des échanges que Roth a aidé à organiser [12]."
+            ]
+          }
+        },
+        {
+          title: "La « répugnance » : pourquoi certains marchés choquent",
+          paragraphs: [
+            "En 2007, Alvin Roth publie un article au titre parlant : ==« La répugnance, une contrainte pour les marchés »== [12]. Il part d'un exemple simple : en Californie, une loi interdit de servir de la viande de cheval au restaurant, alors que la Californie est un État très divers où beaucoup de cultures en mangent [12].",
+            "Roth constate que certains échanges sont interdits non parce qu'ils font du tort à quelqu'un, mais parce que beaucoup de gens les trouvent répugnants. Et ce sentiment ==vise souvent l'argent, pas l'échange lui-même== : donner un rein est admiré, l'échanger contre un autre rein est accepté, le vendre est interdit presque partout [12].",
+            "La répugnance change avec le temps et selon les pays. Prêter de l'argent contre intérêt a longtemps été condamné par l'Église ; l'assurance-vie a d'abord choqué, parce qu'elle mettait un prix sur la mort ; aujourd'hui, elles sont banales. À l'inverse, des pratiques jadis courantes sont devenues inacceptables.",
+            "Pour Roth, l'économiste doit prendre la répugnance au sérieux comme une donnée, et chercher des solutions qui la respectent (comme les échanges de reins). Pour Sandel, ==la répugnance n'est pas qu'un sentiment à contourner : elle signale souvent une vraie valeur== qu'il faut discuter ouvertement."
           ]
         },
         {
           title: "Deux camps, deux questions",
           paragraphs: [
-            "==Le camp de l'efficacité== demande : le marché produit-il le meilleur résultat au moindre coût ? Il rappelle que les interdits ont aussi des victimes (malades sans greffe, pollution non tarifée).",
-            "==Le camp de Sandel== demande : quelles valeurs le prix fait-il disparaître, et qui est contraint d'accepter l'échange ? Il rappelle qu'une société où tout s'achète devient plus dure pour ceux qui ont peu.",
-            "Dans le débat public, ces deux camps se croisent sans cesse : taxe carbone, péages urbains, prix de l'eau, rémunération du don du sang. Savoir reconnaître la question posée (efficacité ou valeurs ?) aide à comprendre le désaccord."
+            "==Le camp de l'efficacité== demande : le marché produit-il le meilleur résultat au moindre coût ? Il rappelle que les interdits ont aussi des victimes (malades sans greffe, pollution non tarifée, bouchons) et qu'un prix bien conçu peut atteindre un objectif commun, comme la baisse des émissions européennes [13].",
+            "==Le camp de Sandel== demande : quelles valeurs le prix fait-il disparaître, et qui est contraint d'accepter l'échange ? Il rappelle qu'une société où tout s'achète devient plus dure pour ceux qui ont peu, et que des expériences montrent que l'argent peut chasser le civisme [1][10][11].",
+            "Les deux camps ne sont pas toujours opposés. Le péage de Stockholm [14] ou les échanges de reins [12] montrent qu'on peut parfois trouver un dispositif efficace et accepté. Et l'amende de crèche montre qu'un économiste attentif aux normes sociales aurait pu prévoir l'échec [1].",
+            "Dans le débat public, ces deux camps se croisent sans cesse : taxe carbone, péages urbains, prix de l'eau, rémunération du don du sang ou du plasma, primes aux élèves, mères porteuses, droits d'entrée dans les universités. ==Savoir reconnaître la question posée (efficacité ou valeurs ?) aide à comprendre le désaccord==, et souvent à le rendre moins violent."
           ],
           example: {
             title: "À toi de juger",
-            text: "Pour chaque cas, pose les deux questions : 1) Est-ce efficace ? 2) Est-ce juste, et est-ce que le prix change le sens de la chose ? Amende de crèche, quota de CO₂, prime scolaire, rein payé : tu verras que les réponses ne vont pas toujours dans le même sens."
+            text: "Pour chaque cas, pose les trois questions : 1) Est-ce efficace ? 2) L'échange est-il vraiment libre, ou l'un des deux est-il contraint ? 3) Le prix change-t-il le sens de la chose ? Amende de crèche, compensation suisse, sang payé, quota de CO₂, péage urbain, prime scolaire, rein payé, échange de reins : tu verras que les réponses ne vont pas toujours dans le même sens."
           }
         }
       ],
-      forMe: "Chaque fois qu'on propose de « mettre un prix » sur quelque chose (polluer, se garer, entrer en premier, réussir un examen), demande-toi s'il s'agit de rendre le système plus efficace, ou si ce prix change la façon dont les gens se comportent et jugent leurs actes.",
+      forMe: "Chaque fois qu'on propose de « mettre un prix » sur quelque chose (polluer, se garer, entrer en premier, réussir un examen, donner son sang), demande-toi s'il s'agit de rendre le système plus efficace, ou si ce prix change la façon dont les gens se comportent et jugent leurs actes. Et regarde comment l'argent est utilisé : un prix dont on voit l'utilité est bien mieux accepté.",
       figures: [
         { value: "6 crèches sur 10", label: "avec une amende pour les retards… qui ont augmenté", src: 1 },
-        { value: "> 100 €", label: "le prix d'une tonne de CO₂ sur le marché européen en février 2023, une première", src: 2 },
+        { value: "50,8 % → 24,6 %", label: "habitants suisses prêts à accueillir un site de déchets nucléaires, sans puis avec compensation", src: 11 },
+        { value: "52 % → 30 %", label: "femmes volontaires pour donner leur sang, sans puis avec paiement (Suède)", src: 9 },
+        { value: "≈ −50 %", label: "émissions des secteurs couverts par le marché européen du carbone depuis 2005", src: 13 },
+        { value: "53 %", label: "des votants de Stockholm pour garder le péage urbain après l'essai de 2006", src: 14 },
         { value: "44,6 €", label: "la taxe carbone française par tonne, figée depuis 2018", src: 4 }
       ],
       terms: ["inflation", "pouvoir-achat"],
       quiz: [
         { q: "Qu'est-il arrivé aux retards dans les crèches où une amende a été créée ?", options: ["Ils ont disparu", "Ils ont augmenté", "Rien n'a changé", "Les crèches ont fermé"], answer: 1, explain: "L'amende a transformé le retard en service payant : les retards ont augmenté et sont restés hauts même après la suppression de l'amende." },
-        { q: "Comment fonctionne le marché européen du carbone ?", options: ["Une taxe fixe sur l'essence", "Un plafond d'émissions et des quotas qu'on achète et revend", "Une interdiction de polluer", "Une subvention aux usines"], answer: 1, explain: "Un quota par tonne de CO₂, un plafond total qui baisse, et des entreprises qui échangent leurs quotas." },
+        { q: "Quelle différence Sandel fait-il entre « économie de marché » et « société de marché » ?", options: ["Aucune", "L'une est un outil pour produire, l'autre un mode de vie où presque tout est à vendre", "L'une est française, l'autre américaine", "L'une a une Bourse, l'autre non"], answer: 1, explain: "Sandel s'inquiète du passage de l'une à l'autre depuis les années 1980." },
         { q: "Quelles sont les deux objections de Sandel aux marchés ?", options: ["Le prix et la quantité", "L'équité et la corruption (le prix change le sens de la chose)", "L'inflation et le chômage", "L'offre et la demande"], answer: 1, explain: "Équité : un échange sous la contrainte n'est pas vraiment libre. Corruption : mettre un prix dégrade certaines choses." },
-        { q: "Dans l'expérience de Fryer, qu'est-ce qui marche le moins ?", options: ["Payer pour lire des livres", "Payer pour venir en classe", "Payer pour les notes", "Ne rien payer"], answer: 2, explain: "Payer pour les résultats ne marche pas : les élèves ne savent pas comment transformer la prime en meilleures notes." }
+        { q: "En Suisse, qu'a provoqué l'offre d'une compensation aux habitants pour accueillir des déchets nucléaires ?", options: ["L'acceptation a doublé", "L'acceptation a chuté d'environ la moitié à environ un quart", "Rien", "Le projet a été voté à l'unanimité"], answer: 1, explain: "La compensation a été vue comme un pot-de-vin et a remplacé le sens du devoir par un calcul : c'est l'effet d'éviction." },
+        { q: "Dans l'expérience suédoise sur le don du sang, qui a été découragé par le paiement ?", options: ["Les hommes", "Les femmes", "Tout le monde", "Personne"], answer: 1, explain: "Chez les femmes, la part de volontaires est tombée d'environ 52 % à 30 % ; chez les hommes, aucun effet." },
+        { q: "Comment fonctionne le marché européen du carbone ?", options: ["Une taxe fixe sur l'essence", "Un plafond d'émissions et des quotas qu'on achète et revend", "Une interdiction de polluer", "Une subvention aux usines"], answer: 1, explain: "Un quota par tonne de CO₂, un plafond total qui baisse, et des entreprises qui échangent leurs quotas ; environ −50 % d'émissions depuis 2005 dans ces secteurs." },
+        { q: "Comment Stockholm a-t-elle fait accepter son péage urbain ?", options: ["En l'imposant sans vote", "Par un essai de sept mois suivi d'un référendum", "En le rendant gratuit", "En interdisant les voitures"], answer: 1, explain: "Après avoir vu ses effets en 2006, 53 % des votants l'ont approuvé ; il est permanent depuis 2007." },
+        { q: "Dans l'expérience de Fryer, qu'est-ce qui marche le moins ?", options: ["Payer pour lire des livres", "Payer pour venir en classe", "Payer pour les notes", "Ne rien payer"], answer: 2, explain: "Payer pour les résultats ne marche pas : les élèves ne savent pas comment transformer la prime en meilleures notes." },
+        { q: "Quelle solution sans argent Alvin Roth a-t-il aidé à organiser pour les greffes ?", options: ["La vente de reins aux enchères", "Les échanges de reins entre paires donneur-malade incompatibles", "Les reins artificiels", "L'interdiction des greffes"], answer: 1, explain: "Chaque donneur donne au malade de l'autre paire : deux greffes, aucun paiement." },
+        { q: "Que désigne la « répugnance » selon Alvin Roth ?", options: ["Un goût alimentaire", "Le rejet de certains échanges jugés choquants, même s'ils ne font de tort à personne", "Une maladie", "Une taxe"], answer: 1, explain: "Exemple : l'interdiction de servir de la viande de cheval au restaurant en Californie." }
       ],
       sources: [
         { short: "Gneezy et Rustichini", name: "Uri Gneezy et Aldo Rustichini, « A Fine is a Price », Journal of Legal Studies, 2000", url: "https://rady.ucsd.edu/_files/faculty-research/uri-gneezy/fine.pdf" },
@@ -966,7 +1163,18 @@ window.GEOCO = {
         { short: "Connaissance des énergies", name: "Connaissance des énergies, « Quel est le montant de la taxe carbone en France ? »", url: "https://www.connaissancedesenergies.org/questions-et-reponses-energies/quel-est-le-montant-de-la-taxe-carbone-en-france" },
         { short: "Fryer (J-PAL)", name: "Roland G. Fryer, « Financial Incentives and Student Achievement: Evidence from Randomized Trials », Quarterly Journal of Economics, 2011 (via J-PAL)", url: "https://www.povertyactionlab.org/sites/default/files/publications/919_Financialincentives_and_student_Fryer_2011.pdf" },
         { short: "PubMed", name: "Ghods et Savaj, « Iranian model of paid and regulated living-unrelated kidney donation », Clinical Journal of the American Society of Nephrology, 2006", url: "https://pubmed.ncbi.nlm.nih.gov/17699338/" },
-        { short: "Centre for Public Impact", name: "Centre for Public Impact, « Organ donations in Iran » (étude de cas)", url: "https://www.centreforpublicimpact.org/case-study/organ-donations-in-iran" }
+        { short: "Centre for Public Impact", name: "Centre for Public Impact, « Organ donations in Iran » (étude de cas)", url: "https://www.centreforpublicimpact.org/case-study/organ-donations-in-iran" },
+        { short: "Aspen Institute", name: "Aspen Institute, présentation de Michael J. Sandel, « What Money Can't Buy: The Moral Limits of Markets » (2012)", url: "https://www.aspeninstitute.org/?p=4099" },
+        { short: "Mellström et Johannesson", name: "Carl Mellström et Magnus Johannesson, « Crowding Out in Blood Donation: Was Titmuss Right? », Journal of the European Economic Association, 2008 (version document de travail)", url: "https://swopec.hhs.se/gunwpe/abs/gunwpe0180.htm" },
+        { short: "JPE", name: "Bruno Frey, Felix Oberholzer-Gee et Reiner Eichenberger, « The Old Lady Visits Your Backyard: A Tale of Morals and Markets », Journal of Political Economy, 1996", url: "https://econpapers.repec.org/RePEc:ucp:jpolec:v:104:y:1996:i:6:p:1297-1313" },
+        { short: "Marginal Revolution", name: "Marginal Revolution, « When are people OK with nuclear waste? » (présente Frey et Oberholzer-Gee, « The Cost of Price Incentives », 1997)", url: "https://marginalrevolution.com/marginalrevolution/2013/06/when-are-people-ok-with-nuclear-waste.html" },
+        { short: "Alvin Roth", name: "Alvin E. Roth, « Repugnance as a Constraint on Markets », Journal of Economic Perspectives, 2007", url: "https://stanford.edu/%7Ealroth/papers/Repugnance.pdf" },
+        { short: "Commission européenne", name: "Commission européenne, « EU Emissions Trading System has reduced emissions in the sectors covered by 50% since 2005 », 4 avril 2025", url: "https://climate.ec.europa.eu/news-other-reads/news/eu-emissions-trading-system-has-reduced-emissions-sectors-covered-50-2005-2025-04-04_en" },
+        { short: "Vital City", name: "Vital City, « Congestion Pricing Lessons from London and Stockholm »", url: "https://www.vitalcitynyc.org/articles/how-london-and-stockholm-made-congestion-pricing-politics-work" }
+      ],
+      visuals: [
+        { kind: "chart", type: "bar", title: "Quand l'argent fait dire non", subtitle: "Habitants prêts à accueillir un site de déchets nucléaires dans leur commune (Suisse)", xLabel: "Question posée", unit: "Part (%)", suffix: " %", data: [["Sans compensation", 50.8], ["Avec compensation", 24.6]], source: "Frey et Oberholzer-Gee (1997), via Marginal Revolution" },
+        { kind: "chart", type: "bar", title: "Le paiement qui décourage", subtitle: "Femmes volontaires pour donner leur sang, à Göteborg", xLabel: "Groupe", unit: "Part (%)", suffix: " %", data: [["Sans paiement", 52], ["Payées", 30]], source: "Mellström et Johannesson (2008)" }
       ]
     },
     {
@@ -975,30 +1183,55 @@ window.GEOCO = {
       theme: "eco",
       inspiredBy: "Raj Chetty",
       title: "À quoi sert l'État ? Impôts, biens publics et pollution",
-      hook: "La France prélève plus de 42 % de sa richesse en impôts et cotisations, l'un des taux les plus élevés d'Europe. Pour faire quoi ? Quand le marché se débrouille-t-il seul, et quand faut-il l'État ? Les grandes idées de l'économie publique, avec des exemples concrets.",
-      minutes: 9,
+      hook: "La France prélève plus de 42 % de sa richesse en impôts et cotisations et dépense 57 % de son PIB par ses administrations. Pour faire quoi ? Quand le marché se débrouille-t-il seul, et quand faut-il l'État ? Qui paie vraiment un impôt, pourquoi on fraude peu au Danemark, et quelles dépenses se remboursent d'elles-mêmes ? Les grandes idées de l'économie publique, avec des exemples concrets.",
+      minutes: 24,
       level: "Débutant",
       tldr: [
-        "En 2024, impôts et cotisations représentent 42,8 % du PIB en France selon l'Insee ; selon la méthode européenne, la France est 2e de l'UE, juste derrière le Danemark [1][2].",
-        "L'État intervient d'abord quand le marché échoue : biens publics que personne ne paierait seul, pollution dont personne ne paie le coût, risques que les assureurs privés couvrent mal.",
-        "Celui qui paie un impôt n'est pas toujours celui qui le supporte : c'est la question de « l'incidence fiscale ».",
-        "Mais l'État a aussi un coût : chaque impôt modifie les comportements, et un impôt mal conçu peut susciter un rejet massif, comme la taxe carbone en 2018 [3]."
+        "En 2024, impôts et cotisations représentent 42,8 % du PIB en France selon l'Insee ; selon la méthode européenne, la France est 2e de l'UE, juste derrière le Danemark [1][2]. Les dépenses publiques atteignent 57 % du PIB, dont 41 % vont à la protection sociale (hors santé) [4].",
+        "L'État intervient d'abord quand le marché échoue : biens publics que personne ne paierait seul, pollution dont personne ne paie le coût, risques que les assureurs privés couvrent mal à cause de l'information cachée [5][6].",
+        "Celui qui verse un impôt n'est pas toujours celui qui le supporte (« l'incidence fiscale »), et un impôt qu'on ne voit pas sur l'étiquette change moins les comportements : afficher la taxe fait baisser les achats d'environ 8 % [7].",
+        "On fraude très peu quand un tiers déclare les revenus (0,3 % au Danemark), beaucoup plus quand on les déclare soi-même (37 %) [8]. Et certaines dépenses publiques, surtout pour les enfants modestes, se remboursent d'elles-mêmes [9].",
+        "L'État a aussi un coût : chaque impôt modifie les comportements, l'État peut se tromper, et un impôt jugé injuste peut être rejeté, comme la taxe carbone en 2018 [3]."
       ],
       sections: [
         {
           title: "Combien prélève l'État ?",
           paragraphs: [
-            "Les ==prélèvements obligatoires==, ce sont tous les impôts et cotisations sociales que les ménages et les entreprises doivent payer. En France, ils représentent 42,8 % du PIB en 2024 selon l'Insee, après un record de 45,4 % en 2022, le plus haut niveau mesuré depuis 1959 [1].",
-            "Selon la méthode européenne d'Eurostat, un peu plus large, le taux français atteint 45,3 % en 2024 : le 2e de l'Union européenne, derrière le Danemark (45,8 %) et devant la Belgique (45,1 %) [2].",
-            "Ces chiffres ne disent pas si c'est « trop » : ils mesurent combien de richesse passe par l'État, qui en reverse une grande partie aux ménages (retraites, santé, allocations). La vraie question de l'économie publique est : ==dans quels cas l'État fait-il mieux que le marché ?=="
+            "Les ==prélèvements obligatoires==, ce sont tous les impôts et cotisations sociales que les ménages et les entreprises doivent payer : impôt sur le revenu, TVA, CSG, cotisations retraite et maladie, impôt sur les sociétés, taxe foncière… En France, ils représentent ==42,8 % du PIB en 2024== selon l'Insee, après un record de 45,4 % en 2022, le plus haut niveau mesuré depuis 1959 [1].",
+            "Selon la méthode européenne d'Eurostat, un peu plus large, le taux français atteint 45,3 % en 2024 : ==le 2e de l'Union européenne, derrière le Danemark (45,8 %) et devant la Belgique (45,1 %)== [2].",
+            "Ces chiffres ne disent pas si c'est « trop » : ils mesurent combien de richesse passe par l'État. Une grande partie revient directement aux ménages sous forme de retraites, de remboursements de soins ou d'allocations. Un pays où les retraites sont publiques, comme la France, a mécaniquement des prélèvements plus élevés qu'un pays où chacun cotise à un fonds de pension privé, même si au total les ménages paient des sommes comparables.",
+            "La vraie question de l'économie publique, la branche de l'économie qui étudie l'action de l'État et que Raj Chetty enseigne à Harvard, est donc plutôt : ==dans quels cas l'État fait-il mieux que le marché, et comment bien concevoir ses impôts et ses dépenses ?=="
+          ]
+        },
+        {
+          title: "Où va l'argent ?",
+          paragraphs: [
+            "En 2024, l'ensemble des administrations publiques (État, collectivités locales, Sécurité sociale) dépense ==environ 1 672 milliards d'euros, soit 57 % du PIB== [4]. Ce chiffre est plus élevé que les prélèvements : l'écart est comblé par d'autres recettes (ventes, revenus du patrimoine) et surtout par le déficit, donc par la dette.",
+            "Le premier poste, de loin, est la ==protection sociale : 41 % des dépenses, soit 693 milliards d'euros== (retraites, chômage, famille, logement, pauvreté, hors santé) [4]. Les retraites en sont le cœur, et ce sont elles qui ont le plus fait monter les dépenses en 2024 [4].",
+            "Viennent ensuite la ==santé (16 %, 261 milliards)== et ==l'enseignement (9 %, 149 milliards)== [4]. Le reste se partage entre les services généraux (dont les intérêts de la dette), les affaires économiques (transports, aides aux entreprises), la défense, l'ordre public, l'environnement, le logement, la culture et le sport [4].",
+            "Retiens l'ordre de grandeur : ==sur 100 euros de dépense publique, environ 41 vont à la protection sociale, 16 à la santé, 9 à l'école== [4]. Les débats sur les « économies » portent donc forcément, si l'on veut des montants importants, sur ces grands postes."
+          ],
+          example: {
+            title: "1 000 euros de dépense publique",
+            text: "D'après la répartition de l'Insee pour 2024 [4], 1 000 euros de dépense publique se décomposent à peu près ainsi : 410 € de protection sociale (surtout les retraites), 160 € de santé, 90 € d'enseignement, et 340 € pour tout le reste (services généraux et intérêts de la dette, transports, défense, police et justice, environnement, culture…)."
+          }
+        },
+        {
+          title: "Les grandes missions de l'État",
+          paragraphs: [
+            "Les économistes rangent souvent l'action de l'État en trois grandes missions. ==Allouer== : produire ou financer ce que le marché produit mal (routes, recherche, lutte contre la pollution). ==Redistribuer== : réduire les écarts de revenus par les impôts et les aides. ==Stabiliser== : amortir les crises en soutenant l'activité quand elle chute (voir notre cours sur le modèle IS-LM).",
+            "Ce cours se concentre surtout sur la première : les ==« défaillances du marché »==. Ce sont les situations où, même si chacun agit au mieux pour lui-même, le résultat est mauvais pour tous. Il y en a trois grandes familles : les biens publics, les externalités (comme la pollution) et l'information cachée.",
+            "L'idée est importante, car elle répond à une question souvent mal posée. Il ne s'agit pas de savoir si l'on est « pour » ou « contre » l'État en général, mais de savoir, ==cas par cas, si le marché fonctionne bien et si l'État ferait mieux==. Dans beaucoup de domaines (le pain, les vêtements, les téléphones), le marché fonctionne très bien seul.",
+            "On verra aussi que l'État a ses propres défaillances : manque d'information, groupes de pression, lenteur. Comparer, c'est toujours comparer deux systèmes imparfaits."
           ]
         },
         {
           title: "Les biens publics : ce que personne ne paierait seul",
           paragraphs: [
-            "Certains biens ont deux particularités. On ne peut pas empêcher quelqu'un d'en profiter (==non-exclusion==), et le fait que j'en profite n'en prive pas les autres (==non-rivalité==). Exemples : l'éclairage d'une rue, la défense nationale, un phare pour les bateaux, la recherche fondamentale.",
-            "Problème : chacun a intérêt à attendre que les autres paient, puisqu'il en profitera quand même. C'est le ==passager clandestin==. Résultat : laissé au marché, ce bien serait produit en trop faible quantité, voire pas du tout.",
-            "D'où l'impôt : l'État oblige tout le monde à contribuer, et finance ce que personne n'aurait financé seul."
+            "Certains biens ont deux particularités. On ne peut pas empêcher quelqu'un d'en profiter (==non-exclusion==), et le fait que j'en profite n'en prive pas les autres (==non-rivalité==). Exemples : l'éclairage d'une rue, la défense nationale, un phare pour les bateaux, la recherche fondamentale, une digue contre les inondations.",
+            "Problème : chacun a intérêt à attendre que les autres paient, puisqu'il en profitera quand même. C'est le ==passager clandestin==. Résultat : laissé au marché, ce bien serait produit en trop faible quantité, voire pas du tout, alors que tout le monde le souhaite.",
+            "D'où l'impôt : l'État oblige tout le monde à contribuer, et finance ce que personne n'aurait financé seul. Ce n'est pas forcément l'État qui le produit : une entreprise privée peut construire la digue, mais c'est l'impôt qui la paie.",
+            "Entre les biens purement privés (ton sandwich : rival et exclusif) et les biens purement publics, il existe des cas intermédiaires. Les ==biens communs== sont rivaux mais on ne peut exclure personne : les poissons de la mer, l'eau d'une nappe. Chacun pêche trop, et la ressource s'épuise. Les ==biens de club== sont non rivaux mais exclusifs : une chaîne de streaming, une autoroute à péage peu fréquentée. Chaque catégorie appelle une solution différente : quotas de pêche, abonnement, impôt."
           ],
           plain: {
             title: "l'éclairage de ta rue",
@@ -1013,17 +1246,37 @@ window.GEOCO = {
         {
           title: "La pollution : un coût que personne ne paie",
           paragraphs: [
-            "Quand une usine pollue une rivière, elle impose un coût aux pêcheurs et aux riverains sans le payer : c'est une ==externalité négative==. Comme ce coût n'apparaît pas dans son prix, elle produit trop.",
-            "La solution classique, proposée par l'économiste Arthur Pigou, est de ==taxer la pollution== au niveau du dommage causé : le pollueur intègre ce coût dans ses choix. C'est l'idée de la taxe carbone (voir aussi notre cours sur la morale des marchés).",
-            "En France, la taxe carbone sur l'énergie atteint 44,6 euros par tonne de CO₂ en 2018. Sa hausse prévue en 2019 est annulée face au mouvement des gilets jaunes, et elle reste bloquée depuis à ce niveau, alors que la trajectoire visait 100 euros en 2030 [3]. ==Un outil efficace pour l'économiste peut être rejeté s'il pèse surtout sur ceux qui n'ont pas d'alternative== (ménages qui roulent beaucoup, chauffage au fioul)."
+            "Quand une usine pollue une rivière, elle impose un coût aux pêcheurs et aux riverains sans le payer : c'est une ==externalité négative==. Comme ce coût n'apparaît pas dans son prix, elle produit trop. À l'inverse, une ==externalité positive== profite aux autres sans être payée : un vaccin protège aussi ceux qui ne sont pas vaccinés, une ruche pollinise les vergers voisins. Ces activités, laissées au marché, sont trop rares.",
+            "La solution classique, proposée par l'économiste britannique Arthur Pigou dans « L'Économie du bien-être », est de ==taxer la pollution au niveau du dommage causé== : le pollueur intègre ce coût dans ses choix [6]. On parle de « taxe pigouvienne ». C'est l'idée de la taxe carbone (voir aussi notre cours sur la morale des marchés). Symétriquement, on peut subventionner les externalités positives, comme la vaccination.",
+            "En 1960, l'économiste Ronald Coase, futur prix Nobel 1991, propose un autre regard dans « Le problème du coût social » [6]. Selon lui, le dommage est réciproque : l'usine gêne les pêcheurs, mais interdire l'usine gêne l'usine. Si les droits de propriété sont clairs et si négocier ne coûte rien, les parties peuvent s'arranger entre elles, sans taxe, et arriver à une solution efficace [6].",
+            "Coase reconnaît lui-même que ces conditions sont rarement réunies : ==quand des millions de personnes subissent une pollution, il est impossible de toutes les faire négocier==, et les « coûts de transaction » rendent l'arrangement privé irréaliste [6]. Pour le climat, qui concerne toute la planète, on revient donc à des outils publics : taxe, quotas, normes."
+          ],
+          plain: {
+            title: "Pigou ou Coase, sur une rivière",
+            steps: [
+              "Une usine rejette des déchets dans une rivière ; un pêcheur en aval perd 100 000 € par an.",
+              "Solution de Pigou : l'État taxe l'usine de 100 000 € par an. Si installer un filtre coûte moins cher, elle l'installe [6].",
+              "Solution de Coase : si le pêcheur a un droit clair sur une eau propre, l'usine peut lui proposer de l'argent, ou installer le filtre si c'est moins cher. Ils négocient seuls [6].",
+              "Avec deux parties, Coase marche. Avec des millions de riverains, négocier est impossible : on revient à la taxe ou aux normes [6]."
+            ]
+          }
+        },
+        {
+          title: "La taxe carbone française : efficace sur le papier, rejetée dans la rue",
+          paragraphs: [
+            "En France, la taxe carbone sur l'énergie, appelée « contribution climat-énergie », est créée en 2014 et augmente chaque année. Elle atteint ==44,6 euros par tonne de CO₂ en 2018== [3].",
+            "Sa hausse prévue en 2019 est annulée face au mouvement des gilets jaunes, et elle reste bloquée depuis à ce niveau, alors que la trajectoire votée visait 100 euros en 2030 [3].",
+            "Pourquoi ce rejet ? Les économistes en tirent trois leçons. ==Elle pèse plus lourd sur les ménages modestes et ruraux==, qui dépensent une plus grande part de leur revenu en carburant et en chauffage, et qui n'ont souvent pas d'alternative à la voiture. ==Ses recettes n'étaient pas visiblement rendues== aux ménages. Et ==elle s'ajoutait à une hausse des prix du pétrole==, au moment où le plein coûtait déjà plus cher.",
+            "D'autres pays ont choisi de redistribuer les recettes : en Suisse, une partie de la taxe sur le CO₂ du chauffage est reversée à la population. L'idée est la même que pour le péage de Stockholm : ==un prix est mieux accepté quand on voit à quoi sert l'argent==. Un outil efficace pour l'économiste peut être rejeté s'il paraît injuste."
           ]
         },
         {
           title: "Qui paie vraiment l'impôt ?",
           paragraphs: [
             "Celui qui verse l'impôt à l'État n'est pas toujours celui qui en supporte le poids : c'est la question de ==l'incidence fiscale==.",
-            "Exemple : les cotisations sociales « patronales » sont versées par l'employeur. Mais si elles augmentent, l'entreprise peut augmenter moins les salaires : une partie est alors supportée par les salariés. De même, une taxe sur un produit est souvent répercutée sur le prix, donc payée par le client.",
-            "Règle générale : ==c'est celui qui a le moins de solutions de rechange qui supporte la taxe==. Si les clients ne peuvent pas se passer du produit, ce sont eux qui paient ; s'ils peuvent facilement en changer, c'est le vendeur. Les droits de douane en sont un bon exemple (voir notre cours sur les droits de douane)."
+            "Exemple : les cotisations sociales « patronales » sont versées par l'employeur. Mais si elles augmentent, l'entreprise peut augmenter moins les salaires : une partie est alors supportée par les salariés. De même, une taxe sur un produit est souvent répercutée sur le prix, donc payée par le client, même si c'est le vendeur qui la verse.",
+            "Règle générale : ==c'est celui qui a le moins de solutions de rechange qui supporte la taxe==. Si les clients ne peuvent pas se passer du produit (on dit que leur demande est « peu élastique »), ce sont eux qui paient ; s'ils peuvent facilement en changer, c'est le vendeur. Les droits de douane en sont un bon exemple (voir notre cours sur les droits de douane).",
+            "Conséquence importante : ==on ne peut pas décider par la loi qui paie vraiment un impôt==. Le législateur décide qui le verse ; ce sont les marchés qui décident qui le supporte. C'est pourquoi un débat sérieux sur les impôts regarde toujours les effets réels, pas seulement le nom de celui qui remplit le chèque."
           ],
           plain: {
             title: "une taxe sur les cigarettes",
@@ -1036,39 +1289,105 @@ window.GEOCO = {
           }
         },
         {
+          title: "L'impôt qu'on ne voit pas",
+          paragraphs: [
+            "Aux États-Unis, les prix affichés en magasin sont hors taxe : la taxe sur les ventes (« sales tax ») n'est ajoutée qu'à la caisse. En 2009, Raj Chetty et ses collègues Adam Looney et Kory Kroft se demandent si les clients en tiennent vraiment compte [7].",
+            "Ils mènent une expérience dans un supermarché. Pendant trois semaines, sur environ 750 produits taxables (cosmétiques, accessoires pour cheveux, déodorants), ils ajoutent une étiquette indiquant ==le prix taxe comprise== [7]. Rien d'autre ne change : le prix payé à la caisse est exactement le même.",
+            "Résultat : ==les ventes de ces produits baissent d'environ 8 %==, presque autant que si le prix avait vraiment augmenté de 7,375 %, le montant de la taxe [7]. Sans étiquette, presque tous les clients interrogés oubliaient la taxe en calculant le prix de leur panier [7].",
+            "Les économistes appellent cela la ==« saillance »== : un impôt bien visible change plus les comportements qu'un impôt caché. Conséquence pour l'incidence fiscale et pour la politique : un impôt caché fait moins réagir les gens (donc il « coûte » moins en perte d'activité), mais il est aussi moins transparent. Et une taxe qu'on veut voir changer les comportements, comme une taxe sur le tabac ou le carbone, a intérêt à être bien visible."
+          ],
+          plain: {
+            title: "le déodorant à 4 dollars",
+            steps: [
+              "En rayon, un déodorant est affiché 4,00 $. À la caisse, on paie 4,30 $ avec la taxe de 7,375 %.",
+              "La plupart des clients ne pensent qu'aux 4,00 $ : la taxe est « invisible » [7].",
+              "Les chercheurs ajoutent une étiquette « 4,30 $ taxe comprise ». Le prix réel n'a pas changé.",
+              "Les ventes baissent d'environ 8 %, comme si le prix avait vraiment augmenté [7] : ce qu'on voit compte autant que ce qu'on paie."
+            ]
+          }
+        },
+        {
+          title: "Pourquoi les gens paient leurs impôts",
+          paragraphs: [
+            "Si les contrôles fiscaux sont rares, pourquoi la plupart des gens paient-ils ce qu'ils doivent ? En 2011, une équipe d'économistes, dont Henrik Kleven et Emmanuel Saez, publie une étude remarquable menée avec l'administration fiscale danoise [8].",
+            "Plus de 40 000 contribuables danois sont tirés au sort : la moitié subit un contrôle approfondi, l'autre moitié n'est pas contrôlée exprès [8]. On peut alors mesurer précisément la fraude.",
+            "Le résultat est très net. Sur les revenus déclarés par un tiers (salaires déclarés par l'employeur, intérêts déclarés par la banque), ==la fraude est presque nulle : 0,3 %==. Sur les revenus que l'on déclare soi-même (travail indépendant, certains revenus du capital), ==elle atteint 37 %== [8]. Comme 95 % des revenus sont déclarés par un tiers au Danemark, la fraude totale reste faible [8].",
+            "Leçon : les gens ne sont pas forcément plus honnêtes au Danemark qu'ailleurs ; ==ils paient surtout parce qu'ils ne peuvent pas facilement tricher==. Le titre de l'étude le résume : « Incapables ou pas disposés à frauder ? » La France a suivi la même logique avec le prélèvement à la source depuis 2019 et la déclaration préremplie : quand l'information vient d'un tiers, l'impôt est mieux collecté."
+          ]
+        },
+        {
           title: "Assurer ce que le marché assure mal",
           paragraphs: [
             "Chômage, maladie, vieillesse : pourquoi l'État s'en mêle-t-il ? Parce que les assurances privées y fonctionnent mal, à cause de ==l'information cachée==.",
-            "Si une assurance chômage était facultative, ceux qui craignent le plus de perdre leur emploi s'y inscriraient en priorité ; l'assureur devrait monter ses prix, les « bons risques » partiraient, et le système s'effondrerait. Les économistes appellent ce mécanisme la ==sélection adverse== (voir George Akerlof dans notre cours sur les écoles économiques).",
-            "En rendant l'assurance obligatoire pour tous, l'État casse ce cercle : tout le monde cotise, les bons comme les mauvais risques."
+            "En 1970, l'économiste George Akerlof publie un article devenu célèbre, « Le marché des tacots », sur les voitures d'occasion [5]. Le vendeur sait si sa voiture est un bon véhicule ou un « citron » (un tacot plein de défauts) ; l'acheteur, lui, ne peut pas le savoir. Il propose donc un prix moyen. Les propriétaires de bonnes voitures, mal payés, retirent leurs voitures du marché ; il ne reste que les mauvaises, et le marché peut s'effondrer [5]. Akerlof reçoit le prix Nobel en 2001, avec Michael Spence et Joseph Stiglitz, pour leurs travaux sur l'information asymétrique [5].",
+            "L'assurance connaît le même problème. Si une assurance chômage était facultative, ceux qui craignent le plus de perdre leur emploi s'y inscriraient en priorité ; l'assureur devrait monter ses prix, les « bons risques » partiraient, et le système s'effondrerait. C'est la ==sélection adverse==.",
+            "En rendant l'assurance obligatoire pour tous, l'État casse ce cercle : tout le monde cotise, les bons comme les mauvais risques. C'est la logique de la Sécurité sociale française. L'assurance crée aussi un autre problème, ==l'aléa moral== : une fois assuré, on peut faire moins attention. D'où les franchises, les délais de carence ou le contrôle de la recherche d'emploi, qui gardent une part du risque à la charge de l'assuré."
+          ],
+          plain: {
+            title: "une assurance chômage facultative",
+            steps: [
+              "Un assureur privé propose une assurance chômage à 50 € par mois, calculée sur le risque moyen.",
+              "Les salariés au poste très sûr la trouvent trop chère et ne la prennent pas ; ceux qui craignent un licenciement la prennent tous.",
+              "L'assureur paie beaucoup d'indemnités : il monte le prix à 80 €. D'autres salariés « sûrs » partent.",
+              "Le cercle continue jusqu'à ce qu'il ne reste que les plus à risque : l'assurance disparaît. Rendue obligatoire, elle tient, car tout le monde cotise : c'est la sélection adverse [5]."
+            ]
+          }
+        },
+        {
+          title: "Les dépenses qui se remboursent d'elles-mêmes",
+          paragraphs: [
+            "Comment savoir si une dépense publique vaut ce qu'elle coûte ? En 2020, Nathaniel Hendren et Ben Sprung-Keyser, du laboratoire de Raj Chetty à Harvard, comparent ==133 politiques publiques américaines== avec une seule mesure, la ==« valeur marginale des fonds publics »== : ce que les bénéficiaires seraient prêts à payer pour la politique, divisé par son coût net pour l'État [9].",
+            "Le coût net tient compte des effets en retour : si une aide permet à quelqu'un de trouver un meilleur emploi, il paiera plus d'impôts plus tard et touchera moins d'aides. Certaines politiques ont ainsi un coût net négatif : ==elles rapportent à l'État plus qu'elles ne lui coûtent==.",
+            "Le résultat principal : ==les investissements dans la santé et l'éducation des enfants de familles modestes ont historiquement le meilleur rendement==, souvent supérieur à 5 dollars de valeur par dollar dépensé, et beaucoup se sont remboursés d'eux-mêmes grâce aux impôts payés plus tard et aux aides évitées [9]. Les dépenses pour les adultes rapportent en général moins, sauf quand elles profitent aussi à leurs enfants, comme l'aide au déménagement de Moving to Opportunity (voir notre cours sur l'ascenseur social) [9].",
+            "Ce travail change le débat : au lieu d'opposer « dépenser » et « économiser », il invite à ==classer les dépenses selon ce qu'elles rapportent== à la société. Toutes les politiques pour les enfants ne sont pas rentables, préviennent les auteurs, mais la tendance est nette [9]."
           ]
         },
         {
           title: "Les limites : l'État a aussi un coût",
           paragraphs: [
-            "==Chaque impôt modifie les comportements.== Un impôt sur le travail peut décourager de travailler plus, un impôt sur l'épargne d'épargner : les économistes appellent « perte sèche » la richesse qui disparaît ainsi.",
-            "==L'État peut se tromper.== Il manque parfois d'information, cède à des groupes de pression ou réagit lentement : on parle « d'échecs de l'État », comme on parle d'échecs du marché.",
-            "==L'acceptation compte.== La taxe carbone française montre qu'un bon outil sur le papier ne suffit pas : il faut qu'il soit perçu comme juste [3]."
+            "==Chaque impôt modifie les comportements.== Un impôt sur le travail peut décourager de travailler plus, un impôt sur l'épargne d'épargner : les économistes appellent ==« perte sèche »== la richesse qui disparaît ainsi. Plus la base de l'impôt réagit (des gens qui peuvent facilement changer de comportement ou de pays), plus la perte est grande. C'est pourquoi les économistes préfèrent souvent des impôts à large base et à taux modéré.",
+            "==L'État peut se tromper.== Il manque parfois d'information, cède à des groupes de pression ou réagit lentement : on parle « d'échecs de l'État », comme on parle d'échecs du marché. Une niche fiscale peut survivre des décennies parce que ceux qui en profitent se mobilisent, alors que son coût est réparti sur tous.",
+            "==L'acceptation compte.== La taxe carbone française montre qu'un bon outil sur le papier ne suffit pas : il faut qu'il soit perçu comme juste, et que l'on voie à quoi sert l'argent [3].",
+            "==La dette a un prix.== Quand les dépenses dépassent les recettes, l'État emprunte. Les intérêts de la dette font partie des dépenses publiques [4] : plus ils montent, moins il reste pour le reste. Une bonne dépense publique, comme celles qui se remboursent [9], peut justifier un emprunt ; une dépense de fonctionnement courante, beaucoup moins."
           ]
         }
       ],
-      forMe: "Ta fiche de paie, ton plein d'essence, ton ticket de caisse : tout contient des prélèvements. Savoir à quoi ils servent (biens publics, assurance, lutte contre la pollution) et qui les supporte vraiment aide à juger les débats sur les impôts sans slogans.",
+      forMe: "Ta fiche de paie, ton plein d'essence, ton ticket de caisse : tout contient des prélèvements. Savoir à quoi ils servent (protection sociale, santé, école, biens publics, lutte contre la pollution), qui les supporte vraiment et pourquoi certains sont mieux acceptés que d'autres aide à juger les débats sur les impôts sans slogans.",
       figures: [
         { value: "42,8 %", label: "les prélèvements obligatoires en France en 2024, en part du PIB (Insee)", src: 1 },
         { value: "2e", label: "le rang de la France dans l'UE en 2024 selon Eurostat, derrière le Danemark", src: 2 },
+        { value: "57 %", label: "les dépenses publiques en part du PIB en 2024, dont 41 % pour la protection sociale (hors santé)", src: 4 },
+        { value: "−8 %", label: "baisse des ventes quand le prix taxe comprise est affiché (expérience de Chetty)", src: 7 },
+        { value: "0,3 % / 37 %", label: "fraude fiscale au Danemark : revenus déclarés par un tiers, puis revenus déclarés soi-même", src: 8 },
         { value: "44,6 €", label: "la taxe carbone par tonne de CO₂, figée depuis 2018", src: 3 }
       ],
       terms: ["pib", "dette-publique", "pouvoir-achat"],
       quiz: [
+        { q: "Quel est le premier poste des dépenses publiques en France en 2024 ?", options: ["L'enseignement", "La défense", "La protection sociale (retraites, chômage, famille…)", "La culture"], answer: 2, explain: "41 % des dépenses, soit 693 milliards d'euros ; la santé suit avec 16 % et l'enseignement avec 9 %." },
         { q: "Qu'est-ce qu'un bien public au sens des économistes ?", options: ["Un bien vendu par l'État", "Un bien dont on ne peut exclure personne et que chacun peut utiliser sans priver les autres", "Un bien gratuit", "Un bien produit par une entreprise publique"], answer: 1, explain: "Non-exclusion et non-rivalité : un phare, l'éclairage public, la défense." },
+        { q: "Les poissons de la mer sont…", options: ["Un bien public", "Un bien commun : rival, mais on ne peut exclure personne", "Un bien de club", "Un bien privé"], answer: 1, explain: "Chacun pêche trop et la ressource s'épuise : d'où les quotas de pêche." },
         { q: "Qu'est-ce qu'une externalité négative ?", options: ["Un impôt", "Un coût imposé à d'autres sans être payé, comme la pollution", "Une exportation", "Une dette"], answer: 1, explain: "Le pollueur ne paie pas le dommage qu'il cause aux autres : il produit donc trop." },
+        { q: "Selon Coase, quand une négociation privée peut-elle régler une pollution sans taxe ?", options: ["Toujours", "Quand les droits de propriété sont clairs et que négocier ne coûte presque rien", "Jamais", "Seulement pour le climat"], answer: 1, explain: "Avec des millions de victimes, les coûts de transaction rendent la négociation impossible : on revient à la taxe ou aux normes." },
         { q: "Qui supporte surtout une taxe ?", options: ["Toujours celui qui la verse", "Celui qui a le moins de solutions de rechange", "Toujours l'entreprise", "Personne"], answer: 1, explain: "C'est l'incidence fiscale : si les clients ne peuvent pas se passer du produit, ils paient l'essentiel." },
-        { q: "Pourquoi une assurance chômage facultative risque-t-elle de s'effondrer ?", options: ["Trop de chômeurs", "La sélection adverse : seuls les plus à risque s'assurent", "La fraude", "L'inflation"], answer: 1, explain: "Les bons risques partent, les prix montent, le système se vide : l'obligation casse ce cercle." }
+        { q: "Dans l'expérience de Chetty au supermarché, qu'a provoqué l'affichage du prix taxe comprise ?", options: ["Rien", "Une baisse des ventes d'environ 8 %", "Une hausse des ventes", "Une baisse du prix payé"], answer: 1, explain: "Le prix payé n'avait pas changé : c'est la visibilité de la taxe qui a fait réagir les clients." },
+        { q: "Au Danemark, pourquoi la fraude fiscale est-elle faible ?", options: ["Les Danois sont plus honnêtes", "95 % des revenus sont déclarés par un tiers (employeur, banque)", "Il n'y a pas d'impôts", "Les amendes sont énormes"], answer: 1, explain: "Fraude de 0,3 % sur les revenus déclarés par un tiers, contre 37 % sur ceux qu'on déclare soi-même." },
+        { q: "Pourquoi une assurance chômage facultative risque-t-elle de s'effondrer ?", options: ["Trop de chômeurs", "La sélection adverse : seuls les plus à risque s'assurent", "La fraude", "L'inflation"], answer: 1, explain: "Les bons risques partent, les prix montent, le système se vide : l'obligation casse ce cercle." },
+        { q: "Selon l'étude de Hendren et Sprung-Keyser, quelles dépenses publiques ont le meilleur rendement ?", options: ["Les baisses d'impôts pour les plus riches", "La santé et l'éducation des enfants de familles modestes", "Les dépenses militaires", "Aucune"], answer: 1, explain: "Beaucoup se sont remboursées d'elles-mêmes grâce aux impôts payés plus tard et aux aides évitées." }
       ],
       sources: [
         { short: "Insee", name: "Insee, « Taux de prélèvements obligatoires rapportés au produit intérieur brut », données 1959-2025", url: "https://www.insee.fr/fr/statistiques/2381412" },
         { short: "Législation fiscale", name: "Legifiscal, d'après Eurostat, « La France n° 2 européen en matière de pression fiscale »", url: "https://www.legifiscal.fr/actualites-fiscales/4309-eurostat-france-n2-europeen-matiere-pression-fiscale.html" },
-        { short: "Connaissance des énergies", name: "Connaissance des énergies, « Quel est le montant de la taxe carbone en France ? »", url: "https://www.connaissancedesenergies.org/questions-et-reponses-energies/quel-est-le-montant-de-la-taxe-carbone-en-france" }
+        { short: "Connaissance des énergies", name: "Connaissance des énergies, « Quel est le montant de la taxe carbone en France ? »", url: "https://www.connaissancedesenergies.org/questions-et-reponses-energies/quel-est-le-montant-de-la-taxe-carbone-en-france" },
+        { short: "Insee", name: "Insee Première n° 2093, « Usage de l'argent public : les dépenses publiques par fonction en 2024 », février 2026", url: "https://www.insee.fr/fr/statistiques/8735252" },
+        { short: "Econlib", name: "Econlib, « George A. Akerlof » (biographie : « The Market for Lemons », 1970 ; prix Nobel 2001)", url: "https://www.econlib.org/library/Enc/bios/Akerlof.html" },
+        { short: "Coase", name: "Ronald H. Coase, « The Problem of Social Cost », Journal of Law and Economics, 1960 (discute l'approche de Pigou dans « The Economics of Welfare »)", url: "https://www.essentialscholars.org/sites/default/files/2023-01/essential-ronald-coase-ch3.pdf" },
+        { short: "AER", name: "Raj Chetty, Adam Looney et Kory Kroft, « Salience and Taxation: Theory and Evidence », American Economic Review, 2009", url: "https://www.frbsf.org/wp-content/uploads/sites/4/chetty.pdf" },
+        { short: "NBER", name: "NBER, Kleven, Knudsen, Kreiner, Pedersen et Saez, « Unwilling or Unable to Cheat? Evidence from a Randomized Tax Audit Experiment in Denmark », document de travail 15769 (Econometrica, 2011)", url: "https://www.nber.org/papers/w15769" },
+        { short: "Harvard", name: "Nathaniel Hendren et Ben Sprung-Keyser, « A Unified Welfare Analysis of Government Policies », Quarterly Journal of Economics, 2020", url: "https://hendren.scholars.harvard.edu/publications/unified-welfare-analysis-government-policies" }
+      ],
+      visuals: [
+        { kind: "chart", type: "bar", title: "Où vont 100 euros de dépense publique", subtitle: "Part des grands postes dans les dépenses publiques françaises en 2024", xLabel: "Poste", unit: "Part (%)", suffix: " %", data: [["Protection sociale", 41], ["Santé", 16], ["Enseignement", 9], ["Tout le reste", 34]], source: "Insee Première n° 2093 (février 2026)" },
+        { kind: "chart", type: "bar", title: "On fraude quand on peut", subtitle: "Part des revenus non déclarés au Danemark, selon qui déclare le revenu", xLabel: "Revenu déclaré par", unit: "Fraude (%)", suffix: " %", data: [["Un tiers (employeur, banque)", 0.3], ["Soi-même", 37]], source: "Kleven et al. (2011)" }
       ]
     },
     {
