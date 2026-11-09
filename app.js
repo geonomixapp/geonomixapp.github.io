@@ -560,7 +560,7 @@
         return `
         <a class="tile ${d.theme}" href="#/cours/${d.id}">
           <div>
-            <p class="eyebrow">${THEMES[d.theme]} · ${d.minutes} min${readSet.has(d.id) ? ' · <span class="done">Lu</span>' : ""}${courseLocked(d) ? " · " + plusTag() : ""}</p>
+            <p class="eyebrow">${THEMES[d.theme]} · ${d.minutes} min · ${pisteTag(d)}${readSet.has(d.id) ? ' · <span class="done">Lu</span>' : ""}${courseLocked(d) ? " · " + plusTag() : ""}</p>
             <h3>${d.title}</h3>
           </div>
           <div>
@@ -2393,7 +2393,7 @@
     app.innerHTML = `
       <section class="wrap hero">
         <p class="eyebrow reveal">Cours</p>
-        <h1 class="title reveal">Comprendre les enjeux.<br><span class="grad eco">En trois minutes.</span></h1>
+        <h1 class="title reveal">Comprendre les enjeux.<br><span class="grad eco">De fond en comble.</span></h1>
         <p class="lead reveal">Les mécanismes à connaître pour décrypter l'actu : inflation, droits de douane, routes maritimes, sanctions, dollar… Chaque cours se termine par un quiz.</p>
         <div class="reveal" style="margin-top:28px">${segmented([["all", "Tout"], ["eco", "Économie"], ["geo", "Géopolitique"], ["fin", "Finance"]], homeFilter, "filter")}</div>
         <div class="carousel" id="dossier-tiles">${dossierTiles()}</div>

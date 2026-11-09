@@ -11,7 +11,7 @@ window.GEOCO = {
       theme: "eco",
       title: "Inflation : pourquoi les prix montent et comment on les calme",
       hook: "Ton panier de courses a pris 20 % en quelques années ? De l'or d'Amérique qui affole les prix au XVIe siècle aux brouettes de billets de 1923, du choc Volcker à la BCE de 2022, voici l'histoire et la mécanique de l'inflation, avec les débats qui divisent encore les économistes.",
-      minutes: 22,
+      minutes: 21,
       piste: "verte",
       tldr: [
         "L'inflation, c'est la hausse générale et durable des prix : avec le même billet, on achète moins. En 2022, elle a dépassé 5 % en France, du jamais vu depuis le milieu des années 1980 [1].",
@@ -197,7 +197,7 @@ window.GEOCO = {
       theme: "eco",
       title: "Le modèle IS-LM : ce que peuvent l'État et la banque centrale",
       hook: "Une crise frappe. L'État doit-il dépenser plus ? La banque centrale doit-elle baisser ses taux ? Deux courbes suffisent pour comprendre ce qui se passe, et pourquoi ça ne marche pas toujours.",
-      minutes: 14,
+      minutes: 31,
       piste: "noire",
       tldr: [
         "Le modèle IS-LM résume l'économie à court terme avec deux grandeurs seulement : la production (Y) et le taux d'intérêt (i) [1].",
@@ -555,13 +555,14 @@ window.GEOCO = {
       theme: "eco",
       title: "Les grandes écoles économiques : classiques, keynésiens, monétaristes…",
       hook: "Face à une crise, deux économistes peuvent donner deux conseils opposés. Pas parce que l'un se trompe, mais parce qu'ils ne regardent pas l'économie avec les mêmes lunettes. Voici les grandes écoles, leur idée centrale et l'époque qui les a fait gagner.",
-      minutes: 12,
+      minutes: 18,
       piste: "rouge",
       tldr: [
         "Les classiques et les néoclassiques font confiance aux marchés : laissés libres, ils retrouvent l'équilibre, et l'État doit rester discret [1][2].",
         "Keynes répond à la crise des années 1930 : la demande peut rester trop faible, le chômage durer, et l'État doit relancer [3].",
         "Les monétaristes (Friedman) puis les nouveaux classiques (Lucas) reprennent la main dans les années 1970-1980 : surveiller la monnaie, se méfier de la relance [5][6].",
-        "Chaque école est née d'une crise que la précédente expliquait mal : la question à se poser n'est pas « qui a raison ? » mais « quelles lunettes pour quel moment ? »."
+        "Chaque école est née d'une crise que la précédente expliquait mal : la question à se poser n'est pas « qui a raison ? » mais « quelles lunettes pour quel moment ? ».",
+        "L'économie ne s'est pas arrêtée aux grandes querelles sur l'État et le marché : depuis 2000, des prix Nobel ont récompensé ceux qui montrent que nous ne sommes pas si rationnels (Kahneman en 2002, Thaler en 2017) [10][12], que des communautés gèrent très bien des ressources communes sans État ni marché (Ostrom, première femme lauréate, en 2009) [11], et qu'on peut tester les politiques par tirage au sort, comme en médecine (Banerjee, Duflo et Kremer en 2019) [13]."
       ],
       sections: [
         {
@@ -671,6 +672,60 @@ window.GEOCO = {
             "Aucune n'a raison partout et toujours. Quand le problème est une demande effondrée, les lunettes keynésiennes aident ; quand c'est l'inflation, les lunettes monétaristes ; quand la politique économique est imprévisible, celles des nouveaux classiques.",
             "Dans un débat, demande-toi : ==de quelle école parle-t-il, et dans quelle situation sommes-nous ?== C'est souvent là que se cache le désaccord."
           ]
+        },
+        {
+          title: "1931 : le duel Keynes-Hayek",
+          paragraphs: [
+            "Avant de devenir des noms de manuels, Keynes et Hayek ont été des adversaires en chair et en os. En 1931, la London School of Economics invite le jeune Autrichien ==Friedrich Hayek== à Londres, en partie pour contrer l'influence de Keynes, installé à Cambridge. Commence un échange de critiques et de réponses dans les revues, d'une rare vivacité.",
+            "Le fond du désaccord est simple à résumer. Pour ==Keynes==, la crise vient d'un manque de dépenses : il faut relancer. Pour ==Hayek==, la crise est la gueule de bois d'un boom artificiel, nourri par du crédit trop bon marché qui a fait investir dans de mauvais projets : relancer, c'est prolonger la maladie ; il faut laisser l'économie se purger.",
+            "Dans les années 1930, Keynes gagne la bataille des idées, et sa « Théorie générale » de 1936 domine l'après-guerre. Mais Hayek prend sa revanche plus tard : prix Nobel en 1974, l'année même de la stagflation [9], il inspire Margaret Thatcher et les libéraux des années 1980. Après la crise de 2008, le débat renaît presque mot pour mot : faut-il relancer ou laisser purger ?",
+            "Ce duel montre que ==les écoles ne sont pas seulement des théories : ce sont des réponses différentes à une même question==, « que faire quand tout s'effondre ? »."
+          ]
+        },
+        {
+          title: "Les comportementalistes : nous ne sommes pas si rationnels",
+          paragraphs: [
+            "Presque toutes les écoles vues jusqu'ici supposent que les gens calculent bien leur intérêt. Dans les années 1970, deux psychologues israéliens, ==Daniel Kahneman== et Amos Tversky, montrent par des expériences que nous nous trompons de façon ==prévisible== : nous craignons plus une perte que nous n'apprécions un gain de même taille, nous nous laissons influencer par le premier chiffre entendu, nous préférons le présent à l'avenir plus que de raison.",
+            "En ==2002==, Kahneman reçoit le prix Nobel d'économie pour avoir intégré ces découvertes de la psychologie à l'économie, notamment sur les décisions dans l'incertitude [10]. C'est un psychologue qui reçoit le prix d'économie : un signe que la discipline s'ouvre.",
+            "L'économiste américain ==Richard Thaler== prolonge ce travail. Il popularise l'idée de ==« nudge »== (coup de pouce) : sans interdire ni obliger, on peut aider les gens à faire de meilleurs choix en changeant la façon de présenter les options. Exemple célèbre : inscrire par défaut les salariés à un plan d'épargne retraite, tout en leur laissant la liberté d'en sortir, fait fortement monter l'épargne. Thaler reçoit le prix Nobel en ==2017== [12].",
+            "Cette école ne remplace pas les autres, mais elle les corrige : elle explique les bulles boursières, l'endettement excessif ou le fait que des gens ne profitent pas d'aides auxquelles ils ont droit. Elle a aussi ses critiques : ==qui décide de ce qu'est le « bon » choix, et jusqu'où l'État peut-il nous orienter ?=="
+          ],
+          plain: {
+            title: "le pouvoir de l'option par défaut",
+            steps: [
+              "Une entreprise propose un plan d'épargne retraite : pour y entrer, il faut remplir un formulaire. Beaucoup de salariés remettent à plus tard.",
+              "La même entreprise inscrit tout le monde d'office, avec la possibilité d'en sortir en un clic.",
+              "Presque personne ne se désinscrit : la paresse, qui jouait contre l'épargne, joue désormais pour elle.",
+              "Personne n'a été forcé, mais le résultat change beaucoup : c'est l'idée du « nudge » de Thaler [12]."
+            ]
+          }
+        },
+        {
+          title: "Elinor Ostrom : ni l'État ni le marché",
+          paragraphs: [
+            "En 1968, le biologiste Garrett Hardin publie un article célèbre, « La tragédie des communs » : quand une ressource est partagée (un pâturage, une zone de pêche), chacun a intérêt à l'exploiter au maximum avant les autres, et elle finit détruite. Les solutions classiques : la ==privatiser== (le marché) ou la faire gérer par ==l'État==.",
+            "La politologue américaine ==Elinor Ostrom== va voir sur le terrain. Pâturages suisses, systèmes d'irrigation au Népal, pêcheries de Turquie, forêts du Japon : elle découvre que ==des communautés gèrent très bien leurs ressources communes pendant des siècles==, avec leurs propres règles, leurs propres contrôles et leurs propres sanctions, sans privatisation ni État central.",
+            "Elle en tire des principes : des limites claires, des règles adaptées au lieu, des usagers qui participent aux décisions, une surveillance par la communauté, des sanctions progressives. En ==2009==, elle devient ==la première femme à recevoir le prix Nobel d'économie== [11].",
+            "Son travail est aujourd'hui très utilisé pour penser les grands « communs » modernes : le climat, les océans, l'eau, ou même les logiciels libres et Wikipédia. Il bouscule l'idée qu'il n'y aurait que deux options, le marché ou l'État."
+          ]
+        },
+        {
+          title: "Les expérimentateurs : tester l'économie comme un médicament",
+          paragraphs: [
+            "Longtemps, l'économie a surtout raisonné sur des modèles et des statistiques passées. À partir des années 1990, une nouvelle génération décide de ==tester les politiques par tirage au sort==, comme on teste un médicament : un groupe reçoit l'aide, un autre non, et l'on compare.",
+            "Les figures de ce mouvement sont ==Abhijit Banerjee==, ==Esther Duflo== (Française, formée à l'École normale supérieure) et ==Michael Kremer==. Ils testent, en Inde, au Kenya et ailleurs, ce qui marche vraiment contre la pauvreté : distribuer des moustiquaires gratuitement ou les vendre ? Ajouter des enseignants ou regrouper les élèves par niveau ? Vermifuger les enfants pour qu'ils aillent plus à l'école ?",
+            "En ==2019==, tous trois reçoivent le prix Nobel pour leur « approche expérimentale de la lutte contre la pauvreté » [13]. À 46 ans, Esther Duflo est alors la plus jeune lauréate et la deuxième femme de l'histoire du prix [13].",
+            "Cette méthode est aussi celle de Raj Chetty pour Moving to Opportunity (voir notre cours sur l'ascenseur social). Sa force : des réponses précises. Sa limite : ce qui marche dans un village du Kenya ne marche pas forcément ailleurs, et ==on ne peut pas tirer au sort une politique monétaire ou une guerre commerciale==. Les grandes écoles gardent donc leur rôle pour les grandes questions."
+          ]
+        },
+        {
+          title: "Une frise pour retenir",
+          paragraphs: [
+            "==1776== : Adam Smith, « La Richesse des nations » [1]. ==1817== : Ricardo, les avantages comparatifs. ==1848== : Marx et Engels, le « Manifeste du Parti communiste ». ==Années 1870== : Walras, Jevons et Menger, la révolution marginaliste [2].",
+            "==1931== : début du duel Keynes-Hayek. ==1936== : Keynes, « Théorie générale » [3]. ==1937== : Hicks invente le modèle IS-LM. ==1969== : premier prix Nobel d'économie. ==1970== : Samuelson, prix Nobel [4]. ==1974== : Hayek, prix Nobel, en pleine stagflation [9]. ==1976== : Friedman, prix Nobel [5].",
+            "==1995== : Lucas, prix Nobel pour les anticipations rationnelles [6]. ==2001== : Akerlof, Spence et Stiglitz, l'information imparfaite [8]. ==2002== : Kahneman, la psychologie entre en économie [10]. ==2009== : Ostrom, première femme lauréate [11]. ==2017== : Thaler, le « nudge » [12]. ==2019== : Banerjee, Duflo et Kremer, les expériences contre la pauvreté [13].",
+            "Le fil rouge : ==l'économie avance par crises et par controverses==, et chaque génération corrige les lunettes de la précédente."
+          ]
         }
       ],
       forMe: "Quand un responsable politique dit « il faut relancer » et qu'un autre répond « il faut réduire le déficit », tu peux reconnaître leurs écoles : le premier raisonne en keynésien, le second en classique ou en monétariste. Et te demander laquelle colle le mieux à la situation du moment.",
@@ -678,7 +733,9 @@ window.GEOCO = {
         { value: "1776", label: "« La Richesse des nations » d'Adam Smith", src: 1 },
         { value: "1936", label: "la « Théorie générale » de Keynes", src: 3 },
         { value: "1976", label: "prix Nobel de Milton Friedman, le père du monétarisme", src: 5 },
-        { value: "1995", label: "prix Nobel de Robert Lucas et des anticipations rationnelles", src: 6 }
+        { value: "1995", label: "prix Nobel de Robert Lucas et des anticipations rationnelles", src: 6 },
+        { value: "2009", label: "Elinor Ostrom, première femme prix Nobel d'économie", src: 11 },
+        { value: "46 ans", label: "l'âge d'Esther Duflo à son prix Nobel en 2019, la plus jeune lauréate", src: 13 }
       ],
       terms: ["politique-budgetaire", "politique-monetaire", "inflation", "effet-eviction", "piege-liquidite", "banque-centrale"],
       quiz: [
@@ -711,7 +768,11 @@ window.GEOCO = {
           options: ["Ils refusent les mathématiques", "Ils pensent que les prix et salaires sont rigides à court terme", "Ils veulent supprimer la monnaie", "Ils sont contre toute politique économique"],
           answer: 1,
           explain: "Ils gardent les outils modernes mais ajoutent des rigidités : à court terme, la politique économique peut aider."
-        }
+        },
+        { q: "Sur quoi Keynes et Hayek s'opposaient-ils dans les années 1930 ?", options: ["Sur la couleur des billets", "Keynes voulait relancer la demande, Hayek pensait qu'il fallait laisser l'économie se purger des excès du crédit", "Sur le commerce avec la Chine", "Sur la création de l'euro"], answer: 1, explain: "Le débat renaît après chaque grande crise, comme en 2008." },
+        { q: "Qu'est-ce qu'un « nudge », selon Richard Thaler ?", options: ["Un impôt", "Un coup de pouce qui oriente les choix sans les imposer, comme une option par défaut", "Une interdiction", "Une subvention"], answer: 1, explain: "Inscrire par défaut à un plan d'épargne, tout en laissant sortir, fait fortement monter l'épargne." },
+        { q: "Qu'a montré Elinor Ostrom ?", options: ["Que seul l'État peut gérer une ressource commune", "Que des communautés gèrent souvent bien leurs ressources communes avec leurs propres règles", "Que tout doit être privatisé", "Que les ressources communes disparaissent toujours"], answer: 1, explain: "Première femme prix Nobel d'économie, en 2009." },
+        { q: "Quelle méthode Banerjee, Duflo et Kremer ont-ils popularisée ?", options: ["Les grands modèles mathématiques", "Les essais par tirage au sort pour tester les politiques contre la pauvreté", "Les sondages d'opinion", "La planification centrale"], answer: 1, explain: "Comme pour un médicament : un groupe reçoit l'aide, un autre non, et l'on compare. Prix Nobel 2019." }
       ],
       sources: [
         { short: "Britannica", name: "Encyclopædia Britannica, « Adam Smith »", url: "https://www.britannica.com/biography/Adam-Smith" },
@@ -722,7 +783,11 @@ window.GEOCO = {
         { short: "Prix Nobel", name: "Fondation Nobel, prix d'économie 1995 attribué à Robert Lucas (communiqué)", url: "https://www.nobelprize.org/prizes/economic-sciences/1995/press-release/" },
         { short: "Barro (1974)", name: "Robert J. Barro, « Are Government Bonds Net Wealth? », Journal of Political Economy, vol. 82, n° 6, 1974", url: "https://www.jstor.org/stable/1830280" },
         { short: "Prix Nobel", name: "Fondation Nobel, prix d'économie 2001 attribué à George Akerlof, Michael Spence et Joseph Stiglitz (communiqué)", url: "https://www.nobelprize.org/prizes/economic-sciences/2001/press-release/" },
-        { short: "Prix Nobel", name: "Fondation Nobel, prix d'économie 1974 attribué à Gunnar Myrdal et Friedrich von Hayek (communiqué)", url: "https://www.nobelprize.org/prizes/economic-sciences/1974/press-release/" }
+        { short: "Prix Nobel", name: "Fondation Nobel, prix d'économie 1974 attribué à Gunnar Myrdal et Friedrich von Hayek (communiqué)", url: "https://www.nobelprize.org/prizes/economic-sciences/1974/press-release/" },
+        { short: "Prix Nobel", name: "Fondation Nobel, prix d'économie 2002 attribué à Daniel Kahneman et Vernon Smith (communiqué)", url: "https://www.nobelprize.org/prizes/economic-sciences/2002/press-release/" },
+        { short: "Prix Nobel", name: "Fondation Nobel, prix d'économie 2009 attribué à Elinor Ostrom et Oliver Williamson (communiqué)", url: "https://www.nobelprize.org/prizes/economic-sciences/2009/press-release/" },
+        { short: "Prix Nobel", name: "Fondation Nobel, prix d'économie 2017 attribué à Richard Thaler (communiqué)", url: "https://www.nobelprize.org/prizes/economic-sciences/2017/press-release/" },
+        { short: "Prix Nobel", name: "Fondation Nobel, prix d'économie 2019 attribué à Abhijit Banerjee, Esther Duflo et Michael Kremer (communiqué et faits)", url: "https://www.nobelprize.org/prizes/economic-sciences/2019/press-release/" }
       ]
     },
     {
@@ -731,7 +796,7 @@ window.GEOCO = {
       theme: "fin",
       title: "Les eurodollars : ces dollars qui vivent hors des États-Unis",
       hook: "Des milliers de milliards de dollars circulent dans des banques à Londres, Tokyo ou Singapour, loin du contrôle de la Fed. Ils sont nés de la guerre froide, et à chaque grande crise, c'est la Fed qui doit venir les sauver.",
-      minutes: 17,
+      minutes: 15,
       piste: "rouge",
       tldr: [
         "Un eurodollar, c'est simplement un dollar déposé dans une banque hors des États-Unis. Rien à voir avec l'euro : le mot est né bien avant [1][2].",
@@ -1147,7 +1212,7 @@ window.GEOCO = {
       inspiredBy: "Michael J. Sandel",
       title: "Ce que l'argent ne devrait pas acheter : la morale des marchés",
       hook: "Une amende pour les parents en retard qui les fait… arriver plus tard. Une compensation qui fait refuser un projet qu'on acceptait gratuitement. Un droit de polluer qu'on achète en Bourse. Un rein qu'on peut vendre légalement en Iran. Jusqu'où le marché doit-il aller ? Un long cours pour penser, avec des faits et des expériences réelles.",
-      minutes: 25,
+      minutes: 23,
       piste: "bleue",
       tldr: [
         "Les économistes jugent un marché d'abord à son efficacité ; le philosophe de Harvard Michael Sandel pose deux autres questions : est-ce juste (équité), et l'argent change-t-il la nature de ce qu'on échange (corruption) ?",
@@ -1355,7 +1420,7 @@ window.GEOCO = {
       inspiredBy: "Raj Chetty",
       title: "À quoi sert l'État ? Impôts, biens publics et pollution",
       hook: "La France prélève plus de 42 % de sa richesse en impôts et cotisations et dépense 57 % de son PIB par ses administrations. Pour faire quoi ? Quand le marché se débrouille-t-il seul, et quand faut-il l'État ? Qui paie vraiment un impôt, pourquoi on fraude peu au Danemark, et quelles dépenses se remboursent d'elles-mêmes ? Les grandes idées de l'économie publique, avec des exemples concrets.",
-      minutes: 24,
+      minutes: 23,
       piste: "bleue",
       tldr: [
         "En 2024, impôts et cotisations représentent 42,8 % du PIB en France selon l'Insee ; selon la méthode européenne, la France est 2e de l'UE, juste derrière le Danemark [1][2]. Les dépenses publiques atteignent 57 % du PIB, dont 41 % vont à la protection sociale (hors santé) [4].",
@@ -1567,7 +1632,7 @@ window.GEOCO = {
       theme: "mix",
       title: "Droits de douane : à quoi ça sert, et qui paie vraiment ?",
       hook: "Les États-Unis taxent les produits étrangers, l'Europe taxe les voitures chinoises. Officiellement, c'est pour protéger. Mais au bout de la chaîne, c'est souvent toi qui paies.",
-      minutes: 18,
+      minutes: 19,
       piste: "verte",
       tldr: [
         "Un droit de douane est une taxe sur un produit importé, payée quand il passe la frontière.",
@@ -1769,7 +1834,7 @@ window.GEOCO = {
       theme: "geo",
       title: "Ormuz, Suez, Malacca : ces passages étroits qui tiennent l'économie mondiale",
       hook: "Une boîte en métal inventée en 1956, un canal fermé huit ans avec quinze navires piégés dedans, un porte-conteneurs coincé en travers pendant six jours, une sécheresse qui bloque des bateaux au Panama : quelques dizaines de kilomètres de mer suffisent à faire bondir les prix dans le monde entier. Voici pourquoi.",
-      minutes: 20,
+      minutes: 15,
       piste: "verte",
       tldr: [
         "Environ 80 % des marchandises échangées dans le monde voyagent par bateau [1], grâce à une invention simple : le conteneur, dont le premier voyage date du 26 avril 1956 [7].",
@@ -1922,7 +1987,7 @@ window.GEOCO = {
       theme: "mix",
       title: "Puces électroniques : pourquoi Taïwan est au cœur du monde",
       hook: "Ton téléphone, ta voiture et l'intelligence artificielle dépendent de minuscules puces fabriquées en grande partie sur une seule île. Comment un objet inventé en 1947 est devenu l'enjeu d'une rivalité entre les États-Unis et la Chine, pourquoi le Japon a perdu sa place, et pourquoi on parle de « bouclier de silicium » ?",
-      minutes: 20,
+      minutes: 14,
       piste: "bleue",
       tldr: [
         "Les semi-conducteurs (ou puces) sont le « cerveau » de presque tous les objets électroniques. Le premier microprocesseur, l'Intel 4004 de 1971, comptait environ 2 300 transistors ; une puce d'IA de Nvidia en 2024 en compte 208 milliards [5].",
@@ -2073,7 +2138,7 @@ window.GEOCO = {
       theme: "geo",
       title: "Sanctions économiques : faire la guerre sans armes ?",
       hook: "Un embargo sur le pétrole qui pousse le Japon vers Pearl Harbor, des sanctions contre l'Italie de Mussolini qui oublient… le pétrole, des banques iraniennes coupées de SWIFT, une banque française condamnée à 8,9 milliards de dollars, et 300 milliards de réserves russes gelées. Comment marchent les sanctions, depuis quand, et est-ce qu'elles marchent vraiment ?",
-      minutes: 20,
+      minutes: 16,
       piste: "bleue",
       tldr: [
         "Une sanction économique est une mesure qui coupe ou limite les échanges avec un pays, une entreprise ou une personne pour faire pression.",
@@ -2223,7 +2288,7 @@ window.GEOCO = {
       theme: "eco",
       title: "Pourquoi le dollar domine le monde",
       hook: "Le pétrole se vend en dollars, les banques centrales stockent des dollars, 88 % des échanges de devises passent par le dollar… Comment le nom d'une pièce d'argent de Bohême est devenu la monnaie de la planète ? De la pièce de huit espagnole au « privilège exorbitant », du coup de poker de Nixon en 1971 à la ruée des banques centrales vers l'or.",
-      minutes: 20,
+      minutes: 14,
       piste: "bleue",
       tldr: [
         "Le dollar est la principale monnaie de réserve : près de 60 % des réserves de change des banques centrales sont en dollars [1]. Il est d'un côté de 88 % de toutes les opérations de change dans le monde [2].",
