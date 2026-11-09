@@ -1141,18 +1141,20 @@
         ${heroImage(d.image)}
       </section>
 
+      <div class="course-dense">
       <section class="section alt">
         <div class="wrap">
           <p class="eyebrow reveal">L'essentiel en 30 secondes</p>
-          ${d.tldr.map((t) => `<p class="statement reveal">${cite(t, d.sources)}</p>`).join("")}
+          <ul class="tldr-list">${d.tldr.map((t) => `<li class="reveal">${para(t, d.sources)}</li>`).join("")}</ul>
         </div>
       </section>
 
       ${visualsBlock(d.visuals)}
 
-      ${d.sections.map((s) => `
+      ${d.sections.map((s, i) => `
         <section class="section">
           <div class="wrap">
+            <p class="eyebrow part-num">${I18N.t("Partie {n}").replace("{n}", i + 1)}</p>
             <h2 class="title reveal">${s.title}</h2>
             ${s.paragraphs.map((p) => `<p class="copy reveal">${para(p, d.sources)}</p>`).join("")}
             ${s.diagram && window.GeocoISLM ? `<div class="reveal">${window.GeocoISLM.html(s.diagram)}</div>` : ""}
@@ -1161,6 +1163,7 @@
           </div>
         </section>
       `).join("")}
+      </div>
 
       <section class="wrap">
         <div class="panel ${d.theme} reveal">

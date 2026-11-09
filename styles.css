@@ -1738,3 +1738,18 @@ section.flash { animation: partFlash 1.6s ease-out; }
 .stars { color: #fbbf24; letter-spacing: 1px; white-space: nowrap; }
 .stars i { font-style: normal; color: currentColor; opacity: .25; }
 .piste-note { font-size: 14px; opacity: .8; margin-top: 6px; }
+
+/* ---------- Page d'un cours plus serrée, façon page de livre (demande de l'auteur, 9 nov. 2026 :
+   « moins d'espace, plus de texte, surligner les enjeux principaux, même police et même fond ») ---------- */
+.course-dense .section { padding: 30px 0; }
+.course-dense .section + .section { border-top: 1px solid rgba(255, 255, 255, .07); }
+.course-dense .title { font-size: clamp(24px, 3.6vw, 32px); line-height: 1.15; margin-bottom: 12px; }
+.course-dense .part-num { color: var(--gold); font-size: 12px; text-transform: uppercase; letter-spacing: .12em; margin-bottom: 4px; }
+.course-dense .copy { font-size: 18px; line-height: 1.62; color: color-mix(in srgb, var(--text) 84%, transparent); max-width: 780px; }
+.course-dense .copy + .copy { margin-top: 12px; }
+.course-dense .tldr-list { list-style: none; padding: 0; margin: 10px 0 0; display: grid; gap: 10px; max-width: 820px; }
+.course-dense .tldr-list li { font-family: var(--serif); font-size: 19px; line-height: 1.5; color: var(--text); padding-left: 22px; position: relative; }
+.course-dense .tldr-list li::before { content: ""; position: absolute; left: 4px; top: .62em; width: 8px; height: 8px; border-radius: 2px; background: var(--gold); }
+.course-dense mark.hl { background: linear-gradient(transparent 40%, rgba(245, 200, 107, .5) 40%, rgba(245, 200, 107, .5) 94%, transparent 94%); font-weight: 700; }
+.course-dense .art-box, .course-dense .plain-chain { margin-top: 16px; }
+@media (max-width: 600px) { .course-dense .section { padding: 22px 0; } .course-dense .copy { font-size: 17px; } }
