@@ -1927,73 +1927,150 @@ window.GEOCO = {
       emoji: "🔒",
       theme: "geo",
       title: "Sanctions économiques : faire la guerre sans armes ?",
-      hook: "Depuis l'invasion de l'Ukraine, la Russie est visée par des milliers de sanctions. Comment ça marche, et est-ce que ça fonctionne ?",
-      minutes: 4,
+      hook: "Un embargo sur le pétrole qui pousse le Japon vers Pearl Harbor, des sanctions contre l'Italie de Mussolini qui oublient… le pétrole, des banques iraniennes coupées de SWIFT, une banque française condamnée à 8,9 milliards de dollars, et 300 milliards de réserves russes gelées. Comment marchent les sanctions, depuis quand, et est-ce qu'elles marchent vraiment ?",
+      minutes: 20,
       piste: "bleue",
       tldr: [
         "Une sanction économique est une mesure qui coupe ou limite les échanges avec un pays, une entreprise ou une personne pour faire pression.",
-        "Après l'invasion de l'Ukraine en 2022, l'Occident a gelé environ 300 milliards de dollars de réserves de la banque centrale russe et exclu plusieurs banques russes du système SWIFT [1].",
-        "Les sanctions affaiblissent une économie, mais le pays visé trouve souvent des contournements."
+        "Après l'invasion de l'Ukraine en 2022, l'Occident a gelé environ 300 milliards de dollars de réserves de la banque centrale russe et exclu plusieurs banques russes du système SWIFT [1] ; le 5 décembre 2022, le G7 et l'UE plafonnent le prix du pétrole russe à 60 dollars le baril [8].",
+        "L'histoire est pleine de sanctions ratées : en 1935, la Société des Nations sanctionne l'Italie mais oublie le pétrole [4] ; en 1941, l'embargo pétrolier américain contre le Japon précède Pearl Harbor [5].",
+        "Selon l'étude de référence de Hufbauer, Schott et Elliott, les sanctions atteignent leur but dans environ un tiers des cas (40 sur 115 entre 1914 et 1990), surtout quand l'objectif est modeste [3].",
+        "Les États-Unis ont une arme unique : le dollar. En 2014, BNP Paribas plaide coupable et paie près de 9 milliards de dollars pour des opérations avec le Soudan, l'Iran et Cuba [7]."
       ],
       sections: [
         {
           title: "La boîte à outils",
           paragraphs: [
             "Il existe plusieurs types de sanctions : l'embargo (interdire d'acheter ou de vendre certains produits), le gel des avoirs (bloquer l'argent placé à l'étranger), l'interdiction de voyager pour certaines personnalités, ou l'exclusion du système financier international.",
-            "Elles peuvent viser un pays entier ou des cibles précises : des oligarques, des entreprises d'armement, des banques."
+            "Elles peuvent viser un pays entier ou des cibles précises : des oligarques, des entreprises d'armement, des banques.",
+            "On distingue aussi les sanctions ==commerciales== (sur les marchandises), ==financières== (sur l'argent, les banques, les investissements) et ==technologiques== (interdire de vendre des puces, des logiciels, des machines). Les sanctions financières sont souvent les plus efficaces, car presque tout le commerce mondial passe par quelques monnaies et quelques réseaux bancaires.",
+            "Qui sanctionne ? Le ==Conseil de sécurité de l'ONU== peut imposer des sanctions à tous les pays du monde, mais chacun des cinq membres permanents (États-Unis, Chine, Russie, France, Royaume-Uni) peut bloquer une décision par son veto. C'est pourquoi la plupart des sanctions sont aujourd'hui décidées par ==des pays ou des groupes de pays==, comme l'Union européenne, les États-Unis, le Royaume-Uni ou le G7 [1]."
+          ]
+        },
+        {
+          title: "Une très vieille arme",
+          paragraphs: [
+            "Les sanctions sont presque aussi anciennes que le commerce. Vers 432 avant notre ère, Athènes interdit aux marchands de la cité voisine de Mégare l'accès à ses ports et à ses marchés. L'historien grec Thucydide cite ce ==« décret de Mégare »== parmi les tensions qui mènent à la guerre du Péloponnèse.",
+            "En 1806, Napoléon lance le ==Blocus continental== : il interdit à l'Europe qu'il domine de commercer avec le Royaume-Uni, pour ruiner son économie. Le blocus est largement contourné par la contrebande, nuit aux ports européens eux-mêmes, et pousse Napoléon à envahir la Russie en 1812 quand celle-ci refuse de l'appliquer.",
+            "Ces deux exemples montrent déjà les deux faiblesses des sanctions : ==elles peuvent provoquer la guerre au lieu de l'éviter==, et ==elles ne marchent que si tout le monde les applique==."
+          ]
+        },
+        {
+          title: "1935 : les sanctions qui ont oublié le pétrole",
+          paragraphs: [
+            "Le 3 octobre 1935, l'Italie de Mussolini envahit l'Éthiopie. Le 11 octobre, la ==Société des Nations==, ancêtre de l'ONU, vote des sanctions économiques contre l'Italie : c'est la première fois qu'une organisation internationale sanctionne un de ses membres [4].",
+            "Mais les sanctions oublient l'essentiel : ==le pétrole, dont l'armée italienne a absolument besoin, n'est pas sur la liste== [4]. Le Royaume-Uni et la France ne ferment pas non plus le canal de Suez, par où passent les troupes italiennes. Et les États-Unis, qui ne sont pas membres de la Société des Nations, continuent de commercer avec l'Italie [4].",
+            "En décembre 1935, on apprend que les ministres britannique et français, Samuel Hoare et Pierre Laval, ont secrètement proposé de céder une partie de l'Éthiopie à l'Italie. Le scandale achève de discréditer la démarche. L'Italie conquiert l'Éthiopie et ==les sanctions sont levées en juillet 1936== [4].",
+            "Pour beaucoup d'historiens, cet échec a montré à Hitler que les démocraties ne passeraient pas aux actes. ==Une sanction à moitié appliquée peut être pire que pas de sanction du tout==, car elle montre la faiblesse de ceux qui la décident."
+          ]
+        },
+        {
+          title: "1941 : l'embargo qui mène à Pearl Harbor",
+          paragraphs: [
+            "En juillet 1941, le Japon, en guerre en Chine, occupe le sud de l'Indochine française. Le 25-26 juillet, les États-Unis ==gèlent les avoirs japonais== sur leur sol ; le 1er août, ils interdisent les exportations de pétrole vers les pays agresseurs [5]. Le Royaume-Uni et les Pays-Bas, qui contrôlent le pétrole de l'Indonésie, suivent.",
+            "Le Japon importe alors la très grande majorité de son pétrole, dont l'essentiel venait des États-Unis : selon les sources, il perd l'accès à 80 à 90 % de ses importations [5]. Ses dirigeants calculent que leurs stocks ne dureront pas deux ans.",
+            "Ils ont deux options : ==se retirer d'Indochine et de Chine pour obtenir la levée des sanctions, ou prendre par la force le pétrole de l'Asie du Sud-Est==, ce qui suppose de neutraliser la flotte américaine [5]. Ils choisissent la guerre : le 7 décembre 1941, c'est l'attaque de Pearl Harbor.",
+            "Les historiens discutent du poids exact de l'embargo dans cette décision, mais l'exemple est devenu un classique : ==une sanction qui menace la survie d'un pays peut le pousser à frapper plutôt qu'à céder==."
+          ],
+          plain: {
+            title: "pourquoi une sanction peut provoquer une guerre",
+            steps: [
+              "Les États-Unis coupent le pétrole au Japon pour le forcer à arrêter son expansion [5].",
+              "Le Japon calcule qu'il lui reste moins de deux ans de stocks : il doit choisir vite.",
+              "Céder, c'est perdre la face et ses conquêtes ; prendre le pétrole de l'Indonésie, c'est la guerre avec les États-Unis.",
+              "Il choisit la guerre : Pearl Harbor, 7 décembre 1941. La sanction n'a pas fait reculer le Japon, elle a accéléré sa décision."
+            ]
+          }
+        },
+        {
+          title: "La guerre froide et l'apartheid",
+          paragraphs: [
+            "Après 1945, les sanctions deviennent un outil courant. En ==1962==, les États-Unis imposent un ==embargo total contre Cuba==, après la révolution castriste et les nationalisations de biens américains. Plus de soixante ans plus tard, il est toujours en place, et le régime cubain aussi : c'est l'exemple le plus cité d'une sanction qui dure sans atteindre son but.",
+            "À l'inverse, les sanctions contre ==l'Afrique du Sud de l'apartheid== sont souvent citées comme un succès partiel. Dans les années 1980, de nombreux pays, entreprises et universités se retirent du pays ou coupent leurs investissements ; en 1986, le Congrès américain adopte des sanctions malgré le veto du président Reagan. L'économie sud-africaine souffre, et le régime négocie la fin de l'apartheid au début des années 1990.",
+            "La différence ? En Afrique du Sud, ==les sanctions accompagnaient une forte pression intérieure== (mouvements de libération, grèves, Église) et touchaient une élite économique qui avait beaucoup à perdre. À Cuba, elles ont plutôt permis au régime de présenter les États-Unis comme responsables des difficultés du pays."
+          ]
+        },
+        {
+          title: "L'Irak des années 1990 et la naissance des sanctions « ciblées »",
+          paragraphs: [
+            "Après l'invasion du Koweït par l'Irak en 1990, l'ONU impose à l'Irak des sanctions parmi les plus sévères de l'histoire : presque tout commerce est interdit. Le régime de Saddam Hussein reste en place, mais la population souffre gravement : manque de médicaments, malnutrition, effondrement des services publics. À partir de 1996, un programme ==« pétrole contre nourriture »== permet à l'Irak de vendre du pétrole pour acheter des biens de première nécessité.",
+            "Le constat choque : ==les sanctions générales frappent surtout les civils, pas les dirigeants==. D'où l'essor, dans les années 2000, des ==sanctions « ciblées » ou « intelligentes »== : on gèle les avoirs et interdit de voyager à des personnes précises (dirigeants, oligarques, militaires), on vise des secteurs (armement, pétrole, banques) plutôt que tout un pays.",
+            "C'est ce modèle qui domine aujourd'hui, avec des listes de milliers de noms et d'entreprises, mises à jour régulièrement par l'Union européenne, les États-Unis ou le Royaume-Uni [1]."
+          ]
+        },
+        {
+          title: "L'arme financière : SWIFT et le dollar",
+          paragraphs: [
+            "==SWIFT== est une coopérative basée en Belgique qui gère la messagerie sécurisée utilisée par plus de 11 000 banques dans le monde pour leurs virements internationaux [2]. Ce n'est pas une banque, mais sans elle, un virement entre deux pays devient très compliqué.",
+            "Le ==17 mars 2012==, pour la première fois, SWIFT déconnecte des banques à la demande des autorités : une trentaine de banques iraniennes visées par les sanctions européennes contre le programme nucléaire de l'Iran [6]. Son directeur parle d'une étape « extraordinaire et sans précédent » [6].",
+            "Les États-Unis disposent d'une arme encore plus puissante : ==le dollar==. Presque tous les paiements en dollars passent à un moment par des banques américaines, soumises à la loi américaine. Une banque étrangère qui fait des opérations en dollars avec un pays sanctionné par Washington risque donc d'être poursuivie, même si son propre pays n'a rien interdit. C'est ce qu'on appelle ==l'extraterritorialité==, ou les « sanctions secondaires » (voir notre cours sur le dollar).",
+            "Exemple marquant : en ==2014==, la banque française ==BNP Paribas== plaide coupable aux États-Unis et accepte de payer ==près de 8,9 milliards de dollars== pour avoir fait transiter des paiements en dollars liés au Soudan, à l'Iran et à Cuba entre 2004 et 2012 [7]. C'est alors la plus lourde sanction jamais obtenue par la justice américaine dans une affaire de sanctions économiques [7]. Pour l'Europe, c'est un choc : ses entreprises dépendent des décisions de Washington."
           ]
         },
         {
           title: "Le cas de la Russie",
           paragraphs: [
             "Après février 2022, l'Union européenne, les États-Unis et leurs alliés ont adopté des sanctions sans précédent : gel des réserves de la banque centrale russe, exclusion de banques de SWIFT (la messagerie qui permet les virements internationaux), embargo sur le pétrole russe transporté par mer et plafonnement de son prix.",
-            "L'Europe a aussi fortement réduit ses achats de gaz russe, dont elle dépendait beaucoup, ce qui a contribué à la flambée des prix de l'énergie."
+            "L'Europe a aussi fortement réduit ses achats de gaz russe, dont elle dépendait beaucoup, ce qui a contribué à la flambée des prix de l'énergie.",
+            "Le ==5 décembre 2022==, deux mesures entrent en vigueur ensemble : l'embargo européen sur la plupart des importations de pétrole russe par bateau, et un ==plafond de prix de 60 dollars le baril== décidé par le G7, l'UE et l'Australie [8]. L'idée est astucieuse : plutôt que d'interdire le pétrole russe au monde entier (ce qui ferait flamber les prix), on autorise les autres pays à l'acheter, à condition de payer moins de 60 dollars ; sinon, les assureurs et transporteurs occidentaux n'ont pas le droit de s'en occuper [8].",
+            "Les réserves russes gelées posent une question inédite : que faire de cet argent ? Le confisquer serait juridiquement risqué et pourrait inquiéter d'autres pays qui gardent leurs réserves en Occident. En juin 2024, le G7 trouve un compromis : un ==prêt de 50 milliards de dollars à l'Ukraine==, remboursé grâce aux intérêts produits par les avoirs russes gelés, sans toucher au capital [9]. La plus grande partie de ces avoirs est déposée chez Euroclear, en Belgique [9]."
           ]
         },
         {
           title: "Est-ce que ça marche ?",
           paragraphs: [
             "Oui et non. La Russie a perdu l'accès à des technologies et à une partie de ses revenus. Mais elle a redirigé ses ventes de pétrole vers la Chine et l'Inde, et utilise une « flotte fantôme » de vieux pétroliers pour contourner les règles.",
-            "C'est la limite des sanctions : elles sont d'autant plus efficaces que beaucoup de pays les appliquent. Et elles ont aussi un coût pour ceux qui les imposent."
+            "C'est la limite des sanctions : elles sont d'autant plus efficaces que beaucoup de pays les appliquent. Et elles ont aussi un coût pour ceux qui les imposent.",
+            "L'étude de référence sur le sujet, menée par les économistes Gary Hufbauer, Jeffrey Schott et Kimberly Elliott, recense les sanctions du XXe siècle. Dans sa deuxième édition, elle juge que les sanctions ont atteint leur but dans ==40 cas sur 115 entre 1914 et 1990, soit environ un tiers== [3]. Les objectifs modestes (libérer un prisonnier, obtenir une concession) réussissent bien plus souvent que les grands objectifs (changer de régime, arrêter une guerre) [3].",
+            "Ce chiffre est contesté : le politologue Robert Pape estime que seuls 5 des 40 succès en sont vraiment, les autres s'expliquant surtout par la menace de la force [3]. Retiens que ==les sanctions marchent rarement seules== : elles fonctionnent mieux quand elles sont rapides, larges, visent un objectif précis et s'accompagnent de diplomatie."
+          ],
+          example: {
+            title: "Les conditions d'une sanction efficace",
+            text: "Les études font ressortir quelques facteurs : 1) un objectif limité et clair ; 2) beaucoup de pays qui appliquent la sanction (sinon le pays visé commerce ailleurs) ; 3) un pays visé qui dépend fortement de ceux qui sanctionnent ; 4) des élites touchées personnellement ; 5) une porte de sortie : ce qu'il faut faire pour que la sanction soit levée."
+          }
+        },
+        {
+          title: "Les effets inattendus",
+          paragraphs: [
+            "==L'effet « drapeau »== : un régime sanctionné peut souder sa population autour de lui, en présentant les difficultés comme la faute de l'étranger. ==Le marché noir== enrichit souvent les proches du pouvoir, qui contrôlent la contrebande.",
+            "==La dédollarisation== : à force d'utiliser le dollar comme arme, les États-Unis poussent certains pays (Chine, Russie, Iran) à développer d'autres circuits de paiement, à acheter de l'or et à commercer dans leurs propres monnaies. À long terme, les sanctions financières pourraient affaiblir l'outil qui les rend possibles.",
+            "==Les coûts pour soi== : les entreprises européennes qui ont quitté la Russie en 2022 ont perdu des milliards, et les ménages européens ont payé l'énergie plus cher. Une sanction n'est jamais gratuite, ce qui rend les coalitions fragiles quand la crise dure.",
+            "Enfin, ==les sanctions se lèvent rarement==. Une fois en place, les lever ressemble à une récompense ou à un aveu d'échec. Beaucoup durent des décennies, comme l'embargo contre Cuba."
           ]
         }
       ],
-      forMe: "La hausse des factures d'énergie en Europe en 2022 est en partie liée à la rupture avec le gaz russe : les sanctions ont un prix, aussi pour ceux qui les décident.",
+      forMe: "Quand tu entends parler d'un « nouveau paquet de sanctions », pose quatre questions : quel est l'objectif ? Qui l'applique, et qui ne l'applique pas ? Qui en paie le prix, y compris chez nous ? Et que doit faire le pays visé pour qu'on lève les sanctions ?",
       figures: [
         { value: "≈ 300 Md$", label: "de réserves russes immobilisées par l'Occident" },
-        { value: "2022", label: "début des sanctions massives contre la Russie" }
+        { value: "2022", label: "début des sanctions massives contre la Russie" },
+        { value: "≈ 1/3", label: "des sanctions atteignent leur but (40 cas sur 115, 1914-1990)", src: 3 },
+        { value: "60 $", label: "le plafond de prix du baril de pétrole russe fixé par le G7 et l'UE en décembre 2022", src: 8 },
+        { value: "8,9 Md$", label: "payés par BNP Paribas en 2014 pour violation des sanctions américaines", src: 7 },
+        { value: "50 Md$", label: "prêtés à l'Ukraine en 2024, remboursés par les intérêts des avoirs russes gelés", src: 9 }
       ],
       terms: ["sanctions", "embargo", "swift", "g7", "dependance"],
       quiz: [
-        {
-          q: "À quoi sert SWIFT ?",
-          options: [
-            "C'est une monnaie numérique",
-            "C'est la messagerie qui permet aux banques de faire des virements internationaux",
-            "C'est une agence de notation",
-            "C'est un accord militaire"
-          ],
-          answer: 1,
-          explain: "SWIFT relie plus de 11 000 institutions financières. En être exclu complique fortement les paiements avec l'étranger."
-        },
-        {
-          q: "Comment la Russie a-t-elle contourné une partie des sanctions sur son pétrole ?",
-          options: [
-            "En arrêtant de produire",
-            "En vendant davantage à la Chine et à l'Inde",
-            "En rejoignant l'Union européenne",
-            "En payant uniquement en euros"
-          ],
-          answer: 1,
-          explain: "Elle a réorienté ses exportations vers l'Asie, notamment la Chine et l'Inde, souvent à prix réduit."
-        }
+        { q: "À quoi sert SWIFT ?", options: ["À fabriquer de la monnaie", "À échanger les messages des virements internationaux entre banques", "À voter des sanctions", "À transporter du pétrole"], answer: 1, explain: "C'est une messagerie sécurisée, pas une banque : en être exclu complique fortement les paiements internationaux." },
+        { q: "Comment la Russie a-t-elle contourné une partie des sanctions sur son pétrole ?", options: ["En arrêtant d'en vendre", "En le vendant à la Chine et à l'Inde, avec une « flotte fantôme » de vieux pétroliers", "En le vendant à l'Europe", "En le stockant"], answer: 1, explain: "C'est la limite des sanctions : elles dépendent du nombre de pays qui les appliquent." },
+        { q: "Qu'ont oublié les sanctions de la Société des Nations contre l'Italie en 1935 ?", options: ["Le blé", "Le pétrole", "Les armes", "Le textile"], answer: 1, explain: "Le pétrole, essentiel à l'armée italienne, n'était pas sur la liste ; les sanctions ont été levées en 1936." },
+        { q: "Quelle sanction a précédé l'attaque de Pearl Harbor ?", options: ["Un embargo sur le riz", "Le gel des avoirs japonais et l'embargo pétrolier américain de l'été 1941", "L'exclusion de SWIFT", "Un plafond sur le prix de l'acier"], answer: 1, explain: "Le Japon a préféré prendre le pétrole de l'Asie du Sud-Est par la force plutôt que de céder." },
+        { q: "Pourquoi a-t-on inventé les sanctions « ciblées » ?", options: ["Pour faire plus de bruit", "Parce que les sanctions générales, comme contre l'Irak dans les années 1990, frappaient surtout les civils", "Pour les rendre gratuites", "Parce que l'ONU l'imposait"], answer: 1, explain: "On vise désormais des dirigeants, des entreprises ou des secteurs précis." },
+        { q: "Pourquoi BNP Paribas a-t-elle été condamnée par la justice américaine en 2014 ?", options: ["Pour fraude fiscale en France", "Pour des paiements en dollars liés au Soudan, à l'Iran et à Cuba", "Pour avoir quitté la Russie", "Pour une faillite"], answer: 1, explain: "Près de 8,9 milliards de dollars : l'usage du dollar soumet les banques étrangères à la loi américaine." },
+        { q: "Comment fonctionne le plafond de prix sur le pétrole russe ?", options: ["Personne n'a le droit d'acheter du pétrole russe", "Les pays peuvent en acheter, mais les services occidentaux (assurance, transport) seulement si le prix est sous 60 $", "La Russie fixe elle-même son prix", "Le pétrole russe est gratuit"], answer: 1, explain: "L'idée : réduire les revenus russes sans faire flamber le prix mondial du pétrole." },
+        { q: "Selon Hufbauer, Schott et Elliott, quelle part des sanctions atteint son but ?", options: ["Presque toutes", "Environ un tiers", "Aucune", "La moitié exactement"], answer: 1, explain: "40 cas sur 115 entre 1914 et 1990 ; ce chiffre est contesté par d'autres chercheurs." }
       ],
       sources: [
         { short: "Conseil de l'UE", name: "Conseil de l'Union européenne, sanctions contre la Russie", url: "https://www.consilium.europa.eu/fr/policies/sanctions-against-russia/" },
-        { short: "SWIFT", name: "SWIFT, à propos", url: "https://www.swift.com/about-us" }
+        { short: "SWIFT", name: "SWIFT, à propos", url: "https://www.swift.com/about-us" },
+        { short: "National Academies", name: "National Academies Press, « International Conflict Resolution After the Cold War » (2000), chapitre sur l'efficacité des sanctions (Hufbauer, Schott et Elliott ; critique de Pape)", url: "https://www.nationalacademies.org/read/9897/chapter/5" },
+        { short: "Université d'Oxford", name: "Université d'Oxford, « 1935 sanctions against Italy: Would coal and crude oil have made a difference? » (European Review of Economic History)", url: "https://www.economics.ox.ac.uk/node/1980231" },
+        { short: "History.com", name: "History.com, « United States freezes Japanese assets » (26 juillet 1941)", url: "https://www.history.com/this-day-in-history/july-26/united-states-freezes-japanese-assets" },
+        { short: "SWIFT", name: "SWIFT, « SWIFT instructed to disconnect sanctioned Iranian banks following EU Council decision », mars 2012", url: "https://www.swift.com/insights/press-releases/swift-instructed-to-disconnect-sanctioned-iranian-banks-following-eu-council-decision" },
+        { short: "Département de la Justice (via Mondo Visione)", name: "Département de la Justice des États-Unis, « BNP Paribas Agrees to Plead Guilty and to Pay $8.9 Billion », 30 juin 2014", url: "https://mondovisione.com/media-and-resources/news/us-department-of-justice-bnp-paribas-agrees-to-plead-guilty-and-to-pay-89-bil-201471/" },
+        { short: "bne IntelliNews", name: "bne IntelliNews, « EU, G7 approve Russian oil price cap as embargo on country's crude comes into force », décembre 2022", url: "https://www.intellinews.com/eu-g7-approve-russian-oil-price-cap-as-embargo-on-country-s-crude-comes-into-force-264282" },
+        { short: "Swissinfo (Reuters)", name: "Swissinfo (Reuters), « Explainer: What is the G7's $50 billion loan plan for Ukraine? », 2024", url: "https://www.swissinfo.ch/eng/explainer-what-is-the-g7%27s-%2450-billion-loan-plan-for-ukraine%3F/80692861" }
       ]
     },
-
     {
       id: "dollar",
       plus: true, // cours d'approfondissement : réservé à Geonomix+
