@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-09",
+    "file": "lettres/2026-11-09.pdf",
+    "titles": [
+      "Ormuz : Washington étend son blocus de l'Iran aux frontières terrestres et à la Caspienne, alors que deux pétroliers sont frappés dans le détroit",
+      "Après la débâcle de la semaine, les Bourses d'Asie rebondissent : Tokyo gagne 3,4 %, Taïwan près de 6 %, portées par les valeurs de puces",
+      "Ukraine : après deux nuits de frappes sur le réseau électrique, Kyiv et Moscou s'assoient mardi à Abou Dabi"
+    ],
+    "fileDark": "lettres/2026-11-09-sombre.pdf"
+  },
+  {
     "date": "2026-11-08",
     "file": "lettres/2026-11-08.pdf",
     "titles": [
