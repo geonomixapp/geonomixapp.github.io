@@ -731,13 +731,14 @@ window.GEOCO = {
       theme: "fin",
       title: "Les eurodollars : ces dollars qui vivent hors des États-Unis",
       hook: "Des milliers de milliards de dollars circulent dans des banques à Londres, Tokyo ou Singapour, loin du contrôle de la Fed. Ils sont nés de la guerre froide, et à chaque grande crise, c'est la Fed qui doit venir les sauver.",
-      minutes: 8,
+      minutes: 17,
       piste: "rouge",
       tldr: [
         "Un eurodollar, c'est simplement un dollar déposé dans une banque hors des États-Unis. Rien à voir avec l'euro : le mot est né bien avant [1][2].",
         "Le marché est né au milieu des années 1950, quand des banques soviétiques ont placé leurs dollars à Londres et à Paris de peur qu'ils soient saisis aux États-Unis [1].",
         "Il a grossi parce qu'il échappait aux règles américaines (plafonds de taux, réserves obligatoires) : fin 2019, les banques non américaines devaient environ 13 000 milliards de dollars [1][3].",
-        "Quand ces dollars viennent à manquer, comme en 2008 et en 2020, la Fed prête des dollars aux autres banques centrales : les « swap lines » [4][5]."
+        "Quand ces dollars viennent à manquer, comme en 2008 et en 2020, la Fed prête des dollars aux autres banques centrales : les « swap lines » [4][5].",
+        "Le nom viendrait de l'adresse télex d'une banque soviétique de Paris, « Eurobank » [6]. Le marché a ensuite connu ses crises : faillite de la banque Herstatt en 1974 [7], gel des avoirs iraniens en 1979, y compris dans les agences américaines à l'étranger [8], et scandale du Libor, le taux qui servait de référence à ce marché, abandonné le 30 juin 2023 [9]."
       ],
       sections: [
         {
@@ -804,6 +805,56 @@ window.GEOCO = {
             "==Risqué== : il échappe en partie aux autorités, peut gonfler très vite, et repose en dernier ressort sur la bonne volonté de la Fed. Une crise de liquidité en dollars à Londres ou à Tokyo peut se transmettre à toute la planète.",
             "==Géopolitique== : l'accès aux dollars devient un levier. Être coupé du circuit du dollar, comme avec les sanctions, peut paralyser un pays (voir le cours sur les sanctions)."
           ]
+        },
+        {
+          title: "Le nom : une adresse télex à Paris",
+          paragraphs: [
+            "D'où vient le mot « eurodollar » ? Selon le récit le plus répandu, d'une banque à capitaux soviétiques installée à Paris, la ==Banque commerciale pour l'Europe du Nord (BCEN)==. Son adresse télégraphique, l'équivalent d'une adresse e-mail de l'époque, était ==« EUROBANK »== [6].",
+            "Les dollars que les pays communistes y déposaient, pour les mettre à l'abri d'une saisie américaine, étaient appelés « dollars de l'Eurobank », puis simplement « eurodollars » [6]. La BCEN les replaçait auprès d'autres banques européennes, qui les reprêtaient à leur tour : le marché était né [6].",
+            "Les historiens ne s'accordent pas tout à fait sur le premier épisode : certains citent la Chine communiste, qui aurait transféré ses dollars à Paris dès la guerre de Corée, avant que les États-Unis ne gèlent ses avoirs ; d'autres, les transferts soviétiques de la fin des années 1950 vers la Moscow Narodny Bank de Londres et la BCEN [6]. ==Ironie de l'histoire : le marché qui a fait la puissance mondiale du dollar a été lancé par des pays qui se méfiaient des États-Unis.=="
+          ]
+        },
+        {
+          title: "26 juin 1974 : la faillite qui a donné son nom à un risque",
+          paragraphs: [
+            "Le marché des eurodollars repose sur des échanges permanents entre monnaies : on vend des marks contre des dollars, des livres contre des francs. Ces échanges ne se règlent pas toujours au même instant, car les marchés ne sont pas ouverts aux mêmes heures.",
+            "Le ==26 juin 1974==, à 15 h 30 heure de Francfort, les autorités allemandes ferment la petite ==banque Herstatt==, ruinée par des paris sur les monnaies [7]. Ce jour-là, des banques lui avaient déjà versé des marks à Francfort, en attendant des dollars qui devaient arriver à New York quelques heures plus tard. Ils n'arrivent jamais : sa banque correspondante à New York bloque tous ses paiements en dollars [7].",
+            "Le monde financier découvre le ==« risque Herstatt »== (ou risque de règlement) : avoir payé sa part d'un échange sans recevoir celle de l'autre [7]. La même année, les banquiers centraux des grands pays créent à Bâle un comité chargé de coordonner la surveillance des banques internationales : le futur ==Comité de Bâle==, qui écrira les grandes règles mondiales sur les fonds propres des banques (« Bâle I, II, III ») [7].",
+            "Il faudra attendre ==2002== et la création de CLS, une banque qui règle les deux côtés d'un échange au même instant, pour réduire fortement ce risque [7]. Même en 2025, une partie des échanges de devises reste exposée [7]."
+          ],
+          plain: {
+            title: "le risque Herstatt, pas à pas",
+            steps: [
+              "Le matin, une banque allemande verse des marks à Herstatt à Francfort, en échange de dollars promis pour l'après-midi à New York.",
+              "À 15 h 30, Francfort ferme Herstatt [7]. New York vient à peine d'ouvrir.",
+              "Les dollars promis ne partent jamais : la banque allemande a payé, sans rien recevoir [7].",
+              "Leçon retenue : régler les deux côtés d'un échange en même temps, ce que fait CLS depuis 2002 [7]."
+            ]
+          }
+        },
+        {
+          title: "14 novembre 1979 : même à Londres, le dollar reste américain",
+          paragraphs: [
+            "Le 4 novembre 1979, des étudiants iraniens prennent en otage le personnel de l'ambassade américaine à Téhéran. Le 14 novembre, l'Iran annonce qu'il va retirer ses dépôts des banques américaines [8]. Le jour même, le président ==Jimmy Carter== signe un décret qui ==gèle les avoirs de l'État iranien== aux États-Unis [8].",
+            "La surprise vient de la portée du gel : il s'applique aussi aux dépôts en dollars détenus par ==les agences de banques américaines à l'étranger==, notamment à Londres [8]. Plus de 5,6 milliards de dollars de dépôts et de titres placés dans ces agences sont bloqués, sur un total gelé qui dépassera 12 milliards [8].",
+            "Pour le marché des eurodollars, c'est un choc : on croyait que des dollars placés à Londres échappaient à Washington. ==Le gel montre que l'argent en dollars reste à portée de la loi américaine dès qu'une banque américaine est dans la boucle.== C'est le début de l'usage moderne du dollar comme arme de sanction (voir le cours sur les sanctions). Les avoirs ne seront débloqués qu'avec les accords d'Alger de janvier 1981, qui libèrent les otages."
+          ]
+        },
+        {
+          title: "Le Libor : le taux le plus important du monde… et le plus truqué",
+          paragraphs: [
+            "Pour prêter des eurodollars entre elles, les banques de Londres avaient besoin d'un taux de référence. C'est le ==Libor== (London Interbank Offered Rate) : chaque jour, un panel de grandes banques indiquait à quel taux elles pensaient pouvoir emprunter, et l'on en faisait la moyenne. Pendant des décennies, des centaines de milliers de milliards de dollars de crédits, de prêts immobiliers et de produits financiers dans le monde ont été indexés sur ce taux.",
+            "En ==juin 2012==, le scandale éclate : la banque britannique ==Barclays== accepte de payer environ ==290 millions de livres== d'amendes aux autorités britanniques et américaines [9]. Les enquêtes montrent que, d'août 2007 au début de 2009, ses dirigeants ont demandé de déclarer des taux artificiellement bas, pour paraître en meilleure santé pendant la crise [9]. D'autres banques sont sanctionnées ensuite, et des traders condamnés.",
+            "Le problème de fond : le Libor reposait sur des ==déclarations==, pas sur des transactions réelles. Les autorités décident de le remplacer par des taux calculés à partir d'opérations vraies : le ==SOFR== aux États-Unis, le SONIA au Royaume-Uni [9]. Le ==30 juin 2023==, les derniers taux Libor en dollars cessent d'être publiés : après plus de cinquante ans, le taux du marché des eurodollars disparaît [9]."
+          ]
+        },
+        {
+          title: "Une frise pour retenir",
+          paragraphs: [
+            "==Années 1950== : les pays communistes placent leurs dollars à Paris et à Londres ; le mot « eurodollar » apparaît [1][6]. ==1969== : les banques américaines participent via les Bahamas [1]. ==1973-1974== : les pétrodollars gonflent le marché ; faillite Herstatt et naissance du Comité de Bâle [7].",
+            "==1979== : le gel des avoirs iraniens montre que les dollars de Londres restent à portée de Washington [8]. ==2007-2008== : pénurie de dollars, la Fed ouvre ses swap lines [4]. ==2012== : scandale du Libor [9]. ==2019== : environ 13 000 milliards de dollars de dettes en dollars des banques non américaines [3]. ==2020== : swap lines relancées avec le Covid [5]. ==2023== : fin du Libor [9].",
+            "Le fil rouge : ==un marché né pour échapper aux États-Unis, qui a fini par renforcer la puissance du dollar et rendre le monde entier dépendant de la Fed en cas de crise.=="
+          ]
         }
       ],
       forMe: "Si ta banque, ton entreprise ou ton pays a besoin de dollars, il dépend de ce marché mondial, et donc, en cas de crise, des décisions de la Fed. C'est pour ça qu'une crise bancaire américaine peut faire trembler les marchés européens ou asiatiques.",
@@ -811,7 +862,9 @@ window.GEOCO = {
         { value: "≈ 13 000 Md$", label: "les dettes en dollars des banques non américaines fin 2019", src: 3 },
         { value: "+ de 580 Md$", label: "les dollars prêtés par la Fed aux autres banques centrales en décembre 2008", src: 4 },
         { value: "14", label: "banques centrales reliées à la Fed par des swap lines en 2008", src: 4 },
-        { value: "449 Md$", label: "le pic d'utilisation des swap lines en mai 2020", src: 5 }
+        { value: "449 Md$", label: "le pic d'utilisation des swap lines en mai 2020", src: 5 },
+        { value: "26 juin 1974", label: "faillite de la banque Herstatt, qui donne son nom au risque de règlement", src: 7 },
+        { value: "30 juin 2023", label: "fin de la publication du Libor en dollars, le taux du marché des eurodollars", src: 9 }
       ],
       terms: ["monnaie-reserve", "banque-centrale", "taux-de-change", "politique-monetaire", "sanctions"],
       quiz: [
@@ -838,14 +891,21 @@ window.GEOCO = {
           options: ["À prêter des dollars aux autres banques centrales en cas de crise", "À échanger de l'or", "À fixer le prix du pétrole", "À imprimer des euros"],
           answer: 0,
           explain: "Seule la Fed peut créer des dollars : en 2008 et en 2020, elle en a prêté aux autres banques centrales pour qu'elles dépannent leurs banques."
-        }
+        },
+        { q: "D'où viendrait le mot « eurodollar » ?", options: ["De la monnaie européenne", "De l'adresse télex « EUROBANK » d'une banque soviétique à Paris", "D'un traité européen", "D'une banque américaine de Londres"], answer: 1, explain: "Les dollars déposés à la BCEN étaient appelés « dollars de l'Eurobank »." },
+        { q: "Qu'est-ce que le « risque Herstatt » ?", options: ["Le risque d'inflation", "Le risque d'avoir payé sa part d'un échange de devises sans recevoir celle de l'autre", "Le risque de guerre", "Le risque de hausse des taux"], answer: 1, explain: "Le 26 juin 1974, la banque Herstatt a fermé après avoir reçu des marks, sans livrer les dollars promis." },
+        { q: "Pourquoi le Libor a-t-il été abandonné ?", options: ["Il était trop compliqué", "Il reposait sur des déclarations des banques, qui ont été truquées", "Il était en euros", "La Fed l'a interdit en 1980"], answer: 1, explain: "Remplacé par des taux calculés sur des transactions réelles (SOFR, SONIA) ; fin le 30 juin 2023." }
       ],
       sources: [
         { short: "Fed de Boston", name: "Federal Reserve Bank of Boston, « Competition & Opportunity », Regional Review, 2001", url: "https://www.bostonfed.org/publications/regional-review/2001/quarter-3/competition-opportunity.aspx" },
         { short: "Fed de Richmond", name: "Federal Reserve Bank of Richmond, « Instruments of the Money Market », chapitre 5 : « Eurodollars »", url: "https://www.richmondfed.org/-/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_05.pdf" },
         { short: "BRI", name: "Banque des règlements internationaux, BIS Bulletin n° 27, « Global banks' dollar funding needs and central bank swap lines », 16 juillet 2020", url: "https://www.bis.org/publ/bisbull27.pdf" },
         { short: "Fed de New York", name: "Federal Reserve Bank of New York, « The Federal Reserve's Dollar Liquidity Swap Lines » (2010)", url: "https://www.newyorkfed.org/newsevents/news/research/2010/rp100813.html" },
-        { short: "BRI", name: "Banque des règlements internationaux, BIS Bulletin n° 34, « Central bank swap lines and cross-border bank flows », décembre 2020", url: "https://www.bis.org/publ/bisbull34.htm" }
+        { short: "BRI", name: "Banque des règlements internationaux, BIS Bulletin n° 34, « Central bank swap lines and cross-border bank flows », décembre 2020", url: "https://www.bis.org/publ/bisbull34.htm" },
+        { short: "Wikipédia", name: "« Eurodollar », Wikipédia (origine du nom : adresse télex de la BCEN ; premiers dépôts chinois et soviétiques)", url: "https://en.wikipedia.org/wiki/Eurodollar" },
+        { short: "BRI", name: "BRI, Rapport trimestriel, « Uncovering FX settlement risk: new measures from the 2025 BIS Triennial Survey » (rappel sur Herstatt, le Comité de Bâle et CLS), et Wikipédia, « Herstatt Bank »", url: "https://www.bis.org/publ/qtrpdf/r_qt2606c.htm" },
+        { short: "Brookings", name: "Brookings, « How the Iran hostage crisis shaped the US approach to sanctions », et CIA, « Economic sanctions and the Iran experience » (salle de lecture)", url: "https://www.brookings.edu/articles/how-the-iran-hostage-crisis-shaped-the-us-approach-to-sanctions" },
+        { short: "City AM", name: "City AM, « Libor: After more than 50 years, tainted benchmark is officially no more », juillet 2023, et Treasury & Risk, « Barclays settles Libor probes », juin 2012", url: "https://www.cityam.com/libor-after-more-than-50-years-tainted-benchmark-is-officially-no-more/" }
       ],
       visuals: [
         {
