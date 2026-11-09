@@ -1,0 +1,552 @@
+<title>Manuel Geonomix</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Mise en page « manuel » : une colonne de cours + une marge à droite pour les notes (repliée sous le texte sur téléphone).
+   Mêmes codes que l'appli Geonomix : fond nuit, titres à empattements, orange « éco » comme seul accent. */
+:root {
+  --bg: #0d0d0f; --page: #141417; --card: #1c1c20; --line: #2a2a30;
+  --fg: #ecebe8; --muted: #9a9aa3; --accent: #ff8a3d; --accent-soft: rgba(255,138,61,.12);
+  --def: #7c8cff; --def-soft: rgba(124,140,255,.12); --ok: #34d399; --bad: #f87171;
+  --serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --sans: "Inter", -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font: 16px/1.6 var(--sans); padding-block: 0 80px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.book { max-width: 1060px; margin: 0 auto; }
+h1, h2, h3 { font-family: var(--serif); text-wrap: balance; margin: 0; }
+p { margin: 0; }
+
+/* Couverture du cours */
+.cover { padding: 48px 0 28px; display: grid; gap: 18px; border-bottom: 1px solid var(--line); }
+.tag { display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; color: var(--muted); }
+.tag span { padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; }
+.tag .piste::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #22c55e; margin-right: 6px; }
+.cover h1 { font-size: clamp(34px, 6vw, 58px); line-height: 1.05; font-weight: 700; }
+.cover h1 em { font-style: normal; color: var(--accent); }
+.goals { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
+.goals div { background: var(--card); border-radius: 12px; padding: 12px 14px; font-size: 14px; display: flex; gap: 10px; }
+.goals b { font-family: var(--mono); color: var(--accent); font-size: 13px; }
+.goals-title { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+
+/* Sommaire collant */
+.toc { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(8px); display: flex; gap: 6px; overflow-x: auto; padding: 10px 0; border-bottom: 1px solid var(--line); scrollbar-width: none; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.toc a { flex: none; color: var(--muted); text-decoration: none; font-size: 13px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); }
+.toc a.on { color: var(--bg); background: var(--accent); border-color: var(--accent); }
+.toc a b { font-family: var(--mono); font-weight: 500; margin-right: 6px; }
+
+/* Chapitre : colonne + marge */
+.chap { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 18px 40px; padding: 48px 0 8px; scroll-margin-top: 60px; }
+.chap > header { grid-column: 1 / -1; display: grid; gap: 6px; }
+.chap .num { font-family: var(--mono); color: var(--accent); font-size: 14px; letter-spacing: .1em; }
+.chap h2 { font-size: clamp(28px, 4.4vw, 40px); line-height: 1.1; }
+.chap .lede { color: var(--muted); max-width: 62ch; }
+.main { display: grid; gap: 22px; min-width: 0; }
+.side { display: grid; gap: 14px; align-content: start; min-width: 0; }
+@media (max-width: 820px) { .chap { grid-template-columns: minmax(0, 1fr); } }
+
+/* Encadrés de manuel */
+.box { border-radius: 14px; padding: 16px 18px; display: grid; gap: 8px; }
+.box .lab { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; font-weight: 600; }
+.box h3 { font-size: 21px; }
+.def { background: var(--def-soft); border: 1px solid color-mix(in srgb, var(--def) 40%, transparent); }
+.def .lab { color: var(--def); }
+.formula { background: var(--card); border: 1px solid var(--line); }
+.formula .lab { color: var(--accent); }
+.formula .eq { font-family: var(--serif); font-size: clamp(20px, 3.4vw, 28px); text-align: center; padding: 10px 0; overflow-x: auto; }
+.frac { display: inline-grid; vertical-align: middle; text-align: center; margin: 0 4px; }
+.frac span:first-child { border-bottom: 1.5px solid var(--fg); padding: 0 6px 2px; }
+.frac span:last-child { padding-top: 2px; }
+.ex { background: var(--accent-soft); border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent); }
+.ex .lab { color: var(--accent); }
+.key { background: var(--card); border-left: 3px solid var(--accent); border-radius: 4px 14px 14px 4px; }
+.key .lab { color: var(--accent); }
+.note { font-size: 14px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 10px; display: grid; gap: 4px; }
+.note b { color: var(--fg); font-weight: 600; }
+.note .src { font-family: var(--mono); font-size: 11px; }
+ul.pts { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+ul.pts li { padding-left: 22px; position: relative; }
+ul.pts li::before { content: ""; position: absolute; left: 4px; top: .62em; width: 7px; height: 7px; border-radius: 2px; background: var(--accent); }
+sup { font-family: var(--mono); font-size: 10px; color: var(--muted); }
+mark { background: none; color: var(--accent); font-weight: 600; }
+
+/* Trois causes */
+.causes { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 10px; }
+.cause { background: var(--card); border-radius: 14px; padding: 16px; display: grid; gap: 6px; }
+.cause svg { width: 40px; height: 40px; }
+.cause h3 { font-size: 19px; }
+.cause p { font-size: 14px; color: var(--muted); }
+
+/* Figures */
+figure { margin: 0; background: var(--page); border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: grid; gap: 10px; min-width: 0; }
+figcaption { display: grid; gap: 2px; }
+figcaption b { font-family: var(--serif); font-size: 18px; }
+figcaption span { font-size: 13px; color: var(--muted); }
+.fig-src { font-size: 12px; color: var(--muted); font-family: var(--mono); }
+.chart { overflow-x: auto; }
+.chart svg { display: block; width: 100%; height: auto; min-width: 300px; }
+.chart text { font-family: var(--sans); font-size: 11px; fill: var(--muted); }
+.chart .v { fill: var(--fg); font-weight: 600; font-size: 12px; }
+.chart .grid { stroke: var(--line); }
+.chart .zero { stroke: var(--muted); }
+
+/* Frise */
+.frise { display: grid; gap: 0; }
+.ev { display: grid; grid-template-columns: 74px 18px minmax(0, 1fr); gap: 0 12px; }
+.ev .y { font-family: var(--mono); color: var(--accent); font-size: 14px; text-align: right; padding-top: 2px; }
+.ev .rail { position: relative; }
+.ev .rail::before { content: ""; position: absolute; left: 8px; top: 0; bottom: 0; width: 2px; background: var(--line); }
+.ev .rail::after { content: ""; position: absolute; left: 3px; top: 7px; width: 12px; height: 12px; border-radius: 50%; background: var(--bg); border: 2px solid var(--accent); }
+.ev .t { padding-bottom: 18px; display: grid; gap: 2px; }
+.ev .t b { font-family: var(--serif); font-size: 18px; }
+.ev .t span { font-size: 14px; color: var(--muted); }
+
+/* Chaîne de causes (schéma) */
+.chain { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; counter-reset: c; }
+.chain div { background: var(--card); border-radius: 12px; padding: 12px; font-size: 14px; position: relative; counter-increment: c; display: grid; gap: 4px; }
+.chain div::before { content: counter(c); font-family: var(--mono); color: var(--accent); font-size: 12px; }
+.chain div b { font-size: 15px; }
+
+/* Tableau gagnants / perdants */
+.tbl { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; min-width: 420px; font-size: 14px; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+td.w { color: var(--ok); font-weight: 600; white-space: nowrap; }
+td.l { color: var(--bad); font-weight: 600; white-space: nowrap; }
+td.m { color: var(--muted); font-weight: 600; white-space: nowrap; }
+
+/* Calculateur et exercices */
+.calc { display: grid; gap: 12px; }
+.row { display: grid; grid-template-columns: 110px minmax(0, 1fr) 64px; gap: 10px; align-items: center; font-size: 14px; }
+.row output { font-family: var(--mono); text-align: right; }
+input[type=range] { width: 100%; accent-color: var(--accent); }
+.result { font-family: var(--serif); font-size: 26px; }
+.result b { color: var(--accent); }
+.qcm { display: grid; gap: 10px; }
+.q { background: var(--card); border-radius: 12px; padding: 14px; display: grid; gap: 10px; }
+.q p { font-weight: 500; }
+.q .btns { display: flex; gap: 8px; flex-wrap: wrap; }
+button { font: inherit; cursor: pointer; }
+.q button { background: transparent; color: var(--fg); border: 1px solid var(--line); border-radius: 999px; padding: 6px 16px; }
+.q button:hover { border-color: var(--accent); }
+.q button:focus-visible, .toc a:focus-visible, .reveal-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.q .fb { font-size: 14px; color: var(--muted); }
+.q.good { box-shadow: inset 3px 0 0 var(--ok); }
+.q.wrong { box-shadow: inset 3px 0 0 var(--bad); }
+.reveal-btn { justify-self: start; background: var(--accent); color: var(--bg); border: 0; border-radius: 999px; padding: 8px 16px; font-weight: 600; }
+.answer { font-size: 15px; display: grid; gap: 6px; }
+
+.sources { padding-top: 48px; display: grid; gap: 10px; font-size: 13px; color: var(--muted); }
+.sources h2 { font-size: 24px; color: var(--fg); }
+.sources ol { margin: 0; padding-left: 22px; display: grid; gap: 6px; }
+.sources a { color: var(--muted); }
+.proto { margin-top: 18px; font-size: 13px; color: var(--muted); border: 1px dashed var(--line); border-radius: 12px; padding: 12px 14px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+html { scroll-behavior: smooth; }
+</style>
+
+<div class="book">
+
+  <section class="cover">
+    <div class="tag"><span>Cours · Économie</span><span class="piste">Piste verte</span><span>6 chapitres · ≈ 21 min</span></div>
+    <h1>L'inflation : pourquoi les prix montent, et comment on les <em>calme</em></h1>
+    <p class="goals-title">À la fin de ce cours, tu sauras</p>
+    <div class="goals">
+      <div><b>01</b>Calculer un taux d'inflation et ton inflation à toi</div>
+      <div><b>02</b>Distinguer les trois causes de l'inflation</div>
+      <div><b>03</b>Raconter cinq grands épisodes, de 1568 à 2022</div>
+      <div><b>04</b>Expliquer comment une hausse de taux freine les prix</div>
+    </div>
+  </section>
+
+  <nav class="toc" id="toc" aria-label="Sommaire">
+    <a href="#ch1"><b>1</b>Définir et mesurer</a>
+    <a href="#ch2"><b>2</b>Les causes</a>
+    <a href="#ch3"><b>3</b>L'histoire</a>
+    <a href="#ch4"><b>4</b>La banque centrale</a>
+    <a href="#ch5"><b>5</b>Qui gagne, qui perd</a>
+    <a href="#ch6"><b>6</b>S'entraîner</a>
+  </nav>
+
+  <!-- Chapitre 1 -->
+  <section class="chap" id="ch1">
+    <header><span class="num">CHAPITRE 1</span><h2>Définir et mesurer</h2><p class="lede">Avant de discuter des causes, il faut savoir ce qu'on compte, et comment.</p></header>
+    <div class="main">
+      <div class="box def">
+        <span class="lab">Définition</span>
+        <h3>Inflation</h3>
+        <p>Hausse <mark>générale</mark> et <mark>durable</mark> des prix. Générale : l'ensemble des prix, pas seulement l'essence. Durable : pas un pic d'une semaine. Avec le même billet, on achète moins.</p>
+      </div>
+
+      <div class="box formula">
+        <span class="lab">Formule</span>
+        <div class="eq">Inflation (%) = <span class="frac"><span>Prix du panier cette année − l'an dernier</span><span>Prix du panier l'an dernier</span></span> × 100</div>
+        <p style="font-size:14px;color:var(--muted)">Le « panier », c'est l'ensemble des achats d'un ménage moyen, chaque produit pesant selon sa place dans le budget.</p>
+      </div>
+
+      <div class="box ex">
+        <span class="lab">Exemple</span>
+        <p>Un panier coûte <b>100 €</b> en 2021 et <b>105,20 €</b> en 2022 : (105,20 − 100) ÷ 100 × 100 = <b>5,2 %</b>. C'est l'inflation mesurée en France en 2022<sup>[1]</sup>.</p>
+      </div>
+
+      <figure>
+        <figcaption><b>L'inflation en France depuis 2015</b><span>Hausse moyenne des prix à la consommation sur l'année, en %</span></figcaption>
+        <div class="chart" id="c-fr"></div>
+        <span class="fig-src">Source : Insee, indice des prix à la consommation [1]</span>
+      </figure>
+
+      <figure>
+        <figcaption><b>Calcule ton inflation à toi</b><span>Règle la part de ton budget et la hausse de chaque poste. Les valeurs de départ sont un exemple.</span></figcaption>
+        <div class="calc" id="calc"></div>
+      </figure>
+    </div>
+    <aside class="side">
+      <div class="note"><b>Qui mesure ?</b>En France, l'Insee, chaque mois, avec l'indice des prix à la consommation (IPC).<span class="src">[1]</span></div>
+      <div class="note"><b>Inflation sous-jacente</b>L'inflation sans les prix les plus volatils (énergie, produits frais). Elle montre si la hausse s'installe partout.</div>
+      <div class="note"><b>Mesurée ≠ ressentie</b>On remarque surtout les achats fréquents (pain, plein) et moins ce qui baisse (télés, téléphones).</div>
+    </aside>
+  </section>
+
+  <!-- Chapitre 2 -->
+  <section class="chap" id="ch2">
+    <header><span class="num">CHAPITRE 2</span><h2>Les trois causes, et un accélérateur</h2><p class="lede">Les économistes classent les causes en trois familles. Les anticipations peuvent ensuite tout emballer.</p></header>
+    <div class="main">
+      <div class="causes">
+        <div class="cause">
+          <svg viewBox="0 0 40 40" aria-hidden="true"><rect x="4" y="22" width="8" height="14" rx="2" fill="var(--accent)"/><rect x="16" y="14" width="8" height="22" rx="2" fill="var(--accent)" opacity=".7"/><rect x="28" y="6" width="8" height="30" rx="2" fill="var(--accent)" opacity=".45"/></svg>
+          <h3>Par les coûts</h3><p>Énergie, matières premières ou salaires montent ; les entreprises répercutent sur leurs prix.</p>
+        </div>
+        <div class="cause">
+          <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="14" cy="20" r="10" fill="none" stroke="var(--def)" stroke-width="3"/><circle cx="26" cy="20" r="10" fill="var(--def)" opacity=".5"/></svg>
+          <h3>Par la demande</h3><p>On veut acheter plus que ce que l'économie peut produire : les prix grimpent.</p>
+        </div>
+        <div class="cause">
+          <svg viewBox="0 0 40 40" aria-hidden="true"><rect x="6" y="10" width="28" height="18" rx="3" fill="none" stroke="var(--ok)" stroke-width="3"/><circle cx="20" cy="19" r="4" fill="var(--ok)"/><rect x="10" y="30" width="20" height="3" rx="1.5" fill="var(--ok)" opacity=".5"/></svg>
+          <h3>Par la monnaie</h3><p>Trop de monnaie en circulation pour la quantité de biens disponibles.</p>
+        </div>
+      </div>
+
+      <figure>
+        <figcaption><b>L'accélérateur : la spirale des anticipations</b><span>Quand tout le monde s'attend à une forte inflation, elle se réalise d'elle-même.</span></figcaption>
+        <div class="chart" id="c-spiral"></div>
+      </figure>
+
+      <div class="box key">
+        <span class="lab">À retenir</span>
+        <ul class="pts">
+          <li>En 2021-2022, les trois causes se sont cumulées : reprise après le Covid, chaînes d'approvisionnement désorganisées, guerre en Ukraine.</li>
+          <li>C'est pour casser la spirale que les banques centrales tiennent tant à leur <mark>crédibilité</mark>.</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <div class="note"><b>Friedman</b>« L'inflation est toujours et partout un phénomène monétaire. » Les keynésiens répondent que les coûts et la demande comptent aussi.</div>
+      <div class="note"><b>Boucle prix-salaires</b>Les prix montent, donc les salaires, donc les coûts, donc les prix. On la retrouve au chapitre 3, en France en 1982.</div>
+    </aside>
+  </section>
+
+  <!-- Chapitre 3 -->
+  <section class="chap" id="ch3">
+    <header><span class="num">CHAPITRE 3</span><h2>Cinq épisodes qui ont fait l'histoire</h2><p class="lede">L'inflation n'est pas une invention moderne. Chaque épisode a laissé une leçon.</p></header>
+    <div class="main">
+      <div class="frise">
+        <div class="ev"><span class="y">1568</span><span class="rail"></span><div class="t"><b>L'or d'Amérique</b><span>Jean Bodin explique la hausse des prix en Europe par l'afflux d'or et d'argent du Nouveau Monde : l'une des premières formulations de la théorie quantitative de la monnaie.<sup>[3]</sup></span></div></div>
+        <div class="ev"><span class="y">1923</span><span class="rail"></span><div class="t"><b>Les brouettes de billets</b><span>En novembre, un dollar vaut 4 200 milliards de marks. Le Rentenmark remplace l'ancien mark le 15 novembre.<sup>[4]</sup></span></div></div>
+        <div class="ev"><span class="y">1979</span><span class="rail"></span><div class="t"><b>Le choc Volcker</b><span>La Fed monte son taux jusqu'à 20 % vers 1980-1981. L'inflation recule, le chômage atteint 10,8 % fin 1982.<sup>[6]</sup></span></div></div>
+        <div class="ev"><span class="y">1982</span><span class="rail"></span><div class="t"><b>Le tournant français</b><span>Blocage des prix et des salaires en juin, puis désindexation : l'inflation passe de 12 % en 1982 à 3,1 % en 1988.<sup>[7]</sup></span></div></div>
+        <div class="ev"><span class="y">2008</span><span class="rail"></span><div class="t"><b>Le record du Zimbabwe</b><span>Mi-novembre, les prix auraient augmenté de 79,6 milliards de % en un mois, selon l'estimation de Steve Hanke.<sup>[5]</sup></span></div></div>
+      </div>
+
+      <figure>
+        <figcaption><b>Le prix d'une miche de pain à Berlin</b><span>En marks, échelle logarithmique : chaque trait horizontal = prix × 1 000</span></figcaption>
+        <div class="chart" id="c-pain"></div>
+        <span class="fig-src">Source : Wikipédia, « Hyperinflation in the Weimar Republic » [4]</span>
+      </figure>
+
+      <div class="box key">
+        <span class="lab">À retenir</span>
+        <ul class="pts">
+          <li>Les hyperinflations ont un point commun : <mark>un État qui finance ses dépenses en créant de la monnaie</mark>.</li>
+          <li>D'où l'indépendance des banques centrales dans la plupart des pays.</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <div class="note"><b>Hyperinflation</b>Plus de 50 % de hausse des prix par mois.</div>
+      <div class="note"><b>Stagflation</b>Inflation forte et chômage en même temps, comme dans les années 1970.</div>
+      <div class="note"><b>Avant Bodin</b>Martín de Azpilcueta avait fait le même lien une douzaine d'années plus tôt, à Salamanque.<span class="src">[3]</span></div>
+    </aside>
+  </section>
+
+  <!-- Chapitre 4 -->
+  <section class="chap" id="ch4">
+    <header><span class="num">CHAPITRE 4</span><h2>La banque centrale et ses taux</h2><p class="lede">Objectif 2 %, un outil principal, et quatre canaux pour agir sur les prix.</p></header>
+    <div class="main">
+      <div class="box def">
+        <span class="lab">Définition</span>
+        <h3>Taux directeur</h3>
+        <p>Le taux auquel les banques se refinancent auprès de la banque centrale ou y déposent leur argent. Il se transmet ensuite à tous les crédits de l'économie.</p>
+      </div>
+
+      <figure>
+        <figcaption><b>Le taux de dépôt de la BCE</b><span>En %, après chaque grande étape</span></figcaption>
+        <div class="chart" id="c-bce"></div>
+        <span class="fig-src">Sources : BCE [2][10]</span>
+      </figure>
+
+      <p style="font-weight:600">Comment une hausse de taux freine les prix :</p>
+      <div class="chain">
+        <div><b>La BCE monte ses taux</b>Juillet 2022, puis jusqu'à 4 % en septembre 2023.</div>
+        <div><b>Le crédit coûte plus cher</b>Immobilier, voiture, investissements des entreprises.</div>
+        <div><b>La demande ralentit</b>On achète et on investit moins ; l'épargne rapporte plus.</div>
+        <div><b>Les prix ralentissent</b>5,2 % en 2022, 2 % en 2024 en France.<sup>[1]</sup></div>
+      </div>
+
+      <div class="box ex">
+        <span class="lab">Pourquoi 2 % et pas 0 % ?</span>
+        <ul class="pts">
+          <li>La <mark>déflation</mark> est dangereuse : on reporte ses achats, les entreprises vendent moins, les dettes pèsent plus lourd.</li>
+          <li>Une petite inflation laisse de la marge pour baisser les taux en cas de crise.</li>
+          <li>Le chiffre vient de la Nouvelle-Zélande, premier pays à fixer un objectif chiffré, en 1990.<sup>[9]</sup></li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <div class="note"><b>Juin 2014</b>Pour la première fois, la BCE passe son taux de dépôt sous zéro : −0,10 %.<span class="src">[10]</span></div>
+      <div class="note"><b>Délai</b>Il faut souvent un à deux ans pour qu'une hausse de taux produise tout son effet sur les prix.</div>
+      <div class="note"><b>« Whatever it takes »</b>En 2012, Mario Draghi promet de faire « tout ce qu'il faudra » pour l'euro : la parole aussi est un outil.</div>
+    </aside>
+  </section>
+
+  <!-- Chapitre 5 -->
+  <section class="chap" id="ch5">
+    <header><span class="num">CHAPITRE 5</span><h2>Qui gagne, qui perd ?</h2><p class="lede">L'inflation est une bataille de partage : chacun cherche à ne pas être celui qui paie.</p></header>
+    <div class="main">
+      <figure>
+        <figcaption><b>D'où vient la hausse des prix dans la zone euro ?</b><span>Part de chaque composante, du début 2022 au début 2023</span></figcaption>
+        <div class="chart" id="c-fmi"></div>
+        <span class="fig-src">Source : FMI, document de travail 23/131 [11]</span>
+      </figure>
+
+      <div class="tbl">
+        <table>
+          <thead><tr><th>Qui ?</th><th>Effet</th><th>Pourquoi</th></tr></thead>
+          <tbody>
+            <tr><td>Emprunteur à taux fixe</td><td class="w">Gagne</td><td>Sa mensualité ne bouge pas, son salaire finit par monter.</td></tr>
+            <tr><td>Épargnant</td><td class="l">Perd</td><td>Si son argent rapporte moins que l'inflation.</td></tr>
+            <tr><td>Ménage modeste</td><td class="l">Perd</td><td>Alimentation et énergie pèsent plus lourd dans son budget.</td></tr>
+            <tr><td>État</td><td class="m">Mitigé</td><td>Recettes de TVA en hausse, dette ancienne allégée, mais emprunts plus chers.</td></tr>
+            <tr><td>Entreprise</td><td class="m">Ça dépend</td><td>Gagne si elle peut monter ses prix, souffre sinon.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="box def">
+        <span class="lab">Définition</span>
+        <h3>Réduflation</h3>
+        <p>Réduire la quantité d'un produit en gardant le même prix. Depuis le 1er juillet 2024, les magasins français doivent la signaler pendant deux mois.<sup>[12]</sup> Le réflexe : regarder le <mark>prix au kilo</mark>.</p>
+      </div>
+    </div>
+    <aside class="side">
+      <div class="note"><b>Prudence</b>Les auteurs du FMI rappellent qu'une hausse des profits en euros n'est pas forcément une hausse de rentabilité.<span class="src">[11]</span></div>
+      <div class="note"><b>Contrôle</b>Quelques mois après l'arrêté, UFC-Que Choisir ne trouve aucun affichage dans 95 % des magasins visités.<span class="src">[12]</span></div>
+    </aside>
+  </section>
+
+  <!-- Chapitre 6 -->
+  <section class="chap" id="ch6">
+    <header><span class="num">CHAPITRE 6</span><h2>S'entraîner</h2><p class="lede">Un exercice corrigé, puis cinq affirmations : vrai ou faux ?</p></header>
+    <div class="main">
+      <div class="box formula">
+        <span class="lab">Exercice corrigé</span>
+        <p>Ton livret rapporte <b>3 %</b> par an. L'inflation est de <b>5 %</b>. As-tu gagné ou perdu du pouvoir d'achat ?</p>
+        <button class="reveal-btn" type="button" id="rev">Voir la correction</button>
+        <div class="answer" id="ans" hidden>
+          <p>On calcule le <mark>taux réel</mark> : taux nominal − inflation ≈ 3 % − 5 % = <b>−2 %</b>.</p>
+          <p>Ton argent a augmenté en euros, mais il achète environ 2 % de moins qu'il y a un an : tu as perdu du pouvoir d'achat.</p>
+        </div>
+      </div>
+      <div class="qcm" id="qcm"></div>
+    </div>
+    <aside class="side">
+      <div class="note"><b>Taux réel</b>Taux d'intérêt affiché moins l'inflation. C'est lui qui dit si l'on s'enrichit vraiment.</div>
+      <div class="note"><b>Les mots du cours</b>Inflation · IPC · inflation sous-jacente · anticipations · hyperinflation · stagflation · taux directeur · déflation · taux réel · réduflation</div>
+    </aside>
+  </section>
+
+  <section class="sources">
+    <h2>Sources</h2>
+    <ol>
+      <li><a href="https://www.insee.fr" target="_blank" rel="noopener">Insee, indice des prix à la consommation</a></li>
+      <li><a href="https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html" target="_blank" rel="noopener">BCE, taux directeurs</a></li>
+      <li><a href="https://bodinproject.hsites.harvard.edu/biography-bodin-page-2" target="_blank" rel="noopener">The Bodin Project, Harvard University</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic" target="_blank" rel="noopener">Wikipédia, « Hyperinflation in the Weimar Republic »</a></li>
+      <li><a href="https://clips.cato.org/sites/default/files/Hanke_bulawayo_inflation.pdf" target="_blank" rel="noopener">Steve H. Hanke, Cato Institute</a></li>
+      <li><a href="https://www.federalreservehistory.org/essays/anti-inflation-measures" target="_blank" rel="noopener">Federal Reserve History, « Volcker's Announcement of Anti-Inflation Measures »</a></li>
+      <li><a href="https://www.universalis.fr/encyclopedie/france-le-territoire-et-les-hommes-un-siecle-de-politique-economique/4-le-revirement-des-annees-1980-et-ses-suites/" target="_blank" rel="noopener">Encyclopædia Universalis, le revirement des années 1980</a></li>
+      <li><a href="https://major-prepa.com/economie/annees-1980-europe-chomage-franc-fort-politique-economique-francaise/" target="_blank" rel="noopener">Major Prépa, les années 1980</a></li>
+      <li><a href="https://www.bis.org/review/r180417a.pdf" target="_blank" rel="noopener">BRI, 30 ans de ciblage d'inflation en Nouvelle-Zélande</a></li>
+      <li><a href="https://www.ecb.europa.eu/press/pr/date/2014/html/pr140605_3.fr.html" target="_blank" rel="noopener">BCE, communiqué du 5 juin 2014</a></li>
+      <li><a href="https://www.imf.org/en/publications/wp/issues/2023/06/23/euro-area-inflation-after-the-pandemic-and-energy-shock-import-prices-profits-and-wages-534837" target="_blank" rel="noopener">FMI, document de travail 23/131</a></li>
+      <li><a href="https://www.info.gouv.fr/actualite/la-reduflation-encadree-a-partir-du-1er-juillet" target="_blank" rel="noopener">info.gouv.fr, la réduflation encadrée</a></li>
+    </ol>
+    <p class="proto">Essai de mise en page « manuel » pour Geonomix, sur le cours Inflation. Même contenu et mêmes sources que le cours de l'appli, présentés en chapitres, encadrés, graphiques et exercices.</p>
+  </section>
+</div>
+
+<script>
+(() => {
+  const NS = "http://www.w3.org/2000/svg";
+  const fr = (v, d = 1) => v.toLocaleString("fr-FR", { maximumFractionDigits: d });
+  const css = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+
+  // Barres verticales (valeurs positives ou négatives), une seule échelle.
+  function bars(el, data, opt = {}) {
+    const W = 640, H = opt.h || 240, m = { t: 22, r: 10, b: 28, l: 34 };
+    const vals = data.map((d) => d[1]);
+    const lo = Math.min(0, ...vals), hi = Math.max(...vals);
+    const step = opt.step || 1, top = Math.ceil(hi / step) * step, bot = Math.floor(lo / step) * step;
+    const y = (v) => m.t + (top - v) / (top - bot) * (H - m.t - m.b);
+    const bw = (W - m.l - m.r) / data.length;
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${opt.label || ""}">`;
+    for (let v = bot; v <= top + 1e-9; v += step) s += `<line class="${v === 0 ? "zero" : "grid"}" x1="${m.l}" x2="${W - m.r}" y1="${y(v)}" y2="${y(v)}"/><text x="${m.l - 6}" y="${y(v) + 4}" text-anchor="end">${fr(v)}</text>`;
+    data.forEach(([k, v], i) => {
+      const x = m.l + i * bw + bw * 0.18, w = bw * 0.64, y0 = y(Math.max(0, v)), h = Math.abs(y(v) - y(0));
+      const hot = opt.hot && opt.hot.includes(k);
+      s += `<rect x="${x}" y="${y0}" width="${w}" height="${Math.max(1, h)}" rx="3" fill="${hot ? css("--accent") : css("--def")}" opacity="${hot ? 1 : 0.55}"/>`;
+      s += `<text x="${x + w / 2}" y="${H - 8}" text-anchor="middle">${k}</text>`;
+      if (hot || opt.all) s += `<text class="v" x="${x + w / 2}" y="${(v >= 0 ? y0 : y(v)) + (v >= 0 ? -6 : 14)}" text-anchor="middle">${fr(v)}${opt.unit || ""}</text>`;
+    });
+    el.innerHTML = s + "</svg>";
+  }
+
+  bars(document.getElementById("c-fr"), [["2015", 0], ["2016", 0.2], ["2017", 1], ["2018", 1.8], ["2019", 1.1], ["2020", 0.5], ["2021", 1.6], ["2022", 5.2], ["2023", 4.9], ["2024", 2]], { step: 1, hot: ["2022", "2023"], label: "Inflation en France de 2015 à 2024", unit: " %" });
+
+  // Taux de la BCE en escalier.
+  (function () {
+    const pts = [["Juin 2014", -0.1], ["Mars 2016", -0.4], ["Sept. 2019", -0.5], ["Juil. 2022", 0], ["Sept. 2023", 4]];
+    const W = 640, H = 240, m = { t: 22, r: 20, b: 28, l: 34 };
+    const top = 4, bot = -1, y = (v) => m.t + (top - v) / (top - bot) * (H - m.t - m.b);
+    const x = (i) => m.l + 20 + i * (W - m.l - m.r - 40) / (pts.length - 1);
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Taux de dépôt de la BCE de 2014 à 2023">`;
+    for (let v = bot; v <= top; v++) s += `<line class="${v === 0 ? "zero" : "grid"}" x1="${m.l}" x2="${W - m.r}" y1="${y(v)}" y2="${y(v)}"/><text x="${m.l - 6}" y="${y(v) + 4}" text-anchor="end">${v}</text>`;
+    let d = `M${x(0)},${y(pts[0][1])}`;
+    pts.forEach((p, i) => { if (i) d += ` H${x(i)} V${y(p[1])}`; });
+    s += `<path d="${d}" fill="none" stroke="${css("--accent")}" stroke-width="3" stroke-linejoin="round"/>`;
+    pts.forEach((p, i) => {
+      s += `<circle cx="${x(i)}" cy="${y(p[1])}" r="5" fill="${css("--accent")}"/>`;
+      s += `<text class="v" x="${x(i)}" y="${y(p[1]) + (p[1] > 1 ? 20 : -10)}" text-anchor="middle">${fr(p[1], 2)} %</text>`;
+      s += `<text x="${x(i)}" y="${H - 8}" text-anchor="middle">${p[0]}</text>`;
+    });
+    document.getElementById("c-bce").innerHTML = s + "</svg>";
+  })();
+
+  // Pain à Berlin, échelle logarithmique.
+  (function () {
+    const W = 640, H = 220, m = { t: 20, r: 20, b: 30, l: 120 };
+    const rows = [["Fin 1922", 160], ["Fin 1923", 200e9]];
+    const lmax = 12, x = (v) => m.l + (Math.log10(v) / lmax) * (W - m.l - m.r);
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Prix du pain à Berlin, 160 marks fin 1922, 200 milliards fin 1923">`;
+    [1, 1e3, 1e6, 1e9, 1e12].forEach((v, i) => { s += `<line class="grid" x1="${x(v)}" x2="${x(v)}" y1="${m.t}" y2="${H - m.b}"/><text x="${x(v)}" y="${H - 10}" text-anchor="middle">${["1", "1 000", "1 million", "1 milliard", "1 000 Md"][i]}</text>`; });
+    rows.forEach(([k, v], i) => {
+      const yy = m.t + 18 + i * 70;
+      s += `<text x="${m.l - 10}" y="${yy + 22}" text-anchor="end" class="v">${k}</text>`;
+      s += `<rect x="${m.l}" y="${yy}" width="${x(v) - m.l}" height="34" rx="4" fill="${i ? css("--accent") : css("--def")}"/>`;
+      s += `<text class="v" x="${Math.min(x(v) + 8, W - 150)}" y="${yy + 22}" ${x(v) > W - 160 ? 'text-anchor="end" style="fill:var(--bg)"' : ""}>${i ? "200 milliards de marks" : "160 marks"}</text>`;
+    });
+    document.getElementById("c-pain").innerHTML = s + "</svg>";
+  })();
+
+  // Décomposition FMI : barre empilée.
+  (function () {
+    const parts = [["Profits des entreprises", 45, "--accent"], ["Prix des importations (énergie…)", 40, "--def"], ["Autres (salaires, impôts…)", 15, "--muted"]];
+    const W = 640, H = 150, m = { l: 0, r: 0 };
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Profits 45 %, importations 40 %, autres 15 %">`, x = 0;
+    parts.forEach(([k, v, c], i) => {
+      const w = v / 100 * W;
+      s += `<rect x="${x}" y="10" width="${w - 3}" height="46" rx="4" fill="${css(c)}" opacity="${i === 2 ? 0.5 : 1}"/>`;
+      s += `<text class="v" x="${x + 10}" y="40" style="fill:var(--bg);font-size:16px">${v} %</text>`;
+      s += `<rect x="${i * 215}" y="84" width="12" height="12" rx="3" fill="${css(c)}" opacity="${i === 2 ? 0.5 : 1}"/><text x="${i * 215 + 18}" y="94">${k}</text>`;
+      x += w;
+    });
+    s += `<text x="0" y="132">Les « autres » regroupent ce qui reste (≈ 15 %), dont les salaires.</text>`;
+    document.getElementById("c-fmi").innerHTML = s + "</svg>";
+  })();
+
+  // Spirale des anticipations : cycle de 4 étapes.
+  (function () {
+    const W = 640, H = 300, cx = 320, cy = 150, r = 105;
+    const steps = ["On s'attend à 10 % d'inflation", "Les salariés demandent +10 %", "Les entreprises montent leurs prix", "Les prix montent de 10 %"];
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Cycle : anticipations, salaires, prix, inflation"><defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="${css("--accent")}"/></marker></defs>`;
+    s += `<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${css("--line")}" stroke-width="2"/>`;
+    const ang = [-90, 0, 90, 180];
+    ang.forEach((a, i) => {
+      const a1 = (a + 22) * Math.PI / 180, a2 = (a + 68) * Math.PI / 180;
+      s += `<path d="M${cx + r * Math.cos(a1)},${cy + r * Math.sin(a1)} A${r},${r} 0 0 1 ${cx + r * Math.cos(a2)},${cy + r * Math.sin(a2)}" fill="none" stroke="${css("--accent")}" stroke-width="3" marker-end="url(#ar)"/>`;
+      const px = cx + r * Math.cos(a * Math.PI / 180), py = cy + r * Math.sin(a * Math.PI / 180);
+      s += `<circle cx="${px}" cy="${py}" r="16" fill="${css("--card")}" stroke="${css("--accent")}" stroke-width="2"/><text class="v" x="${px}" y="${py + 4}" text-anchor="middle">${i + 1}</text>`;
+      const tx = i === 1 ? px + 26 : i === 3 ? px - 26 : px, ty = i === 0 ? py - 26 : i === 2 ? py + 34 : py + 4, an = i === 1 ? "start" : i === 3 ? "end" : "middle";
+      s += `<text class="v" x="${tx}" y="${ty}" text-anchor="${an}">${steps[i]}</text>`;
+    });
+    s += `<text x="${cx}" y="${cy + 4}" text-anchor="middle" style="font-size:13px">la prévision</text><text x="${cx}" y="${cy + 20}" text-anchor="middle" style="font-size:13px">se réalise</text>`;
+    document.getElementById("c-spiral").innerHTML = s + "</svg>";
+  })();
+
+  // Calculateur d'inflation personnelle (exemple de départ, modifiable).
+  (function () {
+    const el = document.getElementById("calc");
+    const posts = [["Logement", 35, 3], ["Courses", 20, 8], ["Transport", 15, 10], ["Énergie", 10, 15], ["Le reste", 20, 2]];
+    el.innerHTML = posts.map(([k, w, p], i) => `
+      <div class="row"><label for="w${i}">${k} · part</label><input type="range" id="w${i}" min="0" max="60" value="${w}"><output id="ow${i}">${w} %</output></div>
+      <div class="row"><label for="p${i}">${k} · hausse</label><input type="range" id="p${i}" min="-5" max="30" value="${p}"><output id="op${i}">${p} %</output></div>`).join("") + `<p class="result" id="res"></p><p style="font-size:13px;color:var(--muted)" id="resx"></p>`;
+    const upd = () => {
+      let tw = 0, tot = 0;
+      posts.forEach((_, i) => {
+        const w = +document.getElementById("w" + i).value, p = +document.getElementById("p" + i).value;
+        document.getElementById("ow" + i).textContent = w + " %"; document.getElementById("op" + i).textContent = p + " %";
+        tw += w; tot += w * p;
+      });
+      const r = tw ? tot / tw : 0;
+      document.getElementById("res").innerHTML = `Ton inflation : <b>${fr(r)} %</b>`;
+      document.getElementById("resx").textContent = `Moyenne des hausses pondérée par la part de chaque poste (total des parts : ${tw} %, ramené à 100 %).`;
+    };
+    el.addEventListener("input", upd); upd();
+  })();
+
+  // Vrai ou faux.
+  (function () {
+    const qs = [
+      ["Une inflation de 0 % est l'objectif idéal de la BCE.", false, "Faux : l'objectif est 2 %. La déflation est dangereuse."],
+      ["Monter les taux rend le crédit plus cher et ralentit la demande.", true, "Vrai : c'est le canal principal, avec l'épargne, la monnaie et les anticipations."],
+      ["En novembre 1923, un dollar valait environ 4 200 milliards de marks.", true, "Vrai : l'ancien mark a été remplacé le 15 novembre par le Rentenmark."],
+      ["Un emprunteur à taux fixe perd toujours avec l'inflation.", false, "Faux : sa mensualité ne bouge pas pendant que les salaires finissent par monter."],
+      ["Selon le FMI, les profits expliquent environ 45 % de la hausse des prix dans la zone euro début 2022 - début 2023.", true, "Vrai, et les importations environ 40 %. Les auteurs restent prudents sur l'interprétation."]
+    ];
+    const el = document.getElementById("qcm");
+    el.innerHTML = qs.map(([q], i) => `<div class="q" id="q${i}"><p>${q}</p><div class="btns"><button type="button" data-q="${i}" data-a="1">Vrai</button><button type="button" data-q="${i}" data-a="0">Faux</button></div><p class="fb" id="fb${i}" hidden></p></div>`).join("");
+    el.addEventListener("click", (e) => {
+      const b = e.target.closest("button[data-q]"); if (!b) return;
+      const i = +b.dataset.q, ok = (b.dataset.a === "1") === qs[i][1];
+      const box = document.getElementById("q" + i); box.classList.remove("good", "wrong"); box.classList.add(ok ? "good" : "wrong");
+      const fb = document.getElementById("fb" + i); fb.hidden = false; fb.textContent = (ok ? "Bien vu. " : "Pas tout à fait. ") + qs[i][2];
+    });
+  })();
+
+  document.getElementById("rev").addEventListener("click", (e) => { const a = document.getElementById("ans"); a.hidden = !a.hidden; e.target.textContent = a.hidden ? "Voir la correction" : "Masquer la correction"; });
+
+  // Sommaire : chapitre en cours surligné.
+  const links = [...document.querySelectorAll("#toc a")];
+  const onScroll = () => {
+    let cur = links[0];
+    links.forEach((a) => { const s = document.querySelector(a.getAttribute("href")); if (s.getBoundingClientRect().top < 140) cur = a; });
+    links.forEach((a) => a.classList.toggle("on", a === cur));
+  };
+  addEventListener("scroll", onScroll, { passive: true }); onScroll();
+})();
+</script>
