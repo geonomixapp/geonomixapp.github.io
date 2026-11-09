@@ -1734,20 +1734,7 @@ section.flash { animation: partFlash 1.6s ease-out; }
 .cmp-home { background: none; border: 0; color: #7c8cff; font: inherit; cursor: pointer; }
 @media (max-width: 560px) { .cmp-card { padding: 10px; } .cmp-card b { font-size: 21px; } .cmp-card span { font-size: 12px; } }
 
-/* Difficulté des cours : pistes de ski */
-.piste { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
-.piste i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
-.piste-verte i { background: #22c55e; }
-.piste-bleue i { background: #3b82f6; }
-.piste-rouge i { background: #ef4444; }
-.piste-noire i { background: #0b0b0b; box-shadow: 0 0 0 1.5px #fff; transform: rotate(45deg); border-radius: 1px; }
-.piste-note { font-size: 14px; opacity: .8; margin-top: 6px; }
-
-/* Difficulté des cours : pistes de ski */
-.piste { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
-.piste i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
-.piste-verte i { background: #22c55e; }
-.piste-bleue i { background: #3b82f6; }
-.piste-rouge i { background: #ef4444; }
-.piste-noire i { background: #0b0b0b; box-shadow: 0 0 0 1.5px #fff; transform: rotate(45deg); border-radius: 1px; }
+/* Difficulté des cours : étoiles (plus il y en a, plus c'est dur) */
+.stars { color: #fbbf24; letter-spacing: 1px; white-space: nowrap; }
+.stars i { font-style: normal; color: currentColor; opacity: .25; }
 .piste-note { font-size: 14px; opacity: .8; margin-top: 6px; }

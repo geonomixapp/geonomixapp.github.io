@@ -12,7 +12,7 @@ window.GEOCO = {
       title: "Inflation : pourquoi les prix montent et comment on les calme",
       hook: "Ton panier de courses a pris 20 % en quelques années ? De l'or d'Amérique qui affole les prix au XVIe siècle aux brouettes de billets de 1923, du choc Volcker à la BCE de 2022, voici l'histoire et la mécanique de l'inflation, avec les débats qui divisent encore les économistes.",
       minutes: 21,
-      piste: "verte",
+      etoiles: 1,
       tldr: [
         "L'inflation, c'est la hausse générale et durable des prix : avec le même billet, on achète moins. En 2022, elle a dépassé 5 % en France, du jamais vu depuis le milieu des années 1980 [1].",
         "L'idée qu'un afflux de monnaie fait monter les prix date au moins de 1568, quand Jean Bodin explique la hausse des prix en Europe par l'or et l'argent venus d'Amérique [3].",
@@ -198,7 +198,7 @@ window.GEOCO = {
       title: "Le modèle IS-LM : ce que peuvent l'État et la banque centrale",
       hook: "Une crise frappe. L'État doit-il dépenser plus ? La banque centrale doit-elle baisser ses taux ? Deux courbes suffisent pour comprendre ce qui se passe, et pourquoi ça ne marche pas toujours.",
       minutes: 31,
-      piste: "noire",
+      etoiles: 4,
       tldr: [
         "Le modèle IS-LM résume l'économie à court terme avec deux grandeurs seulement : la production (Y) et le taux d'intérêt (i) [1].",
         "La courbe IS montre l'équilibre du marché des biens, la courbe LM celui du marché de la monnaie ; l'économie se place là où elles se croisent.",
@@ -556,7 +556,7 @@ window.GEOCO = {
       title: "Les grandes écoles économiques : classiques, keynésiens, monétaristes…",
       hook: "Face à une crise, deux économistes peuvent donner deux conseils opposés. Pas parce que l'un se trompe, mais parce qu'ils ne regardent pas l'économie avec les mêmes lunettes. Voici les grandes écoles, leur idée centrale et l'époque qui les a fait gagner.",
       minutes: 18,
-      piste: "rouge",
+      etoiles: 3,
       tldr: [
         "Les classiques et les néoclassiques font confiance aux marchés : laissés libres, ils retrouvent l'équilibre, et l'État doit rester discret [1][2].",
         "Keynes répond à la crise des années 1930 : la demande peut rester trop faible, le chômage durer, et l'État doit relancer [3].",
@@ -797,7 +797,7 @@ window.GEOCO = {
       title: "Les eurodollars : ces dollars qui vivent hors des États-Unis",
       hook: "Des milliers de milliards de dollars circulent dans des banques à Londres, Tokyo ou Singapour, loin du contrôle de la Fed. Ils sont nés de la guerre froide, et à chaque grande crise, c'est la Fed qui doit venir les sauver.",
       minutes: 15,
-      piste: "rouge",
+      etoiles: 3,
       tldr: [
         "Un eurodollar, c'est simplement un dollar déposé dans une banque hors des États-Unis. Rien à voir avec l'euro : le mot est né bien avant [1][2].",
         "Le marché est né au milieu des années 1950, quand des banques soviétiques ont placé leurs dollars à Londres et à Paris de peur qu'ils soient saisis aux États-Unis [1].",
@@ -994,7 +994,7 @@ window.GEOCO = {
       title: "L'ascenseur social : ce que disent les données",
       hook: "Gagner plus que ses parents : c'était presque garanti pour un Américain né en 1940, c'est une chance sur deux pour ceux nés dans les années 1980. Pourquoi ? Et qu'est-ce qui aide vraiment un enfant à monter : la ville, le quartier, les amis, l'école, l'université ? Un long cours inspiré des travaux de l'économiste de Harvard Raj Chetty, avec un détour par la France.",
       minutes: 26,
-      piste: "verte",
+      etoiles: 1,
       tldr: [
         "Aux États-Unis, environ 90 % des enfants nés en 1940 ont fini par gagner plus que leurs parents ; pour ceux nés dans les années 1980, c'est à peu près 50 % [1][2].",
         "Les chances changent énormément d'une ville à l'autre : un enfant pauvre a 4,4 % de chances d'atteindre le cinquième le plus riche à Charlotte, 12,9 % à San José [7].",
@@ -1213,7 +1213,7 @@ window.GEOCO = {
       title: "Ce que l'argent ne devrait pas acheter : la morale des marchés",
       hook: "Une amende pour les parents en retard qui les fait… arriver plus tard. Une compensation qui fait refuser un projet qu'on acceptait gratuitement. Un droit de polluer qu'on achète en Bourse. Un rein qu'on peut vendre légalement en Iran. Jusqu'où le marché doit-il aller ? Un long cours pour penser, avec des faits et des expériences réelles.",
       minutes: 23,
-      piste: "bleue",
+      etoiles: 2,
       tldr: [
         "Les économistes jugent un marché d'abord à son efficacité ; le philosophe de Harvard Michael Sandel pose deux autres questions : est-ce juste (équité), et l'argent change-t-il la nature de ce qu'on échange (corruption) ?",
         "Des expériences réelles montrent qu'un prix peut chasser la motivation morale : dans des crèches israéliennes, une amende a fait augmenter les retards [1] ; en Suisse, offrir une compensation a fait chuter l'acceptation d'un site de déchets nucléaires d'environ la moitié à environ un quart des habitants [10][11].",
@@ -1421,7 +1421,7 @@ window.GEOCO = {
       title: "À quoi sert l'État ? Impôts, biens publics et pollution",
       hook: "La France prélève plus de 42 % de sa richesse en impôts et cotisations et dépense 57 % de son PIB par ses administrations. Pour faire quoi ? Quand le marché se débrouille-t-il seul, et quand faut-il l'État ? Qui paie vraiment un impôt, pourquoi on fraude peu au Danemark, et quelles dépenses se remboursent d'elles-mêmes ? Les grandes idées de l'économie publique, avec des exemples concrets.",
       minutes: 23,
-      piste: "bleue",
+      etoiles: 2,
       tldr: [
         "En 2024, impôts et cotisations représentent 42,8 % du PIB en France selon l'Insee ; selon la méthode européenne, la France est 2e de l'UE, juste derrière le Danemark [1][2]. Les dépenses publiques atteignent 57 % du PIB, dont 41 % vont à la protection sociale (hors santé) [4].",
         "L'État intervient d'abord quand le marché échoue : biens publics que personne ne paierait seul, pollution dont personne ne paie le coût, risques que les assureurs privés couvrent mal à cause de l'information cachée [5][6].",
@@ -1633,7 +1633,7 @@ window.GEOCO = {
       title: "Droits de douane : à quoi ça sert, et qui paie vraiment ?",
       hook: "Les États-Unis taxent les produits étrangers, l'Europe taxe les voitures chinoises. Officiellement, c'est pour protéger. Mais au bout de la chaîne, c'est souvent toi qui paies.",
       minutes: 19,
-      piste: "verte",
+      etoiles: 1,
       tldr: [
         "Un droit de douane est une taxe sur un produit importé, payée quand il passe la frontière.",
         "Il sert à protéger les entreprises locales, à rapporter de l'argent à l'État et à faire pression sur un autre pays.",
@@ -1835,7 +1835,7 @@ window.GEOCO = {
       title: "Ormuz, Suez, Malacca : ces passages étroits qui tiennent l'économie mondiale",
       hook: "Une boîte en métal inventée en 1956, un canal fermé huit ans avec quinze navires piégés dedans, un porte-conteneurs coincé en travers pendant six jours, une sécheresse qui bloque des bateaux au Panama : quelques dizaines de kilomètres de mer suffisent à faire bondir les prix dans le monde entier. Voici pourquoi.",
       minutes: 15,
-      piste: "verte",
+      etoiles: 1,
       tldr: [
         "Environ 80 % des marchandises échangées dans le monde voyagent par bateau [1], grâce à une invention simple : le conteneur, dont le premier voyage date du 26 avril 1956 [7].",
         "Beaucoup de navires doivent passer par quelques détroits et canaux très étroits : Ormuz, Bab-el-Mandeb, Suez, Malacca, Panama. Environ un cinquième du pétrole mondial passait par Ormuz avant la crise de 2026 [2].",
@@ -1988,7 +1988,7 @@ window.GEOCO = {
       title: "Puces électroniques : pourquoi Taïwan est au cœur du monde",
       hook: "Ton téléphone, ta voiture et l'intelligence artificielle dépendent de minuscules puces fabriquées en grande partie sur une seule île. Comment un objet inventé en 1947 est devenu l'enjeu d'une rivalité entre les États-Unis et la Chine, pourquoi le Japon a perdu sa place, et pourquoi on parle de « bouclier de silicium » ?",
       minutes: 14,
-      piste: "bleue",
+      etoiles: 2,
       tldr: [
         "Les semi-conducteurs (ou puces) sont le « cerveau » de presque tous les objets électroniques. Le premier microprocesseur, l'Intel 4004 de 1971, comptait environ 2 300 transistors ; une puce d'IA de Nvidia en 2024 en compte 208 milliards [5].",
         "En 2021, 92 % des capacités de production des puces les plus avancées (sous 10 nanomètres) étaient à Taïwan, le reste en Corée du Sud [3]. TSMC, fondée en 1987, en est le géant.",
@@ -2139,7 +2139,7 @@ window.GEOCO = {
       title: "Sanctions économiques : faire la guerre sans armes ?",
       hook: "Un embargo sur le pétrole qui pousse le Japon vers Pearl Harbor, des sanctions contre l'Italie de Mussolini qui oublient… le pétrole, des banques iraniennes coupées de SWIFT, une banque française condamnée à 8,9 milliards de dollars, et 300 milliards de réserves russes gelées. Comment marchent les sanctions, depuis quand, et est-ce qu'elles marchent vraiment ?",
       minutes: 16,
-      piste: "bleue",
+      etoiles: 2,
       tldr: [
         "Une sanction économique est une mesure qui coupe ou limite les échanges avec un pays, une entreprise ou une personne pour faire pression.",
         "Après l'invasion de l'Ukraine en 2022, l'Occident a gelé environ 300 milliards de dollars de réserves de la banque centrale russe et exclu plusieurs banques russes du système SWIFT [1] ; le 5 décembre 2022, le G7 et l'UE plafonnent le prix du pétrole russe à 60 dollars le baril [8].",
@@ -2289,7 +2289,7 @@ window.GEOCO = {
       title: "Pourquoi le dollar domine le monde",
       hook: "Le pétrole se vend en dollars, les banques centrales stockent des dollars, 88 % des échanges de devises passent par le dollar… Comment le nom d'une pièce d'argent de Bohême est devenu la monnaie de la planète ? De la pièce de huit espagnole au « privilège exorbitant », du coup de poker de Nixon en 1971 à la ruée des banques centrales vers l'or.",
       minutes: 14,
-      piste: "bleue",
+      etoiles: 2,
       tldr: [
         "Le dollar est la principale monnaie de réserve : près de 60 % des réserves de change des banques centrales sont en dollars [1]. Il est d'un côté de 88 % de toutes les opérations de change dans le monde [2].",
         "Son nom vient du « thaler », une pièce d'argent frappée à partir de 1519-1520 à Joachimsthal, en Bohême [3]. Avant d'être américain, le « dollar » désignait la pièce de huit réaux espagnole.",

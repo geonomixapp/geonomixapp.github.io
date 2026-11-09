@@ -2371,20 +2371,20 @@
   // Cours inspirés d'un cours de Harvard (demande de l'auteur, 2 nov. 2026 : « tu mets oui ce sont des cours
   // d'Harvard, mais tu ne dis pas qu'ils sont disponibles en ligne gratuitement ») : simple mention, sans lien.
   // Formulation voulue par l'auteur (2 nov. 2026) : « Inspiré des cours de Harvard de <professeur> ».
-  // Difficulté des cours en pistes de ski (demande de l'auteur, 9 nov. 2026 : « enlève Débutant, Intermédiaire, mets un autre système »).
-  const PISTES = {
-    verte: ["Piste verte", "Aucune notion requise : on part de zéro."],
-    bleue: ["Piste bleue", "Quelques notions de base suffisent ; tout est expliqué en route."],
-    rouge: ["Piste rouge", "Plus technique : des mécanismes à suivre pas à pas."],
-    noire: ["Piste noire", "Pour aller au fond : schémas et débats d'économistes, idéal après les pistes rouges."]
-  };
+  // Difficulté des cours en étoiles : plus il y en a, plus c'est dur (demande de l'auteur, 9 nov. 2026 ; avant, pistes de ski).
+  const ETOILES = [null,
+    "Aucune notion requise : on part de zéro.",
+    "Quelques notions de base suffisent ; tout est expliqué en route.",
+    "Plus technique : des mécanismes à suivre pas à pas.",
+    "Pour aller au fond : schémas et débats d'économistes, idéal après les autres cours."];
   function pisteTag(d) {
-    const p = PISTES[d.piste];
-    return p ? `<span class="piste piste-${d.piste}" title="${I18N.t(p[1])}"><i aria-hidden="true"></i>${I18N.t(p[0])}</span>` : "";
+    const n = d.etoiles;
+    if (!ETOILES[n]) return "";
+    const lab = I18N.t("Difficulté : {n} sur 4").replace("{n}", n);
+    return `<span class="stars" title="${lab} · ${I18N.t(ETOILES[n])}" aria-label="${lab}">${"★".repeat(n)}<i aria-hidden="true">${"★".repeat(4 - n)}</i></span>`;
   }
   function pisteNote(d) {
-    const p = PISTES[d.piste];
-    return p ? `<p class="piste-note reveal">${I18N.t(p[1])}</p>` : "";
+    return ETOILES[d.etoiles] ? `<p class="piste-note reveal">${I18N.t(ETOILES[d.etoiles])}</p>` : "";
   }
   const harvardTag = (d) => d.inspiredBy ? `<span class="harvard-tag">🎓 ${I18N.t("Inspiré des cours de Harvard de {nom}").replace("{nom}", d.inspiredBy)}</span>` : "";
 

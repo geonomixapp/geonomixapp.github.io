@@ -60,7 +60,7 @@ function fromCourse(d) {
   })));
   dated.sort((a, b) => a.when - b.when);
   return {
-    id: d.id, title: d.title, kind: `Cours${d.piste ? " · piste " + d.piste : ""}`, theme: d.theme, hook: d.hook, tldr: d.tldr,
+    id: d.id, title: d.title, kind: `Cours${d.etoiles ? " · " + "★".repeat(d.etoiles) + "☆".repeat(4 - d.etoiles) : ""}`, theme: d.theme, hook: d.hook, tldr: d.tldr,
     sections: d.sections, keyFigures: d.figures, sources: d.sources, what: "le cours",
     timeline: dated.length >= 2 ? dated.slice(0, 12) : null, timelineTitle: "Les dates",
     _x: {

@@ -557,7 +557,9 @@
   "Quelques notions de base suffisent ; tout est expliqué en route.": "Bastan algunas nociones básicas; todo se explica por el camino.",
   "Plus technique : des mécanismes à suivre pas à pas.": "Más técnico: mecanismos que se siguen paso a paso.",
   "Pour aller au fond : schémas et débats d'économistes, idéal après les pistes rouges.": "Para ir a fondo: esquemas y debates de economistas, ideal después de las pistas rojas.",
-  "De fond en comble.": "De cabo a rabo."
+  "De fond en comble.": "De cabo a rabo.",
+  "Difficulté : {n} sur 4": "Dificultad: {n} de 4",
+  "Pour aller au fond : schémas et débats d'économistes, idéal après les autres cours.": "Para ir a fondo: esquemas y debates de economistas, ideal después de los demás cursos."
  },
  "months": {
   "janvier": "enero",

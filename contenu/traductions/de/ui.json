@@ -562,7 +562,9 @@
   "Quelques notions de base suffisent ; tout est expliqué en route.": "Ein paar Grundkenntnisse reichen; alles wird unterwegs erklärt.",
   "Plus technique : des mécanismes à suivre pas à pas.": "Technischer: Mechanismen Schritt für Schritt.",
   "Pour aller au fond : schémas et débats d'économistes, idéal après les pistes rouges.": "Für Tiefgang: Diagramme und Ökonomendebatten, ideal nach den roten Pisten.",
-  "De fond en comble.": "Von Grund auf."
+  "De fond en comble.": "Von Grund auf.",
+  "Difficulté : {n} sur 4": "Schwierigkeit: {n} von 4",
+  "Pour aller au fond : schémas et débats d'économistes, idéal après les autres cours.": "Für Tiefgang: Diagramme und Ökonomendebatten, ideal nach den anderen Kursen."
  },
  "months": {
   "janvier": "Januar",

@@ -561,7 +561,9 @@
   "Quelques notions de base suffisent ; tout est expliqué en route.": "A few basics are enough; everything is explained along the way.",
   "Plus technique : des mécanismes à suivre pas à pas.": "More technical: mechanisms to follow step by step.",
   "Pour aller au fond : schémas et débats d'économistes, idéal après les pistes rouges.": "To go deep: diagrams and economists' debates, best after the red runs.",
-  "De fond en comble.": "Inside out."
+  "De fond en comble.": "Inside out.",
+  "Difficulté : {n} sur 4": "Difficulty: {n} out of 4",
+  "Pour aller au fond : schémas et débats d'économistes, idéal après les autres cours.": "To go deep: diagrams and economists' debates, best after the other courses."
  },
  "months": {
   "janvier": "Jan.",
