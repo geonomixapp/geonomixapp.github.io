@@ -1507,12 +1507,14 @@ window.GEOCO = {
       theme: "mix",
       title: "Droits de douane : à quoi ça sert, et qui paie vraiment ?",
       hook: "Les États-Unis taxent les produits étrangers, l'Europe taxe les voitures chinoises. Officiellement, c'est pour protéger. Mais au bout de la chaîne, c'est souvent toi qui paies.",
-      minutes: 5,
+      minutes: 18,
       piste: "verte",
       tldr: [
         "Un droit de douane est une taxe sur un produit importé, payée quand il passe la frontière.",
         "Il sert à protéger les entreprises locales, à rapporter de l'argent à l'État et à faire pression sur un autre pays.",
-        "Mais c'est l'entreprise qui importe qui paie la taxe, et elle la répercute presque toujours sur le prix final : au bout du compte, c'est le consommateur qui paie [3]."
+        "Mais c'est l'entreprise qui importe qui paie la taxe, et elle la répercute presque toujours sur le prix final : au bout du compte, c'est le consommateur qui paie [3].",
+        "Le débat est vieux de deux siècles : en 1817, David Ricardo montre que deux pays gagnent à échanger même si l'un est meilleur partout [19] ; en 1930, la loi américaine Smoot-Hawley relève les droits sur plus de 20 000 produits et déclenche des représailles [15].",
+        "Après 1947, le GATT puis l'OMC (1995) font baisser les droits de douane mondiaux [16]. Mais depuis le 11 décembre 2019, l'organe d'appel de l'OMC, qui tranche les litiges, est paralysé par le blocage américain [18]."
       ],
       visuals: [
         {
@@ -1570,6 +1572,78 @@ window.GEOCO = {
             "Qui paie ? Selon le Budget Lab de l'université Yale, les droits de douane en place coûtent plus de 1 000 dollars par an au ménage américain typique (estimation d'août 2026) [11]. Les ménages aisés paient plus en dollars, mais les ménages modestes paient plus en part de leurs revenus [12].",
             "Où va l'argent ? Les droits de douane vont dans le budget général de l'État, sans caisse à part. Le 8 décembre 2025, le gouvernement a annoncé 12 milliards de dollars d'aide aux agriculteurs touchés par la guerre commerciale, financés selon le président par « une petite partie » des recettes douanières [13]. En revanche, le « dividende douanier » de 2 000 dollars par personne promis le 9 novembre 2025 n'a jamais été voté : il aurait coûté environ 300 milliards de dollars selon la Tax Foundation [14]."
           ]
+        },
+        {
+          title: "1817 : pourquoi échanger, même quand on est meilleur partout",
+          paragraphs: [
+            "Pour comprendre les droits de douane, il faut d'abord comprendre pourquoi les économistes défendent presque tous le commerce. L'idée clé vient de l'économiste anglais ==David Ricardo==, en ==1817== : la théorie des ==avantages comparatifs== [19].",
+            "Son exemple est resté célèbre. Le Portugal produit du vin et du drap plus efficacement que l'Angleterre : il a besoin de moins d'heures de travail pour les deux [19]. Faut-il pour autant qu'il produise tout lui-même ? Non, dit Ricardo : le Portugal est ==beaucoup== meilleur pour le vin, et seulement ==un peu== meilleur pour le drap. S'il se spécialise dans le vin, l'Angleterre dans le drap, et qu'ils échangent, ==les deux pays consomment plus de vin et plus de drap== qu'en produisant chacun tout seul [19].",
+            "C'est contre-intuitif, et c'est pourquoi c'est important : ==un pays n'a pas besoin d'être le meilleur en quelque chose pour gagner à commercer==, il suffit qu'il se spécialise là où son désavantage est le plus faible. Un droit de douane, en empêchant cette spécialisation, rend en principe les deux pays plus pauvres.",
+            "Mais la théorie a ses angles morts : elle dit que le pays gagne ==au total==, pas que tout le monde gagne. Les ouvriers du secteur qui disparaît (ici, le drap portugais) perdent leur emploi. Toute la politique commerciale tourne autour de cette tension : un gain diffus pour tous, des pertes concentrées sur quelques-uns."
+          ],
+          plain: {
+            title: "l'exemple de Ricardo, en heures de travail",
+            steps: [
+              "Pour produire une unité, l'Angleterre a besoin de 100 heures pour le drap et 120 pour le vin ; le Portugal de 90 pour le drap et 80 pour le vin [19].",
+              "Le Portugal est meilleur dans les deux, mais son avance est bien plus grande pour le vin (80 contre 120) que pour le drap (90 contre 100).",
+              "Le Portugal se spécialise dans le vin, l'Angleterre dans le drap, et ils échangent.",
+              "Avec le même nombre d'heures de travail, les deux pays obtiennent plus de vin et plus de drap qu'en produisant tout eux-mêmes [19]."
+            ]
+          }
+        },
+        {
+          title: "Le XIXe siècle : blé anglais et chandelles françaises",
+          paragraphs: [
+            "Au Royaume-Uni, les ==« Corn Laws »== taxent le blé importé pour protéger les grands propriétaires terriens. Le pain est cher, les ouvriers des villes en souffrent. Après une longue bataille menée par la Ligue contre les lois sur le blé et la famine en Irlande, le Premier ministre Robert Peel les abolit en ==1846==. Le Royaume-Uni devient le champion du libre-échange.",
+            "En France, l'économiste ==Frédéric Bastiat== se moque du protectionnisme en ==1845== avec un texte resté célèbre, la ==« Pétition des marchands de chandelles »== : il fait réclamer par les fabricants de bougies une loi obligeant à fermer fenêtres et volets, pour les protéger de la « concurrence déloyale » du soleil, qui fournit la lumière gratuitement. La satire montre l'absurdité de vouloir se protéger de ce qui est bon marché.",
+            "La France revient pourtant au protectionnisme à la fin du siècle, avec le ==tarif Méline== de 1892 qui protège l'agriculture. Le débat n'a jamais vraiment cessé : chaque époque rejoue la bataille entre ceux qui veulent des produits bon marché et ceux qui veulent protéger des emplois et des secteurs."
+          ]
+        },
+        {
+          title: "1930 : Smoot-Hawley, la loi qui a aggravé la crise",
+          paragraphs: [
+            "Après le krach de 1929, le Congrès américain veut protéger les agriculteurs et les industriels. Le ==17 juin 1930==, le président Herbert Hoover signe la ==loi Smoot-Hawley==, qui relève les droits de douane sur ==plus de 20 000 produits importés==, à des niveaux parmi les plus élevés de l'histoire américaine [15]. Plus d'un millier d'économistes avaient signé une lettre pour lui demander d'y renoncer.",
+            "Les partenaires des États-Unis protestent, puis ripostent avec leurs propres droits de douane : Canada, pays européens et bien d'autres. Une étude récente montre que les exportations américaines chutent de 15 à 22 % vers les pays qui ont protesté, et de 28 à 33 % vers ceux qui ont riposté [15].",
+            "Le commerce mondial s'effondre : selon une estimation souvent citée, il recule d'environ deux tiers entre 1929 et 1934, même si d'autres calculs donnent une baisse plus proche d'un tiers en volume [15]. Les historiens s'accordent sur un point : ==Smoot-Hawley n'a pas causé la Grande Dépression, mais elle l'a aggravée et a fermé les débouchés qui auraient pu aider à en sortir== [15].",
+            "Cette expérience a marqué les esprits pour des décennies : elle explique pourquoi, après 1945, les grands pays ont voulu se lier les mains par des règles communes."
+          ]
+        },
+        {
+          title: "1947-1995 : du GATT à l'OMC, la grande baisse",
+          paragraphs: [
+            "Le ==30 octobre 1947==, à Genève, 23 pays signent ==l'Accord général sur les tarifs douaniers et le commerce (GATT)== [16]. Le principe est simple : négocier ensemble des baisses de droits de douane, et accorder à tous les membres les mêmes avantages (la « clause de la nation la plus favorisée »).",
+            "De cycle de négociation en cycle de négociation, les droits de douane moyens des grands pays industrialisés baissent fortement, d'environ 22 % en 1947 à environ 5 % après le cycle de l'Uruguay, conclu en 1994 [16]. C'est l'un des moteurs de la forte croissance de l'après-guerre.",
+            "Le ==1er janvier 1995==, l'==Organisation mondiale du commerce (OMC)== remplace le GATT [16]. Elle ajoute un vrai tribunal pour régler les litiges entre pays. Le ==11 décembre 2001==, la Chine y entre [16] : son intégration au commerce mondial transforme l'économie de la planète, avec des usines qui déménagent vers l'Asie et des prix qui baissent partout.",
+            "Aujourd'hui, l'OMC compte plus de 160 membres. Ses règles limitent les droits de douane que chaque pays peut imposer, sauf exceptions (sécurité nationale, dumping, subventions déloyales, mesures de sauvegarde)."
+          ]
+        },
+        {
+          title: "Une taxe qui ne meurt jamais : la « taxe sur le poulet »",
+          paragraphs: [
+            "Au début des années 1960, la France et l'Allemagne de l'Ouest taxent le poulet américain, qui inonde leurs marchés à bas prix. Washington riposte : par une proclamation de décembre 1963, entrée en vigueur en ==janvier 1964==, le président Lyndon Johnson impose des droits de douane sur quatre produits européens, dont ==une taxe de 25 % sur les camionnettes importées== [17]. C'est la « guerre du poulet ».",
+            "Plus de soixante ans plus tard, le différend sur le poulet est oublié, l'Allemagne ne vend plus de camionnettes aux États-Unis… mais ==la taxe de 25 % sur les pick-up importés existe toujours== [17]. Elle a façonné le marché américain : les constructeurs étrangers ont construit leurs pick-up aux États-Unis ou au Mexique, et certains ont rivalisé d'astuces, comme importer des fourgonnettes avec des sièges arrière qu'on démontait à l'arrivée pour payer moins [17].",
+            "La leçon : ==un droit de douane créé pour une raison passagère peut durer des décennies==, car il crée des intérêts (ici, les constructeurs américains de pick-up, protégés de la concurrence) qui se battent pour le garder."
+          ]
+        },
+        {
+          title: "L'OMC en panne",
+          paragraphs: [
+            "Le cœur de l'OMC, c'est son système de règlement des litiges : un pays qui s'estime lésé porte plainte, un groupe d'experts tranche, et l'on peut faire appel devant un ==organe d'appel== de sept juges. Pendant vingt ans, ce système a permis de régler des centaines de conflits commerciaux sans escalade.",
+            "Mais depuis 2017, les États-Unis bloquent la nomination de nouveaux juges, en reprochant à l'organe d'appel de dépasser son rôle [18]. Le ==11 décembre 2019==, il ne reste plus qu'un juge : faute de quorum, ==l'organe d'appel ne peut plus fonctionner== [18]. Un pays condamné en première instance peut désormais faire appel « dans le vide » et bloquer toute décision.",
+            "Pour contourner la panne, l'Union européenne et d'autres membres ont créé en 2020 un mécanisme d'arbitrage provisoire. Mais les États-Unis et la Chine n'y participent pas. Résultat : les conflits commerciaux se règlent de plus en plus ==par la force, avec des droits de douane et des représailles, plutôt que par le droit==, comme on l'a vu avec la guerre commerciale sino-américaine depuis 2018 et le « Liberation Day » de 2025."
+          ]
+        },
+        {
+          title: "Les arguments pour, les arguments contre",
+          paragraphs: [
+            "==Pour les droits de douane== : protéger une ==industrie naissante== le temps qu'elle devienne compétitive (c'est ainsi que la Corée du Sud ou les États-Unis du XIXe siècle se sont industrialisés), protéger des secteurs ==stratégiques== (acier, puces, médicaments, défense), répondre à une concurrence jugée ==déloyale== (subventions, dumping), et préserver des ==emplois== et des régions.",
+            "==Contre== : les droits de douane font ==payer les consommateurs== (voir plus haut), renchérissent les ==pièces importées== pour les entreprises du pays, invitent aux ==représailles==, et peuvent protéger des entreprises ==inefficaces== qui n'innovent plus. Ils frappent souvent plus durement les ménages modestes, qui consacrent une plus grande part de leur budget aux biens importés.",
+            "La plupart des économistes concluent que ==les droits de douane sont un outil coûteux pour protéger des emplois==, et qu'il vaut souvent mieux aider directement les travailleurs touchés (formation, aides à la reconversion). Mais la montée des tensions géopolitiques a remis au goût du jour l'argument de la ==sécurité== : dépendre d'un rival pour des produits vitaux peut coûter plus cher qu'un droit de douane."
+          ],
+          example: {
+            title: "Lire une annonce de droits de douane",
+            text: "Face à une annonce, pose cinq questions : 1) Quel produit, et quel pays ? 2) Quel taux, et à partir de quand ? 3) Qui importe ce produit, et pourra-t-il le trouver ailleurs ? 4) Le pays visé va-t-il riposter, et sur quoi ? 5) Quelle est la base juridique (sécurité nationale, dumping, mesure d'urgence) ? Une base fragile peut être annulée en justice, comme l'ont été les droits « IEEPA » américains en février 2026."
+          }
         }
       ],
       forMe: "Ton smartphone, tes vêtements, ton électroménager ou les pièces de ta voiture traversent souvent plusieurs frontières avant d'arriver chez toi. Chaque droit de douane ajouté en chemin finit en grande partie dans le prix que tu paies en magasin. Et si l'Europe est visée par des taxes, ce sont aussi des entreprises européennes qui exportent (vin, luxe, aéronautique) qui perdent des clients, avec des emplois en jeu.",
@@ -1577,7 +1651,9 @@ window.GEOCO = {
         { value: "96 %", label: "du coût des taxes américaines de 2025 payé par les acheteurs américains (Institut de Kiel)" },
         { value: "+12 %", label: "le prix des machines à laver aux États-Unis après la taxe de 2018" },
         { value: "1930", label: "Smoot-Hawley, le contre-exemple historique" },
-        { value: "173 Md$", label: "de droits de douane encaissés par les États-Unis sur l'exercice 2026 (USAFacts)" }
+        { value: "173 Md$", label: "de droits de douane encaissés par les États-Unis sur l'exercice 2026 (USAFacts)" },
+        { value: "> 20 000", label: "produits touchés par la loi Smoot-Hawley de juin 1930", src: 15 },
+        { value: "≈ 22 % → ≈ 5 %", label: "droits de douane moyens des grands pays industrialisés, de 1947 à l'après-cycle de l'Uruguay", src: 16 }
       ],
       terms: ["droits-de-douane", "protectionnisme", "libre-echange", "mondialisation"],
       quiz: [
@@ -1598,7 +1674,11 @@ window.GEOCO = {
           options: ["le libre-échange", "le communisme", "l'inflation", "l'embargo"],
           answer: 0,
           explain: "Le libre-échange consiste à réduire au maximum les barrières (taxes, quotas) entre pays pour faciliter le commerce."
-        }
+        },
+        { q: "Que montre l'exemple du vin et du drap de Ricardo (1817) ?", options: ["Qu'il faut tout produire soi-même", "Que deux pays gagnent à se spécialiser et à échanger, même si l'un est meilleur partout", "Que le vin est plus rentable que le drap", "Que l'Angleterre devait taxer le vin"], answer: 1, explain: "C'est la théorie des avantages comparatifs : on se spécialise là où son désavantage est le plus faible." },
+        { q: "Quel a été l'effet de la loi américaine Smoot-Hawley de 1930 ?", options: ["Elle a mis fin à la Grande Dépression", "Elle a relevé les droits sur plus de 20 000 produits et provoqué des représailles", "Elle a créé l'OMC", "Elle a supprimé tous les droits de douane"], answer: 1, explain: "Elle n'a pas causé la crise, mais elle l'a aggravée en fermant les débouchés." },
+        { q: "Pourquoi l'organe d'appel de l'OMC ne fonctionne-t-il plus depuis décembre 2019 ?", options: ["Faute d'argent", "Les États-Unis bloquent la nomination de nouveaux juges", "La Chine l'a quitté", "Il a été dissous par vote"], answer: 1, explain: "Faute de quorum, un pays condamné peut faire appel « dans le vide » et bloquer la décision." },
+        { q: "Qu'est devenue la taxe américaine de 25 % sur les camionnettes créée en 1964 ?", options: ["Elle a été supprimée en 1965", "Elle existe toujours", "Elle a été remplacée par une taxe sur le poulet", "Elle a été jugée illégale"], answer: 1, explain: "Née d'une dispute sur le poulet avec l'Europe, elle protège encore les pick-up construits aux États-Unis." }
       ],
       sources: [
         { short: "OMC", name: "Organisation mondiale du commerce, les droits de douane", url: "https://www.wto.org" },
@@ -1614,7 +1694,12 @@ window.GEOCO = {
         { short: "ABC News", name: "ABC News, « Tariffs will cost US households over $1,000 a year, Yale Budget Lab says », août 2026", url: "https://abcnews.com/Business/tariffs-cost-us-households-1000-year-yale-budget/story?id=135945432" },
         { short: "CNBC", name: "CNBC, « The uneven cost of tariffs: Why some households will pay more than others », mars 2026", url: "https://www.cnbc.com/2026/03/23/household-tariff-costs.html" },
         { short: "NPR/WGCU", name: "WGCU (NPR), « Trump administration announces $12 billion in one-time payments to farmers », 8 décembre 2025", url: "https://www.wgcu.org/2025-12-08/trump-administration-announces-12-billion-in-one-time-payments-to-farmers" },
-        { short: "CNBC", name: "CNBC, « The odds of Trump's $2,000 tariff dividend checks are 'now effectively zero,' expert says », février 2026", url: "https://www.cnbc.com/2026/02/23/trumps-2000-tariff-dividend-checks-are-less-likely-experts-say.html" }
+        { short: "CNBC", name: "CNBC, « The odds of Trump's $2,000 tariff dividend checks are 'now effectively zero,' expert says », février 2026", url: "https://www.cnbc.com/2026/02/23/trumps-2000-tariff-dividend-checks-are-less-likely-experts-say.html" },
+        { short: "NBER", name: "NBER, Mitchener, Wandschneider et O'Rourke, « The Smoot-Hawley Trade War », document de travail 28616", url: "https://nber.org/papers/w28616" },
+        { short: "Encyclopédie canadienne", name: "L'Encyclopédie canadienne, « General Agreement on Tariffs and Trade (GATT) », et chronologie de l'OMC", url: "https://thecanadianencyclopedia.ca/en/article/general-agreement-on-tariffs-and-trade" },
+        { short: "Cato Institute", name: "Cato Institute, « Why are pickups so expensive? Blame the chicken tax »", url: "https://www.cato.org/commentary/why-are-pickups-so-expensive-blame-chicken-tax" },
+        { short: "American University", name: "American University Washington College of Law, « Last Day of the WTO Appellate Body », décembre 2019", url: "https://wcl.american.edu/impact/initiatives-programs/trade/news/last-day-of-the-wto-appellate-body" },
+        { short: "Saylor Academy", name: "Saylor Academy, « International Economics: Theory and Policy », 2.2 The Theory of Comparative Advantage (exemple de Ricardo, 1817)", url: "https://saylordotorg.github.io/text_international-economics-theory-and-policy/s05-02-the-theory-of-comparative-adva.html" }
       ]
     },
 
