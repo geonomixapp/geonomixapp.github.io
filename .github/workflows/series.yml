@@ -1,0 +1,35 @@
+# Met à jour data/series.js (séries annuelles de la Banque mondiale pour la page Chiffres) une fois par mois.
+# Le réseau de la session de travail ne joint pas l'API de la Banque mondiale : c'est GitHub qui la télécharge.
+name: Séries des chiffres
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 3 * *"
+  push:
+    branches: [claude/geoeconomic-news-app-9exkx9]
+    paths: [tools/build-series.mjs, .github/workflows/series.yml]
+permissions:
+  contents: write
+concurrency:
+  group: series
+  cancel-in-progress: false
+jobs:
+  series:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/geoeconomic-news-app-9exkx9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node tools/build-series.mjs
+      - name: Enregistrer si les chiffres ont changé
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/series.js
+          if git diff --cached --quiet; then echo "Rien de nouveau"; exit 0; fi
+          git commit -m "Séries des chiffres : mise à jour (Banque mondiale)"
+          for i in 1 2 3 4; do git pull --rebase origin claude/geoeconomic-news-app-9exkx9 && git push origin HEAD:claude/geoeconomic-news-app-9exkx9 && exit 0; sleep $((i*5)); done
+          exit 1
