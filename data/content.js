@@ -10,74 +10,185 @@ window.GEOCO = {
       emoji: "🔥",
       theme: "eco",
       title: "Inflation : pourquoi les prix montent et comment on les calme",
-      hook: "Ton panier de courses a pris 20 % en quelques années ? Voici ce qui s'est passé, et pourquoi la BCE a touché aux taux d'intérêt.",
-      minutes: 3,
+      hook: "Ton panier de courses a pris 20 % en quelques années ? De l'or d'Amérique qui affole les prix au XVIe siècle aux brouettes de billets de 1923, du choc Volcker à la BCE de 2022, voici l'histoire et la mécanique de l'inflation, avec les débats qui divisent encore les économistes.",
+      minutes: 22,
       piste: "verte",
       tldr: [
-        "L'inflation, c'est la hausse générale et durable des prix : avec le même billet, on achète moins.",
-        "En 2022, elle a dépassé 5 % en France, du jamais vu depuis le milieu des années 1980 [1].",
-        "Pour la freiner, les banques centrales augmentent leurs taux d'intérêt : emprunter coûte plus cher, on dépense moins, les prix ralentissent."
+        "L'inflation, c'est la hausse générale et durable des prix : avec le même billet, on achète moins. En 2022, elle a dépassé 5 % en France, du jamais vu depuis le milieu des années 1980 [1].",
+        "L'idée qu'un afflux de monnaie fait monter les prix date au moins de 1568, quand Jean Bodin explique la hausse des prix en Europe par l'or et l'argent venus d'Amérique [3].",
+        "Quand elle s'emballe, elle détruit tout : en novembre 1923, un dollar valait 4 200 milliards de marks allemands [4] ; en novembre 2008, les prix au Zimbabwe auraient augmenté de 79,6 milliards de % en un mois [5].",
+        "Pour la freiner, les banques centrales augmentent leurs taux d'intérêt. Aux États-Unis, Paul Volcker a fait grimper le taux de la Fed jusqu'à 20 % autour de 1980-1981, au prix d'un chômage de 10,8 % [6]. La BCE est passée de taux négatifs à 4 % entre 2022 et 2023 [2][10].",
+        "En 2022-2023, les profits des entreprises expliquent environ 45 % de la hausse des prix dans la zone euro, et les prix des importations (énergie) environ 40 %, selon le FMI [11]."
       ],
       sections: [
         {
           title: "D'où vient l'inflation ?",
           paragraphs: [
-            "Deux grandes causes. Soit les coûts de production montent (énergie, matières premières, salaires) et les entreprises répercutent sur les prix. Soit la demande est plus forte que ce que l'économie peut produire, et les prix grimpent.",
-            "En 2021-2022, les deux se sont cumulées : la reprise après le Covid a fait exploser la demande, les chaînes d'approvisionnement étaient désorganisées, puis la guerre en Ukraine a fait flamber le gaz, le pétrole et les céréales."
+            "L'==inflation==, c'est la hausse générale et durable des prix. « Générale » : pas seulement le prix des tomates ou de l'essence, mais l'ensemble des prix. « Durable » : pas un pic d'une semaine. Quand l'inflation est de 5 %, un panier qui coûtait 100 euros en coûte 105 un an plus tard ; avec le même salaire, on achète moins.",
+            "Les économistes distinguent trois grandes causes. ==L'inflation par les coûts== : l'énergie, les matières premières ou les salaires montent, et les entreprises répercutent sur leurs prix. ==L'inflation par la demande== : les gens veulent acheter plus que ce que l'économie peut produire, et les prix grimpent. ==L'inflation monétaire== : trop de monnaie en circulation par rapport aux biens disponibles.",
+            "Il faut y ajouter un ingrédient psychologique, ==les anticipations==. Si tout le monde s'attend à 10 % d'inflation, les salariés demandent 10 % d'augmentation, les entreprises montent leurs prix de 10 % par précaution, et la prévision se réalise d'elle-même. C'est pourquoi les banques centrales tiennent tant à leur crédibilité : si on croit qu'elles ramèneront l'inflation à 2 %, la moitié du travail est faite.",
+            "En 2021-2022, plusieurs causes se sont cumulées : la reprise après le Covid a fait exploser la demande, les chaînes d'approvisionnement étaient désorganisées (conteneurs bloqués, pénurie de puces), puis la guerre en Ukraine a fait flamber le gaz, le pétrole et les céréales. Résultat : 5,2 % d'inflation en France en 2022 et 4,9 % en 2023 [1]."
+          ]
+        },
+        {
+          title: "Comment on la mesure",
+          paragraphs: [
+            "En France, c'est l'Insee qui mesure l'inflation, avec ==l'indice des prix à la consommation== (IPC) [1]. Chaque mois, des enquêteurs et des données de caisse relèvent les prix de milliers de produits et services dans tout le pays : alimentation, loyers, énergie, vêtements, transports, coiffeur, assurance…",
+            "Chaque produit pèse selon sa place dans le budget moyen des ménages : l'énergie ou le loyer comptent plus que les allumettes. On compare ensuite le coût de ce « panier » d'un mois ou d'une année à l'autre.",
+            "D'où un malentendu fréquent entre ==l'inflation mesurée et l'inflation ressentie==. Le panier est celui d'un ménage moyen ; un jeune qui loue en ville, un retraité qui chauffe au fioul ou un ménage rural qui fait 50 km par jour en voiture n'ont pas le même. Et on remarque surtout les prix des achats fréquents (pain, essence), beaucoup moins ceux qui baissent (télévisions, téléphones à performances égales).",
+            "Les banques centrales regardent aussi ==l'inflation sous-jacente==, qui retire les prix les plus volatils (énergie, alimentation fraîche). Elle montre si la hausse s'installe dans toute l'économie ou si elle vient d'un choc passager."
+          ],
+          example: {
+            title: "Ton inflation à toi",
+            text: "Si tu dépenses 40 % de ton budget en loyer, 20 % en courses et 10 % en transport, et que les courses prennent 10 %, ton inflation « courses » pèse 20 % × 10 % = 2 points dans ton inflation personnelle. Si ton loyer est bloqué, tu peux vivre une inflation plus faible que la moyenne ; si tu fais le plein tous les jours pendant un choc pétrolier, bien plus forte."
+          }
+        },
+        {
+          title: "1568 : l'or d'Amérique et la première explication",
+          paragraphs: [
+            "Au XVIe siècle, l'Europe connaît ce que les historiens appellent la ==« révolution des prix »== : après des siècles de stabilité relative, les prix montent régulièrement pendant des décennies. Personne ne comprend pourquoi.",
+            "En France, un conseiller du roi, Jean de Malestroit, accuse les rognages et la baisse de la teneur en métal des pièces. En 1568, le juriste ==Jean Bodin== lui répond dans un essai resté célèbre : la vraie cause, dit-il, c'est ==l'afflux d'or et d'argent venu du Nouveau Monde== par l'Espagne [3]. Plus il y a de métal précieux, moins chaque gramme vaut, donc plus il en faut pour acheter la même chose.",
+            "C'est l'une des premières formulations de ce qu'on appellera la ==théorie quantitative de la monnaie== : si la quantité de monnaie augmente plus vite que la quantité de biens, les prix montent [3]. Les historiens rappellent que Bodin n'était pas tout à fait le premier : à Salamanque, le théologien Martín de Azpilcueta avait fait le même lien une douzaine d'années plus tôt [3].",
+            "Quatre siècles plus tard, l'économiste Milton Friedman reprendra l'idée avec une formule restée célèbre : « l'inflation est toujours et partout un phénomène monétaire » (voir notre cours sur les grandes écoles économiques). Les keynésiens lui répondront que les coûts et la demande comptent aussi. Le débat n'est pas clos."
+          ]
+        },
+        {
+          title: "Quand la monnaie ne vaut plus rien : 1923 et 2008",
+          paragraphs: [
+            "On parle ==d'hyperinflation== quand les prix augmentent de plus de 50 % par mois. L'exemple le plus célèbre est l'Allemagne de 1923. Pour payer ses dépenses et les réparations de la Première Guerre mondiale, l'État fait tourner la planche à billets. En novembre 1923, ==un dollar vaut environ 4 200 milliards de marks== [4]. Une miche de pain qui coûtait environ 160 marks fin 1922 en coûte environ 200 milliards fin 1923 [4].",
+            "Les salariés sont payés deux fois par jour et courent dépenser leur paie avant qu'elle ne fonde ; des enfants jouent avec des liasses de billets, on en tapisse des murs. Le 15 novembre 1923, une nouvelle monnaie, le ==Rentenmark==, remplace l'ancien mark : 1 Rentenmark pour 1 000 milliards de marks [4]. Les classes moyennes, dont l'épargne a été anéantie, en gardent une méfiance durable, qui explique en partie l'attachement allemand à une monnaie stable.",
+            "Plus récemment, le ==Zimbabwe== bat tous les records. L'État ne publiant plus de chiffres fiables, l'économiste Steve Hanke, de l'université Johns Hopkins, estime qu'à la mi-novembre 2008, les prix augmentaient de ==79,6 milliards de % par mois== [5], soit un doublement environ chaque jour. Le pays finit par abandonner sa propre monnaie au profit du dollar américain et d'autres devises.",
+            "Ces épisodes ont tous un point commun : ==un État qui finance ses dépenses en créant de la monnaie==, souvent après une guerre, un effondrement de la production ou une crise politique. C'est pourquoi la plupart des pays ont rendu leur banque centrale indépendante du gouvernement."
+          ],
+          plain: {
+            title: "la spirale de l'hyperinflation",
+            steps: [
+              "L'État n'arrive plus à payer ses dépenses avec les impôts ; il fait imprimer des billets.",
+              "Il y a plus de billets pour la même quantité de pain : le prix du pain monte.",
+              "Les gens, qui voient les prix monter, dépensent leur argent le plus vite possible avant qu'il ne perde sa valeur : la demande s'emballe.",
+              "Les prix montent encore plus vite, l'État imprime encore plus pour suivre : en 1923, un dollar finit par valoir 4 200 milliards de marks [4]."
+            ]
+          }
+        },
+        {
+          title: "Les années 1970 et le choc Volcker",
+          paragraphs: [
+            "Dans les années 1970, les pays riches découvrent la ==stagflation== : inflation forte et chômage en même temps, ce que les théories de l'époque jugeaient presque impossible. Les chocs pétroliers de 1973 et 1979 font flamber l'énergie, et les salaires indexés sur les prix entretiennent la hausse.",
+            "En août 1979, Paul Volcker prend la tête de la Réserve fédérale américaine. Le 6 octobre 1979, il annonce un virage : la Fed va contrôler strictement la quantité de monnaie, quitte à laisser les taux grimper [6]. Le taux directeur atteint ==le record de 20 % autour de 1980-1981== [6].",
+            "Le remède est brutal. Les crédits deviennent hors de prix, des agriculteurs bloquent Washington avec leurs tracteurs, des entreprises font faillite. ==Le chômage atteint 10,8 % fin 1982== [6]. Mais l'inflation recule : elle tombe à 6,1 % début 1982 [6], puis reste modérée pendant des décennies.",
+            "Le « choc Volcker » reste la référence des banquiers centraux : il montre qu'on peut vaincre une inflation installée, mais que cela coûte cher, surtout quand on agit tard. C'est l'une des raisons pour lesquelles la Fed et la BCE ont monté leurs taux aussi vite en 2022."
+          ]
+        },
+        {
+          title: "La France de 1982 : bloquer les prix, puis désindexer",
+          paragraphs: [
+            "En France aussi, l'inflation dépasse 13 % en 1980 et 1981. Après la relance de 1981 (voir notre cours IS-LM), le gouvernement change de cap. En ==juin 1982==, à l'initiative du ministre des Finances Jacques Delors, il dévalue le franc et ==bloque les prix et les salaires pendant quatre mois== [7].",
+            "Puis vient la mesure décisive : la ==désindexation des salaires==. Jusque-là, beaucoup de salaires suivaient automatiquement la hausse des prix, ce qui entretenait une boucle : les prix montent, donc les salaires montent, donc les coûts montent, donc les prix montent. En cessant d'aligner les hausses de salaires sur l'inflation passée pour les caler sur l'inflation visée, l'État casse la boucle [7].",
+            "Le résultat est spectaculaire : l'inflation passe de ==12 % en 1982 à 3,1 % en 1988== [7]. Le prix à payer est discuté : ralentissement du pouvoir d'achat des salariés et hausse du chômage dans les années suivantes.",
+            "Ce souvenir explique pourquoi, en 2022-2023, le débat sur l'indexation des salaires a été si vif : faut-il protéger le pouvoir d'achat en indexant, au risque de relancer la boucle prix-salaires ? La plupart des pays ont choisi des aides ciblées et des hausses du salaire minimum plutôt qu'une indexation générale."
+          ]
+        },
+        {
+          title: "Pourquoi 2 %, et pas 0 % ?",
+          paragraphs: [
+            "Dans la zone euro, c'est la Banque centrale européenne (BCE) qui veille sur les prix. Son objectif : une inflation de 2 % par an à moyen terme [2]. Ni trop (on s'appauvrit), ni trop peu (l'économie s'endort).",
+            "Ce chiffre vient d'un petit pays. La ==Nouvelle-Zélande== est le premier pays à fixer officiellement un objectif chiffré d'inflation à sa banque centrale : la loi de 1989 entre en vigueur le 1er février 1990 [9]. L'objectif est d'abord une fourchette de 3 à 5 %, puis de 0 à 2 % [9]. Le succès de l'expérience fait école : Canada, Royaume-Uni, Suède, puis la plupart des banques centrales adoptent un objectif voisin de 2 %.",
+            "Pourquoi pas zéro ? D'abord, les indices ont tendance à surestimer un peu l'inflation (les produits s'améliorent sans que le prix le reflète entièrement). Ensuite, ==la déflation (baisse des prix) est dangereuse== : si les prix baissent, on reporte ses achats en attendant qu'ils baissent encore, les entreprises vendent moins, licencient, et la dette devient plus lourde à rembourser. Le Japon a connu ce piège pendant des années.",
+            "Enfin, une petite inflation laisse de la marge aux banques centrales : avec 2 % d'inflation, les taux d'intérêt sont normalement plus élevés, et on peut les baisser davantage en cas de crise. Certains économistes plaident d'ailleurs pour un objectif de 3 % ; d'autres trouvent que ce serait renoncer à la crédibilité durement acquise."
           ]
         },
         {
           title: "Le rôle de la banque centrale",
           paragraphs: [
-            "Dans la zone euro, c'est la Banque centrale européenne (BCE) qui veille sur les prix. Son objectif : une inflation proche de 2 % par an [2]. Ni trop (on s'appauvrit), ni trop peu (l'économie s'endort).",
-            "Son outil principal, ce sont les taux directeurs : le prix auquel les banques empruntent de l'argent. Entre 2022 et 2023, la BCE les a fait passer d'un niveau négatif à 4 %, la hausse la plus rapide de son histoire [2]."
+            "Son outil principal, ce sont les ==taux directeurs== : le prix auquel les banques se refinancent auprès d'elle ou y déposent leur argent. Ces taux se transmettent ensuite à tous les crédits de l'économie.",
+            "Pendant des années, le problème de la BCE n'était pas une inflation trop forte, mais trop faible. En ==juin 2014==, elle fait une chose rare : elle passe son taux de dépôt ==sous zéro, à −0,10 %== [10]. Les banques paient pour laisser leur argent à la BCE, ce qui doit les pousser à prêter. Le taux descend jusqu'à −0,50 % en 2019 [2].",
+            "Puis tout s'inverse. Le ==21 juillet 2022==, la BCE relève ses taux pour la première fois depuis onze ans, de 0,5 point [2]. Suivent dix hausses d'affilée : en ==septembre 2023, le taux de dépôt atteint 4 %==, la hausse la plus rapide de son histoire [2]. Les baisses ne reprennent qu'en juin 2024.",
+            "La BCE dispose aussi d'autres outils : acheter ou vendre des obligations (ce qu'on appelle « l'assouplissement quantitatif » ou son inverse) et, surtout, ==la parole== : en expliquant ce qu'elle compte faire, elle oriente les anticipations. En 2012, en pleine crise de l'euro, son président Mario Draghi promet de faire « tout ce qu'il faudra » pour sauver l'euro ; ces trois mots suffisent à calmer les marchés."
           ]
         },
         {
           title: "Pourquoi monter les taux calme les prix",
           paragraphs: [
             "Quand les taux montent, les crédits immobiliers, auto ou d'entreprise deviennent plus chers. Les ménages et les entreprises empruntent et dépensent moins, la demande ralentit, et les prix avec elle.",
-            "Le revers : moins d'investissement, un marché immobilier qui se grippe et un risque de ralentir trop fort l'économie. C'est un réglage délicat, un peu comme freiner une voiture sans la faire caler."
+            "Les taux agissent aussi par d'autres canaux. ==L'épargne== rapporte plus, ce qui pousse à dépenser moins. ==La monnaie== se renforce, car des capitaux viennent chercher les meilleurs rendements : les produits importés coûtent moins cher. Et ==les anticipations== se calment, si l'on croit que la banque centrale ira jusqu'au bout.",
+            "Le revers : moins d'investissement, un marché immobilier qui se grippe, des États qui paient plus cher leur dette, et un risque de ralentir trop fort l'économie. C'est un réglage délicat, un peu comme freiner une voiture sans la faire caler. Et les effets mettent du temps à arriver : on estime souvent qu'il faut un à deux ans pour qu'une hausse de taux produise tout son effet sur les prix."
+          ],
+          plain: {
+            title: "la hausse des taux, jusqu'à ton portefeuille",
+            steps: [
+              "La BCE relève son taux directeur (juillet 2022, puis encore et encore jusqu'à 4 % en septembre 2023) [2].",
+              "Les banques empruntent plus cher et relèvent les taux de leurs crédits immobiliers, auto et aux entreprises.",
+              "Les ménages achètent moins de logements et de voitures, les entreprises reportent leurs investissements : la demande ralentit.",
+              "Les entreprises ont plus de mal à augmenter leurs prix : l'inflation recule, de 5,2 % en 2022 à 2 % en 2024 en France [1]."
+            ]
+          }
+        },
+        {
+          title: "2022 : la faute à qui ? Salaires, profits ou énergie",
+          paragraphs: [
+            "Pendant la poussée de 2022, une question a divisé économistes et responsables politiques : qui fait monter les prix ? Les ==salaires== (la « boucle prix-salaires »), ==l'énergie== importée, ou ==les profits== des entreprises ?",
+            "En juin 2023, trois économistes du FMI publient une décomposition de la hausse des prix dans la zone euro. Entre début 2022 et début 2023, ==les profits des entreprises expliquent environ 45 % de la hausse, les prix des importations environ 40 %==, et les salaires bien moins [11]. Autrement dit, beaucoup d'entreprises ont relevé leurs prix plus que leurs coûts.",
+            "Le terme ==« profitflation »== (ou « greedflation », l'inflation par la cupidité) devient populaire. Mais les auteurs eux-mêmes sont prudents : une hausse des profits en euros ne veut pas forcément dire une hausse de la rentabilité, et certaines entreprises rattrapaient des pertes [11]. Ils prévoient aussi que les salaires vont rattraper les prix en 2023-2024, et que les profits devront alors absorber ces hausses pour que l'inflation reflue [11].",
+            "Ce débat montre qu'une même statistique peut servir des récits opposés. Retiens surtout que ==l'inflation est une bataille de partage== : quand les prix montent, chacun (salariés, entreprises, États, pays exportateurs d'énergie) cherche à ne pas être celui qui paie."
+          ]
+        },
+        {
+          title: "L'inflation cachée : la réduflation",
+          paragraphs: [
+            "Il existe une façon discrète d'augmenter les prix : ==réduire la quantité en gardant le même prix==. Le paquet de biscuits passe de 200 à 180 grammes, la bouteille de 1,5 à 1,25 litre, l'étiquette ne change pas. C'est la ==« réduflation »== (en anglais, « shrinkflation »).",
+            "L'indice des prix tient compte de ces changements, car il suit le prix au kilo ou au litre. Mais le client, lui, ne s'en rend souvent pas compte. Face aux plaintes, la France a pris en 2024 un arrêté : depuis le ==1er juillet 2024==, les magasins doivent signaler pendant deux mois les produits dont la quantité a baissé et le prix au kilo ou au litre a augmenté [12].",
+            "L'efficacité reste limitée : quelques mois plus tard, un contrôle de l'association UFC-Que Choisir ne trouve aucun affichage dans 95 % des magasins visités [12]. Le réflexe utile reste de regarder le ==prix au kilo ou au litre==, affiché obligatoirement sur l'étiquette du rayon."
+          ]
+        },
+        {
+          title: "Gagnants et perdants de l'inflation",
+          paragraphs: [
+            "L'inflation n'appauvrit pas tout le monde de la même façon. ==Les emprunteurs à taux fixe y gagnent== : leur mensualité ne bouge pas, alors que leur salaire finit par augmenter. Un crédit immobilier contracté à 1 % en 2021 est devenu beaucoup plus léger avec 10 % d'inflation cumulée.",
+            "==Les épargnants y perdent==, si leur argent rapporte moins que l'inflation : un livret à 3 % avec 5 % d'inflation fait perdre 2 % de pouvoir d'achat par an. ==Les salariés et retraités== perdent tant que leurs revenus ne suivent pas les prix. ==Les ménages modestes== sont souvent les plus touchés, car l'alimentation et l'énergie, qui ont le plus augmenté en 2022, pèsent plus lourd dans leur budget.",
+            "==L'État== est dans une position ambiguë : l'inflation gonfle ses recettes (la TVA suit les prix) et allège le poids relatif de sa dette ancienne, mais elle augmente les taux auxquels il emprunte et le coût des aides. ==Les entreprises== qui peuvent augmenter leurs prix s'en sortent, celles qui ne le peuvent pas souffrent.",
+            "C'est pourquoi l'inflation est autant un sujet politique qu'économique : derrière un chiffre moyen se cachent des transferts de richesse entre générations, entre épargnants et emprunteurs, entre salariés et entreprises."
           ]
         }
       ],
-      forMe: "Si l'inflation est à 5 % et que ton salaire augmente de 2 %, ton pouvoir d'achat baisse. Et quand les taux montent, ton futur crédit immobilier coûte plus cher, mais ton livret d'épargne rapporte un peu plus.",
+      forMe: "Quand l'inflation monte, regarde ce qui rapporte moins qu'elle (ton compte courant, certains livrets) et ce qui suit les prix. Compare les produits au prix au kilo, pas au prix du paquet. Et si tu empruntes un jour à taux fixe, souviens-toi qu'une inflation modérée allège ta dette au fil des ans.",
       figures: [
         { value: "2 %", label: "l'objectif d'inflation de la BCE", src: 2 },
         { value: "+5,2 %", label: "l'inflation en France en 2022", src: 1 },
-        { value: "4 %", label: "le taux de dépôt de la BCE fin 2023", src: 2 }
+        { value: "−0,10 % → 4 %", label: "le taux de dépôt de la BCE : premier taux négatif (juin 2014), puis sommet (septembre 2023)", src: 10 },
+        { value: "4 200 milliards", label: "de marks pour un dollar en novembre 1923", src: 4 },
+        { value: "20 %", label: "le taux directeur record de la Fed sous Paul Volcker, vers 1980-1981", src: 6 },
+        { value: "≈ 45 %", label: "de la hausse des prix due aux profits dans la zone euro, début 2022 - début 2023 (FMI)", src: 11 }
       ],
       terms: ["inflation", "banque-centrale", "taux-directeur", "pouvoir-achat", "chaine-appro"],
       quiz: [
-        {
-          q: "Quel est l'objectif d'inflation de la BCE ?",
-          options: ["0 %", "Environ 2 %", "5 %", "Aucun, elle ne s'en occupe pas"],
-          answer: 1,
-          explain: "La BCE vise une inflation proche de 2 % : assez pour que l'économie tourne, pas assez pour ronger le pouvoir d'achat."
-        },
-        {
-          q: "Pour freiner l'inflation, une banque centrale…",
-          options: ["baisse ses taux", "imprime plus de billets", "augmente ses taux", "bloque les prix dans les magasins"],
-          answer: 2,
-          explain: "En augmentant les taux, elle rend le crédit plus cher : on emprunte et on dépense moins, ce qui ralentit la hausse des prix."
-        }
+        { q: "Quel est l'objectif d'inflation de la BCE ?", options: ["0 %", "2 %", "5 %", "10 %"], answer: 1, explain: "Environ 2 % par an : assez pour éviter la baisse des prix, pas trop pour ne pas éroder le pouvoir d'achat." },
+        { q: "Pour freiner l'inflation, une banque centrale…", options: ["Baisse ses taux", "Augmente ses taux", "Imprime plus de billets", "Baisse les impôts"], answer: 1, explain: "Des taux plus élevés rendent le crédit plus cher, ce qui ralentit la demande et donc les prix." },
+        { q: "Comment Jean Bodin expliquait-il la hausse des prix au XVIe siècle ?", options: ["Par les mauvaises récoltes", "Par l'afflux d'or et d'argent venu d'Amérique", "Par les impôts du roi", "Par la peste"], answer: 1, explain: "En 1568, il donne l'une des premières formulations de la théorie quantitative de la monnaie." },
+        { q: "Combien de marks fallait-il pour un dollar en novembre 1923 ?", options: ["4,2", "4 200", "4,2 millions", "Environ 4 200 milliards"], answer: 3, explain: "L'hyperinflation allemande a pris fin avec le Rentenmark : 1 pour 1 000 milliards d'anciens marks." },
+        { q: "Quel prix a payé l'économie américaine pour le « choc Volcker » ?", options: ["Aucun", "Un chômage de 10,8 % fin 1982", "Une hyperinflation", "La fin du dollar"], answer: 1, explain: "Le taux de la Fed est monté jusqu'à 20 % : l'inflation a reculé, mais au prix d'une forte récession." },
+        { q: "Qu'a fait la France en juin 1982 pour casser l'inflation ?", options: ["Elle a quitté l'Europe", "Elle a bloqué les prix et les salaires, puis désindexé les salaires", "Elle a imprimé des billets", "Elle a supprimé la TVA"], answer: 1, explain: "Le tournant de la rigueur : l'inflation passe de 12 % en 1982 à 3,1 % en 1988." },
+        { q: "Quel pays a fixé le premier un objectif chiffré d'inflation à sa banque centrale ?", options: ["Les États-Unis", "L'Allemagne", "La Nouvelle-Zélande", "La France"], answer: 2, explain: "Sa loi de 1989 est entrée en vigueur en 1990 ; l'objectif de 0 à 2 % a fait école." },
+        { q: "Pourquoi la déflation est-elle dangereuse ?", options: ["Elle n'est pas dangereuse", "On reporte ses achats, les entreprises vendent moins et la dette pèse plus lourd", "Elle fait monter les salaires", "Elle supprime le chômage"], answer: 1, explain: "Le Japon a connu ce piège pendant des années." },
+        { q: "Selon le FMI, qu'est-ce qui explique le plus la hausse des prix dans la zone euro entre début 2022 et début 2023 ?", options: ["Les salaires", "Les profits des entreprises (environ 45 %), puis les importations (environ 40 %)", "Les impôts", "Le tourisme"], answer: 1, explain: "Les auteurs restent prudents : une hausse des profits en euros n'est pas forcément une hausse de rentabilité." },
+        { q: "Qu'est-ce que la réduflation ?", options: ["Une baisse des taux", "Réduire la quantité d'un produit en gardant le même prix", "Une baisse des salaires", "Une réduction d'impôt"], answer: 1, explain: "Depuis le 1er juillet 2024, les magasins français doivent la signaler ; regarde le prix au kilo." }
       ],
       sources: [
         { short: "Insee", name: "Insee, indice des prix à la consommation (moyennes annuelles)", url: "https://www.insee.fr" },
-        { short: "BCE", name: "Banque centrale européenne, taux directeurs", url: "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html" }
+        { short: "BCE", name: "Banque centrale européenne, taux directeurs", url: "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html" },
+        { short: "Harvard (Bodin Project)", name: "The Bodin Project, Harvard University, « Biography of Bodin » (réponse à Malestroit, 1568)", url: "https://bodinproject.hsites.harvard.edu/biography-bodin-page-2" },
+        { short: "Wikipédia", name: "« Hyperinflation in the Weimar Republic », Wikipédia (taux de change de novembre 1923, prix du pain, Rentenmark)", url: "https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic" },
+        { short: "Cato Institute", name: "Steve H. Hanke, « Zimbabwe's Hyperinflation », Cato Institute", url: "https://clips.cato.org/sites/default/files/Hanke_bulawayo_inflation.pdf" },
+        { short: "Federal Reserve History", name: "Federal Reserve History, « Volcker's Announcement of Anti-Inflation Measures »", url: "https://www.federalreservehistory.org/essays/anti-inflation-measures" },
+        { short: "Universalis", name: "Encyclopædia Universalis, « France : un siècle de politique économique », le revirement des années 1980", url: "https://www.universalis.fr/encyclopedie/france-le-territoire-et-les-hommes-un-siecle-de-politique-economique/4-le-revirement-des-annees-1980-et-ses-suites/" },
+        { short: "Major Prépa", name: "Major Prépa, « Les années 1980 en Europe : chômage, franc fort et politique économique française »", url: "https://major-prepa.com/economie/annees-1980-europe-chomage-franc-fort-politique-economique-francaise/" },
+        { short: "BRI", name: "Banque des règlements internationaux, discours de la Banque de réserve de Nouvelle-Zélande sur les 30 ans du ciblage d'inflation (2018)", url: "https://www.bis.org/review/r180417a.pdf" },
+        { short: "BCE", name: "BCE, communiqué du 5 juin 2014 : taux de la facilité de dépôt à −0,10 %", url: "https://www.ecb.europa.eu/press/pr/date/2014/html/pr140605_3.fr.html" },
+        { short: "FMI", name: "FMI, Hansen, Toscani et Zhou, « Euro Area Inflation after the Pandemic and Energy Shock: Import Prices, Profits and Wages », document de travail 23/131, juin 2023", url: "https://www.imf.org/en/publications/wp/issues/2023/06/23/euro-area-inflation-after-the-pandemic-and-energy-shock-import-prices-profits-and-wages-534837" },
+        { short: "Gouvernement", name: "info.gouv.fr, « La réduflation encadrée à partir du 1er juillet » (2024), et UFC-Que Choisir, contrôle de l'affichage", url: "https://www.info.gouv.fr/actualite/la-reduflation-encadree-a-partir-du-1er-juillet" }
       ],
       visuals: [
-        {
-          kind: "chart",
-          type: "bar",
-          title: "L'inflation en France depuis 2015",
-          subtitle: "Hausse moyenne des prix à la consommation sur l'année",
-          xLabel: "Année",
-          unit: "Inflation (%)",
-          suffix: " %",
-          data: [["2015", 0.0], ["2016", 0.2], ["2017", 1.0], ["2018", 1.8], ["2019", 1.1], ["2020", 0.5], ["2021", 1.6], ["2022", 5.2], ["2023", 4.9], ["2024", 2.0]],
-          source: "Insee, indice des prix à la consommation"
-        }
+        { kind: "chart", type: "bar", title: "L'inflation en France depuis 2015", subtitle: "Hausse moyenne des prix à la consommation sur l'année", xLabel: "Année", unit: "Inflation (%)", suffix: " %", data: [["2015", 0], ["2016", 0.2], ["2017", 1], ["2018", 1.8], ["2019", 1.1], ["2020", 0.5], ["2021", 1.6], ["2022", 5.2], ["2023", 4.9], ["2024", 2]], source: "Insee, indice des prix à la consommation" },
+        { kind: "chart", type: "line", title: "Le taux de dépôt de la BCE", subtitle: "Taux de la facilité de dépôt après chaque grande étape", xLabel: "Date", unit: "Taux (%)", suffix: " %", data: [["Juin 2014", -0.1], ["Mars 2016", -0.4], ["Sept. 2019", -0.5], ["Juil. 2022", 0], ["Sept. 2023", 4]], source: "BCE" }
       ]
     },
     {
@@ -1512,82 +1623,153 @@ window.GEOCO = {
       emoji: "🚢",
       theme: "geo",
       title: "Ormuz, Suez, Malacca : ces passages étroits qui tiennent l'économie mondiale",
-      hook: "Quelques dizaines de kilomètres de mer suffisent à faire bondir le prix du pétrole. Voici pourquoi.",
-      minutes: 4,
+      hook: "Une boîte en métal inventée en 1956, un canal fermé huit ans avec quinze navires piégés dedans, un porte-conteneurs coincé en travers pendant six jours, une sécheresse qui bloque des bateaux au Panama : quelques dizaines de kilomètres de mer suffisent à faire bondir les prix dans le monde entier. Voici pourquoi.",
+      minutes: 20,
       piste: "verte",
       tldr: [
-        "Environ 80 % des marchandises échangées dans le monde voyagent par bateau [1].",
-        "Beaucoup de ces navires doivent passer par quelques détroits et canaux très étroits : Ormuz, Bab-el-Mandeb, Suez, Malacca, Panama.",
-        "Si l'un d'eux est bloqué ou menacé, les délais s'allongent, l'assurance et le transport coûtent plus cher, et les prix montent."
+        "Environ 80 % des marchandises échangées dans le monde voyagent par bateau [1], grâce à une invention simple : le conteneur, dont le premier voyage date du 26 avril 1956 [7].",
+        "Beaucoup de navires doivent passer par quelques détroits et canaux très étroits : Ormuz, Bab-el-Mandeb, Suez, Malacca, Panama. Environ un cinquième du pétrole mondial passait par Ormuz avant la crise de 2026 [2].",
+        "Suez a été fermé de 1967 à 1975, piégeant une « flotte jaune » de navires pendant huit ans [5] ; en mars 2021, l'Ever Given l'a bloqué six jours, retenant environ 9,6 milliards de dollars de commerce par jour [4].",
+        "Après les attaques houthies, les recettes du canal de Suez sont passées de 10,25 milliards de dollars en 2023 à environ 4 milliards en 2024 [6]. Au Panama, la sécheresse de 2023 a fait tomber le nombre de passages à 22 navires par jour [8].",
+        "Pour la Chine, environ 80 % du pétrole importé passe par le détroit de Malacca : c'est le « dilemme de Malacca », formulé par le président Hu Jintao en 2003 [9]."
       ],
       sections: [
+        {
+          title: "La boîte qui a fait la mondialisation",
+          paragraphs: [
+            "Avant les années 1950, charger un navire était un travail énorme : des dockers portaient sacs, caisses et tonneaux un par un. Un bateau pouvait rester une semaine au port. Le transport coûtait si cher qu'il valait rarement la peine de produire loin de ses clients.",
+            "Un transporteur routier américain, ==Malcom McLean==, a une idée simple : mettre la marchandise dans de grandes boîtes standard qu'on pose telles quelles sur un camion, un train ou un bateau. Le ==26 avril 1956==, son navire Ideal-X quitte Newark, près de New York, pour Houston avec ==58 conteneurs== à bord [7]. À l'arrivée, 58 camions les emportent directement [7].",
+            "Le coût de chargement s'effondre : McLean calcule qu'il fallait environ 5,8 dollars par tonne pour charger un navire à la main en 1956, et une fraction de ce prix avec les conteneurs [7]. Les ports se transforment, les dockers disparaissent par milliers, et il devient rentable de fabriquer un téléphone en Asie pour le vendre en Europe.",
+            "C'est pourquoi on dit souvent que ==la mondialisation tient dans une boîte==. Aujourd'hui, environ 80 % des marchandises échangées dans le monde, en volume, voyagent par la mer [1], et une grande partie dans des conteneurs. Mais cette efficacité a une faiblesse : tout passe par les mêmes routes, et ces routes ont des goulets d'étranglement."
+          ]
+        },
+        {
+          title: "Qu'est-ce qu'un « point de passage obligé » ?",
+          paragraphs: [
+            "Les spécialistes parlent de ==« chokepoints »== (points d'étranglement) : des passages étroits que les navires doivent emprunter, faute de quoi ils font un immense détour. Il peut s'agir de détroits naturels (Ormuz, Malacca, Bab-el-Mandeb, Gibraltar, le Bosphore) ou de canaux creusés par l'homme (Suez, Panama).",
+            "Ils sont dangereux pour trois raisons. ==Un accident== peut les bloquer (un navire échoué). ==Un conflit== peut les fermer ou les rendre trop risqués (mines, missiles, piraterie). ==Le climat== peut les rendre impraticables (sécheresse, glaces). Dans chaque cas, les navires attendent ou font le tour, et cela coûte cher.",
+            "Le coût ne se limite pas au carburant. Il faut payer ==les équipages== plus longtemps, ==l'assurance== monte dans les zones de guerre, des ==conteneurs vides== se retrouvent bloqués au mauvais endroit, et les usines qui attendent des pièces doivent ralentir. Au bout de la chaîne, ce sont les prix en magasin qui montent.",
+            "Les marchés réagissent souvent ==avant même le blocage==. La simple menace de fermer Ormuz suffit à faire monter le prix du baril, car les acheteurs se couvrent contre le risque."
+          ]
+        },
         {
           title: "Le détroit d'Ormuz, le robinet du pétrole",
           paragraphs: [
             "Entre l'Iran et la péninsule arabique, le détroit d'Ormuz voit passer environ un cinquième du pétrole consommé dans le monde [2], venu d'Arabie saoudite, d'Irak, des Émirats, du Koweït ou du Qatar (pour le gaz).",
             "La moindre tension dans la région fait réagir les marchés : même sans blocage réel, la simple menace suffit à faire grimper le prix du baril.",
-            "En 2026, le scénario redouté est devenu réalité : après les frappes américaines et israéliennes contre l'Iran, Téhéran a bloqué le détroit pendant des mois. Le baril a dépassé 100 dollars et le gazole a battu des records en Europe [3]."
+            "En 2026, le scénario redouté est devenu réalité : après les frappes américaines et israéliennes contre l'Iran, Téhéran a bloqué le détroit pendant des mois. Le baril a dépassé 100 dollars et le gazole a battu des records en Europe [3].",
+            "Il existe quelques contournements : l'Arabie saoudite a un oléoduc vers la mer Rouge, les Émirats un autre vers le port de Fujaïrah, qui débouche après le détroit. Mais leur capacité ne suffit pas à remplacer tout le trafic d'Ormuz [2]. C'est pourquoi la plupart des pays riches gardent des ==stocks stratégiques de pétrole== (voir notre article sur les réserves stratégiques)."
           ]
         },
         {
-          title: "La mer Rouge et le canal de Suez",
+          title: "Suez : un canal, trois crises",
           paragraphs: [
-            "Le canal de Suez, en Égypte, relie la Méditerranée à la mer Rouge : c'est le raccourci entre l'Europe et l'Asie. Pour y accéder par le sud, il faut passer le détroit de Bab-el-Mandeb, au large du Yémen.",
-            "Fin 2023, les rebelles houthis du Yémen ont commencé à attaquer des navires marchands. Beaucoup d'armateurs ont préféré contourner l'Afrique par le cap de Bonne-Espérance, soit environ 10 à 14 jours de trajet en plus."
+            "Le canal de Suez, en Égypte, relie la Méditerranée à la mer Rouge depuis 1869 : c'est le raccourci entre l'Europe et l'Asie, qui évite le tour de l'Afrique. Pour y accéder par le sud, il faut passer le détroit de Bab-el-Mandeb, au large du Yémen.",
+            "==Juillet 1956== : le président égyptien Gamal Abdel Nasser nationalise le canal, jusque-là exploité par une compagnie franco-britannique. La France, le Royaume-Uni et Israël attaquent l'Égypte, mais doivent se retirer sous la pression des États-Unis et de l'URSS [10]. C'est la fin de l'époque où Londres et Paris pouvaient agir seuls au Moyen-Orient.",
+            "==Juin 1967== : pendant la guerre des Six Jours, l'Égypte ferme le canal. Il le restera ==huit ans, jusqu'en juin 1975== [5]. Une quinzaine de navires marchands restent piégés dans le Grand Lac Amer, au milieu du canal. Couverts de sable, on les surnomme la ==« flotte jaune »==. Leurs équipages s'organisent, créent une association, un club de voile et même des « Jeux olympiques » en 1968 [5]. Seuls deux navires repartent par leurs propres moyens en 1975 [5].",
+            "Pendant ces huit ans, le monde s'adapte : les compagnies pétrolières construisent des ==supertankers==, trop gros pour Suez, qui font le tour de l'Afrique de façon rentable. Une crise peut ainsi changer durablement la forme du commerce."
           ]
         },
         {
-          title: "Malacca et Panama",
+          title: "Mars 2021 : six jours avec l'Ever Given en travers",
+          paragraphs: [
+            "Le ==23 mars 2021==, par vent fort, le porte-conteneurs Ever Given, long de 400 mètres, s'échoue en travers du canal de Suez. Plus rien ne passe. Il faut six jours de dragage et de remorquage pour le libérer, le ==29 mars== [4].",
+            "Pendant ce temps, plus de 300 navires font la queue de part et d'autre du canal [4]. Selon les estimations, environ ==9,6 milliards de dollars de marchandises par jour== sont retenus [4]. Certains armateurs décident de faire le tour de l'Afrique.",
+            "Les effets durent bien plus que six jours : les navires arrivent tous en même temps dans les ports européens, qui saturent, et des conteneurs manquent en Asie. Dans un monde de ==« flux tendus »==, où les entreprises gardent très peu de stocks, un seul navire suffit à désorganiser des usines sur plusieurs continents.",
+            "L'image du géant bloqué par un banc de sable est devenue le symbole de la ==fragilité des chaînes d'approvisionnement== mondiales, juste au moment où le Covid les avait déjà fragilisées."
+          ],
+          plain: {
+            title: "comment un navire échoué fait monter un prix",
+            steps: [
+              "L'Ever Given bloque Suez pendant six jours ; des centaines de navires attendent [4].",
+              "Les conteneurs arrivent en retard en Europe, puis tous en même temps : les ports saturent.",
+              "Des conteneurs vides restent coincés en Europe alors que l'Asie en manque : le prix d'un transport de conteneur grimpe.",
+              "Les entreprises paient plus cher le transport et répercutent une partie sur leurs prix de vente."
+            ]
+          }
+        },
+        {
+          title: "La mer Rouge depuis 2023 : le grand détour",
+          paragraphs: [
+            "Fin 2023, en lien avec la guerre à Gaza, les rebelles houthis du Yémen commencent à attaquer des navires marchands en mer Rouge avec des missiles et des drones. Entre novembre 2023 et janvier 2024, plus de 100 navires sont visés, deux sont coulés et quatre marins tués [6].",
+            "Beaucoup d'armateurs préfèrent contourner l'Afrique par le cap de Bonne-Espérance, soit environ 10 à 14 jours de trajet en plus. En 2024, le canal de Suez n'est plus emprunté que par environ 13 200 navires, ==deux fois moins qu'en 2023== [6].",
+            "Pour l'Égypte, c'est un choc : le canal est l'une de ses principales sources de devises. Ses recettes passent ==de 10,25 milliards de dollars en 2023, un record, à environ 4 milliards en 2024== [6]. Un pays qui n'est pas en guerre perd ainsi plus de la moitié d'une ressource vitale à cause d'un conflit voisin.",
+            "Cette crise montre que le contrôle d'un point de passage n'appartient pas seulement aux États : ==un groupe armé non étatique, avec des moyens limités, peut perturber le commerce mondial==."
+          ]
+        },
+        {
+          title: "Malacca : le dilemme chinois",
           paragraphs: [
             "Le détroit de Malacca, entre la Malaisie et l'Indonésie, est la grande autoroute entre l'océan Indien et le Pacifique. Une large part du commerce et du pétrole à destination de la Chine, du Japon et de la Corée y transite.",
-            "Le canal de Panama, lui, fonctionne grâce à de l'eau douce venue d'un lac. Lors de la sécheresse de 2023, les autorités ont dû limiter le nombre de passages : une preuve que le climat aussi peut perturber le commerce."
+            "Le ==29 novembre 2003==, le président chinois Hu Jintao s'inquiète devant les dirigeants du Parti : environ ==quatre cinquièmes du pétrole importé par la Chine passent par ce détroit== [9]. Si une puissance hostile, en pratique la marine américaine, le fermait en cas de crise (autour de Taïwan, par exemple), la Chine pourrait manquer d'énergie. La presse appelle ce problème le ==« dilemme de Malacca »== [9].",
+            "Depuis, la Chine cherche des parades : oléoducs et gazoducs depuis la Russie, l'Asie centrale et la Birmanie, ports en eau profonde au Pakistan (Gwadar) et ailleurs dans le cadre des « Nouvelles routes de la soie », réserves stratégiques de pétrole, et une marine de guerre en forte croissance.",
+            "Malacca montre qu'un détroit n'est pas seulement un enjeu économique : c'est ==un levier de puissance==. Celui qui peut le fermer, ou le protéger, pèse sur la stratégie des autres."
+          ]
+        },
+        {
+          title: "Panama : quand le climat ferme un canal",
+          paragraphs: [
+            "Le canal de Panama, ouvert en 1914, relie l'Atlantique au Pacifique. Contrairement à Suez, il n'est pas au niveau de la mer : les navires montent et descendent par des écluses, qui fonctionnent avec ==l'eau douce du lac Gatún==. Chaque passage vide une grande quantité d'eau du lac vers la mer.",
+            "En 2023, une sécheresse aggravée par le phénomène climatique El Niño fait baisser le niveau du lac. L'autorité du canal doit limiter le nombre de navires et leur chargement : en novembre 2023, il ne passe plus que ==22 navires par jour==, alors qu'un jour normal peut en voir une quarantaine [8].",
+            "Des navires attendent des semaines, certains paient très cher aux enchères pour passer plus tôt, d'autres font le détour par Suez ou le cap Horn. ==Une preuve que le climat aussi peut perturber le commerce mondial==. En 2026, avec un nouvel épisode El Niño, l'autorité a de nouveau réduit les passages, à 32 par jour en septembre [8].",
+            "Le Panama étudie la création d'un nouveau réservoir pour sécuriser l'eau du canal. Mais il faut aussi de l'eau pour les habitants : ==le commerce mondial et l'eau potable entrent en concurrence==."
+          ]
+        },
+        {
+          title: "Qui contrôle les mers ?",
+          paragraphs: [
+            "Depuis 1945, c'est surtout ==la marine américaine== qui garantit la libre circulation sur les grandes routes maritimes, avec des flottes déployées en Méditerranée, dans le Golfe et dans le Pacifique. Les pays qui commercent profitent de cette sécurité, souvent sans la payer.",
+            "Cette situation change. La ==Chine== a fortement agrandi sa marine et développe des ports le long de ses routes commerciales. L'==Inde== surveille l'océan Indien. Des pays comme la ==France== ou le Royaume-Uni gardent des bases et des missions de protection, comme l'opération européenne Aspides en mer Rouge à partir de 2024.",
+            "Le droit compte aussi. La ==Convention des Nations unies sur le droit de la mer== (1982) garantit le « passage en transit » des navires dans les détroits internationaux, même s'ils traversent les eaux d'un État. Mais certains pays, comme l'Iran pour Ormuz, n'ont pas ratifié ce texte et contestent cette lecture.",
+            "Retiens que ==la mer est libre tant que quelqu'un la protège==. Quand les puissances se disputent, les points de passage deviennent les premiers terrains de pression."
+          ]
+        },
+        {
+          title: "Demain : nouvelles routes, nouveaux risques",
+          paragraphs: [
+            "Avec le réchauffement climatique, la glace de l'Arctique fond l'été, et une ==route maritime du Nord== le long des côtes russes devient praticable une partie de l'année. Elle raccourcit fortement le trajet entre l'Asie et l'Europe, mais elle est contrôlée par la Russie, coûteuse (brise-glace, assurances) et risquée pour l'environnement.",
+            "Les pays et les entreprises cherchent aussi à ==réduire leur dépendance aux goulets== : relocaliser une partie de la production (« nearshoring »), multiplier les fournisseurs, garder plus de stocks, développer le rail entre la Chine et l'Europe. Ces solutions coûtent plus cher que le « tout en flux tendu » d'avant 2020.",
+            "Enfin, ==les câbles sous-marins== qui transportent internet suivent souvent les mêmes routes et passent par les mêmes détroits (voir notre article sur les câbles sous-marins). Un point de passage n'est donc pas seulement une route pour les marchandises : c'est aussi une route pour les données."
           ]
         }
       ],
-      forMe: "Quand un détroit est menacé, le prix du plein d'essence peut monter en quelques jours. Et quand les cargos font le tour de l'Afrique, certains produits importés d'Asie arrivent plus tard et plus cher.",
+      forMe: "Quand tu vois le prix de l'essence ou d'un produit importé bondir, regarde la carte : une crise dans un détroit lointain peut en être la cause. Et quand une entreprise annonce des retards de livraison, demande-toi par quel passage ses marchandises devaient passer.",
       figures: [
         { value: "≈ 80 %", label: "du commerce mondial (en volume) se fait par la mer", src: 1 },
         { value: "≈ 1/5", label: "du pétrole mondial passait par Ormuz avant 2026", src: 2 },
-        { value: "+10 à 14 j", label: "pour contourner l'Afrique au lieu de Suez" }
+        { value: "8 ans", label: "de fermeture du canal de Suez, de 1967 à 1975", src: 5 },
+        { value: "≈ 9,6 Md$", label: "de commerce retenu chaque jour par l'Ever Given en mars 2021", src: 4 },
+        { value: "10,25 → ≈ 4 Md$", label: "recettes du canal de Suez en 2023, puis en 2024", src: 6 },
+        { value: "≈ 80 %", label: "du pétrole importé par la Chine passe par Malacca (« dilemme de Malacca »)", src: 9 }
       ],
       terms: ["detroit", "chaine-appro", "opep", "mondialisation"],
       quiz: [
-        {
-          q: "Quel détroit est surnommé « le robinet du pétrole mondial » ?",
-          options: ["Gibraltar", "Ormuz", "Le Bosphore", "La Manche"],
-          answer: 1,
-          explain: "Environ un cinquième du pétrole consommé dans le monde passe par le détroit d'Ormuz, entre l'Iran et la péninsule arabique."
-        },
-        {
-          q: "Pourquoi de nombreux navires ont-ils évité la mer Rouge à partir de fin 2023 ?",
-          options: ["Le canal de Suez était fermé pour travaux", "À cause d'attaques des Houthis du Yémen", "À cause d'une sécheresse", "Parce que l'Égypte avait doublé les tarifs"],
-          answer: 1,
-          explain: "Les attaques des Houthis contre des navires marchands ont poussé beaucoup d'armateurs à contourner l'Afrique, plus long mais plus sûr."
-        }
+        { q: "Quel détroit est surnommé « le robinet du pétrole mondial » ?", options: ["Gibraltar", "Ormuz", "Malacca", "Le Bosphore"], answer: 1, explain: "Environ un cinquième du pétrole consommé dans le monde y passait avant la crise de 2026." },
+        { q: "Pourquoi de nombreux navires ont-ils évité la mer Rouge à partir de fin 2023 ?", options: ["À cause de la glace", "À cause des attaques des rebelles houthis", "Le canal était en travaux", "Les droits de passage avaient doublé"], answer: 1, explain: "Ils ont préféré contourner l'Afrique, soit 10 à 14 jours de trajet en plus." },
+        { q: "Quelle invention de 1956 a fait chuter le coût du transport maritime ?", options: ["Le moteur diesel", "Le conteneur", "Le GPS", "Le radar"], answer: 1, explain: "Le 26 avril 1956, l'Ideal-X de Malcom McLean emporte 58 conteneurs de Newark à Houston." },
+        { q: "Combien de temps le canal de Suez est-il resté fermé après la guerre des Six Jours ?", options: ["Six jours", "Six mois", "Huit ans", "Vingt ans"], answer: 2, explain: "De juin 1967 à juin 1975 ; une quinzaine de navires, la « flotte jaune », y sont restés piégés." },
+        { q: "Combien de temps l'Ever Given a-t-il bloqué Suez en 2021 ?", options: ["Six heures", "Six jours", "Six semaines", "Six mois"], answer: 1, explain: "Du 23 au 29 mars 2021 ; environ 9,6 milliards de dollars de commerce retenus par jour." },
+        { q: "Que sont devenues les recettes du canal de Suez en 2024 ?", options: ["Elles ont doublé", "Elles sont passées d'environ 10 à environ 4 milliards de dollars", "Elles n'ont pas changé", "Le canal est devenu gratuit"], answer: 1, explain: "Le nombre de navires a été divisé par deux à cause des attaques en mer Rouge." },
+        { q: "Qu'est-ce que le « dilemme de Malacca » ?", options: ["Un problème de pêche", "La dépendance de la Chine à un détroit par où passe environ 80 % de son pétrole importé", "Un conflit entre la Malaisie et l'Indonésie", "Une route pour l'Arctique"], answer: 1, explain: "Formulé par Hu Jintao en 2003 : la Chine cherche depuis des routes de contournement." },
+        { q: "Pourquoi le canal de Panama a-t-il dû limiter les passages en 2023 ?", options: ["Une grève", "Une sécheresse qui a fait baisser le lac qui alimente les écluses", "Une guerre", "Un navire échoué"], answer: 1, explain: "En novembre 2023, il ne passait plus que 22 navires par jour." }
       ],
       sources: [
         { short: "CNUCED", name: "CNUCED, Review of Maritime Transport", url: "https://unctad.org/topic/transport-and-trade-logistics/review-of-maritime-transport" },
         { short: "EIA", name: "Agence américaine d'information sur l'énergie, « World Oil Transit Chokepoints »", url: "https://www.eia.gov/international/analysis/special-topics/World_Oil_Transit_Chokepoints" },
-        { short: "House of Commons Library", name: "House of Commons Library, crise d'Ormuz 2026", url: "https://commonslibrary.parliament.uk/research-briefings/cbp-10636/" }
+        { short: "House of Commons Library", name: "House of Commons Library, crise d'Ormuz 2026", url: "https://commonslibrary.parliament.uk/research-briefings/cbp-10636/" },
+        { short: "Port Economics", name: "Port Economics, Management and Policy, « Blockage of the Suez Canal, March 2021 »", url: "https://porteconomicsmanagement.org/suez-canal-blockage-2021/" },
+        { short: "IMarEST", name: "IMarEST (Institute of Marine Engineering, Science and Technology), « The Suez Great Bitter Lake saga »", url: "https://www.imarest.org/resource/the-suez-great-bitter-lake-saga.html" },
+        { short: "Euronews", name: "Euronews, « Egypt's Suez Canal revenue fell sharply in 2024 on regional tensions », 17 avril 2025", url: "https://www.euronews.com/2025/04/17/egypts-suez-canal-revenue-fell-sharply-in-2024-on-regional-tensions" },
+        { short: "Transport Geography", name: "The Geography of Transport Systems, « First Containership, Ideal-X, 1956 »", url: "https://transportgeography.org/contents/chapter1/the-setting-of-global-transportation-systems/idealx-first-containeriship-1956/" },
+        { short: "Maritime Executive", name: "The Maritime Executive, « Panama Canal Begins Reducing Daily Transits Due to Declining Water Levels », et MercoPress, 31 août 2026", url: "https://maritime-executive.com/article/panama-canal-begins-reducing-daily-transits-due-to-declining-water-levels" },
+        { short: "ISDP", name: "Institute for Security and Development Policy, « Alleviating China's Malacca Dilemma »", url: "https://www.isdp.eu/alleviating-chinas-malacca-dilemma/" },
+        { short: "Britannica", name: "Encyclopædia Britannica, « Suez Crisis »", url: "https://www.britannica.com/event/Suez-Crisis" }
       ],
       visuals: [
-        {
-          kind: "map",
-          title: "Les passages qui tiennent le commerce mondial",
-          intro: "Touche un passage pour zoomer dessus.",
-          points: [
-            { name: "Ormuz", coords: [56.4, 26.5], zoom: 10, text: "Entre l'Iran et Oman. Environ un cinquième du pétrole consommé dans le monde y passait avant la crise de 2026 (EIA)." },
-            { name: "Bab-el-Mandeb", coords: [43.33, 12.6], zoom: 10, text: "Entre le Yémen et Djibouti, l'entrée sud de la mer Rouge. Zone des attaques houthies depuis fin 2023." },
-            { name: "Suez", coords: [32.35, 30.6], zoom: 10, text: "Le canal égyptien relie la Méditerranée à la mer Rouge : le raccourci entre l'Europe et l'Asie." },
-            { name: "Cap de Bonne-Espérance", coords: [18.47, -34.36], zoom: 16, text: "Le détour par le sud de l'Afrique quand la mer Rouge est trop dangereuse : environ 10 à 14 jours de mer en plus." },
-            { name: "Malacca", coords: [100.9, 2.6], zoom: 14, text: "Entre la Malaisie et l'Indonésie : l'autoroute entre l'océan Indien et le Pacifique, vitale pour la Chine, le Japon et la Corée." },
-            { name: "Panama", coords: [-79.7, 9.1], zoom: 10, text: "Le canal relie l'Atlantique au Pacifique. Il fonctionne avec l'eau douce du lac Gatún : la sécheresse de 2023 a forcé à limiter les passages." }
-          ],
-          source: "EIA ; CNUCED"
-        }
+        { kind: "map", title: "Les passages qui tiennent le commerce mondial", intro: "Touche un passage pour zoomer dessus.", points: [{ name: "Ormuz", coords: [56.4, 26.5], zoom: 10, text: "Entre l'Iran et Oman. Environ un cinquième du pétrole consommé dans le monde y passait avant la crise de 2026 (EIA)." }, { name: "Bab-el-Mandeb", coords: [43.33, 12.6], zoom: 10, text: "Entre le Yémen et Djibouti, l'entrée sud de la mer Rouge. Zone des attaques houthies depuis fin 2023." }, { name: "Suez", coords: [32.35, 30.6], zoom: 10, text: "Le canal égyptien relie la Méditerranée à la mer Rouge : le raccourci entre l'Europe et l'Asie. Fermé de 1967 à 1975, bloqué six jours en mars 2021." }, { name: "Cap de Bonne-Espérance", coords: [18.47, -34.36], zoom: 16, text: "Le détour par le sud de l'Afrique quand la mer Rouge est trop dangereuse : environ 10 à 14 jours de mer en plus." }, { name: "Malacca", coords: [100.9, 2.6], zoom: 14, text: "Entre la Malaisie et l'Indonésie : l'autoroute entre l'océan Indien et le Pacifique ; environ 80 % du pétrole importé par la Chine y passe." }, { name: "Panama", coords: [-79.7, 9.1], zoom: 10, text: "Le canal relie l'Atlantique au Pacifique. Il fonctionne avec l'eau douce du lac Gatún : la sécheresse de 2023 a forcé à limiter les passages à 22 par jour." }, { name: "Newark", coords: [-74.15, 40.69], zoom: 10, text: "Le 26 avril 1956, l'Ideal-X part d'ici avec 58 conteneurs : le début du transport par conteneurs." }], source: "EIA ; CNUCED ; autorités des canaux" },
+        { kind: "chart", type: "bar", title: "Suez a perdu plus de la moitié de ses recettes", subtitle: "Recettes annuelles du canal de Suez, en milliards de dollars", xLabel: "Année", unit: "Milliards de dollars", suffix: " Md$", data: [["2023", 10.25], ["2024", 3.99]], source: "Autorité du canal de Suez, via Euronews" }
       ]
     },
-
     {
       id: "semi-conducteurs",
       plus: true, // cours d'approfondissement : réservé à Geonomix+
