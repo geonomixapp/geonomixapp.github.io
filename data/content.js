@@ -2077,75 +2077,141 @@ window.GEOCO = {
       emoji: "💵",
       theme: "eco",
       title: "Pourquoi le dollar domine le monde",
-      hook: "Le pétrole se vend en dollars, les banques centrales stockent des dollars… Comment une monnaie nationale est devenue la monnaie de la planète ?",
-      minutes: 3,
+      hook: "Le pétrole se vend en dollars, les banques centrales stockent des dollars, 88 % des échanges de devises passent par le dollar… Comment le nom d'une pièce d'argent de Bohême est devenu la monnaie de la planète ? De la pièce de huit espagnole au « privilège exorbitant », du coup de poker de Nixon en 1971 à la ruée des banques centrales vers l'or.",
+      minutes: 20,
       piste: "bleue",
       tldr: [
-        "Le dollar est la principale monnaie de réserve : près de 60 % des réserves de change des banques centrales sont en dollars [1].",
-        "Cette domination remonte aux accords de Bretton Woods (1944), qui ont placé le dollar au centre du système monétaire mondial.",
-        "Elle donne aux États-Unis un « privilège exorbitant » : emprunter moins cher et pouvoir sanctionner d'autres pays via leur système financier."
+        "Le dollar est la principale monnaie de réserve : près de 60 % des réserves de change des banques centrales sont en dollars [1]. Il est d'un côté de 88 % de toutes les opérations de change dans le monde [2].",
+        "Son nom vient du « thaler », une pièce d'argent frappée à partir de 1519-1520 à Joachimsthal, en Bohême [3]. Avant d'être américain, le « dollar » désignait la pièce de huit réaux espagnole.",
+        "Sa domination remonte aux accords de Bretton Woods (1944). En 1965, de Gaulle réclame un retour à l'or [4] ; le 15 août 1971, Nixon suspend la convertibilité du dollar en or [5].",
+        "Elle donne aux États-Unis un « privilège exorbitant » : emprunter moins cher et pouvoir sanctionner d'autres pays via leur système financier.",
+        "Les banques centrales achètent plus de 1 000 tonnes d'or par an depuis 2022 [6], et le dollar a connu au premier semestre 2025 son pire début d'année depuis 1973 [7]. Mais aucune monnaie ne peut encore le remplacer."
       ],
       sections: [
         {
-          title: "Une histoire qui commence en 1944",
+          title: "D'une mine de Bohême à la pièce de huit",
           paragraphs: [
-            "À la fin de la Seconde Guerre mondiale, 44 pays se réunissent à Bretton Woods, aux États-Unis. Ils décident que leurs monnaies seront rattachées au dollar, lui-même convertible en or.",
-            "En 1971, le président Nixon met fin à la convertibilité du dollar en or. Mais l'habitude est prise : le dollar reste la monnaie de référence pour le commerce et la finance."
+            "Le mot ==« dollar »== vient d'une petite ville minière de Bohême, aujourd'hui en République tchèque : Joachimsthal (Jáchymov). Au début du XVIe siècle, on y frappe de grosses pièces d'argent tirées des mines locales, les ==« Joachimsthaler »==, vite abrégées en ==« thaler »== [3]. Le mot passe dans les langues voisines : « daler », puis « dollar » en anglais vers 1600 [3].",
+            "Les colons anglais d'Amérique appellent ensuite « dollar » une autre pièce, alors la plus répandue au monde : ==la pièce de huit réaux espagnole==, frappée avec l'argent des mines du Mexique et du Pérou [3]. On la coupait parfois en huit morceaux pour faire la monnaie, d'où l'expression « pièces de huit ».",
+            "Quand les États-Unis créent leur monnaie en 1792, ils reprennent ce nom familier. Ironie de l'histoire : ==la monnaie qui domine le monde porte le nom d'une pièce européenne et a commencé sa vie en imitant une monnaie espagnole==.",
+            "Avant 1914, ce n'est pourtant pas le dollar qui règne, mais ==la livre sterling==, monnaie de la première puissance commerciale et financière, le Royaume-Uni. Les États-Unis n'ont même pas de banque centrale avant la création de la Réserve fédérale, en 1913."
           ]
         },
         {
-          title: "Le « privilège exorbitant »",
+          title: "1944 : Bretton Woods, le dollar au centre",
           paragraphs: [
-            "L'expression vient du ministre français Valéry Giscard d'Estaing dans les années 1960. Comme tout le monde a besoin de dollars, les États-Unis peuvent s'endetter à moindre coût et financer leurs déficits plus facilement.",
-            "Autre avantage : presque tous les paiements en dollars passent, à un moment, par des banques américaines. Cela donne à Washington un levier puissant pour sanctionner des pays ou des entreprises."
+            "À la fin de la Seconde Guerre mondiale, 44 pays se réunissent à Bretton Woods, aux États-Unis. Ils décident que leurs monnaies seront rattachées au dollar, lui-même convertible en or.",
+            "Deux plans s'affrontent. Le Britannique ==John Maynard Keynes== propose une monnaie internationale nouvelle, le « bancor », gérée par une banque mondiale, pour qu'aucun pays ne soit avantagé. L'Américain ==Harry Dexter White== veut placer le dollar au centre. Les États-Unis, qui détiennent alors l'essentiel de l'or du monde et sortent de la guerre en créanciers de tous, imposent leur plan.",
+            "Le système fonctionne ainsi : ==35 dollars = une once d'or==, et les autres monnaies ont un taux fixe par rapport au dollar. Les banques centrales gardent donc leurs réserves en dollars, qu'elles peuvent en principe échanger contre de l'or auprès des États-Unis. Bretton Woods crée aussi le FMI et la Banque mondiale.",
+            "Pendant vingt-cinq ans, ce système accompagne la plus forte croissance de l'histoire de l'Europe et du Japon. Mais il repose sur une promesse fragile : que les États-Unis aient toujours assez d'or pour tous les dollars en circulation."
+          ]
+        },
+        {
+          title: "Le « privilège exorbitant » et la colère de De Gaulle",
+          paragraphs: [
+            "L'expression vient du ministre français Valéry Giscard d'Estaing dans les années 1960, inspiré par l'économiste Jacques Rueff [4]. Comme tout le monde a besoin de dollars, les États-Unis peuvent s'endetter à moindre coût et financer leurs déficits plus facilement.",
+            "Autre avantage : presque tous les paiements en dollars passent, à un moment, par des banques américaines. Cela donne à Washington un levier puissant pour sanctionner des pays ou des entreprises.",
+            "En 1960, l'économiste belge Robert Triffin met le doigt sur une contradiction, le ==« dilemme de Triffin »== : pour que le monde ait assez de dollars, les États-Unis doivent en émettre toujours plus, donc dépenser plus qu'ils ne gagnent à l'étranger ; mais plus il y a de dollars dehors, moins on croit que l'or suffira à les rembourser.",
+            "Le ==4 février 1965==, lors d'une conférence de presse, le général ==de Gaulle== réclame un retour progressif à l'or comme base du système monétaire international, car l'or n'appartient à aucun pays [4]. La France convertit une partie de ses dollars en or et rapatrie son or de New York [4]. Le Trésor américain répond le jour même que l'étalon-or s'était « effondré » en 1931 [4]."
+          ],
+          plain: {
+            title: "le dilemme de Triffin",
+            steps: [
+              "Le commerce mondial grandit : les pays ont besoin de plus de dollars pour leurs réserves et leurs échanges.",
+              "Pour fournir ces dollars, les États-Unis doivent en envoyer plus à l'étranger qu'ils n'en reçoivent : ils sont en déficit.",
+              "Les dollars à l'étranger finissent par dépasser l'or que les États-Unis possèdent.",
+              "Les pays commencent à douter et réclament de l'or, comme la France en 1965 [4] : le système craque."
+            ]
+          }
+        },
+        {
+          title: "15 août 1971 : « notre monnaie, votre problème »",
+          paragraphs: [
+            "Dans les années 1960, les dépenses de la guerre du Vietnam et des programmes sociaux gonflent les déficits américains. Les réserves d'or fondent. En août 1971, le Royaume-Uni demande à son tour une garantie sur ses dollars [5].",
+            "Le dimanche ==15 août 1971== au soir, le président ==Richard Nixon== annonce à la télévision la ==suspension de la convertibilité du dollar en or==, ainsi qu'un gel des prix et des salaires et une surtaxe sur les importations [5]. C'est le « choc Nixon » : la promesse de Bretton Woods est rompue unilatéralement.",
+            "Quelques mois plus tard, face aux Européens furieux, le secrétaire au Trésor ==John Connally== aurait lancé une phrase restée célèbre : ==« Le dollar est notre monnaie, mais c'est votre problème »== [5]. Elle résume l'attitude américaine : les variations du dollar sont décidées à Washington, et c'est au reste du monde de s'adapter.",
+            "En 1973, les grandes monnaies se mettent à ==flotter== librement les unes par rapport aux autres. On aurait pu croire que le dollar, désormais sans or derrière lui, perdrait sa place. Le contraire se produit : l'habitude est prise, et ==le dollar reste la monnaie de référence pour le commerce et la finance==. La même année, le choc pétrolier et l'accord avec l'Arabie saoudite font du dollar la monnaie du pétrole (voir notre article sur le pétrodollar)."
+          ]
+        },
+        {
+          title: "Pourquoi tout le monde garde des dollars",
+          paragraphs: [
+            "Une monnaie domine quand elle remplit trois rôles à l'échelle mondiale : ==moyen d'échange== (on paie en dollars), ==unité de compte== (on fixe les prix en dollars : pétrole, blé, cuivre, avions) et ==réserve de valeur== (on garde ses économies en dollars). Le dollar coche les trois cases.",
+            "Les chiffres le montrent. Fin 2024, environ ==58 % des réserves de change== déclarées des banques centrales sont en dollars, contre environ 20 % pour l'euro [1]. Et le dollar est ==d'un côté de 88 % de toutes les opérations de change== dans le monde, une part stable depuis dix ans [2] : pour échanger des pesos contre des wons, on passe souvent par le dollar.",
+            "Pourquoi ? Les États-Unis offrent ce que personne d'autre n'offre à la même échelle : ==le plus grand marché de dettes publiques du monde==, très liquide (on peut acheter et revendre des milliards en quelques minutes), une monnaie librement échangeable, un État de droit, une armée puissante, et l'habitude. ==Plus une monnaie est utilisée, plus elle est utile== : c'est un effet de réseau, comme pour une langue ou un réseau social.",
+            "Certains pays vont jusqu'à adopter le dollar comme monnaie officielle, comme l'Équateur en 2000 ou le Salvador en 2001, après des crises qui avaient ruiné la confiance dans leur propre monnaie."
+          ],
+          example: {
+            title: "Un échange qui passe par le dollar",
+            text: "Une entreprise chilienne veut payer un fournisseur coréen. Le marché direct entre pesos chiliens et wons coréens est petit et cher. Elle convertit donc ses pesos en dollars, puis les dollars en wons. Le dollar sert de « langue commune » : c'est pour cela qu'il apparaît dans 88 % des échanges de devises [2]."
+          }
+        },
+        {
+          title: "Le revers du privilège",
+          paragraphs: [
+            "Le rôle mondial du dollar n'a pas que des avantages pour les États-Unis. La forte demande de dollars ==renchérit la monnaie américaine==, ce qui pénalise les exportations des entreprises américaines et favorise les importations : certains économistes y voient une cause du déclin industriel américain.",
+            "Pour le reste du monde, ==les décisions de la Fed deviennent des décisions mondiales==. Quand la Fed monte ses taux, le dollar monte, les capitaux quittent les pays émergents, et les pays endettés en dollars voient leur dette s'alourdir. La crise de la dette latino-américaine de 1982, après le choc Volcker, en est l'exemple classique (voir notre article sur la Reaganomics).",
+            "Le dollar fort a parfois été jugé trop fort par les États-Unis eux-mêmes : le ==22 septembre 1985==, aux accords du Plaza à New York, les grands pays s'entendent pour faire baisser le dollar."
+          ]
+        },
+        {
+          title: "L'arme du dollar",
+          paragraphs: [
+            "Parce que presque toutes les transactions en dollars passent par des banques américaines, les États-Unis peuvent ==couper un pays, une entreprise ou une personne du système financier mondial==. Une banque étrangère qui travaille avec un pays sanctionné par Washington risque d'être elle-même sanctionnée (voir notre cours sur les sanctions).",
+            "Cette arme a été utilisée contre l'Iran, la Corée du Nord, le Venezuela et, à une échelle inédite, contre la Russie en 2022 : les réserves de la banque centrale russe placées en Occident ont été gelées. Le message a été entendu dans le monde entier : ==des réserves en dollars peuvent devenir inutilisables du jour au lendemain== si l'on se brouille avec Washington.",
+            "C'est là le paradoxe : ==plus les États-Unis utilisent le dollar comme arme, plus ils incitent les autres à chercher des alternatives==."
           ]
         },
         {
           title: "La fin du dollar roi ?",
           paragraphs: [
             "La Chine, la Russie et d'autres pays des BRICS cherchent à commercer davantage dans leurs propres monnaies, notamment pour échapper aux sanctions américaines. Certaines banques centrales achètent aussi beaucoup d'or.",
-            "Mais remplacer le dollar est difficile : il faut une monnaie librement échangeable, des marchés financiers immenses et la confiance des investisseurs. Pour l'instant, aucune alternative ne réunit tout cela, l'euro restant loin derrière."
+            "Ces achats d'or sont spectaculaires : les banques centrales en ont acheté ==plus de 1 000 tonnes par an en 2022, 2023 et 2024==, du jamais vu, contre environ 470 tonnes par an en moyenne entre 2010 et 2021 [6]. L'or a un avantage que le dollar n'a pas : il n'appartient à aucun pays et ne peut pas être gelé s'il est stocké chez soi.",
+            "Au premier semestre 2025, ==le dollar perd environ 10,8 % face aux grandes monnaies, son pire début d'année depuis 1973== [7], sur fond de droits de douane, d'inquiétudes sur la dette américaine et de pressions politiques sur la Fed [7]. Certains y voient le début d'un déclin.",
+            "Mais remplacer le dollar est difficile : il faut une monnaie librement échangeable, des marchés financiers immenses et la confiance des investisseurs. Pour l'instant, aucune alternative ne réunit tout cela, l'euro restant loin derrière. Le ==yuan chinois== progresse (il est la 5e monnaie la plus échangée en 2022, avec 7 % des opérations [2]), mais la Chine contrôle les mouvements de capitaux, ce qui freine son usage comme réserve."
+          ]
+        },
+        {
+          title: "Et l'euro ?",
+          paragraphs: [
+            "Lancé en 1999, l'euro est devenu la ==deuxième monnaie du monde== : environ 20 % des réserves de change [1] et 31 % des opérations de change en 2022 [2]. Il est la monnaie de plus de 340 millions d'Européens et le pivot du commerce dans une grande partie de l'Afrique et de l'Europe de l'Est.",
+            "Mais il lui manque des atouts du dollar : ==pas de grand marché unique de dette publique== (chaque pays émet ses propres obligations, de qualité différente), pas d'armée commune, et une gouvernance à plus de vingt pays, plus lente. La création d'une dette européenne commune pendant le Covid (le plan de relance de 2020) a été vue comme un pas dans cette direction.",
+            "Retiens la leçon de l'histoire : la livre sterling a mis des décennies à céder sa place au dollar, même après que les États-Unis l'ont dépassée économiquement. ==Les monnaies dominantes déclinent lentement==, et le dollar a encore beaucoup d'avance."
           ]
         }
       ],
-      forMe: "Quand le dollar se renforce face à l'euro, ton voyage aux États-Unis coûte plus cher, tout comme le pétrole, qui s'achète en dollars. À l'inverse, un dollar faible rend les produits européens moins compétitifs à l'export.",
+      forMe: "Le prix de ton plein, de ton téléphone ou de ton billet d'avion dépend en partie du dollar : quand il monte face à l'euro, tout ce qui se paie en dollars coûte plus cher en Europe. Et quand la Fed décide de ses taux à Washington, c'est aussi ton pouvoir d'achat qui bouge.",
       figures: [
         { value: "≈ 58 %", label: "des réserves de change mondiales sont en dollars", src: 1 },
         { value: "≈ 20 %", label: "pour l'euro, deuxième monnaie de réserve", src: 1 },
-        { value: "1971", label: "fin de la convertibilité du dollar en or" }
+        { value: "1971", label: "fin de la convertibilité du dollar en or" },
+        { value: "88 %", label: "des opérations de change ont le dollar d'un côté (2022)", src: 2 },
+        { value: "> 1 000 t", label: "d'or achetées chaque année par les banques centrales en 2022, 2023 et 2024", src: 6 },
+        { value: "−10,8 %", label: "pour le dollar au premier semestre 2025, son pire début d'année depuis 1973", src: 7 }
       ],
       terms: ["monnaie-reserve", "banque-centrale", "brics", "sanctions"],
       quiz: [
-        {
-          q: "Quels accords ont placé le dollar au centre du système monétaire mondial ?",
-          options: ["Le traité de Versailles", "Les accords de Bretton Woods", "Le traité de Maastricht", "Les accords de Paris"],
-          answer: 1,
-          explain: "En 1944, à Bretton Woods, 44 pays ont rattaché leurs monnaies au dollar, lui-même convertible en or."
-        },
-        {
-          q: "Qui a inventé l'expression « privilège exorbitant » ?",
-          options: ["Donald Trump", "Karl Marx", "Valéry Giscard d'Estaing", "Christine Lagarde"],
-          answer: 2,
-          explain: "Valéry Giscard d'Estaing, alors ministre des Finances, dénonçait dans les années 1960 l'avantage que le dollar donnait aux États-Unis."
-        }
+        { q: "Quels accords ont placé le dollar au centre du système monétaire mondial ?", options: ["Les accords du Plaza", "Les accords de Bretton Woods (1944)", "Le traité de Versailles", "Le traité de Maastricht"], answer: 1, explain: "44 pays rattachent leurs monnaies au dollar, lui-même convertible en or." },
+        { q: "Qui a inventé l'expression « privilège exorbitant » ?", options: ["Richard Nixon", "Valéry Giscard d'Estaing, dans les années 1960", "Keynes", "Mao Zedong"], answer: 1, explain: "Le ministre français, inspiré par l'économiste Jacques Rueff ; de Gaulle l'a reprise." },
+        { q: "D'où vient le mot « dollar » ?", options: ["De l'anglais « doll »", "Du « thaler », une pièce d'argent frappée à Joachimsthal en Bohême", "D'un président américain", "Du mot espagnol « dolor »"], answer: 1, explain: "Les colons anglais l'ont ensuite appliqué à la pièce de huit réaux espagnole." },
+        { q: "Que proposait Keynes à Bretton Woods ?", options: ["Le dollar comme monnaie mondiale", "Une monnaie internationale nouvelle, le « bancor »", "Le retour au troc", "L'euro"], answer: 1, explain: "Le plan américain de Harry Dexter White, centré sur le dollar, l'a emporté." },
+        { q: "Que dit le « dilemme de Triffin » ?", options: ["Le dollar va disparaître en 1971", "Pour fournir des dollars au monde, les États-Unis doivent être en déficit, ce qui mine la confiance dans le dollar", "L'or vaut toujours 35 dollars", "Les taux doivent baisser"], answer: 1, explain: "Robert Triffin l'a formulé en 1960 ; le système de Bretton Woods a craqué en 1971." },
+        { q: "Qu'a annoncé Richard Nixon le 15 août 1971 ?", options: ["La création de l'euro", "La suspension de la convertibilité du dollar en or", "La fin de la Fed", "Un accord avec la Chine"], answer: 1, explain: "Le « choc Nixon » : la promesse de Bretton Woods est rompue ; les monnaies flottent à partir de 1973." },
+        { q: "Dans quelle part des opérations de change le dollar apparaît-il ?", options: ["Environ 10 %", "Environ 50 %", "Environ 88 %", "100 %"], answer: 2, explain: "Selon la BRI (2022) ; le dollar sert de « langue commune » entre les autres monnaies." },
+        { q: "Pourquoi les banques centrales achètent-elles autant d'or depuis 2022 ?", options: ["Pour fabriquer des bijoux", "Pour diversifier leurs réserves, car l'or n'appartient à aucun pays et ne peut pas être gelé s'il est stocké chez soi", "Parce que le dollar a disparu", "Parce que l'or rapporte des intérêts"], answer: 1, explain: "Plus de 1 000 tonnes par an en 2022, 2023 et 2024, après le gel des réserves russes." }
       ],
       sources: [
         { short: "FMI", name: "FMI, COFER : composition des réserves de change", url: "https://data.imf.org" },
-        { short: "BRI", name: "Banque des règlements internationaux, enquête triennale sur les changes", url: "https://www.bis.org/statistics/rpfx22.htm" }
+        { short: "BRI", name: "Banque des règlements internationaux, enquête triennale sur les changes (avril 2022)", url: "https://www.bis.org/statistics/rpfx22.htm" },
+        { short: "Etymonline", name: "Online Etymology Dictionary, « thaler » et « dollar »", url: "https://www.etymonline.com/word/thaler" },
+        { short: "Département d'État", name: "Département d'État des États-Unis, Foreign Relations of the United States 1964-1968, vol. VIII, note sur la conférence de presse de De Gaulle du 4 février 1965", url: "https://history.state.gov/historicaldocuments/frus1964-68v08/d36" },
+        { short: "Chatham House", name: "Chatham House, « Policymakers can learn from Nixon's 'dollar shock' », septembre 2021", url: "https://www.chathamhouse.org/2021/09/policymakers-can-learn-nixons-dollar-shock" },
+        { short: "World Gold Council (via Kitco)", name: "Kitco, « Central banks buy more than 1,000 tonnes of gold in 2024 for the third year in a row - World Gold Council », février 2025", url: "https://www.kitco.com/news/article/2025-02-05/central-banks-buy-more-1000-tonnes-gold-2024-third-year-row-world-gold" },
+        { short: "Al Jazeera", name: "Al Jazeera, « Why is the US dollar falling by record levels in 2025? », 1er juillet 2025", url: "https://www.aljazeera.com/economy/2025/7/1/why-is-the-us-dollar-falling-by-record-levels-in-2025" }
       ],
       visuals: [
-        {
-          kind: "chart",
-          type: "line",
-          title: "La part du dollar dans les réserves mondiales",
-          subtitle: "Part des réserves de change déclarées détenue en dollars, en fin d'année",
-          xLabel: "Année",
-          unit: "Part (%)",
-          suffix: " %",
-          yMin: 0,
-          data: [["1999", 71.0], ["2005", 66.5], ["2010", 62.2], ["2015", 65.7], ["2020", 59.0], ["2024", 57.8]],
-          source: "FMI, COFER"
-        }
+        { kind: "chart", type: "line", title: "La part du dollar dans les réserves mondiales", subtitle: "Part des réserves de change déclarées détenue en dollars, en fin d'année", xLabel: "Année", unit: "Part (%)", suffix: " %", yMin: 0, data: [["1999", 71], ["2005", 66.5], ["2010", 62.2], ["2015", 65.7], ["2020", 59], ["2024", 57.8]], source: "FMI, COFER" },
+        { kind: "chart", type: "bar", title: "Le dollar, langue commune des devises", subtitle: "Part des opérations de change où chaque monnaie apparaît (avril 2022, total = 200 %)", xLabel: "Monnaie", unit: "Part (%)", suffix: " %", data: [["Dollar", 88], ["Euro", 31], ["Yuan", 7]], source: "BRI, enquête triennale 2022" }
       ]
     }
   ],

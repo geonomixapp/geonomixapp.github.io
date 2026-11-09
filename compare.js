@@ -33,7 +33,7 @@
   const PAIR = { CA: "US", US: "CA", MX: "US", GB: "FR", IE: "GB", CH: "FR", BE: "FR", LU: "FR", MC: "FR", DE: "FR", FR: "DE", ES: "FR", IT: "FR", PT: "ES",
     NL: "DE", AT: "DE", PL: "DE", CZ: "DE", SE: "NO", NO: "SE", DK: "SE", FI: "SE", MA: "FR", DZ: "FR", TN: "FR", SN: "FR", CI: "FR", CM: "FR",
     BR: "AR", AR: "BR", CL: "AR", CO: "MX", PE: "CO", JP: "KR", KR: "JP", CN: "US", IN: "CN", AU: "NZ", NZ: "AU", RU: "UA", UA: "PL", TR: "DE", EG: "SA" };
-  const EURO = new Set(["FR", "DE", "BE", "LU", "NL", "AT", "IE", "IT", "ES", "PT", "FI", "GR", "SK", "SI", "LT", "LV", "EE", "HR", "CY", "MT"]);
+  const EURO = new Set(["FR", "DE", "BE", "LU", "NL", "AT", "IE", "IT", "ES", "PT", "FI", "GR", "SK", "SI", "LT", "LV", "EE", "HR", "CY", "MT", "BG"]);
 
   let st = {};
   try { st = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) {}
