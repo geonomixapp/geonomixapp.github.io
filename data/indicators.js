@@ -7,7 +7,7 @@
 
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.indicators = {
-  "updated": "2026-11-07",
+  "updated": "2026-11-10",
   "latest": [
     {
       "group": "Économie",
@@ -455,6 +455,11 @@ window.GEOCO.indicators = {
           "short": "CNBC",
           "name": "CNBC, « Japan inflation September » (23 oct. 2026)",
           "url": "https://www.cnbc.com/2026/10/23/japan-inflation-september-highest-in-2026.html"
+        },
+        {
+          "short": "Bureau national des statistiques (Xinhua)",
+          "name": "Bureau national des statistiques de Chine, via Xinhua, prix à la consommation d'octobre 2026 : +0,7 % sur un an (9 nov. 2026)",
+          "url": "https://english.news.cn/20261109/afda6ffee5f34853820eb2f9e4f8caaa/c.html"
         }
       ],
       "values": {
@@ -524,9 +529,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "156": {
-          "v": 0.8,
-          "d": "août 2026",
-          "s": 1
+          "v": 0.7,
+          "d": "octobre 2026",
+          "s": 32
         },
         "158": {
           "v": 2,

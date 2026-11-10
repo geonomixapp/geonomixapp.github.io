@@ -53,71 +53,6 @@ window.GEOCO.agenda = [
     ]
   },
   {
-    "id": "2026-11-09-unicredit-resultats-t3",
-    "date": "2026-11-09",
-    "theme": "fin",
-    "region": "Europe",
-    "place": "Milan",
-    "title": "UniCredit publie ses résultats du troisième trimestre",
-    "why": "UniCredit a reporté l'approbation de ses comptes au 8 novembre, avec présentation et conférence avec les analystes le 9 novembre [1][2]. Ce sera l'occasion d'entendre la direction sur son offre pour Commerzbank, que la banque allemande et le gouvernement de Berlin refusent [1][3].",
-    "sources": [
-      {
-        "short": "Finanztrends",
-        "name": "Finanztrends, « UniCredit Aktie : Kommission prüft Commerzbank-Übernahme »",
-        "url": "https://www.finanztrends.de/news/unicredit-aktie-kommission-prueft-commerzbank-uebernahme/"
-      },
-      {
-        "short": "Börse Global",
-        "name": "Börse Global, « UniCredit Aktie : Beantragt Freigabe für Commerzbank-Übernahme »",
-        "url": "https://www.boerse-global.de/unicredit-aktie-beantragt-freigabe-fuer-commerzbank-uebernahme/833385"
-      },
-      {
-        "short": "Irish Times",
-        "name": "Irish Times, « UniCredit launches €35bn Commerzbank takeover offer » (16 mars 2026)",
-        "url": "https://www.irishtimes.com/business/financial-services/2026/03/16/unicredit-launches-35bn-commerzbank-takeover-offer"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-eurogroupe-candidats-bce",
-    "date": "2026-11-09",
-    "theme": "fin",
-    "region": "Europe",
-    "place": "Bruxelles",
-    "title": "L'Eurogroupe examine les candidats à la succession de Christine Lagarde à la BCE",
-    "why": "Les ministres des Finances de la zone euro passent en revue les candidatures [1]. Le successeur, qui devra réunir au moins 16 des 21 pays et 65 % de la population, fixera la ligne sur les taux et l'euro.",
-    "news": "2026-11-06-bce-succession-lagarde-candidats",
-    "sources": [
-      {
-        "short": "Euronews",
-        "name": "Euronews, « Who will replace Lagarde? Eurozone picks nominees as race for ECB top job begins » (3 novembre 2026)",
-        "url": "https://www.euronews.com/2026/11/03/who-will-replace-lagarde-eurozone-picks-nominees-as-race-for-ecb-top-job-begins"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-conference-sociale-matignon",
-    "date": "2026-11-09",
-    "theme": "eco",
-    "region": "Europe",
-    "place": "Paris",
-    "title": "France : conférence sociale à Matignon sur les salaires et le pouvoir d'achat",
-    "why": "Le Premier ministre réunit syndicats et patronat après la grève du 5 novembre [1]. Les syndicats réclament une hausse du Smic, qui n'est pas arrêtée à ce stade.",
-    "news": "2026-11-06-france-conference-sociale-matignon-salaires",
-    "sources": [
-      {
-        "short": "Europe 1",
-        "name": "Europe 1, « Sébastien Lecornu réunira lundi à Matignon une conférence sociale avec les syndicats et le patronat »",
-        "url": "https://www.europe1.fr/politique/sebastien-lecornu-reunira-lundi-a-matignon-une-conference-sociale-avec-les-syndicats-et-le-patronat-1211417"
-      },
-      {
-        "short": "Francemag",
-        "name": "Francemag, « Grève du 5 novembre : après une mobilisation massive, Sébastien Lecornu convoque syndicats et patronat à Matignon »",
-        "url": "https://www.francemag.fr/article/3952/greve-du-5-novembre-apres-une-mobilisation-massive-sebastien-lecornu-convoque-syndicats-et-patronat-a-matignon"
-      }
-    ]
-  },
-  {
     "id": "2026-11-10-etats-unis-inflation-octobre",
     "date": "2026-11-10",
     "theme": "eco",
@@ -313,6 +248,23 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-11-13-etats-unis-prix-production-octobre",
+    "date": "2026-11-13",
+    "theme": "eco",
+    "region": "Amériques",
+    "place": "Washington",
+    "title": "États-Unis : indice des prix à la production d'octobre",
+    "why": "Publié le vendredi 13 novembre, trois jours après l'inflation à la consommation, il montre si la hausse des coûts des entreprises (énergie, transport) va se répercuter dans les prix de vente [1]. Avec plus de 80 % de paris sur une hausse de taux de la Fed en décembre, un chiffre élevé renforcerait ce scénario [1].",
+    "news": "2026-11-10-wall-street-rebond-petrole-inflation-nvidia",
+    "sources": [
+      {
+        "short": "Reuters (LSE)",
+        "name": "Reuters, « US STOCKS-Wall St jumps as oil slide cools inflation worries; Nvidia slumps » (9 novembre 2026)",
+        "url": "https://www.lse.co.uk/news/us-stocks-wall-st-jumps-as-oil-slide-cools-inflation-worries-nvidia-slumps-do06hsar8bvdtw0.html"
+      }
+    ]
+  },
+  {
     "id": "2026-11-15-cap-vert-presidentielle",
     "date": "2026-11-15",
     "theme": "geo",
@@ -485,6 +437,22 @@ window.GEOCO.agenda = [
         "short": "CGTN",
         "name": "CGTN, « 2026 APEC CEO Summit to be held on Nov 17-18 in China's Shenzhen »",
         "url": "https://news.cgtn.com/news/2026-09-10/2026-APEC-CEO-Summit-to-be-held-on-Nov-17-18-in-China-s-Shenzhen-1QkpMIz9M2s/p.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-18-fed-compte-rendu-reunion-octobre",
+    "date": "2026-11-18",
+    "theme": "fin",
+    "region": "Amériques",
+    "place": "Washington",
+    "title": "La Fed publie le compte rendu de sa réunion d'octobre",
+    "why": "Les minutes de la réunion des 27 et 28 octobre sortent à 14 h (heure de New York) [1]. Elles montrent combien de membres du comité voulaient déjà relever les taux, donc si la hausse de décembre est solide ou fragile ; les marchés d'actions, d'obligations et le dollar peuvent bouger.",
+    "sources": [
+      {
+        "short": "Réserve fédérale",
+        "name": "Réserve fédérale, calendrier de novembre 2026 (compte rendu de la réunion des 27-28 octobre)",
+        "url": "https://www.federalreserve.gov/newsevents/2026-november.htm"
       }
     ]
   },

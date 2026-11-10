@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-10",
+    "file": "lettres/2026-11-10.pdf",
+    "titles": [
+      "Wall Street rebondit de plus de 2 % : la chute du pétrole calme la peur de l'inflation, et seul Nvidia recule",
+      "Ormuz : le Qatar porte à la Maison-Blanche un plan iranien, 8 milliards de dollars contre la réouverture du détroit, et le pétrole recule",
+      "Chine : les exportations bondissent de 35 % en octobre, portées par les puces et les voitures, et l'excédent de l'année dépasse déjà 1 000 milliards de dollars"
+    ],
+    "fileDark": "lettres/2026-11-10-sombre.pdf"
+  },
+  {
     "date": "2026-11-09",
     "file": "lettres/2026-11-09.pdf",
     "titles": [
