@@ -7,7 +7,7 @@
 
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.indicators = {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "latest": [
     {
       "group": "Économie",
@@ -460,6 +460,41 @@ window.GEOCO.indicators = {
           "short": "Bureau national des statistiques (Xinhua)",
           "name": "Bureau national des statistiques de Chine, via Xinhua, prix à la consommation d'octobre 2026 : +0,7 % sur un an (9 nov. 2026)",
           "url": "https://english.news.cn/20261109/afda6ffee5f34853820eb2f9e4f8caaa/c.html"
+        },
+        {
+          "short": "INEGI",
+          "name": "INEGI (institut national de statistique du Mexique), INPC d'octobre 2026 : inflation annuelle de 3,75 % (9 nov. 2026)",
+          "url": "https://x.com/INEGI_INFORMA/status/2119762375616180562"
+        },
+        {
+          "short": "AFP (DH)",
+          "name": "AFP via La DH, « Turquie : l'inflation quasi stable à 29,7 % sur un an en octobre » (3 nov. 2026, TurkStat : 29,77 %)",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/03/turquie-linflation-quasi-stable-a-297-sur-un-an-en-octobre-6ZKKKFA2FVCWNLY5URE3CJAZXA/"
+        },
+        {
+          "short": "Interfax",
+          "name": "Interfax, Rosstat : inflation annuelle de 6,35 % en septembre 2026 (9 oct. 2026)",
+          "url": "https://interfax.com/newsroom/top-stories/119479/"
+        },
+        {
+          "short": "Bisnis (BPS)",
+          "name": "Bisnis.com, « Penyebab Inflasi Oktober 2026 Jadi 3,23% (YoY) » (2 nov. 2026, chiffres BPS)",
+          "url": "https://ekonomi.bisnis.com/read/20261102/9/2017542/penyebab-inflasi-oktober-2026-jadi-323-yoy"
+        },
+        {
+          "short": "Korea Times (Yonhap)",
+          "name": "Korea Times, « Consumer prices up 2.8% in October, remain in 2% range for 2nd month » (3 nov. 2026)",
+          "url": "https://www.koreatimes.co.kr/southkorea/20261103/consumer-prices-up-28-in-october-remain-in-2-range-for-2nd-month"
+        },
+        {
+          "short": "Trading Economics (PSA)",
+          "name": "Trading Economics, « Philippines Inflation Rate Surges to 7.8% » (5 nov. 2026, chiffres de la Philippine Statistics Authority)",
+          "url": "https://tradingeconomics.com/philippines/inflation-cpi/news/598358"
+        },
+        {
+          "short": "Trading Economics (CAPMAS)",
+          "name": "Trading Economics, « Egypt Inflation Rate at 9-Month Low of 12.7% » (inflation urbaine, chiffres CAPMAS, nov. 2026)",
+          "url": "https://tradingeconomics.com/egypt/inflation-cpi/news/598833"
         }
       ],
       "values": {
@@ -734,9 +769,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "360": {
-          "v": 3.3,
-          "d": "sept. 2026",
-          "s": 8
+          "v": 3.2,
+          "d": "oct. 2026",
+          "s": 36
         },
         "364": {
           "v": 87.9,
@@ -794,9 +829,9 @@ window.GEOCO.indicators = {
           "s": 16
         },
         "410": {
-          "v": 2.9,
-          "d": "sept. 2026",
-          "s": 1
+          "v": 2.8,
+          "d": "oct. 2026",
+          "s": 37
         },
         "414": {
           "v": 2.2,
@@ -899,9 +934,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "484": {
-          "v": 3.3,
-          "d": "août 2026",
-          "s": 1
+          "v": 3.8,
+          "d": "oct. 2026",
+          "s": 33
         },
         "496": {
           "v": 12.5,
@@ -1014,9 +1049,9 @@ window.GEOCO.indicators = {
           "s": 11
         },
         "608": {
-          "v": 7.2,
-          "d": "sept. 2026",
-          "s": 9
+          "v": 7.8,
+          "d": "oct. 2026",
+          "s": 38
         },
         "616": {
           "v": 4,
@@ -1054,9 +1089,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "643": {
-          "v": 6.3,
-          "d": "août 2026",
-          "s": 1
+          "v": 6.4,
+          "d": "sept. 2026",
+          "s": 35
         },
         "646": {
           "v": 15.9,
@@ -1204,9 +1239,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "792": {
-          "v": 29.7,
-          "d": "sept. 2026",
-          "s": 1
+          "v": 29.8,
+          "d": "oct. 2026",
+          "s": 34
         },
         "800": {
           "v": 4.6,
@@ -1224,9 +1259,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "818": {
-          "v": 14.5,
-          "d": "août 2026",
-          "s": 1
+          "v": 12.7,
+          "d": "oct. 2026",
+          "s": 39
         },
         "826": {
           "v": 3.5,
@@ -1550,6 +1585,26 @@ window.GEOCO.indicators = {
           "short": "AFP (Boursorama)",
           "name": "AFP via Boursorama, « Canada : le taux de chômage augmente à 6,7 % en octobre » (6 nov. 2026)",
           "url": "https://www.boursorama.com/bourse/actualites/canada-le-taux-de-chomage-augmente-a-6-7-en-octobre-95f70af0d8b93fe77873768e03746ead"
+        },
+        {
+          "short": "ITV (ONS)",
+          "name": "ITV News, « UK unemployment falls to lowest in a year but vacancies slide further » (20 oct. 2026, chiffres de l'ONS)",
+          "url": "https://www.itv.com/news/2026-10-20/uk-unemployment-falls-to-lowest-in-a-year-but-vacancies-slide-further"
+        },
+        {
+          "short": "Agência Gov (IBGE)",
+          "name": "Agência Gov, « Taxa de desemprego tem queda e alcança menor resultado para setembro em 14 anos » (30 oct. 2026, PNAD Contínua de l'IBGE)",
+          "url": "https://agenciagov.ebc.com.br/noticias/202610/taxa-de-desemprego-tem-queda-e-alcanca-menor-resultado-para-setembro-em-14-anos"
+        },
+        {
+          "short": "MoSPI",
+          "name": "Ministère indien des Statistiques (MoSPI), PLFS, note mensuelle de septembre 2026 (15 oct. 2026)",
+          "url": "https://www.mospi.gov.in/uploads/latestReleases/latest_release_1792060004197_6c3ba64d-1853-4b3d-98fb-d750d5ec8a5d_Monthly_Press_note_PLFS_Sep_2026.pdf"
+        },
+        {
+          "short": "FXStreet",
+          "name": "FXStreet, « Japan Unemployment Rate below forecasts (2.5%) in September: Actual (2.4%) » (29 oct. 2026)",
+          "url": "https://www.fxstreet.com/news/japan-unemployment-rate-below-forecasts-25-in-september-actual-24-202610292330"
         }
       ],
       "values": {
@@ -1805,8 +1860,8 @@ window.GEOCO.indicators = {
         },
         "356": {
           "v": 5,
-          "d": "août 2026",
-          "s": 14
+          "d": "sept. 2026",
+          "s": 29
         },
         "360": {
           "v": 4.7,
@@ -1849,9 +1904,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "392": {
-          "v": 2.5,
-          "d": "août 2026",
-          "s": 13
+          "v": 2.4,
+          "d": "sept. 2026",
+          "s": 30
         },
         "398": {
           "v": 4.5,
@@ -2259,9 +2314,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "826": {
-          "v": 4.9,
-          "d": "mai-juil. 2026",
-          "s": 4
+          "v": 4.7,
+          "d": "juin-août 2026",
+          "s": 27
         },
         "840": {
           "v": 4.1,
@@ -2329,9 +2384,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "076": {
-          "v": 5.3,
-          "d": "juin-août 2026",
-          "s": 7
+          "v": 5.2,
+          "d": "juil.-sept. 2026",
+          "s": 28
         },
         "032": {
           "v": 7.9,

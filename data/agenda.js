@@ -8,29 +8,6 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.agenda = [
   {
-    "id": "2026-11-05-chine-foire-importations-shanghai",
-    "date": "2026-11-05",
-    "end": "2026-11-10",
-    "theme": "eco",
-    "region": "Asie",
-    "place": "Shanghai",
-    "title": "Foire internationale des importations de Chine à Shanghai",
-    "why": "La 9e édition se tient du 5 au 10 novembre au Centre national d'exposition et de congrès de Shanghai ; le Canada y est pays invité d'honneur [1]. Environ 60 pays et organisations y exposent, et c'est l'occasion d'accords commerciaux entre la Chine et ses partenaires, comme les discussions agricoles avec Ottawa [1][2].",
-    "news": "2026-11-04-chine-canada-commerce-pekin-changhai",
-    "sources": [
-      {
-        "short": "Délégués commerciaux du Canada",
-        "name": "Service des délégués commerciaux du Canada, « China International Import Expo (CIIE) 2026 »",
-        "url": "https://www.tradecommissioner.gc.ca/en/trade-events-training/2026/11/ciie.html"
-      },
-      {
-        "short": "People's Daily",
-        "name": "People's Daily, « 57 countries, 3 international organizations confirm participation in CIIE Country Exhibition » (28 juil. 2026)",
-        "url": "https://en.people.cn/n3/2026/0728/c90000-20482367.html"
-      }
-    ]
-  },
-  {
     "id": "2026-11-09-cop31-antalya",
     "date": "2026-11-09",
     "end": "2026-11-20",
@@ -53,54 +30,6 @@ window.GEOCO.agenda = [
     ]
   },
   {
-    "id": "2026-11-10-etats-unis-inflation-octobre",
-    "date": "2026-11-10",
-    "theme": "eco",
-    "region": "Amériques",
-    "place": "Washington",
-    "title": "Inflation américaine d'octobre",
-    "why": "L'indice des prix à la consommation d'octobre sort à 8 h 30 (heure de New York) [1][2]. Il était à 3,7 % sur un an en septembre, tiré par l'essence (+34 %) ; c'est le chiffre qui guide les décisions de la Fed de décembre.",
-    "sources": [
-      {
-        "short": "BLS",
-        "name": "Bureau of Labor Statistics, calendrier de publication de l'indice des prix (CPI)",
-        "url": "https://www.bls.gov/schedule/news_release/cpi.htm"
-      },
-      {
-        "short": "Thrive in Markets",
-        "name": "Thrive in Markets, « Next CPI release: Tue 10 Nov 2026 »",
-        "url": "https://thriveinmarkets.com/calendar/dates/cpi-2026/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-10-chine-terres-rares-suspension",
-    "date": "2026-11-10",
-    "theme": "geo",
-    "region": "Asie",
-    "place": "Pékin et Washington",
-    "title": "Fin de la suspension chinoise des contrôles sur les terres rares",
-    "why": "La Chine avait suspendu pour un an, jusqu'au 10 novembre 2026, ses contrôles d'octobre 2025 sur les terres rares, tandis que la trêve douanière a été prolongée de deux mois, jusqu'au 10 janvier 2027 [1][2]. 178 exclusions de la section 301 expirent aussi ce jour-là [3]. Sans renouvellement, des licences d'exportation redeviennent nécessaires pour ces métaux.",
-    "news": "2026-11-05-etats-unis-chine-treve-10-novembre-terres-rares",
-    "sources": [
-      {
-        "short": "CNBC",
-        "name": "CNBC, « U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit » (24 septembre 2026)",
-        "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html"
-      },
-      {
-        "short": "Rinnovabili",
-        "name": "Rinnovabili, « Chinese rare earth exports: Trump-Xi truce extended to Jan 2027 »",
-        "url": "https://www.rinnovabili.net/policy-and-affairs/environmental-policies/chinese-rare-earth-exports-trump-xi-truce/"
-      },
-      {
-        "short": "Thomson Reuters",
-        "name": "Thomson Reuters Tax & Accounting, « Section 301 exclusions expire November 2026 »",
-        "url": "https://tax.thomsonreuters.com/blog/section-301-exclusions-expiration/"
-      }
-    ]
-  },
-  {
     "id": "2026-11-10-abou-dhabi-pourparlers-ukraine",
     "date": "2026-11-10",
     "end": "2026-11-11",
@@ -118,28 +47,6 @@ window.GEOCO.agenda = [
       }
     ],
     "verify": "Date annoncée dans la couverture de la réunion de Bruxelles, pas encore confirmée par une source officielle."
-  },
-  {
-    "id": "2026-11-10-chine-commerce-exterieur-octobre",
-    "date": "2026-11-10",
-    "theme": "eco",
-    "region": "Asie",
-    "place": "Pékin",
-    "title": "Chine : chiffres du commerce extérieur d'octobre",
-    "why": "Les exportations chinoises ont atteint un record de 447,18 milliards de dollars en septembre (+36,3 % sur un an) ; les chiffres d'octobre diront si la vague continue, au moment où l'UE prépare un « coupe-circuit » contre les importations chinoises [1][2].",
-    "news": "2026-11-07-ue-chine-coupe-circuit-pekin-menace-xi-stocker",
-    "sources": [
-      {
-        "short": "Trading Economics",
-        "name": "Trading Economics, calendrier du commerce extérieur chinois (publication d'octobre prévue le 10 novembre 2026)",
-        "url": "https://tradingeconomics.com/china/exports-yoy"
-      },
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « China's exports surge amid AI-driven demand » (14 octobre 2026)",
-        "url": "https://www.aljazeera.com/economy/2026/10/14/chinas-exports-sugrge"
-      }
-    ]
   },
   {
     "id": "2026-11-11-israel-herzog-delai-mandat",
@@ -312,6 +219,32 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-11-16-japon-pib-troisieme-trimestre",
+    "date": "2026-11-16",
+    "theme": "eco",
+    "region": "Asie",
+    "place": "Tokyo",
+    "title": "Japon : première estimation de la croissance du troisième trimestre",
+    "why": "Le gouvernement japonais publie le lundi 16 novembre sa première estimation du PIB de juillet à septembre [1][2]. Au deuxième trimestre, la croissance a été révisée en hausse à 1,4 % en rythme annuel [3] : le chiffre dira si l'économie japonaise garde ce rythme.",
+    "sources": [
+      {
+        "short": "Bureau du Cabinet du Japon (ESRI)",
+        "name": "Bureau du Cabinet du Japon, ESRI, « Release Schedule – Quarterly Estimates of GDP »",
+        "url": "https://www.esri.cao.go.jp/en/sna/kouhyou/kouhyou_top.html"
+      },
+      {
+        "short": "Bureau du Cabinet du Japon (ESRI)",
+        "name": "Bureau du Cabinet du Japon, ESRI, note sur les estimations trimestrielles du PIB (calendrier des estimations de juillet-septembre 2026)",
+        "url": "https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/2026/qe262_2/pdf/note_e.pdf"
+      },
+      {
+        "short": "Adnkronos",
+        "name": "Adnkronos, « Japan's April-June GDP Growth Revised Up to 1.4 Pct » (8 sept. 2026)",
+        "url": "https://english.adnkronos.com/2026/09/08/japans-april-june-gdp-growth-revised-up-to-1-4-pct/"
+      }
+    ]
+  },
+  {
     "id": "2026-11-17-budget-2027-vote",
     "date": "2026-11-17",
     "theme": "eco",
@@ -457,6 +390,48 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-11-19-afrique-du-sud-banque-centrale-taux",
+    "date": "2026-11-19",
+    "theme": "eco",
+    "region": "Afrique",
+    "place": "Pretoria",
+    "title": "Afrique du Sud : la banque centrale fixe son taux directeur",
+    "why": "La Banque de réserve sud-africaine annonce le 19 novembre sa dernière décision de taux de l'année [1]. Des économistes de Nedbank s'attendent à une hausse de 0,25 point [2] : emprunter deviendrait plus cher pour les ménages et les entreprises sud-africains.",
+    "sources": [
+      {
+        "short": "Banque centrale d'Afrique du Sud",
+        "name": "Banque centrale d'Afrique du Sud (South African Reserve Bank), calendrier du comité de politique monétaire",
+        "url": "https://www.resbank.co.za/MonetaryPolicy/Monetary%20Policy%20Committee/Pages/Dates.aspx"
+      },
+      {
+        "short": "BusinessTech",
+        "name": "BusinessTech, « Interest rate expectations flip-flop for South Africa » (oct. 2026)",
+        "url": "https://businesstech.co.za/news/?p=881553"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-walmart-resultats",
+    "date": "2026-11-19",
+    "theme": "fin",
+    "region": "Amériques",
+    "place": "Bentonville, États-Unis",
+    "title": "Walmart publie ses résultats du troisième trimestre",
+    "why": "Le géant américain de la grande distribution publie ses comptes le jeudi 19 novembre, avant l'ouverture de Wall Street [1]. Il vise un bénéfice ajusté de 0,62 à 0,64 dollar par action et des ventes en hausse de 3 à 3,75 % à taux de change constants [2] : un thermomètre de la consommation américaine avant les fêtes.",
+    "sources": [
+      {
+        "short": "TipRanks",
+        "name": "TipRanks, Walmart, calendrier des résultats (19 nov. 2026, avant l'ouverture, confirmé)",
+        "url": "https://www.tipranks.com/stocks/gb:0r1w/earnings"
+      },
+      {
+        "short": "MarketBeat",
+        "name": "MarketBeat, « Walmart issues Q3 2027 earnings guidance » (20 août 2026)",
+        "url": "https://www.marketbeat.com/instant-alerts/walmart-nasdaqwmt-issues-q3-2027-earnings-guidance-2026-08-20/"
+      }
+    ]
+  },
+  {
     "id": "2026-11-20-sommet-ue-royaume-uni",
     "date": "2026-11-20",
     "theme": "geo",
@@ -474,6 +449,28 @@ window.GEOCO.agenda = [
         "short": "MLex",
         "name": "MLex, « EU, UK to hold second summit on Nov. 20 in Brussels »",
         "url": "https://www.mlex.com/mlex/articles/2536802"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-portugal-budget-2027-vote-final",
+    "date": "2026-11-24",
+    "theme": "eco",
+    "region": "Europe",
+    "place": "Lisbonne",
+    "title": "Portugal : vote final du budget 2027",
+    "why": "Le Parlement portugais vote le budget 2027 dans son ensemble le 24 novembre, au terme de l'examen article par article [1][2]. En première lecture, le 28 octobre, le texte est passé grâce aux voix du PSD et du CDS-PP et à l'abstention du Parti socialiste [1].",
+    "news": "2026-11-08-portugal-budget-2027-vote-final-24-novembre-abstention-ps",
+    "sources": [
+      {
+        "short": "ComparaJá",
+        "name": "ComparaJá, « Parlamento aprova Orçamento do Estado 2027 na generalidade » (oct. 2026)",
+        "url": "https://www.comparaja.pt/financas-pessoais/noticias/parlamento-aprova-orcamento-estado-2027-votacao-final-outubro-2026"
+      },
+      {
+        "short": "Economia & Finanças",
+        "name": "Economia & Finanças, « Proposta de Orçamento do Estado para 2027 e cenário macroeconómico » (calendrier de l'examen)",
+        "url": "https://economiafinancas.com/2026/proposta-de-orcamento-do-estado-para-2027-e-cenario-macroeconomico/"
       }
     ]
   },
@@ -582,6 +579,82 @@ window.GEOCO.agenda = [
         "short": "ITV News",
         "name": "ITV News, « Spain's prime minister announces snap election for November » (5 oct. 2026)",
         "url": "https://www.itv.com/news/2026-10-05/spains-prime-minister-announces-snap-election-for-november"
+      }
+    ]
+  },
+  {
+    "id": "2026-12-01-zone-euro-inflation-novembre",
+    "date": "2026-12-01",
+    "theme": "eco",
+    "region": "Europe",
+    "place": "Luxembourg",
+    "title": "Zone euro : première estimation de l'inflation de novembre",
+    "why": "Eurostat publie le 1er décembre son estimation rapide de la hausse des prix en novembre [1][2]. En octobre, l'inflation avait atteint 4,0 %, son plus haut niveau depuis trois ans [3] : c'est le dernier grand chiffre avant la réunion de la BCE du 17 décembre.",
+    "news": "2026-11-05-zone-euro-inflation-4-pour-cent-octobre",
+    "sources": [
+      {
+        "short": "Finance Calendar",
+        "name": "Finance Calendar, « Eurozone Flash CPI November 2026 » (1er déc. 2026, 11 h)",
+        "url": "https://www.financecalendar.com/?p=2213"
+      },
+      {
+        "short": "Forex Fundamentals",
+        "name": "Forex Fundamentals, calendrier : inflation de la zone euro (IPCH), 1er déc. 2026",
+        "url": "https://forexfundamentals.com/economic-calendar/eur-cpi/2026-12-01"
+      },
+      {
+        "short": "StockAnalysis",
+        "name": "StockAnalysis, « Eurozone inflation rises to 4.0% in October, hitting highest level in 3 years » (nov. 2026)",
+        "url": "https://stockanalysis.com/news/eurozone-inflation-rises-october-2026/"
+      }
+    ]
+  },
+  {
+    "id": "2026-12-04-etats-unis-emploi-novembre",
+    "date": "2026-12-04",
+    "theme": "eco",
+    "region": "Amériques",
+    "place": "Washington",
+    "title": "États-Unis : les chiffres de l'emploi de novembre",
+    "why": "Le Bureau des statistiques du travail publie le vendredi 4 décembre à 8 h 30 (heure de Washington) les créations d'emplois et le taux de chômage de novembre [1]. En octobre, l'économie avait créé 165 000 emplois et le chômage était descendu à 4,1 % [2] ; c'est le dernier rapport avant la réunion de la Fed des 8 et 9 décembre.",
+    "news": "2026-11-07-emploi-americain-165000-fed-hausse-decembre",
+    "sources": [
+      {
+        "short": "BLS",
+        "name": "Bureau of Labor Statistics, calendrier des publications de décembre 2026",
+        "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « U.S. economy added 165,000 jobs in October… unemployment rate slips to 4.1% » (6 nov. 2026)",
+        "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-12-05-gambie-presidentielle",
+    "date": "2026-12-05",
+    "theme": "geo",
+    "region": "Afrique",
+    "place": "Banjul",
+    "title": "Présidentielle en Gambie",
+    "why": "Les Gambiens élisent leur président le samedi 5 décembre, date fixée par la commission électorale indépendante [1][2]. Le président sortant Adama Barrow brigue un troisième mandat, alors qu'il s'était d'abord engagé à n'en faire qu'un [3].",
+    "news": "2026-11-09-gambie-presidentielle-bensouda-candidature",
+    "sources": [
+      {
+        "short": "Africa Center",
+        "name": "Africa Center for Strategic Studies, « Gambia – Presidential Elections: December 5 »",
+        "url": "https://africacenter.org/spotlight/en-elections-2026/gambia/"
+      },
+      {
+        "short": "Trust Radio",
+        "name": "Trust Radio, « Gambia sets December 2026 presidential election date »",
+        "url": "https://trustradio.com.ng/en/gambia-sets-december-2026-presidential-election-date"
+      },
+      {
+        "short": "The Frontier",
+        "name": "The Frontier, « Gambia sets date for presidential election, incumbent seeks third term despite criticism »",
+        "url": "https://thefrontierng.com/gambia-sets-date-for-presidential-election-incumbent-seeks-third-term-despite-criticism/"
       }
     ]
   },

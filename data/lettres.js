@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-11",
+    "file": "lettres/2026-11-11.pdf",
+    "titles": [
+      "États-Unis : les prix montent de 0,4 % en octobre, plus que prévu, et la Fed prépare une hausse des taux en décembre",
+      "Iran : Trump dit la guerre « pratiquement finie », Téhéran parle de « pourparlers imaginaires » et les pétroliers sont encore visés",
+      "Espagne : première grève générale depuis 2012, pour le logement et les salaires, à 18 jours des élections législatives"
+    ],
+    "fileDark": "lettres/2026-11-11-sombre.pdf"
+  },
+  {
     "date": "2026-11-10",
     "file": "lettres/2026-11-10.pdf",
     "titles": [
