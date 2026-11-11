@@ -1561,12 +1561,40 @@
     }
     drawStatus();
 
+    // Réserve un code à usage unique (demande de l'auteur, 11 nov. 2026) : une seule personne peut l'utiliser.
+    // Table Supabase codes_utilises (contenu/supabase-codes.sql) ; même joueur anonyme que le Duel et les notifications.
+    // Renvoie "ok" (réservé par cet appareil, ou déjà par lui), "pris" (par quelqu'un d'autre) ou "erreur".
+    async function claimOnce(h) {
+      try {
+        const { createClient } = await import("https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.4/+esm");
+        const sb = createClient("https://xnwaiyhquydhpcqnovtc.supabase.co", "sb_publishable_paIqtOPDAYGDFnq7DTFQyA_VpZKx33t",
+          { auth: { persistSession: true, autoRefreshToken: true, storageKey: "geoco.duel.auth" } });
+        let { data } = await sb.auth.getSession();
+        if (!data.session) { const r = await sb.auth.signInAnonymously(); if (r.error) return "erreur"; }
+        const ins = await sb.from("codes_utilises").insert({ h });
+        if (!ins.error) return "ok";
+        if (ins.error.code !== "23505") return "erreur";
+        const mine = await sb.from("codes_utilises").select("h").eq("h", h).maybeSingle();
+        return mine.data ? "ok" : "pris";
+      } catch (e) { return "erreur"; }
+    }
+
     async function check(form, input, msg, find, ok, ko) {
       form.addEventListener("submit", async (e) => {
         e.preventDefault();
         const v = input.value.trim();
         if (!v) return;
         const hit = await find(v);
+        if (hit && hit.unique && (!hit.jusqua || hit.jusqua >= today())) {
+          // Code à usage unique : on le réserve dans Supabase (table codes_utilises) avant de l'accepter.
+          msg.textContent = "Vérification du code…"; msg.className = "plus-msg";
+          const r = await claimOnce(hit.h);
+          if (r !== "ok") {
+            msg.textContent = r === "pris" ? "Ce code a déjà été utilisé." : "Vérification impossible pour l'instant. Vérifie ta connexion et réessaie.";
+            msg.className = "plus-msg bad";
+            return;
+          }
+        }
         if (hit && (!hit.jusqua || hit.jusqua >= today())) {
           // Code à durée (ex. 2 mois offerts) ou code fondateur : l'accès dure ce nombre de mois, à partir d'aujourd'hui.
           let until = hit.jusqua || null;

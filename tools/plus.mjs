@@ -12,6 +12,7 @@
 //   node tools/plus.mjs revenuecat cle rcb_…                              clé publique Web Billing de RevenueCat (active le paiement dans l'appli)
 //   node tools/plus.mjs revenuecat droit plus | offre default | paquet mensuel $rc_monthly | paquet annuel $rc_annual | paquet fondateurs …
 //   Un code suivi de --mois 2 donne l'accès pendant 2 mois à partir du jour où l'invité le saisit (sans --mois : gratuit sans limite)
+//   Un code suivi de --unique ne marche qu'une fois, pour une seule personne (vérifié dans Supabase, table codes_utilises)
 //   Un code suivi de --fondateur donne le badge « Membre fondateur » (ex. : code FONDATEUR "Membres fondateurs" --fondateur)
 import fs from "fs";
 import vm from "vm";
@@ -30,15 +31,16 @@ const hashMail = (m) => crypto.createHash("sha256").update("mail:" + String(m).t
 
 const argv = process.argv.slice(2);
 const founderFlag = argv.includes("--fondateur");
+const uniqueFlag = argv.includes("--unique");
 const mi = argv.indexOf("--mois");
 const months = mi >= 0 ? Number(argv[mi + 1]) : 0;
 if (mi >= 0 && !(months > 0)) { console.error("--mois attend un nombre de mois, ex. --mois 2"); process.exit(1); }
-const [cmd, a, b, c] = argv.filter((x, i) => x !== "--fondateur" && !(mi >= 0 && (i === mi || i === mi + 1)));
+const [cmd, a, b, c] = argv.filter((x, i) => x !== "--fondateur" && x !== "--unique" && !(mi >= 0 && (i === mi || i === mi + 1)));
 P.fondateurs = P.fondateurs || { places: 50, restantes: 50, essaiMois: 2, prix: 2.99, paiement: "", ouvert: true };
 P.revenuecat = P.revenuecat || { cle: "", droit: "plus", offre: "", paquets: { mensuel: "$rc_monthly", annuel: "$rc_annual", fondateurs: "" } };
 if (cmd === "code" && a) {
   P.codes = P.codes.filter((x) => x.h !== hashCode(a));
-  P.codes.push(Object.assign({ h: hashCode(a), label: b || "Code offert" }, c ? { jusqua: c } : {}, months ? { mois: months } : {}, founderFlag ? { fondateur: true } : {}));
+  P.codes.push(Object.assign({ h: hashCode(a), label: b || "Code offert" }, c ? { jusqua: c } : {}, months ? { mois: months } : {}, founderFlag ? { fondateur: true } : {}, uniqueFlag ? { unique: true } : {}));
   console.log(`Code ajouté : « ${b || "Code offert"} »${c ? ` jusqu'au ${c}` : ""}. À donner tel quel : ${a.trim().toUpperCase()}`);
 } else if (cmd === "invite" && a) {
   P.invites = P.invites.filter((x) => x.h !== hashMail(a));

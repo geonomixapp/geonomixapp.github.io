@@ -27,6 +27,12 @@ window.GEOCO.plus = {
       "h": "c1ebc97807c26a287a9ba9e8b69b3e2b9c6bdc35f8ff3560e1df9a253a2bda55",
       "label": "Membres fondateurs",
       "fondateur": true
+    },
+    {
+      "h": "67d16acb47a5673c4186937e3c679f71e7251c45c44568888268db3242f206b1",
+      "label": "Invité · 1 mois offert",
+      "mois": 1,
+      "unique": true
     }
   ],
   "invites": [],
