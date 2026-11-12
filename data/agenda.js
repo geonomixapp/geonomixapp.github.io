@@ -30,47 +30,6 @@ window.GEOCO.agenda = [
     ]
   },
   {
-    "id": "2026-11-10-abou-dhabi-pourparlers-ukraine",
-    "date": "2026-11-10",
-    "end": "2026-11-11",
-    "theme": "geo",
-    "region": "Moyen-Orient",
-    "place": "Abou Dhabi",
-    "title": "Pourparlers à trois États-Unis–Russie–Ukraine à Abou Dhabi",
-    "why": "Après les réunions de Bruxelles sur la reconstruction, première rencontre à trois prévue [1]. Un progrès pèserait sur les prix de l'énergie et sur les sanctions contre la Russie.",
-    "news": "2026-11-06-ukraine-bruxelles-reconstruction-abou-dhabi",
-    "sources": [
-      {
-        "short": "EU Reporter",
-        "name": "EU Reporter, « Ukraine moves closer to EU membership as Brussels hosts talks on post-war prosperity » (4 novembre 2026)",
-        "url": "https://www.eureporter.co/world/ukraine/2026/11/04/ukraine-moves-closer-to-eu-membership-as-brussels-hosts-talks-on-post-war-prosperity/"
-      }
-    ],
-    "verify": "Date annoncée dans la couverture de la réunion de Bruxelles, pas encore confirmée par une source officielle."
-  },
-  {
-    "id": "2026-11-11-israel-herzog-delai-mandat",
-    "date": "2026-11-11",
-    "theme": "geo",
-    "region": "Moyen-Orient",
-    "place": "Jérusalem",
-    "title": "Israël : dernier jour pour que Herzog confie la formation du gouvernement",
-    "why": "La loi donne sept jours au président pour consulter les partis et désigner un député, soit jusqu'au 11 novembre ; ce dernier aura ensuite 28 jours pour former une majorité, avec 14 jours de prolongation possibles [1]. Un échec ouvrirait la voie à de nouvelles élections, ce qui prolongerait l'incertitude sur la guerre et la diplomatie régionale [1][2].",
-    "news": "2026-11-04-israel-herzog-consultations",
-    "sources": [
-      {
-        "short": "Yahoo / AFP",
-        "name": "Yahoo News, « Israel president opens talks as rivals struggle to form government »",
-        "url": "https://www.yahoo.com/news/politics/articles/israel-president-opens-talks-rivals-020036434.html"
-      },
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « Israeli opposition leaders back Eisenkot to oust Netanyahu » (3 nov. 2026)",
-        "url": "https://www.aljazeera.com/news/2026/11/3/israeli-opposition-leaders-back-eisenkot-to-oust-netanyahu"
-      }
-    ]
-  },
-  {
     "id": "2026-11-12-allemagne-budget-2027-commission",
     "date": "2026-11-12",
     "theme": "eco",
@@ -475,6 +434,70 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-11-25-sommet-ue-balkans-occidentaux",
+    "date": "2026-11-25",
+    "theme": "geo",
+    "region": "Europe",
+    "place": "Bruxelles, Belgique",
+    "title": "Sommet entre l'UE et les six pays des Balkans occidentaux",
+    "why": "Les dirigeants de l'UE et des Balkans occidentaux se retrouvent à Bruxelles pour parler d'adhésion, du plan de croissance pour la région et de sécurité, après le sommet de Tivat en juin [1][2]. L'UE y teste la crédibilité de ses promesses d'élargissement, au moment où la Serbie s'éloigne de Bruxelles [2].",
+    "sources": [
+      {
+        "short": "New Union Post",
+        "name": "New Union Post, « EU-Western Balkans summit 2026 in Brussels » (23 octobre 2026)",
+        "url": "https://newunionpost.eu/2026/10/23/eu-western-balkans-summit-2026-brussels/"
+      },
+      {
+        "short": "Brussels Times",
+        "name": "The Brussels Times, « Western Balkans summit to test EU's resolve as membership pledges face scrutiny »",
+        "url": "https://www.brusselstimes.com/2374955/western-balkans-summit-to-test-eus-resolve-as-membership-pledges-face-scrutiny"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-conseil-europeen-budget-2028-2034",
+    "date": "2026-11-26",
+    "end": "2026-11-27",
+    "theme": "mix",
+    "region": "Europe",
+    "place": "Bruxelles, Belgique",
+    "title": "Sommet européen extraordinaire sur le budget de l'UE 2028-2034",
+    "why": "António Costa, président du Conseil européen, prévoit un sommet extraordinaire les 26 et 27 novembre pour viser un accord politique d'ici fin 2026 sur le prochain budget pluriannuel, que la Commission propose à près de 2 000 milliards d'euros [1][2]. En jeu : l'argent de l'agriculture, de la défense, de la compétitivité et l'aide à l'Ukraine [2].",
+    "sources": [
+      {
+        "short": "Eunews",
+        "name": "Eunews, « 2028-2034 budget: plans for an extraordinary summit of leaders on 26 and 27 November » (13 octobre 2026)",
+        "url": "https://www.eunews.it/en/2026/10/13/2028-2034-budget-plans-for-an-extraordinary-summit-of-leaders-on-26-and-27-november/"
+      },
+      {
+        "short": "Agence Europe",
+        "name": "Agence Europe, « António Costa plans extraordinary European summit in late November to reach agreement on EU's 2028-2034 budget by end of 2026 »",
+        "url": "https://agenceurope.eu/en/bulletin/article/13798/21/antonio-costa-plans-extraordinary-european-summit-in-late-november-to-reach-agreement-on-eus-2028-2034-budget-by-end-of-2026"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-coree-du-sud-banque-centrale-taux",
+    "date": "2026-11-26",
+    "theme": "eco",
+    "region": "Asie",
+    "place": "Séoul, Corée du Sud",
+    "title": "Corée du Sud : dernière décision de taux de l'année de la Banque de Corée",
+    "why": "La Banque de Corée a laissé son taux à 3 % le 22 octobre en gardant la porte ouverte à une hausse ; Citibank et Morgan Stanley s'attendent à un quart de point de plus en novembre [1][2]. Une hausse renchérirait le crédit dans un pays très endetté et soutiendrait le won.",
+    "sources": [
+      {
+        "short": "Korea Times",
+        "name": "The Korea Times, « BOK keeps rate steady at 3%, but further hikes remain on table » (22 octobre 2026)",
+        "url": "https://www.koreatimes.co.kr/economy/20261022/bok-keeps-rate-steady-at-3-but-further-hikes-remain-on-table"
+      },
+      {
+        "short": "Kyunghyang Shinmun",
+        "name": "Kyunghyang Shinmun (édition anglaise), sur la décision du 22 octobre 2026 de la Banque de Corée",
+        "url": "https://www.khan.co.kr/en/article/202610221648047"
+      }
+    ]
+  },
+  {
     "id": "2026-11-28-palestine-legislatives",
     "date": "2026-11-28",
     "theme": "geo",
@@ -696,6 +719,27 @@ window.GEOCO.agenda = [
         "short": "Bloomberg Línea",
         "name": "Bloomberg Línea Brasil, « Banco Central interrompe cortes e mantém Selic em 13,75% após reeleição de Lula »",
         "url": "https://www.bloomberglinea.com.br/brasil/banco-central-interrompe-cortes-e-mantem-selic-em-1375-apos-reeleicao-de-lula/"
+      }
+    ]
+  },
+  {
+    "id": "2026-12-10-turquie-banque-centrale-taux",
+    "date": "2026-12-10",
+    "theme": "eco",
+    "region": "Europe",
+    "place": "Ankara, Turquie",
+    "title": "Turquie : dernière réunion de l'année de la banque centrale",
+    "why": "La banque centrale turque a baissé son taux directeur d'un point, de 37 % à 36 %, le 22 octobre ; le 10 décembre est sa dernière réunion de 2026 [1][2]. Une nouvelle baisse dirait si la lutte contre l'inflation est jugée assez avancée, avec un effet direct sur la livre turque.",
+    "sources": [
+      {
+        "short": "Hürriyet Daily News",
+        "name": "Hürriyet Daily News, « Central Bank to release final Inflation report on Nov 12 »",
+        "url": "https://www.hurriyetdailynews.com/amp/central-bank-to-release-final-inflation-report-on-nov-12-229093"
+      },
+      {
+        "short": "Banque centrale de Turquie",
+        "name": "Banque centrale de la République de Turquie, communiqués de presse 2026",
+        "url": "https://www.tcmb.gov.tr/wps/wcm/connect/en/tcmb+en/main+menu/announcements/press+releases/2026"
       }
     ]
   },

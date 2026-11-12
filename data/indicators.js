@@ -7,7 +7,7 @@
 
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.indicators = {
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "latest": [
     {
       "group": "Économie",
@@ -495,6 +495,11 @@ window.GEOCO.indicators = {
           "short": "Trading Economics (CAPMAS)",
           "name": "Trading Economics, « Egypt Inflation Rate at 9-Month Low of 12.7% » (inflation urbaine, chiffres CAPMAS, nov. 2026)",
           "url": "https://tradingeconomics.com/egypt/inflation-cpi/news/598833"
+        },
+        {
+          "short": "BNN Bloomberg (Statistique Canada)",
+          "name": "BNN Bloomberg, inflation de septembre 2026 par province : 3,1 % pour le Canada (Statistique Canada, 19 oct. 2026)",
+          "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/19/heres-a-list-of-september-inflation-rates-for-canadian-provinces/"
         }
       ],
       "values": {
@@ -529,9 +534,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "124": {
-          "v": 3,
-          "d": "août 2026",
-          "s": 1
+          "v": 3.1,
+          "d": "sept. 2026",
+          "s": 40
         },
         "132": {
           "v": 0.8,
