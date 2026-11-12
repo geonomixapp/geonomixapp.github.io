@@ -129,8 +129,7 @@
       } else lastTap = { t: now, x: e.clientX, y: e.clientY };
     };
     container.addEventListener("pointerup", lift, { capture: true });
-    container.addEventListener("pointercancel", lift, { capture: true });    // Un doigt qui glisse verticalement fait défiler la page (touch-action: pan-y) ; à deux doigts, on garde le pincement pour le globe.
-    container.addEventListener("touchmove", (e) => { if (e.touches.length > 1) e.preventDefault(); }, { passive: false });
+    container.addEventListener("pointercancel", lift, { capture: true });
   }
 
   // Ajoute une couche de nuages qui tourne lentement, en réutilisant les classes three.js du globe.

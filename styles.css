@@ -1235,11 +1235,18 @@ section.flash { animation: partFlash 1.6s ease-out; }
 .ind-stage .globe-zoom { right: 54px; }
 /* Accueil : les boutons + / − restent à l'écart du curseur de défilement (à droite) et s'en distinguent :
    une pastille bleue, à gauche sur téléphone. Le globe et ses étiquettes gardent les gestes pour eux (pincer). */
-.globe-hero .globe, .globe-hero .globe-pin { touch-action: pan-y; }
-/* Accueil et Focus (demande de l'auteur, 12 nov. 2026 : « réduire la surface tactile du globe et de la Supra, pour descendre
-   tranquillement ») : un glissement vertical fait défiler la page ; on tourne le globe ou la voiture en glissant sur le côté,
-   on zoome en pinçant. three.js met touch-action: none sur son canvas : on le remplace. */
-.globe-hero canvas, .car-stage canvas { touch-action: pan-y !important; }
+.globe-hero .globe, .globe-hero .globe-pin { touch-action: none; }
+/* Accueil, pages pays et Focus (demande de l'auteur, 12 nov. 2026 : « réduire la surface tactile pour descendre tranquillement »,
+   puis « un entre-deux, on ne peut plus faire bouger le globe ») : le globe et la Supra gardent tous leurs gestes au centre ;
+   deux bandes sur les côtés (.swipe-band) laissent défiler la page. */
+.swipe-band {
+  position: absolute; top: 0; bottom: 44px; width: clamp(56px, 20%, 200px); z-index: 2;
+  touch-action: pan-y; cursor: default; pointer-events: auto;
+}
+.swipe-band.l { left: 0; background: linear-gradient(90deg, rgba(255,255,255,.035), transparent); }
+.swipe-band.r { right: 0; background: linear-gradient(270deg, rgba(255,255,255,.035), transparent); }
+.car-stage .swipe-band, .ind-stage .swipe-band { bottom: 0; }
+@media (hover: hover) and (pointer: fine) { .swipe-band { display: none; } }
 .globe-hero .globe-zoom { right: 64px; bottom: 16px; gap: 0; border-radius: 999px; overflow: hidden; border: 1px solid rgba(90,169,255,.55); background: rgba(10,40,80,.6); box-shadow: 0 4px 18px rgba(0,0,0,.45); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); }
 .globe-hero .globe-zoom button { width: 48px; height: 48px; border: 0; border-radius: 0; background: transparent; color: #cfe6ff; }
 .globe-hero .globe-zoom button + button { border-top: 1px solid rgba(90,169,255,.35); }

@@ -633,6 +633,7 @@
           ${onGlobe.map((n) => `<a class="tagpill" href="#/actu/${n.id}">${n.geo[0].name} · ${n.title}</a>`).join("")}
         </div>
         <div class="globe-sheet" hidden></div>
+        <div class="swipe-band l" aria-hidden="true"></div><div class="swipe-band r" aria-hidden="true"></div>
         ${scrollRail()}
         <a class="scroll-hint" href="#/" data-scroll="feed"><span>Toute l'actu</span><span class="arrow" aria-hidden="true">↓</span></a>
         ${tickerHTML()}
@@ -1059,6 +1060,7 @@
           <p class="country-sub">${local ? I18N.t("{n} actus dans le pays").replace("{n}", local) : I18N.t("Pas d'actu récente dans le pays")}${far ? ` · ${I18N.t("{n} ailleurs qui le concernent").replace("{n}", far)}` : ""}</p>
         </div>
         <div class="globe-sheet" hidden></div>
+        <div class="swipe-band l" aria-hidden="true"></div><div class="swipe-band r" aria-hidden="true"></div>
         ${scrollRail()}
       </section>
 
@@ -2274,7 +2276,8 @@
           <p class="car-loading" id="car-loading">Chargement de la voiture 3D…</p>
           <p class="car-hint" id="car-hint" aria-hidden="true"><span class="car-hint-icon">⟲</span> Glisse pour faire tourner · touche un point</p>
           <div class="car-card" id="car-card" hidden></div>
-          ${scrollRail()}
+          <div class="swipe-band l" aria-hidden="true"></div><div class="swipe-band r" aria-hidden="true"></div>
+        ${scrollRail()}
         </div>
         <div class="wrap focus-controls">
           ${f.paints ? `<div>${segmented(f.paints, f.paints[0][0], "paint")}</div>` : ""}
@@ -2748,7 +2751,8 @@ function statGrid(figures, sources, theme = "geo") {
         <div class="ind-stage" style="margin-top:18px">
           <div class="ind-globe" id="conf-globe"></div>
           <div class="ind-card" id="conf-card" hidden></div>
-          ${scrollRail()}
+          <div class="swipe-band l" aria-hidden="true"></div><div class="swipe-band r" aria-hidden="true"></div>
+        ${scrollRail()}
         </div>
         <div class="legend" id="conf-legend"></div>
         <p class="viz-cap">Touche un pays coloré pour savoir ce qui s'y passe.</p>
@@ -2930,7 +2934,8 @@ function statGrid(figures, sources, theme = "geo") {
         <div class="ind-stage">
           <div class="ind-globe" id="ind-globe"></div>
           <div class="ind-card" id="ind-card" hidden></div>
-          ${scrollRail()}
+          <div class="swipe-band l" aria-hidden="true"></div><div class="swipe-band r" aria-hidden="true"></div>
+        ${scrollRail()}
         </div>
         <div class="legend" id="legend"></div>
         <p class="viz-cap">Touche un pays pour voir son chiffre. Plus un pays est clair et « haut », plus la valeur est élevée.</p>
