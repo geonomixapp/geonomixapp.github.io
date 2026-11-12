@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-12",
+    "file": "lettres/2026-11-12.pdf",
+    "titles": [
+      "Ormuz : l'Iran dit s'être entendu avec Oman pour gérer le détroit, qui ne redeviendra « jamais » comme avant la guerre",
+      "Ukraine : Abou Dabi se termine sur un échange de plus de 1 000 prisonniers de chaque côté, sans cessez-le-feu, et les émissaires américains filent chez Poutine",
+      "Près de 50 dirigeants européens à Dublin autour de Zelensky, avant un sommet de l'UE sur les 70 milliards d'euros réclamés par Kiev"
+    ],
+    "fileDark": "lettres/2026-11-12-sombre.pdf"
+  },
+  {
     "date": "2026-11-11",
     "file": "lettres/2026-11-11.pdf",
     "titles": [
