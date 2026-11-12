@@ -1,0 +1,143 @@
+<title>Geonomix en Times New Roman</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+/* Maquette sombre, comme l'appli : seule la police change selon le choix en haut. */
+:root {
+  --bg: #000; --surface: #1c1c1e; --surface-2: #2c2c2e; --hairline: rgba(255,255,255,.12);
+  --text: #f5f5f7; --muted: #8e8e93; --blue: #2997ff; --gold: #f5c86b; --geo: #8f8cf5; --eco: #ff8a3d;
+  --serif: "Times New Roman", Times, "Tinos", "Liberation Serif", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", "Helvetica Neue", Arial, sans-serif;
+  --ui: var(--sans);
+  color-scheme: dark;
+}
+:root.all-times { --ui: var(--serif); }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--text); font-family: var(--ui); font-size: 17px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 48px; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.wrap { max-width: 720px; margin: 0 auto; }
+.serif { font-family: var(--serif); }
+
+.switch { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 9; background: rgba(0,0,0,.86);
+  -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-bottom: 1px solid var(--hairline);
+  margin-inline: calc(-1 * max(16px, env(safe-area-inset-left, 0px))); padding: 12px max(16px, env(safe-area-inset-left, 0px)); }
+.switch .wrap { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; }
+.switch p { margin: 0; font-family: var(--sans); font-size: 13px; color: var(--muted); }
+.seg { display: inline-flex; background: var(--surface); border: 1px solid var(--hairline); border-radius: 999px; padding: 3px; font-family: var(--sans); }
+.seg button { border: 0; background: transparent; color: var(--muted); font: 600 14px var(--sans); padding: 8px 14px; border-radius: 999px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: #f5f5f7; color: #000; }
+.seg button:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.seg button.t { font-family: var(--serif); font-size: 15px; }
+
+nav.app { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin: 18px auto 26px; max-width: 720px;
+  background: rgba(28,28,30,.8); border: 1px solid var(--hairline); border-radius: 999px; padding: 6px 8px; }
+nav.app .logo { font-family: var(--serif); font-weight: 700; font-size: 19px; padding: 0 10px 0 6px; }
+nav.app .logo b { color: #ff453a; }
+nav.app a { color: var(--muted); text-decoration: none; font-size: 14px; font-weight: 500; padding: 6px 10px; border-radius: 999px; }
+nav.app a.on { color: var(--text); background: var(--surface-2); }
+
+.eyebrow { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; font-size: 13px; color: var(--muted); font-weight: 600; letter-spacing: .02em; }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--geo); }
+.chip { color: var(--geo); border: 1px solid rgba(143,140,245,.45); border-radius: 999px; padding: 2px 9px; }
+h1 { font-family: var(--serif); font-size: clamp(30px, 6vw, 44px); line-height: 1.1; letter-spacing: -.015em; margin: 12px 0 14px; text-wrap: balance; font-weight: 700; }
+.summary { font-family: var(--serif); font-size: 21px; line-height: 1.45; color: #d9d9de; margin: 0 0 22px; }
+.meta { font-size: 13px; color: var(--muted); display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 26px; }
+
+.figs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 0 0 30px; }
+.fig { background: var(--surface); border-radius: 16px; padding: 14px; min-width: 0; }
+.fig .v { font-family: var(--serif); font-size: 30px; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+.fig .l { font-size: 13px; color: var(--muted); margin-top: 8px; line-height: 1.35; }
+@media (max-width: 520px) { .figs { grid-template-columns: 1fr; } .fig { display: flex; gap: 12px; align-items: baseline; } .fig .l { margin: 0; } }
+
+h2 { font-family: var(--serif); font-size: 26px; margin: 30px 0 12px; letter-spacing: -.01em; }
+.label { font-size: 12px; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); font-weight: 700; margin: 30px 0 8px; }
+ul.points { margin: 0; padding-left: 20px; display: grid; gap: 12px; }
+ul.points li, .copy { font-family: var(--serif); font-size: 19px; line-height: 1.5; }
+.copy { margin: 0 0 14px; }
+.cite { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 14px 0 0; }
+mark.hl { background: linear-gradient(transparent 55%, rgba(245,200,107,.38) 55%); color: inherit; padding: 0 1px; }
+
+.btns { display: flex; gap: 10px; flex-wrap: wrap; margin: 26px 0 0; }
+.btn { border: 0; border-radius: 999px; padding: 11px 18px; font: 600 15px var(--ui); cursor: pointer; }
+.btn.p { background: var(--blue); color: #fff; }
+.btn.s { background: var(--surface-2); color: var(--text); }
+
+.course { margin-top: 44px; border-top: 1px solid var(--hairline); padding-top: 24px; }
+.stars { color: var(--gold); letter-spacing: 2px; } .stars i { color: rgba(245,200,107,.25); font-style: normal; }
+.part { font-size: 12px; text-transform: uppercase; letter-spacing: .12em; color: var(--gold); font-weight: 700; margin-top: 18px; }
+.plain { background: var(--surface); border-radius: 16px; padding: 16px 18px; margin-top: 16px; }
+.plain .t { font-size: 13px; font-weight: 700; color: var(--gold); margin-bottom: 8px; }
+.plain ol { margin: 0; padding-left: 20px; display: grid; gap: 6px; font-size: 16px; }
+
+.note { margin-top: 40px; font-family: var(--sans); font-size: 14px; color: var(--muted); background: var(--surface); border-radius: 14px; padding: 14px 16px; }
+.note b { color: var(--text); }
+</style>
+
+<div class="switch"><div class="wrap">
+  <p id="what">Proposition : tout en Times New Roman, même les boutons et les menus.</p>
+  <div class="seg" role="group" aria-label="Police">
+    <button type="button" id="b-now" aria-pressed="false">Aujourd'hui</button>
+    <button type="button" id="b-times" class="t" aria-pressed="true">Tout en Times</button>
+  </div>
+</div></div>
+
+<nav class="app" aria-label="Menu de l'appli (maquette)">
+  <span class="logo">Ge<span>o</span>nomi<b>x</b></span>
+  <a class="on" href="#">Actu</a><a href="#">Focus</a><a href="#">Conflits</a><a href="#">Cours</a><a href="#">Articles</a><a href="#">Chiffres</a>
+</nav>
+
+<main class="wrap">
+  <div class="eyebrow"><span class="dot"></span><span class="chip">Géopolitique</span><span>Aujourd'hui · Téhéran, Iran</span></div>
+  <h1>Ormuz : l'Iran dit s'être entendu avec Oman pour gérer le détroit, qui ne redeviendra « jamais » comme avant la guerre</h1>
+  <p class="summary">Dans un entretien à Al Jazeera publié le 11 novembre, Mohammad Bagher Ghalibaf, président du Parlement iranien et négociateur en chef, affirme avoir trouvé une entente avec Oman sur les routes de navigation d'Ormuz. Le même jour, un pétrolier a pris feu après avoir heurté une mine dans l'est du détroit.</p>
+  <div class="meta"><span>12 novembre 2026</span><span>4 min de lecture</span><span>10 sources</span></div>
+
+  <div class="figs">
+    <div class="fig"><div class="v">130</div><div class="l">navires par jour dans le détroit avant la guerre</div></div>
+    <div class="fig"><div class="v">7 points</div><div class="l">proposition de paix iranienne, qui inclut l'entente avec Oman</div></div>
+    <div class="fig"><div class="v">3</div><div class="l">pétroliers en feu le 10 novembre selon les Gardiens de la révolution</div></div>
+  </div>
+
+  <p class="label">Ce qu'il faut savoir</p>
+  <ul class="points">
+    <li>Mohammad Bagher Ghalibaf a déclaré que le détroit d'Ormuz ne retrouverait « jamais » son statut d'avant la guerre menée par les États-Unis et Israël contre l'Iran. « Il n'y a pas d'eaux libres », a-t-il résumé.</li>
+    <li>Il a annoncé : « Nous sommes parvenus à une entente avec Oman sur le couloir de navigation et le dispositif de séparation du trafic dans le détroit d'Ormuz ».</li>
+    <li>Mercredi 11 novembre au petit matin, selon l'armée iranienne, un pétrolier a pris feu après avoir heurté une mine navale dans une zone « dangereuse et interdite » de l'est du détroit.</li>
+  </ul>
+  <p class="cite">Sources : Al Jazeera · TASS · Middle East Eye</p>
+
+  <h2>Pourquoi c'est important</h2>
+  <p class="copy">À retenir : l'Iran veut transformer sa mainmise sur Ormuz en <mark class="hl">règle durable, partagée avec Oman</mark>, au lieu d'un simple blocus de guerre.</p>
+  <p class="copy">C'est un défi direct au principe de libre passage : avant la guerre, environ 130 navires traversaient le détroit chaque jour, et Téhéran veut désormais que chaque passage se fasse selon ses conditions.</p>
+  <p class="cite">Sources : Al Jazeera · Business Standard · Arab News</p>
+
+  <div class="btns"><button class="btn p" type="button">Le cours pour comprendre : les routes maritimes</button><button class="btn s" type="button">Partager</button></div>
+
+  <section class="course" aria-label="Extrait d'un cours">
+    <div class="eyebrow"><span>Cours · Les grandes écoles économiques</span><span class="stars">★★★<i>★</i></span><span>22 min</span></div>
+    <div class="part">Partie 11</div>
+    <h2 style="margin-top:6px">Elinor Ostrom : ni l'État ni le marché</h2>
+    <p class="copy">La politologue américaine Elinor Ostrom va voir sur le terrain. Pâturages suisses, systèmes d'irrigation au Népal, pêcheries de Turquie, forêts du Japon : elle découvre que <mark class="hl">des communautés gèrent très bien leurs ressources communes pendant des siècles</mark>, avec leurs propres règles, sans privatisation ni État central.</p>
+    <p class="copy">En 2009, elle devient <mark class="hl">la première femme à recevoir le prix Nobel d'économie</mark>.</p>
+    <div class="plain"><div class="t">En clair : le pouvoir de l'option par défaut</div>
+      <ol><li>Pour entrer dans le plan d'épargne, il faut remplir un formulaire : beaucoup remettent à plus tard.</li><li>L'entreprise inscrit tout le monde d'office, avec la possibilité d'en sortir en un clic.</li><li>Presque personne ne se désinscrit : c'est le « nudge » de Thaler.</li></ol>
+    </div>
+  </section>
+
+  <p class="note" id="note"><b>Ce qui change :</b> aujourd'hui, les titres et les textes sont déjà en Times New Roman ; le menu, les boutons, les étiquettes, les dates et les petits textes sont dans la police du téléphone. Avec « Tout en Times », toute la page est dans la même police, comme un journal papier.</p>
+</main>
+
+<script>
+(function () {
+  var root = document.documentElement, now = document.getElementById("b-now"), times = document.getElementById("b-times"), what = document.getElementById("what");
+  function set(all) {
+    root.classList.toggle("all-times", all);
+    now.setAttribute("aria-pressed", String(!all)); times.setAttribute("aria-pressed", String(all));
+    what.textContent = all ? "Proposition : tout en Times New Roman, même les boutons et les menus." : "Aujourd'hui : Times pour les titres et les textes, police du téléphone pour le reste.";
+  }
+  now.addEventListener("click", function () { set(false); });
+  times.addEventListener("click", function () { set(true); });
+  set(true);
+})();
+</script>
