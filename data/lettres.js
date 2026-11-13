@@ -2,12 +2,22 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-13",
+    "file": "lettres/2026-11-13.pdf",
+    "titles": [
+      "Guerre avec l'Iran : Trump dit ne plus « avoir besoin » d'un accord et retire Vance des discussions, le pétrole remonte de 3 %",
+      "Wall Street ne perd que 0,4 % malgré le départ de Jensen Huang : AMD et Broadcom bondissent de près de 6 %, le taux à 10 ans américain repasse au-dessus de 5 %",
+      "Ukraine : deux heures avec Poutine au Kremlin, puis cap sur Dublin, les émissaires de Trump veulent les Européens à la prochaine table"
+    ],
+    "fileDark": "lettres/2026-11-13-sombre.pdf"
+  },
+  {
     "date": "2026-11-12",
     "file": "lettres/2026-11-12.pdf",
     "titles": [
+      "Nvidia : Jensen Huang démissionne avec effet immédiat après 33 ans à la tête du géant des puces, l'action chute de plus de 13 % à l'ouverture",
       "Ormuz : l'Iran dit s'être entendu avec Oman pour gérer le détroit, qui ne redeviendra « jamais » comme avant la guerre",
-      "Ukraine : Abou Dabi se termine sur un échange de plus de 1 000 prisonniers de chaque côté, sans cessez-le-feu, et les émissaires américains filent chez Poutine",
-      "Près de 50 dirigeants européens à Dublin autour de Zelensky, avant un sommet de l'UE sur les 70 milliards d'euros réclamés par Kiev"
+      "Ukraine : Abou Dabi se termine sur un échange de plus de 1 000 prisonniers de chaque côté, sans cessez-le-feu, et les émissaires américains filent chez Poutine"
     ],
     "fileDark": "lettres/2026-11-12-sombre.pdf"
   },
