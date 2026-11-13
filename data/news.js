@@ -17,6 +17,167 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.news = [
   {
+    "id": "2026-11-12-fin-nvidia-jensen-huang-demission",
+    "date": "2026-11-12",
+    "breaking": "19:00",
+    "region": "Amériques",
+    "theme": "fin",
+    "zones": [
+      "Amérique du Nord",
+      "Asie",
+      "Europe"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "coords": [
+          -121.96,
+          37.35
+        ],
+        "name": "Santa Clara, États-Unis",
+        "label": "Nvidia"
+      }
+    ],
+    "title": "Nvidia : Jensen Huang démissionne avec effet immédiat après 33 ans à la tête du géant des puces, l'action chute de plus de 13 % à l'ouverture",
+    "summary": "Le conseil d'administration de Nvidia a annoncé jeudi 12 novembre la démission immédiate de son PDG, Jensen Huang, emporté par une affaire de liaisons dont l'une avec une femme soupçonnée d'espionnage pour la Chine. La directrice financière Colette Kress assure l'intérim. L'action a perdu jusqu'à 14,4 % à Wall Street [1][3][4].",
+    "points": [
+      "Jeudi 12 novembre, le conseil d'administration de Nvidia a annoncé que Jensen Huang quittait ses fonctions de président, de directeur général et d'administrateur, avec effet immédiat ; Reuters a été la première agence à diffuser l'information [1][2].",
+      "Colette Kress, vice-présidente exécutive et directrice financière, devient directrice générale par intérim tout en gardant ses fonctions financières, le temps que le conseil choisisse un successeur permanent [1]. Elle dirige les finances du groupe depuis 2013 [3].",
+      "Le conseil nomme aussi Harvey C. Jones à sa présidence, une première dans l'histoire de l'entreprise [1]. Le communiqué officiel ne donne aucune raison au départ [1].",
+      "Selon le New York Times, cité par le San Francisco Chronicle, le départ suit la révélation d'une deuxième liaison, avec une cadre de Nvidia [6]. Jensen Huang avait déjà reconnu une relation avec Alice Huang, une ressortissante chinoise que le renseignement américain soupçonne d'espionner pour Pékin [3][7].",
+      "En Bourse, l'action est tombée à 148,80 dollars peu après l'ouverture, en baisse de 14,4 % par rapport à la clôture de mercredi, avant de réduire ses pertes en cours de matinée [4][5].",
+      "Le cabinet d'analyse Bernstein a divisé par deux son objectif de cours, de 400 à 200 dollars [5]. Selon Quartz, le titre a perdu près de 750 milliards de dollars de valeur depuis le début du scandale [8].",
+      "Harvey Jones dit avoir « toute confiance » en Colette Kress et assure que les activités et les projets de produits continuent [1]. Le conseil répète n'avoir aucune raison de croire que la sécurité nationale ou des secrets de l'entreprise aient été compromis, et poursuit son enquête [7]. Colette Kress promet de « bâtir sur les fondations » posées par Jensen Huang en 33 ans [7]."
+    ],
+    "why": [
+      "À retenir : le patron le plus associé à l'essor de l'intelligence artificielle quitte, du jour au lendemain, l'entreprise qui fabrique l'essentiel des puces de l'IA, cinq jours avant ses résultats trimestriels [1][3].",
+      "L'affaire a éclaté en quelques jours : le 8 novembre, le conseil ouvrait une enquête indépendante après que Jensen Huang eut reconnu une liaison, et trois présidents républicains de commissions de la Chambre lui demandaient un briefing à huis clos le 18 novembre sur les protections de Nvidia face aux puissances adverses [9]. La révélation d'une seconde relation a précipité le départ [6].",
+      "Le choc dépasse Nvidia : son action pèse lourd dans les grands indices américains et dans les fonds investis dans l'IA, et la perte de près de 750 milliards de dollars de valeur en quelques jours, selon Quartz, touche des millions d'épargnants [8]. Le volet chinois de l'affaire s'inscrit dans la rivalité entre Washington et Pékin sur les puces [3][9].",
+      "La suite dépend de deux rendez-vous : les résultats du 17 novembre, premiers sans Jensen Huang, et le choix d'un successeur, interne ou externe [3][1]."
+    ],
+    "forMe": "Si tu as un fonds indiciel américain ou mondial (un ETF S&P 500, Nasdaq ou « Monde »), Nvidia y figure en bonne place : sa chute pèse donc sur ton épargne, même sans détenir l'action. C'est aussi un rappel qu'une entreprise très liée à une seule personne peut perdre beaucoup sur une affaire de gouvernance, pas seulement sur ses ventes. C'est une information, jamais un conseil d'acheter ou de vendre.",
+    "figures": [
+      {
+        "src": 4,
+        "value": "−14,4 %",
+        "label": "chute de l'action Nvidia peu après l'ouverture, jeudi 12 novembre"
+      },
+      {
+        "src": 5,
+        "value": "200 $",
+        "label": "nouvel objectif de cours de Bernstein, contre 400 $ avant"
+      },
+      {
+        "src": 7,
+        "value": "33 ans",
+        "label": "durée de Jensen Huang à la tête de Nvidia"
+      }
+    ],
+    "next": [
+      {
+        "when": "17 novembre",
+        "what": "Nvidia publie ses résultats du troisième trimestre, les premiers sans Jensen Huang [3]."
+      },
+      {
+        "when": "18 novembre",
+        "what": "Date du briefing à huis clos que les élus de la Chambre avaient demandé à Jensen Huang [9]."
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs"
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi le départ d'un patron fait chuter l'action",
+        "text": "Le prix d'une action reflète ce que les investisseurs attendent des bénéfices futurs. Quand une entreprise est très associée à son dirigeant, ils se demandent si la stratégie, les relations avec les grands clients et la capacité à innover tiendront sans lui : c'est le « risque lié au dirigeant ». Un départ brutal, sans successeur préparé, augmente l'incertitude ; les analystes revoient alors leurs objectifs de cours, comme Bernstein qui a divisé le sien par deux [5]. Le conseil d'administration tente de rassurer en nommant vite un intérim connu des marchés, ici la directrice financière, et en affirmant que les projets continuent [1]."
+      }
+    },
+    "past": {
+      "title": "Les précédents : des dirigeants partis pour une relation qui contrevenait aux règles",
+      "items": [
+        {
+          "when": "Juin 2018",
+          "what": "Brian Krzanich quitte la direction d'Intel après la révélation d'une relation consensuelle passée avec une employée, contraire à la politique interne du groupe [10].",
+          "lesson": "Une règle interne violée peut suffire à faire partir un PDG, même sans faute financière [10]."
+        },
+        {
+          "when": "1er septembre 2025",
+          "what": "Nestlé limoge son directeur général, Laurent Freixe, après une enquête sur une relation non déclarée avec une subordonnée directe ; Philipp Navratil le remplace [11].",
+          "lesson": "Le conseil a enquêté puis tranché vite, avec un successeur nommé dans la foulée pour rassurer [11]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "Nvidia",
+          "ticker": "NVDA",
+          "move": "−14,4 %",
+          "why": "L'action est tombée à 148,80 dollars peu après l'ouverture jeudi, en baisse de 14,4 % sur la clôture de mercredi, avant de réduire ses pertes [4][5]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Nvidia",
+        "name": "Nvidia, communiqué « NVIDIA Announces CEO Transition » (12 novembre 2026)",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+      },
+      {
+        "short": "Reuters",
+        "name": "Reuters sur X, « BREAKING: Jensen Huang has resigned as president, CEO and board member of Nvidia » (12 novembre 2026)",
+        "url": "https://x.com/Reuters/status/2120877439815475687"
+      },
+      {
+        "short": "Radio-Canada",
+        "name": "Radio-Canada, « Le PDG de Nvidia, Jensen Huang, démissionne » (12 novembre 2026)",
+        "url": "https://ici.radio-canada.ca/article/info/2300068/pdg-nvidia-jensen-huang-demission-scandale-espionnage"
+      },
+      {
+        "short": "The Hill",
+        "name": "The Hill, « Nvidia stock plunges 14 percent following CEO Jensen Huang's resignation » (12 novembre 2026)",
+        "url": "https://thehill.com/business/6215959-jensen-huang-resigns-nvidia-stock-drops/"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Nvidia stock pares morning losses after CEO Jensen Huang announces resignation » (12 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
+      },
+      {
+        "short": "SF Chronicle",
+        "name": "San Francisco Chronicle, « Nvidia CEO Jensen Huang resigns, board says » (12 novembre 2026)",
+        "url": "https://www.sfchronicle.com/tech/article/nvidia-jensen-huang-fired-affair-22525954.php"
+      },
+      {
+        "short": "Fox 4",
+        "name": "Fox 4, « Nvidia CEO Jensen Huang resigns, effective immediately » (12 novembre 2026)",
+        "url": "https://www.fox4news.com/news/nvidia-ceo-jensen-huang-resigns-effective-immediately"
+      },
+      {
+        "short": "Quartz",
+        "name": "Quartz, « Nvidia stock falls about 12% premarket after Jensen Huang resigned » (12 novembre 2026)",
+        "url": "https://qz.com/jensen-huang-resigns-nvidia-ceo-affairs-stock-sinks-111226"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Nvidia CEO Jensen Huang faces bipartisan congressional scrutiny over reported China spy link » (8 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html"
+      },
+      {
+        "short": "Forbes",
+        "name": "Forbes, « Nestlé CEO Joins Growing List Of Executives Ousted Over Office Affairs » (2 septembre 2025)",
+        "url": "https://www.forbes.com/sites/kimelsesser/2025/09/02/nestle-ceo-joins-growing-list-of-executives-ousted-over-office-affairs/"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Nestle plunged into turmoil as CEO fired over undisclosed relationship » (1er septembre 2025)",
+        "url": "https://www.cnbc.com/2025/09/01/nestle-dismisses-ceo-laurent-freixe-after-code-of-conduct-breach.html"
+      }
+    ]
+  },
+  {
     "id": "2026-11-12-iran-oman-ormuz-ghalibaf-mines-petroliers",
     "date": "2026-11-12",
     "region": "Moyen-Orient",
@@ -30732,523 +30893,6 @@ window.GEOCO.news = [
         "short": "Straits Live",
         "name": "Straits Live, « Strait of Hormuz News, October 29, 2026: Straits Daily Brief »",
         "url": "https://straits.live/briefs/2026-10-29"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-29-cuba-onu-embargo-vote",
-    "date": "2026-10-29",
-    "region": "Amériques",
-    "theme": "geo",
-    "geo": [
-      {
-        "name": "La Havane, Cuba",
-        "label": "Cuba",
-        "coords": [
-          -82.37,
-          23.13
-        ]
-      }
-    ],
-    "title": "L'ONU condamne encore l'embargo américain contre Cuba, mais Cuba perd 35 voix en un an",
-    "summary": "Le 28 octobre, l'Assemblée générale a voté 130 voix contre l'embargo, 17 pour son maintien et 25 abstentions. L'an dernier, 165 pays avaient soutenu Cuba.",
-    "points": [
-      "Le 28 octobre, l'Assemblée générale de l'ONU a demandé la fin de l'embargo américain contre Cuba par 130 voix pour, 17 contre et 25 abstentions, pour la 34e année de suite [1][2][3].",
-      "En 2025, le vote avait été de 165 voix pour, 7 contre et 12 abstentions : Cuba perd donc 35 voix de soutien en un an [1][2]. Les États-Unis, Israël, l'Ukraine, l'Argentine et les Émirats arabes unis font partie des 17 pays qui ont voté contre [1].",
-      "La veille, le débat a été tendu : le ministre cubain des Affaires étrangères, Bruno Rodríguez, a interrompu l'ambassadeur américain Mike Waltz, et la séance a été brièvement suspendue [1]. Washington soutient que la crise cubaine vient de son propre gouvernement, pas de l'embargo [1]."
-    ],
-    "why": [
-      "À retenir : le texte n'oblige personne, mais il mesure chaque année combien de pays acceptent encore de s'opposer publiquement à Washington [1][2].",
-      "Cette fois, Washington met en avant la hausse des abstentions pour dire que sa pression pour isoler Cuba commence à payer [1]. La résolution cite aussi la loi américaine Helms-Burton de 1996 et demande un rapport au secrétaire général de l'ONU pour la prochaine session [1]."
-    ],
-    "forMe": "Le vote ne change rien tout de suite à ton quotidien : il montre surtout où en est le rapport de forces diplomatique autour de Cuba [1][2].",
-    "figures": [
-      {
-        "value": "130 voix",
-        "label": "pour la fin de l'embargo (contre 165 en 2025)",
-        "src": 1
-      },
-      {
-        "value": "17 contre",
-        "label": "dont les États-Unis, Israël et l'Argentine",
-        "src": 1
-      },
-      {
-        "value": "34e année",
-        "label": "de vote consécutif sur le sujet",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "sanctions"
-    ],
-    "sources": [
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « UN votes to condemn embargo of Cuba despite US lobbying push » (28 octobre 2026)",
-        "url": "https://www.aljazeera.com/news/2026/10/28/un-votes-to-condemn-embargo-of-cuba-despite-us-lobbying-push"
-      },
-      {
-        "short": "UPI",
-        "name": "UPI, « Cuba loses some previous support in U.N. vote on U.S. embargo » (28 octobre 2026)",
-        "url": "https://www.upi.com/Top_News/World-News/2026/10/28/latam-cuba-united-nations-vote-us-embargo/1411793211989"
-      },
-      {
-        "short": "ONU Info",
-        "name": "ONU Info, « General Assembly weighs US embargo against Cuba ahead of 34th vote » (octobre 2026)",
-        "url": "https://news.un.org/en/story/2026/10/1168686"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-29-colombie-amazonie-reserve-revoquee",
-    "date": "2026-10-29",
-    "region": "Amériques",
-    "theme": "mix",
-    "geo": [
-      {
-        "name": "Leticia, Amazonie colombienne",
-        "label": "Colombie",
-        "coords": [
-          -69.94,
-          -4.21
-        ]
-      }
-    ],
-    "title": "La Colombie retire à l'Amazonie sa protection contre les mines et le pétrole",
-    "summary": "Le ministère de l'Environnement a révoqué la réserve créée en août, qui couvrait environ 42 % du pays. Les opposants y voient un feu vert aux industries extractives.",
-    "points": [
-      "Le ministère colombien de l'Environnement a révoqué la résolution 0961 de 2026, qui faisait de l'Amazonie une réserve « définitive » fermée aux nouvelles concessions minières et aux nouveaux contrats pétroliers [1][2].",
-      "La zone concernée couvrait environ 483 283 km², soit à peu près 42 % du territoire continental du pays [1]. Le ministère explique que le texte a été pris sans finir la consultation préalable des communautés noires, afro-colombiennes, raizales et palenqueras [1].",
-      "Révoquer ne veut pas dire que tout est autorisé : les projets doivent encore respecter les autres règles, comme la loi de 1959 sur les réserves forestières ou le système des parcs nationaux [1]. L'ancienne ministre Irene Vélez, qui défendait le texte, critique la décision et évoque un intérêt pour les terres rares, ce qui reste son accusation, pas un fait établi [2][3]."
-    ],
-    "why": [
-      "À retenir : la protection de l'Amazonie colombienne tenait à un seul texte, signé à la fin du mandat de Gustavo Petro, et un nouveau gouvernement a pu le défaire en quelques semaines [1][3].",
-      "Le ministre de l'Environnement, Fabio Arjona, défend un problème de procédure, tandis que ses opposants parlent de recul pour la forêt [3]. Le dossier va se jouer sur les règles qui restent en vigueur et sur d'éventuels recours en justice [1]."
-    ],
-    "forMe": "Rien ne change à court terme pour toi : la décision ouvre simplement la possibilité de nouveaux projets miniers et pétroliers dans une zone jusque-là fermée [1].",
-    "figures": [
-      {
-        "value": "483 283 km²",
-        "label": "de forêt amazonienne concernés par la réserve révoquée",
-        "src": 1
-      },
-      {
-        "value": "42 %",
-        "label": "environ du territoire continental colombien",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "El Colombiano",
-        "name": "El Colombiano, « MinAmbiente revocó resolución que declaraba la Amazonía libre de concesiones mineras » (octobre 2026)",
-        "url": "https://www.elcolombiano.com/colombia/por-que-minambiente-revoca-resolucion-reserva-amazonia-DM42825565"
-      },
-      {
-        "short": "Infobae",
-        "name": "Infobae, « Gobierno revocó la resolución que protegía a la Amazonía » (28 octobre 2026)",
-        "url": "https://www.infobae.com/colombia/2026/10/28/gobierno-de-abelardo-de-la-espriella-revoco-la-resolucion-que-protegia-a-la-amazonia-exministra-irene-velez-alerto-sobre-presunto-interes-en-la-apropiacion-de-tierras-raras/"
-      },
-      {
-        "short": "Vanguardia",
-        "name": "Vanguardia, « Gobierno revoca protección de la Amazonía y desata polémica » (27 octobre 2026)",
-        "url": "https://www.vanguardia.com/colombia/2026/10/27/gobierno-revoca-proteccion-de-la-amazonia-y-desata-polemica-entre-arjona-e-irene-velez/"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-29-irak-syrie-visite-oleoduc-baniyas",
-    "date": "2026-10-29",
-    "region": "Moyen-Orient",
-    "theme": "mix",
-    "geo": [
-      {
-        "name": "Damas, Syrie",
-        "label": "Syrie",
-        "coords": [
-          36.29,
-          33.51
-        ]
-      },
-      {
-        "name": "Bagdad, Irak",
-        "label": "Irak",
-        "coords": [
-          44.37,
-          33.31
-        ]
-      }
-    ],
-    "title": "Un Premier ministre irakien à Damas pour la première fois depuis la chute d'Assad, avec le pétrole en tête de l'agenda",
-    "summary": "Ali al-Zaidi a rencontré le président syrien Ahmed al-Sharaa le 28 octobre. Le bureau du Premier ministre irakien parle d'exporter du pétrole par l'oléoduc de Baniyas, jusqu'à 2 millions de barils par jour.",
-    "points": [
-      "Le 28 octobre, le Premier ministre irakien Ali al-Zaidi a été accueilli à l'aéroport de Damas par le président syrien Ahmed al-Sharaa [1][2]. Selon une source, c'est la première visite d'un chef de gouvernement irakien depuis la chute de Bachar al-Assad en décembre 2024 [2].",
-      "Le bureau du Premier ministre irakien dit avoir parlé d'exporter du pétrole irakien par l'oléoduc de Baniyas, qui pourrait faire passer jusqu'à 2 millions de barils par jour, ainsi que de commerce, d'agriculture et de sécurité aux frontières [1].",
-      "Aucun accord signé n'a été rapporté [1]. Les autorités du Kurdistan irakien ont, de leur côté, protesté contre des accords passés par Bagdad sans les consulter [4]."
-    ],
-    "why": [
-      "À retenir : la guerre a perturbé les exportations de pétrole de l'Irak ; en juin, il avait déjà commencé à en envoyer un peu via la Syrie [3].",
-      "Pour la Syrie, devenir le couloir de l'or noir irakien serait une façon de retrouver un rôle économique ; al-Sharaa a insisté sur l'importance de ce rôle de route commerciale pour l'Irak [1][2]."
-    ],
-    "forMe": "Une route de pétrole qui évite le Golfe peut aider à approvisionner le marché pendant que la guerre perturbe les exportations, mais celle-ci n'existe encore que sur le papier [1][3].",
-    "figures": [
-      {
-        "value": "2 millions",
-        "label": "de barils par jour : capacité citée pour l'oléoduc de Baniyas",
-        "src": 1
-      },
-      {
-        "value": "Décembre 2024",
-        "label": "chute de Bachar al-Assad, avant cette première visite",
-        "src": 2
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "routes-maritimes"
-    ],
-    "sources": [
-      {
-        "short": "Kuwait Times",
-        "name": "Kuwait Times, « Iraqi PM talks economy, energy on Syria visit » (28 octobre 2026)",
-        "url": "https://kuwaittimes.com/article/52564/world/iraqi-pm-talks-economy-energy-on-syria-visit"
-      },
-      {
-        "short": "Arab News",
-        "name": "Arab News, « Syria and Iraq pledge stronger security cooperation as leaders meet in Damascus » (28 octobre 2026)",
-        "url": "https://www.arabnews.com/middle-east/syria-and-iraq-pledge-stronger-security-cooperation-as-leaders-meet-in-damascus-3008663"
-      },
-      {
-        "short": "Ahram Online",
-        "name": "Ahram Online (AFP), « Iraqi FM makes first visit to Syria since Assad's fall » (juin 2026)",
-        "url": "https://english.ahram.org.eg/News/571862.aspx"
-      },
-      {
-        "short": "Syriac Press",
-        "name": "Syriac Press, « Iraqi Prime Minister visits Damascus amid dispute with Erbil over Sinjar arrangements » (28 octobre 2026)",
-        "url": "https://syriacpress.com/blog/2026/10/28/iraqi-prime-minister-visits-daramsuq-damascus-amid-dispute-with-arbailo-erbil-over-shigur-sinjar-arrangements/"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-29-azerbaidjan-turquie-voile-ecoles",
-    "date": "2026-10-29",
-    "region": "Europe",
-    "theme": "geo",
-    "geo": [
-      {
-        "name": "Bakou, Azerbaïdjan",
-        "label": "Azerbaïdjan",
-        "coords": [
-          49.87,
-          40.41
-        ]
-      }
-    ],
-    "title": "Le voile à l'école brouille Bakou et Ankara : Erdogan limoge un conseiller, l'Azerbaïdjan interdit l'entrée à 31 Turcs",
-    "summary": "Une règle sur l'uniforme scolaire, appliquée depuis le 12 octobre, a déclenché des manifestations en Azerbaïdjan, puis une dispute ouverte avec la Turquie.",
-    "points": [
-      "Le 21 septembre, Bakou a adopté des règles d'uniforme qui interdisent aux élèves et aux enseignants des écoles publiques les vêtements contraires à la laïcité, sans citer le voile [1][2]. Depuis le 12 octobre environ, des élèves et des enseignantes voilées se voient refuser l'entrée des écoles [1].",
-      "Le ministère de l'Intérieur dit avoir arrêté 37 personnes pour trouble à l'ordre public ; Amnesty évoque de son côté des arrestations de manifestants pacifiques [1][2][4].",
-      "Oktay Saral, conseiller du président turc, a demandé sur X que l'Azerbaïdjan revienne sur cette « erreur » ; Recep Tayyip Erdogan l'a ensuite limogé [3]. Bakou a aussi interdit l'entrée du pays à 31 Turcs, des politiques et des personnalités qui avaient critiqué la règle, et Ilham Aliyev a averti qu'on ne devait pas « s'immiscer dans notre mode de vie » [3][5]."
-    ],
-    "why": [
-      "À retenir : un sujet intérieur, l'école, a pris une dimension diplomatique entre Bakou et Ankara [3][5].",
-      "Le parti au pouvoir à Bakou rejette toute ingérence et défend des règles fondées, selon lui, sur l'égalité et la laïcité [4]. Les ONG, elles, parlent d'atteinte au droit à l'éducation [4]."
-    ],
-    "forMe": "Rien ne change à ton quotidien, mais l'épisode montre qu'une simple règle scolaire peut suffire à froisser deux gouvernements voisins [3][5].",
-    "figures": [
-      {
-        "value": "37",
-        "label": "personnes arrêtées selon le ministère de l'Intérieur",
-        "src": 1
-      },
-      {
-        "value": "31",
-        "label": "Turcs interdits d'entrée en Azerbaïdjan",
-        "src": 3
-      },
-      {
-        "value": "21 septembre",
-        "label": "date des nouvelles règles d'uniforme",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « Tensions with teachers, pupils and Türkiye: Inside Azerbaijan's hijab row » (14 octobre 2026)",
-        "url": "https://www.aljazeera.com/news/2026/10/14/tensions-with-teachers-pupils-and-turkiye-inside-azerbaijans-hijab-row"
-      },
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « Azerbaijan's school hijab ban: what's behind it, and what's next? » (12 octobre 2026)",
-        "url": "https://www.aljazeera.com/news/2026/10/12/azerbaijans-school-hijab-ban-whats-behind-it-and-whats-next"
-      },
-      {
-        "short": "The New Arab",
-        "name": "The New Arab, « Erdogan sacks senior adviser amid Turkey-Azerbaijan hijab row » (octobre 2026)",
-        "url": "https://www.newarab.com/news/erdogan-sacks-senior-adviser-amid-turkey-azerbaijan-hijab-row"
-      },
-      {
-        "short": "Amnesty",
-        "name": "Amnesty International, « Azerbaijan: Stop denying access to education through discriminatory hijab restrictions and release peaceful protesters » (octobre 2026)",
-        "url": "https://www.amnesty.org/en/latest/news/2026/10/azerbaijan-stop-denying-access-to-education-through-discriminatory-hijab-restrictions-and-release-peaceful-protesters/"
-      },
-      {
-        "short": "Eurasia Review",
-        "name": "Eurasia Review, « Baku's Hijab Ban Sparks Protests In Azerbaijan And Creates Problems With Turkey » (26 octobre 2026)",
-        "url": "https://www.eurasiareview.com/26102026-bakus-hijab-ban-sparks-protests-in-azerbaijan-and-creates-problems-with-turkey-analysis/"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-29-gabon-reseaux-sociaux-rouverts",
-    "date": "2026-10-29",
-    "region": "Afrique",
-    "theme": "mix",
-    "geo": [
-      {
-        "name": "Libreville, Gabon",
-        "label": "Gabon",
-        "coords": [
-          9.45,
-          0.39
-        ]
-      }
-    ],
-    "title": "Le Gabon rouvre les réseaux sociaux après huit mois, mais il faudra montrer une pièce d'identité",
-    "summary": "La suspension, imposée le 17 février, avait été critiquée par l'opposition, des jeunes et des entreprises. Beaucoup de Gabonais la contournaient avec des VPN.",
-    "points": [
-      "L'autorité de régulation de la communication (HAC) a annoncé samedi la levée de la suspension des réseaux sociaux, en place depuis le 17 février, officiellement parce que des contenus en ligne alimentaient les tensions [1][2].",
-      "Elle explique sa décision par des discussions avec les grandes entreprises technologiques sur la modération des plateformes [2].",
-      "La réouverture a une condition : les utilisateurs devront fournir une pièce d'identité officielle pour s'inscrire, ce qui met fin de fait à l'anonymat en ligne [2]. Pendant la coupure, beaucoup avaient utilisé des VPN, et l'opposition dénonçait un abus de pouvoir [2][3]."
-    ],
-    "why": [
-      "À retenir : la coupure a duré huit mois et a été critiquée par des jeunes et des entreprises [3].",
-      "Exiger une identité pour utiliser ces plateformes est une façon de réduire l'anonymat, ce qui inquiète les défenseurs des libertés [2]."
-    ],
-    "forMe": "Quand un pays coupe les réseaux, ses habitants et ses entreprises le ressentent vite : c'est un risque à connaître avant de travailler avec lui [3].",
-    "figures": [
-      {
-        "value": "8 mois",
-        "label": "de suspension des réseaux sociaux",
-        "src": 1
-      },
-      {
-        "value": "17 février",
-        "label": "début de la suspension",
-        "src": 2
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Anadolu",
-        "name": "Agence Anadolu, « Gabon lifts ban on social media networks after 8 months » (octobre 2026)",
-        "url": "https://www.aa.com.tr/en/world/gabon-lifts-ban-on-social-media-networks-after-8-months/4100419"
-      },
-      {
-        "short": "Developing Telecoms",
-        "name": "Developing Telecoms, « Gabon lifts social media ban after eight months » (octobre 2026)",
-        "url": "https://www.developingtelecoms.com/telecom-business/telecom-regulation/21035-gabon-lifts-social-media-ban-after-eight-months.html"
-      },
-      {
-        "short": "allAfrica",
-        "name": "allAfrica, « All of Africa Today » (26 octobre 2026)",
-        "url": "https://allafrica.com/stories/202610260104.html"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-29-nepal-fonds-pertes-dommages",
-    "date": "2026-10-29",
-    "region": "Asie",
-    "theme": "mix",
-    "geo": [
-      {
-        "name": "Katmandou, Népal",
-        "label": "Népal",
-        "coords": [
-          85.32,
-          27.71
-        ]
-      }
-    ],
-    "title": "Après les inondations, le fonds climat de l'ONU verse ses 20 premiers millions au Népal, pour 4,7 milliards de dollars de besoins",
-    "summary": "C'est la première fois que le fonds « pertes et dommages » réserve de l'argent à un pays. Le Népal doit encore déposer un projet avant de toucher quoi que ce soit.",
-    "points": [
-      "Le 22 octobre, le conseil du Fonds de l'ONU pour les pertes et dommages liés au climat a réservé 20 millions de dollars au Népal, après les inondations meurtrières d'août [1][2].",
-      "C'est le premier versement du fonds à un pays [2][3]. Le gouvernement népalais estime la reconstruction à environ 4,7 milliards de dollars, ce qui place ces 20 millions sous 1 % des besoins [1][2].",
-      "L'argent n'est pas encore débloqué : le Népal doit d'abord déposer une proposition de projet [1]. Les inondations ont fait plus de 1 400 morts, selon les sources, avec des bilans qui varient autour de 1 500 [2]."
-    ],
-    "why": [
-      "À retenir : c'est le premier test d'un fonds créé pour aider les pays touchés par des dégâts climatiques, et l'écart avec les besoins est énorme [2][3].",
-      "Des militants et des experts jugent la somme très insuffisante et disent que les pays riches ont répondu froidement à la demande du Népal [2]."
-    ],
-    "forMe": "Ce débat sur qui paie les dégâts climatiques revient à chaque grand sommet sur le climat ; ici, l'aide couvre moins de 1 % des besoins estimés [1][2].",
-    "figures": [
-      {
-        "value": "20 M$",
-        "label": "réservés par le fonds de l'ONU",
-        "src": 2
-      },
-      {
-        "value": "4,7 Md$",
-        "label": "de reconstruction estimés par le Népal",
-        "src": 1
-      },
-      {
-        "value": "< 1 %",
-        "label": "des besoins couverts",
-        "src": 2
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Kathmandu Post",
-        "name": "The Kathmandu Post, « Loss and Damage Fund allocates $20 million to Nepal » (22 octobre 2026)",
-        "url": "https://kathmandupost.com/national/2026/10/22/loss-and-damage-fund-allocates-20-million-to-nepal"
-      },
-      {
-        "short": "AP",
-        "name": "AP via News4Jax, « UN climate fund promises $20 million for Nepal flood recovery, far short of billions needed » (23 octobre 2026)",
-        "url": "https://www.news4jax.com/news/world/2026/10/23/un-climate-fund-promises-20-million-for-nepal-flood-recovery-far-short-of-billions-needed/"
-      },
-      {
-        "short": "SCMP",
-        "name": "South China Morning Post, « Nepal set to receive first-ever US$20 million payout from UN climate damage fund » (octobre 2026)",
-        "url": "https://scmp.com/news/asia/south-asia/article/3371840/nepal-set-receive-first-ever-us20-million-payout-un-climate-damage-fund"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-29-singapour-indonesie-brume-task-force",
-    "date": "2026-10-29",
-    "region": "Asie",
-    "theme": "geo",
-    "geo": [
-      {
-        "name": "Jakarta, Indonésie",
-        "label": "Indonésie",
-        "coords": [
-          106.85,
-          -6.21
-        ]
-      },
-      {
-        "name": "Singapour",
-        "label": "Singapour",
-        "coords": [
-          103.82,
-          1.35
-        ]
-      }
-    ],
-    "title": "Singapour et l'Indonésie vont suivre l'argent des entreprises derrière la brume toxique",
-    "summary": "Les deux ministres des Affaires étrangères ont annoncé le 27 octobre une équipe commune pour poursuivre les sociétés liées aux feux de forêt.",
-    "points": [
-      "Le 27 octobre, à Jakarta, Singapour et l'Indonésie ont décidé de créer une équipe commune pour poursuivre les entreprises liées aux feux de forêt qui provoquent la brume toxique [1].",
-      "Elle doit partager des informations, suivre les flux financiers, réunir des preuves de part et d'autre de la frontière et, quand c'est possible, récupérer des avoirs, a expliqué le ministre indonésien Arrmanatha Nasir [1].",
-      "Singapour a déjà adressé des avis de prévention à 10 entreprises liées aux feux en Indonésie et demandé des informations à 10 sociétés basées chez elle ; son ministre Vivian Balakrishnan promet d'utiliser « chaque pouvoir légal » contre les responsables, y compris à Singapour [1]. Bloomberg y voit aussi un moyen de calmer les tensions, après une coupure inattendue de gaz [2]."
-    ],
-    "why": [
-      "À retenir : au lieu d'accuser l'État voisin, les deux gouvernements visent les entreprises et leur argent, ce qui est plus difficile à ignorer [1].",
-      "Cet épisode de brume est l'un des plus graves depuis plus de dix ans dans la région [1]."
-    ],
-    "forMe": "La brume ne s'arrête pas aux frontières : c'est pourquoi les deux pays veulent s'attaquer aux entreprises plutôt que de se renvoyer la faute [1].",
-    "figures": [
-      {
-        "value": "10 + 10",
-        "label": "entreprises visées ou interrogées par Singapour (en Indonésie et à Singapour)",
-        "src": 1
-      },
-      {
-        "value": "Plus de 10 ans",
-        "label": "depuis un épisode de brume aussi grave dans la région",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "The Star",
-        "name": "The Star, « Singapore, Indonesia to set up joint task force to hold firms accountable for forest fires » (28 octobre 2026)",
-        "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/28/singapore-indonesia-to-set-up-joint-task-force-to-hold-firms-accountable-for-forest-fires"
-      },
-      {
-        "short": "Bloomberg",
-        "name": "Bloomberg, « Singapore, Indonesia Seek to Ease Tensions With Fires Taskforce » (27 octobre 2026)",
-        "url": "https://www.bloomberg.com/news/articles/2026-10-27/singapore-s-top-envoy-visits-indonesia-after-natural-gas-cuts"
-      }
-    ]
-  },
-  {
-    "id": "2026-10-29-afrique-pib-reevalue-guinee",
-    "date": "2026-10-29",
-    "region": "Afrique",
-    "theme": "eco",
-    "geo": [
-      {
-        "name": "Conakry, Guinée",
-        "label": "Guinée",
-        "coords": [
-          -13.68,
-          9.64
-        ]
-      }
-    ],
-    "title": "Le FMI relève la croissance de l'Afrique subsaharienne à 4,5 % ; l'Éthiopie et la Guinée parmi les plus rapides",
-    "summary": "Dans ses perspectives d'octobre, le FMI relève de 0,2 point sa prévision pour la région, malgré le choc pétrolier de la guerre en Iran.",
-    "points": [
-      "Le FMI prévoit 4,5 % de croissance en Afrique subsaharienne en 2026, soit 0,2 point de plus que dans ses prévisions d'avril [1].",
-      "L'Éthiopie, la Guinée et le Bénin font partie des économies qui progressent le plus vite, selon le rapport [1].",
-      "En comparant les données du FMI d'avril et d'octobre, le quotidien nigérian BusinessDay calcule que le PIB estimé de l'ensemble des économies africaines a été relevé d'environ 99 milliards de dollars [2]."
-    ],
-    "why": [
-      "À retenir : la hausse du pétrole aide les pays qui en exportent, mais le FMI avertit que les pays importateurs subissent plus de pression [2].",
-      "Ces révisions changent la taille affichée des économies ; elles ne disent pas à elles seules si les habitants vivent mieux [2]."
-    ],
-    "forMe": "Une croissance de 4,5 % reste rapide comparée à l'Europe : l'Afrique subsaharienne est l'une des régions qui grandissent le plus vite [1].",
-    "figures": [
-      {
-        "value": "4,5 %",
-        "label": "croissance prévue en Afrique subsaharienne en 2026",
-        "src": 1
-      },
-      {
-        "value": "+0,2 point",
-        "label": "par rapport aux prévisions d'avril",
-        "src": 1
-      },
-      {
-        "value": "≈ 99 Md$",
-        "label": "de PIB africain estimé en plus entre avril et octobre, selon BusinessDay",
-        "src": 2
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "The Africa Report",
-        "name": "The Africa Report, « Ethiopia, Guinea, Benin: IMF report on African countries posting strongest economic growth » (octobre 2026)",
-        "url": "https://www.theafricareport.com/433761/ethiopia-guinea-benin-imf-report-on-african-countries-posting-strongest-economic-growth/"
-      },
-      {
-        "short": "BusinessDay",
-        "name": "BusinessDay, « African economies see $99.4bn GDP upgrade amid renewed Iran war shocks » (octobre 2026)",
-        "url": "https://businessday.ng/africa/article/african-economies-see-99-4bn-gdp-upgrade-amid-renewed-iran-war-shocks/"
       }
     ]
   },

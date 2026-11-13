@@ -30,69 +30,6 @@ window.GEOCO.agenda = [
     ]
   },
   {
-    "id": "2026-11-12-allemagne-budget-2027-commission",
-    "date": "2026-11-12",
-    "theme": "eco",
-    "region": "Europe",
-    "place": "Berlin",
-    "title": "Budget fédéral allemand 2027 : dernière séance de la commission du budget",
-    "why": "La commission du budget du Bundestag tient le 12 novembre sa séance finale de mise au point (Bereinigungssitzung), qui règle les derniers postes de dépenses [1][2] ; le vote final en séance plénière est attendu en novembre. Il dira combien l'Allemagne dépense pour la défense et les infrastructures l'an prochain.",
-    "sources": [
-      {
-        "short": "Bundestag",
-        "name": "Bundestag, « Haushalt 2027 : Ablauf der Beratungen »",
-        "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw34-haushalt-2027-ablauf-1187766"
-      },
-      {
-        "short": "Bundestag (hib)",
-        "name": "Bundestag, hib 839/2026, commission du budget (16 octobre 2026)",
-        "url": "https://www.bundestag.de/1225360"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-12-argentine-inflation-octobre",
-    "date": "2026-11-12",
-    "theme": "eco",
-    "region": "Amériques",
-    "place": "Buenos Aires",
-    "title": "Argentine : l'inflation d'octobre",
-    "why": "L'institut INDEC publie le 12 novembre l'inflation d'octobre ; en septembre, elle était de 33,4 % sur un an selon Trading Economics, et la prévision de consensus pour octobre tourne autour de 33,2 % [1]. Le chiffre dira si la politique du peso fort de Javier Milei continue de ralentir les prix, au prix d'une croissance freinée [2].",
-    "sources": [
-      {
-        "short": "Trading Economics",
-        "name": "Trading Economics, « Argentina Inflation Rate » (calendrier : publication du 12 novembre)",
-        "url": "https://tradingeconomics.com/argentina/inflation-cpi"
-      },
-      {
-        "short": "Bloomberg",
-        "name": "Bloomberg, « ARS/USD: Milei's Strong Peso Holds Back Argentina's Economic Growth » (17 septembre 2026)",
-        "url": "https://www.bloomberg.com/news/articles/2026-09-17/ars-usd-milei-s-strong-peso-holds-back-argentina-s-economic-growth"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-12-cisco-resultats",
-    "date": "2026-11-12",
-    "theme": "fin",
-    "region": "Amériques",
-    "place": "San José, États-Unis",
-    "title": "Cisco publie ses résultats du premier trimestre",
-    "why": "Le géant des équipements réseau présente le trimestre clos le 24 octobre, après la clôture de Wall Street, avec une conférence à 22 h 30 heure de Paris ; il a prévu un chiffre d'affaires de 18,0 à 18,2 milliards de dollars [1][2]. Ses commentaires sur la demande liée à l'intelligence artificielle peuvent faire bouger tout le secteur technologique, déjà secoué par le krach de début novembre.",
-    "sources": [
-      {
-        "short": "Cisco",
-        "name": "Cisco, « Cisco Schedules Conference Call for Q1 Fiscal Year 2027 Financial Results » (communiqué du 3 novembre 2026)",
-        "url": "https://investor.cisco.com/news/news-details/2026/Cisco-Schedules-Conference-Call-for-Q1-Fiscal-Year-2027-Financial-Results/default.aspx"
-      },
-      {
-        "short": "Cisco",
-        "name": "Cisco, « Cisco Reports Fourth Quarter and Fiscal Year 2026 Earnings » (12 août 2026, prévisions du premier trimestre)",
-        "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx"
-      }
-    ]
-  },
-  {
     "id": "2026-11-13-zone-euro-pib-emploi-t3",
     "date": "2026-11-13",
     "theme": "eco",
