@@ -7,7 +7,7 @@
 
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.indicators = {
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "latest": [
     {
       "group": "Économie",
@@ -500,6 +500,16 @@ window.GEOCO.indicators = {
           "short": "BNN Bloomberg (Statistique Canada)",
           "name": "BNN Bloomberg, inflation de septembre 2026 par province : 3,1 % pour le Canada (Statistique Canada, 19 oct. 2026)",
           "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/19/heres-a-list-of-september-inflation-rates-for-canadian-provinces/"
+        },
+        {
+          "short": "Buenos Aires Herald (INDEC)",
+          "name": "Buenos Aires Herald, « Inflation rises to 2.2% in October » (INDEC, 12 nov. 2026)",
+          "url": "https://buenosairesherald.com/economics/inflation-rises-to-2-2-in-october"
+        },
+        {
+          "short": "The Tribune (MoSPI)",
+          "name": "The Tribune, « Retail inflation hits 24-month high of 6.09% in October » (MoSPI, 12 nov. 2026)",
+          "url": "https://www.tribuneindia.com/news/6inflation/retail-inflation-hits-24-month-high-of-6-09-in-october-crosses-rbis-upper-tolerance-limit-ahead-of-december-mpc-meet"
         }
       ],
       "values": {
@@ -769,9 +779,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "356": {
-          "v": 4.8,
-          "d": "août 2026",
-          "s": 1
+          "v": 6.09,
+          "d": "oct. 2026",
+          "s": 42
         },
         "360": {
           "v": 3.2,
@@ -1349,9 +1359,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "032": {
-          "v": 33.5,
-          "d": "août 2026",
-          "s": 1
+          "v": 33.1,
+          "d": "oct. 2026",
+          "s": 41
         },
         "036": {
           "v": 4,

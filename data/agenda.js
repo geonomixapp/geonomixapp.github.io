@@ -89,6 +89,28 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-11-15-asean-sommet-manille",
+    "date": "2026-11-15",
+    "theme": "geo",
+    "region": "Asie",
+    "place": "Manille, Philippines",
+    "title": "49e sommet de l'ASEAN à Manille, sans les dirigeants de la junte birmane",
+    "why": "Du 15 au 17 novembre, les dirigeants d'Asie du Sud-Est se réunissent à Manille ; la Birmanie n'y sera représentée que par un haut fonctionnaire, Min Aung Hlaing restant banni faute d'appliquer le plan de paix du bloc [1][2].",
+    "sources": [
+      {
+        "short": "The Irrawaddy",
+        "name": "The Irrawaddy, « Myanmar's Coup President Barred From Upcoming 49th ASEAN Summit » (novembre 2026)",
+        "url": "https://www.irrawaddy.com/news/myanmars-crisis-the-world/myanmars-coup-president-barred-from-upcoming-49th-asean-summit.html"
+      },
+      {
+        "short": "Myanmar Now",
+        "name": "Myanmar Now, « Myanmar's Min Aung Hlaing remains barred from ASEAN summit despite assuming presidency » (novembre 2026)",
+        "url": "https://myanmar-now.org/en/news/myanmars-min-aung-hlaing-remains-barred-from-asean-summit-despite-assuming-presidency/"
+      }
+    ],
+    "news": "2026-11-13-birmanie-asean-exclusion-min-aung-hlaing"
+  },
+  {
     "id": "2026-11-16-bruxelles-unicredit-commerzbank",
     "date": "2026-11-16",
     "theme": "fin",
@@ -286,6 +308,22 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-11-18-france-senat-vote-budget-secu",
+    "date": "2026-11-18",
+    "theme": "eco",
+    "region": "Europe",
+    "place": "Paris, France",
+    "title": "Vote solennel du Sénat sur le budget de la Sécurité sociale 2027",
+    "why": "La majorité sénatoriale veut y rétablir la réforme des retraites à 64 ans et relever à 1 500 euros le seuil de gel des pensions, avant le retour du texte devant les députés [1].",
+    "sources": [
+      {
+        "short": "NosParlementaires",
+        "name": "NosParlementaires, « Gel des pensions 2027 : le Sénat veut un seuil à 1 500 euros » (11/2026)",
+        "url": "https://nosparlementaires.fr/actualites/gel-pensions-senat-1500-euros-reforme-retraites-plfss-2027"
+      }
+    ]
+  },
+  {
     "id": "2026-11-19-afrique-du-sud-banque-centrale-taux",
     "date": "2026-11-19",
     "theme": "eco",
@@ -326,6 +364,49 @@ window.GEOCO.agenda = [
         "url": "https://www.marketbeat.com/instant-alerts/walmart-nasdaqwmt-issues-q3-2027-earnings-guidance-2026-08-20/"
       }
     ]
+  },
+  {
+    "id": "2026-11-19-australie-chomage-octobre",
+    "date": "2026-11-19",
+    "theme": "eco",
+    "region": "Asie",
+    "place": "Canberra, Australie",
+    "title": "Australie : chiffres du chômage d'octobre",
+    "why": "Le bureau australien des statistiques publie le chômage d'octobre ; en septembre, il était monté à 4,7 %, son plus haut depuis 2021 [1][2].",
+    "sources": [
+      {
+        "short": "ABS",
+        "name": "Australian Bureau of Statistics, « Labour Force, Australia, September 2026 » (prochaine publication le 19/11/2026)",
+        "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release"
+      },
+      {
+        "short": "MacroBusiness",
+        "name": "MacroBusiness, « Aussie unemployment climbs to 5-year high » (octobre 2026)",
+        "url": "https://www.macrobusiness.com.au/2026/10/aussie-unemployment-climbs-to-5-year-high/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-anthropic-entree-bourse-nasdaq",
+    "date": "2026-11-19",
+    "theme": "fin",
+    "region": "Amériques",
+    "place": "New York, États-Unis",
+    "title": "Anthropic entre au Nasdaq, prix fixé la veille",
+    "why": "La plus grosse introduction en Bourse de l'histoire, jusqu'à 64 milliards de dollars levés entre 70 et 78 dollars par action : un test de l'appétit des investisseurs pour l'IA après la crise chez Nvidia [1][2].",
+    "sources": [
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Anthropic sets IPO price range of $70 to $78, looks to start trading Nov. 19, sources say » (10 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « Anthropic IPO: Claude maker to begin trading on Thursday, Nov. 19 » (novembre 2026)",
+        "url": "https://finance.yahoo.com/technology/article/anthropic-ipo-claude-maker-to-begin-trading-on-thursday-nov-19-173550865.html"
+      }
+    ],
+    "news": "2026-11-13-wall-street-cloture-huang-taux-10-ans-5-pourcent"
   },
   {
     "id": "2026-11-20-sommet-ue-royaume-uni",
@@ -617,6 +698,23 @@ window.GEOCO.agenda = [
         "url": "https://thefrontierng.com/gambia-sets-date-for-presidential-election-incumbent-seeks-third-term-despite-criticism/"
       }
     ]
+  },
+  {
+    "id": "2026-12-06-israel-delai-eisenkot-coalition",
+    "date": "2026-12-06",
+    "theme": "geo",
+    "region": "Moyen-Orient",
+    "place": "Jérusalem, Israël",
+    "title": "Israël : fin du délai initial de 28 jours donné à Gadi Eisenkot pour former un gouvernement",
+    "why": "Chargé le 8 novembre de former une coalition, Eisenkot dispose de 28 jours, prolongeables de 14 : sans majorité, Israël resterait sans nouveau gouvernement en pleine guerre avec l'Iran [1].",
+    "sources": [
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « Eisenkot open to Netanyahu joining Israel's next government » (8 novembre 2026)",
+        "url": "https://www.aljazeera.com/news/2026/11/8/israels-president-tasks-eisenkot-to-form-new-coalition-government"
+      }
+    ],
+    "news": "2026-11-13-gaza-frappe-hopital-nasser-bebe-froid"
   },
   {
     "id": "2026-12-08-fed-reunion-decembre",
