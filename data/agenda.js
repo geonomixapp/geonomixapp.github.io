@@ -30,44 +30,6 @@ window.GEOCO.agenda = [
     ]
   },
   {
-    "id": "2026-11-13-zone-euro-pib-emploi-t3",
-    "date": "2026-11-13",
-    "theme": "eco",
-    "region": "Europe",
-    "place": "Luxembourg",
-    "title": "Zone euro : croissance et emploi du troisième trimestre, estimation détaillée",
-    "why": "Eurostat complète son estimation préliminaire du 30 octobre avec l'emploi et le détail de la croissance du trimestre juillet-septembre [1][2]. Après +0,4 % au deuxième trimestre, c'est le test de la résistance de l'économie européenne face à l'énergie chère.",
-    "sources": [
-      {
-        "short": "Finance Calendar",
-        "name": "Finance Calendar, « Eurozone GDP Flash November 2026 »",
-        "url": "https://www.financecalendar.com/?p=2417"
-      },
-      {
-        "short": "Eurostat",
-        "name": "Eurostat, calendrier des indicateurs européens",
-        "url": "https://ec.europa.eu/eurostat/en/news/euro-indicators"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-13-etats-unis-prix-production-octobre",
-    "date": "2026-11-13",
-    "theme": "eco",
-    "region": "Amériques",
-    "place": "Washington",
-    "title": "États-Unis : indice des prix à la production d'octobre",
-    "why": "Publié le vendredi 13 novembre, trois jours après l'inflation à la consommation, il montre si la hausse des coûts des entreprises (énergie, transport) va se répercuter dans les prix de vente [1]. Avec plus de 80 % de paris sur une hausse de taux de la Fed en décembre, un chiffre élevé renforcerait ce scénario [1].",
-    "news": "2026-11-10-wall-street-rebond-petrole-inflation-nvidia",
-    "sources": [
-      {
-        "short": "Reuters (LSE)",
-        "name": "Reuters, « US STOCKS-Wall St jumps as oil slide cools inflation worries; Nvidia slumps » (9 novembre 2026)",
-        "url": "https://www.lse.co.uk/news/us-stocks-wall-st-jumps-as-oil-slide-cools-inflation-worries-nvidia-slumps-do06hsar8bvdtw0.html"
-      }
-    ]
-  },
-  {
     "id": "2026-11-15-cap-vert-presidentielle",
     "date": "2026-11-15",
     "theme": "geo",
@@ -248,6 +210,27 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-11-14-home-depot-resultats",
+    "date": "2026-11-17",
+    "theme": "fin",
+    "region": "Amériques",
+    "place": "Atlanta, États-Unis",
+    "title": "Home Depot publie ses résultats du troisième trimestre",
+    "why": "Le géant américain du bricolage présente ses comptes et tient sa conférence avec les analystes le 17 novembre à 9 h (heure de New York) [1][2]. Il ouvre la semaine des résultats de la grande distribution américaine : un bon thermomètre de la santé du consommateur et du marché immobilier aux États-Unis.",
+    "sources": [
+      {
+        "short": "Earnings Whispers",
+        "name": "Earnings Whispers, communiqué de The Home Depot du 3 novembre 2026 annonçant la conférence sur les résultats du troisième trimestre",
+        "url": "https://www.earningswhispers.com/article/HD/2611036981"
+      },
+      {
+        "short": "Finance Calendar",
+        "name": "Finance Calendar, « HD Earnings November 2026 »",
+        "url": "https://www.financecalendar.com/event/hd-earnings-november-2026/"
+      }
+    ]
+  },
+  {
     "id": "2026-11-18-royaume-uni-inflation-octobre",
     "date": "2026-11-18",
     "theme": "eco",
@@ -320,6 +303,48 @@ window.GEOCO.agenda = [
         "short": "NosParlementaires",
         "name": "NosParlementaires, « Gel des pensions 2027 : le Sénat veut un seuil à 1 500 euros » (11/2026)",
         "url": "https://nosparlementaires.fr/actualites/gel-pensions-senat-1500-euros-reforme-retraites-plfss-2027"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-indonesie-banque-centrale-taux",
+    "date": "2026-11-18",
+    "theme": "eco",
+    "region": "Asie",
+    "place": "Jakarta, Indonésie",
+    "title": "Indonésie : la banque centrale décide de son taux",
+    "why": "Bank Indonesia réunit son conseil les 17 et 18 novembre et annonce sa décision le second jour [1]. En octobre, elle avait laissé son taux directeur à 5,75 % mais relevé le taux de sa facilité de dépôt à 5 % pour soutenir la roupie [2] : un nouveau resserrement dirait que la pression sur la monnaie ne faiblit pas.",
+    "sources": [
+      {
+        "short": "Bisnis.com",
+        "name": "Bisnis.com, « Jadwal Rapat Dewan Gubernur (RDG) Bank Indonesia 2026, Ini Daftar Lengkap Tanggal Resminya »",
+        "url": "https://finansial.bisnis.com/read/20251222/11/1938911/jadwal-rapat-dewan-gubernur-rdg-bank-indonesia-2026-ini-daftar-lengkap-tanggal-resminya"
+      },
+      {
+        "short": "Bank Indonesia",
+        "name": "Bank Indonesia, « BI Rate Held at 5.75 percent: Strengthening Stability, Supporting Economic Growth » (octobre 2026)",
+        "url": "https://www.bi.go.id/en/iru/highlight-news/Pages/BI-Rate-Held-at-5.75-percent--Strengthening-Stability,-Supporting-Economic-Growth.aspx"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-zone-euro-inflation-octobre-finale",
+    "date": "2026-11-18",
+    "theme": "eco",
+    "region": "Europe",
+    "place": "Luxembourg",
+    "title": "Zone euro : chiffre définitif de l'inflation d'octobre",
+    "why": "Eurostat confirme ou corrige son estimation rapide [1], qui avait donné 4 % sur un an en octobre, un rythme attendu par les économistes [2]. Le détail par pays et par produit (énergie, alimentation, services) pèsera sur la décision de la BCE du 17 décembre.",
+    "sources": [
+      {
+        "short": "Eurostat",
+        "name": "Eurostat, calendrier des indicateurs européens",
+        "url": "https://ec.europa.eu/eurostat/en/news/euro-indicators"
+      },
+      {
+        "short": "FXStreet",
+        "name": "FXStreet, « Eurozone flash HICP grows faster by 4% YoY in October, as expected » (4 novembre 2026)",
+        "url": "https://www.fxstreet.com/news/eurozone-flash-hicp-grows-faster-by-4-yoy-in-october-as-expected-202611041002"
       }
     ]
   },
@@ -407,6 +432,27 @@ window.GEOCO.agenda = [
       }
     ],
     "news": "2026-11-13-wall-street-cloture-huang-taux-10-ans-5-pourcent"
+  },
+  {
+    "id": "2026-11-14-alibaba-resultats",
+    "date": "2026-11-19",
+    "theme": "fin",
+    "region": "Asie",
+    "place": "Hangzhou, Chine",
+    "title": "Alibaba publie ses résultats du trimestre juillet-septembre",
+    "why": "Le géant chinois du commerce en ligne publie ses comptes avant l'ouverture de Wall Street, après une réunion de son conseil le 18 novembre [1][2]. Les investisseurs y regarderont surtout le coût de ses paris sur l'intelligence artificielle et la livraison rapide, et l'état de la consommation en Chine.",
+    "sources": [
+      {
+        "short": "Panabee",
+        "name": "Panabee, « Alibaba Sets November 19 Earnings Date Amid Strategic Pivot »",
+        "url": "https://www.panabee.com/news/alibaba-earnings-q3-2026"
+      },
+      {
+        "short": "Trading-Treff",
+        "name": "Trading-Treff, « Alibaba-Aktie: Qovest nimmt Profi-Anleger ins Visier »",
+        "url": "https://trading-treff.de/wirtschaft/alibaba-aktie-qovest-nimmt-profi-anleger-ins-visier"
+      }
+    ]
   },
   {
     "id": "2026-11-20-sommet-ue-royaume-uni",
@@ -717,6 +763,27 @@ window.GEOCO.agenda = [
     "news": "2026-11-13-gaza-frappe-hopital-nasser-bebe-froid"
   },
   {
+    "id": "2026-11-14-guinee-bissau-elections",
+    "date": "2026-12-06",
+    "theme": "geo",
+    "region": "Afrique",
+    "place": "Bissau, Guinée-Bissau",
+    "title": "Guinée-Bissau : présidentielle et législatives après le coup d'État",
+    "why": "La junte au pouvoir depuis le coup d'État de novembre 2025, qui avait renversé le président Umaro Sissoco Embaló, a fixé par décret les deux scrutins au 6 décembre [1][2]. C'est le test du retour à l'ordre constitutionnel réclamé par la Cédéao.",
+    "sources": [
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « Guinea-Bissau sets election date following last year's coup » (22 janvier 2026)",
+        "url": "https://www.aljazeera.com/news/2026/1/22/guinea-bissau-sets-election-date-following-last-years-coup"
+      },
+      {
+        "short": "APA",
+        "name": "APA News, « Guinée-Bissau : élections fixées au 6 décembre 2026 »",
+        "url": "https://fr.apanews.net/news/guinee-bissau-elections-fixees-au-6-decembre-2026/"
+      }
+    ]
+  },
+  {
     "id": "2026-12-08-fed-reunion-decembre",
     "date": "2026-12-08",
     "end": "2026-12-09",
@@ -754,6 +821,48 @@ window.GEOCO.agenda = [
         "short": "Bloomberg Línea",
         "name": "Bloomberg Línea Brasil, « Banco Central interrompe cortes e mantém Selic em 13,75% após reeleição de Lula »",
         "url": "https://www.bloomberglinea.com.br/brasil/banco-central-interrompe-cortes-e-mantem-selic-em-1375-apos-reeleicao-de-lula/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-australie-rba-decembre",
+    "date": "2026-12-08",
+    "theme": "eco",
+    "region": "Asie",
+    "place": "Sydney, Australie",
+    "title": "Australie : dernière décision de taux de l'année",
+    "why": "La banque centrale australienne a relevé son taux à 4,85 % le 3 novembre, son plus haut depuis 2008, par six voix contre trois, en citant la guerre au Moyen-Orient et le pétrole cher [1]. Sa réunion des 7 et 8 décembre dira si elle s'arrête là ou continue de serrer le crédit des ménages [1][2].",
+    "sources": [
+      {
+        "short": "SBS News",
+        "name": "SBS News, « RBA November 2026 interest rates decision live »",
+        "url": "https://www.sbs.com.au/news/live-blog/rba-november-2026-interest-rates-decision-live/f6csn2n1w"
+      },
+      {
+        "short": "RBA",
+        "name": "Reserve Bank of Australia, « 2026 Monetary Policy Board Meeting Dates »",
+        "url": "https://www.rba.gov.au/media-releases/2025/mr-25-02.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-14-banque-du-canada-decembre",
+    "date": "2026-12-09",
+    "theme": "eco",
+    "region": "Amériques",
+    "place": "Ottawa, Canada",
+    "title": "Canada : la banque centrale décide de son taux",
+    "why": "La Banque du Canada a relevé son taux de 2,25 % à 2,5 % le 28 octobre, sa première hausse depuis juillet 2023 ; elle annonce sa dernière décision de l'année le 9 décembre [1][2]. Une deuxième hausse renchérirait les prêts immobiliers et soutiendrait le dollar canadien.",
+    "sources": [
+      {
+        "short": "Banque du Canada",
+        "name": "Banque du Canada, « Bank of Canada raises the policy rate by 25 basis points to 2½% » (28 octobre 2026)",
+        "url": "https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28"
+      },
+      {
+        "short": "Advisor.ca",
+        "name": "Advisor.ca, « Bank of Canada delivers 1st hike in three years »",
+        "url": "https://www.advisor.ca/economy/policy/bank-of-canada-delivers-1st-hike-in-three-years/"
       }
     ]
   },
