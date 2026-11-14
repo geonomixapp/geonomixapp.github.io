@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-14",
+    "file": "lettres/2026-11-14.pdf",
+    "titles": [
+      "Iran : l'AIEA ne sait plus où se trouve une usine souterraine d'enrichissement d'uranium, et un méthanier saute sur une mine à Ormuz",
+      "Fed : Mary Daly juge à son tour une nouvelle hausse des taux nécessaire, les marchés en attendent deux d'ici fin janvier",
+      "Wall Street signe sa meilleure semaine depuis août malgré la chute de Nvidia, mais les taux américains bondissent et le dollar frôle son plus haut depuis 19 mois"
+    ],
+    "fileDark": "lettres/2026-11-14-sombre.pdf"
+  },
+  {
     "date": "2026-11-13",
     "file": "lettres/2026-11-13.pdf",
     "titles": [
