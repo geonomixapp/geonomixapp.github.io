@@ -92,6 +92,89 @@ window.GEOCO.resultats = [
     ]
   },
   {
+    id: "lowes-t3-2026",
+    company: "Lowe's",
+    ticker: "LOW",
+    country: "US",
+    sector: "Distribution (bricolage)",
+    date: "2026-11-18",
+    time: "open",
+    period: "T3 2026",
+    lines: [
+      { label: "Chiffre d'affaires", unit: "Md$", exp: 22.42, src: 3 },
+      { label: "Bénéfice par action ajusté", unit: "$", exp: 2.87, src: 2 }
+    ],
+    summary: "Le numéro deux américain du bricolage publie au lendemain de Home Depot : un deuxième test pour les dépenses de rénovation des ménages, freinées par un marché du logement grippé [4].",
+    points: [
+      "Le consensus vise 2,87 dollars de bénéfice par action, selon 28 analystes cités par l'AAII [2] ; un autre aperçu table sur 2,88 dollars et 22,42 milliards de dollars de chiffre d'affaires, en hausse de 7,7 % sur un an [3].",
+      "Zacks s'attend à un bénéfice par action en baisse de 6,5 % sur un an, mais juge un résultat supérieur aux attentes plus probable qu'improbable [4].",
+      "Le trimestre a sans doute souffert d'un marché de l'amélioration de l'habitat difficile et de consommateurs prudents [4] : on regardera les ventes à magasins comparables et l'objectif annuel.",
+      "Résultats publiés avant l'ouverture de Wall Street, conférence à 9 h, heure de New York, le mercredi 18 novembre [1]."
+    ],
+    sources: [
+      { short: "Lowe's", name: "Lowe's (PR Newswire via Finviz), « Lowe's Companies, Inc. to Host Third Quarter 2026 Earnings Conference Call on Nov. 18 », 11 nov. 2026", url: "https://finviz.com/news/420806/lowes-companies-inc-to-host-third-quarter-2026-earnings-conference-call-on-nov-18" },
+      { short: "AAII", name: "AAII, « What You Need to Know About Lowe's Companies, Inc.'s Q3 Earnings », nov. 2026", url: "https://www.aaii.com/investingideas/article/534503-what-you-need-to-know-about-lowes-companies-incs-q3-earnings" },
+      { short: "Tiger Brokers", name: "Tiger Brokers, « Earning Preview: Lowe's Q3 revenue is expected to increase by 7.70% », nov. 2026", url: "https://www.itiger.com/news/1132260854" },
+      { short: "Zacks", name: "Zacks, « What's Lowe's Probability of an Earnings Beat This Season? », nov. 2026", url: "https://zacks.com/stock/news/3027978/what-s-lowe-s-probability-of-an-earnings-beat-this-season" }
+    ]
+  },
+  {
+    id: "tjx-t3-2027",
+    company: "TJX (T.J. Maxx)",
+    ticker: "TJX",
+    country: "US",
+    sector: "Distribution (déstockage)",
+    date: "2026-11-18",
+    period: "T3 de l'exercice 2027 (août-octobre 2026)",
+    lines: [
+      { label: "Chiffre d'affaires", unit: "Md$", exp: 15.81, src: 1 },
+      { label: "Bénéfice par action ajusté", unit: "$", exp: 1.33, src: 1 }
+    ],
+    guidance: { dir: "attendu", text: "TJX s'était fixé pour ce trimestre un bénéfice par action ajusté de 1,30 à 1,32 dollar et un chiffre d'affaires de 15,6 à 15,8 milliards de dollars, en dessous des attentes des analystes de l'époque ; pour l'exercice entier, il vise 5,15 à 5,20 dollars par action [4][5]." },
+    summary: "Le roi américain du déstockage (T.J. Maxx, Marshalls, HomeGoods) avait fait chuter son action en août avec un objectif trimestriel prudent : les analystes attendent un peu mieux que ce qu'il avait promis [4].",
+    points: [
+      "Les consensus vont de 1,33 à 1,35 dollar de bénéfice par action : 1,33 selon Börse Express, 1,34 selon Benzinga, 1,35 selon Chartmill [1][2][3].",
+      "Pour le chiffre d'affaires, de 15,81 milliards de dollars (Börse Express) à 16,03 milliards (Chartmill), Benzinga se situant à 15,86 milliards [1][2][3] : la plupart sont au-dessus de la fourchette de l'entreprise.",
+      "En tenant compte des remboursements de droits de douane attendus, TJX visait 1,36 à 1,38 dollar par action pour ce trimestre [5].",
+      "Résultats attendus le mercredi 18 novembre [1][2] : on regardera les ventes à magasins comparables et si l'objectif annuel est relevé à l'approche des fêtes."
+    ],
+    sources: [
+      { short: "Börse Express", name: "Börse Express, « TJX Aktie: Q3-Zahlen kommen am 18. November », nov. 2026", url: "https://www.boerse-express.com/news/articles/tjx-aktie-q3-zahlen-kommen-am-18-november-959218" },
+      { short: "Chartmill", name: "Chartmill, « TJX Companies (TJX) Earnings & Revenue Estimates »", url: "https://www.chartmill.com/stock/quote/TJX/estimates" },
+      { short: "Benzinga", name: "Benzinga, « TJX Earnings Forecasts »", url: "https://www.benzinga.com/quote/TJX/earnings-forecasts" },
+      { short: "Finviz", name: "Finviz, « TJX Shares Fall as Third-Quarter Profit Forecast Misses Expectations », août 2026", url: "https://finviz.com/news/383755/tjx-shares-fall-as-third-quarter-profit-forecast-misses-expectations" },
+      { short: "SentiSense", name: "SentiSense, « TJX Beats Q2 Estimates and Raises FY2027 Outlook, Yet Shares Slip on Weak Q3 Guidance », 19 août 2026", url: "https://app.sentisense.ai/stories/tjx-beats-q2-estimates-and-raises-fy2027-outlook-yet-shares-slip-on-weak-q3-guid-08192026" }
+    ]
+  },
+  {
+    id: "palo-alto-t1-2027",
+    company: "Palo Alto Networks",
+    ticker: "PANW",
+    country: "US",
+    sector: "Cybersécurité",
+    date: "2026-11-18",
+    period: "T1 de l'exercice 2027 (août-octobre 2026)",
+    lines: [
+      { label: "Chiffre d'affaires", unit: "Md$", exp: 3.31, src: 2 },
+      { label: "Bénéfice par action ajusté", unit: "$", exp: 0.97, src: 2 }
+    ],
+    guidance: { dir: "attendu", text: "Palo Alto s'était fixé 3,30 à 3,31 milliards de dollars de chiffre d'affaires et 0,96 à 0,98 dollar de bénéfice par action ajusté, avec des revenus récurrents annuels (ARR) « nouvelle génération » de 9,54 à 9,56 milliards de dollars (+63 %) ; pour l'exercice, 14,1 à 14,2 milliards de dollars de chiffre d'affaires [2][3]." },
+    summary: "Le numéro un mondial de la cybersécurité doit prouver que l'IA dope ses ventes, alors que son action a reculé de 27 % depuis son plus haut [3][4].",
+    points: [
+      "Le consensus se situe dans la fourchette de l'entreprise, à 3,31 milliards de dollars et 0,97 dollar par action, selon Earnings Whispers et TIKR [2][3] ; FXEmpire, sur 37 analystes, attend plus : 0,99 dollar et 3,37 milliards [5].",
+      "Le consensus est tout en haut de la fourchette de chiffre d'affaires, ce qui laisse peu de marge [2] ; l'exercice 2026 avait profité d'un gros client d'IA migrant vers Chronosphere, un apport qui s'arrête ce trimestre [2].",
+      "Les marges seront scrutées : la marge brute ajustée a reculé d'environ un point, à 74,8 %, au trimestre précédent, et le directeur financier prévient que les coûts d'hébergement dans le cloud vont croître plus vite que le chiffre d'affaires [3].",
+      "Date annoncée par l'entreprise le 3 novembre : le mercredi 18 novembre, communiqué publié avant la conférence en ligne [1]."
+    ],
+    sources: [
+      { short: "Palo Alto Networks", name: "Palo Alto Networks (PR Newswire via Finviz), « Palo Alto Networks to Announce Fiscal First Quarter 2027 Financial Results on Wednesday, November 18, 2026 », 3 nov. 2026", url: "https://finviz.com/news/414245/palo-alto-networks-to-announce-fiscal-first-quarter-2027-financial-results-on-wednesday-november-18-2026" },
+      { short: "Earnings Whispers", name: "Earnings Whispers, aperçu des résultats de Palo Alto Networks, nov. 2026", url: "https://www.earningswhispers.com/article/PANW/23140" },
+      { short: "TIKR", name: "TIKR, « Palo Alto Networks Is Down 27% From Its High: Is It Time to Sell, or Load Up? », nov. 2026", url: "https://www.tikr.com/blog/palo-alto-networks-is-down-27-from-its-high-is-it-time-to-sell-or-load-up" },
+      { short: "Finviz", name: "Finviz, « Palo Alto Networks faces a credibility test as stock lags its upbeat AI security story », nov. 2026", url: "https://finviz.com/news/420783/palo-alto-networks-faces-a-credibility-test-as-stock-lags-its-upbeat-ai-security-story" },
+      { short: "FXEmpire", name: "FXEmpire, « Palo Alto Networks (PANW) Earnings »", url: "https://www.fxempire.com/stocks/panw/earnings" }
+    ]
+  },
+  {
     id: "walmart-t3-2027",
     company: "Walmart",
     ticker: "WMT",
@@ -114,6 +197,88 @@ window.GEOCO.resultats = [
     sources: [
       { short: "Zacks", name: "Zacks via TradingView, « Walmart, Target, and Nvidia Headline a Pivotal Week for Q3 Earnings », nov. 2026", url: "https://www.tradingview.com/news/zacks:baeac9437094b:0-walmart-target-and-nvidia-headline-a-pivotal-week-for-q3-earnings/" },
       { short: "GuruFocus", name: "GuruFocus via TradingView, « Walmart Q3 2026 Preview: Is the Consumer Still Holding Up? », nov. 2026", url: "https://www.tradingview.com/news/gurufocus:740281e5c094b:0-walmart-q3-2026-preview-is-the-consumer-still-holding-up/" }
+    ]
+  },
+  {
+    id: "alibaba-t2-2027",
+    company: "Alibaba",
+    ticker: "BABA",
+    country: "CN",
+    sector: "Commerce en ligne et cloud",
+    date: "2026-11-19",
+    time: "open",
+    period: "Trimestre de septembre 2026 (T2 de l'exercice 2027)",
+    lines: [],
+    summary: "Le géant chinois du commerce en ligne doit montrer que ses milliards investis dans l'IA paient, alors que son action recule de près de 27 % en 2026 après plusieurs résultats sous les attentes [5].",
+    points: [
+      "Les analystes attendent une hausse d'environ 50 % du chiffre d'affaires de la division cloud et IA, après +45 % au trimestre précédent, avec des marges en progression [4].",
+      "Au trimestre d'avril-juin, le bénéfice net ajusté (non-GAAP) avait reculé de 38 % sur un an [6] : on regardera si les dépenses dans la livraison rapide (« quick commerce ») commencent à baisser.",
+      "Date annoncée par Alibaba le 6 novembre : le jeudi 19 novembre, avant l'ouverture de Wall Street ; certains calendriers donnent encore le 18 ou le 24 novembre [1][2][3].",
+      "Pas de consensus récent et fiable trouvé pour le chiffre d'affaires du groupe : la fiche sera complétée."
+    ],
+    sources: [
+      { short: "If You Spent", name: "If You Spent, « China tech earnings preview: Alibaba, Tencent, JD, Baidu », nov. 2026", url: "https://news.ifyouspent.com/en/news/china-tech-earnings-preview-alibaba-tencent-jd-baidu-november-2026" },
+      { short: "Trading-Treff", name: "Trading-Treff, « Alibaba-Aktie : Qovest nimmt Profi-Anleger ins Visier », nov. 2026", url: "https://trading-treff.de/wirtschaft/alibaba-aktie-qovest-nimmt-profi-anleger-ins-visier" },
+      { short: "Panabee", name: "Panabee, « Alibaba Sets November 19 Earnings Date Amid Strategic Pivot », nov. 2026", url: "https://www.panabee.com/news/alibaba-earnings-q3-2026" },
+      { short: "SCMP", name: "South China Morning Post, « Alibaba's AI cloud revenue set to surge over 50% as investment blitz pays off: analysts », nov. 2026", url: "https://www.scmp.com/tech/big-tech/article/3370209/alibabas-ai-cloud-revenue-set-surge-over-50-investment-blitz-pays-analysts" },
+      { short: "TIKR", name: "TIKR, « Alibaba Stock Is Down Nearly 27% in 2026 as Earnings Keep Missing Estimates », nov. 2026", url: "https://www.tikr.com/fr/blog/alibaba-stock-is-down-nearly-27-in-2026-as-earnings-keep-missing-estimates-heres-what-the-next-report-has-to-show" },
+      { short: "SEC", name: "Alibaba Group, formulaire 6-K (résultats du trimestre de juin 2026), sec.gov, 20 août 2026", url: "https://www.sec.gov/Archives/edgar/data/0001577552/000110465926099220/tm2623667d1_ex99-1.htm" }
+    ]
+  },
+  {
+    id: "medtronic-t2-2027",
+    company: "Medtronic",
+    ticker: "MDT",
+    country: "US",
+    sector: "Santé (dispositifs médicaux)",
+    date: "2026-11-24",
+    time: "open",
+    period: "T2 de l'exercice 2027 (août-octobre 2026)",
+    lines: [
+      { label: "Chiffre d'affaires", unit: "Md$", exp: 9.576, src: 2 },
+      { label: "Bénéfice par action ajusté", unit: "$", exp: 1.34, src: 2 }
+    ],
+    guidance: { dir: "attendu", text: "Medtronic visait pour ce trimestre une croissance organique d'environ 6 % et un bénéfice par action ajusté de 1,32 à 1,34 dollar ; pour l'exercice, 5,94 à 6,00 dollars [4][5]." },
+    summary: "Le numéro un mondial des dispositifs médicaux (pacemakers, pompes à insuline, robots chirurgicaux) publie un trimestre sans l'effet calendrier qui avait gonflé le précédent [6].",
+    points: [
+      "Chartmill attend 1,34 dollar par action et 9,58 milliards de dollars de chiffre d'affaires, Benzinga 1,33 dollar et 9,48 milliards [2][3] : le consensus est collé au haut de la fourchette de l'entreprise.",
+      "Au trimestre précédent, le chiffre d'affaires avait bondi de 13,7 %, à 9,8 milliards de dollars, avec 1,45 dollar par action ajusté, mais une semaine de ventes en plus (exercice de 53 semaines) avait gonflé la croissance, selon le directeur financier [6].",
+      "Les analystes attendent environ 5,96 dollars par action sur l'exercice, au milieu de l'objectif du groupe [5] : un relèvement serait un signal positif.",
+      "Communiqué à 5 h 45, heure de Chicago (avant l'ouverture de Wall Street), et conférence à 6 h 30, le mardi 24 novembre [1]."
+    ],
+    sources: [
+      { short: "Medtronic", name: "Medtronic, « Medtronic to announce financial results for its second quarter of fiscal year 2027 » (communiqué), 4 nov. 2026", url: "https://news.medtronic.com/2026-11-04-Medtronic-to-announce-financial-results-for-its-second-quarter-of-fiscal-year-2027" },
+      { short: "Chartmill", name: "Chartmill, « Medtronic (MDT) Earnings & Revenue Estimates »", url: "https://www.chartmill.com/stock/quote/MDT/estimates" },
+      { short: "Benzinga", name: "Benzinga, « Medtronic (MDT) Earnings »", url: "https://www.benzinga.com/quote/mdt/earnings" },
+      { short: "Ticker Report", name: "Ticker Report, « Medtronic (NYSE:MDT) Issues Q2 2027 Earnings Guidance », 2026", url: "https://www.tickerreport.com/?p=13571913" },
+      { short: "The Cerbat Gem", name: "The Cerbat Gem, « Medtronic (NYSE:MDT) Releases FY 2027 Earnings Guidance », 2026", url: "https://www.thecerbatgem.com/?p=10377957" },
+      { short: "MarketBeat", name: "MarketBeat, « Transcript: Medtronic Q1 Earnings Call Highlights », 1er sept. 2026", url: "https://www.marketbeat.com/instant-alerts/transcript-medtronic-q1-earnings-call-highlights-2026-09-01/" }
+    ]
+  },
+  {
+    id: "deere-t4-2026",
+    company: "Deere (John Deere)",
+    ticker: "DE",
+    country: "US",
+    sector: "Machines agricoles",
+    date: "2026-11-25",
+    period: "T4 de l'exercice 2026 (août-octobre 2026)",
+    lines: [
+      { label: "Chiffre d'affaires", unit: "Md$", exp: 10.677, src: 2 },
+      { label: "Bénéfice par action", unit: "$", exp: 4.17, src: 2 }
+    ],
+    summary: "Le premier fabricant mondial de tracteurs dit comment vont les agriculteurs américains, dont le moral est en berne [4].",
+    points: [
+      "Chartmill attend 4,17 dollars par action et 10,68 milliards de dollars de chiffre d'affaires, Hudson Labs 4,06 dollars et 10,35 milliards [2][3].",
+      "Les attentes ont baissé : selon Chartmill, l'estimation de chiffre d'affaires a été révisée en baisse de 5 % en trois mois [2].",
+      "Le plus regardé sera l'objectif de bénéfice pour l'exercice 2027, qui dira si le creux du marché agricole est passé [3][4].",
+      "Conférence le mercredi 25 novembre à 9 h, heure de Chicago [1]."
+    ],
+    sources: [
+      { short: "Deere", name: "Deere & Company, « Deere to Announce Fourth Quarter 2026 Financial Results » (communiqué via Placera), 11 nov. 2026", url: "https://www.placera.se/pressmeddelanden/deere-to-announce-fourth-quarter-2026-financial-results-20261111" },
+      { short: "Chartmill", name: "Chartmill, « Deere & Co (DE) Earnings & Revenue Estimates »", url: "https://www.chartmill.com/stock/quote/DE/estimates" },
+      { short: "Hudson Labs", name: "Hudson Labs, « Deere & Company (DE) — Q4 2026 Earnings Preview », nov. 2026", url: "https://www.hudson-labs.com/research/deere-q4-2026-earnings-preview-de-revenue-guidance-key-risks" },
+      { short: "Stocktwits", name: "Stocktwits, « Deere Q4 Earnings Seen Under Pressure Amid Weak Farmer Sentiment », nov. 2026", url: "https://stocktwits.com/news-articles/markets/equity/deere-q4-earnings-seen-under-pressure-amid-weak-farmer-sentiment/cL5bdq0REfH" }
     ]
   },
   {
