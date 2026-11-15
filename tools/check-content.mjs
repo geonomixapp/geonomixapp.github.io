@@ -3,7 +3,7 @@
 import fs from "fs";
 
 // Sources fiables : une seule suffit (agences, grands médias, institutions officielles).
-const TRUSTED = /reuters|afp|agence france|associated press|\bap\b|apnews|bloomberg|euronews|bbc|le monde|lemonde|financial times|\bft\b|wall street journal|wsj|new york times|nytimes|washington post|the economist|les echos|le figaro|liberation|france ?info|franceinfo|radio france|france 24|rfi|cnbc|cnn|al jazeera|dw|deutsche welle|el pa[ií]s|nikkei|the guardian|guardian|politico|nhk|xinhua|kyodo|yonhap|insee|eurostat|banque centrale|central bank|bce|ecb|federal reserve|\bfed\b|fmi|imf|banque mondiale|world bank|ocde|oecd|onu|\bun\b|united nations|commission européenne|european commission|gouv|\.gov|ministère|ministry|élysée|maison-blanche|white house|opep|opec|aie|\biea\b|bri|\bbis\b/i;
+const TRUSTED = /reuters|afp|agence france|associated press|\bap\b|apnews|bloomberg|euronews|bbc|le monde|lemonde|financial times|\bft\b|wall street journal|wsj|new york times|nytimes|washington post|the economist|les echos|le figaro|liberation|france ?info|franceinfo|radio france|france 24|rfi|cnbc|cnn|al jazeera|dw|deutsche welle|el pa[ií]s|nikkei|the guardian|guardian|politico|nhk|xinhua|kyodo|yonhap|insee|eurostat|banque centrale|central bank|bce|ecb|federal reserve|\bfed\b|fmi|imf|banque mondiale|world bank|ocde|oecd|onu|\bun\b|united nations|commission européenne|european commission|gouv|\.gov|ministère|ministry|élysée|maison-blanche|white house|opep|opec|aie|\biea\b|bri|\bbis\b|boursorama|zonebourse|marketscreener|abc ?bourse|abcbourse|investir|bnn|globe and mail|theglobeandmail|handelsblatt|sec\.gov/i;
 const trusted = (src) => TRUSTED.test(`${src.short || ""} ${src.name || ""} ${src.url || ""}`);
 import vm from "vm";
 
@@ -277,6 +277,7 @@ const resIds = new Set();
   if (r.move && !/\[\d+\]/.test(r.move.text || "")) err(w, "move : la variation de l'action doit être sourcée [n]");
   if (!out && r.date < new Date().toISOString().slice(0, 10)) warn.push(`${w} : date passée sans résultat publié, à compléter`);
   if (Array.isArray(r.sources) && r.sources.length < 2 && !r.sources.some(trusted)) warn.push(`${w} : une seule source peu connue, en ajouter une 2e`);
+  if (out && Array.isArray(r.sources) && r.sources.length < 3) warn.push(`${w} : résultat publié avec moins de 3 sources (consigne : blinder, 5 à 8 idéalement)`);
 });
 console.log(`${news.length} actus (dernière date : ${today}, ${news.filter((n) => n.date === today).length} ce jour-là), ${dossiers.length} cours, ${culture.length} articles, ${(etudes.cas || []).length} études de cas, ${(etudes.podcast || []).length} épisodes.`);
 warn.forEach((w) => console.log("Attention : " + w));
