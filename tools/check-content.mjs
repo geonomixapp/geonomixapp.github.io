@@ -9,7 +9,7 @@ import vm from "vm";
 
 const ctx = { window: {} };
 vm.createContext(ctx);
-for (const f of ["data/content.js", "data/news.js", "data/culture.js", "data/etudes.js", "data/indicators.js", "data/conflits.js", "data/focus.js", "data/agenda.js"]) {
+for (const f of ["data/content.js", "data/news.js", "data/culture.js", "data/etudes.js", "data/indicators.js", "data/conflits.js", "data/focus.js", "data/agenda.js", "data/resultats.js"]) {
   vm.runInContext(fs.readFileSync(f, "utf8"), ctx, { filename: f });
 }
 const { dossiers, glossary, news, culture, indicators } = ctx.window.GEOCO;
@@ -253,6 +253,30 @@ agenda.forEach((a, i) => {
   if (Array.isArray(a.sources) && a.sources.length < 2 && !a.verify && !a.sources.some(trusted)) warn.push(`${w} : une seule source, ajouter une 2e source ou verify`);
   if (a.news && !news.some((n) => n.id === a.news)) warn.push(`${w} : actu liée « ${a.news} » introuvable`);
   if ((a.end || a.date) < new Date().toISOString().slice(0, 10)) warn.push(`${w} : date passée, à retirer`);
+});
+// Résultats d'entreprises (data/resultats.js, Geonomix+) : dates, verdicts, chiffres et sources.
+const resIds = new Set();
+(ctx.window.GEOCO.resultats || []).forEach((r, i) => {
+  const w = `resultats[${i}] ${r.id || "?"}`;
+  if (!r.id || resIds.has(r.id)) err(w, "id manquant ou en double"); resIds.add(r.id);
+  if (!r.company || !r.period || !r.summary) err(w, "company, period et summary obligatoires");
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(r.date || "")) err(w, "date au format AAAA-MM-JJ obligatoire");
+  if (r.time && !["open", "close"].includes(r.time)) err(w, "time = open ou close");
+  if (r.country && !/^[A-Z]{2}$/.test(r.country)) err(w, "country = code ISO à 2 lettres");
+  checkSources(w, r.sources);
+  [r.summary, ...(r.points || []), r.guidance && r.guidance.text, r.move && r.move.text].filter(Boolean).forEach((t) => checkCites(w, t, r.sources));
+  const out = (r.lines || []).some((l) => l.act != null);
+  (r.lines || []).forEach((l, j) => {
+    if (!l.label) err(`${w} lines[${j}]`, "label obligatoire");
+    for (const k of ["exp", "act", "prev"]) if (l[k] != null && typeof l[k] !== "number") err(`${w} lines[${j}]`, `${k} doit être un nombre`);
+    if (!l.src || !(r.sources || [])[l.src - 1]) err(`${w} lines[${j}]`, "src (n° de source) manquant ou invalide");
+  });
+  if (out && !["mieux", "conforme", "moins", "mitige"].includes(r.verdict)) err(w, "résultat publié : verdict = mieux, conforme, moins ou mitige");
+  if (!out && r.verdict) err(w, "verdict sans chiffre publié (act)");
+  if (r.guidance && !["releve", "maintenu", "abaisse", "attendu"].includes(r.guidance.dir)) err(w, "guidance.dir = releve, maintenu, abaisse ou attendu");
+  if (r.move && !/\[\d+\]/.test(r.move.text || "")) err(w, "move : la variation de l'action doit être sourcée [n]");
+  if (!out && r.date < new Date().toISOString().slice(0, 10)) warn.push(`${w} : date passée sans résultat publié, à compléter`);
+  if (Array.isArray(r.sources) && r.sources.length < 2 && !r.sources.some(trusted)) warn.push(`${w} : une seule source peu connue, en ajouter une 2e`);
 });
 console.log(`${news.length} actus (dernière date : ${today}, ${news.filter((n) => n.date === today).length} ce jour-là), ${dossiers.length} cours, ${culture.length} articles, ${(etudes.cas || []).length} études de cas, ${(etudes.podcast || []).length} épisodes.`);
 warn.forEach((w) => console.log("Attention : " + w));

@@ -47,6 +47,18 @@ Le lecteur doit voir loin : ce qui va se passer demain, dans la semaine, dans le
 
 Et sur chaque actu, quand une suite est connue : le champ **`next`** (« Et après ? ») : `[{ when: "5 novembre", what: "La Banque d'Angleterre décide de son taux [3]." }]`, la prochaine étape datée (vote, sommet, échéance, décision attendue). Toujours sourcé.
 
+## Résultats d'entreprises (Geonomix+, demande de l'auteur, 15 nov. 2026 : « les dates à venir, les bilans, les objectifs des entreprises, si c'est mieux que prévu ou moins bien »)
+
+Rubrique payante du rideau Finance (`data/resultats.js`, page `#/resultats`). **Chaque matin** :
+
+- **Calendrier** : tenir à jour les publications des **14 prochains jours** (8 à 15 entreprises) : les grandes valeurs mondiales (Nvidia, Apple, Microsoft, Alphabet, Amazon, Meta, Tesla, TSMC, Samsung…), françaises et européennes (LVMH, TotalEnergies, Airbus, Schneider, ASML, SAP, Nestlé…), canadiennes (banques, CN, Shopify, Cameco…) et celles dont parle l'actu. Pour chacune : date, `time` (`open` avant l'ouverture, `close` après la clôture), `period`, et dans `lines` ce qu'attendent les analystes (`exp` : chiffre d'affaires, bénéfice par action, ou l'indicateur clé du secteur) quand un consensus est publié, plus l'objectif que l'entreprise s'était fixé (`guidance` avec `dir: "attendu"`). `points` = ce qu'on va regarder.
+- **Résultats publiés** : dès qu'une entreprise du calendrier a publié, compléter **le même élément** : `act` sur chaque ligne (publié), `prev` si on compare à l'an dernier, `verdict` (`mieux`, `conforme`, `moins`, `mitige` quand un chiffre bat et l'autre rate), `guidance` (`releve`, `maintenu`, `abaisse` : les objectifs de l'entreprise pour la suite, c'est souvent ce qui fait bouger l'action), `move` (réaction de l'action, toujours sourcée), `summary` en une phrase, `points` = 3 à 5 faits précis (chiffres exacts, croissance sur un an, ce qui a tiré ou pesé, ce que dit la direction). Viser **3 à 6 résultats publiés par jour** en saison de résultats.
+- Garder les résultats publiés des **30 derniers jours**, retirer les plus anciens.
+- **Sources** : le communiqué de l'entreprise (suffit pour les chiffres publiés et les objectifs) et un média financier pour le consensus et la réaction de l'action (Reuters, Bloomberg, AFP, CNBC, Les Échos, Zonebourse, Investing.com, Yahoo Finance…). Ne jamais écrire un consensus ou un chiffre de mémoire. Si deux sources donnent des consensus différents, prendre le plus courant et le dire dans les `points`. Attention aux devises (une société canadienne cotée à New York publie en dollars canadiens, le consensus américain est parfois en dollars américains) et aux exercices décalés (« T3 de l'exercice 2027 » de Nvidia = août-octobre 2026).
+- Quand un résultat fait une actu Finance, mettre l'id de l'actu dans les `points` n'est pas nécessaire : l'actu suffit, la fiche résultats garde les chiffres face aux attentes.
+- Traduire `company` (si besoin), `sector`, `period`, `summary`, `points`, `guidance.text`, `move.text`, `move.value` et les `label` en anglais et en espagnol (clés `resultats.<id>.…`).
+- `check-content` vérifie les dates, verdicts, nombres et sources, et signale une date passée sans résultat publié.
+
 ## Des actus longues et précises (demande de l'auteur, 31 oct. 2026 : « plus de mots et surtout de spécificité »)
 
 Une actu n'est pas une dépêche de trois lignes : le lecteur doit en savoir assez pour l'expliquer à quelqu'un.

@@ -1273,6 +1273,135 @@
     }));
   }
 
+  // Résultats d'entreprises (Geonomix+, demande de l'auteur du 15 nov. 2026 : « les dates à venir, les bilans, les
+  // objectifs des entreprises, si c'est mieux que prévu ou moins bien ») : data/resultats.js. Calendrier des
+  // publications à venir (avec ce qu'attendent les analystes), puis les résultats publiés, comparés aux attentes,
+  // avec les objectifs de l'entreprise (relevés, maintenus, abaissés) et la réaction de l'action.
+  const resultats = window.GEOCO.resultats || [];
+  const resOut = (r) => !!r.verdict || (r.lines || []).some((l) => l.act != null);
+  const RES_VERDICT = { mieux: ["Mieux que prévu", "up"], conforme: ["Conforme aux attentes", "flat"], moins: ["Moins bien que prévu", "down"], mitige: ["Mitigé", "mix"] };
+  const RES_GUIDE = { releve: ["↑", "Objectif relevé", "up"], maintenu: ["→", "Objectif maintenu", "flat"], abaisse: ["↓", "Objectif abaissé", "down"], attendu: ["◎", "L'objectif de l'entreprise", "flat"] };
+  const resFlag = (c) => /^[A-Z]{2}$/.test(c || "") ? String.fromCodePoint(...[...c].map((x) => 127397 + x.charCodeAt(0))) : "🌍";
+  const resNum = (v, unit) => `${Number(v).toLocaleString(LOCALE, { maximumFractionDigits: 2 })}${unit ? ` ${unit}` : ""}`;
+  const resDays = (d) => Math.round((Date.parse(d) - Date.parse(new Date().toISOString().slice(0, 10))) / 864e5);
+  const resWhen = (r) => { const d = resDays(r.date); return d < 0 ? "" : d === 0 ? I18N.t("Aujourd'hui") : d === 1 ? I18N.t("Demain") : I18N.t("Dans {n} jours").replace("{n}", d); };
+  const resTime = (r) => r.time === "open" ? I18N.t("avant l'ouverture") : r.time === "close" ? I18N.t("après la clôture") : "";
+  const resDate = (d, o) => new Date(d + "T12:00:00").toLocaleDateString(LOCALE, o);
+  const resGap = (l) => (l.exp != null && l.act != null && l.exp !== 0) ? ((l.act - l.exp) / Math.abs(l.exp)) * 100 : null;
+  const resGapTxt = (g) => `${g > 0 ? "+" : g < 0 ? "−" : ""}${Math.abs(g).toLocaleString(LOCALE, { maximumFractionDigits: 1 })} %`;
+  const resUpcoming = () => resultats.filter((r) => !resOut(r) && resDays(r.date) >= 0).sort((a, b) => (a.date < b.date ? -1 : 1));
+  const resPublished = () => resultats.filter(resOut).sort((a, b) => (a.date < b.date ? 1 : -1));
+  const resChip = (r) => { const v = RES_VERDICT[r.verdict]; return v ? `<span class="res-verdict ${v[1]}">${I18N.t(v[0])}</span>` : ""; };
+  function resRow(r, locked) {
+    const out = resOut(r), main = (r.lines || []).find((l) => resGap(l) != null);
+    const g = main ? resGap(main) : null;
+    return `
+      <a class="res-row${locked ? " locked" : ""}" href="#/resultats/${r.id}">
+        <span class="res-date"><b>${resDate(r.date, { day: "numeric" })}</b>${resDate(r.date, { month: "short" })}</span>
+        <span class="res-main">
+          <span class="res-co">${resFlag(r.country)} ${r.company} <small>${r.ticker || ""}</small></span>
+          <span class="res-sub">${out ? r.period : `${resWhen(r)}${resTime(r) ? ` · ${resTime(r)}` : ""}`}${r.sector ? ` · ${r.sector}` : ""}</span>
+        </span>
+        <span class="res-side">${locked ? "🔒" : out ? `${resChip(r)}${g != null ? `<small class="${g >= 0 ? "up" : "down"}">${main.label} ${resGapTxt(g)}</small>` : ""}` : (r.lines || []).length ? `<small>${I18N.t("Attendu")} : ${resNum(r.lines[0].exp, r.lines[0].unit)}</small>` : ""}</span>
+      </a>`;
+  }
+  // Bloc du rideau Finance : 4 publications à venir et les 4 derniers résultats ; pour les non-abonnés, les noms
+  // et les dates seulement (le reste est verrouillé).
+  function resultsHTML() {
+    if (!resultats.length) return "";
+    const up = resUpcoming().slice(0, 4), done = resPublished().slice(0, 4), lock = !isPlus();
+    return `
+      <div class="res-block">
+        <p class="eyebrow"><span class="theme-chip fin"><i aria-hidden="true"></i>${I18N.t("Finance")}</span>${lock ? ` ${plusTag()}` : ""}</p>
+        <h3 class="marches-title">${I18N.t("Résultats d'entreprises.")}</h3>
+        <p class="marches-lead">${I18N.t("Le calendrier des publications, ce qu'attendent les analystes, et si c'est mieux ou moins bien que prévu.")}</p>
+        ${up.length ? `<p class="ag-bucket">${I18N.t("À venir")}</p><div class="res-list">${up.map((r) => resRow(r, lock)).join("")}</div>` : ""}
+        ${done.length ? `<p class="ag-bucket">${I18N.t("Publiés")}</p><div class="res-list">${done.map((r) => resRow(r, lock)).join("")}</div>` : ""}
+        ${lock ? `<a class="pill-btn blue" href="#/abonnement">${I18N.t("Débloquer avec")} ${offre.name}</a>` : `<a class="more-link" href="#/resultats">${I18N.t("Tout le calendrier des résultats")} ›</a>`}
+      </div>`;
+  }
+  function resLines(r) {
+    const lines = r.lines || [];
+    if (!lines.length) return "";
+    return `<div class="res-lines reveal">${lines.map((l) => {
+      const g = resGap(l), ref = l.exp != null ? l.exp : l.prev, refLabel = l.exp != null ? I18N.t("Attendu") : I18N.t("Il y a un an");
+      const bars = ref != null && l.act != null && ref >= 0 && l.act >= 0;
+      const max = bars ? Math.max(ref, l.act) || 1 : 1, cls = g == null ? (l.prev != null && l.act != null ? (l.act >= l.prev ? "up" : "down") : "") : g >= 0 ? "up" : "down";
+      return `
+        <div class="res-line">
+          <p class="res-line-head"><b>${l.label}</b>${g != null ? `<span class="res-gap ${cls}">${resGapTxt(g)} ${I18N.t("par rapport aux attentes")}</span>` : l.note ? `<span class="res-gap">${l.note}</span>` : ""}</p>
+          ${bars ? `
+          <div class="res-bar"><span>${refLabel}</span><i style="width:${(ref / max) * 100}%"></i><b>${resNum(ref, l.unit)}</b></div>
+          <div class="res-bar act ${cls}"><span>${I18N.t("Publié")}</span><i style="width:${(l.act / max) * 100}%"></i><b>${resNum(l.act, l.unit)}</b></div>` : `
+          <p class="res-vals">${ref != null ? `<span>${refLabel} : <b>${resNum(ref, l.unit)}</b></span>` : ""}${l.act != null ? `<span>${I18N.t("Publié")} : <b class="${cls}">${resNum(l.act, l.unit)}</b></span>` : ""}</p>`}
+        </div>`;
+    }).join("")}</div>`;
+  }
+  function renderResultats(id) {
+    const r = id && resultats.find((x) => x.id === id);
+    if (id && !r) return renderNotFound();
+    if (!r) {
+      const up = resUpcoming(), done = resPublished(), lock = !isPlus();
+      app.innerHTML = `
+        <section class="wrap hero">
+          <a class="back" href="#/actu">‹ Actu</a>
+          <p class="eyebrow reveal"><span class="theme-chip fin"><i aria-hidden="true"></i>${I18N.t("Finance")}</span>${lock ? ` ${plusTag()}` : ""}</p>
+          <h1 class="title reveal">${I18N.t("Résultats d'entreprises.")}</h1>
+          <p class="lead reveal">${I18N.t("Le calendrier des publications, ce qu'attendent les analystes, et si c'est mieux ou moins bien que prévu.")}</p>
+        </section>
+        <section class="wrap">
+          ${up.length ? `<p class="ag-bucket">${I18N.t("À venir")}</p><div class="res-list">${up.map((x) => resRow(x, lock)).join("")}</div>` : ""}
+          ${done.length ? `<p class="ag-bucket">${I18N.t("Publiés")}</p><div class="res-list">${done.map((x) => resRow(x, lock)).join("")}</div>` : ""}
+          <p class="mkt-note">${I18N.t("Pour comprendre, pas un conseil pour acheter ou vendre.")}</p>
+        </section>
+        ${lock ? paywall(I18N.t("Les résultats d'entreprises sont compris dans l'abonnement : chiffres publiés face aux attentes, objectifs relevés ou abaissés, réaction de l'action.")) : ""}`;
+      return;
+    }
+    const out = resOut(r), src = r.sources, g = RES_GUIDE[r.guidance && r.guidance.dir];
+    const head = `
+        <section class="wrap hero">
+          <a class="back" href="#/resultats">‹ ${I18N.t("Résultats d'entreprises")}</a>
+          <p class="eyebrow reveal"><span class="theme-chip fin"><i aria-hidden="true"></i>${I18N.t("Finance")}</span> ${r.sector || ""}${isPlus() ? "" : ` · ${plusTag()}`}</p>
+          <h1 class="title reveal">${resFlag(r.country)} ${r.company} <span class="res-ticker">${r.ticker || ""}</span></h1>
+          <p class="res-when reveal">${r.period} · ${resDate(r.date, { weekday: "long", day: "numeric", month: "long" })}${resTime(r) ? ` · ${resTime(r)}` : ""}${!out && resWhen(r) ? ` · <b>${resWhen(r)}</b>` : ""}</p>
+          ${out && isPlus() ? `<p class="reveal">${resChip(r)}</p>` : ""}`;
+    if (!isPlus() && out) {
+      app.innerHTML = head + `</section>${paywall(I18N.t("Les résultats d'entreprises sont compris dans l'abonnement : chiffres publiés face aux attentes, objectifs relevés ou abaissés, réaction de l'action."))}`;
+      return;
+    }
+    if (!isPlus()) {
+      app.innerHTML = head + `<p class="lead reveal">${noCite(r.summary)}</p></section>${paywall(I18N.t("Les résultats d'entreprises sont compris dans l'abonnement : chiffres publiés face aux attentes, objectifs relevés ou abaissés, réaction de l'action."))}`;
+      return;
+    }
+    app.innerHTML = head + `
+          <p class="lead reveal">${cite(r.summary, src)}</p>
+        </section>
+        <section class="section">
+          <div class="wrap">
+            <h2 class="title reveal">${out ? I18N.t("Publié face aux attentes.") : I18N.t("Ce qu'attendent les analystes.")}</h2>
+            ${resLines(r) || `<p class="copy reveal">${I18N.t("Pas encore de consensus publié.")}</p>`}
+            ${r.move ? `<p class="res-move reveal"><span class="mkt-move ${/^\s*[-−–]/.test(r.move.value) ? "down" : "up"}">${r.move.value}</span> ${I18N.t("pour l'action")} ${cite(r.move.text, src)}</p>` : ""}
+          </div>
+        </section>
+        ${r.guidance ? `
+        <section class="section">
+          <div class="wrap">
+            <div class="res-guide ${g ? g[2] : ""} reveal">
+              <span class="res-guide-ico" aria-hidden="true">${g ? g[0] : "◎"}</span>
+              <div><p class="eyebrow">${I18N.t(g ? g[1] : "L'objectif de l'entreprise")}</p><p>${cite(r.guidance.text, src)}</p></div>
+            </div>
+          </div>
+        </section>` : ""}
+        <section class="section">
+          <div class="wrap">
+            <h2 class="title reveal">${out ? I18N.t("Ce qu'il faut retenir.") : I18N.t("Ce qu'on va regarder.")}</h2>
+            <ul class="res-points reveal">${(r.points || []).map((p) => `<li>${cite(p, src)}</li>`).join("")}</ul>
+            <p class="mkt-note reveal">${I18N.t("Pour comprendre, pas un conseil pour acheter ou vendre.")} <a href="#/lexique">${I18N.t("Les mots de la Bourse")} ›</a></p>
+          </div>
+        </section>
+        ${sourcesBlock(src)}`;
+  }
+
   // « À venir » (demande de l'auteur, 31 oct. 2026 : les dates qui comptent demain, dans la semaine, dans le mois) :
   // data/agenda.js, rangé par échéance (Demain, Cette semaine, Ce mois-ci, Plus tard), avec le compte à rebours.
   // Un toucher ouvre le pourquoi et les sources.
@@ -1396,7 +1525,7 @@
       const sorted = nearFirst(list), STEP = 24;
       const box = app.querySelector("#actu-list");
       const today = news.filter((n) => inCurtain(n, actuTheme) && n.date === (news[0] || {}).date);
-      const intro = curtainCover(today.length ? today : list.slice(0, 15), actuTheme) + (actuTheme === "fin" ? marchesHTML() : "");
+      const intro = curtainCover(today.length ? today : list.slice(0, 15), actuTheme) + (actuTheme === "fin" ? resultsHTML() + marchesHTML() : "");
       if (!sorted.length) { box.innerHTML = intro + `<p class="empty">${I18N.t("Aucune actu pour ce filtre.")}</p>`; bindMarches(box); return; }
       box.innerHTML = intro + `<div class="mosaic">${mosaicHTML(sorted.slice(0, STEP))}</div>${sorted.length > STEP ? `<p class="mosaic-more"><button class="more-btn" type="button">${I18N.t("Voir les actus d'avant")}</button></p>` : ""}`;
       let shown = STEP;
@@ -1483,6 +1612,7 @@
         <li>Un article de presse sur deux, en entier</li>
         <li>La fiche de révision de chaque article et de chaque cours en PDF : idées, dates, notions, qui est qui, questions</li>
         <li>Le rideau Finance : toutes les actus des marchés, « Côté marchés » et les exemples du passé</li>
+        <li>Les résultats d'entreprises : le calendrier des publications, les chiffres face aux attentes, les objectifs relevés ou abaissés</li>
         <li>Les archives : Focus industrie, études de cas, lettres du matin</li>
         <li>Bientôt : flashcards et mode Concours</li>
       </ul>`;
@@ -3666,7 +3796,7 @@ function statGrid(figures, sources, theme = "geo") {
     if (currentGlobe) { currentGlobe.destroy(); currentGlobe = null; }
     citeFree();
     const [, section, param, extra] = (location.hash || "#/").split("/").map((s) => { try { return decodeURIComponent(s); } catch (e) { return s; } });
-    const tab = { dossier: "cours", culture: "articles", quiz: "cours", lexique: "cours", etudes: "actu", lettres: "actu", abonnement: "actu", enjeux: "focus" }[section] || section;
+    const tab = { dossier: "cours", culture: "articles", quiz: "cours", lexique: "cours", etudes: "actu", resultats: "actu", lettres: "actu", abonnement: "actu", enjeux: "focus" }[section] || section;
     document.querySelectorAll("[data-tab]").forEach((a) => a.classList.toggle("active", a.dataset.tab === tab));
     const activeTab = document.querySelector("[data-tab].active");
     if (activeTab && activeTab.parentElement.scrollWidth > activeTab.parentElement.clientWidth) {
@@ -3677,6 +3807,7 @@ function statGrid(figures, sources, theme = "geo") {
     if (section === "cours" || section === "dossier") param ? renderDossier(param) : renderCoursIndex();
     else if (section === "actu") param ? renderNews(param) : renderActuIndex();
     else if (section === "etudes") param ? renderCase(param) : renderEtudesIndex();
+    else if (section === "resultats") renderResultats(param);
     else if (section === "articles" || section === "culture") param ? renderCulture(param, extra) : renderArticlesIndex();
     else if (section === "chiffres") renderChiffres(param, extra);
     else if (section === "conflits") renderConflits(param, extra);

@@ -9,7 +9,7 @@ import path from "path";
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
 const ctx = { window: {} };
 vm.createContext(ctx);
-for (const f of ["content", "news", "culture", "etudes", "focus", "anecdotes", "indicators", "conflits", "couches", "auteur", "agenda"]) {
+for (const f of ["content", "news", "culture", "etudes", "focus", "anecdotes", "indicators", "conflits", "couches", "auteur", "agenda", "resultats"]) {
   const p = path.join(ROOT, "data", f + ".js");
   if (fs.existsSync(p)) vm.runInContext(fs.readFileSync(p, "utf8"), ctx);
 }
@@ -20,9 +20,9 @@ export const SKIP = new Set(["id", "cover", "date", "theme", "region", "url", "c
   "link", "audio", "file", "fileDark", "photo", "cas", "icon", "color", "iso", "era", "source", "slug", "answer", "correct", "related", "see",
   "kind", "type", "cat", "highlight", "end", "zones", "impact", "level", "breaking", "preset", "terms", "poster", "part", "at", "article", "articles",
   // Chiffres et Conflits : valeurs, couleurs et codes pays ne se traduisent pas.
-  "s", "v", "d", "bins", "colors", "country", "contact", "names", "values", "freeListens", "price", "podcast", "counts"]);
+  "ticker", "exp", "act", "prev", "unit", "verdict", "dir", "time", "s", "v", "d", "bins", "colors", "country", "contact", "names", "values", "freeListens", "price", "podcast", "counts"]);
 // Listes d'éléments repérés par leur id.
-export const SETS = { news: G.news, dossiers: G.dossiers, glossary: G.glossary, culture: G.culture, anecdotes: G.anecdotes, focus: G.focus, cas: (G.etudes || {}).cas, agenda: G.agenda };
+export const SETS = { news: G.news, dossiers: G.dossiers, glossary: G.glossary, culture: G.culture, anecdotes: G.anecdotes, focus: G.focus, cas: (G.etudes || {}).cas, agenda: G.agenda, resultats: G.resultats };
 // Objets uniques (chemins par clé, puis par position dans les listes).
 export const OBJECTS = { indicators: G.indicators, conflits: G.conflits, auteur: G.auteur, offre: (G.etudes || {}).offre };
 
