@@ -888,6 +888,27 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-12-10-etats-unis-inflation-novembre",
+    "date": "2026-12-10",
+    "theme": "eco",
+    "region": "Amériques",
+    "place": "Washington, États-Unis",
+    "title": "États-Unis : l'inflation de novembre, juste après la réunion de la Fed",
+    "why": "Le Bureau des statistiques du travail publie l'indice des prix de novembre le jeudi 10 décembre à 8 h 30, heure de New York, au lendemain de la réunion de la Fed [1][2]. Un chiffre élevé renforcerait l'idée de nouvelles hausses de taux, avec des effets sur le dollar, les taux d'emprunt et la Bourse.",
+    "sources": [
+      {
+        "short": "BLS",
+        "name": "Bureau of Labor Statistics (bls.gov), « Schedule of Releases for the Consumer Price Index »",
+        "url": "https://www.bls.gov/schedule/news_release/cpi.htm"
+      },
+      {
+        "short": "BLS",
+        "name": "Bureau of Labor Statistics (bls.gov), « Release calendar, December 2026 »",
+        "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
+      }
+    ]
+  },
+  {
     "id": "2026-12-11-etats-unis-financement-federal",
     "date": "2026-12-11",
     "theme": "eco",
@@ -970,6 +991,53 @@ window.GEOCO.agenda = [
         "short": "Eco3min",
         "name": "Eco3min, « ECB Meeting Calendar »",
         "url": "https://eco3min.fr/en/ecb-meeting-calendar/"
+      }
+    ]
+  },
+  {
+    "id": "2026-12-17-banque-angleterre-taux",
+    "date": "2026-12-17",
+    "theme": "eco",
+    "region": "Europe",
+    "place": "Londres, Royaume-Uni",
+    "title": "Royaume-Uni : dernière décision de taux de l'année de la Banque d'Angleterre",
+    "why": "La Banque d'Angleterre annonce sa décision le jeudi 17 décembre à midi, heure de Londres, le même jour que la BCE [1][2]. Avec l'énergie chère depuis la guerre du Golfe, elle doit choisir entre freiner l'inflation et soutenir une économie fragile : sa décision fait bouger la livre et le coût des crédits immobiliers britanniques.",
+    "sources": [
+      {
+        "short": "Banque d'Angleterre",
+        "name": "Bank of England (banque centrale), « Monetary Policy Committee dates for 2026 »",
+        "url": "https://www.bankofengland.co.uk/news/2025/september/monetary-policy-committee-dates-for-2026"
+      },
+      {
+        "short": "MoneyWeek",
+        "name": "MoneyWeek, « When is the next Bank of England base rate meeting? »",
+        "url": "https://moneyweek.com/economy/when-is-the-next-bank-of-england-interest-rate-mpc-meeting"
+      }
+    ]
+  },
+  {
+    "id": "2026-12-18-banque-du-japon-taux",
+    "date": "2026-12-18",
+    "theme": "eco",
+    "region": "Asie",
+    "place": "Tokyo, Japon",
+    "title": "Japon : dernière décision de taux de l'année de la Banque du Japon",
+    "why": "La dernière réunion de l'année se tient les 17 et 18 décembre, avec la décision le vendredi 18 [1][2]. Le taux directeur est à 1,25 % [3] : une hausse soutiendrait le yen, très faible face au dollar, et ferait monter les taux d'emprunt au Japon, dont les investisseurs placent beaucoup d'argent à l'étranger.",
+    "sources": [
+      {
+        "short": "Banque du Japon",
+        "name": "Bank of Japan (banque centrale), « Monetary Policy Meetings »",
+        "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/"
+      },
+      {
+        "short": "Finance Calendar",
+        "name": "Finance Calendar, « Bank of Japan Rate Decision December 2026 »",
+        "url": "https://www.financecalendar.com/?p=1260"
+      },
+      {
+        "short": "Universal Asset Owners",
+        "name": "Universal Asset Owners, « Bank of Japan holds 1.25%: GPIF, insurers, yen carry »",
+        "url": "https://www.universalassetowners.com/newsroom/bank-of-japan-holds-1-25-gpif-insurers-yen-carry/"
       }
     ]
   },
