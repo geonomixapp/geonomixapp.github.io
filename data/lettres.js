@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-15",
+    "file": "lettres/2026-11-15.pdf",
+    "titles": [
+      "Ormuz : l'Iran dit que trois pétroliers ont sauté sur ses mines samedi, Washington assure que les routes sont déminées",
+      "Droits de douane : Washington et Pékin discutent d'une baisse croisée sur 30 milliards de dollars de produits chacun, avant la rencontre Trump-Xi",
+      "Ukraine : Washington a proposé l'OTAN en échange du Donbas, révèle Zelensky, une première dans les négociations"
+    ],
+    "fileDark": "lettres/2026-11-15-sombre.pdf"
+  },
+  {
     "date": "2026-11-14",
     "file": "lettres/2026-11-14.pdf",
     "titles": [
