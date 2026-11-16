@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-16",
+    "file": "lettres/2026-11-16.pdf",
+    "titles": [
+      "Ormuz : l'Iran dit avoir coulé un superpétrolier chargé de 2 millions de barils, mais le pétrole recule à l'ouverture, les marchés attendent des preuves",
+      "Chine : les ventes en magasin ne progressent plus que de 0,4 % en octobre et l'investissement s'effondre de 8,1 %, à trois jours du sommet avec Trump et Poutine",
+      "Tchéquie : entre 350 000 et 450 000 personnes à Prague contre la mise sous budget de la télé et de la radio publiques, Babiš ne recule pas"
+    ],
+    "fileDark": "lettres/2026-11-16-sombre.pdf"
+  },
+  {
     "date": "2026-11-15",
     "file": "lettres/2026-11-15.pdf",
     "titles": [
