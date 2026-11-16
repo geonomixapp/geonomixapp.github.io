@@ -30,49 +30,6 @@ window.GEOCO.agenda = [
     ]
   },
   {
-    "id": "2026-11-15-cap-vert-presidentielle",
-    "date": "2026-11-15",
-    "theme": "geo",
-    "region": "Afrique",
-    "place": "Cap-Vert",
-    "title": "Présidentielle au Cap-Vert",
-    "why": "Le président sortant José Maria Neves, au pouvoir depuis 2021, brigue un second mandat ; un second tour est prévu le 29 novembre si personne n'a la majorité absolue [1][2]. Le Cap-Vert est une démocratie stable de l'Atlantique, vitrine politique de l'Afrique de l'Ouest.",
-    "sources": [
-      {
-        "short": "Wikipédia",
-        "name": "Wikipédia (anglais), « 2026 Cape Verdean presidential election »",
-        "url": "https://en.wikipedia.org/wiki/2026_Cape_Verdean_presidential_election"
-      },
-      {
-        "short": "Africanews",
-        "name": "Africanews, « Cape Verde's president Neves to run for re-election in November » (15 septembre 2026)",
-        "url": "https://www.africanews.com/2026/09/15/cape-verdes-president-neves-to-run-for-re-election-in-november/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-15-asean-sommet-manille",
-    "date": "2026-11-15",
-    "theme": "geo",
-    "region": "Asie",
-    "place": "Manille, Philippines",
-    "title": "49e sommet de l'ASEAN à Manille, sans les dirigeants de la junte birmane",
-    "why": "Du 15 au 17 novembre, les dirigeants d'Asie du Sud-Est se réunissent à Manille ; la Birmanie n'y sera représentée que par un haut fonctionnaire, Min Aung Hlaing restant banni faute d'appliquer le plan de paix du bloc [1][2].",
-    "sources": [
-      {
-        "short": "The Irrawaddy",
-        "name": "The Irrawaddy, « Myanmar's Coup President Barred From Upcoming 49th ASEAN Summit » (novembre 2026)",
-        "url": "https://www.irrawaddy.com/news/myanmars-crisis-the-world/myanmars-coup-president-barred-from-upcoming-49th-asean-summit.html"
-      },
-      {
-        "short": "Myanmar Now",
-        "name": "Myanmar Now, « Myanmar's Min Aung Hlaing remains barred from ASEAN summit despite assuming presidency » (novembre 2026)",
-        "url": "https://myanmar-now.org/en/news/myanmars-min-aung-hlaing-remains-barred-from-asean-summit-despite-assuming-presidency/"
-      }
-    ],
-    "news": "2026-11-13-birmanie-asean-exclusion-min-aung-hlaing"
-  },
-  {
     "id": "2026-11-16-bruxelles-unicredit-commerzbank",
     "date": "2026-11-16",
     "theme": "fin",
@@ -476,6 +433,27 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-11-20-japon-inflation-octobre",
+    "date": "2026-11-20",
+    "theme": "eco",
+    "region": "Asie",
+    "place": "Tokyo, Japon",
+    "title": "Japon : inflation d’octobre",
+    "why": "Le chiffre national des prix d’octobre sort à 8 h 30, heure de Tokyo [1] ; en septembre, l’inflation hors produits frais était de 2,1 % [2]. Un chiffre plus fort renforcerait l’idée d’une hausse de taux de la Banque du Japon le 18 décembre, et pourrait soutenir le yen, tombé au-delà de 160 pour un dollar.",
+    "sources": [
+      {
+        "short": "FinanceCalendar",
+        "name": "FinanceCalendar, « Japan CPI October 2026 »",
+        "url": "https://www.financecalendar.com/event/japan-cpi-october-2026/"
+      },
+      {
+        "short": "Forex Fundamentals",
+        "name": "Forex Fundamentals, « Japan Inflation Rate (CPI) », calendrier du 20 novembre 2026",
+        "url": "https://forexfundamentals.com/economic-calendar/jp-cpi/2026-11-20"
+      }
+    ]
+  },
+  {
     "id": "2026-11-24-portugal-budget-2027-vote-final",
     "date": "2026-11-24",
     "theme": "eco",
@@ -719,6 +697,27 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-12-04-inde-rbi-taux",
+    "date": "2026-12-04",
+    "theme": "eco",
+    "region": "Asie",
+    "place": "Bombay, Inde",
+    "title": "Inde : la banque centrale décide de son taux",
+    "why": "Le comité de politique monétaire de la Banque centrale indienne (RBI) se réunit du 2 au 4 décembre, selon son calendrier officiel [1]. Avec une inflation remontée à 6,09 % en octobre, au-dessus du plafond de 6 % que vise la RBI, une nouvelle hausse du taux renchérirait le crédit pour 1,4 milliard d’habitants et pourrait soutenir la roupie.",
+    "sources": [
+      {
+        "short": "RBI",
+        "name": "Reserve Bank of India, « Meeting Schedule of the Monetary Policy Committee for 2026-2027 » (23 mars 2026)",
+        "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62422"
+      },
+      {
+        "short": "Hello Banker",
+        "name": "Hello Banker, « RBI releases schedule of meeting of Monetary Policy Committee 2026-27 »",
+        "url": "https://hellobanker.in/rbi-releases-schedule-of-meeting-of-monetary-policy-committee-2026-27"
+      }
+    ]
+  },
+  {
     "id": "2026-12-05-gambie-presidentielle",
     "date": "2026-12-05",
     "theme": "geo",
@@ -867,6 +866,27 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-12-09-broadcom-resultats",
+    "date": "2026-12-09",
+    "theme": "fin",
+    "region": "Amériques",
+    "place": "Palo Alto, États-Unis",
+    "title": "Broadcom publie ses résultats annuels",
+    "why": "Broadcom, deuxième fabricant de puces pour l’intelligence artificielle derrière Nvidia, publie ses résultats du quatrième trimestre et de l’exercice 2026 après la clôture de Wall Street, a annoncé le groupe [1]. Après le départ de Jensen Huang de Nvidia, ses commandes de puces sur mesure pour Google ou Meta diront si la demande liée à l’IA tient.",
+    "sources": [
+      {
+        "short": "Broadcom",
+        "name": "Broadcom, « Broadcom Inc. to Announce Fourth Quarter and Fiscal Year 2026 Financial Results on Wednesday, December 9, 2026 » (9 novembre 2026)",
+        "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announce-fourth-quarter-and-fiscal-year-2026"
+      },
+      {
+        "short": "Finviz",
+        "name": "Finviz, « Broadcom Inc. to Announce Fourth Quarter and Fiscal Year 2026 Financial Results on Wednesday, December 9, 2026 »",
+        "url": "https://finviz.com/news/418980/broadcom-inc-to-announce-fourth-quarter-and-fiscal-year-2026-financial-results-on-wednesday-december-9-2026"
+      }
+    ]
+  },
+  {
     "id": "2026-12-10-turquie-banque-centrale-taux",
     "date": "2026-12-10",
     "theme": "eco",
@@ -905,6 +925,27 @@ window.GEOCO.agenda = [
         "short": "BLS",
         "name": "Bureau of Labor Statistics (bls.gov), « Release calendar, December 2026 »",
         "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
+      }
+    ]
+  },
+  {
+    "id": "2026-12-10-suisse-bns-taux",
+    "date": "2026-12-10",
+    "theme": "eco",
+    "region": "Europe",
+    "place": "Zurich, Suisse",
+    "title": "Suisse : dernière décision de taux de l’année de la BNS",
+    "why": "La Banque nationale suisse rend son évaluation de politique monétaire le 10 décembre, selon son calendrier [1]. Son taux est à zéro et le franc suisse, valeur refuge, attire les capitaux quand le monde s’inquiète : un franc trop fort pénalise les exportateurs suisses (montres, machines, médicaments).",
+    "sources": [
+      {
+        "short": "BNS",
+        "name": "Banque nationale suisse, « Time schedule and past appearances by Governing Board members »",
+        "url": "https://www.snb.ch/en/ifor/media/id/media_events"
+      },
+      {
+        "short": "FinanceCalendar",
+        "name": "FinanceCalendar, « SNB Rate Decision December 2026 »",
+        "url": "https://www.financecalendar.com/event/snb-rate-decision-december-2026/"
       }
     ]
   },
@@ -948,6 +989,22 @@ window.GEOCO.agenda = [
         "short": "G20 Research Group",
         "name": "G20 Research Group, université de Toronto",
         "url": "https://g20.utoronto.ca/summits/2026miami.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-12-15-chili-banque-centrale-taux",
+    "date": "2026-12-15",
+    "theme": "eco",
+    "region": "Amériques",
+    "place": "Santiago, Chili",
+    "title": "Chili : dernière réunion de l’année de la banque centrale",
+    "why": "La Banque centrale du Chili a fixé au mardi 15 décembre sa prochaine réunion de politique monétaire, avec un communiqué à partir de 18 heures [1]. Le premier producteur mondial de cuivre voit le prix du métal reculer depuis cinq semaines : une décision qui pèse sur le peso chilien et le crédit.",
+    "sources": [
+      {
+        "short": "Banque centrale du Chili",
+        "name": "Banco Central de Chile, « Comunicado RPM octubre 2026 »",
+        "url": "https://www.bcentral.cl/documents/33528/8728153/Comunicado+RPM+octubre+2026.pdf/c04e2f7b-1a4e-4dc5-881c-84c8e4610d17?t=1793133291280"
       }
     ]
   },

@@ -7,7 +7,7 @@
 
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.indicators = {
-  "updated": "2026-11-13",
+  "updated": "2026-11-16",
   "latest": [
     {
       "group": "Économie",
@@ -510,6 +510,31 @@ window.GEOCO.indicators = {
           "short": "The Tribune (MoSPI)",
           "name": "The Tribune, « Retail inflation hits 24-month high of 6.09% in October » (MoSPI, 12 nov. 2026)",
           "url": "https://www.tribuneindia.com/news/6inflation/retail-inflation-hits-24-month-high-of-6-09-in-october-crosses-rbis-upper-tolerance-limit-ahead-of-december-mpc-meet"
+        },
+        {
+          "short": "ABS",
+          "name": "Australian Bureau of Statistics, « CPI rose 4.3% in the year to September 2026 » (28 oct. 2026)",
+          "url": "https://www.abs.gov.au/media-centre/media-releases/cpi-rose-43-year-september-2026"
+        },
+        {
+          "short": "CBS",
+          "name": "Statistics Netherlands (CBS), « Inflation rises to 3.7 percent in October » (nov. 2026)",
+          "url": "https://www.cbs.nl/en-gb/news/2026/46/inflation-rises-to-3-7-percent-in-october"
+        },
+        {
+          "short": "SCB",
+          "name": "Statistics Sweden (SCB), « Snabb-KPI oktober 2026 » (5 nov. 2026)",
+          "url": "https://www.scb.se/hitta-statistik/statistik-efter-amne/priser-och-ekonomiska-tendenser/priser/konsumentprisindex-kpi/pong/statistiknyhet/snabb-kpi-oktober-2026/"
+        },
+        {
+          "short": "GUS (Parkiet)",
+          "name": "Parkiet, « Inflacja miała pójść w górę, a spadła. Niespodzianka od GUS » (estimation rapide du GUS pour octobre 2026)",
+          "url": "https://www.parkiet.com/gospodarka-krajowa/art43268261-inflacja-miala-pojsc-w-gore-a-spadla-niespodzianka-od-gus"
+        },
+        {
+          "short": "INE (simula.pt)",
+          "name": "simula.pt, « Inflação outubro 2026 : estimativa rápida » (INE, 30 oct. 2026)",
+          "url": "https://simula.pt/noticias/inflacao-outubro-2026-estimativa-rapida/"
         }
       ],
       "values": {
@@ -994,9 +1019,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "528": {
-          "v": 3.4,
-          "d": "sept. 2026",
-          "s": 1
+          "v": 3.7,
+          "d": "oct. 2026",
+          "s": 44
         },
         "533": {
           "v": 2.7,
@@ -1069,14 +1094,14 @@ window.GEOCO.indicators = {
           "s": 38
         },
         "616": {
-          "v": 4,
-          "d": "sept. 2026",
-          "s": 1
+          "v": 3.5,
+          "d": "oct. 2026 (estimation rapide)",
+          "s": 46
         },
         "620": {
-          "v": 3.6,
-          "d": "sept. 2026",
-          "s": 1
+          "v": 3.8,
+          "d": "oct. 2026 (estimation rapide)",
+          "s": 47
         },
         "624": {
           "v": -1,
@@ -1209,9 +1234,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "752": {
-          "v": 0.3,
-          "d": "août 2026",
-          "s": 1
+          "v": 0.9,
+          "d": "oct. 2026 (estimation rapide)",
+          "s": 45
         },
         "756": {
           "v": 1,
@@ -1364,9 +1389,9 @@ window.GEOCO.indicators = {
           "s": 41
         },
         "036": {
-          "v": 4,
-          "d": "août 2026",
-          "s": 1
+          "v": 4.3,
+          "d": "sept. 2026",
+          "s": 43
         },
         "040": {
           "v": 3.6,
