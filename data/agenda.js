@@ -30,58 +30,6 @@ window.GEOCO.agenda = [
     ]
   },
   {
-    "id": "2026-11-16-bruxelles-unicredit-commerzbank",
-    "date": "2026-11-16",
-    "theme": "fin",
-    "region": "Europe",
-    "place": "Bruxelles",
-    "title": "Bruxelles tranche sur UniCredit et Commerzbank",
-    "why": "La Commission européenne a fixé au 16 novembre sa date limite pour décider si UniCredit peut prendre le contrôle d'une part élevée de Commerzbank [1][2]. Une fois les autorisations obtenues, UniCredit disposerait de près de 50 % des droits de vote, ce qui change l'équilibre de la banque allemande [3].",
-    "sources": [
-      {
-        "short": "Finanztrends",
-        "name": "Finanztrends, « UniCredit Aktie : Kommission prüft Commerzbank-Übernahme »",
-        "url": "https://www.finanztrends.de/news/unicredit-aktie-kommission-prueft-commerzbank-uebernahme/"
-      },
-      {
-        "short": "Börse Global",
-        "name": "Börse Global, « UniCredit Aktie : Beantragt Freigabe für Commerzbank-Übernahme »",
-        "url": "https://www.boerse-global.de/unicredit-aktie-beantragt-freigabe-fuer-commerzbank-uebernahme/833385"
-      },
-      {
-        "short": "Investing.com",
-        "name": "Investing.com, « UniCredit takeover offer for Commerzbank receives 17.6 % acceptance »",
-        "url": "https://www.investing.com/news/company-news/unicredit-takeover-offer-for-commerzbank-receives-176-acceptance-93CH-4780897"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-16-japon-pib-troisieme-trimestre",
-    "date": "2026-11-16",
-    "theme": "eco",
-    "region": "Asie",
-    "place": "Tokyo",
-    "title": "Japon : première estimation de la croissance du troisième trimestre",
-    "why": "Le gouvernement japonais publie le lundi 16 novembre sa première estimation du PIB de juillet à septembre [1][2]. Au deuxième trimestre, la croissance a été révisée en hausse à 1,4 % en rythme annuel [3] : le chiffre dira si l'économie japonaise garde ce rythme.",
-    "sources": [
-      {
-        "short": "Bureau du Cabinet du Japon (ESRI)",
-        "name": "Bureau du Cabinet du Japon, ESRI, « Release Schedule – Quarterly Estimates of GDP »",
-        "url": "https://www.esri.cao.go.jp/en/sna/kouhyou/kouhyou_top.html"
-      },
-      {
-        "short": "Bureau du Cabinet du Japon (ESRI)",
-        "name": "Bureau du Cabinet du Japon, ESRI, note sur les estimations trimestrielles du PIB (calendrier des estimations de juillet-septembre 2026)",
-        "url": "https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/2026/qe262_2/pdf/note_e.pdf"
-      },
-      {
-        "short": "Adnkronos",
-        "name": "Adnkronos, « Japan's April-June GDP Growth Revised Up to 1.4 Pct » (8 sept. 2026)",
-        "url": "https://english.adnkronos.com/2026/09/08/japans-april-june-gdp-growth-revised-up-to-1-4-pct/"
-      }
-    ]
-  },
-  {
     "id": "2026-11-17-budget-2027-vote",
     "date": "2026-11-17",
     "theme": "eco",

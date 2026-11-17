@@ -605,6 +605,154 @@ window.GEOCO.news = [
     ]
   },
   {
+    "id": "2026-11-16-france-crise-sociale-rassemblements-interdits-lycees-geffray-nantes",
+    "date": "2026-11-16",
+    "region": "Europe",
+    "theme": "geo",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          2.35,
+          48.86
+        ],
+        "name": "Paris, France",
+        "label": "France"
+      },
+      {
+        "coords": [
+          -1.55,
+          47.22
+        ],
+        "name": "Nantes, France",
+        "label": "Nantes"
+      }
+    ],
+    "title": "Crise sociale : Paris interdit les rassemblements devant 10 lycées et 5 universités toute la semaine, le ministre de l'Éducation hué à Nantes",
+    "summary": "À la veille de la grève du 17 novembre, le préfet de police de Paris interdit jusqu'à vendredi les rassemblements non déclarés à moins de 100 mètres de dix lycées et cinq sites universitaires. L'UNEF saisit la justice. À Nantes, Édouard Geffray a été hué au lycée Nelson-Mandela, incendié le 1er octobre pendant un blocus [1][2][5].",
+    "points": [
+      "L'arrêté, signé le 15 novembre par Patrice Faure, préfet de police de Paris, interdit les rassemblements et cortèges non déclarés dans un rayon de 100 mètres autour de dix lycées et de cinq sites universitaires parisiens, du lundi 16 au vendredi 20 novembre inclus [1][3]. Des établissements de la petite couronne sont aussi concernés [13].",
+      "La préfecture justifie la mesure par le fait qu'« un nombre minoritaire d'élèves » empêche tous les autres de suivre les cours, et veut éviter de « nombreux débordements et blocages » ; le ministère demande aussi aux préfets de placer des policiers devant les lycées [3][4].",
+      "Le syndicat étudiant UNEF dénonce une volonté de « verbaliser à gogo » et de « mater le mouvement » : selon lui, le texte ne dit ni ce qu'est un rassemblement, ni à partir de combien de personnes. Il y voit une « atteinte manifeste » aux libertés d'aller et venir et de réunion et a lancé un référé devant le tribunal administratif [2][3].",
+      "Lundi matin, 20 % des établissements universitaires voyaient leur fonctionnement perturbé, selon l'entourage de Philippe Baptiste, ministre de l'Enseignement supérieur [4]. Le 3 novembre, le ministère en comptait 51 sur 184, un peu moins d'un tiers [8].",
+      "À Nantes, le ministre de l'Éducation nationale Édouard Geffray a été hué par des lycéens pour la réouverture partielle du lycée Nelson-Mandela, et les CRS sont intervenus [5][12]. « La République, ce n'est pas l'impunité », a-t-il déclaré sur place [14].",
+      "Le 1er octobre, l'incendie avait ravagé le hall, touché la cantine, sept salles de classe et la toiture de l'internat ; la Région a débloqué 850 000 euros pour rouvrir une partie du lycée, sur au moins 4 millions de travaux [6]. Deux lycéens de 16 ans ont été mis en examen et placés sous contrôle judiciaire ; le parquet fait appel [7].",
+      "Samedi 14 novembre, pour le cinquième samedi de suite, 106 000 personnes ont manifesté selon le ministère de l'Intérieur, 200 000 selon l'intersyndicale des jeunes [10]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : le gouvernement passe à une réponse d'ordre public, au moment où le mouvement faiblit dans la rue mais pas dans les établissements. Interdire pendant cinq jours tout rassemblement non déclaré autour de quinze sites nommés pose la question de la liberté de manifester, que le tribunal administratif, saisi par l'UNEF, devra trancher [1][2][3].",
+      "La colère dépasse l'école : les manifestants dénoncent le coût de la vie, l'état des services publics, le manque de moyens pour l'enseignement et un projet de loi sur la police, et les syndicats ont jugé insuffisant le coup de pouce au salaire minimum [9].",
+      "Mardi 17 novembre, la jeunesse rejoint la journée de grève de la fonction publique : l'intersyndicale des fonctionnaires, rejointe le 13 novembre par la CFDT, réclame le dégel du point d'indice [9][11]. La semaine dira si les lycées et universités font repartir le mouvement ou si la fermeté le calme.",
+      "Le gouvernement de Sébastien Lecornu doit en même temps faire passer son budget au Sénat : chaque concession salariale coûte, et chaque journée de blocage pèse sur une rentrée universitaire déjà perturbée depuis début novembre [8][11]."
+    ],
+    "forMe": "Si tu es lycéen ou étudiant à Paris, un rassemblement non déclaré devant l'un des établissements visés peut te valoir d'être verbalisé jusqu'à vendredi. Les manifestations déclarées restent possibles : pour mardi 17, vérifie les parcours annoncés et les perturbations dans les transports et les écoles.",
+    "next": [
+      {
+        "when": "17 novembre",
+        "what": "Journée de grève et de manifestations, dans la fonction publique et chez les jeunes [9][11]."
+      },
+      {
+        "when": "20 novembre",
+        "what": "Fin de l'interdiction des rassemblements autour des lycées et universités parisiens, sauf prolongation [1]."
+      }
+    ],
+    "figures": [
+      {
+        "src": 1,
+        "value": "15",
+        "label": "établissements parisiens visés : 10 lycées et 5 sites universitaires"
+      },
+      {
+        "src": 4,
+        "value": "20 %",
+        "label": "des établissements universitaires perturbés lundi matin"
+      },
+      {
+        "src": 10,
+        "value": "106 000",
+        "label": "manifestants samedi selon l'Intérieur, 200 000 selon les jeunes"
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "role-etat"
+    ],
+    "sources": [
+      {
+        "short": "France 24",
+        "name": "France 24, « Les rassemblements autour de certains lycées et universités interdits à Paris » (15 novembre 2026)",
+        "url": "https://www.france24.com/fr/france/20261115-les-rassemblements-autour-de-certains-lyc%C3%A9es-et-universit%C3%A9s-interdits-%C3%A0-paris"
+      },
+      {
+        "short": "France 3",
+        "name": "France 3 Paris Île-de-France, « \"Verbaliser à gogo\" et \"mater le mouvement\" : l'UNEF veut saisir la justice après l'interdiction des rassemblements aux abords de plusieurs lycées et universités » (16 novembre 2026)",
+        "url": "https://france3-regions.franceinfo.fr/paris-ile-de-france/paris/verbaliser-a-gogo-et-mater-le-mouvement-l-unef-veut-saisir-la-justice-apres-l-interdiction-des-rassemblements-aux-abords-de-plusieurs-lycees-et-universites-3450231.html"
+      },
+      {
+        "short": "Le Club des Juristes",
+        "name": "Le Club des Juristes, « Préfecture de police de Paris : interdiction de tout rassemblement ou manifestation non déclaré autour de certains lycées et universités » (novembre 2026)",
+        "url": "https://www.leclubdesjuristes.com/en-bref/arrete-de-la-prefecture-de-police-de-paris-interdiction-de-tout-rassemblement-ou-manifestation-non-declaree-autour-de-certains-lycees-et-universites-18416/"
+      },
+      {
+        "short": "Ouest-France",
+        "name": "Ouest-France, « DIRECT. Crise sociale : 20 % d'établissements universitaires perturbés, selon le ministère de l'Enseignement supérieur » (16 novembre 2026)",
+        "url": "https://www.ouest-france.fr/societe/manifestation/direct-crise-sociale-le-ministre-de-leducation-attendu-a-nantes-a-la-veille-dune-nouvelle-journee-de-mobilisation-487f544d-1657-44ee-9027-17c14b50b108"
+      },
+      {
+        "short": "AFP (Orange)",
+        "name": "AFP via Orange Actualités, « Reprise des cours au lycée de Nantes incendié, le ministre hué » (16 novembre 2026)",
+        "url": "https://actu.orange.fr/france/reprise-des-cours-au-lycee-de-nantes-incendie-le-ministre-hue-CNT000002tKjd4.html"
+      },
+      {
+        "short": "CNews",
+        "name": "CNews, « Nantes : le lycée Nelson-Mandela, incendié lors d'un blocus, rouvre ses portes ce lundi » (16 novembre 2026)",
+        "url": "https://www.cnews.fr/france/2026-11-16/nantes-le-lycee-nelson-mandela-incendie-lors-dun-blocus-rouvre-ses-portes-ce"
+      },
+      {
+        "short": "Ouest-France",
+        "name": "Ouest-France, « Incendie du lycée Nelson-Mandela à Nantes : les ados mis en examen placés sous contrôle judiciaire, le parquet fait appel » (novembre 2026)",
+        "url": "https://www.ouest-france.fr/societe/faits-divers/incendie-du-lycee-nelson-mandela-a-nantes-les-ados-mis-en-examen-places-sous-controle-judiciaire-le-parquet-fait-appel-c9223852-d95d-11f1-b736-5b9907ef0b5a"
+      },
+      {
+        "short": "franceinfo (Shango)",
+        "name": "franceinfo, repris par Shango, « Mobilisation lycéenne et étudiante : 51 établissements d'enseignement supérieur sur 184 ont été perturbés, selon le ministère » (3 novembre 2026)",
+        "url": "https://www.shango.media/france-info-mobilisation-lyceenne-et-etudiante-51-etablissements-denseignement-superieur-sur-184-ont-ete-perturbes-selon-le-ministere-12013356"
+      },
+      {
+        "short": "Euronews",
+        "name": "Euronews, « France sees fifth consecutive Saturday of nationwide protests » (14 novembre 2026)",
+        "url": "https://www.euronews.com/2026/11/14/france-sees-fifth-consecutive-saturday-of-nationwide-protests"
+      },
+      {
+        "short": "Ouest-France",
+        "name": "Ouest-France, « Colère sociale : entre 106 000 et 200 000 manifestants, une mobilisation en baisse » (14 novembre 2026)",
+        "url": "https://ouest-france.fr/societe/manifestation/direct-manifestations-du-14-novembre-106-000-personnes-ont-defile-en-france-selon-le-ministere-de-linterieur-c5d38d0c-611f-469f-84f8-359c1e72ed9f"
+      },
+      {
+        "short": "France 24",
+        "name": "France 24, « Fonction publique : l'intersyndicale sort remontée de Matignon, la CFDT rejoint l'appel à la grève » (13 novembre 2026)",
+        "url": "https://www.france24.com/fr/france/20261113-fonction-publique-lecornu-ouvre-mois-discussions-cinq-chantiers-bas-salaires"
+      },
+      {
+        "short": "Ouest-France",
+        "name": "Ouest-France, « \"On ne lâche pas la lutte\" : le ministre de l'Éducation chahuté par des lycéens pour la réouverture de Mandela à Nantes » (16 novembre 2026)",
+        "url": "https://www.ouest-france.fr/education/on-ne-lache-pas-la-lutte-le-ministre-de-leducation-chahute-par-des-lyceens-pour-la-reouverture-de-mandela-a-nantes-a770e4dc-e19c-11f1-b029-43a761592972"
+      },
+      {
+        "short": "franceinfo",
+        "name": "franceinfo, « Manifestations interdites devant plusieurs lycées et universités d'Île-de-France » (16 novembre 2026)",
+        "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/manifestations-interdites-devant-plusieurs-lycees-et-universites-d-ile-de-france_8284364.html"
+      },
+      {
+        "short": "franceinfo",
+        "name": "franceinfo, « DIRECT. Crise sociale : \"La République, ce n'est pas l'impunité\", selon Edouard Geffray, en visite au lycée Nelson-Mandela de Nantes » (16 novembre 2026)",
+        "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/direct-mouvement-lyceen-le-lycee-nelson-mandela-rouvre-ses-portes-a-nantes-six-semaines-apres-l-incendie-dont-il-a-ete-victime_8284130.html"
+      }
+    ]
+  },
+  {
     "id": "2026-11-16-etats-unis-controle-aerien-50-milliards-trump-congres",
     "date": "2026-11-16",
     "region": "Amériques",
@@ -2623,6 +2771,156 @@ window.GEOCO.news = [
     ]
   },
   {
+    "id": "2026-11-16-fin-italie-meta-amende-805-millions-photos-android",
+    "date": "2026-11-16",
+    "region": "Europe",
+    "theme": "fin",
+    "zones": [
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "coords": [
+          12.5,
+          41.9
+        ],
+        "name": "Rome, Italie",
+        "label": "Italie"
+      }
+    ],
+    "title": "Italie : Meta écope de 805 millions d'euros d'amende pour avoir fouillé dans les photos des utilisateurs Android de Facebook",
+    "summary": "Le gendarme italien de la vie privée, le Garante, a infligé samedi 14 novembre une amende de 805 millions d'euros, environ 887 millions de dollars, à Meta. L'application Facebook sur Android accédait aux photos, aux vidéos et à leurs métadonnées sans consentement spécifique. Meta a 60 jours pour changer de pratique et annonce un recours [1][3][4].",
+    "points": [
+      "Selon le Garante, l'application Facebook pour Android accédait aux photos, aux vidéos et aux métadonnées stockées dans les téléphones sans consentement spécifique ni information suffisante [2][3].",
+      "En cause, la fonction « Obtenir des suggestions depuis la galerie », lancée en 2023 et activée par défaut : une seule autorisation donnait accès à toute la galerie pour plusieurs usages différents [5].",
+      "Le régulateur estime à environ 20 millions le nombre d'utilisateurs Android touchés en Italie [3][4].",
+      "L'amende représente environ 0,47 % du chiffre d'affaires mondial de Meta ; le Garante a retenu contre le groupe son « manque de coopération » et une précédente sanction, en 2019 [4][5].",
+      "Le Garante juge que Meta a violé l'article 122 du code italien de la vie privée, qui transpose la directive européenne ePrivacy ; Meta a 60 jours pour désactiver la fonction par défaut et demander un accord séparé [3][4].",
+      "Meta dit être « en profond désaccord » et fera appel : selon le groupe, l'utilisateur doit d'abord donner l'autorisation sur son téléphone pour que la fonction marche [3][4].",
+      "L'enquête n'a pas porté sur l'utilisation de ces images pour entraîner l'intelligence artificielle, ce que Meta dément [4]. L'affaire faisait partie lundi des titres d'Euronews [10]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : pour Meta, 805 millions d'euros pèsent peu à l'échelle de son chiffre d'affaires (0,47 %), mais c'est l'une des plus lourdes amendes jamais infligées en Europe pour la vie privée, juste derrière les 1,2 milliard d'euros de 2023 [4][7].",
+      "Le vrai enjeu est ailleurs : l'obligation de demander un accord séparé, fonction par fonction, touche le cœur du modèle de Meta, qui vit de la publicité et des données que ses applications collectent [3][4].",
+      "L'affaire touche une question sensible à l'heure de l'IA : ce que les géants du numérique font des contenus personnels de leurs utilisateurs. Le Garante n'a pas enquêté sur un éventuel entraînement de modèles d'IA avec ces images, et Meta dément toute utilisation de ce type [4]."
+    ],
+    "forMe": "Si tu as Facebook sur un téléphone Android, tu peux vérifier ce que l'application voit : Paramètres, Applications, Facebook, Autorisations, Photos et vidéos. La décision italienne ne s'applique qu'en Italie, mais les mêmes règles européennes valent en France.",
+    "next": [
+      {
+        "when": "Mi-janvier 2027",
+        "what": "Fin du délai de 60 jours laissé à Meta pour désactiver la fonction par défaut en Italie [3]."
+      }
+    ],
+    "figures": [
+      {
+        "src": 1,
+        "value": "805 M€",
+        "label": "d'amende infligée à Meta par le Garante italien"
+      },
+      {
+        "src": 3,
+        "value": "20 millions",
+        "label": "d'utilisateurs Android concernés en Italie, selon le régulateur"
+      },
+      {
+        "src": 4,
+        "value": "0,47 %",
+        "label": "du chiffre d'affaires mondial de Meta"
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi une amende record fait à peine bouger l'action",
+        "text": "En Bourse, une amende se lit d'abord comme une dépense ponctuelle, rapportée à la taille de l'entreprise : 805 millions d'euros, c'est environ 0,47 % du chiffre d'affaires annuel de Meta [4]. Les investisseurs regardent surtout deux autres choses. D'abord le plafond : pour le règlement européen sur les données (RGPD), une sanction peut aller jusqu'à 4 % du chiffre d'affaires mondial [8], ce qui fixe le risque maximal. Ensuite, et surtout, ce que la décision oblige à changer : si Meta doit demander un accord séparé pour chaque usage, une partie des utilisateurs dira non, et l'entreprise récoltera moins de données pour cibler ses publicités. C'est cet effet durable sur les revenus, plus que le chèque, qui peut peser sur l'action. Enfin, les recours prennent des années : Amazon n'a perdu son appel contre son amende de 2021 qu'en mars 2025 [9]."
+      }
+    },
+    "past": {
+      "title": "Les précédents : les grandes amendes européennes contre la tech",
+      "items": [
+        {
+          "when": "Juin 2019",
+          "what": "Le même Garante italien inflige 1 million d'euros à Facebook dans l'affaire Cambridge Analytica : une application avait récupéré les données de 214 077 Italiens qui n'avaient rien accepté [6].",
+          "lesson": "Cette sanction de 2019 a pesé dans le calcul de l'amende de 2026, 805 fois plus lourde [4][6]."
+        },
+        {
+          "when": "Juillet 2021",
+          "what": "Au Luxembourg, la CNPD inflige 746 millions d'euros à Amazon pour sa publicité ciblée, alors un record pour le RGPD [8].",
+          "lesson": "Amazon a fait appel ; le tribunal administratif du Luxembourg a confirmé l'amende le 18 mars 2025, près de quatre ans plus tard, avec une astreinte de 746 000 euros par jour en cas de retard [9]."
+        },
+        {
+          "when": "Mai 2023",
+          "what": "L'autorité irlandaise inflige à Meta une amende record de 1,2 milliard d'euros pour avoir transféré des données d'Européens vers les États-Unis, et lui ordonne d'arrêter ces transferts [7].",
+          "lesson": "Meta dénonce une décision « erronée » et dit avoir été « visé » ; le record d'Amazon de 2021 est battu [7]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "Meta Platforms",
+          "ticker": "META",
+          "why": "Visé par l'amende de 805 millions d'euros, environ 0,47 % de son chiffre d'affaires mondial ; le groupe annonce un recours [4]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Bloomberg",
+        "name": "Bloomberg, « Italy Fines Meta €805 Million Over Access to Users' Photos » (14 novembre 2026)",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-14/italy-fines-meta-805-million-over-access-to-users-photos"
+      },
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « Italy fines Meta $880m over photo privacy » (14 novembre 2026)",
+        "url": "https://www.aljazeera.com/news/2026/11/14/italy-fines-meta-880m-over-photo-privacy"
+      },
+      {
+        "short": "AP (ABC News)",
+        "name": "AP via ABC News, « Meta fined $887M in Italy over Android gallery photos, videos on Facebook » (14 novembre 2026)",
+        "url": "https://abcnews.com/Technology/wireStory/meta-fined-887-million-italy-android-gallery-photos-138145127"
+      },
+      {
+        "short": "The Hacker News",
+        "name": "The Hacker News, « Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent » (novembre 2026)",
+        "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html"
+      },
+      {
+        "short": "KultureGeek",
+        "name": "KultureGeek, « Facebook : Meta écope de 805 millions d'euros d'amende en Italie pour l'accès aux photos » (novembre 2026)",
+        "url": "https://kulturegeek.fr/news-364053/facebook-meta-amende-italie-805-millions-photos-android"
+      },
+      {
+        "short": "Garante",
+        "name": "Garante per la protezione dei dati personali, « Cambridge Analytica: Facebook fined 1 million Euro by the Italian DPA » (28 juin 2019)",
+        "url": "https://garanteprivacy.it/garante/doc.jsp?ID=9121506"
+      },
+      {
+        "short": "Computing",
+        "name": "Computing, « Meta fined more than €1 billion for GDPR breach » (mai 2023)",
+        "url": "https://computing.co.uk/news/4116071/meta-fined-eur-billion-gdpr-breach"
+      },
+      {
+        "short": "Jurist",
+        "name": "Jurist, « Amazon fined €746M for breaching EU data protection laws » (août 2021)",
+        "url": "https://www.jurist.org/news/2021/08/amazon-fined-e746m-for-breaching-eu-data-protection-laws"
+      },
+      {
+        "short": "Luxtoday",
+        "name": "Luxtoday, « Court in Luxembourg confirms Amazon's record fine of 746 million euros for GDPR violation » (mars 2025)",
+        "url": "https://luxtoday.lu/en/business-economic-en/court-in-luxembourg-confirms-amazons-record-fine-746-million-euros-for-gdpr-violation"
+      },
+      {
+        "short": "Euronews",
+        "name": "Euronews, « L'info du jour, 16 novembre 2026, mi-journée » (16 novembre 2026)",
+        "url": "https://fr.euronews.com/video/2026/11/16/linfo-du-jour-16-novembre-2026-mi-journee"
+      }
+    ]
+  },
+  {
     "id": "2026-11-16-fin-anthropic-particuliers-semaine-test-ia",
     "date": "2026-11-16",
     "region": "Amériques",
@@ -3166,6 +3464,80 @@ window.GEOCO.news = [
         "short": "Hellas Journal",
         "name": "Hellasjournal, « PM Mitsotakis in weekly review: Economic growth, tax evasion curbs enable greater support » (novembre 2026)",
         "url": "https://hellasjournal.com/2026/11/pm-mitsotakis-in-weekly-review-economic-growth-tax-evasion-curbs-enable-greater-support/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-16-france-maileva-la-poste-cyberattaque-22-millions",
+    "date": "2026-11-16",
+    "level": 2,
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          2.32,
+          48.84
+        ],
+        "name": "Paris, France",
+        "label": "France"
+      }
+    ],
+    "title": "France : une cyberattaque chez Maileva, filiale de La Poste, expose les noms et adresses de 22 millions de personnes",
+    "summary": "La Poste a annoncé samedi 14 novembre que Maileva, sa plateforme d'envoi de courriers pour les entreprises, avait été piratée mi-septembre. Les noms, prénoms et adresses de 22 millions de destinataires ont été volés, et des courriers ont pu être lus. La CNIL a été prévenue et une enquête judiciaire est ouverte [1][2][4].",
+    "points": [
+      "Maileva, filiale de Docaposte, elle-même filiale de La Poste, envoie des lettres pour le compte d'entreprises et d'organismes : ce sont les coordonnées des personnes qui recevaient ces courriers qui ont été dérobées [1][4].",
+      "Parmi les clients figurent des bailleurs sociaux, des laboratoires médicaux et des hôpitaux ; dans les Hauts-de-France, des locataires de logements sociaux pourraient être concernés [3][4].",
+      "Selon franceinfo, « des courriers ont pu être lus », sans que leur nombre soit connu [2].",
+      "Maileva a porté plainte et notifié la CNIL, le gendarme français des données personnelles ; toutes les entreprises clientes touchées ont été informées, selon le groupe [1][4]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : 22 millions de personnes sont touchées, et la fuite frappe une filiale d'un groupe public. Deux mois se sont écoulés entre l'attaque, mi-septembre, et son annonce, le 14 novembre [1][4].",
+      "Le principal risque est l'envoi de faux courriers ou de faux messages reprenant le nom d'un vrai organisme (bailleur, hôpital) pour soutirer de l'argent ou des informations [4]."
+    ],
+    "forMe": "Méfie-toi dans les prochaines semaines d'un courrier, d'un SMS ou d'un e-mail qui te demande de payer ou de donner tes coordonnées bancaires au nom de ton bailleur, d'un laboratoire ou d'un hôpital : en cas de doute, appelle l'organisme au numéro que tu connais.",
+    "figures": [
+      {
+        "src": 1,
+        "value": "22 millions",
+        "label": "de personnes dont le nom et l'adresse ont été volés"
+      },
+      {
+        "src": 1,
+        "value": "Mi-septembre",
+        "label": "date de l'attaque, révélée le 14 novembre"
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "franceinfo",
+        "name": "franceinfo, « Victime d'une cyberattaque, Maileva, une filiale du groupe La Poste, annonce un vol de données touchant 22 millions de personnes » (14 novembre 2026)",
+        "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/victime-d-une-cyberattaque-maileva-une-filiale-du-groupe-la-poste-annonce-un-vol-de-donnees-touchant-22-millions-de-personnes_8282825.html"
+      },
+      {
+        "short": "franceinfo",
+        "name": "franceinfo, « \"Des courriers ont pu être lus\" : ce que l'on sait de la cyberattaque contre Maileva, filiale de La Poste » (15 novembre 2026)",
+        "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/des-courriers-ont-pu-etre-lus-ce-que-l-on-sait-de-la-cyberattaque-contre-maileva-filiale-de-la-poste-qui-a-conduit-au-vol-de-donnees-de-22-millions-de-personnes_8283266.html"
+      },
+      {
+        "short": "France 3",
+        "name": "France 3 Hauts-de-France, « \"On est face à une situation sensible\" : cyberattaque chez Maileva, une entité de La Poste, des locataires des Hauts-de-France potentiellement concernés » (novembre 2026)",
+        "url": "https://france3-regions.franceinfo.fr/hauts-de-france/on-est-face-a-une-situation-sensible-cyberattaque-chez-maileva-une-entite-de-la-poste-des-locataires-des-hauts-de-france-potentiellement-concernes-3450015.html"
+      },
+      {
+        "short": "CNews",
+        "name": "CNews, « Risque de fraudes, 22 millions de personnes volées... Ce que l'on sait de la cyberattaque visant une filiale de La Poste » (14 novembre 2026)",
+        "url": "https://www.cnews.fr/france/2026-11-14/cyberattaque-la-plate-forme-maileva-appartenant-au-groupe-la-poste-annonce-un-vol"
+      },
+      {
+        "short": "L'Express (Orange)",
+        "name": "L'Express via Orange Actualités, « Maileva, filiale de La Poste, victime d'une cyberattaque : 22 millions de personnes concernées » (14 novembre 2026)",
+        "url": "https://actu.orange.fr/france/maileva-filiale-de-la-poste-victime-d-une-cyberattaque-22-millions-de-personnes-concernees-l-express-via-6medias-CNT000002tJ3IW.html"
       }
     ]
   },
