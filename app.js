@@ -3838,6 +3838,9 @@ function statGrid(figures, sources, theme = "geo") {
     document.querySelector(".nav-profile") && document.querySelector(".nav-profile").classList.toggle("active", section === "profil");
     // Logo entouré sur l'accueil (demande de l'auteur, 5 nov. 2026 : « bien montrer qu'on est dessus »).
     document.querySelector(".brand") && document.querySelector(".brand").classList.toggle("active", !section);
+    // Sur l'accueil, le logo sans le double filet du dessous (demande de l'auteur, 17 nov. 2026) ; ailleurs et dans les PDF, on le garde.
+    const brandLogo = document.querySelector(".brand-logo");
+    if (brandLogo) brandLogo.src = section ? "assets/logo-sombre.png" : "assets/logo-sombre-accueil.png";
     timeTrack(section, param);
     groupCites(app);
     watchReveals();
