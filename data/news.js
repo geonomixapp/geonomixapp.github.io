@@ -2497,6 +2497,601 @@ window.GEOCO.news = [
     ]
   },
   {
+    "id": "2026-11-17-fin-australie-rba-compte-rendu-hausse-taux-4-85",
+    "date": "2026-11-17",
+    "region": "Asie",
+    "theme": "fin",
+    "zones": [
+      "Océanie"
+    ],
+    "geo": [
+      {
+        "coords": [
+          151.21,
+          -33.87
+        ],
+        "name": "Sydney, Australie",
+        "label": "Australie"
+      }
+    ],
+    "title": "Australie : la banque centrale a monté ses taux à 4,85 %, un record depuis 2008, mais un tiers de ses membres craignait une rechute brutale de l'économie",
+    "summary": "Le compte rendu de la Banque de réserve d'Australie (RBA), publié mardi 17 novembre, détaille la hausse du 3 novembre : taux directeur porté à 4,85 %, votée à six contre trois. Les opposants redoutaient un ralentissement plus sévère, avec la chute de l'immobilier. Le dollar australien est à son plus bas depuis dix mois [1][3][5].",
+    "points": [
+      "Lors de la réunion des 2 et 3 novembre, six des neuf membres du conseil ont voté une hausse d'un quart de point, à 4,85 % ; trois voulaient garder le taux à 4,60 % [1].",
+      "C'est la cinquième hausse de l'année et le plus haut niveau depuis 2008 ; la décision, prise le jour de la Melbourne Cup, porte les taux à un sommet de 18 ans [8][7].",
+      "Pour la majorité, le taux n'était « pas clairement suffisant » face à une inflation persistante : laisser une politique trop peu restrictive était jugé plus risqué que d'aller trop loin [3][2]. La RBA prévoit une inflation au-dessus de 3 % jusqu'à fin 2027 [9].",
+      "Les trois opposants pointaient la hausse du chômage et la baisse des prix de l'immobilier, qui pouvaient annoncer un ralentissement « nettement plus marqué » ; le compte rendu note que les prix des logements et les nouveaux crédits immobiliers ont fortement reculé [3].",
+      "Le texte ne parle plus de nouvelle hausse [8]. ANZ, CBA et Goldman Sachs estiment désormais que le taux a atteint son sommet [4].",
+      "Avant la publication, le dollar australien avait reculé cinq séances de suite, à moins de 0,6750 dollar américain, son plus bas depuis dix mois ; il glissait vers 0,6730 ensuite, porté surtout par la vigueur du dollar [5][6].",
+      "Mardi en début d'après-midi, l'indice ASX 200 de Sydney perdait 1,2 %, à 8 936 points, tandis que l'action de la Commonwealth Bank (CBA) gagnait 0,2 % [10]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : la RBA a encore serré la vis, mais avec un conseil divisé, ce qui laisse penser que le cycle de hausses touche à sa fin [8][4].",
+      "Le vote à six contre trois est plus serré que prévu. Pour plusieurs commentateurs, il rend beaucoup plus difficile une sixième hausse [8]. La gouverneure, Michele Bullock, juge pourtant que les risques d'inflation restent orientés à la hausse [16].",
+      "La minorité regarde l'immobilier : prix des logements et nouveaux crédits en forte baisse, croissance du crédit aux ménages ralentie. Une hausse de trop pourrait transformer ce coup de frein en chute [3].",
+      "Les chiffres des salaires, mercredi, puis de l'emploi diront si l'économie ralentit assez. La banque CBA voit la RBA en pause, tout en jugeant qu'une hausse reste le risque principal à court terme [15][4]."
+    ],
+    "forMe": "Si tu pars en Australie pour un PVT ou un semestre d'études, un dollar australien au plus bas depuis dix mois face au dollar américain rend ton séjour un peu moins cher. Et la scène montre ce que vivent les emprunteurs à taux variable : chaque hausse de taux de la banque centrale se répercute presque tout de suite sur leurs mensualités.",
+    "next": [
+      {
+        "when": "18 novembre",
+        "what": "Publication de l'indice des salaires du troisième trimestre par l'office australien des statistiques [15]."
+      }
+    ],
+    "figures": [
+      {
+        "src": 1,
+        "value": "6 contre 3",
+        "label": "le vote du conseil de la RBA pour la hausse"
+      },
+      {
+        "src": 8,
+        "value": "4,85 %",
+        "label": "le taux directeur, plus haut depuis 2008"
+      },
+      {
+        "src": 5,
+        "value": "0,6750 $",
+        "label": "le dollar australien, plus bas depuis dix mois"
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux"
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : le compte rendu d'une banque centrale",
+        "text": "Une banque centrale fixe le taux auquel les banques se prêtent de l'argent au jour le jour ; en Australie, c'est le « cash rate » [1]. Quand elle le monte, le crédit coûte plus cher, on emprunte et on dépense moins, ce qui freine les prix. Après chaque réunion, la RBA publie un compte rendu qui raconte le débat : les arguments de chaque camp, sans dire qui a voté quoi [3]. Les marchés le lisent mot à mot. Ici, la majorité jugeait plus dangereux de ne pas assez serrer que de trop serrer [2], mais la disparition de toute mention d'une nouvelle hausse a été lue comme le signal d'une pause [8]. Ce qui fait bouger la monnaie : plus de hausses attendues attirent les capitaux, moins de hausses les éloignent [6]."
+      }
+    },
+    "past": {
+      "title": "Les précédents : quand les taux australiens ont culminé",
+      "items": [
+        {
+          "when": "Mars 2008",
+          "what": "La RBA monte son taux à 7,25 %, à compter du 5 mars, pour ramener l'inflation entre 2 et 3 % [11]. C'est alors un sommet de 12 ans [12].",
+          "lesson": "La crise financière mondiale ouvre ensuite onze années dominées par les baisses de taux [12]."
+        },
+        {
+          "when": "Novembre 2010",
+          "what": "Le taux directeur est porté à 4,75 % le 5 novembre 2010 ; le taux variable moyen des crédits immobiliers atteint 7,81 % [13].",
+          "lesson": "Un an plus tard, en décembre 2011, le taux était déjà redescendu à 4,25 % [13]."
+        },
+        {
+          "when": "Novembre 2023",
+          "what": "Pour sa première décision de gouverneure, Michele Bullock relève le taux de 4,10 % à 4,35 %, la 13e hausse depuis mai 2022 [17], un plus haut depuis 2011 [14].",
+          "lesson": "Le niveau de 4,85 % atteint en 2026 dépasse ce sommet de l'après-Covid [8]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "Dollar australien (AUD/USD)",
+          "ticker": "AUD",
+          "move": "vers 0,6730",
+          "why": "Au plus bas depuis dix mois après cinq séances de baisse, peu ému par le compte rendu [5][6]."
+        },
+        {
+          "name": "Indice ASX 200",
+          "ticker": "XJO",
+          "move": "−1,2 %",
+          "why": "En début d'après-midi mardi, à 8 936 points [10]."
+        },
+        {
+          "name": "Commonwealth Bank of Australia",
+          "ticker": "CBA",
+          "move": "+0,2 %",
+          "why": "Les banques profitent de taux élevés, mais un crédit immobilier en recul les menace ; ses économistes voient la RBA en pause [10][4]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « RBA minutes reveal hawkish bias as inflation risks remain tilted to upside » (17 novembre 2026)",
+        "url": "https://au.investing.com/news/economy-news/rba-minutes-reveal-hawkish-bias-as-inflation-risks-remain-tilted-to-upside-4775176"
+      },
+      {
+        "short": "Bloomberg",
+        "name": "Bloomberg, « RBA Raised Rates as Price Risks Remained to Upside, Minutes Show » (17 novembre 2026)",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-17/rba-raised-rates-as-price-risks-remained-to-upside-minutes-show"
+      },
+      {
+        "short": "InvestingLive",
+        "name": "InvestingLive, « RBA minutes: 6 members saw rates “not clearly sufficient”, 3 warned of sharper downturn » (17 novembre 2026)",
+        "url": "https://investinglive.com/central-banks/rba-minutes-6-members-saw-rates-not-clearly-sufficient-3-warned-of-sharper-downturn/"
+      },
+      {
+        "short": "Capital Brief",
+        "name": "Capital Brief, « ANZ, CBA, Goldman Sachs say cash rate has peaked as RBA minutes detail mixed board view » (17 novembre 2026)",
+        "url": "https://www.capitalbrief.com/briefing/anz-cba-goldman-sachs-say-cash-rate-has-peaked-as-rba-minutes-detail-mixed-board-view-24f6c12f-6a66-4bb4-a625-7b04541b1e3a/"
+      },
+      {
+        "short": "FXStreet",
+        "name": "FXStreet, « Australian Dollar hits ten-month low before RBA minutes and jobs data » (16 novembre 2026)",
+        "url": "https://www.fxstreet.com/news/australian-dollar-hits-ten-month-low-before-rba-minutes-and-jobs-data-202611162232"
+      },
+      {
+        "short": "FXStreet",
+        "name": "FXStreet, « Australian Dollar declines below 0.6750 after RBA minutes, US Retail Sales data in focus » (17 novembre 2026)",
+        "url": "https://www.fxstreet.com/news/australian-dollar-declines-below-06750-after-rba-minutes-us-retail-sales-data-in-focus-202611170126"
+      },
+      {
+        "short": "SBS",
+        "name": "SBS News, « RBA's Cup Day call takes rates to 18-year high; board divided over decision — as it happened » (3 novembre 2026)",
+        "url": "https://www.sbs.com.au/news/live-blog/rba-november-2026-interest-rates-decision-live/f6csn2n1w"
+      },
+      {
+        "short": "Livewire",
+        "name": "Livewire Markets, « RBA hikes interest rate to 4.85%, but a split vote hints the end may be near » (3 novembre 2026)",
+        "url": "https://www.livewiremarkets.com/wires/rba-hikes-interest-rate-to-4-85-but-a-split-vote-hints-the-end-may-be-near"
+      },
+      {
+        "short": "InvestingLive",
+        "name": "InvestingLive, « More: RBA lifts cash rate to 4.85% in split 6-3 vote, sees inflation above 3% until late 2027 » (3 novembre 2026)",
+        "url": "https://investinglive.com/central-banks/more-rba-lifts-cash-rate-to-4-85-in-split-6-3-vote-sees-inflation-above-3-until-late-2027/"
+      },
+      {
+        "short": "Motley Fool",
+        "name": "The Motley Fool Australia, « Buy, hold, sell: Fortescue, Santos, CBA shares » (17 novembre 2026)",
+        "url": "https://www.fool.com.au/2026/11/17/buy-hold-sell-fortescue-santos-cba-shares/?_fcb=1794877085"
+      },
+      {
+        "short": "RBA",
+        "name": "Reserve Bank of Australia, « Statement by Glenn Stevens, Governor: Monetary Policy » (4 mars 2008)",
+        "url": "https://www.rba.gov.au/media-releases/2008/mr-08-03.html"
+      },
+      {
+        "short": "SBS",
+        "name": "SBS News, « Reserve Bank rate changes since the GFC »",
+        "url": "https://www.sbs.com.au/news/article/reserve-bank-rate-changes-since-the-gfc/uv6fatzhx"
+      },
+      {
+        "short": "Finder",
+        "name": "Finder, « Historical home loan interest rates »",
+        "url": "https://www.finder.com.au/historical-home-loan-interest-rates"
+      },
+      {
+        "short": "Money Magazine",
+        "name": "Money Magazine, « Reserve Bank lifts cash rate to 12-year high » (7 novembre 2023)",
+        "url": "https://www.moneymag.com.au/rba-increases-cash-rate-november-2023"
+      },
+      {
+        "short": "ABS",
+        "name": "Australian Bureau of Statistics, « Wage Price Index, Australia » (calendrier de publication)",
+        "url": "https://abs.gov.au/statistics/economy/price-indexes-and-inflation/wage-price-index-australia"
+      },
+      {
+        "short": "InvestingLive",
+        "name": "InvestingLive, « RBA’s Bullock says inflation risks still skewed to upside ahead of 6-3 vote minutes » (16-17 novembre 2026)",
+        "url": "https://investinglive.com/central-banks/rba-s-bullock-says-inflation-risks-still-skewed-to-upside-ahead-of-6-3-vote-minutes/"
+      },
+      {
+        "short": "MarketBeat",
+        "name": "MarketBeat, « Australian central bank lifts benchmark cash rate to 4.35% with 13th hike » (6-7 novembre 2023)",
+        "url": "https://www.marketbeat.com/articles/australian-central-bank-lifts-benchmark-cash-rate-to-435-with-13th-hike-2023-11-06"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-fin-copenhague-flsmidth-directeur-financier-novo-cagrisema",
+    "date": "2026-11-17",
+    "region": "Europe",
+    "theme": "fin",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          12.57,
+          55.68
+        ],
+        "name": "Copenhague, Danemark",
+        "label": "Danemark"
+      }
+    ],
+    "title": "Copenhague : FLSmidth plonge de 8,9 % après le départ express de son directeur financier, Novo Nordisk regagne 2,4 % grâce à son futur médicament anti-obésité",
+    "summary": "Lundi 16 novembre, deux valeurs danoises ont fait l'écart en Europe : FLSmidth, équipementier des mines, a chuté de 8,9 % après le départ immédiat de son directeur financier, sur fond de désaccord stratégique ; Novo Nordisk a gagné 2,4 % grâce à de nouvelles données sur CagriSema. Le Stoxx 600 a cédé 0,28 % [1][3][8].",
+    "points": [
+      "FLSmidth a annoncé le 16 novembre que son directeur financier, Roland M. Andersen, quittait le groupe « avec effet immédiat » ; un directeur par intérim sera nommé plus tard, en attendant un successeur permanent [2][4].",
+      "Selon le site danois Proinvestor, le départ découle d'une décision du conseil d'administration, et l'entreprise affirme qu'il s'agit uniquement d'un désaccord sur la stratégie, sans plus de détails [3].",
+      "Le groupe assure que ce changement ne touche ni ses prévisions pour 2026 ni ses objectifs financiers jusqu'en 2029 [3]. L'action a fini à 517,50 couronnes, en baisse de 50,50 couronnes [16].",
+      "Le choc tranche avec la semaine précédente : FLSmidth avait bondi de 5 % après un chiffre d'affaires trimestriel en hausse de 10 % et des prévisions de rentabilité relevées [6].",
+      "Novo Nordisk a présenté au congrès ObesityWeek, à Washington, une analyse de l'essai REDEFINE 1 : les patients répondant vite au traitement (au moins 5 % de poids perdu en 8 semaines) ont perdu en moyenne 25,4 % de leur poids en 68 semaines, contre 17,8 % pour les autres [7].",
+      "Novo précise qu'il s'agit d'une analyse faite après coup, qui sert à formuler des hypothèses et ne doit pas changer les pratiques médicales ; 79,6 % des patients ont eu des effets digestifs, contre 39,9 % sous placebo [7].",
+      "Le Stoxx 600 a reculé de 0,28 %, à 662,31 points, mettant fin à cinq séances de hausse, sous le poids des valeurs liées à l'IA : ASML a perdu 2,4 % et Siemens Energy 1,8 % [1]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : un départ soudain du directeur financier inquiète toujours les investisseurs, car c'est lui qui garantit la fiabilité des comptes et tient les cordons de la bourse [3][5].",
+      "Le flou entretient la défiance : FLSmidth parle d'un désaccord stratégique mais ne dit pas lequel. Les investisseurs ont vendu d'abord, sans attendre les explications [3][5].",
+      "Pour Novo Nordisk, chaque donnée sur CagriSema compte. Ce traitement attend une décision de l'autorité américaine du médicament (FDA) au quatrième trimestre 2026, après une demande déposée en décembre 2025 [9].",
+      "Le groupe danois en a besoin : depuis fin 2024, plusieurs résultats décevants sur ce médicament et des prévisions revues en baisse ont fait plonger son action [10][12][14]."
+    ],
+    "forMe": "Les « obésité-stocks » comme Novo Nordisk pèsent lourd dans beaucoup de fonds européens et de plans d'épargne : leurs secousses se voient dans ton épargne, même si tu n'as jamais acheté l'action. Et l'affaire FLSmidth rappelle qu'en Bourse le flou coûte cher : sans explication, les investisseurs vendent d'abord.",
+    "next": [
+      {
+        "when": "4e trimestre 2026",
+        "what": "Décision attendue de la FDA sur CagriSema pour la perte de poids aux États-Unis [9]."
+      }
+    ],
+    "figures": [
+      {
+        "src": 1,
+        "value": "−8,9 %",
+        "label": "l'action FLSmidth après le départ de son directeur financier"
+      },
+      {
+        "src": 7,
+        "value": "25,4 %",
+        "label": "de poids perdu en moyenne chez les patients répondant vite à CagriSema"
+      },
+      {
+        "src": 1,
+        "value": "662,31",
+        "label": "points pour le Stoxx 600 (−0,28 %), fin de cinq séances de hausse"
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi le départ d'un directeur financier fait chuter une action",
+        "text": "Le directeur financier signe les comptes, prépare les prévisions et parle chaque trimestre aux investisseurs. Quand il part du jour au lendemain, « avec effet immédiat » et sans successeur, comme chez FLSmidth [2], le marché se demande pourquoi. Un départ préparé, avec un remplaçant déjà nommé, rassure. Un départ brutal fait craindre un problème caché : comptes, prévisions ou stratégie contestée. Ici, l'entreprise invoque seulement un « désaccord sur la stratégie » et maintient ses objectifs [3], mais les investisseurs vendent d'abord, faute d'en savoir plus. On appelle cela une prime d'incertitude : tant que le doute dure, l'action vaut moins [5]."
+      }
+    },
+    "past": {
+      "title": "Les précédents : les montagnes russes de Novo Nordisk en Bourse",
+      "items": [
+        {
+          "when": "20 décembre 2024",
+          "what": "Le premier grand essai de CagriSema montre 22,7 % de perte de poids, en dessous des 25 % promis : l'action chute d'environ 20 % et perd 90 milliards d'euros de valeur en une séance [10].",
+          "lesson": "Sa pire journée depuis 2002 : le marché sanctionne un résultat pourtant record, parce qu'il espérait mieux [11]."
+        },
+        {
+          "when": "29 juillet 2025",
+          "what": "Novo abaisse sa prévision de croissance des ventes 2025 à 8-14 %, contre 13-21 %, et nomme Mike Doustdar directeur général [13] : l'action perd environ 70 milliards de dollars de valeur [12].",
+          "lesson": "La concurrence des copies de ses médicaments aux États-Unis et une croissance du marché plus lente pèsent sur le leader [13]."
+        },
+        {
+          "when": "23 février 2026",
+          "what": "CagriSema échoue à faire au moins aussi bien que le tirzépatide, le traitement rival d'Eli Lilly : l'action Novo chute de 15 % [14].",
+          "lesson": "Face à Lilly, chaque nouvelle donnée de CagriSema est désormais scrutée, ce qui explique le rebond de 2,4 % du 16 novembre [8]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "FLSmidth",
+          "ticker": "FLS",
+          "move": "−8,9 %",
+          "why": "Départ immédiat du directeur financier, sur fond de désaccord stratégique [1][3]."
+        },
+        {
+          "name": "Novo Nordisk",
+          "ticker": "NOVO B",
+          "move": "+2,4 %",
+          "why": "Nouvelles analyses de l'essai de CagriSema présentées à ObesityWeek [8][15]."
+        },
+        {
+          "name": "ASML",
+          "ticker": "ASML",
+          "move": "−2,4 %",
+          "why": "Les valeurs liées à l'IA pèsent sur le Stoxx 600 [1]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "MarketScreener",
+        "name": "MarketScreener, « European stocks ease as tech and miners drag » (16 novembre 2026)",
+        "url": "https://www.marketscreener.com/news/european-stocks-ease-as-tech-and-miners-drag-ce785edfdd89ff2c"
+      },
+      {
+        "short": "Inderes",
+        "name": "Inderes (communiqué FLSmidth), « FLSmidth announces changes to the Executive Leadership Team; Chief Financial Officer Roland M. Andersen leaves FLSmidth » (16 novembre 2026)",
+        "url": "https://www.inderes.fi/en/releases/flsmidth-announces-changes-to-the-executive-leadership-team-chief-financial-officer-roland-m-andersen-leaves-flsmidth"
+      },
+      {
+        "short": "Proinvestor",
+        "name": "Proinvestor, « FLSmidths finansdirektør stopper efter manglende enighed om strategi » (16 novembre 2026)",
+        "url": "https://proinvestor.com/nyheder/flsmidths-finansdirektoer-stopper-efter-manglende-enighed-om-strategi-1794840864753"
+      },
+      {
+        "short": "Ugebrev",
+        "name": "Ugebrev, « FLSmidths finansdirektør Roland M. Andersen fratræder med øjeblikkelig virkning » (16 novembre 2026)",
+        "url": "https://ugebrev.dk/flashnews/flsmidths-finansdirektoer-roland-m-andersen-fratraeder-med-oejeblikkelig-virkning"
+      },
+      {
+        "short": "Proinvestor",
+        "name": "Proinvestor, « FLSmidth i stejlt dyk efter fyring af finansdirektør » (16 novembre 2026)",
+        "url": "https://proinvestor.com/nyheder/flsmidth-i-stejlt-dyk-efter-fyring-af-finansdirektoer-1794842842777"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « FLSmidth shares jump 5% on raised outlook, strong orders » (novembre 2026)",
+        "url": "https://www.investing.com/news/earnings/flsmidth-shares-jump-5-on-raised-outlook-strong-orders-93CH-5018013"
+      },
+      {
+        "short": "PR Newswire",
+        "name": "PR Newswire (Novo Nordisk), « Novo's CagriSema was associated with 25% mean weight loss among early responders in a post hoc analysis of REDEFINE 1 presented at ObesityWeek® 2026 » (15 novembre 2026)",
+        "url": "https://www.prnewswire.com/news-releases/novos-cagrisema-was-associated-with-25-mean-weight-loss-among-early-responders-in-a-post-hoc-analysis-of-redefine-1-presented-at-obesityweek-2026-302939681.html"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « Novo Nordisk Shares Gain 2.4% Following Additional CagriSema Weight-Loss Trial Analyses » (16 novembre 2026)",
+        "url": "https://finance.yahoo.com/healthcare/articles/novo-nordisk-shares-gain-2-110923533.html"
+      },
+      {
+        "short": "Benzinga",
+        "name": "Benzinga, « Novo Nordisk Showcases CagriSema Trial Gains and Wegovy Food Noise Reductions Ahead of FDA Decision » (novembre 2026)",
+        "url": "https://www.benzinga.com/news/health-care/26/11/63299465/novo-nordisk-showcases-cagrisema-trial-gains-and-wegovy-food-noise-reductions-ahead-of-fda-decision"
+      },
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Novo Nordisk shares plunge on the back of disappointing trial results » (23 décembre 2024)",
+        "url": "https://www.euronews.com/business/2024/12/23/novo-nordisk-shares-plunge-on-the-back-of-disappointing-trial-results"
+      },
+      {
+        "short": "Benzinga",
+        "name": "Benzinga, « Weight-Loss Market Experts Scoop Up Novo Nordisk Stock After Worst Drop Since 2002 Following Drug Trial Miss » (décembre 2024)",
+        "url": "https://benzinga.com/z/42623343"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « Wegovy maker Novo's profit warning triggers $70 billion share rout » (29 juillet 2025)",
+        "url": "https://finance.yahoo.com/news/wegovy-maker-novos-profit-warning-115626079.html"
+      },
+      {
+        "short": "BioPharma Dive",
+        "name": "BioPharma Dive, « Novo cuts guidance, names new CEO » (29 juillet 2025)",
+        "url": "https://www.biopharmadive.com/news/novo-cuts-guidance-new-ceo-obesity-wegovy/756136/"
+      },
+      {
+        "short": "Invezz",
+        "name": "Invezz, « Novo stock drops 15% as obesity drug falls short in key trial » (23 février 2026)",
+        "url": "https://invezz.com/news/2026/02/23/novo-stock-drops-15-as-obesity-drug-falls-short-in-key-trial/"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Novo Nordisk stock rises on CagriSema weight loss data » (16 novembre 2026)",
+        "url": "https://www.investing.com/news/stock-market-news/novo-nordisk-stock-rises-on-cagrisema-weight-loss-data-93CH-5028642"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « FLSmidth & Co. A/S (FLS.CO) Stock Price » (cours du 16 novembre 2026)",
+        "url": "https://finance.yahoo.com/quote/FLS.CO/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-fin-baidu-resultats-plus-bas-cinq-ans-hong-kong",
+    "date": "2026-11-17",
+    "region": "Asie",
+    "theme": "fin",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "coords": [
+          116.4,
+          39.9
+        ],
+        "name": "Pékin, Chine",
+        "label": "Chine"
+      },
+      {
+        "coords": [
+          114.17,
+          22.28
+        ],
+        "name": "Hong Kong, Chine",
+        "label": "Chine"
+      }
+    ],
+    "title": "Baidu, le « Google chinois », tombe à son plus bas depuis plus de cinq ans à Hong Kong : sa publicité s'effondre de 22 %, malgré l'envolée de son cloud pour l'IA",
+    "summary": "Mardi 17 novembre, l'action Baidu a perdu jusqu'à près de 7 % à Hong Kong et touché 70,25 dollars de Hong Kong, son plus bas depuis plus de cinq ans. Au troisième trimestre, ses revenus publicitaires ont chuté de 22 %, à 11,9 milliards de yuans, effaçant le bond de 94 % du cloud pour l'IA [2][3][1].",
+    "points": [
+      "Le chiffre d'affaires de Baidu a reculé de 1 % sur un an, à 30,8 milliards de yuans, au troisième trimestre 2026 [1][2].",
+      "Les revenus du marketing en ligne, cœur historique du groupe, ont plongé de 22 %, à 11,9 milliards de yuans [2]. Selon The Next Web, c'est le sixième trimestre de suite de baisse des revenus [7].",
+      "À l'inverse, les revenus de l'infrastructure cloud pour l'IA ont bondi de 94 %, à 8,2 milliards de yuans [1], dont +191 % pour la location de puissance de calcul (GPU) [8].",
+      "Le bénéfice ajusté, 6,78 yuans par action américaine (ADS), dépasse la moyenne des analystes compilée par LSEG (6,36) [2], mais reste nettement sous un autre consensus, à 8,16 yuans [9] : les lectures divergent.",
+      "Le patron, Robin Li, se dit satisfait que sa stratégie « l'IA d'abord » donne des « résultats concrets », malgré des « vents contraires » dans la publicité [1].",
+      "Baidu a racheté environ 373 millions de dollars de ses actions depuis janvier et prévoit de verser son premier dividende avant la fin de l'année ; ses robotaxis Apollo Go roulent dans 30 villes [8].",
+      "À la mi-séance, Baidu perdait 6,8 % et l'indice Hang Seng 0,8 %, à 23 571 points [3] ; un autre relevé montre Baidu à 70,85 dollars de Hong Kong (−5,9 %) [6]. Alibaba a aussi touché un nouveau plus bas [5]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : l'IA rapporte à Baidu, mais pas encore assez vite pour compenser l'érosion de la publicité sur son moteur de recherche, qui a longtemps fait sa fortune [2][7].",
+      "Même la nouvelle publicité « native IA », censée prendre le relais, recule de 15 %, à 2,4 milliards de yuans [10]. Robin Li assure que Baidu continuera d'investir massivement dans l'IA [1].",
+      "Le cloud, lui, profite de la demande des entreprises chinoises en puissance de calcul. Mais ses 8,2 milliards de yuans pèsent encore moins que la publicité en ligne [1][2].",
+      "La chute de mardi intervient dans un marché déjà nerveux, qui suit la baisse des valeurs technologiques à Wall Street [4]. Pour retenir les actionnaires, Baidu mise sur les rachats d'actions et un premier dividende [8]."
+    ],
+    "forMe": "Si tu détiens un fonds « Chine » ou « marchés émergents », Baidu et Alibaba en font souvent partie : leur chute pèse sur sa valeur. Et l'histoire de Baidu montre un risque qui guette aussi Google : quand on obtient la réponse directement de l'IA, on ne clique plus sur les publicités qui finançaient la recherche gratuite.",
+    "next": [
+      {
+        "when": "Fin 2026",
+        "what": "Baidu prévoit de déclarer son premier dividende avant la fin de l'année, sous réserve de l'accord du conseil [8]."
+      }
+    ],
+    "figures": [
+      {
+        "src": 2,
+        "value": "−22 %",
+        "label": "les revenus publicitaires en ligne, à 11,9 milliards de yuans"
+      },
+      {
+        "src": 1,
+        "value": "+94 %",
+        "label": "le cloud pour l'IA, à 8,2 milliards de yuans"
+      },
+      {
+        "src": 2,
+        "value": "70,25 HK$",
+        "label": "le plus bas de l'action depuis plus de cinq ans"
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs"
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : le « consensus » des analystes",
+        "text": "Avant chaque publication de résultats, des dizaines d'analystes de banques estiment le chiffre d'affaires et le bénéfice d'une entreprise. Des fournisseurs de données comme LSEG en font la moyenne : c'est le « consensus ». L'action monte ou baisse moins selon le résultat lui-même que selon l'écart avec cette attente. Chez Baidu, le chiffre d'affaires est conforme au consensus de LSEG [2]. Le bénéfice par action, lui, bat une moyenne (6,36 yuans) [2] mais rate une autre (8,16 yuans) [9] : tout dépend de quels analystes on compte. Dans ce cas, les investisseurs regardent le moteur de long terme, ici la publicité en chute de 22 % [2], plutôt que le chiffre du trimestre."
+      }
+    },
+    "past": {
+      "title": "Les précédents : Baidu, de l'entrée à Hong Kong à la chute",
+      "items": [
+        {
+          "when": "Mars 2021",
+          "what": "Baidu s'introduit à Hong Kong au prix de 252 dollars de Hong Kong par action et lève 3,1 milliards de dollars [11] ; l'action finit sa première séance, le 23 mars, pile à son prix d'introduction [12].",
+          "lesson": "L'action vaut aujourd'hui moins d'un tiers de ce prix d'entrée [11][2]."
+        },
+        {
+          "when": "Fin mars 2021",
+          "what": "La faillite du fonds Archegos force des banques à vendre des blocs géants d'actions : Baidu perd jusqu'à 33,5 % à New York en une semaine [14] et 23,3 % sur le mois [13].",
+          "lesson": "Les valeurs technologiques chinoises sont très sensibles aux ventes forcées des grands investisseurs [14]."
+        },
+        {
+          "when": "16 mars 2023",
+          "what": "Présentation de son robot conversationnel Ernie Bot, avec une démonstration préenregistrée : l'action chute jusqu'à 10 % [16] et clôture en baisse de 6,4 %, à 125,10 dollars de Hong Kong [15].",
+          "lesson": "Depuis, l'action a encore perdu près de 45 % : le marché attend que l'IA rapporte vraiment [15][2]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "Baidu (Hong Kong)",
+          "ticker": "9888",
+          "move": "−5,9 %",
+          "why": "À 70,85 dollars de Hong Kong, après des revenus publicitaires en chute de 22 % [6][2]."
+        },
+        {
+          "name": "Indice Hang Seng",
+          "ticker": "HSI",
+          "move": "−0,8 %",
+          "why": "À 23 571 points à la mi-séance, dans le sillage de Wall Street [3][4]."
+        },
+        {
+          "name": "Alibaba (Hong Kong)",
+          "ticker": "9988",
+          "why": "Nouveau plus bas, comme Baidu, à l'ouverture mardi [5]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Baidu",
+        "name": "Baidu, « Baidu Announces Third Quarter 2026 Results » (16 novembre 2026)",
+        "url": "https://ir.baidu.com/news-releases/news-release-details/baidu-announces-third-quarter-2026-results"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Baidu shares hit over five-year low as ad slump overshadows AI growth » (17 novembre 2026)",
+        "url": "https://www.investing.com/news/stock-market-news/baidu-shares-hit-over-fiveyear-low-as-ad-slump-overshadows-ai-growth-5031486"
+      },
+      {
+        "short": "The Standard",
+        "name": "The Standard, « Hang Seng Index falls at noon on Tuesday, Baidu down nearly 7 percent » (17 novembre 2026)",
+        "url": "https://www.thestandard.com.hk/finance/article/348724/Hang-Seng-Index-falls-at-noon-on-Tuesday-Baidu-down-nearly-7-percent"
+      },
+      {
+        "short": "The Standard",
+        "name": "The Standard, « Hang Seng tumbles 300 points in early trade on Tuesday, Baidu down 5pc » (17 novembre 2026)",
+        "url": "https://www.thestandard.com.hk/finance/article/348703/Hang-Seng-tumbles-300-points-in-early-trade-on-Tuesday-Baidu-down-5pc"
+      },
+      {
+        "short": "Dimsum Daily",
+        "name": "Dimsum Daily, « Hong Kong shares open lower as Baidu and Alibaba hit new lows » (17 novembre 2026)",
+        "url": "https://www.dimsumdaily.hk/hong-kong-shares-open-lower-as-baidu-and-alibaba-hit-new-lows/"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Why is Baidu HK stock sliding today? » (17 novembre 2026)",
+        "url": "https://in.investing.com/news/stock-market-news/why-is-baidu-hk-stock-sliding-today-93CH-5708561"
+      },
+      {
+        "short": "The Next Web",
+        "name": "The Next Web, « Baidu’s AI cloud revenue nearly doubles, but ads pull sales down again » (16-17 novembre 2026)",
+        "url": "https://thenextweb.com/news/baidu-ai-cloud-q3-2026-earnings-sixth-revenue-drop"
+      },
+      {
+        "short": "GuruFocus",
+        "name": "GuruFocus, « Baidu Inc (BIDU) (Q3 2026) Earnings Call Highlights: AI Cloud Infra Surges 94% as General Business Returns to Growth » (17 novembre 2026)",
+        "url": "https://www.gurufocus.com/news/9202542/baidu-inc-bidu-q3-2026-earnings-call-highlights-ai-cloud-infra-surges-94-as-general-business-returns-to-growth"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Earnings call transcript: Baidu Q3 2026 results miss on EPS as AI cloud surges » (16-17 novembre 2026)",
+        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-baidu-q3-2026-results-miss-on-eps-as-ai-cloud-surges-93CH-5029921"
+      },
+      {
+        "short": "Kucoin",
+        "name": "KuCoin News, « Baidu Reports Q3 2026 Financial Results with 94% AI Cloud Infrastructure Revenue Growth » (16 novembre 2026)",
+        "url": "https://www.kucoin.com/news/flash/baidu-reports-q3-2026-financial-results-with-94-ai-cloud-infrastructure-revenue-growth"
+      },
+      {
+        "short": "Caixin",
+        "name": "Caixin Global, « Baidu raises $3.1 billion from secondary listing in Hong Kong » (18 mars 2021)",
+        "url": "https://www.caixinglobal.com/2021-03-18/baidu-raises-31-billion-from-secondary-listing-in-hong-kong-101676764.html"
+      },
+      {
+        "short": "Yicai",
+        "name": "Yicai Global, « Baidu's Shares Close Flat on Lackluster Hong Kong Debut » (23 mars 2021)",
+        "url": "https://yicaiglobal.com/news/baidu-shares-close-flat-on-lackluster-hong-kong-debut"
+      },
+      {
+        "short": "Motley Fool",
+        "name": "The Motley Fool, « Why Baidu Stock Fell 23.3% in March » (5 avril 2021)",
+        "url": "https://www.fool.com/investing/2021/04/05/why-baidu-stock-fell-233-in-march"
+      },
+      {
+        "short": "Reuters (Yahoo Finance)",
+        "name": "Reuters via Yahoo Finance, « Large block trades that caused selling raises questions about cause » (27 mars 2021)",
+        "url": "https://finance.yahoo.com/news/1-large-block-trades-involved-223112989.html"
+      },
+      {
+        "short": "Yicai",
+        "name": "Yicai Global, « Baidu's Stock Slumps After Internet Firm Asks Users to Test ChatBot Ernie » (16 mars 2023)",
+        "url": "https://yicaiglobal.com/news/baidu-asks-users-to-test-chinese-chatgpt-rival-ernie-bot"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Baidu shares drop after ChatGPT rival Ernie Bot reveal » (16 mars 2023)",
+        "url": "https://www.cnbc.com/2023/03/16/baidu-shares-drop-after-chatgpt-ernie-bot-reveal.html/"
+      }
+    ]
+  },
+  {
     "id": "2026-11-17-niger-tera-embuscade-37-civils",
     "date": "2026-11-17",
     "level": 2,
