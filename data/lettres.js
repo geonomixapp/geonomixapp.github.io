@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-17",
+    "file": "lettres/2026-11-17.pdf",
+    "titles": [
+      "Ormuz : un troisième porte-avions américain arrive et l'Iran annonce un quatrième pétrolier en feu, mais le Brent chute de 3,6 %",
+      "Wall Street : le Nasdaq chute de 2,5 % et entre en correction, Washington ferme la porte aux puces d'IA louées à distance par la Chine",
+      "Sommet Xi-Trump-Poutine : Pékin promet une rencontre « historique » sur la « paix mondiale », Trump veut parler d'Ukraine malgré ses conseillers"
+    ],
+    "fileDark": "lettres/2026-11-17-sombre.pdf"
+  },
+  {
     "date": "2026-11-16",
     "file": "lettres/2026-11-16.pdf",
     "titles": [

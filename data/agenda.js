@@ -670,7 +670,6 @@ window.GEOCO.agenda = [
     "place": "Washington",
     "title": "Washington doit trancher sur l'enquête commerciale visant le Vietnam",
     "why": "Les États-Unis ont jusqu'au 29 novembre pour rendre leur décision sur l'enquête « section 301 » sur la propriété intellectuelle au Vietnam [1][2]. Elle peut déboucher sur des droits de douane contre un pays dont les échanges ont dépassé 1 000 milliards de dollars en dix mois.",
-    "news": "2026-11-02-vietnam-commerce-mille-milliards-enquete-301",
     "sources": [
       {
         "short": "KPMG",
@@ -692,7 +691,6 @@ window.GEOCO.agenda = [
     "place": "Espagne",
     "title": "Élections législatives anticipées en Espagne",
     "why": "Pedro Sánchez a convoqué le scrutin après le rejet de deux décrets sur le logement [1][2]. Selon des sondages cités, la droite et l'extrême droite réunies dépasseraient 200 des 350 sièges ; un changement de gouvernement toucherait la politique du logement et du budget.",
-    "news": "2026-11-02-espagne-legislatives-29-novembre-logement",
     "sources": [
       {
         "short": "Euronews",
