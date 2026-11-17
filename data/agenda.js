@@ -136,6 +136,33 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-11-17-france-greve-fonction-publique-jeunesse",
+    "date": "2026-11-17",
+    "theme": "mix",
+    "region": "Europe",
+    "place": "Paris, France",
+    "title": "France : journée de grève et de manifestations, fonctionnaires et jeunes ensemble",
+    "why": "L'intersyndicale de la fonction publique, rejointe le 13 novembre par la CFDT, appelle à la grève pour le dégel du point d'indice [1], et les syndicats du mouvement contre la vie chère appellent à une nouvelle journée de grève le même jour [2]. À Paris, les rassemblements non déclarés restent interdits autour de dix lycées et cinq sites universitaires jusqu'au 20 novembre [3].",
+    "news": "2026-11-16-france-crise-sociale-rassemblements-interdits-lycees-geffray-nantes",
+    "sources": [
+      {
+        "short": "France 24",
+        "name": "France 24, « Fonction publique : l'intersyndicale sort remontée de Matignon, la CFDT rejoint l'appel à la grève » (13 novembre 2026)",
+        "url": "https://www.france24.com/fr/france/20261113-fonction-publique-lecornu-ouvre-mois-discussions-cinq-chantiers-bas-salaires"
+      },
+      {
+        "short": "Euronews",
+        "name": "Euronews, « France sees fifth consecutive Saturday of nationwide protests » (14 novembre 2026)",
+        "url": "https://www.euronews.com/2026/11/14/france-sees-fifth-consecutive-saturday-of-nationwide-protests"
+      },
+      {
+        "short": "France 24",
+        "name": "France 24, « Les rassemblements autour de certains lycées et universités interdits à Paris » (15 novembre 2026)",
+        "url": "https://www.france24.com/fr/france/20261115-les-rassemblements-autour-de-certains-lyc%C3%A9es-et-universit%C3%A9s-interdits-%C3%A0-paris"
+      }
+    ]
+  },
+  {
     "id": "2026-11-18-royaume-uni-inflation-octobre",
     "date": "2026-11-18",
     "theme": "eco",
