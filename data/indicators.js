@@ -7,7 +7,7 @@
 
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.indicators = {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "latest": [
     {
       "group": "Économie",
@@ -535,6 +535,26 @@ window.GEOCO.indicators = {
           "short": "INE (simula.pt)",
           "name": "simula.pt, « Inflação outubro 2026 : estimativa rápida » (INE, 30 oct. 2026)",
           "url": "https://simula.pt/noticias/inflacao-outubro-2026-estimativa-rapida/"
+        },
+        {
+          "short": "Vanguard / NBS",
+          "name": "Vanguard, « Nigeria's inflation rate drops to 14.06% in October » (chiffres du Bureau national des statistiques, publiés le 16 nov. 2026)",
+          "url": "https://www.vanguardngr.com/2026/11/nigerias-inflation-rate-drops-to-14-06-in-october/"
+        },
+        {
+          "short": "Times of Israel / CBS",
+          "name": "Times of Israel, « Consumer price index down 0.1 percent in October » (Bureau central des statistiques, nov. 2026)",
+          "url": "https://www.timesofisrael.com/liveblog_entry/consumer-price-index-down-0-1-percent-in-october/"
+        },
+        {
+          "short": "Trading Economics / GUS",
+          "name": "Trading Economics, « Poland Inflation » : chiffre définitif d'octobre 2026 confirmé à 3,5 % (13 nov. 2026)",
+          "url": "https://tradingeconomics.com/poland/inflation-cpi/news/601059"
+        },
+        {
+          "short": "Trading Economics / SSB",
+          "name": "Trading Economics, « Norway Inflation Rate Hits 7-Month High » (oct. 2026, publication de Statistics Norway du 10 nov. 2026)",
+          "url": "https://tradingeconomics.com/norway/inflation-cpi/news/599879"
         }
       ],
       "values": {
@@ -829,9 +849,9 @@ window.GEOCO.indicators = {
           "s": 2
         },
         "376": {
-          "v": 1.5,
-          "d": "août 2026",
-          "s": 1
+          "v": 1.1,
+          "d": "oct. 2026",
+          "s": 49
         },
         "380": {
           "v": 5.4,
@@ -1054,14 +1074,14 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "566": {
-          "v": 15.4,
-          "d": "août 2026",
-          "s": 1
+          "v": 14.06,
+          "d": "oct. 2026",
+          "s": 48
         },
         "578": {
-          "v": 3.3,
-          "d": "août 2026",
-          "s": 1
+          "v": 3.6,
+          "d": "oct. 2026",
+          "s": 51
         },
         "586": {
           "v": 10.3,
@@ -1095,8 +1115,8 @@ window.GEOCO.indicators = {
         },
         "616": {
           "v": 3.5,
-          "d": "oct. 2026 (estimation rapide)",
-          "s": 46
+          "d": "oct. 2026",
+          "s": 50
         },
         "620": {
           "v": 3.8,
@@ -1645,6 +1665,11 @@ window.GEOCO.indicators = {
           "short": "FXStreet",
           "name": "FXStreet, « Japan Unemployment Rate below forecasts (2.5%) in September: Actual (2.4%) » (29 oct. 2026)",
           "url": "https://www.fxstreet.com/news/japan-unemployment-rate-below-forecasts-25-in-september-actual-24-202610292330"
+        },
+        {
+          "short": "Xinhua / BNS",
+          "name": "Xinhua, « China's surveyed urban unemployment rate falls to 5.1 pct in October » (16 nov. 2026)",
+          "url": "https://english.news.cn/20261116/92d5aecfe5f9488eb6d25917860f592e/c.html"
         }
       ],
       "values": {
@@ -1709,9 +1734,9 @@ window.GEOCO.indicators = {
           "s": 9
         },
         "156": {
-          "v": 5.3,
-          "d": "août 2026",
-          "s": 1
+          "v": 5.1,
+          "d": "oct. 2026",
+          "s": 31
         },
         "158": {
           "v": 3.3,

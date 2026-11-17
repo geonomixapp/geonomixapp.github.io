@@ -402,6 +402,54 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-11-23-israel-banque-centrale-taux",
+    "date": "2026-11-23",
+    "theme": "eco",
+    "region": "Moyen-Orient",
+    "place": "Jérusalem, Israël",
+    "title": "Israël : la banque centrale décide de son taux",
+    "why": "La Banque d'Israël annonce sa décision le 23 novembre, avec un taux aujourd'hui à 3,25 % [1]. L'inflation est tombée à 1,1 % sur un an en octobre, ce qui rend plus probable une baisse d'un quart de point à 3 % [2] : emprunter coûterait un peu moins cher.",
+    "sources": [
+      {
+        "short": "Banque d'Israël",
+        "name": "Banque d'Israël (Bank of Israel), page d'accueil, « Next decision date: 23/11/2026 »",
+        "url": "https://www.boi.org.il/en/"
+      },
+      {
+        "short": "Calcalist",
+        "name": "Calcalist, « Israel's inflation falls to 1.1%, putting pressure on the Bank of Israel to cut rates » (nov. 2026)",
+        "url": "https://www.calcalistech.com/ctechnews/article/w7hqdh5of"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-23-nigeria-banque-centrale-taux",
+    "date": "2026-11-23",
+    "end": "2026-11-24",
+    "theme": "eco",
+    "region": "Afrique",
+    "place": "Abuja, Nigeria",
+    "title": "Nigeria : la banque centrale décide de son taux",
+    "why": "Le comité de politique monétaire de la Banque centrale du Nigeria se réunit les 23 et 24 novembre [1], deux mois après avoir baissé son taux de 26,5 % à 23 % [2]. L'inflation a encore reculé à 14,06 % en octobre [3], ce qui laisse de la place pour une nouvelle baisse.",
+    "sources": [
+      {
+        "short": "Banque centrale du Nigeria",
+        "name": "Banque centrale du Nigeria (CBN), déclarations personnelles des membres, 307e réunion du MPC (sept. 2026), date de la prochaine réunion",
+        "url": "https://www.cbn.gov.ng/Out/2026/CCD/Personal%20Statements%20of%20Members%20for%20the%20307th%20Meeting%20of%20the%20MPC_September%202026.pdf"
+      },
+      {
+        "short": "Daily Trust",
+        "name": "Daily Trust, annonce de la réunion du MPC des 23 et 24 novembre 2026",
+        "url": "https://dailytrust.com/?p=1974891"
+      },
+      {
+        "short": "Vanguard",
+        "name": "Vanguard, « Nigeria's inflation rate drops to 14.06% in October » (nov. 2026)",
+        "url": "https://www.vanguardngr.com/2026/11/nigerias-inflation-rate-drops-to-14-06-in-october/"
+      }
+    ]
+  },
+  {
     "id": "2026-11-24-portugal-budget-2027-vote-final",
     "date": "2026-11-24",
     "theme": "eco",
@@ -441,6 +489,27 @@ window.GEOCO.agenda = [
         "short": "Brussels Times",
         "name": "The Brussels Times, « Western Balkans summit to test EU's resolve as membership pledges face scrutiny »",
         "url": "https://www.brusselstimes.com/2374955/western-balkans-summit-to-test-eus-resolve-as-membership-pledges-face-scrutiny"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-etats-unis-pib-pce",
+    "date": "2026-11-25",
+    "theme": "eco",
+    "region": "Amériques",
+    "place": "Washington, États-Unis",
+    "title": "États-Unis : PIB du 3e trimestre et inflation PCE d'octobre",
+    "why": "Le même jour, le Bureau d'analyse économique publie la deuxième estimation de la croissance de juillet-septembre et les revenus et dépenses des ménages d'octobre, dont l'indice de prix PCE suivi par la Fed [1][2]. Ces chiffres arrivent deux semaines avant la réunion de la Fed du 8 décembre.",
+    "sources": [
+      {
+        "short": "BEA",
+        "name": "Bureau of Economic Analysis, calendrier des publications (Personal Income and Outlays, October 2026 ; GDP Second Estimate, 3rd Quarter 2026)",
+        "url": "https://www.bea.gov/news/schedule/"
+      },
+      {
+        "short": "Finance Calendar",
+        "name": "Finance Calendar, « US Gross Domestic Product November 2026 »",
+        "url": "https://www.financecalendar.com/?p=1310"
       }
     ]
   },
@@ -527,6 +596,48 @@ window.GEOCO.agenda = [
         "short": "Algérie360",
         "name": "Algérie360, « Élections locales du 28 novembre : pourquoi l'ANIE a écarté des maires sortants »",
         "url": "https://www.algerie360.com/elections-locales-2026-candidats-ecartes-article-184/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-taiwan-elections-locales",
+    "date": "2026-11-28",
+    "theme": "geo",
+    "region": "Asie",
+    "place": "Taipei, Taïwan",
+    "title": "Taïwan : élections locales « neuf en un »",
+    "why": "Environ 19,65 millions d'électeurs choisissent maires, chefs de comté, conseillers et chefs de village, soit plus de 11 000 postes [1][2]. C'est un test national pour le parti au pouvoir (DPP) face au Kuomintang et au TPP, qui discutent d'une alliance [1] : un recul du DPP pèserait sur la ligne de Taipei face à Pékin.",
+    "sources": [
+      {
+        "short": "Wikipédia",
+        "name": "Wikipédia (en), « 2026 Taiwanese local elections »",
+        "url": "https://en.wikipedia.org/wiki/2026_Taiwanese_local_elections"
+      },
+      {
+        "short": "Focus Taiwan",
+        "name": "Focus Taiwan (CNA), « 2026 ELECTIONS/Taichung mayoral race polls show conflicting results for Ho, Chiang » (3 nov. 2026)",
+        "url": "https://focustaiwan.tw/politics/202611030029"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-28-australie-victoria-elections",
+    "date": "2026-11-28",
+    "theme": "geo",
+    "region": "Asie",
+    "place": "Melbourne, Australie",
+    "title": "Australie : élections dans l'État de Victoria",
+    "why": "Les électeurs du Victoria, deuxième État le plus peuplé d'Australie, renouvellent leur Parlement le 28 novembre ; le vote est obligatoire [1][2]. Le résultat décidera qui gouverne l'État et mène ses choix sur le logement, les impôts locaux et les grands chantiers.",
+    "sources": [
+      {
+        "short": "Parlement du Victoria",
+        "name": "Parlement du Victoria (Parliament of Victoria), « Election » : prochaine élection le samedi 28 novembre 2026",
+        "url": "https://www.parliament.vic.gov.au/election"
+      },
+      {
+        "short": "Wikipédia",
+        "name": "Wikipédia (en), « 2026 Victorian state election »",
+        "url": "https://www.wikipedia.org/wiki/2026_Victorian_state_election"
       }
     ]
   },
@@ -835,6 +946,27 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-12-09-kenya-banque-centrale-taux",
+    "date": "2026-12-09",
+    "theme": "eco",
+    "region": "Afrique",
+    "place": "Nairobi, Kenya",
+    "title": "Kenya : la banque centrale décide de son taux",
+    "why": "La Banque centrale du Kenya réunit son comité de politique monétaire le 9 décembre [1], après avoir laissé son taux à 8,75 % le 7 octobre [2]. Sa décision pèse sur le coût du crédit pour les ménages et les entreprises kényans.",
+    "sources": [
+      {
+        "short": "Banque centrale du Kenya",
+        "name": "Banque centrale du Kenya (Central Bank of Kenya), « Next MPC Meeting » (9 nov. 2026)",
+        "url": "https://www.centralbank.go.ke/2026/11/09/next-mpc-meeting-6/"
+      },
+      {
+        "short": "Banque centrale du Kenya",
+        "name": "Banque centrale du Kenya, communiqué du comité de politique monétaire du 7 octobre 2026",
+        "url": "https://www.centralbank.go.ke/uploads/mpc_press_release/224745454_MPC%20Press%20Release%20-%20Meeting%20of%20October%207%202026.pdf"
+      }
+    ]
+  },
+  {
     "id": "2026-12-10-turquie-banque-centrale-taux",
     "date": "2026-12-10",
     "theme": "eco",
@@ -957,6 +1089,27 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-12-15-hongrie-banque-centrale-taux",
+    "date": "2026-12-15",
+    "theme": "eco",
+    "region": "Europe",
+    "place": "Budapest, Hongrie",
+    "title": "Hongrie : dernière décision de taux de l'année de la banque centrale",
+    "why": "Le conseil monétaire de la Banque nationale de Hongrie tient sa dernière réunion de taux de l'année le 15 décembre [1]. Il avait baissé son taux de 0,25 point à 5,50 % en août [2] : une nouvelle baisse rendrait le crédit moins cher mais pourrait affaiblir le forint.",
+    "sources": [
+      {
+        "short": "MNB",
+        "name": "Banque nationale de Hongrie (MNB), calendrier des réunions du conseil monétaire",
+        "url": "https://mnb.hu/en/monetary-policy/the-monetary-council"
+      },
+      {
+        "short": "MNB",
+        "name": "Banque nationale de Hongrie, communiqué sur la réunion du conseil monétaire du 25 août 2026",
+        "url": "https://mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-25-august-2026"
+      }
+    ]
+  },
+  {
     "id": "2026-12-16-colombie-fin-session-loi-sauvetage",
     "date": "2026-12-16",
     "theme": "eco",
@@ -1017,6 +1170,32 @@ window.GEOCO.agenda = [
         "short": "MoneyWeek",
         "name": "MoneyWeek, « When is the next Bank of England base rate meeting? »",
         "url": "https://moneyweek.com/economy/when-is-the-next-bank-of-england-interest-rate-mpc-meeting"
+      }
+    ]
+  },
+  {
+    "id": "2026-12-17-philippines-banque-centrale-taux",
+    "date": "2026-12-17",
+    "theme": "eco",
+    "region": "Asie",
+    "place": "Manille, Philippines",
+    "title": "Philippines : dernière décision de taux de l'année de la banque centrale",
+    "why": "Le conseil monétaire de la Bangko Sentral ng Pilipinas tient sa dernière réunion régulière de l'année le 17 décembre [1][2]. Elle avait relevé ses taux en juin [3] : sa décision compte pour le peso et le coût du crédit aux Philippines.",
+    "sources": [
+      {
+        "short": "BusinessWorld",
+        "name": "BusinessWorld, calendrier des réunions de la BSP en 2026 (23 avril, 18 juin, 27 août, 22 oct., 17 déc.)",
+        "url": "https://www.bworldonline.com/?p=739010"
+      },
+      {
+        "short": "UOB",
+        "name": "UOB, note de recherche sur la BSP (23 oct. 2026), prochaine réunion le 17 décembre 2026",
+        "url": "https://uob.com.sg/assets/web-resources/research/pdf/MN_261023.pdf"
+      },
+      {
+        "short": "FocusEconomics",
+        "name": "FocusEconomics, « Philippines central bank meeting 18-06-2026: BSP raises rates in June »",
+        "url": "https://www.focus-economics.com/countries/philippines/news/monetary-policy/philippines-central-bank-meeting-18-06-2026-bsp-raises-rates-in-june/"
       }
     ]
   },
