@@ -2150,6 +2150,328 @@ window.GEOCO.news = [
     ]
   },
   {
+    "id": "2026-11-17-israel-knesset-president-kahana-eisenkot",
+    "date": "2026-11-17",
+    "region": "Moyen-Orient",
+    "theme": "geo",
+    "zones": [
+      "Moyen-Orient"
+    ],
+    "geo": [
+      {
+        "coords": [
+          35.21,
+          31.77
+        ],
+        "name": "Jérusalem, Israël",
+        "label": "Israël"
+      }
+    ],
+    "title": "Israël : le camp d'Eisenkot veut prendre ce mardi la présidence de la Knesset à un proche de Netanyahou, avant même d'avoir formé un gouvernement",
+    "summary": "Ce mardi 17 novembre, la Knesset, le Parlement israélien, vote pour remplacer son président Amir Ohana, du Likud de Benyamin Netanyahou, par Matan Kahana, du parti Yashar de Gadi Eisenkot [1]. 67 députés ont demandé ce vote [4]. Les négociations pour former un gouvernement, elles, restent bloquées [3].",
+    "points": [
+      "Le bloc d'Eisenkot a assez de voix pour faire élire Matan Kahana grâce aux partis arabes ; le soutien du parti ultra-orthodoxe Judaïsme unifié de la Torah pourrait permettre à certains députés arabes de s'abstenir [3].",
+      "La demande de vote a été déposée par 67 des 120 députés du Parlement fraîchement installé, ce qui a obligé Amir Ohana à l'organiser [4].",
+      "Matan Kahana est un ancien colonel de l'armée de l'air et un ancien ministre des Affaires religieuses ; il est entré à la Knesset en 2019 sur la liste Yamina et y revient en 2026 avec Yashar [5].",
+      "Selon Ynet, Gadi Eisenkot a d'abord pensé garder le poste pour lui, puis a choisi Kahana, au moins le temps des négociations [9].",
+      "Le ministre des Finances Bezalel Smotrich (extrême droite) a proposé son soutien à Kahana contre des conditions, notamment ne pas nommer de vice-présidents issus de partis qui ne qualifient pas le Hamas d'organisation terroriste ; Kahana a refusé [1][6].",
+      "Dimanche 15 novembre, le Likud et Yashar se sont rencontrés et ont publié un communiqué commun jugeant la réunion « professionnelle », sans avancée [3].",
+      "Lundi 16 novembre, un haut responsable du bloc d'Eisenkot a estimé qu'il n'y avait plus aucune chance de gouvernement d'union, dénonçant une « tentative de coup » des services du Premier ministre [2]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : ce vote donnerait au camp d'Eisenkot le contrôle du Parlement, alors que Netanyahou reste Premier ministre en attendant un nouveau gouvernement [8][1].",
+      "Si Kahana est élu, le bloc d'Eisenkot veut commencer dès mercredi à voter l'abrogation de la réforme de la justice de l'ancien gouvernement, celle qui avait provoqué des mois de manifestations [8].",
+      "Le blocage est ailleurs : Eisenkot veut que son mandat débouche sur une coalition qu'il dirige lui-même, alors que Netanyahou réclame la tête d'un gouvernement d'union [3]. Lors des consultations du président Isaac Herzog, Eisenkot avait reçu 67 recommandations contre 46 pour Netanyahou [7].",
+      "Mais une recommandation n'est pas un engagement à gouverner ensemble : les partis arabes qui ont soutenu Eisenkot ne promettent pas d'entrer dans sa coalition [7]. Il dispose de 28 jours, prolongeables de 14 jours, pour réunir une majorité [7]."
+    ],
+    "forMe": "Qui tient le Parlement israélien pèse sur la guerre à Gaza, le Liban et la relation avec l'Iran. Un changement de majorité peut modifier la politique d'Israël dans une région d'où vient une partie du pétrole que l'Europe achète, et donc le prix à la pompe.",
+    "next": [
+      {
+        "when": "18 novembre",
+        "what": "Si Kahana est élu, le bloc d'Eisenkot prévoit de lancer l'abrogation de la réforme judiciaire [8]."
+      }
+    ],
+    "figures": [
+      {
+        "src": 4,
+        "value": "67 députés sur 120",
+        "label": "ont demandé le remplacement du président de la Knesset"
+      },
+      {
+        "src": 7,
+        "value": "67 contre 46",
+        "label": "recommandations pour Eisenkot face à Netanyahou"
+      },
+      {
+        "src": 7,
+        "value": "28 jours",
+        "label": "pour former un gouvernement, plus 14 possibles"
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Haaretz",
+        "name": "Haaretz, « Knesset Set to Elect Eisenkot Ally Matan Kahana as New Speaker » (17 novembre 2026)",
+        "url": "https://www.haaretz.com/israel-news/israel-politics/2026-11-17/ty-article/.premium/knesset-set-to-elect-eisenkot-ally-matan-kahana-as-new-speaker/000001a1-e5dc-d381-ade5-effd223b0000"
+      },
+      {
+        "short": "Times of Israel",
+        "name": "Times of Israel, « Nov. 16: Senior Eisenkot bloc official said to see no chance for unity government after PMO's 'attempted coup' » (16 novembre 2026)",
+        "url": "https://www.timesofisrael.com/liveblog-november-16-2026/"
+      },
+      {
+        "short": "Times of Israel",
+        "name": "Times of Israel, « Yashar, Likud hold unity talks as Eisenkot bloc moves to assert control over Knesset » (15 novembre 2026)",
+        "url": "https://www.timesofisrael.com/yashar-likud-meet-for-unity-talks-as-eisenkot-bloc-moves-to-assert-control-over-knesset/"
+      },
+      {
+        "short": "Ynet",
+        "name": "Ynet, « 67 MKs move to replace Knesset speaker Ohana, vote set for next Tuesday » (novembre 2026)",
+        "url": "https://www.ynetnews.com/article/skifn0ecfe"
+      },
+      {
+        "short": "Anadolu",
+        "name": "Anadolu, « PROFILE - Who is Matan Kahana, Israel's proposed parliament speaker? » (novembre 2026)",
+        "url": "https://aa.com.tr/en/features/profile-who-is-matan-kahana-israel-s-proposed-parliament-speaker/4119608"
+      },
+      {
+        "short": "Yahoo News",
+        "name": "Yahoo News, « Kahana rejects Smotrich's offer for Knesset speaker support in exchange for exclusion of Arabs » (novembre 2026)",
+        "url": "https://www.yahoo.com/news/politics/articles/kahana-rejects-smotrichs-offer-knesset-143056695.html"
+      },
+      {
+        "short": "PBS (AP)",
+        "name": "PBS NewsHour (AP), « Israel's president formally gives Eisenkot the first chance to form the next government » (novembre 2026)",
+        "url": "https://www.pbs.org/newshour/world/israels-president-formally-gives-eisenkot-the-first-chance-to-form-the-next-government"
+      },
+      {
+        "short": "The Media Line",
+        "name": "The Media Line, « Eisenkot's Allies Move To Control Knesset as Coalition Talks Remain Deadlocked » (novembre 2026)",
+        "url": "https://themedialine.org/by-region/eisenkots-allies-move-to-control-knesset-as-coalition-talks-remain-deadlocked/"
+      },
+      {
+        "short": "Ynet",
+        "name": "Ynet, « Israel's 26th Knesset sworn in as political deadlock persists » (novembre 2026)",
+        "url": "https://www.ynetnews.com/article/hkhobslrge"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-kazakhstan-tokaiev-limoge-chef-securite-samruk-kazyna",
+    "date": "2026-11-17",
+    "region": "Asie",
+    "theme": "mix",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "coords": [
+          71.45,
+          51.17
+        ],
+        "name": "Astana, Kazakhstan",
+        "label": "Kazakhstan"
+      }
+    ],
+    "title": "Kazakhstan : Tokaïev limoge son chef des services secrets, cinq jours après l'arrestation du patron du fonds qui pèse 40 % du PIB",
+    "summary": "Lundi 16 novembre, le président kazakh Kassym-Jomart Tokaïev a remplacé le chef du Comité de sécurité nationale (KNB), Iermek Sagimbaïev, par son adjoint Marat Irmenov [3]. Le KNB venait d'arrêter les patrons du fonds souverain Samruk-Kazyna, dont les actifs équivalent à environ 40 % du PIB, et des chemins de fer nationaux [9].",
+    "points": [
+      "Marat Irmenov a été nommé par décret ; un second décret a démis Iermek Sagimbaïev, sans qu'aucune raison officielle soit donnée [3][1].",
+      "Le nouveau chef était vice-président du KNB depuis octobre 2025 ; il travaille dans les services de sécurité depuis 1996 et est général depuis 2019 [3].",
+      "Iermek Sagimbaïev avait été nommé en janvier 2022, pendant les émeutes qui avaient secoué le pays [4][2]. Trois jours avant son renvoi, Tokaïev l'avait encore reçu pour un point sur la corruption et la cybersécurité [4].",
+      "Le 11 novembre, le service anticorruption du KNB a arrêté Nurlan Jakoupov, patron de Samruk-Kazyna, et Yeljas Otynchiev, patron de la compagnie ferroviaire KTZ ; le 12, aucune accusation précise n'avait été rendue publique [7][8].",
+      "Yeljas Otynchiev ne dirigeait KTZ que depuis quatre mois ; auparavant, il gérait la stratégie et les actifs de Samruk-Kazyna [7].",
+      "Le jour de la nomination, Tokaïev a réuni la direction du KNB et réclamé des réformes du service ainsi qu'une meilleure protection des intérêts économiques du pays [5][3]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : en une semaine, le pouvoir kazakh a frappé à la fois la plus grosse entreprise publique du pays et le service qui a mené l'enquête, sans rien expliquer [1][3].",
+      "Samruk-Kazyna contrôle une grande partie de l'économie : ses actifs représentent environ 40 % du produit intérieur brut [9]. Le 4 novembre, le Premier ministre Oljas Bektenov avait déjà critiqué ses dirigeants pour les retards des projets d'investissement [7].",
+      "Le fonds assure qu'il coopère avec la justice et que ses activités et ses projets continuent comme prévu ; Tokaïev affirme aussi que les arrestations ne perturberont pas son fonctionnement [6]. Une détention n'est pas une condamnation, et l'enquête se poursuit [6].",
+      "Le contexte économique reste porteur : selon les chiffres publiés le 17 novembre, la croissance du Kazakhstan a accéléré à 4,5 % sur janvier-octobre [10]."
+    ],
+    "forMe": "Le Kazakhstan est un gros fournisseur de pétrole et d'uranium pour l'Europe, et la France y est très présente. Quand le pouvoir secoue d'un coup son fonds souverain et ses services de sécurité, les entreprises étrangères qui y travaillent, et leurs salariés, guettent la suite.",
+    "figures": [
+      {
+        "src": 9,
+        "value": "≈ 40 % du PIB",
+        "label": "actifs du fonds Samruk-Kazyna"
+      },
+      {
+        "src": 3,
+        "value": "5 jours",
+        "label": "entre les arrestations et le limogeage du chef du KNB"
+      },
+      {
+        "src": 10,
+        "value": "+4,5 %",
+        "label": "croissance sur janvier-octobre 2026"
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "AsiaOne",
+        "name": "AsiaOne, « Kazakh president sacks security chief after sovereign wealth fund arrest » (16 novembre 2026)",
+        "url": "https://www.asiaone.com/asia/kazakh-president-sacks-security-chief-after-sovereign-wealth-fund-arrest"
+      },
+      {
+        "short": "Times of Central Asia",
+        "name": "The Times of Central Asia, « Kazakhstan Security Chief Replaced After High-Profile Corruption Arrests » (16 novembre 2026)",
+        "url": "https://timesca.com/kazakhstan-knb-chief-replaced-corruption-arrests/"
+      },
+      {
+        "short": "Trend",
+        "name": "Trend.Az, « Tokayev replaces head of Kazakhstan's National Security Committee » (16 novembre 2026)",
+        "url": "https://www.trend.az/casia/kazakhstan/4246822.html"
+      },
+      {
+        "short": "Asia-Plus",
+        "name": "Asia-Plus, « Tokayev replaces security chief appointed during January 2022 unrest » (16 novembre 2026)",
+        "url": "https://asiaplus.news/en/2026/11/16/tokayev-replaces-knb-chief-appointed-during-january-2022-unrest/"
+      },
+      {
+        "short": "Trend",
+        "name": "Trend.Az, « Tokayev sets tasks for Kazakhstan's National Security Committee under new chairman » (16 novembre 2026)",
+        "url": "https://www.trend.az/casia/kazakhstan/4246852.html"
+      },
+      {
+        "short": "OCCRP",
+        "name": "OCCRP, « Kazakh Wealth Fund, Railway Chiefs Detained in Corruption Probe » (novembre 2026)",
+        "url": "https://www.occrp.org/en/news/kazakh-wealth-fund-railway-chiefs-detained-in-corruption-probe"
+      },
+      {
+        "short": "Times of Central Asia",
+        "name": "The Times of Central Asia, « Kazakhstan Detains Heads of Samruk-Kazyna and National Railways in Corruption Probe » (12 novembre 2026)",
+        "url": "https://timesca.com/kazakhstan-detains-heads-of-samruk-kazyna-and-national-railways-in-corruption-probe/"
+      },
+      {
+        "short": "Asia-Plus",
+        "name": "Asia-Plus, « Samruk-Kazyna and KTZ top managers detained in corruption probe » (12 novembre 2026)",
+        "url": "https://asiaplus.news/en/2026/11/12/kazakhstans-nsc-detains-head-of-samruk-kazyna-fund-and-railways-chief/"
+      },
+      {
+        "short": "Devdiscourse",
+        "name": "Devdiscourse, « Kazakh president sacks security chief after sovereign wealth fund arrest » (16 novembre 2026)",
+        "url": "https://www.devdiscourse.com/article/international/4007343-kazakh-president-sacks-security-chief-after-sovereign-wealth-fund-arrest"
+      },
+      {
+        "short": "Trend",
+        "name": "Trend.Az, « Kazakhstan's GDP growth accelerates to 4.5% in January-October » (17 novembre 2026)",
+        "url": "https://trend.az/casia/kazakhstan/4247178.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-papouasie-marape-taiwan-bureau-ferme-chine",
+    "date": "2026-11-17",
+    "region": "Asie",
+    "theme": "geo",
+    "zones": [
+      "Océanie",
+      "Asie"
+    ],
+    "geo": [
+      {
+        "coords": [
+          147.18,
+          -9.44
+        ],
+        "name": "Port Moresby, Papouasie-Nouvelle-Guinée",
+        "label": "Papouasie-Nouvelle-Guinée"
+      },
+      {
+        "coords": [
+          121.56,
+          25.03
+        ],
+        "name": "Taipei, Taïwan",
+        "label": "Taïwan"
+      }
+    ],
+    "title": "Papouasie-Nouvelle-Guinée : le Premier ministre Marape assume l'expulsion de Taïwan et répond à son prédécesseur, Taipei accuse Pékin",
+    "summary": "Le Premier ministre de Papouasie-Nouvelle-Guinée, James Marape, a répliqué le 17 novembre aux critiques de l'ancien Premier ministre Peter O'Neill sur la fermeture du bureau de représentation de Taïwan à Port Moresby [1][2]. Il invoque la politique d'« une seule Chine », alors que Taïwan a commencé à retirer tout son personnel [4].",
+    "points": [
+      "James Marape juge la fermeture conforme à la politique d'« une seule Chine » suivie de longue date par son pays, et assure que la Papouasie reste ouverte aux affaires avec Taïwan [2][3].",
+      "La décision remonte au 16 juillet : le ministre des Affaires étrangères Justin Tkatchenko avait exigé la fermeture du bureau taïwanais, au nom de la politique d'« une seule Chine » [6][7].",
+      "Selon ABC, Port Moresby voulait ainsi « rassurer » Pékin après avoir signé un traité avec l'Australie [6]. L'ambassade de Chine a salué une « bonne décision » [7].",
+      "Taïwan a dénoncé une décision « unilatérale », a annoncé le 6 novembre fermer elle-même son bureau, puis a commencé le 11 novembre à retirer tout son personnel diplomatique et technique [4].",
+      "Taipei affirme que la Papouasie devait lui accorder un an de préavis écrit, alors que Port Moresby parle d'une fermeture immédiate ; le ministère taïwanais des Affaires étrangères accuse la Chine d'être derrière cette décision [5].",
+      "La fermeture met fin aux missions agricoles, de pêche et médicales de Taïwan dans le pays, ainsi qu'à un programme de bourses, regrette un écrivain papou cité par le Taipei Times [9]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : sans être une rupture diplomatique complète, l'expulsion du bureau taïwanais est un succès pour Pékin dans le Pacifique, une région où la Chine et l'Australie rivalisent d'influence [6][8].",
+      "La Papouasie-Nouvelle-Guinée suit la politique d'« une seule Chine » [7] : le bureau taïwanais n'était pas une ambassade, mais il faisait vivre des coopérations concrètes [9]. Selon un analyste cité par l'agence indienne ANI, le gouvernement papou a pu subir de fortes pressions de la Chine, ou recevoir des promesses économiques ; ces affirmations ne sont pas prouvées [8].",
+      "Le débat est aussi intérieur : l'ancien Premier ministre Peter O'Neill critique la décision, et James Marape lui répond publiquement [2][3].",
+      "Taïwan a aussi riposté sur le terrain économique en suspendant ses achats ponctuels de gaz naturel liquéfié (GNL) papou [5]."
+    ],
+    "forMe": "Le Pacifique paraît loin, mais chaque pays qui tourne le dos à Taïwan renforce Pékin, d'où viennent beaucoup des objets que tu achètes et dont dépendent les puces de tes appareils, fabriquées surtout à Taïwan. Une tension accrue autour de l'île peut faire grimper leurs prix.",
+    "figures": [
+      {
+        "src": 6,
+        "value": "16 juillet",
+        "label": "date de la demande de fermeture du bureau taïwanais"
+      },
+      {
+        "src": 5,
+        "value": "1 an",
+        "label": "préavis réclamé par Taïwan, contre une fermeture immédiate"
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "RNZ",
+        "name": "RNZ, « Pacific news in brief for 17 November » (17 novembre 2026)",
+        "url": "https://www.rnz.co.nz/news/pacific/2638396/pacific-news-in-brief-for-17-november"
+      },
+      {
+        "short": "Gouvernement de PNG",
+        "name": "Bureau du Premier ministre de Papouasie-Nouvelle-Guinée, « PM Marape rebuts O'Neill on Taiwan office closure, reaffirms PNG's One-China policy and trade relationships » (novembre 2026)",
+        "url": "https://www.pmnec.gov.pg/pm-marape-rebuts-oneill-on-taiwan-office-closure-reaffirms-pngs-one-china-policy-and-trade-relationships/"
+      },
+      {
+        "short": "The PNG Sun",
+        "name": "The PNG Sun, « PM Marape rubbishes O'Neill's criticism over Taiwan office closure, defends One-China Policy and Global Trade » (novembre 2026)",
+        "url": "https://www.thepngsun.com/pm-marape-rubbishes-oneills-criticism-over-taiwan-office-closure-defends-one-china-policy-and-global-trade/"
+      },
+      {
+        "short": "Focus Taiwan",
+        "name": "Focus Taiwan (CNA), « Taiwan representative office staff depart PNG after gov't-ordered closure » (11 novembre 2026)",
+        "url": "https://focustaiwan.tw/politics/202611110011"
+      },
+      {
+        "short": "Focus Taiwan",
+        "name": "Focus Taiwan (CNA), « China pressure behind PNG's abrupt expulsion of Taiwan diplomats: MOFA » (12 novembre 2026)",
+        "url": "https://focustaiwan.tw/politics/202611120011"
+      },
+      {
+        "short": "ABC",
+        "name": "ABC News (Australie), « PNG ousts Taiwanese officials, seeks to 'reassure' China after Australian treaty » (17 juillet 2026)",
+        "url": "https://www.abc.net.au/news/2026-07-17/png-to-close-taiwan-trade-office-seeking-to-reassure-china/106927630"
+      },
+      {
+        "short": "RNZ",
+        "name": "RNZ, « PNG announces closure of Taiwan's representative office in Port Moresby » (juillet 2026)",
+        "url": "https://www.rnz.co.nz/news/pacific/728671/png-announces-closure-of-taiwan-s-representative-office-in-port-moresby"
+      },
+      {
+        "short": "ANI",
+        "name": "ANI, « China uses economic incentives to isolate Taiwan in Pacific amid Papua New Guinea row » (16 novembre 2026)",
+        "url": "https://www.aninews.in/news/world/asia/china-uses-economic-incentives-to-isolate-taiwan-in-pacific-amid-papua-new-guinea-row20261116183453"
+      },
+      {
+        "short": "Taipei Times",
+        "name": "Taipei Times, « PNG writer slams closure of Taiwan's office » (10 novembre 2026)",
+        "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/10/2003867474"
+      }
+    ]
+  },
+  {
     "id": "2026-11-17-fin-quebecor-telus-offre-31-milliards",
     "date": "2026-11-17",
     "region": "Amériques",
@@ -3400,6 +3722,209 @@ window.GEOCO.news = [
         "short": "RPP",
         "name": "RPP, « Crisis en Bolivia 2026: bloqueos, protestas y exigencias al gobierno » (2026)",
         "url": "https://rpp.pe/mundo/actualidad/crisis-en-bolivia-2026-bloqueos-protestas-y-exigencias-al-gobierno-noticia-1688270"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-japon-avions-russes-espace-aerien-fukuoka",
+    "date": "2026-11-17",
+    "level": 2,
+    "region": "Asie",
+    "theme": "geo",
+    "zones": [
+      "Asie",
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          130.4,
+          33.59
+        ],
+        "name": "Fukuoka, Japon",
+        "label": "Japon"
+      }
+    ],
+    "title": "Japon : deux avions présumés russes violent l'espace aérien au large de Fukuoka, Tokyo proteste, une première depuis 2024",
+    "summary": "Mardi 17 novembre vers 4 heures du matin, deux avions présumés russes sont entrés quelques minutes dans l'espace aérien japonais au large de l'île d'Okinoshima, dans la préfecture de Fukuoka [1][2]. Des chasseurs japonais ont décollé et Tokyo a protesté auprès de Moscou [1].",
+    "points": [
+      "Le ministère de la Défense indique que les chasseurs ont lancé des avertissements et pris d'autres mesures non précisées [2].",
+      "Le porte-parole du gouvernement, Minoru Kihara, a jugé l'incident « inacceptable » [1].",
+      "La dernière violation confirmée par des avions russes remontait à septembre 2024, au large de l'île de Rebun, à Hokkaido [1].",
+      "Le même jour, la Première ministre Sanae Takaichi devait proposer à Manille une « task force » asiatique sur la sécurité pétrolière, pour coordonner les stocks en cas de crise [3]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : la violation survient pendant que la Première ministre est en tournée diplomatique en Asie, et Tokyo y répond au plus haut niveau [1][3].",
+      "Une incursion de quelques minutes paraît anodine, mais elle oblige l'armée à faire décoller des chasseurs, et ces violations par des avions russes restent rares : la précédente date de plus de deux ans [2][1]."
+    ],
+    "forMe": "Ces incidents rappellent que l'armée russe sonde aussi les pays alliés de l'Europe en Asie. Plus la tension monte, plus les budgets de défense grimpent, en Europe comme au Japon, au détriment d'autres dépenses.",
+    "figures": [
+      {
+        "src": 1,
+        "value": "2",
+        "label": "avions présumés russes"
+      },
+      {
+        "src": 1,
+        "value": "sept. 2024",
+        "label": "précédente violation confirmée"
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Reuters (US News)",
+        "name": "Reuters (US News), « Tokyo Lodges Protest After Aircraft Believed to Be Russian Violate Japan Airspace » (16 novembre 2026, heure de New York)",
+        "url": "https://www.usnews.com/news/world/articles/2026-11-16/tokyo-lodges-protest-after-aircraft-believed-to-be-russian-violate-japan-airspace"
+      },
+      {
+        "short": "Japan Times",
+        "name": "The Japan Times, « Japan scrambles fighters after suspected Russian military planes enter airspace » (17 novembre 2026)",
+        "url": "https://www.japantimes.co.jp/news/2026/11/17/japan/russia-japan-airspace-violation-defense/"
+      },
+      {
+        "short": "MarketScreener",
+        "name": "MarketScreener, « Japan to propose Asia oil security task force at AZEC Summit, media reports » (17 novembre 2026)",
+        "url": "https://www.marketscreener.com/news/japan-to-propose-asia-oil-security-task-force-at-azec-summit-media-reports-ce785edfdf8cf527"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-coree-du-sud-suneung-lunettes-ia-triche",
+    "date": "2026-11-17",
+    "level": 2,
+    "region": "Asie",
+    "theme": "mix",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "coords": [
+          126.98,
+          37.57
+        ],
+        "name": "Séoul, Corée du Sud",
+        "label": "Corée du Sud"
+      }
+    ],
+    "title": "Corée du Sud : à deux jours du grand examen national, les lunettes de chaque candidat seront contrôlées par peur de la triche à l'IA",
+    "summary": "Jeudi 19 novembre, la Corée du Sud passe le Suneung, l'examen d'entrée à l'université [1]. Les surveillants contrôleront les lunettes de chaque candidat qui en porte avant chaque épreuve, pour repérer des lunettes connectées [1]. Au moins un surveillant formé sera présent dans chacun des 1 300 centres d'examen [3].",
+    "points": [
+      "Les surveillants chercheront aussi des caméras cachées dans les manches, les cols ou les boutons [3].",
+      "Tout appareil connecté est interdit : un candidat pris avec des lunettes à IA verra ses résultats annulés et ne pourra pas repasser l'examen l'an prochain [3].",
+      "Le déclic : le major d'un concours d'expert-comptable fiscal a reconnu avoir photographié les questions avec une mini-caméra, les avoir envoyées à une IA et lu les réponses sur son téléphone [4].",
+      "Une université a aussi découvert des lunettes connectées en salle d'examen, une première détectée ; des experts doutent qu'un simple contrôle visuel suffise [2]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : le Suneung, passé par environ 500 000 jeunes selon un média, décide en grande partie de leur avenir, et l'IA rend la triche plus difficile à voir [2].",
+      "Les autorités reconnaissent ne pas avoir encore de réponse complète aux mini-caméras, preuve que les examens doivent s'adapter vite à ces nouveaux outils [4]."
+    ],
+    "forMe": "Les examens français affrontent le même défi : téléphones, montres et bientôt lunettes connectées. Ce que fait la Corée cette semaine donne une idée des contrôles qui pourraient arriver au bac ou dans les concours.",
+    "figures": [
+      {
+        "src": 3,
+        "value": "1 300",
+        "label": "centres d'examen surveillés"
+      },
+      {
+        "src": 2,
+        "value": "≈ 500 000",
+        "label": "candidats attendus"
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Korea Herald",
+        "name": "The Korea Herald, « S. Korea to inspect every Suneung test-taker's glasses amid smart-glasses cheating fears » (novembre 2026)",
+        "url": "https://www.koreaherald.com/article/10902433"
+      },
+      {
+        "short": "Yahoo News",
+        "name": "Yahoo News, « Students' glasses inspected after AI cheating scandal in South Korea » (16 novembre 2026)",
+        "url": "https://www.yahoo.com/news/world/articles/students-glasses-inspected-ai-cheating-132743263.html"
+      },
+      {
+        "short": "Korea Herald",
+        "name": "The Korea Herald, « Gov't to ban smart devices, deploy extra staff to prevent AI cheating in Suneung » (novembre 2026)",
+        "url": "https://www.koreaherald.com/article/10939565"
+      },
+      {
+        "short": "Korea Herald",
+        "name": "The Korea Herald, « South Korea races to curb AI cheating ahead of college entrance exam » (novembre 2026)",
+        "url": "https://www.koreaherald.com/article/10938746"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-17-inde-bourse-capitaux-etrangers-record-novembre",
+    "date": "2026-11-17",
+    "level": 2,
+    "region": "Asie",
+    "theme": "eco",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "coords": [
+          72.88,
+          19.08
+        ],
+        "name": "Bombay, Inde",
+        "label": "Inde"
+      }
+    ],
+    "title": "Inde : les investisseurs étrangers fuient l'IA et achètent la Bourse de Bombay, près de 9 milliards de dollars en novembre, un record",
+    "summary": "Lundi 16 novembre, l'indice Nifty 50 a gagné 0,58 %, à 25 291 points, et le Sensex 0,63 %, à 82 103 points, une troisième semaine de hausse [2]. Les investisseurs étrangers ont acheté pour 8,9 milliards de dollars d'actions indiennes depuis début novembre, un record mensuel selon le dépositaire NSDL [2].",
+    "points": [
+      "Selon Nikkei Asia, la baisse du pétrole et les résultats des élections américaines de mi-mandat attirent près de 9 milliards de dollars, des investisseurs qui se détournent des valeurs liées à l'IA [1].",
+      "Les banques et sociétés financières mènent la hausse : +1,6 % lundi et +12,6 % sur le mois [2].",
+      "Un autre décompte de Reuters, cité par Finimize, est plus bas : 5,68 milliards de dollars, le plus gros achat mensuel depuis septembre 2024 [4].",
+      "Le Nifty ne perd plus que moins de 3,5 % depuis le 1er janvier [2]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : l'Inde profite du mouvement des investisseurs qui allègent leurs paris sur l'IA, aidés par la baisse du pétrole [1].",
+      "Les stratèges de Jefferies citent aussi une demande intérieure solide et l'idée d'une baisse des impôts sur les actions [2]. Un site de courtage parle d'« inquiétudes mondiales sur l'IA » qui redirigent les achats vers l'Inde [3]."
+    ],
+    "forMe": "Si tu as une assurance-vie ou un plan d'épargne avec des fonds « marchés émergents », l'Inde y pèse lourd : ce retour des capitaux peut se voir sur ton relevé. Pas un conseil d'achat ni de vente.",
+    "figures": [
+      {
+        "src": 2,
+        "value": "8,9 Md$",
+        "label": "achats étrangers nets en novembre, record"
+      },
+      {
+        "src": 2,
+        "value": "+12,6 %",
+        "label": "valeurs financières en novembre"
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Nikkei Asia",
+        "name": "Nikkei Asia, « Indian stocks stage rapid rebound as AI hedge accelerates » (17 novembre 2026)",
+        "url": "https://asia.nikkei.com/business/markets/indian-stocks-stage-rapid-rebound-after-us-midterms"
+      },
+      {
+        "short": "Reuters (Business Recorder)",
+        "name": "Reuters (Business Recorder), « Financials lead Indian shares higher as foreign inflows hit monthly peak » (16 novembre 2026)",
+        "url": "https://www.brecorder.com/news/40449174/financials-lead-indian-shares-higher-as-foreign-inflows-hit-monthly-peak"
+      },
+      {
+        "short": "HDFC Sky",
+        "name": "HDFC Sky, « Sensex Jumps 510 Points, Nifty Nears 25,300 » (16 novembre 2026)",
+        "url": "https://hdfcsky.com/news/market-close-report-today-november-16-2026-nifty-sensex-shine-as-global-ai-jitters-redirect-trade-towards-india"
+      },
+      {
+        "short": "Finimize",
+        "name": "Finimize, « Foreign Money Is Coming Back To Indian Stocks » (novembre 2026)",
+        "url": "https://finimize.com/content/foreign-money-is-coming-back-to-indian-stocks"
       }
     ]
   },
