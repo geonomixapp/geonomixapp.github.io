@@ -2,12 +2,22 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-18",
+    "file": "lettres/2026-11-18.pdf",
+    "titles": [
+      "Nvidia pulvérise les attentes avec 115,8 milliards de dollars de ventes pour ses premiers résultats sans Jensen Huang, au soir d'une séance noire à Wall Street",
+      "Ormuz : les États-Unis frappent l'île iranienne de Qeshm après des drones lancés contre leur base à Bahreïn, le Koweït visé à son tour",
+      "Fonctionnaires : moins de 3 % de grévistes à l'État et 146 000 manifestants selon Beauvau, 500 000 selon la CGT, le gouvernement ne lâche rien sur le point d'indice"
+    ],
+    "fileDark": "lettres/2026-11-18-sombre.pdf"
+  },
+  {
     "date": "2026-11-17",
     "file": "lettres/2026-11-17.pdf",
     "titles": [
+      "Mongolie : accusé d'un pot-de-vin de 25 millions de dollars, le président Khürelsükh annonce sa démission",
       "Ormuz : un troisième porte-avions américain arrive et l'Iran annonce un quatrième pétrolier en feu, mais le Brent chute de 3,6 %",
-      "Wall Street : le Nasdaq chute de 2,5 % et entre en correction, Washington ferme la porte aux puces d'IA louées à distance par la Chine",
-      "Sommet Xi-Trump-Poutine : Pékin promet une rencontre « historique » sur la « paix mondiale », Trump veut parler d'Ukraine malgré ses conseillers"
+      "Wall Street : le Nasdaq chute de 2,5 % et entre en correction, Washington ferme la porte aux puces d'IA louées à distance par la Chine"
     ],
     "fileDark": "lettres/2026-11-17-sombre.pdf"
   },
