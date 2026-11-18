@@ -479,7 +479,6 @@ window.GEOCO.agenda = [
     "place": "Algérie",
     "title": "Algérie : élections communales et de wilayas",
     "why": "Le scrutin renouvelle pour cinq ans les assemblées locales, avec 162 864 candidats recensés par l'autorité électorale, contre 134 140 en 2021 [1][2]. L'opposition dénonce l'écartement de candidats et un boycott exposerait les partis à une dissolution selon la loi de 2026 [1][2].",
-    "news": "2026-11-03-algerie-locales-candidats-invalides",
     "sources": [
       {
         "short": "Jeune Afrique",
