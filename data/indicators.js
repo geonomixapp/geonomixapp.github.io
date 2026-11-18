@@ -7,7 +7,7 @@
 
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.indicators = {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "latest": [
     {
       "group": "Économie",
@@ -1670,6 +1670,11 @@ window.GEOCO.indicators = {
           "short": "Xinhua / BNS",
           "name": "Xinhua, « China's surveyed urban unemployment rate falls to 5.1 pct in October » (16 nov. 2026)",
           "url": "https://english.news.cn/20261116/92d5aecfe5f9488eb6d25917860f592e/c.html"
+        },
+        {
+          "short": "Sharecast (ONS)",
+          "name": "Sharecast, « UK unemployment rate unexpectedly dips to 4.6% » (17 nov. 2026, chiffres de l'ONS)",
+          "url": "https://www.sharecast.com/news/news-and-announcements--/unemployment-labour-ons-vacancies-uk-wage-growth-inflation--24199298.html"
         }
       ],
       "values": {
@@ -2379,9 +2384,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "826": {
-          "v": 4.7,
-          "d": "juin-août 2026",
-          "s": 27
+          "v": 4.6,
+          "d": "juil.-sept. 2026",
+          "s": 32
         },
         "840": {
           "v": 4.1,

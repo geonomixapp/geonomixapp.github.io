@@ -17,6 +17,105 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.news = [
   {
+    "id": "2026-11-17-mongolie-president-demission",
+    "date": "2026-11-17",
+    "breaking": "19:00",
+    "region": "Asie",
+    "theme": "geo",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "coords": [
+          106.92,
+          47.92
+        ],
+        "name": "Oulan-Bator, Mongolie",
+        "label": "Mongolie"
+      }
+    ],
+    "title": "Mongolie : accusé d'un pot-de-vin de 25 millions de dollars, le président Khürelsükh annonce sa démission",
+    "summary": "Mardi 17 novembre, le président mongol Ukhnaagiin Khürelsükh a annoncé qu'il quittait ses fonctions, trois jours après avoir été accusé d'avoir touché 25 millions de dollars liés à un chantier ferroviaire minier. Il nie tout et dit partir pour laisser l'enquête se faire. Le Parlement doit encore accepter sa démission.",
+    "points": [
+      "Ukhnaagiin Khürelsükh a fait l'annonce lors d'une conférence de presse au palais d'État d'Oulan-Bator, en acceptant la demande d'enquête du Parti démocrate, la principale force d'opposition [5][2].",
+      "Il affirme avoir été « faussement accusé de crimes graves » et dit partir pour que les enquêtes établissent la vérité et que son honneur soit rétabli [2][4].",
+      "L'accusation vient de Nyambaatar Khishgee, ancien maire d'Oulan-Bator, qui appartient à une faction rivale du Parti du peuple mongol, le parti au pouvoir dont est issu le président [1].",
+      "Samedi 14 novembre, cet ancien maire a affirmé que Khürelsükh avait reçu 25 millions de dollars en lien avec la ligne ferroviaire Tavantolgoi-Gashuunsukhait, qui transporte le charbon des gisements de Tavan Tolgoi [3][1].",
+      "Le contrat a été attribué en 2019, quand Khürelsükh était Premier ministre, au conglomérat Bodi International, sans appel d'offres selon l'accusation ; le groupe dément avoir versé le moindre pot-de-vin à des responsables [3][1].",
+      "Lundi 16 novembre, les 42 députés du groupe démocrate ont soutenu la création d'une commission d'enquête parlementaire et exigé la publication des contrats de vente de charbon de la compagnie minière publique Erdenes Tavan Tolgoi [3].",
+      "Deux autres responsables cités, le vice-ministre de la Justice et de l'Intérieur et le chef du secrétariat du gouvernement, ont aussi annoncé leur démission, selon l'agence AP [1]."
+    ],
+    "why": [
+      "À retenir : c'est le chef de l'État d'un pays clé pour les matières premières qui tombe sur une affaire de corruption liée au charbon, le cœur de l'économie mongole [3][1].",
+      "La démission n'est pas encore effective : selon la loi sur la présidence, c'est le Grand Khoural d'État, le Parlement de 126 députés, qui décide de l'accepter ; d'ici là, Khürelsükh reste en poste [6]. Le Parlement devait se réunir dans la semaine pour voter, selon AP [1].",
+      "Si elle est acceptée, le président du Parlement, Sandag Byambatsogt, assurera l'intérim, et une élection présidentielle devra être organisée dans les quatre mois, selon l'AFP [2].",
+      "L'affaire s'ajoute à des mois de turbulences politiques, de luttes internes au parti au pouvoir et de manifestations de jeunes contre la corruption et les inégalités [2]. Un expert cité par AP y voit aussi une manœuvre politique qui pourrait permettre à Khürelsükh de briguer plus tard une autre fonction et de soigner son image [1]."
+    ],
+    "forMe": "Pour toi, l'effet direct est faible : la Mongolie pèse peu dans le commerce de la France. Mais c'est un bon exemple de la façon dont les contrats miniers (charbon, cuivre) attirent la corruption dans les pays riches en matières premières, et de la façon dont une enquête peut faire tomber un chef de l'État [3][2]. Surveille le vote du Parlement cette semaine et la date de la présidentielle anticipée [1][2].",
+    "figures": [
+      {
+        "src": 1,
+        "value": "25 millions $",
+        "label": "somme que le président est accusé d'avoir reçue autour d'un contrat ferroviaire"
+      },
+      {
+        "src": 3,
+        "value": "2019",
+        "label": "année du contrat attribué à Bodi International, quand Khürelsükh était Premier ministre"
+      },
+      {
+        "src": 2,
+        "value": "4 mois",
+        "label": "délai pour élire un nouveau président si la démission est acceptée"
+      }
+    ],
+    "next": [
+      {
+        "when": "Cette semaine",
+        "what": "Le Parlement mongol doit voter pour accepter ou non la démission [1][6]."
+      },
+      {
+        "when": "Dans les quatre mois",
+        "what": "Élection présidentielle anticipée si la démission est acceptée [2]."
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "AP",
+        "name": "AP (via ABC News), « Mongolia's president says he will step down after facing accusations of corruption » (17 novembre 2026)",
+        "url": "https://abcnews.com/International/wireStory/mongolias-president-step-after-facing-accusations-corruption-138199346"
+      },
+      {
+        "short": "AFP",
+        "name": "AFP (via La Libre), « Le président mongol annonce sa démission après des accusations de corruption » (17 novembre 2026)",
+        "url": "https://www.lalibre.be/dernieres-depeches/2026/11/17/le-president-mongol-annonce-sa-demission-apres-des-accusations-de-corruption-I4K5PT2V5NBNHDCINL3YYSAKW4/"
+      },
+      {
+        "short": "bne IntelliNews",
+        "name": "bne IntelliNews, « Mongolia's President Khurelsukh to resign over railway bribery claims » (17 novembre 2026)",
+        "url": "https://www.intellinews.com/mongolia-s-president-khurelsukh-to-resign-over-railway-bribery-claims-485678/"
+      },
+      {
+        "short": "Anadolu",
+        "name": "Anadolu, « Mongolian president says he will step down amid corruption allegations » (17 novembre 2026)",
+        "url": "https://aa.com.tr/en/eurasia/mongolian-president-says-he-will-step-down-amid-corruption-allegations/4127270"
+      },
+      {
+        "short": "Inquirer (AFP)",
+        "name": "Inquirer, « Mongolia president announces resignation after graft accusations » (17 novembre 2026)",
+        "url": "https://globalnation.inquirer.net/348433/mongolia-president-announces-resignation-after-graft-accusations"
+      },
+      {
+        "short": "Tempo",
+        "name": "Tempo, « Mongolian President Khurelsukh to Resign amid Corruption Allegations » (17 novembre 2026)",
+        "url": "https://en.tempo.co/read/2123814/mongolian-president-khurelsukh-to-resign-amid-corruption-allegations"
+      }
+    ]
+  },
+  {
     "id": "2026-11-17-ormuz-troisieme-porte-avions-quatrieme-petrolier",
     "date": "2026-11-17",
     "region": "Moyen-Orient",
