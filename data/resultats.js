@@ -21,29 +21,33 @@ window.GEOCO.resultats = [
     time: "close",
     period: "T3 de l'exercice 2027 (août-octobre 2026)",
     lines: [
-      { label: "Chiffre d'affaires", unit: "Md$", exp: 108.8, src: 1 },
-      { label: "Bénéfice par action ajusté", unit: "$", exp: 2.49, src: 2 }
+      { label: "Chiffre d'affaires", unit: "Md$", exp: 108.8, act: 115.8, src: 1 },
+      { label: "Bénéfice par action ajusté", unit: "$", exp: 2.49, act: 2.68, src: 2 },
+      { label: "Objectif de chiffre d'affaires au T4", unit: "Md$", exp: 125, act: 130, src: 5 }
     ],
-    guidance: { dir: "attendu", text: "Nvidia s'était fixé 108 milliards de dollars de chiffre d'affaires pour ce trimestre, à 2 % près, avec une marge brute visée de 74 % [1]." },
-    summary: "Le premier rendez-vous de Nvidia sans Jensen Huang : le fondateur a quitté la direction le 12 novembre, et la directrice financière Colette Kress assure l'intérim [3][4].",
+    verdict: "mieux",
+    guidance: { dir: "releve", text: "Nvidia vise 130 milliards de dollars de chiffre d'affaires au trimestre suivant, à 3 % près, sans compter aucune vente de puces pour centres de données en Chine [7], au-dessus des quelque 125 milliards attendus [5]. La marge brute visée recule à 71-72 %, contre 74,8 % ce trimestre [7], et la croissance attendue pour l'exercice 2028 passe à environ 75 %, contre 70 % auparavant [4][6]." },
+    move: { value: "+4 %", text: "dans les échanges après la clôture selon CNBC [6], plus de 3 % selon Zonebourse [4]" },
+    summary: "Pour son premier trimestre sans Jensen Huang, Nvidia pulvérise les attentes avec un chiffre d'affaires doublé sur un an et un objectif de 130 milliards de dollars pour le trimestre suivant [3][4][7].",
     points: [
-      "Les analystes attendent un peu plus que l'objectif de l'entreprise : environ 108,8 milliards de dollars de chiffre d'affaires selon MarketBeat, et un bénéfice par action ajusté d'environ 2,49 dollars selon Zacks (13 estimations, de 2,34 à 2,70 dollars) [1][2].",
-      "Nvidia a dépassé le consensus de Zacks lors de chacun de ses quatre derniers trimestres [2] : un résultat seulement « dans la fourchette » pourrait donc décevoir.",
-      "Le chiffre le plus regardé sera l'objectif du trimestre suivant, qui dit si la demande de puces pour l'intelligence artificielle continue d'accélérer [1].",
-      "Selon LSEG, cité par Boursorama, le consensus vise environ 109 milliards de dollars de chiffre d'affaires [5].",
-      "Les banques sont partagées : Wedbush s'attend à un chiffre d'affaires au-dessus des prévisions et à de solides perspectives pour le trimestre suivant [6], RBC parle d'une demande « robuste » [7], tandis que Bernstein a abaissé son opinion à « neutre » [8].",
-      "Le titre a perdu plus de 30 % depuis son plus haut historique, surtout par crainte d'un ralentissement des centres de données d'IA [8].",
-      "Le conseil d'administration a annoncé le départ de Jensen Huang, PDG et membre du conseil, avec effet immédiat, et nommé Harvey C. Jones premier président du conseil [3]. L'action a perdu jusqu'à 13 % après l'annonce avant de se reprendre en partie [4]."
+      "Chiffre d'affaires de 115,8 milliards de dollars, en hausse de 103 % sur un an et de 20 % sur un trimestre [3], contre environ 108,8 milliards attendus selon MarketBeat et 109,1 milliards selon LSEG [1][6].",
+      "Les centres de données, où Nvidia vend ses puces pour l'intelligence artificielle, pèsent 107,6 milliards de dollars, en hausse de 110 % sur un an [3].",
+      "Le bénéfice par action ajusté ressort à 2,68 dollars, contre 2,49 dollars attendus selon Zacks et 2,48 dollars selon LSEG ; selon les normes comptables américaines (GAAP), il est de 2,70 dollars [3][2][6].",
+      "L'objectif du quatrième trimestre, 130 milliards de dollars à 3 % près, dépasse les quelque 125 milliards attendus, même sans la Chine [5][7]. Nvidia ajoute aussi 150 milliards de dollars à son programme de rachat d'actions [9].",
+      "C'est la directrice financière Colette Kress, patronne par intérim depuis le départ de Jensen Huang le 12 novembre, qui a présenté les comptes [4][10]. Le titre avait reculé d'environ 25 % en novembre avant la publication [8]."
     ],
     sources: [
       { short: "Yahoo Finance", name: "Yahoo Finance (Barchart), « What to Expect From NVIDIA's Next Quarterly Earnings Report », nov. 2026", url: "https://finance.yahoo.com/markets/stocks/articles/expect-nvidias-next-quarterly-earnings-151739351.html" },
       { short: "Zacks", name: "Zacks via TradingView, « NVIDIA Gears Up for Q3 Earnings », nov. 2026", url: "https://www.tradingview.com/news/zacks:58c899221094b:0-nvidia-gears-up-for-q3-earnings-should-investors-buy-the-stock/" },
+      { short: "Nvidia", name: "Nvidia, « NVIDIA Announces Financial Results for Third Quarter Fiscal 2027 » (communiqué), 17 nov. 2026", url: "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027" },
+      { short: "Zonebourse", name: "Zonebourse, « Dans la tourmente, Nvidia publie des résultats rutilants, prévisions relevées », 17 nov. 2026", url: "https://www.zonebourse.com/actualite-bourse/dans-la-tourmente-nvidia-publie-des-resultats-rutilants-previsions-relevees-ce785edcdf8ff423" },
+      { short: "Yahoo Finance", name: "Yahoo Finance France, « Le dernier trimestre de Jensen Huang dépasse les prévisions : l'action Nvidia peut-elle rebondir sans lui ? », 17 nov. 2026", url: "https://fr.finance.yahoo.com/actualites/dernier-trimestre-jensen-huang-d%C3%A9passe-214126235.html" },
+      { short: "CNBC", name: "CNBC, « Stock futures rise as Nvidia gains on earnings beat and solid outlook: Live updates », 17 nov. 2026", url: "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html" },
+      { short: "Stock Titan", name: "Stock Titan, « NVIDIA expects $130 billion, plus or minus 3%, next quarter and assumes no data center compute revenue from China », 17 nov. 2026", url: "https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-third-quarter-fiscal-fpx9dw5egxqa.html" },
+      { short: "Investing.com", name: "Investing.com France, « Les futures américains bondissent après les résultats de Nvidia », 17 nov. 2026", url: "https://fr.investing.com/news/stock-market-news/les-futures-americains-bondissent-apres-les-resultats-de-nvidia-3701486" },
+      { short: "CoinDesk", name: "CoinDesk, « Nvidia shares rise after big earnings beat, 2028 outlook raise despite leadership uncertainty », 17 nov. 2026", url: "https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization" },
       { short: "Nvidia", name: "Nvidia, « NVIDIA Announces CEO Transition » (communiqué), 12 nov. 2026", url: "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition" },
-      { short: "Al Jazeera", name: "Al Jazeera, « Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress? », 12 nov. 2026", url: "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress" },
-      { short: "Boursorama", name: "Boursorama (Reuters), « La semaine à venir à Wall Street : les résultats de Nvidia et l'introduction en bourse d'Anthropic… », 13 nov. 2026", url: "https://www.boursorama.com/bourse/actualites/la-semaine-a-venir-a-wall-street-les-resultats-de-nvidia-et-l-introduction-en-bourse-d-anthropic-mettent-a-l-epreuve-un-secteur-de-l-ia-en-pleine-effervescence-9d0368751163fed3759e651cd72c6849" },
-      { short: "Zonebourse", name: "Zonebourse, « Nvidia devrait dépasser les prévisions de chiffre d'affaires trimestriel… selon Wedbush », nov. 2026", url: "https://www.zonebourse.com/actualite-bourse/nvidia-devrait-depasser-les-previsions-de-chiffre-da-affaires-trimestriel-les-investisseurs-reagis-ce785ed9d18ef625" },
-      { short: "Zonebourse", name: "Zonebourse, « La demande « robuste » de Nvidia soutient de solides perspectives trimestrielles, selon RBC », nov. 2026", url: "https://www.zonebourse.com/actualite-bourse/la-demande-robuste-de-nvidia-soutient-de-solides-perspectives-trimestrielles-selon-rbc-ce785fd3df8ef627" },
-      { short: "Zonebourse", name: "Zonebourse, « Le PER de Nvidia tombe à son plus bas niveau en 14 ans, mais le départ du directeur général… », 12 nov. 2026", url: "https://www.zonebourse.com/actualite-bourse/le-per-de-nvidia-tombe-a-son-plus-bas-niveau-en-14-ans-mais-le-depart-du-directeur-general-et-les-i-ce785ed8d080f72d" }
+      { short: "Boursorama", name: "Boursorama (Reuters), « La semaine à venir à Wall Street : les résultats de Nvidia et l'introduction en bourse d'Anthropic… », 13 nov. 2026", url: "https://www.boursorama.com/bourse/actualites/la-semaine-a-venir-a-wall-street-les-resultats-de-nvidia-et-l-introduction-en-bourse-d-anthropic-mettent-a-l-epreuve-un-secteur-de-l-ia-en-pleine-effervescence-9d0368751163fed3759e651cd72c6849" }
     ]
   },
   {
@@ -56,19 +60,29 @@ window.GEOCO.resultats = [
     time: "open",
     period: "T3 2026",
     lines: [
-      { label: "Chiffre d'affaires", unit: "Md$", exp: 42.8, src: 1 },
-      { label: "Bénéfice par action", unit: "$", exp: 3.84, src: 1 }
+      { label: "Chiffre d'affaires", unit: "Md$", exp: 42.8, act: 43.4, src: 1 },
+      { label: "Bénéfice par action ajusté", unit: "$", exp: 3.84, act: 3.86, prev: 3.74, src: 4 }
     ],
-    summary: "Le géant américain du bricolage donne des nouvelles du marché du logement : quand peu de maisons se vendent, les gros chantiers de rénovation se font attendre [2].",
+    verdict: "mieux",
+    guidance: { dir: "maintenu", text: "Home Depot resserre ses objectifs annuels sans les relever : environ 4,5 % de croissance des ventes (contre 2,5 à 4,5 % avant), environ 1,4 % pour les ventes à magasins comparables (contre 0 à 2 %) et environ 2 % de hausse du bénéfice par action ajusté (contre 0 à 4 %) [6][4]. Un objectif de bénéfice jugé sous les attentes de Wall Street [6]." },
+    move: { value: "−3 %", text: "l'action a perdu plus de 3 % après l'annonce selon CNBC [4], après un recul d'environ 2 % avant l'ouverture selon Boursorama (Reuters) [5]" },
+    summary: "Home Depot bat de peu les attentes grâce à ses meilleures ventes comparables en quatre ans, mais un objectif de bénéfice prudent et la nomination d'un nouveau patron font reculer l'action [3][4][6].",
     points: [
-      "Les analystes attendent 3,84 dollars de bénéfice par action (+2,7 % sur un an) pour 42,8 milliards de dollars de chiffre d'affaires (+3,4 %) [1]. Zacks est un peu plus prudent, à 3,81 dollars [2].",
-      "Tant que les ventes de logements ne repartent pas, la demande devrait rester tournée vers les petits travaux, ce qui limite les gros achats de rénovation [2].",
-      "Résultats publiés avant l'ouverture de Wall Street, conférence à 9 h, heure de New York [3]."
+      "Chiffre d'affaires de 43,4 milliards de dollars, en hausse de 4,9 % sur un an [3], contre 42,8 milliards attendus selon MarketBeat et 42,72 milliards selon Zacks [1][7].",
+      "Le bénéfice par action ajusté ressort à 3,86 dollars, contre 3,84 dollars attendus et 3,74 dollars un an plus tôt ; selon les normes comptables américaines (GAAP), il est de 3,72 dollars, contre 3,62 [3][4]. Zacks, qui attendait 3,81 dollars, parle de résultat « conforme » [2][7].",
+      "Les ventes à magasins comparables progressent de 2,2 %, la meilleure hausse en quatre ans selon le groupe : moins de passages en caisse (−0,5 %), mais un panier moyen en hausse de 3 % [3]. Les ventes en ligne comparables gagnent environ 13 % [4].",
+      "Le directeur financier Richard McPhail est nommé directeur général ; Ann-Marie Campbell devient présidente et directrice des opérations, et Jordan Broggi remplace Richard McPhail aux finances [5][8].",
+      "Les objectifs annuels sont resserrés : ventes au plus haut de l'ancienne fourchette, mais ventes comparables et bénéfice au milieu, ce qui a déçu les investisseurs [6][4]."
     ],
     sources: [
       { short: "MarketBeat", name: "MarketBeat, « Home Depot (HD) Set to Post Earnings on Tuesday », 10 nov. 2026", url: "https://www.marketbeat.com/instant-alerts/upcoming-home-depot-hd-set-to-post-earnings-on-tuesday-2026-11-10/" },
       { short: "Yahoo Finance", name: "Yahoo Finance (Zacks), « Home Depot Pre-Q3 Earnings: Should You Buy or Stay Cautious? », nov. 2026", url: "https://finance.yahoo.com/markets/stocks/articles/home-depot-pre-q3-earnings-135400927.html" },
-      { short: "Home Depot", name: "Home Depot, relations investisseurs, « Events & Presentations »", url: "https://ir.homedepot.com/events-and-presentations" }
+      { short: "Home Depot", name: "Home Depot, « The Home Depot Announces Third Quarter Fiscal 2026 Results; Updates Fiscal 2026 Guidance » (communiqué), 17 nov. 2026", url: "https://ir.homedepot.com/news-releases/2026/11-17-2026-110221331" },
+      { short: "CNBC", name: "CNBC, « Home Depot names Richard McPhail as new CEO, beats earnings expectations », 17 nov. 2026", url: "https://www.cnbc.com/2026/11/17/home-depot-hd-q3-earnings-2026.html" },
+      { short: "Boursorama", name: "Boursorama (Reuters), « Home Depot nomme McPhail, un cadre de l'entreprise, au poste de directeur général dans un contexte de faiblesse des dépenses de consommation », 17 nov. 2026", url: "https://www.boursorama.com/bourse/actualites/home-depot-nomme-mcphail-un-cadre-de-l-entreprise-au-poste-de-directeur-general-dans-un-contexte-de-faiblesse-des-depenses-de-consommation-ecf4dbb667b6d1ad6fd85a1057fdfcf5" },
+      { short: "Benzinga", name: "Benzinga, « Why Is Home Depot Stock Falling Tuesday? », 17 nov. 2026", url: "https://www.benzinga.com/markets/earnings/26/11/63340816/home-depot-taps-cfo-richard-mcphail-to-lead-narrows-profit-outlook" },
+      { short: "Yahoo Finance", name: "Yahoo Finance (Zacks), « Home Depot Q3 Earnings Meet Estimates, Sales Beat on Comps Growth », 17 nov. 2026", url: "https://finance.yahoo.com/markets/stocks/articles/home-depot-q3-earnings-meet-154400748.html" },
+      { short: "Investing.com", name: "Investing.com France, « Home Depot nomme son directeur financier McPhail comme prochain PDG », 17 nov. 2026", url: "https://fr.investing.com/news/earnings/home-depot-nomme-son-directeur-financier-mcphail-comme-prochain-pdg-3699918" }
     ]
   },
   {
