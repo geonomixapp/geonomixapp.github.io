@@ -7,7 +7,7 @@
 
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.indicators = {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "latest": [
     {
       "group": "Économie",
@@ -555,6 +555,21 @@ window.GEOCO.indicators = {
           "short": "Trading Economics / SSB",
           "name": "Trading Economics, « Norway Inflation Rate Hits 7-Month High » (oct. 2026, publication de Statistics Norway du 10 nov. 2026)",
           "url": "https://tradingeconomics.com/norway/inflation-cpi/news/599879"
+        },
+        {
+          "short": "ONS",
+          "name": "ONS, Consumer price inflation, UK: October 2026 (18 nov. 2026 : 3,6 % sur un an)",
+          "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026"
+        },
+        {
+          "short": "BNN Bloomberg (Statistique Canada)",
+          "name": "BNN Bloomberg (La Presse canadienne), « Higher gas, grocery prices keep inflation elevated at 3.1% » (Statistique Canada, 16 nov. 2026)",
+          "url": "https://bnnbloomberg.ca/business/economics/2026/11/16/higher-gas-grocery-prices-keep-inflation-elevated-at-31-despite-relief-elsewhere/"
+        },
+        {
+          "short": "Stats SA",
+          "name": "Statistics South Africa, « Consumer inflation rises to 5,2% in October 2026 » (18 nov. 2026)",
+          "url": "https://www.statssa.gov.za/?p=20108"
         }
       ],
       "values": {
@@ -590,8 +605,8 @@ window.GEOCO.indicators = {
         },
         "124": {
           "v": 3.1,
-          "d": "sept. 2026",
-          "s": 40
+          "d": "oct. 2026",
+          "s": 53
         },
         "132": {
           "v": 0.8,
@@ -1219,9 +1234,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "710": {
-          "v": 4.4,
-          "d": "août 2026",
-          "s": 1
+          "v": 5.2,
+          "d": "oct. 2026",
+          "s": 54
         },
         "716": {
           "v": 3.7,
@@ -1324,9 +1339,9 @@ window.GEOCO.indicators = {
           "s": 39
         },
         "826": {
-          "v": 3.5,
-          "d": "sept. 2026",
-          "s": 29
+          "v": 3.6,
+          "d": "oct. 2026",
+          "s": 52
         },
         "834": {
           "v": 4.3,
@@ -1675,6 +1690,16 @@ window.GEOCO.indicators = {
           "short": "Sharecast (ONS)",
           "name": "Sharecast, « UK unemployment rate unexpectedly dips to 4.6% » (17 nov. 2026, chiffres de l'ONS)",
           "url": "https://www.sharecast.com/news/news-and-announcements--/unemployment-labour-ons-vacancies-uk-wage-growth-inflation--24199298.html"
+        },
+        {
+          "short": "ABS",
+          "name": "Australian Bureau of Statistics, « Unemployment rate at 4.7% in September » (15 oct. 2026)",
+          "url": "https://www.abs.gov.au/media-centre/media-releases/unemployment-rate-47-september"
+        },
+        {
+          "short": "SAnews (Stats SA)",
+          "name": "SAnews (agence gouvernementale sud-africaine), « Unemployment marginally increases in third quarter » (enquête QLFS de Stats SA, 10 nov. 2026 : 33,7 %)",
+          "url": "https://www.sanews.gov.za/node/85558"
         }
       ],
       "values": {
@@ -2289,9 +2314,9 @@ window.GEOCO.indicators = {
           "s": 20
         },
         "710": {
-          "v": 33.6,
-          "d": "T2 2026",
-          "s": 1
+          "v": 33.7,
+          "d": "T3 2026",
+          "s": 34
         },
         "716": {
           "v": 9.3,
@@ -2519,9 +2544,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "036": {
-          "v": 4.6,
-          "d": "août 2026",
-          "s": 5
+          "v": 4.7,
+          "d": "sept. 2026",
+          "s": 33
         }
       }
     },

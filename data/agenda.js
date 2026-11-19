@@ -30,27 +30,6 @@ window.GEOCO.agenda = [
     ]
   },
   {
-    "id": "2026-11-18-royaume-uni-inflation-octobre",
-    "date": "2026-11-18",
-    "theme": "eco",
-    "region": "Europe",
-    "place": "Londres",
-    "title": "Royaume-Uni : inflation d'octobre",
-    "why": "L'ONS publie l'inflation d'octobre, après 3,5 % en septembre (contre 3,1 % en août), tirée par les carburants (+29,8 % sur un an) [1][2]. Elle arrive deux semaines après la décision de la Banque d'Angleterre et pèsera sur la suivante.",
-    "sources": [
-      {
-        "short": "ONS",
-        "name": "Office for National Statistics, « Consumer price inflation, UK: September 2026 » (prochaine publication : 18 novembre)",
-        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/september2026"
-      },
-      {
-        "short": "Commons Library",
-        "name": "House of Commons Library, « Inflation in the UK: Economic indicators »",
-        "url": "https://commonslibrary.parliament.uk/research-briefings/sn02792/"
-      }
-    ]
-  },
-  {
     "id": "2026-11-18-apec-shenzhen-sommet",
     "date": "2026-11-18",
     "end": "2026-11-19",
@@ -70,80 +49,6 @@ window.GEOCO.agenda = [
         "short": "CGTN",
         "name": "CGTN, « 2026 APEC CEO Summit to be held on Nov 17-18 in China's Shenzhen »",
         "url": "https://news.cgtn.com/news/2026-09-10/2026-APEC-CEO-Summit-to-be-held-on-Nov-17-18-in-China-s-Shenzhen-1QkpMIz9M2s/p.html"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-18-fed-compte-rendu-reunion-octobre",
-    "date": "2026-11-18",
-    "theme": "fin",
-    "region": "Amériques",
-    "place": "Washington",
-    "title": "La Fed publie le compte rendu de sa réunion d'octobre",
-    "why": "Les minutes de la réunion des 27 et 28 octobre sortent à 14 h (heure de New York) [1]. Elles montrent combien de membres du comité voulaient déjà relever les taux, donc si la hausse de décembre est solide ou fragile ; les marchés d'actions, d'obligations et le dollar peuvent bouger.",
-    "sources": [
-      {
-        "short": "Réserve fédérale",
-        "name": "Réserve fédérale, calendrier de novembre 2026 (compte rendu de la réunion des 27-28 octobre)",
-        "url": "https://www.federalreserve.gov/newsevents/2026-november.htm"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-18-france-senat-vote-budget-secu",
-    "date": "2026-11-18",
-    "theme": "eco",
-    "region": "Europe",
-    "place": "Paris, France",
-    "title": "Vote solennel du Sénat sur le budget de la Sécurité sociale 2027",
-    "why": "La majorité sénatoriale veut y rétablir la réforme des retraites à 64 ans et relever à 1 500 euros le seuil de gel des pensions, avant le retour du texte devant les députés [1].",
-    "sources": [
-      {
-        "short": "NosParlementaires",
-        "name": "NosParlementaires, « Gel des pensions 2027 : le Sénat veut un seuil à 1 500 euros » (11/2026)",
-        "url": "https://nosparlementaires.fr/actualites/gel-pensions-senat-1500-euros-reforme-retraites-plfss-2027"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-14-indonesie-banque-centrale-taux",
-    "date": "2026-11-18",
-    "theme": "eco",
-    "region": "Asie",
-    "place": "Jakarta, Indonésie",
-    "title": "Indonésie : la banque centrale décide de son taux",
-    "why": "Bank Indonesia réunit son conseil les 17 et 18 novembre et annonce sa décision le second jour [1]. En octobre, elle avait laissé son taux directeur à 5,75 % mais relevé le taux de sa facilité de dépôt à 5 % pour soutenir la roupie [2] : un nouveau resserrement dirait que la pression sur la monnaie ne faiblit pas.",
-    "sources": [
-      {
-        "short": "Bisnis.com",
-        "name": "Bisnis.com, « Jadwal Rapat Dewan Gubernur (RDG) Bank Indonesia 2026, Ini Daftar Lengkap Tanggal Resminya »",
-        "url": "https://finansial.bisnis.com/read/20251222/11/1938911/jadwal-rapat-dewan-gubernur-rdg-bank-indonesia-2026-ini-daftar-lengkap-tanggal-resminya"
-      },
-      {
-        "short": "Bank Indonesia",
-        "name": "Bank Indonesia, « BI Rate Held at 5.75 percent: Strengthening Stability, Supporting Economic Growth » (octobre 2026)",
-        "url": "https://www.bi.go.id/en/iru/highlight-news/Pages/BI-Rate-Held-at-5.75-percent--Strengthening-Stability,-Supporting-Economic-Growth.aspx"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-14-zone-euro-inflation-octobre-finale",
-    "date": "2026-11-18",
-    "theme": "eco",
-    "region": "Europe",
-    "place": "Luxembourg",
-    "title": "Zone euro : chiffre définitif de l'inflation d'octobre",
-    "why": "Eurostat confirme ou corrige son estimation rapide [1], qui avait donné 4 % sur un an en octobre, un rythme attendu par les économistes [2]. Le détail par pays et par produit (énergie, alimentation, services) pèsera sur la décision de la BCE du 17 décembre.",
-    "sources": [
-      {
-        "short": "Eurostat",
-        "name": "Eurostat, calendrier des indicateurs européens",
-        "url": "https://ec.europa.eu/eurostat/en/news/euro-indicators"
-      },
-      {
-        "short": "FXStreet",
-        "name": "FXStreet, « Eurozone flash HICP grows faster by 4% YoY in October, as expected » (4 novembre 2026)",
-        "url": "https://www.fxstreet.com/news/eurozone-flash-hicp-grows-faster-by-4-yoy-in-october-as-expected-202611041002"
       }
     ]
   },
@@ -812,6 +717,27 @@ window.GEOCO.agenda = [
         "short": "Advisor.ca",
         "name": "Advisor.ca, « Bank of Canada delivers 1st hike in three years »",
         "url": "https://www.advisor.ca/economy/policy/bank-of-canada-delivers-1st-hike-in-three-years/"
+      }
+    ]
+  },
+  {
+    "id": "2026-12-09-france-senat-vote-budget-2027",
+    "date": "2026-12-09",
+    "theme": "eco",
+    "region": "Europe",
+    "place": "Paris, France",
+    "title": "France : le Sénat vote le budget de l'État pour 2027",
+    "why": "Rejeté à l'unanimité par les députés le 4 novembre (458 voix contre), le projet de loi de finances arrive au Sénat dans sa version initiale : l'examen en séance commence le 20 novembre et le vote sur l'ensemble est fixé au mercredi 9 décembre [1][2]. Suivra une commission mixte paritaire mi-décembre, avant la date limite constitutionnelle du 17 décembre, au-delà de laquelle le gouvernement pourrait procéder par ordonnances [1] : un enjeu pour le déficit et la note de la dette française.",
+    "sources": [
+      {
+        "short": "NosParlementaires",
+        "name": "NosParlementaires, « Vote du budget 2027 : dates, rejet 458-0, le Sénat le 9 décembre » (nov. 2026)",
+        "url": "https://nosparlementaires.fr/actualites/budget-2027-calendrier-assemblee-cinq-semaines"
+      },
+      {
+        "short": "LCP",
+        "name": "LCP Assemblée nationale, « Budget 2027 rejeté : quelles sont les prochaines étapes au Parlement ? » (nov. 2026)",
+        "url": "https://lcp.fr/actualites/budget-2027-rejete-quelles-sont-les-prochaines-etapes-au-parlement-444753"
       }
     ]
   },
