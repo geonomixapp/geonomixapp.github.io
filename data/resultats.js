@@ -212,23 +212,27 @@ window.GEOCO.resultats = [
     date: "2026-11-18",
     period: "T1 de l'exercice 2027 (août-octobre 2026)",
     lines: [
-      { label: "Chiffre d'affaires", unit: "Md$", exp: 3.31, src: 2 },
-      { label: "Bénéfice par action ajusté", unit: "$", exp: 0.97, src: 2 }
+      { label: "Chiffre d'affaires", unit: "Md$", exp: 3.31, act: 3.44, src: 6 },
+      { label: "Bénéfice par action ajusté", unit: "$", exp: 0.97, act: 1.05, src: 6 },
+      { label: "ARR « nouvelle génération »", unit: "Md$", act: 9.73, src: 6 }
     ],
-    guidance: { dir: "attendu", text: "Palo Alto s'était fixé 3,30 à 3,31 milliards de dollars de chiffre d'affaires et 0,96 à 0,98 dollar de bénéfice par action ajusté, avec des revenus récurrents annuels (ARR) « nouvelle génération » de 9,54 à 9,56 milliards de dollars (+63 %) ; pour l'exercice, 14,1 à 14,2 milliards de dollars de chiffre d'affaires [2][3]." },
-    summary: "Le numéro un mondial de la cybersécurité doit prouver que l'IA dope ses ventes, alors que son action a reculé de 27 % depuis son plus haut [3][4].",
+    verdict: "mieux",
+    guidance: { dir: "maintenu", text: "Pour l'exercice 2027, Palo Alto maintient son objectif de 14,10 à 14,20 milliards de dollars de chiffre d'affaires, la fourchette déjà donnée en septembre [6][2]." },
+    summary: "Le numéro un mondial de la cybersécurité dépasse ses propres objectifs : 3,44 milliards de dollars de ventes (+39 % sur un an) et 1,05 dollar de bénéfice par action ajusté, contre 0,97 attendu, et annonce le rachat d'Applied Compute dans l'IA [6].",
     points: [
-      "Le consensus se situe dans la fourchette de l'entreprise, à 3,31 milliards de dollars et 0,97 dollar par action, selon Earnings Whispers et TIKR [2][3] ; FXEmpire, sur 37 analystes, attend plus : 0,99 dollar et 3,37 milliards [5].",
-      "Le consensus est tout en haut de la fourchette de chiffre d'affaires, ce qui laisse peu de marge [2] ; l'exercice 2026 avait profité d'un gros client d'IA migrant vers Chronosphere, un apport qui s'arrête ce trimestre [2].",
-      "Les marges seront scrutées : la marge brute ajustée a reculé d'environ un point, à 74,8 %, au trimestre précédent, et le directeur financier prévient que les coûts d'hébergement dans le cloud vont croître plus vite que le chiffre d'affaires [3].",
-      "Date annoncée par l'entreprise le 3 novembre : le mercredi 18 novembre, communiqué publié avant la conférence en ligne [1]."
+      "Chiffre d'affaires de 3,44 milliards de dollars, en hausse de 39 % sur un an, au-dessus de la fourchette de 3,30 à 3,31 milliards que l'entreprise s'était fixée [6] et du consensus de 3,31 milliards [2].",
+      "Bénéfice par action ajusté de 1,05 dollar, contre 0,97 attendu selon Earnings Whispers [6][2] ; en normes comptables américaines (GAAP), le bénéfice net atteint 482 millions de dollars, soit 0,57 dollar par action [6].",
+      "Les revenus récurrents annuels (ARR) « nouvelle génération » progressent de 66 %, à 9,73 milliards de dollars, au-dessus de l'objectif de 9,54 à 9,56 milliards [6].",
+      "Le carnet de commandes restant à facturer (RPO) augmente de 35 %, à 21,0 milliards de dollars [6].",
+      "Palo Alto annonce son intention de racheter Applied Compute, une plateforme qui sert à entraîner et faire tourner des modèles d'IA ouverts [6]. La réaction de l'action n'a pas pu être confirmée par une source fiable au moment de la rédaction."
     ],
     sources: [
       { short: "Palo Alto Networks", name: "Palo Alto Networks (PR Newswire via Finviz), « Palo Alto Networks to Announce Fiscal First Quarter 2027 Financial Results on Wednesday, November 18, 2026 », 3 nov. 2026", url: "https://finviz.com/news/414245/palo-alto-networks-to-announce-fiscal-first-quarter-2027-financial-results-on-wednesday-november-18-2026" },
       { short: "Earnings Whispers", name: "Earnings Whispers, aperçu des résultats de Palo Alto Networks, nov. 2026", url: "https://www.earningswhispers.com/article/PANW/23140" },
       { short: "TIKR", name: "TIKR, « Palo Alto Networks Is Down 27% From Its High: Is It Time to Sell, or Load Up? », nov. 2026", url: "https://www.tikr.com/blog/palo-alto-networks-is-down-27-from-its-high-is-it-time-to-sell-or-load-up" },
       { short: "Finviz", name: "Finviz, « Palo Alto Networks faces a credibility test as stock lags its upbeat AI security story », nov. 2026", url: "https://finviz.com/news/420783/palo-alto-networks-faces-a-credibility-test-as-stock-lags-its-upbeat-ai-security-story" },
-      { short: "FXEmpire", name: "FXEmpire, « Palo Alto Networks (PANW) Earnings »", url: "https://www.fxempire.com/stocks/panw/earnings" }
+      { short: "FXEmpire", name: "FXEmpire, « Palo Alto Networks (PANW) Earnings »", url: "https://www.fxempire.com/stocks/panw/earnings" },
+      { short: "Palo Alto Networks (SEC)", name: "Palo Alto Networks, communiqué des résultats du premier trimestre de l'exercice 2027, annexe 99.1 du formulaire 8-K déposé à la SEC, nov. 2026", url: "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000030/ex991q127earningsrelease.htm" }
     ]
   },
   {

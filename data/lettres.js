@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-19",
+    "file": "lettres/2026-11-19.pdf",
+    "titles": [
+      "Sommet à trois de Shenzhen : Xi accueille Trump sur le tarmac après avoir promis avec Poutine de « mener » un monde multipolaire, Washington n'attend « aucun accord »",
+      "Ormuz : un navire émirati touché, un marin disparu et 11 blessés, l'Iran pilonne le Koweït et Bahreïn, mais le Brent glisse vers 92 dollars",
+      "Ukraine : Bruxelles relance la dette commune avec un prêt de 45 milliards d'euros, quatre pays disent non, le jour où les émissaires de Trump arrivent à Berlin"
+    ],
+    "fileDark": "lettres/2026-11-19-sombre.pdf"
+  },
+  {
     "date": "2026-11-18",
     "file": "lettres/2026-11-18.pdf",
     "titles": [

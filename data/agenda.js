@@ -38,7 +38,7 @@ window.GEOCO.agenda = [
     "place": "Shenzhen",
     "title": "Sommet des dirigeants de l'APEC à Shenzhen",
     "why": "Le 33e sommet de la coopération économique Asie-Pacifique se tient en Chine les 18 et 19 novembre, précédé du sommet des chefs d'entreprise les 17 et 18 [1][2]. Il réunit les économies de la région autour du commerce, et peut être le cadre de rencontres entre dirigeants sur les droits de douane et les chaînes d'approvisionnement.",
-    "news": "2026-11-04-chine-canada-commerce-pekin-changhai",
+    "news": "2026-11-19-sommet-xi-trump-poutine-shenzhen",
     "sources": [
       {
         "short": "Shenzhen",
@@ -646,7 +646,7 @@ window.GEOCO.agenda = [
     "place": "Washington, États-Unis",
     "title": "Réunion de la Fed : hausse de taux envisagée",
     "why": "Les marchés donnent plus de 80 % de chances à une hausse de 0,25 point [1][2]. Cela renchérirait le dollar et le crédit dans le monde.",
-    "news": "2026-11-04-etats-unis-emploi-jolts-fed-hausse",
+    "news": "2026-11-19-fed-compte-rendu-waller-unitedhealth",
     "sources": [
       {
         "short": "CNBC",
@@ -934,7 +934,7 @@ window.GEOCO.agenda = [
     "place": "Bogotá",
     "title": "Colombie : fin de la session du Congrès, date limite pour la loi de sauvetage budgétaire",
     "why": "Les sessions ordinaires du Congrès colombien s'achèvent le 16 décembre, et le gouvernement veut que la loi de sauvetage économique soit votée avant la fin de l'année [1][2]. Sans vote, le vice-président Restrepo avertit que le pays pourrait entrer en défaut en 2027.",
-    "news": "2026-11-04-colombie-defaut-2027-loi-sauvetage",
+    "news": "2026-11-19-colombie-greve-nationale",
     "sources": [
       {
         "short": "Rio Times",
@@ -1050,7 +1050,6 @@ window.GEOCO.agenda = [
     "place": "Ganqimaodu, frontière Chine-Mongolie",
     "title": "Fin possible des travaux au poste frontière de Ganqimaodu",
     "why": "Selon l'ambassade de Chine citée par l'AP, les travaux de modernisation qui ralentissent les camions pourraient durer jusqu'à fin décembre. Tant qu'ils durent, les exportations de cuivre d'Oyu Tolgoi vers la Chine restent freinées, avec des pertes pouvant atteindre 1,2 milliard de dollars d'ici la fin de l'année [1][2].",
-    "news": "2026-11-04-mongolie-oyu-tolgoi-seisme-frontiere",
     "sources": [
       {
         "short": "AP (ABC News)",
