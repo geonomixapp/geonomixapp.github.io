@@ -93,16 +93,35 @@ window.GEOCO.resultats = [
     sector: "Distribution",
     date: "2026-11-18",
     time: "open",
-    period: "T3 2026",
-    lines: [],
-    summary: "Target publie la veille de Walmart : à eux deux, ils disent comment tient la consommation des ménages américains avant les fêtes [1].",
+    period: "T3 2026 (août-octobre 2026)",
+    lines: [
+      { label: "Chiffre d'affaires", unit: "Md$", act: 27.1, prev: 25.3, src: 1 },
+      { label: "Ventes à magasins comparables", unit: "%", exp: 3.8, act: 5.6, src: 3 },
+      { label: "Bénéfice par action ajusté", unit: "$", exp: 2.07, act: 2.65, prev: 1.78, src: 4 }
+    ],
+    verdict: "mieux",
+    guidance: { dir: "releve", text: "Target vise désormais un bénéfice par action ajusté de 10,65 à 11,40 dollars sur l'année, contre 9,90 à 10,90 dollars auparavant, dont environ 2,14 dollars de remboursements de droits de douane déjà comptabilisés [10]. La croissance des ventes annuelles est relevée à environ 6 % [10][8], et le groupe dit que ses ventes de novembre accélèrent par rapport à octobre [8]." },
+    move: { value: "+6 %", text: "l'action gagnait 6,1 % en séance mercredi selon MarketBeat [6], plus de 5 % selon GuruFocus [7], après un début de matinée hésitant selon Investing.com [4]" },
+    summary: "Target signe ses meilleures ventes depuis plus de cinq ans, porté par le retour des clients en magasin, et relève ses objectifs avant les fêtes [5][1][10].",
     points: [
-      "Résultats attendus avant l'ouverture de Wall Street, le mercredi 18 novembre [1][2].",
-      "À regarder : les ventes à magasins comparables et ce que l'enseigne dit de la saison des fêtes, qui pèse lourd dans son année [1]."
+      "Chiffre d'affaires d'environ 27,1 milliards de dollars, en hausse de 7,1 % sur un an [1][2] : la plus forte croissance des ventes depuis plus de cinq ans, selon AP cité par Quartz [5].",
+      "Les ventes à magasins comparables progressent de 5,6 % (4,6 % en magasin, 9,8 % en ligne) [10][11], contre environ 3,8 % attendus selon StreetAccount, cité par CNBC [3]. La fréquentation augmente d'environ 5 % [11].",
+      "Le bénéfice par action, ajusté comme publié, est de 2,65 dollars, contre 1,78 dollar ajusté un an plus tôt [10]. Il comprend 301 millions de dollars avant impôts (0,50 dollar par action) de remboursements de droits de douane [1][10].",
+      "Même sans ces remboursements, le bénéfice ajusté (2,15 dollars) dépasse les attentes : 2,07 dollars selon Investing.com, 2,05 dollars selon Zacks et AP [4][9][5].",
+      "Le patron Michael Fiddelke, qui pilote le redressement de l'enseigne, voit l'action progresser de plus de 60 % depuis le début de l'année, selon CNBC [3]."
     ],
     sources: [
-      { short: "Zacks", name: "Zacks via TradingView, « Walmart, Target, and Nvidia Headline a Pivotal Week for Q3 Earnings », nov. 2026", url: "https://www.tradingview.com/news/zacks:baeac9437094b:0-walmart-target-and-nvidia-headline-a-pivotal-week-for-q3-earnings/" },
-      { short: "Morningstar", name: "Morningstar, « What's Happening in the Markets This Week », nov. 2026", url: "https://www.morningstar.com/markets/whats-happening-markets-this-week-32" }
+      { short: "Target", name: "Target, « Target Corporation Reports Third Quarter Earnings » (communiqué), 18 nov. 2026", url: "https://corporate.target.com/press/release/2026/11/target-corporation-reports-third-quarter-earnings" },
+      { short: "SEC", name: "Target Corporation, formulaire 8-K (communiqué du troisième trimestre 2026), sec.gov, 18 nov. 2026", url: "https://www.sec.gov/Archives/edgar/data/0000027419/000002741926000051/a2026q3ex-99.htm" },
+      { short: "CNBC", name: "CNBC, « Target (TGT) Q3 2026 earnings », 18 nov. 2026", url: "https://www.cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html" },
+      { short: "Investing.com", name: "Investing.com, « Earnings call transcript: Target beats Q3 2026 estimates as sales accelerate », 18 nov. 2026", url: "https://www.investing.com/news/transcripts/earnings-call-transcript-target-beats-q3-2026-estimates-as-sales-accelerate-93CH-5036340" },
+      { short: "Quartz", name: "Quartz (AP), « Target posted best sales growth in over five years in Q3 2026 earnings », 18 nov. 2026", url: "https://qz.com/target-earnings-sales-growth-forecast-raised-111826" },
+      { short: "MarketBeat", name: "MarketBeat, « Target (NYSE:TGT) Shares Climb 6.1% on Earnings Beat », 18 nov. 2026", url: "https://www.marketbeat.com/instant-alerts/price-target-nyse-tgt-shares-climb-61-on-earnings-beat-2026-11-18/" },
+      { short: "GuruFocus", name: "GuruFocus, « Target (TGT) Shares Rise Over 5% After Strong Q3 Results Beat Expectations », 18 nov. 2026", url: "https://www.gurufocus.com/news/9208236/target-tgt-shares-rise-over-5-after-strong-q3-results-beat-expectations" },
+      { short: "Boursorama", name: "Boursorama (Reuters), « Target aborde la période des fêtes avec des perspectives de ventes plus optimistes », 18 nov. 2026", url: "https://www.boursorama.com/bourse/actualites/target-aborde-la-periode-des-fetes-avec-des-perspectives-de-ventes-plus-optimistes-2cdcea8d578821256913b03fe9044002" },
+      { short: "Yahoo Finance", name: "Yahoo Finance (Zacks), « Target (TGT) Q3 Earnings and Revenues Beat Estimates », 18 nov. 2026", url: "https://ca.finance.yahoo.com/news/target-tgt-q3-earnings-revenues-114001075.html" },
+      { short: "Target", name: "Target, « Target Q3 2026 Earnings Highlights », 18 nov. 2026", url: "https://corporate.target.com/news-features/article/2026/11/q3-2026-earnings" },
+      { short: "GuruFocus", name: "GuruFocus, « Target Corp (TGT) (Q3 2026) Earnings Call Highlights: Comparable Sales Jump 5.6% as Traffic Accelerates and Guidance Rises », 18 nov. 2026", url: "https://www.gurufocus.com/news/9208407/target-corp-tgt-q3-2026-earnings-call-highlights-comparable-sales-jump-56-as-traffic-accelerates-and-guidance-rises" }
     ]
   },
   {
@@ -115,21 +134,33 @@ window.GEOCO.resultats = [
     time: "open",
     period: "T3 2026",
     lines: [
-      { label: "Chiffre d'affaires", unit: "Md$", exp: 22.42, src: 3 },
-      { label: "Bénéfice par action ajusté", unit: "$", exp: 2.87, src: 2 }
+      { label: "Chiffre d'affaires", unit: "Md$", exp: 22.42, act: 22.8, prev: 20.8, src: 3 },
+      { label: "Bénéfice par action ajusté", unit: "$", exp: 2.87, act: 3.10, src: 2 }
     ],
-    summary: "Le numéro deux américain du bricolage publie au lendemain de Home Depot : un deuxième test pour les dépenses de rénovation des ménages, freinées par un marché du logement grippé [4].",
+    verdict: "mieux",
+    guidance: { dir: "releve", text: "Lowe's vise désormais environ 92,5 milliards de dollars de ventes sur l'année, contre 92,0 milliards auparavant, et des ventes à magasins comparables en hausse d'environ 0,5 %, au lieu d'une stabilité [5][7]. L'objectif de bénéfice par action ajusté, environ 12,25 dollars avec une marge opérationnelle ajustée d'environ 11,5 % [9], reste un peu sous les 12,28 dollars attendus selon Benzinga [10]." },
+    move: { value: "+0,8 %", text: "l'action montait de 1,66 dollar, à 222,12 dollars, en séance mercredi selon MarketBeat [9], après avoir cédé 0,8 % en matinée selon Schaeffer's [8] et 0,56 % avant l'ouverture selon Investing.com [7]" },
+    summary: "Lowe's bat les attentes et relève son objectif de ventes grâce au commerce en ligne et à ses rachats, mais le coup de pouce des remboursements de droits de douane et un marché du logement grippé tempèrent l'enthousiasme [5][6][8].",
     points: [
-      "Le consensus vise 2,87 dollars de bénéfice par action, selon 28 analystes cités par l'AAII [2] ; un autre aperçu table sur 2,88 dollars et 22,42 milliards de dollars de chiffre d'affaires, en hausse de 7,7 % sur un an [3].",
-      "Zacks s'attend à un bénéfice par action en baisse de 6,5 % sur un an, mais juge un résultat supérieur aux attentes plus probable qu'improbable [4].",
-      "Le trimestre a sans doute souffert d'un marché de l'amélioration de l'habitat difficile et de consommateurs prudents [4] : on regardera les ventes à magasins comparables et l'objectif annuel.",
-      "Résultats publiés avant l'ouverture de Wall Street, conférence à 9 h, heure de New York, le mercredi 18 novembre [1]."
+      "Chiffre d'affaires de 22,8 milliards de dollars, en hausse de 9,3 % sur un an (20,8 milliards un an plus tôt) [5][12], contre 22,41 milliards attendus selon CNBC et 22,4 milliards selon Investing.com [6][7].",
+      "Le bénéfice par action ajusté ressort à 3,10 dollars (+1,3 % sur un an) et à 2,98 dollars selon les normes comptables américaines (GAAP) [5], contre 2,88 dollars attendus selon CNBC et MarketBeat, 2,89 selon Investing.com [6][9][7].",
+      "Ces deux chiffres comprennent 0,34 dollar par action de remboursements de droits de douane (IEEPA) [5] : sans eux, le bénéfice ajusté serait d'environ 2,76 dollars, sous le consensus.",
+      "Les ventes à magasins comparables progressent de 1,8 %, sixième trimestre de hausse d'affilée selon Stock Titan [5][11], et les ventes en ligne bondissent de 17,4 % [5][12].",
+      "Pour le quatrième trimestre, Lowe's attend des ventes comparables en légère hausse, freinées en janvier par la comparaison avec les achats liés aux tempêtes de l'an dernier [7]."
     ],
     sources: [
       { short: "Lowe's", name: "Lowe's (PR Newswire via Finviz), « Lowe's Companies, Inc. to Host Third Quarter 2026 Earnings Conference Call on Nov. 18 », 11 nov. 2026", url: "https://finviz.com/news/420806/lowes-companies-inc-to-host-third-quarter-2026-earnings-conference-call-on-nov-18" },
       { short: "AAII", name: "AAII, « What You Need to Know About Lowe's Companies, Inc.'s Q3 Earnings », nov. 2026", url: "https://www.aaii.com/investingideas/article/534503-what-you-need-to-know-about-lowes-companies-incs-q3-earnings" },
       { short: "Tiger Brokers", name: "Tiger Brokers, « Earning Preview: Lowe's Q3 revenue is expected to increase by 7.70% », nov. 2026", url: "https://www.itiger.com/news/1132260854" },
-      { short: "Zacks", name: "Zacks, « What's Lowe's Probability of an Earnings Beat This Season? », nov. 2026", url: "https://zacks.com/stock/news/3027978/what-s-lowe-s-probability-of-an-earnings-beat-this-season" }
+      { short: "Zacks", name: "Zacks, « What's Lowe's Probability of an Earnings Beat This Season? », nov. 2026", url: "https://zacks.com/stock/news/3027978/what-s-lowe-s-probability-of-an-earnings-beat-this-season" },
+      { short: "Lowe's", name: "Lowe's, « Lowe's Reports Third Quarter 2026 Sales And Earnings Results » (communiqué), 18 nov. 2026", url: "https://corporate.lowes.com/newsroom/press-releases/lowes-reports-third-quarter-2026-sales-and-earnings-results" },
+      { short: "CNBC", name: "CNBC, « Lowe's posts strong online sales, raises outlook despite slow housing market », 18 nov. 2026", url: "https://www.cnbc.com/2026/11/18/lowes-low-q3-2026-earnings.html" },
+      { short: "Investing.com", name: "Investing.com, « Earnings call transcript: Lowe's tops Q3 2026 estimates as sales rise », 18 nov. 2026", url: "https://www.investing.com/news/transcripts/earnings-call-transcript-lowes-tops-q3-2026-estimates-as-sales-rise-93CH-5036540" },
+      { short: "Schaeffer's", name: "Schaeffer's Investment Research, « Lowe's Stock Brushes Off Earnings Beat, Outlook Hike », 18 nov. 2026", url: "https://www.schaeffersresearch.com/content/news/2026/11/18/lowes-brushes-off-q3-earnings-beat-outlook-hike" },
+      { short: "MarketBeat", name: "MarketBeat, « Lowe's Companies (NYSE:LOW) Releases Earnings Results, Beats Estimates By $0.22 EPS », 18 nov. 2026", url: "https://www.marketbeat.com/instant-alerts/earnings-lowes-companies-nyse-low-releases-earnings-results-beats-estimates-by-022-eps-2026-11-18/" },
+      { short: "Benzinga", name: "Benzinga, « Lowe's Delivers Resilient Quarter Despite Challenging Housing Market », 18 nov. 2026", url: "https://www.benzinga.com/markets/earnings/26/11/63382548/lowes-delivers-resilient-quarter-despite-challenging-housing-market" },
+      { short: "Stock Titan", name: "Stock Titan, « Lowe's Q3 earnings: Sales rise 9.3% to $22.8B », 18 nov. 2026", url: "https://www.stocktitan.net/news/LOW/lowe-s-reports-third-quarter-2026-sales-and-earnings-1dcu9fqyhwws.html" },
+      { short: "GuruFocus", name: "GuruFocus, « Lowe's Companies Inc (LOW) (Q3 2026) Earnings Call Highlights: Sales Up 9.3% to $22.8 Billion as Online Growth Hits 17.4% », 18 nov. 2026", url: "https://www.gurufocus.com/news/9208416/lowes-companies-inc-low-q3-2026-earnings-call-highlights-sales-up-93-to-228-billion-as-online-growth-hits-174" }
     ]
   },
   {
@@ -139,25 +170,37 @@ window.GEOCO.resultats = [
     country: "US",
     sector: "Distribution (déstockage)",
     date: "2026-11-18",
+    time: "open",
     period: "T3 de l'exercice 2027 (août-octobre 2026)",
     lines: [
-      { label: "Chiffre d'affaires", unit: "Md$", exp: 15.81, src: 1 },
-      { label: "Bénéfice par action ajusté", unit: "$", exp: 1.33, src: 1 }
+      { label: "Chiffre d'affaires", unit: "Md$", exp: 15.81, act: 16.0, src: 1 },
+      { label: "Bénéfice par action ajusté", unit: "$", exp: 1.33, act: 1.34, src: 1 },
+      { label: "Ventes à magasins comparables", unit: "%", act: 4, src: 6 }
     ],
-    guidance: { dir: "attendu", text: "TJX s'était fixé pour ce trimestre un bénéfice par action ajusté de 1,30 à 1,32 dollar et un chiffre d'affaires de 15,6 à 15,8 milliards de dollars, en dessous des attentes des analystes de l'époque ; pour l'exercice entier, il vise 5,15 à 5,20 dollars par action [4][5]." },
-    summary: "Le roi américain du déstockage (T.J. Maxx, Marshalls, HomeGoods) avait fait chuter son action en août avec un objectif trimestriel prudent : les analystes attendent un peu mieux que ce qu'il avait promis [4].",
+    verdict: "mieux",
+    guidance: { dir: "releve", text: "TJX relève le bas de sa fourchette annuelle : 5,17 à 5,20 dollars de bénéfice par action ajusté, contre 5,15 à 5,20 auparavant, et 5,33 à 5,36 dollars en comptant les remboursements de droits de douane (contre 5,31 à 5,36) ; il vise désormais 4 % de hausse des ventes comparables, contre 3 à 4 % [6][10]. Pour le quatrième trimestre, il prévoit 1,42 à 1,45 dollar par action ajusté [6]." },
+    move: { value: "hausse", text: "le titre « s'envole » selon CNBC [8], après avoir progressé avant l'ouverture selon Chartmill [9]" },
+    summary: "Le roi du déstockage tient sa promesse : ventes comparables en hausse de 4 %, marge et bénéfice au-dessus de son plan, et objectif annuel relevé à l'approche des fêtes [6][8].",
     points: [
-      "Les consensus vont de 1,33 à 1,35 dollar de bénéfice par action : 1,33 selon Börse Express, 1,34 selon Benzinga, 1,35 selon Chartmill [1][2][3].",
-      "Pour le chiffre d'affaires, de 15,81 milliards de dollars (Börse Express) à 16,03 milliards (Chartmill), Benzinga se situant à 15,86 milliards [1][2][3] : la plupart sont au-dessus de la fourchette de l'entreprise.",
-      "En tenant compte des remboursements de droits de douane attendus, TJX visait 1,36 à 1,38 dollar par action pour ce trimestre [5].",
-      "Résultats attendus le mercredi 18 novembre [1][2] : on regardera les ventes à magasins comparables et si l'objectif annuel est relevé à l'approche des fêtes."
+      "Chiffre d'affaires d'environ 16 milliards de dollars, en hausse de 6 % sur un an [6][10], au-dessus des 15,81 milliards attendus selon Börse Express et des 15,86 milliards selon Benzinga [1][3].",
+      "Le bénéfice par action ressort à 1,39 dollar (+9 %, contre 1,28 un an plus tôt) ; hors 0,05 dollar de remboursements de droits de douane, il est de 1,34 dollar (+5 %) [10], juste au-dessus des 1,33 dollar attendus selon Börse Express et au-dessus de la fourchette de 1,30 à 1,32 dollar que TJX s'était fixée [1][4].",
+      "Les ventes à magasins comparables progressent de 4 %, dans toutes les divisions : +2 % chez Marmaxx (T.J. Maxx et Marshalls aux États-Unis) et +8 % à l'international [6][10].",
+      "Chartmill juge le bénéfice « conforme » aux attentes, mais salue la hausse de la rentabilité [9] ; selon 24/7 Wall St., TJX bat les prévisions pour le sixième trimestre d'affilée [12].",
+      "La marge avant impôts et le bénéfice par action dépassent le plan que s'était fixé l'entreprise, selon son communiqué [6][7]."
     ],
     sources: [
       { short: "Börse Express", name: "Börse Express, « TJX Aktie: Q3-Zahlen kommen am 18. November », nov. 2026", url: "https://www.boerse-express.com/news/articles/tjx-aktie-q3-zahlen-kommen-am-18-november-959218" },
       { short: "Chartmill", name: "Chartmill, « TJX Companies (TJX) Earnings & Revenue Estimates »", url: "https://www.chartmill.com/stock/quote/TJX/estimates" },
       { short: "Benzinga", name: "Benzinga, « TJX Earnings Forecasts »", url: "https://www.benzinga.com/quote/TJX/earnings-forecasts" },
       { short: "Finviz", name: "Finviz, « TJX Shares Fall as Third-Quarter Profit Forecast Misses Expectations », août 2026", url: "https://finviz.com/news/383755/tjx-shares-fall-as-third-quarter-profit-forecast-misses-expectations" },
-      { short: "SentiSense", name: "SentiSense, « TJX Beats Q2 Estimates and Raises FY2027 Outlook, Yet Shares Slip on Weak Q3 Guidance », 19 août 2026", url: "https://app.sentisense.ai/stories/tjx-beats-q2-estimates-and-raises-fy2027-outlook-yet-shares-slip-on-weak-q3-guid-08192026" }
+      { short: "SentiSense", name: "SentiSense, « TJX Beats Q2 Estimates and Raises FY2027 Outlook, Yet Shares Slip on Weak Q3 Guidance », 19 août 2026", url: "https://app.sentisense.ai/stories/tjx-beats-q2-estimates-and-raises-fy2027-outlook-yet-shares-slip-on-weak-q3-guid-08192026" },
+      { short: "TJX", name: "TJX (Business Wire), « The TJX Companies, Inc. Reports Q3 FY27 Results; Comp Sales Growth of 4%, Pretax Profit Margin, and Diluted Earnings Per Share All Above Plan » (communiqué), 18 nov. 2026", url: "https://www.businesswire.com/news/home/20261117527150/en/The-TJX-Companies-Inc.-Reports-Q3-FY27-Results-Comp-Sales-Growth-of-4-Pretax-Profit-Margin-and-Diluted-Earnings-Per-Share-All-Above-Plan" },
+      { short: "SEC", name: "TJX Companies, formulaire 8-K (communiqué du T3 de l'exercice 2027), sec.gov, nov. 2026", url: "https://www.sec.gov/Archives/edgar/data/0000109198/000010919826000058/tjxq3fy27earningspressrele.htm" },
+      { short: "CNBC", name: "CNBC Investing Club, « Off-price retailer TJX keeps its promise and the stock soars. We're satisfied, for now », 18 nov. 2026", url: "https://www.cnbc.com/investingclub/2026/11/18/off-price-retailer-tjx-keeps-its-promise-and-the-stock-soars-were-satisfied-for-now.html" },
+      { short: "Chartmill", name: "Chartmill, « TJX Companies (NYSE:TJX) Q3 Earnings In Line as Profitability Lifts Premarket Shares », 18 nov. 2026", url: "https://www.chartmill.com/news/TJX/Chartmill-58884-TJX-Companies-NYSETJX-Q3-Earnings-In-Line-as-Profitability-Lifts-Premarket-Shares" },
+      { short: "Quantisnow", name: "Quantisnow, « TJX Q3 EPS $1.39, up 9%, comps up 4%; adjusted EPS $1.34 beat plan; FY27 EPS guide $5.33-$5.36 incl. tariff refunds », 18 nov. 2026", url: "https://www.quantisnow.com/insight/tjx-companies-inc-filed-sec-form-8-k-results-of-operations-6798309" },
+      { short: "Motley Fool", name: "The Motley Fool, « TJX (TJX) Q3 2027 Earnings Call Transcript », 18 nov. 2026", url: "https://www.fool.com/earnings/call-transcripts/2026/11/18/tjx-tjx-q3-2027-earnings-call-transcript/" },
+      { short: "24/7 Wall St.", name: "24/7 Wall St., « TJX Companies beats Q3 2027 estimates for the sixth straight quarter », 18 nov. 2026", url: "https://247wallst.com/cards/tjx-companies-q3-2027-earnings-tjx-01m7qgmydsz2rzayw8j50pj38d" }
     ]
   },
   {
