@@ -120,6 +120,33 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-11-23-belgique-manifestation-nationale",
+    "date": "2026-11-23",
+    "theme": "eco",
+    "region": "Europe",
+    "place": "Bruxelles, Belgique",
+    "title": "Belgique : manifestation nationale des syndicats à Bruxelles",
+    "why": "Les syndicats ACV-CSC, FGTB-ABVV et SYNOVA attendent des milliers de personnes contre les coupes dans le budget social du gouvernement De Wever, avec des perturbations à Bruxelles [1][2]. L’ampleur de la mobilisation pèsera sur un gouvernement déjà fragilisé par son budget [3].",
+    "news": "2026-11-20-belgique-manifestation-nationale-23-novembre",
+    "sources": [
+      {
+        "short": "Brussels Times",
+        "name": "The Brussels Times, « National strike on Monday: What disruptions are expected in Brussels? » (19 novembre 2026)",
+        "url": "https://www.brusselstimes.com/2412909/national-strike-on-monday-what-disruptions-are-expected-in-brussels"
+      },
+      {
+        "short": "Shortnews.be",
+        "name": "Shortnews.be, « National demonstration in Brussels (Monday 23 November) » (novembre 2026)",
+        "url": "https://shortnews.be/strike/19-national-demonstration-in-brussels-2026-11-23"
+      },
+      {
+        "short": "Eunews",
+        "name": "Eunews, « Belgian government in turmoil over budget: King puts Prime Minister De Wever’s resignation on hold » (2 novembre 2026)",
+        "url": "https://www.eunews.it/en/2026/11/02/belgian-government-in-turmoil-over-budget-king-puts-prime-minister-de-wevers-resignation-on-hold/"
+      }
+    ]
+  },
+  {
     "id": "2026-11-24-portugal-budget-2027-vote-final",
     "date": "2026-11-24",
     "theme": "eco",
@@ -311,6 +338,29 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-11-28-france-senat-partie-recettes-budget",
+    "date": "2026-11-28",
+    "end": "2026-11-29",
+    "theme": "eco",
+    "region": "Europe",
+    "place": "Paris, France",
+    "title": "France : le Sénat termine l’examen des recettes du budget 2027",
+    "why": "Après le rejet du texte par les députés le 4 novembre, les sénateurs débattent des impôts et taxes du budget 2027 du 20 au 28 ou 29 novembre [1][2]. Leurs choix (abattement de 10 % des retraités, fiscalité de l’audiovisuel…) serviront de base au compromis que cherche le gouvernement autour d’un déficit de 5 % du PIB [2].",
+    "news": "2026-11-20-budget-2027-senat-debut",
+    "sources": [
+      {
+        "short": "Public Sénat",
+        "name": "Public Sénat, « Dossier Budget 2027 » (novembre 2026)",
+        "url": "https://www.publicsenat.fr/dossier/budget-2027"
+      },
+      {
+        "short": "Sénat",
+        "name": "Sénat, « Projet de loi de finances pour 2027 », la loi en clair (novembre 2026)",
+        "url": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/projet-de-loi-de-finances-pour-2027.html"
+      }
+    ]
+  },
+  {
     "id": "2026-11-29-opep-reunion-semestrielle",
     "date": "2026-11-29",
     "theme": "eco",
@@ -381,7 +431,6 @@ window.GEOCO.agenda = [
     "place": "Luxembourg",
     "title": "Zone euro : première estimation de l'inflation de novembre",
     "why": "Eurostat publie le 1er décembre son estimation rapide de la hausse des prix en novembre [1][2]. En octobre, l'inflation avait atteint 4,0 %, son plus haut niveau depuis trois ans [3] : c'est le dernier grand chiffre avant la réunion de la BCE du 17 décembre.",
-    "news": "2026-11-05-zone-euro-inflation-4-pour-cent-octobre",
     "sources": [
       {
         "short": "Finance Calendar",
