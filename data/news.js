@@ -2104,6 +2104,147 @@ window.GEOCO.news = [
     ]
   },
   {
+    "id": "2026-11-19-soitec-envolee-photonique",
+    "date": "2026-11-19",
+    "region": "Europe",
+    "theme": "fin",
+    "zones": [
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "coords": [
+          5.86,
+          45.27
+        ],
+        "name": "Bernin, France",
+        "label": "France"
+      }
+    ],
+    "title": "Soitec s'envole de plus de 15 % à Paris : porté par l'IA et ses plaquettes pour la lumière, son résultat triple, un an après le krach",
+    "summary": "Jeudi 19 novembre, l'action du fabricant isérois de plaquettes de silicium Soitec bondit de plus de 15 % à Paris, meilleure performance de l'indice européen STOXX 600. La veille au soir, le groupe a annoncé 317 millions d'euros de ventes au semestre (+39 %) et visé environ 40 % de croissance sur l'exercice, au-delà des attentes [1][2][3].",
+    "points": [
+      "Au premier semestre de son exercice 2027 (avril-septembre 2026), Soitec a réalisé 317 millions d'euros de chiffre d'affaires, contre 231 millions un an plus tôt : +39 % à périmètre et taux de change constants, +37 % en données publiées [3]. Le deuxième trimestre seul atteint 204 millions d'euros, en hausse de 50 % [3].",
+      "Le moteur, c'est la photonique sur silicium (Photonics-SOI) : des plaquettes qui servent à fabriquer des composants transmettant les données par la lumière dans les centres de données de l'intelligence artificielle. Ses ventes ont atteint environ 125 millions de dollars sur le semestre, contre environ 50 millions un an plus tôt [2].",
+      "Le résultat opérationnel courant passe de 11 millions d'euros (4,7 % des ventes) à 35 millions (11,0 %) [3]. Selon Investing.com, le bénéfice par action ressort à 0,80 euro [4].",
+      "Pour l'exercice entier, qui se termine le 31 mars 2027, Soitec vise une croissance d'environ 40 %, bien au-dessus de ce qu'attendaient les analystes, selon Reuters repris par Boursorama [1]. Le groupe n'avait plus donné de prévision annuelle depuis mai 2025 ; il le fait de nouveau parce qu'il voit ses commandes jusqu'à la fin de l'année, rapporte BFM Bourse [5].",
+      "Le directeur général Laurent Remont, arrivé d'Infineon en avril à la place de Pierre Barnabé [6], a mis en avant des clients déjà engagés par des accords de réservation de capacité courant jusqu'en 2028 [1].",
+      "Vers 10 h 36, heure de Paris, l'action gagnait environ 15 % [1] ; elle avait pris 15,34 % peu après l'ouverture, en tête du SBF 120 [7]. La banque UBS, qui a relevé sa recommandation, vise désormais 130 euros par action au lieu de 94, et voit la photonique peser la moitié des ventes du groupe d'ici l'exercice 2029 [8]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : en Bourse, une entreprise vaut ce qu'elle promet pour demain plus que ce qu'elle a gagné hier. Soitec bondit moins pour son semestre que pour sa prévision de +40 % sur l'année, qui dépasse les estimations du marché [1][5].",
+      "C'est aussi l'histoire d'un retournement. Il y a un an presque jour pour jour, Soitec s'effondrait de 30 % en une séance, à son plus bas depuis 2016, après une chute de 36 % de ses ventes trimestrielles [9][10]. Sa spécialité historique, les plaquettes pour smartphones et voitures, souffrait. La photonique pour l'IA prend le relais.",
+      "Pour la France, c'est un signal rare : une entreprise industrielle née près de Grenoble profite directement de la course mondiale à l'IA, comme les géants américains des puces. Mais UBS prévient que ses propres prévisions supposent une exécution presque sans faute et une part de marché de Soitec supérieure à 85 % sur le long terme [8]."
+    ],
+    "forMe": "Si ton épargne contient des fonds de valeurs moyennes françaises ou de technologie européenne, Soitec y pèse. Retiens surtout la leçon : une action qui a beaucoup chuté peut remonter très vite quand l'entreprise redonne de la visibilité, mais ce rebond repose sur des promesses qui doivent encore se réaliser.",
+    "figures": [
+      {
+        "src": 1,
+        "value": "+15 %",
+        "label": "hausse de l'action jeudi matin, meilleure du STOXX 600"
+      },
+      {
+        "src": 3,
+        "value": "317 M€",
+        "label": "ventes du semestre, contre 231 M€ un an plus tôt"
+      },
+      {
+        "src": 2,
+        "value": "125 M$",
+        "label": "ventes de photonique au semestre, contre 50 M$"
+      }
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi une prévision fait plus bouger l'action qu'un résultat",
+        "text": "Le prix d'une action reflète ce que les investisseurs pensent que l'entreprise gagnera dans les années à venir. Un bon semestre est déjà passé : ce qui change le prix, c'est l'écart entre ce que l'entreprise annonce pour la suite et ce que le marché attendait. Soitec annonce environ 40 % de croissance sur l'année quand les analystes en prévoyaient moins [1] : tous recalculent alors leurs estimations, et l'action monte jusqu'au nouveau prix jugé juste. Après une longue période sans prévision annuelle, depuis mai 2025 [5], le simple fait de redonner un cap rassure aussi : l'incertitude baisse, et les investisseurs acceptent de payer plus cher. L'inverse est vrai : en novembre 2025, des prévisions décevantes avaient fait perdre 30 % au titre en un jour [10]."
+      }
+    },
+    "past": {
+      "title": "Les précédents : Soitec, des montagnes russes au rythme de ses prévisions",
+      "items": [
+        {
+          "when": "20 novembre 2025",
+          "what": "Après une chute de 36 % de ses ventes au deuxième trimestre, dont −68 % dans l'automobile, et des perspectives jugées décevantes par Oddo BHF, Soitec perd 30,09 % en clôture, à 24,12 euros, son plus bas depuis décembre 2016 [9][10].",
+          "lesson": "Le titre avait déjà perdu près de 70 % depuis le début de 2025 : quand une entreprise de puces déçoit sur l'avenir, la sanction est brutale [10]."
+        },
+        {
+          "when": "Mai 2025",
+          "what": "Soitec cesse de publier des prévisions annuelles et ne donne plus que des objectifs trimestre par trimestre [5][10].",
+          "lesson": "Sans cap annuel, les investisseurs naviguent à vue ; son retour, jeudi, fait partie des raisons du bond de l'action [5]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "Soitec",
+          "ticker": "SOI",
+          "move": "+15 %",
+          "why": "Ventes semestrielles en hausse de 39 % et prévision d'environ 40 % de croissance annuelle au-delà des attentes ; l'action gagnait environ 15 % jeudi matin à Paris, selon Reuters [1][3]."
+        }
+      ]
+    },
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs"
+    ],
+    "sources": [
+      {
+        "short": "Boursorama (Reuters)",
+        "name": "Boursorama (Reuters), « Soitec s'envole alors que son activité photonique porte ses prévisions au-delà des estimations » (19 novembre 2026)",
+        "url": "https://www.boursorama.com/bourse/actualites/soitec-s-envole-alors-que-son-activite-photonique-porte-ses-previsions-au-dela-des-estimations-4f6537a744688c257e74a34376660f8f"
+      },
+      {
+        "short": "ABC Bourse",
+        "name": "ABC Bourse, « Soitec revoit ses ambitions à la hausse pour 2027, avec une croissance de 40 % attendue » (18 novembre 2026)",
+        "url": "https://www.abcbourse.com/marches/soitec-revoit-ses-ambitions-a-la-hausse-pour-2027-avec-une-croissance-de-40-a_706332"
+      },
+      {
+        "short": "Zonebourse (Soitec)",
+        "name": "Zonebourse, « Soitec : Rapport semestriel - Novembre 2026 » (18 novembre 2026)",
+        "url": "https://www.zonebourse.com/actualite-bourse/soitec-rapport-semestriel-novembre-2026-soitec-2026-rfs-fr-ce785edddd8df624"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com France, « Soitec SA ADR affiche une forte croissance au S1 2027, l'action progresse » (novembre 2026)",
+        "url": "https://fr.investing.com/news/transcripts/soitec-sa-adr-affiche-une-forte-croissance-au-s1-2027-laction-progresse-93CH-3703360"
+      },
+      {
+        "short": "BFM Bourse",
+        "name": "BFM Bourse (Tradingsat), « Le boom de la photonique permet à Soitec de renouer avec des prévisions annuelles après une parenthèse d'un an et demi, l'action s'envole à Paris » (19 novembre 2026)",
+        "url": "https://www.tradingsat.com/soitec-FR0013227113/actualites/soitec-le-boom-de-la-photonique-permet-a-soitec-de-renouer-avec-des-previsions-annuelles-apres-une-parenthese-d-un-an-et-demi-l-action-s-envole-a-paris-1174085.html"
+      },
+      {
+        "short": "MarketScreener",
+        "name": "MarketScreener, « Soitec appoints Infineon executive Laurent Remont as CEO » (2026)",
+        "url": "https://www.marketscreener.com/news/soitec-appoints-infineon-executive-laurent-remont-as-ceo-ce7e59dddb88f020"
+      },
+      {
+        "short": "Boursorama",
+        "name": "Boursorama, « Soitec bondit après ses résultats et le relèvement des perspectives de Photonics-SOI » (19 novembre 2026)",
+        "url": "https://www.boursorama.com/bourse/actualites/soitec-bondit-apres-ses-resultats-du-t3-et-le-relevement-des-perspectives-de-photonics-soi-9ae0da7b1f440d5826f87fb032e4005d"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance France, « Soitec upgradé par UBS grâce à la demande en transceivers IA » (novembre 2026)",
+        "url": "https://fr.finance.yahoo.com/actualites/soitec-upgrad%C3%A9-ubs-gr%C3%A2ce-%C3%A0-133038769.html"
+      },
+      {
+        "short": "Boursorama",
+        "name": "Boursorama, « Soitec : dévisse de -28% vers 25E, au plus bas depuis fin 2016 » (20 novembre 2025)",
+        "url": "https://www.boursorama.com/bourse/actualites/soitec-devisse-de-28-vers-25e-au-plus-bas-depuis-fin-2016-b5e50fd8b1522773bdba4dbbc06a6078"
+      },
+      {
+        "short": "Idéal Investisseur",
+        "name": "Idéal Investisseur, « L'action Soitec s'effondre de 30 % à la clôture après des prévisions décevantes » (novembre 2025)",
+        "url": "https://www.ideal-investisseur.fr/actions-b/laction-soitec-seffondre-de-30-la-clture-aprs-des-prvisions-trs-dcevantes/9621.html"
+      }
+    ]
+  },
+  {
     "id": "2026-11-19-peso-mexicain-pire-seance",
     "date": "2026-11-19",
     "region": "Amériques",
@@ -2519,6 +2660,139 @@ window.GEOCO.news = [
         "short": "Yahoo Finance",
         "name": "Yahoo Finance, « $1.65 of Target's $4.11 Quarterly Profit Came From Tariff Refunds » (2026)",
         "url": "https://finance.yahoo.com/markets/stocks/articles/1-65-targets-4-11-184601285.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-walmart-releve-objectifs",
+    "date": "2026-11-19",
+    "region": "Amériques",
+    "theme": "fin",
+    "zones": [
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "coords": [
+          -94.21,
+          36.37
+        ],
+        "name": "Bentonville, États-Unis",
+        "label": "États-Unis"
+      }
+    ],
+    "title": "Walmart relève ses objectifs pour la troisième fois de l'année, mais reste plus prudent que Wall Street avant les fêtes",
+    "summary": "Jeudi 19 novembre, Walmart, premier distributeur du monde, a publié 188,8 milliards de dollars de ventes trimestrielles et 65 cents de bénéfice par action ajusté, un peu au-dessus des attentes. Il relève ses prévisions annuelles pour la troisième fois de l'année, mais moins que ne l'espéraient les analystes : l'action ne gagnait qu'environ 1 % avant l'ouverture [1][2].",
+    "points": [
+      "Au troisième trimestre de son exercice 2027 (août-octobre 2026), le chiffre d'affaires atteint 188,8 milliards de dollars, contre 187,38 milliards attendus selon FactSet, cité par AP [1]. Il progresse de 5,2 % sur un an [3].",
+      "Le bénéfice par action ajusté ressort à 65 cents, contre 64 cents attendus par Wall Street [1].",
+      "Les ventes à magasins comparables (en magasin et en ligne, hors ouvertures) progressent de 2,9 %, mieux que les 2,6 % du trimestre précédent [1]. Les ventes en ligne du groupe bondissent de 17 % [3].",
+      "Pour l'exercice entier, Walmart vise désormais une hausse de ses ventes de 4,9 % à 5,2 %, contre 4 % à 5 % jusqu'ici [1], et un bénéfice par action ajusté de 2,84 à 2,89 dollars, contre 2,80 à 2,87 dollars [2].",
+      "C'est la troisième hausse de prévisions de l'année, mais ces objectifs sont plus prudents que ce qu'attendaient les analystes du secteur, selon AP [1]. L'action gagnait près de 1 % avant l'ouverture de Wall Street selon AP, 0,6 % selon Investing.com [1][2].",
+      "Avant ces résultats, l'action Walmart avait gagné environ 13 % depuis le début de l'année, selon CNBC [4]. La veille, son concurrent Target avait gagné 6,1 % en séance après avoir battu les attentes, selon MarketBeat [8]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : Walmart, premier distributeur du monde, sert de thermomètre de la consommation américaine. Des ventes en hausse de 5,2 % et des ventes comparables qui accélèrent (2,9 % après 2,6 %) à l'entrée de la saison des fêtes disent que les Américains continuent de dépenser [1][3].",
+      "Mais le marché attendait plus que des prévisions « un peu meilleures ». Quand une entreprise bat les attentes de seulement un cent, comme ici (65 contre 64), et relève prudemment son cap, l'action bouge peu : le bon résultat était déjà dans le prix [1][2].",
+      "Cette prudence est une habitude chez Walmart. En février 2026, pour les premiers résultats de son nouveau patron John Furner, le groupe avait déjà donné un cap plus bas que prévu et son action avait reculé, avant de relever trois fois ses objectifs depuis [5][1]. Certains analystes y voient une stratégie : fixer une barre facile à franchir [5]."
+    ],
+    "forMe": "Walmart est l'une des plus grosses entreprises des indices américains présents dans beaucoup de fonds d'épargne. Ses chiffres rappellent que la consommation américaine tient, mais sa prudence montre qu'elle se méfie des mois qui viennent.",
+    "figures": [
+      {
+        "src": 1,
+        "value": "188,8 Md$",
+        "label": "ventes du trimestre, contre 187,38 Md$ attendus"
+      },
+      {
+        "src": 1,
+        "value": "4,9 à 5,2 %",
+        "label": "nouvelle prévision de hausse des ventes annuelles, contre 4 à 5 %"
+      },
+      {
+        "src": 3,
+        "value": "+17 %",
+        "label": "ventes en ligne du groupe sur un an"
+      }
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : « battre les attentes » et le jeu des prévisions prudentes",
+        "text": "Avant chaque publication, les analystes estiment ce que l'entreprise va gagner : la moyenne de leurs chiffres s'appelle le consensus (ici 64 cents par action selon AP) [1]. L'action réagit à l'écart entre le chiffre publié et ce consensus, et surtout aux objectifs que l'entreprise donne pour la suite. Une entreprise qui fixe des objectifs prudents a plus de chances de les dépasser ensuite, trimestre après trimestre ; c'est ce que la banque D.A. Davidson soupçonnait chez Walmart en février : « fixer une barre que l'on peut franchir » [5]. L'inconvénient : le jour où le cap est donné, il peut décevoir, et le cours baisse un peu, comme en février 2026 [5]."
+      }
+    },
+    "past": {
+      "title": "Les précédents : Walmart, résultats solides et prudence affichée",
+      "items": [
+        {
+          "when": "19 février 2026",
+          "what": "Pour les premiers résultats de John Furner, devenu patron le 1er février, Walmart publie 190,7 milliards de dollars de ventes au quatrième trimestre (+5,6 %), mais ne prévoit que 3,5 % à 4,5 % de hausse des ventes sur l'année [5].",
+          "lesson": "L'action recule de plus de 3 % avant l'ouverture puis termine en baisse de 1,38 %, à 124,87 dollars : les investisseurs ont regardé le cap plus que le trimestre [5]."
+        },
+        {
+          "when": "20 novembre 2025",
+          "what": "Walmart publie 179,5 milliards de dollars de ventes trimestrielles (+5,8 %) et 62 cents de bénéfice par action ajusté contre 60 attendus, avec des ventes en ligne américaines en hausse de 28 % [6].",
+          "lesson": "Cette fois, l'action bondit avant l'ouverture : un résultat qui dépasse nettement les attentes, avec des objectifs relevés, est récompensé [6]."
+        }
+      ]
+    },
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "Walmart",
+          "ticker": "WMT",
+          "move": "≈ +1 %",
+          "why": "Ventes et bénéfice légèrement au-dessus des attentes, prévisions relevées mais jugées prudentes ; l'action gagnait près de 1 % avant l'ouverture selon AP [1]."
+        },
+        {
+          "name": "Target",
+          "ticker": "TGT",
+          "why": "Son concurrent direct avait publié la veille et gagné 6,1 % en séance selon MarketBeat [8] ; la comparaison des deux enseignes sert de baromètre de la consommation américaine avant les fêtes."
+        }
+      ]
+    },
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "AP (WRAL)",
+        "name": "Associated Press via WRAL, « Walmart raises outlook for 3rd time this year after a solid quarter » (19 novembre 2026)",
+        "url": "https://www.wral.com/news/ap/d711a-walmart-raises-outlook-for-3rd-time-this-year-after-a-solid-quarter/"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Walmart beats third quarter expectations, raises guidance » (19 novembre 2026)",
+        "url": "https://www.investing.com/news/earnings/walmart-beats-third-quarter-expectations-raises-guidance-5038647"
+      },
+      {
+        "short": "TradingKey",
+        "name": "TradingKey, « Walmart Q3 FY27 Earnings: Revenue Rises 5.2% as E-Commerce Grows 17% » (19 novembre 2026)",
+        "url": "https://www.tradingkey.com/news/earnings/262313079-"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Walmart raises sales and earnings outlook as e-commerce sales jump again » (19 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/19/walmart-wmt-q3-2026-earnings.html"
+      },
+      {
+        "short": "Nasdaq (Motley Fool)",
+        "name": "Nasdaq (The Motley Fool), « Stock Market Today, Feb. 19: Walmart Falls After Cautious Profit Outlook Despite Strong E-Commerce Growth » (19 février 2026)",
+        "url": "https://www.nasdaq.com/articles/stock-market-today-feb-19-walmart-falls-after-cautious-profit-outlook-despite-strong-e"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « Walmart Jumps in Premarket After Reporting Strong Q3 Earnings » (20 novembre 2025)",
+        "url": "https://finance.yahoo.com/news/walmart-jumps-premarket-reporting-strong-152254062.html"
+      },
+      {
+        "short": "The Globe and Mail",
+        "name": "The Globe and Mail, « Walmart tops profit estimates, raises outlook for third time this year » (19 novembre 2026)",
+        "url": "https://theglobeandmail.com/business/article-walmart-results-sales-and-profit-outlook"
+      },
+      {
+        "short": "MarketBeat",
+        "name": "MarketBeat, « Target (NYSE:TGT) Shares Climb 6.1% on Earnings Beat » (18 novembre 2026)",
+        "url": "https://www.marketbeat.com/instant-alerts/price-target-nyse-tgt-shares-climb-61-on-earnings-beat-2026-11-18/"
       }
     ]
   },
@@ -2948,6 +3222,139 @@ window.GEOCO.news = [
         "short": "CAJ News",
         "name": "CAJ News Africa, « SA must become AI innovator » (17 novembre 2026)",
         "url": "https://cajnewsafrica.com/2026/11/17/sa-must-become-ai-innovator-ramaphosa/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-canada-carney-trump-shenzhen",
+    "date": "2026-11-19",
+    "level": 2,
+    "region": "Amériques",
+    "theme": "mix",
+    "zones": [
+      "Amérique du Nord",
+      "Asie"
+    ],
+    "geo": [
+      {
+        "coords": [
+          -75.7,
+          45.42
+        ],
+        "name": "Ottawa, Canada",
+        "label": "Canada"
+      }
+    ],
+    "title": "Canada : à Shenzhen, Carney obtient de Trump 20 minutes et la promesse de reprendre le travail sur un accord commercial",
+    "summary": "Mercredi 18 novembre au soir, en marge du sommet de l'APEC à Shenzhen, le Premier ministre canadien Mark Carney a rencontré Donald Trump pendant une vingtaine de minutes. Les deux dirigeants ont convenu de poursuivre le travail vers un accord commercial, sans calendrier, trois mois après la rupture des négociations [1][2][3].",
+    "points": [
+      "Selon le bureau de Carney, les deux équipes ont parlé d'un accord « mutuellement avantageux », qui crée des emplois et respecte les langues, la culture et la souveraineté du Canada [1][3].",
+      "« Nous avons progressé », a dit Carney aux journalistes ; Trump n'a donné aucune date pour une reprise officielle des négociations [1].",
+      "Carney assure que le commerce du Canada avec la Chine n'est pas en tête de la « hiérarchie des sujets » de Trump, alors que la Maison-Blanche critique ce rapprochement [1][2].",
+      "Depuis l'échec des négociations en août, Washington applique des droits de douane de 50 % sur près de 30 milliards de dollars de produits canadiens ; l'automobile et l'acier restent les points de blocage [1]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : le Canada joue sur deux tableaux. Quelques jours après avoir vu Xi Jinping et obtenu des baisses de droits chinois sur le porc et les fruits de mer canadiens, Carney renoue avec Washington, son premier client [1].",
+      "L'enjeu est lourd : depuis août, les droits de 50 % frappent près de 30 milliards de dollars de produits canadiens, et l'automobile comme l'acier, au cœur de l'économie de l'Ontario et du Québec, attendent une issue [1]."
+    ],
+    "forMe": "Pour toi, c'est un exemple de la façon dont les pays moyens tentent de négocier entre la Chine et les États-Unis. Le sort de l'automobile canadienne, très liée aux usines américaines, se joue dans ces discussions.",
+    "figures": [
+      {
+        "src": 1,
+        "value": "50 %",
+        "label": "droits américains sur près de 30 Md$ de produits canadiens"
+      },
+      {
+        "src": 1,
+        "value": "20 min",
+        "label": "durée de la rencontre Carney-Trump à Shenzhen"
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "droits-de-douane"
+    ],
+    "sources": [
+      {
+        "short": "CBC",
+        "name": "CBC News, « Carney meets with Trump at APEC, says Canada's trade with China isn't U.S. president's top concern » (18 novembre 2026)",
+        "url": "https://www.cbc.ca/news/politics/carney-china-trade-9.7426126"
+      },
+      {
+        "short": "Radio-Canada",
+        "name": "Radio-Canada International, « Carney meets with Trump at APEC, says Canada's trade with China isn't U.S. president's top concern » (18 novembre 2026)",
+        "url": "https://ici.radio-canada.ca/rci/en/news/2301486/carney-meets-with-trump-at-apec-says-canadas-trade-with-china-isnt-u-s-presidents-top-concern"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com Canada, « Carney, Trump agree to continue work on trade deal after Shenzhen meeting » (18 novembre 2026)",
+        "url": "https://ca.investing.com/news/economy-news/carney-trump-agree-to-continue-work-on-trade-deal-after-shenzhen-meeting-4967069"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-argentine-milei-devaluation-recession",
+    "date": "2026-11-19",
+    "level": 2,
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique latine"
+    ],
+    "geo": [
+      {
+        "coords": [
+          -58.38,
+          -34.6
+        ],
+        "name": "Buenos Aires, Argentine",
+        "label": "Argentine"
+      }
+    ],
+    "title": "Argentine : Milei exclut toute dévaluation du peso et admet que le pays pourrait annoncer bientôt une « récession technique »",
+    "summary": "Le président argentin Javier Milei a qualifié de « bêtise » les rumeurs de dévaluation du peso, mercredi 18 novembre sur la chaîne A24. La veille, devant la banque centrale, il avait reconnu qu'une « récession technique », deux trimestres de recul de l'économie, pourrait être annoncée prochainement [1][2][3].",
+    "points": [
+      "Interrogé par le journaliste Eduardo Feinmann, Milei a qualifié de « tontería » (une bêtise) les rumeurs de saut du dollar, et affirmé que ceux qui réclament une dévaluation finissent par réclamer des salaires bas [3].",
+      "Il a expliqué que l'inflation ne recule pas plus vite à cause de la guerre au Moyen-Orient et de ce qu'il appelle le « risque kuka », la peur des marchés d'un retour de l'opposition péroniste [1].",
+      "Le 17 novembre, aux Journées monétaires et bancaires de la banque centrale, il a admis qu'une « récession technique » pourrait être annoncée « à brève échéance » [2] ; son ministre de l'Économie, Luis Caputo, a reconnu que la croissance est plus faible que prévu [4].",
+      "Il a aussi reconnu que, avec 32 % de pauvreté, des Argentins « ont du mal à finir le mois », avant de parler de « privations » [3]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : Milei refuse de dévaluer pour ne pas relancer l'inflation, quitte à voir l'économie ralentir [1][3].",
+      "Le pari est politique : Milei, candidat à sa réélection en 2027, assure qu'il gagnera dès le premier tour [2], alors que son gouvernement admet que la croissance est plus faible que prévu [4]."
+    ],
+    "forMe": "Pour toi, l'Argentine est un cas d'école : un peso tenu fort fait baisser l'inflation mais pèse sur l'activité et l'emploi, un arbitrage que tous les pays qui défendent leur monnaie connaissent.",
+    "figures": [
+      {
+        "src": 3,
+        "value": "32 %",
+        "label": "taux de pauvreté cité par Javier Milei"
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux"
+    ],
+    "sources": [
+      {
+        "short": "Infobae",
+        "name": "Infobae, « Por qué no baja más rápido la inflación y dónde está el oro del Banco Central, según Milei » (18 novembre 2026)",
+        "url": "https://www.infobae.com/economia/2026/11/18/por-que-no-baja-mas-rapido-la-inflacion-y-donde-esta-el-oro-del-banco-central-segun-milei/"
+      },
+      {
+        "short": "MDZ",
+        "name": "MDZ, « Javier Milei aseguró que será reelecto y reconoció una posible recesión técnica » (17 novembre 2026)",
+        "url": "https://mdzol.com/politica/2026/11/17/javier-milei-aseguro-que-sera-reelecto-vamos-a-ganar-en-primera-vuelta-1996093.html"
+      },
+      {
+        "short": "0264 Noticias",
+        "name": "0264 Noticias, « Milei volvió a rechazar una devaluación y reconoció que hay problemas para llegar a fin de mes » (18 novembre 2026)",
+        "url": "https://www.0264noticias.com.ar/noticias/2026/11/18/117777-milei-volvio-a-rechazar-una-devaluacion-y-reconocio-que-hay-problemas-para-llegar-a-fin-de-mes-la-gente-experimenta-privaciones"
+      },
+      {
+        "short": "El Argentino",
+        "name": "El Argentino, « Milei promete un siglo de oro el mismo día que Caputo admitió el freno » (16 novembre 2026)",
+        "url": "https://elargentinodiario.com.ar/zona-destacada/16/11/2026/milei-promete-un-siglo-de-oro-el-mismo-dia-que-caputo-admitio-el-freno/"
       }
     ]
   },
@@ -43416,2494 +43823,6 @@ window.GEOCO.news = [
         "short": "Euronews",
         "name": "Euronews, « Food prices in Europe: Where are grocery costs rising fastest? » (5 novembre 2026)",
         "url": "https://www.euronews.com/2026/11/05/food-prices-in-europe-where-are-grocery-costs-rising-fastest"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-iran-reponse-americaine-peu-convaincante",
-    "date": "2026-11-05",
-    "region": "Moyen-Orient",
-    "theme": "geo",
-    "zones": [
-      "Europe",
-      "Asie",
-      "Amérique du Nord"
-    ],
-    "impact": "monde",
-    "geo": [
-      {
-        "name": "Doha, Qatar",
-        "label": "Qatar",
-        "coords": [
-          51.53,
-          25.29
-        ]
-      },
-      {
-        "name": "Détroit d'Ormuz",
-        "label": "Ormuz",
-        "coords": [
-          56.27,
-          26.57
-        ]
-      }
-    ],
-    "title": "Iran : Téhéran juge « peu convaincante » la réponse américaine sur Ormuz, mais le Qatar maintient les discussions",
-    "summary": "Mercredi 4 novembre, l'Iran a estimé que la réponse de Washington à son plan de réouverture du détroit d'Ormuz ne répondait pas à ses sept conditions. Donald Trump a confirmé des frappes sur une île iranienne, un autre pétrolier a été attaqué, et le Qatar affirme que les deux camps restent à la table [1][2][5].",
-    "points": [
-      "Selon Al Jazeera, l'Iran a jugé le 4 novembre « peu convaincante » la réponse américaine à son plan. Mohsen Rezaei, secrétaire du Conseil suprême de sécurité nationale, a affirmé qu'elle ne remplissait pas les sept conditions de Téhéran, dont la levée des sanctions et la fin du blocus naval américain [1].",
-      "Le plan iranien prévoit de rouvrir le détroit en deux jours, à condition que les États-Unis satisfassent ces sept exigences. Le ministre des Affaires étrangères, Abbas Araghchi, dit que l'issue dépend des réponses données aux questions de l'Iran [3][5].",
-      "Donald Trump a confirmé avoir ordonné des frappes sur une île iranienne proche du détroit, et un autre pétrolier a été attaqué dans la zone, selon Al Jazeera [1].",
-      "Le porte-parole du ministère qatari des Affaires étrangères assure que les deux parties « restent engagées dans le processus de négociation » et que le Qatar facilite un « échange de propositions en temps réel » [2][5].",
-      "La délégation iranienne, menée par le vice-ministre des Affaires étrangères Kazem Gharibabadi, a transmis des messages aux Américains via le Qatar pendant trois jours à Doha, puis a quitté la ville. Un responsable a précisé que ce n'était « pas à cause de difficultés », qu'un projet d'accord circulait et qu'une nouvelle rencontre restait possible [3][4].",
-      "Côté américain, Donald Trump affirme que la guerre se terminera « très bientôt, d'une façon ou d'une autre ». Le secrétaire d'État Marco Rubio indique que le président n'a pas décidé de lancer de nouvelles frappes et préférerait une solution diplomatique [1][2].",
-      "Sur les marchés, le pétrole américain (WTI) a perdu environ 8 % mercredi, une chute que Yahoo Finance relie surtout au résultat des élections américaines [6]."
-    ],
-    "why": [
-      "À retenir : les deux camps ne parlent pas de la même chose. L'Iran lie la réouverture du détroit à sept conditions, dont la levée des sanctions et la fin du blocus naval ; il juge la réponse américaine insuffisante, mais personne ne quitte la table [1][5].",
-      "Le Qatar joue le rôle de boîte aux lettres. La délégation iranienne n'a pas négocié face à face : elle a transmis des messages que Doha fait circuler en temps réel. C'est ce qui explique qu'on entende à la fois « non, ce n'est pas assez » et « les discussions continuent » [3][5].",
-      "Pour l'économie, le détroit est le point sensible : une partie du pétrole mondial y passe, et un pétrolier attaqué suffit à faire remonter les prix. Le baril américain a reculé de 8 % mercredi, mais cette baisse reflète un espoir politique, pas un accord signé [1][6].",
-      "Prudence : ce sont les déclarations des parties, rapportées par des médias, et chaque camp présente la situation à son avantage. Aucune source indépendante ne confirme encore le contenu exact du projet d'accord [2][3]."
-    ],
-    "forMe": "Si tu fais le plein ou chauffes ta maison au gazole ou au gaz, ce dossier pèse sur tes prix : un accord ferait baisser le pétrole, un nouvel incident le ferait remonter. Rien n'est joué, donc ne compte pas sur une baisse durable à la pompe dès demain.",
-    "next": [
-      {
-        "when": "Dans les prochains jours",
-        "what": "Un responsable iranien évoque une nouvelle rencontre possible avec les médiateurs qataris, sans date [3]."
-      }
-    ],
-    "figures": [
-      {
-        "value": "7",
-        "label": "conditions posées par l'Iran pour rouvrir le détroit",
-        "src": 1
-      },
-      {
-        "value": "2 jours",
-        "label": "délai de réouverture prévu par le plan iranien",
-        "src": 3
-      },
-      {
-        "value": "−8 %",
-        "label": "pétrole américain (WTI) mercredi 4 novembre",
-        "src": 6
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "sanctions",
-      "routes-maritimes"
-    ],
-    "sources": [
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « Iran says US reply to Hormuz plan 'unconvincing'; Trump confirms strikes » (4 novembre 2026)",
-        "url": "https://aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes"
-      },
-      {
-        "short": "CBS News",
-        "name": "CBS News, « Iran war live updates : Tehran touts proposal to reopen the Strait of Hormuz »",
-        "url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-sanctions/"
-      },
-      {
-        "short": "PBS NewsHour",
-        "name": "PBS NewsHour, « Iran's delegation has left negotiations in Qatar after a tense weekend. Here's where things stand »",
-        "url": "https://www.pbs.org/newshour/world/irans-delegation-has-left-negotiations-in-qatar-after-a-tense-weekend-heres-where-things-stand"
-      },
-      {
-        "short": "CNBC (Reuters)",
-        "name": "CNBC / Reuters, « Iran, Qatari mediators hold third day of talks to end U.S.-Iran war » (1er novembre 2026)",
-        "url": "https://www.cnbc.com/2026/11/01/iranian-negotiators-in-qatar-to-continue-talks-to-end-war-reuters.html"
-      },
-      {
-        "short": "Türkiye Today",
-        "name": "Türkiye Today, « Iran says Qatar-mediated Hormuz talks continue without final deal »",
-        "url": "https://www.turkiyetoday.com/region/iran-says-qatar-mediated-hormuz-talks-continue-without-final-deal-3231501"
-      },
-      {
-        "short": "Yahoo Finance",
-        "name": "Yahoo Finance, « Markets News, Nov. 4, 2026: Dow Jumps Nearly 1,600 Points… WTI Oil Slides 8% »",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-dow-futures-135650348.html"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-zone-euro-inflation-4-pour-cent-octobre",
-    "date": "2026-11-05",
-    "region": "Europe",
-    "theme": "eco",
-    "zones": [
-      "Europe"
-    ],
-    "geo": [
-      {
-        "name": "Francfort, Allemagne",
-        "label": "Zone euro",
-        "coords": [
-          8.68,
-          50.11
-        ]
-      }
-    ],
-    "title": "Zone euro : l'inflation grimpe à 4 % en octobre, son plus haut depuis trois ans, et la BCE se rapproche d'une hausse de taux en décembre",
-    "summary": "Selon la première estimation d'Eurostat publiée le 4 novembre, l'inflation de la zone euro est passée de 3,8 % à 4,0 % en octobre, un sommet depuis trois ans. L'énergie en est le moteur (+20,8 % sur un an), alors que l'inflation hors énergie et alimentation reste à 2,5 % [1][2].",
-    "points": [
-      "Eurostat estime l'inflation annuelle de la zone euro à 4,0 % en octobre, contre 3,8 % en septembre. C'est le double de la cible de 2 % de la Banque centrale européenne (BCE) et un plus haut depuis trois ans, selon CNBC [1][2].",
-      "Les prix de l'énergie ont augmenté de 20,8 % sur un an, contre 18,9 % en septembre : ils expliquent l'essentiel de la hausse [1][2].",
-      "L'inflation « sous-jacente », qui exclut l'énergie, l'alimentation, l'alcool et le tabac, est restée stable à 2,5 %. Les services ont accéléré de 3,2 % à 3,3 % [1][2].",
-      "Les écarts entre pays sont larges : la Lituanie affiche le taux le plus élevé (6,1 %), Malte le plus bas (2,3 %) [2].",
-      "La BCE a laissé ses taux inchangés à sa réunion d'octobre. Avant la publication, les marchés donnaient un peu plus de 72 % de chances à une hausse en décembre, selon Seeking Alpha [1][3].",
-      "Joachim Nagel, président de la Bundesbank, garde la porte ouverte à une hausse en décembre, selon un compte rendu de ses propos [4].",
-      "Il s'agit d'une estimation rapide : les chiffres définitifs d'octobre seront publiés le 18 novembre et ses composantes peuvent être révisées [2][3]."
-    ],
-    "why": [
-      "À retenir : cette inflation vient surtout de l'énergie, pas d'une économie qui surchauffe. Quand le pétrole, le gaz et l'électricité coûtent 20,8 % de plus qu'il y a un an, la hausse se voit tout de suite à la pompe et sur les factures [1][2].",
-      "Pour la BCE, le dilemme est réel. Relever les taux renchérit le crédit et freine l'activité, mais ne fait pas baisser le prix du pétrole. Le fait que l'inflation sous-jacente reste à 2,5 % pourrait, selon un commentateur, indiquer que le cycle de hausses approche de sa fin ; les services à 3,3 % montrent en revanche que la hausse commence à gagner d'autres prix [1][3].",
-      "L'écart entre la Lituanie (6,1 %) et Malte (2,3 %) rappelle qu'un même taux directeur s'applique à vingt économies très différentes, ce qui complique la tâche de la BCE [2].",
-      "Prudence : la décision de décembre dépendra aussi des chiffres de novembre et de l'évolution du pétrole. Les probabilités des marchés bougent d'une semaine à l'autre [3][4]."
-    ],
-    "forMe": "Si tu as un crédit immobilier à taux variable, une hausse des taux de la BCE se verrait sur tes mensualités ; à taux fixe, rien ne change pour toi. Les prix de l'énergie, eux, pèsent déjà sur ton budget.",
-    "next": [
-      {
-        "when": "18 novembre",
-        "what": "Eurostat publie les chiffres définitifs d'inflation d'octobre [2][3]."
-      },
-      {
-        "when": "17 décembre",
-        "what": "Réunion de la BCE : une hausse de 25 points de base est envisagée par les marchés [3][4]."
-      }
-    ],
-    "figures": [
-      {
-        "value": "4,0 %",
-        "label": "inflation de la zone euro en octobre, contre 3,8 % en septembre",
-        "src": 1
-      },
-      {
-        "value": "+20,8 %",
-        "label": "prix de l'énergie sur un an",
-        "src": 1
-      },
-      {
-        "value": "2,5 %",
-        "label": "inflation hors énergie et alimentation, stable",
-        "src": 2
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "inflation-taux"
-    ],
-    "sources": [
-      {
-        "short": "CNBC",
-        "name": "CNBC, « Euro zone inflation hits 4% for first time in three years as interest rate hike looms » (4 novembre 2026)",
-        "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html"
-      },
-      {
-        "short": "Le Private Banker",
-        "name": "Le Private Banker, « Euro-Zone Inflation Hits 4.0%, Double the ECB Target, as Energy Costs Jump 20.8% » (4 novembre 2026)",
-        "url": "https://leprivatebanker.com/2026/11/04/euro-zone-inflation-hits-4-0-double-the-ecb-target-as-energy-costs-jump-20-8-and-nagel-backs-december-hike/"
-      },
-      {
-        "short": "Seeking Alpha",
-        "name": "Seeking Alpha, « Eurozone October Inflation Brings ECB Closer To December Hike »",
-        "url": "https://seekingalpha.com/article/4962208-eurozone-october-inflation-brings-ecb-closer-december-hike"
-      },
-      {
-        "short": "InvestingLive",
-        "name": "InvestingLive, « ECB policymaker Nagel keeps December rate hike in play despite case for October pause »",
-        "url": "https://investinglive.com/central-banks/ecb-policymaker-nagel-keeps-december-rate-hike-in-play-despite-case-for-october-pause/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-ukraine-zaporijjia-ecole-abri-berlin-aide",
-    "date": "2026-11-05",
-    "region": "Europe",
-    "theme": "geo",
-    "zones": [
-      "Europe"
-    ],
-    "geo": [
-      {
-        "name": "Zaporijjia, Ukraine",
-        "label": "Ukraine",
-        "coords": [
-          35.14,
-          47.84
-        ]
-      },
-      {
-        "name": "Berlin, Allemagne",
-        "label": "Allemagne",
-        "coords": [
-          13.4,
-          52.52
-        ]
-      }
-    ],
-    "title": "Ukraine : une frappe russe sur une école-abri fait au moins 33 morts, et Zelensky vient à Berlin demander de l'énergie et de l'argent",
-    "summary": "Lundi 2 novembre, des bombes russes ont frappé une école de la région de Zaporijjia qui servait d'abri et de point d'aide : au moins 33 morts selon Volodymyr Zelensky, qui évoque jusqu'à 70 victimes. Le 3 novembre à Berlin, il a plaidé pour son réseau électrique et les 11,6 milliards d'euros d'aide allemande prévus pour 2027 [1][2][3][6].",
-    "points": [
-      "La frappe a eu lieu lundi 2 novembre à Komyshuvakha, dans la région de Zaporijjia. Selon Zelensky : « Les Russes ont frappé en premier au moment où les gens arrivaient, quelques bombes aériennes. Puis un deuxième coup, avec d'autres bombes, cette fois sur l'abri » [1][4].",
-      "L'école servait d'abri et, chaque lundi, de lieu de distribution d'aide humanitaire. Le Kyiv Independent comptait d'abord 24 morts, dont deux sauveteurs et quatre policiers ; le bilan est ensuite monté à au moins 33 morts selon Zelensky [1][2].",
-      "CBS News indique que le bilan est passé à 40 morts, et que Zelensky a évoqué un bilan pouvant atteindre 70 personnes en réclamant des défenses antiaériennes [3].",
-      "Le ministère russe de la Défense affirme avoir visé des forces ukrainiennes dans la zone et revendique jusqu'à 25 militaires ukrainiens tués ; la Russie dément viser délibérément des civils [1].",
-      "Selon Zelensky, la frappe est venue juste avant une nouvelle salve de centaines de drones et de dizaines de missiles de croisière et balistiques contre les infrastructures énergétiques, malgré les appels de Donald Trump à une trêve de l'énergie [5].",
-      "Mardi 3 novembre à Berlin, il a rencontré la présidente du Bundestag, Julia Klöckner, sur la protection du réseau électrique : « la situation de notre réseau est très difficile en ce moment, avec de grosses coupures dans de nombreuses régions » [6][7].",
-      "L'Allemagne a inscrit 11,6 milliards d'euros d'aide à l'Ukraine dans son projet de budget fédéral 2027, pas encore voté ; Zelensky a remercié Berlin et demandé que cette décision soit adoptée [6][7]."
-    ],
-    "why": [
-      "À retenir : la guerre frappe les civils et l'économie en même temps. Un abri bombardé à deux reprises, puis des centrales et des lignes électriques visées : l'Ukraine doit protéger ses habitants et son réseau à l'approche de l'hiver [1][6].",
-      "Si Zelensky insiste sur l'énergie, c'est que les coupures sont déjà fortes, comme il l'a dit à Berlin. L'argent allemand de 2027 ne règle pas l'hiver 2026, mais il garantit la durée du soutien, ce qui compte pour les budgets de l'État ukrainien [6][7].",
-      "Deux versions s'opposent : Kiev parle de civils tués dans un abri, Moscou d'une frappe contre des militaires. Le bilan n'est pas définitif et a changé d'un média à l'autre (24, 33, 40, jusqu'à 70 évoqués) : on retient donc les chiffres attribués à Zelensky, comme tels [1][3].",
-      "Sur le plan politique, Zelensky a dit espérer que le résultat des élections américaines aiderait l'Ukraine, notamment par un soutien du Congrès, dans un entretien à la télévision allemande ZDF [8]."
-    ],
-    "forMe": "Si tu vis en Europe, cette guerre passe aussi par ton budget : l'aide à l'Ukraine pèse sur les finances publiques allemandes et européennes, donc sur la dette et les impôts. Rien n'est acquis pour 2027 tant que le Bundestag n'a pas voté.",
-    "next": [
-      {
-        "when": "12 novembre",
-        "what": "La commission du budget du Bundestag tient sa dernière séance sur le budget fédéral 2027, qui contient l'aide à l'Ukraine [9]."
-      }
-    ],
-    "figures": [
-      {
-        "value": "≥ 33",
-        "label": "morts de la frappe sur l'école-abri, selon Zelensky",
-        "src": 1
-      },
-      {
-        "value": "11,6 Md€",
-        "label": "aide allemande à l'Ukraine prévue au budget 2027",
-        "src": 6
-      },
-      {
-        "value": "70",
-        "label": "bilan maximal évoqué par Zelensky",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Kyiv Independent",
-        "name": "Kyiv Independent, « 'Exceptionally horrific strike' — Russian bombs hit school used as humanitarian aid center in Zaporizhzhia Oblast, killing 33 »",
-        "url": "https://kyivindependent.com/exceptionally-horrific-strike-russian-bombs-strike-school-used-as-humanitarian-aid-center-in-zaporizhzhia-oblast-killing-24/"
-      },
-      {
-        "short": "Globe and Mail (Reuters)",
-        "name": "The Globe and Mail / Reuters, « Russia bombs school used as aid distribution point, killing at least 33 »",
-        "url": "https://www.theglobeandmail.com/world/article-russian-bombing-ukraine-zelensky/"
-      },
-      {
-        "short": "CBS News",
-        "name": "CBS News, « Ukraine's leader says Russian 'insane attack' on aid center may have killed 70 people, pleads for air defenses »",
-        "url": "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/"
-      },
-      {
-        "short": "ABC News (Australie)",
-        "name": "ABC News (Australie), « Russia's 'vile terrorist strike' kills dozens at school used as aid centre » (4 novembre 2026)",
-        "url": "https://www.abc.net.au/news/2026-11-04/russian-strike-on-school-kills-dozens-n-ukraine/107343894"
-      },
-      {
-        "short": "CNN",
-        "name": "CNN, « Russian bombing of Ukrainian aid center is one of the war's 'deadliest attacks,' Zelensky says » (3 novembre 2026)",
-        "url": "https://www.cnn.com/2026/11/03/europe/ukraine-russia-zaporiszhzha-school-strike-intl"
-      },
-      {
-        "short": "Présidence ukrainienne",
-        "name": "Site officiel de la présidence de l'Ukraine, « Volodymyr Zelenskyy discussed support for Ukraine's energy sector and further financial assistance with the President of the Bundestag »",
-        "url": "https://www.president.gov.ua/en/news/volodimir-zelenskij-obgovoriv-iz-prezidentkoyu-bundestagu-pi-107129"
-      },
-      {
-        "short": "Kyiv Post",
-        "name": "Kyiv Post, « Zelensky Brings Ukraine's Energy Needs to Bundestag as €11.6B Aid Awaits Vote »",
-        "url": "https://kyivpost.com/post/89056"
-      },
-      {
-        "short": "Jerusalem Post",
-        "name": "The Jerusalem Post, « Volodymyr Zelensky hopes US midterm outcome will help Ukraine »",
-        "url": "https://jpost.com/international/article-913873"
-      },
-      {
-        "short": "Bundestag",
-        "name": "Bundestag, « Haushalt 2027 : Ablauf der Beratungen »",
-        "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw34-haushalt-2027-ablauf-1187766"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-etats-unis-chine-treve-10-novembre-terres-rares",
-    "date": "2026-11-05",
-    "region": "Asie",
-    "theme": "mix",
-    "zones": [
-      "Amérique du Nord",
-      "Europe"
-    ],
-    "geo": [
-      {
-        "name": "Pékin, Chine",
-        "label": "Chine",
-        "coords": [
-          116.4,
-          39.9
-        ]
-      },
-      {
-        "name": "Washington, États-Unis",
-        "label": "États-Unis",
-        "coords": [
-          -77.04,
-          38.91
-        ]
-      }
-    ],
-    "title": "États-Unis–Chine : la trêve commerciale court jusqu'au 10 janvier, mais le 10 novembre reste une date-clé pour les terres rares",
-    "summary": "Annoncée fin septembre, pendant la visite d'État de Xi Jinping à Washington, la prolongation de deux mois de la trêve commerciale repousse au 10 janvier 2027 la pause sur certaines hausses de droits de douane. Plusieurs échéances tombent pourtant le 10 novembre, dont la suspension chinoise de contrôles sur les terres rares [1][2][3].",
-    "points": [
-      "Le secrétaire américain au Trésor, Scott Bessent, a annoncé, alors que Xi Jinping entamait sa visite d'État, que la trêve, qui devait expirer en novembre, était prolongée jusqu'au 10 janvier. Selon les sources, l'annonce date du 23 ou du 24 septembre [1][3].",
-      "La Chine avait suspendu pour un an, jusqu'au 10 novembre 2026, ses contrôles à l'exportation sur les terres rares décidés le 9 octobre 2025, a confirmé son ministère du Commerce. Cette suspension ne tient que tant que la trêve tient [2][3].",
-      "Les contrôles chinois d'avril 2025, qui visent sept terres rares précises, n'ont jamais été suspendus et exigent toujours une licence du ministère du Commerce [2].",
-      "Côté américain, Washington a suspendu sa règle dite des « affiliées » (Affiliates Rule) : un cabinet juridique relevait que le Bureau de l'industrie et de la sécurité n'avait pas encore publié l'avis formalisant la prolongation de deux mois [4].",
-      "178 exclusions de la « section 301 » (droits de douane américains sur des produits chinois) expirent aussi le 10 novembre 2026 [5][6].",
-      "Les licences restent un point dur : Reuters a rapporté que certaines entreprises américaines ont attendu plus de six mois pour en obtenir une [2][3].",
-      "Donald Trump et Xi Jinping sont attendus à Shenzhen pour le sommet de l'APEC, le 18 novembre [6]."
-    ],
-    "why": [
-      "À retenir : le 10 novembre n'est plus la fin de la trêve, mais ce n'est pas une date anodine. Ce que la Chine a mis en pause, les contrôles sur les terres rares d'octobre 2025, reprend effet à cette date si rien n'est renouvelé [2][3].",
-      "Les terres rares sont des métaux utilisés dans les aimants, des moteurs de voitures électriques aux équipements de défense. Une licence qui tarde, c'est une usine qui attend : l'enjeu est autant dans les délais que dans les interdictions [2][3].",
-      "La prolongation est courte, deux mois. Des analystes la décrivent comme une trêve tactique plutôt qu'un changement de fond, selon Coface [7].",
-      "Nous n'avons trouvé, ce jeudi, aucune annonce sur le renouvellement de la suspension chinoise du 10 novembre : c'est le point à surveiller dans les prochains jours [6]."
-    ],
-    "forMe": "Si tu travailles dans l'automobile, l'électronique ou les énergies renouvelables, ces métaux comptent pour les coûts et les délais. Pour le consommateur, l'effet se voit plus tard, sur le prix et la disponibilité de certains appareils et véhicules électriques.",
-    "next": [
-      {
-        "when": "10 novembre",
-        "what": "Fin de la suspension chinoise des contrôles d'octobre 2025 sur les terres rares, et expiration de 178 exclusions de la section 301 [3][5]."
-      },
-      {
-        "when": "18 novembre",
-        "what": "Rencontre attendue entre Donald Trump et Xi Jinping à l'APEC, à Shenzhen [6]."
-      },
-      {
-        "when": "10 janvier 2027",
-        "what": "Nouvelle échéance de la trêve commerciale [1]."
-      }
-    ],
-    "figures": [
-      {
-        "value": "10 janv. 2027",
-        "label": "nouvelle échéance de la trêve commerciale",
-        "src": 1
-      },
-      {
-        "value": "178",
-        "label": "exclusions de la section 301 qui expirent le 10 novembre",
-        "src": 5
-      },
-      {
-        "value": "+ 6 mois",
-        "label": "attente de licence signalée par certaines entreprises américaines",
-        "src": 2
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "droits-de-douane"
-    ],
-    "sources": [
-      {
-        "short": "CNBC",
-        "name": "CNBC, « U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit » (24 septembre 2026)",
-        "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html"
-      },
-      {
-        "short": "Rinnovabili",
-        "name": "Rinnovabili, « Chinese rare earth exports: Trump-Xi truce extended to Jan 2027 »",
-        "url": "https://www.rinnovabili.net/policy-and-affairs/environmental-policies/chinese-rare-earth-exports-trump-xi-truce/"
-      },
-      {
-        "short": "Startup Fortune",
-        "name": "Startup Fortune, « US and China extend their rare earth truce by just two months to January »",
-        "url": "https://startupfortune.com/us-and-china-extend-their-rare-earth-truce-by-just-two-months-to-january/"
-      },
-      {
-        "short": "Cozen O'Connor (CM Trade Law)",
-        "name": "CM Trade Law, « U.S.-China Trade Truce Extended Two Months: BIS Affiliates Rule Suspension Follows »",
-        "url": "https://www.cmtradelaw.com/2026/09/u-s-china-trade-truce-extended-two-months-bis-affiliates-rule-suspension-follows/"
-      },
-      {
-        "short": "Thomson Reuters",
-        "name": "Thomson Reuters Tax & Accounting, « Section 301 exclusions expire November 2026 »",
-        "url": "https://tax.thomsonreuters.com/blog/section-301-exclusions-expiration/"
-      },
-      {
-        "short": "Venn Strategies",
-        "name": "Venn Strategies, « Venn Trade Weekly - November 3, 2026 »",
-        "url": "https://vennstrategies.substack.com/p/venn-trade-weekly-november-3-2026"
-      },
-      {
-        "short": "Coface",
-        "name": "Coface, « US-China tactical deal: Tariffs, tech, and rare earths »",
-        "url": "https://www.coface.com/news-economy-and-insights/us-china-trade-agreement-a-tactical-truce-not-a-strategic-shift"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-france-greve-5-novembre-corteges",
-    "date": "2026-11-05",
-    "region": "Europe",
-    "theme": "eco",
-    "zones": [
-      "Europe"
-    ],
-    "geo": [
-      {
-        "name": "Paris, France",
-        "label": "France",
-        "coords": [
-          2.35,
-          48.86
-        ]
-      }
-    ],
-    "title": "France : grève et manifestations contre la vie chère, 575 000 personnes dans les cortèges selon le ministère de l'Intérieur, 1,6 million selon la CGT",
-    "summary": "Jeudi 5 novembre, les syndicats ont appelé à la grève et à manifester dans toute la France contre la vie chère. Le ministère de l'Intérieur a compté 575 000 manifestants (600 000 à 17 h), la CGT près de 1,6 million, dont 350 000 à Paris ; 448 interpellations selon le ministère [1][7][8].",
-    "points": [
-      "L'appel est porté par une intersyndicale large (CFDT, CGT, FO, UNSA, FSU et Solidaires). Elle réclame une hausse générale des salaires, des pensions et du Smic, ainsi que la revalorisation du point d'indice des fonctionnaires, selon l'AFP [3][4].",
-      "Le ministère de l'Intérieur a d'abord compté environ 600 000 manifestants à 17 h dans 180 cortèges, un chiffre provisoire ramené à 575 000 dans un bilan ultérieur ; la CGT revendique près de 1,6 million de manifestants, dont 350 000 à Paris. À Paris, le ministère en compte 65 000 ; à Marseille, la préfecture de police 14 000 contre 150 000 selon la CGT [1][7][8]. À midi, l'entourage du ministère évoquait 270 000 personnes et la CGT plus de 250 000 à 13 h : ces premiers comptages, à des heures différentes, étaient provisoires [1][2].",
-      "Avant la journée, une source sécuritaire évoquait entre 500 000 et 700 000 manifestants hors de Paris et jusqu'à 80 000 dans la capitale [5]. Pour comparer : le ministère avait compté 550 000 personnes le 17 octobre et 410 000 le 24 octobre, quand la CGT en revendiquait près de 800 000 [2].",
-      "Les transports sont touchés : les quatre syndicats représentatifs de la SNCF appellent à la grève, avec des perturbations possibles sur les TGV, les Intercités et les TER [3][4].",
-      "Dans l'éducation, le ministère annonçait près de 16 % d'enseignants grévistes et 33 % d'établissements d'enseignement supérieur perturbés [1][2]. Pour la première fois, tous les syndicats de l'enseignement privé sous contrat appellent aussi à la grève [4].",
-      "Le ministre de l'Intérieur, Laurent Nuñez, a annoncé que policiers et gendarmes seraient de nouveau mobilisés, environ 70 000 au total [2].",
-      "La suite n'est pas tranchée : le mouvement des gilets jaunes parle d'une reconduction des blocages les 6 et 7 novembre, mais les syndicats, sauf Solidaires, ne parlent pas pour l'instant de prolonger la grève au-delà de jeudi [4][6].",
-      "Bilan des incidents à 18 h, selon le ministère de l'Intérieur : 448 interpellations, 53 membres des forces de l'ordre blessés et 86 interventions pour incendies, un bilan provisoire qui devait être consolidé [7]."
-    ],
-    "why": [
-      "À retenir : la colère ne vient plus seulement de la jeunesse. Pendant des semaines, des jeunes ont manifesté contre la vie chère ; jeudi, ce sont les salariés, avec toutes les grandes confédérations réunies, ce qui est rare et donne au mouvement un poids que les journées isolées n'avaient pas [3][4].",
-      "Le ressort économique est simple : les prix montent plus vite que les salaires pour une partie des ménages. Les revendications (Smic, pensions, point d'indice des fonctionnaires) visent donc le portefeuille directement, et l'État est concerné deux fois : comme employeur de ses fonctionnaires et comme législateur du salaire minimum et des pensions [3][4].",
-      "Les chiffres de participation sont un enjeu politique en soi. Le ministère et la CGT donnent presque toujours des totaux très différents, et la bataille des chiffres sert à dire si le mouvement monte ou s'essouffle. La série des journées précédentes (550 000 le 17 octobre, 410 000 le 24 selon le ministère) sert de point de repère : un total supérieur à 410 000 jeudi soir signalerait une remontée [2].",
-      "Le décompte de fin de journée du ministère (575 000) dépasse ceux des deux journées précédentes (550 000 le 17 octobre, 410 000 le 24) : selon le décompte officiel, la mobilisation est la plus forte de la série. Les chiffres du ministère et de la CGT restent très éloignés, comme toujours [1][7][8]."
-    ],
-    "forMe": "Si tu prends le train ou si tu as des enfants scolarisés, vérifie dès maintenant les perturbations annoncées par ta compagnie et ton établissement : elles peuvent durer jusqu'à vendredi si le mouvement est reconduit.",
-    "next": [
-      {
-        "when": "6 et 7 novembre",
-        "what": "Les gilets jaunes appellent à reconduire blocages et manifestations ; Solidaires est le seul syndicat à évoquer une prolongation [4][6]."
-      }
-    ],
-    "figures": [
-      {
-        "value": "575 000",
-        "label": "manifestants selon le ministère de l'Intérieur (600 000 à 17 h)",
-        "src": 7
-      },
-      {
-        "value": "≈ 1,6 M",
-        "label": "manifestants selon la CGT, dont 350 000 à Paris",
-        "src": 8
-      },
-      {
-        "value": "448",
-        "label": "interpellations à 18 h, selon le ministère",
-        "src": 7
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "franceinfo",
-        "name": "franceinfo, « DIRECT. Manifestations du 5 novembre : 33 % des établissements d'enseignement supérieur perturbés » (5 novembre 2026)",
-        "url": "https://www.franceinfo.fr/societe/manifestations/direct-greve-du-5-novembre-plus-de-250-actions-annoncees-dans-toute-la-france-selon-une-carte-de-la-ggt_8268827.html"
-      },
-      {
-        "short": "CNews",
-        "name": "CNews, « En direct – Manifestations du 5 novembre : plus de 250 000 personnes dans les cortèges à 13 h, selon la CGT » (5 novembre 2026)",
-        "url": "https://www.cnews.fr/france/2026-11-05/manifestations-du-5-novembre-plus-de-250000-personnes-dans-les-corteges-13h-selon"
-      },
-      {
-        "short": "AFP (Boursedirect)",
-        "name": "AFP, « Mobilisation du 5 novembre en France : au tour du monde du travail de descendre dans la rue »",
-        "url": "https://www.boursedirect.fr/fr/actualites/categorie/a-la-une/mobilisation-du-5-novembre-en-france-au-tour-du-monde-du-travail-de-descendre-dans-la-rue-afp-f52fab0b48bb25f93994def6c36f63625b4e1938"
-      },
-      {
-        "short": "Sortiraparis",
-        "name": "Sortiraparis, « Grève générale du 5 novembre 2026 : transports, écoles, une grosse mobilisation attendue »",
-        "url": "https://www.sortiraparis.com/redirect-article/354559"
-      },
-      {
-        "short": "Time France",
-        "name": "Time France, « 5 novembre : jusqu'à 780 000 manifestants attendus, la France sous haute tension »",
-        "url": "https://www.timefrance.fr/politique/5-novembre-jusqua-780-000-manifestants-attendus-la-france-sous-haute-tension/"
-      },
-      {
-        "short": "Connexion France",
-        "name": "Connexion France, « French union calls for anti-budget protests from November 6 »",
-        "url": "https://www.connexionfrance.com/news/french-union-calls-for-anti-budget-protests-from-november-6/748962"
-      },
-      {
-        "short": "franceinfo (bilan)",
-        "name": "franceinfo, « DIRECT. Mobilisation du 5 novembre : près de 1,6 million de personnes ont défilé en France selon la CGT, 575 000 selon le ministère de l'Intérieur »",
-        "url": "https://www.franceinfo.fr/societe/manifestations/direct-greve-du-5-novembre-plus-de-250-actions-annoncees-dans-toute-la-france-selon-une-carte-de-la-ggt_8268827.html"
-      },
-      {
-        "short": "ICI",
-        "name": "ICI (France Bleu), « DIRECT - Grève du 5 novembre : « près de 1,6 million » de manifestants selon la CGT, 600 000 à 17 h selon le ministère »",
-        "url": "https://www.ici.fr/infos/economie-social/direct-greve-du-5-novembre-les-syndicats-dans-la-rue-ce-jeudi-pour-les-salaires-et-contre-la-vie-chere-7257620"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-royaume-uni-banque-angleterre-hausse-4-pour-cent",
-    "date": "2026-11-05",
-    "region": "Europe",
-    "theme": "eco",
-    "zones": [
-      "Europe"
-    ],
-    "geo": [
-      {
-        "name": "Londres, Royaume-Uni",
-        "label": "Royaume-Uni",
-        "coords": [
-          -0.09,
-          51.51
-        ]
-      }
-    ],
-    "title": "Royaume-Uni : la Banque d'Angleterre relève son taux à 4 %, sa première hausse depuis 2023, à cause de l'énergie",
-    "summary": "Jeudi 5 novembre, la Banque d'Angleterre a relevé son taux directeur de 0,25 point, de 3,75 % à 4 %, par 8 voix contre 1. Il s'agit de sa première hausse depuis 2023. Son gouverneur, Andrew Bailey, prévient que le conflit au Moyen-Orient peut encore en appeler d'autres [1][2][3].",
-    "points": [
-      "Le comité de politique monétaire (MPC) a décidé jeudi 5 novembre de porter le taux directeur à 4 %, contre 3,75 % auparavant, par 8 voix contre 1 [1][2]. Une seule membre, Catherine Mann, voulait plus fort : une hausse de 0,50 point, à 4,25 % [1][2].",
-      "Tous les neuf membres étaient donc favorables à un resserrement ; la divergence porte sur son ampleur. C'est le sens du titre « unanime » de City AM, qui parle du sens de la décision et non du détail du vote [1].",
-      "En septembre, la banque avait maintenu son taux à 3,75 % par 6 voix contre 3, trois membres réclamant déjà une hausse immédiate. Le basculement s'est donc fait en un seul trimestre [4][5].",
-      "Moteur de la décision : l'énergie. La perturbation des approvisionnements a fait monter les prix des carburants et les factures d'énergie des ménages. L'inflation britannique atteignait 3,5 % en septembre, et la banque la voit monter autour de 5 % à la mi-2027 [1][3].",
-      "Andrew Bailey, gouverneur, a mis en garde contre l'idée d'une « longue séquence inévitable de hausses », tout en ajoutant qu'« à moins que le conflit au Moyen-Orient soit résolu », cette hausse ne semble pas non plus devoir être la dernière [1].",
-      "Les marchés l'attendaient : avant la réunion, ils donnaient plus de 96 % de chances à une hausse ; Bank of America prévoyait deux hausses de 0,25 point, en novembre puis en février, pour arriver à 4,25 % [5][6]. Résultat : peu de réaction immédiate des Bourses et des marchés d'obligations, selon MoneyWeek [3]."
-    ],
-    "why": [
-      "À retenir : une banque centrale qui relève ses taux alors que l'économie souffre d'un choc extérieur choisit de combattre l'inflation avant la croissance. L'énergie plus chère n'est pas causée par les Britanniques, mais si les prix montent partout et que les salaires et les prix suivent, l'inflation s'installe. La banque monte donc ses taux pour casser cette spirale [1][3].",
-      "Le mécanisme : un taux directeur plus haut rend les crédits plus chers (prêts immobiliers, crédits aux entreprises), donc freine la demande et les hausses de prix. C'est le même raisonnement que celui de la BCE, dont la prochaine réunion est le 17 décembre.",
-      "Le détail du vote compte autant que la hausse : 8 contre 1, avec une voix pour 0,50 point, penche vers le « faucon ». Les analystes avaient prévenu que la réaction de la livre dépendrait de ce partage des voix et du ton de Bailey. Nous n'avons pas trouvé de variation de la livre après l'annonce, donc nous n'en indiquons pas [3]."
-    ],
-    "forMe": "Si tu vis, étudies ou travailles au Royaume-Uni, ou si tu as un crédit à taux variable lié au taux de la Banque d'Angleterre, ta mensualité peut monter. En France, rien ne change directement, mais c'est un signal de plus que les banques centrales d'Europe durcissent le ton face à l'énergie.",
-    "next": [
-      {
-        "when": "Prochaines réunions",
-        "what": "Bailey juge la hausse peut-être pas la dernière si le conflit au Moyen-Orient continue ; Bank of America prévoit une nouvelle hausse en février [1][6]."
-      }
-    ],
-    "figures": [
-      {
-        "value": "4 %",
-        "label": "nouveau taux directeur (3,75 % avant)",
-        "src": 1
-      },
-      {
-        "value": "8 contre 1",
-        "label": "vote du comité ; une voix pour 4,25 %",
-        "src": 2
-      },
-      {
-        "value": "3,5 %",
-        "label": "inflation britannique en septembre ; ≈ 5 % attendus mi-2027",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "inflation-taux"
-    ],
-    "sources": [
-      {
-        "short": "City AM",
-        "name": "City AM, « Bank of England hikes interest rates to four per cent » (5 novembre 2026)",
-        "url": "https://www.cityam.com/interest-rates-hiked-to-four-per-cent-in-unanimous-vote/"
-      },
-      {
-        "short": "Le Private Banker",
-        "name": "Le Private Banker, « Bank of England Raises Rates to 4 % in 8-1 Vote, Its First Hike Since 2023, as Mann Pushes for 50 Basis Points » (5 novembre 2026)",
-        "url": "https://leprivatebanker.com/2026/11/05/bank-of-england-raises-rates-to-4-in-8-1-vote-its-first-hike-since-2023-as-mann-pushes-for-50-basis-points/"
-      },
-      {
-        "short": "MoneyWeek",
-        "name": "MoneyWeek, « Live: Bank of England raises interest rates » (5 novembre 2026)",
-        "url": "https://moneyweek.com/economy/news/live/uk-interest-rates-november-bank-of-england"
-      },
-      {
-        "short": "Eastern Herald",
-        "name": "Eastern Herald, « Bank of England Holds at 3.75 % as Hawkish Split Signals November Rate Rise » (18 septembre 2026)",
-        "url": "https://easternherald.com/2026/09/18/bank-of-england-holds-3-75-percent-mpc-split-november-hike/"
-      },
-      {
-        "short": "investingLive",
-        "name": "investingLive, « Bank of England preview: first hike to 4 % expected as energy pushes inflation to 3.5 % »",
-        "url": "https://investinglive.com/central-banks/bank-of-england-preview-first-hike-to-4-expected-as-energy-pushes-inflation-to-3-5/"
-      },
-      {
-        "short": "France Épargne",
-        "name": "France Épargne, « BofA prévoit deux hausses de taux de la Banque d'Angleterre jusqu'à 4,25 % en février »",
-        "url": "https://www.france-epargne.fr/news/bofa-prevoit-deux-hausses-de-taux-de-la-banque-dangleterre-jusqua-425-en-fevrier.md"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-argentine-risque-pays-900-wall-street",
-    "date": "2026-11-05",
-    "region": "Amériques",
-    "theme": "eco",
-    "zones": [
-      "Amérique latine",
-      "Amérique du Nord"
-    ],
-    "impact": "monde",
-    "geo": [
-      {
-        "name": "Buenos Aires, Argentine",
-        "label": "Argentine",
-        "coords": [
-          -58.38,
-          -34.6
-        ]
-      }
-    ],
-    "title": "Argentine : le risque pays dépasse 900 points, obligations et actions décrochent après les élections américaines",
-    "summary": "Jeudi 5 novembre, le risque pays argentin mesuré par JP Morgan a franchi la barre des 900 points, entre 915 et 927 selon les médias, son plus haut depuis octobre 2025. Les obligations en dollars ont perdu jusqu'à 3,7 %, le Merval entre 3 et 4,2 % et Mercado Libre 14 % [1][2][3][4].",
-    "points": [
-      "Le risque pays, qui mesure l'écart entre le taux auquel l'Argentine emprunte en dollars et celui des États-Unis, est passé de 852 points à la clôture de mercredi à 915-927 points jeudi, selon les médias consultés ; iProfesional signale un pic de séance à 982 avant un recul à 927 [1][3][5].",
-      "C'est le niveau le plus élevé depuis le 24 octobre 2025, d'après Cadena 3. La veille, le 3 novembre, il était à 829 points, contre un plancher de 403 le 7 juillet [4][6].",
-      "Les obligations souveraines en dollars ont reculé jusqu'à 3,5-3,7 % ; les Globales 2038 et 2035 figurent parmi les plus touchées, selon Rosario Finanzas [3][5].",
-      "Le Merval a perdu entre 3 % (85 628 points) et 4,2 % (84 564 points) selon l'heure et le média ; Mercado Libre, la grande entreprise du commerce en ligne cotée à Wall Street, a chuté de 14 % après la publication de ses résultats trimestriels [2][4].",
-      "Une analyste de l'Oficina de Inversiones, citée par La Nación, attribue la baisse surtout à un facteur mondial : Wall Street a de nouveau reculé après le rebond de mercredi, qui avait suivi la victoire démocrate aux élections américaines de mi-mandat [2].",
-      "Le ministre de l'Économie, Luis Caputo, a affirmé que le résultat du scrutin américain ne changerait pas sensiblement la relation bilatérale ; le marché regarde les échéances : environ 1,3 milliard de dollars à régler au FMI entre novembre et décembre, et 4,4 milliards aux détenteurs d'obligations en janvier, selon la presse argentine [3][5]."
-    ],
-    "why": [
-      "À retenir : le risque pays est le thermomètre de la confiance des prêteurs. Quand il monte, l'Argentine doit offrir un rendement plus élevé pour emprunter en dollars, et au-delà d'environ 900 points les investisseurs commencent à se demander si le pays pourra rembourser sans aide extérieure [1][3].",
-      "Le choc vient de deux côtés. Dehors, la baisse de Wall Street réduit l'appétit pour les pays émergents ; dedans, les analystes craignent que la victoire démocrate au Congrès réduise la marge de manœuvre de Donald Trump pour aider Javier Milei, alors que Washington a ouvert une ligne de swap (échange de devises) de 20 milliards de dollars avec Buenos Aires et que Scott Bessent, secrétaire au Trésor, s'est dit prêt à acheter des obligations argentines si nécessaire [6][7].",
-      "Les réserves brutes de la banque centrale s'élevaient à 50,3 milliards de dollars le 3 novembre et elle n'avait acheté aucun dollar depuis le début du mois : le pays a peu de marge pour faire face à des échéances en dollars si les marchés se ferment [8].",
-      "Le recul de Mercado Libre, première capitalisation latino-américaine de sa catégorie cotée à New York, montre que la baisse touche aussi des entreprises privées, pas seulement l'État [4]."
-    ],
-    "forMe": "Si tu as de la famille ou des économies en Argentine, retiens que le peso et les dettes du pays réagissent autant à Wall Street et à Washington qu'à Buenos Aires. Pour un lecteur européen, l'effet direct est faible, mais c'est un test : un pays émergent très endetté en dollars est le premier à souffrir quand la Bourse américaine baisse.",
-    "next": [
-      {
-        "when": "Novembre-décembre",
-        "what": "Environ 1,3 milliard de dollars d'échéances envers le FMI, puis 4,4 milliards envers les détenteurs d'obligations en janvier [3]."
-      }
-    ],
-    "figures": [
-      {
-        "value": "915-927",
-        "label": "points de risque pays le 5 novembre, contre 852 la veille",
-        "src": 1
-      },
-      {
-        "value": "−14 %",
-        "label": "Mercado Libre après ses résultats trimestriels",
-        "src": 4
-      },
-      {
-        "value": "50,3 Md$",
-        "label": "réserves brutes de la banque centrale (3 novembre)",
-        "src": 8
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "dollar"
-    ],
-    "markets": {
-      "items": [
-        {
-          "name": "Mercado Libre",
-          "ticker": "MELI",
-          "move": "−14 %",
-          "why": "Plateforme de commerce en ligne très présente en Argentine ; son action a chuté de 14 % après la présentation de son bilan trimestriel [4]."
-        }
-      ]
-    },
-    "sources": [
-      {
-        "short": "Infobae",
-        "name": "Infobae, « El riesgo país de la Argentina sigue subiendo y rompe la barrera de los 900 puntos básicos » (5 nov. 2026)",
-        "url": "https://www.infobae.com/economia/2026/11/05/el-riesgo-pais-de-la-argentina-sigue-subiendo-y-rompe-la-barrera-de-los-900-puntos-basicos/"
-      },
-      {
-        "short": "La Nación",
-        "name": "La Nación, « Se dispara el riesgo país por encima de los 900 puntos y caen los bonos argentinos » (5 nov. 2026)",
-        "url": "https://lanacion.com.ar/economia/se-dispara-el-riesgo-pais-por-encima-de-los-900-puntos-y-caen-los-bonos-argentinos-nid05112026"
-      },
-      {
-        "short": "iProfesional",
-        "name": "iProfesional, « Los bonos argentinos caen hasta 3,7 % y el riesgo país supera los 900 puntos »",
-        "url": "https://iprofesional.com/finanzas/468436-bonos-argentinos-caen-hasta-3-por-ciento-y-el-riesgo-pais-llega-a-982-puntos"
-      },
-      {
-        "short": "Cadena 3",
-        "name": "Cadena 3, « El riesgo país rompió la barrera de los 900 puntos y las acciones argentinas caen hasta 14 % »",
-        "url": "https://cadena3.com/noticia/politica-y-economia/el-riesgo-pais-rompio-la-barrera-de-los-900-puntos-y-las-acciones-argentinas-caen-hasta-14_610526"
-      },
-      {
-        "short": "Rosario Finanzas",
-        "name": "Rosario Finanzas, « Riesgo país supera los 915 puntos tras elecciones en EEUU, bonos y acciones argentinas caen »",
-        "url": "https://rosariofinanzas.ar/noticias/riesgo-pais-supera-los-915-puntos-tras-elecciones-en-eeuu-bonos-y-acciones-argentinas-caen"
-      },
-      {
-        "short": "Infobae (3 nov.)",
-        "name": "Infobae, « Riesgo país arriba de 800 puntos y activos en baja » (3 nov. 2026)",
-        "url": "https://www.infobae.com/economia/2026/11/03/riesgo-pais-arriba-de-800-puntos-y-activos-en-baja-por-que-las-acciones-y-los-bonos-argentinos-tocaron-minimos-en-un-ano/"
-      },
-      {
-        "short": "Diario de Cuyo",
-        "name": "Diario de Cuyo, « Swap, compra de bonos y préstamo del Tesoro : los ejes de la ayuda de EE.UU. a Argentina »",
-        "url": "https://www.diariodecuyo.com.ar/politica/swap-compra-de-bonos-y-prestamo-del-tesoro-los-ejes-de-la-ayuda-de-eeuu-a-argentina-1775804.html"
-      },
-      {
-        "short": "La Nación (BCRA)",
-        "name": "La Nación, « El Banco Central volvió a pausar la compra de reservas » (3 nov. 2026)",
-        "url": "https://www.lanacion.com.ar/economia/por-el-dolar-demandado-el-banco-central-vuelve-a-pausar-la-compra-de-reservas-nid03112026/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-paraguay-pena-demission-ueno-bank",
-    "date": "2026-11-05",
-    "region": "Amériques",
-    "theme": "mix",
-    "zones": [
-      "Amérique latine"
-    ],
-    "geo": [
-      {
-        "name": "Asunción, Paraguay",
-        "label": "Paraguay",
-        "coords": [
-          -57.58,
-          -25.26
-        ]
-      }
-    ],
-    "title": "Paraguay : le président Santiago Peña démissionne après la faillite d'Ueno Bank, la guarani perd 8 %",
-    "summary": "Jeudi 5 novembre, le président paraguayen Santiago Peña a démissionné quelques heures après l'intervention de la banque centrale sur Ueno Bank, sixième banque du pays, qui comptait plus de 60 % des adultes parmi ses clients. Le guarani a perdu environ 8 % et le risque pays a bondi [1][2][3].",
-    "points": [
-      "La crise a commencé le 29 octobre 2026 : Ueno Bank a informé la banque centrale du Paraguay (BCP) qu'elle ne pouvait pas reconstituer environ 70 millions de dollars de sa réserve obligatoire, selon Infobae [3].",
-      "Selon CBC, Santiago Peña a démissionné quelques heures après que la banque centrale a pris le contrôle d'Ueno Bank, qui comptait plus de 60 % des adultes du pays parmi ses clients ; La Nación (Costa Rica) parle de trois millions de Paraguayens privés d'accès à leur épargne [2][4].",
-      "Bloomberg Línea décrit Ueno comme la sixième banque du pays et indique que la démission est intervenue pendant que la Chambre des députés débattait d'une demande de destitution contre le président [1][6].",
-      "Les accusations portent sur des conflits d'intérêts : selon La Nación, Santiago Peña a été actionnaire d'Ueno Holding jusqu'en 2025, année où il s'est retiré de la société [4].",
-      "Huit dirigeants de la banque ont été arrêtés et le président de la banque centrale, Carlos Carvallo, a lui aussi démissionné [4].",
-      "Infobae rapporte un guarani en baisse d'environ 8 % et un risque pays paraguayen en forte hausse ; la banque centrale et l'association des banques (Asoban) affirment que la faillite ne touche pas l'ensemble du système financier [3][5].",
-      "Selon Bloomberg Línea, c'est le vice-président Pedro Alliana qui aurait pris la présidence en cas de destitution de Peña ; La Nación signale que l'opposition voulait aussi un procès politique contre lui [1][4]."
-    ],
-    "why": [
-      "À retenir : quand une grande banque tombe, ce sont d'abord les épargnants qui paient. Ueno comptait plus de 60 % des adultes parmi ses clients : l'intervention de la banque centrale a donc touché une très large partie de la population, ce qui explique la rapidité de la crise politique [2][4].",
-      "Le mécanisme est classique. Une banque doit garder une partie des dépôts en réserve auprès de la banque centrale (la réserve obligatoire). Quand elle ne peut plus la reconstituer, comme Ueno le 29 octobre pour environ 70 millions de dollars, la banque centrale intervient pour éviter une panique : si chacun veut retirer son argent en même temps, aucune banque ne peut rembourser tout le monde [3].",
-      "La question politique s'ajoute à la question bancaire : le soupçon de conflit d'intérêts entre le chef de l'État et la banque a transformé une faillite en crise de régime. Le départ du président de la banque centrale et l'arrestation de huit dirigeants montrent que l'affaire touche à la fois le pouvoir et la supervision bancaire [1][4].",
-      "Pour le reste de la région, le risque est la contagion : un guarani en chute de 8 % et un risque pays qui monte rappellent aux investisseurs que les pays émergents très dépendants de leurs banques locales sont fragiles, au moment même où l'Argentine voit son risque pays franchir les 900 points [3]."
-    ],
-    "forMe": "Si tu as de l'argent ou de la famille au Paraguay, retiens que la banque centrale et l'association des banques disent que le reste du système n'est pas touché ; la question est de savoir quand et comment les déposants d'Ueno récupéreront leur épargne, ce que les sources consultées ne disent pas encore.",
-    "figures": [
-      {
-        "value": "> 60 %",
-        "label": "des adultes paraguayens clients d'Ueno Bank",
-        "src": 2
-      },
-      {
-        "value": "≈ 70 M$",
-        "label": "réserve obligatoire qu'Ueno ne pouvait plus reconstituer (29 octobre)",
-        "src": 3
-      },
-      {
-        "value": "≈ −8 %",
-        "label": "baisse du guarani",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Bloomberg Línea",
-        "name": "Bloomberg Línea, « El presidente de Paraguay, Santiago Peña, renuncia tras la quiebra de Ueno Bank »",
-        "url": "https://www.bloomberglinea.com/latinoamerica/el-presidente-de-paraguay-santiago-pena-renuncia-tras-la-quiebra-de-ueno-bank/"
-      },
-      {
-        "short": "CBC",
-        "name": "CBC News, « Bank collapse sinks Paraguay's President Santiago Peña, who resigns as customers fear their savings are gone »",
-        "url": "https://www.cbc.ca/news/world/paraguay-ueno-bank-crisis-pena-resignation-9.7410656"
-      },
-      {
-        "short": "Infobae",
-        "name": "Infobae, « Impacto financiero por el colapso del Ueno Bank : saltó el riesgo país de Paraguay y el guaraní se devaluó 8 % » (5 nov. 2026)",
-        "url": "https://www.infobae.com/economia/2026/11/05/impacto-financiero-por-el-colapso-del-ueno-bank-salto-el-riesgo-pais-de-paraguay-y-el-guarani-se-devaluo-8/"
-      },
-      {
-        "short": "La Nación (Costa Rica)",
-        "name": "La Nación, « ¿Qué pasó en Paraguay con la intervención del Ueno Bank ? »",
-        "url": "https://www.nacion.com/el-mundo/que-paso-en-paraguay-con-la-intervencion-del-ueno/BD5OJNT2JVET5O2HEUZIYSOQ24/story/"
-      },
-      {
-        "short": "El Colombiano",
-        "name": "El Colombiano, « ¿Qué pasó con Ueno Bank, el banco que llevó a la renuncia del presidente de Paraguay ? »",
-        "url": "https://www.elcolombiano.com/negocios/quiebra-ueno-bank-crisis-politica-renuncia-santiago-pena-presidente-paraguay-DH43222346"
-      },
-      {
-        "short": "Bloomberg Línea (Congrès)",
-        "name": "Bloomberg Línea, « Quiebra de Ueno Bank sacude a Paraguay : miles reclaman sus ahorros y el Congreso debate destituir a Peña »",
-        "url": "https://www.bloomberglinea.com/latinoamerica/quiebra-de-ueno-bank-sacude-a-paraguay-miles-reclaman-sus-ahorros-y-el-congreso-debate-destituir-a-pena/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-russie-japan-tobacco-jti-tutelle-poutine",
-    "date": "2026-11-05",
-    "region": "Europe",
-    "theme": "mix",
-    "zones": [
-      "Asie",
-      "Europe"
-    ],
-    "geo": [
-      {
-        "name": "Moscou, Russie",
-        "label": "Russie",
-        "coords": [
-          37.62,
-          55.75
-        ]
-      }
-    ],
-    "title": "Poutine place les usines russes de Japan Tobacco International sous tutelle de l'État",
-    "summary": "Jeudi 5 novembre, un décret de Vladimir Poutine a placé sous « gestion temporaire » les participations de Japan Tobacco International (JTI) dans quatre usines russes, confiées à une société russe, Industrial Assets. Les propriétaires gardent leurs titres mais perdent la direction [1][2][3].",
-    "points": [
-      "Le décret, publié le 5 novembre sur le portail juridique officiel russe, vise quatre sociétés de fabrication : Donskoy Tabak, Pereslavl-Tabak, JTI Yelets et Kres Neva, selon l'agence TASS [2].",
-      "Leur gestion est confiée à une entité nommée Industrial Assets, dont le décret ne donne pas d'autre précision que sa raison sociale, d'après les médias qui l'ont consulté [2][3].",
-      "Le mécanisme repose sur un décret présidentiel d'avril 2023 : il permet à Moscou de placer sous gestion temporaire les actifs détenus en Russie par des entreprises de pays jugés « inamicaux ». Le propriétaire reste propriétaire sur le papier, mais perd le droit de gérer [1][3].",
-      "Le Japon, membre du G7, fait partie des pays que la Russie classe comme inamicaux ; le porte-parole du Kremlin a relié ces mesures à l'origine des propriétaires, selon la presse ayant relayé ses déclarations [1][4].",
-      "JTI est décrite comme le premier fabricant de tabac de Russie ; un entretien du Financial Times avec le PDG de Japan Tobacco indiquait en 2024 que la Russie représentait environ 20 % des profits du groupe [3].",
-      "Le même mécanisme avait déjà frappé Metro, Auchan, Nestlé et Leroy Merlin en septembre ; dans les cas précédents, des ventes à une fraction de la valeur ont souvent suivi, selon la Novaïa Gazeta citée par Liga [1][3].",
-      "Le Kremlin dément saisir des biens étrangers : Vladimir Poutine avait qualifié de « mensonges et provocations » ces accusations devant le club Valdaï en octobre. La presse occidentale et japonaise parle d'une saisie qui ne dit pas son nom [1][3][4]."
-    ],
-    "why": [
-      "À retenir : une mise « sous gestion temporaire » est une prise de contrôle sans changement de propriétaire officiel. L'entreprise garde les titres, mais l'État russe choisit qui dirige l'usine et encaisse les profits, ce qui prépare souvent une vente forcée à bas prix [1][3].",
-      "Pour Japan Tobacco, l'enjeu est financier : la Russie pèse environ un cinquième de ses profits selon l'entretien de 2024 de son PDG au Financial Times. Perdre le contrôle de quatre usines, c'est perdre une part importante du groupe, et le risque d'une cession à vil prix s'ajoute à la perte de gestion [3].",
-      "Pour la géopolitique, c'est un signe de plus de la dégradation des relations entre Moscou et Tokyo, déjà tendues par les sanctions japonaises liées à la guerre en Ukraine. La Russie utilise ses lois d'exception pour faire payer aux pays « inamicaux » le prix des sanctions, en prenant des actifs que leurs entreprises ne peuvent pas emporter [1][4].",
-      "Les investisseurs étrangers encore présents en Russie reçoivent un avertissement : après les distributeurs et les marques de grande consommation, un fabricant industriel est visé. Ce sont des actifs concrets, usines et marques, qu'aucune décision de justice étrangère ne peut protéger sur place [1][3]."
-    ],
-    "forMe": "Si tu travailles pour une entreprise qui a encore des activités en Russie, ou si tu suis les sanctions, retiens que quitter ce pays peut coûter cher : rester expose à la prise de contrôle, partir oblige souvent à vendre à un prix très bas.",
-    "next": [
-      {
-        "when": "À suivre",
-        "what": "Reste à savoir si Japan Tobacco conteste le décret ou négocie une sortie, et si d'autres actifs étrangers suivent [1][3]."
-      }
-    ],
-    "figures": [
-      {
-        "value": "4",
-        "label": "usines russes de JTI placées sous gestion temporaire",
-        "src": 2
-      },
-      {
-        "value": "≈ 20 %",
-        "label": "part de la Russie dans les profits du groupe Japan Tobacco (entretien FT de 2024)",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "sanctions"
-    ],
-    "sources": [
-      {
-        "short": "Nikkei Asia",
-        "name": "Nikkei Asia, « Putin seizes control of Japan Tobacco units as Moscow-Tokyo ties fray »",
-        "url": "https://asia.nikkei.com/politics/international-relations/putin-seizes-control-of-japan-tobacco-units-as-moscow-tokyo-ties-fray"
-      },
-      {
-        "short": "TASS",
-        "name": "TASS, « Putin places Japan Tobacco's Russian assets under temporary management »",
-        "url": "https://tass.com/politics/2213281"
-      },
-      {
-        "short": "Liga.net",
-        "name": "Liga.net, « Kremlin seizes Japan Tobacco's Russian factories »",
-        "url": "https://biz.liga.net/en/fmcg/news/kremlin-seizes-japan-tobaccos-russian-factories-despite-business-as-usual"
-      },
-      {
-        "short": "ProtoThema",
-        "name": "ProtoThema, « Russia seizes control of Japan Tobacco's assets by Putin decree as Coca-Cola HBC shares plunge » (5 nov. 2026)",
-        "url": "https://en.protothema.gr/2026/11/05/russia-seizes-control-of-japan-tobaccos-assets-by-putin-decree-as-coca-cola-hbc-shares-plunge/"
-      },
-      {
-        "short": "Nippon.com",
-        "name": "Nippon.com, « Japan Tobacco's Assets to Be Placed under Russian Management »",
-        "url": "https://nippon.com/en/articles/-/56985"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-wall-street-dow-3-pour-cent-midterms-petrole",
-    "date": "2026-11-05",
-    "region": "Amériques",
-    "theme": "fin",
-    "zones": [
-      "Europe",
-      "Asie"
-    ],
-    "impact": "monde",
-    "geo": [
-      {
-        "name": "New York, États-Unis",
-        "label": "Wall Street",
-        "coords": [
-          -74.01,
-          40.71
-        ]
-      }
-    ],
-    "title": "Wall Street s'envole de 3 % au lendemain des midterms, et le pétrole recule de 8 %",
-    "summary": "Mercredi 4 novembre, le Dow Jones a gagné 3,03 % à 53 356 points, sa meilleure séance depuis avril 2025, après la victoire des démocrates aux élections de mi-mandat. Le S&P 500 a pris 1,58 % et le Nasdaq 1,44 %, pendant que le pétrole américain perdait environ 8 % [1][2][3].",
-    "points": [
-      "Le Dow Jones a progressé de 1 569,40 points (3,03 %) à 53 356,12 ; le S&P 500 de 1,58 % à 7 688,62 ; le Nasdaq Composite de 1,44 % à 25 736,51, selon CNBC [1].",
-      "C'est la meilleure séance du Dow depuis avril 2025 [1].",
-      "Les investisseurs ont lu le résultat net des élections comme la fin d'une incertitude politique ; l'acceptation du résultat par Donald Trump faisait partie du tableau, selon The Washington Times [4].",
-      "Les valeurs de l'énergie ont le plus reculé, le brut américain WTI cédant environ 8 % dans la séance [2][3].",
-      "Un récapitulatif de marché relève aussi que les obligations d'État américaines ont monté, sur l'idée qu'un gouvernement divisé limiterait les dépenses, et que l'indice du dollar est tombé à 101,21 à un moment, son plus bas depuis le 30 septembre [5].",
-      "D'autres récapitulatifs affichent des chiffres très différents (Dow en baisse de 0,4 %). Nous retenons les chiffres de clôture de CNBC, cohérents avec l'ampleur de la hausse décrite par Yahoo Finance et TheStreet [1][2][3]."
-    ],
-    "why": [
-      "À retenir : une Bourse déteste l'incertitude. Quand le résultat d'une élection est net, les investisseurs savent à quoi s'en tenir et reprennent des risques ; la hausse de 3 % vient bien plus de là que d'une mesure économique précise [1][4].",
-      "Le recul du pétrole est le point le plus frappant. Selon les récapitulatifs, il est lié à l'espoir qu'un Congrès partagé réduise les tensions au Moyen-Orient. Le même jour pourtant, l'Iran jugeait peu convaincante la réponse américaine : le marché a réagi à un espoir, pas à un fait [2][5].",
-      "L'histoire est plutôt rassurante, sans rien garantir : depuis 1950, le S&P 500 était plus haut douze mois après chacune des 19 élections de mi-mandat, mais l'échantillon est petit [6]."
-    ],
-    "forMe": "Si ton épargne est placée en actions (PEA, assurance-vie en unités de compte, fonds indiciels), une séance à +3 % ne change rien pour un horizon de plusieurs années, pas plus qu'une séance à −3 %. On ne dit ni d'acheter ni de vendre.",
-    "next": [
-      {
-        "when": "6 novembre",
-        "what": "Publication du rapport américain sur l'emploi d'octobre, qui peut faire bouger les marchés [9]."
-      },
-      {
-        "when": "8-9 décembre",
-        "what": "Réunion de la Fed, avec une hausse de taux envisagée [10]."
-      }
-    ],
-    "figures": [
-      {
-        "value": "+3,03 %",
-        "label": "Dow Jones mercredi 4 novembre, à 53 356 points",
-        "src": 1
-      },
-      {
-        "value": "−8 %",
-        "label": "pétrole américain (WTI) dans la séance",
-        "src": 2
-      },
-      {
-        "value": "19 sur 19",
-        "label": "midterms suivies d'un S&P 500 plus haut un an après, depuis 1950",
-        "src": 6
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "dollar"
-    ],
-    "deep": {
-      "explainer": {
-        "title": "Comment ça marche : pourquoi un résultat d'élection fait bouger la Bourse",
-        "text": "Le prix d'une action reflète ce que les investisseurs attendent des bénéfices futurs, corrigé du risque. Avant une élection, personne ne sait quelles lois, quels impôts ou quels droits de douane vont suivre : les investisseurs exigent une prime de risque plus élevée, donc paient les actions moins cher. Quand le résultat tombe, une partie de cette incertitude disparaît d'un coup et les cours montent, même si rien de concret n'a encore changé. Certains secteurs dépendent en plus de décisions précises (énergie, santé, armement) et réagissent selon ce que le nouveau rapport de force laisse prévoir. Le pétrole, lui, bouge aussi avec la géopolitique : si les risques de conflit paraissent reculer, la prime de risque sur le baril diminue [1][2][5]."
-      }
-    },
-    "past": {
-      "title": "Les élections de mi-mandat et la Bourse : ce que l'histoire a donné",
-      "items": [
-        {
-          "when": "Depuis 1950",
-          "what": "Le S&P 500 était plus haut douze mois après chacune des 19 élections de mi-mandat, avec un gain moyen de 15,1 % [6].",
-          "lesson": "L'incertitude pèse avant le vote et se dissipe après ; mais l'échantillon est petit et rien ne garantit que cela se reproduise [6]."
-        },
-        {
-          "when": "1930 et 1938",
-          "what": "Selon une analyse du Motley Fool, ce sont les deux seules élections de mi-mandat suivies d'un rendement négatif sur douze mois [7].",
-          "lesson": "Le schéma n'est pas une loi : il existe des exceptions, même dans un échantillon très favorable [7]."
-        },
-        {
-          "when": "Depuis 1938",
-          "what": "Selon Fidelity, le S&P 500 a enregistré une hausse de prix dans les douze mois suivant ces élections dans 95 % des cas [8].",
-          "lesson": "Les élections ont rarement été le principal moteur des rendements à long terme, selon Fidelity [8]."
-        }
-      ]
-    },
-    "markets": {
-      "text": "Chiffres de clôture du mercredi 4 novembre [1].",
-      "items": [
-        {
-          "name": "Dow Jones",
-          "ticker": "DJIA",
-          "move": "+3,03 %",
-          "why": "Clôture à 53 356,12 points, sa meilleure séance depuis avril 2025 [1]."
-        },
-        {
-          "name": "S&P 500",
-          "ticker": "SPX",
-          "move": "+1,58 %",
-          "why": "Clôture à 7 688,62 points [1]."
-        },
-        {
-          "name": "Nasdaq Composite",
-          "ticker": "COMP",
-          "move": "+1,44 %",
-          "why": "Clôture à 25 736,51 points [1]."
-        },
-        {
-          "name": "Pétrole américain",
-          "ticker": "WTI",
-          "move": "−8 %",
-          "why": "Le baril recule d'environ 8 % dans la séance, les valeurs de l'énergie étant les plus touchées [2][3]."
-        }
-      ]
-    },
-    "sources": [
-      {
-        "short": "CNBC",
-        "name": "CNBC, « Stock market news for Nov. 4, 2026 »",
-        "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
-      },
-      {
-        "short": "Yahoo Finance",
-        "name": "Yahoo Finance, « Markets News, Nov. 4, 2026: Dow Jumps Nearly 1,600 Points as Stocks Soar After Democrats' Decisive Win in Midterms; WTI Oil Slides 8% »",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-dow-futures-135650348.html"
-      },
-      {
-        "short": "TheStreet",
-        "name": "TheStreet, « Stock Market Today (Nov. 4, 2026): Stocks rise, oil collapses after Dems sweep midterm elections »",
-        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-04-2026"
-      },
-      {
-        "short": "The Washington Times",
-        "name": "The Washington Times, « Wall Street rallies after clear-cut result in midterms » (4 novembre 2026)",
-        "url": "https://www.washingtontimes.com/news/2026/nov/4/wall-street-rallies-clear-cut-result-midterms/"
-      },
-      {
-        "short": "Babypips",
-        "name": "Babypips, « Financial & Forex Market Recap: Nov. 4, 2026 »",
-        "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-04"
-      },
-      {
-        "short": "Pepperstone",
-        "name": "Pepperstone, « Do stocks rally after midterms? »",
-        "url": "https://pepperstone.com/en/insights/guides/cfds/do-stocks-rally-after-midterms"
-      },
-      {
-        "short": "The Motley Fool",
-        "name": "The Motley Fool, « History Says the S&P 500 Could Rise After This Happens in 2026 » (4 février 2026)",
-        "url": "https://www.fool.com/investing/2026/02/04/history-says-sp-500-could-rise-after-this-happens"
-      },
-      {
-        "short": "Fidelity",
-        "name": "Fidelity, « The surprising truth about midterms and stocks »",
-        "url": "https://www.fidelity.com/learning-center/trading-investing/the-surprising-truth-about-midterms-and-stocks"
-      },
-      {
-        "short": "BLS",
-        "name": "Bureau of Labor Statistics, calendrier de publication « Employment Situation »",
-        "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
-      },
-      {
-        "short": "CNBC",
-        "name": "CNBC, « Fed interest rate decision October 2026 »",
-        "url": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-or-repasse-4000-dollars-dollar-faible",
-    "date": "2026-11-05",
-    "region": "Amériques",
-    "theme": "fin",
-    "zones": [
-      "Europe",
-      "Asie",
-      "Moyen-Orient"
-    ],
-    "geo": [
-      {
-        "name": "New York, États-Unis",
-        "label": "Or et argent",
-        "coords": [
-          -74.01,
-          40.71
-        ]
-      }
-    ],
-    "title": "L'or repasse au-dessus de 4 000 dollars : +3 % en une séance, porté par un dollar en recul après les midterms",
-    "summary": "Mercredi 4 novembre, l'once d'or a gagné près de 3 % à environ 4 054 dollars, repassant au-dessus de 4 000 dollars après un prix fixé à 3 913 dollars vendredi. L'argent a bondi de 4,6 % à 52,49 dollars. Les victoires démocrates ont affaibli le dollar [1][2][3].",
-    "points": [
-      "L'or comptant cotait environ 4 053,68 dollars l'once, en hausse de 116,29 dollars (2,95 %) sur la journée. Fortune relevait 4 046 dollars à 8 h 45, heure de New York [1][2].",
-      "L'argent gagnait 2,30 dollars (4,58 %), à 52,49 dollars l'once ; le rapport entre le prix de l'or et celui de l'argent est tombé vers 77 [1].",
-      "Les fonds cotés ont suivi : GLD (or) a clôturé en hausse de 3,68 % à 372,49 dollars et SLV (argent) de 5,17 % à 47,16 dollars, selon Rio Times [3].",
-      "L'or avait perdu la barre des 4 000 dollars la semaine précédente : son prix de l'après-midi à Londres (LBMA) avait été fixé à 3 913 dollars vendredi [1][3].",
-      "Les articles relient la hausse à la victoire des démocrates au Congrès et à un dollar plus faible : l'indice du dollar est tombé à 101,21 à un moment, son plus bas depuis le 30 septembre [1][3][4]."
-    ],
-    "why": [
-      "À retenir : l'or ne rapporte aucun intérêt et se paie en dollars. Quand le dollar baisse, il devient moins cher pour les acheteurs qui paient dans d'autres monnaies, ce qui soutient la demande [1][3].",
-      "Le rebond ne change pas le tableau d'ensemble : l'or reste très en dessous de son record de janvier, environ 5 595 dollars l'once le 29 janvier 2026 [5][6]. Vendredi encore, il touchait son plus bas en un an [9].",
-      "La suite dépendra des taux américains : une hausse de la Fed en décembre rendrait l'or, qui ne rapporte rien, moins attractif face aux placements qui rapportent un intérêt, et c'est l'argument qu'avançaient les analystes vendredi [7]."
-    ],
-    "forMe": "L'or physique (pièces, lingots) et les fonds sur l'or suivent ces mouvements. Pour un épargnant français, le métal n'est pas une garantie de stabilité : son prix a varié de 3 % en une séance cette semaine, et de plus de 3 % à la baisse vendredi. On ne dit ni d'acheter ni de vendre.",
-    "next": [
-      {
-        "when": "8-9 décembre",
-        "what": "Réunion de la Fed, avec une hausse de taux envisagée [8]."
-      }
-    ],
-    "figures": [
-      {
-        "value": "+2,95 %",
-        "label": "once d'or mercredi 4 novembre, à environ 4 054 $",
-        "src": 1
-      },
-      {
-        "value": "+4,58 %",
-        "label": "once d'argent, à 52,49 $",
-        "src": 1
-      },
-      {
-        "value": "3 913 $",
-        "label": "prix de l'or fixé à Londres vendredi 30 octobre",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "dollar"
-    ],
-    "deep": {
-      "explainer": {
-        "title": "Comment ça marche : pourquoi l'or réagit au dollar et aux taux",
-        "text": "L'or se vend en dollars sur les marchés mondiaux. Si le dollar baisse, un acheteur européen ou asiatique paie moins cher dans sa propre monnaie, et la demande peut augmenter. De plus, l'or ne verse ni intérêt ni dividende : quand les taux montent, les obligations et les comptes rémunérés rapportent davantage, et l'or devient moins attractif ; quand les taux baissent ou que le dollar faiblit, c'est l'inverse. Enfin, l'or est un refuge, mais pas toujours : en cas de forte chute des Bourses, certains investisseurs le vendent pour récupérer du cash ailleurs, ce qui explique les chutes brutales de la semaine dernière [1][3][7]."
-      }
-    },
-    "past": {
-      "title": "L'or, des hausses rapides et des chutes brutales",
-      "items": [
-        {
-          "when": "21 octobre 2025",
-          "what": "Après un record à 4 381,21 dollars la veille, l'or a perdu jusqu'à 6,3 % en une séance, sa plus forte baisse en pourcentage depuis avril 2013 [10].",
-          "lesson": "Après une hausse très rapide, une simple pause des acheteurs peut provoquer une chute de plusieurs pour cent en un jour [10]."
-        },
-        {
-          "when": "29-30 janvier 2026",
-          "what": "L'or a atteint un record d'environ 5 595 dollars l'once le 29 janvier, puis a perdu 9,5 % le lendemain [5][6].",
-          "lesson": "Un record n'a pas empêché une correction brutale ; le métal s'échangeait encore plus de 30 % sous ce sommet à la fin octobre [5][9]."
-        },
-        {
-          "when": "30 octobre 2026",
-          "what": "L'or a chuté de 3,5 % à environ 3 880 dollars, son plus bas en plus d'un an, la tech entraînant les autres marchés [9].",
-          "lesson": "Cinq jours plus tard, il a regagné près de 175 dollars l'once : les mouvements sont rapides dans les deux sens [1][9]."
-        }
-      ]
-    },
-    "markets": {
-      "items": [
-        {
-          "name": "Once d'or",
-          "ticker": "XAU",
-          "move": "+2,95 %",
-          "why": "L'or comptant gagne 116,29 dollars à environ 4 053,68 dollars [1]."
-        },
-        {
-          "name": "Fonds sur l'or",
-          "ticker": "GLD",
-          "move": "+3,68 %",
-          "why": "Clôture à 372,49 dollars [3]."
-        },
-        {
-          "name": "Fonds sur l'argent",
-          "ticker": "SLV",
-          "move": "+5,17 %",
-          "why": "Clôture à 47,16 dollars [3]."
-        }
-      ]
-    },
-    "sources": [
-      {
-        "short": "USAGOLD",
-        "name": "USAGOLD, « Gold Surges 3% To $4,053 As Democrats Sweep Congress; Silver Jumps 4.6% » (4 novembre 2026)",
-        "url": "https://www.usagold.com/daily-precious-metals-market-report-november-4-2026/"
-      },
-      {
-        "short": "Fortune",
-        "name": "Fortune, « Current price of gold: November 4, 2026 »",
-        "url": "https://fortune.com/article/current-price-of-gold-11-04-2026/"
-      },
-      {
-        "short": "Rio Times",
-        "name": "The Rio Times, « Gold Tops US$4,000 as Silver Jumps » (4 novembre 2026)",
-        "url": "https://www.riotimesonline.com/gold-silver-precious-metals-wednesday-november-4-2026/"
-      },
-      {
-        "short": "Babypips",
-        "name": "Babypips, « Financial & Forex Market Recap: Nov. 4, 2026 »",
-        "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-04"
-      },
-      {
-        "short": "CBS News",
-        "name": "CBS News, « Highest gold price in history: how it's changed from 2025 to 2026 »",
-        "url": "https://www.cbsnews.com/news/highest-gold-price-in-history-how-its-changed-from-2025-to-2026/"
-      },
-      {
-        "short": "EBC",
-        "name": "EBC, « Gold highest price ever (XAUUSD record 2026) »",
-        "url": "https://www.ebc.com/forex/gold-highest-price-ever-xauusd-record-2026"
-      },
-      {
-        "short": "TradingKey",
-        "name": "TradingKey, « Gold prices fall below $3,900, silver… what causes prices to drop »",
-        "url": "https://www.tradingkey.com/analysis/commodities/metal/262261037-gold-prices-fall-below-3900-silver-what-causes-prices-to-drop-tradingkey"
-      },
-      {
-        "short": "CNBC",
-        "name": "CNBC, « Fed interest rate decision October 2026 »",
-        "url": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html"
-      },
-      {
-        "short": "Kitco",
-        "name": "Kitco, « Gold falls below $3,900, silver tumbles as Wall Street selloff triggers… » (30 octobre 2026)",
-        "url": "https://www.kitco.com/news/article/2026-10-30/gold-falls-below-3900-silver-tumbles-wall-street-selloff-triggers"
-      },
-      {
-        "short": "Business Today",
-        "name": "Business Today, « Gold and silver prices drop sharply, marking biggest decline since 2013 and 2021 » (21 octobre 2025)",
-        "url": "https://www.businesstoday.in/personal-finance/investment/story/gold-and-silver-prices-drop-sharply-marking-biggest-decline-since-2013-and-2021-499097-2025-10-21"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-zillow-chute-prevision-immobilier",
-    "date": "2026-11-05",
-    "region": "Amériques",
-    "theme": "fin",
-    "zones": [
-      "Amérique du Nord"
-    ],
-    "geo": [
-      {
-        "name": "Seattle, États-Unis",
-        "label": "États-Unis",
-        "coords": [
-          -122.33,
-          47.61
-        ]
-      }
-    ],
-    "title": "Zillow plonge de 16 % : le site immobilier prévoit moins de ventes que prévu, et son action a déjà perdu près de la moitié cette année",
-    "summary": "Zillow, le grand site américain d'annonces immobilières, a publié mercredi 4 novembre ses résultats du troisième trimestre : 724 millions de dollars de ventes (+7 %), mais en dessous des attentes, et une prévision prudente pour la fin d'année. L'action a chuté d'environ 16 % après la clôture [1][2][3].",
-    "points": [
-      "Selon le communiqué de Zillow, les ventes du troisième trimestre ont progressé de 7 % sur un an, à 724 millions de dollars, contre environ 753 millions attendus par les analystes (TipRanks) [1][2].",
-      "Le bénéfice ajusté par action est ressorti à 0,55 dollar, sous les 0,58 attendus. En comptabilité classique (GAAP), Zillow affiche une perte nette de 158 millions de dollars, soit 0,70 dollar par action [2].",
-      "Pour le quatrième trimestre, l'entreprise prévoit entre 635 et 665 millions de dollars de ventes, une fourchette inférieure à ce que les analystes espéraient [2].",
-      "Les causes avancées : des taux de crédit immobilier élevés et un marché américain du logement toujours faible, qui pèsent sur son activité résidentielle, et un trafic en baisse sur son site [2].",
-      "Le bénéfice ajusté exclut un règlement de 165 millions de dollars lié à l'action collective des actionnaires sur Zillow Offers, son ancienne activité d'achat-revente de maisons [1].",
-      "CNBC a relevé, parmi les plus fortes baisses après la clôture mercredi, Zillow (plus de 16 %), à côté d'Expedia (plus de 7 %) [3]. Depuis janvier, l'action Zillow a déjà perdu 48,6 % [2]."
-    ],
-    "why": [
-      "À retenir : en Bourse, une entreprise est jugée sur ce qu'elle promet de gagner, pas sur ce qu'elle vient de gagner. Les ventes de Zillow progressent de 7 %, mais comme les analystes en attendaient davantage et que la prévision est plus basse que leurs attentes, l'action recule : le marché révise à la baisse les gains futurs [2][3].",
-      "Zillow vit du logement : annonces, publicité aux agents immobiliers, prêts. Quand les taux de crédit restent hauts, moins de ménages achètent, donc moins de visites et moins de revenus. C'est un baromètre de la santé du marché immobilier américain, lié aux décisions de la Réserve fédérale [2].",
-      "Le trafic en baisse du site est un second signal : moins de visiteurs veut dire moins de contacts à vendre aux agents. Une inquiétude proche de celle de Reddit cette semaine, qui perd du trafic au profit des réponses de l'intelligence artificielle de Google."
-    ],
-    "forMe": "Rien à faire de direct : cette actu t'explique pourquoi un bon chiffre de ventes ne suffit pas à faire monter une action. Si tu suis l'immobilier américain, c'est un indice de plus que la demande reste freinée par le coût du crédit. Ce n'est pas un conseil d'acheter ou de vendre.",
-    "figures": [
-      {
-        "value": "724 M$",
-        "label": "ventes du 3e trimestre (+7 % ; ≈ 753 M$ attendus)",
-        "src": 2
-      },
-      {
-        "value": "635–665 M$",
-        "label": "prévision de ventes du 4e trimestre, sous les attentes",
-        "src": 2
-      },
-      {
-        "value": "−48,6 %",
-        "label": "performance de l'action Zillow depuis janvier",
-        "src": 2
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "inflation-taux"
-    ],
-    "deep": {
-      "explainer": {
-        "title": "Comment ça marche : pourquoi une prévision décevante fait plonger une action",
-        "text": "Le cours d'une action reflète ce que les investisseurs pensent que l'entreprise gagnera dans les années à venir. Les analystes publient des attentes (chiffre d'affaires, bénéfice par action) ; quand l'entreprise fait moins, c'est un « raté » (miss). La prévision que l'entreprise donne pour le trimestre suivant (guidance) compte souvent davantage que le trimestre passé : si elle est sous les attentes, les investisseurs révisent à la baisse leurs gains futurs, et le prix baisse tout de suite. Après la clôture, on parle d'échanges en « séance prolongée » : le mouvement peut s'atténuer ou s'amplifier le lendemain [2][3]."
-      }
-    },
-    "past": {
-      "title": "Quand le logement fait trembler les plateformes immobilières",
-      "items": [
-        {
-          "when": "2 novembre 2021",
-          "what": "Zillow annonce l'arrêt de Zillow Offers, son activité d'achat-revente de maisons : une dépréciation de stocks de 304,4 millions de dollars au troisième trimestre, environ 25 % des effectifs supprimés. Le PDG, Rich Barton, explique que la prévision des prix des maisons s'est révélée plus imprévisible qu'attendu [4][5].",
-          "lesson": "Une plateforme qui prend le risque des prix sur son bilan peut perdre plus que ce que ses prévisions suggéraient."
-        },
-        {
-          "when": "Octobre 2022",
-          "what": "Opendoor, Offerpad et Redfin touchent leurs plus bas historiques la même semaine, avec la baisse des prix des maisons, la hausse des taux de crédit et la chute générale des marchés ; Redfin approchait 100 dollars début 2021 [6].",
-          "lesson": "Les actions du secteur réagissent d'abord aux taux de crédit, avant les résultats."
-        },
-        {
-          "when": "Août 2024",
-          "what": "Après que le président de la Fed, Jerome Powell, a laissé entrevoir des baisses de taux, l'action Opendoor monte de 24 % en deux séances, Offerpad d'un niveau semblable [7].",
-          "lesson": "Le mouvement inverse existe : l'espoir de taux plus bas relance le secteur aussi vite."
-        }
-      ]
-    },
-    "markets": {
-      "items": [
-        {
-          "name": "Zillow Group",
-          "ticker": "Z",
-          "move": "−16 % après la clôture",
-          "why": "Site d'annonces immobilières dont les ventes dépendent des achats de logements ; l'action a reculé de plus de 16 % en séance prolongée après ses résultats [3], et perd 48,6 % depuis janvier [2]."
-        }
-      ]
-    },
-    "sources": [
-      {
-        "short": "Zillow (SEC)",
-        "name": "Zillow Group, communiqué sur les résultats du 3e trimestre 2026 (formulaire 8-K, 4 novembre 2026)",
-        "url": "https://www.sec.gov/Archives/edgar/data/0001617640/000161764026000068/q32026991.htm"
-      },
-      {
-        "short": "TipRanks",
-        "name": "TipRanks, « Zillow Stock Plunges on Q3 Miss as Housing Market Weakness Persists »",
-        "url": "https://www.tipranks.com/news/zillow-stock-plunges-on-q3-miss-as-housing-market-weakness-persists"
-      },
-      {
-        "short": "CNBC",
-        "name": "CNBC, « Stocks making the biggest moves after hours: Coherent, AppLovin, Expedia, Qualcomm and more » (4 novembre 2026)",
-        "url": "https://www.cnbc.com/2026/11/04/stocks-making-the-biggest-moves-after-hours-cohr-app-expe-more.html"
-      },
-      {
-        "short": "Zillow (SEC 2021)",
-        "name": "Zillow Group, formulaire 8-K du 2 novembre 2021 (arrêt de Zillow Offers)",
-        "url": "https://www.sec.gov/Archives/edgar/data/1617640/000161764021000085/z-20211102.htm"
-      },
-      {
-        "short": "CNN",
-        "name": "CNN, « Zillow to exit its home buying business and cut 25 % of staff » (2 novembre 2021)",
-        "url": "https://www.cnn.com/2021/11/02/homes/zillow-exit-ibuying-home-business"
-      },
-      {
-        "short": "Inman",
-        "name": "Inman, « The big iBuyers are getting brutalized in the stock market » (7 octobre 2022)",
-        "url": "https://inman.com/2022/10/07/the-big-ibuyers-are-getting-brutalized-in-the-stock-market"
-      },
-      {
-        "short": "The Motley Fool",
-        "name": "The Motley Fool, « Interest rates: can Opendoor break the iBuying curse » (31 août 2024)",
-        "url": "https://www.fool.com/investing/2024/08/31/interest-rates-can-opendoor-break-ibuying-curse"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-cvs-scission-pharmacies-aetna",
-    "date": "2026-11-05",
-    "region": "Amériques",
-    "theme": "fin",
-    "zones": [
-      "Amérique du Nord"
-    ],
-    "geo": [
-      {
-        "name": "Woonsocket, États-Unis",
-        "label": "États-Unis",
-        "coords": [
-          -71.51,
-          42
-        ]
-      }
-    ],
-    "title": "CVS Health veut se couper en deux, pharmacies d'un côté, assurance Aetna de l'autre, et son action perd 13 %",
-    "summary": "Mercredi 4 novembre, CVS Health a annoncé qu'elle se scinderait en deux sociétés cotées : les quelque 9 000 pharmacies d'un côté, l'assureur Aetna et la gestion des médicaments de l'autre. L'action a chuté d'environ 12,6 % à 79,94 dollars, les investisseurs y voyant une manœuvre défensive [1][2][3].",
-    "points": [
-      "La société qui garde le nom CVS Health regroupera Aetna, le gestionnaire de prestations pharmaceutiques Caremark, CVS Specialty, Oak Street Health et Signify Health ; David Joyner, président et directeur général, y conserve ses fonctions [1][2].",
-      "La seconde, CVS Pharmacy, reprendra les quelque 9 000 magasins, la pharmacie par correspondance, MinuteClinic et Health100, avec Prem Shah, aujourd'hui président de groupe, comme directeur général [2].",
-      "La séparation est attendue au premier semestre 2028, sous réserve de l'accord final du conseil d'administration ; les actionnaires recevraient des titres des deux sociétés sans impôt, selon l'entreprise [2].",
-      "Selon Reuters, l'action a plongé de 12,6 % à 79,94 dollars ; d'autres médias parlent de 12 à 13 %. Kevin Caliendo, analyste d'UBS, explique que l'annonce a surpris et qu'elle est perçue comme une manœuvre défensive face à la réglementation plutôt que comme une offensive [1][3].",
-      "David Joyner présente le projet comme une décision prise « en position de force », en citant le redressement de l'activité Medicare d'Aetna et les bons résultats des pharmacies, malgré un troisième trimestre solide [2][3].",
-      "Un projet de loi bipartisan, le Patients Before Monopolies Act, interdirait à une entreprise qui possède un assureur ou un gestionnaire de prestations de posséder aussi une pharmacie ; les analystes citent aussi la dette et le dividende comme questions ouvertes [2][4]."
-    ],
-    "why": [
-      "À retenir : en Bourse, une scission est souvent saluée quand elle libère de la valeur, mais ici le marché a sanctionné l'annonce parce qu'il y lit une réponse à la pression politique, pas un choix de stratégie [1][3].",
-      "CVS est un cas rare : l'entreprise vend des médicaments au comptoir, assure des millions de patients et négocie les prix des médicaments pour d'autres assureurs. Cette intégration verticale est justement ce que le projet de loi vise. En séparant les deux métiers, CVS réduit le risque d'une interdiction brutale, mais perd les synergies qui justifiaient l'ensemble [2][3].",
-      "Le calendrier, 2028, est long : d'ici là, l'entreprise doit répartir sa dette entre les deux sociétés et décider du sort du dividende, deux points que les analystes jugent non résolus [4]."
-    ],
-    "forMe": "Rien à faire de direct : cette actu t'explique pourquoi une annonce de scission peut faire baisser une action. Si tu aimes le secteur de la santé américain, c'est un signe que le modèle « assureur + pharmacie + gestionnaire de médicaments » est sous pression politique. Ce n'est pas un conseil d'acheter ou de vendre.",
-    "next": [
-      {
-        "when": "Premier semestre 2028",
-        "what": "Date prévue de la séparation, sous réserve de l'accord final du conseil d'administration [2]."
-      }
-    ],
-    "figures": [
-      {
-        "value": "−12,6 %",
-        "label": "recul de l'action CVS à 79,94 $ après l'annonce",
-        "src": 1
-      },
-      {
-        "value": "≈ 9 000",
-        "label": "pharmacies qui iraient dans CVS Pharmacy",
-        "src": 2
-      },
-      {
-        "value": "117 Md$",
-        "label": "taille du groupe, selon Bloomberg",
-        "src": 4
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "deep": {
-      "explainer": {
-        "title": "Comment ça marche : une scission (spin-off), pourquoi l'action peut monter ou baisser",
-        "text": "Dans une scission, une entreprise sépare une activité en une société distincte et distribue ses actions aux actionnaires existants : chacun possède alors deux titres au lieu d'un. La théorie : chaque société, plus simple à comprendre, peut être mieux valorisée, et sa direction se concentre sur un seul métier. Mais le marché regarde aussi le pourquoi. Si la scission paraît contrainte (pression des régulateurs ou d'actionnaires activistes), il y voit une manœuvre défensive et fait baisser le cours. Elle dépend aussi de la dette : l'une des deux sociétés peut hériter d'une charge plus lourde. Le contrepoids, c'est qu'une société qui se sépare perd les économies que lui offrait sa taille [1][3][5][6]."
-      }
-    },
-    "past": {
-      "title": "Quand de grands groupes se sont séparés",
-      "items": [
-        {
-          "when": "2 avril 2024",
-          "what": "General Electric se divise : au premier jour de Bourse, le nouveau GE Vernova perd 2 dollars à 140 dollars après un début de séance en hausse, tandis que GE Aerospace recule de plus de 18 %, à 136 dollars [5].",
-          "lesson": "Le cours de l'ancienne société baisse mécaniquement du poids de ce qui part : la valeur doit se juger sur l'ensemble des deux titres."
-        },
-        {
-          "when": "Avril 2024",
-          "what": "Après sa séparation, GE Vernova gagne plus de 20 % en quelques jours quand GE Aerospace recule d'environ 5 %, alors que Solventum, issue de 3M, baisse à cause de ses dettes et de la part gardée par sa maison mère [6].",
-          "lesson": "Une scission réussit ou non selon la dette héritée et le nombre d'actions que la maison mère peut encore revendre."
-        }
-      ]
-    },
-    "markets": {
-      "items": [
-        {
-          "name": "CVS Health",
-          "ticker": "CVS",
-          "move": "−12,6 %",
-          "why": "Pharmacies, assureur Aetna et gestionnaire de prestations Caremark dans une même société : l'action a reculé de 12,6 % à 79,94 dollars après l'annonce de la scission [1]."
-        }
-      ]
-    },
-    "sources": [
-      {
-        "short": "Reuters (Euronext)",
-        "name": "Reuters / Euronext, « CVS to break up $117 billion business, separating pharmacies from insurance; shares fall »",
-        "url": "https://live.euronext.com/en/financial-news/cvs-break-117-billion-business-separating-pharmacies-insurance-shares-fall"
-      },
-      {
-        "short": "The Daily Record",
-        "name": "The Daily Record, « CVS to split pharmacies from insurance in $117 billion breakup » (4 nov. 2026)",
-        "url": "https://thedailyrecord.com/2026/11/04/cvs-split-pharmacies-insurance-117-billion-breakup/"
-      },
-      {
-        "short": "Star Advertiser",
-        "name": "Star-Advertiser, « CVS shares plunge 13% after surprise plan to split company » (4 nov. 2026)",
-        "url": "https://www.staradvertiser.com/2026/11/04/breaking-news/cvs-shares-plunge-13-after-surprise-plan-to-split-company/"
-      },
-      {
-        "short": "Bloomberg",
-        "name": "Bloomberg, « CVS Plans to Break Up $117 Billion Healthcare Conglomerate » (4 nov. 2026)",
-        "url": "https://www.bloomberg.com/news/articles/2026-11-04/cvs-plans-to-break-up-117-billion-healthcare-conglomerate"
-      },
-      {
-        "short": "Times Union",
-        "name": "Times Union, « Vernova splits from GE, starts trading shares Tuesday »",
-        "url": "https://www.timesunion.com/business/article/vernova-splits-ge-starts-trading-shares-tuesday-19378956.php"
-      },
-      {
-        "short": "Super.news",
-        "name": "Super.news, « GE Vernova shares surge post-split, outperforming GE Aerospace » (3 avr. 2024)",
-        "url": "https://super.news/en/articles/2024/04/03/ge-vernova-shares-surge-post-split-outperforming-ge-aerospace-signaling-strong-market-interest"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-nextdc-goodman-digital-realty-participation",
-    "date": "2026-11-05",
-    "region": "Asie",
-    "theme": "fin",
-    "zones": [
-      "Océanie",
-      "Amérique du Nord"
-    ],
-    "geo": [
-      {
-        "name": "Sydney, Australie",
-        "label": "Australie",
-        "coords": [
-          151.21,
-          -33.87
-        ]
-      }
-    ],
-    "title": "NextDC s'envole de 51 % : Goodman et Digital Realty achètent en douce près de 10 % du géant australien des centres de données",
-    "summary": "Jeudi 5 novembre, l'action du groupe australien de centres de données NextDC a clôturé en hausse de 50,8 % après que Goodman Group et l'américain Digital Realty ont acquis jusqu'à 9,9 % de son capital à 9,50 dollars australiens l'action, 45 % au-dessus de la clôture de la veille [1][2][3].",
-    "points": [
-      "L'achat passe par une société commune, Ackland Investments No.1, détenue à parts égales par Goodman et Digital Realty, qui a monté un « aftermarket bookbuild » (placement après la clôture) mercredi pour acheter jusqu'à 9,9 % de NextDC à 9,50 A$ l'action [1][3].",
-      "Ce prix est supérieur de 45 % à la clôture de mercredi, 6,53 A$ ; selon Reuters, qui cite un document d'investisseurs, l'opération vaut environ 715 millions de dollars australiens, soit 501 millions de dollars américains [1][3].",
-      "Le conseil d'administration de NextDC a qualifié la manœuvre d'« opportuniste » et dit en ignorer l'issue ; les acheteurs ont indiqué ne pas avoir l'intention de lancer une offre de contrôle pour l'instant, tout en se réservant ce droit [3].",
-      "Selon CNBC, le titre a clôturé en hausse de 50,84 % jeudi ; en séance, d'autres médias relevaient 43 % (9,34 A$) puis 45,8 % (9,52 A$) [1][3].",
-      "NextDC avait perdu plus de 40 % depuis janvier, l'essentiel fin octobre quand il a suspendu tous ses futurs développements et abaissé ses prévisions de revenus ; même après la hausse, l'action reste environ 37 % sous son niveau d'il y a un an [3].",
-      "L'opération intervient alors que les valeurs américaines des centres de données ont reculé la veille, par crainte d'un contrôle plus strict après la victoire démocrate aux élections de mi-mandat [3]."
-    ],
-    "why": [
-      "À retenir : quand un investisseur achète une grosse part d'une société cotée sans la racheter, il fait monter le cours parce que les autres actionnaires se demandent s'il ira plus loin. Ici le prix payé (9,50 A$) est devenu un plancher de référence [1][3].",
-      "Les centres de données, où sont stockés et calculés les services d'intelligence artificielle, sont devenus un actif très recherché : les infrastructures de calcul manquent, et construire coûte cher. Goodman, groupe immobilier logistique, et Digital Realty, un des grands acteurs mondiaux, parient qu'un NextDC affaibli vaut plus que son cours de la veille [3].",
-      "Les prises de participation sous la barre de 10 % sont une étape classique avant une offre : elles permettent d'entrer au capital sans avoir à déclarer une offre publique complète, tout en gênant une éventuelle offre rivale. Reste à voir si Goodman et Digital Realty iront plus loin [3]."
-    ],
-    "forMe": "Rien à faire de direct : cette actu montre comment l'envie de posséder des centres de données, au cœur de l'IA, pousse même un titre en difficulté à bondir de moitié en une séance. Ce n'est pas un conseil d'acheter ou de vendre.",
-    "figures": [
-      {
-        "value": "+50,8 %",
-        "label": "hausse de NextDC à la clôture du 5 novembre",
-        "src": 1
-      },
-      {
-        "value": "9,50 A$",
-        "label": "prix payé, 45 % au-dessus de la clôture de la veille (6,53 A$)",
-        "src": 3
-      },
-      {
-        "value": "≈ 715 M A$",
-        "label": "valeur de l'opération pour jusqu'à 9,9 % du capital",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "semi-conducteurs"
-    ],
-    "deep": {
-      "explainer": {
-        "title": "Comment ça marche : pourquoi une prise de participation de 9,9 % fait bondir une action",
-        "text": "Acheter près de 10 % d'une société, c'est une position d'attente : l'acheteur peut rester actionnaire ou monter plus tard vers une offre de rachat. Le marché fait deux calculs : un acheteur qui paie 45 % de prime donne un prix de référence, et un acheteur important peut revenir. Les autres actionnaires cessent alors de vendre en dessous de ce prix, et le cours rejoint souvent le prix payé. Le risque inverse : si l'acheteur renonce, la prime peut se dégonfler. Le conseil de la société visée peut aussi résister en la qualifiant d'opportuniste, comme ici [1][3]."
-      }
-    },
-    "past": {
-      "title": "Quand les centres de données ont changé de mains",
-      "items": [
-        {
-          "when": "2024",
-          "what": "Blackstone et CPP Investments rachètent le groupe de centres de données AirTrunk à Macquarie et PSP pour plus de 24 milliards de dollars australiens de valeur d'entreprise (dette comprise) [4].",
-          "lesson": "Les centres de données sont devenus un actif de grande valeur pour les fonds d'infrastructure."
-        },
-        {
-          "when": "2020",
-          "what": "Des investisseurs menés par Macquarie avaient pris le contrôle d'AirTrunk pour environ 3 milliards de dollars australiens, selon un résumé d'opération [5].",
-          "lesson": "En quatre ans, la valeur du même actif a été multipliée par plusieurs fois : le marché paie le temps d'avance et la capacité de calcul."
-        }
-      ]
-    },
-    "markets": {
-      "items": [
-        {
-          "name": "NextDC",
-          "ticker": "NXT",
-          "move": "+50,8 %",
-          "why": "Opérateur australien de centres de données ; l'action a clôturé en hausse de 50,84 % après l'annonce de la prise de participation de Goodman et Digital Realty [1]."
-        },
-        {
-          "name": "Goodman Group",
-          "ticker": "GMG",
-          "why": "Groupe immobilier qui détient, avec Digital Realty, la société qui achète jusqu'à 9,9 % de NextDC [1][3]."
-        },
-        {
-          "name": "Digital Realty",
-          "ticker": "DLR",
-          "why": "Opérateur américain de centres de données, partenaire de Goodman dans l'opération [1][3]."
-        }
-      ]
-    },
-    "sources": [
-      {
-        "short": "CNBC",
-        "name": "CNBC, « NextDC shares surge 51% on Goodman, Digital Realty stake purchases » (5 nov. 2026)",
-        "url": "https://www.cnbc.com/2026/11/05/nextdc-goodman-group-digital-realty-data-centers-.html"
-      },
-      {
-        "short": "IBTimes Australie",
-        "name": "IBTimes Australia, « NextDC Shares Rocket 48% After Goodman and Digital Realty Launch Surprise Raid »",
-        "url": "https://www.ibtimes.com.au/nextdc-shares-surge-goodman-digital-realty-stake-1877927"
-      },
-      {
-        "short": "Investing.com",
-        "name": "Investing.com, « NextDC shares surge 43% as Goodman, Digital Realty buy stake »",
-        "url": "https://au.investing.com/news/stock-market-news/nextdc-shares-surge-43-as-goodman-digital-realty-buy-stake-4744845"
-      },
-      {
-        "short": "DCD",
-        "name": "DatacenterDynamics, « AirTrunk sold: Blackstone and CPP to acquire APAC data center operator for AU$24bn »",
-        "url": "https://www.datacenterdynamics.com/en/news/blackstone-and-cpp-to-acquire-apac-data-center-firm-airtrunk-for-au24bn/"
-      },
-      {
-        "short": "MergerSight",
-        "name": "MergerSight, « Blackstone's $16.14bn Acquisition of AirTrunk »",
-        "url": "https://www.mergersight.com/post/blackstone-s-16-14bn-acquisition-of-airtrunk"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-rheinmetall-chute-previsions-arminius",
-    "date": "2026-11-05",
-    "region": "Europe",
-    "theme": "fin",
-    "zones": [
-      "Europe"
-    ],
-    "geo": [
-      {
-        "name": "Düsseldorf, Allemagne",
-        "label": "Allemagne",
-        "coords": [
-          6.78,
-          51.23
-        ]
-      }
-    ],
-    "title": "Rheinmetall chute de plus de 15 % : le géant allemand de l'armement abaisse de nouveau ses prévisions",
-    "summary": "Jeudi 5 novembre, l'action de Rheinmetall a plongé de 15 à plus de 17 % selon l'heure après un second avertissement sur ses prévisions de 2026 : le chiffre d'affaires visé passe à environ 13,2 milliards d'euros, contre 13,7 à 14,2 milliards, à cause du report du contrat Arminius [1][2][3].",
-    "points": [
-      "Rheinmetall ramène son objectif de chiffre d'affaires annuel à environ 13,2 milliards d'euros, contre une fourchette précédente de 13,7 à 14,2 milliards, selon Euronews [1].",
-      "La cause principale est le report du contrat Arminius, un programme de véhicules blindés Boxer pour la Bundeswehr, l'armée allemande, selon BFM Bourse [3].",
-      "L'action a perdu plus de 17 % vers 10 h (heure de Paris) selon Euronews, 16 % en fin d'après-midi selon BFM Bourse et jusqu'à 17 % selon d'autres médias : l'écart tient à l'heure de mesure [1][2][3].",
-      "Depuis janvier, le titre a perdu environ 50 %, d'après BFM Bourse [3].",
-      "Les ventes du troisième trimestre ont pourtant progressé de 32 % ; l'attention du marché s'est portée sur les prévisions annuelles et non sur le trimestre écoulé [2].",
-      "JPMorgan a réduit son objectif de cours de 1 350 à 1 150 euros tout en gardant sa recommandation « neutre » [2].",
-      "C'est le second avertissement de l'année : en août, l'annulation des frégates F126 avait déjà conduit Rheinmetall à réduire ses prévisions de ventes [4][5]."
-    ],
-    "why": [
-      "À retenir : une action peut chuter même si les ventes progressent. Ce que le marché achète, c'est la croissance future ; quand Rheinmetall retire environ 500 millions d'euros à ses ventes attendues, il révise à la baisse tout ce que les investisseurs avaient imaginé pour les années suivantes [1][3].",
-      "Le cas est révélateur du secteur de la défense européenne : les commandes sont énormes, mais leur calendrier dépend de décisions politiques et de contrats publics. Un report de contrat côté Bundeswehr suffit à décaler des centaines de millions d'euros de ventes d'une année à l'autre [3].",
-      "Pour l'Europe qui se réarme, c'est un rappel que produire plus vite des blindés, des munitions et des navires est plus difficile que de voter des budgets : les retards industriels coûtent cher aux entreprises comme aux armées [2][3]."
-    ],
-    "forMe": "Rien à faire de direct : cette actu t'explique pourquoi un avertissement sur les prévisions fait plonger une action, même quand l'entreprise grandit. Ce n'est pas un conseil d'acheter ou de vendre.",
-    "figures": [
-      {
-        "value": "≈ 13,2 Md€",
-        "label": "chiffre d'affaires 2026 visé, contre 13,7 à 14,2 Md€ avant",
-        "src": 1
-      },
-      {
-        "value": "−15 % à −17 %",
-        "label": "recul de l'action selon l'heure",
-        "src": 1
-      },
-      {
-        "value": "−50 %",
-        "label": "performance de l'action depuis janvier",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "deep": {
-      "explainer": {
-        "title": "Comment ça marche : pourquoi un avertissement sur les prévisions fait plonger une action",
-        "text": "Le cours d'une action reflète ce que les investisseurs pensent que l'entreprise gagnera dans les années à venir. Chaque entreprise publie des prévisions (guidance) pour l'année ; quand elle les abaisse, le marché revoit à la baisse tous les bénéfices futurs, et le prix baisse en quelques minutes. Le trimestre passé compte moins que ce que l'entreprise annonce pour la suite. Un second avertissement dans l'année est pire qu'un premier : il fait douter de la capacité de la direction à tenir ses engagements, ce qui renforce la baisse. Ici, les ventes du troisième trimestre ont progressé de 32 %, mais la baisse de l'objectif annuel a dominé [1][2][3]."
-      }
-    },
-    "past": {
-      "title": "Quand Rheinmetall a déjà déçu en 2026",
-      "items": [
-        {
-          "when": "24 juin 2026",
-          "what": "Berlin annule le programme des frégates F126 : l'action Rheinmetall recule de 13 % selon IndexBox, de près de 19 % selon une autre source [5][6].",
-          "lesson": "Une décision politique allemande suffit à faire plonger l'action : le client principal est l'État."
-        },
-        {
-          "when": "6 août 2026",
-          "what": "Rheinmetall abaisse sa prévision de chiffre d'affaires 2026 à 13,7-14,2 milliards d'euros (contre 14,0-14,5), en retirant environ 300 millions d'euros liés aux frégates, et maintient son objectif de bénéfice ; l'action baisse d'environ 5,5 % en séance, selon Reuters [4][7].",
-          "lesson": "Un avertissement qui ne touche que les ventes fait moins baisser l'action qu'un avertissement qui ébranle la confiance dans le calendrier."
-        }
-      ]
-    },
-    "markets": {
-      "items": [
-        {
-          "name": "Rheinmetall",
-          "ticker": "RHM",
-          "move": "−15 % à −17 %",
-          "why": "Groupe allemand d'armement, fournisseur de la Bundeswehr ; l'action a reculé de plus de 17 % en début de séance, 16 % en fin d'après-midi selon BFM Bourse, après l'abaissement de ses prévisions [1][3]."
-        }
-      ]
-    },
-    "sources": [
-      {
-        "short": "Euronews",
-        "name": "Euronews, « Rheinmetall chute de plus de 17 % après un nouvel avertissement sur ses prévisions » (5 nov. 2026)",
-        "url": "https://fr.euronews.com/2026/11/05/rheinmetall-chute-de-plus-de-17-apres-un-nouvel-avertissement-sur-ses-previsions"
-      },
-      {
-        "short": "ABC Bourse",
-        "name": "ABC Bourse, « Rheinmetall dévisse de plus de 16 % en Bourse, ces retards qui font dérailler ses prévisions pour 2026 »",
-        "url": "https://www.abcbourse.com/marches/rheinmetall-devisse-de-plus-de-16-en-bourse-ces-retards-qui-font-derailler-se_705691"
-      },
-      {
-        "short": "BFM Bourse",
-        "name": "BFM Bourse, « Un abaissement de prévisions qui ébranle la confiance… Rheinmetall plonge de 15 % (-50 % en 2026) »",
-        "url": "https://www.tradingsat.com/actualites/informations-societes/un-abaissement-de-previsions-qui-ebranle-la-confiancenouvelle-deception-pour-la-star-de-la-defense-europeenne-rheinmetall-qui-plonge-de-15-et-tombe-de-son-piedestal-en-bourse-50-en-2026-1173255.html"
-      },
-      {
-        "short": "CNBC",
-        "name": "CNBC, « Rheinmetall stock volatile after trimming guidance as Germany's F126 warship cancellation hits sales outlook » (6 août 2026)",
-        "url": "https://www.cnbc.com/2026/08/06/rheinmetall-stock-earnings-guidance-frigate.html"
-      },
-      {
-        "short": "IndexBox",
-        "name": "IndexBox, « Germany Cancels F126 Frigate Project: Rheinmetall Shares Plunge, TKMS Wins New Orders »",
-        "url": "https://www.indexbox.io/blog/rheinmetall-shares-drop-13-after-germany-cancels-f126-frigate-order/"
-      },
-      {
-        "short": "Breaking Defense",
-        "name": "Breaking Defense, « Rheinmetall projects $346 million naval loss after F126 frigate cancellation » (août 2026)",
-        "url": "https://breakingdefense.com/2026/08/rheinmetall-projects-346-million-naval-loss-after-f126-frigate-cancellation/"
-      },
-      {
-        "short": "MarketScreener",
-        "name": "MarketScreener, « Rheinmetall cuts outlook after frigate setback but sticks to naval goals »",
-        "url": "https://www.marketscreener.com/news/rheinmetall-scales-down-2026-sales-outlook-on-scrapped-frigate-programme-ce7f50dcd189f021"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-bresil-copom-selic-pause-13-75",
-    "date": "2026-11-05",
-    "level": 2,
-    "region": "Amériques",
-    "theme": "eco",
-    "zones": [
-      "Amérique latine"
-    ],
-    "geo": [
-      {
-        "name": "Brasilia, Brésil",
-        "label": "Brésil",
-        "coords": [
-          -47.93,
-          -15.78
-        ]
-      }
-    ],
-    "title": "Brésil : la banque centrale suspend ses baisses de taux à 13,75 % après la réélection de Lula",
-    "summary": "Mercredi 4 novembre, le comité de politique monétaire (Copom) a laissé à l'unanimité le taux Selic à 13,75 %, mettant fin à cinq baisses de suite. Reuters relie la pause à la perspective d'une inflation plus élevée après la réélection de Luiz Inácio Lula da Silva [1][2].",
-    "points": [
-      "Le Copom, que préside Gabriel Galípolo, a voté à l'unanimité le maintien du taux Selic à 13,75 %, après cinq baisses consécutives [1][3].",
-      "La décision était attendue : 33 des 48 économistes interrogés par Reuters et 26 sur 31 dans un sondage Bloomberg prévoyaient une pause [1][2].",
-      "Avant la réunion, l'inflation s'élevait à 4,58 % et le real était plus faible ; le taux reste environ 9 points au-dessus de l'inflation [3].",
-      "Les responsables ont relevé leur prévision d'inflation pour 2027 à 4,7 %, contre 3,9 % [2], et répété que la politique monétaire doit rester « substantiellement restrictive » [1]."
-    ],
-    "why": [
-      "À retenir : une banque centrale baisse ses taux quand elle estime que les prix sont sous contrôle. Ici, elle s'arrête parce que la prévision d'inflation de 2027 monte, et que la réélection de Lula, selon Reuters, fait craindre davantage de dépenses publiques [1][2].",
-      "Le Copom n'a donné aucun signal sur la suite ; sa prochaine réunion, les 8 et 9 décembre, est la dernière de l'année [3]."
-    ],
-    "forMe": "Au Brésil, un taux directeur élevé rend les crédits et les achats à crédit plus chers ; pour un investisseur étranger, il rend les placements en réaux plus rémunérateurs mais la monnaie plus sensible aux nouvelles politiques.",
-    "next": [
-      {
-        "when": "8-9 décembre",
-        "what": "Dernière réunion du Copom de 2026 [3]."
-      }
-    ],
-    "figures": [
-      {
-        "value": "13,75 %",
-        "label": "taux Selic maintenu à l'unanimité",
-        "src": 1
-      },
-      {
-        "value": "4,7 %",
-        "label": "prévision d'inflation 2027 du Copom, contre 3,9 %",
-        "src": 2
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "inflation-taux"
-    ],
-    "sources": [
-      {
-        "short": "Reuters (via Investing.com)",
-        "name": "Reuters / Investing.com, « Brazil's central bank ends run of rate cuts after Lula election win »",
-        "url": "https://www.investing.com/news/economy-news/brazils-central-bank-ends-run-of-rate-cuts-after-lula-election-win-5001496"
-      },
-      {
-        "short": "Briefs",
-        "name": "Briefs, « Brazil holds Selic at 13.75%, pausing rate cuts »",
-        "url": "https://www.briefs.co/news/brazil-s-central-bank-holds-selic-at-13-75-pausing-rate-cuts/"
-      },
-      {
-        "short": "The Rio Times",
-        "name": "The Rio Times, « Brazil Halts Rate Cuts at 13.75% in November »",
-        "url": "https://www.riotimesonline.com/brazil-central-bank-holds-selic-13-75-copom-4-november-2026/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-coree-du-sud-exportations-octobre-record-puces",
-    "date": "2026-11-05",
-    "level": 2,
-    "region": "Asie",
-    "theme": "eco",
-    "zones": [
-      "Asie"
-    ],
-    "geo": [
-      {
-        "name": "Séoul, Corée du Sud",
-        "label": "Corée du Sud",
-        "coords": [
-          126.98,
-          37.57
-        ]
-      }
-    ],
-    "title": "Corée du Sud : les exportations bondissent de 94 % en octobre, portées par les puces",
-    "summary": "Selon les chiffres publiés le 1er novembre, les exportations sud-coréennes ont atteint environ 115,3 milliards de dollars en octobre, en hausse de 93,7 % sur un an, tirées par les semi-conducteurs. Le ministre du Commerce juge quasi acquis le seuil de 1 000 milliards de dollars sur l'année [1][2].",
-    "points": [
-      "D'après le Korea Times, les exportations d'octobre ont atteint 115,3 milliards de dollars, un record mensuel, en hausse de 93,7 % sur un an [1].",
-      "Les semi-conducteurs expliquent environ 73 % de l'augmentation, selon une analyse reposant sur des données de la Banque de Corée [2].",
-      "Le calendrier gonfle la comparaison : la fête de Chuseok est tombée en septembre cette année, contre octobre en 2025, ce qui a ajouté des jours ouvrés en octobre [2].",
-      "Le ministre du Commerce, Kim Jung-kwan, a déclaré que franchir 1 000 milliards de dollars d'exportations sur l'année en novembre était pratiquement acquis [2]."
-    ],
-    "why": [
-      "À retenir : l'économie sud-coréenne dépend de plus en plus des puces, et donc de la demande des centres de données d'intelligence artificielle. Quand celle-ci grimpe, les exportations explosent ; quand les investisseurs doutent, la Bourse de Séoul chute, comme cette semaine [1][2].",
-      "Prudence sur les chiffres : l'effet calendrier de Chuseok exagère la hausse, et la part exacte des puces varie selon les sources [2]."
-    ],
-    "forMe": "Les puces de mémoire de Samsung et SK hynix se retrouvent dans les smartphones, les ordinateurs et les serveurs : leur prix influence celui de ces appareils.",
-    "next": [
-      {
-        "when": "Novembre",
-        "what": "Le gouvernement attend de franchir le seuil de 1 000 milliards de dollars d'exportations sur l'année [2]."
-      }
-    ],
-    "figures": [
-      {
-        "value": "+93,7 %",
-        "label": "exportations sud-coréennes en octobre sur un an",
-        "src": 1
-      },
-      {
-        "value": "115,3 Md$",
-        "label": "exportations d'octobre, un record mensuel",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "semi-conducteurs"
-    ],
-    "sources": [
-      {
-        "short": "The Korea Times",
-        "name": "The Korea Times, « Korea's monthly exports hit $115.3 bil. in Oct. on record chip sales » (1er novembre 2026)",
-        "url": "https://www.koreatimes.co.kr/economy/20261101/koreas-monthly-exports-hit-1153-bil-in-oct-on-record-chip-sales"
-      },
-      {
-        "short": "Xenospectrum",
-        "name": "Xenospectrum, « Korea October exports and chip unit price »",
-        "url": "https://xenospectrum.com/en/korea-october-exports-chip-unit-price/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-chine-services-pmi-octobre-ralentissement",
-    "date": "2026-11-05",
-    "level": 2,
-    "region": "Asie",
-    "theme": "eco",
-    "zones": [
-      "Asie"
-    ],
-    "geo": [
-      {
-        "name": "Shanghai, Chine",
-        "label": "Chine",
-        "coords": [
-          121.47,
-          31.23
-        ]
-      }
-    ],
-    "title": "Chine : l'activité des services ralentit en octobre, à son plus bas depuis trois mois",
-    "summary": "L'indice RatingDog de l'activité des services chinois est tombé à 50,8 en octobre, contre 51,6 en septembre, sous les 51,5 attendus. C'est son plus bas depuis juillet, et la confiance des entreprises a reculé [1][2].",
-    "points": [
-      "L'indice RatingDog des services (ex-Caixin) est passé de 51,6 en septembre à 50,8 en octobre ; au-dessus de 50, l'activité progresse, mais plus lentement [1][2][3].",
-      "Les marchés attendaient 51,5 [3].",
-      "Les commandes à l'exportation ont continué de croître pour le sixième mois, mais moins vite qu'en septembre [1].",
-      "Les coûts des entreprises ont augmenté au rythme le plus rapide en cinq mois, alors qu'elles ont baissé leurs prix de vente pour le deuxième mois de suite, ce qui pèse sur leurs marges [1][3].",
-      "La confiance des entreprises est tombée à un plus bas de trois mois [1][2]."
-    ],
-    "why": [
-      "À retenir : les services, qui regroupent commerces, transports, finance et restauration, sont le principal débouché des consommateurs chinois. Leur ralentissement, avec des prix en baisse, montre une demande intérieure encore fragile [1][2].",
-      "Cette publication s'ajoute à d'autres signaux : le rythme de l'industrie est repassé sous 50 selon un autre suivi des PMI d'octobre, ce qui nourrit le débat sur le soutien à la demande [4]."
-    ],
-    "forMe": "Si ton activité vend en Chine (luxe, agroalimentaire, tourisme, machines), une demande intérieure molle pèse sur les commandes ; à l'inverse, des prix chinois en baisse peuvent se retrouver, plus tard, dans les produits importés.",
-    "next": [
-      {
-        "when": "10 novembre",
-        "what": "Échéance des mesures de la trêve commerciale entre Washington et Pékin, avec un rendez-vous Trump-Xi prévu à l'APEC le 18 novembre [5]."
-      }
-    ],
-    "figures": [
-      {
-        "value": "50,8",
-        "label": "indice des services en octobre, contre 51,6 en septembre",
-        "src": 1
-      },
-      {
-        "value": "51,5",
-        "label": "niveau attendu par les marchés",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Reuters (via TradingView)",
-        "name": "Reuters / TradingView, « China's services growth slows to three-month low as confidence weakens »",
-        "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_ZRN00ERQK:0-china-s-services-growth-slows-to-three-month-low-as-confidence-weakens/"
-      },
-      {
-        "short": "New Straits Times",
-        "name": "New Straits Times, « China's services growth slows to three-month low as confidence weakens » (novembre 2026)",
-        "url": "https://www.nst.com.my/amp/business/economy/2026/11/1570324/chinas-services-growth-slows-three-month-low-confidence-weakens"
-      },
-      {
-        "short": "FXStreet",
-        "name": "FXStreet, « China's RatingDog Services PMI eases to 50.8 in October »",
-        "url": "https://www.fxstreet.com/news/chinas-ratingdog-services-pmi-eases-to-508-in-october-202611040148"
-      },
-      {
-        "short": "Muhammed Ikbal Yilmaz",
-        "name": "China's PMIs, October 2026: manufacturing back below 50 as orders and prices ease",
-        "url": "https://muhammedikbalyilmaz.com/posts/china-pmi-october-2026"
-      },
-      {
-        "short": "Venn Strategies",
-        "name": "Venn Strategies, « Venn Trade Weekly - November 3, 2026 »",
-        "url": "https://vennstrategies.substack.com/p/venn-trade-weekly-november-3-2026"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-egypte-fmi-programme-fin-decembre",
-    "date": "2026-11-05",
-    "level": 2,
-    "region": "Afrique",
-    "theme": "eco",
-    "zones": [
-      "Moyen-Orient",
-      "Afrique"
-    ],
-    "geo": [
-      {
-        "name": "Le Caire, Égypte",
-        "label": "Égypte",
-        "coords": [
-          31.24,
-          30.04
-        ]
-      }
-    ],
-    "title": "Égypte : le programme du FMI s'achève en décembre, et la guerre au Moyen-Orient pèse sur le canal de Suez",
-    "summary": "Le programme de prêts du FMI à l'Égypte prend fin en décembre 2026, après cinq programmes depuis 2016 pour près de 30 milliards de dollars. Le 2 novembre, Le Caire a signé un prêt d'un milliard de dollars avec la Banque mondiale, alors que la guerre pèse sur ses recettes en devises [1][2][3].",
-    "points": [
-      "Selon le centre de réflexion TIMEP, le programme actuel du FMI se termine en décembre 2026. Depuis 2016, l'Égypte a reçu des financements du FMI dans le cadre de cinq programmes, pour un total de près de 30 milliards de dollars [1].",
-      "Le 2 novembre, l'Égypte a signé un accord d'un milliard de dollars avec la Banque mondiale, alors que la guerre accentue ses difficultés économiques, rapporte The National [2].",
-      "Dans un article du 21 septembre, le FMI estime que la réponse de politique économique de l'Égypte l'a aidée à absorber les contrecoups de la guerre au Moyen-Orient, tout en notant que des fragilités importantes demeurent. Il constate aussi une reprise graduelle de l'activité du canal de Suez après des perturbations [3]."
-    ],
-    "why": [
-      "À retenir : le canal de Suez est l'une des principales sources de devises de l'Égypte, et la guerre au Moyen-Orient en réduit les recettes. Les chiffres divergent selon les sources, entre 4,4 et 4,7 milliards de dollars récemment, contre près de 10 milliards avant les attaques en mer Rouge [1][3]. Moins de devises, c'est plus de difficulté à payer ses importations et sa dette.",
-      "La fin du programme du FMI marque un tournant : il a servi d'ancre pour les réformes et pour rassurer les prêteurs. La question, débattue le 16 novembre par TIMEP, est de savoir si l'Égypte doit en demander un nouveau [1]."
-    ],
-    "forMe": "Si tu suis les prix de l'énergie ou du transport maritime, le canal de Suez est un maillon : moins de bateaux qui y passent, ce sont des trajets plus longs et plus chers pour les marchandises vers l'Europe.",
-    "figures": [
-      {
-        "value": "≈ 30 Md$",
-        "label": "financements du FMI à l'Égypte depuis 2016 (5 programmes)",
-        "src": 1
-      },
-      {
-        "value": "1 Md$",
-        "label": "accord signé avec la Banque mondiale le 2 novembre",
-        "src": 2
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "routes-maritimes"
-    ],
-    "sources": [
-      {
-        "short": "TIMEP",
-        "name": "The Tahrir Institute for Middle East Policy, « A Decade with the IMF: What's Next for Egypt? » (3 novembre 2026)",
-        "url": "https://timep.org/2026/11/03/a-decade-with-the-imf-whats-next-for-egypt/"
-      },
-      {
-        "short": "The National",
-        "name": "The National, « Egypt signs $1 billion World Bank deal as war compounds economic pressures » (2 novembre 2026)",
-        "url": "https://www.thenationalnews.com/news/mena/2026/11/02/egypt-signs-1-billion-world-bank-deal-as-war-compounds-economic-pressures/"
-      },
-      {
-        "short": "FMI",
-        "name": "FMI, « Resilience Under Pressure: Egypt's Economy Defied Expectations » (21 septembre 2026)",
-        "url": "https://www.imf.org/en/news/articles/2026/09/21/cf-resilience-under-pressure-egypts-economy-defied-expectations"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-chine-minerais-critiques-participations-etrangeres",
-    "date": "2026-11-05",
-    "level": 2,
-    "region": "Asie",
-    "theme": "mix",
-    "zones": [
-      "Asie",
-      "Europe",
-      "Amérique du Nord"
-    ],
-    "geo": [
-      {
-        "name": "Pékin, Chine",
-        "label": "Chine",
-        "coords": [
-          116.4,
-          39.9
-        ]
-      }
-    ],
-    "title": "Chine : Pékin rachète des mines à l'étranger pour garder la main sur les minerais critiques",
-    "summary": "Selon CNBC, la Chine étend ses participations dans des mines à l'étranger pour renforcer son emprise sur les minerais critiques. Elle produit environ 92 % des terres rares raffinées du monde, selon l'Agence internationale de l'énergie, mais les pays hôtes commencent à limiter les exportations de minerai brut [1].",
-    "points": [
-      "CNBC rapporte le 4 novembre que Pékin élargit ses prises de participation dans des mines hors de Chine [1].",
-      "La Chine produit environ 92 % des terres rares raffinées dans le monde, selon l'Agence internationale de l'énergie citée par CNBC [1].",
-      "Les pays qui accueillent ces mines réagissent : ils limitent les exportations de minerai non transformé et exigent que les partenaires étrangers raffinent sur place [1].",
-      "En septembre, la Chine a exporté 4 269,8 tonnes de terres rares, soit 6,7 % de plus qu'un an plus tôt ; sur les neuf premiers mois, les exportations restent en baisse de 9,6 %, à 43 711 tonnes, selon des données douanières citées par Reuters [2]."
-    ],
-    "why": [
-      "À retenir : l'avantage chinois ne tient pas seulement aux mines, mais surtout au raffinage, l'étape qui rend les minerais utilisables. En achetant des mines et en gardant le raffinage, Pékin contrôle la chaîne de bout en bout. Les pays producteurs veulent à leur tour garder cette étape chez eux [1].",
-      "La suspension d'un an des contrôles chinois à l'exportation d'octobre 2025 court jusqu'au 10 novembre 2026 ; aucune prolongation chinoise n'est publiée à ce jour, même si Washington évoque une trêve jusqu'au 10 janvier 2027 [2][3]. Le ministère chinois du Commerce a dit en octobre qu'il continuerait à approuver des licences pour l'Europe, quel que soit le sort de l'accord avec les États-Unis [3]."
-    ],
-    "forMe": "Les terres rares entrent dans les moteurs de voiture électrique, les éoliennes et les téléphones : une tension sur leur approvisionnement peut, à terme, renchérir ces produits.",
-    "figures": [
-      {
-        "value": "92 %",
-        "label": "des terres rares raffinées dans le monde sont chinoises (AIE)",
-        "src": 1
-      },
-      {
-        "value": "4 269,8 t",
-        "label": "exportées en septembre (+6,7 % sur un an)",
-        "src": 2
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "CNBC",
-        "name": "CNBC, « China expands overseas mining stakes, tightening grip on critical minerals » (4 novembre 2026)",
-        "url": "https://www.cnbc.com/2026/11/04/china-critical-minerals-rare-earths-trump-japan-export-control-.html"
-      },
-      {
-        "short": "Technology.org",
-        "name": "Technology.org, « China's Rare-Earth Export Pause: What Ends on 10 November » (19 octobre 2026)",
-        "url": "https://www.technology.org/2026/10/19/china-rare-earth-export-pause-november-10/"
-      },
-      {
-        "short": "CNBC (Europe)",
-        "name": "CNBC, « China says rare earth exports to Europe will continue past U.S. trade deadline » (15 octobre 2026)",
-        "url": "https://www.cnbc.com/2026/10/15/china-rare-earth-exports-europe.html"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-tunisie-algerie-zone-libre-echange-frontaliere",
-    "date": "2026-11-05",
-    "level": 2,
-    "region": "Afrique",
-    "theme": "eco",
-    "zones": [
-      "Afrique"
-    ],
-    "geo": [
-      {
-        "name": "Tunis, Tunisie",
-        "label": "Tunisie",
-        "coords": [
-          10.18,
-          36.81
-        ]
-      }
-    ],
-    "title": "Tunisie et Algérie ouvrent des discussions pour une zone de libre-échange à leur frontière",
-    "summary": "Jeudi 5 novembre, le ministre tunisien du Commerce, Samir Abid, a annoncé que Tunis et Alger avaient engagé des discussions pour créer une zone de libre-échange à leur frontière commune. Quatre projets d'accords sont sur la table, d'après La Presse de Tunisie [1].",
-    "points": [
-      "Selon La Presse de Tunisie, les négociations portent sur quatre projets d'accords : un accord de partenariat économique, un accord de reconnaissance mutuelle des certificats de conformité, un accord sur le transit des marchandises et un accord sectoriel sur les composants automobiles [1].",
-      "L'idée n'est pas neuve : en juin 2026, un responsable du ministère tunisien du Commerce, Chadhli Maï, avait indiqué qu'une étude sur une zone commerciale et logistique franche le long de la frontière venait d'être réalisée [2].",
-      "Maghreb Émergent rapporte aussi que les deux gouvernements évoquent des zones de libre-échange aux frontières « pour bientôt » ; l'accord préférentiel existant entre les deux pays est en cours d'évaluation pour être élevé au rang d'accord de libre-échange [3]."
-    ],
-    "why": [
-      "À retenir : une zone de libre-échange frontalière vise à remplacer le commerce informel, souvent de contrebande, par des échanges déclarés, avec moins de droits de douane et des contrôles reconnus des deux côtés [1][3].",
-      "Pour la Tunisie, voisine de l'Algérie à l'ouest et de la Libye à l'est, c'est un moyen d'élargir ses débouchés alors que ses régions frontalières souffrent du chômage ; pour l'Algérie, c'est une ouverture à ses voisins, dans un contexte où ses échanges avec le Maroc continuent de baisser [1][3]."
-    ],
-    "forMe": "Si tu suis le Maghreb, c'est un signe de rapprochement économique entre Tunis et Alger. Rien n'est signé : il s'agit de discussions, et aucune date de conclusion n'est annoncée dans les sources consultées.",
-    "figures": [
-      {
-        "value": "4",
-        "label": "projets d'accords en discussion entre Tunis et Alger",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "La Presse de Tunisie",
-        "name": "La Presse de Tunisie, « Tunisie-Algérie : des discussions engagées pour créer une zone de libre-échange à la frontière » (5 nov. 2026)",
-        "url": "https://www.lapresse.tn/2026/11/05/tunisie-algerie-des-discussions-engagees-pour-creer-une-zone-de-libre-echange-a-la-frontiere/"
-      },
-      {
-        "short": "Tuniscope",
-        "name": "Tuniscope, « Zone commerciale géante entre Tunisie et Algérie en préparation » (24 juin 2026)",
-        "url": "https://www.tuniscope.com/article/434653/tunisie/actualites/zone-commerciale-geante-entre-tunisie-et-algerie-en-preparation-57477117"
-      },
-      {
-        "short": "Maghreb Émergent",
-        "name": "Maghreb Émergent, « Algérie-Tunisie : des zones de libre-échange aux frontières pour bientôt »",
-        "url": "https://maghrebemergent.news/fr/algerie-tunisie-des-zones-de-libre-echanges-aux-frontieres-pour-bientot/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-mexique-douane-controles-importations-asie",
-    "date": "2026-11-05",
-    "level": 2,
-    "region": "Amériques",
-    "theme": "eco",
-    "zones": [
-      "Amérique du Nord",
-      "Asie"
-    ],
-    "geo": [
-      {
-        "name": "Mexico, Mexique",
-        "label": "Mexique",
-        "coords": [
-          -99.13,
-          19.43
-        ]
-      }
-    ],
-    "title": "Mexique : la douane durcit les contrôles sur les importations asiatiques, sous pression de Washington",
-    "summary": "Mercredi 4 novembre, l'agence nationale des douanes du Mexique (ANAM) a annoncé un renforcement des contrôles sur les importations d'Asie, en ciblant les fausses valeurs et les fausses origines. Washington veut des règles d'origine plus strictes dans la révision de l'accord commercial nord-américain [1].",
-    "points": [
-      "L'ANAM vise les marchandises dont la valeur ou l'origine est falsifiée ; selon le Rio Times, on ignore si Washington jugera ces contrôles suffisants dans la révision de l'ACEUM (USMCA) [1].",
-      "Dans cette révision, le Mexique et le Canada demandent une prolongation de 16 ans, alors que les États-Unis proposent dix ans avec examen annuel ; la présidente Claudia Sheinbaum veut des baisses de droits américains sur les voitures, l'acier et l'aluminium et aucun nouveau droit pendant les discussions [2][3].",
-      "Le 1er janvier 2026, le Mexique avait lui-même relevé ses droits de 5 à 50 % sur 1 463 lignes de produits venant de pays sans accord commercial, dont la Chine [3]."
-    ],
-    "why": [
-      "À retenir : les États-Unis veulent éviter que des produits chinois entrent chez eux via le Mexique ; renforcer les contrôles est la réponse mexicaine à cette exigence de règles d'origine plus strictes [1][2].",
-      "Plus de 80 % des exportations mexicaines vers les États-Unis, celles qui respectent les règles de l'accord, entrent sans droits de douane, selon les autorités mexicaines : l'enjeu est donc de garder ce régime [3]."
-    ],
-    "forMe": "Si tu achètes des produits fabriqués au Mexique ou si tu suis la guerre commerciale, retiens que le sort de l'accord se joue sur un détail technique : d'où vient réellement chaque pièce.",
-    "figures": [
-      {
-        "value": "16 ans",
-        "label": "prolongation demandée par le Mexique et le Canada (les États-Unis : 10 ans, examen annuel)",
-        "src": 2
-      },
-      {
-        "value": "> 80 %",
-        "label": "des exportations mexicaines conformes qui entrent sans droits aux États-Unis",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "droits-de-douane"
-    ],
-    "sources": [
-      {
-        "short": "The Rio Times",
-        "name": "The Rio Times, « Mexico Tightens Checks on Chinese Imports »",
-        "url": "https://riotimesonline.com/mexico-customs-checks-chinese-imports-asia-2026"
-      },
-      {
-        "short": "The Rio Times (ACEUM)",
-        "name": "The Rio Times, « Mexico's Sheinbaum Says No USMCA Deal Yet »",
-        "url": "https://www.riotimesonline.com/mexico-sheinbaum-usmca-talks-no-deal-2026/"
-      },
-      {
-        "short": "Mexico News Daily",
-        "name": "Mexico News Daily, « Sheinbaum confirms first formal USMCA review meeting »",
-        "url": "https://mexiconewsdaily.com/politics/sheinbaum-usmca-review-mananera-tuesday/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-italie-leonardo-60-milliards-commandes",
-    "date": "2026-11-05",
-    "level": 2,
-    "region": "Europe",
-    "theme": "eco",
-    "zones": [
-      "Europe"
-    ],
-    "geo": [
-      {
-        "name": "Rome, Italie",
-        "label": "Italie",
-        "coords": [
-          12.5,
-          41.9
-        ]
-      }
-    ],
-    "title": "Italie : Leonardo dépasse 60 milliards d'euros de commandes grâce à la hausse des budgets de défense",
-    "summary": "Jeudi 5 novembre, le groupe italien de défense Leonardo a annoncé que ses commandes avaient dépassé 60 milliards d'euros pour la première fois, à 60,4 milliards sur neuf mois, en hausse de 28 %. Le marché a réagi de façon mitigée [1][2][3].",
-    "points": [
-      "Les commandes atteignent 60,4 milliards d'euros sur les neuf premiers mois de 2026, +28 % sur un an, selon Euronews et IndexBox [1][4].",
-      "Environ 6 milliards d'euros de cette hausse viennent de l'acquisition de la division Défense d'Iveco, finalisée en mars [4].",
-      "Le bénéfice net ajusté bondit de 74,2 % à 812 millions d'euros, selon Investing.com [3].",
-      "Leonardo relève son objectif de commandes 2026 à environ 29,5 milliards d'euros, contre 28,2 milliards, et maintient son objectif de chiffre d'affaires à 22,1 milliards [3].",
-      "Boursorama (AFP) donne une autre mesure, les prises de commandes du trimestre : 23,3 milliards d'euros, +27,8 %, et titre que Leonardo dépasse les attentes mais que la Bourse reste sur sa faim [2]."
-    ],
-    "why": [
-      "À retenir : la hausse des dépenses militaires en Europe se voit dans les carnets de commandes des industriels. Leonardo, qui fait drones, aéronautique, espace et défense, en profite, mais une bonne nouvelle déjà attendue ne fait pas toujours monter l'action [1][2].",
-      "Le contraste avec Rheinmetall, qui chute le même jour pour un contrat reporté, montre que la défense européenne n'avance pas toute à la même vitesse : les commandes sont là, mais la livraison et le calendrier font la différence [1][2]."
-    ],
-    "forMe": "Si tu suis le réarmement européen, c'est un chiffre qui montre où va l'argent : vers les drones, l'aéronautique et l'espace, chez un acteur italien présent partout en Europe.",
-    "figures": [
-      {
-        "value": "60,4 Md€",
-        "label": "commandes sur neuf mois (+28 %)",
-        "src": 1
-      },
-      {
-        "value": "812 M€",
-        "label": "bénéfice net ajusté (+74,2 %)",
-        "src": 3
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Euronews",
-        "name": "Euronews, « Leonardo dépasse 60 milliards d'euros de commandes avec la hausse de la défense » (5 nov. 2026)",
-        "url": "https://fr.euronews.com/2026/11/05/leonardo-depasse-60-milliards-deuros-de-commandes-avec-la-hausse-de-la-defense"
-      },
-      {
-        "short": "Boursorama (AFP)",
-        "name": "Boursorama, « Leonardo dépasse les attentes, mais la Bourse reste sur sa faim » (5 nov. 2026)",
-        "url": "https://www.boursorama.com/bourse/actualites/leonardo-depasse-les-attentes-mais-la-bourse-reste-sur-sa-faim-a6fc51b5b896b70a9f11ffc5a6a9ad81"
-      },
-      {
-        "short": "Investing.com",
-        "name": "Investing.com, « Leonardo relève ses prévisions de commandes 2026 après neuf mois solides »",
-        "url": "https://fr.investing.com/news/earnings/leonardo-releve-ses-previsions-de-commandes-2026-apres-neuf-mois-solides-3677319"
-      },
-      {
-        "short": "IndexBox",
-        "name": "IndexBox, « Leonardo Tops €60 Billion in Orders After 28% Rise in First Nine Months of 2026 »",
-        "url": "https://www.indexbox.io/blog/leonardo-surpasses-60-billion-euros-in-orders-for-first-time/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-europe-alertes-bombe-vols-evreux",
-    "date": "2026-11-05",
-    "level": 2,
-    "region": "Europe",
-    "theme": "geo",
-    "zones": [
-      "Europe"
-    ],
-    "geo": [
-      {
-        "name": "Évreux, France",
-        "label": "France",
-        "coords": [
-          1.15,
-          49.02
-        ]
-      }
-    ],
-    "title": "Alertes à la bombe sur plus d'une douzaine de vols européens : un avion dérouté vers la base d'Évreux",
-    "summary": "Jeudi 5 novembre, au moins 12 vols européens ont fait l'objet d'alertes à la bombe, avec des appareils escortés par des chasseurs et deux vols détournés. Un A320 Dublin-Rome a été dérouté vers la base aérienne d'Évreux, selon les services du Premier ministre français [1][2].",
-    "points": [
-      "Un A320 reliant Dublin à Rome a été dérouté vers la base aérienne d'Évreux (Eure) après une alerte à la bombe, ont annoncé jeudi les services du Premier ministre français [1].",
-      "Selon le parquet d'Évreux, cité par l'AFP, le pilote irlandais aurait refusé d'atterrir sur la base militaire, préférant un aéroport civil ; une nuit sur place était envisagée selon l'évolution de la situation [1].",
-      "La vague est plus large : au moins 12 vols européens ont été visés jeudi, plusieurs appareils ont été escortés par des avions de chasse et deux vols ont été détournés [1].",
-      "Une dizaine de vols commerciaux avaient déjà été visés mardi, par des alertes qui se sont révélées fausses selon les autorités [1]."
-    ],
-    "why": [
-      "À retenir : des alertes en série sur plusieurs vols le même jour obligent les États à mobiliser chasseurs, bases militaires et aéroports, pour un coût et une perturbation bien supérieurs à ce que coûte l'envoi d'un message. Les sources consultées ne disent pas encore qui est derrière ces alertes [1].",
-      "Pour les compagnies et les voyageurs, ce sont des retards et des déroutements ; pour les États, un test de leur coordination de sécurité aérienne en Europe [1][2]."
-    ],
-    "forMe": "Si tu voles en Europe ces jours-ci, vérifie l'état de ton vol : des déroutements et des retards sont possibles, même si les alertes précédentes se sont révélées fausses.",
-    "figures": [
-      {
-        "value": "≥ 12",
-        "label": "vols européens visés par des alertes jeudi 5 novembre",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "franceinfo (AFP)",
-        "name": "franceinfo, « Un avion de ligne A320 reliant Dublin à Rome a été dérouté vers la base aérienne d'Évreux à la suite d'une alerte à la bombe, annonce Matignon » (5 nov. 2026)",
-        "url": "https://www.franceinfo.fr/france/un-avion-de-ligne-a320-reliant-dublin-a-rome-a-ete-deroute-vers-la-base-aerienne-d-evreux-a-la-suite-d-une-alerte-a-la-bombe-annonce-matignon_8268986.html"
-      },
-      {
-        "short": "Euronews",
-        "name": "Euronews, « L'info du jour, 5 novembre 2026 (soir) »",
-        "url": "https://fr.euronews.com/video/2026/11/05/linfo-du-jour-5-novembre-2026-soir"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-ouzbekistan-pauvrete-recule-banque-mondiale",
-    "date": "2026-11-05",
-    "level": 2,
-    "region": "Asie",
-    "theme": "eco",
-    "zones": [
-      "Asie"
-    ],
-    "geo": [
-      {
-        "name": "Tachkent, Ouzbékistan",
-        "label": "Ouzbékistan",
-        "coords": [
-          69.24,
-          41.31
-        ]
-      }
-    ],
-    "title": "Ouzbékistan : la pauvreté tombe de 17 % à 5,8 % en quatre ans, selon la Banque mondiale",
-    "summary": "Selon l'évaluation de la Banque mondiale, le taux de pauvreté national de l'Ouzbékistan est passé de 17,0 % à 5,8 % entre 2021 et 2025, soit 3,7 millions de personnes sorties de la pauvreté. La hausse des salaires et de l'emploi salarié en est le moteur principal [1][2].",
-    "points": [
-      "Le taux de pauvreté national est passé de 17,0 % à 5,8 % entre 2021 et 2025, ce qui a sorti 3,7 millions de personnes de la pauvreté, selon la Banque mondiale [1].",
-      "La classe moyenne est passée de 37 % à plus de 72 % de la population sur la même période [1].",
-      "L'Ouzbékistan représente près de 40 % de la baisse globale de la pauvreté en Europe et en Asie centrale au seuil des pays à revenu intermédiaire supérieur [1].",
-      "Le moteur principal est la hausse de l'emploi salarié et des salaires [1].",
-      "Limites : deux tiers des nouveaux emplois sont dans la construction et le commerce, environ 85 % sont informels et la productivité du travail a baissé ; 22 % de la population reste vulnérable à un retour dans la pauvreté [1].",
-      "Le gouvernement annonce de son côté 3,6 % pour les neuf premiers mois de 2026, un chiffre non comparable aux estimations de la Banque mondiale [2]."
-    ],
-    "why": [
-      "À retenir : en quatre ans, un pays d'Asie centrale a divisé son taux de pauvreté par trois, parce que les gens ont trouvé des emplois mieux payés. C'est l'un des reculs les plus rapides de la région selon la Banque mondiale [1][2].",
-      "La fragilité est dans la qualité des emplois : informels, concentrés dans la construction et le commerce, avec une productivité qui baisse. Un ralentissement de ces secteurs pourrait faire repartir la pauvreté pour les 22 % de personnes encore vulnérables [1]."
-    ],
-    "forMe": "Si tu suis les pays émergents, l'Ouzbékistan est un cas d'école : une croissance qui réduit la pauvreté vite, mais qui dépend d'emplois informels.",
-    "figures": [
-      {
-        "value": "17,0 % → 5,8 %",
-        "label": "taux de pauvreté national, 2021-2025",
-        "src": 1
-      },
-      {
-        "value": "3,7 M",
-        "label": "personnes sorties de la pauvreté",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Banque mondiale",
-        "name": "Banque mondiale, « Uzbekistan Poverty and Equity Assessment: Rising to Prosperity »",
-        "url": "https://www.worldbank.org/en/country/uzbekistan/publication/uzbekistan-poverty-and-equity-assessment-rising-to-prosperity-broadening-opportunities-for-all"
-      },
-      {
-        "short": "Yahoo Finance",
-        "name": "Yahoo Finance, « Uzbekistan's poverty rate falls as World Bank highlights role of wages and employment »",
-        "url": "https://uk.finance.yahoo.com/news/uzbekistans-poverty-rate-falls-world-120100648.html"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-05-ue-certificat-culture-ia-eleves-15-ans",
-    "date": "2026-11-05",
-    "level": 2,
-    "region": "Europe",
-    "theme": "eco",
-    "zones": [
-      "Europe"
-    ],
-    "geo": [
-      {
-        "name": "Bruxelles, Belgique",
-        "label": "Belgique",
-        "coords": [
-          4.35,
-          50.85
-        ]
-      }
-    ],
-    "title": "UE : un certificat de « culture de l'IA » pour les élèves de 15 ans dès 2027-2028",
-    "summary": "Jeudi 5 novembre, dans son paquet « éducation et compétences », la Commission européenne a annoncé un projet pilote de certificat de « littératie en IA » pour les élèves de 15 ans à partir de l'année scolaire 2027-2028. La vice-présidente Roxana Mînzatu veut apprendre aux jeunes à vérifier ce que produit l'IA [1][2][3].",
-    "points": [
-      "La Commission expérimentera dès 2027-2028 un certificat européen de littératie en IA pour les élèves de 15 ans [1][2].",
-      "Selon Roxana Mînzatu, vice-présidente de la Commission, il doit aider les jeunes à comprendre le fonctionnement de l'IA, à vérifier les informations qu'elle fournit, à repérer les manipulations et à savoir quand se déconnecter [3].",
-      "Le projet répond à un recul des compétences de base : selon PISA 2025, environ un élève de 15 ans sur trois dans l'UE est en difficulté en lecture et en mathématiques [1].",
-      "L'UE n'a pas de compétence directe sur les politiques éducatives des 27 États membres : le certificat reste une expérimentation coordonnée, dont les modalités ne sont pas encore connues [3].",
-      "En parallèle, huit États membres, dont la Belgique, ont formé un consortium pour développer les infrastructures numériques et d'IA de leur enseignement [4]."
-    ],
-    "why": [
-      "À retenir : l'Europe veut que les jeunes sachent utiliser l'IA et s'en méfier, au moment où elle entre dans les devoirs et les recherches. Le certificat serait un diplôme européen reconnu, mais l'école reste une compétence nationale [1][3].",
-      "Pour l'économie, l'enjeu est la compétitivité : former des travailleurs capables de maîtriser ces outils, et ne pas dépendre d'outils conçus ailleurs [1]."
-    ],
-    "forMe": "Si tu as un adolescent ou si tu enseignes, retiens que rien ne change avant 2027-2028 et que le certificat sera d'abord un essai.",
-    "figures": [
-      {
-        "value": "1 sur 3",
-        "label": "élèves de 15 ans en difficulté en lecture et en maths dans l'UE (PISA 2025)",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Renew Europe",
-        "name": "Renew Europe, « Europe's competitiveness push reaches the classroom » (5 nov. 2026)",
-        "url": "https://www.reneweuropegroup.eu/news/2026-11-05/europes-competitiveness-push-reaches-the-classroom"
-      },
-      {
-        "short": "IndexBox",
-        "name": "IndexBox, « EU Plans AI Literacy Certificate for School Pupils »",
-        "url": "https://www.indexbox.io/blog/eu-to-launch-ai-literacy-certificate-for-15-year-old-students-by-2027-2028/"
-      },
-      {
-        "short": "El Universal",
-        "name": "El Universal, « Unión Europea planea incorporar certificados de alfabetización en IA »",
-        "url": "https://www.eluniversal.com.mx/mundo/union-europea-planea-incorporar-certificados-de-alfabetizacion-en-ia-buscan-ayudar-a-jovenes-a-saber-cuando-desconectarse/"
-      },
-      {
-        "short": "La Libre (Belga)",
-        "name": "La Libre, « École : alliance de 8 pays UE, dont la Belgique, pour les infrastructures numériques et IA » (5 nov. 2026)",
-        "url": "https://www.lalibre.be/dernieres-depeches/2026/11/05/ecole-alliance-de-8-pays-ue-dont-la-belgique-pour-les-infrastructures-numeriques-et-ia-4EUAWAQDTJF7THSBT2NTTFWOBA/"
       }
     ]
   },

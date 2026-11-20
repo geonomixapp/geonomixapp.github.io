@@ -7,7 +7,7 @@
 
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.indicators = {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "latest": [
     {
       "group": "Économie",
@@ -1700,6 +1700,11 @@ window.GEOCO.indicators = {
           "short": "SAnews (Stats SA)",
           "name": "SAnews (agence gouvernementale sud-africaine), « Unemployment marginally increases in third quarter » (enquête QLFS de Stats SA, 10 nov. 2026 : 33,7 %)",
           "url": "https://www.sanews.gov.za/node/85558"
+        },
+        {
+          "short": "ABC News (ABS)",
+          "name": "ABC News, « Unemployment rate surges to 4.9pc in October, taking analysts by surprise » (19 novembre 2026), d’après l’ABS",
+          "url": "https://www.abc.net.au/news/2026-11-19/unemployment-rate-jumps-in-october-in-australia/107399076"
         }
       ],
       "values": {
@@ -2544,9 +2549,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "036": {
-          "v": 4.7,
-          "d": "sept. 2026",
-          "s": 33
+          "v": 4.9,
+          "d": "oct. 2026",
+          "s": 35
         }
       }
     },
