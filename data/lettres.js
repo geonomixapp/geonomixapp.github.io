@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-20",
+    "file": "lettres/2026-11-20.pdf",
+    "titles": [
+      "Sommet Xi-Trump-Poutine : une « déclaration de paix » de 250 mots sur le nucléaire, le pétrole et l'ONU, mais rien sur l'Ukraine",
+      "Iran : Trump repousse à 2027 toute décision sur de nouvelles frappes, pendant que Téhéran dit avoir fait sauter deux superpétroliers à Ormuz",
+      "Wall Street perd plus de 2 % et le Dow passe sous 50 000 points, le jour où Anthropic fait +17 % pour ses débuts au Nasdaq"
+    ],
+    "fileDark": "lettres/2026-11-20-sombre.pdf"
+  },
+  {
     "date": "2026-11-19",
     "file": "lettres/2026-11-19.pdf",
     "titles": [
