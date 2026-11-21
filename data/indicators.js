@@ -7,7 +7,7 @@
 
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.indicators = {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "latest": [
     {
       "group": "Économie",
@@ -570,6 +570,11 @@ window.GEOCO.indicators = {
           "short": "Stats SA",
           "name": "Statistics South Africa, « Consumer inflation rises to 5,2% in October 2026 » (18 nov. 2026)",
           "url": "https://www.statssa.gov.za/?p=20108"
+        },
+        {
+          "short": "Reuters (Investing.com)",
+          "name": "Reuters via Investing.com, « Japan Oct core CPI rises 2.2% yr/yr » (20 nov. 2026)",
+          "url": "https://www.investing.com/news/economic-indicators/japan-oct-core-cpi-rises-22-yryr-5040343"
         }
       ],
       "values": {
@@ -884,9 +889,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "392": {
-          "v": 2.1,
-          "d": "sept. 2026",
-          "s": 31
+          "v": 2.2,
+          "d": "oct. 2026 (hors produits frais)",
+          "s": 55
         },
         "398": {
           "v": 9.3,

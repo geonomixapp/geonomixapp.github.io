@@ -803,6 +803,176 @@ window.GEOCO.resultats = [
     ]
   },
   {
+    "id": "intuit-t1-2027",
+    "company": "Intuit",
+    "ticker": "INTU",
+    "country": "US",
+    "sector": "Logiciels (TurboTax, QuickBooks)",
+    "date": "2026-11-19",
+    "time": "close",
+    "period": "T1 de l'exercice 2027 (août-octobre 2026)",
+    "lines": [
+      {
+        "label": "Chiffre d'affaires",
+        "unit": "Md$",
+        "act": 4.354,
+        "prev": 3.885,
+        "src": 1
+      },
+      {
+        "label": "Bénéfice par action ajusté",
+        "unit": "$",
+        "exp": 2.46,
+        "act": 2.91,
+        "prev": 1.87,
+        "src": 3
+      }
+    ],
+    "verdict": "mieux",
+    "guidance": {
+      "dir": "abaisse",
+      "text": "Intuit abaisse son objectif de chiffre d'affaires pour l'exercice 2027 à 23,08-23,37 milliards de dollars, contre 23,28-23,51 milliards auparavant, en partie à cause de Credit Karma [4][8] ; pour le deuxième trimestre, il vise 4,93 à 4,95 milliards de dollars et 3,17 à 3,22 dollars par action ajusté, moins que ce qu'attendaient les analystes [3][4]."
+    },
+    "move": {
+      "value": "≈ −10 %",
+      "text": "−15 % dans les échanges après la clôture selon CNBC [5], puis environ −10 % vendredi matin selon Yahoo Finance [4]"
+    },
+    "summary": "Le trimestre d'Intuit dépasse les attentes, mais un objectif annuel abaissé et la vente de Mailchimp à prix cassé font chuter l'action [3][4][5].",
+    "points": [
+      "Chiffre d'affaires de 4,354 milliards de dollars, en hausse de 12 % sur un an [1], au-dessus de la fourchette de 4,294 à 4,313 milliards que visait le groupe [6].",
+      "Bénéfice par action ajusté de 2,91 dollars, contre 1,87 dollar un an plus tôt [3] : 2,46 dollars étaient attendus selon Finimize [3], 2,70 dollars selon Investing.com [2], et l'entreprise visait 2,44 à 2,48 dollars [6].",
+      "Les services aux entreprises (QuickBooks) progressent de 15 %, à 3,1 milliards de dollars, l'activité grand public de 7 %, à 958 millions, tandis que Mailchimp recule de 1 %, à 313 millions [1][2].",
+      "Intuit vend Mailchimp à l'italien Bending Spoons pour environ 3,68 milliards de dollars (3,31 milliards en espèces et 368 millions en actions), moins d'un tiers des 12 milliards payés en 2021 ; la vente doit être bouclée début 2027 [4][5].",
+      "Les prévisions abaissées pour Credit Karma, le service de crédit en ligne du groupe, pèsent sur l'objectif annuel [8][7]."
+    ],
+    "sources": [
+      {
+        "short": "GuruFocus",
+        "name": "GuruFocus, « Intuit Inc (INTU) Reports Strong Q1 FY27 Results with GAAP EPS of $2.59 and Revenue of $4.354 Billion, Exceeding Analyst Estimates », 19 nov. 2026",
+        "url": "https://www.gurufocus.com/news/9210926/intuit-inc-intu-reports-strong-q1-fy27-results-with-gaap-eps-of-259-and-revenue-of-4354-billion-exceeding-analyst-estimates"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Earnings call transcript: Intuit tops Q1 2027 estimates but shares fall », nov. 2026",
+        "url": "https://in.investing.com/news/stock-market-news/earnings-call-transcript-intuit-tops-q1-2027-estimates-but-shares-fall-93CH-5716416"
+      },
+      {
+        "short": "Finimize",
+        "name": "Finimize, « Intuit Beat Q1 Estimates, But Its Q2 Outlook Fell Short », nov. 2026",
+        "url": "https://finimize.com/content/intuit-beat-q1-estimates-but-its-q2-outlook-fell-short"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « Intuit Shares Fall 11% as Company Agrees $3.68 Billion Mailchimp Sale and Cuts Revenue Outlook », 20 nov. 2026",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/intuit-shares-fall-11-company-103434995.html"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Intuit to sell Mailchimp to Bending Spoons for $3.68 billion », 19 nov. 2026",
+        "url": "https://www.cnbc.com/2026/11/19/intuit-mailchimp-sale-bending-spoons.html"
+      },
+      {
+        "short": "RTTNews",
+        "name": "RTTNews, « Intuit Reiterates Q1 FY27 Outlook », sept. 2026",
+        "url": "https://www.rttnews.com/3691925/intuit-reiterates-q1-fy27-outlook.aspx"
+      },
+      {
+        "short": "MarketScreener",
+        "name": "MarketScreener, « Intuit plunges on disappointing outlook and divestiture », 20 nov. 2026",
+        "url": "https://www.marketscreener.com/quote/stock/INTUIT-INC-23277275/news/Intuit-plunges-on-disappointing-outlook-and-divestiture-54793063/"
+      },
+      {
+        "short": "BigGo Finance",
+        "name": "BigGo Finance, « Intuit Shares Fall as Credit Karma Weakness Triggers Guidance Cut, Mailchimp Sold to Bending Spoons », 19 nov. 2026",
+        "url": "https://finance.biggo.com/news/US_INTU_2026-11-19"
+      }
+    ]
+  },
+  {
+    "id": "ross-stores-t3-2026",
+    "company": "Ross Stores",
+    "ticker": "ROST",
+    "country": "US",
+    "sector": "Distribution (déstockage)",
+    "date": "2026-11-19",
+    "time": "close",
+    "period": "T3 de l'exercice 2026 (août-octobre 2026)",
+    "lines": [
+      {
+        "label": "Bénéfice par action",
+        "unit": "$",
+        "act": 1.91,
+        "prev": 1.58,
+        "src": 1
+      },
+      {
+        "label": "Ventes à magasins comparables",
+        "unit": "%",
+        "act": 8,
+        "src": 1
+      },
+      {
+        "label": "Marge opérationnelle",
+        "unit": "%",
+        "act": 12.3,
+        "src": 1
+      }
+    ],
+    "verdict": "mieux",
+    "guidance": {
+      "dir": "releve",
+      "text": "Ross relève son objectif de bénéfice par action pour l'exercice 2026 à 8,75-8,84 dollars, dont environ 60 cents de remboursements de droits de douane [1][6], mais sa prévision pour le quatrième trimestre, qui inclut un fret plus cher à cause du carburant, reste sous les attentes des analystes [4][6]."
+    },
+    "move": {
+      "value": "≈ −7 %",
+      "text": "près de −7 % selon Financial News [5], l'action reculant aussi avant l'ouverture vendredi [7]"
+    },
+    "summary": "Le roi américain du déstockage pulvérise ses propres objectifs grâce à l'afflux de clients, mais une prévision de fin d'année jugée prudente fait reculer l'action [1][3][5].",
+    "points": [
+      "Les ventes progressent de 12 % sur un an et les ventes à magasins comparables de 8 %, surtout grâce à la fréquentation [1].",
+      "Le bénéfice par action de 1,91 dollar dépasse la fourchette de 1,75 à 1,83 dollar que visait le groupe [1] et les attentes des analystes [3][4].",
+      "La marge opérationnelle atteint 12,3 %, en hausse de 0,7 point, au-dessus des 11,7 à 12,0 % prévus [1].",
+      "Pour le quatrième trimestre, Ross maintient une hausse des ventes comparables de 4 à 5 % [6] ; la direction prévoit un fret plus cher à cause de la hausse des prix du carburant et des dépenses de fin d'année plus élevées [6]."
+    ],
+    "sources": [
+      {
+        "short": "SEC (Ross Stores)",
+        "name": "Ross Stores, communiqué du T3 2026, formulaire 8-K (pièce 99.1), SEC, 19 nov. 2026",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000745732/000074573226000047/q326exhibit991.htm"
+      },
+      {
+        "short": "Ross Stores",
+        "name": "Ross Stores, « Ross Stores Reports Strong Third Quarter Sales and Earnings Results », 19 nov. 2026",
+        "url": "https://investors.rossstores.com/news-releases/news-release-details/ross-stores-reports-strong-third-quarter-sales-and-earnings"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Earnings call transcript: Ross Stores tops Q3 2026 estimates, shares fall after hours », nov. 2026",
+        "url": "https://in.investing.com/news/stock-market-news/earnings-call-transcript-ross-stores-tops-q3-2026-estimates-shares-fall-after-hours-93CH-5716398"
+      },
+      {
+        "short": "Longbridge",
+        "name": "Longbridge, « Ross Stores Q3 Revenue and Profit Beat Expectations; Q4 Guidance Misses », nov. 2026",
+        "url": "https://longbridge.com/en/news/306184107"
+      },
+      {
+        "short": "Financial News",
+        "name": "Financial News, « Ross Stores guidance cut sends shares down nearly 7% », nov. 2026",
+        "url": "https://www.financial-news.co.uk/ross-stores-guidance-cut-sends-shares-down-nearly-7/"
+      },
+      {
+        "short": "Traders Agency",
+        "name": "Traders Agency, « Ross Stores Raises Fiscal 2026 EPS Outlook After Strong Q3 Beat, but Shares Slide on Soft Q4 Guidance », nov. 2026",
+        "url": "https://tradersagency.com/blog/ross-stores-raises-fiscal-2026-eps-outlook-after-strong-q3-beat-but-shares-slide-on-soft-q4-guidance"
+      },
+      {
+        "short": "Benzinga",
+        "name": "Benzinga, « Ross Stores, Intuit, Anthropic And Other Big Stocks Moving Lower In Friday's Pre-Market Session », 20 nov. 2026",
+        "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63468329/ross-stores-intuit-anthropic-and-other-big-stocks-moving-lower-in-fridays-pre-market-session"
+      }
+    ]
+  },
+  {
     "id": "medtronic-t2-2027",
     "company": "Medtronic",
     "ticker": "MDT",
@@ -870,6 +1040,153 @@ window.GEOCO.resultats = [
     ]
   },
   {
+    "id": "analog-devices-t4-2026",
+    "company": "Analog Devices",
+    "ticker": "ADI",
+    "country": "US",
+    "sector": "Puces (semi-conducteurs analogiques)",
+    "date": "2026-11-24",
+    "time": "open",
+    "period": "T4 de l'exercice 2026 (août-octobre 2026)",
+    "lines": [],
+    "guidance": {
+      "dir": "attendu",
+      "text": "Analog Devices visait pour ce trimestre un chiffre d'affaires de 4,3 milliards de dollars, à 100 millions près, et un bénéfice par action ajusté de 3,86 dollars, à 15 cents près [2]."
+    },
+    "summary": "Le spécialiste des puces qui relient les machines au monde réel (capteurs, voitures, usines, centres de données) dira si la reprise de son marché se confirme [2].",
+    "points": [
+      "Au trimestre précédent, le chiffre d'affaires record de 4,02 milliards de dollars avait été tiré par les centres de données et l'industrie [2][3].",
+      "Il y a un an, au quatrième trimestre 2025, le groupe avait réalisé 3,076 milliards de dollars de chiffre d'affaires et 2,26 dollars de bénéfice par action ajusté [3] : l'objectif suppose une forte croissance.",
+      "Communiqué à 7 h, heure de New York, avant l'ouverture de Wall Street, et conférence à 10 h, le mardi 24 novembre [1]."
+    ],
+    "sources": [
+      {
+        "short": "Analog Devices",
+        "name": "Analog Devices, « Analog Devices to Report Fourth Quarter Fiscal Year 2026 Financial Results on Tuesday, November 24, 2026 », 22 oct. 2026",
+        "url": "https://www.analog.com/en/newsroom/press-releases/2026/10-22-2026-adi-report-4q-fy2026-financial-results.html"
+      },
+      {
+        "short": "SEC (Analog Devices)",
+        "name": "Analog Devices, communiqué du T3 2026, formulaire 8-K (pièce 99.1), SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000006281/000000628126000072/adi3q26exhibit991earnings.htm"
+      },
+      {
+        "short": "RTTNews",
+        "name": "RTTNews, « Analog Devices Expects Q4 Net Profit To Surge On Robust Demand »",
+        "url": "https://www.rttnews.com/3682057/analog-devices-expects-q4-net-profit-to-surge-on-robust-demand.aspx"
+      }
+    ]
+  },
+  {
+    "id": "dell-t3-2027",
+    "company": "Dell Technologies",
+    "ticker": "DELL",
+    "country": "US",
+    "sector": "Serveurs et ordinateurs",
+    "date": "2026-11-24",
+    "time": "close",
+    "period": "T3 de l'exercice 2027 (août-octobre 2026)",
+    "lines": [
+      {
+        "label": "Chiffre d'affaires",
+        "unit": "Md$",
+        "exp": 49.22,
+        "src": 2
+      },
+      {
+        "label": "Bénéfice par action ajusté",
+        "unit": "$",
+        "exp": 6.59,
+        "src": 2
+      }
+    ],
+    "guidance": {
+      "dir": "attendu",
+      "text": "Dell visait pour ce trimestre environ 49 milliards de dollars de chiffre d'affaires, à 500 millions près, et 6,50 dollars de bénéfice par action ajusté ; pour l'exercice, 192 milliards de dollars et 25,50 dollars par action [1]."
+    },
+    "summary": "Le fabricant de serveurs pour l'intelligence artificielle publie après un trimestre d'été qui avait largement battu les attentes et fait bondir l'action de 9 % [4].",
+    "points": [
+      "MarketBeat attend 6,59 dollars par action et 49,22 milliards de dollars de chiffre d'affaires [2], Zacks 6,63 dollars et 50,63 milliards [3].",
+      "Au trimestre précédent, Dell avait publié 7,04 dollars par action et 46,97 milliards de dollars de chiffre d'affaires, contre 4,92 dollars et 44,92 milliards attendus selon LSEG [4].",
+      "Le groupe a battu le consensus de bénéfice lors de chacun de ses quatre derniers trimestres [3].",
+      "Publication attendue le mardi 24 novembre après la clôture de Wall Street, selon les calendriers boursiers [2][5] ; Dell n'a pas encore confirmé l'heure."
+    ],
+    "sources": [
+      {
+        "short": "SEC (Dell)",
+        "name": "Dell Technologies, communiqué du T2 de l'exercice 2027, formulaire 8-K (pièce 99.1), SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000039/exhibit991earnings8kq2fy27.htm"
+      },
+      {
+        "short": "MarketBeat",
+        "name": "MarketBeat, « Dell Technologies (DELL) Q3 2027 Earnings Date, Time & Estimates »",
+        "url": "https://www.marketbeat.com/earnings/reports/2026-11-24-dell-technologies-inc-stock/"
+      },
+      {
+        "short": "Yahoo Finance (Zacks)",
+        "name": "Yahoo Finance (Zacks), « DELL Jumps 32% in 3 Months: Can Strong AI Demand Fuel More Gains? », nov. 2026",
+        "url": "https://finance.yahoo.com/technology/ai/articles/dell-jumps-32-3-months-134000463.html"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Dell surges 9% after lifting fiscal 2027 forecast on AI server strength », 1er sept. 2026",
+        "url": "https://www.cnbc.com/2026/09/01/dell-q2-earnings-report-2027.html"
+      },
+      {
+        "short": "TipRanks",
+        "name": "TipRanks, « Dell Technologies (DELL) Earnings Dates »",
+        "url": "https://www.tipranks.com/stocks/dell/earnings"
+      }
+    ]
+  },
+  {
+    "id": "workday-t3-2027",
+    "company": "Workday",
+    "ticker": "WDAY",
+    "country": "US",
+    "sector": "Logiciels (ressources humaines)",
+    "date": "2026-11-24",
+    "time": "close",
+    "period": "T3 de l'exercice 2027 (août-octobre 2026)",
+    "lines": [
+      {
+        "label": "Chiffre d'affaires",
+        "unit": "Md$",
+        "exp": 2.745,
+        "src": 2
+      },
+      {
+        "label": "Bénéfice par action ajusté",
+        "unit": "$",
+        "exp": 2.8,
+        "src": 2
+      }
+    ],
+    "summary": "Le spécialiste des logiciels de paie et de ressources humaines doit montrer que l'intelligence artificielle relance ses ventes, comme promis pour le second semestre [3].",
+    "points": [
+      "Chartmill attend 2,80 dollars par action et 2,745 milliards de dollars de chiffre d'affaires [2] ; selon Earnings Whispers, le consensus est de 2,74 dollars et environ 2,69 milliards [3].",
+      "C'est le premier trimestre où l'envolée des contrats liés à l'IA promise pour le second semestre devra apparaître dans les chiffres, selon Earnings Whispers [3].",
+      "Conférence le mardi 24 novembre à 13 h 30, heure du Pacifique, après la clôture de Wall Street [1]."
+    ],
+    "sources": [
+      {
+        "short": "Workday",
+        "name": "Workday, « Workday to Announce Fiscal 2027 Third Quarter Financial Results on November 24, 2026 », 2 nov. 2026",
+        "url": "https://newsroom.workday.com/2026-11-02-Workday-to-Announce-Fiscal-2027-Third-Quarter-Financial-Results-on-November-24,-2026"
+      },
+      {
+        "short": "Chartmill",
+        "name": "Chartmill, « Workday (WDAY) Earnings & Revenue Estimates »",
+        "url": "https://www.chartmill.com/stock/quote/WDAY/estimates"
+      },
+      {
+        "short": "Finviz (Earnings Whispers)",
+        "name": "Finviz (Earnings Whispers), « Workday's promised second-half AI bookings surge faces its first real test », 16 nov. 2026",
+        "url": "https://finviz.com/news/423401/workdays-promised-second-half-ai-bookings-surge-faces-its-first-real-test"
+      }
+    ]
+  },
+  {
     "id": "deere-t4-2026",
     "company": "Deere (John Deere)",
     "ticker": "DE",
@@ -918,6 +1235,117 @@ window.GEOCO.resultats = [
         "short": "Stocktwits",
         "name": "Stocktwits, « Deere Q4 Earnings Seen Under Pressure Amid Weak Farmer Sentiment », nov. 2026",
         "url": "https://stocktwits.com/news-articles/markets/equity/deere-q4-earnings-seen-under-pressure-amid-weak-farmer-sentiment/cL5bdq0REfH"
+      }
+    ]
+  },
+  {
+    "id": "salesforce-t3-2027",
+    "company": "Salesforce",
+    "ticker": "CRM",
+    "country": "US",
+    "sector": "Logiciels (gestion clients)",
+    "date": "2026-12-02",
+    "time": "close",
+    "period": "T3 de l'exercice 2027 (août-octobre 2026)",
+    "lines": [],
+    "summary": "Le numéro un mondial des logiciels de gestion de la relation client publie ses comptes d'automne, très regardés pour savoir si ses agents d'intelligence artificielle relancent sa croissance [1][2].",
+    "points": [
+      "Résultats le mercredi 2 décembre après la clôture de Wall Street, a annoncé le groupe le 10 novembre [1].",
+      "Conférence à 14 h, heure du Pacifique (23 h à Paris), selon TechIntelPro, qui cite Business Wire [2]."
+    ],
+    "sources": [
+      {
+        "short": "Salesforce",
+        "name": "Salesforce, « Salesforce Announces Date of Third Quarter Fiscal 2027 Earnings Release and Webcast », 10 nov. 2026",
+        "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Third-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx"
+      },
+      {
+        "short": "TechIntelPro",
+        "name": "TechIntelPro, « Salesforce to Announce Q3 Fiscal 2027 Results on December 2 »",
+        "url": "https://techintelpro.com/news/AI/Enterprise-AI/salesforce-to-announce-q3-fiscal-2027-results-on-december-2"
+      }
+    ]
+  },
+  {
+    "id": "scotiabank-t4-2026",
+    "company": "Banque Scotia",
+    "ticker": "BNS",
+    "country": "CA",
+    "sector": "Banque",
+    "date": "2026-12-02",
+    "time": "open",
+    "period": "T4 de l'exercice 2026 (août-octobre 2026)",
+    "lines": [],
+    "summary": "La Banque Scotia ouvre la saison des résultats annuels des grandes banques canadiennes [1][2].",
+    "points": [
+      "Communiqué vers 5 h 30, heure de Toronto, le mercredi 2 décembre, avant l'ouverture de la Bourse [1][2].",
+      "On regardera les provisions pour prêts douteux."
+    ],
+    "sources": [
+      {
+        "short": "Banque Scotia",
+        "name": "Banque Scotia, « Scotiabank to Announce Fourth Quarter 2026 Results », 4 nov. 2026",
+        "url": "https://scotiabank.investorroom.com/2026-11-04-Scotiabank-to-Announce-Fourth-Quarter-2026-Results"
+      },
+      {
+        "short": "The Globe and Mail",
+        "name": "The Globe and Mail (Newswire), « Scotiabank to Announce Fourth Quarter 2026 Results », 4 nov. 2026",
+        "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Newswire.ca/8647071/scotiabank-to-announce-fourth-quarter-2026-results/"
+      }
+    ]
+  },
+  {
+    "id": "rbc-t4-2026",
+    "company": "Banque Royale du Canada (RBC)",
+    "ticker": "RY",
+    "country": "CA",
+    "sector": "Banque",
+    "date": "2026-12-03",
+    "time": "open",
+    "period": "T4 de l'exercice 2026 (août-octobre 2026)",
+    "lines": [],
+    "summary": "La première banque du Canada publie ses comptes annuels ; il y a un an, elle avait dégagé 5,43 milliards de dollars canadiens de bénéfice au quatrième trimestre [1][2].",
+    "points": [
+      "Communiqué vers 6 h, heure de Toronto, le jeudi 3 décembre, puis conférence avec les analystes à 8 h 30 [1].",
+      "Au quatrième trimestre 2025, RBC avait réalisé un bénéfice de 5,43 milliards de dollars canadiens [2]."
+    ],
+    "sources": [
+      {
+        "short": "RBC",
+        "name": "RBC, « RBC to announce fourth quarter and fiscal 2026 results », via Investing News",
+        "url": "https://investingnews.com/rbc-to-announce-fourth-quarter-and-fiscal-2026-results/"
+      },
+      {
+        "short": "WTOP (AP)",
+        "name": "WTOP (Associated Press), « Royal Bank: Fiscal Q4 Earnings Snapshot », déc. 2025",
+        "url": "https://wtop.com/news/2025/12/royal-bank-fiscal-q4-earnings-snapshot"
+      }
+    ]
+  },
+  {
+    "id": "cibc-t4-2026",
+    "company": "CIBC",
+    "ticker": "CM",
+    "country": "CA",
+    "sector": "Banque",
+    "date": "2026-12-03",
+    "time": "open",
+    "period": "T4 de l'exercice 2026 (août-octobre 2026)",
+    "lines": [],
+    "summary": "La Banque CIBC publie ses comptes du trimestre clos le 31 octobre [1][2].",
+    "points": [
+      "Communiqué vers 5 h 30, heure de Toronto, le jeudi 3 décembre, et conférence à 7 h 30 [1][2]."
+    ],
+    "sources": [
+      {
+        "short": "CIBC",
+        "name": "CIBC, « Media Advisory - CIBC to Announce Fourth Quarter 2026 Results on December 3, 2026 », 5 nov. 2026",
+        "url": "https://cibc.mediaroom.com/2026-11-05-Media-Advisory-CIBC-to-Announce-Fourth-Quarter-2026-Results-on-December-3,-2026"
+      },
+      {
+        "short": "TradingView (PR Newswire)",
+        "name": "TradingView (PR Newswire), « Media Advisory - CIBC to Announce Fourth Quarter 2026 Results on December 3, 2026 »",
+        "url": "https://www.tradingview.com/news/prnewswire:e5a2288ca9f06:0-media-advisory-cibc-to-announce-fourth-quarter-2026-results-on-december-3-2026/"
       }
     ]
   },

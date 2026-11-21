@@ -8,70 +8,6 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.agenda = [
   {
-    "id": "2026-11-09-cop31-antalya",
-    "date": "2026-11-09",
-    "end": "2026-11-20",
-    "theme": "mix",
-    "region": "Europe",
-    "place": "Antalya, Turquie",
-    "title": "COP31 : la conférence mondiale sur le climat s'ouvre en Turquie",
-    "why": "Deux semaines de négociations à Antalya, avec un sommet des chefs d'État les 11 et 12 novembre ; la Turquie accueille, l'Australie mène les négociations [1][2]. On y discute d'argent pour les pays du Sud, de sortie des énergies fossiles et de marchés du carbone.",
-    "sources": [
-      {
-        "short": "CNULCD",
-        "name": "Convention des Nations unies sur la lutte contre la désertification, « 2026 UN Climate Change Conference COP31 »",
-        "url": "https://www.unccd.int/index.php/events/other/2026-un-climate-change-conference-cop31"
-      },
-      {
-        "short": "Wikipédia",
-        "name": "Wikipédia (anglais), « 2026 United Nations Climate Change Conference »",
-        "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-20-sommet-ue-royaume-uni",
-    "date": "2026-11-20",
-    "theme": "geo",
-    "region": "Europe",
-    "place": "Bruxelles",
-    "title": "Sommet entre l'Union européenne et le Royaume-Uni",
-    "why": "António Costa et Ursula von der Leyen reçoivent le Premier ministre britannique Andy Burnham [1][2]. L'objectif est de conclure en un seul paquet un accord sanitaire et vétérinaire (moins de contrôles aux frontières), le lien entre les marchés du carbone et un programme de mobilité des jeunes.",
-    "sources": [
-      {
-        "short": "Gov.uk",
-        "name": "Gouvernement britannique, « Prime Minister to attend UK-EU summit in Brussels on 20 November »",
-        "url": "https://www.gov.uk/government/news/prime-minister-to-attend-uk-eu-summit-in-brussels-on-20-november"
-      },
-      {
-        "short": "MLex",
-        "name": "MLex, « EU, UK to hold second summit on Nov. 20 in Brussels »",
-        "url": "https://www.mlex.com/mlex/articles/2536802"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-20-japon-inflation-octobre",
-    "date": "2026-11-20",
-    "theme": "eco",
-    "region": "Asie",
-    "place": "Tokyo, Japon",
-    "title": "Japon : inflation d’octobre",
-    "why": "Le chiffre national des prix d’octobre sort à 8 h 30, heure de Tokyo [1] ; en septembre, l’inflation hors produits frais était de 2,1 % [2]. Un chiffre plus fort renforcerait l’idée d’une hausse de taux de la Banque du Japon le 18 décembre, et pourrait soutenir le yen, tombé au-delà de 160 pour un dollar.",
-    "sources": [
-      {
-        "short": "FinanceCalendar",
-        "name": "FinanceCalendar, « Japan CPI October 2026 »",
-        "url": "https://www.financecalendar.com/event/japan-cpi-october-2026/"
-      },
-      {
-        "short": "Forex Fundamentals",
-        "name": "Forex Fundamentals, « Japan Inflation Rate (CPI) », calendrier du 20 novembre 2026",
-        "url": "https://forexfundamentals.com/economic-calendar/jp-cpi/2026-11-20"
-      }
-    ]
-  },
-  {
     "id": "2026-11-23-israel-banque-centrale-taux",
     "date": "2026-11-23",
     "theme": "eco",
@@ -446,6 +382,38 @@ window.GEOCO.agenda = [
         "short": "StockAnalysis",
         "name": "StockAnalysis, « Eurozone inflation rises to 4.0% in October, hitting highest level in 3 years » (nov. 2026)",
         "url": "https://stockanalysis.com/news/eurozone-inflation-rises-october-2026/"
+      }
+    ]
+  },
+  {
+    "id": "2026-12-02-banques-canadiennes-resultats",
+    "date": "2026-12-02",
+    "end": "2026-12-03",
+    "theme": "fin",
+    "region": "Amériques",
+    "place": "Toronto, Canada",
+    "title": "Les grandes banques canadiennes publient leurs résultats annuels",
+    "why": "La Banque Scotia ouvre le bal le 2 décembre, puis RBC, TD et CIBC publient le 3 décembre leurs comptes du quatrième trimestre, clos fin octobre [1][2][3][4]. Leurs provisions pour prêts douteux diront si les ménages et les entreprises canadiennes peinent à rembourser leurs crédits, et leurs profits pèsent lourd à la Bourse de Toronto.",
+    "sources": [
+      {
+        "short": "Banque Scotia",
+        "name": "Banque Scotia, « Scotiabank to Announce Fourth Quarter 2026 Results » (4 nov. 2026)",
+        "url": "https://scotiabank.investorroom.com/2026-11-04-Scotiabank-to-Announce-Fourth-Quarter-2026-Results"
+      },
+      {
+        "short": "RBC",
+        "name": "RBC, « RBC to announce fourth quarter and fiscal 2026 results », via Investing News",
+        "url": "https://investingnews.com/rbc-to-announce-fourth-quarter-and-fiscal-2026-results/"
+      },
+      {
+        "short": "CIBC",
+        "name": "CIBC, « Media Advisory - CIBC to Announce Fourth Quarter 2026 Results on December 3, 2026 » (5 nov. 2026)",
+        "url": "https://cibc.mediaroom.com/2026-11-05-Media-Advisory-CIBC-to-Announce-Fourth-Quarter-2026-Results-on-December-3,-2026"
+      },
+      {
+        "short": "TD",
+        "name": "Groupe Banque TD, « Media Advisory - TD Bank Group to Release Fourth Quarter 2026 Results », via Quantisnow",
+        "url": "https://www.quantisnow.com/insight/media-advisory---td-bank-group-to-release-fourth-quarter-6787134"
       }
     ]
   },
@@ -933,6 +901,28 @@ window.GEOCO.agenda = [
         "short": "FocusEconomics",
         "name": "FocusEconomics, « Philippines central bank meeting 18-06-2026: BSP raises rates in June »",
         "url": "https://www.focus-economics.com/countries/philippines/news/monetary-policy/philippines-central-bank-meeting-18-06-2026-bsp-raises-rates-in-june/"
+      }
+    ]
+  },
+  {
+    "id": "2026-12-17-conseil-europeen-decembre",
+    "date": "2026-12-17",
+    "end": "2026-12-18",
+    "theme": "geo",
+    "region": "Europe",
+    "place": "Bruxelles",
+    "title": "Conseil européen de décembre : dernier sommet de l'année des Vingt-Sept",
+    "why": "Les chefs d'État et de gouvernement de l'UE se retrouvent à Bruxelles les 17 et 18 décembre, selon le calendrier officiel du Conseil [1] ; le Conseil des affaires générales le prépare le 15 décembre [2]. Après le sommet extraordinaire de fin novembre sur le budget 2028-2034, c'est la dernière occasion de l'année de trancher sur l'argent de l'Union, l'Ukraine et la défense.",
+    "sources": [
+      {
+        "short": "Conseil de l'UE",
+        "name": "Conseil de l'Union européenne, « Meeting calendar » (réunions du Conseil européen)",
+        "url": "https://www.consilium.europa.eu/en/meetings/future-euco-meetings/"
+      },
+      {
+        "short": "Présidence irlandaise",
+        "name": "Présidence irlandaise du Conseil de l'UE, « General Affairs Council », 15 déc. 2026",
+        "url": "https://irish-presidency.consilium.europa.eu/en/events/general-affairs-council-1512/"
       }
     ]
   },
