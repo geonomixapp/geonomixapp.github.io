@@ -17,6 +17,114 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.news = [
   {
+    "id": "2026-11-20-pologne-missiles-russes-kh101",
+    "date": "2026-11-20",
+    "breaking": "18:50",
+    "region": "Europe",
+    "theme": "geo",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          22.85,
+          50.55
+        ],
+        "name": "Nowy Lipowiec, Pologne",
+        "label": "Pologne"
+      }
+    ],
+    "title": "Pologne : deux missiles russes et un drone tombent sur son sol pendant une attaque massive contre l'Ukraine, Tusk dénonce une « provocation intentionnelle »",
+    "summary": "Dans la nuit du jeudi 19 au vendredi 20 novembre, deux missiles et un drone à réaction russes sont entrés dans l'espace aérien polonais et se sont écrasés dans le sud-est du pays. L'un est un missile de croisière Kh-101, tombé à Nowy Lipowiec, à 60 km de l'Ukraine. Personne n'a été blessé [1][3].",
+    "points": [
+      "Selon le ministre polonais de la Défense, Władysław Kosiniak-Kamysz, trois objets russes, probablement deux missiles et un drone à réaction, ont violé l'espace aérien polonais pendant une attaque russe de grande ampleur contre l'Ukraine [1][3][6].",
+      "« À Nowy Lipowiec, nous pouvons déjà confirmer qu'il s'agissait d'un missile Kh-101 », a déclaré le ministre [2]. Le missile est tombé dans un champ en lisière de forêt, dans la province de Lublin, à environ 60 km de la frontière ukrainienne, et a pris feu à quelques centaines de mètres des premières maisons du village [1][2].",
+      "Un deuxième projectile, probablement un missile de croisière, est tombé près de Rudnik nad Sanem, et un drone présumé s'est écrasé à Mołodycz [1][4]. Il n'y a eu ni blessé ni dégât sur des infrastructures essentielles [1][3].",
+      "Les premiers signaux d'alerte sont arrivés au commandement polonais à 1 h 40 ; des F-16 polonais et des Gripen suédois patrouillaient toute la nuit, et des pilotes suédois ont tenté d'intercepter l'objet pris pour le Kh-101, mais le mauvais temps a empêché de l'identifier à vue [7].",
+      "Cette nuit-là, la Russie a tiré sur l'Ukraine 26 missiles Kalibr, 72 missiles Kh-101 et 503 drones, selon l'armée polonaise [1]. Le Premier ministre ukrainien a fait état de huit morts, dont six à Kyiv [8].",
+      "Le Premier ministre Donald Tusk a parlé d'une « provocation intentionnelle » et réuni ses ministres, des représentants de l'armée et les chefs des services de sécurité [3][4]. Il a relié l'incident aux exercices militaires de la « coalition des volontaires », les alliés de Kyiv, qui se déroulaient au même moment en Pologne [1][4].",
+      "Kosiniak-Kamysz a dénoncé « une nouvelle provocation de la Fédération de Russie » et annoncé qu'il demanderait au secrétaire général de l'OTAN, Mark Rutte, davantage de forces pour l'opération Eastern Sentry, ainsi qu'un avion radar AWACS supplémentaire [5]. Moscou n'avait pas réagi dans l'immédiat, selon AP [3]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : des missiles de croisière russes sont tombés sur le territoire d'un pays de l'OTAN, protégé par la défense collective de l'Alliance, ce qui fait monter d'un cran la tension entre Moscou et l'Europe [1][3].",
+      "Mark Rutte a assuré que l'OTAN « se tient aux côtés de la Pologne » et jugé l'incident « clairement dangereux, une conséquence de la guerre que la Russie continue de mener contre l'Ukraine » [3]. Le Royaume-Uni et l'Ukraine ont aussi condamné l'incident [2].",
+      "Ce n'est pas une première : un Kh-101 s'était déjà écrasé le 30 juillet à Tarnawa-Kolonia, dans l'est de la Pologne [1]. En novembre 2022, à Przewodów, un missile de la défense antiaérienne ukrainienne avait tué deux Polonais [10]. Eastern Sentry, la mission de défense aérienne de l'OTAN sur son flanc est, a été lancée après les intrusions de drones russes de septembre 2025 [9]."
+    ],
+    "forMe": "Pour toi, cela montre que la guerre en Ukraine peut déborder chez les voisins de l'Union européenne. La France participe à la défense aérienne du flanc est de l'OTAN : si l'Alliance renforce Eastern Sentry, elle pourrait être appelée à envoyer plus d'avions ou de soldats.",
+    "figures": [
+      {
+        "src": 1,
+        "value": "60 km",
+        "label": "distance entre le point de chute du Kh-101 et la frontière ukrainienne"
+      },
+      {
+        "src": 1,
+        "value": "72",
+        "label": "missiles Kh-101 tirés cette nuit-là sur l'Ukraine, avec 26 Kalibr et 503 drones"
+      },
+      {
+        "src": 3,
+        "value": "0",
+        "label": "blessé en Pologne"
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Tusk denounces Russian 'provocation' after Warsaw says missiles crash in Poland » (20 novembre 2026)",
+        "url": "https://www.euronews.com/2026/11/20/unidentified-object-falls-in-eastern-poland-amid-major-russian-attack-on-ukraine"
+      },
+      {
+        "short": "France 24",
+        "name": "France 24 (avec AFP et Reuters), « Deux missiles russes chutent en Pologne, le Premier ministre Tusk dénonce \"une provocation\" » (20 novembre 2026)",
+        "url": "https://www.france24.com/fr/europe/20261120-deux-missiles-chutent-pologne-premier-ministre-donald-tusk-d%C3%A9nonce-provocation-russie"
+      },
+      {
+        "short": "AP",
+        "name": "AP (via 2News), « Russian missiles land in Poland, as Europe held military drills nearby. NATO calls it a violation » (20 novembre 2026)",
+        "url": "https://www.2news.com/news/world/warsaw-says-a-russian-missile-crash-in-poland-is-a-provocation-as-ukraine-allies-hold/article_d0674640-8222-50bf-8218-66d84382bc57.html"
+      },
+      {
+        "short": "Notes from Poland",
+        "name": "Notes from Poland, « Two Russian missiles and a drone hit Poland » (20 novembre 2026)",
+        "url": "https://notesfrompoland.com/2026/11/20/unidentified-object-hits-poland-amid-russian-attacks-on-western-ukraine/"
+      },
+      {
+        "short": "Kyiv Independent",
+        "name": "The Kyiv Independent, « 2 Russian Kh-101 missiles, drone, fall in Poland during Russian attack on Ukraine » (20 novembre 2026)",
+        "url": "https://kyivindependent.com/poland-reports-airspace-violation-during-russian-attack-on-ukraine-investigates-debris-crash/"
+      },
+      {
+        "short": "Bloomberg",
+        "name": "Bloomberg, « Poland Says Two Russian Missiles, Drone Crashed on Its Soil » (20 novembre 2026)",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-20/poland-says-two-russian-missiles-drone-crashed-on-its-soil"
+      },
+      {
+        "short": "AeroTime",
+        "name": "AeroTime, « Russian Kh-101 crashes in Poland as Swedish Gripens attempt interception » (20 novembre 2026)",
+        "url": "https://www.aerotime.aero/articles/russian-kh-101-poland-swedish-gripens-interception"
+      },
+      {
+        "short": "Euronews",
+        "name": "Euronews, « L'info du jour, 20 novembre 2026, soir » (20 novembre 2026)",
+        "url": "https://fr.euronews.com/video/2026/11/20/linfo-du-jour-20-novembre-2026-soir"
+      },
+      {
+        "short": "Wikipédia",
+        "name": "Wikipedia, « Operation Eastern Sentry »",
+        "url": "https://en.wikipedia.org/wiki/Operation_Eastern_Sentry"
+      },
+      {
+        "short": "Wikipédia",
+        "name": "Wikipedia, « 2022 missile explosion in Poland »",
+        "url": "https://en.wikipedia.org/wiki/2022_missile_explosion_in_Poland"
+      }
+    ]
+  },
+  {
     "id": "2026-11-20-shenzhen-declaration-de-paix",
     "date": "2026-11-20",
     "region": "Asie",
