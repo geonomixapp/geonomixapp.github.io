@@ -147,22 +147,6 @@ window.GEOCO.agenda = [
     ]
   },
   {
-    "id": "2026-11-25-fnac-darty-cloture-opa-ep-group",
-    "date": "2026-11-25",
-    "theme": "fin",
-    "region": "Europe",
-    "place": "Paris, France",
-    "title": "Fnac Darty : clôture de l'offre rouverte d'EP Group",
-    "why": "L'offre publique d'achat d'EP Group, le holding du milliardaire tchèque Daniel Křetínský, à 35 euros par action, reste ouverte jusqu'au 25 novembre inclus, selon Fnac Darty [1]. Sa clôture fixera la part du capital contrôlée par EP Group, et donc l'avenir en Bourse du premier distributeur français de produits culturels et d'électroménager.",
-    "sources": [
-      {
-        "short": "Fnac Darty",
-        "name": "Fnac Darty (communiqué via GlobeNewswire), « Réouverture de l'offre publique d'achat initiée par EP Group jusqu'au 25 novembre 2026 inclus » (12 novembre 2026)",
-        "url": "https://www.globenewswire.com/news-release/2026/11/12/3401236/0/fr/fnac-darty-r%C3%A9ouverture-de-l-offre-publique-d-achat-initi%C3%A9e-par-ep-group-jusqu-au-25-novembre-2026-inclus.html"
-      }
-    ]
-  },
-  {
     "id": "2026-11-26-conseil-europeen-budget-2028-2034",
     "date": "2026-11-26",
     "end": "2026-11-27",
