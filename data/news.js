@@ -17,6 +17,102 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.news = [
   {
+    "id": "2026-11-21-finlande-cargo-russe-sparta-drones",
+    "date": "2026-11-21",
+    "breaking": "19:00",
+    "region": "Europe",
+    "theme": "geo",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          26.23,
+          60.45
+        ],
+        "name": "Loviisa, Finlande",
+        "label": "Finlande"
+      }
+    ],
+    "title": "Golfe de Finlande : un cargo russe lié à l'armée frappé par des drones dérive en feu dans les eaux finlandaises, Helsinki prévient l'OTAN",
+    "summary": "Samedi 21 novembre, le Sparta II, un cargo russe sous sanctions américaines qui faisait route vers Kaliningrad, a pris feu après avoir été touché par deux drones dans l'est du golfe de Finlande. Il a dérivé jusque dans les eaux finlandaises, au large de Loviisa, et la Finlande a informé l'OTAN [1][3][6].",
+    "points": [
+      "Selon Alexandre Drozdenko, gouverneur de la région russe de Leningrad, deux drones ont frappé le navire en eaux internationales, à environ trois milles nautiques de la frontière maritime russe ; l'équipage a été évacué et les dégâts étaient en cours d'évaluation [1][3].",
+      "Le ministère finlandais de la Défense dit avoir détecté une attaque de drone contre un cargo russe à l'ouest de l'île de Suursaari [2]. Selon les autorités estoniennes, le navire empruntait une voie maritime internationale à 11 milles nautiques au nord de l'île estonienne de Vaindloo [5].",
+      "Le Sparta II, un roulier battant pavillon russe, est exploité par Oboronlogistics, une société liée au ministère russe de la Défense ; il est sous sanctions américaines depuis mai 2022 et sanctionné aussi par l'Ukraine [3][4].",
+      "Touché, le navire a perdu le contrôle de sa direction et a dérivé dans les eaux territoriales finlandaises, au sud de Loviisa, où les garde-frontières finlandais dirigent le sauvetage et la lutte contre une éventuelle pollution [4][6].",
+      "Le commandant des garde-frontières finlandais, Ilja Iljin, a affirmé à la télévision Yle que des drones ukrainiens avaient frappé le cargo alors qu'il se trouvait dans les eaux russes, et que celui-ci « pourrait transporter du matériel militaire » [4]. L'armée finlandaise juge probable que l'Ukraine soit derrière l'attaque, sans savoir pourquoi ce navire a été visé [3].",
+      "Personne n'a revendiqué l'attaque, et le ministère ukrainien des Affaires étrangères n'a pas répondu dans l'immédiat [3]. Le gouverneur de Kaliningrad, Alexeï Besprozvannykh, assure que l'incident ne menace pas l'approvisionnement de l'enclave [3].",
+      "Le ministre finlandais de la Défense, Antti Häkkänen, a indiqué qu'un hélicoptère russe avait peut-être pénétré de 4,1 km dans l'espace aérien finlandais au large de Loviisa, sans doute pendant les opérations de secours ou de surveillance du cargo [7]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : la guerre entre la Russie et l'Ukraine arrive jusque dans les eaux d'un pays de l'OTAN, au cœur de la Baltique, au lendemain de la chute de missiles russes en Pologne [6].",
+      "« La guerre déborde dans nos régions voisines », a résumé le Premier ministre finlandais Petteri Orpo [6]. Helsinki a imposé à deux reprises des restrictions temporaires au trafic aérien et maritime dans l'est du golfe de Finlande par précaution [4].",
+      "Le golfe de Finlande est l'accès maritime de Saint-Pétersbourg, et Kaliningrad, coincée entre la Pologne et la Lituanie, dépend en partie de ces liaisons par la mer [2][3]. Une attaque sur cette route touche donc un axe sensible pour Moscou, juste à côté de la Finlande et de l'Estonie, membres de l'OTAN [5][6]."
+    ],
+    "forMe": "Pour toi, cela montre que la guerre en Ukraine se rapproche des pays de l'Union européenne, cette fois par la mer. La Baltique est une route importante pour le commerce européen et ses câbles sous-marins : si les incidents s'y multiplient, l'OTAN et l'UE, France comprise, pourraient y renforcer leur présence militaire.",
+    "figures": [
+      {
+        "src": 1,
+        "value": "2",
+        "label": "drones qui ont frappé le cargo, selon le gouverneur de la région de Leningrad"
+      },
+      {
+        "src": 7,
+        "value": "4,1 km",
+        "label": "incursion possible d'un hélicoptère russe dans l'espace aérien finlandais"
+      },
+      {
+        "src": 3,
+        "value": "2022",
+        "label": "année des sanctions américaines contre le Sparta II"
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "sanctions",
+      "routes-maritimes"
+    ],
+    "sources": [
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « Russian crew evacuating ship hit by drones off coast of Finland » (21 novembre 2026)",
+        "url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland"
+      },
+      {
+        "short": "Boursorama (AFP)",
+        "name": "Boursorama, « La Finlande a détecté une attaque de drone contre un cargo russe en mer Baltique » (21 novembre 2026)",
+        "url": "https://www.boursorama.com/actualite-economique/actualites/la-finlande-a-detecte-une-attaque-de-drone-contre-un-cargo-russe-en-mer-baltique-59ca44ae9e5598709a9d89dca7898379"
+      },
+      {
+        "short": "Reuters",
+        "name": "Reuters (via ThePrint), « Russian cargo ship hit by drones in Baltic, Finland tightens security » (21 novembre 2026)",
+        "url": "https://theprint.in/world/russian-cargo-ship-hit-by-drones-in-baltic-finland-tightens-security/3105411/"
+      },
+      {
+        "short": "Kyiv Independent",
+        "name": "The Kyiv Independent, « Russian military-linked cargo ship catches fire after reported drone strike in Gulf of Finland » (21 novembre 2026)",
+        "url": "https://kyivindependent.com/russian-military-linked-cargo-ship-catches-fire-after-reported-drone-strike-in-gulf-of-finland/"
+      },
+      {
+        "short": "ERR",
+        "name": "ERR News, « Russian cargo ship catches fire in Gulf of Finland, Moscow claims drone hit » (21 novembre 2026)",
+        "url": "https://news.err.ee/1610202715/russian-cargo-ship-catches-fire-in-gulf-of-finland-moscow-claims-drone-hit"
+      },
+      {
+        "short": "France 24",
+        "name": "France 24, « Drone attack sets Russian cargo ship ablaze in Gulf of Finland » (21 novembre 2026)",
+        "url": "https://www.france24.com/en/europe/20261121-drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland"
+      },
+      {
+        "short": "AeroTime",
+        "name": "AeroTime, « Russian helicopter suspected of Finnish airspace breach » (21 novembre 2026)",
+        "url": "https://aerotime.aero/articles/russian-helicopter-finnish-airspace-sparta-ii-drone-strike"
+      }
+    ]
+  },
+  {
     "id": "2026-11-21-wall-street-correction-nasdaq-nvidia",
     "date": "2026-11-21",
     "region": "Amériques",
