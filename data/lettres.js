@@ -2,12 +2,22 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-22",
+    "file": "lettres/2026-11-22.pdf",
+    "titles": [
+      "COP31 : après deux jours de prolongation, la présidence turque dit tenir un accord, mais le mot « fossiles » divise toujours",
+      "Ormuz : des médiateurs qataris à Téhéran, mais l'Iran prépare plus de 14 pétroliers pour forcer le blocus américain",
+      "Missiles en Pologne, drones en Moldavie, complot au Danemark : Macron dénonce un « nouveau palier » de l'agression russe contre l'Europe"
+    ],
+    "fileDark": "lettres/2026-11-22-sombre.pdf"
+  },
+  {
     "date": "2026-11-21",
     "file": "lettres/2026-11-21.pdf",
     "titles": [
+      "Golfe de Finlande : un cargo russe lié à l'armée frappé par des drones dérive en feu dans les eaux finlandaises, Helsinki prévient l'OTAN",
       "Wall Street entre en correction : le Nasdaq chute de 5,3 % et efface ses gains de 2026, Nvidia s'effondre de 14 %",
-      "Ukraine : des frappes russes touchent les ambassades d'Autriche et des Pays-Bas à Kyiv, Paris réclame le Conseil de sécurité de l'ONU",
-      "Sommet UE–Royaume-Uni : un accord « historique » sur l'alimentation, le carbone et 100 000 jeunes, mais tout reste suspendu aux frais universitaires"
+      "Ukraine : des frappes russes touchent les ambassades d'Autriche et des Pays-Bas à Kyiv, Paris réclame le Conseil de sécurité de l'ONU"
     ],
     "fileDark": "lettres/2026-11-21-sombre.pdf"
   },

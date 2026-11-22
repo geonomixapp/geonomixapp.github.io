@@ -147,6 +147,22 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-11-25-fnac-darty-cloture-opa-ep-group",
+    "date": "2026-11-25",
+    "theme": "fin",
+    "region": "Europe",
+    "place": "Paris, France",
+    "title": "Fnac Darty : clôture de l'offre rouverte d'EP Group",
+    "why": "L'offre publique d'achat d'EP Group, le holding du milliardaire tchèque Daniel Křetínský, à 35 euros par action, reste ouverte jusqu'au 25 novembre inclus, selon Fnac Darty [1]. Sa clôture fixera la part du capital contrôlée par EP Group, et donc l'avenir en Bourse du premier distributeur français de produits culturels et d'électroménager.",
+    "sources": [
+      {
+        "short": "Fnac Darty",
+        "name": "Fnac Darty (communiqué via GlobeNewswire), « Réouverture de l'offre publique d'achat initiée par EP Group jusqu'au 25 novembre 2026 inclus » (12 novembre 2026)",
+        "url": "https://www.globenewswire.com/news-release/2026/11/12/3401236/0/fr/fnac-darty-r%C3%A9ouverture-de-l-offre-publique-d-achat-initi%C3%A9e-par-ep-group-jusqu-au-25-novembre-2026-inclus.html"
+      }
+    ]
+  },
+  {
     "id": "2026-11-26-conseil-europeen-budget-2028-2034",
     "date": "2026-11-26",
     "end": "2026-11-27",
@@ -425,7 +441,6 @@ window.GEOCO.agenda = [
     "place": "Washington",
     "title": "États-Unis : les chiffres de l'emploi de novembre",
     "why": "Le Bureau des statistiques du travail publie le vendredi 4 décembre à 8 h 30 (heure de Washington) les créations d'emplois et le taux de chômage de novembre [1]. En octobre, l'économie avait créé 165 000 emplois et le chômage était descendu à 4,1 % [2] ; c'est le dernier rapport avant la réunion de la Fed des 8 et 9 décembre.",
-    "news": "2026-11-07-emploi-americain-165000-fed-hausse-decembre",
     "sources": [
       {
         "short": "BLS",
@@ -557,7 +572,6 @@ window.GEOCO.agenda = [
     "place": "Brasília",
     "title": "Brésil : réunion de la banque centrale sur la Selic",
     "why": "Après avoir arrêté ses baisses à 13,75 % le 5 novembre, le Copom se réunit les 8 et 9 décembre, en même temps que la Fed : sa décision dira si le Brésil reste prudent face à un dollar à son plus haut de l'année [1].",
-    "news": "2026-11-07-bresil-selic-maintenue-13-75-reelection-lula",
     "sources": [
       {
         "short": "Bloomberg Línea",
@@ -970,6 +984,23 @@ window.GEOCO.agenda = [
         "short": "Fortune",
         "name": "Fortune, 29 octobre 2026",
         "url": "https://fortune.com/2026/10/29/mongolia-300-million-copper-exports-china-border-1-2-billion/"
+      }
+    ]
+  },
+  {
+    "id": "2026-12-31-onu-fin-mandat-guterres",
+    "date": "2026-12-31",
+    "theme": "geo",
+    "region": "Amériques",
+    "place": "New York, États-Unis",
+    "title": "ONU : fin du mandat d'António Guterres, sans successeur désigné",
+    "why": "Le mandat du secrétaire général de l'ONU s'achève le 31 décembre ; après un nouveau vote indicatif sans vainqueur au Conseil de sécurité, des diplomates cités par Reuters n'excluent pas que l'organisation se retrouve sans chef, ce qui imposerait une solution provisoire [1]. Un vide affaiblirait l'ONU au moment des négociations sur l'Ukraine, Gaza et l'Iran.",
+    "news": "2026-11-22-onu-secretaire-general-impasse",
+    "sources": [
+      {
+        "short": "Reuters",
+        "name": "Reuters (via The Korea Herald), course au secrétariat général de l'ONU (21 novembre 2026)",
+        "url": "https://www.koreaherald.com/article/10943238"
       }
     ]
   }
