@@ -3046,6 +3046,90 @@ window.GEOCO.news = [
     ]
   },
   {
+    "id": "2026-11-22-algerie-maroc-frontiere-naama",
+    "date": "2026-11-22",
+    "level": 2,
+    "region": "Afrique",
+    "theme": "geo",
+    "zones": [
+      "Afrique"
+    ],
+    "geo": [
+      {
+        "coords": [
+          -0.31,
+          33.27
+        ],
+        "name": "Naâma, Algérie",
+        "label": "Algérie"
+      }
+    ],
+    "title": "Algérie-Maroc : l'armée algérienne dit avoir abattu deux Marocains à la frontière fermée depuis 1994, le troisième incident mortel de l'année",
+    "summary": "Le ministère algérien de la Défense a annoncé samedi 21 novembre que des garde-frontières avaient tué la veille deux ressortissants marocains, présentés comme des trafiquants de drogue, près de Naâma, face à l'est du Maroc. Rabat n'a pas donné sa version. C'est au moins le troisième cas de ce genre en 2026 [1][2][3].",
+    "points": [
+      "Selon le communiqué, un détachement de garde-frontières de la 2e région militaire a « neutralisé » les deux hommes vendredi 20 novembre dans le secteur militaire de Naâma, après qu'ils eurent refusé d'obtempérer [1][3].",
+      "L'un d'eux a été identifié grâce à sa carte d'identité : Khelifi Laid, né à Oulad Sidi Abdelhakem, dans la province de Jerada ; l'autre n'a pas été nommé [2][3]. Plus de 50 kilos de kif traité ont été saisis, selon la presse [4].",
+      "Le 28 janvier, l'armée algérienne avait annoncé la mort de trois Marocains près de Béchar ; le 27 février, deux autres à Béni Ounif, toujours au nom de la lutte contre le trafic de drogue [2][5].",
+      "La frontière terrestre est fermée depuis 1994 et Alger a rompu ses relations diplomatiques avec Rabat en août 2021 [2][3]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : chaque incident à la frontière se lit à travers la querelle du Sahara occidental, qui oppose les deux voisins depuis des décennies [3].",
+      "Le 17 novembre à Rabat, l'ambassadeur américain à l'ONU, Mike Waltz, a redit le soutien de Washington au plan d'autonomie marocain et pressé le Front Polisario, soutenu par Alger, de « choisir la paix », au moment où commence le retrait de la mission de l'ONU (MINURSO) après 35 ans [6][7]. Les seules sources sur la fusillade sont pour l'instant le communiqué algérien et la presse qui le reprend [2][3]."
+    ],
+    "forMe": "Entre ces deux voisins du Maghreb, la frontière fermée empêche tout commerce par la route et sépare des familles ; chaque incident mortel rend une réouverture encore moins probable.",
+    "figures": [
+      {
+        "src": 1,
+        "value": "2",
+        "label": "Marocains tués le 20 novembre près de Naâma, selon l'armée algérienne"
+      },
+      {
+        "src": 2,
+        "value": "3e",
+        "label": "incident mortel de ce type annoncé par Alger en 2026"
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "TSA",
+        "name": "TSA Algérie, « Algérie : deux narcotrafiquants marocains abattus à la frontière » (21 novembre 2026)",
+        "url": "https://www.tsa-algerie.com/deux-narcotrafiquants-marocains-abattus-par-les-garde-frontieres-algeriens/"
+      },
+      {
+        "short": "Assahifa",
+        "name": "Assahifa, « Algerian Army Announces Killing of Two Moroccans Near Border » (novembre 2026)",
+        "url": "https://en.assahifa.com/morocco/algerian-army-moroccans-killed/"
+      },
+      {
+        "short": "Demócrata",
+        "name": "Demócrata, « Fatal shooting on the border between Algeria and Morocco » (novembre 2026)",
+        "url": "https://www.democrata.es/en/international/two-alleged-moroccan-drug-traffickers-killed-by-the-algerian-border-guard/"
+      },
+      {
+        "short": "Le Quotidien",
+        "name": "Le Quotidien (Nouakchott), « Algérie : deux narcotrafiquants marocains abattus par les gardes-frontières près de Naâma avec plus de 50 kg de kif traité » (novembre 2026)",
+        "url": "https://lequotidien.mr/algerie-deux-narcotrafiquants-marocains-abattus-par-les-gardes-frontieres-pres-de-naama-avec-plus-de-50-kg-de-kif-traite/"
+      },
+      {
+        "short": "Médias24",
+        "name": "Médias24, « Alger annonce avoir tué trois Marocains à la frontière maroco-algérienne » (29 janvier 2026)",
+        "url": "https://medias24.com/2026/01/29/alger-annonce-avoir-tue-trois-marocains-a-la-frontiere-maroco-algerienne-1619209/"
+      },
+      {
+        "short": "APA",
+        "name": "APA News, « Mike Waltz à Rabat » (17 novembre 2026)",
+        "url": "https://fr.apanews.net/?p=335128"
+      },
+      {
+        "short": "Le360",
+        "name": "Le360, « Sahara : à Rabat, Mike Waltz réaffirme l'appui américain au Maroc et met le Polisario en demeure » (17 novembre 2026)",
+        "url": "https://fr.le360.ma/politique/sahara-a-rabat-mike-waltz-reaffirme-lappui-americain-au-maroc-et-met-le-polisario-en-demeure_JSBNUCDQ3ZBANMG4CZ7RVRV4XY/"
+      }
+    ]
+  },
+  {
     "id": "2026-11-22-grece-plan-de-relance-11-milliards",
     "date": "2026-11-22",
     "level": 2,
