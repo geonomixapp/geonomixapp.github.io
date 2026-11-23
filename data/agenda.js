@@ -63,7 +63,7 @@ window.GEOCO.agenda = [
     "place": "Bruxelles, Belgique",
     "title": "Belgique : manifestation nationale des syndicats à Bruxelles",
     "why": "Les syndicats ACV-CSC, FGTB-ABVV et SYNOVA attendent des milliers de personnes contre les coupes dans le budget social du gouvernement De Wever, avec des perturbations à Bruxelles [1][2]. L’ampleur de la mobilisation pèsera sur un gouvernement déjà fragilisé par son budget [3].",
-    "news": "2026-11-20-belgique-manifestation-nationale-23-novembre",
+    "news": "2026-11-23-belgique-greve-nationale-aeroports-fermes",
     "sources": [
       {
         "short": "Brussels Times",
@@ -90,7 +90,7 @@ window.GEOCO.agenda = [
     "place": "Lisbonne",
     "title": "Portugal : vote final du budget 2027",
     "why": "Le Parlement portugais vote le budget 2027 dans son ensemble le 24 novembre, au terme de l'examen article par article [1][2]. En première lecture, le 28 octobre, le texte est passé grâce aux voix du PSD et du CDS-PP et à l'abstention du Parti socialiste [1].",
-    "news": "2026-11-08-portugal-budget-2027-vote-final-24-novembre-abstention-ps",
+    "news": "2026-11-23-portugal-budget-2027-vote-final",
     "sources": [
       {
         "short": "ComparaJá",
@@ -346,6 +346,7 @@ window.GEOCO.agenda = [
     "place": "Espagne",
     "title": "Élections législatives anticipées en Espagne",
     "why": "Pedro Sánchez a convoqué le scrutin après le rejet de deux décrets sur le logement [1][2]. Selon des sondages cités, la droite et l'extrême droite réunies dépasseraient 200 des 350 sièges ; un changement de gouvernement toucherait la politique du logement et du budget.",
+    "news": "2026-11-23-espagne-derniere-semaine-legislatives",
     "sources": [
       {
         "short": "Euronews",
@@ -356,6 +357,28 @@ window.GEOCO.agenda = [
         "short": "ITV News",
         "name": "ITV News, « Spain's prime minister announces snap election for November » (5 oct. 2026)",
         "url": "https://www.itv.com/news/2026-10-05/spains-prime-minister-announces-snap-election-for-november"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-30-chine-credit-marge-80",
+    "date": "2026-11-30",
+    "theme": "fin",
+    "region": "Asie",
+    "place": "Chine",
+    "title": "Chine : l'apport minimum pour acheter des actions à crédit passe de 100 % à 80 %",
+    "why": "Les Bourses de Shanghai, Shenzhen et Pékin assouplissent le crédit pour acheter des actions à partir du 30 novembre, ce qui annule un durcissement décidé en janvier [1][2]. Pékin espère ainsi soutenir des marchés secoués par le krach des valeurs de l'IA ; reste à voir si les particuliers reprendront le risque d'emprunter pour investir.",
+    "news": "2026-11-23-chine-bourse-credit-marge-krach-ia",
+    "sources": [
+      {
+        "short": "Reuters / MarketScreener",
+        "name": "Reuters via MarketScreener, « Chinese exchanges ease margin trading requirements to aid stock markets » (nov. 2026)",
+        "url": "https://www.marketscreener.com/news/chinese-exchanges-ease-margin-trading-requirements-to-aid-stock-markets-ce785ed3d18df725"
+      },
+      {
+        "short": "investingLive",
+        "name": "investingLive, « China cuts margin requirement to 80% in fresh market support push » (nov. 2026)",
+        "url": "https://investinglive.com/stock-market-update/china-cuts-margin-requirement-to-80-in-fresh-market-support-push-but-will-it-work/"
       }
     ]
   },

@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-23",
+    "file": "lettres/2026-11-23.pdf",
+    "titles": [
+      "Ormuz : Trump promet de couler les pétroliers iraniens qui forceraient le blocus et menace de frapper à nouveau l'Iran après le Nouvel An",
+      "COP31 : le sommet d'Antalya s'achève sans accord, l'UE refuse un texte qui ne cite même pas les énergies fossiles, une première depuis 2009",
+      "Dette : Macron envisage de réunir le Parlement à Versailles en janvier pour inscrire une « règle d'or » dans la Constitution"
+    ],
+    "fileDark": "lettres/2026-11-23-sombre.pdf"
+  },
+  {
     "date": "2026-11-22",
     "file": "lettres/2026-11-22.pdf",
     "titles": [
