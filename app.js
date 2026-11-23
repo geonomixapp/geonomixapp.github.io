@@ -1735,6 +1735,11 @@
             const d = new Date(); d.setMonth(d.getMonth() + months);
             until = d.toISOString().slice(0, 10);
           }
+          // Code de quelques jours (--jours 2) : aujourd'hui compte comme le 1er jour.
+          if (hit.jours) {
+            const d = new Date(); d.setDate(d.getDate() + hit.jours - 1);
+            until = d.toISOString().slice(0, 10);
+          }
           setPlus({ via: ok, label: hit.label, jusqua: until, fondateur: !!hit.fondateur });
           msg.textContent = "Bienvenue ! Tout est débloqué.";
           msg.className = "plus-msg good";

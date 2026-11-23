@@ -33,6 +33,11 @@ window.GEOCO.plus = {
       "label": "Invité · 1 mois offert",
       "mois": 1,
       "unique": true
+    },
+    {
+      "h": "9e0aea22831ec79becc8fe608334698f81a689064964001b4534c7131e5a172d",
+      "label": "Invité · 2 jours offerts",
+      "jours": 2
     }
   ],
   "invites": [],
