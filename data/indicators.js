@@ -7,17 +7,17 @@
 
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.indicators = {
-  "updated": "2026-11-21",
+  "updated": "2026-11-23",
   "latest": [
     {
       "group": "Économie",
       "value": "4,0 %",
       "label": "Inflation dans la zone euro",
-      "date": "octobre 2026 (estimation rapide)",
+      "date": "octobre 2026 (chiffre définitif)",
       "link": "#/chiffres/inflation",
       "source": {
-        "short": "Eurostat (via CNBC)",
-        "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html"
+        "short": "Eurostat",
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-18112026-ap"
       }
     },
     {
@@ -575,13 +575,73 @@ window.GEOCO.indicators = {
           "short": "Reuters (Investing.com)",
           "name": "Reuters via Investing.com, « Japan Oct core CPI rises 2.2% yr/yr » (20 nov. 2026)",
           "url": "https://www.investing.com/news/economic-indicators/japan-oct-core-cpi-rises-22-yryr-5040343"
+        },
+        {
+          "short": "INS (informat.ro)",
+          "name": "informat.ro, « Inflation rose to 6.9% in October 2026, the second consecutive month » (INS, nov. 2026) ; voir aussi Revista Biz, « Rata anuală a inflației a crescut la 6,9% în octombrie »",
+          "url": "https://informat.ro/en/economy/inflation-rose-to-69-in-october-2026-the-second-consecutive-month-148031"
+        },
+        {
+          "short": "Eurostat",
+          "name": "Eurostat, « Annual inflation up to 4.0% in the euro area », IPCH d'octobre 2026, chiffres définitifs (18 nov. 2026) ; taux par pays repris par IndexBox et ESM Magazine",
+          "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-18112026-ap"
+        },
+        {
+          "short": "The Star (DOSM)",
+          "name": "The Star, « Malaysia's inflation edges higher to 1.9% in Oct » (19 nov. 2026, chiffres du Département de la statistique, DOSM)",
+          "url": "https://www.thestar.com.my/business/business-news/2026/11/19/malaysia039s-inflation-edges-higher-to-19-in-oct"
+        },
+        {
+          "short": "Swissinfo (OFS)",
+          "name": "Swissinfo, « Swiss inflation accelerates to highest in almost three years » (3 nov. 2026, chiffres de l'Office fédéral de la statistique)",
+          "url": "https://www.swissinfo.ch/eng/swiss-inflation-accelerates-to-highest-in-almost-three-years/92318152"
+        },
+        {
+          "short": "Citizen Digital (KNBS)",
+          "name": "Citizen Digital, « Kenya's inflation rises to 7.3% in October as food and fuel prices surge » (30 oct. 2026, chiffres du KNBS) ; voir aussi Trading Economics",
+          "url": "https://citizen.digital/article/kenyas-inflation-rises-to-73-in-october-as-food-and-fuel-prices-surge-n393084"
+        },
+        {
+          "short": "The Nation (ministère du Commerce)",
+          "name": "The Nation Thailand, « Thai inflation rises to 3.90% in October as fuel costs jump » (nov. 2026, ministère du Commerce) ; voir aussi The Star, 6 nov. 2026",
+          "url": "https://www.nationthailand.com/business/economy/40073171"
+        },
+        {
+          "short": "Trading Economics (PBS)",
+          "name": "Trading Economics, « Pakistan Inflation Rate Eases for 3rd Month » (9,6 % en octobre 2026, Bureau des statistiques du Pakistan, 2 nov. 2026) ; voir aussi Minute Mirror",
+          "url": "https://tradingeconomics.com/pakistan/inflation-cpi/news/597277"
+        },
+        {
+          "short": "OTP Research (KSH)",
+          "name": "OTP Bank Research, « Report on inflation » (11 nov. 2026 : 2,0 % en octobre, chiffres du KSH) ; voir aussi Trading Economics, « Hungary Inflation Rate Hits 6-Month High »",
+          "url": "https://www.otpbank.hu/globalmarkets/en/news/research/report-on-inflation-20261111"
+        },
+        {
+          "short": "Andina (INEI)",
+          "name": "Andina (agence de presse publique), « INEI: inflación en Lima Metropolitana fue de 0.57% en octubre de 2026 » (5,25 % sur un an, nov. 2026)",
+          "url": "https://andina.pe/agencia/noticia-inei-inflacion-lima-metropolitana-fue-057-octubre-2026-1098147.aspx"
+        },
+        {
+          "short": "GNA (GSS)",
+          "name": "Ghana News Agency, « Ghana's inflation edges up to 5.5 per cent in October » (4 nov. 2026, Ghana Statistical Service)",
+          "url": "https://gna.org.gh/2026/11/ghanas-inflation-edges-up-to-5-5-per-cent-in-october/"
+        },
+        {
+          "short": "CBSL",
+          "name": "Central Bank of Sri Lanka, « CCPI-based headline inflation accelerated in October 2026 »",
+          "url": "https://www.cbsl.gov.lk/en/node/21123"
+        },
+        {
+          "short": "BSS (BBS)",
+          "name": "BSS (agence de presse publique du Bangladesh), inflation de 8,27 % en octobre 2026 (Bangladesh Bureau of Statistics) ; voir aussi The Financial Express, « Inflation dips to 8.27pc in October »",
+          "url": "https://www.bssnews.net/business/443836"
         }
       ],
       "values": {
         "100": {
-          "v": 5.6,
-          "d": "sept. 2026",
-          "s": 1
+          "v": 5.9,
+          "d": "oct. 2026 (IPCH)",
+          "s": 57
         },
         "104": {
           "v": 24.6,
@@ -629,9 +689,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "144": {
-          "v": 8,
-          "d": "sept. 2026",
-          "s": 13
+          "v": 8.3,
+          "d": "oct. 2026",
+          "s": 66
         },
         "148": {
           "v": -2,
@@ -789,9 +849,9 @@ window.GEOCO.indicators = {
           "s": 26
         },
         "288": {
-          "v": 5.2,
-          "d": "sept. 2026",
-          "s": 24
+          "v": 5.5,
+          "d": "oct. 2026",
+          "s": 65
         },
         "300": {
           "v": 5.1,
@@ -834,9 +894,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "348": {
-          "v": 1.6,
-          "d": "sept. 2026",
-          "s": 21
+          "v": 2,
+          "d": "oct. 2026",
+          "s": 63
         },
         "352": {
           "v": 5.9,
@@ -904,9 +964,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "404": {
-          "v": 6.8,
-          "d": "sept. 2026",
-          "s": 16
+          "v": 7.3,
+          "d": "oct. 2026",
+          "s": 60
         },
         "410": {
           "v": 2.8,
@@ -960,8 +1020,8 @@ window.GEOCO.indicators = {
         },
         "440": {
           "v": 6.1,
-          "d": "sept. 2026",
-          "s": 2
+          "d": "oct. 2026 (IPCH)",
+          "s": 57
         },
         "442": {
           "v": 5.2,
@@ -985,8 +1045,8 @@ window.GEOCO.indicators = {
         },
         "458": {
           "v": 1.9,
-          "d": "août 2026",
-          "s": 1
+          "d": "oct. 2026",
+          "s": 58
         },
         "462": {
           "v": 2.3,
@@ -1104,9 +1164,9 @@ window.GEOCO.indicators = {
           "s": 51
         },
         "586": {
-          "v": 10.3,
-          "d": "sept. 2026",
-          "s": 12
+          "v": 9.6,
+          "d": "oct. 2026",
+          "s": 62
         },
         "591": {
           "v": 2.2,
@@ -1124,9 +1184,9 @@ window.GEOCO.indicators = {
           "s": 19
         },
         "604": {
-          "v": 4.6,
-          "d": "sept. 2026",
-          "s": 11
+          "v": 5.25,
+          "d": "oct. 2026",
+          "s": 64
         },
         "608": {
           "v": 7.8,
@@ -1164,9 +1224,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "642": {
-          "v": 6.2,
-          "d": "août 2026",
-          "s": 1
+          "v": 6.9,
+          "d": "oct. 2026",
+          "s": 56
         },
         "643": {
           "v": 6.4,
@@ -1279,9 +1339,9 @@ window.GEOCO.indicators = {
           "s": 45
         },
         "756": {
-          "v": 1,
-          "d": "sept. 2026",
-          "s": 1
+          "v": 1.5,
+          "d": "oct. 2026",
+          "s": 59
         },
         "760": {
           "v": 24.8,
@@ -1294,9 +1354,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "764": {
-          "v": 2.8,
-          "d": "sept. 2026",
-          "s": 10
+          "v": 3.9,
+          "d": "oct. 2026",
+          "s": 61
         },
         "768": {
           "v": 0.7,
@@ -1449,9 +1509,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "050": {
-          "v": 8.3,
-          "d": "sept. 2026",
-          "s": 14
+          "v": 8.27,
+          "d": "oct. 2026",
+          "s": 67
         },
         "051": {
           "v": 4.4,
@@ -1710,6 +1770,26 @@ window.GEOCO.indicators = {
           "short": "ABC News (ABS)",
           "name": "ABC News, « Unemployment rate surges to 4.9pc in October, taking analysts by surprise » (19 novembre 2026), d’après l’ABS",
           "url": "https://www.abc.net.au/news/2026-11-19/unemployment-rate-jumps-in-october-in-australia/107399076"
+        },
+        {
+          "short": "Istat",
+          "name": "Istat, « Occupati e disoccupati, dati provvisori, settembre 2026 » (29 oct. 2026)",
+          "url": "https://www.istat.it/comunicato-stampa/occupati-e-disoccupati-dati-provvisori-settembre-2026/"
+        },
+        {
+          "short": "DANE",
+          "name": "DANE, Gran encuesta integrada de hogares (GEIH), présentation de septembre 2026 (taux national : 8,0 %)",
+          "url": "https://www.dane.gov.co/files/operaciones/GEIH/pres-GEIH-sep2026.pdf"
+        },
+        {
+          "short": "INEGI",
+          "name": "INEGI, Indicadores de ocupación y empleo, septembre 2026 (22 oct. 2026 : taux de chômage de 2,8 %)",
+          "url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/iooe/IOE2026_09.pdf"
+        },
+        {
+          "short": "INE Chile",
+          "name": "INE Chile, « La tasa de desocupación nacional fue 9,8% en el trimestre julio-septiembre de 2026 » (29 oct. 2026)",
+          "url": "https://www.ine.gob.cl/sala-de-prensa/prensa/general/noticia/2026/10/29/la-tasa-de-desocupaci%C3%B3n-nacional-fue-9-8-en-el-trimestre-julio-septiembre-de-2026"
         }
       ],
       "values": {
@@ -1769,9 +1849,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "152": {
-          "v": 9.6,
-          "d": "juin-août 2026",
-          "s": 9
+          "v": 9.8,
+          "d": "juil.-sept. 2026",
+          "s": 39
         },
         "156": {
           "v": 5.1,
@@ -1784,9 +1864,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "170": {
-          "v": 9.4,
-          "d": "août 2026",
-          "s": 8
+          "v": 8,
+          "d": "sept. 2026",
+          "s": 37
         },
         "174": {
           "v": 3.8,
@@ -1994,9 +2074,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "380": {
-          "v": 6.2,
-          "d": "août 2026",
-          "s": 12
+          "v": 6.3,
+          "d": "sept. 2026",
+          "s": 36
         },
         "384": {
           "v": 2.3,
@@ -2124,9 +2204,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "484": {
-          "v": 3,
-          "d": "août 2026",
-          "s": 11
+          "v": 2.8,
+          "d": "sept. 2026",
+          "s": 38
         },
         "496": {
           "v": 5.5,

@@ -418,6 +418,27 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-12-02-salesforce-resultats",
+    "date": "2026-12-02",
+    "theme": "fin",
+    "region": "Amériques",
+    "place": "San Francisco, États-Unis",
+    "title": "Salesforce publie ses résultats du troisième trimestre",
+    "why": "Salesforce, numéro un mondial des logiciels de gestion de la relation client, publie le 2 décembre après la clôture de Wall Street les comptes de son troisième trimestre de l'exercice 2027 [1][2]. Ses chiffres et ses objectifs diront si les entreprises paient vraiment pour ses agents d'intelligence artificielle (Agentforce) : un test pour toutes les valeurs du logiciel en Bourse.",
+    "sources": [
+      {
+        "short": "Salesforce",
+        "name": "Salesforce, « Salesforce Announces Date of Third Quarter Fiscal 2027 Earnings Release and Webcast » (10 nov. 2026)",
+        "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Third-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx"
+      },
+      {
+        "short": "Finviz (Business Wire)",
+        "name": "Finviz, reprise du communiqué Business Wire « Salesforce Announces Date of Third Quarter Fiscal 2027 Earnings Release and Webcast » (nov. 2026)",
+        "url": "https://finviz.com/news/420648/salesforce-announces-date-of-third-quarter-fiscal-2027-earnings-release-and-webcast"
+      }
+    ]
+  },
+  {
     "id": "2026-12-04-etats-unis-emploi-novembre",
     "date": "2026-12-04",
     "theme": "eco",
@@ -899,6 +920,32 @@ window.GEOCO.agenda = [
         "short": "FocusEconomics",
         "name": "FocusEconomics, « Philippines central bank meeting 18-06-2026: BSP raises rates in June »",
         "url": "https://www.focus-economics.com/countries/philippines/news/monetary-policy/philippines-central-bank-meeting-18-06-2026-bsp-raises-rates-in-june/"
+      }
+    ]
+  },
+  {
+    "id": "2026-12-17-mexique-banxico-taux",
+    "date": "2026-12-17",
+    "theme": "eco",
+    "region": "Amériques",
+    "place": "Mexico, Mexique",
+    "title": "Mexique : dernière décision de taux de l'année de la banque centrale",
+    "why": "La Banque du Mexique (Banxico) annonce le 17 décembre sa dernière décision de l'année [1][2]. Le 5 novembre, elle a surpris les marchés en baissant son taux d'un quart de point, à 6,25 % [3] : une nouvelle baisse rendrait le crédit moins cher mais pourrait affaiblir le peso, une pause signalerait que la baisse des taux est finie pour un moment.",
+    "sources": [
+      {
+        "short": "México, ¿cómo vamos?",
+        "name": "México, ¿cómo vamos?, « Tasa de interés de referencia » (prochaine annonce de Banxico le 17 décembre 2026)",
+        "url": "https://mexicocomovamos.mx/infobites/tasa-de-interes-de-referencia/"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com México, « Minutas Banxico dividen a los analistas: ¿recorte de tasas o alza de 50pb en 2027? » (nov. 2026, réunion du 17 décembre)",
+        "url": "https://mx.investing.com/news/economy-news/minutas-banxico-dividen-a-los-analistas-recorte-de-tasas-o-alza-de-50pb-en-2027-3856923"
+      },
+      {
+        "short": "El Financiero",
+        "name": "El Financiero, « Contra todo pronóstico: Banxico recorta tasa de interés a 6.25 y adelanta larga permanencia » (6 nov. 2026)",
+        "url": "https://www.elfinanciero.com.mx/economia/2026/11/06/contra-todo-pronostico-banxico-recorta-tasa-de-interes-a-625-y-adelanta-larga-permanencia/"
       }
     ]
   },
