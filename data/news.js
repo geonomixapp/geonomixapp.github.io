@@ -17,6 +17,3616 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.news = [
   {
+    "id": "2026-11-24-ormuz-mines-petroliers-brent-plus-bas-trois-mois",
+    "date": "2026-11-24",
+    "region": "Moyen-Orient",
+    "theme": "mix",
+    "zones": [
+      "Moyen-Orient",
+      "Amérique du Nord"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "coords": [
+          56.25,
+          26.57
+        ],
+        "name": "Détroit d'Ormuz, Iran",
+        "label": "Iran"
+      },
+      {
+        "coords": [
+          -77.04,
+          38.89
+        ],
+        "name": "Washington, États-Unis",
+        "label": "États-Unis"
+      }
+    ],
+    "title": "Ormuz : l'Iran affirme que trois pétroliers escortés par les Américains ont sauté sur des mines, mais le Brent tombe à son plus bas depuis août",
+    "summary": "Les Gardiens de la révolution iraniens disent que trois pétroliers ont heurté des mines et pris feu lundi 23 novembre dans le détroit d'Ormuz. Aucune autorité maritime ne confirme. Le même jour, le Premier ministre qatari plaidait à Washington pour relancer les négociations, et le Brent restait sous 90 dollars [1][2][4][6].",
+    "points": [
+      "La marine des Gardiens de la révolution affirme que deux pétroliers ont touché des mines dans l'est du détroit et un troisième près de la côte sud, et que de fortes explosions ont déclenché des incendies à bord des trois navires [1][3].",
+      "Selon Téhéran, ces navires étaient protégés par l'aviation américaine : « La couverture aérienne de l'armée américaine n'a pas empêché les incidents », dit le communiqué, qui promet des vidéos [3]. Aucune victime, aucun nom de navire n'a été donné [3].",
+      "Aucune autorité maritime n'a confirmé l'incident [4]. Samedi, trois autres pétroliers avaient déjà été touchés, et le trafic suivi dans le détroit est tombé à zéro dimanche, selon le site National Security Journal [3][5].",
+      "Le porte-parole de la diplomatie iranienne, Esmaïl Baghaei, a promis d'utiliser « tous les moyens disponibles » contre le blocus américain des ports iraniens [2].",
+      "Lundi, le Premier ministre et ministre des Affaires étrangères du Qatar, cheikh Mohammed ben Abdelrahmane Al Thani, a rencontré le secrétaire d'État Marco Rubio, sa deuxième visite à Washington en quelques semaines. Il juge que la région ne peut pas supporter un nouveau cycle d'attaques entre les États-Unis et l'Iran [6][7].",
+      "Le blocage persiste : Téhéran exige la levée du blocus avant toute discussion sur l'ouverture d'Ormuz, Washington exige le démantèlement total de ses installations nucléaires [6].",
+      "Le Brent, pétrole de référence en Europe, valait 88,97 dollars mardi matin en Asie, après sa plus basse clôture depuis le 31 août, puis 89,49 dollars ; le pétrole américain WTI cotait 80,37 dollars [4]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : malgré des attaques presque quotidiennes contre les pétroliers, le prix du pétrole baisse, car le monde produit plus qu'il ne consomme [4].",
+      "Selon la Deutsche Bank, les stocks mondiaux de pétrole ont grimpé de 52 millions de barils en octobre, soit un surplus d'environ 1,7 million de barils par jour ; l'oléoduc libyen de Sharara a aussi rouvert [4]. Ce surplus amortit le choc d'Ormuz.",
+      "Le détroit continue pourtant de se vider : selon la société de suivi Kpler, il n'y passait plus qu'environ 9,5 millions de barils par jour sur les dix jours jusqu'au 19 novembre, contre 12,2 millions en moyenne en octobre [4]. Le flou règne aussi sur les navires : Bloomberg a repéré un pétrolier, le Khat Shekan, qui semblait franchir le blocus mais n'avait aucun historique vérifiable [8].",
+      "Le Qatar, lui-même visé par l'Iran pendant la guerre et dont l'économie souffre du blocage d'Ormuz, est le principal médiateur [7]. Mais l'Iran dit que les contacts « ne sont pas encore des négociations formelles » [6]."
+    ],
+    "forMe": "Un Brent sous 90 dollars, c'est une bonne nouvelle pour ton plein d'essence et ta facture de chauffage, si la baisse dure. Mais chaque nouvelle explosion dans le détroit peut faire repartir les prix très vite : le marché reste nerveux.",
+    "figures": [
+      {
+        "value": "3 + 3",
+        "label": "pétroliers touchés samedi puis lundi, selon l'Iran et les médias",
+        "src": 3
+      },
+      {
+        "value": "88,97 $",
+        "label": "le baril de Brent mardi matin, au plus bas depuis fin août",
+        "src": 4
+      },
+      {
+        "value": "9,5 contre 12,2",
+        "label": "millions de barils par jour passant par Ormuz, mi-novembre contre octobre",
+        "src": 4
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "routes-maritimes",
+      "sanctions"
+    ],
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "Brent (pétrole)",
+          "ticker": "BZ=F",
+          "why": "Proche de son plus bas depuis trois mois malgré les mines, car l'offre mondiale dépasse la demande [4]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Iran International",
+        "name": "Iran International, « IRGC Navy says three tankers hit mines, catch fire in Strait of Hormuz - state media » (23 novembre 2026)",
+        "url": "https://www.iranintl.com/en/202611232940"
+      },
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Iran vows 'every means' to counter US blockade of Hormuz after Trump threat » (23 novembre 2026)",
+        "url": "https://www.euronews.com/2026/11/23/iran-vows-every-means-to-counter-us-blockade-of-hormuz-after-trump-threat"
+      },
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « Iran war live: Iran says three ships catch fire after hitting Hormuz mines » (24 novembre 2026)",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines"
+      },
+      {
+        "short": "Reuters (Investing.com)",
+        "name": "Reuters via Investing.com, « Oil holds near three-month low as rising supply offsets Hormuz threat » (24 novembre 2026)",
+        "url": "https://www.investing.com/news/commodities-news/oil-holds-near-threemonth-low-as-rising-supply-offsets-hormuz-threat-5046916"
+      },
+      {
+        "short": "National Security Journal",
+        "name": "National Security Journal, « Traffic Through the Strait of Hormuz Nearly Stopped This Weekend After 3 Tankers Were Attacked » (novembre 2026)",
+        "url": "https://nationalsecurityjournal.org/the-us-military-has-a-new-problem-traffic-through-the-strait-of-hormuz-nearly-stopped-this-weekend-after-3-tankers-were-attacked/"
+      },
+      {
+        "short": "Washington Times",
+        "name": "The Washington Times, « Rubio meets with Qatari prime minister amid diplomatic slowdown in Iran » (23 novembre 2026)",
+        "url": "https://washingtontimes.com/news/2026/nov/23/marco-rubio-meets-qatari-prime-minister-amid-diplomatic-slowdown-iran"
+      },
+      {
+        "short": "Middle East Eye",
+        "name": "Middle East Eye, « Qatar needs US and Iran to resume talks to end war, PM says » (novembre 2026)",
+        "url": "https://middleeasteye.net/news/qatar-needs-us-iran-resume-talks-end-war-pm-says"
+      },
+      {
+        "short": "Bloomberg",
+        "name": "Bloomberg, « Fake Iran Tanker Highlights Uncertainty Around Hormuz Traffic » (23 novembre 2026)",
+        "url": "https://bloomberg.com/news/articles/2026-11-23/fake-iran-tanker-highlights-uncertainty-around-hormuz-traffic"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-wall-street-rebond-fed-williams-hausse-decembre",
+    "date": "2026-11-24",
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique du Nord"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "coords": [
+          -74.01,
+          40.71
+        ],
+        "name": "New York, États-Unis",
+        "label": "États-Unis"
+      }
+    ],
+    "title": "Wall Street signe sa meilleure séance depuis avril 2025, mais le patron de la Fed de New York prévient : l'inflation reste trop haute, une hausse des taux en décembre est jugée quasi certaine",
+    "summary": "Lundi 23 novembre, le S&P 500 a bondi de 4,73 % et le Nasdaq de 6,51 %, leur meilleure journée depuis avril 2025. Le soir même, John Williams, président de la Fed de New York, a jugé l'inflation encore trop élevée. Les marchés voient à 98 % une hausse des taux le 9 décembre [1][2][3][5].",
+    "points": [
+      "Clôture définitive de lundi : le S&P 500 a fini à 7 237,17 points (+4,73 %), le Nasdaq Composite à 24 089,56 points (+6,51 %) et le Dow Jones à 49 595,31 points (+3,01 %) [1]. Pour le Nasdaq comme pour le S&P 500, c'est la meilleure séance depuis le 9 avril 2025 [1][2].",
+      "Après sept séances de baisse d'affilée, ce rebond a fait sortir le S&P 500 de la zone de « correction », c'est-à-dire d'une chute de plus de 10 % depuis son sommet [2].",
+      "Le même jour, à New York, John Williams, président de la Fed de New York et membre permanent du comité qui fixe les taux, a estimé que l'inflation persistante pousse la Fed vers une politique plus stricte, le rythme des hausses dépendant des prochains chiffres [3][4].",
+      "Il prévoit une inflation proche de 3,5 % fin 2026, juste au-dessus de 2 % en 2027 et revenue à l'objectif de 2 % en 2028, avec des risques « orientés à la hausse » [3][7]. Interrogé sur une hausse d'un demi-point, il a répondu : « Je ne pense pas que la situation appelle une action spectaculaire » [3].",
+      "Le taux directeur de la Fed est aujourd'hui compris entre 3,75 % et 4,00 % ; les marchés attendent un quart de point de plus le mois prochain, puis d'autres hausses en 2027 [3].",
+      "Selon l'outil FedWatch du CME, la probabilité d'une hausse d'un quart de point en décembre est passée d'environ 88 % vendredi à environ 98 % lundi [5]. Le taux à 2 ans de l'État américain est monté à environ 4,69 %, celui à 10 ans à environ 4,93 % [5]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : le rebond spectaculaire de lundi ne change pas le problème de fond. Il vient surtout du retour de Jensen Huang chez Nvidia, dont l'action a pris 31 % [6], pas d'une bonne nouvelle sur les prix. La Fed, elle, reste concentrée sur une inflation trop forte [3][5].",
+      "Williams cite plusieurs causes : les droits de douane, les perturbations des chaînes d'approvisionnement, les prix de l'énergie liés aux conflits au Moyen-Orient et la demande liée à l'intelligence artificielle. Il estime toutefois que l'effet des droits de douane sur les prix s'est en grande partie dissipé [3].",
+      "Prochaine étape : l'indice des prix PCE, la mesure d'inflation préférée de la Fed, attendu mercredi [6]. Puis la réunion du comité de politique monétaire les 8 et 9 décembre [3]."
+    ],
+    "forMe": "Si tu as des actions ou un ETF monde dans ton PEA ou ton assurance-vie, tu as sans doute récupéré lundi une partie des pertes de la semaine dernière. Mais des taux américains plus hauts renforcent souvent le dollar et peuvent faire remonter le coût du crédit ailleurs, y compris en Europe. Ne prends pas une séance record pour la fin des secousses.",
+    "figures": [
+      {
+        "value": "+6,51 %",
+        "label": "Nasdaq lundi 23 novembre, meilleure séance depuis avril 2025",
+        "src": 1
+      },
+      {
+        "value": "98 % contre 88 %",
+        "label": "probabilité d'une hausse des taux en décembre, lundi contre vendredi",
+        "src": 5
+      },
+      {
+        "value": "3,5 %",
+        "label": "inflation américaine attendue fin 2026 par John Williams",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "inflation-taux",
+      "dollar"
+    ],
+    "next": [
+      {
+        "when": "25 novembre",
+        "what": "Publication de l'indice des prix PCE, la mesure d'inflation suivie de près par la Fed [6]."
+      },
+      {
+        "when": "8-9 décembre",
+        "what": "Réunion du comité de politique monétaire de la Fed, une hausse d'un quart de point est attendue [3][5]."
+      }
+    ],
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "Nvidia",
+          "ticker": "NVDA",
+          "move": "+31 %",
+          "why": "L'action a fini en hausse de 31 % lundi après le retour de Jensen Huang à sa tête, moteur principal du rebond de Wall Street [6]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "AP (Yahoo)",
+        "name": "Yahoo Finance, « How major US stock indexes fared Monday 11/23/2026 » (23 novembre 2026)",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-213053319.html"
+      },
+      {
+        "short": "Motley Fool",
+        "name": "The Motley Fool, « Stock Market Today, Nov. 23: Markets Rebound From Correction on AI Relief Rally » (23 novembre 2026)",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-markets-rebound-from-correction-on-ai-relief-rally/"
+      },
+      {
+        "short": "Reuters (Yahoo)",
+        "name": "Reuters via Yahoo Finance, « Fed's Williams: Fed must be forward-looking to bring inflation down » (23 novembre 2026)",
+        "url": "https://finance.yahoo.com/economy/policy/article/feds-williams-fed-must-be-forward-looking-to-bring-inflation-down-212531171.html"
+      },
+      {
+        "short": "Bloomberg",
+        "name": "Bloomberg, « New York Fed Chief Williams Calls for Sustained Efforts on Inflation » (23 novembre 2026)",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-23/fed-s-williams-says-officials-must-act-over-time-on-inflation"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « 2-year Treasury yield jumps as stocks rebound, investors await New York Fed President Williams speech » (23 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « U.S. stock futures steady after Nvidia-led Wall Street rally » (24 novembre 2026)",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-steady-nvidia-004836470.html"
+      },
+      {
+        "short": "Fed de New York",
+        "name": "Federal Reserve Bank of New York, « Key Takeaways from President Williams's Speech on the Economic Outlook and Monetary Policy » (23 novembre 2026)",
+        "url": "https://tellerwindow.newyorkfed.org/2026/11/23/key-takeaways-from-president-williamss-speech-on-the-economic-outlook-and-monetary-policy-28/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-belgique-50000-manifestants-de-wever-sans-budget",
+    "date": "2026-11-24",
+    "region": "Europe",
+    "theme": "mix",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          4.35,
+          50.85
+        ],
+        "name": "Bruxelles, Belgique",
+        "label": "Belgique"
+      }
+    ],
+    "title": "Belgique : 50 000 manifestants, gaz lacrymogène à Bruxelles-Midi, et toujours pas de budget : De Wever prévient que sa coalition peut tomber au 1er janvier",
+    "summary": "La journée de grève nationale du 23 novembre a réuni environ 50 000 personnes à Bruxelles selon la police, 70 000 selon les syndicats. Des heurts ont éclaté en fin de cortège. Le même jour, le gouvernement de Bart De Wever s'est séparé sans accord sur les 10 milliards d'euros d'économies [1][2][3].",
+    "points": [
+      "La police a compté environ 50 000 manifestants, les syndicats 70 000 [1]. Le cortège, organisé par les trois grands syndicats, protestait contre le plan d'économies du gouvernement, alors que le coût de la vie augmente [1][2].",
+      "Dans l'après-midi, près de la gare de Bruxelles-Midi, la police a utilisé gaz lacrymogène et canons à eau contre plusieurs centaines de manifestants ; une station de métro a été fermée [4]. Une voiture a été incendiée et des journalistes de l'AFP ont vu au moins une interpellation [1].",
+      "La DH fait état de plusieurs arrestations et d'un photographe de presse frappé au visage par un policier [3].",
+      "Aucun avion n'a décollé ni atterri à Bruxelles-Zaventem et Charleroi entre 7 h et 21 h, faute de contrôleurs aériens [1].",
+      "Bart De Wever s'était donné jusqu'au 23 novembre pour présenter un budget au roi [5]. Le gouvernement fédéral s'est séparé sans accord [3].",
+      "Le Premier ministre a averti lundi que sa coalition risquait de s'effondrer au 1er janvier faute d'accord sur 10 milliards d'euros d'économies [1]. Il avait déjà remis sa démission au roi Philippe le 2 novembre, qui l'avait refusée [1]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : la rue et la coalition mettent la pression sur Bart De Wever en même temps, et la Belgique risque d'entrer en 2027 sans budget ni gouvernement en état de marche [1][3].",
+      "Le pays doit réduire un déficit public trop élevé au regard des règles européennes. Le gouvernement veut économiser au moins 10 milliards d'euros dans les années à venir, notamment sur les retraites [2][6].",
+      "La coalition, surnommée « Arizona », réunit cinq partis flamands et francophones aux priorités différentes : les uns veulent surtout couper dans les dépenses, les autres refusent de toucher davantage aux plus modestes. Le chef du gouvernement avait déjà prévenu que l'équipe pouvait tomber si les négociations échouaient [2].",
+      "La mobilisation dure depuis des mois : c'est la dernière d'une série de journées de grève et de manifestations nationales [6][1]."
+    ],
+    "forMe": "Si tu dois aller en Belgique dans les prochaines semaines, garde un œil sur les préavis de grève : la journée du 23 a fermé le ciel belge pendant 14 heures. Une crise politique à Bruxelles, siège des institutions européennes, peut aussi retarder des dossiers belges qui concernent les frontaliers français.",
+    "figures": [
+      {
+        "value": "50 000 contre 70 000",
+        "label": "manifestants selon la police et selon les syndicats",
+        "src": 1
+      },
+      {
+        "value": "10 milliards €",
+        "label": "d'économies sur lesquelles la coalition ne s'accorde pas",
+        "src": 1
+      },
+      {
+        "value": "1er janvier",
+        "label": "date à laquelle De Wever dit que sa coalition peut tomber",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "next": [
+      {
+        "when": "1er janvier 2027",
+        "what": "Échéance fixée par Bart De Wever : sans accord budgétaire, sa coalition risque de tomber [1]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "France 24 (AFP)",
+        "name": "France 24 (AFP), « New Belgium protests as embattled govt sets budget deadline » (23 novembre 2026)",
+        "url": "https://www.france24.com/en/live-news/20261123-new-belgium-protests-as-embattled-govt-sets-budget-deadline"
+      },
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Belgium: Workers march against spending cuts as living costs rise » (23 novembre 2026)",
+        "url": "https://www.euronews.com/video/2026/11/23/belgium-workers-march-against-spending-cuts-as-living-costs-rise"
+      },
+      {
+        "short": "La DH",
+        "name": "La DH, « Manifestation à Bruxelles : plusieurs arrestations, un photographe de presse frappé au visage par un policier » (23 novembre 2026)",
+        "url": "https://www.dhnet.be/actu/belgique/2026/11/23/en-direct-manifestation-nationale-le-reseau-tec-perturbe-seulement-deux-lignes-de-metro-desservies-a-bruxelles-le-point-sur-la-situation-QIVWPRCF35BWJD2XKUVM24OAAM/"
+      },
+      {
+        "short": "Brussels Times",
+        "name": "The Brussels Times, « Metro station closed after police and protestors clash near Brussels Midi station » (23 novembre 2026)",
+        "url": "https://www.brusselstimes.com/2357394/metro-station-closed-after-police-and-protestors-clash-near-brussels-midi-station"
+      },
+      {
+        "short": "L'Avenir",
+        "name": "L'Avenir, « Crise politique : Bart De Wever va-t-il présenter un budget au Roi le 23 novembre, jour de manifestation nationale ? » (16 novembre 2026)",
+        "url": "https://www.lavenir.net/actu/belgique/politique/2026/11/16/un-accord-pour-le-jour-de-manifestation-L2ZM3MLEFVHQLB5FBJ656F3BOI/"
+      },
+      {
+        "short": "Euronews",
+        "name": "Euronews (DE), « Straßenschlachten in Brüssel : Proteste gegen Sparpläne der Regierung » (10 octobre 2026)",
+        "url": "https://de.euronews.com/2026/10/10/strassenschlachten-brussel-proteste-sparplane-regierung"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-senat-budget-2027-indemnites-ald-imposees",
+    "date": "2026-11-24",
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          2.337,
+          48.848
+        ],
+        "name": "Paris, France",
+        "label": "France"
+      }
+    ],
+    "title": "Budget 2027 : le Sénat vote l'impôt sur la totalité des indemnités des malades en affection de longue durée, « dégueulasse » pour la gauche, et supprime la réduction d'impôt pour frais de scolarité",
+    "summary": "Lundi 23 novembre, les sénateurs ont décidé par 194 voix contre 146 de soumettre entièrement à l'impôt sur le revenu les indemnités journalières versées aux malades en affection de longue durée (ALD). Le gouvernement ne proposait d'en taxer que la moitié. Gain attendu : 900 millions d'euros en 2027 [1][2][3].",
+    "points": [
+      "L'amendement de la rapporteure générale du budget, Christine Lavarde (LR), a été adopté par 194 voix contre 146 ; le gouvernement s'en est remis à la « sagesse » des sénateurs [1][2].",
+      "Aujourd'hui, ces indemnités, versées pendant un arrêt maladie lié à une maladie longue comme un cancer ou un diabète, sont exonérées d'impôt [3].",
+      "Selon les chiffrages de l'administration fiscale, la taxation complète rapporterait 900 millions d'euros en 2027, contre 450 millions pour la version du gouvernement, limitée à 50 % des indemnités [2][3].",
+      "La mesure avait été supprimée par les députés, avant que le texte n'arrive au Sénat le 20 novembre [3]. Les sénateurs ont aussi réduit le plafond d'exonération d'impôt des salaires des apprentis [3].",
+      "Ils ont voté la suppression de la réduction d'impôt pour frais de scolarité [4]. Elle vaut 61 euros par enfant au collège, 153 euros au lycée et 183 euros par étudiant [5], et profite à plus de 2,5 millions de foyers [6].",
+      "Le Sénat votera sur la partie « recettes » du budget le 28 novembre, puis sur l'ensemble le 9 décembre ; un accord entre députés et sénateurs doit être trouvé au plus tard le 17 décembre [7]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : la majorité de droite du Sénat va plus loin que le gouvernement pour trouver des recettes, quitte à viser des malades, ce qui unit contre elle la gauche et le Rassemblement national [2][3].",
+      "Pour Christine Lavarde, l'exonération n'est « pas justifiée au regard de l'objectif d'harmonisation de la fiscalité des revenus de remplacement » : les autres indemnités maladie sont déjà imposables [3]. Le président du groupe socialiste, Patrick Kanner, a jugé l'amendement « dégueulasse » ; Edwige Diaz (RN-UDR) l'a dit « inacceptable » [2][3].",
+      "La droite sénatoriale veut au total environ 6 milliards d'euros d'efforts supplémentaires par rapport au projet du gouvernement. Elle vise aussi la fin de l'abattement de 10 % sur les pensions des retraités, qui rapporterait 4,7 milliards d'euros en 2027 [8].",
+      "Rien n'est définitif : il s'agit d'un vote en première lecture. Les députés, qui ont rejeté le texte, et les sénateurs devront ensuite se mettre d'accord, sous la menace d'une censure du gouvernement [7]."
+    ],
+    "forMe": "Si tu es en arrêt pour une maladie longue, tes indemnités journalières pourraient devenir imposables, en totalité ou à moitié selon la version finale. Si tu as des enfants au collège, au lycée ou à l'université, tu pourrais perdre de 61 à 183 euros de réduction d'impôt par enfant. Rien n'est acté avant la fin du débat, mi-décembre.",
+    "figures": [
+      {
+        "value": "194 contre 146",
+        "label": "vote des sénateurs pour imposer 100 % des indemnités ALD",
+        "src": 1
+      },
+      {
+        "value": "900 M€",
+        "label": "de recettes attendues en 2027, contre 450 M€ dans la version du gouvernement",
+        "src": 3
+      },
+      {
+        "value": "61 € / 153 € / 183 €",
+        "label": "réduction d'impôt supprimée par collégien, lycéen, étudiant",
+        "src": 5
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "next": [
+      {
+        "when": "28 novembre",
+        "what": "Vote du Sénat sur la partie « recettes » du budget 2027 [7]."
+      },
+      {
+        "when": "9 décembre",
+        "what": "Vote du Sénat sur l'ensemble du budget 2027 [7]."
+      },
+      {
+        "when": "17 décembre",
+        "what": "Date limite pour un accord entre députés et sénateurs [7]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "Public Sénat",
+        "name": "Public Sénat, « Budget 2027 : le Sénat vote la fiscalisation intégrale des indemnités pour affections de longue durée » (23 novembre 2026)",
+        "url": "https://www.publicsenat.fr/actualites/politique/budget-2027-le-senat-vote-la-fiscalisation-integrale-des-indemnites-pour-affections-de-longue-duree"
+      },
+      {
+        "short": "Yahoo Actualités",
+        "name": "Yahoo Actualités, « Budget 2027 : Le Sénat accentue la fiscalité des indemnités perçues au titre des affections de longue durée » (23 novembre 2026)",
+        "url": "https://fr.news.yahoo.com/sport/budget-2027-s%C3%A9nat-accentue-fiscalit%C3%A9-131641698.html"
+      },
+      {
+        "short": "Legifiscal",
+        "name": "Legifiscal, « PLF 2027 : le Sénat fiscalise les IJ d'ALD et réduit le plafond d'exonération des apprentis » (novembre 2026)",
+        "url": "https://www.legifiscal.fr/actualites-fiscales/4744-plf-2027-senat-fiscalise-ij-ald-reduit-plafond-exoneration-apprentis.html"
+      },
+      {
+        "short": "Public Sénat",
+        "name": "Public Sénat, « Budget 2027 : le Sénat supprime la réduction d'impôt sur le revenu pour frais de scolarité » (novembre 2026)",
+        "url": "https://www.publicsenat.fr/actualites/education/budget-2027-le-senat-supprime-la-reduction-dimpot-sur-le-revenu-pour-frais-de-scolarite"
+      },
+      {
+        "short": "Sénat",
+        "name": "Sénat, « Projet de loi de finances pour 2027, liasse des amendements de la rapporteure générale » (novembre 2026)",
+        "url": "https://www.senat.fr/fileadmin/cru-1794475262/Presse/Documents_pdf/PLF2027_Liasse_amdts_RG.pdf"
+      },
+      {
+        "short": "Journal du Net",
+        "name": "Journal du Net, « 3 millions de parents d'élèves vont perdre 150 euros : une réforme qui fait mal » (2026)",
+        "url": "https://www.journaldunet.com/patrimoine/finances-personnelles/1545795-hf1-frais-parents-150-euros"
+      },
+      {
+        "short": "NosParlementaires",
+        "name": "NosParlementaires, « Vote du budget 2027 : toutes les dates jusqu'au 17 décembre » (novembre 2026)",
+        "url": "https://nosparlementaires.fr/actualites/budget-2027-calendrier-assemblee-cinq-semaines"
+      },
+      {
+        "short": "Public Sénat",
+        "name": "Public Sénat, « Fin de l'abattement pour les retraités, non-remplacement d'un fonctionnaire sur deux : le Sénat veut renforcer l'effort budgétaire de l'ordre de 6 milliards » (novembre 2026)",
+        "url": "https://www.publicsenat.fr/actualites/parlementaire/fin-de-labattement-pour-les-retraites-non-remplacement-dun-fonctionnaire-sur-deux-le-senat-veut-renforcer-leffort-budgetaire-de-lordre-de-6"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-choose-france-42-milliards-pmi-recul",
+    "date": "2026-11-24",
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          2.35,
+          48.86
+        ],
+        "name": "Paris, France",
+        "label": "France"
+      }
+    ],
+    "title": "Choose France : 42,5 milliards d'euros d'investissements affichés par les entreprises françaises, dont seulement 14,9 milliards de vraiment neufs, le jour où l'activité du privé recule encore",
+    "summary": "Lundi 23 novembre, l'Élysée a réuni plus de 200 entreprises pour l'édition « France » de Choose France : 273 projets pour 42,5 milliards d'euros, menés par ADP (9,5 milliards) et RTE (8 milliards). Mais seuls 14,9 milliards sont des projets nouveaux, et le même jour l'indice PMI montre une économie privée en contraction [1][2][3][5].",
+    "points": [
+      "Le sommet, deuxième édition consacrée aux entreprises françaises et non aux investisseurs étrangers, a présenté 273 projets, dont 81 inédits, pour 42,5 milliards d'euros au total [1][4].",
+      "Sur cette somme, 14,9 milliards d'euros correspondent à des projets annoncés pour la première fois, soit environ 35 % ; le reste avait déjà été rendu public [2][3].",
+      "Le plus gros chantier est celui du groupe ADP, qui prévoit 9,5 milliards d'euros pour moderniser les aéroports de Paris-Charles-de-Gaulle et Paris-Orly. RTE, qui gère le réseau de lignes à haute tension, annonce 8 milliards [4][1].",
+      "La transition écologique et énergétique arrive en tête avec 67 projets [3]. L'Élysée n'a publié aucun chiffre sur les emplois créés [6].",
+      "L'édition 2025 avait affiché 151 projets pour 30,4 milliards d'euros [3]. Le sommet mondial de Versailles, en juin 2026, avait revendiqué 93 milliards d'euros d'investissements étrangers [7].",
+      "Le même lundi, l'indice PMI composite flash de novembre, une enquête mensuelle auprès des directeurs d'achat, est tombé à 46,2 contre 46,6 en octobre ; sous 50, l'activité recule [5].",
+      "Dans l'industrie, l'indice chute à 47,9 contre 49,5 en octobre [8]. HCOB, la banque qui publie l'enquête, évoque une demande intérieure faible et un risque accru de récession technique au quatrième trimestre [9]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : le gouvernement veut montrer que les entreprises françaises continuent d'investir malgré l'incertitude politique, mais les deux tiers des montants affichés étaient déjà connus [2][3].",
+      "Les deux plus gros projets viennent d'entreprises contrôlées par l'État ou régulées : ADP pour les aéroports, RTE pour le réseau électrique [4]. Ces investissements suivent souvent des plans pluriannuels décidés à l'avance, ce qui relativise l'effet « annonce ».",
+      "Le contraste avec les chiffres conjoncturels est net. Selon Reuters, l'activité privée française recule pendant que celle de l'Allemagne atteint un plus haut depuis 56 mois [5]. Les services, à 46,6, font moins bien que les 47,5 attendus, et la contraction est la plus rapide depuis mai [9].",
+      "Une récession technique, c'est deux trimestres de suite de baisse du PIB. Le risque pèse sur les recettes fiscales, au moment même où le Parlement examine un budget 2027 bâti sur une croissance modeste."
+    ],
+    "forMe": "Si tu voyages souvent depuis Roissy ou Orly, les 9,5 milliards d'ADP doivent se traduire par des travaux dans les terminaux dans les années à venir. Le recul de l'activité, lui, peut freiner les embauches et les hausses de salaire dans les entreprises qui dépendent de la demande en France.",
+    "figures": [
+      {
+        "value": "42,5 Md€",
+        "label": "d'investissements affichés, dont 14,9 Md€ de projets nouveaux",
+        "src": 2
+      },
+      {
+        "value": "46,2",
+        "label": "indice PMI composite France en novembre (sous 50 = recul)",
+        "src": 5
+      },
+      {
+        "value": "9,5 Md€",
+        "label": "pour moderniser Roissy et Orly (groupe ADP), plus gros projet",
+        "src": 4
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "Aéroports de Paris (ADP)",
+          "ticker": "ADP",
+          "why": "Le groupe porte le plus gros projet présenté : 9,5 milliards d'euros pour Roissy et Orly [4]."
+        }
+      ]
+    },
+    "next": [],
+    "sources": [
+      {
+        "short": "France 24",
+        "name": "France 24, « Choose France : les entreprises françaises prêtes à investir 42,5 milliards d'euros » (22 novembre 2026)",
+        "url": "https://www.france24.com/fr/france/20261122-choose-france-entreprises-fran%C3%A7aises-pr%C3%AAtent-investir-42-5-milliards-euros-emmanuel-macron-%C3%A9conomie-investissements-projet"
+      },
+      {
+        "short": "Xinhua",
+        "name": "Xinhua (Le Quotidien du Peuple en ligne), « France : 14,9 milliards d'euros de nouveaux investissements annoncés lors d'une édition nationale de Choose France » (24 novembre 2026)",
+        "url": "https://french.people.com.cn/International/n3/2026/1124/c31356-20522340.html"
+      },
+      {
+        "short": "Economie Matin",
+        "name": "Economie Matin, « Choose France 2026 : 42,5 milliards d'euros annoncés, dont 14,9 milliards de nouveaux projets » (23 novembre 2026)",
+        "url": "https://www.economiematin.fr/choose-france-milliards-investissements-reels"
+      },
+      {
+        "short": "PolitiqueMatin",
+        "name": "PolitiqueMatin, « Choose France 2026 : 273 projets pour 42,5 milliards d'euros » (23 novembre 2026)",
+        "url": "https://www.politiquematin.fr/macron-choose-france-investissements"
+      },
+      {
+        "short": "Reuters (mlq.ai)",
+        "name": "Reuters via mlq.ai, « Flash PMIs: Germany's growth hits a 56-month high as France slumps and the euro zone holds steady » (23 novembre 2026)",
+        "url": "https://mlq.ai/news/flash-pmis-germanys-growth-hits-a-56-month-high-as-france-slumps-and-the-euro-zone-holds-steady/"
+      },
+      {
+        "short": "Socialmag",
+        "name": "Socialmag, « Choose France 2026 : 42,5 milliards d'euros annoncés, sans chiffre sur les emplois » (23 novembre 2026)",
+        "url": "https://www.socialmag.news/23/11/2026/choose-france-emploi-territoires/"
+      },
+      {
+        "short": "Bpifrance",
+        "name": "Bpifrance, « Choose France 2026 : 93 milliards d'euros d'investissements et 15 600 emplois annoncés » (juin 2026)",
+        "url": "https://bigmedia.bpifrance.fr/nos-actualites/choose-france-2026-93-milliards-deuros-dinvestissements-et-15-600-emplois-annonces"
+      },
+      {
+        "short": "FX.co",
+        "name": "FX.co, « French Factory Activity Slips Back Into Contraction in November, HCOB PMI Falls to 47.9 » (23 novembre 2026)",
+        "url": "https://www.fx.co/en/forex-news/3302011"
+      },
+      {
+        "short": "investingLive",
+        "name": "investingLive, « France November flash services PMI 46.6 vs 47.5 expected » (23 novembre 2026)",
+        "url": "https://investinglive.com/news/france-november-flash-services-pmi-46-6-vs-47-5-expected/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-commission-europeenne-cyberattaque-chine",
+    "date": "2026-11-24",
+    "region": "Europe",
+    "theme": "geo",
+    "zones": [
+      "Europe",
+      "Asie"
+    ],
+    "geo": [
+      {
+        "coords": [
+          4.38,
+          50.84
+        ],
+        "name": "Bruxelles, Belgique",
+        "label": "Union européenne"
+      },
+      {
+        "coords": [
+          116.4,
+          39.9
+        ],
+        "name": "Pékin, Chine",
+        "label": "Chine"
+      }
+    ],
+    "title": "Cyberattaque : depuis un mois, des pirates soupçonnés d'être soutenus par la Chine circulent dans les réseaux de la Commission européenne, qui n'arrive pas à les déloger",
+    "summary": "La Commission européenne soupçonne un groupe de pirates informatiques soutenu par la Chine d'être derrière une intrusion dans ses systèmes, détectée le 22 octobre et toujours pas maîtrisée, révèle Euronews. Les noms et adresses e-mail des utilisateurs de l'EU Academy ont été exposés [1][2][3].",
+    "points": [
+      "Le service informatique de la Commission a repéré un acteur malveillant dans ses réseaux internes le 22 octobre ; plus d'un mois après, l'attaque n'est toujours pas totalement contenue [2][3].",
+      "En interne, le groupe porte le nom de code « Panda », selon les informations publiées [2].",
+      "Les soupçons reposent sur la sophistication de l'attaque et sur l'usage d'ARTEX, un outil de cybersécurité développé en Chine qui utilise l'intelligence artificielle pour repérer les failles exploitables [2][4].",
+      "La Commission a confirmé que les noms et adresses e-mail des utilisateurs de l'EU Academy, sa plateforme de formation en ligne, ont été exposés. Le vol de données personnelles du personnel n'est pas confirmé [2].",
+      "Par précaution, d'autres applications ont été temporairement désactivées, et les utilisateurs sont invités à se méfier des e-mails piégés (hameçonnage) [2].",
+      "Ce serait le troisième incident lié à la Chine visant la Commission cette année [2]. Bruxelles refuse pour l'instant d'attribuer officiellement l'attaque, l'enquête interne étant en cours [2][1]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : l'institution qui négocie le commerce, les sanctions et les règles numériques des 27 pays de l'UE est espionnée depuis un mois sans pouvoir chasser l'intrus [1][3].",
+      "Selon les évaluations actuelles, les pirates cherchaient surtout à mesurer jusqu'où ils pouvaient pénétrer dans le réseau, plutôt qu'à viser des personnes ou des systèmes précis [2]. C'est typique de l'espionnage d'État : s'installer discrètement pour pouvoir revenir plus tard.",
+      "Ces informations reposent sur des sources anonymes : la Commission n'accuse officiellement personne. Aucune réaction de Pékin n'avait été publiée au moment de la rédaction [2][4].",
+      "L'affaire tombe dans une période de fortes tensions technologiques entre l'Europe, la Chine et les États-Unis, où les infrastructures numériques sont devenues un terrain d'affrontement."
+    ],
+    "forMe": "Si tu as un compte sur l'EU Academy, ton nom et ton adresse e-mail ont pu être exposés : méfie-toi des e-mails qui semblent venir de l'UE et te demandent de cliquer sur un lien ou de donner un mot de passe. Plus largement, tu peux activer la double authentification sur tes comptes importants.",
+    "figures": [
+      {
+        "value": "22 octobre",
+        "label": "date de détection de l'intrusion, toujours pas contenue un mois après",
+        "src": 2
+      },
+      {
+        "value": "3e",
+        "label": "incident lié à la Chine visant la Commission en 2026",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Euronews (Yahoo)",
+        "name": "Euronews via Yahoo News, « Exclusive: China-backed hackers suspected behind ongoing EU Commission cyberattack » (23 novembre 2026)",
+        "url": "https://www.yahoo.com/news/world/articles/exclusive-china-backed-hackers-suspected-123921669.html"
+      },
+      {
+        "short": "Dataconomy",
+        "name": "Dataconomy, « China-backed Hackers Suspected In Ongoing EU Commission Cyberattack » (23 novembre 2026)",
+        "url": "https://dataconomy.com/2026/11/23/china-backed-hackers-suspected-in-ongoing-eu-commission/"
+      },
+      {
+        "short": "Newsquawk",
+        "name": "Newsquawk, « European Commission suspects China-backed hackers are behind an ongoing cyberattack on its IT systems that began in October and remains uncontained, Euronews reports » (23 novembre 2026)",
+        "url": "https://www.newsquawk.com/headlines/european-commission-suspects-china-backed-hackers-are-behind-an-ongoing-cyberattack-on-its-it-systems-that-began-in-october-and-remains-uncontained-euronews-reports"
+      },
+      {
+        "short": "The News",
+        "name": "The News International, « China-linked hackers suspected in major EU Commission cyberattack: Report » (23 novembre 2026)",
+        "url": "https://www.thenews.com.pk/latest/1424775-china-linked-hackers-suspected-in-major-eu-commission-cyberattack-report"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-chine-boeing-aucune-commande-ferme-250-avions",
+    "date": "2026-11-24",
+    "region": "Asie",
+    "theme": "eco",
+    "zones": [
+      "Asie",
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "coords": [
+          116.4,
+          39.9
+        ],
+        "name": "Pékin, Chine",
+        "label": "Chine"
+      },
+      {
+        "coords": [
+          -77.04,
+          38.89
+        ],
+        "name": "Washington, États-Unis",
+        "label": "États-Unis"
+      }
+    ],
+    "title": "Boeing : Trump annonce 250 avions de plus pour la Chine, mais les 200 promis en mai ne sont toujours pas commandés, Pékin garde ses avions comme monnaie d'échange",
+    "summary": "Donald Trump a affirmé lundi 23 novembre qu'il s'attendait à ce que la Chine achète 250 Boeing supplémentaires. Pourtant, l'engagement chinois de 200 avions pris en mai n'a toujours pas été transformé en commandes fermes, et le sommet de Shenzhen n'a rien débloqué. Selon des analystes, Pékin s'en sert comme levier face aux restrictions américaines sur les puces [1][2][4].",
+    "points": [
+      "Donald Trump a déclaré s'attendre à ce que la Chine achète 250 avions Boeing de plus [1]. Boeing n'a pas commenté et la Chine n'a évoqué aucun projet d'achat supplémentaire [3].",
+      "En mai, lors de la visite de Donald Trump à Pékin, la Chine s'était engagée sur 200 avions. Boeing parle d'un « engagement initial », pas d'une commande : ces avions ne figurent pas dans son carnet de commandes officiel [3][5].",
+      "Le patron de Boeing, Kelly Ortberg, explique que Pékin répartit les avions entre ses compagnies aériennes, avec lesquelles Boeing négocie ensuite une à une. Il a évoqué environ 140 avions « en bonne voie » et des commandes pour 10 autres en cours de rédaction [3][5].",
+      "Dès octobre, Kelly Ortberg avait prévenu que le chiffre de 250 n'était pas une commande ferme, seulement une marque d'intérêt chinoise [5].",
+      "Selon le South China Morning Post, Donald Trump a quitté la Chine sans que les 200 avions de mai deviennent des commandes confirmées [2][3].",
+      "Des observateurs y voient une tactique : Pékin utiliserait les achats de Boeing comme moyen de pression face aux nouvelles restrictions américaines sur les puces avancées. « Pékin pourrait exiger d'autres concessions, sur la technologie ou la rivalité géopolitique, avant de passer des commandes fermes », estime l'un d'eux [2]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : en Chine, les grosses commandes d'avions sont aussi des décisions politiques. Pékin ouvre ou ferme le robinet selon l'état de ses relations avec Washington [2].",
+      "La dernière grande commande chinoise de Boeing remonte à 2017, lors d'une précédente visite de Donald Trump : la Chine avait alors signé pour 300 avions [2][6]. En avril 2025, en pleine guerre commerciale, Pékin avait demandé à ses compagnies de ne plus commander de Boeing [7].",
+      "La trêve commerciale entre les deux pays permet aux échanges de continuer, mais aucun camp ne veut lâcher ses moyens de pression, note CNBC. Pour l'économiste Larry Hu (Macquarie), les terres rares sont la principale arme de Pékin face à l'avance américaine dans les puces [8]. Les avions en sont une autre.",
+      "Les observateurs soulignent toutefois que les besoins de la Chine en avions neufs n'ont pas changé [2] : les commandes devraient finir par arriver, mais à un prix politique."
+    ],
+    "forMe": "Si Pékin finit par commander chez Boeing, c'est autant d'avions qui ne seront pas achetés à Airbus, dont une grande partie est fabriquée en France. Ces bras de fer se règlent aussi sur les chaînes d'assemblage de Toulouse.",
+    "figures": [
+      {
+        "value": "200",
+        "label": "avions promis par la Chine en mai, toujours pas commandés fermement",
+        "src": 3
+      },
+      {
+        "value": "+250",
+        "label": "avions supplémentaires annoncés par Trump, sans confirmation chinoise",
+        "src": 1
+      },
+      {
+        "value": "2017",
+        "label": "dernière grande commande chinoise de Boeing (300 avions)",
+        "src": 6
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "droits-de-douane",
+      "semi-conducteurs"
+    ],
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "Boeing",
+          "ticker": "BA",
+          "why": "L'avionneur américain attend la conversion des 200 avions promis en commandes fermes, sans lesquelles ils ne comptent pas dans son carnet [3][5]."
+        },
+        {
+          "name": "Airbus",
+          "ticker": "AIR",
+          "why": "Son concurrent européen : chaque gel des commandes de Boeing en Chine lui laisse plus de place [7]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Bloomberg",
+        "name": "Bloomberg, « Trump Says He Expects China to Buy Another 250 Boeing Aircraft » (23 novembre 2026)",
+        "url": "https://bloomberg.com/news/articles/2026-11-23/trump-says-he-expects-china-to-buy-another-250-boeing-planes"
+      },
+      {
+        "short": "SCMP",
+        "name": "South China Morning Post, « 'Nothing came through': why Boeing failed to land firm orders during Trump's Shenzhen trip » (23 novembre 2026)",
+        "url": "https://www.scmp.com/economy/policy/article/3375468/nothing-came-through-why-boeing-failed-land-firm-orders-during-trumps-shenzhen-trip"
+      },
+      {
+        "short": "AeroTime",
+        "name": "AeroTime, « Trump predicts 250 more Boeing jets for China as earlier pledge still pending » (novembre 2026)",
+        "url": "https://www.aerotime.aero/articles/trump-china-boeing-250-jets-commitment"
+      },
+      {
+        "short": "Reuters (Investing.com)",
+        "name": "Reuters via Investing.com, « Trump thinks China will buy another 250 Boeing airplanes » (23 novembre 2026)",
+        "url": "https://investing.com/news/stock-market-news/trump-thinks-china-will-buy-another-250-boeing-airplanes-5046050"
+      },
+      {
+        "short": "The Flight Brief",
+        "name": "The Flight Brief, « Trump Says China Will Buy Another 250 Boeings. That Is Not a Firm Order. » (novembre 2026)",
+        "url": "https://www.theflightbrief.com/articles/trump-china-another-250-boeing-not-a-firm-order"
+      },
+      {
+        "short": "SCMP",
+        "name": "South China Morning Post, « Boeing went to China to sell planes, Beijing is buying something else » (2026)",
+        "url": "https://www.scmp.com/opinion/china-opinion/article/3354137/boeing-went-china-sell-planes-beijing-buying-something-else"
+      },
+      {
+        "short": "Skift",
+        "name": "Skift, « Chinese Airlines Told to Halt Boeing Orders: What It Means for Both Sides » (16 avril 2025)",
+        "url": "https://skift.com/2025/04/16/chinese-airlines-told-to-halt-boeing-orders-what-it-means-for-both-sides/"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Soybeans, planes and rare earths: What they say about fragile U.S.-China trade truce » (23 septembre 2026)",
+        "url": "https://www.cnbc.com/2026/09/23/trump-xi-summit-us-china-trade-rare-earth-soybean-plane.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-loi-logement-vote-assemblee-passoires-thermiques",
+    "date": "2026-11-24",
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          2.318,
+          48.862
+        ],
+        "name": "Paris, France",
+        "label": "France"
+      }
+    ],
+    "title": "Logement : les députés votent ce mardi une loi qui, contre l'avis du gouvernement, enterre les interdictions de louer les passoires thermiques",
+    "summary": "L'Assemblée nationale se prononce ce mardi 24 novembre à 16 h 30 sur le projet de loi de relance du logement. Au fil des débats, les députés l'ont profondément modifié : fin du calendrier d'interdiction de louer les logements mal isolés, droit de regard des maires sur les HLM, avantage fiscal élargi pour les investisseurs [1][2][3].",
+    "points": [
+      "Le vote solennel sur l'ensemble du « projet de loi visant la relance et la décentralisation du logement » est fixé à ce mardi 16 h 30, après la fin de l'examen des articles le 20 novembre [3][1].",
+      "Contre l'avis du ministre, les députés ont supprimé le calendrier qui interdisait progressivement de louer les « passoires thermiques », ces logements mal classés au diagnostic de performance énergétique (DPE) [1][2]. L'amendement est passé de justesse, par 108 voix contre 102 [4].",
+      "Ils ont donné aux maires un droit d'opposition sur l'attribution des logements sociaux dans leur commune [1].",
+      "Ils ont supprimé le seuil de travaux exigé pour bénéficier du « Jeanbrun », le nouvel avantage fiscal pour ceux qui achètent un logement afin de le louer [1]. Son article a été adopté par 124 voix contre 34, avec le RN, les socialistes, EPR, le MoDem et Horizons pour, et LFI contre [5].",
+      "Les députés ont en revanche rejeté la réforme du droit au logement opposable (Dalo), qui permet de faire reconnaître en justice son besoin d'un logement [1].",
+      "Si le texte est adopté, sept députés et sept sénateurs se réuniront en commission mixte paritaire pour trouver un compromis. Le ministère espère une adoption définitive avant la fin de l'année [3]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : le texte qui sort de l'Assemblée n'est plus celui du gouvernement, ce qui rend le résultat du vote incertain [3].",
+      "Les interdictions de louer les logements énergivores divisent depuis des années. Leurs partisans y voient un moyen d'obliger les propriétaires à isoler et de protéger les locataires des factures de chauffage. Leurs adversaires les accusent de retirer des logements du marché locatif au moment où les biens à louer manquent. Le vote à six voix d'écart montre à quel point l'Assemblée est partagée [4].",
+      "Le dispositif Jeanbrun vise à relancer la construction et l'investissement locatif, en recul [5][2]. En supprimant le seuil de travaux, les députés rendent l'avantage plus facile à obtenir, mais plus coûteux pour l'État.",
+      "Le droit de regard des maires sur les attributions de HLM est, lui, une revendication ancienne de nombreux élus locaux, au moment où leur congrès annuel s'ouvre à Paris [1]."
+    ],
+    "forMe": "Si tu es locataire d'un logement mal isolé, cette version du texte supprimerait l'obligation pour ton propriétaire de faire des travaux avant de pouvoir te le louer. Si tu es propriétaire bailleur, tu n'aurais plus d'échéance d'interdiction. Rien n'est définitif : le Sénat doit encore s'accorder avec les députés.",
+    "figures": [
+      {
+        "value": "108 contre 102",
+        "label": "vote des députés pour supprimer les interdictions de louer liées au DPE",
+        "src": 4
+      },
+      {
+        "value": "124 contre 34",
+        "label": "vote sur l'avantage fiscal Jeanbrun pour l'investissement locatif",
+        "src": 5
+      },
+      {
+        "value": "7 + 7",
+        "label": "députés et sénateurs en commission mixte paritaire si le texte passe",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "next": [
+      {
+        "when": "24 novembre, 16 h 30",
+        "what": "Vote solennel de l'Assemblée nationale sur l'ensemble du projet de loi [3]."
+      },
+      {
+        "when": "D'ici fin décembre",
+        "what": "Commission mixte paritaire, puis adoption définitive espérée par le ministère avant la fin de l'année [3]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "NosParlementaires",
+        "name": "NosParlementaires, « Projet de loi logement : ce que les députés ont voté » (novembre 2026)",
+        "url": "https://nosparlementaires.fr/actualites/projet-loi-logement-seance-assemblee-avant-vote-solennel"
+      },
+      {
+        "short": "LCP",
+        "name": "LCP, « Logement : passoires thermiques, relance de la construction... Ce que contient le projet de loi avant le vote prévu mardi à l'Assemblée » (novembre 2026)",
+        "url": "https://lcp.fr/actualites/logement-passoires-thermiques-relance-de-la-construction-ce-que-contient-le-projet-de"
+      },
+      {
+        "short": "PolitiqueMatin",
+        "name": "PolitiqueMatin, « Relance du logement : l'Assemblée achève l'examen des articles avant le vote du 24 novembre » (novembre 2026)",
+        "url": "https://www.politiquematin.fr/assemblee-nationale-logement-fin-examen-articles-vote-24-novembre-2026"
+      },
+      {
+        "short": "Quartz",
+        "name": "Quartz (fr.qz.com), « L'Assemblée supprime les interdictions de louer liées au DPE » (novembre 2026)",
+        "url": "https://fr.qz.com/assemblee-vote-suppression-interdictions-louer-dpe-112326"
+      },
+      {
+        "short": "PolitiqueMatin",
+        "name": "PolitiqueMatin, « Investissement locatif : les députés votent l'article 4 du dispositif Relance logement » (19 novembre 2026)",
+        "url": "https://www.politiquematin.fr/logement-assemblee-article-4-relance-investissement-locatif-19-novembre-2026"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-portugal-budget-2027-vote-final-amendements-record",
+    "date": "2026-11-24",
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          -9.14,
+          38.72
+        ],
+        "name": "Lisbonne, Portugal",
+        "label": "Portugal"
+      }
+    ],
+    "title": "Portugal : après un record de 2 864 amendements, le budget 2027 de Montenegro passe ce mardi son vote final, sauvé par l'abstention des socialistes",
+    "summary": "Le Parlement portugais vote ce mardi 24 novembre à 15 h sur l'ensemble du budget 2027 du Premier ministre Luís Montenegro. Le texte, qui vise un excédent de 0,1 % du PIB et baisse l'impôt sur les sociétés, a reçu un record de 2 864 amendements. L'abstention annoncée du Parti socialiste doit suffire à le faire passer [1][2][3].",
+    "points": [
+      "Le vote final global est fixé à 15 h ce mardi, après un ajustement du calendrier initial ; les votes article par article se sont achevés le 23 novembre [1][3].",
+      "Les députés ont examiné 2 864 propositions d'amendement, un record, contre 2 176 pour le budget 2026 [1].",
+      "En première lecture, le 28 octobre, 89 députés du PSD et deux du CDS-PP avaient voté pour, 79 contre, et 60 s'étaient abstenus, dont 58 socialistes [2].",
+      "Le budget vise un excédent public de 0,1 % du PIB en 2027, après un équilibre en 2026, malgré une baisse de l'impôt sur les sociétés de 19 % à 18 % [2]. Le gouvernement prévoit 2,1 % de croissance et une dette ramenée à 84,5 % du PIB [4].",
+      "Pendant l'examen, l'opposition a imposé des mesures, dont un taux de TVA à zéro et la fin du taux d'impôt de 10 % sur les loyers des propriétaires, après des victoires du PS [5].",
+      "Le Bloc de gauche votera contre et accuse le PS d'incohérence [6]. Le petit parti PAN avait prévenu qu'il « n'hésitera pas » à voter contre si le gouvernement restait « intransigeant » [7]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : sans majorité, Luís Montenegro fait passer son troisième budget grâce aux socialistes, qui s'abstiennent pour éviter une crise politique [2][3].",
+      "Le PS a choisi l'abstention à l'unanimité de sa direction. « À moins d'une surprise qui change les données du problème, nous maintiendrons l'abstention lors du vote final global », a expliqué le dirigeant socialiste André Moz Caldas [3].",
+      "Le nombre record d'amendements montre la fragmentation du Parlement : chaque parti tente d'arracher des mesures en échange de son vote ou de son abstention [1]. Le gouvernement minoritaire doit accepter certaines défaites, comme sur la TVA ou l'impôt sur les loyers [5].",
+      "Le Portugal fait figure d'exception en Europe : il vise un excédent budgétaire pendant que la France, la Belgique ou l'Italie peinent à réduire leurs déficits [2]."
+    ],
+    "forMe": "Si tu as une entreprise ou des projets au Portugal, l'impôt sur les bénéfices doit passer de 19 % à 18 % en 2027. Si tu possèdes un logement que tu loues là-bas, la fin du taux de 10 % sur les loyers pourrait alourdir ton impôt.",
+    "figures": [
+      {
+        "value": "2 864",
+        "label": "amendements déposés, un record (2 176 pour le budget 2026)",
+        "src": 1
+      },
+      {
+        "value": "+0,1 % du PIB",
+        "label": "excédent budgétaire visé en 2027",
+        "src": 2
+      },
+      {
+        "value": "19 % → 18 %",
+        "label": "baisse de l'impôt sur les sociétés",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "next": [
+      {
+        "when": "24 novembre, 15 h",
+        "what": "Vote final global du budget 2027 au Parlement portugais [1]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "The Portugal News",
+        "name": "The Portugal News, « Portugal's 2027 budget faces record amendments » (24 novembre 2026)",
+        "url": "https://www.theportugalnews.com/news/2026-11-24/portugals-2027-budget-faces-record-amendments/1121025"
+      },
+      {
+        "short": "Reuters (Yahoo)",
+        "name": "Reuters via Yahoo Finance, « Portugal's 2027 budget bill passes first parliamentary hurdle » (28 octobre 2026)",
+        "url": "https://uk.finance.yahoo.com/news/portugals-2027-budget-bill-passes-185453236.html"
+      },
+      {
+        "short": "RTP",
+        "name": "RTP, « OE2027. Comissão Política do PS manifestou \"consenso total\" sobre abstenção » (octobre 2026)",
+        "url": "https://www.rtp.pt/noticias/economia/oe2027-comissao-politica-do-ps-manifestou-consenso-total-sobre-abstencao_n1773385"
+      },
+      {
+        "short": "Portugal Resident",
+        "name": "Portugal Resident, « 2027 State Budget approved in general terms thanks to PS abstention » (octobre 2026)",
+        "url": "https://www.portugalresident.com/2027-state-budget-approved-in-general-terms-thanks-to-ps-abstention/"
+      },
+      {
+        "short": "Público",
+        "name": "Público, « OE 2027 : IVA zero e fim da taxa IRS de 10% para senhorios avançam » (20 novembre 2026)",
+        "url": "https://www.publico.pt/2026/11/20/politica/noticia/partidos-voltam-debater-oe2027-apos-vitorias-ps-iva-zero-irs-rendas-2195660"
+      },
+      {
+        "short": "Notícias ao Minuto",
+        "name": "Notícias ao Minuto, « OE2027 : BE mantém posição contra na votação final (e critica PS) » (novembre 2026)",
+        "url": "https://www.noticiasaominuto.com/pais/3087109/oe2027-be-mantem-posicao-contra-na-votacao-final-e-critica-ps"
+      },
+      {
+        "short": "24 Notícias",
+        "name": "24 Notícias (SAPO), « Orçamento do Estado para 2027 aprovado na generalidade com abstenção do PS » (octobre 2026)",
+        "url": "https://24noticias.sapo.pt/atualidade/artigos/orcamento-do-estado-para-2027-aprovado-na-generalidade-com-abstencao-do-ps"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-bresil-plan-economies-lula-adopte-real-6",
+    "date": "2026-11-24",
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique latine"
+    ],
+    "geo": [
+      {
+        "coords": [
+          -47.88,
+          -15.79
+        ],
+        "name": "Brasília, Brésil",
+        "label": "Brésil"
+      }
+    ],
+    "title": "Brésil : le real passe la barre des 6 pour un dollar, les députés adoptent dans la foulée le plan d'économies de Lula par 353 voix contre 128, sans en changer une virgule",
+    "summary": "Dans la nuit du 23 au 24 novembre, la Chambre des députés brésilienne a adopté le plan d'économies du gouvernement Lula, quelques heures après la chute du real au-delà de 6 réais pour un dollar. Les dix amendements ont été rejetés : le texte part directement à la signature du président [1][2][3].",
+    "points": [
+      "Le texte principal, le projet de loi complémentaire PLP 299/2026, a été approuvé par 353 voix contre 128, avec cinq abstentions [2][4]. Comme loi complémentaire, il lui fallait au moins 257 voix sur 513 [4].",
+      "Les députés ont ensuite rejeté les dix amendements déposés, dont ceux du Parti libéral (PL, droite), qui a voté contre [3][5]. Aucune modification : le texte ne retourne pas au Sénat et part à la sanction présidentielle tel que le Sénat l'avait voté [3].",
+      "Le plan permet au gouvernement de geler des dépenses même quand l'objectif budgétaire est déjà atteint, et double, de 10 % à 20 %, la réduction des avantages fiscaux accordés aux entreprises et aux secteurs [3][5].",
+      "L'effet attendu varie selon les sources : jusqu'à 60 milliards de réais (environ 10 milliards de dollars) l'an prochain selon l'AP, jusqu'à 56,1 milliards de réais sur le solde de 2027 selon d'autres estimations [6][5].",
+      "Selon Bloomberg, le vote est intervenu quelques heures après que le real a franchi le seuil très surveillé de 6 réais pour un dollar [1].",
+      "Le Sénat avait adopté le texte la semaine dernière par 69 voix contre 2, après avoir rejeté trois modifications qui en auraient réduit la portée [4][6]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : en faisant voter vite et sans retouche, Lula veut rassurer les investisseurs qui vendent la monnaie brésilienne. Le seuil de 6 réais pour un dollar est symbolique : il montre que les marchés doutent de la capacité du pays à tenir ses comptes [1][7].",
+      "Le Brésil devrait finir 2026 avec un déficit primaire (avant paiement des intérêts de la dette) d'environ 52 milliards de réais, soit 8,8 milliards de dollars, selon l'agence de la Chambre [4]. Les élections de 2026 ont coûté cher aux finances publiques [6].",
+      "Les analystes reprochent au plan de compter davantage sur des recettes supplémentaires, en rabotant les niches fiscales, que sur de vraies baisses de dépenses. Ce doute a pesé ces derniers jours sur les actifs brésiliens, real compris [7].",
+      "La suite se jouera sur les marchés : si le real ne se redresse pas, l'inflation importée montera et la banque centrale, qui a déjà vendu des dollars pour soutenir la monnaie, devra peut-être agir encore."
+    ],
+    "forMe": "Un real faible rend le Brésil moins cher pour toi si tu y voyages, mais renchérit pour les Brésiliens les produits importés, y compris européens. Les entreprises françaises très présentes au Brésil, comme dans la distribution ou l'énergie, y gagnent moins une fois leurs bénéfices convertis en euros.",
+    "figures": [
+      {
+        "value": "353 contre 128",
+        "label": "vote des députés sur le texte principal (257 voix requises)",
+        "src": 2
+      },
+      {
+        "value": "10 % → 20 %",
+        "label": "coupe dans les avantages fiscaux des entreprises",
+        "src": 3
+      },
+      {
+        "value": "6 réais",
+        "label": "pour un dollar : seuil franchi par le real juste avant le vote",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "dollar"
+    ],
+    "next": [
+      {
+        "when": "Prochains jours",
+        "what": "Signature de la loi par Lula, le texte ayant été envoyé à la sanction sans modification [3]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "Bloomberg",
+        "name": "Bloomberg, « Lula Fiscal Plan Approved in Bid to Calm Market After Real Tanks » (24 novembre 2026)",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-24/lula-fiscal-plan-approved-in-bid-to-calm-market-after-real-tanks"
+      },
+      {
+        "short": "O Tempo",
+        "name": "O Tempo, « Câmara aprova pacote fiscal de Lula por 353 a 128, e texto fica a dez destaques da sanção » (23 novembre 2026)",
+        "url": "https://www.otempo.com.br/politica/2026/11/23/camara-aprova-pacote-fiscal-de-lula-por-353-a-128-e-texto-fica-a-dez-destaques-da-sancao"
+      },
+      {
+        "short": "O Tempo",
+        "name": "O Tempo, « Governo derruba destaques, e pacote fiscal de Lula vai à sanção » (24 novembre 2026)",
+        "url": "https://www.otempo.com.br/politica/2026/11/24/governo-barra-todas-as-mudancas-e-ajuste-fiscal-de-lula-vai-a-sancao-como-saiu-do-senado"
+      },
+      {
+        "short": "Rio Times",
+        "name": "The Rio Times, « Brazil's Lower House Backs Spending Curbs » (23 novembre 2026)",
+        "url": "https://www.riotimesonline.com/brazil-lower-house-passes-fiscal-bill-353-128-vote"
+      },
+      {
+        "short": "Jovem Pan",
+        "name": "Jovem Pan, « Câmara rejeita destaques de texto-base do ajuste fiscal e projeto será sancionado por Lula » (24 novembre 2026)",
+        "url": "https://jovempan.com.br/politica/camara-rejeita-destaques-de-texto-base-do-ajuste-fiscal-e-projeto-sera-sancionado-por-lula/"
+      },
+      {
+        "short": "AP (ABC News)",
+        "name": "ABC News (AP), « Brazil's Senate approves Lula's $10 billion fiscal package after costly election spending » (novembre 2026)",
+        "url": "https://abcnews.com/International/wireStory/brazils-senate-approves-lulas-10-billion-fiscal-package-138265187"
+      },
+      {
+        "short": "Bloomberg Línea",
+        "name": "Bloomberg Línea, « Brazil's Congress Approves Lula's Fiscal Plan » (novembre 2026)",
+        "url": "https://bloomberglinea.com/english/brazils-congress-approves-lulas-fiscal-plan"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-argentine-budget-2027-quorum-risque-pays",
+    "date": "2026-11-24",
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique latine"
+    ],
+    "geo": [
+      {
+        "coords": [
+          -58.38,
+          -34.6
+        ],
+        "name": "Buenos Aires, Argentine",
+        "label": "Argentine"
+      }
+    ],
+    "title": "Argentine : le vote du budget 2027 de Milei repoussé à jeudi, il manque encore des députés pour ouvrir la séance, pendant que le « risque pays » recule de 30 points",
+    "summary": "Le gouvernement de Javier Milei vise désormais jeudi 26 novembre pour faire voter son budget 2027 à la Chambre des députés. Il lui manque encore des alliés pour atteindre le quorum de 129 élus. Lundi, le « risque pays » est retombé à 1 035 points, après un record annuel vendredi [1][2][4][5].",
+    "points": [
+      "La séance était d'abord prévue mercredi 25 novembre ; elle est désormais visée pour le jeudi 26, avec un débat qui pourrait durer une vingtaine d'heures [2][3]. Le même jour, le Sénat doit examiner une réforme politique qui suspend les primaires obligatoires (PASO) [3].",
+      "Le parti de Milei, La Libertad Avanza, compte 94 députés et espère 21 voix d'alliés : pas assez pour les 129 présents nécessaires à l'ouverture de la séance [2][3]. La semaine dernière, il avait déjà échoué à réunir le quorum [3].",
+      "Il doit convaincre le bloc Provincias Unidas (18 députés), lié aux gouverneurs Martín Llaryora (Córdoba) et Maximiliano Pullaro (Santa Fe), qui réclame des fonds, des travaux et des crédits pour les universités [3][4]. La « table politique » du gouvernement se réunit ce mardi à 13 h pour boucler des accords [4].",
+      "Le texte a obtenu le 17 novembre un avis favorable en commission, avec 27 signatures [6]. Il prévoit 4 % de croissance en 2027, 18 % d'inflation sur l'année et un dollar officiel à 1 847,60 pesos en décembre 2027 [6].",
+      "Lundi, jour férié en Argentine, le « risque pays », l'écart entre le taux auquel emprunte l'Argentine et celui des États-Unis, a reculé de 30 points à 1 035 points, porté par le rebond de Wall Street [1][7]. Il avait fini vendredi à 1 070 points, son plus haut de 2026, contre environ 400 début juillet [5]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : un budget voté est un signal attendu par les créanciers. Sans lui, Milei arriverait affaibli face aux marchés qui doutent déjà de sa capacité à rembourser [5][8].",
+      "L'Argentine doit verser près de 17 milliards de dollars à ses créanciers obligataires en 2027, selon le Financial Times cité par le Buenos Aires Herald [8]. Les obligations argentines en dollars n'impliquent plus qu'environ 45 % de chances de réélection de Milei en 2027, selon le cabinet FMyA [8].",
+      "Le calendrier est serré : les sessions ordinaires du Congrès se terminent le 30 novembre [6]. Les gouverneurs le savent et font monter les enchères, car leurs députés sont la clé du quorum [3][4].",
+      "Si le budget passe à la Chambre, il devra encore être examiné par le Sénat, où la marge de temps est réduite [6]."
+    ],
+    "forMe": "Si tu suis les marchés émergents ou détiens un fonds obligataire qui en contient, l'Argentine reste l'un des pays les plus risqués : un échec du budget pourrait relancer la chute de ses obligations. Les banques espagnoles, très présentes là-bas, sont aussi exposées à ces secousses.",
+    "figures": [
+      {
+        "value": "94 + 21 sur 129",
+        "label": "députés de Milei et alliés espérés, face au quorum requis",
+        "src": 3
+      },
+      {
+        "value": "1 035 points",
+        "label": "risque pays lundi, contre 1 070 vendredi (plus haut de 2026)",
+        "src": 1
+      },
+      {
+        "value": "18 %",
+        "label": "inflation prévue par le budget pour 2027",
+        "src": 6
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "dollar"
+    ],
+    "next": [
+      {
+        "when": "26 novembre",
+        "what": "Séance prévue à la Chambre des députés pour voter le budget 2027, si le quorum est atteint [2][3]."
+      },
+      {
+        "when": "30 novembre",
+        "what": "Fin des sessions ordinaires du Congrès argentin [6]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "Infobae",
+        "name": "Infobae, « Sin operaciones en el mercado local, el riesgo país cayó 30 puntos y las acciones argentinas volaron en Wall Street » (23 novembre 2026)",
+        "url": "https://www.infobae.com/economia/2026/11/23/sin-operaciones-en-el-mercado-local-el-riesgo-pais-cayo-30-puntos-y-las-acciones-argentinas-volaron-en-wall-street/"
+      },
+      {
+        "short": "El Liberal",
+        "name": "El Liberal, « Semana clave en el Congreso: el oficialismo busca aprobar el Presupuesto 2027, la reforma política y recibe a Diego Santilli » (23 novembre 2026)",
+        "url": "https://www.elliberal.com.ar/amp/2026/11/23/98832-semana-clave-en-el-congreso--el-oficialismo-busca-aprobar-el-presupuesto-2027-la-reforma-politica-y-recibe-a-diego-santilli.html"
+      },
+      {
+        "short": "Noticiero 9",
+        "name": "Noticiero 9, « Semana decisiva en el Congreso: el Presupuesto 2027 y la suspensión de las PASO » (novembre 2026)",
+        "url": "https://www.noticiero9.com.ar/36056-semana-decisiva-en-el-congreso-el-presupuesto-2027-y-la-suspension-de-las-paso"
+      },
+      {
+        "short": "Primera Página",
+        "name": "Primera Página, « Tenés que saber para el día: semana decisiva en el Congreso con el Presupuesto y las PASO » (24 novembre 2026)",
+        "url": "https://primerapagina.info/politica/tenes-que-saber-para-el-dia--semana-decisiva-en-el-congreso-con-el-presupuesto-y-las-paso_a6b041e11fde8ae76f865ea52"
+      },
+      {
+        "short": "Moncloa",
+        "name": "Moncloa.com, « Riesgo 'país' de Argentina en máximos del año: la semana clave que expone a la banca española » (23 novembre 2026)",
+        "url": "https://www.moncloa.com/2026/11/23/riesgo-pais-argentina-banca-espanola-3-3473158/"
+      },
+      {
+        "short": "Alerta Digital",
+        "name": "Alerta Digital, « El Presupuesto 2027 obtuvo dictamen y el oficialismo busca debatirlo el 25 de noviembre » (18 novembre 2026)",
+        "url": "https://www.alertadigital.ar/amp/noticias/2026/11/18/182655-el-presupuesto-2027-obtuvo-dictamen-y-el-oficialismo-busca-debatirlo-el-25-de-noviembre"
+      },
+      {
+        "short": "Diario Huarpe",
+        "name": "Diario Huarpe, « El riesgo país cayó 30 puntos y las acciones argentinas subieron en Nueva York » (23 novembre 2026)",
+        "url": "https://www.diariohuarpe.com/nota/el-riesgo-pais-cayo-30-puntos-y-las-acciones-argentinas-subieron-en-nueva-york-202611231950"
+      },
+      {
+        "short": "Buenos Aires Herald",
+        "name": "Buenos Aires Herald, « Argentina's country risk hits its highest level in 11 months » (novembre 2026)",
+        "url": "https://buenosairesherald.com/economics/argentinas-country-risk-hits-its-highest-level-in-11-months"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-etats-unis-trump-bloque-enquetes-congres-democrate",
+    "date": "2026-11-24",
+    "region": "Amériques",
+    "theme": "geo",
+    "zones": [
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "coords": [
+          -77.04,
+          38.9
+        ],
+        "name": "Washington, États-Unis",
+        "label": "États-Unis"
+      }
+    ],
+    "title": "États-Unis : avant l'arrivée des démocrates au Congrès, Trump interdit aux entreprises sous contrat fédéral de répondre aux enquêteurs sans prévenir la Maison Blanche, sous peine de perdre leurs contrats",
+    "summary": "Par un décret signé vendredi, Donald Trump oblige toutes les entreprises travaillant pour l'État fédéral à prévenir la Maison Blanche avant de transmettre des informations au Congrès. Les démocrates, qui prendront le contrôle des deux chambres en janvier, dénoncent une mesure « illégale » destinée à étouffer leurs enquêtes [1][2][3].",
+    "points": [
+      "Le décret s'intitule « Protéger les privilèges de l'exécutif et améliorer l'efficacité des marchés publics fédéraux ». Il impose immédiatement aux entreprises sous contrat fédéral et à leurs sous-traitants de signaler à la Maison Blanche toute demande « en cours ou future » du Congrès [2][3].",
+      "Les entreprises qui ne s'y plient pas risquent la résiliation de leurs contrats et la suspension de tout futur travail avec l'État fédéral [2]. Elles doivent aussi retenir les documents que l'administration juge couverts par le « privilège de l'exécutif » [2][4].",
+      "Le texte affirme que le Congrès ne peut réclamer des informations à l'exécutif qu'avec un « objectif législatif valable » qui n'empiète pas sur les fonctions essentielles du président [2].",
+      "Il prolonge une note du conseiller juridique de la Maison Blanche, Will Scharf, datée du 16 novembre : les agences doivent obtenir son feu vert avant qu'un fonctionnaire accepte de témoigner devant une commission [2][3]. Dans une lettre, Scharf a rappelé aux démocrates qu'ils ne sont pas encore majoritaires et ne peuvent rien exiger [2].",
+      "Le démocrate Jamie Raskin parle d'une mesure « totalement inédite et manifestement illégale » ; Robert Garcia d'une « attaque flagrante contre le droit constitutionnel du Congrès à contrôler » le gouvernement [2].",
+      "Selon CNN, le bras de fer « prend feu » : Trump cherche à limiter qui, comment et sur quoi les démocrates pourront enquêter, et les enquêteurs contestent en priorité ce décret [1]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : le contrôle du gouvernement par le Congrès passe souvent par les entreprises privées (sous-traitants, prestataires, conseillers). En les menaçant de perdre leurs contrats, la Maison Blanche coupe une source d'informations majeure avant même que les démocrates aient le pouvoir de convocation [1][2][5].",
+      "Les démocrates, vainqueurs des élections de novembre à la Chambre et au Sénat, veulent enquêter sur les conflits d'intérêts, les contrats fédéraux, la police de l'immigration et la gestion du dossier Jeffrey Epstein [1][2]. Ils ont aussi envoyé des lettres demandant de conserver des documents sur les chantiers de Trump à Washington, après des alertes de lanceurs d'alerte sur des destructions ; la Maison Blanche y voit du « harcèlement » [6].",
+      "Le temps joue pour l'exécutif : selon des avocats cités par CNN, le Congrès n'aurait que 12 à 18 mois pour que ses enquêtes pèsent politiquement avant la campagne présidentielle de 2028, et l'administration devrait miser sur les délais [5].",
+      "Les tribunaux peuvent trancher ces conflits sur le pouvoir d'enquête du Congrès, mais une bataille judiciaire prendrait elle aussi du temps [2]."
+    ],
+    "forMe": "Pour toi, l'enjeu est indirect mais réel : un président américain moins contrôlé peut décider plus librement de droits de douane, de sanctions ou d'engagements militaires qui touchent l'Europe. Les entreprises françaises sous contrat avec l'État américain pourraient aussi se retrouver prises entre la Maison Blanche et les enquêteurs du Congrès.",
+    "figures": [
+      {
+        "value": "2 chambres sur 2",
+        "label": "contrôlées par les démocrates à partir de janvier",
+        "src": 1
+      },
+      {
+        "value": "16 novembre",
+        "label": "date de la note de Will Scharf qui encadre déjà les témoignages des fonctionnaires",
+        "src": 2
+      },
+      {
+        "value": "12 à 18 mois",
+        "label": "fenêtre utile pour les enquêtes avant la campagne de 2028, selon des avocats",
+        "src": 5
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "next": [
+      {
+        "when": "Janvier 2027",
+        "what": "Les démocrates prennent le contrôle du Congrès et pourront lancer leurs enquêtes [2]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "CNN",
+        "name": "CNN, « Trump's showdown with Congress is catching fire, weeks before Democrats take power » (23 novembre 2026)",
+        "url": "https://www.cnn.com/2026/11/23/politics/trump-democrats-investigations-congress"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Trump orders federal contractors to notify White House before giving Congress information » (21 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/21/trump-orders-federal-contractors-to-notify-white-house-before-giving-congress-information.html"
+      },
+      {
+        "short": "NPR (AP)",
+        "name": "NPR, « Trump orders federal contractors to check with White House before responding to Congress » (21 novembre 2026)",
+        "url": "https://www.npr.org/2026/11/21/g-s1-154966/trump-contractors-congress"
+      },
+      {
+        "short": "ABC News",
+        "name": "ABC News, « Trump orders federal contractors to coordinate with White House on congressional inquiries » (novembre 2026)",
+        "url": "https://abcnews.com/Politics/trump-orders-federal-contractors-coordinate-white-house-congressional/story?id=138344717"
+      },
+      {
+        "short": "CNN",
+        "name": "CNN, « How Trump will try to block Democratic congressional investigations » (16 novembre 2026)",
+        "url": "https://www.cnn.com/2026/11/16/politics/trump-block-democrats-investigations"
+      },
+      {
+        "short": "CNN",
+        "name": "CNN, « 'Drawing a line in the sand': Democrats put Trump admin on notice over alleged document destruction » (20 novembre 2026)",
+        "url": "https://www.cnn.com/2026/11/20/politics/democrats-trump-administration-documents-destruction"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-egypte-irak-sissi-al-zaidi-petrole",
+    "date": "2026-11-24",
+    "region": "Afrique",
+    "theme": "mix",
+    "zones": [
+      "Afrique",
+      "Moyen-Orient"
+    ],
+    "geo": [
+      {
+        "coords": [
+          31.24,
+          30.04
+        ],
+        "name": "Le Caire, Égypte",
+        "label": "Égypte"
+      },
+      {
+        "coords": [
+          44.36,
+          33.31
+        ],
+        "name": "Bagdad, Irak",
+        "label": "Irak"
+      }
+    ],
+    "title": "Égypte : en pleine crise d'Ormuz, l'Irak étudie l'envoi de 10 millions de barils de pétrole au Caire, où son Premier ministre fait sa première visite",
+    "summary": "Le Premier ministre irakien Ali al-Zaidi a été reçu lundi 23 novembre au Caire par Abdel Fattah al-Sissi, pour sa première visite officielle en Égypte. Énergie, commerce, défense et eau étaient au menu, alors que Bagdad étudie une proposition de livraison d'environ 10 millions de barils de pétrole [1][2][3].",
+    "points": [
+      "Les deux dirigeants ont parlé coopération dans l'énergie, l'investissement, le commerce et la défense, ainsi que de Gaza, du Yémen et de la sécurité en mer Rouge [1][3].",
+      "L'Irak étudie une proposition pour fournir à l'Égypte environ 10 millions de barils de pétrole [4]. Aucun contrat signé n'a été annoncé à l'issue de la rencontre [3][4].",
+      "La visite coïncide avec la quatrième session du Haut comité mixte irako-égyptien, chargé de superviser les accords et protocoles entre les deux pays [2][3].",
+      "Abdel Fattah al-Sissi a qualifié la stabilité de l'Irak de « pilier fondamental de la sécurité nationale arabe » [3].",
+      "Les deux pays se sont présentés comme des États « en aval » de grands fleuves (le Nil pour l'Égypte, le Tigre et l'Euphrate pour l'Irak) et ont demandé le respect du droit international sur les cours d'eau partagés [3].",
+      "Les échanges commerciaux entre les deux pays ont atteint 1,1 milliard de dollars en 2024 [2]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : l'Égypte cherche des sources d'énergie et de l'argent frais, et l'Irak, grand pays pétrolier, cherche à resserrer ses liens avec Le Caire : 10 millions de barils sont à l'étude, sans contrat signé à ce stade [1][3][4].",
+      "Le Caire a besoin de devises : le 18 novembre, le FMI et l'Égypte ont conclu un accord technique sur la huitième et dernière revue de leur programme d'aide, qui pourrait débloquer environ 2,3 milliards de dollars si le conseil d'administration du FMI l'approuve [5][6]. Ce programme, prolongé, s'achève le 15 décembre 2026 [5].",
+      "Selon le FMI, l'Égypte a fait mieux que ses objectifs de fin septembre en recettes fiscales et en excédent primaire (le solde du budget hors intérêts de la dette), avec une croissance de 5,1 % sur l'exercice 2025/2026 [5]. Ce bon élève a donc besoin de garder ses finances sous contrôle, et un pétrole fourni par un pays ami allégerait sa facture."
+    ],
+    "forMe": "L'Égypte contrôle le canal de Suez, par où passe une partie des marchandises entre l'Asie et l'Europe. Un pays qui sécurise son énergie et ses finances, c'est un risque en moins pour cette route commerciale, et donc pour les prix de ce que tu achètes en France.",
+    "figures": [
+      {
+        "value": "≈ 10 millions de barils",
+        "label": "de pétrole irakien à l'étude pour l'Égypte",
+        "src": 4
+      },
+      {
+        "value": "1,1 milliard $",
+        "label": "d'échanges entre l'Irak et l'Égypte en 2024",
+        "src": 2
+      },
+      {
+        "value": "≈ 2,3 milliards $",
+        "label": "d'aide du FMI en attente pour l'Égypte",
+        "src": 5
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "routes-maritimes"
+    ],
+    "next": [
+      {
+        "when": "Avant le 15 décembre",
+        "what": "Le conseil d'administration du FMI doit approuver la dernière revue du programme égyptien, avant son expiration [5]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "The National",
+        "name": "The National, « Egypt and Iraq pledge closer energy and military ties as Al Zaidi makes first Cairo visit » (23 novembre 2026)",
+        "url": "https://thenationalnews.com/news/mena/2026/11/23/egypt-and-iraq-pledge-closer-energy-and-military-ties-as-al-zaidi-makes-first-cairo-visit"
+      },
+      {
+        "short": "Anadolu",
+        "name": "Anadolu, « Iraqi, Egyptian leaders agree to strengthen economic ties, coordinate efforts to ease regional tensions » (23 novembre 2026)",
+        "url": "https://www.aa.com.tr/en/middle-east/iraqi-egyptian-leaders-agree-to-strengthen-economic-ties-coordinate-efforts-to-ease-regional-tensions/4134323"
+      },
+      {
+        "short": "Daily News Egypt",
+        "name": "Daily News Egypt, « Al-Sisi, Iraqi PM discuss regional de-escalation, energy, trade and water security » (23 novembre 2026)",
+        "url": "https://dailynewsegypt.com/2026/11/23/al-sisi-iraqi-pm-discuss-regional-de-escalation-energy-trade-and-water-security/"
+      },
+      {
+        "short": "Arab News",
+        "name": "Arab News, « Iraq weighs 10m barrel oil supply deal with Egypt » (novembre 2026)",
+        "url": "https://www.arabnews.com/business/iraq-weighs-10m-barrel-oil-supply-deal-with-egypt-3013717"
+      },
+      {
+        "short": "The National",
+        "name": "The National, « IMF reaches final deal with Egypt as loan programme nears end » (19 novembre 2026)",
+        "url": "https://www.thenationalnews.com/business/economy/2026/11/19/imf-reaches-final-deal-with-egypt-as-loan-programme-nears-end/"
+      },
+      {
+        "short": "Enterprise",
+        "name": "Enterprise, « IMF staff and the government reached agreement on the final review, putting up to USD 2.3 bn on the table » (19 novembre 2026)",
+        "url": "https://enterpriseam.com/egypt/2026/11/19/imf-staff-and-the-government-reached-agreement-on-the-final-review-putting-up-to-usd-2-3-bn-on-the-table-before-the-program-expires/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-cote-divoire-steinmeier-ouattara-abidjan",
+    "date": "2026-11-24",
+    "region": "Afrique",
+    "theme": "geo",
+    "zones": [
+      "Afrique",
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          -4.03,
+          5.33
+        ],
+        "name": "Abidjan, Côte d'Ivoire",
+        "label": "Côte d'Ivoire"
+      },
+      {
+        "coords": [
+          13.4,
+          52.52
+        ],
+        "name": "Berlin, Allemagne",
+        "label": "Allemagne"
+      }
+    ],
+    "title": "Côte d'Ivoire : premier président allemand à Abidjan depuis 40 ans, Steinmeier salue un « partenaire central » et près d'un milliard d'euros de projets",
+    "summary": "Le président allemand Frank-Walter Steinmeier a été reçu le lundi 23 novembre par Alassane Ouattara à Abidjan. C'est la première visite d'un chef d'État allemand en Côte d'Ivoire depuis environ 40 ans. Au menu : près de 970 millions d'euros de coopération, la sécurité face au terrorisme et le climat [1][2][4].",
+    "points": [
+      "Arrivé le dimanche 22 novembre, Frank-Walter Steinmeier a été accueilli lundi avec les honneurs militaires au palais présidentiel, avant un entretien, une conférence de presse commune et un déjeuner avec Alassane Ouattara [1][2].",
+      "Selon l'agence allemande dpa, aucun chef d'État allemand n'était venu dans le pays depuis 40 ans [1]. Des médias ivoiriens parlent même d'une première en 43 ans ; Alassane Ouattara a qualifié la visite d'« historique » [4][5].",
+      "Le président ivoirien a chiffré à 968,62 millions d'euros la coopération économique allemande en cours dans le pays, mise en œuvre par les agences publiques KfW (banque de développement) et GIZ (coopération technique) [4].",
+      "Steinmeier a présenté la Côte d'Ivoire comme un partenaire central de l'Allemagne en Afrique de l'Ouest [3]. Il devait visiter une école professionnelle et l'Académie internationale de lutte contre le terrorisme de Jacqueville, dont il a salué le travail [1][4].",
+      "Il a été fait Grand-Croix de l'Ordre national de la République de Côte d'Ivoire [4].",
+      "Le voyage dure quatre jours : après Abidjan, Steinmeier doit ouvrir à Accra (Ghana) un sommet d'affaires germano-africain, puis rencontrer le président kényan William Ruto à Nairobi [1].",
+      "Le même jour, la présidente de la BERD, une banque publique de développement européenne, était aussi à Abidjan pour y ouvrir un bureau [6]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : l'Allemagne, première économie d'Europe, envoie son chef de l'État dans un pays qu'elle n'avait pas visité à ce niveau depuis 40 ans, et le présente comme son partenaire central en Afrique de l'Ouest [1][3].",
+      "Selon la présidence allemande, le voyage doit saluer trois pays « partenaires » pour défendre un ordre international fondé sur des règles, et pousser les entreprises allemandes à investir davantage sur le continent africain [1].",
+      "La sécurité est au cœur de la relation : les deux présidents ont parlé climat et sécurité, et Steinmeier a salué le travail de l'Académie internationale de lutte contre le terrorisme de Jacqueville, près d'Abidjan [4].",
+      "La suite est déjà fixée : la sixième session de la commission mixte de coopération entre les deux pays doit se tenir les 26 et 27 novembre [4]."
+    ],
+    "forMe": "La Côte d'Ivoire est un partenaire historique de la France. Voir l'Allemagne y investir près d'un milliard d'euros montre que la concurrence entre Européens pour l'Afrique de l'Ouest s'accélère : pour les entreprises françaises installées à Abidjan, c'est à la fois plus de rivaux et plus de projets financés.",
+    "figures": [
+      {
+        "value": "40 ans",
+        "label": "depuis la dernière visite d'un chef d'État allemand",
+        "src": 1
+      },
+      {
+        "value": "968,62 M€",
+        "label": "de coopération économique allemande en cours",
+        "src": 4
+      },
+      {
+        "value": "3 pays en 4 jours",
+        "label": "Côte d'Ivoire, Ghana, Kenya",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "next": [
+      {
+        "when": "26-27 novembre",
+        "what": "Sixième session de la commission mixte de coopération Côte d'Ivoire-Allemagne [4]."
+      },
+      {
+        "when": "Cette semaine",
+        "what": "Steinmeier ouvre le sommet d'affaires germano-africain d'Accra, puis rencontre William Ruto à Nairobi [1]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "dpa (Yahoo)",
+        "name": "dpa via Yahoo Nachrichten, « Steinmeier beginnt Afrika-Reise in der Elfenbeinküste » (23 novembre 2026)",
+        "url": "https://de.nachrichten.yahoo.com/steinmeier-beginnt-afrika-reise-elfenbeink%C3%BCste-030136474.html"
+      },
+      {
+        "short": "AIP",
+        "name": "Agence ivoirienne de presse, « Le président allemand Frank-Walter Steinmeier arrivé à Abidjan pour une visite officielle » (22 novembre 2026)",
+        "url": "https://www.aip.ci/cote-divoire-aip-le-president-allemand-frank-walter-steinmeier-arrive-a-abidjan-pour-une-visite-officielle/"
+      },
+      {
+        "short": "AIP",
+        "name": "Agence ivoirienne de presse, « Le Président allemand présente la Côte d'Ivoire comme un partenaire central de l'Allemagne en Afrique de l'Ouest » (23 novembre 2026)",
+        "url": "https://www.aip.ci/aip-le-president-allemand-presente-la-cote-divoire-comme-un-partenaire-central-de-lallemagne-en-afrique-de-louest/"
+      },
+      {
+        "short": "Bénin Web TV",
+        "name": "Bénin Web TV, « Côte d'Ivoire : Steinmeier à Abidjan, une coopération allemande de près d'un milliard d'euros » (23 novembre 2026)",
+        "url": "https://beninwebtv.com/cote-divoire-steinmeier-abidjan-cooperation-allemagne/"
+      },
+      {
+        "short": "Connection ivoirienne",
+        "name": "Connection ivoirienne, « Côte d'Ivoire–Allemagne : quarante ans après, le retour d'un président allemand à Abidjan… » (23 novembre 2026)",
+        "url": "https://connectionivoirienne.net/2026/11/23/cote-divoire-allemagne-quarante-ans-apres-le-retour-dun-president-allemand-a-abidjan-revele-les-nouveaux-enjeux-geostrategiques-en-afrique-de-louest/"
+      },
+      {
+        "short": "Linfodrome",
+        "name": "Linfodrome, « Visite d'Odile Renaud-Basso : la BERD ouvrira son bureau à Abidjan et prévoit 250 millions d'euros » (novembre 2026)",
+        "url": "https://www.linfodrome.com/economie/127893-visite-d-odile-renaud-basso-la-berd-ouvrira-son-bureau-a-abidjan-et-prevoit-250-millions-d-euros"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-coree-du-nord-kim-ambassadeurs-souverainete",
+    "date": "2026-11-24",
+    "region": "Asie",
+    "theme": "geo",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "coords": [
+          125.75,
+          39.03
+        ],
+        "name": "Pyongyang, Corée du Nord",
+        "label": "Corée du Nord"
+      }
+    ],
+    "title": "Corée du Nord : sans rencontre avec Trump, Kim Jong-un reçoit lui-même dix ambassadeurs, une première depuis plus de 30 ans, et vante la « souveraineté » de son pays",
+    "summary": "Kim Jong-un a reçu en personne les lettres de créance de dix nouveaux ambassadeurs, dont celui de la Russie, a annoncé lundi 23 novembre l'agence officielle KCNA. Un geste inédit depuis plus de 30 ans, quelques jours après le départ d'Asie de Donald Trump sans rencontre avec lui [1][3][4].",
+    "points": [
+      "La cérémonie s'est tenue le dimanche 22 novembre au siège du Parti du travail à Pyongyang ; KCNA l'a rapportée lundi [3][4].",
+      "Les dix ambassadeurs représentent la Russie, la Suède, l'Indonésie, le Vietnam, le Brésil, la République tchèque, l'Inde, les Philippines, la Thaïlande et le Bangladesh [4]. Kim était en costume-cravate, avec à ses côtés sa ministre des Affaires étrangères, Choe Son-hui [2].",
+      "Selon l'agence russe TASS, reprise par l'agence sud-coréenne Yonhap, c'est la première fois depuis plus de 30 ans qu'un dirigeant nord-coréen reçoit lui-même un ambassadeur : depuis l'époque de Kim Jong-il, cette tâche revenait au président du présidium de l'Assemblée populaire suprême [4].",
+      "Ce changement découle d'une révision de la Constitution, en mars, qui donne ce pouvoir au président de la Commission des affaires de l'État, poste occupé par Kim [4]. L'ambassadeur russe, Andreï Podyolyshev, nommé fin juillet, est en poste depuis septembre [4].",
+      "« La RPDC est prête à renforcer les liens d'amitié et de coopération avec tous les pays qui respectent la souveraineté de notre État », a déclaré Kim [2].",
+      "Donald Trump a quitté l'Asie après le sommet de l'APEC à Shenzhen sans voir Kim, alors qu'il avait laissé entendre qu'une rencontre était possible [1][2]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : Kim répond au silence par la mise en scène. En recevant lui-même dix diplomates, il montre qu'il n'a pas besoin de Washington pour exister sur la scène internationale [1][2].",
+      "Pour l'analyste sud-coréen Lim Eul-chul, cité par l'AFP via RTÉ, le geste marque un virage vers une diplomatie « multipolaire » fondée sur la souveraineté [2]. La Russie figure en tête de la liste des ambassadeurs reçus [3][4].",
+      "Ce message arrive alors que le programme nucléaire progresse : le 18 novembre, le directeur de l'Agence internationale de l'énergie atomique (AIEA), Rafael Grossi, a indiqué qu'une extension de l'usine d'enrichissement d'uranium de Yongbyon, commencée mi-septembre, était achevée de l'extérieur fin octobre, une source de « grave préoccupation » [5].",
+      "L'AIEA ne peut que surveiller de loin : elle n'a plus d'inspecteurs dans le pays depuis 2009 et s'appuie sur des images satellites [5]."
+    ],
+    "forMe": "La Corée du Nord paraît lointaine, mais son rapprochement avec la Russie, en guerre contre l'Ukraine, touche directement la sécurité de l'Europe. Et chaque avancée de son programme nucléaire rend un accord plus difficile, ce qui entretient les tensions en Asie, région clé pour les puces et l'électronique que tu achètes.",
+    "figures": [
+      {
+        "value": "10 ambassadeurs",
+        "label": "reçus en personne par Kim Jong-un",
+        "src": 4
+      },
+      {
+        "value": "Plus de 30 ans",
+        "label": "depuis le dernier geste de ce type par un dirigeant nord-coréen",
+        "src": 4
+      },
+      {
+        "value": "Depuis 2009",
+        "label": "aucun inspecteur de l'AIEA sur place",
+        "src": 5
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "sanctions"
+    ],
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « North Korea's leader highlights 'sovereignty' after rebuffing Trump offer for talks » (23 novembre 2026)",
+        "url": "https://www.euronews.com/2026/11/23/north-koreas-leader-highlights-sovereignty-after-rebuffing-trump-offer-for-talks"
+      },
+      {
+        "short": "AFP (RTÉ)",
+        "name": "AFP via RTÉ, « Kim highlights 'sovereignty' in ties after Trump no-show » (23 novembre 2026)",
+        "url": "https://www.rte.ie/news/2026/1123/1600245-north-korea/"
+      },
+      {
+        "short": "NK News",
+        "name": "NK News, « Kim Jong Un personally accepts foreign ambassadors' credentials for first time » (novembre 2026)",
+        "url": "https://www.nknews.org/2026/11/kim-jong-un-personally-accepts-foreign-ambassadors-credentials-for-first-time/"
+      },
+      {
+        "short": "Korea Times",
+        "name": "The Korea Times, « N. Korean leader receives credentials from Russian ambassador in protocol shift after 30 years » (22 novembre 2026)",
+        "url": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261122/n-korean-leader-receives-credentials-from-russian-ambassador-in-protocol-shift-after-30-years"
+      },
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « North Korea expanding uranium enrichment facility, UN nuclear watchdog says » (19 novembre 2026)",
+        "url": "https://www.aljazeera.com/news/2026/11/19/north-korea-expanding-uranium-enrichment-facility-un-nuclear-watchdog-says"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-inde-nepal-balendra-shah-aide-record",
+    "date": "2026-11-24",
+    "region": "Asie",
+    "theme": "geo",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "coords": [
+          77.21,
+          28.61
+        ],
+        "name": "New Delhi, Inde",
+        "label": "Inde"
+      },
+      {
+        "coords": [
+          85.32,
+          27.72
+        ],
+        "name": "Katmandou, Népal",
+        "label": "Népal"
+      }
+    ],
+    "title": "Inde-Népal : pour la première visite du jeune Premier ministre Balendra Shah, Modi sort une aide record de 1,6 milliard de dollars et un train vers Janakpur",
+    "summary": "Le Premier ministre népalais Balendra Shah, 35 ans, a achevé lundi 23 novembre sa première visite officielle en Inde. Narendra Modi lui a offert un programme d'aide de 24 000 crores (240 milliards) de roupies népalaises, soit environ 1,6 milliard de dollars, le plus gros jamais accordé au Népal, et huit accords ont été signés [1][2][3].",
+    "points": [
+      "Balendra Shah était en Inde les 22 et 23 novembre, à l'invitation de Narendra Modi, pour sa première visite bilatérale comme chef du gouvernement [1][2].",
+      "Le programme de coopération au développement atteint 24 000 crores de roupies népalaises, environ 1,6 milliard de dollars (15 000 crores de roupies indiennes) [2][3]. Le secrétaire indien aux Affaires étrangères, Vikram Misri, parle du plus gros paquet jamais donné au Népal [2].",
+      "Huit protocoles d'accord ont été signés : recherche spatiale, santé, médecine ayurvédique, formation des fonctionnaires, urbanisme, communications par satellite, coopération policière, élevage et pêche [1].",
+      "Les deux dirigeants ont lancé le train Sarayu-Kamala Express entre Ayodhya, en Inde, et Janakpur, au Népal, et ouvert un pont routier entre Dharchula et Darchula, de part et d'autre de la frontière [2][4].",
+      "L'Inde accepte un trafic dans les deux sens sur la route aérienne Bhairahawa-Lucknow, mais d'autres demandes népalaises d'accès à l'espace aérien restent sans réponse [2].",
+      "Un document commun, « Viksit Bharat et Samunnat Nepal » (Inde développée, Népal prospère), fixe une vision plus large que les accords signés [2]. Balendra Shah a invité Narendra Modi au Népal et appelé les investisseurs indiens à venir [3]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : l'Inde met le prix pour garder le Népal dans son camp, coincé entre elle et la Chine [2][5].",
+      "Katmandou demandait jusqu'à 2 milliards de dollars d'aide économique, selon le Kathmandu Post [5]. New Delhi n'accorde pas tout, mais s'en approche, avec ce que The Wire décrit comme son plus gros engagement financier envers son voisin [2].",
+      "Plusieurs dossiers restent ouverts : prêts en roupies, nouvelles routes aériennes, extension du rail et révision du traité commercial entre les deux pays [5]. Les experts népalais conseillaient de rétablir la confiance avant d'arriver avec une liste de souhaits [6].",
+      "Le Népal dépend fortement de l'Inde pour son commerce et son carburant. Pour un dirigeant arrivé très jeune au pouvoir, rentrer avec une aide record et des liaisons nouvelles est un premier succès politique."
+    ],
+    "forMe": "Le Népal est loin, mais ce bras de fer d'influence entre l'Inde et la Chine se joue dans toute l'Asie du Sud. Il pèse sur les routes commerciales et les grands projets d'infrastructures dans lesquels les entreprises européennes tentent aussi de se placer.",
+    "figures": [
+      {
+        "value": "≈ 1,6 milliard $",
+        "label": "aide indienne au Népal, la plus grosse jamais accordée",
+        "src": 2
+      },
+      {
+        "value": "8",
+        "label": "protocoles d'accord signés",
+        "src": 1
+      },
+      {
+        "value": "1,6 contre 2 milliards $",
+        "label": "aide obtenue contre aide demandée par Katmandou",
+        "src": 5
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "The Statesman",
+        "name": "The Statesman, « PM Modi, Balen Shah strengthen India-Nepal ties with 8 MoUs; here's what the agreements cover » (23 novembre 2026)",
+        "url": "https://www.thestatesman.com/india/pm-modi-balen-shah-strengthen-india-nepal-ties-with-8-mous-heres-what-the-agreements-cover-1503665868.html"
+      },
+      {
+        "short": "The Wire",
+        "name": "The Wire, « On Balen Shah's First India Visit, Modi Rolls Out the Welcome Mat With $1.6 Billion in Aid for Nepal » (novembre 2026)",
+        "url": "https://m.thewire.in/article/diplomacy/balen-shah-first-india-visit-red-carpet-1-6-billion-aid-nepal"
+      },
+      {
+        "short": "Kashmir Horizon",
+        "name": "The Kashmir Horizon, « Modi, Balen Shah Chart New Era in India-Nepal Ties with Record ₹15,000 Cr Package » (24 novembre 2026)",
+        "url": "https://thekashmirhorizon.com/2026/11/24/modi-balen-shah-chart-new-era-in-india-nepal-ties-with-record-%E2%82%B915000-cr-package/"
+      },
+      {
+        "short": "Outlook India",
+        "name": "Outlook India, « From Ayodhya-Janakpur Train To Eight MoUs: Key Outcomes Of Nepal PM Balendra Shah's India Visit » (23 novembre 2026)",
+        "url": "https://outlookindia.com/national/breaking-news-india-world-live-updates-nepal-pm-balendra-shah-visit-pm-modi-delhi-pollution-23-november-2026"
+      },
+      {
+        "short": "Kathmandu Post",
+        "name": "The Kathmandu Post, « Reconstruction aid, strategic ties, pending disputes on PM's India visit agenda » (6 novembre 2026)",
+        "url": "https://kathmandupost.com/national/2026/11/06/reconstruction-aid-strategic-ties-pending-disputes-on-pm-s-india-visit-agenda"
+      },
+      {
+        "short": "Kathmandu Post",
+        "name": "The Kathmandu Post, « Building trust and confidence a must before going to India with a wish list, experts advise Nepali leadership » (8 novembre 2026)",
+        "url": "https://kathmandupost.com/national/2026/11/08/building-trust-and-confidence-a-must-before-going-to-india-with-a-wish-list-experts-advise-nepali-leadership"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-australie-geants-tech-amendes-5-pour-cent-chiffre-affaires",
+    "date": "2026-11-24",
+    "region": "Asie",
+    "theme": "mix",
+    "zones": [
+      "Océanie"
+    ],
+    "geo": [
+      {
+        "coords": [
+          149.13,
+          -35.28
+        ],
+        "name": "Canberra, Australie",
+        "label": "Australie"
+      }
+    ],
+    "title": "Australie : Google et Meta risquent des amendes jusqu'à 5 % de leur chiffre d'affaires mondial, et les internautes pourront les poursuivre en justice",
+    "summary": "Le gouvernement australien d'Anthony Albanese a conclu mardi 24 novembre un accord avec les Verts pour faire voter son « devoir de vigilance numérique ». Les plateformes devront prévenir les dangers en ligne, sous peine d'amendes pouvant atteindre 5 % de leur chiffre d'affaires mondial, et les victimes pourront les attaquer en justice [1][2].",
+    "points": [
+      "La ministre des Communications, Anika Wells, a annoncé que des groupes comme Google et Meta pourraient payer jusqu'à 5 % de leur chiffre d'affaires mondial ; le texte initial plafonnait l'amende à 109 millions de dollars australiens, environ 72 millions de dollars américains [1].",
+      "Les plateformes devront vérifier et empêcher de façon active les dangers prévisibles pour leurs utilisateurs [1]. Le texte vise les réseaux sociaux, les moteurs de recherche, les magasins d'applications et les services d'intelligence artificielle générative ; les sites de petites entreprises jugés peu risqués sont exemptés [2].",
+      "Les Australiens obtiennent le droit de poursuivre une plateforme qui manque à ce devoir, et le régulateur d'Internet voit ses pouvoirs élargis pour faire retirer les fausses images dénudées créées par IA (« nudify ») [1].",
+      "L'opposition conservatrice s'oppose au texte au nom de la liberté d'expression ; le gouvernement avait donc besoin des Verts, qui réclamaient des sanctions plus lourdes et un droit à réparation pour les victimes [2][3].",
+      "Déjà adopté par la Chambre des représentants, le projet doit passer au Sénat cette semaine ; il devrait être voté d'ici jeudi prochain, dernière semaine de session de l'année [1][2].",
+      "Le Digital Industry Group, qui représente les plateformes, critique le texte ; il n'avait pas vu la nouvelle version au moment où il a été sollicité [2]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : avec une sanction calculée sur le chiffre d'affaires mondial, l'amende passe de quelques dizaines de millions à potentiellement des milliards de dollars pour les géants du numérique [1][2].",
+      "Les entreprises disent partager l'objectif de mieux protéger les enfants, mais la plupart s'opposent au texte, car il laisse aux fonctionnaires une marge pour décider de ce qui est « nuisible » ; elles craignent de devoir supprimer trop de contenus [1][2].",
+      "L'Australie est déjà pionnière : elle a voté en 2024 une loi fixant un âge minimum pour utiliser les réseaux sociaux [4]. Ce nouveau texte va plus loin, en rendant les plateformes responsables de ce qui s'y passe.",
+      "Le modèle ressemble au règlement européen sur les services numériques (DSA), qui prévoit aussi des amendes en pourcentage du chiffre d'affaires mondial. L'Australie rejoint donc le camp de la régulation, alors que Washington critique ce type de règles."
+    ],
+    "forMe": "Ce qui se décide en Australie sert souvent de test pour les autres pays. Si Google, Meta ou TikTok doivent changer leurs outils de modération là-bas, ces changements finissent souvent par s'appliquer ailleurs, y compris sur ton compte en France.",
+    "figures": [
+      {
+        "value": "5 %",
+        "label": "du chiffre d'affaires mondial : amende maximale prévue",
+        "src": 1
+      },
+      {
+        "value": "109 M$ AU",
+        "label": "plafond de l'amende dans la première version du texte",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "next": [
+      {
+        "when": "D'ici jeudi prochain",
+        "what": "Vote attendu du Parlement lors de la dernière semaine de session de l'année [2]."
+      }
+    ],
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "Alphabet (Google)",
+          "ticker": "GOOGL",
+          "why": "Cité par la ministre parmi les groupes exposés à une amende de 5 % du chiffre d'affaires mondial [1]."
+        },
+        {
+          "name": "Meta",
+          "ticker": "META",
+          "why": "Facebook et Instagram sont directement visés par le devoir de vigilance [1]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Reuters (The Star)",
+        "name": "Reuters via The Star, « Tech giants to face billions of dollars in fines under Australian internet safety bill » (24 novembre 2026)",
+        "url": "https://www.thestar.com.my/tech/tech-news/2026/11/24/tech-giants-to-face-billions-of-dollars-in-fines-under-australian-internet-safety-bill"
+      },
+      {
+        "short": "ABC News",
+        "name": "ABC News, « Federal politics live: Tech giants to face multi-billion-dollar fines under digital duty of care deal » (24 novembre 2026)",
+        "url": "https://www.abc.net.au/news/2026-11-24/federal-politics-live-blog-parliament-nov-24/107417818"
+      },
+      {
+        "short": "SBS",
+        "name": "SBS News, « Small businesses spared from online crackdown as crunch time looms for government » (novembre 2026)",
+        "url": "https://www.sbs.com.au/news/article/digital-duty-of-care-safety-bill-carve-outs/gcrra8bh4"
+      },
+      {
+        "short": "Wikipédia",
+        "name": "Wikipedia, « Online Safety Amendment (Social Media Minimum Age) Act 2024 »",
+        "url": "https://en.wikipedia.org/wiki/Online_Safety_Amendment_(Social_Media_Minimum_Age)_Act_2024"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-israel-eisenkot-coalition-vote-surprise",
+    "date": "2026-11-24",
+    "region": "Moyen-Orient",
+    "theme": "geo",
+    "zones": [
+      "Moyen-Orient"
+    ],
+    "geo": [
+      {
+        "coords": [
+          35.21,
+          31.77
+        ],
+        "name": "Jérusalem, Israël",
+        "label": "Israël"
+      }
+    ],
+    "title": "Israël : quatre semaines après les élections, Eisenkot prépare un vote surprise pour former son gouvernement, quitte à s'appuyer sur les partis arabes",
+    "summary": "Près d'un mois après les législatives du 27 octobre, Gadi Eisenkot n'a toujours pas de majorité pour remplacer Benyamin Netanyahou. Selon la presse israélienne, il veut annoncer une coalition par surprise et la faire voter en 24 à 48 heures, tandis que son allié Naftali Bennett diverge sur l'ultimatum à poser au Likoud [1][2][3].",
+    "points": [
+      "Le bloc de quatre partis d'Eisenkot a obtenu 48 des 120 sièges ; les alliés de Netanyahou en ont 53, dont 13 pour les partis ultra-orthodoxes, et les partis arabes 19 [4].",
+      "Le parti ultra-orthodoxe Judaïsme unifié de la Torah (7 sièges) a refusé de soutenir Netanyahou et négocie avec Eisenkot [4]. Un allié d'Eisenkot, Matan Kahana, a déjà été élu président de la Knesset [4].",
+      "Selon la chaîne publique Kan, Eisenkot compte annoncer qu'il a trouvé le moyen de former un gouvernement, puis organiser le vote de confiance sous 24 à 48 heures pour éviter manœuvres et défections [2][3].",
+      "Le 23 novembre, le Times of Israel rapportait qu'Eisenkot et Naftali Bennett étaient divisés sur l'idée de fixer une date limite au Likoud dans les discussions sur un gouvernement d'union [1].",
+      "Si aucune large coalition n'est possible, Eisenkot a dit qu'il formerait un « gouvernement d'urgence » [5] ; il pourrait alors gouverner en minorité avec le soutien des partis arabes [4].",
+      "En attendant, Benyamin Netanyahou reste Premier ministre chargé des affaires courantes [4]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : pour la première fois depuis des années, Netanyahou peut perdre le pouvoir, mais son rival n'a pas encore les 61 sièges nécessaires pour gouverner [4].",
+      "Le calcul est serré : même avec les 7 sièges de Judaïsme unifié de la Torah, le bloc d'Eisenkot n'atteindrait que 55 sièges [4]. D'où l'idée d'un appui des partis arabes, une option rare et très contestée en Israël.",
+      "Le changement ne serait pas que politique. Eisenkot, ancien chef d'état-major, a déclaré que l'Iran ne représentait pas une menace immédiate exigeant une action militaire, à rebours de Netanyahou [6]. Son arrivée pourrait changer la ligne d'Israël dans la guerre régionale.",
+      "Le Likoud peut encore jouer la montre et débaucher des élus : c'est pourquoi Eisenkot veut un vote rapide, au moment de son choix [3]."
+    ],
+    "forMe": "Qui gouverne Israël pèse sur la guerre avec l'Iran, donc sur le détroit d'Ormuz et le prix du pétrole. Un gouvernement moins enclin aux frappes contre Téhéran pourrait, à terme, faciliter la désescalade dans le Golfe.",
+    "figures": [
+      {
+        "value": "48 sièges sur 120",
+        "label": "pour le bloc d'Eisenkot, contre 53 aux alliés de Netanyahou",
+        "src": 4
+      },
+      {
+        "value": "19",
+        "label": "sièges des partis arabes, possibles faiseurs de roi",
+        "src": 4
+      },
+      {
+        "value": "24 à 48 h",
+        "label": "délai visé entre l'annonce de la coalition et le vote",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Times of Israel",
+        "name": "The Times of Israel, « Nov. 23: Eisenkot and Bennett reportedly split over giving Likud a deadline in unity talks » (23 novembre 2026)",
+        "url": "https://timesofisrael.com/liveblog-november-23-2026"
+      },
+      {
+        "short": "Jerusalem Post",
+        "name": "The Jerusalem Post, « Eisenkot intends to declare he has path to forming gov't, despite stalled coalition talks - report » (novembre 2026)",
+        "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-915780"
+      },
+      {
+        "short": "Times of Israel",
+        "name": "The Times of Israel, « Eisenkot said planning to declare coalition at surprise timing, call Knesset vote quickly to limit counter-maneuvers » (novembre 2026)",
+        "url": "https://www.timesofisrael.com/liveblog_entry/eisenkot-said-planning-to-declare-coalition-at-surprise-timing-call-knesset-vote-quickly-to-limit-counter-maneuvers/"
+      },
+      {
+        "short": "Fox News",
+        "name": "Fox News, « Israel's new Knesset sworn in as Eisenkot faces coalition challenge » (novembre 2026)",
+        "url": "https://www.foxnews.com/world/israels-political-shake-up-enters-new-phase-former-pm-plays-kingmaker-deadline-looms"
+      },
+      {
+        "short": "Times of Israel",
+        "name": "The Times of Israel, « Eisenkot: I'll form emergency government if efforts to establish 'broad' coalition fail » (novembre 2026)",
+        "url": "https://www.timesofisrael.com/eisenkot-ill-form-emergency-government-if-efforts-to-establish-broad-coalition-fail/"
+      },
+      {
+        "short": "Fox News",
+        "name": "Fox News, « Gadi Eisenkot says Iran poses no immediate threat needing military action » (novembre 2026)",
+        "url": "https://www.foxnews.com/world/israels-leading-contender-prime-minister-clashes-netanyahu-over-iran-strikes"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-chine-pakistan-shenzhou-24-premier-astronaute-etranger",
+    "date": "2026-11-24",
+    "region": "Asie",
+    "theme": "geo",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "coords": [
+          100.3,
+          40.96
+        ],
+        "name": "Jiuquan, Chine",
+        "label": "Chine"
+      },
+      {
+        "coords": [
+          73.05,
+          33.68
+        ],
+        "name": "Islamabad, Pakistan",
+        "label": "Pakistan"
+      }
+    ],
+    "title": "Espace : la Chine ouvre sa station à un premier étranger, le Pakistanais Muhammad Zeeshan Ali décolle mercredi avec Shenzhou-24",
+    "summary": "L'agence spatiale habitée chinoise a présenté mardi 24 novembre l'équipage de Shenzhou-24, qui doit décoller mercredi à 8 h 18 de Jiuquan. À bord, le Pakistanais Muhammad Zeeshan Ali, 40 ans, deviendra le premier astronaute étranger à rejoindre la station chinoise Tiangong, fruit d'un accord signé en 2025 [1][2][3].",
+    "points": [
+      "Le lancement est prévu mercredi 25 novembre à 8 h 18, heure de Pékin, depuis le centre de lancement de Jiuquan, dans le nord-ouest de la Chine [1][3].",
+      "Muhammad Zeeshan Ali, 40 ans, volera avec les Chinois Tang Hongbo et Wu Yi, selon l'agence Xinhua citant l'agence spatiale habitée chinoise (CMSA) [2]. Il avait été retenu parmi deux candidats de l'agence spatiale pakistanaise Suparco, avec Khurram Daud [4].",
+      "Ce sera le premier vol conjoint d'astronautes chinois et étrangers de l'histoire du programme spatial habité chinois [1]. Il découle d'un accord signé par la Chine et le Pakistan en février 2025 [2].",
+      "Le Pakistanais sera « spécialiste de charge utile », chargé d'expériences scientifiques. Il doit rester environ une semaine et rentrer à bord de Shenzhou-23 [2].",
+      "Il redescendra avec deux membres de Shenzhou-23 au terme de leurs six mois en orbite, Zhang Zhiyuan et Lai Ka-ying, première astronaute de Hong Kong [2].",
+      "Le troisième membre, Zhu Yangzhu, restera six mois de plus : ce serait le premier séjour d'un an en orbite pour la Chine [2]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : en invitant un Pakistanais, Pékin transforme sa station spatiale en outil diplomatique et récompense son plus proche allié en Asie du Sud [1][2].",
+      "Le Pakistan est le premier pays à profiter de cette ouverture, et pour lui c'est aussi une première : Muhammad Zeeshan Ali doit devenir le premier Pakistanais dans l'espace [3]. Le symbole compte face à l'Inde voisine, avec qui les relations restent tendues.",
+      "La Chine construit ainsi une alternative à la Station spatiale internationale, pilotée par les États-Unis, la Russie, l'Europe, le Japon et le Canada. Jusqu'ici, seuls des Chinois avaient séjourné dans Tiangong [1][4].",
+      "Le programme chinois accélère aussi en interne : après une première astronaute venue de Hong Kong, Pékin prépare son premier séjour d'un an en orbite [2]."
+    ],
+    "forMe": "L'espace devient un terrain d'influence, comme le commerce. Les pays qui ne peuvent pas envoyer d'astronautes avec les Américains ou les Européens ont désormais une autre porte : celle de Pékin, qui en fait un argument pour se rapprocher des pays du Sud.",
+    "figures": [
+      {
+        "value": "1er",
+        "label": "astronaute étranger à bord de la station chinoise Tiangong",
+        "src": 1
+      },
+      {
+        "value": "≈ 1 semaine",
+        "label": "durée du séjour prévu pour le Pakistanais",
+        "src": 2
+      },
+      {
+        "value": "1 an",
+        "label": "premier séjour de cette durée en orbite pour un Chinois, Zhu Yangzhu",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "next": [
+      {
+        "when": "25 novembre, 8 h 18 (heure de Pékin)",
+        "what": "Décollage de Shenzhou-24 depuis Jiuquan [1][3]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "Reuters (US News)",
+        "name": "Reuters via US News, « China to Launch Shenzhou-24 Spaceship With First Foreign Astronaut » (23-24 novembre 2026)",
+        "url": "https://www.usnews.com/news/world/articles/2026-11-23/china-to-launch-shenzhou-24-spaceship-with-first-foreign-astronaut"
+      },
+      {
+        "short": "AP",
+        "name": "AP via KSAT, « China unveils new space mission crew, with a Pakistani astronaut set to board its space station » (24 novembre 2026)",
+        "url": "https://www.ksat.com/news/world/2026/11/24/china-unveils-new-space-mission-crew-with-a-pakistani-astronaut-set-to-board-its-space-station/"
+      },
+      {
+        "short": "Dawn",
+        "name": "Dawn, « Pakistan's Zeeshan Ali among crew of China's Shenzhou-24 mission; liftoff scheduled for Nov 25 » (24 novembre 2026)",
+        "url": "https://www.dawn.com/news/2046714/pakistans-zeeshan-ali-set-to-become-countrys-first-astronaut-in-space-on-nov-25"
+      },
+      {
+        "short": "Gulf News",
+        "name": "Gulf News, « Pakistani astronaut to board Shenzhou 24 and become the first foreigner on China's space station » (novembre 2026)",
+        "url": "https://gulfnews.com/world/asia/pakistan/pakistani-astronaut-to-board-shenzhou-24-and-become-the-first-foreigner-on-chinas-space-station-1.500739205"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-equateur-elections-locales-noboa-adn",
+    "date": "2026-11-24",
+    "region": "Amériques",
+    "theme": "geo",
+    "zones": [
+      "Amérique latine"
+    ],
+    "geo": [
+      {
+        "coords": [
+          -78.47,
+          -0.18
+        ],
+        "name": "Quito, Équateur",
+        "label": "Équateur"
+      }
+    ],
+    "title": "Équateur : à cinq jours des élections locales, Daniel Noboa fait campagne en personne pour son parti, en tête des sondages à Quito, Guayaquil et Cuenca",
+    "summary": "Les Équatoriens éliront dimanche 29 novembre leurs maires, préfets et conseillers. 51 731 candidatures sont en lice. Le président Daniel Noboa sillonne le pays pour son parti ADN, qui vise jusqu'à 40 % des collectivités et mène dans les sondages des trois plus grandes villes [1][2][3][4].",
+    "points": [
+      "Le Conseil national électoral (CNE) a avancé ces élections locales au dimanche 29 novembre 2026 [1]. Elles désigneront les autorités des municipalités, des préfectures (provinces) et des conseils de paroisses rurales [3].",
+      "Le scrutin compte 51 731 candidatures [3]. À Quito, dix candidats briguent la mairie pour 2027-2031, dont le maire sortant Pabel Muñoz et l'ancien maire Jorge Yunda [5].",
+      "Le 23 novembre, douzième jour de campagne, Noboa a parcouru les rues de Riobamba, dans les Andes, aux côtés des candidats locaux d'ADN, la liste 7 [2]. Il avait annoncé prendre de 7 à 15 jours de congé pour faire campagne [6].",
+      "Noboa dit viser des élus ADN dans jusqu'à 40 % des gouvernements locaux [3]. Il avait exclu toute alliance, préférant présenter ses propres candidats [7].",
+      "Selon un sondage AtlasIntel-Talismán publié mi-novembre, Harold Burbano (ADN) obtient 26,5 % à Quito contre 23,5 % pour Pabel Muñoz ; à Guayaquil, Cynthia Viteri est en tête avec 43,2 % [8]. Les candidats d'ADN mènent aussi pour les préfectures du Guayas, du Pichincha et de l'Azuay [4]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : en prenant un congé pour faire campagne lui-même aux côtés de ses candidats, Noboa transforme un scrutin local en test national de sa popularité [2][6].",
+      "Le terrain n'est pas acquis partout. En 2025, dans la province côtière de Manabí, la candidate de gauche Luisa González avait obtenu 63,17 % contre 30,17 % pour Noboa [7]. La dispersion des voix entre de nombreuses listes sera l'un des facteurs décisifs [7].",
+      "À Quito, l'écart de trois points seulement entre le candidat d'ADN et le maire sortant laisse le résultat ouvert [8]. Gagner la capitale donnerait à Noboa un relais local précieux pour gouverner.",
+      "Noboa a justifié le calendrier par la menace climatique : il estime à 70 % la probabilité d'un épisode El Niño majeur, « la mère de tous les Niños » [1]."
+    ],
+    "forMe": "L'Équateur exporte vers l'Europe des bananes, des crevettes et du cacao que tu trouves en supermarché. Un pouvoir local stable compte pour ces filières, souvent touchées par l'insécurité et par les intempéries liées à El Niño.",
+    "figures": [
+      {
+        "value": "51 731",
+        "label": "candidatures pour les élections locales du 29 novembre",
+        "src": 3
+      },
+      {
+        "value": "26,5 % contre 23,5 %",
+        "label": "ADN contre le maire sortant à Quito, selon AtlasIntel-Talismán",
+        "src": 8
+      },
+      {
+        "value": "40 %",
+        "label": "part des collectivités que Noboa vise pour son parti",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "next": [
+      {
+        "when": "29 novembre",
+        "what": "Élections locales en Équateur : maires, préfets et conseillers [1][3]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "Primicias",
+        "name": "Primicias, « Tras adelanto de seccionales 2026, Noboa dice que hay un 70% de probabilidad de que 'venga la mamá de todos los Niños' » (2026)",
+        "url": "https://www.primicias.ec/politica/elecciones-seccionales-noviembre2026-daniel-noboa-fenomeno-nino-adn-correismo-ecuador-119356/"
+      },
+      {
+        "short": "La República",
+        "name": "La República (Équateur), « Décimo segundo día de campaña: Noboa recorre Riobamba junto a sus candidatos » (23 novembre 2026)",
+        "url": "https://www.larepublica.ec/blog/2026/11/23/decimo-segundo-dia-de-campana-noboa-recorre-riobamba-junto-a-sus-candidatos/"
+      },
+      {
+        "short": "El Diario",
+        "name": "El Diario (Équateur), « Elecciones seccionales de Ecuador: Noboa aspira a tener autoridades de ADN en hasta el 40% de los GAD » (11 novembre 2026)",
+        "url": "https://www.eldiario.ec/ecuador/elecciones-seccionales-de-ecuador-noboa-adn-11112026/"
+      },
+      {
+        "short": "El Universo",
+        "name": "El Universo, « Candidatos de ADN lideran intención de voto en Guayas, Pichincha y Azuay rumbo a los comicios del 29 de noviembre » (novembre 2026)",
+        "url": "https://www.eluniverso.com/politica/elecciones/encuestas-intension-de-voto-elecciones-29-de-noviembre-candidatos-accion-democratica-nacional-adn-guayas-pichincha-azuay-guayaquil-quito-cuenca-alcaldias-prefecturas-ecuador-2026-nota/"
+      },
+      {
+        "short": "Metro Ecuador",
+        "name": "Metro Ecuador, « Elecciones seccionales: conozca a los 10 candidatos a la Alcaldía de Quito y sus listas » (11 novembre 2026)",
+        "url": "https://www.metroecuador.com.ec/noticias/2026/11/11/elecciones-seccionales-conozca-a-los-10-candidatos-a-la-alcaldia-de-quito-y-sus-listas/"
+      },
+      {
+        "short": "Primicias",
+        "name": "Primicias, « Daniel Noboa pedirá licencia para campaña por elecciones seccionales en Ecuador » (2026)",
+        "url": "https://www.primicias.ec/politica/daniel-noboa-anuncio-licencia-campana-elecciones-seccionales-candidatos-adn-136537/"
+      },
+      {
+        "short": "Expreso",
+        "name": "Expreso, « ¿Cualquier resultado es \"ganancia\" para ADN? El verdadero desafío del partido de Noboa en 2026 » (2026)",
+        "url": "https://www.expreso.ec/politica/resultado-ganar-adn-verdadero-ret0-partido-noboa-2026-299244.html"
+      },
+      {
+        "short": "El Telégrafo",
+        "name": "El Telégrafo, « Elecciones 2026: ¿Quién lidera las encuestas en Quito, Guayaquil y Cuenca? » (novembre 2026)",
+        "url": "https://www.eltelegrafo.com.ec/noticias/elecciones-seccionales-2026/241/quito-guayaquil-cuenca-intenciones-voto-ciudades"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-petrole-mines-ormuz-brent-plus-bas",
+    "date": "2026-11-24",
+    "region": "Moyen-Orient",
+    "theme": "fin",
+    "zones": [
+      "Moyen-Orient",
+      "Europe",
+      "Asie"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "coords": [
+          56.5,
+          26.6
+        ],
+        "name": "Détroit d'Ormuz, Iran",
+        "label": "Iran"
+      }
+    ],
+    "title": "Pétrole : l'Iran dit que trois tankers ont sauté sur des mines à Ormuz, mais le Brent reste au plus bas depuis trois mois, sous 89 dollars",
+    "summary": "Les Gardiens de la révolution iraniens affirment que trois pétroliers ont pris feu lundi 23 novembre après avoir heurté des mines dans le détroit d'Ormuz. Pourtant, le baril de Brent recule encore : 88,97 dollars mardi matin, près de son plus bas depuis fin août. Le marché craint désormais trop de pétrole plutôt qu'une pénurie [1][2].",
+    "points": [
+      "Selon la marine des Gardiens de la révolution, citée par la télévision iranienne Press TV, trois pétroliers ont pris feu lundi après avoir touché des mines navales dans le détroit d'Ormuz. L'information n'a pas été confirmée de source indépendante [1][2].",
+      "Mardi matin en Asie, le Brent, la référence mondiale, perdait 0,45 % à 88,97 dollars le baril ; le WTI américain cédait 0,29 % à 79,94 dollars [1].",
+      "Lundi, le Brent a signé sa plus basse clôture depuis le 31 août, et le WTI est tombé en séance à son plus bas depuis le 26 août [10][1].",
+      "Les États-Unis cherchent aussi à savoir si l'Iran est derrière des cyberattaques visant jusqu'à 50 pétroliers, selon le Wall Street Journal cité par Reuters [1].",
+      "Le trafic ralentit pourtant : selon la société de données Kpler, environ 9,5 millions de barils par jour ont franchi Ormuz sur les dix jours jusqu'au 19 novembre, contre 12,2 millions en moyenne en octobre [4].",
+      "Côté offre, l'oléoduc libyen de Sharara a rouvert. La Deutsche Bank calcule que les stocks mondiaux observés ont gonflé de 52 millions de barils en octobre, soit un excédent de 1,7 million de barils par jour [1].",
+      "Daniel Hynes, analyste de la banque ANZ, nuance : le marché reste « sous forte tension » malgré l'amélioration des stocks [1][2]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : le prix du pétrole ne réagit plus aux menaces, mais aux chiffres de l'offre. Des pétroliers en feu à Ormuz, par où passaient encore 12,2 millions de barils par jour en octobre [4], auraient fait flamber les cours il y a quelques mois. Cette fois, le Brent baisse [1].",
+      "Pour le site investingLive, cette réaction très faible montre que l'essentiel de la « prime de risque » liée à la guerre a disparu, et que les prix suivent désormais les données de stocks [3]. Fin avril, au plus fort de la crise, le Brent avait touché 126,41 dollars [5] : il a perdu environ 37 dollars depuis.",
+      "La raison principale : le monde a de nouveau trop de pétrole. Les stocks remontent, la Libye pompe à nouveau, et la Deutsche Bank chiffre l'excédent à 1,7 million de barils par jour [1]. Mais ANZ prévient que le système passe d'une pénurie aiguë à une « vulnérabilité durable », pas à un retour à la normale [2].",
+      "Autrement dit, le prix est bas mais fragile : il repose sur l'idée que les incidents d'Ormuz restent limités. Une vraie coupure du détroit changerait tout."
+    ],
+    "forMe": "Un baril sous 90 dollars finit par se voir à la pompe, avec quelques semaines de retard, surtout sur le gazole. Mais ce prix reste fragile : il suffirait d'un incident plus grave à Ormuz pour qu'il remonte vite. Pour ton budget chauffage ou carburant de cet hiver, la tendance est plutôt bonne, sans garantie.",
+    "figures": [
+      {
+        "value": "88,97 $",
+        "label": "le baril de Brent mardi matin, près de son plus bas depuis fin août",
+        "src": 1
+      },
+      {
+        "value": "9,5 contre 12,2",
+        "label": "millions de barils par jour passés par Ormuz : mi-novembre contre octobre",
+        "src": 4
+      },
+      {
+        "value": "1,7 Mb/j",
+        "label": "excédent de pétrole estimé par la Deutsche Bank",
+        "src": 1
+      }
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : la « prime de risque » dans le prix du pétrole",
+        "text": "Le prix du baril dépend d'abord de l'offre et de la demande. Mais quand une guerre menace une route clé comme Ormuz, les acheteurs paient un supplément pour s'assurer d'être livrés : c'est la prime de risque. Elle gonfle vite et retombe vite. En juin 2019, après des attaques de pétroliers en mer d'Oman, le Brent a pris jusqu'à 4 % dans la journée [6], avant de finir sur une hausse d'environ 2 % [7]. Pendant la « guerre des tankers » des années 1980, les attaques n'ont pas entraîné de hausse durable du prix, rappelle Time [8]. Aujourd'hui, avec des stocks en hausse et un excédent estimé à 1,7 million de barils par jour [1], la prime a presque disparu [3] : une menace ne fait monter les prix que si le pétrole risque vraiment de manquer."
+      }
+    },
+    "past": {
+      "title": "Les précédents : quand des tankers sont attaqués dans le Golfe",
+      "items": [
+        {
+          "when": "24 juillet 1987",
+          "what": "Lors de la première escorte de l'US Navy, le pétrolier koweïtien Bridgeton, passé sous pavillon américain, heurte une mine iranienne près de l'île de Farsi, mais termine son voyage [9]. Selon Time, la guerre des tankers n'a ni fermé Ormuz ni entraîné de hausse durable du pétrole [8].",
+          "lesson": "Les mines sont spectaculaires, mais leur effet sur les prix reste limité quand le pétrole ne manque pas."
+        },
+        {
+          "when": "13 juin 2019",
+          "what": "Deux pétroliers sont attaqués en mer d'Oman. Le Brent bondit jusqu'à 4 % en séance [6], depuis un plus bas de cinq mois, puis termine la journée en hausse d'environ 2 % [7].",
+          "lesson": "Sans pénurie réelle, la flambée retombe en quelques heures."
+        },
+        {
+          "when": "30 avril 2026",
+          "what": "En pleine crise d'Ormuz, le Brent touche 126,41 dollars, son plus haut depuis quatre ans, avant de redescendre vers 115,8 dollars [5].",
+          "lesson": "Quand le pétrole manque vraiment, la prime de risque explose : c'est l'inverse de la situation actuelle."
+        }
+      ]
+    },
+    "culture": [],
+    "dossiers": [
+      "routes-maritimes"
+    ],
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "TotalEnergies",
+          "ticker": "TTE",
+          "why": "Ses revenus dépendent du prix du baril : un Brent au plus bas depuis fin août [10] pèse sur les recettes des pétroliers."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Reuters / Business Recorder",
+        "name": "Business Recorder (Reuters), « Oil holds near three-month low as rising supply offsets Hormuz threat » (24 novembre 2026)",
+        "url": "https://www.brecorder.com/news/40450477/oil-holds-near-three-month-low-as-rising-supply-offsets-hormuz-threat"
+      },
+      {
+        "short": "Reuters / KFGO",
+        "name": "KFGO (Reuters), « Oil holds near three-month low as rising supply offsets Hormuz threat » (23-24 novembre 2026)",
+        "url": "https://kfgo.com/2026/11/23/oil-holds-near-three-month-low-as-rising-supply-offsets-hormuz-threat/"
+      },
+      {
+        "short": "investingLive",
+        "name": "investingLive, « Iran says three tankers hit mines, yet oil sits near a three-month low as supply wins » (novembre 2026)",
+        "url": "https://investinglive.com/commodities/iran-says-three-tankers-hit-mines-yet-oil-sits-near-a-three-month-low-as-supply-wins/"
+      },
+      {
+        "short": "IranWire (Reuters)",
+        "name": "IranWire, « Oil prices slip as Hormuz transit slows and Houthi attacks widen » (novembre 2026)",
+        "url": "https://iranwire.com/en/news/160631-oil-prices-slip-as-hormuz-transit-slows-and-houthi-attacks-widen"
+      },
+      {
+        "short": "CNN",
+        "name": "CNN, « Oil briefly touches $126, its highest price in four years » (30 avril 2026)",
+        "url": "https://www.cnn.com/2026/04/30/energy/oil-prices-iran-war-wartime-high-blockade-hnk"
+      },
+      {
+        "short": "NBC News",
+        "name": "NBC News, « Oil prices spike by 4 percent after Gulf tanker attacks » (13 juin 2019)",
+        "url": "https://www.nbcnews.com/business/energy/oil-prices-spike-4-percent-after-gulf-tanker-attacks-n1017166"
+      },
+      {
+        "short": "OE Digital",
+        "name": "Offshore Engineer, « Oil Prices Jump 2% After Tanker Attacks » (13 juin 2019)",
+        "url": "https://www.oedigital.com/amp/news/467263-oil-prices-jump-2-after-tanker-attacks"
+      },
+      {
+        "short": "Time",
+        "name": "Time, « The Tanker War » (2019)",
+        "url": "https://time.com/5617054/tanker-war/"
+      },
+      {
+        "short": "Wikipedia",
+        "name": "Wikipedia, « Bridgeton incident »",
+        "url": "https://en.wikipedia.org/wiki/Bridgeton_incident"
+      },
+      {
+        "short": "Business Today",
+        "name": "Business Today (Malaisie), « Oil Prices Linger Near Three-Month Low Despite Strait Of Hormuz Risks » (24 novembre 2026)",
+        "url": "https://www.businesstoday.com.my/2026/11/24/oil-prices-linger-near-three-month-low-despite-strait-of-hormuz-risks/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-seoul-kospi-rebond-sidecar",
+    "date": "2026-11-24",
+    "region": "Asie",
+    "theme": "fin",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "coords": [
+          126.98,
+          37.57
+        ],
+        "name": "Séoul, Corée du Sud",
+        "label": "Corée du Sud"
+      }
+    ],
+    "title": "Séoul s'envole de près de 7 % au lendemain de son « lundi noir » : le Kospi repasse les 5 000 points, un coupe-circuit à la hausse déclenché",
+    "summary": "Mardi 24 novembre, la Bourse de Séoul a rebondi de 6,5 à 7 % selon les sources, portée par Samsung Electronics et SK Hynix. Le Kospi est repassé au-dessus de 5 000 points, la veille encore à 4 708. Le retour de Jensen Huang chez Nvidia a fait remonter les valeurs de l'IA dans toute l'Asie [1][5][7].",
+    "points": [
+      "Lundi, le Kospi était tombé en séance jusqu'à 4 586,80 points, sous 4 600 pour la première fois en dix mois, avant de clôturer à 4 708,54 [2][3].",
+      "Mardi, dès 9 h 06, l'indice gagnait 268,86 points (5,71 %) : un « sidecar » à l'achat s'est déclenché, suspendant cinq minutes les ordres d'achat automatiques [2]. Le même mécanisme a joué sur le Kosdaq, le marché des valeurs technologiques [14].",
+      "C'est le 29e sidecar à l'achat de l'année, et le 61e au total, à la hausse comme à la baisse [2][3].",
+      "Selon l'agence AP, le Kospi a gagné 6,5 % à 5 014,41 points, avec +7,5 % pour Samsung Electronics et +8,6 % pour SK Hynix [7]. Finimize fait état de +7,19 %, à 5 047,15 points [5].",
+      "En début de séance, SK Square, principal actionnaire de SK Hynix, grimpait de 11,47 % [4].",
+      "Les investisseurs étrangers sont revenus acheter, après avoir vendu pour 14 790 milliards de wons d'actions coréennes en novembre jusqu'à lundi [6][1].",
+      "Ailleurs en Asie, le Nikkei japonais a gagné environ 4 %, vers 58 670 points, au retour d'un jour férié, tandis que Hong Kong restait à la traîne [8]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : la Bourse coréenne est devenue un pari sur les puces de l'IA. Samsung et SK Hynix fabriquent les mémoires dont Nvidia a besoin. Quand Nvidia s'effondre, Séoul plonge ; quand Nvidia bondit de plus de 30 %, Séoul s'envole [1][7].",
+      "Ce rebond ne doit pas faire oublier la chute. Le Kospi avait atteint le 22 juin un record de 9 114,55 points en clôture, selon Wikipedia [13] : à environ 5 000 points, il reste plus de 40 % en dessous.",
+      "Le nombre de coupe-circuits dit aussi la nervosité du marché : 61 déclenchements depuis janvier [2]. Des écarts de 5 % en quelques minutes, à la hausse ou à la baisse, sont devenus presque banals.",
+      "Le retour des étrangers est le signal à surveiller. Ils ont retiré près de 15 000 milliards de wons en novembre [6] : s'ils reviennent durablement, le rebond peut tenir ; sinon, il restera un sursaut d'une journée."
+    ],
+    "forMe": "Si tu as un fonds « marchés émergents » ou « Asie », la Corée y pèse lourd, et Samsung souvent en tête. Ces écarts de 5 à 7 % par jour montrent que ces placements peuvent bouger très fort, dans les deux sens. Un rebond spectaculaire ne veut pas dire que la baisse est finie.",
+    "figures": [
+      {
+        "value": "+6,5 à +7,2 %",
+        "label": "hausse du Kospi mardi selon les sources",
+        "src": 7
+      },
+      {
+        "value": "61",
+        "label": "coupe-circuits « sidecar » déclenchés à Séoul depuis janvier",
+        "src": 2
+      },
+      {
+        "value": "9 114 contre 5 014",
+        "label": "points du Kospi : record de juin contre mardi",
+        "src": 13
+      }
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : le « sidecar », le frein automatique de la Bourse de Séoul",
+        "text": "La Bourse coréenne a deux freins. Le premier, le sidecar, se déclenche quand les contrats à terme sur l'indice Kospi 200 varient de plus de 5 % [10]. Il bloque alors pendant cinq minutes les ordres passés par les programmes informatiques [2], pour éviter que les robots n'amplifient le mouvement. Il existe à la hausse comme à la baisse : mardi, c'est un sidecar « à l'achat » qui a joué [2]. Le second frein, le coupe-circuit, est bien plus rare : il arrête toutes les cotations pendant 20 minutes quand l'indice chute de plus de 8 %, comme le 5 août 2024 [9]. Ces pauses ne changent pas la direction du marché, mais donnent aux investisseurs le temps de réfléchir."
+      }
+    },
+    "past": {
+      "title": "Les précédents : les grands sursauts de la Bourse de Séoul",
+      "items": [
+        {
+          "when": "24 mars 2020",
+          "what": "En pleine panique du Covid, le Kospi bondit de 8,6 % [10] et repasse 1 600 points ; un sidecar à l'achat se déclenche en séance [11].",
+          "lesson": "Les plus fortes hausses arrivent souvent juste après les pires chutes."
+        },
+        {
+          "when": "5 août 2024",
+          "what": "Sur des craintes de récession américaine, le Kospi chute de 8,77 % à 2 441,55 points, sa pire baisse en clôture ; les cotations sont suspendues 20 minutes [9].",
+          "lesson": "La Bourse coréenne amplifie les peurs venues des États-Unis."
+        },
+        {
+          "when": "5 mars 2026",
+          "what": "Le Kospi s'envole de 9,63 %, et le Kosdaq signe la plus forte hausse de son histoire [12].",
+          "lesson": "En 2026, les écarts géants sont devenus fréquents à Séoul, à la hausse comme à la baisse."
+        },
+        {
+          "when": "22 juin 2026",
+          "what": "Le Kospi clôture à un record de 9 114,55 points, selon Wikipedia, avant de perdre environ 44 % jusqu'à novembre [13].",
+          "lesson": "Même après un rebond de 7 %, l'indice reste très loin de son sommet."
+        }
+      ]
+    },
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs"
+    ],
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "Samsung Electronics",
+          "ticker": "005930",
+          "move": "+7,5 %",
+          "why": "Premier poids du Kospi et fabricant de mémoires pour l'IA, il a mené le rebond mardi selon l'AP [7]."
+        },
+        {
+          "name": "SK Hynix",
+          "ticker": "000660",
+          "move": "+8,6 %",
+          "why": "Grand fournisseur de mémoires de Nvidia, il profite directement du retour de confiance dans l'IA [7]."
+        },
+        {
+          "name": "SK Square",
+          "ticker": "402340",
+          "move": "+11,47 %",
+          "why": "Principal actionnaire de SK Hynix, elle a grimpé encore plus fort en début de séance [4]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "SBS",
+        "name": "SBS, « Kospi Reclaims 5,000 Milestone on Jensen Huang's Return; Buy Sidecar Triggered » (24 novembre 2026)",
+        "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008860818"
+      },
+      {
+        "short": "Asia Today",
+        "name": "Asia Today, « [속보] 코스피 5.8% 급등에 매수 사이드카 발동 » (24 novembre 2026)",
+        "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261124010009120"
+      },
+      {
+        "short": "Hankyung",
+        "name": "Korea Economic Daily (Hankyung), « 젠슨 황이 돌아왔다…코스피 5000선 돌파·매수 사이드카 발동 » (24 novembre 2026)",
+        "url": "https://www.hankyung.com/article/202611245819i"
+      },
+      {
+        "short": "Digital Today",
+        "name": "Digital Today, « KOSPI jumps 5 percent on Jensen Huang return; buy sidecar triggered » (24 novembre 2026)",
+        "url": "https://www.digitaltoday.co.kr/en/view/129753/kospi-surges-5percent-on-jensen-huang-return-buy-sidecar-triggered"
+      },
+      {
+        "short": "Finimize",
+        "name": "Finimize, « South Korea's KOSPI Jumps After Nvidia CEO U-Turn » (24 novembre 2026)",
+        "url": "https://finimize.com/content/south-koreas-kospi-jumps-after-nvidia-ceo-u-turn"
+      },
+      {
+        "short": "Seoul Economic Daily",
+        "name": "Seoul Economic Daily, « Financial Investment Accounts for 116% of Institutional Buying on KOSPI » (24 novembre 2026)",
+        "url": "https://en.sedaily.com/market/2026/11/24/financial-investment-accounts-for-116-percent-of"
+      },
+      {
+        "short": "AP / WSOC-TV",
+        "name": "WSOC-TV (AP), « Asian stocks rally after Wall Street rebound as Jensen Huang returns as Nvidia's CEO » (24 novembre 2026)",
+        "url": "https://wsoctv.com/news/business/asian-stocks-rally/GPAG5DRIAIYGPKY4M5I3M2K5UQ"
+      },
+      {
+        "short": "investingLive",
+        "name": "investingLive, « Asia-Pacific market news: Huang's return powers Asia's AI rebound » (24 novembre 2026)",
+        "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-huang-s-return-powers-asia-s-ai-rebound/"
+      },
+      {
+        "short": "Korea Times",
+        "name": "The Korea Times, « KOSPI tumbles over 8% on US recession fears » (5 août 2024)",
+        "url": "https://www.koreatimes.co.kr/amp/economy/20240805/kospi-tumbles-over-8-on-us-recession-fears"
+      },
+      {
+        "short": "Korea Times",
+        "name": "The Korea Times, « Seoul stocks rally on Trump's 90-day tariff delay » (10 avril 2025)",
+        "url": "https://www.koreatimes.co.kr/amp/economy/20250410/seoul-stocks-rally-on-trumps-90-day-tariff-delay"
+      },
+      {
+        "short": "Asia Business Daily",
+        "name": "The Asia Business Daily, « KOSPI Surges 8% on Institutional Buying... Recaptures 1600 Level » (24 mars 2020)",
+        "url": "https://www.asiae.co.kr/en/article/2020032416252348089"
+      },
+      {
+        "short": "Asia Business Daily",
+        "name": "The Asia Business Daily, « KOSPI Soars 9.63%... KOSDAQ Records Highest-Ever Gain » (5 mars 2026)",
+        "url": "https://www.asiae.co.kr/en/article/2026030515564535876"
+      },
+      {
+        "short": "Wikipedia",
+        "name": "Wikipedia, « KOSPI »",
+        "url": "https://en.wikipedia.org/wiki/KOSPI"
+      },
+      {
+        "short": "Newspim",
+        "name": "Newspim, « 코스닥 5% 급등에 '매수 사이드카' 발동 » (24 novembre 2026)",
+        "url": "https://www.newspim.com/news/view/20261124000312"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-paris-cac40-8000-oat",
+    "date": "2026-11-24",
+    "region": "Europe",
+    "theme": "fin",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          2.35,
+          48.86
+        ],
+        "name": "Paris, France",
+        "label": "France"
+      }
+    ],
+    "title": "Paris repasse les 8 000 points et l'État emprunte un peu moins cher : le CAC 40 gagne 1,5 %, STMicroelectronics bondit de 9 %",
+    "summary": "Lundi 23 novembre, le CAC 40 a gagné 1,48 % à 8 044,84 points, mettant fin à cinq séances de baisse. Les valeurs liées à l'IA, STMicroelectronics en tête (+8,96 %), ont mené la hausse. En parallèle, le taux d'emprunt de l'État français à dix ans a reculé vers 4,83 % [1][3][5].",
+    "points": [
+      "Le CAC 40 a pris 117,09 points (+1,48 %) à 8 044,84 points, après une chute de 1,89 % vendredi à 7 927,75 points [1].",
+      "L'indice parisien a ainsi mis fin à une série de cinq baisses consécutives [3]. Il repasse au-dessus des 8 000 points [2].",
+      "Le fabricant de puces STMicroelectronics a mené la hausse : +8,96 % à 40,01 euros. Legrand a gagné 4,20 % à 132,75 euros, et Schneider Electric 4,11 % à 235,85 euros [1][4].",
+      "À l'inverse, Orange a perdu 1,55 % à 14,88 euros et Carrefour 0,22 % à 13,47 euros [1].",
+      "Le déclencheur est venu des États-Unis : le retour de Jensen Huang à la tête de Nvidia a fait bondir l'action de plus de 30 % et entraîné les Bourses européennes [4][10].",
+      "Le rendement de l'OAT à dix ans, le taux auquel l'État français emprunte, est tombé à 4,833 %, contre 4,875 % à la séance précédente et 4,937 % le 19 novembre [5]. L'Agence France Trésor affiche 4,83 % [6].",
+      "« Les nouvelles du côté de Nvidia viennent balayer tout le reste, la réaction est très forte », résume une analyste citée par Boursorama [1]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : la Bourse de Paris dépend désormais beaucoup de l'humeur de Wall Street sur l'IA. STMicroelectronics, Legrand et Schneider Electric, qui fournissent puces, matériel électrique et équipements pour les centres de données, ont fait l'essentiel de la hausse [1][4].",
+      "Les valeurs défensives, comme Orange ou Carrefour, ont reculé [1] : quand les investisseurs reprennent confiance, ils vendent les titres refuges pour racheter les valeurs plus risquées.",
+      "La bonne nouvelle discrète vient du marché de la dette. Fin octobre, le taux à dix ans de la France avait dépassé 5 % [7][8]. Il est revenu à 4,83 % [5][6]. Chaque dixième de point compte : c'est le prix auquel l'État finance sa dette, et il sert de référence aux crédits des ménages et des entreprises.",
+      "Ce rebond d'une journée n'efface pas tout : le 17 novembre encore, le CAC 40 était à 8 216 points [9]. La Bourse reste suspendue aux prochaines nouvelles de Nvidia et de l'IA."
+    ],
+    "forMe": "Si tu as un PEA ou une assurance-vie en unités de compte, ce rebond rattrape une partie des pertes de la semaine dernière, pas toutes. Le recul du taux d'emprunt de l'État est plus important pour toi à moyen terme : s'il dure, il peut freiner la hausse des taux de crédit immobilier.",
+    "figures": [
+      {
+        "value": "8 044,84",
+        "label": "points pour le CAC 40 à la clôture lundi, +1,48 %",
+        "src": 1
+      },
+      {
+        "value": "+8,96 %",
+        "label": "pour STMicroelectronics, meilleure hausse du CAC 40",
+        "src": 1
+      },
+      {
+        "value": "4,83 % contre plus de 5 %",
+        "label": "taux d'emprunt de la France à 10 ans : lundi contre fin octobre",
+        "src": 6
+      }
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : le taux d'emprunt de l'État et la Bourse",
+        "text": "L'État français finance son déficit en vendant des obligations, les OAT. Leur rendement à dix ans est le prix que les investisseurs demandent pour lui prêter. Quand ils achètent davantage d'OAT, leur prix monte et leur rendement baisse : c'est ce qui s'est passé lundi, avec un taux passé de 4,875 % à 4,833 % [5]. Un taux plus bas aide la Bourse de deux façons. Il réduit le coût du crédit pour les entreprises. Et il rend les actions plus attrayantes par comparaison : quand une obligation sans risque rapporte moins, les investisseurs acceptent mieux le risque des actions. À l'inverse, fin octobre, quand le taux français a dépassé 5 % [7], les inquiétudes sur la dette publique pesaient sur les marchés."
+      }
+    },
+    "past": {
+      "title": "Les précédents : un mois de novembre agité à Paris",
+      "items": [
+        {
+          "when": "Fin octobre 2026",
+          "what": "Le rendement de l'OAT à dix ans dépasse 5 %, avant de repasser sous ce seuil [7][8].",
+          "lesson": "Le coût de la dette française reste sous surveillance : chaque recul est une bonne nouvelle pour le budget."
+        },
+        {
+          "when": "10 novembre 2026",
+          "what": "Le taux à dix ans de la France est revenu à 4,70 %, selon Bouygues Immobilier [8].",
+          "lesson": "Le taux est remonté vers 4,94 % le 19 novembre [5] : la détente n'est jamais acquise."
+        },
+        {
+          "when": "17 novembre 2026",
+          "what": "Le CAC 40 chute de 1,62 % à 8 216,78 points, rattrapé par la correction mondiale des valeurs de l'IA [9].",
+          "lesson": "Paris subit les secousses de l'IA même avec peu de valeurs technologiques."
+        },
+        {
+          "when": "20 novembre 2026",
+          "what": "Le CAC 40 recule de 1,89 % à 7 927,75 points, sous les 8 000 points [1].",
+          "lesson": "Le rebond de lundi n'a effacé qu'une partie des pertes de la semaine."
+        }
+      ]
+    },
+    "culture": [],
+    "dossiers": [
+      "inflation-taux",
+      "semi-conducteurs"
+    ],
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "STMicroelectronics",
+          "ticker": "STMPA",
+          "move": "+8,96 %",
+          "why": "Le fabricant franco-italien de puces a profité à plein du rebond des semi-conducteurs [1]."
+        },
+        {
+          "name": "Legrand",
+          "ticker": "LR",
+          "move": "+4,20 %",
+          "why": "Fournisseur de matériel électrique pour les centres de données, recherché avec les valeurs de l'IA [1][4]."
+        },
+        {
+          "name": "Schneider Electric",
+          "ticker": "SU",
+          "move": "+4,11 %",
+          "why": "Autre gagnant du thème des centres de données [1]."
+        },
+        {
+          "name": "Orange",
+          "ticker": "ORA",
+          "move": "-1,55 %",
+          "why": "Valeur défensive délaissée quand les investisseurs reprennent des risques [1]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Boursorama",
+        "name": "Boursorama, « La Bourse de Paris portée par la tech et le repli du taux d'emprunt français » (23 novembre 2026)",
+        "url": "https://www.boursorama.com/bourse/actualites/la-bourse-de-paris-portee-par-la-tech-et-le-repli-du-taux-d-emprunt-francais-da00db4bc41f8c3fe4a509089d13ee76"
+      },
+      {
+        "short": "BFM Bourse",
+        "name": "BFM Bourse, « Cac 40 : Propulsé par Wall Street (...), le CAC 40 termine en hausse d'1,5% et repasse au-dessus des 8.000 points » (23 novembre 2026)",
+        "url": "https://www.tradingsat.com/cac-40-FR0003500008/actualites/cac-40-propulse-par-wall-street-et-donc-par-l-ahurissant-comeback-de-jensen-huang-chez-nvidia-le-cac-40-termine-en-hausse-d-15-et-repasse-au-dessus-des-8000-points-1174281.html"
+      },
+      {
+        "short": "Boursorama",
+        "name": "Boursorama, « Nvidia ! » (23 novembre 2026)",
+        "url": "https://www.boursorama.com/bourse/actualites/nvidia-16c32046a980c4a606da49f88b18a50d"
+      },
+      {
+        "short": "ABC Bourse",
+        "name": "ABC Bourse, « CAC 40: La Bourse de Paris rebondit nettement grâce au come-back de Jensen Huang » (23 novembre 2026)",
+        "url": "https://www.abcbourse.com/marches/newsContent/706533"
+      },
+      {
+        "short": "Zonebourse",
+        "name": "Zonebourse, « Obligations France 10 ans - Taux d'intérêts » (23 novembre 2026)",
+        "url": "https://www.zonebourse.com/cours/taux-interet/FRANCE-10Y-CASH-146043504/"
+      },
+      {
+        "short": "Agence France Trésor",
+        "name": "Agence France Trésor, TEC 10 (23 novembre 2026)",
+        "url": "https://www.aft.gouv.fr/fr"
+      },
+      {
+        "short": "Option Finance",
+        "name": "Option Finance, « OAT, on se détend (un peu) » (26 octobre 2026)",
+        "url": "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-10-26-oat-on-se-detend-un-peu.html"
+      },
+      {
+        "short": "Bouygues Immobilier",
+        "name": "Bouygues Immobilier, « Taux d'intérêt en novembre 2026 » (novembre 2026)",
+        "url": "https://www.bouygues-immobilier.com/acheter-pour-habiter/optimiser-mes-couts/taux-du-mois"
+      },
+      {
+        "short": "Idéal Investisseur",
+        "name": "Idéal Investisseur, « CAC 40 drops at close: global AI correction catches up to Paris » (17 novembre 2026)",
+        "url": "https://www.ideal-investisseur.fr/en/stocks-cryptocurrencies/cac-40-drops-at-close-global-ai-correction-catches-up-to-paris-34026.html"
+      },
+      {
+        "short": "Zonebourse",
+        "name": "Zonebourse, « Les Bourses européennes terminent en forte hausse après le retour chez Nvidia » (23 novembre 2026)",
+        "url": "https://www.zonebourse.com/actualite-bourse/les-bourses-europeennes-terminent-en-forte-hausse-apres-le-retour-chez-nvidia-ce7851dadd81f426"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-abb-rachete-ziehl-abegg",
+    "date": "2026-11-24",
+    "region": "Europe",
+    "theme": "fin",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          8.54,
+          47.37
+        ],
+        "name": "Zurich, Suisse",
+        "label": "Suisse"
+      },
+      {
+        "coords": [
+          9.69,
+          49.28
+        ],
+        "name": "Künzelsau, Allemagne",
+        "label": "Allemagne"
+      }
+    ],
+    "title": "Refroidir les centres de données de l'IA : le suisse ABB rachète l'allemand Ziehl-Abegg pour 2,65 milliards de dollars, son action grimpe",
+    "summary": "Le groupe industriel suisse ABB a annoncé lundi 23 novembre le rachat de Ziehl-Abegg, fabricant familial allemand de ventilateurs et de moteurs, pour une valeur d'entreprise de 2,65 milliards de dollars. Le but : profiter du boom des centres de données, qu'il faut refroidir. L'action ABB a gagné plus de 2 % [1][2][5].",
+    "points": [
+      "ABB paie une valeur d'entreprise de 2,65 milliards de dollars, dette comprise, soit 2,22 milliards de dollars pour les actions, selon son communiqué cité par Evertiq [2].",
+      "Ziehl-Abegg fabrique des ventilateurs économes en énergie, des moteurs électriques et des systèmes de ventilation pour la climatisation, les centres de données et les ascenseurs. Il devrait réaliser environ 1,4 milliard de dollars de chiffre d'affaires en 2026 [2].",
+      "L'entreprise, détenue par une famille et non cotée, emploie environ 6 300 personnes en Europe, en Amérique et en Asie. ABB promet de garder son siège à Künzelsau, dans le Bade-Wurtemberg [3][4].",
+      "Les centres de données ont représenté environ 9 % du chiffre d'affaires d'ABB en 2025 : c'est son activité qui grandit le plus vite [1].",
+      "Le directeur général d'ABB, Morten Wierod, dit ne voir aucun ralentissement des investissements dans les centres de données, malgré la nervosité récente des marchés sur l'IA [1].",
+      "L'action ABB a gagné 1,3 % dès l'annonce [6], 2,1 % selon Reuters, et plus de 5 % en séance, jusqu'à 68,66 francs suisses [5]. Elle avait perdu 26,7 % depuis son record de 89,14 francs en juin [4].",
+      "La finalisation est attendue au second semestre 2027, sous réserve du feu vert des autorités [1][2]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : l'IA ne fait pas seulement vendre des puces. Les serveurs chauffent énormément, et il faut des ventilateurs, des moteurs et des systèmes de refroidissement pour les faire tourner. ABB achète un spécialiste de ces équipements [1][3].",
+      "C'est aussi un pari à contre-courant. Le rachat tombe en pleine correction des valeurs de l'IA, mais ABB juge la demande solide [1]. Les analystes de la Banque cantonale de Zurich jugent l'opération cohérente avec l'histoire des acquisitions d'ABB [4].",
+      "Le rachat s'inscrit dans une course aux spécialistes du refroidissement : en 2025, l'américain Eaton avait déjà racheté Boyd Thermal [8][9]. ABB veut porter la marge de sa nouvelle filiale au niveau de sa division Motion d'ici trois ans [2].",
+      "Pour l'Allemagne, c'est un nouveau fleuron du Mittelstand, ces entreprises familiales industrielles, qui passe sous contrôle étranger. La promesse de garder le siège à Künzelsau compte donc beaucoup [3]."
+    ],
+    "forMe": "Si tu détiens un fonds actions européennes, ABB et Schneider Electric en font souvent partie : ces groupes profitent du boom de l'IA sans fabriquer de puces. C'est une façon moins risquée, mais pas sans risque, d'être exposé à ce thème. Pour l'emploi en Europe, le maintien du siège allemand est une bonne nouvelle.",
+    "figures": [
+      {
+        "value": "2,65 Md$",
+        "label": "valeur d'entreprise de Ziehl-Abegg, dette comprise",
+        "src": 2
+      },
+      {
+        "value": "6 300",
+        "label": "salariés de Ziehl-Abegg en Europe, Amérique et Asie",
+        "src": 3
+      },
+      {
+        "value": "9 %",
+        "label": "part des centres de données dans le chiffre d'affaires d'ABB en 2025",
+        "src": 1
+      }
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : valeur d'entreprise et prix des actions",
+        "text": "Dans un rachat, deux prix circulent. La valeur des actions (equity value) est ce que l'acheteur verse aux propriétaires : ici 2,22 milliards de dollars [2]. La valeur d'entreprise ajoute les dettes que l'acheteur reprend : ici 2,65 milliards [2]. La différence, environ 430 millions, correspond donc surtout à la dette nette de Ziehl-Abegg. Pour comparer les rachats, les analystes divisent la valeur d'entreprise par le chiffre d'affaires ou par le bénéfice. Eaton a payé Boyd Thermal 9,5 milliards de dollars, soit 22,5 fois son bénéfice d'exploitation attendu en 2026 [8], pour 1,7 milliard de ventes [9]. ABB paie Ziehl-Abegg moins de 2 fois ses ventes [2] : une entreprise moins spécialisée dans le refroidissement liquide, mais aussi moins chère."
+      }
+    },
+    "past": {
+      "title": "Les précédents : la course aux spécialistes du refroidissement",
+      "items": [
+        {
+          "when": "Octobre 2024",
+          "what": "Le français Schneider Electric achète 75 % de l'américain Motivair, spécialiste du refroidissement liquide des centres de données, pour 850 millions de dollars en espèces [7].",
+          "lesson": "Les géants européens de l'électricité ont commencé tôt à acheter des briques de refroidissement."
+        },
+        {
+          "when": "8 octobre 2025",
+          "what": "ABB vend sa division robotique au japonais SoftBank pour 5,375 milliards de dollars, au lieu de l'introduire en Bourse. L'activité pesait 2,3 milliards de dollars de ventes, environ 7 % du groupe [10][11].",
+          "lesson": "ABB se recentre sur l'électrification et les moteurs : Ziehl-Abegg s'inscrit dans cette stratégie."
+        },
+        {
+          "when": "3 novembre 2025",
+          "what": "L'américain Eaton rachète Boyd Thermal pour 9,5 milliards de dollars, soit 22,5 fois son bénéfice d'exploitation attendu en 2026 ; 1,5 des 1,7 milliard de ventes viennent du refroidissement liquide [8][9].",
+          "lesson": "Le refroidissement pour l'IA se paie très cher : ABB achète moins cher, mais moins spécialisé."
+        }
+      ]
+    },
+    "culture": [],
+    "dossiers": [],
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "ABB",
+          "ticker": "ABBN",
+          "move": "+2,1 %",
+          "why": "L'acheteur : son action a gagné 2,1 % selon Reuters, et plus de 5 % en séance, après un recul de 26,7 % depuis juin [5][4]."
+        },
+        {
+          "name": "Schneider Electric",
+          "ticker": "SU",
+          "move": "+4,11 %",
+          "why": "Concurrent français, propriétaire de Motivair [7] : il a gagné 4,11 % à Paris le même jour, porté par le rebond des valeurs liées à l'IA [12]."
+        }
+      ]
+    },
+    "next": [
+      {
+        "when": "Second semestre 2027",
+        "what": "Finalisation prévue du rachat, sous réserve des autorisations des autorités de la concurrence [1][2]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "Bloomberg / swissinfo",
+        "name": "swissinfo.ch (Bloomberg), « ABB Buys German Data Center Cooling Firm for $2.2 Billion » (23 novembre 2026)",
+        "url": "https://www.swissinfo.ch/eng/abb-buys-german-data-center-cooling-firm-for-$2.2-billion/92422021"
+      },
+      {
+        "short": "Evertiq",
+        "name": "Evertiq, « ABB to acquire Ziehl-Abegg for $2.65 billion » (23 novembre 2026)",
+        "url": "https://evertiq.com/news/2026-11-23-abb-to-acquire-ziehl-abegg-for-265-billion"
+      },
+      {
+        "short": "Data Centre Magazine",
+        "name": "Data Centre Magazine, « ABB to Acquire Ziehl-Abegg in US$2.65bn Cooling Deal » (novembre 2026)",
+        "url": "https://datacentremagazine.com/news/abb-to-acquire-ziehl-abegg-in-us-2-65bn-cooling-deal"
+      },
+      {
+        "short": "cash.ch",
+        "name": "cash.ch, « Das sind die kritischen Punkte bei der ABB-Übernahme von Ziehl-Abegg » (23 novembre 2026)",
+        "url": "https://www.cash.ch/news/top-news/das-sind-die-kritischen-punkte-bei-der-abb-ubernahme-von-ziehl-abegg-987284"
+      },
+      {
+        "short": "Börsen-Zeitung",
+        "name": "Börsen-Zeitung, « Was deutsche Ventilatorenbauer so attraktiv macht » (23 novembre 2026)",
+        "url": "https://www.boersen-zeitung.de/konjunktur-politik/auch-abb-will-sich-einen-ventilatorenbauer-sichern"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com Allemagne, « Milliardendeal im Kühlungssektor: Warum die ABB-Aktie heute zulegt » (23 novembre 2026)",
+        "url": "https://de.investing.com/news/stock-market-news/milliardendeal-im-kuhlungssektor-warum-die-abbaktie-heute-zulegt-93CH-3781586"
+      },
+      {
+        "short": "Reuters / Yahoo",
+        "name": "Yahoo Finance (Reuters), « Schneider Electric to buy data centre cooling firm Motivair for $850 million » (17 octobre 2024)",
+        "url": "https://uk.finance.yahoo.com/news/schneider-electric-buy-data-centre-054956215.html"
+      },
+      {
+        "short": "Business Wire",
+        "name": "Business Wire, « Eaton Signs Agreement to Acquire Boyd Thermal... » (3 novembre 2025)",
+        "url": "https://www.businesswire.com/news/home/20251103856036/en/Eaton-Signs-Agreement-to-Acquire-Boyd-Thermal-Expanding-Solutions-for-Data-Center-Customers-to-Include-Critical-Liquid-Cooling-Technology"
+      },
+      {
+        "short": "Fierce Network",
+        "name": "Fierce Network, « Eaton will acquire Boyd Thermal for $9.5B » (novembre 2025)",
+        "url": "https://www.fierce-network.com/newswire/eaton-will-acquire-boyd-thermal-95b"
+      },
+      {
+        "short": "Bloomberg",
+        "name": "Bloomberg, « SoftBank to Buy ABB's Robotics Arm in $5.4 Billion Deal » (8 octobre 2025)",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-08/softbank-to-buy-abb-s-robotics-arm-in-5-4-billion-deal"
+      },
+      {
+        "short": "RTÉ",
+        "name": "RTÉ, « SoftBank to buy ABB's robotics business » (8 octobre 2025)",
+        "url": "https://www.rte.ie/news/business/2025/1008/1537391-softbank-abb-robots-deal"
+      },
+      {
+        "short": "Boursorama",
+        "name": "Boursorama, « La Bourse de Paris portée par la tech et le repli du taux d'emprunt français » (23 novembre 2026)",
+        "url": "https://www.boursorama.com/bourse/actualites/la-bourse-de-paris-portee-par-la-tech-et-le-repli-du-taux-d-emprunt-francais-da00db4bc41f8c3fe4a509089d13ee76"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-yen-160-intervention-boj",
+    "date": "2026-11-24",
+    "region": "Asie",
+    "theme": "fin",
+    "zones": [
+      "Asie",
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "coords": [
+          139.69,
+          35.69
+        ],
+        "name": "Tokyo, Japon",
+        "label": "Japon"
+      }
+    ],
+    "title": "Yen : le dollar bute juste sous 160 yens, la ligne où Tokyo et Washington étaient intervenus ensemble cet été",
+    "summary": "Mardi 24 novembre, le dollar valait environ 158,95 yens en Asie, après avoir frôlé 160 yens. Les cambistes redoutent une nouvelle intervention de Tokyo, qui avait dépensé un record de 15 400 milliards de yens l'été dernier, en partie avec Washington. La Banque du Japon pourrait relever ses taux le 18 décembre [1][3][11].",
+    "points": [
+      "Mardi matin en Asie, le dollar reculait vers 158,95 yens : la crainte d'une intervention des autorités japonaises soutient la monnaie nippone [1].",
+      "Les cambistes voient le seuil de 160 yens pour un dollar comme un possible déclencheur d'une nouvelle intervention, même si ce chiffre n'a rien d'officiel [1][14]. Lundi, le yen avait d'abord faibli, l'envolée de Wall Street poussant les investisseurs vers des placements plus risqués [2].",
+      "La ministre des Finances, Satsuki Katayama, a mis en garde contre des mouvements de change « à sens unique », alors que le dollar a passé une bonne partie de novembre juste sous 160 yens [3].",
+      "Les marchés à terme donnent environ 85 % de chances à une hausse des taux de la Banque du Japon le 18 décembre [3]. Une majorité d'économistes interrogés par Reuters l'attendent à 1,5 %, contre 1,25 % aujourd'hui [4].",
+      "Au sein de la Banque du Japon, Toichiro Asada appelle pourtant à la prudence : relever trop vite les taux pourrait casser l'inflation durable que le pays a mis des années à obtenir [5].",
+      "En face, l'inflation américaine reste forte et les marchés parient sur des hausses de taux de la Fed, ce qui garde l'écart de taux en faveur du dollar [6][1].",
+      "Prochain test : l'indice des prix PCE, la mesure d'inflation préférée de la Fed, publié mercredi aux États-Unis [1]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : le yen faiblit parce que l'argent rapporte bien plus aux États-Unis qu'au Japon. Les investisseurs empruntent en yens, à 1,25 % [4], pour placer en dollars à des taux plus élevés. Tant que cet écart reste grand, le yen a du mal à remonter [1].",
+      "Tokyo dispose de deux armes. La première est l'intervention : vendre des dollars de ses réserves pour acheter des yens. Elle a déjà servi trois fois en quatre ans, sans inverser la tendance [8][9][11].",
+      "La seconde est la hausse des taux de la Banque du Japon, qui réduirait l'écart avec les États-Unis. Avec une inflation sous-jacente de 2,2 % en octobre [1], une hausse en décembre devient probable [3]. Mais la banque centrale hésite à freiner trop une économie fragile [5].",
+      "La décision dépend aussi de Washington : une inflation américaine forte mercredi pousserait le dollar vers 160 yens, et rapprocherait une intervention [1]."
+    ],
+    "forMe": "Un yen faible rend le Japon moins cher pour un touriste français : ton budget hôtels et restaurants là-bas va plus loin. À l'inverse, les voitures et l'électronique japonaises deviennent plus compétitives face aux produits européens. Si une intervention survient, le yen peut bondir de plusieurs pour cent en quelques heures.",
+    "figures": [
+      {
+        "value": "158,95",
+        "label": "yens pour un dollar mardi matin, tout près du seuil de 160",
+        "src": 1
+      },
+      {
+        "value": "15 400 Md¥",
+        "label": "yens achetés par Tokyo lors des interventions de l'été 2026, un record",
+        "src": 11
+      },
+      {
+        "value": "85 %",
+        "label": "probabilité d'une hausse des taux japonais le 18 décembre, selon les marchés",
+        "src": 3
+      }
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : une intervention sur le marché des changes",
+        "text": "Quand le yen tombe trop vite, le ministère japonais des Finances peut ordonner à la Banque du Japon de vendre des dollars, pris dans les réserves du pays, et d'acheter des yens. Cette demande soudaine fait remonter le yen. En septembre 2022, une telle opération a fait gagner jusqu'à 2,6 % au yen en quelques heures [7]. Mais l'effet est souvent temporaire : l'intervention ne change pas l'écart de taux entre le Japon et les États-Unis, qui pousse le yen à la baisse [15]. C'est pourquoi Tokyo cherche à surprendre les marchés, et pourquoi une action commune avec Washington, comme le 31 juillet 2026 [12][13], pèse davantage : elle montre que les deux pays veulent la même chose."
+      }
+    },
+    "past": {
+      "title": "Les précédents : Tokyo au secours du yen",
+      "items": [
+        {
+          "when": "22 septembre 2022",
+          "what": "Le yen tombe à 145,90 pour un dollar, au plus bas depuis 1998. Tokyo achète des yens pour la première fois depuis 1998 [7] et dépense 2 840 milliards de yens (19,7 milliards de dollars) en septembre [8].",
+          "lesson": "Le yen remonte sur le coup, mais l'écart de taux avec les États-Unis reste intact [15]."
+        },
+        {
+          "when": "Avril-mai 2024",
+          "what": "Après un plus bas de 34 ans, à 160,245 yens pour un dollar, le Japon dépense 9 790 milliards de yens (62 milliards de dollars) entre fin avril et fin mai, un record à l'époque [9], sans réussir à inverser durablement la baisse du yen [10].",
+          "lesson": "C'est de là que vient la ligne des 160 yens surveillée par les marchés."
+        },
+        {
+          "when": "30 juillet-août 2026",
+          "what": "Tokyo achète un record de 15 400 milliards de yens, dont 7 980 milliards le seul 30 juillet [11]. Le 31 juillet, le Trésor américain achète 79,4 milliards de yens (environ 497 millions de dollars) : une action commune, une première depuis 1998 [12][13].",
+          "lesson": "Même avec l'appui de Washington, le dollar est revenu vers 159-160 yens en quatre mois [1][11]."
+        }
+      ]
+    },
+    "culture": [],
+    "dossiers": [
+      "dollar",
+      "inflation-taux"
+    ],
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "Toyota",
+          "ticker": "7203",
+          "why": "Les exportateurs japonais gagnent plus quand le yen est faible ; une intervention ou une hausse des taux qui fait remonter le yen réduit cet avantage [1][3]."
+        }
+      ]
+    },
+    "next": [
+      {
+        "when": "25 novembre 2026",
+        "what": "Publication de l'indice des prix PCE aux États-Unis, prochain test pour le dollar face au yen [1]."
+      },
+      {
+        "when": "18 décembre 2026",
+        "what": "Décision de la Banque du Japon, avec environ 85 % de chances d'une hausse des taux selon les marchés à terme [3][4]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "FXStreet",
+        "name": "FXStreet, « Japanese Yen strengthens amid intervention fears, traders await US PCE inflation data » (24 novembre 2026)",
+        "url": "https://www.fxstreet.com/news/japanese-yen-strengthens-amid-intervention-fears-traders-await-us-pce-inflation-data-202611240135"
+      },
+      {
+        "short": "FXStreet",
+        "name": "FXStreet, « Japanese Yen weakens as Nvidia-led stock rally boosts risk appetite » (23 novembre 2026)",
+        "url": "https://fxstreet.com/news/japanese-yen-weakens-as-nvidia-led-stock-rally-boosts-risk-appetite-202611231815"
+      },
+      {
+        "short": "Trading and Investment News",
+        "name": "Trading and Investment News, « USD JPY Falls From 160 to 158.8 as Equity Rout Lifts Yen » (novembre 2026)",
+        "url": "https://tradingandinvestmentnews.co.uk/usd-jpy-yen-equity-rout"
+      },
+      {
+        "short": "Reuters / Investing.com",
+        "name": "Investing.com (Reuters), « Analysis-BOJ's ambiguity on rate hike path could tempt yen bears » (novembre 2026)",
+        "url": "https://www.investing.com/news/economy-news/analysisbojs-ambiguity-on-rate-hike-path-could-tempt-yen-bears-5040426"
+      },
+      {
+        "short": "investingLive",
+        "name": "investingLive, « BOJ policymaker Asada urges caution on further rate hikes even as December move remains firmly in play » (novembre 2026)",
+        "url": "https://investinglive.com/central-banks/boj-policymaker-asada-urges-caution-on-further-rate-hikes-even-as-december-move-remains-firmly-in-play/"
+      },
+      {
+        "short": "FXStreet",
+        "name": "FXStreet, « United States Dollar Index softens below 104.50, renewed AI euphoria underpins Fed hike bets » (24 novembre 2026)",
+        "url": "https://fxstreet.com/news/united-states-dollar-index-softens-below-10450-renewed-ai-euphoria-underpins-fed-hike-bets-202611240415"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Japan intervenes in FX market to stem yen falls after BOJ keeps low rates » (22 septembre 2022)",
+        "url": "https://www.cnbc.com/2022/09/22/japan-intervenes-in-fx-market-to-stem-yen-falls-after-boj-keeps-low-rates.html"
+      },
+      {
+        "short": "BNN Bloomberg",
+        "name": "BNN Bloomberg, « Japan spent $19.7 billion in September forex market intervention » (30 septembre 2022)",
+        "url": "https://www.bnnbloomberg.ca/japan-spent-19-7-billion-in-september-forex-market-intervention-1.1826177"
+      },
+      {
+        "short": "Business Standard (AFP)",
+        "name": "Business Standard, « Japan spent $62 bn to support yen after it fell to 34 yr low last month » (31 mai 2024)",
+        "url": "https://www.business-standard.com/world-news/japan-spent-62-bn-to-support-yen-after-it-fell-to-34-yr-low-last-month-124053101978_1.html"
+      },
+      {
+        "short": "Asia Financial",
+        "name": "Asia Financial, « Japan spent record $62 billion in failed effort to prop up yen » (mai 2024)",
+        "url": "https://www.asiafinancial.com/japan-spent-record-62-billion-in-failed-effort-to-prop-up-yen"
+      },
+      {
+        "short": "Bloomingbit",
+        "name": "Bloomingbit, « Japan Spent ¥15.4 Trillion Over Three Days to Support Yen; US Joint Intervention Boosted Currency » (2026)",
+        "url": "https://en.bloomingbit.io/feed/news/123937"
+      },
+      {
+        "short": "Reuters / Investing.com",
+        "name": "Investing.com (Reuters), « US Treasury bought yen in July; Fed made no solo FX interventions in Q3 » (2026)",
+        "url": "https://www.investing.com/news/economy-news/us-treasury-bought-yen-in-july-fed-made-no-solo-fx-interventions-in-q3-5023447"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Bessent attacks Warren over yen intervention query, offers 'Foreign Exchange for Dummies' lesson » (28 août 2026)",
+        "url": "https://www.cnbc.com/2026/08/28/bessent-warren-yen-intervention-treasury-japan.html"
+      },
+      {
+        "short": "FXStreet",
+        "name": "FXStreet, « Japanese Yen hovers near 160.00 as intervention fears limit downside » (13 novembre 2026)",
+        "url": "https://www.fxstreet.com/news/japanese-yen-languishes-near-16000-intervention-threshold-as-usd-bulls-retain-control-202611130204"
+      },
+      {
+        "short": "BNN Bloomberg",
+        "name": "BNN Bloomberg, « Japan's Historic Intervention Fails to Alter Forces Sapping Yen » (22 septembre 2022)",
+        "url": "https://www.bnnbloomberg.ca/japan-s-historic-intervention-fails-to-alter-forces-sapping-yen-1.1822475"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-texas-pacific-land-rachete-eaglerock",
+    "date": "2026-11-24",
+    "region": "Amériques",
+    "theme": "fin",
+    "zones": [
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "coords": [
+          -102.08,
+          31.99
+        ],
+        "name": "Midland, États-Unis",
+        "label": "États-Unis"
+      },
+      {
+        "coords": [
+          -95.37,
+          29.76
+        ],
+        "name": "Houston, États-Unis",
+        "label": "États-Unis"
+      }
+    ],
+    "title": "Bassin permien : Texas Pacific Land rachète EagleRock pour 3 milliards de dollars payés en actions, la cible bondit, l'acheteur recule",
+    "summary": "Lundi 23 novembre, Texas Pacific Land, grand propriétaire de terres pétrolières au Texas, a annoncé le rachat d'EagleRock Land, basé à Houston [2], pour environ 3 milliards de dollars, payés entièrement en actions. L'action EagleRock a bondi de 10 à 15 % ; celle de l'acheteur a reculé de près de 3 % [1][3][5].",
+    "points": [
+      "Les actionnaires d'EagleRock recevront 0,0831 action du nouveau groupe pour chaque action détenue, soit environ 23,56 dollars par titre sur la base du cours moyen de Texas Pacific Land sur cinq jours au 20 novembre [1][6].",
+      "Après l'opération, les actionnaires de Texas Pacific Land détiendront environ 86 % du groupe, ceux d'EagleRock 14 % [1].",
+      "Le rachat ajoute environ 59 000 acres de terres en pleine propriété dans le bassin de Delaware, au Nouveau-Mexique, et augmente de près de 40 % les surfaces dans le bassin de Midland [1][3].",
+      "Il apporte aussi une capacité de traitement d'environ 220 000 barils par jour d'« eau produite », l'eau salée qui remonte avec le pétrole [1][3].",
+      "La direction attend environ 45 millions de dollars par an de gains liés au rapprochement [1]. Les deux conseils d'administration ont approuvé l'accord à l'unanimité [7].",
+      "L'action EagleRock a bondi de 10,8 % selon GuruFocus, jusqu'à 15 % selon Seeking Alpha [4][3]. Texas Pacific Land a reculé de près de 3 % en fin de séance, dans un marché en forte hausse [5].",
+      "Le conseil de Texas Pacific Land a aussi porté son programme de rachat d'actions à 500 millions de dollars au total [5]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : dans le pétrole de schiste américain, ceux qui gagnent le plus régulièrement ne sont pas toujours les foreurs, mais les propriétaires du sol. Ils louent leurs terres, vendent l'accès et gèrent l'eau, quel que soit le foreur : c'est ce « portefeuille de terres et d'eau » que TPL agrandit [3].",
+      "L'eau est devenue un enjeu clé : chaque baril extrait du bassin permien remonte avec de grandes quantités d'eau salée qu'il faut transporter et traiter. Avec 220 000 barils par jour de capacité en plus [1], Texas Pacific Land renforce une activité moins dépendante du prix du brut.",
+      "Le moment est particulier : le Brent est tombé près de son plus bas depuis trois mois, sous 89 dollars [8]. Payer en actions plutôt qu'en espèces permet à l'acheteur de garder sa trésorerie, et partage le risque avec les vendeurs [1].",
+      "Le recul de l'action de l'acheteur [5] montre que ses actionnaires s'inquiètent de la dilution : leurs titres représenteront 86 % du nouveau groupe, au lieu de 100 % [1]."
+    ],
+    "forMe": "Cette opération ne te touche pas directement, mais elle montre comment le pétrole américain se réorganise : les acteurs se regroupent par des rachats. Si tu as un fonds actions américaines, ces sociétés de « terres et redevances » y figurent parfois : leurs revenus restent liés au prix du baril.",
+    "figures": [
+      {
+        "value": "3 Md$",
+        "label": "valeur du rachat, payé entièrement en actions",
+        "src": 1
+      },
+      {
+        "value": "86 % contre 14 %",
+        "label": "répartition du nouveau groupe entre actionnaires de TPL et d'EagleRock",
+        "src": 1
+      },
+      {
+        "value": "220 000",
+        "label": "barils d'eau produite traités par jour, apportés par EagleRock",
+        "src": 1
+      }
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : un rachat payé en actions",
+        "text": "Dans un rachat « tout en actions », l'acheteur ne verse pas d'argent : il donne ses propres actions. On fixe une parité d'échange, ici 0,0831 action du nouveau groupe pour une action EagleRock [1]. La valeur reçue par le vendeur change donc chaque jour avec le cours de l'acheteur. Annoncée à environ 23,56 dollars par action sur la base du cours moyen au 20 novembre [1], elle baisse si l'action Texas Pacific Land recule, comme lundi [5]. Avantage pour l'acheteur : il garde sa trésorerie. Inconvénient : ses actionnaires sont dilués, ici à 86 % du nouveau groupe [1]. C'est le même type d'opération que le rachat de Zscaler par CrowdStrike, annoncé le même jour [9]."
+      }
+    },
+    "past": {
+      "title": "Les précédents : rachats en actions et en espèces",
+      "items": [
+        {
+          "when": "Octobre 2017",
+          "what": "La fusion « entre égaux » d'environ 20 milliards de dollars entre le suisse Clariant et l'américain Huntsman est abandonnée le 27 octobre, après que des fonds activistes ont acheté plus de 20 % de Clariant pour s'y opposer [11].",
+          "lesson": "Un rachat en actions doit convaincre les actionnaires des deux côtés : ici, le vote d'EagleRock reste à obtenir [1]."
+        },
+        {
+          "when": "17 novembre 2026",
+          "what": "Le finlandais Iceye offre 2,05 milliards d'euros en espèces, 41 euros par action, pour l'italien Avio, environ 20 % au-dessus du cours ; l'action Avio gagne plus de 13 % [10].",
+          "lesson": "Avec des espèces, le vendeur connaît le prix exact ; avec des actions, il dépend du cours de l'acheteur."
+        },
+        {
+          "when": "23 novembre 2026",
+          "what": "Le même jour, CrowdStrike annonce le rachat de Zscaler pour environ 43,9 milliards de dollars, entièrement en actions, avec une prime d'environ 34 % [9].",
+          "lesson": "En pleine correction boursière, les acheteurs préfèrent payer en actions plutôt que vider leur trésorerie."
+        }
+      ]
+    },
+    "culture": [],
+    "dossiers": [],
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "Texas Pacific Land",
+          "ticker": "TPL",
+          "move": "-3 % environ",
+          "why": "L'acheteur : son action a reculé de près de 3 % en fin de séance, ses actionnaires étant dilués à 86 % du nouveau groupe [5][1]."
+        },
+        {
+          "name": "EagleRock Land",
+          "ticker": "EROK",
+          "move": "+10,8 à +15 %",
+          "why": "La cible : son action a bondi vers le prix proposé, environ 23,56 dollars par action [4][3][1]."
+        }
+      ]
+    },
+    "next": [
+      {
+        "when": "Premier semestre 2027",
+        "what": "Finalisation prévue, après le vote des actionnaires d'EagleRock et l'expiration du délai d'examen antitrust américain (Hart-Scott-Rodino) ; les actionnaires de TPL n'ont pas à voter [1][6]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « TPL to acquire EagleRock Land for $3 billion in all-stock deal » (23 novembre 2026)",
+        "url": "https://uk.investing.com/news/stock-market-news/tpl-to-acquire-eaglerock-land-for-3-billion-in-allstock-deal-93CH-4998779"
+      },
+      {
+        "short": "Houston Chronicle",
+        "name": "Houston Chronicle, « Houston's EagleRock acquired for $3 billion by Texas Pacific Land » (23 novembre 2026)",
+        "url": "https://www.houstonchronicle.com/business/energy/article/houston-s-eaglerock-acquired-3-billion-texas-22545828.php"
+      },
+      {
+        "short": "Seeking Alpha",
+        "name": "Seeking Alpha, « Texas Pacific Land to buy EagleRock in ~$3B deal, expanding Permian land and water reach; EROK shares rally 15% » (23 novembre 2026)",
+        "url": "https://seekingalpha.com/news/4675514-texas-pacific-land-to-buy-eaglerock-in-3b-deal-expanding-permian-land-and-water-reach-erok-shares-rally-15"
+      },
+      {
+        "short": "GuruFocus",
+        "name": "GuruFocus, « EagleRock Land (EROK) Stock Is Up 10.8% Today: Texas Pacific Land Acquisition » (23 novembre 2026)",
+        "url": "https://www.gurufocus.com/news/9215543/eaglerock-land-erok-stock-is-up-108-today-texas-pacific-land-acquisition"
+      },
+      {
+        "short": "The Motley Fool",
+        "name": "The Motley Fool, « Why Texas Pacific Land Stock Was Slumping While the Market Surged Today » (23 novembre 2026)",
+        "url": "https://www.fool.com/investing/2026/11/23/why-texas-pacific-land-stock-was-slumping-while-the-market-surged-today/"
+      },
+      {
+        "short": "SEC",
+        "name": "SEC, Texas Pacific Land Corp, formulaire 8-K, pièce 99.2 (23 novembre 2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001811074/000119312526472518/d166244dex992.htm"
+      },
+      {
+        "short": "Benzinga",
+        "name": "Benzinga, « EagleRock Stock Spikes on $3B Deal With Texas Pacific Land » (23 novembre 2026)",
+        "url": "https://www.benzinga.com/m-a/26/11/63539390/eaglerock-stock-spikes-on-3b-deal-with-texas-pacific-land"
+      },
+      {
+        "short": "Reuters / Business Recorder",
+        "name": "Business Recorder (Reuters), « Oil holds near three-month low as rising supply offsets Hormuz threat » (24 novembre 2026)",
+        "url": "https://www.brecorder.com/news/40450477/oil-holds-near-three-month-low-as-rising-supply-offsets-hormuz-threat"
+      },
+      {
+        "short": "TechCrunch",
+        "name": "TechCrunch, « CrowdStrike to acquire Zscaler for $44 billion » (23 novembre 2026)",
+        "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Avio shares surge after Iceye makes € 2.05 billion takeover bid » (novembre 2026)",
+        "url": "https://www.investing.com/news/stock-market-news/avio-shares-surge-after-iceye-makes--205-billion-takeover-bid-5031961"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Activist investors torpedo Clariant-Huntsman $20 billion merger » (27 octobre 2017)",
+        "url": "https://www.cnbc.com/2017/10/27/activist-investors-torpedo-clariant-huntsman-20-billion-merger.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-allemagne-ig-metall-greve-23000-mercedes",
+    "date": "2026-11-24",
+    "level": 2,
+    "region": "Europe",
+    "theme": "eco",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          9.99,
+          53.55
+        ],
+        "name": "Hambourg, Allemagne",
+        "label": "Allemagne"
+      }
+    ],
+    "title": "Allemagne : IG Metall appelle 23 000 ouvriers du Nord à 24 heures de grève, de Mercedes aux chantiers navals",
+    "summary": "Le premier syndicat allemand, IG Metall, a appelé environ 23 000 salariés de 19 sites du nord de l'Allemagne à une grève d'avertissement de 24 heures ce lundi 23 novembre, pour obtenir des hausses de salaire [1][2].",
+    "points": [
+      "Sont concernés notamment Mercedes-Benz, le chantier naval Meyer Werft et le fabricant d'éoliennes Siemens Gamesa, de Hambourg à Brême et au Schleswig-Holstein [1].",
+      "IG Metall réclame 5 % d'augmentation ; le patronat ne propose aucune hausse durable pendant 20 mois, puis 1,3 % à partir de juillet 2028 [1].",
+      "Vendredi, les grèves avaient déjà mobilisé 151 000 salariés dans tout le pays, selon le syndicat [1]. Dans le Nord, les négociations pour 130 000 salariés sont bloquées après trois rounds [1]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : le conflit salarial de la métallurgie, cœur de l'industrie allemande, s'étend [1][3].",
+      "Il éclate pourtant au moment où l'activité du secteur privé allemand atteint son plus haut niveau depuis 56 mois, selon les indices PMI publiés lundi [4]."
+    ],
+    "forMe": "Si tu attends une voiture Mercedes ou des pièces fabriquées dans le nord de l'Allemagne, des retards ponctuels sont possibles si les grèves se répètent.",
+    "figures": [
+      {
+        "value": "5 % contre 1,3 %",
+        "label": "hausse demandée par IG Metall contre offre patronale (à partir de 2028)",
+        "src": 1
+      },
+      {
+        "value": "23 000",
+        "label": "salariés appelés à la grève sur 19 sites",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "Mercedes-Benz",
+          "ticker": "MBG",
+          "why": "Ses sites du nord de l'Allemagne font partie des usines appelées à la grève [1][2]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Reuters (Yahoo)",
+        "name": "Yahoo News, « German industrial strikes widen as IG Metall calls 23,000 workers to walk out » (22 novembre 2026)",
+        "url": "https://www.yahoo.com/news/world/articles/german-industrial-strikes-widen-ig-021854003.html"
+      },
+      {
+        "short": "Yahoo News",
+        "name": "Yahoo News, « Mercedes, BMW hit by 24-hour strikes as German pay dispute widens » (23 novembre 2026)",
+        "url": "https://www.yahoo.com/news/world/articles/mercedes-bmw-hit-24-hour-120055825.html"
+      },
+      {
+        "short": "Euronext",
+        "name": "Euronext, « German car and shipyard workers set to strike as IG Metall union extends walkout » (novembre 2026)",
+        "url": "https://live.euronext.com/en/financial-news/german-car-and-shipyard-workers-set-strike-ig-metall-union-extends-walkout"
+      },
+      {
+        "short": "Reuters (mlq.ai)",
+        "name": "Reuters via mlq.ai, « Flash PMIs: Germany's growth hits a 56-month high as France slumps and the euro zone holds steady » (23 novembre 2026)",
+        "url": "https://mlq.ai/news/flash-pmis-germanys-growth-hits-a-56-month-high-as-france-slumps-and-the-euro-zone-holds-steady/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-espagne-derniers-sondages-sanchez-rattrape-feijoo",
+    "date": "2026-11-24",
+    "level": 2,
+    "region": "Europe",
+    "theme": "geo",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          -3.7,
+          40.42
+        ],
+        "name": "Madrid, Espagne",
+        "label": "Espagne"
+      }
+    ],
+    "title": "Espagne : à cinq jours des législatives, Sánchez réduit l'écart avec Feijóo, mais la droite et Vox gardent la majorité absolue dans les sondages",
+    "summary": "Les sondages publiés le 23 novembre, avant les législatives anticipées du 29, montrent un PSOE de Pedro Sánchez qui se rapproche du Parti populaire d'Alberto Núñez Feijóo. L'alliance PP-Vox resterait toutefois au-dessus des 176 sièges de la majorité [1][2][3].",
+    "points": [
+      "Pour El Español, le PP obtiendrait 32 % et 133 sièges, le PSOE 29 % et 115 sièges ; la droite totaliserait 196 sièges avec Vox [1].",
+      "Pour Target Point (El Debate), l'avance du PP passe de 3,6 à 2,7 points en huit jours, avec 31,5 % des intentions de vote [2].",
+      "Sigma Dos (El Mundo) donne 190 sièges au PP et à Vox. Seul le CIS, l'institut public, place Sánchez en tête, avec 7,8 points d'avance [3]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : la dernière semaine se joue sur l'écart PP-PSOE, mais aucune projection ne donne à la gauche de quoi gouverner [1][3].",
+      "Selon 40dB, les partis susceptibles de soutenir Sánchez n'atteindraient que 158 sièges [3]."
+    ],
+    "forMe": "Une victoire de la droite avec Vox changerait la politique migratoire et budgétaire de la quatrième économie de la zone euro, un pays voisin où vivent et voyagent de nombreux Français.",
+    "figures": [
+      {
+        "value": "190 à 196",
+        "label": "sièges promis au PP et à Vox (majorité : 176 sur 350)",
+        "src": 1
+      },
+      {
+        "value": "2,7 points",
+        "label": "avance du PP sur le PSOE selon Target Point, contre 3,6 huit jours avant",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "next": [
+      {
+        "when": "29 novembre",
+        "what": "Élections législatives anticipées en Espagne [1]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "El Español",
+        "name": "El Español, « Último sondeo : Feijóo y Sánchez al alza, con 3 puntos y 20 escaños a favor del PP y mayoría absoluta de la derecha de 196 » (23 novembre 2026)",
+        "url": "https://www.elespanol.com/espana/politica/20261123/ultimo-sondeo-feijoo-sanchez-alza-puntos-escanos-favor-pp-mayoria-absoluta-derecha/1003744469260_0.html"
+      },
+      {
+        "short": "El Debate",
+        "name": "El Debate, « Feijóo y Sánchez crecen y pelean por el primer puesto, pero la mayoría absoluta de la derecha sigue sólida » (23 novembre 2026)",
+        "url": "https://www.eldebate.com/espana/20261123/feijoo-sanchez-crecen-pelean-primer-puesto-mayoria-absoluta-derecha-sigue-solida_483831.html"
+      },
+      {
+        "short": "The Objective",
+        "name": "The Objective, « Así van las encuestas de las elecciones generales 2026 en España : CIS, GAD3, Sigma Dos, 40dB » (23 novembre 2026)",
+        "url": "https://theobjective.com/espana/politica/2026-11-23/encuestas-elecciones-generales-2026-espana/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-mexique-pib-troisieme-trimestre-peso",
+    "date": "2026-11-24",
+    "level": 2,
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "coords": [
+          -99.13,
+          19.43
+        ],
+        "name": "Mexico, Mexique",
+        "label": "Mexique"
+      }
+    ],
+    "title": "Mexique : la croissance confirmée à 3,3 % sur un an, sa plus forte hausse depuis trois ans, mais le peso tombe à son plus bas depuis douze mois",
+    "summary": "L'institut statistique mexicain (INEGI) a confirmé le 23 novembre une croissance de 0,9 % au troisième trimestre et de 3,3 % sur un an. Le même jour, le dollar a fini à 19,18 pesos, le peso le plus faible depuis au moins un an [1][2][3].",
+    "points": [
+      "C'est la plus forte hausse annuelle du PIB mexicain depuis trois ans [2]. Les services ont progressé de 3,6 % sur un an, l'industrie de 2,7 % [1].",
+      "De janvier à septembre, l'économie a crû de 1,9 % par rapport à la même période de 2025 [1].",
+      "Le dollar a clôturé à 19,1775 pesos ; le peso valait encore 16,88 pour un dollar début septembre [3]. La Bourse de Mexico a pris 1,26 % grâce à ces chiffres [3]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : l'économie résiste, mais la monnaie souffre de la perspective de hausses de taux de la Fed, qui attire les capitaux vers le dollar [3].",
+      "Un peso faible aide les exportateurs mexicains, mais renchérit les importations et complique les négociations commerciales avec Washington."
+    ],
+    "forMe": "Si tu prépares un voyage au Mexique, ton euro y va plus loin qu'en septembre. Les entreprises françaises qui y produisent, dans l'automobile ou l'aéronautique, profitent d'une croissance solide.",
+    "figures": [
+      {
+        "value": "+3,3 %",
+        "label": "PIB du Mexique sur un an au 3e trimestre",
+        "src": 1
+      },
+      {
+        "value": "19,18 contre 16,88",
+        "label": "pesos pour un dollar, le 23 novembre contre début septembre",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "dollar"
+    ],
+    "sources": [
+      {
+        "short": "Excélsior",
+        "name": "Excélsior, « El PIB crece 3.3% anual, con un 0.9% durante el tercer trimestre: Inegi » (23 novembre 2026)",
+        "url": "https://www.excelsior.com.mx/finanzas/pib-crece-3-3-anual-con-0-9-tercer-trimestre-inegi"
+      },
+      {
+        "short": "El CEO",
+        "name": "El CEO, « PIB de México crece 3.3% en el tercer trimestre, su mayor alza en tres años: Inegi » (23 novembre 2026)",
+        "url": "https://elceo.com/economia/pib-mexico-tercer-trimestre-2026-inegi-cifras-revisadas/"
+      },
+      {
+        "short": "Rio Times",
+        "name": "The Rio Times, « Mexico Stocks Rise 1.26% on Growth Data » (23 novembre 2026)",
+        "url": "https://www.riotimesonline.com/mexico-markets-ipc-peso-monday-november-23-2026"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-cuba-deficit-electrique-recession",
+    "date": "2026-11-24",
+    "level": 2,
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique latine"
+    ],
+    "geo": [
+      {
+        "coords": [
+          -82.37,
+          23.11
+        ],
+        "name": "La Havane, Cuba",
+        "label": "Cuba"
+      }
+    ],
+    "title": "Cuba : l'électricité ne couvre même pas la moitié des besoins aux heures de pointe, sur fond d'une chute de l'économie de plus de 10 % en 2026",
+    "summary": "Pour le 23 novembre, la compagnie électrique cubaine prévoyait 1 105 mégawatts disponibles face à une demande de 2 800 mégawatts aux heures de pointe. L'île vit sa pire année économique depuis longtemps, avec une contraction estimée à 10,2 % [1][2].",
+    "points": [
+      "L'Union électrique (UNE) prévoyait une coupure touchant 1 725 mégawatts au moment de la plus forte demande [1].",
+      "Le 4 novembre, le réseau national s'est effondré pour la sixième fois en 2026 ; la récolte de canne à sucre est paralysée faute de carburant [3].",
+      "Selon un économiste cubain, le PIB reculerait de 10,2 % en 2026, la deuxième pire chute depuis 2008 ; les salaires tourneraient autour de 8 dollars par mois et l'inflation autour de 28 % [2][4]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : sans carburant, Cuba ne peut ni produire d'électricité ni faire tourner son économie [3].",
+      "Les coupures à répétition font fuir les touristes, principale source de devises de l'île, ce qui l'empêche d'acheter le carburant qui lui manque : un cercle vicieux [3][4]."
+    ],
+    "forMe": "Si tu envisages des vacances à Cuba, attends-toi à des coupures de courant de plusieurs heures, y compris hors des grandes villes. Renseigne-toi auprès de ton hôtel sur ses groupes électrogènes.",
+    "figures": [
+      {
+        "value": "1 105 MW contre 2 800 MW",
+        "label": "électricité disponible face à la demande de pointe, le 23 novembre",
+        "src": 1
+      },
+      {
+        "value": "-10,2 %",
+        "label": "chute estimée du PIB cubain en 2026",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "sanctions"
+    ],
+    "sources": [
+      {
+        "short": "Directorio Cubano",
+        "name": "Directorio Cubano, « Apagones en Cuba: prevén 1725 MW de afectación este 23 de noviembre » (23 novembre 2026)",
+        "url": "https://www.directoriocubano.info/noticias/apagones-cuba-23-noviembre-2026-actualizacion-20261123/"
+      },
+      {
+        "short": "Infobae",
+        "name": "Infobae, « La economía cubana registra una contracción del 10.2%, la segunda mayor caída desde 2008 » (17 novembre 2026)",
+        "url": "https://www.infobae.com/cuba/2026/11/17/la-economia-cubana-registra-una-contraccion-del-102-la-segunda-mayor-caida-desde-2008/"
+      },
+      {
+        "short": "Infobae",
+        "name": "Infobae, « Seis colapsos eléctricos totales, escasez de combustible y una advertencia concreta para quienes planean visitar Cuba en 2026 » (14 novembre 2026)",
+        "url": "https://www.infobae.com/cuba/2026/11/14/seis-colapsos-electricos-totales-escasez-de-combustible-y-una-advertencia-concreta-para-quienes-planean-visitar-cuba-en-2026/"
+      },
+      {
+        "short": "CiberCuba",
+        "name": "CiberCuba, « An economist confirms: 2026 will be one of the worst years for the Cuban economy, with a GDP contraction of 10.2% » (18 novembre 2026)",
+        "url": "https://en.cibercuba.com/noticias/2026-11-18-u1-e199894-s27061-nid345993-economista-cubano-confirma-2026-peores-anos-economia"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-jamaique-dons-ouragan-melissa-detournes-odpem",
+    "date": "2026-11-24",
+    "level": 2,
+    "region": "Amériques",
+    "theme": "geo",
+    "zones": [
+      "Amérique latine"
+    ],
+    "geo": [
+      {
+        "coords": [
+          -76.79,
+          18
+        ],
+        "name": "Kingston, Jamaïque",
+        "label": "Jamaïque"
+      }
+    ],
+    "title": "Jamaïque : des dons pour les sinistrés de l'ouragan Melissa détournés, l'opposition exige la démission du chef de l'agence des catastrophes et des comptes du Premier ministre Holness",
+    "summary": "Le chef de l'opposition jamaïcaine, Mark Golding, réclame depuis le 23 novembre que le Premier ministre Andrew Holness s'explique devant le Parlement. Un audit a révélé que l'agence des catastrophes (ODPEM) a utilisé hors de leur objet environ 33 millions de dollars jamaïcains de dons destinés aux victimes de l'ouragan Melissa [1][2][3].",
+    "points": [
+      "Selon le rapport de l'auditeur général, cet argent, prélevé sur un compte de dons réservé à la réparation des toits et aux logements provisoires, a servi à payer des frais de dédouanement de marchandises pour des tiers [3][4].",
+      "L'ODPEM n'a pu justifier que 19 millions de dollars jamaïcains, soit 2,2 %, des quelque 859 millions de fournitures de secours déclarées [3].",
+      "Golding demande le départ du directeur général de l'ODPEM, Alvin Gayle, et la publication de tous les dons reçus [2][3]. Holness affirme : « Ce n'est pas ma décision », renvoyant la responsabilité à l'agence [4]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : l'opposition refuse que la faute reste celle d'une agence et veut que le chef du gouvernement en assume la responsabilité politique [1][2].",
+      "L'agence s'est engagée à rembourser le compte de dons, mais la confiance des donateurs, y compris étrangers, est en jeu pour la reconstruction [3]."
+    ],
+    "forMe": "Si tu as donné pour les sinistrés de la Jamaïque, privilégie les ONG qui publient des comptes détaillés : c'est précisément ce que l'audit reproche à l'agence publique.",
+    "figures": [
+      {
+        "value": "2,2 %",
+        "label": "des fournitures de secours déclarées que l'agence a pu justifier",
+        "src": 3
+      },
+      {
+        "value": "33 millions J$",
+        "label": "de dons utilisés hors de leur objet",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Jamaica Observer",
+        "name": "Jamaica Observer, « Holness must answer for $33m diversion of hurricane relief funds, says Golding » (23 novembre 2026)",
+        "url": "https://www.jamaicaobserver.com/2026/11/23/holness-must-answer-33m-diversion-hurricane-relief-funds-says-golding/"
+      },
+      {
+        "short": "Gleaner",
+        "name": "The Gleaner, « Golding demands Holness accept responsibility for ODPEM failures » (24 novembre 2026)",
+        "url": "https://jamaica-gleaner.com/article/news/20261124/golding-demands-holness-accept-responsibility-odpem-failures"
+      },
+      {
+        "short": "Gleaner",
+        "name": "The Gleaner, « Golding calls for ODPEM chief Alvin Gayle to step down over audit findings » (24 novembre 2026)",
+        "url": "https://jamaica-gleaner.com/article/news/20261124/golding-calls-odpem-chief-alvin-gayle-step-down-over-audit-findings"
+      },
+      {
+        "short": "Gleaner",
+        "name": "The Gleaner, « PM: It wasn't me » (20 novembre 2026)",
+        "url": "https://jamaica-gleaner.com/article/news/20261120/pm-it-wasnt-me"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-cote-divoire-berd-bureau-abidjan",
+    "date": "2026-11-24",
+    "level": 2,
+    "region": "Afrique",
+    "theme": "eco",
+    "zones": [
+      "Afrique",
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          -4.03,
+          5.33
+        ],
+        "name": "Abidjan, Côte d'Ivoire",
+        "label": "Côte d'Ivoire"
+      }
+    ],
+    "title": "Côte d'Ivoire : la BERD ouvre un bureau à Abidjan et signe 250 millions d'euros avec Société Générale pour prêter aux entreprises",
+    "summary": "La présidente de la Banque européenne pour la reconstruction et le développement (BERD), Odile Renaud-Basso, est arrivée lundi 23 novembre à Abidjan pour sa première visite officielle, jusqu'au 25. Elle y inaugure un bureau et prévoit 250 millions d'euros de nouveaux engagements [1][2].",
+    "points": [
+      "Le bureau de la BERD a été inauguré lundi à l'Ivoire Trade Center, dans le quartier de Cocody [2].",
+      "La BERD et Société Générale Côte d'Ivoire ont conclu un partenariat de 250 millions d'euros pour faciliter le crédit aux entreprises ivoiriennes [3].",
+      "Selon SenePlus, il comprend notamment une enveloppe de partage des risques de 100 millions d'euros et une ligne de financement du commerce de 50 millions [4].",
+      "Ces engagements s'ajouteraient aux plus de 200 millions d'euros déjà investis par la BERD dans le pays [2]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : la BERD, banque de développement européenne, s'installe physiquement à Abidjan et concentre son aide sur le crédit aux entreprises ivoiriennes [2][3].",
+      "Le partage des risques veut dire que la BERD prend à sa charge une partie des pertes si un emprunteur ne rembourse pas : la banque peut ainsi prêter à des entreprises qu'elle jugeait trop risquées [4]."
+    ],
+    "forMe": "Société Générale Côte d'Ivoire est une filiale du groupe français : une partie de l'argent européen pour l'Afrique passe par des banques françaises.",
+    "figures": [
+      {
+        "value": "250 M€",
+        "label": "partenariat BERD-Société Générale Côte d'Ivoire",
+        "src": 3
+      },
+      {
+        "value": "+ de 200 M€",
+        "label": "déjà investis par la BERD dans le pays",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "Société Générale",
+          "ticker": "GLE.PA",
+          "why": "Sa filiale ivoirienne partage avec la BERD le risque de nouveaux prêts aux entreprises [3]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Agence Ecofin",
+        "name": "Agence Ecofin, « La BERD prévoit 275 millions $ d'investissements supplémentaires en Côte d'Ivoire » (23 novembre 2026)",
+        "url": "https://www.agenceecofin.com/actualites-finance/2311-143696-la-berd-prevoit-275-millions-d-investissements-supplementaires-en-cote-d-ivoire"
+      },
+      {
+        "short": "Linfodrome",
+        "name": "Linfodrome, « Visite d'Odile Renaud-Basso : la BERD ouvrira son bureau à Abidjan et prévoit 250 millions d'euros » (23 novembre 2026)",
+        "url": "https://www.linfodrome.com/economie/127893-visite-d-odile-renaud-basso-la-berd-ouvrira-son-bureau-a-abidjan-et-prevoit-250-millions-d-euros"
+      },
+      {
+        "short": "Financial Afrik",
+        "name": "Financial Afrik, « Côte d'Ivoire : la BERD et Société Générale mobilisent 250 millions d'euros pour financer les entreprises » (23 novembre 2026)",
+        "url": "https://www.financialafrik.com/2026/11/23/cote-divoire-la-berd-et-societe-generale-mobilisent-250-millions-deuros-pour-financer-les-entreprises/"
+      },
+      {
+        "short": "SenePlus",
+        "name": "SenePlus, « La BERD conditionne ses investissements sénégalais à la clarté budgétaire » (novembre 2026)",
+        "url": "https://www.seneplus.com/article/la-berd-conditionne-ses-investissements-senegalais-la-clarte-budgetaire"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-egypte-banque-mondiale-assurance-sante",
+    "date": "2026-11-24",
+    "level": 2,
+    "region": "Afrique",
+    "theme": "eco",
+    "zones": [
+      "Afrique"
+    ],
+    "geo": [
+      {
+        "coords": [
+          31.24,
+          30.04
+        ],
+        "name": "Le Caire, Égypte",
+        "label": "Égypte"
+      }
+    ],
+    "title": "Égypte : avec la Banque mondiale, Le Caire veut assurer 18,5 millions de personnes de plus contre la maladie d'ici 2030",
+    "summary": "L'Égypte a signé lundi 23 novembre au Caire un « pacte national pour la santé » avec la Banque mondiale. Objectif : étendre l'assurance maladie universelle à environ 18,5 millions de personnes de plus dans six gouvernorats d'ici 2030 [1][2].",
+    "points": [
+      "La signature s'est faite en présence du Premier ministre Mostafa Madbouly ; les ministres de la Santé, Khaled Abdel-Ghaffar, et des Finances, Ahmed Kouchouk, ont signé, en présence d'Anna Bjerde, directrice des opérations de la Banque mondiale [2].",
+      "Le financement nécessaire pour cette deuxième phase jusqu'en 2030 est estimé à environ 178 milliards de livres égyptiennes (près de 3,3 milliards de dollars), surtout de l'argent public [3].",
+      "Le communiqué ne dit pas si un prêt de la Banque mondiale est prévu [3]. En 2020, celle-ci avait accordé 400 millions de dollars pour la première phase [1]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : l'Égypte veut étendre son assurance maladie publique à des millions de personnes supplémentaires, un chantier lancé avec la Banque mondiale dès 2020 [1].",
+      "Ce pacte arrive au moment où l'Égypte termine son programme d'aide avec le FMI, avec un financement à trouver surtout sur le budget de l'État [3][4]."
+    ],
+    "forMe": "Une Égypte socialement plus stable, c'est un risque de crise en moins à l'entrée du canal de Suez, une route clé pour le commerce entre l'Asie et l'Europe.",
+    "figures": [
+      {
+        "value": "18,5 millions",
+        "label": "de personnes en plus à assurer d'ici 2030",
+        "src": 1
+      },
+      {
+        "value": "≈ 178 Mds EGP",
+        "label": "coût estimé de la deuxième phase",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "sources": [
+      {
+        "short": "Ahram Online",
+        "name": "Ahram Online, « Egypt signs compact to extend health insurance to 18.5 mln more people by 2030 » (23 novembre 2026)",
+        "url": "https://english.ahram.org.eg/UI/Front/Inner.aspx?NewsContentID=583191"
+      },
+      {
+        "short": "Egyptian Gazette",
+        "name": "Egyptian Gazette, « Cairo, WBG sign health insurance compact to expand coverage by 2030 » (23 novembre 2026)",
+        "url": "https://egyptian-gazette.com/egypt/cairo-wb-sign-health-insurance-compact-to-expand-coverage-by-2030"
+      },
+      {
+        "short": "Zawia3",
+        "name": "Zawia3 (revue de presse égyptienne) (23 novembre 2026)",
+        "url": "https://zawia3.com/en/hamza-account/"
+      },
+      {
+        "short": "The National",
+        "name": "The National, « IMF reaches final deal with Egypt as loan programme nears end » (19 novembre 2026)",
+        "url": "https://www.thenationalnews.com/business/economy/2026/11/19/imf-reaches-final-deal-with-egypt-as-loan-programme-nears-end/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-24-turquie-syrie-ambassade-universite-damas",
+    "date": "2026-11-24",
+    "level": 2,
+    "region": "Moyen-Orient",
+    "theme": "geo",
+    "zones": [
+      "Moyen-Orient"
+    ],
+    "geo": [
+      {
+        "coords": [
+          36.29,
+          33.51
+        ],
+        "name": "Damas, Syrie",
+        "label": "Syrie"
+      },
+      {
+        "coords": [
+          32.85,
+          39.93
+        ],
+        "name": "Ankara, Turquie",
+        "label": "Turquie"
+      }
+    ],
+    "title": "Syrie-Turquie : Damas rouvre son ambassade à Ankara en décembre, et les deux pays vont créer une université commune à Damas",
+    "summary": "La Syrie prévoit de rouvrir en décembre son ambassade en Turquie. Les deux voisins ont aussi convenu de créer une université turco-syrienne à Damas, et la Syrie reprendra les programmes d'enseignement supérieur que la Turquie avait lancés dans le nord du pays pendant la guerre [1][2].",
+    "points": [
+      "Le ministre turc des Affaires étrangères a annoncé un accord pour fonder un établissement d'enseignement supérieur commun, l'université Turquie-Syrie, à Damas [2].",
+      "Damas va reprendre les programmes universitaires que la Turquie avait ouverts pendant la guerre civile [1].",
+      "L'ambassade syrienne en Turquie doit rouvrir en décembre [2]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : la Turquie, qui a soutenu l'opposition pendant la guerre, s'installe comme le principal parrain de la nouvelle Syrie [1][2].",
+      "Ces liens éducatifs et diplomatiques renforcent l'influence d'Ankara en Syrie, où la Turquie et Israël se disputent désormais l'influence [2]."
+    ],
+    "forMe": "La stabilisation de la Syrie et des relations avec la Turquie conditionne le retour possible de réfugiés syriens, un sujet suivi de près dans toute l'Europe.",
+    "figures": [
+      {
+        "value": "Décembre",
+        "label": "réouverture prévue de l'ambassade syrienne en Turquie",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "next": [
+      {
+        "when": "Décembre 2026",
+        "what": "Réouverture de l'ambassade de Syrie en Turquie [2]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "Turkish Minute",
+        "name": "Turkish Minute, « Syria to take over higher education programs Turkey launched during the war » (23 novembre 2026)",
+        "url": "https://www.turkishminute.com/2026/11/23/syria-to-take-over-higher-education-programs-turkey-launched-during-the-war/"
+      },
+      {
+        "short": "FDD",
+        "name": "FDD, « Overnight Brief, November 23, 2026 » (23 novembre 2026)",
+        "url": "https://www.fdd.org/overnight-brief/november-23-2026/"
+      }
+    ]
+  },
+  {
     "id": "2026-11-23-nvidia-huang-reintegre-bourse-bondit",
     "date": "2026-11-23",
     "breaking": "18:50",
@@ -50633,3398 +54243,6 @@ window.GEOCO.news = [
         "short": "Teleamazonas",
         "name": "Teleamazonas, « Noboa anuncia nueva reducción del precio de gasolinas: Extra, Ecopaís y diésel »",
         "url": "https://www.teleamazonas.com/actualidad/noticias/ecuador/noboa-anuncia-reduccion-gasolinas-noviembre-132495/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-iran-iron-gate-blocus-terrestre-caspienne-petroliers",
-    "date": "2026-11-09",
-    "region": "Moyen-Orient",
-    "theme": "geo",
-    "zones": [
-      "Moyen-Orient",
-      "Asie",
-      "Europe"
-    ],
-    "impact": "monde",
-    "geo": [
-      {
-        "name": "Khasab, Oman (détroit d'Ormuz)",
-        "label": "Ormuz",
-        "coords": [
-          56.25,
-          26.18
-        ]
-      },
-      {
-        "name": "Mer Caspienne (côte iranienne)",
-        "label": "Caspienne",
-        "coords": [
-          51,
-          37
-        ]
-      }
-    ],
-    "title": "Ormuz : Washington étend son blocus de l'Iran aux frontières terrestres et à la Caspienne, alors que deux pétroliers sont frappés dans le détroit",
-    "summary": "Le 7 novembre, le commandement américain pour le Moyen-Orient (CENTCOM) a créé la « Task Force Iron Gate », une cellule d'environ 20 personnes chargée de couper les routes terrestres et la Caspienne par où l'Iran fait passer armes et argent. Téhéran parle de « jeu de mots », et au moins deux pétroliers ont été attaqués samedi à Ormuz [1][2][4][5].",
-    "points": [
-      "Le 7 novembre, le commandant du CENTCOM a ordonné la création de la Task Force Iron Gate : une cellule d'état-major d'environ 20 civils et militaires, basée à Tampa, en Floride [1][2].",
-      "Sa mission est de coordonner les agences américaines pour empêcher le passage, par les frontières terrestres de l'Iran et par la mer Caspienne, d'armes avancées, de technologies à double usage, de matériaux sous sanctions et de recettes jugées illicites [1][2].",
-      "Elle prolonge le blocus naval des ports iraniens, annoncé en juillet : selon le CENTCOM, celui-ci a empêché l'Iran d'exporter plus de 25 milliards de dollars de pétrole brut [1][2].",
-      "L'armée iranienne a répondu que cette annonce n'était que du « jeu de mots » ; des responsables iraniens jugent que Washington ne peut pas isoler leur économie [4].",
-      "Samedi 7 novembre, selon l'agence britannique UKMTO, un pétrolier a été touché par un « projectile inconnu » à la sortie du détroit ; l'équipage est sauf [7]. Maritime Executive recense au moins deux pétroliers attaqués ce jour-là, dont l'un a pris feu à environ huit milles nautiques de Khasab (Oman), provisoirement identifié comme le Navig8 Messi, affrété par Adnoc [5].",
-      "Sur la diplomatie, le Qatar propose de rouvrir Ormuz contre la levée immédiate du blocus naval américain et la venue d'inspecteurs de l'ONU en Iran [8] ; Abbas Araghchi, chef de la diplomatie iranienne, juge qu'il est « temps que la Maison-Blanche fasse son propre choix » et se dit prêt à discuter si elle choisit « une diplomatie honnête » [6]."
-    ],
-    "why": [
-      "À retenir : les États-Unis ajoutent un deuxième étage à la pression sur l'Iran, la terre et la Caspienne après la mer, pendant que les négociations passent par le Qatar et que les incidents continuent dans le détroit.",
-      "Le mécanisme est celui d'un étau : le blocus des ports du golfe Persique et du golfe d'Oman coupe les exportations de pétrole ; Iron Gate vise ce qui pourrait le contourner, c'est-à-dire les camions, trains et bateaux de la Caspienne, par lesquels l'Iran reçoit des armes et du matériel et fait entrer de l'argent. Le CENTCOM ne dit pas encore quelles opérations il mènera [1][2].",
-      "Les critiques existent à Washington : Joe Kent, ancien responsable de l'antiterrorisme, y voit une tentative du CENTCOM de contrarier la diplomatie en cours [2]. L'Irak, lui, affirme que le Trésor américain lui a demandé de fermer tous ses points de passage avec l'Iran sauf deux, ce qui serait difficile et coûteux pour son économie [9].",
-      "Chaque pétrolier touché rappelle que le passage reste risqué pour le pétrole du Golfe [5][7]."
-    ],
-    "forMe": "Le détroit d'Ormuz voit passer une grande part du pétrole du monde : tout incident ou accord s'y répercute sur le prix du baril, puis sur celui de l'essence et du diesel que tu paies en France. Une reprise des frappes ferait monter les prix ; un accord sur la réouverture les ferait reculer.",
-    "next": [
-      {
-        "when": "Dans les prochains jours",
-        "what": "Réponse de Washington et de Téhéran à la proposition du Qatar de rouvrir Ormuz contre la levée du blocus naval [6][8]."
-      }
-    ],
-    "figures": [
-      {
-        "value": "≈ 20",
-        "label": "personnes dans la Task Force Iron Gate, basée à Tampa",
-        "src": 1
-      },
-      {
-        "value": "> 25 Md$",
-        "label": "d'exportations de brut iranien empêchées par le blocus naval, selon le CENTCOM",
-        "src": 2
-      },
-      {
-        "value": "2 pétroliers",
-        "label": "au moins attaqués samedi dans le détroit d'Ormuz",
-        "src": 5
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "routes-maritimes",
-      "sanctions"
-    ],
-    "sources": [
-      {
-        "short": "CENTCOM",
-        "name": "U.S. Central Command, « CENTCOM Launches Task Force to Disrupt Iranian Ground Transit Routes Supporting Illegal Shipments » (7 nov. 2026)",
-        "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4644250/centcom-launches-task-force-to-disrupt-iranian-ground-transit-routes-supporting/"
-      },
-      {
-        "short": "CNBC",
-        "name": "CNBC, « U.S. looks to restrict Iranian land commerce with new task force » (7 nov. 2026)",
-        "url": "https://www.cnbc.com/2026/11/07/iran-us-task-force-land-commerce.html"
-      },
-      {
-        "short": "Washington Post",
-        "name": "The Washington Post, « U.S. military seeks to disrupt Iran's land routes, expanding on naval blockade » (7 nov. 2026)",
-        "url": "https://www.washingtonpost.com/national-security/2026/11/07/us-military-seeks-disrupt-irans-land-routes-expanding-naval-blockade/"
-      },
-      {
-        "short": "Haaretz",
-        "name": "Haaretz, « Iran Dismisses New U.S. Task Force Aimed at Blocking Its Trade Routes » (8 nov. 2026)",
-        "url": "https://www.haaretz.com/middle-east-news/iran/2026-11-08/ty-article/iran-dismisses-new-u-s-task-force-aimed-at-blocking-its-trade-routes/000001a1-bab4-d903-a3b3-bbbfed440000"
-      },
-      {
-        "short": "Maritime Executive",
-        "name": "Maritime Executive, « Tanker Burns After Strike in Strait of Hormuz »",
-        "url": "https://maritime-executive.com/article/tanker-burns-after-strike-in-strait-of-hormuz"
-      },
-      {
-        "short": "CBS News",
-        "name": "CBS News, « Live Updates: Iran downplays new U.S. task force aimed at disrupting ground transport routes »",
-        "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
-      },
-      {
-        "short": "Iran International",
-        "name": "Iran International, « Tanker struck by unknown projectile in Strait of Hormuz, UKMTO says » (8 nov. 2026)",
-        "url": "https://iranintl.com/en/202611083609"
-      },
-      {
-        "short": "CNews",
-        "name": "CNews, « Guerre au Moyen-Orient : comment le Qatar espère faire rouvrir le détroit d'Ormuz » (8 nov. 2026)",
-        "url": "https://www.cnews.fr/monde/2026-11-08/guerre-au-moyen-orient-comment-le-qatar-espere-faire-rouvrir-le-detroit-dormuz"
-      },
-      {
-        "short": "Reuters",
-        "name": "Reuters (via U.S. News), « Iraq Has Reached Understandings With US to Allow Oil Exports Through Hormuz, Minister Says » (8 nov. 2026)",
-        "url": "https://www.usnews.com/news/world/articles/2026-11-08/iraq-has-reached-understandings-with-us-to-allow-oil-exports-through-hormuz-minister-says"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-asie-bourses-rebond-tokyo-taiwan-puces",
-    "date": "2026-11-09",
-    "region": "Asie",
-    "theme": "eco",
-    "zones": [
-      "Asie",
-      "Amérique du Nord",
-      "Europe"
-    ],
-    "impact": "monde",
-    "geo": [
-      {
-        "coords": [
-          139.69,
-          35.69
-        ],
-        "name": "Tokyo, Japon",
-        "label": "Japon"
-      },
-      {
-        "coords": [
-          121.56,
-          25.03
-        ],
-        "name": "Taipei, Taïwan",
-        "label": "Taïwan"
-      },
-      {
-        "coords": [
-          126.98,
-          37.57
-        ],
-        "name": "Séoul, Corée du Sud",
-        "label": "Corée du Sud"
-      }
-    ],
-    "title": "Après la débâcle de la semaine, les Bourses d'Asie rebondissent : Tokyo gagne 3,4 %, Taïwan près de 6 %, portées par les valeurs de puces",
-    "summary": "Lundi 9 novembre, les Bourses d'Asie ont repris des couleurs après la déroute de la semaine passée : le Nikkei de Tokyo a gagné 3,4 % à 59 411 points, l'indice de Taïwan environ 5,7 % et celui de Séoul 1,5 %. Ce rebond fait suite à un rebond des valeurs de l'IA à Wall Street vendredi [1][2][3].",
-    "points": [
-      "Tokyo : le Nikkei 225 a gagné 3,4 % à 59 411,34 points ; Tokyo Electron, fabricant d'équipements pour semi-conducteurs, s'est envolé de 6,5 % et Advantest, qui fait des machines de test, de 5,1 % [2].",
-      "Taïwan : l'indice Taiex a pris environ 5,7 %, aidé par TSMC, après avoir enregistré sa plus forte baisse hebdomadaire en vingt ans [1][2].",
-      "Corée du Sud : le Kospi a gagné 1,5 % à 5 137,22 points, après une chute d'environ 6 % vendredi ; l'indice de Tokyo avait lui aussi perdu environ 6 % ce jour-là [2].",
-      "L'indice MSCI Asie-Pacifique hors Japon a pris 0,8 %, après une baisse de 4,6 % la semaine précédente ; à Hong Kong, le Hang Seng a gagné 0,2 % à 24 525,58 points [1][2].",
-      "L'origine est à Wall Street : jeudi 5 novembre, 2 500 milliards de dollars de capitalisation sont partis en fumée, par crainte que le Congrès à majorité démocrate ralentisse le déploiement des centres de données de l'IA ; le S&P 500 avait perdu 4,4 % et le Dow Jones plus de 1 800 points [1][3].",
-      "Vendredi 6 novembre, Wall Street a rebondi sur la technologie : le Nasdaq a gagné 1,1 % à 24 579,42 points et le S&P 500 0,3 % à 7 376,86, mais le Dow Jones a reculé de 0,5 % à 51 285,73 ; sur la semaine, le S&P 500 perd environ 2,7 % et le Nasdaq environ 3,4 % [3][4].",
-      "En Europe, le Stoxx 600 avait terminé vendredi en baisse de 1,0 % à 648,33 points [5]. L'attention se tourne vers l'inflation américaine d'octobre, attendue le 10 novembre [2]."
-    ],
-    "why": [
-      "À retenir : ce rebond est un soulagement plus qu'un retournement ; des analystes parlent d'une remontée modeste, qui suit Wall Street plutôt qu'elle ne la précède [1][2].",
-      "Les Bourses d'Asie sont très exposées aux puces : Tokyo Electron, Advantest, TSMC pèsent lourd dans leurs indices, et ce sont elles qui avaient le plus plongé. Quand les craintes sur les dépenses des centres de données reculent un peu, ces valeurs rebondissent le plus fort [1][2].",
-      "Le choc de la semaine est parti de la politique américaine : l'élection a donné au Congrès une majorité démocrate, et les investisseurs ont craint un frein aux centres de données qui font tourner l'IA, un secteur qui dope les Bourses depuis des mois [1][3]. Un nouvel élément a pesé en début de séance : l'annonce de l'enquête sur le PDG de Nvidia [2].",
-      "La prudence reste de mise : l'inflation américaine d'octobre, publiée le 10 novembre, peut relancer ou calmer les craintes sur les taux de la Fed ; l'Asie-Pacifique hors Japon venait de perdre 4,6 % la semaine passée [2]."
-    ],
-    "forMe": "Si tu as un fonds mondial, un plan d'épargne retraite ou des actions, ce rebond adoucit la semaine passée sans l'effacer : l'ouverture de l'Europe et de Wall Street dira si le calme tient. Pour un lecteur français, retiens que la Bourse de Taïwan ou de Tokyo dépend des puces, et donc des dépenses des géants du cloud américains. C'est une information, jamais un conseil d'acheter ou de vendre.",
-    "next": [
-      {
-        "when": "10 novembre",
-        "what": "Publication de l'inflation américaine d'octobre, surveillée de près par les marchés [2]."
-      },
-      {
-        "when": "17 novembre",
-        "what": "Nvidia publie ses résultats trimestriels, un test pour les valeurs de l'IA [6]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 2,
-        "value": "+3,4 %",
-        "label": "gain du Nikkei de Tokyo lundi, à 59 411 points"
-      },
-      {
-        "src": 2,
-        "value": "+5,7 %",
-        "label": "gain de l'indice Taiex de Taïwan, après sa pire semaine en vingt ans"
-      },
-      {
-        "src": 1,
-        "value": "2 500 Md$",
-        "label": "capitalisation perdue à Wall Street le jeudi 5 novembre"
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "semi-conducteurs"
-    ],
-    "sources": [
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « Asian stock markets climb after earlier tech rout » (9 novembre 2026)",
-        "url": "https://www.aljazeera.com/economy/2026/11/9/asian-stock-markets-climb-after-earlier-tech-rout"
-      },
-      {
-        "short": "AP (News4Jax)",
-        "name": "AP via News4Jax, « Asian markets bounce back after a recovery for AI stocks on Wall Street » (9 novembre 2026)",
-        "url": "https://www.news4jax.com/business/2026/11/09/asian-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/"
-      },
-      {
-        "short": "UPI",
-        "name": "UPI, « Nasdaq tech stocks recover but Wall Street posts 4th weekly loss » (6 novembre 2026)",
-        "url": "https://www.upi.com/Top_News/US/2026/11/06/nasdaq-rebounds-tech-stocks/5901794005326/"
-      },
-      {
-        "short": "The Washington Post",
-        "name": "The Washington Post, « How major US stock indexes fared Friday 11/6/2026 » (6 novembre 2026)",
-        "url": "https://www.washingtonpost.com/business/2026/11/06/wall-street-stocks-dow-nasdaq/fbde12a0-da27-11f1-930a-e08f8086f5ac_story.html"
-      },
-      {
-        "short": "Yahoo Finance",
-        "name": "Yahoo Finance, STOXX Europe 600 (^STOXX), clôture du 6 novembre 2026",
-        "url": "https://finance.yahoo.com/quote/%5ESTOXX/"
-      },
-      {
-        "short": "Motley Fool",
-        "name": "The Motley Fool, « Not Nvidia. Not Micron. After the Chip Sell-Off… » (7 novembre 2026)",
-        "url": "https://www.fool.com/investing/2026/11/07/not-nvidia-not-micron-after-the-chip-sell-off-id-b/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-ukraine-reseau-electrique-frappes-avant-abou-dabi",
-    "date": "2026-11-09",
-    "region": "Europe",
-    "theme": "geo",
-    "zones": [
-      "Europe",
-      "Moyen-Orient"
-    ],
-    "geo": [
-      {
-        "name": "Dnipro, Ukraine",
-        "label": "Ukraine",
-        "coords": [
-          35.05,
-          48.46
-        ]
-      },
-      {
-        "name": "Abou Dabi, Émirats arabes unis",
-        "label": "Abou Dabi",
-        "coords": [
-          54.37,
-          24.47
-        ]
-      }
-    ],
-    "title": "Ukraine : après deux nuits de frappes sur le réseau électrique, Kyiv et Moscou s'assoient mardi à Abou Dabi",
-    "summary": "Dans la nuit du 7 novembre, la Russie a tiré 36 missiles balistiques et 172 drones sur l'énergie ukrainienne, selon Volodymyr Zelensky ; la nuit suivante, des centaines de milliers d'Ukrainiens, surtout à Dnipro et Kharkiv, se sont retrouvés sans courant. Les délégations américaine, russe et ukrainienne se retrouvent les 10 et 11 novembre à Abou Dabi [1][2][4].",
-    "points": [
-      "Dans la nuit du 7 novembre, une attaque « combinée » a visé les infrastructures énergétiques ukrainiennes : Volodymyr Zelensky parle de 36 missiles balistiques et de 172 drones, et le ministère ukrainien de l'Énergie signale des coupures dans cinq régions et des « dommages importants » sur les réseaux de transport et de distribution d'électricité [1].",
-      "La nuit suivante, le 8 novembre, une nouvelle vague a privé d'électricité des centaines de milliers d'usagers dans les régions de Dnipropetrovsk et de Kharkiv ; dans celle de Kharkiv, les autorités parlent d'environ 250 000 personnes sans courant, et des réparations sont en cours [2].",
-      "Selon RFE/RL, plus de 600 000 personnes sont sans électricité dans la région de Dnipropetrovsk [7].",
-      "À Jytomyr, Zelensky a signalé 140 immeubles d'habitation privés de chauffage, alors que les températures frôlaient le point de congélation [2].",
-      "Zelensky accuse la Russie d'intensifier ses frappes pour « mettre la pression » sur Kyiv avant les négociations à trois (États-Unis, Ukraine, Russie) [3].",
-      "Ces négociations se tiennent les 10 et 11 novembre à Abou Dabi : l'émissaire américain Steve Witkoff parle de discussions « au niveau technique » sur la sécurité après la guerre, la désescalade et le volet humanitaire [5]. Le Kremlin a confirmé la date, et Vladimir Medinski, conseiller de Vladimir Poutine, reste le négociateur russe en chef [4].",
-      "C'est le quatrième cycle de pourparlers formels parrainés par Washington depuis janvier 2026, et le premier depuis leur suspension à la fin de février, quand le conflit avec l'Iran a éclaté [4]."
-    ],
-    "why": [
-      "À retenir : Moscou frappe le réseau électrique ukrainien à quelques heures d'une table de négociation, et chaque nuit de frappes pèse sur ce que Kyiv peut demander et obtenir.",
-      "Le mécanisme est simple : en visant les sous-stations et les lignes qui répartissent le courant, la Russie ne prive pas seulement les foyers de lumière ; elle prive aussi de chauffage, d'eau (les pompes sont électriques) et d'activité les usines et les hôpitaux. Le froid qui s'installe rend ces coupures plus lourdes [2].",
-      "Le Conseil atlantique, un centre de recherche américain, juge que Vladimir Poutine utilise les négociations pour gagner du temps et obtenir des concessions, et que les attentes doivent rester « très modestes » pour Abou Dabi [6]. À l'inverse, l'initiative américaine vise à avancer sur la sécurité d'après-guerre et la désescalade [5].",
-      "Aucun accord sur l'énergie n'est annoncé à ce stade [4][6]."
-    ],
-    "forMe": "En France, cette guerre te touche par les prix de l'énergie et par le coût de l'aide à l'Ukraine. Un accord sur l'énergie, s'il sortait d'Abou Dabi, serait un signal de détente pour le front comme pour les prix.",
-    "next": [
-      {
-        "when": "10 et 11 novembre",
-        "what": "Pourparlers États-Unis, Ukraine et Russie à Abou Dabi, avec Rustem Oumerov côté ukrainien et Vladimir Medinski côté russe [4][5]."
-      }
-    ],
-    "figures": [
-      {
-        "value": "36 missiles + 172 drones",
-        "label": "lancés sur l'énergie ukrainienne dans la nuit du 7 novembre, selon Zelensky",
-        "src": 1
-      },
-      {
-        "value": "600 000",
-        "label": "personnes sans électricité dans la région de Dnipropetrovsk le 8 novembre",
-        "src": 7
-      },
-      {
-        "value": "10-11 novembre",
-        "label": "négociations à trois à Abou Dabi",
-        "src": 4
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "France 24",
-        "name": "France 24, « L'Ukraine frappée par des bombardements nocturnes russes massifs contre ses infrastructures énergétiques » (7 nov. 2026)",
-        "url": "https://www.france24.com/fr/info-en-continu/20261107-l-ukraine-frapp%C3%A9e-par-des-bombardements-nocturnes-russes-massifs-contre-ses-infrastructures-%C3%A9nerg%C3%A9tiques"
-      },
-      {
-        "short": "France 24",
-        "name": "France 24 (avec AFP), « Des centaines de milliers d'Ukrainiens sans électricité après des frappes russes » (8 nov. 2026)",
-        "url": "https://www.france24.com/fr/info-en-continu/20261108-des-centaines-de-milliers-d-ukrainiens-sans-%C3%A9lectricit%C3%A9-apr%C3%A8s-des-frappes-russes"
-      },
-      {
-        "short": "CNews",
-        "name": "CNews, « Guerre en Ukraine : Volodymyr Zelensky accuse la Russie d'intensifier ses frappes pour mettre la pression » (7 nov. 2026)",
-        "url": "https://www.cnews.fr/monde/2026-11-07/guerre-en-ukraine-volodymyr-zelensky-accuse-la-russie-dintensifier-ses-frappes"
-      },
-      {
-        "short": "Meduza",
-        "name": "Meduza, « Trilateral talks between Russia, Ukraine and US set for November 10–11 in Abu Dhabi » (3 nov. 2026)",
-        "url": "https://meduza.io/en/news/2026/11/03/trilateral-talks-between-russia-ukraine-and-us-set-for-november-10-11-in-abu-dhabi"
-      },
-      {
-        "short": "The Hill",
-        "name": "The Hill, « Witkoff announces Abu Dhabi peace negotiations »",
-        "url": "https://thehill.com/policy/international/6190973-witkoff-announces-abu-dhabi-peace-negotiations/"
-      },
-      {
-        "short": "Atlantic Council",
-        "name": "Atlantic Council, « Putin wants peace talks. He doesn't want peace. »",
-        "url": "https://www.atlanticcouncil.org/dispatches/putin-wants-peace-talks-he-doesnt-want-peace/"
-      },
-      {
-        "short": "RFE/RL",
-        "name": "RFE/RL, « Russian Strikes On Energy Targets Leave 600,000 Ukrainians Without Electricity »",
-        "url": "https://rferl.org/a/russia-strikes-ukraine-energy/33893219.html"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-france-conference-sociale-matignon-smic-attentes",
-    "date": "2026-11-09",
-    "region": "Europe",
-    "theme": "eco",
-    "zones": [
-      "Europe"
-    ],
-    "geo": [
-      {
-        "name": "Hôtel de Matignon, Paris, France",
-        "label": "France",
-        "coords": [
-          2.32,
-          48.85
-        ]
-      }
-    ],
-    "title": "Conférence sociale à Matignon : le gouvernement vise un Smic au-dessus de 1 500 euros net, les syndicats en demandent jusqu'à 150 de plus",
-    "summary": "Le Premier ministre Sébastien Lecornu réunit lundi 9 novembre à Matignon syndicats et patronat sur le Smic et les salaires, quatre jours après une journée de mobilisation de 575 000 personnes selon l'Intérieur. Le Smic net est de 1 477,93 euros : l'exécutif vise 1 500, la CFDT demande 100 euros de plus, la CGT 150 [1][3][6].",
-    "points": [
-      "La conférence sociale se tient lundi 9 novembre à Matignon, avec l'État, les syndicats et le patronat ; au menu : le Smic, les minima de branche et les négociations salariales dans les entreprises [1].",
-      "Sébastien Lecornu l'a annoncée le jeudi 5 novembre, jour d'une journée nationale d'action qui a réuni 575 000 personnes dans 193 actions de rue, dont 65 000 à Paris, selon le ministère de l'Intérieur ; le bilan provisoire de 18 h comptait 448 interpellations et 53 membres des forces de l'ordre blessés [1][6].",
-      "Le Smic s'établit à 1 477,93 euros net par mois. Le ministre du Travail, Jean-Pierre Farandou, juge « important » d'essayer de « franchir la barre » des 1 500 euros net, soit une vingtaine d'euros de plus seulement [1][3].",
-      "Farandou dit aussi que le gouvernement étudie une anticipation de la revalorisation au 1er décembre ; un geste « exceptionnel » n'est « pas tabou », et un décret est prêt pour inciter les entreprises à relever leurs minima de branche jusqu'au niveau du Smic [3][9].",
-      "Les syndicats demandent bien plus, d'après l'AFP : 100 euros net par mois pour la CFDT de Marylise Léon, 10 % (environ 150 euros net) pour la CGT de Sophie Binet, un Smic à 2 000 euros pour Force ouvrière [1][4].",
-      "Côté patronat, le Medef affirme : « Pour le moment, on n'a pas d'ouverture concrète sur les allègements de charges » [1].",
-      "Face à la proposition de Jean-Luc Mélenchon d'un Smic à 1 700 euros net, Farandou avance qu'elle détruirait plus de 230 000 emplois ; c'est l'estimation du ministre, pas un chiffre officiel [3]."
-    ],
-    "why": [
-      "À retenir : le gouvernement cherche un geste sur les salaires qui calme la rue sans alourdir le coût du travail, et c'est exactement le point où syndicats et patronat ne se rejoignent pas : les premiers veulent des hausses de salaire, le Medef refuse de parler hausse sans baisse de charges [1][3].",
-      "Un « coup de pouce » au Smic est une hausse ajoutée à la revalorisation automatique : le dernier remonte à juillet 2012, avec 0,6 % ajouté à la formule légale [9]. Passer de 1 478 à 1 500 euros net serait un geste très modeste ; il resterait loin des 100 à 150 euros demandés par la CFDT et la CGT [1][3].",
-      "Le décret évoqué vise un effet de chaîne : quand le Smic monte, des minima de branche (les salaires planchers négociés secteur par secteur) passent sous le Smic ; le gouvernement veut pousser les entreprises à les remonter, ce qui diffuse la hausse au-delà des seuls salariés au Smic [5][9].",
-      "Le sujet dépasse le Smic : huit organisations syndicales alertent sur la fragilité du pacte social [8], et Lecornu demande par ailleurs un nouvel effort sur les dépenses de l'État pour le budget 2027 [7]. Franceinfo juge qu'une conférence de ce type aboutit difficilement à des décisions concrètes en une journée, et les syndicats doivent décider de la suite de la mobilisation à l'issue de la réunion [10]."
-    ],
-    "forMe": "Si tu es payé au Smic, un passage à 1 500 euros net représenterait une vingtaine d'euros de plus par mois, contre 100 euros demandés par la CFDT [1][3]. Si ta branche a des minima proches du Smic, le décret pourrait ouvrir une négociation dans ton entreprise [9]. Si tu diriges une petite entreprise, la question des charges que soulève le Medef te concerne directement [1]. Rien n'est décidé au moment où nous écrivons : les annonces du gouvernement sont attendues à l'issue de la réunion.",
-    "next": [
-      {
-        "when": "9 novembre",
-        "what": "Conférence sociale à Matignon ; les syndicats décident ensuite de la suite de la mobilisation [10]."
-      },
-      {
-        "when": "1er décembre",
-        "what": "Date envisagée pour une revalorisation anticipée du Smic, à l'étude selon le ministre du Travail [3]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 1,
-        "value": "1 477,93 €",
-        "label": "Smic net mensuel actuel"
-      },
-      {
-        "src": 6,
-        "value": "575 000",
-        "label": "manifestants le 5 novembre selon l'Intérieur"
-      },
-      {
-        "src": 1,
-        "value": "100 à 150 €",
-        "label": "hausse nette demandée par la CFDT et la CGT"
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "inflation-taux"
-    ],
-    "sources": [
-      {
-        "short": "Sud Radio",
-        "name": "Sud Radio, « Conférence sociale à Matignon : qu'est-ce qui s'y joue, et avec qui »",
-        "url": "https://www.sudradio.fr/sud-radio/conference-sociale-a-matignon-quest-ce-qui-sy-joue-et-avec-qui"
-      },
-      {
-        "short": "QZ",
-        "name": "QZ, « Sébastien Lecornu réunit syndicats et patronat sur le smic »",
-        "url": "https://fr.qz.com/sebastien-lecornu-reunit-syndicats-patronat-matignon-smic-110726"
-      },
-      {
-        "short": "L'Express",
-        "name": "L'Express (via Orange), « Hausse du Smic : le ministre du Travail veut franchir la barre des 1 500 euros nets »",
-        "url": "https://actu.orange.fr/politique/hausse-du-smic-le-ministre-du-travail-veut-franchir-la-barre-des-1-500-euros-nets-l-express-via-6medias-CNT000002tArYw.html"
-      },
-      {
-        "short": "LCP",
-        "name": "LCP, « Pouvoir d'achat : Sébastien Lecornu réunira syndicats et patronat lundi pour apporter des réponses »",
-        "url": "https://lcp.fr/actualites/pouvoir-d-achat-sebastien-lecornu-reunira-syndicats-et-patronat-lundi-pour-apporter-des"
-      },
-      {
-        "short": "franceinfo",
-        "name": "franceinfo, « Conférence sociale du 9 novembre : des annonces décisives à la clé ? »",
-        "url": "https://www.franceinfo.fr/economie/pouvoir-achat/conference-sociale-du-9-novembre-des-annonces-decisives-a-la-cle_8273687.html"
-      },
-      {
-        "short": "Ministère de l'Intérieur",
-        "name": "Ministère de l'Intérieur, « Bilan de la mobilisation lycéenne et de la journée nationale d'action du 5 novembre 2026 »",
-        "url": "https://www.interieur.gouv.fr/actualites/communiques-de-presse/bilan-de-mobilisation-lyceenne-et-de-journee-nationale-daction-du-5-novembre-2026"
-      },
-      {
-        "short": "Public Sénat",
-        "name": "Public Sénat, « Manifestation du 5 novembre : Sébastien Lecornu annonce une conférence sociale avec les syndicats et le patronat lundi »",
-        "url": "https://www.publicsenat.fr/actualites/politique/manifestation-du-5-novembre-sebastien-lecornu-annonce-une-conference-sociale-avec-les-syndicats-et-le-patronat-lundi"
-      },
-      {
-        "short": "Force ouvrière",
-        "name": "Force ouvrière, « Les huit organisations syndicales alertent sur la fragilité actuelle du pacte social »",
-        "url": "https://www.force-ouvriere.fr/les-huit-organisations-syndicales-alertent-sur-la-fragilite"
-      },
-      {
-        "short": "Acteurs publics",
-        "name": "Acteurs publics, « Fonction publique : le coup de pouce au Smic pourrait effacer la revalorisation des bas de grille »",
-        "url": "https://acteurspublics.fr/articles/fonction-publique-le-coup-de-pouce-au-smic-pourrait-effacer-la-revalorisation-des-bas-de-grille/"
-      },
-      {
-        "short": "franceinfo",
-        "name": "franceinfo, « Que peut espérer Sébastien Lecornu de sa conférence sociale prévue lundi ? »",
-        "url": "https://www.franceinfo.fr/replay-radio/le-decryptage-eco/que-peut-esperer-sebastien-lecornu-de-sa-conference-sociale-prevue-lundi_8249920.html"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-france-budget-senat-secu-ordonnances",
-    "date": "2026-11-09",
-    "region": "Europe",
-    "theme": "eco",
-    "zones": [
-      "Europe"
-    ],
-    "geo": [
-      {
-        "name": "Palais du Luxembourg (Sénat), Paris, France",
-        "label": "Budget : le Sénat",
-        "coords": [
-          2.337,
-          48.8486
-        ]
-      }
-    ],
-    "title": "Budget : le Sénat reprend la main sur la Sécu dès lundi, et le gouvernement pourrait gouverner par ordonnances, une première",
-    "summary": "Après le rejet du budget 2027 à l'Assemblée, le Sénat s'empare lundi 9 novembre du budget de la Sécurité sociale, avec un vote solennel le 18 novembre ; le budget de l'État suit du 20 novembre au 9 décembre. Si rien n'est voté dans les délais, l'exécutif pourrait agir par ordonnances, ce qui serait une première [1][4][5].",
-    "points": [
-      "Le Sénat examine en séance publique le projet de loi de financement de la Sécurité sociale (PLFSS) pour 2027 à partir du lundi 9 novembre, avec un vote solennel prévu le 18 novembre [1][3].",
-      "L'Assemblée nationale avait rejeté le PLFSS le vendredi 23 octobre ; le budget de l'État (projet de loi de finances, PLF) a été rejeté le 4 novembre à l'unanimité des députés, par 458 voix contre et aucune pour [3][4].",
-      "Le délai constitutionnel pour le PLFSS expire le 26 novembre ; pour le PLF, le Sénat l'examine du 20 novembre au 9 décembre, dans sa version initiale, et le compromis est renvoyé à décembre [3][4][6].",
-      "La commission des affaires sociales du Sénat a examiné le texte le 4 novembre ; son président, Philippe Mouiller, a engagé la commission à tenir le niveau de déficit prévu par le gouvernement, soit 12,7 milliards d'euros [2].",
-      "Pour le PLF, la commission des finances examine les articles de la première partie le jeudi 12 novembre, sous la conduite de la rapporteure générale Christine Lavarde [7].",
-      "Si les textes ne sont pas adoptés à l'expiration des délais, après le 26 novembre pour la Sécu et le 17 décembre pour le budget de l'État, le gouvernement pourrait mettre en œuvre les dispositions par ordonnances, ce qui serait une première [5][3].",
-      "Le gouvernement table sur une croissance de 1,8 % en 2027 et un déficit public de 5 % du PIB, contre 5,4 % attendu pour 2026 ; le déficit de la Sécurité sociale devrait atteindre 21,8 milliards d'euros en 2026 [4][3]."
-    ],
-    "why": [
-      "À retenir : l'Assemblée a tout rejeté, c'est donc le Sénat, où la droite et le centre dominent, qui fixe désormais la ligne, et le gouvernement n'a plus beaucoup de marge pour obtenir un compromis avant décembre [4][5].",
-      "Les deux budgets n'ont pas le même poids : le budget de l'État (PLF) fixe les impôts et les dépenses de l'État ; celui de la Sécurité sociale (PLFSS) fixe ce que dépensent l'Assurance maladie, la famille et les retraites. Le Sénat veut « tenir le niveau de déficit » du gouvernement, ce qui veut dire qu'il cherche des économies de même taille, pas forcément aux mêmes endroits [2].",
-      "Le recours aux ordonnances changerait la méthode : le gouvernement ferait appliquer le budget sans vote final du Parlement. D'après Banque des Territoires, certains ajustements votés par les sénateurs pourraient être gardés si le gouvernement utilise l'article 49.3, mais a priori pas s'il passe par ordonnance [2]. C'est pourquoi le Sénat pèse sur le contenu final, même sans l'Assemblée.",
-      "Le contexte chiffré explique l'enjeu : un déficit public à 5 % du PIB en 2027 contre 5,4 % en 2026, et un déficit de la Sécurité sociale à 21,8 milliards d'euros en 2026, ce qui oblige à des choix sur les remboursements, les prestations ou les recettes [3][4]."
-    ],
-    "forMe": "Le budget de la Sécurité sociale décide de ce que l'Assurance maladie rembourse, des aides aux familles et du financement des retraites : les amendements du Sénat peuvent donc te concerner à la pharmacie, chez le médecin ou à la retraite. Le budget de l'État fixe de son côté impôts et dépenses publiques. Si le gouvernement passe par ordonnances, les règles de 2027 seraient fixées sans nouveau vote des députés [5].",
-    "next": [
-      {
-        "when": "18 novembre",
-        "what": "Vote solennel du Sénat sur le budget de la Sécurité sociale [1]."
-      },
-      {
-        "when": "20 novembre – 9 décembre",
-        "what": "Examen du budget de l'État (PLF) par le Sénat [4][6]."
-      },
-      {
-        "when": "26 novembre",
-        "what": "Fin du délai constitutionnel pour le budget de la Sécurité sociale ; ordonnances possibles ensuite [3]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 4,
-        "value": "458 contre 0",
-        "label": "voix sur le rejet du budget de l'État à l'Assemblée"
-      },
-      {
-        "src": 2,
-        "value": "12,7 Md€",
-        "label": "déficit de la Sécu que le Sénat veut tenir"
-      },
-      {
-        "src": 3,
-        "value": "21,8 Md€",
-        "label": "déficit de la Sécurité sociale attendu en 2026"
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "role-etat"
-    ],
-    "sources": [
-      {
-        "short": "NosParlementaires",
-        "name": "NosParlementaires, « Calendrier PLFSS 2027 : le Sénat prend la main le 9 novembre »",
-        "url": "https://nosparlementaires.fr/actualites/plfss-2027-calendrier-examen-date-par-date"
-      },
-      {
-        "short": "Banque des Territoires",
-        "name": "Banque des Territoires, « PLFSS 2027 : les sénateurs s'engagent à tenir le niveau de déficit prévu par le gouvernement »",
-        "url": "https://www.banquedesterritoires.fr/plfss-2027-les-senateurs-sengagent-tenir-le-niveau-de-deficit-prevu-par-le-gouvernement"
-      },
-      {
-        "short": "Alliance VITA",
-        "name": "Alliance VITA, « Un PLFSS 2027 placé sous le signe des économies » (novembre 2026)",
-        "url": "https://www.alliancevita.org/2026/11/plfss-2027-economies/"
-      },
-      {
-        "short": "Daf-Mag",
-        "name": "Daf-Mag, « Budget 2027 : l'Assemblée nationale rejette le texte, le Sénat reprend la main »",
-        "url": "https://www.daf-mag.fr/reglementation-1243/fiscalite-2115/budget-2027-lassemblee-nationale-rejette-le-texte-le-senat-reprend-la-main-28079"
-      },
-      {
-        "short": "LCP",
-        "name": "LCP, « Budget 2027 rejeté : quelles sont les prochaines étapes au Parlement ? »",
-        "url": "https://lcp.fr/actualites/budget-2027-rejete-quelles-sont-les-prochaines-etapes-au-parlement-444753"
-      },
-      {
-        "short": "Sénat",
-        "name": "Sénat, « Calendrier budgétaire 2027 »",
-        "url": "https://www.senat.fr/ordre-du-jour/files/Calendrier_budgetaire_2027.pdf"
-      },
-      {
-        "short": "Sénat",
-        "name": "Sénat, commission des finances, « PLF pour 2027 : examen des articles de la première partie »",
-        "url": "https://www.senat.fr/travaux-parlementaires/commissions/commission-des-finances/detail-actualite/plf-pour-2027-examen-des-articles-de-la-premiere-partie-du-projet-de-loi-de-finances-pour-2027-8609.html"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-ue-von-der-leyen-mer-noire-roumanie-bulgarie-drones",
-    "date": "2026-11-09",
-    "region": "Europe",
-    "theme": "geo",
-    "zones": [
-      "Europe"
-    ],
-    "geo": [
-      {
-        "name": "Bucarest, Roumanie",
-        "label": "Roumanie",
-        "coords": [
-          26.1,
-          44.43
-        ]
-      },
-      {
-        "name": "Varna, Bulgarie",
-        "label": "Bulgarie",
-        "coords": [
-          27.91,
-          43.21
-        ]
-      }
-    ],
-    "title": "Mer Noire : après neuf navires frappés par des drones en octobre, Ursula von der Leyen se rend en Roumanie et en Bulgarie",
-    "summary": "La présidente de la Commission européenne, Ursula von der Leyen, est à Bucarest lundi 9 novembre puis à Varna, en Bulgarie, mardi 10. Elle vient après les drones qui ont touché neuf cargos et pétroliers au large des deux pays en 24 jours d'octobre, avec au moins 30 marins morts ou disparus selon l'AP [1][2][3].",
-    "points": [
-      "Ursula von der Leyen se rend en Roumanie et en Bulgarie les 9 et 10 novembre pour parler de la sécurité en mer Noire [5][3].",
-      "À Bucarest, lundi 9 novembre, le président Nicușor Dan la reçoit au palais Cotroceni à 15 h 30, et elle doit rencontrer le Premier ministre Luca Niculescu [3].",
-      "À Varna, mardi 10 novembre, elle voit le Premier ministre bulgare Rumen Radev et visite l'Académie navale Nikola Vaptsarov [3][4].",
-      "En octobre, sur 24 jours, des drones aériens et navals ont frappé neuf cargos et pétroliers au large de la Bulgarie et de la Roumanie ; l'AP compte au moins 30 marins morts ou disparus [1][2].",
-      "Le Wine Trader, un pétrolier-chimiquier sous pavillon de Saint-Marin, a été touché le 15 octobre près de l'embouchure du Danube : sept des douze membres d'équipage sont portés disparus, des restes humains ont été retrouvés à bord et les procureurs bulgares ont ordonné des tests ADN [8].",
-      "La Roumanie met la responsabilité sur la Russie, tandis que la Bulgarie ne l'a pas formellement accusée ; l'OTAN a dit qu'elle déploierait des avions de patrouille, des radars et des drones pour dissuader de nouvelles attaques [1][2].",
-      "Les deux pays développent un pôle conjoint de sécurité maritime, centré sur les menaces hybrides et cyber et sur la protection de l'environnement [7]."
-    ],
-    "why": [
-      "À retenir : ce ne sont plus seulement des navires qui brûlent en mer Noire, ce sont des navires civils touchés devant les côtes de deux pays de l'Union européenne et de l'OTAN, et la visite de la présidente de la Commission est le signe que Bruxelles s'en empare [2][3].",
-      "L'enjeu est d'abord économique : la mer Noire est une route commerciale et pétrolière, et des cargos touchés en quelques semaines posent la question de la protection des ports, de la couverture des équipages et du coût du transport pour les armateurs. Le Wine Trader, avec sept marins sur douze disparus, montre que le coût humain est déjà lourd [8].",
-      "Le député européen Victor Negrescu attend de la visite « un moment de décisions concrètes pour la sécurité de notre pays et pour les investissements européens » ; il cite le pôle de sécurité maritime comme priorité immédiate [6][7]. Reste à voir si Bruxelles apporte des fonds et des moyens, ou seulement des déclarations.",
-      "Les attributions sont encore débattues : la Roumanie désigne la Russie, la Bulgarie reste prudente [1]. Cette différence de ton rend plus difficile une réponse européenne commune, alors que l'OTAN envoie déjà des moyens de surveillance [2]."
-    ],
-    "forMe": "Si tu es lecteur français, l'effet est indirect mais réel : la mer Noire est une route de grains, de pétrole et de marchandises qui passent aussi par des ports européens, et la facture de l'assurance maritime finit par se retrouver dans les prix [2]. Les annonces de von der Leyen mardi à Varna diront si l'Union paie pour protéger cette route [3].",
-    "next": [
-      {
-        "when": "10 novembre",
-        "what": "Von der Leyen à Varna, avec le Premier ministre bulgare Rumen Radev et à l'Académie navale Nikola Vaptsarov [3][4]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 1,
-        "value": "9 navires",
-        "label": "cargos et pétroliers touchés par des drones en octobre"
-      },
-      {
-        "src": 1,
-        "value": "24 jours",
-        "label": "durée de la série d'attaques"
-      },
-      {
-        "src": 2,
-        "value": "30+",
-        "label": "marins morts ou disparus selon l'AP"
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "routes-maritimes"
-    ],
-    "sources": [
-      {
-        "short": "AP",
-        "name": "AP, « In October, drones attacked nine merchant ships off the coast of Bulgaria and Romania » (via USM)",
-        "url": "https://en.usm.media/in-october-drones-attacked-nine-merchant-ships-off-the-coast-of-bulgaria-and-romania-ap/"
-      },
-      {
-        "short": "AP",
-        "name": "AP, « Drone attacks put Black Sea shipping near Bulgaria and Romania at risk » (via WRTV)",
-        "url": "https://www.wrtv.com/news/international/drone-attacks-put-black-sea-shipping-near-bulgaria-and-romania-at-risk/"
-      },
-      {
-        "short": "Romania Insider",
-        "name": "Romania Insider, « Ursula von der Leyen to meet president, PM during visit to Romania »",
-        "url": "https://www.romania-insider.com/society/ursula-von-der-leyen-meet-president-pm-during"
-      },
-      {
-        "short": "Radio Bulgarie",
-        "name": "Radio Bulgarie, « Ursula von der Leyen en visite à Varna »",
-        "url": "https://bnrnews.bg/fr/post/554713/ursula-von-der-leyen-en-visite-a-varna"
-      },
-      {
-        "short": "Agenzia Nova",
-        "name": "Agenzia Nova, « Mar Nero : Commissione Ue, von der Leyen in visita in Romania e Bulgaria il 9 e 10 novembre »",
-        "url": "https://www.agenzianova.com/news/mar-nero-commissione-ue-von-der-leyen-in-visita-in-romania-e-bulgaria-il-9-e-10-novembre/"
-      },
-      {
-        "short": "Informat",
-        "name": "Informat, « Victor Negrescu, avant la visite d'Ursula von der Leyen à Bucarest »",
-        "url": "https://informat.ro/fr/politique/victor-negrescu-demande-des-decisions-concretes-lors-de-la-visite-dursula-von-der-leyen-147344"
-      },
-      {
-        "short": "EUalive",
-        "name": "EUalive, « Von der Leyen to visit Bulgaria and Romania as EU steps up Black Sea security efforts »",
-        "url": "https://eualive.net/von-der-leyen-to-visit-bulgaria-and-romania-as-eu-steps-up-black-sea-security-efforts/"
-      },
-      {
-        "short": "Universul",
-        "name": "Universul, « Human remains found on vessel struck in Black Sea off Romania's coast »",
-        "url": "https://universul.net/human-remains-found-on-vessel-struck-in-black-sea-off-romanias-coast/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-chine-prix-usines-5-7-pourcent-plus-haut-depuis-2022",
-    "date": "2026-11-09",
-    "region": "Asie",
-    "theme": "eco",
-    "zones": [
-      "Asie",
-      "Europe"
-    ],
-    "geo": [
-      {
-        "coords": [
-          116.4,
-          39.9
-        ],
-        "name": "Pékin, Chine",
-        "label": "Chine"
-      }
-    ],
-    "title": "Chine : les prix à la sortie des usines montent de 5,7 %, du jamais vu depuis juin 2022, pendant que ceux des consommateurs ralentissent",
-    "summary": "Les prix de gros chinois ont progressé de 5,7 % en un an en octobre, leur rythme le plus rapide depuis juin 2022, alors que l'inflation à la consommation ralentit à 0,7 %. Selon le Bureau national des statistiques, l'énergie importée plus chère tire les prix des usines, pendant que la nourriture baisse [1][2].",
-    "points": [
-      "Le Bureau national des statistiques a publié le 9 novembre l'indice des prix à la production industrielle (PPI, le prix des produits au sortir de l'usine) d'octobre : +5,7 % sur un an, contre +5,0 % en septembre et +5,3 % attendus par les économistes interrogés par Reuters [1][2].",
-      "C'est la troisième accélération de suite, et le rythme le plus rapide depuis juin 2022 [2][3].",
-      "Côté consommateurs, l'inflation (CPI) ralentit à +0,7 % sur un an, contre +0,9 % en septembre et +0,8 % attendus ; sur un mois, les prix sont stables [2][4].",
-      "L'inflation « de fond », qui exclut la nourriture et l'énergie, recule à +0,8 % contre +1,0 % en septembre, sous les +0,9 % attendus [2][4].",
-      "Les prix alimentaires reculent de 2,9 % sur un an, un plus bas de 13 mois : cette baisse plus forte que prévu compense la hausse de l'essence [2][4].",
-      "Sur les dix premiers mois de 2026, les prix à la consommation sont en hausse de seulement 0,9 % par rapport à la même période de 2025 [5].",
-      "Dong Lijuan, statisticienne en chef du Bureau, attribue la hausse des prix des usines à des cours internationaux de l'énergie plus élevés et à une demande accrue de charbon et de gaz pour produire de l'électricité et chauffer [1]."
-    ],
-    "why": [
-      "À retenir : en Chine, ce sont les usines qui voient leurs coûts grimper, pas les ménages, et cet écart de 5 points entre les prix de gros (+5,7 %) et les prix de détail (+0,7 %) met les entreprises sous pression [2][4].",
-      "Le mécanisme est simple : un fabricant qui paie plus cher son énergie et ses matières premières mais qui vend à des clients qui dépensent peu ne peut pas relever ses prix, et sa marge se réduit. Des analystes cités par la presse parlent de marges comprimées et d'une demande intérieure faible [2][4]. CNBC y voit un exercice d'équilibriste délicat pour les autorités, entre soutenir la consommation et contenir les coûts [2].",
-      "Le choc vient de l'énergie : le SCMP relie le plus haut du PPI depuis 2022 à la guerre en Iran, et CNBC décrivait déjà, en mai puis en juin, une inflation de gros proche d'un sommet de quatre ans à cause du coût des matières premières importées [3][6][7].",
-      "Cette hausse arrive alors que la Chine exporte à plein régime : en septembre, ses exportations avaient bondi de 36,3 % sur un an et son excédent commercial atteignait 938 milliards de dollars, selon Fortune, qui note que la pression monte pour qu'elle rééquilibre ses échanges avec l'Europe [8]. Si les prix de gros restent hauts, ils finissent en partie dans le prix des produits exportés."
-    ],
-    "forMe": "Les usines chinoises fabriquent une grande partie de l'électronique, des vêtements et des pièces que tu achètes. Quand leurs coûts montent, ce renchérissement peut, avec du retard, se retrouver dans les prix à l'export et donc dans les rayons européens, surtout si l'énergie reste chère. À l'inverse, des prix à la consommation presque stables en Chine disent que ses ménages dépensent peu : c'est ce qui pousse le pays à vendre davantage à l'étranger.",
-    "next": [
-      {
-        "when": "10 novembre",
-        "what": "Les douanes chinoises doivent publier le commerce extérieur d'octobre ; Trading Economics anticipe un excédent mensuel d'environ 126,5 milliards de dollars [9]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 1,
-        "value": "+5,7 %",
-        "label": "prix à la production en octobre sur un an, un plus haut depuis juin 2022"
-      },
-      {
-        "src": 2,
-        "value": "+0,7 %",
-        "label": "prix à la consommation en octobre sur un an, sous les +0,8 % attendus"
-      },
-      {
-        "src": 4,
-        "value": "−2,9 %",
-        "label": "prix alimentaires sur un an, un plus bas de 13 mois"
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "inflation-taux"
-    ],
-    "sources": [
-      {
-        "short": "Xinhua",
-        "name": "Xinhua, « China's PPI rises 5.7 pct in October » (9 novembre 2026)",
-        "url": "https://english.news.cn/20261109/afda6ffee5f34853820eb2f9e4f8caaa/c.html"
-      },
-      {
-        "short": "CNBC",
-        "name": "CNBC, « China wholesale inflation hits highest in more than four years as consumer measure slows » (9 novembre 2026)",
-        "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html"
-      },
-      {
-        "short": "SCMP",
-        "name": "South China Morning Post, « China's factory-gate prices continue to rise, PPI the most since 2022 amid Iran war »",
-        "url": "https://www.scmp.com/economy/economic-indicators/article/3373727/chinas-factory-gate-prices-continue-rise-ppi-most-2022-amid-iran-war"
-      },
-      {
-        "short": "investingLive",
-        "name": "investingLive, « China October 2026 CPI +0.7% y/y (expected +0.8%, prior +0.9%) »",
-        "url": "https://investinglive.com/news/china-october-2026-cpi-0-7-y-y-expected-0-8-prior-0-9/"
-      },
-      {
-        "short": "Shanghai Metals Market",
-        "name": "Shanghai Metals Market, « NBS: October CPI up 0.7% YoY, PPI up 5.7% YoY, with growth widening from the previous month »",
-        "url": "https://news.metal.com/newscontent/MF6RB3J44K6L6A5RFCQWGMLUTCWJKB6D3SBP7MI-nbs-october-cpi-up-07-yoy-ppi-up-57-yoy-with-growth-widening-from-the-previous-month"
-      },
-      {
-        "short": "CNBC (juin)",
-        "name": "CNBC, « China May wholesale inflation hits near 4-year high on Iran war-led higher input costs, AI boom » (10 juin 2026)",
-        "url": "https://www.cnbc.com/2026/06/10/china-cpi-ppi-inflation-may-consumer-prices-producer-oil-iran-war-ai-tech-.html"
-      },
-      {
-        "short": "CNBC (juillet)",
-        "name": "CNBC, « China consumer price growth weakens in June while producer inflation rises to near 4-year high » (9 juillet 2026)",
-        "url": "https://www.cnbc.com/2026/07/09/china-cpi-ppi-june-inflation-iran-war-.html"
-      },
-      {
-        "short": "Fortune",
-        "name": "Fortune, « China's trade surplus reaches $938 billion as exports surge 36.3% and as pressure mounts for it to rebalance trade with Europe » (14 octobre 2026)",
-        "url": "https://fortune.com/2026/10/14/chinas-trade-surplus-eu-rebalance/"
-      },
-      {
-        "short": "Trading Economics",
-        "name": "Trading Economics, « China Balance of Trade » (calendrier)",
-        "url": "https://tradingeconomics.com/china/balance-of-trade"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-canada-etats-unis-concept-accord-keystone-xl-droits-50",
-    "date": "2026-11-09",
-    "region": "Amériques",
-    "theme": "eco",
-    "zones": [
-      "Amérique du Nord"
-    ],
-    "geo": [
-      {
-        "coords": [
-          -75.7,
-          45.42
-        ],
-        "name": "Ottawa, Canada",
-        "label": "Canada"
-      },
-      {
-        "coords": [
-          -77.04,
-          38.9
-        ],
-        "name": "Washington, États-Unis",
-        "label": "États-Unis"
-      }
-    ],
-    "title": "Canada–États-Unis : Trump parle d'un « concept » d'accord qui inclurait l'oléoduc Keystone XL, mais Ottawa dit « pas tout à fait » et les droits de 50 % restent",
-    "summary": "Donald Trump affirme avoir avec Mark Carney « le concept » d'un accord commercial, avec la construction de l'oléoduc Keystone XL et des droits nuls pour les agriculteurs américains. Le Premier ministre canadien parle d'un échange constructif, mais aucun texte ni taux n'existe, et les droits de 50 % restent en vigueur [1][2][3].",
-    "points": [
-      "Donald Trump a dit que lui et Mark Carney avaient « le concept » d'un accord et que la construction de l'oléoduc Keystone XL en ferait partie ; l'agence AP a rapporté ses propos le 1er novembre, deux jours avant les élections américaines de mi-mandat [1][2].",
-      "Il a ajouté : « Une partie de l'accord, c'est que nos agriculteurs n'auront aucun droit de douane à payer », tout en laissant entendre que les détails n'étaient pas réglés [2].",
-      "Mark Carney a évoqué une conversation constructive avec Trump et annoncé que les négociateurs travailleraient à un accord dans les prochaines semaines ; il avait aussi dit qu'un accord avant le vote du 3 novembre n'était pas envisageable [1][3].",
-      "Ottawa veut surtout un allègement des droits sectoriels américains sur les voitures, l'acier, l'aluminium et les produits du bois [3].",
-      "Les chiffres divergent selon les médias : The Auto Wire indique qu'un droit de 50 % lié aux droits canadiens sur les voitures reste en vigueur, et évoque aussi une menace de droit de 25 % au 1er janvier sur les véhicules fabriqués au Canada [2].",
-      "Les discussions repartent après l'échec d'août : Mark Carney avait dit que Washington « demandait trop et offrait trop peu », puis les États-Unis avaient imposé 50 % de droits sur environ 20 milliards de dollars de produits canadiens, et le Canada avait riposté sur environ 20 milliards de produits américains [4][5][6]."
-    ],
-    "why": [
-      "À retenir : un « concept » n'est pas un accord. Le texte, les taux et le calendrier n'existent pas encore, et les deux camps ne décrivent pas la même chose, ce qui rend toute annonce prématurée [2].",
-      "Les enjeux sont lourds pour le Canada : les États-Unis absorbent 72 % de ses exportations de biens, et celles-ci vers le voisin ont reculé de 6,6 % en juillet, selon Statistique Canada [7]. Chaque semaine sans accord pèse sur les usines d'acier, d'aluminium et d'automobiles.",
-      "Le dossier est aussi politique des deux côtés. Les droits sont devenus un sujet de campagne dans des États où les républicains ne peuvent pas se permettre de perdre, comme le Michigan et le Maine, selon Al Jazeera [8]. Côté canadien, Mark Carney a expliqué en août avoir refusé des exigences qui menaçaient la souveraineté du pays, la protection du français et l'industrie automobile [2][4].",
-      "Autre point flou : Keystone XL, l'oléoduc cité par Trump, et la franchise pour les agriculteurs américains n'apparaissent pas dans les motifs de la proclamation américaine du 20 juillet, qui repose sur les véhicules, ce qui laisse penser que ces éléments devront être écrits dans un futur texte [2]."
-    ],
-    "forMe": "Si l'accord avec Washington se fait, le Canada sera moins pressé de se tourner vers d'autres marchés ; s'il échoue, il cherchera davantage à vendre ailleurs, y compris en Europe, ce qui peut influencer prix et accords commerciaux. La protection du français, citée par Mark Carney comme ligne rouge, concerne directement les francophones.",
-    "next": [
-      {
-        "when": "Prochaines semaines",
-        "what": "Les négociateurs américains et canadiens doivent travailler à un texte d'accord, selon Mark Carney [1][3]."
-      },
-      {
-        "when": "1er janvier",
-        "what": "Échéance évoquée par The Auto Wire pour de nouveaux droits sur les véhicules fabriqués au Canada [2]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 2,
-        "value": "50 %",
-        "label": "droits américains encore en vigueur, selon The Auto Wire"
-      },
-      {
-        "src": 7,
-        "value": "72 %",
-        "label": "part des États-Unis dans les exportations canadiennes de biens"
-      },
-      {
-        "src": 7,
-        "value": "−6,6 %",
-        "label": "exportations canadiennes vers les États-Unis en juillet"
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "droits-de-douane"
-    ],
-    "sources": [
-      {
-        "short": "AP (ADN)",
-        "name": "Associated Press via Anchorage Daily News, « Canada's Carney reports progress in trade talks with US. Trump talks up 'concept' of a deal » (1er novembre 2026)",
-        "url": "https://www.adn.com/nation-world/2026/11/01/canadas-carney-reports-progress-in-trade-talks-with-us-trump-talks-up-concept-of-a-deal/"
-      },
-      {
-        "short": "The Auto Wire",
-        "name": "The Auto Wire, « Trump Says He and Carney Have 'the Concept' of a Canada Deal. A 50% Tariff Over Canada's Car Duties Is Still on the Books » (8 novembre 2026)",
-        "url": "https://theautowire.com/2026/11/08/canada-auto-tariff-deal-concept-trump-carney-2/"
-      },
-      {
-        "short": "CBC",
-        "name": "CBC News, « Carney has 'good conversation' with Trump on future of Canada-U.S. trade as midterms near »",
-        "url": "https://www.cbc.ca/news/politics/carney-trump-conversation-midterms-9.7404845"
-      },
-      {
-        "short": "CNN",
-        "name": "CNN, « Carney says US asked 'too much, offered too little' as trade talks collapse » (21 août 2026)",
-        "url": "https://www.cnn.com/2026/08/21/economy/us-canada-trade"
-      },
-      {
-        "short": "The Globe and Mail",
-        "name": "The Globe and Mail, « Trade talks collapsed at last minute after U.S. commerce chief pressed for harsher terms, sources say »",
-        "url": "https://www.theglobeandmail.com/world/article-us-canada-trade-tariffs-trump-mark-carney-august-23/"
-      },
-      {
-        "short": "Al Jazeera (août)",
-        "name": "Al Jazeera, « Canada to hit US with retaliatory tariffs as trade war escalates » (23 août 2026)",
-        "url": "https://www.aljazeera.com/news/2026/8/23/canada-to-hit-us-with-retaliatory-tariffs-as-trade-war-escalates"
-      },
-      {
-        "short": "Statistique Canada",
-        "name": "Statistique Canada, « Commerce international de marchandises du Canada, juillet 2026 » (Le Quotidien)",
-        "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260903/dq260903a-eng.htm"
-      },
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « Carney signals progress on Canada-US trade deal talks as midterms loom » (1er novembre 2026)",
-        "url": "https://www.aljazeera.com/news/2026/11/1/carney-signals-progress-on-canada-us-trade-deal-talks-as-midterms-loom"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-etats-unis-democrates-abroger-droits-de-douane-veto-trump",
-    "date": "2026-11-09",
-    "region": "Amériques",
-    "theme": "mix",
-    "zones": [
-      "Amérique du Nord",
-      "Europe",
-      "Asie"
-    ],
-    "geo": [
-      {
-        "coords": [
-          -77.04,
-          38.9
-        ],
-        "name": "Washington, États-Unis",
-        "label": "États-Unis"
-      }
-    ],
-    "title": "États-Unis : les démocrates, maîtres du Congrès, veulent abroger les droits de douane de Trump, mais il promet son veto et il leur manque les voix pour le contourner",
-    "summary": "Après leur victoire aux élections de mi-mandat, les démocrates veulent utiliser leurs majorités pour défaire les droits de douane de Donald Trump, en commençant par ceux sur le Canada. Mais le président promet d'utiliser son veto, et sans voix républicaines, ils n'ont pas les deux tiers nécessaires [1][2][3].",
-    "points": [
-      "Les démocrates ont repris le Congrès : The Hill cite des projections de 262 élus à la Chambre et 55 sénateurs, alors que le centre d'analyse The Center Square parle d'au moins 54 sénateurs et d'une majorité à la Chambre avec des dizaines de courses non tranchées [1][3].",
-      "Hakeem Jeffries, chef des démocrates de la Chambre, a fait de la fin des droits de douane l'une de ses priorités ; l'idée est de faire voter très vite un texte qui rend au Congrès son pouvoir sur le commerce, puis d'attaquer les droits de 50 % sur les produits canadiens [1][2][4].",
-      "Avant le scrutin, Ken Martin, président du Parti démocrate (DNC), avait déclaré : « La première chose à faire est d'abroger les droits de douane mis en place par Donald Trump » [8].",
-      "Donald Trump répond : « J'ai le pouvoir ultime, ça s'appelle le veto » ; pour passer outre, il faudrait 67 voix au Sénat et 290 à la Chambre, ce que les démocrates n'ont pas sans des républicains [3][4].",
-      "Précédent : la Chambre a adopté par 219 voix contre 211, avec six républicains, une résolution mettant fin à l'état d'urgence qui justifiait les droits sur le Canada, sans atteindre les deux tiers [5][2].",
-      "Cadre juridique : la Cour suprême a jugé le 20 février 2026 que la loi IEEPA n'autorise pas les droits de douane ; la surtaxe temporaire de 10 % (article 122) a expiré le 23 juillet et a été remplacée par des droits de 10 % à 12,5 % (article 301) sur 60 pays et territoires, sans date de fin [6][7].",
-      "Une estimation indépendante chiffre à environ 85,5 milliards de dollars par an le coût de l'abrogation des droits restants, ce qui compte pour le déficit [3]."
-    ],
-    "why": [
-      "À retenir : le résultat du 3 novembre change le rapport de forces, mais ne suffit pas à changer la politique commerciale, parce que la Constitution donne au président le veto et qu'il faut les deux tiers des deux chambres pour le surmonter [3][4].",
-      "Les démocrates envisagent donc plusieurs voies : des textes ciblés (par exemple sur le Canada) qui peuvent rallier des républicains, des limites jointes à des budgets que le Congrès doit voter, et des auditions pour examiner les droits ; Ron Wyden, futur président de la commission des Finances du Sénat, veut s'en servir pour réaffirmer le pouvoir du Congrès sur le commerce [4].",
-      "Les tribunaux restent la voie la plus probable à court terme, comme l'a montré la décision de la Cour suprême en février, puis la bataille juridique sur l'article 122 devant le Tribunal du commerce international, dont la décision de mai est suspendue en appel [3][6][9].",
-      "Pour les partenaires de Washington, Canada, Mexique, Chine, Europe, l'enjeu est simple : savoir si les droits actuels sont durables. Pour l'instant, ils le sont, au moins jusqu'à l'arrivée du nouveau Congrès en janvier 2027 [2][7]."
-    ],
-    "forMe": "Ces droits de douane renchérissent les produits importés aux États-Unis et pèsent sur les exportateurs européens (vins, machines, produits de luxe). Si le Congrès arrive à les réduire, ce sera une bonne nouvelle pour eux ; s'il échoue, ils devront composer avec une incertitude qui dure. Pour les marchés, c'est un facteur de plus à suivre en plus de la Fed et de l'inflation.",
-    "next": [
-      {
-        "when": "Janvier 2027",
-        "what": "Le nouveau Congrès siège ; les démocrates prévoient de voter vite un texte sur le pouvoir commercial du Congrès, en commençant par le Canada, selon CNBC et Yahoo Finance [2][4]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 4,
-        "value": "67 voix",
-        "label": "nécessaires au Sénat pour surmonter un veto (290 à la Chambre)"
-      },
-      {
-        "src": 5,
-        "value": "219 contre 211",
-        "label": "vote de la Chambre contre l'état d'urgence sur le Canada"
-      },
-      {
-        "src": 4,
-        "value": "85,5 Md$/an",
-        "label": "coût estimé de l'abrogation des droits restants"
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "droits-de-douane"
-    ],
-    "sources": [
-      {
-        "short": "The Hill",
-        "name": "The Hill, « Democrats plan to challenge Trump tariffs following midterm wins »",
-        "url": "https://thehill.com/business/6205219-democrats-target-trump-tariffs/"
-      },
-      {
-        "short": "Yahoo Finance Canada",
-        "name": "Yahoo Finance Canada, « Democrats seize Congress promising to repeal Trump's tariffs on Canada — but a presidential veto stands in the way »",
-        "url": "https://ca.finance.yahoo.com/news/democrats-seize-congress-promising-repeal-163000995.html"
-      },
-      {
-        "short": "Eurasia Review",
-        "name": "Eurasia Review, « Democrats Can't End Trump's Tariffs Without Republicans » (9 novembre 2026)",
-        "url": "https://www.eurasiareview.com/09112026-democrats-cant-end-trumps-tariffs-without-republicans/"
-      },
-      {
-        "short": "CNBC",
-        "name": "CNBC, « How Democrats will try to end Trump's tariffs » (8 novembre 2026)",
-        "url": "https://www.cnbc.com/2026/11/08/trump-tariffs-democrats-congress-canada.html"
-      },
-      {
-        "short": "NBC News",
-        "name": "NBC News, « House votes to end Trump tariffs on Canada »",
-        "url": "https://www.nbcnews.com/politics/congress/house-votes-end-trump-tariffs-canada-rcna258661"
-      },
-      {
-        "short": "Troutman Pepper Locke",
-        "name": "Troutman Pepper Locke, « Supreme Court Strikes Down IEEPA Tariffs; Trump Responds With Section 122 Global Surcharge »",
-        "url": "https://www.troutman.com/insights/supreme-court-strikes-down-ieepa-tariffs-trump-responds-with-section-122-global-surcharge/"
-      },
-      {
-        "short": "Baker Donelson",
-        "name": "Baker Donelson, « Trade Policy Shifts: IEEPA Tariffs End, Section 122 Begins, and Sections 301 and 232 Activity Grows »",
-        "url": "https://www.bakerdonelson.com/trade-policy-shifts-ieepa-tariffs-end-section-122-begins-and-sections-301-and-232-activity-grows"
-      },
-      {
-        "short": "The Hill (DNC)",
-        "name": "The Hill, « DNC Chair Ken Martin says Democrats should repeal Trump tariffs, end Iran war if they win midterms »",
-        "url": "https://thehill.com/homenews/campaign/6195001-dnc-chair-trump-tariffs-iran/"
-      },
-      {
-        "short": "Skadden",
-        "name": "Skadden, « US Trade Court Strikes Down Section 122 Tariffs, but Ruling's Fate Is Uncertain and Practical Impact Is Limited » (mai 2026)",
-        "url": "https://www.skadden.com/insights/publications/2026/05/us-trade-court-strikes-down-section-122-tariffs"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-turquie-cop31-antalya-ouverture-turquie-australie",
-    "date": "2026-11-09",
-    "region": "Europe",
-    "theme": "mix",
-    "zones": [
-      "Europe",
-      "Afrique",
-      "Océanie",
-      "Amérique du Nord",
-      "Moyen-Orient"
-    ],
-    "geo": [
-      {
-        "name": "Antalya, Turquie",
-        "label": "Turquie",
-        "coords": [
-          30.71,
-          36.9
-        ]
-      }
-    ],
-    "title": "COP31 : la conférence sur le climat s'ouvre à Antalya, avec la Turquie à la présidence, l'Australie aux négociations et les États-Unis absents",
-    "summary": "La COP31 s'ouvre ce lundi 9 novembre à Antalya, en Turquie, jusqu'au 20 novembre. La présidence est partagée par compromis : la Turquie héberge, l'Australie dirige les négociations. Guerre, énergie chère et retrait américain pèsent sur une conférence où l'argent pour les pays pauvres sera le point dur [1][2][3].",
-    "points": [
-      "La COP31, la 31e conférence annuelle de l'ONU sur le climat, se tient du 9 au 20 novembre au centre d'expositions d'Antalya, sur la côte méditerranéenne de la Turquie [1][5].",
-      "La présidence est partagée par compromis : la Turquie accueille et préside, avec son ministre de l'Environnement, Murat Kurum ; l'Australie, représentée par Chris Bowen, préside les négociations proprement dites [2][3].",
-      "Un sommet des dirigeants est prévu à Antalya les 11 et 12 novembre [1].",
-      "Les États-Unis de Donald Trump, sortis de l'accord de Paris, n'ont envoyé aucun représentant officiel à la conférence [1].",
-      "L'argent est le point dur : les pays en développement poussent les pays riches à financer davantage la lutte contre le réchauffement, et les pays africains veulent que le triplement du financement de l'adaptation soit à l'ordre du jour ; un haut responsable européen a prévenu qu'il n'y aurait « aucune volonté politique » pour de nouvelles promesses d'argent [1].",
-      "La conférence s'ouvre sous la pression de la guerre : selon Reuters, les craintes pour la sécurité énergétique, la demande d'électricité de l'intelligence artificielle et le désengagement américain compliquent la lutte contre le réchauffement, et peu de percées sont attendues dans un contexte de choc pétrolier [1][2].",
-      "Simon Stiell, le patron du climat à l'ONU, parle d'un « nouveau désordre mondial » qui menace la coopération ; Murat Kurum annonce avec l'Australie un plan d'action « solide » en mars [1][2]."
-    ],
-    "why": [
-      "À retenir : une COP organisée en pleine guerre du Golfe, sans les États-Unis, a peu de chances de produire de grandes annonces ; l'enjeu est de sauver le cadre commun et de décider qui paie.",
-      "La Turquie, qui préside, porte l'agenda d'action ; l'Australie conduit le texte final des négociations formelles. C'est ce dernier texte qui dira si les pays riches s'engagent sur l'argent [2][3].",
-      "Sur l'énergie, les chocs du pétrole et du gaz poussent deux logiques opposées : accélérer le solaire, l'éolien et l'électrification pour dépendre moins de détroits comme Ormuz, ou relancer l'extraction pour sécuriser l'approvisionnement ; Reuters note que la crainte sur l'énergie complique l'effort climatique [1].",
-      "Pour les pays d'Afrique et les petits États, l'adaptation (digues, eau, agriculture) est vitale ; or l'argent public des pays riches se resserre à cause des budgets de défense et de la dette. C'est là que se jouera l'issue de la COP [1]."
-    ],
-    "forMe": "En France comme ailleurs, le résultat d'une COP se voit surtout dans les politiques d'énergie, de transports et d'industrie qui suivent. Ici, le débat sur « qui paie » et sur le rôle de l'énergie, au moment où le pétrole est cher, rejoint directement ta facture de chauffage et de carburant.",
-    "next": [
-      {
-        "when": "11 et 12 novembre",
-        "what": "Sommet des dirigeants du monde à Antalya [1]."
-      },
-      {
-        "when": "20 novembre",
-        "what": "Clôture de la COP31, avec le texte final des négociations [1][5]."
-      }
-    ],
-    "figures": [
-      {
-        "value": "9-20 novembre",
-        "label": "dates de la COP31 à Antalya",
-        "src": 5
-      },
-      {
-        "value": "3 fois",
-        "label": "le financement de l'adaptation que demandent les pays africains",
-        "src": 1
-      },
-      {
-        "value": "0",
-        "label": "représentant officiel des États-Unis annoncé",
-        "src": 1
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Reuters",
-        "name": "Reuters (via Bangkok Post), « COP31 opens as climate and geopolitical pressures mount » (9 nov. 2026)",
-        "url": "https://www.bangkokpost.com/world/3351451/cop31-opens-as-climate-and-geopolitical-pressures-mount"
-      },
-      {
-        "short": "Reuters",
-        "name": "Reuters (via U.S. News), « COP31 to Open in Turkey, With Climate Goals Under Pressure From War and AI » (8 nov. 2026)",
-        "url": "https://www.usnews.com/news/world/articles/2026-11-08/cop31-to-open-in-turkey-with-climate-goals-under-pressure-from-war-and-ai"
-      },
-      {
-        "short": "Gouvernement australien",
-        "name": "Ministère australien des Affaires étrangères, « COP to be hosted by Türkiye with Australia leading negotiations »",
-        "url": "https://www.foreignminister.gov.au/minister/penny-wong/media-release/cop-be-hosted-turkiye-australia-leading-negotiations"
-      },
-      {
-        "short": "Carbon Brief",
-        "name": "Carbon Brief, « Interactive: Who wants what at the COP31 climate change summit »",
-        "url": "https://www.carbonbrief.org/interactive-who-wants-what-at-the-cop31-climate-change-summit"
-      },
-      {
-        "short": "UNFCCC",
-        "name": "ONU Climat (UNFCCC), « The Road to Antalya »",
-        "url": "https://unfccc.int/cop31/the-road-to-antalya"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-chine-japon-un-an-apres-takaichi-relations-gelees",
-    "date": "2026-11-09",
-    "region": "Asie",
-    "theme": "geo",
-    "zones": [
-      "Asie"
-    ],
-    "geo": [
-      {
-        "coords": [
-          116.4,
-          39.9
-        ],
-        "name": "Pékin, Chine",
-        "label": "Chine"
-      },
-      {
-        "coords": [
-          139.69,
-          35.69
-        ],
-        "name": "Tokyo, Japon",
-        "label": "Japon"
-      }
-    ],
-    "title": "Chine–Japon : un an après les mots de Takaichi sur Taïwan, les relations restent gelées, des terres rares aux crevettes, et tout se joue à Shenzhen le 18 novembre",
-    "summary": "Le 7 novembre 2025, la Première ministre japonaise Sanae Takaichi disait qu'une attaque chinoise contre Taïwan pourrait déclencher une réponse militaire de Tokyo. Un an plus tard, Pékin garde ses sanctions (produits de la mer, terres rares, tourisme), et le Japon espère au moins une poignée de main au sommet de l'APEC [1][2][3].",
-    "points": [
-      "Le 7 novembre 2025, devant le Parlement, Sanae Takaichi a dit qu'une attaque chinoise contre Taïwan pourrait entraîner une réponse militaire du Japon ; un porte-parole du ministère chinois du Commerce a jugé ses propos « manifestement erronés » et estimé qu'ils avaient « fondamentalement sapé la base politique » des relations [2][3].",
-      "Pékin a réimposé en novembre 2025 son interdiction des produits de la mer japonais, en invoquant des documents promis que Tokyo n'aurait pas fournis et la colère de l'opinion chinoise ; la Chine ne représentait plus que moins de 2 % des exportations japonaises de produits de la mer l'an dernier, contre 22,5 % en 2022 [2][4].",
-      "Le 6 janvier 2026, la Chine a restreint les exportations vers le Japon de biens à double usage, dont terres rares et aimants permanents ; le Japon dépendait de la Chine pour 63 % de ses importations de terres rares en 2024 [5][6].",
-      "Nissan et Suzuki ont signalé des perturbations d'approvisionnement à cause de ces restrictions [6].",
-      "Pékin a aussi déconseillé à ses citoyens de voyager au Japon et fait annuler des projections de films d'animation et des concerts japonais ; le CSIS estime l'effet sur le tourisme limité, car des visiteurs de Taïwan, de Corée du Sud, des États-Unis et de Hong Kong ont compensé la baisse des arrivées chinoises [1][6].",
-      "Takaichi dit vouloir des liens « constructifs » avec la Chine, mais le secrétaire général du gouvernement, Minoru Kihara, a refusé de dire si les propos seraient retirés, ce que Pékin réclame [1].",
-      "Fin septembre, l'ancien ministre des Affaires étrangères Takeshi Iwaya a rencontré le plus haut diplomate et le plus haut responsable économique chinois, les premiers contacts de ce niveau entre un politique japonais et Pékin depuis l'affaire [2]."
-    ],
-    "why": [
-      "À retenir : ce n'est pas un simple désaccord diplomatique, c'est une pression économique durable entre deux voisins dont les entreprises dépendent les unes des autres [1][5].",
-      "L'arme la plus efficace est celle des terres rares : sans aimants permanents, on ne fabrique ni moteurs de voitures électriques ni nombre d'appareils électroniques. Les restrictions touchent d'abord l'industrie automobile japonaise, et le Japon essaie de réduire sa dépendance, qu'une analyse situe autour de 65 % aujourd'hui contre 90 % en 2010, chiffre non confirmé par les autres sources [1][6].",
-      "Pékin cherche ainsi à obtenir une rétractation que Tokyo refuse de donner : accepter reviendrait, aux yeux de Tokyo, à renoncer à dire ce que le Japon ferait si Taïwan était attaqué [1][2].",
-      "Le prochain test est le sommet de l'APEC à Shenzhen, les 18 et 19 novembre : Tokyo fait pression pour obtenir au moins une poignée de main standard pour Takaichi, geste qui servirait de signal d'un possible dégel [1][7]."
-    ],
-    "forMe": "Si tu possèdes une voiture électrique ou un appareil à aimant (casque, disque dur, éolienne), tu dépends de ces terres rares. Cette brouille montre comment un conflit diplomatique peut, en quelques semaines, bloquer des chaînes de fabrication mondiales, et pourquoi l'Europe cherche, elle aussi, à réduire sa dépendance à la Chine.",
-    "next": [
-      {
-        "when": "18-19 novembre",
-        "what": "Sommet de l'APEC à Shenzhen : Tokyo espère au moins une poignée de main entre Sanae Takaichi et Xi Jinping [1][7]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 4,
-        "value": "22,5 % → moins de 2 %",
-        "label": "part de la Chine dans les exportations japonaises de produits de la mer, 2022 contre 2025"
-      },
-      {
-        "src": 5,
-        "value": "63 %",
-        "label": "part de la Chine dans les importations japonaises de terres rares en 2024"
-      },
-      {
-        "src": 1,
-        "value": "1 an",
-        "label": "depuis les propos de Takaichi sur Taïwan, sans excuses ni dégel"
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "sanctions"
-    ],
-    "sources": [
-      {
-        "short": "Seoul Economic Daily",
-        "name": "Seoul Economic Daily, « A Year After Takaichi's Taiwan Remark, China-Japan Ties Stay Frozen » (6 novembre 2026)",
-        "url": "https://en.sedaily.com/international/2026/11/06/a-year-after-takaichis-taiwan-remark-china-japan-ties-stay"
-      },
-      {
-        "short": "Malay Mail",
-        "name": "Malay Mail, « China warns Japan to retract 'severely damaging' Taiwan remarks as trade tensions deepen » (21 novembre 2025)",
-        "url": "https://www.malaymail.com/news/world/2025/11/21/china-warns-japan-to-retract-severely-damaging-taiwan-remarks-as-trade-tensions-deepen/199172"
-      },
-      {
-        "short": "Asia Times",
-        "name": "Asia Times, « China's economic retaliation against Takaichi is just beginning » (novembre 2025)",
-        "url": "https://asiatimes.com/2025/11/chinas-economic-retaliation-against-takaichi-is-just-beginning/"
-      },
-      {
-        "short": "Yahoo News",
-        "name": "Yahoo News, « China reimposes Japanese seafood import ban over Taiwan remarks »",
-        "url": "https://www.yahoo.com/news/articles/china-reimposes-japanese-seafood-import-114730919.html"
-      },
-      {
-        "short": "CNN",
-        "name": "CNN, « Japanese PM's Taiwan comments prompt China to ban certain exports to Japan » (6 janvier 2026)",
-        "url": "https://www.cnn.com/2026/01/06/business/china-japan-export-controls-intl-hnk"
-      },
-      {
-        "short": "CSIS",
-        "name": "CSIS, « China's Rare Earth Campaign Against Japan »",
-        "url": "https://www.csis.org/analysis/chinas-rare-earth-campaign-against-japan"
-      },
-      {
-        "short": "Briefs",
-        "name": "Briefs, « Japan Seeks Handshake for Takaichi at APEC »",
-        "url": "https://www.briefs.co/news/japan-moves-to-head-off-apec-snub-of-prime-minister-sanae-ta/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-egypte-ambassade-tripoli-libye-accord-turquie",
-    "date": "2026-11-09",
-    "region": "Afrique",
-    "theme": "geo",
-    "zones": [
-      "Moyen-Orient",
-      "Europe",
-      "Afrique"
-    ],
-    "geo": [
-      {
-        "coords": [
-          13.19,
-          32.89
-        ],
-        "name": "Tripoli, Libye",
-        "label": "Libye"
-      },
-      {
-        "coords": [
-          31.24,
-          30.04
-        ],
-        "name": "Le Caire, Égypte",
-        "label": "Égypte"
-      }
-    ],
-    "title": "L'Égypte rouvre son ambassade à Tripoli après douze ans, et en profite pour contester l'accord maritime entre la Libye et la Turquie",
-    "summary": "Le Caire a rouvert samedi 7 novembre son ambassade à Tripoli, fermée depuis 2014. Le ministre égyptien des Affaires étrangères, Badr Abdelatty, a profité de la cérémonie pour dire au Premier ministre libyen, Dbeibah, que les inquiétudes de l'Égypte sur l'accord maritime turco-libyen doivent compter [1][3].",
-    "points": [
-      "Samedi 7 novembre 2026, l'Égypte a rouvert son ambassade à Tripoli, fermée depuis 2014 : une fermeture de douze ans selon Reuters et la plupart des médias, alors qu'Al Jazeera évoque huit ans dans une légende [2][3].",
-      "Le ministre égyptien des Affaires étrangères, Badr Abdelatty, est arrivé en Libye le jour même et a inauguré le siège de la mission [3].",
-      "À l'ambassade, il a rencontré le ministre du Pétrole par intérim de la Libye et plaidé pour accélérer des projets de gazoducs et pour raffiner du brut libyen en Égypte [1].",
-      "Abdelatty a dit au Premier ministre Dbeibah que les préoccupations du Caire doivent être prises en compte quand les frontières maritimes seront tracées ; Dbeibah a répondu que son gouvernement discuterait avec l'Égypte du dossier de la délimitation maritime [1].",
-      "Le Premier ministre libyen a ensuite évoqué un comité mixte libyo-égyptien, dont la prochaine réunion se tiendrait à Tripoli ou au Caire [1].",
-      "Le 20 octobre, la Chambre des représentants, le Parlement de l'Est aligné sur le commandant militaire Khalifa Haftar, a ratifié le mémorandum signé en 2019 entre la Turquie et l'ancien Gouvernement d'union nationale de Tripoli. L'Égypte, soutien de longue date de Haftar, rejette cet accord [1][5].",
-      "Saddam Haftar a présenté l'accord comme un outil de protection des intérêts économiques de la Libye, tandis que le ministère des Affaires étrangères de Tripoli y voit un « développement positif » pour les relations avec la Turquie [1]."
-    ],
-    "why": [
-      "À retenir : en rouvrant son ambassade à Tripoli, l'Égypte, longtemps tournée vers l'Est de la Libye, ouvre aussi un canal avec le gouvernement de l'Ouest au moment où un accord maritime turc la gêne [1][3].",
-      "Le lien est direct : l'accord ratifié le 20 octobre trace entre la Turquie et la Libye une zone maritime que l'Égypte et Chypre rejettent. L'Union européenne affirme qu'il viole les droits d'États tiers, et des responsables grecs jugent que l'accord Égypte-Grèce de 2020 l'annule dans les faits [1].",
-      "Le paradoxe est que le texte a été ratifié par le Parlement de l'Est, celui que Le Caire soutient. L'Égypte ne peut donc plus compter sur ses seuls alliés de l'Est : elle doit parler aux deux camps libyens, ce qu'Al Jazeera lit comme un signe de changement régional sur le dossier libyen [1][2].",
-      "Derrière la diplomatie, il y a des ressources : gaz, gazoducs, pétrole à raffiner en Égypte [1]. La délimitation des zones maritimes décide qui peut explorer et exploiter les hydrocarbures de la Méditerranée orientale : une ligne sur une carte devient un enjeu d'énergie et de revenus."
-    ],
-    "forMe": "Si tu vis en Europe, la Libye te concerne par le gaz et le pétrole de Méditerranée, par les routes migratoires et par les tensions entre la Grèce, la Turquie et leurs voisins. Rien ne change à la pompe ni sur ta facture pour l'instant : c'est une étape diplomatique, à suivre si les discussions sur les frontières maritimes avancent ou si un compromis calme la dispute.",
-    "next": [
-      {
-        "when": "Date non fixée",
-        "what": "Réunion du comité mixte libyo-égyptien sur la délimitation maritime, à Tripoli ou au Caire [1]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 3,
-        "value": "12 ans",
-        "label": "de fermeture de l'ambassade d'Égypte à Tripoli"
-      },
-      {
-        "src": 1,
-        "value": "20 octobre",
-        "label": "ratification par le Parlement de l'Est du mémorandum turco-libyen de 2019"
-      },
-      {
-        "src": 1,
-        "value": "7 novembre",
-        "label": "réouverture de l'ambassade, en présence de Badr Abdelatty"
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Euronews",
-        "name": "Euronews, « Egypt reopens Tripoli embassy after 12 years and raises concerns over Turkey-Libya maritime deal » (8 novembre 2026)",
-        "url": "https://www.euronews.com/2026/11/08/egypt-reopens-tripoli-embassy-after-12-years-and-raises-concerns-over-turkey-libya-maritim"
-      },
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « Egypt's reopening of its embassy in Tripoli signals regional shift on Libya » (8 novembre 2026)",
-        "url": "https://www.aljazeera.com/news/2026/11/8/egypts-reopening-of-its-embassy-in-tripoli-signals-regional-shift-on-libya"
-      },
-      {
-        "short": "Reuters (TimesLIVE)",
-        "name": "Reuters via TimesLIVE, « Egypt reopens embassy in Libya's Tripoli after 12-year closure » (8 novembre 2026)",
-        "url": "https://www.timeslive.co.za/news/africa/2026-11-08-egypt-reopens-embassy-in-libyas-tripoli-after-12-year-closure/"
-      },
-      {
-        "short": "Asharq Al-Awsat",
-        "name": "Asharq Al-Awsat, « Egypt Reopens Embassy in Libya's Tripoli After 12-Year Closure »",
-        "url": "https://english.aawsat.com/arab-world/5338805-egypt-reopens-embassy-libya%E2%80%99s-tripoli-after-12-year-closure"
-      },
-      {
-        "short": "AP",
-        "name": "Associated Press via WRAL, « Libya approves contentious Turkey deal over Mediterranean waters » (octobre 2026)",
-        "url": "https://www.wral.com/news/ap/c7345-libya-approves-contentious-turkey-deal-over-mediterranean-waters/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-afrique-du-sud-municipales-anc-coalitions",
-    "date": "2026-11-09",
-    "region": "Afrique",
-    "theme": "geo",
-    "zones": [
-      "Afrique"
-    ],
-    "geo": [
-      {
-        "coords": [
-          28.05,
-          -26.2
-        ],
-        "name": "Johannesburg, Afrique du Sud",
-        "label": "Afrique du Sud"
-      }
-    ],
-    "title": "Afrique du Sud : l'ANC reste premier aux municipales avec 30,8 %, mais la DA lui prend les grandes villes et tout se jouera en coalitions",
-    "summary": "Les résultats finaux des municipales du 4 novembre donnent 30,76 % des voix à l'ANC et 24,64 % à la DA, loin de toute majorité. Le nombre de conseils sans majorité grimpe à 142 selon le Mail & Guardian, contre 70 en 2021, et les partis ont 14 jours pour s'allier [3][5].",
-    "points": [
-      "Les Sud-Africains ont voté le 4 novembre 2026 pour renouveler leurs conseils municipaux ; la commission électorale (IEC) a proclamé les résultats finaux dimanche 8 novembre, par la voix de son président Mosotho Moepya, qui a jugé le scrutin libre et équitable [3].",
-      "Le Congrès national africain (ANC) arrive en tête avec 30,76 % des voix et 3 246 sièges de conseillers ; l'Alliance démocratique (DA) obtient 24,64 % et 1 695 sièges, et ActionSA 5,67 % et 313 sièges [6].",
-      "La participation atteint 52 %, contre 45,9 % aux municipales de 2021, et 14,9 millions d'électeurs ont voté [3][6].",
-      "L'ANC ne contrôle seul que 53 municipalités et reste le premier parti dans 128 ; les conseils sans majorité passent à 142 selon le Mail & Guardian (le Witness en compte 139), contre 70 en 2021 [3][6].",
-      "Dans le décompte presque complet relayé par Reuters, le parti uMkhonto weSizwe (MK) de Jacob Zuma arrive troisième avec environ 10 % des voix, et la DA mène à Johannesburg avec environ 35 % contre 20 % pour l'ANC [5].",
-      "Selon le Daily Maverick, la DA devance désormais l'ANC dans les trois métropoles du Gauteng où l'ANC était premier en 2021 ; à Nelson Mandela Bay, la DA a 53 sièges sur 120 contre 32 à l'ANC, et à eThekwini (Durban), l'ANC tombe à 37 sièges [4].",
-      "Les partis ont 14 jours après la proclamation finale pour négocier. Le secrétaire général de l'ANC, Fikile Mbalula, a qualifié le résultat de « catastrophique » mais dit que son parti n'ira pas mendier des postes ; l'ANC siégera dans l'opposition si les conditions d'une coalition ne lui conviennent pas [5]."
-    ],
-    "why": [
-      "À retenir : l'ANC reste le premier parti du pays mais perd la main sur les grandes villes, et ce sont désormais les négociations de coalition, plus que les urnes, qui décideront qui dirige Johannesburg, Tshwane ou Durban [4][5].",
-      "Reuters rappelle que la part de l'ANC recule d'élection locale en élection locale depuis quinze ans, en grande partie à cause des défaillances des services de base comme l'eau et l'électricité [5]. C'est là que le vote municipal est le plus concret, puisque ce sont les communes qui gèrent ces services.",
-      "Le mécanisme est celui des conseils sans majorité : quand aucun parti n'a plus de la moitié des sièges, il faut un accord pour élire le maire et voter le budget. Les analystes voient dans une alliance ANC-DA l'option la plus stable à Johannesburg, à l'image de leur arrangement au niveau national [5]. Mais le chef d'ActionSA, Herman Mashaba, s'oppose ouvertement à Helen Zille, dont le nom circule pour la mairie de Johannesburg [4].",
-      "Le dirigeant de la DA, Geordin Hill-Lewis, a préparé des cadres de coalition transparents et envisage un modèle de « gouvernement d'unité locale » pour les conseils sans majorité ; le SACP a de son côté invité l'ANC, l'EFF, le MK et d'autres partis « de gauche » à discuter d'alliances [7]."
-    ],
-    "forMe": "Si tu as des liens avec l'Afrique du Sud (voyage, famille, investissements), retiens que la stabilité des grandes villes se joue dans ces négociations : l'eau, l'électricité et les transports locaux en dépendent. Pour un lecteur en France, l'effet est indirect : une coalition fragile freine les réformes et pèse sur la confiance des investisseurs dans une des grandes économies du continent. Rien ne change dans ton quotidien à court terme.",
-    "next": [
-      {
-        "when": "Vers le 22 novembre",
-        "what": "Fin du délai de 14 jours pour former les coalitions après la proclamation finale du 8 novembre [5]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 6,
-        "value": "30,76 % contre 24,64 %",
-        "label": "des voix pour l'ANC et pour la DA"
-      },
-      {
-        "src": 3,
-        "value": "142",
-        "label": "conseils sans majorité, contre 70 en 2021"
-      },
-      {
-        "src": 3,
-        "value": "52 %",
-        "label": "de participation, contre 45,9 % en 2021"
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « South Africa's ANC suffers setback in local elections » (8 novembre 2026)",
-        "url": "https://www.aljazeera.com/news/2026/11/8/south-africas-anc-suffers-setback-in-local-elections"
-      },
-      {
-        "short": "TimesLIVE",
-        "name": "TimesLIVE, « ANC faces tough coalition talks after election setback » (9 novembre 2026)",
-        "url": "https://www.timeslive.co.za/politics/elections-2026/2026-11-09-anc-faces-tough-coalition-talks-after-election-setback/"
-      },
-      {
-        "short": "Mail & Guardian",
-        "name": "Mail & Guardian, « ANC barely hangs on as DA and ActionSA make gains in final IEC results » (8 novembre 2026)",
-        "url": "https://mg.co.za/news/south-africa/2026-11-08-anc-barely-hangs-on-as-da-and-actionsa-make-gains-in-final-iec-results/"
-      },
-      {
-        "short": "Daily Maverick",
-        "name": "Daily Maverick, « ANC faces coalition scramble after electoral rout as control of key metros slips away » (7 novembre 2026)",
-        "url": "https://www.dailymaverick.co.za/article/2026-11-07-anc-faces-coalition-scramble-after-electoral-rout-as-control-of-key-metros-slips-away/"
-      },
-      {
-        "short": "Reuters (Investing.com)",
-        "name": "Reuters via Investing.com, « South Africa's ANC takes a beating in municipal vote, setting up tough coalition talks »",
-        "url": "https://www.investing.com/news/world-news/south-africas-anc-battered-by-local-election-losses-ahead-of-coalition-talks-5010167"
-      },
-      {
-        "short": "The Witness",
-        "name": "The Witness, « 2026 local election results: IEC confirms 14,9 million voters cast ballots » (8 novembre 2026)",
-        "url": "https://witness.co.za/news/kzn/2026/11/08/2026-local-election-results-iec-confirms-149-million-voters-cast-ballots/"
-      },
-      {
-        "short": "Sunday World",
-        "name": "Sunday World, « Power struggle begins: Coalition negotiations intensify across hung municipalities »",
-        "url": "https://sundayworld.co.za/elections-2026/power-struggle-begins-coalition-negotiations-intensify-across-126-hung-municipalities/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-italie-manovra-2027-audizioni-banques-irpef",
-    "date": "2026-11-09",
-    "region": "Europe",
-    "theme": "eco",
-    "zones": [
-      "Europe"
-    ],
-    "geo": [
-      {
-        "name": "Rome, Italie",
-        "label": "Italie",
-        "coords": [
-          12.5,
-          41.9
-        ]
-      }
-    ],
-    "title": "Italie : le budget 2027 entre au Parlement sous le feu des critiques, avec 5 milliards d'euros demandés aux banques et aux assurances",
-    "summary": "Le Parlement italien ouvre lundi 9 novembre les auditions sur le budget 2027 de Giorgia Meloni : Cour des comptes, assureurs et banques défilent jusqu'au jeudi 12, où le ministre de l'Économie Giancarlo Giorgetti est entendu. Le gouvernement veut environ 5 milliards d'euros aux banques et aux assurances ; Cisl et assureurs protestent [1][2][3].",
-    "points": [
-      "Les auditions sur la loi de budget 2027 commencent lundi 9 novembre : la Cour des comptes à 14 h 30, l'association des assureurs Ania à 15 h 50, l'association des banques Abi mardi matin, puis la Banque d'Italie, le Bureau parlementaire du budget et le ministre Giancarlo Giorgetti jeudi 12 novembre, à 16 h [1][2].",
-      "Pour trouver des recettes, le gouvernement demande environ 5 milliards d'euros aux banques et aux assurances, selon Milano Finanza (certaines sources comptent plus de 5,5 milliards) ; Giorgetti juge ce montant « soutenable » et « amortissable par le système » [3][6].",
-      "Il admet cependant qu'il n'y a pas d'accord avec les banques : « Accord entre nous, pas avec les banques », a-t-il résumé ; parmi les pistes, une hausse de la surtaxe d'impôt sur les sociétés (Ires) pour le secteur [4][6].",
-      "Sur l'impôt sur le revenu (Irpef), la baisse pour la classe moyenne est en doute ; la mesure qui recueille le plus de soutien est une baisse pour les moins de 30 ans, et une baisse pour les revenus supérieurs à 50 000 euros reste pour l'instant écartée [4][6].",
-      "Le texte est « sous siège » : la Cisl (syndicat) et les assureurs s'y opposent, les Régions jugent les fonds de santé insuffisants et l'opposition critique le chapitre sur les retraites [5].",
-      "Selon l'observatoire de l'économiste Carlo Cottarelli, la pression fiscale passerait de 43 % en 2026 à 43,2 % en 2027 [5].",
-      "La présidente du Conseil Giorgia Meloni défend son ministre, en affirmant que « sa rigueur est aussi la mienne », tout en évoquant des marges d'amélioration au Parlement [1]."
-    ],
-    "why": [
-      "À retenir : le gouvernement italien doit financer son budget en demandant un effort aux banques plutôt qu'en relevant l'impôt des ménages, et ce choix déclenche une négociation serrée avec le secteur [3][4].",
-      "Le mécanisme : une loi de budget est d'abord présentée par le gouvernement, puis amendée par le Parlement ; les auditions servent à entendre ceux qui paieront ou recevront. Si les banques et assureurs obtiennent un allègement, il faudra trouver ailleurs les 5 milliards, ce qui pèse sur l'Irpef et sur les retraites, deux sujets déjà disputés [4][5].",
-      "Les chiffres de fond montrent la contrainte : si la pression fiscale monte de 43 % à 43,2 %, c'est que le gouvernement, malgré une baisse d'impôt ciblée, n'arrive pas à diminuer le poids global des prélèvements [5]. La rigueur affichée par Giorgetti et défendue par Meloni vise la crédibilité financière du pays vis-à-vis des marchés [1][2].",
-      "À suivre : le texte n'est pas figé ; Meloni parle de marges d'amélioration au Parlement et la discussion sur le Superbonus (aide à la rénovation) reste ouverte, où Leo, du gouvernement, a ouvert à l'Abi [1][5]."
-    ],
-    "forMe": "Si tu as un compte ou un crédit dans une banque italienne, ou si tu es assuré en Italie, la taxe sur le secteur peut se retrouver dans les tarifs, même si rien n'est décidé. Pour un lecteur français, ce débat montre comment un État voisin cherche des recettes en faisant payer les banques plutôt que les ménages [3][6].",
-    "next": [
-      {
-        "when": "12 novembre",
-        "what": "Audition de la Banque d'Italie, du Bureau parlementaire du budget et du ministre Giorgetti, à 16 h [2]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 3,
-        "value": "5 Md€",
-        "label": "demandés aux banques et assurances"
-      },
-      {
-        "src": 5,
-        "value": "43 → 43,2 %",
-        "label": "pression fiscale, 2026 puis 2027 (Cottarelli)"
-      },
-      {
-        "src": 2,
-        "value": "12 nov.",
-        "label": "audition du ministre Giorgetti"
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "role-etat"
-    ],
-    "sources": [
-      {
-        "short": "ANSA",
-        "name": "ANSA, « Meloni fa scudo a Giorgetti sulla manovra » (6 novembre 2026)",
-        "url": "https://ansa.it/sito/notizie/politica/2026/11/06/manovra-lunedi-al-via-le-audizioni-attese-imprese-banche-sindacati-e-regioni_0ec0aa84-e641-47e8-af76-d966564ce5a0.html"
-      },
-      {
-        "short": "Il Faro Online",
-        "name": "Il Faro Online, « Dal 9 novembre audizioni sulla legge di Bilancio 2027 » (8 novembre 2026)",
-        "url": "https://www.ilfaroonline.it/2026/11/08/dal-9-novembre-audizioni-sulla-legge-di-bilancio-2027-il-calendario-fino-a-palazzo-chigi/657862"
-      },
-      {
-        "short": "Milano Finanza",
-        "name": "Milano Finanza, « Manovra, tassa allo sportello. Il governo chiede 5 miliardi a banche e assicurazioni » (17 octobre 2026)",
-        "url": "https://www.milanofinanza.it/news/manovra-tassa-allo-sportello-il-governo-chiede-5-miliardi-a-banche-e-assicurazioni-202610171053479850"
-      },
-      {
-        "short": "Milano Finanza",
-        "name": "Milano Finanza, « In manovra sgravi per giovani e flat tax… Giorgetti : accordo tra di noi, non con le banche » (27 octobre 2026)",
-        "url": "https://www.milanofinanza.it/news/manovra-giorgetti-prudente-faremo-quel-che-e-possibile-mini-irpef-per-i-giovani-il-ceto-medio-resta-202610271151206914"
-      },
-      {
-        "short": "ANSA",
-        "name": "ANSA, « Manovra sotto assedio. Anche Cisl e assicurazioni contro » (7 novembre 2026)",
-        "url": "https://www.ansa.it/sito/notizie/economia/2026/11/07/manovra-sotto-assedio.-anche-cisl-e-assicurazioni-contro_2efcbae9-1991-46ee-9bc2-974537302281.html"
-      },
-      {
-        "short": "Il Giornale",
-        "name": "Il Giornale, « Manovra, Giorgetti alle banche : tassa da 5 miliardi sostenibile »",
-        "url": "https://www.ilgiornale.it/news/governo/manovra-giorgetti-alle-banche-tassa-da-5-miliardi-sostenibile/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-argentine-croissance-0-7-pourcent-contraction-inflation-octobre",
-    "date": "2026-11-09",
-    "region": "Amériques",
-    "theme": "eco",
-    "zones": [
-      "Amérique latine"
-    ],
-    "geo": [
-      {
-        "coords": [
-          -58.38,
-          -34.6
-        ],
-        "name": "Buenos Aires, Argentine",
-        "label": "Argentine"
-      }
-    ],
-    "title": "Argentine : les économistes ne voient plus que 0,7 % de croissance en 2026 et une contraction de 2,3 % au troisième trimestre, à trois jours du chiffre de l'inflation",
-    "summary": "Le sondage mensuel de la banque centrale (REM), publié le 5 novembre, ramène la croissance argentine 2026 de 1,5 % à 0,7 % et anticipe une inflation de 1,8 % en octobre. L'Indec publie le chiffre officiel jeudi 12 novembre, dans un pays où le peso fort freine l'activité [1][2][3][5].",
-    "points": [
-      "Le Relevé d'attentes du marché (REM) de la Banque centrale d'Argentine, publié le 5 novembre, ramène la croissance attendue pour 2026 à 0,7 %, contre 1,5 % dans l'édition précédente [1][2][3].",
-      "Selon le même sondage, l'activité se serait contractée de 2,3 % au troisième trimestre, avec un rebond de 2 % au quatrième [2].",
-      "Les économistes anticipent une inflation de 1,8 % en octobre (inflation « de fond » : 1,7 %) et de 30,4 % sur l'ensemble de 2026 ; le dollar de gros s'établirait à 1 590 pesos en décembre [1][2].",
-      "Le chiffre officiel d'octobre sera publié par l'Indec le jeudi 12 novembre ; les consultants interrogés tablent sur 1,8 % à 2,1 % [5].",
-      "En septembre, les prix avaient augmenté de 1,9 % sur un mois, après 1,7 % en août, ce qui donne 33,4 % sur douze mois [7].",
-      "Le ministre de l'Économie, Luis Caputo, rejette ce diagnostic : il juge la série corrigée des variations saisonnières trop volatile et met en avant un indicateur de tendance qui montre 29 mois de croissance [6]."
-    ],
-    "why": [
-      "À retenir : l'Argentine a ralenti l'inflation, mais en payant le prix de l'activité. Un peso fort rend les importations bon marché et freine les prix, mais pénalise les producteurs, les exportateurs et le tourisme, comme l'analyse Bloomberg [4][6].",
-      "Le recul de la croissance prévue (de 1,5 % à 0,7 % en un mois) est le signal le plus net : les économistes révisent ce chiffre à la baisse, et celui du troisième trimestre, négatif, signifie que l'économie se serait contractée au cœur de l'année ; le REM attend un rebond de 2 % au quatrième [2][3].",
-      "Le débat est aussi une querelle de chiffres : le ministre Luis Caputo conteste la série corrigée des variations saisonnières, qu'il juge trop volatile, et lui oppose un indicateur de tendance qui montre 29 mois de croissance [6]. Ce que mesure chaque courbe n'est pas la même chose, et le chiffre de l'inflation du 12 novembre servira aussi d'arbitre sur la solidité de la désinflation."
-    ],
-    "forMe": "Si tu voyages ou investis en Argentine, le peso fort rend le pays cher pour les visiteurs, ce qui explique en partie la contraction de l'activité. Pour un lecteur européen, ce cas montre qu'une inflation très forte peut être calmée, mais qu'un taux de change maintenu artificiellement haut a un coût de croissance. C'est une information, jamais un conseil d'investissement.",
-    "next": [
-      {
-        "when": "12 novembre",
-        "what": "L'Indec publie l'inflation officielle d'octobre ; le REM attend 1,8 % [2][5]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 3,
-        "value": "0,7 %",
-        "label": "croissance attendue en 2026, contre 1,5 % auparavant"
-      },
-      {
-        "src": 2,
-        "value": "−2,3 %",
-        "label": "activité au troisième trimestre, selon le REM"
-      },
-      {
-        "src": 6,
-        "value": "33,4 %",
-        "label": "inflation sur douze mois en septembre"
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "inflation-taux"
-    ],
-    "sources": [
-      {
-        "short": "Los Andes",
-        "name": "Los Andes, « REM: el mercado prevé una inflación de 1,8% para octubre y recorta el crecimiento proyectado para 2026 »",
-        "url": "https://www.losandes.com.ar/economia/rem-el-mercado-preve-una-inflacion-18-octubre-y-recorta-el-crecimiento-proyectado-2026-n6013230"
-      },
-      {
-        "short": "MDZ",
-        "name": "MDZ, « REM de octubre: dólar más bajo, inflación más alta y PBI en baja » (6 novembre 2026)",
-        "url": "https://www.mdzol.com/economia/2026/11/6/el-dolar-1993539.html"
-      },
-      {
-        "short": "BCRA",
-        "name": "Banco Central de la República Argentina, « Relevamiento de Expectativas del Mercado » (octobre 2026)",
-        "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/relevamiento-expectativas-mercado-2026-10.pdf"
-      },
-      {
-        "short": "Bloomberg",
-        "name": "Bloomberg, « ARS/USD: Milei's Strong Peso Holds Back Argentina's Economic Growth » (17 septembre 2026)",
-        "url": "https://www.bloomberg.com/news/articles/2026-09-17/ars-usd-milei-s-strong-peso-holds-back-argentina-s-economic-growth"
-      },
-      {
-        "short": "El Esquiú",
-        "name": "El Esquiú, « Inflación de octubre: el INDEC dará a conocer el dato oficial este jueves » (8 novembre 2026)",
-        "url": "https://www.elesquiu.com/politica/2026/11/8/inflacion-de-octubre-el-indec-dara-a-conocer-el-dato-oficial-este-jueves-602664.html"
-      },
-      {
-        "short": "Rio Times",
-        "name": "The Rio Times, « Argentina Economists See a 1% Quarterly Contraction »",
-        "url": "https://www.riotimesonline.com/argentina-economy-contraction-central-bank-survey-2026/"
-      },
-      {
-        "short": "Trading Economics",
-        "name": "Trading Economics, « Argentina Inflation Rate »",
-        "url": "https://tradingeconomics.com/argentina/inflation-cpi"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-nigeria-dangote-raffinerie-bourse-demande-trois-fois",
-    "date": "2026-11-09",
-    "region": "Afrique",
-    "theme": "eco",
-    "zones": [
-      "Afrique"
-    ],
-    "geo": [
-      {
-        "coords": [
-          3.38,
-          6.52
-        ],
-        "name": "Lagos, Nigeria",
-        "label": "Nigeria"
-      },
-      {
-        "coords": [
-          40.9,
-          -2.27
-        ],
-        "name": "Lamu, Kenya",
-        "label": "Kenya"
-      }
-    ],
-    "title": "Nigeria : l'introduction en Bourse de la raffinerie Dangote attire trois fois plus d'argent que prévu, mais l'opération n'est pas bouclée",
-    "summary": "Selon des sources citées par Reuters, l'offre de 1,6 milliard de dollars sur la raffinerie de Dangote à Lagos a reçu des ordres de 6 400 milliards de nairas (4,78 milliards de dollars), près de trois fois la cible. L'autorisation du régulateur et la cotation restent à venir [1][2].",
-    "points": [
-      "L'offre publique sur la raffinerie Dangote, à Lagos, a ouvert le 14 septembre et clos le 27 octobre 2026, selon le site officiel de l'opération, qui précise que les candidatures sont encore en cours de vérification [6].",
-      "Le régulateur (SEC) a fixé le prix à 525 nairas l'action, soit environ 0,40 dollar ; l'offre de base porte sur environ 2 150 milliards de nairas (environ 1,6 milliard de dollars) et 4,1 milliards d'actions nouvelles [3][7].",
-      "Cela représente environ 3,3 % du capital élargi de la raffinerie après l'opération : on est très loin d'une cession du contrôle [7].",
-      "Selon des sources citées par Reuters, les ordres atteignent 6 400 milliards de nairas (4,78 milliards de dollars), soit environ trois fois la cible, surtout de la part d'investisseurs nigérians, particuliers et institutionnels [1][2].",
-      "Une option de surallocation (« greenshoe ») pourrait porter l'opération jusqu'à 2,1 milliards de dollars ; une source dit à Reuters que Dangote devrait l'exercer, mais l'entreprise ne l'a pas confirmé [1].",
-      "Selon la presse, le régulateur viserait le 17 novembre pour son autorisation, et la cotation à la Bourse nigériane (NGX) est attendue fin novembre ou début décembre, sous réserve d'accord [1][5].",
-      "Le groupe prépare aussi une raffinerie de 700 000 barils par jour à Lamu, au Kenya, un projet de 16 milliards de dollars dont la première pierre a été posée en septembre en présence du président kényan Ruto et du Premier ministre éthiopien Abiy Ahmed ; un tribunal kényan a rejeté la plainte d'une association de consommateurs contre ce projet [8][9]."
-    ],
-    "why": [
-      "À retenir : la plus grosse introduction en Bourse du Nigeria attire environ trois fois plus d'argent que prévu, ce qui montre l'appétit de l'épargne locale pour un projet industriel présenté comme national, mais l'opération n'est pas terminée [1][2].",
-      "Une raffinerie transforme le pétrole brut en carburants. En produire sur place évite d'en importer, ce qui touche les prix à la pompe et les réserves de devises du pays : c'est pourquoi cette introduction en Bourse dépasse la seule finance.",
-      "Seuls 3,3 % du capital sont proposés : l'opération ouvre la raffinerie aux particuliers sans lâcher le contrôle [7]. Le prix est fixé à 525 nairas, et c'est la demande qui dira, dès les premières séances de cotation, si ce prix tient face au marché ; la demande avant cotation ne prédit pas le cours après [3].",
-      "L'opération s'inscrit dans l'expansion du groupe vers l'Afrique de l'Est, avec le projet de Lamu au Kenya, dont le tribunal local a écarté un premier recours [8][9]. Le calendrier dépend encore du feu vert du régulateur, prévu autour du 17 novembre selon la presse [5]."
-    ],
-    "forMe": "Si tu es en France, cette action n'est pas facile d'accès : l'offre vise d'abord les investisseurs nigérians. Mais un Nigeria qui raffine davantage son pétrole importe moins de carburant, et les nouvelles raffineries africaines changent peu à peu les flux de produits pétroliers. C'est une information, jamais un conseil d'acheter ou de vendre.",
-    "next": [
-      {
-        "when": "17 novembre",
-        "what": "Autorisation du régulateur (SEC) visée avant la cotation, selon la presse [1][5]."
-      },
-      {
-        "when": "Fin novembre ou début décembre",
-        "what": "Cotation attendue à la Bourse nigériane (NGX), sous réserve d'accord [1]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 1,
-        "value": "6 400 Md ₦",
-        "label": "d'ordres reçus, soit 4,78 milliards de dollars, près de 3 fois la cible"
-      },
-      {
-        "src": 3,
-        "value": "525 ₦",
-        "label": "prix de l'action, environ 0,40 dollar"
-      },
-      {
-        "src": 7,
-        "value": "3,3 %",
-        "label": "du capital proposé au public"
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Reuters (MyJoyOnline)",
-        "name": "Reuters via MyJoyOnline, « Dangote refinery IPO draws three times target demand, sources say »",
-        "url": "https://www.myjoyonline.com/dangote-refinery-ipo-draws-three-times-target-demand-sources-say/"
-      },
-      {
-        "short": "bne IntelliNews",
-        "name": "bne IntelliNews, « Nigeria's Dangote refinery $1.6bn IPO attracts $4.78bn in orders, sources say »",
-        "url": "https://www.intellinews.com/nigeria-s-dangote-refinery-1-6bn-ipo-attracts-4-78bn-in-orders-sources-say-479851"
-      },
-      {
-        "short": "TheCable",
-        "name": "TheCable, « Dangote refinery secures SEC approval for IPO, sets price at N525/share »",
-        "url": "https://www.thecable.ng/just-in-dangote-refinery-secures-sec-approval-for-ipo-sets-price-at-n525-share/"
-      },
-      {
-        "short": "Businessfront",
-        "name": "Businessfront, « Dangote refinery IPO draws $4.78 billion in orders from investors across 120 countries »",
-        "url": "https://businessfront.com/finance/insights/dangote-refinery-ipo-draws-4-78-billion-orders-investors/"
-      },
-      {
-        "short": "Vanguard",
-        "name": "Vanguard, « Dangote, African bourses explore wider access for $1.6bn refinery IPO » (novembre 2026)",
-        "url": "https://www.vanguardngr.com/2026/11/dangote-african-bourses-explore-wider-access-for-1-6bn-refinery-ipo/amp/"
-      },
-      {
-        "short": "Dangote (offre officielle)",
-        "name": "Dangote Petroleum Refinery, site officiel de l'offre publique",
-        "url": "https://ipo.dangote.com/"
-      },
-      {
-        "short": "Dabafinance",
-        "name": "Dabafinance, « Dangote Refinery IPO: The Complete 2026 Guide for Investors »",
-        "url": "https://dabafinance.com/en/insights/dangote-refinery-ipo-guide"
-      },
-      {
-        "short": "Hydrocarbon Processing",
-        "name": "Hydrocarbon Processing, « Nigeria's Dangote breaks ground on $16-B East African oil refinery in Kenya » (septembre 2026)",
-        "url": "https://www.hydrocarbonprocessing.com/news/2026/09/nigerias-dangote-breaks-ground-on-16-b-east-african-oil-refinery-in-kenya/"
-      },
-      {
-        "short": "Lawyard",
-        "name": "Lawyard, « Kenyan Tribunal Dismisses Petition Against Dangote's Planned 700,000bpd Refinery »",
-        "url": "https://lawyard.org/news/kenyan-tribunal-dismisses-petition-against-dangotes-refinery-project"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-fin-nvidia-huang-enquete-conseil",
-    "date": "2026-11-09",
-    "region": "Amériques",
-    "theme": "fin",
-    "zones": [
-      "Amérique du Nord",
-      "Asie"
-    ],
-    "geo": [
-      {
-        "coords": [
-          -121.96,
-          37.35
-        ],
-        "name": "Santa Clara, États-Unis",
-        "label": "Nvidia"
-      },
-      {
-        "coords": [
-          -77.04,
-          38.91
-        ],
-        "name": "Washington, États-Unis",
-        "label": "Congrès"
-      }
-    ],
-    "title": "Nvidia : le conseil enquête sur son patron Jensen Huang après des révélations sur sa relation avec une femme soupçonnée d'être liée au renseignement chinois",
-    "summary": "Le conseil d'administration de Nvidia a ouvert dimanche 8 novembre une enquête indépendante sur son PDG, Jensen Huang, qui a reconnu une liaison avec Alice Huang, une cadre de Megaspeed que le Wall Street Journal décrit comme une agente présumée du renseignement chinois. Trois élus de la Chambre veulent l'entendre le 18 novembre [1][2][3].",
-    "points": [
-      "Dimanche 8 novembre, le conseil d'administration de Nvidia a annoncé une enquête confiée à ses administrateurs indépendants, assistés d'un cabinet d'avocats extérieur, sur les liens de son PDG, Jensen Huang, avec Alice Huang, dirigeante de l'entreprise Megaspeed [1][2].",
-      "Le conseil dit n'avoir « aucune raison de croire » que la sécurité nationale ou des secrets de l'entreprise aient été compromis, et Nvidia confirme que Jensen Huang garde ses fonctions pendant l'enquête [1][2].",
-      "Dans un message adressé au personnel, Jensen Huang a reconnu une liaison et promis de coopérer à l'enquête [2]. Le Wall Street Journal décrit Alice Huang comme une dirigeante d'affaires que l'on croit être un agent du renseignement chinois [3].",
-      "Trois présidents républicains de commissions de la Chambre des représentants, Brian Mast, John Moolenaar et Rick Crawford, demandent à Jensen Huang un briefing à huis clos le 18 novembre, avec une réponse attendue avant le 11 novembre, sur les protections de Nvidia contre les puissances adverses [3][4].",
-      "Des démocrates, dont le représentant Seth Magaziner, réclament des investigations supplémentaires et veulent que le secrétaire au Commerce, Howard Lutnick, témoigne lui aussi [3].",
-      "Nvidia affirme que ses contacts avec Megaspeed relevaient d'échanges commerciaux ordinaires, et le gouvernement chinois dément espionner Nvidia [3].",
-      "Nvidia publie ses résultats du troisième trimestre fiscal le 17 novembre [6]. L'analyste Dan Ives juge l'affaire une « tache » pour Jensen Huang et n'exclut pas son remplacement selon les conclusions de l'enquête [3]."
-    ],
-    "why": [
-      "À retenir : une enquête du conseil et une convocation du Congrès visant le patron de Nvidia ajoutent un risque de gouvernance à une action déjà secouée par la débâcle des valeurs de puces [1][3][5].",
-      "Le titre sort d'une semaine noire : le 5 novembre, Nvidia, Micron et Intel ont plongé dans une débâcle des puces, nourrie par la crainte d'un ralentissement des centres de données après l'élection américaine [5]. Nvidia affirme pourtant que les cinq grands du cloud prévoient environ 1 300 milliards de dollars de dépenses l'an prochain, ce qui soutient ses commandes [6]. L'affaire arrive donc sur un terrain où les investisseurs cherchent déjà des raisons de douter.",
-      "L'enjeu dépasse la vie privée : les trois élus posent la question des protections de Nvidia face aux puissances adverses, dans un secteur où les puces sont au cœur de la rivalité entre Washington et Pékin [3]. Les démocrates veulent élargir l'enquête jusqu'au secrétaire au Commerce [3].",
-      "Le conseil ne voit, à ce stade, aucune compromission, mais les conclusions peuvent changer la donne : Dan Ives évoque un possible départ du PDG selon ce que montrera l'enquête, un risque de plus pour l'action [3]. Deux dates comptent : le 11 novembre pour la réponse aux élus, puis les résultats du 17 [4][6]."
-    ],
-    "forMe": "Nvidia conçoit les puces qui font tourner l'intelligence artificielle ; ce qui touche sa direction peut donc secouer les marchés et les fonds qui détiennent ses actions. Pour toi, c'est surtout un rappel qu'une action peut bouger sur une affaire de gouvernance, pas seulement sur des résultats. C'est une information, jamais un conseil d'acheter ou de vendre.",
-    "next": [
-      {
-        "when": "11 novembre",
-        "what": "Date demandée par les trois élus pour la réponse de Jensen Huang à leur lettre [3][4]."
-      },
-      {
-        "when": "17 novembre",
-        "what": "Nvidia publie ses résultats du troisième trimestre fiscal [6]."
-      },
-      {
-        "when": "18 novembre",
-        "what": "Briefing à huis clos demandé à Jensen Huang par les commissions de la Chambre [3]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 3,
-        "value": "18 nov.",
-        "label": "briefing à huis clos demandé à Jensen Huang"
-      },
-      {
-        "src": 6,
-        "value": "17 nov.",
-        "label": "résultats trimestriels de Nvidia"
-      },
-      {
-        "src": 6,
-        "value": "1 300 Md$",
-        "label": "dépenses prévues des cinq géants du cloud l'an prochain, selon Nvidia"
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "semi-conducteurs"
-    ],
-    "deep": {
-      "explainer": {
-        "title": "Comment ça marche : le risque lié au dirigeant",
-        "text": "Quand une entreprise est très associée à une personne, les investisseurs parlent de « risque lié au dirigeant » : si cette personne est mise en cause, remplacée ou détournée de son travail, ils craignent que la stratégie et les relations avec les clients ou avec les gouvernements en souffrent. C'est le conseil d'administration, et en particulier ses membres indépendants, qui est chargé de contrôler le PDG ; il peut lancer une enquête interne avec des avocats extérieurs, puis décider de garder, sanctionner ou remplacer le dirigeant. Le cours de Bourse reflète alors deux choses : la probabilité que le dirigeant parte, et la confiance que le marché garde dans l'entreprise sans lui. Une enquête parlementaire, elle, ne sanctionne pas directement mais peut pousser les clients, les partenaires et les autorités à se montrer plus prudents [1][3]."
-      }
-    },
-    "past": {
-      "title": "Les précédents : des dirigeants partis pour une relation qui contrevenait aux règles de l'entreprise",
-      "items": [
-        {
-          "when": "Juin 2018",
-          "what": "Brian Krzanich quitte la direction d'Intel après la révélation d'une relation consensuelle passée avec une employée, en violation de la politique interne de l'entreprise contre ces relations [7].",
-          "lesson": "Une règle interne violée peut suffire à faire partir un PDG, même sans faute financière ; le conseil agit alors sur le comportement du dirigeant, pas sur les résultats [7]."
-        },
-        {
-          "when": "1er septembre 2025",
-          "what": "Nestlé limoge son directeur général, Laurent Freixe, après une enquête conduite par le président Paul Bulcke et l'administrateur indépendant principal Pablo Isla sur une relation amoureuse non déclarée avec une subordonnée directe ; les soupçons étaient remontés au printemps par une ligne d'alerte interne, et il avait d'abord nié devant le conseil. Philipp Navratil le remplace [8][9].",
-          "lesson": "Le conseil a mené l'enquête de l'intérieur sur plusieurs mois, puis tranché : le dirigeant a perdu son poste et, selon la presse, toute indemnité de départ [8][9]."
-        }
-      ]
-    },
-    "markets": {
-      "text": "Seule l'action Nvidia est directement concernée.",
-      "items": [
-        {
-          "name": "Nvidia",
-          "ticker": "NVDA",
-          "why": "Son PDG est visé par l'enquête du conseil et par la demande des élus [1][3] ; le titre avait fortement reculé le 5 novembre avec les valeurs de puces [5] ; résultats attendus le 17 novembre [6]."
-        }
-      ]
-    },
-    "sources": [
-      {
-        "short": "CNBC",
-        "name": "CNBC, « Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy » (8 novembre 2026)",
-        "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
-      },
-      {
-        "short": "Axios",
-        "name": "Axios, « Nvidia CEO Jensen Huang admits affair, board to launch investigation » (8 novembre 2026)",
-        "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-admits-affair-board-to-launch-investigation"
-      },
-      {
-        "short": "CNBC",
-        "name": "CNBC, « Nvidia CEO Jensen Huang faces bipartisan congressional scrutiny over reported China spy link » (8 novembre 2026)",
-        "url": "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html"
-      },
-      {
-        "short": "CNBC",
-        "name": "CNBC, « Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship » (5 novembre 2026)",
-        "url": "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html"
-      },
-      {
-        "short": "Forbes",
-        "name": "Forbes, « Nvidia, Micron, Intel Plunge In Worsening Chipmaker Selloff » (5 novembre 2026)",
-        "url": "https://www.forbes.com/sites/fionariley/2026/11/05/chipmakers-tumble-toward-worst-day-in-years-nvidia-micron-and-broadcom-down-over-8/"
-      },
-      {
-        "short": "Motley Fool",
-        "name": "The Motley Fool, « Not Nvidia. Not Micron. After the Chip Sell-Off… » (7 novembre 2026)",
-        "url": "https://www.fool.com/investing/2026/11/07/not-nvidia-not-micron-after-the-chip-sell-off-id-b/"
-      },
-      {
-        "short": "Forbes",
-        "name": "Forbes, « Nestlé CEO Joins Growing List Of Executives Ousted Over Office Affairs » (2 septembre 2025)",
-        "url": "https://www.forbes.com/sites/kimelsesser/2025/09/02/nestle-ceo-joins-growing-list-of-executives-ousted-over-office-affairs/"
-      },
-      {
-        "short": "CNBC",
-        "name": "CNBC, « Nestle plunged into turmoil as CEO fired over undisclosed relationship » (1er septembre 2025)",
-        "url": "https://www.cnbc.com/2025/09/01/nestle-dismisses-ceo-laurent-freixe-after-code-of-conduct-breach.html"
-      },
-      {
-        "short": "The Daily Star",
-        "name": "The Daily Star, « Nestle sacks CEO over office relationship » (septembre 2025)",
-        "url": "https://www.thedailystar.net/news/world/news/nestle-sacks-ceo-over-office-relationship-3976776"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-fin-anthropic-introduction-bourse-ant",
-    "date": "2026-11-09",
-    "region": "Amériques",
-    "theme": "fin",
-    "zones": [
-      "Amérique du Nord"
-    ],
-    "geo": [
-      {
-        "coords": [
-          -122.42,
-          37.77
-        ],
-        "name": "San Francisco, États-Unis",
-        "label": "Anthropic"
-      },
-      {
-        "coords": [
-          -74,
-          40.71
-        ],
-        "name": "New York, États-Unis",
-        "label": "Nasdaq"
-      }
-    ],
-    "title": "Anthropic prépare l'une des plus grosses introductions en Bourse de l'histoire, mais sans prix ni date, au moment où le marché doute de l'IA",
-    "summary": "Anthropic, l'éditeur de l'assistant Claude, a déposé le 26 octobre son dossier d'introduction sur le Nasdaq, sous le symbole ANT. Aucune fourchette de prix n'est publiée, et des investisseurs cités par la presse jugent que la valorisation visée, de 1 250 à 2 000 milliards de dollars selon les sources, devra baisser après la chute des valeurs de l'IA [1][3][7][8].",
-    "points": [
-      "Le 26 octobre 2026, Anthropic a rendu public son dossier d'introduction en Bourse auprès du régulateur américain (formulaire S-1) : des actions de classe A cotées sur le Nasdaq Global Select Market, sous le symbole ANT. Goldman Sachs et Morgan Stanley dirigent un groupe de plus de vingt banques [1][2].",
-      "Le 2 novembre, une version amendée du dossier a ajouté les résultats du troisième trimestre : 17,0 milliards de dollars de ventes sur juillet-septembre, plus de 12 fois le niveau d'un an plus tôt [3].",
-      "Au premier semestre 2026, le dossier fait état d'une perte nette de 80,7 milliards de dollars, due surtout à une charge de 72,4 milliards liée à la variation de la juste valeur de titres convertibles et d'autres instruments [5][6].",
-      "Le formulaire du 2 novembre laisse en blanc la fourchette de prix (« entre … $ et … $ ») ; au 6 novembre, aucun nouveau dépôt n'était apparu sur la base EDGAR du régulateur, selon un suivi spécialisé [7].",
-      "La valorisation vient de la presse, pas du dossier : le Wall Street Journal évoque une levée de 100 milliards de dollars ou plus pour 1 500 à 2 000 milliards de valorisation ; le Financial Times, 80 à 100 milliards levés pour 1 250 à 1 750 milliards [7].",
-      "Plusieurs investisseurs prennent déjà leurs distances : l'un dit au Wall Street Journal que la valorisation devra baisser, un autre évoque un report complet, un troisième parle d'environ 1 000 milliards de dollars [7][8].",
-      "Le calendrier reste flou : selon The Information, la tournée des investisseurs (« roadshow ») commencerait la semaine du 9 novembre ; une estimation évoque des premiers échanges dès le 16 novembre, une autre une cotation avant Thanksgiving, le 26 novembre [7]."
-    ],
-    "why": [
-      "À retenir : une introduction en Bourse fait passer une entreprise financée par quelques investisseurs à une société dont n'importe qui peut acheter des actions ; ici, l'ordre de grandeur est sans précédent, avec jusqu'à 100 milliards de dollars levés selon la presse, contre 75,0 milliards pour SpaceX, le record actuel [7][10].",
-      "Le moment est délicat : le jeudi 5 novembre, Wall Street a connu une débâcle de 2 500 milliards de dollars, nourrie par la crainte que des élus démocrates ralentissent le déploiement des centres de données qui alimentent l'IA [11]. Un investisseur cité par Yahoo Finance dit qu'Anthropic pourrait repousser son introduction, un autre qu'elle se ferait plus près de 1 000 milliards [8].",
-      "Les chiffres du dossier racontent deux histoires : des ventes qui ont plus que décuplé en un an (17,0 milliards de dollars au troisième trimestre) et une perte semestrielle de 80,7 milliards, causée pour l'essentiel par la réévaluation de titres convertibles plutôt que par les opérations courantes, ce que les investisseurs examineront ligne par ligne [3][5].",
-      "Pour les marchés, l'enjeu est double : si l'opération se fait, elle mesurera l'appétit réel pour l'IA après la secousse de la semaine ; si elle est reportée, ce sera un signal de plus de prudence. Aucun prix n'est fixé : tout reste ouvert tant que la fourchette n'est pas publiée [7]."
-    ],
-    "forMe": "Tu ne pourras probablement pas acheter ces actions au prix d'introduction : elles sont d'abord réservées à de grands investisseurs, puis s'échangent en Bourse. Si tu détiens un fonds indiciel américain, une entreprise de cette taille pourrait un jour y entrer. Le plus utile à retenir : un chiffre de valorisation dans la presse n'est pas un prix, et une introduction peut être repoussée. C'est une information, jamais un conseil d'acheter ou de vendre.",
-    "next": [
-      {
-        "when": "Semaine du 9 novembre",
-        "what": "Début possible de la tournée des investisseurs, avec la publication d'une fourchette de prix dans un nouvel amendement du dossier, selon The Information [7]."
-      },
-      {
-        "when": "16 novembre",
-        "what": "Date possible des premiers échanges, selon une estimation ; une autre vise une cotation avant Thanksgiving, le 26 novembre [7]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 3,
-        "value": "17,0 Md$",
-        "label": "ventes d'Anthropic au 3e trimestre, plus de 12 fois celles de l'an dernier"
-      },
-      {
-        "src": 7,
-        "value": "1 250-2 000 Md$",
-        "label": "valorisation évoquée par la presse (Financial Times et Wall Street Journal)"
-      },
-      {
-        "src": 10,
-        "value": "75 Md$",
-        "label": "record de levée en Bourse, détenu par SpaceX"
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "deep": {
-      "explainer": {
-        "title": "Comment ça marche : une introduction en Bourse",
-        "text": "L'entreprise dépose d'abord un dossier public auprès du régulateur (le formulaire S-1 aux États-Unis) avec ses comptes et ses risques. Elle le complète ensuite d'une fourchette de prix, puis part en tournée (le « roadshow ») présenter l'affaire aux grands investisseurs. Les banques qui pilotent l'opération recueillent leurs ordres, et le prix définitif est fixé juste avant le premier jour de cotation. La valorisation de l'entreprise est ce prix multiplié par le nombre d'actions. Le premier jour, le cours peut s'écarter fortement du prix d'introduction, dans un sens ou dans l'autre. Quand le marché se tend, l'opération peut être repoussée : le prix n'est jamais garanti tant que l'entreprise n'est pas cotée [1][7]."
-      }
-    },
-    "past": {
-      "title": "Les précédents : les plus grosses introductions en Bourse de l'histoire",
-      "items": [
-        {
-          "when": "Mai 2012",
-          "what": "Facebook lève 16,0 milliards de dollars lors de son introduction, le 17 mai 2012 [9].",
-          "lesson": "Un montant énorme à l'époque, devenu modeste face aux 75,0 milliards levés par SpaceX, le record actuel [9][10]."
-        },
-        {
-          "when": "Septembre 2014",
-          "what": "Alibaba lève environ 21,8 milliards de dollars à la Bourse de New York le 18 septembre 2014 [9][10].",
-          "lesson": "Troisième du classement des plus grosses introductions de l'histoire, derrière Aramco et SpaceX [9][10]."
-        },
-        {
-          "when": "Décembre 2019",
-          "what": "Saudi Aramco lève 25,6 milliards de dollars à la Bourse de Riyad, un record à l'époque [10].",
-          "lesson": "Ce record a tenu jusqu'à l'introduction de SpaceX, à 75,0 milliards de dollars [10]."
-        }
-      ]
-    },
-    "sources": [
-      {
-        "short": "CNBC",
-        "name": "CNBC, « Anthropic IPO live updates: AI lab's S-1 filing » (26 octobre 2026)",
-        "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"
-      },
-      {
-        "short": "CNN",
-        "name": "CNN, « Anthropic set to make stock market debut as questions swirl about safety of AI » (26 octobre 2026)",
-        "url": "https://www.cnn.com/2026/10/26/tech/anthropic-files-ipo"
-      },
-      {
-        "short": "StockTitan",
-        "name": "StockTitan, « Anthropic IPO Filing Updated With New Results as Claude's Maker Heads to Nasdaq » (novembre 2026)",
-        "url": "https://www.stocktitan.net/articles/anthropic-ipo-amended-s1-2026-guide"
-      },
-      {
-        "short": "Bloomberg",
-        "name": "Bloomberg, « Anthropic IPO: S-1 Filing Offers First Look at Claude Maker's Finances » (26 octobre 2026)",
-        "url": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-ipo-s-1-filing-offers-first-look-at-claude-maker-s-finances"
-      },
-      {
-        "short": "Tech Insider",
-        "name": "Tech Insider, « Anthropic IPO Filing: $80.7B Loss, $16.3B Revenue » (2026)",
-        "url": "https://tech-insider.org/anthropic-ipo-s-1-filing-ant-nasdaq-16-3b-revenue-2026/"
-      },
-      {
-        "short": "SEC",
-        "name": "SEC, Anthropic, PBC, formulaire S-1 (déposé en 2026)",
-        "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpbc-sx1.htm"
-      },
-      {
-        "short": "FinanceFeeds",
-        "name": "FinanceFeeds, « Anthropic IPO Roadshow Looms With No Price Range In Sight » (novembre 2026)",
-        "url": "https://financefeeds.com/anthropic-ipo-roadshow-looms-with-no-price-range/"
-      },
-      {
-        "short": "Yahoo Finance",
-        "name": "Yahoo Finance, « Anthropic Could Postpone Its $1.5 Trillion IPO, Per One Investor… » (novembre 2026)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-could-postpone-1-5-155825407.html"
-      },
-      {
-        "short": "Renaissance Capital",
-        "name": "Renaissance Capital, « Largest Global IPOs by Deal Size »",
-        "url": "https://www.renaissancecapital.com/IPO-Center/Stats/Largest-Global-IPOs"
-      },
-      {
-        "short": "Visual Capitalist",
-        "name": "Visual Capitalist, « Ranked: The Biggest IPOs in History, and Where SpaceX Fits In » (2026)",
-        "url": "https://www.visualcapitalist.com/ranked-the-biggest-ipos-in-history-spacex/"
-      },
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « Asian stock markets climb after earlier tech rout » (9 novembre 2026)",
-        "url": "https://www.aljazeera.com/economy/2026/11/9/asian-stock-markets-climb-after-earlier-tech-rout"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-fin-wendys-trian-pilule-empoisonnee",
-    "date": "2026-11-09",
-    "region": "Amériques",
-    "theme": "fin",
-    "zones": [
-      "Amérique du Nord"
-    ],
-    "geo": [
-      {
-        "coords": [
-          -83.11,
-          40.1
-        ],
-        "name": "Dublin (Ohio), États-Unis",
-        "label": "Wendy's"
-      },
-      {
-        "coords": [
-          -74,
-          40.71
-        ],
-        "name": "New York, États-Unis",
-        "label": "Trian"
-      }
-    ],
-    "title": "Wendy's rejette l'offre de 1,4 milliard de dollars du fonds de Nelson Peltz et active une « pilule empoisonnée » contre un rachat hostile",
-    "summary": "Le 5 novembre, un comité indépendant du conseil de Wendy's a rejeté à l'unanimité l'offre à 7,35 dollars par action d'un groupe mené par Trian, le fonds de Nelson Peltz, qui valorise la chaîne de burgers à environ 1,4 milliard de dollars. L'entreprise a aussi adopté une « pilule empoisonnée » d'un an pour empêcher une prise de contrôle sans son accord [1][2][5].",
-    "points": [
-      "Le 28 octobre, un groupe formé de Trian Fund Management, de BlueFive Capital, de Sixth Street Partners et de Flynn Group, l'un des plus gros franchisés de la marque, a proposé 7,35 dollars en espèces par action pour retirer Wendy's de la Bourse [2][3].",
-      "Cette offre représentait environ 20 % de prime sur le cours de clôture du 27 octobre et valorisait les fonds propres à environ 1,4 milliard de dollars, sur 194,0 millions d'actions diluées [3][4]. L'action avait bondi d'environ 15 % à l'annonce [2].",
-      "Trian et ses proches détiennent déjà environ 16,3 % du capital, et Flynn Group exploite plus de 340 restaurants Wendy's [5].",
-      "Le 5 novembre, un comité indépendant du conseil a rejeté l'offre à l'unanimité, estimant qu'elle sous-évalue les perspectives de l'entreprise seule, et a adopté un plan de droits des actionnaires (la « pilule empoisonnée ») d'une durée d'un an [1][5].",
-      "Wendy's précise que le groupe a refusé un accord de statu quo qui aurait gelé ses achats d'actions supplémentaires [1][5].",
-      "Le conseil met en avant le redressement conduit par le directeur général, Bob Wright, et le plan « Dave's Way », annoncé avec les résultats du troisième trimestre ; les candidats répondent qu'un actionnariat privé donnerait plus de temps et de moyens pour réparer l'entreprise [5]. L'action a perdu environ 60 % de sa valeur en trois ans [2][3].",
-      "Autre dossier du même type : Dine Brands, maison mère d'Applebee's et d'IHOP, a récemment rejeté une proposition à 39 dollars par action d'Arkhouse Management et de Cobblers Cove Capital [5]."
-    ],
-    "why": [
-      "À retenir : c'est un test de force classique, où un actionnaire qui possède déjà 16,3 % tente de racheter le reste et où le conseil refuse tout en se protégeant [1][5].",
-      "Le mécanisme de la pilule est simple : si un investisseur dépasse un seuil de détention sans l'accord du conseil, les autres actionnaires peuvent acheter des actions à prix réduit, ce qui dilue le trop-plein de l'attaquant et rend la prise de contrôle très coûteuse. Chez Wendy's, la durée est d'un an ; le seuil exact n'apparaît pas dans les sources consultées [5][6].",
-      "Les deux camps s'opposent sur le prix : Wendy's juge que 7,35 dollars sous-évalue l'entreprise et défend son plan de redressement, alors que les candidats avancent qu'un actionnariat privé ferait gagner du temps ; avec 60 % de baisse en trois ans, la prime de 20 % n'efface pas la perte pour ceux qui ont acheté plus haut [2][3][5].",
-      "La pilule ne ferme pas la porte : elle donne au conseil le temps de négocier un meilleur prix ou de défendre son plan. Reste à voir si Trian relève son offre : il a refusé de commenter le rejet [5]."
-    ],
-    "forMe": "Si tu manges chez Wendy's ou y travailles, rien ne change à court terme : une offre de rachat n'est pas une fermeture ni un licenciement. Pour un actionnaire, la « pilule » ne dit pas que l'offre est mauvaise, mais que le conseil veut un meilleur prix ou garder la main. C'est une information, jamais un conseil d'acheter ou de vendre.",
-    "next": [
-      {
-        "when": "À suivre",
-        "what": "Trian, qui a refusé de commenter le rejet, n'a pas annoncé s'il relèverait son offre ; aucune échéance n'est publiée dans les sources consultées [5]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 3,
-        "value": "7,35 $",
-        "label": "prix proposé par action, environ 20 % de prime"
-      },
-      {
-        "src": 5,
-        "value": "16,3 %",
-        "label": "du capital déjà détenu par Trian et ses proches"
-      },
-      {
-        "src": 2,
-        "value": "+15 %",
-        "label": "bond de l'action à l'annonce de l'offre, le 28 octobre"
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "deep": {
-      "explainer": {
-        "title": "Comment ça marche : l'offre hostile et la « pilule empoisonnée »",
-        "text": "Une offre est « hostile » quand le conseil d'administration de la cible la refuse. L'acheteur peut alors s'adresser directement aux actionnaires ou acheter des titres en Bourse. Pour se défendre, la cible peut adopter un plan de droits des actionnaires, la « pilule empoisonnée » : si quelqu'un dépasse un seuil de détention sans accord, tous les autres actionnaires reçoivent le droit d'acheter des actions à prix réduit, ce qui dilue l'attaquant. Le plan dure ici un an et n'empêche pas le conseil de négocier ou d'accepter une offre jugée meilleure. L'attaquant peut contester devant un tribunal, relever son prix ou chercher à changer les administrateurs en réunissant les voix des actionnaires. Le prix proposé, ici 7,35 dollars, se compare au cours de Bourse : c'est la « prime » [5][6]."
-      }
-    },
-    "past": {
-      "title": "Les précédents : des pilules empoisonnées qui ont tenu",
-      "items": [
-        {
-          "when": "Avril 2022",
-          "what": "Twitter adopte une pilule d'un an, déclenchée si un investisseur achète plus de 15 % du capital sans accord du conseil, alors qu'Elon Musk détient environ 9 % et vient de proposer environ 43 milliards de dollars [6].",
-          "lesson": "La pilule ne fermait pas la porte : le conseil rappelait qu'elle ne l'empêchait pas d'étudier une offre qu'il jugerait dans l'intérêt des actionnaires [6]."
-        },
-        {
-          "when": "15 février 2011",
-          "what": "Le tribunal de la chancellerie du Delaware refuse d'ordonner à Airgas de retirer sa pilule face à l'offre « finale » d'Air Products à 70 dollars par action, que le conseil juge insuffisante (il estime la société valoir au moins 78 dollars) [7][8].",
-          "lesson": "Une pilule peut être validée pour protéger les actionnaires d'une offre trop basse ; après le jugement, l'action Airgas a reculé de plus de 4 %, vers 61 dollars [7][8]."
-        }
-      ]
-    },
-    "markets": {
-      "text": "Seule l'action Wendy's est directement concernée.",
-      "items": [
-        {
-          "name": "Wendy's",
-          "ticker": "WEN",
-          "why": "Cible de l'offre à 7,35 dollars par action du groupe mené par Trian [2][3] ; l'action avait bondi d'environ 15 % à l'annonce du 28 octobre [2]."
-        }
-      ]
-    },
-    "sources": [
-      {
-        "short": "CNBC",
-        "name": "CNBC, « Wendy's rejects Trian's $1.4 billion takeover offer » (5 novembre 2026)",
-        "url": "https://www.cnbc.com/2026/11/05/wendys-rejects-takeover-proposal.html"
-      },
-      {
-        "short": "CNBC",
-        "name": "CNBC, « Wendy's shares jump 15% as Nelson Peltz's Trian offers $1.4 billion to buy burger chain » (28 octobre 2026)",
-        "url": "https://www.cnbc.com/2026/10/28/nelson-peltz-trian-wendys-1point4-billion.html"
-      },
-      {
-        "short": "QSR Magazine",
-        "name": "QSR Magazine, « Nelson Peltz's Trian Offers $1.4 Billion to Take Wendy's Private » (octobre 2026)",
-        "url": "https://www.qsrmagazine.com/story/nelson-peltzs-trian-offers-1-4-billion-to-take-wendys-private/"
-      },
-      {
-        "short": "PE Insights",
-        "name": "PE Insights, « Nelson Peltz's Trian and Flynn Group make $7.35-a-share proposal for Wendy's » (octobre 2026)",
-        "url": "https://peinsights.substack.com/p/nelson-peltzs-trian-and-flynn-group"
-      },
-      {
-        "short": "QSR Magazine",
-        "name": "QSR Magazine, « Wendy's Rejects $1.4 Billion Takeover Bid, Adopts Poison Pill » (novembre 2026)",
-        "url": "https://www.qsrmagazine.com/story/wendys-rejects-1-4-billion-takeover-bid-adopts-poison-pill/"
-      },
-      {
-        "short": "AP (WITF)",
-        "name": "AP via WITF, « Twitter adopts poison pill to block Elon Musk takeover bid » (16 avril 2022)",
-        "url": "https://witf.org/2022/04/16/twitter-adopts-poison-pill-to-block-elon-musk-takeover-bid"
-      },
-      {
-        "short": "Jones Day",
-        "name": "Jones Day, « Delaware Chancery Court Upholds Poison Pill in Takeover Battle for Airgas » (mars 2011)",
-        "url": "https://jonesday.com/fr/insights/2011/03/delaware-chancery-court-upholds-poison-pill-in-takeover-battle-for-airgas"
-      },
-      {
-        "short": "Akin Gump",
-        "name": "Akin Gump, « Delaware Court Upholds Airgas Board's Use of Poison Pill » (18 février 2011)",
-        "url": "https://www.akingump.com/en/insights/alerts/delaware-court-upholds-airgas-board-s-use-of-poison-pill-1"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-fin-anz-benefice-7-6-milliards-matos",
-    "date": "2026-11-09",
-    "region": "Asie",
-    "theme": "fin",
-    "zones": [
-      "Océanie"
-    ],
-    "geo": [
-      {
-        "coords": [
-          144.96,
-          -37.81
-        ],
-        "name": "Melbourne, Australie",
-        "label": "ANZ"
-      }
-    ],
-    "title": "Australie : ANZ affiche 7,6 milliards de dollars australiens de bénéfice, +31 %, mais seulement +10 % hors éléments exceptionnels",
-    "summary": "La banque australienne ANZ a annoncé lundi 9 novembre un bénéfice « cash » de 7,6 milliards de dollars australiens pour l'exercice clos fin septembre, en hausse de 31 % et un peu au-dessus des attentes. Hors éléments exceptionnels, la hausse n'est que de 10 %, et l'action recule légèrement à l'ouverture [1][2][3].",
-    "points": [
-      "Lundi 9 novembre, ANZ a publié un bénéfice « cash » de 7,6 milliards de dollars australiens (environ 5,2 milliards de dollars américains) pour l'exercice clos le 30 septembre, en hausse de 31 %, contre 7,5 milliards attendus en moyenne par les analystes interrogés par Bloomberg [1][3].",
-      "Hors éléments exceptionnels (« significant items »), la croissance du bénéfice n'est que de 10 % [2][3].",
-      "Le directeur général, Nuno Matos, attribue le résultat à une « gestion rigoureuse des marges, du capital et des coûts, et à la croissance de l'activité » ; il juge 2027 une année « charnière » où le plan dirigera des fonds importants vers des projets de croissance [2].",
-      "Le dividende final est de 83 cents par action, couvert à 80 % par des crédits d'impôt (« franked »), contre 75 % au premier semestre ; sur l'année, le total est de 1,66 dollar australien par action, stable sur un an et un peu en dessous des attentes [2].",
-      "Matos signale que les retards de remboursement de prêts immobiliers ont un peu augmenté [2].",
-      "L'action a reculé à l'ouverture lundi, de 0,5 % à 1,5 % selon les sources, malgré un bénéfice au-dessus des attentes [2][3].",
-      "Pour comparer : sur l'exercice 2025, le bénéfice « cash » avait baissé de 14 % à environ 5,79 milliards de dollars australiens, pesé par 1,1 milliard d'éléments exceptionnels, dont 585 millions de dollars australiens de licenciements et 271 millions pour un accord avec le régulateur ASIC [4][5]."
-    ],
-    "why": [
-      "À retenir : le +31 % est surtout un effet de comparaison, car l'an dernier avait été plombé par des coûts ponctuels ; hors éléments exceptionnels, le bénéfice progresse de 10 %, de 6,9 à 7,6 milliards de dollars australiens environ [2][4].",
-      "Une banque gagne de l'argent surtout sur l'écart entre ce qu'elle paie à ses déposants et ce qu'elle demande à ses emprunteurs (la marge), moins ses coûts et les pertes sur prêts. C'est pourquoi Nuno Matos parle de marges, de capital et de coûts : ce sont les trois leviers de son plan, qu'il appelle ANZ 2030 [2][4].",
-      "Le point d'attention vient de ses clients : les retards de remboursement sur les prêts immobiliers ont un peu augmenté, un signal que les ménages australiens sont sous pression. Si les impayés montaient, la banque devrait mettre plus d'argent de côté, ce qui réduirait son bénéfice [2].",
-      "Le recul de l'action malgré un résultat au-dessus des attentes montre que le marché regardait plus loin : un dividende légèrement inférieur aux prévisions et une année 2027 présentée comme « charnière » comptent autant que le chiffre de l'année écoulée [2][3]."
-    ],
-    "forMe": "Si tu as un compte, un crédit ou de la famille en Australie, ANZ est l'une des quatre grandes banques du pays ; sa santé compte pour le crédit immobilier local. Pour un lecteur français, l'exemple montre comment lire un résultat : un pourcentage spectaculaire peut cacher un simple effet de base. C'est une information, jamais un conseil d'acheter ou de vendre.",
-    "next": [
-      {
-        "when": "2027",
-        "what": "Nuno Matos qualifie 2027 d'année « charnière » pour la mise en œuvre de son plan, avec des fonds importants dirigés vers la croissance [2]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 1,
-        "value": "7,6 Md A$",
-        "label": "bénéfice « cash » d'ANZ sur l'exercice 2026"
-      },
-      {
-        "src": 2,
-        "value": "+10 %",
-        "label": "hausse hors éléments exceptionnels (contre +31 % au total)"
-      },
-      {
-        "src": 2,
-        "value": "83 c",
-        "label": "dividende final par action, couvert à 80 % par des crédits d'impôt"
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "deep": {
-      "explainer": {
-        "title": "Comment ça marche : le bénéfice « cash » et les éléments exceptionnels",
-        "text": "Quand une banque publie ses résultats, elle donne un bénéfice « statutaire » et un bénéfice « cash », ce dernier retirant certains éléments comptables. Elle liste aussi des « éléments exceptionnels » : coûts de licenciements, amendes, dépréciations de participations. Comme ils ne se répètent pas chaque année, on compare souvent la croissance avec et sans eux. Si l'année précédente contenait beaucoup d'éléments négatifs, la hausse brute paraît très forte (+31 %) alors que la croissance de fond est plus modeste (+10 %). Le dividende peut être « franked » : en Australie, l'impôt déjà payé par la société est crédité à l'actionnaire, ce qui réduit son impôt personnel. Le marché juge enfin les résultats par rapport aux attentes des analystes, pas seulement par rapport à l'an dernier [2][4]."
-      }
-    },
-    "past": {
-      "title": "Les précédents : ANZ entre records et années plombées par les coûts",
-      "items": [
-        {
-          "when": "Novembre 2023",
-          "what": "ANZ publie un bénéfice « cash » de 7,405 milliards de dollars australiens sur l'exercice 2023, en hausse de 14 % [6].",
-          "lesson": "Le niveau de 7,4 milliards était déjà atteint il y a trois ans ; le résultat 2026 le dépasse de peu, ce qui replace le +31 % dans sa perspective [6][1]."
-        },
-        {
-          "when": "Novembre 2025",
-          "what": "Sur l'exercice 2025, le bénéfice « cash » d'ANZ chute de 14 % à environ 5,79 milliards de dollars australiens et le bénéfice statutaire de 10 % à 5,89 milliards, avec 1,1 milliard d'éléments exceptionnels : 285 millions de dépréciation de PT Panin, 585 millions de licenciements, 271 millions pour l'ASIC [4][5].",
-          "lesson": "Ces coûts ponctuels expliquent l'essentiel de la chute de 2025 et, en miroir, du bond de 31 % de 2026 : hors éléments exceptionnels, le bénéfice était resté stable à environ 6,9 milliards [4][5]."
-        }
-      ]
-    },
-    "markets": {
-      "text": "Seule ANZ est directement concernée.",
-      "items": [
-        {
-          "name": "ANZ Group",
-          "ticker": "ANZ",
-          "why": "A publié 7,6 milliards de dollars australiens de bénéfice « cash » (+31 %), au-dessus des 7,5 milliards attendus [1] ; l'action a reculé à l'ouverture de lundi, de 0,5 % à 1,5 % selon les sources [2][3]."
-        }
-      ]
-    },
-    "sources": [
-      {
-        "short": "Bloomberg",
-        "name": "Bloomberg, « ANZ Profit Edges Above Estimates on CEO Matos's Revamp » (8 novembre 2026)",
-        "url": "https://www.bloomberg.com/news/articles/2026-11-08/anz-profit-edges-above-estimates-as-matos-s-revamp-takes-hold"
-      },
-      {
-        "short": "Yahoo Finance Australie",
-        "name": "Yahoo Finance Australie, « 'Resilient': ANZ profit surges » (9 novembre 2026)",
-        "url": "https://au.finance.yahoo.com/news/resilient-anz-profit-surges-215817109.html"
-      },
-      {
-        "short": "Investing.com",
-        "name": "Investing.com, « ANZ FY profit jumps 31% amid CEO Matos' turnaround plan » (9 novembre 2026)",
-        "url": "https://in.investing.com/news/earnings/anz-fy-profit-jumps-31-amid-ceo-matos-turnaround-plan-5689141"
-      },
-      {
-        "short": "ANZ",
-        "name": "ANZ, « 2025 full year result & proposed final dividend » (novembre 2025)",
-        "url": "https://www.anz.com.au/newsroom/media/2025/november/2025-full-year-result---proposed-final-dividend/"
-      },
-      {
-        "short": "Investor Daily",
-        "name": "Investor Daily, « ANZ profits slip 10% amid regulatory costs » (novembre 2025)",
-        "url": "https://www.investordaily.com.au/markets/58099-anz-profits-slip-10-amid-regulatory-costs"
-      },
-      {
-        "short": "ANZ",
-        "name": "ANZ, « 2023 full year result & proposed final dividend » (novembre 2023)",
-        "url": "https://www.anz.com.au/newsroom/media/2023/november/2023-full-year-result---proposed-final-dividend/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-fin-cuivre-14000-dollars-droits-douane-stocks",
-    "date": "2026-11-09",
-    "region": "Amériques",
-    "theme": "fin",
-    "zones": [
-      "Amérique du Nord",
-      "Asie",
-      "Amérique latine"
-    ],
-    "geo": [
-      {
-        "coords": [
-          -74,
-          40.71
-        ],
-        "name": "New York, États-Unis",
-        "label": "Cuivre (Comex)"
-      },
-      {
-        "coords": [
-          121.47,
-          31.23
-        ],
-        "name": "Shanghai, Chine",
-        "label": "Cuivre (Shanghai)"
-      }
-    ],
-    "title": "Cuivre au-dessus de 14 000 dollars la tonne : Washington n'a pas tranché sur les droits de douane, les stocks filent aux États-Unis et Shanghai paie un record",
-    "summary": "Le cuivre se maintient au-dessus de 14 000 dollars la tonne, près de son record de septembre (14 875 dollars le 10 septembre, selon BMI), parce que le marché attend la décision américaine sur des droits de douane visant le cuivre raffiné. Plus de 70 % des stocks du LME sont déjà dans des entrepôts américains, et la prime au comptant à Shanghai bat un record [1][2].",
-    "points": [
-      "Selon BMI, le cuivre a atteint un sommet de 14 875 dollars la tonne le 10 septembre et est resté nettement au-dessus de 14 000 dollars au 5 novembre [1].",
-      "Selon Shanghai Metals Market (SMM), plus de 70 % des stocks de cuivre du London Metal Exchange (LME) se trouvaient dans des entrepôts américains au 5 novembre [2].",
-      "Le 6 novembre, la prime payée pour du cuivre disponible tout de suite à Shanghai a atteint un record de 2 615 yuans la tonne, signe d'une offre tendue et de stocks bas sur place, selon SMM [2].",
-      "Les États-Unis appliquent un droit de 50 % sur les produits semi-finis en cuivre (Section 232) ; les cathodes de cuivre raffiné, les concentrés, les anodes et les déchets sont restés en dehors [3].",
-      "Le ministère du Commerce devait faire le point avant le 30 juin 2026 sur un droit progressif sur le cuivre raffiné : 15 % à partir du 1er janvier 2027, puis 30 % à partir du 1er janvier 2028 ; BMI note que la décision reste attendue début novembre [1][3].",
-      "Côté équilibre du marché, ING prévoit un déficit d'environ 35 000 tonnes en 2026, tandis que le cabinet CRU, qui annonçait un excédent, juge désormais le marché au mieux équilibré [4]."
-    ],
-    "why": [
-      "À retenir : le prix du cuivre dépend autant d'une décision de Washington que de l'équilibre entre mines et usines, et tant qu'elle n'est pas prise, les opérateurs se couvrent [1][3].",
-      "Le mécanisme : si un droit de douane doit frapper le cuivre raffiné importé, le métal vendu aux États-Unis vaut plus cher que celui du LME. Les négociants envoient donc du cuivre vers les entrepôts américains avant l'échéance, ce qui vide le reste du monde : les stocks du LME s'accumulent aux États-Unis et les acheteurs ailleurs, comme à Shanghai, paient une prime pour être livrés [1][2].",
-      "Le précédent de 2025 montre que la décision peut faire bouger les prix de façon brutale : le cuivre américain avait bondi de plus de 13 % le 8 juillet 2025, puis chuté d'environ 20 % le 30 juillet quand le cuivre raffiné a été exclu du droit de 50 % [5][6][7].",
-      "Si Washington confirme le droit de 15 % en 2027, les stocks américains pourraient rester élevés ; s'il y renonce, la prime pourrait retomber. C'est pourquoi le marché reste suspendu à l'annonce, sans signal de date dans les sources consultées [1][3]."
-    ],
-    "forMe": "Le cuivre sert dans les câbles électriques, les moteurs, les réseaux et les bornes de recharge : un cuivre cher finit, avec du retard, dans le prix des équipements et de la rénovation énergétique. Pour un lecteur français, l'effet est indirect et lent, mais il montre comment un droit de douane américain déplace les stocks et les prix partout dans le monde. C'est une information, jamais un conseil d'acheter ou de vendre.",
-    "next": [
-      {
-        "when": "1er janvier 2027",
-        "what": "Date possible de début d'un droit de 15 % sur le cuivre raffiné, si Washington le confirme [3]."
-      },
-      {
-        "when": "À suivre",
-        "what": "Aucune date de décision n'était annoncée au 5 novembre : BMI parle d'un marché qui l'attend [1]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 1,
-        "value": "14 875 $/t",
-        "label": "record du cuivre, le 10 septembre (BMI)"
-      },
-      {
-        "src": 2,
-        "value": "+70 %",
-        "label": "des stocks du LME dans des entrepôts américains"
-      },
-      {
-        "src": 2,
-        "value": "2 615 ¥/t",
-        "label": "prime record du cuivre au comptant à Shanghai, le 6 novembre"
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "droits-de-douane"
-    ],
-    "deep": {
-      "explainer": {
-        "title": "Comment ça marche : pourquoi un droit de douane déplace les stocks de cuivre",
-        "text": "Le cuivre se négocie sur deux grandes places : le LME à Londres, référence mondiale, et le Comex à New York. En temps normal, leurs prix restent proches. Quand les États-Unis annoncent ou laissent planer un droit de douane sur le cuivre importé, le métal livrable aux États-Unis vaut plus cher que celui du LME : les négociants gagnent à le transporter vers les entrepôts américains avant que le droit ne s'applique. Les stocks américains gonflent, ce qui retire du métal disponible ailleurs. Les acheteurs du reste du monde, comme les fonderies chinoises, doivent alors payer une « prime » pour obtenir une livraison immédiate : c'est celle qui bat un record à Shanghai. Si la décision américaine est annulée ou précisée, l'écart se referme et les prix peuvent chuter brutalement [1][2][6]."
-      }
-    },
-    "past": {
-      "title": "Les précédents : le cuivre secoué par les annonces américaines en 2025",
-      "items": [
-        {
-          "when": "8 juillet 2025",
-          "what": "Le cuivre américain (Comex) bondit de plus de 13 % en une séance, au-dessus de 12 445 dollars la tonne, un record, après l'annonce d'un droit de 50 % sur le cuivre importé [5].",
-          "lesson": "L'annonce d'un droit de douane fait monter le prix américain avant même qu'il s'applique, car le marché anticipe la pénurie locale [5]."
-        },
-        {
-          "when": "30 juillet 2025",
-          "what": "La Maison-Blanche exclut le cuivre raffiné du droit de 50 % : le cuivre américain chute d'environ 20 %, la plus forte baisse en une séance jamais enregistrée, de 5,59 à 4,35 dollars la livre selon ING [6][7].",
-          "lesson": "Quand l'exemption tombe, la prime américaine s'évapore d'un coup, mais le Commerce a recommandé un droit différé de 15 % en 2027 puis 30 % en 2028, ce qui relance l'attente [6][7]."
-        }
-      ]
-    },
-    "sources": [
-      {
-        "short": "IndexBox (BMI)",
-        "name": "IndexBox, « Global Copper Market Awaits US Tariff Decision as Prices Hold Above $14,000/t, BMI Reports » (novembre 2026)",
-        "url": "https://www.indexbox.io/blog/global-copper-market-awaits-us-tariff-decision-as-prices-hold-above-14000t-bmi-reports/"
-      },
-      {
-        "short": "SMM",
-        "name": "Shanghai Metals Market, « Shanghai spot copper premiums surge to 2615 yuan/mt, the highest level in history » (novembre 2026)",
-        "url": "https://news.metal.com/newscontent/104210314-shanghai-spot-copper-premiums-surge-to-2615-yuanmt-the-highest-level-in-history-how-tight-is-supply-before-delivery"
-      },
-      {
-        "short": "Congressional Research Service",
-        "name": "Congressional Research Service, « Section 232 National Security Tariffs on Copper Imports »",
-        "url": "https://www.congress.gov/crs-product/IN12614"
-      },
-      {
-        "short": "ING",
-        "name": "ING Think, « What's next for US copper import tariffs »",
-        "url": "https://think.ing.com/articles/whats-next-for-us-copper-import-tariffs/"
-      },
-      {
-        "short": "Sprott",
-        "name": "Sprott, « Copper Fundamentals Prevail After Tariff Turmoil » (2025)",
-        "url": "https://sprott.com/insights/copper-fundamentals-prevail-after-tariff-turmoil/"
-      },
-      {
-        "short": "ING",
-        "name": "ING Think, « Comex copper plunges as Trump's tariff excludes refined metal » (30 juillet 2025)",
-        "url": "https://think.ing.com/articles/comex-copper-plunges-as-trumps-tariff-exclude-refined-metal-a/"
-      },
-      {
-        "short": "Mining.com",
-        "name": "Mining.com, « Copper price collapses by 20% as US excludes refined metal from tariffs » (30 juillet 2025)",
-        "url": "https://www.mining.com/copper-price-collapses-by-20-as-us-excludes-refined-metal-from-tariffs/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-fin-denglin-bourse-hong-kong-puces-ia-chinoises",
-    "date": "2026-11-09",
-    "region": "Asie",
-    "theme": "fin",
-    "zones": [
-      "Asie",
-      "Amérique du Nord"
-    ],
-    "geo": [
-      {
-        "coords": [
-          114.17,
-          22.32
-        ],
-        "name": "Hong Kong, Chine",
-        "label": "Denglin"
-      },
-      {
-        "coords": [
-          120.62,
-          31.3
-        ],
-        "name": "Suzhou, Chine",
-        "label": "Suzhou"
-      }
-    ],
-    "title": "Hong Kong : Denglin, un fabricant chinois de puces d'IA, entre en Bourse mardi, en plein doute sur les valeurs de l'IA",
-    "summary": "Suzhou Denglin Technology, qui conçoit des processeurs graphiques (GPU) pour l'intelligence artificielle, doit débuter mardi 10 novembre à la Bourse de Hong Kong (code 09917), avec une fourchette de 231 à 288 dollars de Hong Kong par action et jusqu'à 1,76 milliard à lever. Elle suit deux succès chinois, Moore Threads et Biren [1][2][3].",
-    "points": [
-      "Denglin propose 6,125 millions d'actions H à Hong Kong dans une fourchette de 231 à 288 dollars de Hong Kong (milieu : 259,50), soit jusqu'à environ 1,764 milliard de dollars de Hong Kong ; le carnet d'ordres s'est fermé le 5 novembre et les débuts en Bourse sont attendus le 10 novembre [1][2][5].",
-      "Cinq investisseurs « ancres » (Hua Yuan, Sky Giant, Chinese Consortium, ZGD Capital et Everbright Wealth Management) se sont engagés pour environ 646,4 millions de dollars de Hong Kong, soit près de 40,66 % des actions offertes au prix médian [2].",
-      "Le produit net est estimé à environ 1,48 milliard de dollars de Hong Kong au prix médian, et un lot de 25 actions coûte environ 7 272,61 dollars de Hong Kong à l'entrée pour le public [1][2].",
-      "L'entreprise conçoit des GPU généralistes pour l'IA des entreprises ; elle pesait environ 1 % du marché chinois des GPGPU d'entreprise en 2025, selon son prospectus, et affiche d'importantes pertes historiques [3].",
-      "La dernière grosse cotation, celle des actions H de Suzhou Dongshan le 28 octobre, avait levé environ 9,88 milliards de dollars de Hong Kong au prix de 86,80, mais la tranche destinée au public n'avait été souscrite que 0,52 fois [7].",
-      "Le fabricant de puces mémoire Hosin Electronics doit suivre le 12 novembre, et d'autres sociétés d'ici le 13 novembre, selon un calendrier d'introductions [5].",
-      "Les levées en Bourse à Hong Kong ont atteint 210,2 milliards de dollars de Hong Kong au premier semestre 2026, en hausse de 92 % sur un an [6]."
-    ],
-    "why": [
-      "À retenir : la Chine veut des puces d'IA fabriquées par ses propres entreprises, et la Bourse de Hong Kong sert de guichet pour les financer : Denglin arrive après Moore Threads à Shanghai et Biren à Hong Kong [8][9].",
-      "Le contexte est plus fragile qu'à l'époque des précédentes introductions : les valeurs de puces ont plongé la semaine dernière, Tokyo et Séoul ont perdu environ 6 % vendredi et Taïwan a connu sa pire semaine en vingt ans avant le rebond de lundi [10]. Le public hongkongais a d'ailleurs boudé la tranche de détail de Dongshan à fin octobre (0,52 fois) [7].",
-      "La valorisation dépend de ce qu'on attend de l'entreprise : avec 1 % de son marché et des pertes importantes, Denglin se vend sur des promesses de croissance. Moore Threads et Biren perdaient aussi de l'argent quand elles ont été cotées [3][8][9].",
-      "Les investisseurs « ancres » comptent pour environ 40 % de l'offre au prix médian : leur engagement sert de signal de confiance, et réduit le nombre d'actions disponibles pour les autres acheteurs [2]."
-    ],
-    "forMe": "Tu ne peux pas acheter facilement ces actions depuis la France, mais elles disent beaucoup : la rivalité technologique entre Washington et Pékin se joue aussi en Bourse, et le sort de ces entreprises influence les prix des puces et de l'IA. Retiens surtout qu'un bon accueil d'une introduction n'est jamais garanti. C'est une information, jamais un conseil d'acheter ou de vendre.",
-    "next": [
-      {
-        "when": "10 novembre",
-        "what": "Débuts en Bourse de Denglin à Hong Kong, sous le code 09917 ; le prix définitif sera connu avant [1][2]."
-      },
-      {
-        "when": "12 novembre",
-        "what": "Introduction attendue de Hosin Electronics (puces mémoire) à Hong Kong [5]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 1,
-        "value": "231-288 HK$",
-        "label": "fourchette de prix par action de Denglin"
-      },
-      {
-        "src": 2,
-        "value": "40,66 %",
-        "label": "des actions offertes déjà souscrites par des investisseurs « ancres »"
-      },
-      {
-        "src": 3,
-        "value": "1 %",
-        "label": "part de Denglin sur le marché chinois des GPU d'IA d'entreprise"
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "semi-conducteurs"
-    ],
-    "deep": {
-      "explainer": {
-        "title": "Comment ça marche : une introduction à Hong Kong avec « investisseurs ancres »",
-        "text": "Avant d'ouvrir l'offre au public, une entreprise qui entre à la Bourse de Hong Kong peut signer des « investisseurs ancres » (cornerstone investors) : de grands fonds s'engagent à acheter un nombre d'actions précis au prix final, et à les conserver pendant une période. Cet engagement rassure les autres acheteurs et aide à fixer le prix. L'offre est découpée en une tranche pour les institutions et une tranche pour le public (le « retail »), dont le taux de souscription, c'est-à-dire le nombre de fois où elle est couverte, donne une idée de l'appétit du marché. Le prix définitif est fixé dans la fourchette annoncée, puis les actions commencent à s'échanger le jour de la cotation. Une action « H » est une action d'une société de Chine continentale cotée à Hong Kong [1][2][7]."
-      }
-    },
-    "past": {
-      "title": "Les précédents : les puces d'IA chinoises ont fait des débuts très bruyants",
-      "items": [
-        {
-          "when": "5 décembre 2025",
-          "what": "Moore Threads débute sur le marché STAR de Shanghai : environ 8 milliards de yuans (environ 1,13 milliard de dollars) levés à 114,28 yuans l'action, un bond de 411 % à 468 % le premier jour selon les sources et des souscriptions couvertes 2 750 fois [8].",
-          "lesson": "La rareté des puces nationales a été payée très cher, alors que l'entreprise perdait 724 millions de yuans sur les neuf premiers mois de l'année [8]."
-        },
-        {
-          "when": "2 janvier 2026",
-          "what": "Biren Technology, premier fabricant chinois de GPU coté à Hong Kong, lève 5,58 milliards de dollars de Hong Kong à 19,60 l'action ; le titre ouvre à plus de 80 % au-dessus du prix et clôt à 34,46, soit environ 76 % de hausse, avec une tranche publique sursouscrite environ 1 894 fois [9].",
-          "lesson": "Une forte demande de détail ne dit rien de la solidité des comptes : Biren avait subi une perte nette de 1,6 milliard de yuans au premier semestre [9]."
-        }
-      ]
-    },
-    "markets": {
-      "text": "Entreprises concernées par l'introduction.",
-      "items": [
-        {
-          "name": "Suzhou Denglin Technology",
-          "ticker": "9917.HK",
-          "why": "Offre jusqu'à environ 1,764 milliard de dollars de Hong Kong ; cotation attendue le 10 novembre [1][2]."
-        },
-        {
-          "name": "Biren Technology",
-          "ticker": "6082.HK",
-          "why": "Premier fabricant chinois de GPU coté à Hong Kong ; a clôturé son premier jour, le 2 janvier 2026, à environ 76 % au-dessus de son prix d'introduction [9]."
-        }
-      ]
-    },
-    "sources": [
-      {
-        "short": "AASTOCKS",
-        "name": "AASTOCKS, « <IPO> DENGLIN TECH-P (09917.HK) Starts IPO Today » (30 octobre 2026)",
-        "url": "https://www.aastocks.com/en/stocks/news/aafn-con/now.1552029/latest-news"
-      },
-      {
-        "short": "Futu News",
-        "name": "Futu News, « Denglin Technology-P is conducting its IPO from October 30 to November 5 » (2026)",
-        "url": "https://news.futunn.com/en/post/1002829664/denglin-technology-p-is-conducting-its-ipo-from-october-30"
-      },
-      {
-        "short": "Finimize",
-        "name": "Finimize, « Suzhou Denglin's Hong Kong IPO Puts GPUs Front And Center » (2026)",
-        "url": "https://finimize.com/content/suzhou-denglins-hong-kong-ipo-puts-gpus-front-and-center"
-      },
-      {
-        "short": "Dealroom",
-        "name": "Dealroom, « Chip startup Denglin launches Hong Kong IPO at up to HK$288 a share » (2026)",
-        "url": "https://app.dealroom.co/news/note/chip-startup-denglin-launches-hong-kong-ipo-at-up-to-hk-288-a-share"
-      },
-      {
-        "short": "IPOX",
-        "name": "IPOX, calendrier des introductions en Bourse (novembre 2026)",
-        "url": "https://www.ipox.com/upcoming-ipos"
-      },
-      {
-        "short": "China Daily Hong Kong",
-        "name": "China Daily Hong Kong, « HKEX IPO fundraising in H1 surges 92% y-o-y » (2026)",
-        "url": "https://www.chinadailyhk.com/hk/article/636078"
-      },
-      {
-        "short": "Securities.io",
-        "name": "Securities.io, « Suzhou Dongshan H Shares Debut on HKEX After HK$9,876.38 Million IPO » (28 octobre 2026)",
-        "url": "https://www.securities.io/suzhou-dongshan-h-shares-debut-on-hkex-after-hk-9-876-38-million-ipo/"
-      },
-      {
-        "short": "Euronews",
-        "name": "Euronews, « China's bet on home-grown chips pays off with Moore Threads' blockbuster debut » (5 décembre 2025)",
-        "url": "https://www.euronews.com/2025/12/05/chinas-bet-on-home-grown-chips-pays-off-with-moore-threads-blockbuster-debut"
-      },
-      {
-        "short": "Fortune",
-        "name": "Fortune, « AI chip designer Biren's shares surge 76% on debut in Hong Kong » (2 janvier 2026)",
-        "url": "https://fortune.com/2026/01/02/ai-chip-designer-birens-shares-surge-76-on-debut-in-hong-kong/"
-      },
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « Asian stock markets climb after earlier tech rout » (9 novembre 2026)",
-        "url": "https://www.aljazeera.com/economy/2026/11/9/asian-stock-markets-climb-after-earlier-tech-rout"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-inde-inflation-octobre-6-pourcent-plafond-rbi",
-    "date": "2026-11-09",
-    "level": 2,
-    "region": "Asie",
-    "theme": "eco",
-    "zones": [
-      "Asie"
-    ],
-    "geo": [
-      {
-        "coords": [
-          77.21,
-          28.61
-        ],
-        "name": "New Delhi, Inde",
-        "label": "Inde"
-      }
-    ],
-    "title": "Inde : l'inflation d'octobre pourrait frôler ou franchir 6 %, le plafond de la banque centrale, un mois après sa première hausse de taux depuis 2023",
-    "summary": "Un sondage Reuters publié le 6 novembre voit l'inflation indienne d'octobre se rapprocher du haut de la fourchette de la Banque de réserve (2 % à 6 %), tirée par la nourriture. Le chiffre officiel sort le 12 novembre, un mois après une hausse de taux à 5,50 % [1][2][3].",
-    "points": [
-      "Dans le sondage Reuters, les prévisions pour octobre vont de 5,50 % à 6,60 % ; l'inflation alimentaire passerait de 7,74 % en septembre à 8,20 % [1][2].",
-      "La prévision d'ICRA est de 6,1 %, soit un plus haut de 24 mois et au-dessus du plafond de la banque centrale [4].",
-      "BofA Securities s'attend à une inflation à deux chiffres sur la viande, le poisson, les huiles et graisses, les fruits, les légumes et le sucre [1].",
-      "Le 7 octobre, la Banque de réserve a relevé son taux directeur de 25 points de base, de 5,25 % à 5,50 %, à l'unanimité, une première hausse depuis février 2023 [3]."
-    ],
-    "why": [
-      "À retenir : la hausse des prix alimentaires, liée selon des économistes à des conditions proches de la sécheresse dans plusieurs régions et à un effet de base lié à la baisse de la TVA (GST), pousse l'inflation vers le plafond de la banque centrale [1][2].",
-      "Un économiste de la Union Bank of India juge que la banque pourrait poursuivre sa progression « calibrée » par paliers de 25 points de base ; la prochaine réunion est prévue du 2 au 4 décembre [1][3]."
-    ],
-    "forMe": "Pour un lecteur français, l'Inde est un grand marché et un fournisseur de médicaments, de textile et d'informatique : une inflation plus forte et des taux plus hauts renchérissent le crédit sur place et peuvent freiner la demande de produits importés.",
-    "next": [
-      {
-        "when": "12 novembre",
-        "what": "Publication de l'inflation officielle d'octobre [1][2]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 1,
-        "value": "5,50 % à 6,60 %",
-        "label": "fourchette des prévisions pour l'inflation d'octobre"
-      },
-      {
-        "src": 1,
-        "value": "8,20 %",
-        "label": "inflation alimentaire attendue en octobre, contre 7,74 % en septembre"
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "inflation-taux"
-    ],
-    "sources": [
-      {
-        "short": "Reuters (inkl)",
-        "name": "Reuters via inkl, « India's October consumer inflation likely nears top of RBI target on food costs: Reuters poll » (6 novembre 2026)",
-        "url": "https://www.inkl.com/news/indias-october-consumer-inflation-likely-nears-top-of-rbi-target-on-food-costs-reuters-poll"
-      },
-      {
-        "short": "The Sen Times",
-        "name": "The Sen Times, « India's October consumer inflation likely nears top of RBI target on food costs »",
-        "url": "https://thesentimes.com/indias-october-consumer-inflation-likely-nears-top-of-rbi-target-on-food-costs/"
-      },
-      {
-        "short": "Shoonya",
-        "name": "Shoonya, « RBI Repo Rate Oct 2026: 5.50% After the October 2026 Hike »",
-        "url": "https://shoonya.com/blog/rbi-repo-rate-oct-2026/"
-      },
-      {
-        "short": "India Press Agency",
-        "name": "India Press Agency, « CPI Inflation Likely At 24-Month High Of 6.1 Per Cent In October »",
-        "url": "https://ipanewspack.com/cpi-inflation-likely-at-24-month-high-of-6-1-per-cent-in-october/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-indonesie-croissance-5-47-pourcent-troisieme-trimestre",
-    "date": "2026-11-09",
-    "level": 2,
-    "region": "Asie",
-    "theme": "eco",
-    "zones": [
-      "Asie"
-    ],
-    "geo": [
-      {
-        "coords": [
-          106.85,
-          -6.21
-        ],
-        "name": "Jakarta, Indonésie",
-        "label": "Indonésie"
-      }
-    ],
-    "title": "Indonésie : la croissance accélère à 5,47 % au troisième trimestre, mieux que prévu, et la roupie repasse sous 18 100 pour un dollar",
-    "summary": "L'économie indonésienne a progressé de 5,47 % sur un an au troisième trimestre, contre 5,29 % au deuxième et 5,18 % attendus par les analystes, selon l'institut BPS. La consommation des ménages et l'industrie, portée par le biodiesel, tirent la croissance [1][2][3].",
-    "points": [
-      "Le 5 novembre, l'institut statistique BPS a annoncé +5,47 % sur un an, contre 5,18 % attendus dans le sondage Reuters et 5,29 % au deuxième trimestre [1][2].",
-      "Sur un trimestre, la croissance est de 1,59 %, au-dessus des 1,3 % attendus ; sur neuf mois, elle atteint 5,45 % [2][3].",
-      "La consommation des ménages apporte 2,62 points de croissance, et l'industrie, 1,20 point, avec le mandat de biodiesel B50 qui stimule la transformation de l'huile de palme [3].",
-      "La roupie est repassée sous 18 100 pour un dollar le 5 novembre, après le franchissement des 17 800 fin mai [4][5]."
-    ],
-    "why": [
-      "À retenir : l'activité accélère, et le ministre des Finances, Suahasil Nazara, estime que la croissance 2026 pourrait atteindre 5,5 %, au-dessus de l'objectif budgétaire de 5,4 % [2][3].",
-      "La Banque d'Indonésie a maintenu son taux à 5,75 % le 21 octobre, jugeant l'économie résiliente [3]. Reste la fragilité de la monnaie : la roupie a été sous pression en 2026, avec un record de faiblesse début juin [4][5]."
-    ],
-    "forMe": "L'Indonésie vend du nickel, utilisé dans les batteries, et de l'huile de palme, présente dans de nombreux produits alimentaires : sa croissance et sa monnaie comptent pour les prix de ces matières premières.",
-    "figures": [
-      {
-        "src": 1,
-        "value": "5,47 %",
-        "label": "croissance sur un an au troisième trimestre, contre 5,18 % attendus"
-      },
-      {
-        "src": 3,
-        "value": "2,62 points",
-        "label": "contribution de la consommation des ménages"
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Reuters (TradingView)",
-        "name": "Reuters via TradingView, « Indonesia Q3 GDP growth at 5.47%, beats expectations » (5 novembre 2026)",
-        "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_LUN451011:0-indonesia-q3-gdp-growth-at-5-47-beats-expectations/"
-      },
-      {
-        "short": "Business Today Malaysia",
-        "name": "Business Today (Malaisie), « Indonesia Q3 GDP Growth Accelerates To 5.47%, Beats Forecast » (5 novembre 2026)",
-        "url": "https://www.businesstoday.com.my/2026/11/05/indonesia-q3-gdp-growth-accelerates-to-5-47-beats-forecast/"
-      },
-      {
-        "short": "MUC",
-        "name": "MUC, « BPS: Indonesia's Economy Grows 5.47% in Q3 2026, Here's What Drives It »",
-        "url": "https://muc.co.id/en/article/bps-indonesias-economy-grows-547-in-q3-2026-heres-what-drives-it"
-      },
-      {
-        "short": "EBC",
-        "name": "EBC, « USD/IDR Slips Below 18,100 as Indonesia Q3 GDP Grows 5.47% »",
-        "url": "https://www.ebc.com/forex/usd-idr-indonesia-q3-gdp-growth-2026"
-      },
-      {
-        "short": "Tempo",
-        "name": "Tempo, « Finance Minister Unconcerned as Rupiah Falls Past 17,800 »",
-        "url": "https://en.tempo.co/read/2105688/finance-minister-unconcerned-as-rupiah-falls-past-17800"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-coree-du-sud-kospi-recule-11-7-pourcent-semaine",
-    "date": "2026-11-09",
-    "level": 2,
-    "region": "Asie",
-    "theme": "eco",
-    "zones": [
-      "Asie"
-    ],
-    "geo": [
-      {
-        "coords": [
-          126.98,
-          37.57
-        ],
-        "name": "Séoul, Corée du Sud",
-        "label": "Corée du Sud"
-      }
-    ],
-    "title": "Corée du Sud : la Bourse de Séoul recule de 11,7 % en une semaine, 844 valeurs au plus bas de l'année, et tous les yeux sont sur le 11 novembre",
-    "summary": "Le Kospi a perdu 11,71 % en cinq séances, les investisseurs étrangers vendant pour 10 440 milliards de wons d'actions. La chute du vendredi 6 novembre, de 6,02 %, avait déclenché un arrêt des cotations [1][2][3].",
-    "points": [
-      "Le 6 novembre, le Kospi a clôturé en baisse de 6,02 % à 5 059,69 points ; l'arrêt des cotations (circuit breaker) s'était déclenché vers 9 h 03, après une chute de plus de 8 % à l'ouverture [3][4].",
-      "SK hynix a perdu plus de 10 % et Samsung Electronics 6,35 % ; la part des étrangers dans Samsung est tombée à 45,95 %, un plus bas en 17 ans [4].",
-      "Les investisseurs étrangers ont vendu pour 10 440 milliards de wons d'actions la semaine dernière [2][4].",
-      "Selon le Seoul Economic Daily, 844 valeurs ont touché un plus bas annuel, et les analystes se disputent pour savoir si le plancher est atteint [1][5]."
-    ],
-    "why": [
-      "À retenir : Séoul subit les doutes sur les dépenses d'IA aux États-Unis, accentués par la crainte d'une régulation plus stricte des centres de données après la victoire des démocrates aux élections de mi-mandat [1][3].",
-      "Le rendez-vous du 11 novembre est double : la publication de l'inflation américaine et les résultats de CoreWeave, avant l'ouverture de Séoul ; l'indice des semi-conducteurs de Philadelphie a rebondi de plus de 4 % pendant la nuit [1]."
-    ],
-    "forMe": "Samsung et SK hynix fabriquent les mémoires de nos téléphones et ordinateurs : si leurs bénéfices fléchissent, les prix de ces composants peuvent bouger. C'est une information, jamais un conseil d'investissement.",
-    "next": [
-      {
-        "when": "11 novembre",
-        "what": "Inflation américaine et résultats de CoreWeave avant l'ouverture de Séoul [1]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 1,
-        "value": "−11,71 %",
-        "label": "baisse du Kospi en une semaine"
-      },
-      {
-        "src": 4,
-        "value": "10 440 Md de wons",
-        "label": "ventes nettes des étrangers sur la semaine"
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "semi-conducteurs"
-    ],
-    "sources": [
-      {
-        "short": "Seoul Economic Daily",
-        "name": "Seoul Economic Daily, « KOSPI Hunts for Bottom After 11% Plunge, With Nov. 11 in Focus » (9 novembre 2026)",
-        "url": "https://en.sedaily.com/finance/2026/11/09/kospi-hunts-for-bottom-after-11-percent-plunge-with-nov-11"
-      },
-      {
-        "short": "Seoul Economic Daily (semaine)",
-        "name": "Seoul Economic Daily, « KOSPI Sinks 11.7% in a Week as Foreigners Dump $4 Billion in Stocks » (8 novembre 2026)",
-        "url": "https://en.sedaily.com/finance/2026/11/08/kospi-sinks-117-percent-in-a-week-as-foreigners-dump-4"
-      },
-      {
-        "short": "Yahoo Finance",
-        "name": "Yahoo Finance, « Wall Street's AI Sell-Off Spills Into Seoul, Sinking KOSPI Below 5,000 »",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/wall-street-ai-sell-off-012837647.html"
-      },
-      {
-        "short": "Seoul Economic Daily (844)",
-        "name": "Seoul Economic Daily, « Even Blue Chips Slide as 844 Korean Stocks Hit Yearly Lows » (9 novembre 2026)",
-        "url": "https://en.sedaily.com/finance/2026/11/09/even-blue-chips-slide-as-844-korean-stocks-hit-yearly-lows"
-      },
-      {
-        "short": "IBTimes Australia",
-        "name": "IBTimes Australia, « KOSPI Plunges 6% After Triggering Circuit Breaker as Samsung and SK Hynix Rout Rattles Seoul's Stock Market »",
-        "url": "https://www.ibtimes.com.au/south-korea-kospi-plunges-ai-stock-selloff-1878030"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-taiwan-elections-locales-28-novembre-taipei-duel",
-    "date": "2026-11-09",
-    "level": 2,
-    "region": "Asie",
-    "theme": "geo",
-    "zones": [
-      "Asie"
-    ],
-    "geo": [
-      {
-        "coords": [
-          121.56,
-          25.04
-        ],
-        "name": "Taipei, Taïwan",
-        "label": "Taïwan"
-      }
-    ],
-    "title": "Taïwan : à trois semaines des élections locales du 28 novembre, Taipei, la ville que tout le monde regarde, se joue à quelques points",
-    "summary": "Le 28 novembre, Taïwan vote pour tous ses échelons locaux : 19 695 candidats pour 11 051 postes, un test avant la présidentielle de 2028. À Taipei, le maire sortant du Kuomintang, Chiang Wan-an, voit son avance fondre face à Puma Shen, du Parti démocrate progressiste [1][2][3].",
-    "points": [
-      "Le scrutin « neuf en un » élit en même temps maires, conseillers et élus de quartier : 19 695 candidats pour 11 051 sièges [1][4].",
-      "À Taipei, TVBS donnait 28 points d'avance à Chiang Wan-an en mai et 8 en début octobre ; un sondage du United Daily News mené du 20 au 25 octobre place Puma Shen devant, 45 % contre 41 %, dans la marge d'erreur [3].",
-      "À Taichung, un sondage commandé par le KMT, publié le 2 novembre, donne Johnny Chiang devant Ho Hsin-chun, 38,3 % contre 28,1 % ; quatre des cinq sondages d'octobre le placent devant [2].",
-      "La présidente du KMT, Cheng Li-wun, a lancé une série de grands meetings, le premier dans le centre de l'île ; le Parti démocrate progressiste, de son côté, appelle à la prudence face aux sondages [1]."
-    ],
-    "why": [
-      "À retenir : ces élections servent de répétition avant la présidentielle de 2028 : la carte des villes dira si le Parti démocrate progressiste du président Lai Ching-te conserve son élan ou si le Kuomintang regagne du terrain [1][4].",
-      "Les alliances comptent : à Kaohsiung, la vice-présidente Hsiao Bi-khim fait campagne avec Lai, tandis que Ko Wen-je, fondateur du Parti populaire de Taïwan, soutient le candidat du KMT ; à New Taipei, le président du TPP s'est effacé devant celle du KMT, Lee Shu-chuan, face à Su Chiao-hui ; le PDP tient Tainan depuis 1997 [2][1]."
-    ],
-    "forMe": "Taïwan est au cœur de la fabrication mondiale de puces : la stabilité de sa vie politique intéresse tous les fabricants d'ordinateurs et de téléphones.",
-    "next": [
-      {
-        "when": "28 novembre",
-        "what": "Vote des élections locales à Taïwan [1][2]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 1,
-        "value": "19 695",
-        "label": "candidats pour 11 051 postes à pourvoir"
-      },
-      {
-        "src": 3,
-        "value": "45 % contre 41 %",
-        "label": "Puma Shen devant Chiang Wan-an à Taipei (sondage UDN, 20-25 octobre)"
-      }
-    ],
-    "culture": [],
-    "dossiers": [
-      "semi-conducteurs"
-    ],
-    "sources": [
-      {
-        "short": "Focus Taiwan",
-        "name": "Focus Taiwan, « Taiwan's parties ramp up campaigning ahead of Nov. 28 local elections » (14 octobre 2026)",
-        "url": "https://focustaiwan.tw/politics/202610140024"
-      },
-      {
-        "short": "Taipei Times",
-        "name": "Taipei Times, « 2026 Elections: Polls offer mixed picture of Taichung race » (4 novembre 2026)",
-        "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/04/2003867132"
-      },
-      {
-        "short": "Global Taiwan",
-        "name": "Global Taiwan Institute, « Battle for the Capital: Inside the 2026 Taipei Mayoral Race, Part 1 » (octobre 2026)",
-        "url": "https://globaltaiwan.org/2026/10/introduction-to-2026-taipei-mayor-election/"
-      },
-      {
-        "short": "StratNews Global",
-        "name": "StratNews Global, « Explained: Taiwan's November 28 Local Elections And Why They Matter »",
-        "url": "https://stratnewsglobal.com/world-news/explained-taiwans-november-28-local-elections-and-why-they-matter/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-allemagne-aigner-candidate-presidence-federale",
-    "date": "2026-11-09",
-    "level": 2,
-    "region": "Europe",
-    "theme": "geo",
-    "zones": [
-      "Europe"
-    ],
-    "geo": [
-      {
-        "name": "Berlin, Allemagne",
-        "label": "Allemagne",
-        "coords": [
-          13.4,
-          52.52
-        ]
-      }
-    ],
-    "title": "Allemagne : Merz propose Ilse Aigner pour la présidence fédérale, une première pour une femme",
-    "summary": "Le chancelier Friedrich Merz a choisi Ilse Aigner, 61 ans, élue de la CSU, pour succéder au président Frank-Walter Steinmeier. L'élection par l'Assemblée fédérale est prévue le 30 janvier 2027 ; la Linke critique la méthode, et il faudra élargir le soutien au-delà de la coalition [1][2][3].",
-    "points": [
-      "Ilse Aigner, 61 ans, de la CSU bavaroise, est la candidate de l'Union pour la présidence fédérale ; Merz l'a proposée et la nomination officielle était attendue ce lundi 9 novembre [1][2].",
-      "L'Assemblée fédérale (1 260 membres, majorité absolue à 631 voix) doit voter le 30 janvier 2027 au Reichstag ; le second mandat de Steinmeier se termine en mars 2027 [3].",
-      "Aigner serait la première femme à ce poste : les dirigeants de la coalition avaient convenu de proposer une femme après douze hommes [2][3].",
-      "La proposition de la coalition ne suffit pas à elle seule ; selon Handelsblatt, Merz veut aussi associer les Verts, tandis que les avis divergent à gauche : un article dit que la Linke et l'AfD rejettent Aigner, un autre que la Linke n'a pas décidé [1][2]."
-    ],
-    "why": [
-      "À retenir : c'est un test de la solidité de la coalition noire-rouge de Merz, car un article rapporte que la confiance s'est érodée des deux côtés tandis qu'un autre juge Aigner être une bonne solution pour l'ensemble de la coalition [2].",
-      "Le président fédéral n'a pas de pouvoir de gouvernement, mais il signe les lois et nomme le chancelier ; un candidat soutenu bien au-delà de la coalition donne un signal de stabilité politique à l'extérieur [1][3]."
-    ],
-    "forMe": "Cela ne change rien à ta vie du jour au lendemain, mais c'est un indicateur de la stabilité du gouvernement de la première économie de l'Union, avec lequel la France négocie le budget européen et la défense.",
-    "figures": [
-      {
-        "src": 3,
-        "value": "30 janv. 2027",
-        "label": "vote de l'Assemblée fédérale"
-      },
-      {
-        "src": 3,
-        "value": "631",
-        "label": "voix nécessaires sur 1 260 membres"
-      }
-    ],
-    "next": [
-      {
-        "when": "30 janvier 2027",
-        "what": "Élection du président fédéral par l'Assemblée fédérale au Reichstag [3]."
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Handelsblatt",
-        "name": "Handelsblatt, « Kandidatur für Staatsspitze : Merz : Aigner soll Bundespräsidentin werden »",
-        "url": "https://www.handelsblatt.com/politik/deutschland/kandidatur-fuer-staatsspitze-merz-aigner-soll-bundespraesidentin-werden/100268262.html"
-      },
-      {
-        "short": "ZDFheute",
-        "name": "ZDFheute, « Ilse Aigner soll Bundespräsidentin werden : Kandidatin der Union »",
-        "url": "https://www.zdfheute.de/politik/bundespraesidentin-aigner-koalition-merz-100.html"
-      },
-      {
-        "short": "Wikipédia",
-        "name": "Wikipedia (de), « Wahl des deutschen Bundespräsidenten 2027 »",
-        "url": "https://de.wikipedia.org/wiki/Wahl_des_deutschen_Bundespr%C3%A4sidenten_2027"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-pays-bas-plan-fiscal-2027-vote-12-novembre",
-    "date": "2026-11-09",
-    "level": 2,
-    "region": "Europe",
-    "theme": "eco",
-    "zones": [
-      "Europe"
-    ],
-    "geo": [
-      {
-        "name": "La Haye, Pays-Bas",
-        "label": "Pays-Bas",
-        "coords": [
-          4.31,
-          52.08
-        ]
-      }
-    ],
-    "title": "Pays-Bas : le gouvernement minoritaire de Rob Jetten joue son plan fiscal 2027 jeudi, avec dix sièges de moins que la majorité",
-    "summary": "Le cabinet minoritaire du Premier ministre Rob Jetten fait voter jeudi 12 novembre à la Chambre basse son plan fiscal 2027, sans accord avec l'opposition. Il lui manque dix sièges et il a déjà retiré une contribution et reporté une hausse de TVA pour attirer des voix [1][2][3].",
-    "points": [
-      "Le cabinet Jetten a adapté son plan fiscal en conseil des ministres extraordinaire : il retire la « vrijheidsbijdrage » pour 2027 et reporte la hausse de TVA sur les plantes ornementales ; le paquet pouvoir d'achat est amélioré de 1,5 milliard d'euros selon le Premier ministre [2].",
-      "Le cabinet manque de dix sièges à la Chambre basse ; une majorité semble possible avec ChristenUnie, 50Plus et le groupe Markuszower [3].",
-      "Mercredi soir, Pro et Volt ont proposé de l'aider, à condition que l'impôt sur la fortune rapporte 1,5 milliard d'euros de plus ; son partenaire VVD y est très hostile [3].",
-      "Le plan doit aussi passer devant la Chambre haute avant la fin de l'année ; le BBB y compte onze sénateurs pour trois sièges à la Chambre basse [3]."
-    ],
-    "why": [
-      "À retenir : un gouvernement sans majorité doit acheter chaque voix, et chaque concession côté pouvoir d'achat ou fiscalité se paie ailleurs dans le budget [2][3].",
-      "Le calendrier est serré : selon EenVandaag, l'administration fiscale se verrouille le 20 novembre, ce qui peut compliquer la mise en œuvre si le vote tarde [1]."
-    ],
-    "forMe": "Si tu travailles ou investis aux Pays-Bas, le plan fiscal fixe les impôts de 2027, y compris le pouvoir d'achat des ménages. Pour un lecteur français, c'est un exemple de gouvernement minoritaire qui négocie texte par texte.",
-    "figures": [
-      {
-        "src": 3,
-        "value": "10 sièges",
-        "label": "manquant au cabinet Jetten à la Chambre basse"
-      },
-      {
-        "src": 2,
-        "value": "1,5 Md€",
-        "label": "amélioration du pouvoir d'achat selon Jetten"
-      }
-    ],
-    "next": [
-      {
-        "when": "12 novembre",
-        "what": "Vote de la Chambre basse sur le plan fiscal 2027 [3]."
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "EenVandaag",
-        "name": "EenVandaag, « Belastingplan eindelijk naar Tweede Kamer, maar wat is het precies en wat staat erin ? »",
-        "url": "https://eenvandaag.avrotros.nl/artikelen/belastingplan-eindelijk-naar-tweede-kamer-maar-wat-is-het-precies-en-wat-staat-erin-165278"
-      },
-      {
-        "short": "Accountancy Vanmorgen",
-        "name": "Accountancy Vanmorgen, « Kabinet past Belastingplan 2027 opnieuw aan, meerderheid nog onzeker » (3 novembre 2026)",
-        "url": "https://www.accountancyvanmorgen.nl/2026/11/03/kabinet-schrapt-vrijheidsbijdrage-voor-2027-en-stelt-nieuw-box-3-stelsel-jaar-uit/"
-      },
-      {
-        "short": "Accountancy Vanmorgen",
-        "name": "Accountancy Vanmorgen, « Belastingplan dreigt te stranden door verdeeldheid coalitie » (5 novembre 2026)",
-        "url": "https://www.accountancyvanmorgen.nl/2026/11/05/belastingplan-dreigt-te-stranden-door-verdeeldheid-binnen-coalitie/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-pologne-rpp-taux-inflation-3-5",
-    "date": "2026-11-09",
-    "level": 2,
-    "region": "Europe",
-    "theme": "eco",
-    "zones": [
-      "Europe"
-    ],
-    "geo": [
-      {
-        "name": "Varsovie, Pologne",
-        "label": "Pologne",
-        "coords": [
-          21.01,
-          52.23
-        ]
-      }
-    ],
-    "title": "Pologne : la banque centrale garde son taux à 3,75 %, l'inflation retombe à 3,5 %, mais une hausse de taux reste possible en 2027",
-    "summary": "Le Conseil de politique monétaire polonais a laissé son taux directeur à 3,75 % lors de sa réunion des 3 et 4 novembre, alors que l'inflation d'octobre est revenue à 3,5 % sur un an contre 4,1 % en septembre. Une partie de la baisse tient à un dispositif qui s'arrête fin 2026 [1][2].",
-    "points": [
-      "Le Conseil de politique monétaire (RPP) a maintenu le taux de référence à 3,75 %, le taux lombard à 4,25 % et le taux de dépôt à 3,25 % [1].",
-      "L'inflation a reculé à 3,5 % sur un an en octobre, contre 4,1 % en septembre ; selon StockWatch, une partie de la baisse tient à un dispositif nommé CPN, qui ne doit durer que jusqu'à la fin de l'année [1].",
-      "Dix-huit des dix-neuf économistes interrogés par l'agence PAP prévoyaient un statu quo ; les économistes de mBank jugeaient une hausse de 0,25 point plus probable [2].",
-      "Un analyste de Port ne s'attend à aucun changement d'ici fin 2026 mais n'exclut pas une hausse début 2027, en fonction du pétrole et du zloty ; le taux WIBOR à 3 mois était de 3,92 % au 2 novembre [1][2]."
-    ],
-    "why": [
-      "À retenir : la baisse de l'inflation est en partie provisoire, car elle dépend d'une mesure qui s'arrête fin 2026, et la banque centrale reste donc prudente [1].",
-      "Pour la Pologne, plus grand pays d'Europe centrale, le prix du pétrole et la valeur du zloty pèsent sur ses décisions, ce qui la relie aux tensions du Golfe [1]."
-    ],
-    "forMe": "Si tu as un crédit en zlotys ou si tu exportes vers la Pologne, le taux de 3,75 % et la possible hausse de début 2027 comptent pour le prix de l'argent. Cette décision date du 4 novembre.",
-    "figures": [
-      {
-        "src": 1,
-        "value": "3,75 %",
-        "label": "taux de référence de la banque centrale"
-      },
-      {
-        "src": 1,
-        "value": "3,5 %",
-        "label": "inflation d'octobre, contre 4,1 % en septembre"
-      }
-    ],
-    "next": [],
-    "culture": [],
-    "dossiers": [
-      "inflation-taux"
-    ],
-    "sources": [
-      {
-        "short": "StockWatch",
-        "name": "StockWatch, « Decyzja RPP : stopy procentowe bez zmian. Co dalej w 2027 r ? »",
-        "url": "https://www.stockwatch.pl/wiadomosci/decyzja-rpp-listopad-2026-stopy-procentowe-nbp-bez-zmian-inflacja-cpn,gospodarka,384594"
-      },
-      {
-        "short": "Finwire",
-        "name": "Finwire, « RPP w listopadzie 2026 : stopy bez zmian, referencyjna 3,75 % »",
-        "url": "https://finwire.pl/artykuly/decyzja-rpp-4-listopad-2026-stopy-bez-zmian"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-irak-petrole-ormuz-accord-americain-couloir-oman",
-    "date": "2026-11-09",
-    "level": 2,
-    "region": "Moyen-Orient",
-    "theme": "eco",
-    "zones": [
-      "Moyen-Orient",
-      "Asie",
-      "Europe"
-    ],
-    "geo": [
-      {
-        "name": "Bassora, Irak",
-        "label": "Irak",
-        "coords": [
-          47.78,
-          30.51
-        ]
-      }
-    ],
-    "title": "Irak : Bagdad dit avoir obtenu l'accord de Washington pour exporter son pétrole par Ormuz, et ses ventes retrouvent presque leur niveau d'avant-guerre",
-    "summary": "Le 8 novembre, le ministre irakien des Affaires étrangères, Fuad Hussein, a affirmé que l'Irak s'était entendu avec les États-Unis pour faire passer son pétrole par Ormuz, via un couloir proche d'Oman. Les exportations sont remontées à environ 3,5 millions de barils par jour en octobre [1][3].",
-    "points": [
-      "Dans un entretien à Al Jazeera, Fuad Hussein a dit que l'Irak avait conclu des « compréhensions » avec Washington pour exporter son pétrole par Ormuz, via un couloir proche d'Oman [1].",
-      "Les exportations irakiennes sont remontées à environ 3,5 millions de barils par jour en octobre, contre 2,65 millions en septembre, selon des responsables irakiens de l'énergie cités par Reuters [1] ; avant la guerre, le pays en vendait entre 3,3 et 3,5 millions [3].",
-      "Fuad Hussein chiffre à 60 milliards de dollars les pertes de l'Irak liées à la guerre avec l'Iran et aux perturbations des exportations [2].",
-      "Le Trésor américain a aussi demandé à l'Irak de fermer tous ses points de passage avec l'Iran sauf deux, ce qui serait difficile et coûteux [1][2]."
-    ],
-    "why": [
-      "À retenir : la plus grande partie du brut irakien part encore de Bassora par Ormuz ; un couloir convenu avec Washington lui offrirait une voie plus sûre, sans garantie de l'accord de l'Iran [3].",
-      "On n'a, à ce stade, que le récit du ministre irakien : ni les termes, ni la position de Washington ou de Téhéran ne sont connus. Le ministre du Pétrole évoque trois voies d'exportation : Ormuz, Ceyhan en Turquie et des camions-citernes à travers la Syrie [3]."
-    ],
-    "forMe": "Plus d'Irak sur le marché aide à calmer le baril, donc l'essence que tu paies ; tout dépend de la sécurité du détroit.",
-    "figures": [
-      {
-        "value": "≈ 3,5 Mb/j",
-        "label": "exportations de pétrole irakien en octobre, contre 2,65 en septembre",
-        "src": 1
-      },
-      {
-        "value": "60 Md$",
-        "label": "pertes irakiennes liées à la guerre, selon Fuad Hussein",
-        "src": 2
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Reuters",
-        "name": "Reuters (via U.S. News), « Iraq Has Reached Understandings With US to Allow Oil Exports Through Hormuz, Minister Says » (8 nov. 2026)",
-        "url": "https://www.usnews.com/news/world/articles/2026-11-08/iraq-has-reached-understandings-with-us-to-allow-oil-exports-through-hormuz-minister-says"
-      },
-      {
-        "short": "Jerusalem Post",
-        "name": "The Jerusalem Post, « Iraq FM: Iran war cost $60b in lost oil exports, reaches understanding with US »",
-        "url": "https://www.jpost.com/middle-east/article-914263"
-      },
-      {
-        "short": "OilPrice",
-        "name": "OilPrice.com, « Iraq's October Oil Exports Top 3.4 Million Bpd, Nearing Pre-War Levels »",
-        "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-October-Oil-Exports-Top-34-Million-Bpd-Nearing-Pre-War-Levels.html"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-gambie-presidentielle-bensouda-candidature",
-    "date": "2026-11-09",
-    "level": 2,
-    "region": "Afrique",
-    "theme": "geo",
-    "zones": [
-      "Afrique"
-    ],
-    "geo": [
-      {
-        "coords": [
-          -16.58,
-          13.45
-        ],
-        "name": "Banjul, Gambie",
-        "label": "Gambie"
-      }
-    ],
-    "title": "Gambie : à moins d'un mois de la présidentielle, la candidature de Talib Ahmed Bensouda est contestée par le gouvernement",
-    "summary": "La Gambie vote le 5 décembre pour élire son président, et les candidatures se déposent jusqu'au 14 novembre. Talib Ahmed Bensouda, candidat de la Coalition 2026, a déposé son dossier alors qu'un livre blanc du gouvernement laisse planer un doute sur son éligibilité [1][2][3].",
-    "points": [
-      "La commission électorale (IEC) reçoit les candidatures du 3 au 14 novembre, pour un scrutin le 5 décembre 2026 [1][2].",
-      "Vingt-sept aspirants figuraient au départ sur la liste, dont le président sortant Adama Barrow (NPP) et l'opposant Ousainou Darboe (UDP) ; à mi-parcours, Alkali Cham s'était retiré, portant à trois le nombre de retraits [1].",
-      "Samedi, Talib Ahmed Bensouda, ancien maire de Kanifing, a déposé son dossier pour la Coalition 2026 [1][3].",
-      "Un livre blanc du gouvernement sur une commission d'enquête relative aux collectivités locales évoque la possibilité de l'écarter ; Bensouda répond que son rapport ne contient « rien qui puisse l'empêcher » de se présenter [3].",
-      "S'il est élu, il promet d'introduire la limitation à deux mandats présidentiels ; sa coalition annonce un programme en 66 points [4]."
-    ],
-    "why": [
-      "À retenir : la campagne se joue d'abord sur les règles, c'est-à-dire sur qui a le droit de se présenter, avec quels documents et quelle caution, avant même le premier meeting [1][3].",
-      "C'est la première présidentielle sous un cadre électoral révisé, qui relève les seuils pour déposer une candidature et enregistrer un parti ; l'IEC exige les documents originaux et la preuve du dépôt de caution [1]. Une contestation d'éligibilité peut donc peser autant qu'un résultat dans les urnes ; l'IEC publiera la liste finale des candidats après vérification [1]."
-    ],
-    "forMe": "Si tu as des liens avec l'Afrique de l'Ouest, retiens que cette élection dans un petit pays entouré par le Sénégal sera surveillée de près. Rien ne change pour toi à court terme.",
-    "next": [
-      {
-        "when": "14 novembre",
-        "what": "Fin du dépôt des candidatures auprès de l'IEC, puis publication de la liste finale après vérification [1][2]."
-      },
-      {
-        "when": "5 décembre",
-        "what": "Premier tour de la présidentielle gambienne [2]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 2,
-        "value": "5 décembre",
-        "label": "date de la présidentielle"
-      },
-      {
-        "src": 1,
-        "value": "27",
-        "label": "aspirants à la candidature au départ"
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "The Point",
-        "name": "The Point, « IEC begins presidential nomination: 2 aspirants face setbacks, 1 withdraws »",
-        "url": "https://thepoint.gm/africa/gambia/headlines/iec-begins-presidential-nomination-2-aspirants-face-setbacks-1-withdraws"
-      },
-      {
-        "short": "APA News",
-        "name": "APA News, « Gambia's IEC 'halfway through' presidential nomination process: chair »",
-        "url": "https://apanews.net/gambias-iec-halfway-through-presidential-nomination-process-chair/"
-      },
-      {
-        "short": "The Standard",
-        "name": "The Standard (Gambie), « Bensouda says no commission of inquiry can stop his candidacy »",
-        "url": "https://standard.gm/bensouda-says-no-commission-of-inquiry-can-stop-his-candidacy/"
-      },
-      {
-        "short": "Kerr Fatou",
-        "name": "Kerr Fatou, « Bensouda pledges two-term presidential limit under Coalition 2026 »",
-        "url": "https://www.kerrfatou.com/bensouda-pledges-two-term-presidential-limit-under-coalition-2026/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-09-algerie-budget-2027-deficit-vote-16-novembre",
-    "date": "2026-11-09",
-    "level": 2,
-    "region": "Afrique",
-    "theme": "eco",
-    "zones": [
-      "Afrique",
-      "Europe"
-    ],
-    "geo": [
-      {
-        "coords": [
-          3.06,
-          36.75
-        ],
-        "name": "Alger, Algérie",
-        "label": "Algérie"
-      }
-    ],
-    "title": "Algérie : le budget 2027 mise sur un baril à 60 dollars et un déficit d'environ 16 % du PIB, avant le vote du 16 novembre",
-    "summary": "Les députés algériens voteront le 16 novembre le projet de loi de finances 2027 : 9 251 milliards de dinars de recettes pour 17 882 milliards de crédits de dépense, un baril fixé à 60 dollars et une croissance de 4,2 %. Le déficit, de l'ordre de 16 % du PIB, se déduit par différence [2][4][5].",
-    "points": [
-      "Le ministre des Finances, Mohamed Lamine Lebbou, a présenté le texte à l'Assemblée populaire nationale (APN) le 2 novembre ; le vote en séance plénière est fixé au lundi 16 novembre à 9 h, puis le texte ira au Conseil de la nation et doit entrer en vigueur le 1er janvier 2027 [3][5].",
-      "Les recettes sont estimées à 9 251,1 milliards de dinars, contre 8 611,1 milliards attendus en 2026, soit 7,4 % de plus ; les crédits de paiement atteignent 17 882,6 milliards de dinars, soit l'équivalent de 132 milliards de dollars [4].",
-      "Le déficit, d'environ 8 631,5 milliards de dinars (autour de 63 milliards de dollars, contre 71 milliards en 2026), ne figure pas explicitement dans le texte : il se déduit de la différence entre recettes et dépenses [2][4].",
-      "Les hypothèses retenues : une croissance de 4,2 % en 2027, un prix de référence du pétrole de 60 dollars le baril, une inflation moyenne de 4 % et un taux de 131 dinars pour un dollar sur 2027-2029 [3][4].",
-      "La commission des finances de l'APN propose des amendements ; l'un d'eux soumettrait toute révision des prix des carburants à l'approbation du Parlement par la loi de finances [1][3]."
-    ],
-    "why": [
-      "À retenir : l'État algérien dépense presque deux fois ce qu'il encaisse, et son budget dépend du prix du pétrole et du gaz, d'où le baril de référence de 60 dollars [4].",
-      "L'ancien conseiller du FMI Abdelrahmi Bessaha calcule que les recettes ne couvrent que 51,7 % des dépenses en 2027 [6]. Selon un économiste cité par Maghreb Émergent, le déficit atteint 16,2 % du PIB, contre 12,4 % annoncé pour 2026, mais ces ratios ne sont pas comparables car le projet 2027 retient la totalité des crédits ; avec le PIB retenu par le FMI, le même déficit pèserait 19,16 % [2]."
-    ],
-    "forMe": "L'Algérie est un fournisseur de gaz de l'Europe et de la France : la solidité de ses comptes dépend de ce marché. Rien ne change dans ton quotidien, mais un budget qui compte sur le gaz et le pétrole se lit aussi comme un pari sur leurs prix.",
-    "next": [
-      {
-        "when": "16 novembre",
-        "what": "Vote du budget 2027 à l'APN, puis passage au Conseil de la nation [5]."
-      },
-      {
-        "when": "1er janvier 2027",
-        "what": "Entrée en vigueur prévue de la loi de finances [5]."
-      }
-    ],
-    "figures": [
-      {
-        "src": 4,
-        "value": "9 251 contre 17 882 Md DA",
-        "label": "recettes contre crédits de dépense prévus en 2027"
-      },
-      {
-        "src": 3,
-        "value": "60 $",
-        "label": "prix de référence du baril de pétrole dans le budget"
-      },
-      {
-        "src": 2,
-        "value": "16 %",
-        "label": "déficit en part du PIB, déduit par différence"
-      }
-    ],
-    "culture": [],
-    "dossiers": [],
-    "sources": [
-      {
-        "short": "Algérie Eco",
-        "name": "Algérie Eco, « APN : la commission des finances et du budget propose plusieurs amendements au PLF 2027 » (2 novembre 2026)",
-        "url": "https://algerie-eco.com/2026/11/02/apn-la-commission-des-finances-et-du-budget-propose-plusieurs-amendements-au-plf-2027/"
-      },
-      {
-        "short": "Maghreb Émergent",
-        "name": "Maghreb Émergent, « Algérie : le déficit budgétaire 2027 recule à 64 Md$ contre 71 Md$ en 2026 »",
-        "url": "https://maghrebemergent.news/fr/algerie-le-deficit-budgetaire-2027-recule-a-64-md-contre-71-md-en-2026/"
-      },
-      {
-        "short": "Algerie360",
-        "name": "Algerie360, « PLF 2027 : retour définitif, carburants, constructions, ce que proposent les députés »",
-        "url": "https://www.algerie360.com/plf-2027-amendements-commission-retour-definitif-carburants/"
-      },
-      {
-        "short": "AlgérieInvest",
-        "name": "AlgérieInvest, « PLF 2027 : 17 882 milliards DA de dépenses, 9 251 de recettes, le vrai visage du budget du pays »",
-        "url": "https://www.algerieinvest.dz/plf-2027-budget-algerie-chiffres-cles/"
-      },
-      {
-        "short": "Casbah Tribune",
-        "name": "Casbah Tribune, « APN : le projet de loi de finances 2027 soumis au vote le 16 novembre »",
-        "url": "https://casbahtribune.dz/algerie/apn-le-projet-de-loi-de-finances-2027-soumis-au-vote-le-16-novembre/"
-      },
-      {
-        "short": "Maghreb Émergent",
-        "name": "Maghreb Émergent, « PLF 2027 : la croissance algérienne « sous perfusion budgétaire » selon Abdelrahmi Bessaha »",
-        "url": "https://maghrebemergent.news/fr/plf-2027-la-croissance-algerienne-sous-perfusion-budgetaire-selon-abdelrahmi-bessaha/"
       }
     ]
   },

@@ -99,13 +99,13 @@ window.GEOCO.agenda = [
     ]
   },
   {
-    "id": "2026-11-25-argentine-deputes-budget-2027",
-    "date": "2026-11-25",
+    "id": "2026-11-26-argentine-deputes-budget-2027",
+    "date": "2026-11-26",
     "theme": "eco",
     "region": "Amériques",
     "place": "Buenos Aires, Argentine",
     "title": "Argentine : les députés débattent du budget 2027",
-    "why": "Le parti de Javier Milei, La Libertad Avanza, a obtenu avec ses alliés l'avis favorable de la commission du budget et veut faire voter le texte en séance le mercredi 25 novembre [1]. Pour obtenir ces signatures, le gouvernement a cédé sur le handicap, les routes et les universités, et cinq alliés ont signé avec des réserves [2] : un vote réussi montrerait aux marchés que Milei peut faire passer ses comptes publics.",
+    "why": "Le parti de Javier Milei, La Libertad Avanza, a obtenu avec ses alliés l'avis favorable de la commission du budget et voulait faire voter le texte en séance le 25 novembre [1] ; faute d'un quorum assuré, la séance est désormais visée le jeudi 26 novembre [3]. Pour obtenir ces signatures, le gouvernement a cédé sur le handicap, les routes et les universités, et cinq alliés ont signé avec des réserves [2] : un vote réussi montrerait aux marchés que Milei peut faire passer ses comptes publics.",
     "sources": [
       {
         "short": "Parlamentario",
@@ -116,6 +116,11 @@ window.GEOCO.agenda = [
         "short": "Perfil",
         "name": "Perfil, « Discapacidad, rutas y universidades: el Gobierno cedió ante sus aliados para conseguir dictamen del Presupuesto 2027 » (nov. 2026)",
         "url": "https://perfil.com/politica/discapacidad-rutas-y-universidades-el-gobierno-cedio-ante-sus-aliados-para-conseguir-dictamen-del-presupuesto-2027-avmeu3P1XoeP"
+      },
+      {
+        "short": "El Liberal",
+        "name": "El Liberal, « Semana clave en el Congreso: el oficialismo busca aprobar el Presupuesto 2027 » (23 nov. 2026)",
+        "url": "https://www.elliberal.com.ar/amp/2026/11/23/98832-semana-clave-en-el-congreso--el-oficialismo-busca-aprobar-el-presupuesto-2027-la-reforma-politica-y-recibe-a-diego-santilli.html"
       }
     ]
   },
@@ -505,7 +510,6 @@ window.GEOCO.agenda = [
     "place": "Banjul",
     "title": "Présidentielle en Gambie",
     "why": "Les Gambiens élisent leur président le samedi 5 décembre, date fixée par la commission électorale indépendante [1][2]. Le président sortant Adama Barrow brigue un troisième mandat, alors qu'il s'était d'abord engagé à n'en faire qu'un [3].",
-    "news": "2026-11-09-gambie-presidentielle-bensouda-candidature",
     "sources": [
       {
         "short": "Africa Center",
