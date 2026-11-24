@@ -2,12 +2,22 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-24",
+    "file": "lettres/2026-11-24.pdf",
+    "titles": [
+      "Ormuz : l'Iran affirme que trois pétroliers escortés par les Américains ont sauté sur des mines, mais le Brent tombe à son plus bas depuis août",
+      "Wall Street signe sa meilleure séance depuis avril 2025, mais le patron de la Fed de New York prévient : l'inflation reste trop haute, une hausse des taux en décembre est jugée quasi certaine",
+      "Belgique : 50 000 manifestants, gaz lacrymogène à Bruxelles-Midi, et toujours pas de budget : De Wever prévient que sa coalition peut tomber au 1er janvier"
+    ],
+    "fileDark": "lettres/2026-11-24-sombre.pdf"
+  },
+  {
     "date": "2026-11-23",
     "file": "lettres/2026-11-23.pdf",
     "titles": [
+      "Volte-face chez Nvidia : Jensen Huang reprend la tête du groupe onze jours après sa démission, l'action bondit de plus de 30 % et le Nasdaq de 6 %",
       "Ormuz : Trump promet de couler les pétroliers iraniens qui forceraient le blocus et menace de frapper à nouveau l'Iran après le Nouvel An",
-      "COP31 : le sommet d'Antalya s'achève sans accord, l'UE refuse un texte qui ne cite même pas les énergies fossiles, une première depuis 2009",
-      "Dette : Macron envisage de réunir le Parlement à Versailles en janvier pour inscrire une « règle d'or » dans la Constitution"
+      "COP31 : le sommet d'Antalya s'achève sans accord, l'UE refuse un texte qui ne cite même pas les énergies fossiles, une première depuis 2009"
     ],
     "fileDark": "lettres/2026-11-23-sombre.pdf"
   },
