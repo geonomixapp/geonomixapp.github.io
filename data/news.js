@@ -17,6 +17,142 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.news = [
   {
+    "id": "2026-11-23-nvidia-huang-reintegre-bourse-bondit",
+    "date": "2026-11-23",
+    "breaking": "18:50",
+    "region": "Amériques",
+    "theme": "mix",
+    "zones": [
+      "Amérique du Nord",
+      "Europe",
+      "Asie"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "coords": [
+          -121.96,
+          37.35
+        ],
+        "name": "Santa Clara, États-Unis",
+        "label": "États-Unis"
+      }
+    ],
+    "title": "Volte-face chez Nvidia : Jensen Huang reprend la tête du groupe onze jours après sa démission, l'action bondit de plus de 30 % et le Nasdaq de 6 %",
+    "summary": "Ce lundi 23 novembre, le conseil d'administration de Nvidia a rendu à Jensen Huang ses postes de président, directeur général et administrateur, onze jours après sa démission. Donald Trump, qui réclamait ce retour, salue une décision « correcte ». L'action a bondi de plus de 30 % à l'ouverture, entraînant tout Wall Street [1][2][3][6].",
+    "points": [
+      "Le conseil d'administration a voté à l'unanimité le retour de Jensen Huang, cofondateur du groupe, comme président, directeur général et administrateur, avec effet immédiat, « après une série de discussions et de réunions » qui l'ont convaincu de sa « franchise » et de sa « capacité à diriger » [3][6].",
+      "Le conseil dit avoir reçu l'avis des « plus hauts niveaux » du gouvernement américain et se dit « confiant » : le retour de Huang ne pose pas de risque pour la sécurité nationale [3][6].",
+      "C'est une volte-face : le 17 novembre encore, le président du conseil, Harvey Jones, indiquait que Nvidia n'avait pas l'intention de le rappeler [4][6]. Huang avait démissionné le 12 novembre après des révélations sur des liaisons extraconjugales, dont une avec une femme qui inquiétait le renseignement américain [4][9].",
+      "Colette Kress, directrice financière qui assurait l'intérim, reste à son poste de directrice financière, et Harvey Jones reste président du conseil [3]. Un comité du conseil enquête toujours pour savoir si des services de renseignement étrangers ont ciblé Huang [2].",
+      "Sur Truth Social, Donald Trump a qualifié la décision de « correcte et appropriée » et affirmé que Washington n'avait « aucune raison de croire » à un risque pour la sécurité nationale ; selon lui, le ministre de la Justice Todd Blanche a confirmé qu'aucune preuve d'un comportement illégal de Huang n'existait [6]. Il a demandé à Nvidia de poursuivre son enquête interne sur le respect des contrôles à l'exportation [6].",
+      "Trump a aussi appelé Huang un « grand patriote » et un « trésor national », et dit avoir parlé aux administrateurs [7][8]. Elon Musk a réagi sur X : « l'erreur a été corrigée » [7].",
+      "À l'ouverture de Wall Street, l'action Nvidia a gagné plus de 30 %, selon Euronews, et jusqu'à 33 % selon CNBC [1][2]. Le Nasdaq a grimpé de 6 %, le S&P 500 de 4 % et le Dow Jones de 1 186 points (+2,5 %) ; d'après le Wall Street Journal cité par Quartz, Nvidia pourrait gagner 1 000 milliards de dollars de valeur en une séance, un record [5]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : le patron de l'entreprise la plus lourde de la Bourse mondiale revient grâce à l'appui direct de la Maison-Blanche, et c'est tout Wall Street qui rebondit avec lui [1][5][6].",
+      "Le rebond arrive en plein krach des valeurs de l'IA : entre son record du 6 octobre (5 780 milliards de dollars de valeur) et la clôture du 17 novembre, Nvidia avait perdu 2 030 milliards de dollars [10]. Ce lundi, l'action rattrape une partie de cette chute en quelques minutes [1][5].",
+      "Le retour est aussi politique. Ce dimanche encore, le secrétaire au Trésor Scott Bessent refusait d'appuyer le retour de Huang et attendait les réponses de Nvidia sur des puces d'IA parties vers la Chine [11]. C'est la ligne de Donald Trump qui l'emporte [6][8].",
+      "Les questions de fond restent ouvertes : l'enquête du conseil sur un éventuel ciblage par un renseignement étranger, et le respect des règles d'exportation vers la Chine, que Trump demande de poursuivre [2][6]."
+    ],
+    "forMe": "Nvidia pèse si lourd dans les grands indices que son envolée fait monter la plupart des fonds actions, y compris les ETF « monde » ou « S&P 500 » des PEA et des assurances-vie. Après des semaines de baisse, c'est une bouffée d'air, mais l'affaire n'est pas close : un tel bond peut aussi se dégonfler vite.",
+    "figures": [
+      {
+        "value": "+33 %",
+        "label": "hausse de l'action Nvidia à l'ouverture, ce lundi",
+        "src": 2
+      },
+      {
+        "value": "+6 %",
+        "label": "hausse du Nasdaq, l'indice des valeurs technologiques",
+        "src": 5
+      },
+      {
+        "value": "11 jours",
+        "label": "entre la démission de Jensen Huang et son retour",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs"
+    ],
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "Nvidia",
+          "ticker": "NVDA",
+          "move": "+33 %",
+          "why": "Le conseil rappelle Jensen Huang avec effet immédiat [3] ; l'action a gagné jusqu'à 33 % à l'ouverture [2]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Nvidia shares jump 30% at the open as Jensen Huang returns as CEO » (23 novembre 2026)",
+        "url": "https://www.euronews.com/2026/11/23/nvidia-reinstates-jensen-huang-as-ceo-11-days-after-he-resigned"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Jensen Huang reinstated as Nvidia CEO. Stock skyrockets 33% » (23 novembre 2026)",
+        "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
+      },
+      {
+        "short": "Nvidia",
+        "name": "Nvidia, « NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director » (communiqué, 23 novembre 2026)",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+      },
+      {
+        "short": "NPR",
+        "name": "NPR, « Nvidia's board of directors brings Jensen Huang back as CEO » (23 novembre 2026)",
+        "url": "https://www.npr.org/2026/11/23/nx-s1-6050910/nvidias-jensen-huang-trump"
+      },
+      {
+        "short": "Quartz",
+        "name": "Quartz, « Nasdaq jumps 6% and S&P 500 rebounds 4% as Nvidia stock soars » (23 novembre 2026)",
+        "url": "https://qz.com/nasdaq-sp500-rebound-nvidia-huang-return-stocks-112326"
+      },
+      {
+        "short": "Business Today",
+        "name": "Business Today, « 'Correct and proper decision': US President Trump hails Jensen Huang's return as NVIDIA CEO after board review » (23 novembre 2026)",
+        "url": "https://businesstoday.in/technology/news/story/correct-and-proper-decision-us-president-trump-hails-jensen-huangs-return-as-nvidia-ceo-after-board-review-569174-2026-11-23"
+      },
+      {
+        "short": "PC Gamer",
+        "name": "PC Gamer, « Trump praises Jensen Huang's reinstatement as Nvidia CEO, calls him a 'great patriot and national treasure,' while Musk says 'the mistake has been corrected' » (23 novembre 2026)",
+        "url": "https://www.pcgamer.com/hardware/graphics-cards/trump-praises-jensen-huangs-reinstatement-as-nvidia-ceo-calls-him-a-great-patriot-and-national-treasure-while-musk-says-the-mistake-has-been-corrected/"
+      },
+      {
+        "short": "MS NOW",
+        "name": "MS NOW, « Nvidia board reinstates Jensen Huang as CEO. Trump says he intervened. » (23 novembre 2026)",
+        "url": "https://www.ms.now/news/nvidia-board-reinstates-jensen-huang-as-ceo"
+      },
+      {
+        "short": "CBS News",
+        "name": "CBS News, « Nvidia CEO Jensen Huang resigns in wake of affair with woman suspected of spying for China » (novembre 2026)",
+        "url": "https://www.cbsnews.com/news/nvidia-ceo-jensen-huang-resigns/"
+      },
+      {
+        "short": "Motley Fool",
+        "name": "The Motley Fool, « Nvidia Has Lost More Than the Market Value of 495 S&P 500 Companies in 6 Weeks » (20 novembre 2026)",
+        "url": "https://www.fool.com/investing/2026/11/20/nvidia-lost-more-than-market-value-of-495-sp-500-companies-downtrend-just-beginning/"
+      },
+      {
+        "short": "Reuters",
+        "name": "Reuters via U.S. News, « US Seeks Answers on Nvidia's Sale of Chips to China, Bessent Says » (22 novembre 2026)",
+        "url": "https://www.usnews.com/news/world/articles/2026-11-22/us-seeks-answers-on-nvidias-sale-of-chips-to-china-bessent-says"
+      }
+    ],
+    "next": [
+      {
+        "when": "Fin novembre 2026",
+        "what": "Fin du délai de dix jours fixé par Scott Bessent au conseil de Nvidia pour répondre sur les puces parties vers la Chine [11]."
+      }
+    ]
+  },
+  {
     "id": "2026-11-23-ormuz-trump-menace-couler-petroliers-iraniens",
     "date": "2026-11-23",
     "region": "Moyen-Orient",
