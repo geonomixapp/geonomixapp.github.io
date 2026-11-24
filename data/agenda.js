@@ -8,27 +8,6 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.agenda = [
   {
-    "id": "2026-11-23-israel-banque-centrale-taux",
-    "date": "2026-11-23",
-    "theme": "eco",
-    "region": "Moyen-Orient",
-    "place": "Jérusalem, Israël",
-    "title": "Israël : la banque centrale décide de son taux",
-    "why": "La Banque d'Israël annonce sa décision le 23 novembre, avec un taux aujourd'hui à 3,25 % [1]. L'inflation est tombée à 1,1 % sur un an en octobre, ce qui rend plus probable une baisse d'un quart de point à 3 % [2] : emprunter coûterait un peu moins cher.",
-    "sources": [
-      {
-        "short": "Banque d'Israël",
-        "name": "Banque d'Israël (Bank of Israel), page d'accueil, « Next decision date: 23/11/2026 »",
-        "url": "https://www.boi.org.il/en/"
-      },
-      {
-        "short": "Calcalist",
-        "name": "Calcalist, « Israel's inflation falls to 1.1%, putting pressure on the Bank of Israel to cut rates » (nov. 2026)",
-        "url": "https://www.calcalistech.com/ctechnews/article/w7hqdh5of"
-      }
-    ]
-  },
-  {
     "id": "2026-11-23-nigeria-banque-centrale-taux",
     "date": "2026-11-23",
     "end": "2026-11-24",
@@ -52,33 +31,6 @@ window.GEOCO.agenda = [
         "short": "Vanguard",
         "name": "Vanguard, « Nigeria's inflation rate drops to 14.06% in October » (nov. 2026)",
         "url": "https://www.vanguardngr.com/2026/11/nigerias-inflation-rate-drops-to-14-06-in-october/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-23-belgique-manifestation-nationale",
-    "date": "2026-11-23",
-    "theme": "eco",
-    "region": "Europe",
-    "place": "Bruxelles, Belgique",
-    "title": "Belgique : manifestation nationale des syndicats à Bruxelles",
-    "why": "Les syndicats ACV-CSC, FGTB-ABVV et SYNOVA attendent des milliers de personnes contre les coupes dans le budget social du gouvernement De Wever, avec des perturbations à Bruxelles [1][2]. L’ampleur de la mobilisation pèsera sur un gouvernement déjà fragilisé par son budget [3].",
-    "news": "2026-11-23-belgique-greve-nationale-aeroports-fermes",
-    "sources": [
-      {
-        "short": "Brussels Times",
-        "name": "The Brussels Times, « National strike on Monday: What disruptions are expected in Brussels? » (19 novembre 2026)",
-        "url": "https://www.brusselstimes.com/2412909/national-strike-on-monday-what-disruptions-are-expected-in-brussels"
-      },
-      {
-        "short": "Shortnews.be",
-        "name": "Shortnews.be, « National demonstration in Brussels (Monday 23 November) » (novembre 2026)",
-        "url": "https://shortnews.be/strike/19-national-demonstration-in-brussels-2026-11-23"
-      },
-      {
-        "short": "Eunews",
-        "name": "Eunews, « Belgian government in turmoil over budget: King puts Prime Minister De Wever’s resignation on hold » (2 novembre 2026)",
-        "url": "https://www.eunews.it/en/2026/11/02/belgian-government-in-turmoil-over-budget-king-puts-prime-minister-de-wevers-resignation-on-hold/"
       }
     ]
   },
@@ -143,6 +95,27 @@ window.GEOCO.agenda = [
         "short": "Finance Calendar",
         "name": "Finance Calendar, « US Gross Domestic Product November 2026 »",
         "url": "https://www.financecalendar.com/?p=1310"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-argentine-deputes-budget-2027",
+    "date": "2026-11-25",
+    "theme": "eco",
+    "region": "Amériques",
+    "place": "Buenos Aires, Argentine",
+    "title": "Argentine : les députés débattent du budget 2027",
+    "why": "Le parti de Javier Milei, La Libertad Avanza, a obtenu avec ses alliés l'avis favorable de la commission du budget et veut faire voter le texte en séance le mercredi 25 novembre [1]. Pour obtenir ces signatures, le gouvernement a cédé sur le handicap, les routes et les universités, et cinq alliés ont signé avec des réserves [2] : un vote réussi montrerait aux marchés que Milei peut faire passer ses comptes publics.",
+    "sources": [
+      {
+        "short": "Parlamentario",
+        "name": "Parlamentario.com, « Presupuesto 2027: con la ayuda de aliados, LLA obtuvo dictamen de mayoría y se debate la próxima semana » (17 nov. 2026)",
+        "url": "https://www.parlamentario.com/2026/11/17/presupuesto-2027-con-la-ayuda-de-aliados-lla-obtuvo-dictamen-de-mayoria-y-se-debate-la-proxima-semana/"
+      },
+      {
+        "short": "Perfil",
+        "name": "Perfil, « Discapacidad, rutas y universidades: el Gobierno cedió ante sus aliados para conseguir dictamen del Presupuesto 2027 » (nov. 2026)",
+        "url": "https://perfil.com/politica/discapacidad-rutas-y-universidades-el-gobierno-cedio-ante-sus-aliados-para-conseguir-dictamen-del-presupuesto-2027-avmeu3P1XoeP"
       }
     ]
   },
@@ -357,6 +330,27 @@ window.GEOCO.agenda = [
         "short": "ITV News",
         "name": "ITV News, « Spain's prime minister announces snap election for November » (5 oct. 2026)",
         "url": "https://www.itv.com/news/2026-10-05/spains-prime-minister-announces-snap-election-for-november"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-29-equateur-elections-locales",
+    "date": "2026-11-29",
+    "theme": "geo",
+    "region": "Amériques",
+    "place": "Équateur",
+    "title": "Équateur : élections locales et du Conseil de participation citoyenne",
+    "why": "Plus de 13,8 millions d'Équatoriens élisent leurs maires, préfets et conseillers, ainsi que sept membres du Conseil de participation citoyenne (CPCCS), un vote avancé de février 2027 au 29 novembre 2026 par le Conseil national électoral [1]. Avec 51 731 candidatures [2], le scrutin dira si le gouvernement de Daniel Noboa tient les grandes villes comme Quito et Guayaquil.",
+    "sources": [
+      {
+        "short": "Primicias",
+        "name": "Primicias, « CNE: elecciones seccionales en Ecuador el 29 de noviembre » (2026)",
+        "url": "https://www.primicias.ec/politica/cne-elecciones-seccionales-ecuador-29-noviembre-119142/"
+      },
+      {
+        "short": "Teleamazonas",
+        "name": "Teleamazonas, « 51 731 candidaturas en firme para las votaciones seccionales del 29 de noviembre » (nov. 2026)",
+        "url": "https://www.teleamazonas.com/actualidad/noticias/politica/51-731-candidaturas-firme-votaciones-seccionales-29-noviembre-132769/"
       }
     ]
   },
