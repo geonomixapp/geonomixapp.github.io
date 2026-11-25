@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-25",
+    "file": "lettres/2026-11-25.pdf",
+    "titles": [
+      "Ormuz : l'Iran promet de fermer le détroit « un peu plus chaque jour » et refuse toute négociation sans ses sept conditions, Washington s'attaque à sa « banque de l'ombre »",
+      "Wall Street : le Dow Jones repasse les 50 000 points, mais Nvidia rechute de 6 % et les marchés parient à 98 % sur une hausse des taux de la Fed",
+      "Séoul chute de plus de 5 %, Taïwan de plus de 6 % : les Bourses d'Asie rechutent alors que Washington s'apprête à taxer 16 économies pour « surcapacités »"
+    ],
+    "fileDark": "lettres/2026-11-25-sombre.pdf"
+  },
+  {
     "date": "2026-11-24",
     "file": "lettres/2026-11-24.pdf",
     "titles": [
