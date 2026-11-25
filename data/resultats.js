@@ -986,25 +986,28 @@ window.GEOCO.resultats = [
         "label": "Chiffre d'affaires",
         "unit": "Md$",
         "exp": 9.576,
-        "src": 2
+        "src": 2,
+        "act": 9.364
       },
       {
         "label": "Bénéfice par action ajusté",
         "unit": "$",
         "exp": 1.34,
-        "src": 2
+        "src": 2,
+        "act": 1.34
       }
     ],
     "guidance": {
-      "dir": "attendu",
-      "text": "Medtronic visait pour ce trimestre une croissance organique d'environ 6 % et un bénéfice par action ajusté de 1,32 à 1,34 dollar ; pour l'exercice, 5,94 à 6,00 dollars [4][5]."
+      "dir": "maintenu",
+      "text": "Medtronic maintient ses objectifs pour l'exercice 2027 : une croissance organique du chiffre d'affaires de 7,25 à 7,75 % et un bénéfice par action ajusté de 5,94 à 6,00 dollars [7][10]."
     },
-    "summary": "Le numéro un mondial des dispositifs médicaux (pacemakers, pompes à insuline, robots chirurgicaux) publie un trimestre sans l'effet calendrier qui avait gonflé le précédent [6].",
+    "summary": "Medtronic publie un bénéfice conforme au haut de sa fourchette mais rate, pour la première fois depuis près de deux ans, les attentes de chiffre d'affaires, à cause de la sortie de son activité diabète en cours de trimestre ; l'action recule [7][9][10].",
     "points": [
-      "Chartmill attend 1,34 dollar par action et 9,58 milliards de dollars de chiffre d'affaires, Benzinga 1,33 dollar et 9,48 milliards [2][3] : le consensus est collé au haut de la fourchette de l'entreprise.",
-      "Au trimestre précédent, le chiffre d'affaires avait bondi de 13,7 %, à 9,8 milliards de dollars, avec 1,45 dollar par action ajusté, mais une semaine de ventes en plus (exercice de 53 semaines) avait gonflé la croissance, selon le directeur financier [6].",
-      "Les analystes attendent environ 5,96 dollars par action sur l'exercice, au milieu de l'objectif du groupe [5] : un relèvement serait un signal positif.",
-      "Communiqué à 5 h 45, heure de Chicago (avant l'ouverture de Wall Street), et conférence à 6 h 30, le mardi 24 novembre [1]."
+      "Chiffre d'affaires de 9,364 milliards de dollars, en hausse de 4,5 % en données publiées et de 6,5 % en organique [7][8], contre 9,48 milliards attendus selon Reuters et MarketBeat [10][11] et 9,58 milliards selon Chartmill [2].",
+      "Le bénéfice par action ajusté ressort à 1,34 dollar, un cent au-dessus des 1,33 dollar attendus en moyenne par les analystes [10][13] et au haut de la fourchette visée par le groupe (1,32 à 1,34 dollar) [4].",
+      "Le trimestre ne compte l'activité diabète que jusqu'au 15 octobre, date de la séparation de MiniMed : selon Robbie Marcus, analyste chez JPMorgan, ce calendrier explique à lui seul le chiffre d'affaires manqué [10]. Les comptes selon les normes américaines incluent un gain de 2 milliards de dollars lié à cette séparation [8].",
+      "Le pôle cardiovasculaire, environ 40 % des ventes, progresse à 3,785 milliards de dollars (+10,4 % en organique), au-dessus des 3,76 milliards attendus [8][10] ; l'ablation cardiaque bondit de 58 %, dont 80 % aux États-Unis [8].",
+      "Les neurosciences ne progressent que de 3,2 % en organique, à 2,705 milliards de dollars, freinées par la neuromodulation [8]."
     ],
     "sources": [
       {
@@ -1036,8 +1039,48 @@ window.GEOCO.resultats = [
         "short": "MarketBeat",
         "name": "MarketBeat, « Transcript: Medtronic Q1 Earnings Call Highlights », 1er sept. 2026",
         "url": "https://www.marketbeat.com/instant-alerts/transcript-medtronic-q1-earnings-call-highlights-2026-09-01/"
+      },
+      {
+        "short": "Medtronic",
+        "name": "Medtronic, « Medtronic reports second quarter fiscal 2027 results; performance reflects consistent execution across the portfolio » (communiqué), 24 nov. 2026",
+        "url": "https://news.medtronic.com/2026-11-24-Medtronic-reports-second-quarter-fiscal-2027-results-performance-reflects-consistent-execution-across-the-portfolio"
+      },
+      {
+        "short": "SEC (Medtronic)",
+        "name": "Medtronic, communiqué des résultats du T2 de l'exercice 2027, annexe 99.1 du formulaire 8-K déposé à la SEC, 24 nov. 2026",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001613103/000162828026075604/exhibit991-fy27q2earningsr.htm"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Medtronic Q2 FY27 slides: 6.5% organic growth, stock falls 4% », 24 nov. 2026",
+        "url": "https://www.investing.com/news/company-news/medtronic-q2-fy27-slides-65-organic-growth-stock-falls-4-93CH-5048369"
+      },
+      {
+        "short": "Reuters (WBOW)",
+        "name": "Reuters via WBOW, « Medtronic posts mixed quarterly results, maintains annual forecast », 24 nov. 2026",
+        "url": "https://1027wbow.com/2026/11/24/medtronic-posts-mixed-quarterly-results-maintains-annual-forecast/"
+      },
+      {
+        "short": "MarketBeat",
+        "name": "MarketBeat, « Medtronic (NYSE:MDT) Releases Quarterly Earnings Results, Beats Estimates By $0.01 EPS », 24 nov. 2026",
+        "url": "https://www.marketbeat.com/instant-alerts/earnings-medtronic-nyse-mdt-releases-quarterly-earnings-results-beats-estimates-by-001-eps-2026-11-24/"
+      },
+      {
+        "short": "Global Banking & Finance (Reuters)",
+        "name": "Global Banking & Finance Review (Reuters), « Medtronic Posts Mixed Q2 Results, Maintains Annual Forecast », 24 nov. 2026",
+        "url": "https://www.globalbankingandfinance.com/medtronic-posts-mixed-quarterly-results-maintains-annual/"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Medtronic earnings beat by $0.01, revenue fell short of estimates », 24 nov. 2026",
+        "url": "https://www.investing.com/news/earnings/medtronic-earnings-beat-by-001-revenue-fell-short-of-estimates-5047786"
       }
-    ]
+    ],
+    "verdict": "mitige",
+    "move": {
+      "value": "−4 à −5 %",
+      "text": "en séance mardi : plus de 5 % de baisse dans la matinée selon Reuters [10], environ 4 % selon Investing.com [9]"
+    }
   },
   {
     "id": "analog-devices-t4-2026",
@@ -1048,16 +1091,33 @@ window.GEOCO.resultats = [
     "date": "2026-11-24",
     "time": "open",
     "period": "T4 de l'exercice 2026 (août-octobre 2026)",
-    "lines": [],
+    "lines": [
+      {
+        "label": "Chiffre d'affaires",
+        "unit": "Md$",
+        "exp": 4.32,
+        "act": 4.37,
+        "src": 9
+      },
+      {
+        "label": "Bénéfice par action ajusté",
+        "unit": "$",
+        "exp": 3.89,
+        "act": 4.06,
+        "src": 6
+      }
+    ],
     "guidance": {
-      "dir": "attendu",
-      "text": "Analog Devices visait pour ce trimestre un chiffre d'affaires de 4,3 milliards de dollars, à 100 millions près, et un bénéfice par action ajusté de 3,86 dollars, à 15 cents près [2]."
+      "dir": "abaisse",
+      "text": "Pour le premier trimestre de l'exercice 2027, Analog Devices vise 4,4 milliards de dollars de chiffre d'affaires, à 150 millions près, et un bénéfice par action ajusté de 3,82 dollars, à 20 cents près, avec une marge opérationnelle ajustée d'environ 50,5 % [7]. Ce bénéfice visé est inférieur à celui du trimestre écoulé (environ −6 %, selon GuruFocus) [8] et aux attentes : sous le consensus de Bloomberg [9], qui était d'environ 3,86 à 3,89 dollars selon les médias [10]."
     },
-    "summary": "Le spécialiste des puces qui relient les machines au monde réel (capteurs, voitures, usines, centres de données) dira si la reprise de son marché se confirme [2].",
+    "summary": "Analog Devices signe un trimestre record, au-dessus des attentes, mais une prévision de bénéfice décevante pour le trimestre suivant fait plonger l'action [6][8][9].",
     "points": [
-      "Au trimestre précédent, le chiffre d'affaires record de 4,02 milliards de dollars avait été tiré par les centres de données et l'industrie [2][3].",
-      "Il y a un an, au quatrième trimestre 2025, le groupe avait réalisé 3,076 milliards de dollars de chiffre d'affaires et 2,26 dollars de bénéfice par action ajusté [3] : l'objectif suppose une forte croissance.",
-      "Communiqué à 7 h, heure de New York, avant l'ouverture de Wall Street, et conférence à 10 h, le mardi 24 novembre [1]."
+      "Chiffre d'affaires record de 4,37 milliards de dollars, en hausse de 42 % sur un an [7], au-dessus des 4,32 milliards attendus [9] et de l'objectif du groupe (4,3 milliards, à 100 millions près) [2][4].",
+      "Le bénéfice par action ajusté ressort à 4,06 dollars, contre 3,89 dollars attendus selon Investing.com [6], et 3,86 dollars visés par le groupe [2].",
+      "Sur l'exercice 2026, le chiffre d'affaires atteint 15,2 milliards de dollars (+38 %), le flux de trésorerie disponible 5,5 milliards, et 5,4 milliards ont été rendus aux actionnaires en dividendes et rachats d'actions [4] ; le bénéfice par action ajusté annuel est de 13,05 dollars [7].",
+      "Selon le patron Vincent Roche, « plus des deux tiers » de la croissance de 2026 viennent de marchés sans lien direct avec l'IA, même si les infrastructures d'IA ont dopé les centres de données et le test [4].",
+      "La prévision de 3,82 dollars par action pour le trimestre suivant, inférieure au consensus de Bloomberg [9] et aux quelque 3,86 à 3,89 dollars attendus selon d'autres sources [10], éclipse le record et fait chuter le titre avant l'ouverture [6][8]."
     ],
     "sources": [
       {
@@ -1074,8 +1134,48 @@ window.GEOCO.resultats = [
         "short": "RTTNews",
         "name": "RTTNews, « Analog Devices Expects Q4 Net Profit To Surge On Robust Demand »",
         "url": "https://www.rttnews.com/3682057/analog-devices-expects-q4-net-profit-to-surge-on-robust-demand.aspx"
+      },
+      {
+        "short": "SEC (Analog Devices)",
+        "name": "Analog Devices, communiqué des résultats du T4 et de l'exercice 2026, annexe 99.1 du formulaire 8-K déposé à la SEC, 24 nov. 2026",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000006281/000000628126000087/adiq426exhibit991.htm"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « Analog Devices Reports Record Fourth Quarter and Fiscal 2026 Financial Results » (communiqué), 24 nov. 2026",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-reports-record-fourth-120100362.html"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Earnings call transcript: Analog Devices beats Q4 2026 estimates, shares slide », 24 nov. 2026",
+        "url": "https://ca.investing.com/news/stock-market-news/earnings-call-transcript-analog-devices-beats-q4-2026-estimates-shares-slide-93CH-4978795"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « What Analog Devices (ADI) Said on Its Q4 Earnings Call », nov. 2026",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-said-q4-171603665.html"
+      },
+      {
+        "short": "GuruFocus",
+        "name": "GuruFocus, « Analog Devices Stocks Fall 10.49% as Flat First-Quarter Guide Follows Record 42% Growth », 24 nov. 2026",
+        "url": "https://www.gurufocus.com/news/9217261/analog-devices-stocks-fall-1049-as-flat-firstquarter-guide-follows-record-42-growth"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « Analog Devices Shares Fall as First-Quarter Earnings Guidance Misses Expectations », 24 nov. 2026",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-shares-fall-first-141723564.html"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Analog Devices unveils lower-than-expected first-quarter earnings forecast », 24 nov. 2026",
+        "url": "https://www.investing.com/news/stock-market-news/analog-devices-unveils-lowerthanexpected-firstquarter-earnings-forecast-5047864"
       }
-    ]
+    ],
+    "verdict": "mieux",
+    "move": {
+      "value": "−10,5 % avant Bourse",
+      "text": "avant l'ouverture mardi : −10,5 %, à 339,01 dollars, à 8 h 45 (heure de New York) selon GuruFocus [8], −17,75 %, à 311,51 dollars, selon Investing.com [6], les replis rapportés allant de plus de 7 % à plus de 12 % selon les dépêches [9][10]"
+    }
   },
   {
     "id": "dell-t3-2027",
@@ -1091,25 +1191,28 @@ window.GEOCO.resultats = [
         "label": "Chiffre d'affaires",
         "unit": "Md$",
         "exp": 49.22,
-        "src": 2
+        "src": 2,
+        "act": 54.9
       },
       {
         "label": "Bénéfice par action ajusté",
         "unit": "$",
         "exp": 6.59,
-        "src": 2
+        "src": 2,
+        "act": 9.45
       }
     ],
     "guidance": {
-      "dir": "attendu",
-      "text": "Dell visait pour ce trimestre environ 49 milliards de dollars de chiffre d'affaires, à 500 millions près, et 6,50 dollars de bénéfice par action ajusté ; pour l'exercice, 192 milliards de dollars et 25,50 dollars par action [1]."
+      "dir": "releve",
+      "text": "Dell relève nettement ses objectifs pour l'exercice 2027 : environ 202 milliards de dollars de chiffre d'affaires, contre 192 milliards visés jusqu'ici [1][7] et 194,45 milliards attendus par les analystes, et 29,68 dollars de bénéfice par action ajusté, contre 25,50 dollars auparavant [1] et 26,02 dollars attendus [7]. Pour le quatrième trimestre, il vise 8,40 dollars par action ajusté, contre 7,49 dollars attendus [7]."
     },
-    "summary": "Le fabricant de serveurs pour l'intelligence artificielle publie après un trimestre d'été qui avait largement battu les attentes et fait bondir l'action de 9 % [4].",
+    "summary": "Dell pulvérise les attentes grâce aux serveurs pour l'intelligence artificielle, avec un chiffre d'affaires doublé sur un an, relève fortement ses objectifs annuels et annonce 25 milliards de dollars de rachats d'actions [6][7][8].",
     "points": [
-      "MarketBeat attend 6,59 dollars par action et 49,22 milliards de dollars de chiffre d'affaires [2], Zacks 6,63 dollars et 50,63 milliards [3].",
-      "Au trimestre précédent, Dell avait publié 7,04 dollars par action et 46,97 milliards de dollars de chiffre d'affaires, contre 4,92 dollars et 44,92 milliards attendus selon LSEG [4].",
-      "Le groupe a battu le consensus de bénéfice lors de chacun de ses quatre derniers trimestres [3].",
-      "Publication attendue le mardi 24 novembre après la clôture de Wall Street, selon les calendriers boursiers [2][5] ; Dell n'a pas encore confirmé l'heure."
+      "Chiffre d'affaires de 54,9 milliards de dollars, en hausse de 103 % sur un an [7][8], contre 49,22 milliards attendus selon MarketBeat [2] et environ 49,3 milliards selon Benzinga [7].",
+      "Le bénéfice par action ajusté ressort à 9,45 dollars, contre environ 6,60 dollars attendus [6][10] ; selon les normes comptables américaines (GAAP), il atteint 8,82 dollars, en hausse de 287 % sur un an [7].",
+      "Les commandes de serveurs pour l'IA atteignent 60,2 milliards de dollars sur le trimestre et le carnet de commandes IA un record de 132,3 milliards [8].",
+      "Dell autorise 25 milliards de dollars de rachats d'actions [7] ; « nous sommes désormais une entreprise différente », résume la direction, citée par Benzinga [7].",
+      "Le titre avait perdu 13,3 % mardi pendant la séance, avant la publication, ce qui explique en partie le rebond après la clôture [9][10]."
     ],
     "sources": [
       {
@@ -1136,8 +1239,43 @@ window.GEOCO.resultats = [
         "short": "TipRanks",
         "name": "TipRanks, « Dell Technologies (DELL) Earnings Dates »",
         "url": "https://www.tipranks.com/stocks/dell/earnings"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, résultats de Dell du T3 de l'exercice 2027, 24 nov. 2026",
+        "url": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html"
+      },
+      {
+        "short": "Benzinga",
+        "name": "Benzinga, « Dell Delivers Q3 Double Beat, Raises FY27 Outlook: 'We Are Now a Different Company' », 24 nov. 2026",
+        "url": "https://www.benzinga.com/markets/earnings/26/11/63609544/dell-delivers-q3-double-beat-raises-fy27-outlook-we-are-now-a-different-company"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Dell Q3 FY27 slides: revenue doubles, AI backlog hits $132B », 24 nov. 2026",
+        "url": "https://uk.investing.com/news/stock-market-news/dell-q3-fy27-slides-revenue-doubles-ai-backlog-hits-132b-93CH-5002787"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Why is Dell Technologies stock surging today? », 24 nov. 2026",
+        "url": "https://www.investing.com/news/stock-market-news/why-is-dell-technologies-stock-surging-today-93CH-5049300"
+      },
+      {
+        "short": "TipRanks",
+        "name": "TipRanks, « Dell Stock Rises After Q3 EPS Blows Past Estimates », 24 nov. 2026",
+        "url": "https://www.tipranks.com/news/dell-stock-rises-after-q3-eps-blows-past-estimates"
+      },
+      {
+        "short": "TheStreet",
+        "name": "TheStreet, « Dell Technologies Q3 2027 Earnings: Recap of $DELL Earnings Call, Stock Forecast », 24 nov. 2026",
+        "url": "https://www.thestreet.com/latest-news/dell-technologies-q3-2027-earnings-call-stock-updates"
       }
-    ]
+    ],
+    "verdict": "mieux",
+    "move": {
+      "value": "+1,5 à +4 %",
+      "text": "dans les échanges après la clôture mardi, de +1,5 % (299,71 dollars) à +4,2 % (307,81 dollars) selon les sources [9][10][11], après une chute de 13,3 %, à 290,50 dollars, pendant la séance précédant la publication [9][10][11]"
+    }
   },
   {
     "id": "workday-t3-2027",
