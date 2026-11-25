@@ -17,6 +17,134 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.news = [
   {
+    "id": "2026-11-25-ormuz-iran-sept-conditions-banque-ombre",
+    "date": "2026-11-25",
+    "region": "Moyen-Orient",
+    "theme": "mix",
+    "zones": [
+      "Moyen-Orient",
+      "Amérique du Nord",
+      "Asie",
+      "Europe"
+    ],
+    "impact": "monde",
+    "geo": [
+      {
+        "coords": [
+          51.39,
+          35.69
+        ],
+        "name": "Téhéran, Iran",
+        "label": "Iran"
+      },
+      {
+        "coords": [
+          -77.04,
+          38.89
+        ],
+        "name": "Washington, États-Unis",
+        "label": "États-Unis"
+      }
+    ],
+    "title": "Ormuz : l'Iran promet de fermer le détroit « un peu plus chaque jour » et refuse toute négociation sans ses sept conditions, Washington s'attaque à sa « banque de l'ombre »",
+    "summary": "Mardi 24 novembre, le chef de l'armée iranienne, le général Amir Hatami, a ordonné de resserrer chaque jour la fermeture du détroit d'Ormuz tant que Washington n'accepte pas sept conditions. Les États-Unis ont sanctionné une trentaine de cibles du système financier parallèle iranien. Le Brent a rebondi de 2,03 dollars, à 91,40 dollars [1][2][4][6].",
+    "points": [
+      "Le général de division Amir Hatami, chef de l'armée iranienne, a déclaré que le détroit ne rouvrirait pas avant que les sept conditions de Téhéran soient remplies, et a ordonné à la marine de le fermer « un peu plus chaque jour » [1]. Il a prévenu qu'une nouvelle guerre américaine entraînerait des frappes plus dures [1].",
+      "Le président du Parlement et négociateur en chef, Mohammad Bagher Ghalibaf, a affirmé qu'il n'y aurait « ni action ni négociation » avant l'application de ces conditions [2].",
+      "Ces conditions n'ont jamais été publiées officiellement. Selon les médias d'État iraniens, elles incluent la levée des sanctions, la fin du blocus naval américain des ports iraniens et la restitution des avoirs iraniens saisis [2].",
+      "Selon l'Iran, seuls deux navires ont franchi le détroit en 24 heures et 400 attendent de passer [7]. L'organisme britannique de sécurité maritime UKMTO a signalé trois navires touchés par des projectiles non identifiés en route vers l'est ; tous ont poursuivi leur route, sans victime parmi les équipages [6].",
+      "Le Trésor américain a sanctionné 22 entreprises et 8 personnes, dont des bureaux de change et le Centre iranien d'échange de devises et d'or, qui met en relation exportateurs et importateurs iraniens [4][5]. Washington enquête aussi sur le rôle de l'Iran dans des cyberattaques contre une cinquantaine de navires [3].",
+      "Selon le Financial Crimes Enforcement Network (FinCEN), le service antiblanchiment du Trésor, environ 14,7 milliards de dollars de transactions entre janvier 2025 et août 2026 pourraient être liés à ce système parallèle, dont plus de la moitié vers les Émirats arabes unis [5].",
+      "Le secrétaire au Trésor Scott Bessent affirme que l'économie iranienne est « sous l'eau » et que ses dirigeants « paniquent » [8]. Le Premier ministre qatari a, lui, pressé Marco Rubio et JD Vance de relancer les discussions [1]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : les deux camps durcissent leur position en même temps. Téhéran pose des préalables avant tout dialogue, Washington serre encore l'étau financier, et le médiateur qatari n'a pour l'instant rien obtenu [1][2][4].",
+      "La « banque de l'ombre » est le circuit qui permet à l'Iran de vendre son pétrole et d'importer malgré les sanctions : des bureaux de change et des sociétés écrans, souvent aux Émirats, compensent les paiements hors du système bancaire officiel [5]. Le Trésor menace de couper du système financier américain toute entité qui aide l'Iran à contourner les sanctions [5].",
+      "Le pétrole reste pourtant sous contrôle. Le Brent était tombé dans la journée à son plus bas depuis août avant de remonter, car l'Agence internationale de l'énergie prévoit un surplus mondial dès la fin 2026, plus large encore en 2027 [6]."
+    ],
+    "forMe": "Tant que le surplus mondial de pétrole tient, le blocage d'Ormuz pèse peu sur ton plein. Mais un détroit fermé « un peu plus chaque jour », sans négociation en vue, laisse les prix à la merci d'un incident : un pétrolier vraiment coulé peut faire grimper l'essence et le chauffage en quelques jours.",
+    "figures": [
+      {
+        "value": "7",
+        "label": "conditions posées par l'Iran avant toute négociation",
+        "src": 2
+      },
+      {
+        "value": "14,7 Md$",
+        "label": "de transactions possiblement liées à la « banque de l'ombre » iranienne (janv. 2025-août 2026)",
+        "src": 5
+      },
+      {
+        "value": "91,40 $",
+        "label": "le baril de Brent à la clôture mardi, en hausse de 2,03 dollars",
+        "src": 6
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "routes-maritimes",
+      "sanctions"
+    ],
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "Brent (pétrole)",
+          "ticker": "BZ=F",
+          "move": "+2,03 $",
+          "why": "Clôture à 91,40 dollars mardi après les attaques signalées à Ormuz, après un passage au plus bas depuis août [6]."
+        },
+        {
+          "name": "WTI (pétrole américain)",
+          "ticker": "CL=F",
+          "why": "Termine à 82,05 dollars le baril mardi [6]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Iran orders Hormuz closed 'further day by day' as Qatar seeks to revive peace talks » (24 novembre 2026)",
+        "url": "https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks"
+      },
+      {
+        "short": "Washington Post (AP)",
+        "name": "The Washington Post (AP), « Iran rules out talks with US until its 7 conditions are met, and other Mideast news » (24 novembre 2026)",
+        "url": "https://www.washingtonpost.com/business/2026/11/24/mideast-iran-gaza-israel-houthis-libya-november-24-2026/22a549de-e7f3-11f1-8db0-6f1e3c389e7c_story.html"
+      },
+      {
+        "short": "Gulf News",
+        "name": "Gulf News, « Middle East conflict: Iran warns Hormuz ships, rules out US talks until 7 conditions met » (24 novembre 2026)",
+        "url": "https://gulfnews.com/world/mena/middle-east-conflict-us-investigates-iran-over-cyberattacks-on-50-ships-as-fresh-sanctions-target-irans-shadow-banking-network-1.500758688"
+      },
+      {
+        "short": "Xinhua",
+        "name": "Xinhua, « U.S. imposes sanctions on shadow banking networks linked to Iran » (24 novembre 2026)",
+        "url": "https://english.news.cn/northamerica/20261124/4e21e3347fd44ef092146830ea1b1c7a/c.html"
+      },
+      {
+        "short": "Gulf News",
+        "name": "Gulf News, « Nearly $15 billion in possible Iranian 'shadow banking' flagged by US Treasury: What it means » (24 novembre 2026)",
+        "url": "https://gulfnews.com/world/mena/nearly-15-billion-in-possible-iranian-shadow-banking-flagged-by-us-treasury-what-it-means-1.500758724"
+      },
+      {
+        "short": "Reuters (TimesLive)",
+        "name": "Reuters via TimesLive, « Oil rises on Hormuz ship attacks, surplus supply outlook curbs gains » (24 novembre 2026)",
+        "url": "https://www.timeslive.co.za/news/world/2026-11-24-oil-rises-on-hormuz-ship-attacks-surplus-supply-outlook-curbs-gains/"
+      },
+      {
+        "short": "Il Sole 24 Ore (Al Jazeera)",
+        "name": "Il Sole 24 Ore, « Latest news on the war in the Middle East. Iran: Strait of Hormuz virtually paralysed, 400 ships waiting » (novembre 2026)",
+        "url": "https://en.ilsole24ore.com/art/war-latest-news-al-jazeera-israeli-drone-strikes-police-station-in-gaza-three-dead-AJlV8zQC"
+      },
+      {
+        "short": "ANI",
+        "name": "ANI, « Iran's economy is 'underwater', leaders are panicking: US Treasury Secretary after fresh sanctions » (24 novembre 2026)",
+        "url": "https://aninews.in/news/world/us/irans-economy-is-underwater-leaders-are-panicking-us-treasury-secretary-after-fresh-sanctions20261124051223"
+      }
+    ]
+  },
+  {
     "id": "2026-11-25-wall-street-dow-50000-nvidia-rechute-fed-hausse",
     "date": "2026-11-25",
     "region": "Amériques",
@@ -156,25 +284,23 @@ window.GEOCO.news = [
     ]
   },
   {
-    "id": "2026-11-25-ormuz-iran-sept-conditions-banque-ombre",
+    "id": "2026-11-25-bourses-asie-plongent-taxes-surcapacites",
     "date": "2026-11-25",
-    "region": "Moyen-Orient",
-    "theme": "mix",
+    "region": "Asie",
+    "theme": "eco",
     "zones": [
-      "Moyen-Orient",
-      "Amérique du Nord",
       "Asie",
-      "Europe"
+      "Amérique du Nord"
     ],
     "impact": "monde",
     "geo": [
       {
         "coords": [
-          51.39,
-          35.69
+          126.98,
+          37.57
         ],
-        "name": "Téhéran, Iran",
-        "label": "Iran"
+        "name": "Séoul, Corée du Sud",
+        "label": "Corée du Sud"
       },
       {
         "coords": [
@@ -185,101 +311,129 @@ window.GEOCO.news = [
         "label": "États-Unis"
       }
     ],
-    "title": "Ormuz : l'Iran promet de fermer le détroit « un peu plus chaque jour » et refuse toute négociation sans ses sept conditions, Washington s'attaque à sa « banque de l'ombre »",
-    "summary": "Mardi 24 novembre, le chef de l'armée iranienne, le général Amir Hatami, a ordonné de resserrer chaque jour la fermeture du détroit d'Ormuz tant que Washington n'accepte pas sept conditions. Les États-Unis ont sanctionné une trentaine de cibles du système financier parallèle iranien. Le Brent a rebondi de 2,03 dollars, à 91,40 dollars [1][2][4][6].",
+    "title": "Séoul chute de plus de 5 %, Taïwan de plus de 6 % : les Bourses d'Asie rechutent alors que Washington s'apprête à taxer 16 économies pour « surcapacités »",
+    "summary": "Mercredi 25 novembre, Séoul, Taipei et Tokyo ont effacé une partie de leur rebond de la veille. Au doute persistant sur la rentabilité de l'intelligence artificielle s'ajoute l'annonce imminente par Washington de nouveaux droits de douane contre 16 économies accusées de surproduire, dont la Chine, l'UE, la Corée du Sud et Taïwan [1][2][3].",
     "points": [
-      "Le général de division Amir Hatami, chef de l'armée iranienne, a déclaré que le détroit ne rouvrirait pas avant que les sept conditions de Téhéran soient remplies, et a ordonné à la marine de le fermer « un peu plus chaque jour » [1]. Il a prévenu qu'une nouvelle guerre américaine entraînerait des frappes plus dures [1].",
-      "Le président du Parlement et négociateur en chef, Mohammad Bagher Ghalibaf, a affirmé qu'il n'y aurait « ni action ni négociation » avant l'application de ces conditions [2].",
-      "Ces conditions n'ont jamais été publiées officiellement. Selon les médias d'État iraniens, elles incluent la levée des sanctions, la fin du blocus naval américain des ports iraniens et la restitution des avoirs iraniens saisis [2].",
-      "Selon l'Iran, seuls deux navires ont franchi le détroit en 24 heures et 400 attendent de passer [7]. L'organisme britannique de sécurité maritime UKMTO a signalé trois navires touchés par des projectiles non identifiés en route vers l'est ; tous ont poursuivi leur route, sans victime parmi les équipages [6].",
-      "Le Trésor américain a sanctionné 22 entreprises et 8 personnes, dont des bureaux de change et le Centre iranien d'échange de devises et d'or, qui met en relation exportateurs et importateurs iraniens [4][5]. Washington enquête aussi sur le rôle de l'Iran dans des cyberattaques contre une cinquantaine de navires [3].",
-      "Selon le Financial Crimes Enforcement Network (FinCEN), le service antiblanchiment du Trésor, environ 14,7 milliards de dollars de transactions entre janvier 2025 et août 2026 pourraient être liés à ce système parallèle, dont plus de la moitié vers les Émirats arabes unis [5].",
-      "Le secrétaire au Trésor Scott Bessent affirme que l'économie iranienne est « sous l'eau » et que ses dirigeants « paniquent » [8]. Le Premier ministre qatari a, lui, pressé Marco Rubio et JD Vance de relancer les discussions [1]."
+      "À Séoul, le Kospi perdait 5,54 % à 4 728,81 points à 11 h 20, repassant sous les 5 000. Dès 9 h 09, la Bourse a déclenché un « sidecar », une pause de cinq minutes des ventes automatiques [2].",
+      "Samsung Electronics a reculé de 9,03 % et SK hynix de 8,55 % en séance. Les analystes citent des prises de bénéfices et la crainte de nouvelles taxes américaines [2].",
+      "À Taipei, le Taiex a plongé jusqu'à 7,9 % dans la matinée [1], puis terminait en recul de plus de 6 %, plombé par TSMC (−8,1 %) et MediaTek (−10 %), selon l'AP [7].",
+      "Seul Hong Kong a résisté, le Hang Seng gagnant jusqu'à 1,3 % [1].",
+      "Selon Reuters, le représentant américain au Commerce (USTR) pourrait publier les 24 ou 25 novembre les conclusions de son enquête sur les « surcapacités », avec de nouvelles taxes sur une large gamme de produits. Les taux sont inconnus ; un avocat cité évoque 15 % à 25 %, en plus des taxes existantes [3].",
+      "L'enquête, ouverte le 11 mars par Jamieson Greer au titre de la section 301 de la loi sur le commerce de 1974, vise la Chine, l'UE, l'Inde, le Japon, la Corée du Sud, le Mexique, Taïwan, le Vietnam, la Thaïlande, la Malaisie, le Cambodge, Singapour, l'Indonésie, le Bangladesh, la Suisse et la Norvège [4][6]."
     ],
     "why": [
-      "Ce qu'il faut retenir : les deux camps durcissent leur position en même temps. Téhéran pose des préalables avant tout dialogue, Washington serre encore l'étau financier, et le médiateur qatari n'a pour l'instant rien obtenu [1][2][4].",
-      "La « banque de l'ombre » est le circuit qui permet à l'Iran de vendre son pétrole et d'importer malgré les sanctions : des bureaux de change et des sociétés écrans, souvent aux Émirats, compensent les paiements hors du système bancaire officiel [5]. Le Trésor menace de couper du système financier américain toute entité qui aide l'Iran à contourner les sanctions [5].",
-      "Le pétrole reste pourtant sous contrôle. Le Brent était tombé dans la journée à son plus bas depuis août avant de remonter, car l'Agence internationale de l'énergie prévoit un surplus mondial dès la fin 2026, plus large encore en 2027 [6]."
+      "Ce qu'il faut retenir : l'Asie des puces vit au rythme du doute sur l'IA, et la menace douanière américaine s'y ajoute au pire moment. Mercredi a effacé une partie du rebond de mardi, né du retour de Jensen Huang à la tête de Nvidia [1].",
+      "Le mécanisme : la section 301 permet de taxer, sans plafond, un pays aux pratiques jugées « déraisonnables ». Pour Jamieson Greer, « de nombreux partenaires commerciaux produisent plus qu'ils ne peuvent consommer chez eux » [6]. L'outil sert à rebâtir la pression douanière de Donald Trump après l'annulation de ses taxes mondiales par la Cour suprême [5].",
+      "Pékin dénonçait dès mars un « acte unilatéral typique », rappelant que l'OMC a jugé illégales des taxes fondées sur la section 301 [8]. Selon le Seoul Economic Daily, le taux total sur les produits coréens resterait plafonné à 15 %, Washington ayant promis de respecter l'accord existant [9]. Taïwan, elle, attend : son taux n'était « pas définitif » en juillet, disait la vice-Première ministre Cheng Li-chiun [10]."
     ],
-    "forMe": "Tant que le surplus mondial de pétrole tient, le blocage d'Ormuz pèse peu sur ton plein. Mais un détroit fermé « un peu plus chaque jour », sans négociation en vue, laisse les prix à la merci d'un incident : un pétrolier vraiment coulé peut faire grimper l'essence et le chauffage en quelques jours.",
+    "forMe": "L'Union européenne fait partie des 16 cibles : une nouvelle taxe rendrait les produits français plus chers aux États-Unis. Et si ton épargne contient des fonds technologiques ou asiatiques, attends-toi à de fortes secousses ces prochains jours.",
     "figures": [
       {
-        "value": "7",
-        "label": "conditions posées par l'Iran avant toute négociation",
+        "value": "−5,54 %",
+        "label": "le Kospi de Séoul à 11 h 20, à 4 728,81 points",
         "src": 2
       },
       {
-        "value": "14,7 Md$",
-        "label": "de transactions possiblement liées à la « banque de l'ombre » iranienne (janv. 2025-août 2026)",
-        "src": 5
+        "value": "−7,9 %",
+        "label": "la chute maximale du Taiex de Taïwan mercredi matin",
+        "src": 1
       },
       {
-        "value": "91,40 $",
-        "label": "le baril de Brent à la clôture mardi, en hausse de 2,03 dollars",
+        "value": "16",
+        "label": "économies visées par l'enquête américaine sur les surcapacités",
         "src": 6
       }
     ],
     "culture": [],
     "dossiers": [
-      "routes-maritimes",
-      "sanctions"
+      "droits-de-douane",
+      "semi-conducteurs"
     ],
     "markets": {
       "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
       "items": [
         {
-          "name": "Brent (pétrole)",
-          "ticker": "BZ=F",
-          "move": "+2,03 $",
-          "why": "Clôture à 91,40 dollars mardi après les attaques signalées à Ormuz, après un passage au plus bas depuis août [6]."
+          "name": "Samsung Electronics",
+          "ticker": "005930.KS",
+          "move": "−9,03 %",
+          "why": "Premier poids de la Bourse de Séoul, en recul de 9,03 % en séance, entre doute sur l'IA et crainte de taxes américaines [2]."
         },
         {
-          "name": "WTI (pétrole américain)",
-          "ticker": "CL=F",
-          "why": "Termine à 82,05 dollars le baril mardi [6]."
+          "name": "SK hynix",
+          "ticker": "000660.KS",
+          "move": "−8,55 %",
+          "why": "Le fabricant de mémoires pour l'IA a perdu 8,55 % pendant la séance [2]."
+        },
+        {
+          "name": "TSMC",
+          "ticker": "2330.TW",
+          "move": "−8,1 %",
+          "why": "Le premier fondeur de puces au monde a chuté de 8,1 % et a entraîné tout l'indice taïwanais [7]."
+        },
+        {
+          "name": "MediaTek",
+          "ticker": "2454.TW",
+          "move": "−10 %",
+          "why": "Le concepteur taïwanais de puces a plongé de 10 % [7]."
         }
       ]
     },
+    "next": [
+      {
+        "when": "Cette semaine",
+        "what": "Publication attendue des conclusions de l'enquête américaine sur les surcapacités et des taux de taxes proposés pour les 16 économies [3][9]."
+      }
+    ],
     "sources": [
       {
-        "short": "Euronews",
-        "name": "Euronews, « Iran orders Hormuz closed 'further day by day' as Qatar seeks to revive peace talks » (24 novembre 2026)",
-        "url": "https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks"
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « Asia’s stock markets dive as doubts swirl over AI boom » (25 novembre 2026)",
+        "url": "https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom"
       },
       {
-        "short": "Washington Post (AP)",
-        "name": "The Washington Post (AP), « Iran rules out talks with US until its 7 conditions are met, and other Mideast news » (24 novembre 2026)",
-        "url": "https://www.washingtonpost.com/business/2026/11/24/mideast-iran-gaza-israel-houthis-libya-november-24-2026/22a549de-e7f3-11f1-8db0-6f1e3c389e7c_story.html"
+        "short": "Korea Times (Yonhap)",
+        "name": "The Korea Times (Yonhap), « Seoul shares down over 5% late Wednesday morning on tech rout » (25 novembre 2026)",
+        "url": "https://www.koreatimes.co.kr/economy/others/20261125/seoul-shares-down-over-5-late-wednesday-morning-on-tech-rout"
       },
       {
-        "short": "Gulf News",
-        "name": "Gulf News, « Middle East conflict: Iran warns Hormuz ships, rules out US talks until 7 conditions met » (24 novembre 2026)",
-        "url": "https://gulfnews.com/world/mena/middle-east-conflict-us-investigates-iran-over-cyberattacks-on-50-ships-as-fresh-sanctions-target-irans-shadow-banking-network-1.500758688"
+        "short": "Reuters (Globe and Mail)",
+        "name": "Reuters via The Globe and Mail, « Trump administration set to unveil new tariffs after probe on excess factory capacity, sources say » (24 novembre 2026)",
+        "url": "https://www.theglobeandmail.com/business/article-trump-tariffs-excess-factory-capacity-november-24/"
       },
       {
-        "short": "Xinhua",
-        "name": "Xinhua, « U.S. imposes sanctions on shadow banking networks linked to Iran » (24 novembre 2026)",
-        "url": "https://english.news.cn/northamerica/20261124/4e21e3347fd44ef092146830ea1b1c7a/c.html"
+        "short": "Korea Times",
+        "name": "The Korea Times, « US poised to unveil new tariffs targeting S. Korea, 15 other trading partners » (25 novembre 2026)",
+        "url": "https://www.koreatimes.co.kr/world/20261125/us-poised-to-unveil-new-tariffs-targeting-s-korea-15-other-trading-partners"
       },
       {
-        "short": "Gulf News",
-        "name": "Gulf News, « Nearly $15 billion in possible Iranian 'shadow banking' flagged by US Treasury: What it means » (24 novembre 2026)",
-        "url": "https://gulfnews.com/world/mena/nearly-15-billion-in-possible-iranian-shadow-banking-flagged-by-us-treasury-what-it-means-1.500758724"
+        "short": "Reuters (Yahoo)",
+        "name": "Reuters via Yahoo Finance, « US launches unfair-trade probes to rebuild Trump's tariff pressure » (12 mars 2026)",
+        "url": "https://finance.yahoo.com/news/us-opens-unfair-trade-probes-231414981.html"
       },
       {
-        "short": "Reuters (TimesLive)",
-        "name": "Reuters via TimesLive, « Oil rises on Hormuz ship attacks, surplus supply outlook curbs gains » (24 novembre 2026)",
-        "url": "https://www.timeslive.co.za/news/world/2026-11-24-oil-rises-on-hormuz-ship-attacks-surplus-supply-outlook-curbs-gains/"
+        "short": "USTR (ustr.gov)",
+        "name": "Bureau du représentant américain au Commerce, « Fact Sheet: USTR Initiates Section 301 Investigations Relating to Structural Excess Capacity and Production » (mars 2026)",
+        "url": "https://ustr.gov/about/policy-offices/press-office/fact-sheets/2026/march/fact-sheet-ustr-initiates-section-301-investigations-structural-excess-capacity-and-production"
       },
       {
-        "short": "Il Sole 24 Ore (Al Jazeera)",
-        "name": "Il Sole 24 Ore, « Latest news on the war in the Middle East. Iran: Strait of Hormuz virtually paralysed, 400 ships waiting » (novembre 2026)",
-        "url": "https://en.ilsole24ore.com/art/war-latest-news-al-jazeera-israeli-drone-strikes-police-station-in-gaza-three-dead-AJlV8zQC"
+        "short": "AP (Local10)",
+        "name": "Associated Press via Local10, « Asian stocks mostly decline as AI shares fall following a retreat on Wall Street » (24 novembre 2026, heure de New York)",
+        "url": "https://www.local10.com/business/2026/11/24/asian-stocks-mostly-decline-as-ai-shares-fall-following-a-retreat-on-wall-street/"
       },
       {
-        "short": "ANI",
-        "name": "ANI, « Iran's economy is 'underwater', leaders are panicking: US Treasury Secretary after fresh sanctions » (24 novembre 2026)",
-        "url": "https://aninews.in/news/world/us/irans-economy-is-underwater-leaders-are-panicking-us-treasury-secretary-after-fresh-sanctions20261124051223"
+        "short": "People's Daily",
+        "name": "People's Daily, « China says U.S. 301 trade probe targeting 16 economies is typical unilateralist act » (14 mars 2026)",
+        "url": "https://en.people.cn/n3/2026/0314/c90000-20435989.html"
+      },
+      {
+        "short": "Seoul Economic Daily",
+        "name": "Seoul Economic Daily, « U.S. Overcapacity Tariffs Near; Korea Seen Capped at 15% » (25 novembre 2026)",
+        "url": "https://en.sedaily.com/society/2026/11/25/us-overcapacity-tariffs-near-korea-seen-capped-at-15-percent"
+      },
+      {
+        "short": "Focus Taiwan (CNA)",
+        "name": "Focus Taiwan (CNA), « Taiwan's Section 301 tariff rate not final: Cheng » (24 juillet 2026)",
+        "url": "https://focustaiwan.tw/politics/202607240020"
       }
     ]
   },
@@ -411,10 +565,122 @@ window.GEOCO.news = [
     ]
   },
   {
-    "id": "2026-11-25-congres-maires-lisnard-amf-presidentielle",
+    "id": "2026-11-25-ue-sanctions-russie-sport-banques",
     "date": "2026-11-25",
     "region": "Europe",
-    "theme": "mix",
+    "theme": "geo",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          4.35,
+          50.85
+        ],
+        "name": "Bruxelles, Belgique",
+        "label": "Belgique"
+      },
+      {
+        "coords": [
+          37.62,
+          55.75
+        ],
+        "name": "Moscou, Russie",
+        "label": "Russie"
+      }
+    ],
+    "title": "Sanctions : Bruxelles veut bannir le drapeau russe des stades européens et couper 60 banques russes de SWIFT",
+    "summary": "La Commission européenne a proposé le 22e paquet de sanctions contre la Russie depuis 2022. Au menu : 60 banques coupées du système de paiement SWIFT, 70 navires de plus de la « flotte fantôme », des visas refusés aux anciens combattants russes et, pour la première fois, l'exclusion du drapeau russe des compétitions sportives dans l'UE [1][2][3].",
+    "points": [
+      "Le paquet a été présenté lundi 23 novembre à Bruxelles et détaillé dans la presse les 23 et 24 novembre [1][2][5]. Il ne s'appliquera que si les 27 États membres l'approuvent à l'unanimité [2][4].",
+      "Finance : 60 banques russes seraient frappées d'une interdiction totale de transactions et exclues de SWIFT, la messagerie qui sert aux virements internationaux [3]. La Commission crée aussi un groupe de travail sur les sanctions liées aux cryptomonnaies, visant les réseaux de paiement, y compris des plateformes de pays tiers qui aident Moscou à contourner les sanctions [3].",
+      "Énergie et commerce : 70 navires supplémentaires de la « flotte fantôme », ces pétroliers qui transportent le pétrole russe malgré les restrictions, seraient visés [1]. Des compagnies d'électricité seraient sanctionnées pour la première fois, et les citoyens européens ne pourraient plus occuper de postes dans des entreprises en Russie [2].",
+      "Sport : les équipes et athlètes concourant sous drapeau russe, ainsi que les symboles officiels russes, seraient exclus de toutes les compétitions organisées dans l'UE. Les Russes ne pourraient plus financer des fédérations sportives basées en Europe ni y occuper de postes [1][6].",
+      "« Les événements sportifs ne peuvent pas être un lieu de propagande », justifie la présidente de la Commission, Ursula von der Leyen [3].",
+      "Visas : les Russes ayant combattu en Ukraine ne pourraient plus en obtenir. Cette mesure avait été édulcorée dans le paquet précédent, après des réticences de l'Italie et de la France [2]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : après l'énergie et la finance, l'UE s'attaque au prestige de la Russie. Elle veut fermer ses stades au drapeau russe, même si le mouvement olympique, lui, rouvre la porte [1][5][6].",
+      "En juillet, le Comité international olympique a levé la suspension des athlètes russes en vue des Jeux de Los Angeles 2028, ce qui a provoqué un tollé en Europe. Le CIO rappelle que les visas relèvent de chaque État, mais que les athlètes ne doivent pas être exclus pour leur nationalité [6]. Moscou avait prévenu dès octobre : selon l'agence d'État TASS, le porte-parole du Kremlin Dmitri Peskov juge ces interdictions contraires aux idéaux olympiques et au principe d'un sport séparé de la politique [7].",
+      "Le volet bancaire prolonge la pression. En juin, la Commission avait déjà proposé de sanctionner près de 90 des plus grandes banques russes d'un coup [8].",
+      "L'unanimité reste l'obstacle principal. En février 2026, la Hongrie et la Slovaquie avaient bloqué le 20e paquet, en accusant l'Ukraine de perturber leurs livraisons de pétrole russe [9]. La cheffe de la diplomatie européenne, Kaja Kallas, avait parlé d'un « revers » [9]."
+    ],
+    "forMe": "Si tu vas voir une compétition en Europe dans les prochains mois, tu pourrais ne plus y voir de drapeau russe, même si le CIO réadmet les athlètes russes. Pour ton portefeuille, l'effet est indirect : chaque paquet complique un peu plus les circuits du pétrole et de l'argent russes, sans effet immédiat sur les prix en France.",
+    "figures": [
+      {
+        "value": "60",
+        "label": "banques russes qui seraient coupées de SWIFT",
+        "src": 3
+      },
+      {
+        "value": "70",
+        "label": "navires de la « flotte fantôme » ajoutés à la liste noire",
+        "src": 1
+      },
+      {
+        "value": "22e",
+        "label": "paquet de sanctions européennes contre la Russie depuis 2022",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [
+      "sanctions"
+    ],
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « EU goes after Russia's banks, soldiers and athletes in new sanctions package » (23 novembre 2026)",
+        "url": "https://www.euronews.com/2026/11/23/eu-goes-after-russias-banks-soldiers-and-athletes-in-new-sanctions-package"
+      },
+      {
+        "short": "Reuters (US News)",
+        "name": "US News (Reuters), « EU Commission Proposes Ban on Russian Athletes, Ex-Fighters in New Russia Sanctions Package » (23 novembre 2026)",
+        "url": "https://www.usnews.com/news/world/articles/2026-11-23/eu-commission-proposes-22nd-sanctions-package-on-russia"
+      },
+      {
+        "short": "AP (US News)",
+        "name": "US News (AP), « EU Proposes Sweeping New Russia Sanctions Targeting Banks, Crypto and Sports Events » (23 novembre 2026)",
+        "url": "https://www.usnews.com/news/technology/articles/2026-11-23/eu-proposes-sweeping-new-russia-sanctions-targeting-banks-crypto-and-sports-events"
+      },
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « EU plans sports ban in sweeping new Russia sanctions proposal » (23 novembre 2026)",
+        "url": "https://aljazeera.com/amp/news/2026/11/23/eu-plans-sports-ban-in-sweeping-new-russia-sanctions-proposal"
+      },
+      {
+        "short": "Euromaidan Press",
+        "name": "Euromaidan Press, « EU's new sanctions proposal takes aim at Russian war funding and sports participation as sporting world moves to readmit Russian athletes » (24 novembre 2026)",
+        "url": "https://euromaidanpress.com/2026/11/24/eus-22nd-sanctions-proposal/"
+      },
+      {
+        "short": "Inside The Games",
+        "name": "Inside The Games, « EU sanctions proposal and visa bans deepen standoff over Russian return » (novembre 2026)",
+        "url": "https://www.insidethegames.biz/articles/eu-sanctions-proposal-and-fresh-visa-bans-deepen-standoff-over-russian-return-to-sport"
+      },
+      {
+        "short": "TASS",
+        "name": "TASS, « EU attempts to ban Russian athletes from tournaments contradict Olympic ideals — Kremlin » (octobre 2026)",
+        "url": "https://tass.com/politics/2202517"
+      },
+      {
+        "short": "Euronews",
+        "name": "Euronews, « EU proposes new sanctions on Russian oil, shadow fleet, fisheries and soldiers » (9 juin 2026)",
+        "url": "https://www.euronews.com/2026/06/09/eu-proposes-new-sanctions-on-russian-oil-shadow-fleet-fisheries-and-soldiers"
+      },
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « EU sanctions Russian officials as Hungary blocks funds to Ukraine » (23 février 2026)",
+        "url": "https://www.aljazeera.com/news/2026/2/23/eu-sanctions-russian-officials-as-hungary-blocks-funds-to-ukraine"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-livret-a-huitieme-decollecte-octobre",
+    "date": "2026-11-25",
+    "region": "Europe",
+    "theme": "eco",
     "zones": [
       "Europe"
     ],
@@ -428,112 +694,96 @@ window.GEOCO.news = [
         "label": "France"
       }
     ],
-    "title": "Congrès des maires : candidat à l’Élysée, David Lisnard joue ce mercredi sa réélection à la tête de l’AMF, et sa double casquette fait grincer des dents",
-    "summary": "Le 108e Congrès des maires de France se tient à Paris du 24 au 26 novembre. Le vote pour la présidence de l’Association des maires de France (AMF) se clôt ce mercredi 25 novembre à 13 heures : le président sortant David Lisnard, aussi candidat à l’Élysée, affronte Philippe Laurent, maire de Sceaux [1][2][3].",
+    "title": "Livret A : les Français retirent encore 2,62 milliards d'euros en octobre, du jamais-vu sur dix mois depuis 2008",
+    "summary": "Le Livret A a perdu 2,62 milliards d'euros en octobre 2026, son huitième mois de suite de retraits nets, selon les chiffres de la Caisse des dépôts publiés mardi 24 novembre. Depuis janvier, 9,54 milliards sont sortis, un niveau inédit depuis 2008, car l'inflation (3,4 %) dépasse largement le taux du livret (1,7 %) [1][4][5].",
     "points": [
-      "Le scrutin se fait entièrement en ligne, du lundi 23 novembre à 17 heures au mercredi 25 novembre à 13 heures. Il renouvelle aussi le Bureau et le Comité directeur de l’association [4]. Le résultat doit être connu mercredi à 14 heures [1].",
-      "David Lisnard, maire de Cannes, brigue un nouveau mandat alors qu’il est candidat du parti Nouvelle Énergie à la présidentielle de 2027 [3][5]. Il a déjà été élu à la tête de l’AMF en 2021, avec 62,3 % des voix [6].",
-      "Face à lui, un seul concurrent : Philippe Laurent, maire UDI de Sceaux, dans les Hauts-de-Seine [3].",
-      "Beaucoup d’élus y voient un « mélange des genres » [5]. « Il aurait fallu qu’il fasse la part des choses », résume un maire cité par Public Sénat [7]. David Lisnard dit qu’il se mettra si besoin en retrait de l’AMF pendant la campagne [3].",
-      "La plupart des candidats à la présidentielle ont prévu de venir au congrès, sauf Marine Le Pen et Jean-Luc Mélenchon [2]. Il est difficile de faire l’impasse sur « le plus grand rassemblement d’élus locaux d’Europe » quand on cherche les 500 parrainages nécessaires pour se présenter [1][2].",
-      "Le budget 2027 est au programme du congrès [4]. Face aux critiques des maires, le gouvernement veut mettre en avant son bilan sur la simplification des normes [1]."
+      "En octobre, les Français ont retiré 2,62 milliards d'euros de plus qu'ils n'en ont déposé sur leur Livret A, selon la Caisse des dépôts, qui gère l'argent collecté [1][4].",
+      "C'est le huitième mois consécutif de « décollecte », c'est-à-dire de retraits supérieurs aux dépôts [1][3]. Le record reste octobre 2025, avec 3,81 milliards d'euros de retraits nets [4][5].",
+      "Le Livret de développement durable et solidaire (LDDS), l'autre livret réglementé, a perdu 940 millions d'euros sur le mois [1].",
+      "Sur les dix premiers mois de l'année, le Livret A a perdu 9,54 milliards d'euros : il faut remonter à 2008 pour trouver pire [4][5]. En septembre déjà, 1,52 milliard d'euros étaient sortis du livret [7].",
+      "L'encours, c'est-à-dire tout l'argent placé sur les Livrets A, reste énorme : 440,1 milliards d'euros fin octobre [1].",
+      "Octobre est d'habitude un mois de retraits, car les ménages règlent la taxe foncière et le solde de l'impôt sur le revenu [3][4].",
+      "Le Premier ministre Sébastien Lecornu a annoncé le 3 novembre que le plafond du Livret A, aujourd'hui de 22 950 euros, passera entre 25 000 et 30 000 euros le 1er février 2027 [6]."
     ],
     "why": [
-      "Ce qu’il faut retenir : le congrès des maires est devenu une étape de la course à l’Élysée, et le chef de leur association est lui-même candidat [1][5].",
-      "Les maires sont des acteurs clés de la présidentielle : leurs signatures, les « parrainages », sont indispensables pour se présenter [1]. Leur association, l’AMF, pèse aussi dans les débats sur l’argent des communes : l’AMF lance cette année « un nouvel appel aux libertés locales » [8].",
-      "Le dossier des normes est ancien. Au congrès de novembre 2025, le Premier ministre Sébastien Lecornu avait promis deux « méga-décrets » pour supprimer une centaine de normes [9][10]. Il avait aussi averti qu’une absence de budget signifierait « zéro péréquation de l’État, aucune dotation d’investissement » pour les communes [11].",
-      "Cette année, le Sénat a réduit l’effort demandé aux collectivités locales dans le projet de budget 2027 [12]. Le texte doit encore passer la navette parlementaire."
+      "Ce qu'il faut retenir : les Français puisent dans leur épargne de précaution parce que leur pouvoir d'achat est rogné, et parce que le Livret A rapporte moins que la hausse des prix [1][5].",
+      "Avec une inflation de 3,4 % et un taux de 1,7 %, l'argent placé sur un Livret A perd de sa valeur réelle chaque mois : 100 euros placés en début d'année valent moins à la fin [1][5]. Une partie des épargnants va donc chercher mieux ailleurs, une autre doit simplement payer ses factures.",
+      "Le gouvernement a choisi de relever le plafond pour attirer de nouveaux dépôts, une décision prise par décret, sans vote du Parlement [6]. Mais la mesure ne change rien pour la grande majorité des épargnants, dont le livret est loin d'être plein : ce sont la hausse des prix et le faible taux qui font fuir l'argent [5][6].",
+      "Le moral suit la même pente : l'indicateur de confiance des ménages de l'Insee est tombé à 80 en octobre, son plus bas niveau depuis juin 2013, pour une moyenne de long terme de 100 [8][9]. Le chiffre de novembre est publié ce mercredi 25 novembre."
     ],
-    "forMe": "Ce qui se joue au congrès touche ta commune : l’argent que l’État lui verse finance l’école, la cantine, les routes ou la crèche. Si les dotations baissent, ta mairie peut réduire certains services ou augmenter la taxe foncière. Et c’est aussi là que se décide en partie qui pourra se présenter à l’Élysée.",
+    "forMe": "Si ton Livret A dort avec quelques milliers d'euros, sache qu'il rapporte en ce moment moins que la hausse des prix : il protège ton argent du risque, pas de l'inflation. Garde-y ton épargne de secours, et regarde le nouveau taux et le nouveau plafond annoncés pour le 1er février.",
     "figures": [
       {
-        "value": "2 candidats",
-        "label": "pour la présidence de l’AMF, résultat mercredi à 14 h",
+        "value": "-2,62 Md€",
+        "label": "retraits nets sur le Livret A en octobre 2026",
         "src": 1
       },
       {
-        "value": "500",
-        "label": "parrainages d’élus nécessaires pour se présenter à la présidentielle",
-        "src": 1
+        "value": "-9,54 Md€",
+        "label": "de janvier à octobre, du jamais-vu depuis 2008",
+        "src": 5
       },
       {
-        "value": "62,3 %",
-        "label": "le score de David Lisnard lors de sa première élection à l’AMF, en 2021",
-        "src": 6
+        "value": "3,4 % contre 1,7 %",
+        "label": "l'inflation face au taux du Livret A",
+        "src": 1
       }
     ],
     "culture": [],
-    "dossiers": [],
+    "dossiers": [
+      "inflation-taux"
+    ],
     "next": [
       {
-        "when": "25 novembre, 14 h",
-        "what": "Annonce du résultat de l’élection à la présidence de l’AMF [1]."
-      },
-      {
-        "when": "26 novembre",
-        "what": "Clôture du 108e Congrès des maires à Paris [1]."
+        "when": "1er février 2027",
+        "what": "Le plafond du Livret A doit passer de 22 950 euros à un montant compris entre 25 000 et 30 000 euros, et le taux sera révisé [6]."
       }
     ],
     "sources": [
       {
-        "short": "Euronews",
-        "name": "Euronews, « Le congrès des maires de France s’ouvre sur fond de bataille pour l’Élysée » (24 novembre 2026)",
-        "url": "https://fr.euronews.com/2026/11/24/le-congres-des-maires-de-france-souvre-sur-fond-de-bataille-pour-lelysee"
+        "short": "Boursorama (AFP)",
+        "name": "Boursorama, « Livret A : une huitième décollecte record en octobre sur fond d'inflation et d'impôts » (24 novembre 2026)",
+        "url": "https://www.boursorama.com/bourse/actualites/livret-a-une-huitieme-decollecte-record-en-octobre-sur-fond-d-inflation-et-d-impots-3296d508f3d1e5b9c3abb59107390c2e"
       },
       {
-        "short": "Orange Actu",
-        "name": "Orange Actu, « Le Congrès des maires s’est ouvert sur fond de bataille pour l’Élysée » (24 novembre 2026)",
-        "url": "https://actu.orange.fr/france/le-congres-des-maires-s-est-ouvert-sur-fond-de-bataille-pour-l-elysee-CNT000002u1gQS.html"
+        "short": "Zonebourse",
+        "name": "Zonebourse, « Livret A : une huitième décollecte record en octobre sur fond d'inflation et d'impôts » (24 novembre 2026)",
+        "url": "https://www.zonebourse.com/actualite-bourse/livret-a-une-huitieme-decollecte-record-en-octobre-sur-fond-d-inflation-et-d-impots-ce7851dbda8ef626"
       },
       {
-        "short": "franceinfo",
-        "name": "franceinfo, « La double candidature de David Lisnard, pour la tête de l’Association des maires de France et la présidentielle, fait grincer des dents » (novembre 2026)",
-        "url": "https://www.franceinfo.fr/politique/david-lisnard/la-double-candidature-de-david-lisnard-pour-la-tete-de-l-association-des-maires-de-france-et-la-presidentielle-fait-grincer-des-dents_8297235.html"
+        "short": "Cercle de l'Épargne",
+        "name": "Cercle de l'Épargne, « Livret A : une huitième décollecte en 2026 » (novembre 2026)",
+        "url": "https://cercledelepargne.com/livre-a-une-huitieme-decollecte-en-2026"
       },
       {
-        "short": "Bulletin des communes",
-        "name": "Bulletin des communes, « Congrès des maires 2026 : du 24 au 26 novembre à Paris, élection de l’AMF et budget 2027 au programme » (novembre 2026)",
-        "url": "https://bulletindescommunes.net/congres-des-maires-2026-programme/"
+        "short": "FranceTransactions",
+        "name": "FranceTransactions, « Livret A : la décollecte perdure logiquement, encore 2,62 milliards d'euros de retraits nets en octobre 2026 » (24 novembre 2026)",
+        "url": "https://www.francetransactions.com/actus/news-epargne/livret-a-decollecte-octobre-2026.html"
       },
       {
-        "short": "France-Guyane",
-        "name": "France-Guyane, « Le Congrès des maires s’est ouvert sur fond de bataille pour l’Élysée » (24 novembre 2026)",
-        "url": "https://www.franceguyane.fr/actualite/france/le-congres-des-maires-souvre-sur-fond-de-bataille-pour-lelysee-1100730.php"
+        "short": "Économie Matin",
+        "name": "Économie Matin, « Livret A : l'inflation provoque la pire hémorragie depuis 2008 » (novembre 2026)",
+        "url": "https://www.economiematin.fr/livret-a-inflation-decollecte-2026-analyse-macroeconomique"
       },
       {
-        "short": "AMF",
-        "name": "Association des maires de France, « David Lisnard élu à la présidence de l’AMF » (2021)",
-        "url": "https://www.amf.asso.fr/documents-david-lisnard-elu-la-presidence-amf/40989"
+        "short": "La finance pour tous",
+        "name": "La finance pour tous (IEFP), « Livret A : nouveau plafond entre 25 000 et 30 000 € en 2027 » (4 novembre 2026)",
+        "url": "https://www.lafinancepourtous.com/2026/11/04/livret-a-nouveau-plafond-entre-25-000-et-30-000-e-en-2027/"
       },
       {
-        "short": "Public Sénat",
-        "name": "Public Sénat, « « Il aurait fallu qu’il fasse la part des choses » : les maires, premiers juges du cumul de candidatures de David Lisnard » (novembre 2026)",
-        "url": "https://www.publicsenat.fr/actualites/politique/il-aurait-fallu-quil-fasse-la-part-des-choses-les-maires-premiers-juges-du-cumul-de-candidatures-de-david-lisnard"
+        "short": "Économie Matin",
+        "name": "Économie Matin, « Résultats du Livret A en septembre 2026 : rechute automnale » (octobre 2026)",
+        "url": "https://www.economiematin.fr/?p=234891"
       },
       {
-        "short": "AMF",
-        "name": "Association des maires de France, « 108e Congrès des maires : un nouvel appel aux libertés locales » (novembre 2026)",
-        "url": "https://www.amf.asso.fr/documents-108e-congres-maires-un-nouvel-appel-aux-libertes-locales/43400"
+        "short": "Insee",
+        "name": "Insee, « Tableau de bord de la conjoncture » (20 novembre 2026)",
+        "url": "https://www.insee.fr/fr/statistiques/2107840"
       },
       {
-        "short": "Gouvernement (info.gouv.fr)",
-        "name": "info.gouv.fr, « Congrès des maires : Sébastien Lecornu promet un « méga-décret » avant Noël » (novembre 2025)",
-        "url": "https://www.info.gouv.fr/actualite/congres-des-maires-sebastien-lecornu-promet-un-mega-decret-avant-noel"
-      },
-      {
-        "short": "Weka",
-        "name": "Weka, « Congrès des maires : décentralisation et méga-décrets pour supprimer une centaine de normes » (novembre 2025)",
-        "url": "https://www.weka.fr/actualite/administration/article/congres-des-maires-les-promesses-de-sebastien-lecornu-sur-la-decentralisation-et-la-reduction-des-normes-207320/"
-      },
-      {
-        "short": "Public Sénat",
-        "name": "Public Sénat, « Primes, normes, décentralisation : ce qu’il faut retenir du discours de Sébastien Lecornu devant les maires » (novembre 2025)",
-        "url": "https://www.publicsenat.fr/actualites/politique/primes-normes-decentralisation-ce-quil-faut-retenir-du-discours-de-sebastien-lecornu-devant-les-maires"
-      },
-      {
-        "short": "Public Sénat",
-        "name": "Public Sénat, « Budget : le Sénat réduit l’effort demandé par le gouvernement aux collectivités locales » (novembre 2026)",
-        "url": "https://www.publicsenat.fr/actualites/economie/budget-le-senat-reduit-leffort-demande-par-le-gouvernement-aux-collectivites-locales"
+        "short": "Socialmag",
+        "name": "Socialmag, « Inflation à 3,4 % : la confiance des ménages tombe à son plus bas niveau depuis 2013 » (13 novembre 2026)",
+        "url": "https://www.socialmag.news/13/11/2026/inflation-octobre-2026-confiance-menages-plus-bas-2013/"
       }
     ]
   },
@@ -655,6 +905,609 @@ window.GEOCO.news = [
         "short": "Conseil de l’UE (Consilium)",
         "name": "Conseil de l’UE, « Remarks by President António Costa at the press conference of the EU-Western Balkans summit in Brussels » (18 décembre 2024)",
         "url": "https://www.consilium.europa.eu/en/press/press-releases/2024/12/18/remarks-by-president-antonio-costa-at-the-press-conference-of-the-eu-western-balkans-summit-in-brussels/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-chine-chen-jining-shanghai-enquete",
+    "date": "2026-11-25",
+    "region": "Asie",
+    "theme": "geo",
+    "zones": [
+      "Asie"
+    ],
+    "geo": [
+      {
+        "coords": [
+          121.47,
+          31.23
+        ],
+        "name": "Shanghai, Chine",
+        "label": "Chine"
+      }
+    ],
+    "title": "Chine : le chef du Parti à Shanghai, Chen Jining, visé par une enquête anticorruption, quatrième membre du Bureau politique à tomber depuis 2022",
+    "summary": "Mardi 24 novembre, Pékin a annoncé une enquête contre Chen Jining, secrétaire du Parti communiste à Shanghai et membre du Bureau politique, pour de « graves violations de la discipline et de la loi ». Considéré comme un favori pour entrer au sommet du pouvoir en 2027, il est le quatrième membre de cet organe visé depuis 2022 [1][3][4].",
+    "points": [
+      "L'annonce est venue de l'agence officielle Xinhua et de la télévision d'État CCTV : la Commission centrale de contrôle de la discipline, la police interne du Parti, enquête sur Chen Jining [1][3][5].",
+      "La formule « graves violations de la discipline et de la loi » désigne, dans le langage officiel chinois, des soupçons de corruption. L'annonce ne donne aucun autre détail [2][3].",
+      "Chen Jining dirige le Parti à Shanghai depuis 2022, après cinq ans comme maire de Pékin [3]. Il y avait succédé à Li Qiang, une promotion alors jugée « surprise », car il n'avait aucune expérience de la ville [7].",
+      "Il est le quatrième des 24 membres du Bureau politique nommés en 2022 à être visé, après les généraux He Weidong et Zhang Youxia et Ma Xingrui [1].",
+      "Selon Al Jazeera, c'est le premier chef du Parti à Shanghai visé par une enquête depuis deux décennies [1]. Son prédécesseur Chen Liangyu avait été limogé en 2006 [9].",
+      "Ancien ministre de l'Environnement passé par l'université Tsinghua, celle de Xi Jinping, il passait pour un fidèle du président chinois [7]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : la purge lancée par Xi Jinping atteint désormais le cercle des futurs dirigeants. Chen Jining était vu comme un candidat sérieux au Comité permanent du Bureau politique, l'instance suprême du pouvoir, et l'enquête a surpris les analystes [4].",
+      "Le calendrier compte : le 21e Congrès du Parti, qui renouvellera la direction, doit se tenir à Pékin au second semestre 2027 [3]. Chaque chute redistribue les cartes pour la succession.",
+      "La série est sans précédent. He Weidong, vice-président de la Commission militaire centrale, a été exclu du Parti en octobre 2025, et Zhang Youxia, le plus haut gradé de l'armée, est visé depuis janvier [6]. Ma Xingrui a été exclu en juillet et renvoyé devant la justice pour corruption [6][10]. La revue Journal of Democracy y voit le plus vaste bouleversement au sommet du pouvoir chinois depuis les années 1970 [8]."
+    ],
+    "forMe": "Shanghai est l'une des grandes portes d'entrée des entreprises étrangères en Chine. Une direction politique instable peut retarder des décisions économiques ou des autorisations. Si tu travailles avec la Chine ou si ton épargne y est exposée, c'est un signal à surveiller avant le congrès de 2027.",
+    "figures": [
+      {
+        "value": "4e",
+        "label": "membre du Bureau politique nommé en 2022 visé par une enquête",
+        "src": 1
+      },
+      {
+        "value": "24",
+        "label": "membres du Bureau politique nommés en 2022",
+        "src": 1
+      },
+      {
+        "value": "2027",
+        "label": "21e Congrès du Parti, qui renouvellera la direction",
+        "src": 3
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "next": [
+      {
+        "when": "Second semestre 2027",
+        "what": "21e Congrès du Parti communiste chinois à Pékin, qui renouvellera le Bureau politique et son Comité permanent [3]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « China probes Shanghai party chief Chen Jining over corruption » (24 novembre 2026)",
+        "url": "https://aljazeera.com/news/2026/11/24/xis-anti-corruption-campaign-targets-shanghai-party-chief-chen-jining"
+      },
+      {
+        "short": "Washington Post",
+        "name": "The Washington Post, « China investigates Politburo member and Shanghai party chief Chen Jining » (24 novembre 2026)",
+        "url": "https://www.washingtonpost.com/world/2026/11/24/china-probe-shanghai-party-secretary/c9ae98f8-e801-11f1-8db0-6f1e3c389e7c_story.html"
+      },
+      {
+        "short": "ABC News (Australie)",
+        "name": "ABC News, « Key Chinese official Chen Jining under investigation in widening anti-corruption drive » (25 novembre 2026)",
+        "url": "https://www.abc.net.au/news/2026-11-25/chinese-communist-party-leader-under-corruption-investigation/107423468"
+      },
+      {
+        "short": "Bloomberg (Business Standard)",
+        "name": "Bloomberg via Business Standard, « Xi probes Shanghai party chief, widening biggest shakeup in decades » (25 novembre 2026)",
+        "url": "https://www.business-standard.com/amp/world-news/xi-probes-shanghai-party-chief-widening-biggest-shakeup-in-decades-126112500130_1.html"
+      },
+      {
+        "short": "Macau Business",
+        "name": "Macau Business, « Shanghai Communist Party chief under investigation » (novembre 2026)",
+        "url": "https://macaubusiness.com/shanghai-communist-party-chief-under-investigation/"
+      },
+      {
+        "short": "Reuters (The Standard)",
+        "name": "Reuters via The Standard (Hong Kong), « China purges third Politburo member in deepening anti-graft drive » (juillet 2026)",
+        "url": "https://www.thestandard.com.hk/china/article/337155/China-purges-third-Politburo-member-in-deepening-anti-graft-drive"
+      },
+      {
+        "short": "SCMP",
+        "name": "South China Morning Post, « Beijing mayor Chen Jining in ‘surprise’ promotion to top job in Shanghai » (octobre 2022)",
+        "url": "https://amp.scmp.com/news/china/politics/article/3197505/beijing-mayor-chen-jining-tipped-surprise-promotion-top-job-shanghai"
+      },
+      {
+        "short": "Journal of Democracy",
+        "name": "Journal of Democracy, « Why Xi Jinping Is Purging China’s Top Leaders » (2026)",
+        "url": "https://www.journalofdemocracy.org/online-exclusive/why-xi-jinping-is-purging-chinas-top-leaders/"
+      },
+      {
+        "short": "NBC News",
+        "name": "NBC News (AP), « China removes top leader in Shanghai » (septembre 2006)",
+        "url": "https://www.nbcnews.com/id/wbna14998250"
+      },
+      {
+        "short": "Jamestown Foundation",
+        "name": "Jamestown Foundation, « No Political Charges as Ma Xingrui Expelled from Politburo » (juillet 2026)",
+        "url": "https://jamestown.org/no-political-charges-as-ma-xingrui-expelled-from-politburo/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-iles-salomon-australie-traite-chine",
+    "date": "2026-11-25",
+    "region": "Asie",
+    "theme": "geo",
+    "zones": [
+      "Océanie",
+      "Asie"
+    ],
+    "geo": [
+      {
+        "coords": [
+          149.13,
+          -35.28
+        ],
+        "name": "Canberra, Australie",
+        "label": "Australie"
+      },
+      {
+        "coords": [
+          159.95,
+          -9.43
+        ],
+        "name": "Honiara, Îles Salomon",
+        "label": "Îles Salomon"
+      }
+    ],
+    "title": "Pacifique : les Îles Salomon font de l'Australie leur « principal partenaire de sécurité », interdisent toute base étrangère et tournent le dos au pacte avec la Chine",
+    "summary": "Le Premier ministre australien Anthony Albanese et son homologue des Îles Salomon, Matthew Wale, ont signé mercredi 25 novembre à Canberra un vaste traité. L'archipel n'accueillera aucune base militaire étrangère et l'Australie promet 740 millions de dollars australiens sur dix ans. Honiara aurait aussi prévenu Pékin qu'il ne renouvellerait pas le pacte de sécurité signé en 2022 [1][3][6].",
+    "points": [
+      "Le traité, signé au Parlement australien, fait de l'Australie le « principal partenaire de sécurité » des Îles Salomon et interdit toute base militaire ou de sécurité étrangère sur leur sol [1][3][4].",
+      "Honiara devra consulter Canberra avant toute coopération sur des infrastructures critiques ou en matière de sécurité avec un pays qui n'est pas membre du Forum des îles du Pacifique. Anthony Albanese n'a pas cité la Chine [1][3].",
+      "En échange, l'Australie s'engage à verser 740 millions de dollars australiens sur dix ans, notamment pour rendre l'école gratuite [1][2]. Elle aidera aussi la police salomonaise et investira dans les infrastructures et les énergies renouvelables [4].",
+      "Albanese a promis de publier le traité en entier [4], contrairement au pacte sino-salomonais de 2022, resté secret. Ce dernier permettait à Honiara de demander à la Chine d'envoyer policiers et militaires pour maintenir l'ordre, et autorisait des escales de navires de guerre chinois [6][8].",
+      "Selon le Sydney Morning Herald, cité par Reuters, le gouvernement Wale a fait savoir à Pékin qu'il ne renouvellerait pas ce pacte de cinq ans à son expiration en avril. Matthew Wale refuse de commenter, en invoquant une clause de confidentialité [6].",
+      "Pékin ne confirme ni ne dément. Mardi, son porte-parole, M. Guo, assurait que la Chine développe ses relations avec les Îles Salomon selon « le principe du respect mutuel et de l'égalité » [3][4].",
+      "Le chef de l'opposition, l'ancien Premier ministre Manasseh Sogavare, dénonce l'adoption « à marche forcée » du traité alors que le sort de l'accord chinois reste « flou » [1][2]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : en quatre ans, les Îles Salomon sont passées d'un pacte de sécurité secret avec la Chine à un traité qui ferme la porte à toute base étrangère. C'est un recul net pour Pékin dans le Pacifique Sud [1][2].",
+      "Le pacte de 2022, avec ses escales de navires de guerre chinois, ouvrait la porte à une présence militaire chinoise dans le Pacifique Sud [6][8]. Un analyste du Lowy Institute, cercle de réflexion australien, parle d'une « victoire massive » pour l'Australie [5]. Le Global Times, journal du pouvoir chinois, relativise : la relation bilatérale ne change pas pour autant [7].",
+      "Le basculement a commencé avec l'arrivée de Matthew Wale. Lors de sa visite à Canberra, le 3 juin 2026, il avait annoncé le réexamen de l'accord avec la Chine et la négociation d'un traité avec l'Australie [9]. Canberra enchaîne ces accords : elle avait déjà signé un pacte de défense mutuelle avec les Fidji avant de se tourner vers Honiara [10].",
+      "Reste une incertitude : le pacte chinois n'arrive à échéance qu'en avril 2027, et les sources divergent sur le fait qu'il soit déjà rompu ou qu'il doive simplement expirer [4][6]."
+    ],
+    "forMe": "Le Pacifique Sud est devenu un terrain de rivalité entre la Chine et les alliés occidentaux. La France y est directement concernée, avec la Nouvelle-Calédonie et la Polynésie française. Chaque archipel qui choisit son camp change l'équilibre de la région.",
+    "figures": [
+      {
+        "value": "740 M$ AU",
+        "label": "promis par l'Australie sur dix ans, dont l'école gratuite",
+        "src": 1
+      },
+      {
+        "value": "0",
+        "label": "base militaire étrangère autorisée sur l'archipel",
+        "src": 1
+      },
+      {
+        "value": "Avril 2027",
+        "label": "échéance du pacte de sécurité de 2022 avec la Chine",
+        "src": 4
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "next": [
+      {
+        "when": "Avril 2027",
+        "what": "Échéance du pacte de sécurité sino-salomonais de 2022, que Honiara ne renouvellerait pas selon le Sydney Morning Herald [4][6]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "France 24 (AFP)",
+        "name": "France 24 (AFP), « Australia, Solomon Islands sign sweeping pact stymieing China » (25 novembre 2026)",
+        "url": "https://www.france24.com/en/live-news/20261125-australia-solomon-islands-sign-sweeping-pact-stymieing-china"
+      },
+      {
+        "short": "The Japan Times (AFP)",
+        "name": "The Japan Times, « Australia and Solomon Islands sign sweeping pact stymieing China » (25 novembre 2026)",
+        "url": "https://www.japantimes.co.jp/news/2026/11/25/asia-pacific/politics/australia-solomon-islands-pact-china/"
+      },
+      {
+        "short": "AP (Yahoo)",
+        "name": "Yahoo News (AP), « Australia signs treaty with Solomon Islands, a blow for China's ambitions in the Pacific » (25 novembre 2026)",
+        "url": "https://www.yahoo.com/news/world/articles/australia-signs-treaty-solomon-islands-022943059.html"
+      },
+      {
+        "short": "AP (Yahoo Canada)",
+        "name": "Yahoo News Canada, « Solomon Islands names Australia as its primary security partner in a new treaty that excludes China » (25 novembre 2026)",
+        "url": "https://ca.news.yahoo.com/solomon-islands-names-australia-primary-024113743.html"
+      },
+      {
+        "short": "ABC News (Australie)",
+        "name": "ABC News, « Solomons Islands scraps China security pact in 'massive win' for Australia » (24 novembre 2026)",
+        "url": "https://www.abc.net.au/news/2026-11-24/china-solomon-islands-security-pact-australia/107421976"
+      },
+      {
+        "short": "Reuters (US News)",
+        "name": "US News (Reuters), « Solomon Islands Plans to Replace China Security Pact With Australia Treaty, Report Says » (23 novembre 2026)",
+        "url": "https://www.usnews.com/news/world/articles/2026-11-23/solomon-islands-plans-to-replace-china-security-pact-with-australia-treaty-report-says"
+      },
+      {
+        "short": "Global Times",
+        "name": "Global Times, « China stresses co-op with Solomon Islands not subject to third-party influence following reported security pact uncertainty » (novembre 2026)",
+        "url": "https://www.globaltimes.cn/page/202611/1374977.shtml"
+      },
+      {
+        "short": "Bangkok Post",
+        "name": "Bangkok Post, « Solomon Islands scrapping China security pact » (novembre 2026)",
+        "url": "https://www.bangkokpost.com/world/3360481/solomon-islands-scrapping-china-security-pact"
+      },
+      {
+        "short": "Reuters (Daily Maverick)",
+        "name": "Daily Maverick (Reuters), « New Solomon Islands leader reviews security pact with China, seeks treaty with Australia » (3 juin 2026)",
+        "url": "https://www.dailymaverick.co.za/article/2026-06-03-new-solomon-islands-leader-reviews-security-pact-with-china-seeks-treaty-with-australia/"
+      },
+      {
+        "short": "The Canberra Times",
+        "name": "The Canberra Times, « Australia chases next Pacific treaty after Fiji win » (juillet 2026)",
+        "url": "https://www.canberratimes.com.au/story/9305825/australia-chases-next-pacific-treaty-after-fiji-win/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-canada-tgv-alto-expropriations",
+    "date": "2026-11-25",
+    "region": "Amériques",
+    "theme": "eco",
+    "zones": [
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "coords": [
+          -75.7,
+          45.42
+        ],
+        "name": "Ottawa, Canada",
+        "label": "Canada"
+      }
+    ],
+    "title": "Canada : pour accélérer le TGV Toronto-Québec, Ottawa veut exproprier sans audiences publiques et confier les terres à un consortium privé",
+    "summary": "Le gouvernement de Mark Carney veut doter le futur TGV Alto, entre Toronto et Québec, de pouvoirs d'expropriation hors du droit commun : pas d'audiences publiques, terres transférées au consortium privé qui construit la ligne, arbitrage privé pour les agriculteurs. Mardi 24 novembre, le ministre des Transports, Steven MacKinnon, a défendu un « projet d'édification nationale » [1][2][4].",
+    "points": [
+      "Ces mesures figurent dans une motion de procédure de 519 pages, préalable au projet de loi qui doit mettre en œuvre le budget 2026 [1][2].",
+      "Alto serait exempté de toute la loi sur l'expropriation, de la loi sur le déplacement des lignes de chemin de fer et les croisements, et de sections clés des lois sur la sécurité ferroviaire et sur l'évaluation d'impact [1].",
+      "Ottawa pourrait exproprier sans audience publique et transférer directement la propriété au consortium privé chargé de bâtir la ligne, et non plus seulement à l'État [1][2].",
+      "Pour les fermes coupées en deux et les routes municipales, les litiges sur les passages iraient en arbitrage privé, avec des frais partagés jusqu'à 25 000 dollars canadiens par partie, en plus des frais d'avocat [1]. Un propriétaire pourrait aussi se voir interdire pendant quatre ans toute construction ou gros travaux sans la permission du ministre [2].",
+      "Steven MacKinnon affirme que ces pouvoirs feront gagner des étapes qui pourraient sinon prendre des années, sans toucher aux garanties de procédure. Il cite le métro léger REM de Montréal et la ligne Ontario de Toronto, qui ont aussi des « régimes sur mesure » pour acquérir des terrains [2][3].",
+      "Le député conservateur Michael Barrett dénonce un régime à part qui remplace la loi sur l'expropriation, et s'inquiète du coût et des perturbations dans les campagnes de l'est de l'Ontario et du Québec [2]. Conservateurs et Bloc québécois s'opposent au projet ; le NPD le soutient mais doute de ces pouvoirs [1]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : Ottawa veut lever les obstacles juridiques avant d'acheter les terrains du TGV, quitte à réduire les recours des propriétaires, en particulier des agriculteurs [1][5].",
+      "C'est un deuxième tour de vis. La loi C-15, promulguée le 26 mars 2026, permettait déjà à Alto de se passer de négociations d'achat préalables et de remplacer les audiences publiques par des objections écrites [5][8]. Phil Mount, du Syndicat national des cultivateurs, demande qu'aucune expropriation ne soit facilitée avant que le Parlement n'enquête davantage [5].",
+      "L'enjeu financier est énorme. Le 1er octobre, le directeur parlementaire du budget a chiffré la construction entre 75 et 113 milliards de dollars canadiens, au-dessus de la fourchette d'Ottawa (60 à 90 milliards), et jugé un dépassement plus probable qu'une économie [6][7]. Il suppose un début des travaux en 2029 et un tunnel de 15 km entre Laval et Montréal [7].",
+      "Ces pouvoirs arrivent avec le budget 2026, baptisé « Maîtres chez nous », présenté le 5 novembre par le ministre des Finances François-Philippe Champagne. Il prévoit 142,1 milliards de dollars canadiens de nouvelles mesures [10][11]."
+    ],
+    "forMe": "Ce TGV a un accent français : SNCF Voyageurs et Keolis font partie du consortium Cadence, choisi en février 2025 pour concevoir, développer et exploiter la ligne. Ce serait la première ligne à grande vitesse exploitée par la SNCF hors d'Europe [9]. La bataille des terres pèsera sur le calendrier du chantier.",
+    "figures": [
+      {
+        "value": "75 à 113 Md$ CA",
+        "label": "coût de construction estimé par le directeur parlementaire du budget",
+        "src": 6
+      },
+      {
+        "value": "519 pages",
+        "label": "la motion qui contient les nouveaux pouvoirs d'expropriation",
+        "src": 2
+      },
+      {
+        "value": "25 000 $ CA",
+        "label": "plafond des frais d'arbitrage à la charge de chaque partie",
+        "src": 1
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "AtkinsRéalis",
+          "ticker": "ATRL",
+          "why": "Groupe d'ingénierie canadien membre du consortium Cadence, chargé de l'ingénierie ferroviaire et des infrastructures d'Alto [9]."
+        },
+        {
+          "name": "Air Canada",
+          "ticker": "AC",
+          "why": "Membre du consortium Cadence, qui doit exploiter la future ligne à grande vitesse [9]."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "short": "CBC News",
+        "name": "CBC News, « Ottawa proposes sweeping new land-seizure powers for Alto high-speed rail project » (novembre 2026)",
+        "url": "https://www.cbc.ca/news/politics/alto-expropriation-changes-9.7433464"
+      },
+      {
+        "short": "CTV News (La Presse canadienne)",
+        "name": "CTV News (The Canadian Press), « Transport minister defends new land seizure powers proposed for high-speed rail » (24 novembre 2026)",
+        "url": "https://www.ctvnews.ca/business/article/transport-minister-defends-new-land-seizure-powers-proposed-for-high-speed-rail/"
+      },
+      {
+        "short": "Globe and Mail",
+        "name": "The Globe and Mail, « Ottawa defends new land seizure powers proposed for Alto's high-speed rail project » (novembre 2026)",
+        "url": "https://www.theglobeandmail.com/canada/article-alto-high-speed-rail-project-land-seizure-powers/"
+      },
+      {
+        "short": "Quinte News (La Presse canadienne)",
+        "name": "Quinte News (The Canadian Press), « Transport minister defends new land seizure powers proposed for high-speed rail » (24 novembre 2026)",
+        "url": "https://www.quintenews.com/2026/11/24/transport-minister-defends-new-land-seizure-powers-proposed-for-high-speed-rail/"
+      },
+      {
+        "short": "The Hill Times",
+        "name": "The Hill Times, « Feds should not 'accelerate' multi-billion-dollar high-speed Alto rail project before proper consultations, say critics » (17 novembre 2026)",
+        "url": "https://www.hilltimes.com/2026/11/17/feds-should-not-accelerate-multibillion-high-speed-alto-rail-project-before-proper-consultations-say-critics/526432/"
+      },
+      {
+        "short": "BNN Bloomberg",
+        "name": "BNN Bloomberg, « Quebec City-Toronto high-speed rail could cost up to $113B, warns budget watchdog » (1er octobre 2026)",
+        "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/01/quebec-city-toronto-high-speed-rail-could-cost-up-to-113-b-warns-budget-watchdog"
+      },
+      {
+        "short": "The Hub",
+        "name": "The Hub, « PBO says Alto high-speed rail could cost up to $113 billion, well above Ottawa's estimate » (2 octobre 2026)",
+        "url": "https://thehub.ca/2026/10/02/pbo-says-alto-high-speed-rail-could-cost-up-to-113-billion-well-above-ottawas-estimate/"
+      },
+      {
+        "short": "Parlement du Canada (LEGISinfo)",
+        "name": "Parlement du Canada, LEGISinfo, « C-15, Loi no 1 d'exécution du budget de 2025 »",
+        "url": "https://www.parl.ca/LegisInfo/en/bill/45-1/C-15"
+      },
+      {
+        "short": "Groupe SNCF",
+        "name": "Groupe SNCF, « Keolis and SNCF Voyageurs selected to advance Canada's high-speed rail project »",
+        "url": "https://www.groupe-sncf.com/en/group/sncf-around-the-world/tgv-canada"
+      },
+      {
+        "short": "BNN Bloomberg (La Presse canadienne)",
+        "name": "BNN Bloomberg, « Liberals expected to face House of Commons vote on Budget 2026 today » (19 novembre 2026)",
+        "url": "https://www.bnnbloomberg.ca/business/politics/2026/11/19/liberals-expected-to-face-house-of-commons-vote-on-budget-2026-today/"
+      },
+      {
+        "short": "The Hub",
+        "name": "The Hub, « Parliament today: Champagne tables Budget 2026 at 4 p.m. » (5 novembre 2026)",
+        "url": "https://thehub.ca/2026/11/05/parliament-today-champagne-tables-budget-2026-at-4-p-m/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-irak-bagdad-reprend-petrole-frontieres-kurdes",
+    "date": "2026-11-25",
+    "region": "Moyen-Orient",
+    "theme": "mix",
+    "zones": [
+      "Moyen-Orient",
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          44.37,
+          33.31
+        ],
+        "name": "Bagdad, Irak",
+        "label": "Irak"
+      },
+      {
+        "coords": [
+          44.01,
+          36.19
+        ],
+        "name": "Erbil, Kurdistan irakien",
+        "label": "Irak"
+      }
+    ],
+    "title": "Irak : Bagdad ordonne de reprendre aux Kurdes leurs postes-frontières et des champs pétroliers, Erbil répond que c'est « en aucun cas acceptable »",
+    "summary": "Mardi 24 novembre, le Premier ministre irakien Ali al-Zaïdi a ordonné que l'État fédéral prenne le contrôle de tous les postes-frontières du Kurdistan et gère des champs pétroliers de quatre provinces tenus par les forces kurdes. Il réagit à une enquête sur la contrebande de pétrole. Le gouvernement kurde rejette ces ordres [1][2][4].",
+    "points": [
+      "La décision confie au ministère fédéral du Pétrole les gisements situés dans les provinces de Diyala, Kirkouk, Salaheddine et Ninive [1]. Ces champs sont hors de la région autonome du Kurdistan, mais restent sous son « autorité sécuritaire » [3].",
+      "L'autorité fédérale des postes-frontières doit prendre en charge l'ensemble des points de passage du Kurdistan, a précisé le porte-parole du gouvernement, Sabah al-Numan ; les gardes-frontières doivent fermer les passages non officiels [3][5].",
+      "Le gouvernement kurde ne pourra plus autoriser d'exportations de pétrole brut ou de produits pétroliers sans l'accord du ministère fédéral du Pétrole [1][4].",
+      "Le chef de l'autorité des postes-frontières a été limogé, et le directeur général de la North Oil Company, la compagnie publique du pétrole du nord, suspendu avec ses adjoints en attendant l'enquête sur la contrebande [1][3].",
+      "Le communiqué ne dit ni quand ni comment la prise de contrôle aura lieu [3].",
+      "Masrour Barzani, Premier ministre du Kurdistan, juge ces ordres « vraiment surprenants et en aucun cas acceptables » [4]. Massoud Barzani, chef du Parti démocratique du Kurdistan (PDK), prévient que la région « ne se soumettra pas à des décisions inconstitutionnelles » [6].",
+      "Selon des sources de Reuters, les autorités kurdes devraient résister, en invoquant l'absence de loi nationale sur le pétrole et le gaz [2]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : Bagdad s'attaque au cœur de l'autonomie kurde, l'argent du pétrole et des douanes, au risque d'une nouvelle crise avec Erbil [2][4].",
+      "Cette décision prolonge la campagne d'Ali al-Zaïdi contre la contrebande : quelques jours plus tôt, le 20 novembre, les forces gouvernementales étaient entrées près de Bagdad dans un bastion de la milice pro-iranienne Kataeb Hezbollah, accusée avec des hauts responsables d'un trafic de pétrole qui durait depuis des années [2][7].",
+      "Le pétrole kurde est un dossier explosif. Les exportations par l'oléoduc vers le port turc de Ceyhan n'ont repris que le 27 septembre 2025, après un accord entre Bagdad, Erbil et les compagnies étrangères : environ 180 000 à 190 000 barils par jour de brut kurde devaient alors passer par la société publique irakienne SOMO [8]. En avril 2026, l'Irak visait 340 000 barils par jour au total par cet oléoduc [9].",
+      "Ce n'est pas la première épreuve de force : en 2017, après le référendum d'indépendance kurde, Bagdad avait repris tous les champs de Kirkouk, dont Bai Hassan et Avana [10]."
+    ],
+    "forMe": "Le pétrole kurde passe par la Turquie et arrive en Méditerranée, donc près de l'Europe. Si le bras de fer bloque ces barils, c'est un peu moins d'offre au moment où Ormuz est déjà perturbé : de quoi rendre ton plein d'essence plus sensible aux mauvaises nouvelles.",
+    "figures": [
+      {
+        "value": "4 provinces",
+        "label": "Diyala, Kirkouk, Salaheddine et Ninive : les champs que Bagdad veut gérer",
+        "src": 1
+      },
+      {
+        "value": "180 000 à 190 000",
+        "label": "barils par jour de brut kurde prévus par l'accord de reprise de septembre 2025",
+        "src": 8
+      },
+      {
+        "value": "340 000",
+        "label": "barils par jour visés par l'Irak via l'oléoduc vers la Turquie en avril 2026",
+        "src": 9
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "next": [
+      {
+        "when": "Date non fixée",
+        "what": "Le gouvernement n'a pas dit quand ni comment ses services prendront le contrôle des postes-frontières et des champs [3]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "Boursorama (AFP)",
+        "name": "Boursorama, « Bagdad entend gérer les champs pétroliers sous contrôle kurde » (24 novembre 2026)",
+        "url": "https://www.boursorama.com/bourse/actualites/bagdad-entend-gerer-les-champs-petroliers-sous-controle-kurde-f82b5d80d99c97e079f9a40630ab32eb"
+      },
+      {
+        "short": "Reuters (Arab News)",
+        "name": "Reuters via Arab News, « Iraqi PM cracks down on Kurds' control of oil fields, Kurds reject risky move » (24 novembre 2026)",
+        "url": "https://www.arabnews.com/middle-east/iraqi-pm-cracks-down-on-kurds-control-of-oil-fields-kurds-reject-risky-move-3013810"
+      },
+      {
+        "short": "Turkish Minute",
+        "name": "Turkish Minute, « Iraqi PM orders federal control of Kurdish border crossings, oil fields » (24 novembre 2026)",
+        "url": "https://www.turkishminute.com/2026/11/24/iraqi-pm-orders-federal-control-of-kurdish-border-crossings-oil-fields/"
+      },
+      {
+        "short": "964media",
+        "name": "964media, « Masrour Barzani rejects Zaidi's border and oil orders as 'unacceptable' » (24 novembre 2026)",
+        "url": "https://en.964media.com/56347/"
+      },
+      {
+        "short": "Times of Israel",
+        "name": "The Times of Israel, « Iraq PM orders federal control of Kurdish border crossings, oil fields » (24 novembre 2026)",
+        "url": "https://www.timesofisrael.com/liveblog_entry/iraq-pm-orders-federal-control-of-kurdish-border-crossings-oil-fields/"
+      },
+      {
+        "short": "964media",
+        "name": "964media, « Kurdish leaders close ranks against PM Zaidi's border and oil orders » (novembre 2026)",
+        "url": "https://en.964media.com/56387/"
+      },
+      {
+        "short": "La Croix (Titres Presse)",
+        "name": "La Croix via Titres Presse, « Irak : le premier ministre ordonne de reprendre la main sur le pétrole et les frontières kurdes » (24 novembre 2026)",
+        "url": "https://www.titrespresse.com/30374082603/irak-kurdistan-ministre"
+      },
+      {
+        "short": "Argus Media",
+        "name": "Argus Media, « Northern Iraqi crude exports ramping up » (septembre 2025)",
+        "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2736693-northern-iraqi-crude-exports-ramping-up"
+      },
+      {
+        "short": "Rudaw",
+        "name": "Rudaw, « Iraq begins exporting an additional 90,000 barrels of oil per day through the Kurdistan Region's pipeline » (6 avril 2026)",
+        "url": "https://rudaw.net/english/middleeast/iraq/06042026"
+      },
+      {
+        "short": "World Oil (Reuters)",
+        "name": "World Oil, « Iraq-Kurd clash cuts crude oil output at disputed Kirkuk fields » (17 octobre 2017)",
+        "url": "https://worldoil.com/news/2017/10/17/iraq-kurd-clash-cuts-crude-oil-output-at-disputed-kirkuk-fields"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-liban-apres-finul-mission-europeenne-litani",
+    "date": "2026-11-25",
+    "region": "Moyen-Orient",
+    "theme": "geo",
+    "zones": [
+      "Moyen-Orient",
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          35.5,
+          33.89
+        ],
+        "name": "Beyrouth, Liban",
+        "label": "Liban"
+      },
+      {
+        "coords": [
+          4.35,
+          50.85
+        ],
+        "name": "Bruxelles, Belgique",
+        "label": "Belgique"
+      }
+    ],
+    "title": "Liban : à cinq semaines du départ des Casques bleus, l'Europe n'envoie qu'une mission de formation, loin de la frontière israélienne",
+    "summary": "Le mandat de la FINUL, la force de l'ONU au Sud-Liban, s'achève le 31 décembre. Pour lui succéder, l'Union européenne prépare une mission de formation de l'armée libanaise, limitée au nord du fleuve Litani, sans force de paix. Mardi 24 novembre, de nouvelles frappes israéliennes touchaient encore le Sud [1][2][5][7].",
+    "points": [
+      "La FINUL restera pleinement opérationnelle jusqu'au 31 décembre 2026, puis commencera son retrait le 1er janvier 2027, a confirmé son porte-parole [5]. Le ministre français Jean-Noël Barrot a précisé que ce repli s'étalera jusqu'à fin 2027 [9].",
+      "Le 12 octobre, les Vingt-Sept ont créé la mission EUSM Lebanon, pour trois ans. Elle doit former l'armée et les forces de sécurité intérieure libanaises, y compris pour la sécurité du port de Beyrouth [1].",
+      "Le 18 novembre, le gouvernement allemand a approuvé l'envoi de 15 policiers et douaniers au plus, et d'un petit nombre de militaires pour former la marine libanaise. Berlin précise que la zone d'action se limite au territoire au nord du Litani [2]. L'Autriche a adopté son propre cadre le 11 novembre [3].",
+      "Réunis à Paris les 9 et 10 novembre, les ministres des Affaires étrangères du G7 ont jugé nécessaire d'« éviter un vide sécuritaire », mais Jean-Noël Barrot a reconnu qu'il n'y avait « pas de percée » sur ce qui remplacerait la FINUL [4].",
+      "Le président libanais Joseph Aoun préfère une prolongation de la FINUL ou de ses opérations en 2027. À défaut, il veut une présence qui soutienne l'armée, surveille le terrain et aide les habitants à rentrer [8].",
+      "Mardi 24 novembre au matin, des médias libanais ont signalé des frappes et des explosions israéliennes dans la zone tampon tenue par Israël au Sud-Liban, notamment à Mayfadoun et Kfar Tebnit [7].",
+      "L'ambassadeur américain en Israël, Mike Huckabee, a affirmé qu'Israël veut quitter le Liban mais ne le peut pas tant que le Hezbollah reste une menace [7]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : à partir du 1er janvier, les Casques bleus commencent à partir, et aucune force n'est prévue pour les remplacer le long de la frontière avec Israël. Les Européens offrent de la formation au nord du Litani, pas des soldats à la frontière [1][2][4].",
+      "La France et l'Italie veulent monter une « coalition » multinationale pour prendre le relais, mais rien n'est acté. La cheffe de la diplomatie européenne, Kaja Kallas, préférait en octobre un nouveau mandat de l'ONU [4]. La mission européenne ne pourra aller au sud du Litani qu'avec l'accord de Beyrouth et si la sécurité le permet [1][2].",
+      "Le cadre négocié le 26 juin sous l'égide des États-Unis prévoit le retrait israélien, le désarmement du Hezbollah et le déploiement de l'armée libanaise à partir de deux zones pilotes. Mais les discussions avec Israël sont suspendues en attendant la formation d'un nouveau gouvernement israélien [8].",
+      "Le 21 novembre, pour la fête de l'indépendance, Joseph Aoun a dénoncé à la fois « l'occupation israélienne d'une partie de notre terre » et l'ingérence de « certaines parties influentes du régime iranien » [6]."
+    ],
+    "forMe": "Paris est en première ligne pour éviter le vide au Sud-Liban : Jean-Noël Barrot s'est rendu à Beyrouth en octobre et dit vouloir garder une présence française après la FINUL, si le Liban le demande. Un Sud-Liban sans arbitre augmenterait le risque d'une nouvelle guerre, dans une région déjà sous tension.",
+    "figures": [
+      {
+        "value": "31 décembre",
+        "label": "fin du mandat de la FINUL, retrait à partir du 1er janvier",
+        "src": 5
+      },
+      {
+        "value": "3 ans",
+        "label": "durée initiale de la mission européenne EUSM Lebanon",
+        "src": 1
+      },
+      {
+        "value": "15",
+        "label": "policiers et douaniers allemands au plus pour la mission",
+        "src": 2
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "next": [
+      {
+        "when": "31 décembre",
+        "what": "Fin des opérations de la FINUL, qui entame son retrait le 1er janvier 2027 [5]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "Conseil de l'UE",
+        "name": "Conseil de l'Union européenne, « Lebanon: EU establishes new CSDP support mission to strengthen defence and security institutions » (12 octobre 2026)",
+        "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/12/lebanon-eu-establishes-new-csdp-support-mission-to-strengthen-defence-and-security-institutions/pdf/"
+      },
+      {
+        "short": "Gouvernement fédéral allemand",
+        "name": "Bundesregierung, « Beteiligung an EU-Mission in Libanon beschlossen » (18 novembre 2026)",
+        "url": "https://www.bundesregierung.de/breg-de/aktuelles/unterstuetzung-fuer-libanon-2460546"
+      },
+      {
+        "short": "Ministère autrichien des Affaires étrangères",
+        "name": "BMEIA (Autriche), « Österreichs Beitrag zu Sicherheit und Stabilität in Nahost: Regierung beschließt Rahmen für EU-Unterstützungsmission im Libanon » (11 novembre 2026)",
+        "url": "https://www.bmeia.gv.at/ministerium/presse/aktuelles/alle/musterjahr/11-1-1/oesterreichs-beitrag-zu-sicherheit-und-stabilitaet-in-nahost-regierung-beschliesst-rahmen-fuer-eu-unterstuetzungsmission-im-libanon"
+      },
+      {
+        "short": "Al-Monitor (AFP)",
+        "name": "Al-Monitor, « G7 agrees on need to avoid security void in Lebanon after UN force mandate ends: Paris » (10 novembre 2026)",
+        "url": "https://www.al-monitor.com/originals/2026/11/g7-agrees-need-avoid-security-void-lebanon-after-un-force-mandate-ends-paris"
+      },
+      {
+        "short": "Times of Israel",
+        "name": "The Times of Israel, « UNIFIL confirms it will start leaving south Lebanon when mandate ends on Dec. 31 » (novembre 2026)",
+        "url": "https://www.timesofisrael.com/unifil-confirms-it-will-start-leaving-south-lebanon-when-mandate-ends-on-dec-31/"
+      },
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « Lebanese president demands Israel withdrawal, decries Iran's interference » (21 novembre 2026)",
+        "url": "https://www.aljazeera.com/news/2026/11/21/lebanese-president-demands-israel-withdrawal-decries-irans-interference"
+      },
+      {
+        "short": "Times of Israel",
+        "name": "The Times of Israel, liveblog du 24 novembre 2026",
+        "url": "https://www.timesofisrael.com/liveblog-november-24-2026/"
+      },
+      {
+        "short": "SANA",
+        "name": "SANA, « Aoun: Lebanese-French agreement on continued international presence in the south » (novembre 2026)",
+        "url": "https://sana.sy/en/middle-east/2361616/"
+      },
+      {
+        "short": "Times of Israel",
+        "name": "The Times of Israel, « Lebanon seeks international presence in south from French FM as peace keeper exit nears » (17 octobre 2026)",
+        "url": "https://www.timesofisrael.com/lebanon-seeks-international-presence-in-south-from-french-fm-as-peace-keeper-exit-nears/"
       }
     ]
   },
@@ -889,125 +1742,120 @@ window.GEOCO.news = [
     ]
   },
   {
-    "id": "2026-11-25-irak-bagdad-reprend-petrole-frontieres-kurdes",
+    "id": "2026-11-25-algerie-locales-28-novembre-fin-campagne",
     "date": "2026-11-25",
-    "region": "Moyen-Orient",
-    "theme": "mix",
+    "region": "Afrique",
+    "theme": "geo",
     "zones": [
-      "Moyen-Orient",
-      "Europe"
+      "Afrique"
     ],
     "geo": [
       {
         "coords": [
-          44.37,
-          33.31
+          3.06,
+          36.75
         ],
-        "name": "Bagdad, Irak",
-        "label": "Irak"
-      },
-      {
-        "coords": [
-          44.01,
-          36.19
-        ],
-        "name": "Erbil, Kurdistan irakien",
-        "label": "Irak"
+        "name": "Alger, Algérie",
+        "label": "Algérie"
       }
     ],
-    "title": "Irak : Bagdad ordonne de reprendre aux Kurdes leurs postes-frontières et des champs pétroliers, Erbil répond que c'est « en aucun cas acceptable »",
-    "summary": "Mardi 24 novembre, le Premier ministre irakien Ali al-Zaïdi a ordonné que l'État fédéral prenne le contrôle de tous les postes-frontières du Kurdistan et gère des champs pétroliers de quatre provinces tenus par les forces kurdes. Il réagit à une enquête sur la contrebande de pétrole. Le gouvernement kurde rejette ces ordres [1][2][4].",
+    "title": "Algérie : la campagne des élections locales est close, le pouvoir redoute surtout l'abstention après le record de juillet",
+    "summary": "La campagne des élections locales algériennes s'est achevée mardi 24 novembre à minuit. Samedi 28 novembre, les électeurs éliront leurs assemblées communales et de wilaya, avec un nombre record de 162 864 candidats. Le vrai test sera la participation, tombée à environ 21 % aux législatives de juillet [2][4][7].",
     "points": [
-      "La décision confie au ministère fédéral du Pétrole les gisements situés dans les provinces de Diyala, Kirkouk, Salaheddine et Ninive [1]. Ces champs sont hors de la région autonome du Kurdistan, mais restent sous son « autorité sécuritaire » [3].",
-      "L'autorité fédérale des postes-frontières doit prendre en charge l'ensemble des points de passage du Kurdistan, a précisé le porte-parole du gouvernement, Sabah al-Numan ; les gardes-frontières doivent fermer les passages non officiels [3][5].",
-      "Le gouvernement kurde ne pourra plus autoriser d'exportations de pétrole brut ou de produits pétroliers sans l'accord du ministère fédéral du Pétrole [1][4].",
-      "Le chef de l'autorité des postes-frontières a été limogé, et le directeur général de la North Oil Company, la compagnie publique du pétrole du nord, suspendu avec ses adjoints en attendant l'enquête sur la contrebande [1][3].",
-      "Le communiqué ne dit ni quand ni comment la prise de contrôle aura lieu [3].",
-      "Masrour Barzani, Premier ministre du Kurdistan, juge ces ordres « vraiment surprenants et en aucun cas acceptables » [4]. Massoud Barzani, chef du Parti démocratique du Kurdistan (PDK), prévient que la région « ne se soumettra pas à des décisions inconstitutionnelles » [6].",
-      "Selon des sources de Reuters, les autorités kurdes devraient résister, en invoquant l'absence de loi nationale sur le pétrole et le gaz [2]."
+      "La campagne, ouverte le 5 novembre, a pris fin mardi 24 novembre à minuit. Un « silence électoral » de trois jours interdit désormais toute activité de campagne jusqu'au vendredi 27 novembre [2][3][8].",
+      "Samedi 28 novembre, les Algériens éliront pour cinq ans les membres des assemblées populaires communales (APC) et de wilaya (APW), l'équivalent des conseils municipaux et départementaux, au scrutin de liste proportionnel [8][9].",
+      "L'Autorité nationale indépendante des élections (ANIE) recense 162 864 candidats, contre 134 140 en 2021, et 5 995 listes validées [4][9]. Elle dit avoir rejeté 3 listes communales sur 5 631 et 6 listes de wilaya sur 434 [4].",
+      "Selon l'ANIE, environ 239 800 meetings et rencontres de proximité ont eu lieu, dans un climat qu'elle juge « serein » [2]. Les candidats ont surtout promis plus de décentralisation et un soutien aux start-up et aux jeunes porteurs de projets [2].",
+      "Des partis d'opposition, dont le FFS et le RCD, ont protesté contre l'exclusion de candidats de leurs listes [4].",
+      "Le scrutin se tient après un nouveau découpage territorial qui porte le pays à 69 wilayas (départements), ce qui complique l'organisation [10][11]."
     ],
     "why": [
-      "Ce qu'il faut retenir : Bagdad s'attaque au cœur de l'autonomie kurde, l'argent du pétrole et des douanes, au risque d'une nouvelle crise avec Erbil [2][4].",
-      "Cette décision prolonge la campagne d'Ali al-Zaïdi contre la contrebande : quelques jours plus tôt, le 20 novembre, les forces gouvernementales étaient entrées près de Bagdad dans un bastion de la milice pro-iranienne Kataeb Hezbollah, accusée avec des hauts responsables d'un trafic de pétrole qui durait depuis des années [2][7].",
-      "Le pétrole kurde est un dossier explosif. Les exportations par l'oléoduc vers le port turc de Ceyhan n'ont repris que le 27 septembre 2025, après un accord entre Bagdad, Erbil et les compagnies étrangères : environ 180 000 à 190 000 barils par jour de brut kurde devaient alors passer par la société publique irakienne SOMO [8]. En avril 2026, l'Irak visait 340 000 barils par jour au total par cet oléoduc [9].",
-      "Ce n'est pas la première épreuve de force : en 2017, après le référendum d'indépendance kurde, Bagdad avait repris tous les champs de Kirkouk, dont Bai Hassan et Avana [10]."
+      "Ce qu'il faut retenir : le pouvoir du président Abdelmadjid Tebboune ne craint pas la défaite, mais une salle vide. L'abstention est présentée comme l'enjeu majeur du scrutin [2].",
+      "Aux législatives de juillet 2026, la participation est tombée à 20,79 % selon les chiffres provisoires de l'ANIE, puis 21,24 % dans le pays selon les résultats définitifs [6][7]. Aux locales de 2021, elle avait atteint 36,58 % : c'est la barre à dépasser [4].",
+      "Contrairement à 2021, l'opposition a surtout choisi de se présenter. Selon l'institut italien ISPI, un parti qui boycotterait à la fois les législatives de juillet et les locales risque désormais la dissolution : participer devient une question de survie plus qu'un signe de confiance [5].",
+      "Le contexte reste incertain : selon l'agence APA, l'ANIE a multiplié les réunions et les contrôles sans lever les doutes sur la transparence du processus et sur la participation politique [8]. Les résultats de samedi diront si la hausse du nombre de candidats se traduit par plus d'électeurs [4]."
     ],
-    "forMe": "Le pétrole kurde passe par la Turquie et arrive en Méditerranée, donc près de l'Europe. Si le bras de fer bloque ces barils, c'est un peu moins d'offre au moment où Ormuz est déjà perturbé : de quoi rendre ton plein d'essence plus sensible aux mauvaises nouvelles.",
+    "forMe": "L'Algérie est un voisin majeur de la France, avec des liens familiaux forts et des relations diplomatiques tendues. Un taux de participation très bas samedi serait un nouveau signal de défiance envers le pouvoir à Alger, un pouvoir avec lequel Paris peine à renouer le dialogue.",
     "figures": [
       {
-        "value": "4 provinces",
-        "label": "Diyala, Kirkouk, Salaheddine et Ninive : les champs que Bagdad veut gérer",
-        "src": 1
-      },
-      {
-        "value": "180 000 à 190 000",
-        "label": "barils par jour de brut kurde prévus par l'accord de reprise de septembre 2025",
-        "src": 8
-      },
-      {
-        "value": "340 000",
-        "label": "barils par jour visés par l'Irak via l'oléoduc vers la Turquie en avril 2026",
+        "value": "162 864",
+        "label": "candidats aux locales, contre 134 140 en 2021",
         "src": 9
+      },
+      {
+        "value": "36,58 %",
+        "label": "participation aux locales de 2021, la barre à dépasser",
+        "src": 4
+      },
+      {
+        "value": "21,24 %",
+        "label": "participation aux législatives de juillet 2026",
+        "src": 7
       }
     ],
     "culture": [],
     "dossiers": [],
     "next": [
       {
-        "when": "Date non fixée",
-        "what": "Le gouvernement n'a pas dit quand ni comment ses services prendront le contrôle des postes-frontières et des champs [3]."
+        "when": "28 novembre",
+        "what": "Vote pour les assemblées communales (APC) et de wilaya (APW) [2][9]."
       }
     ],
     "sources": [
       {
-        "short": "Boursorama (AFP)",
-        "name": "Boursorama, « Bagdad entend gérer les champs pétroliers sous contrôle kurde » (24 novembre 2026)",
-        "url": "https://www.boursorama.com/bourse/actualites/bagdad-entend-gerer-les-champs-petroliers-sous-controle-kurde-f82b5d80d99c97e079f9a40630ab32eb"
+        "short": "APS",
+        "name": "Algérie Presse Service (agence officielle), « Locales du 28 novembre / Presse nationale : la campagne électorale entame son dernier virage » (novembre 2026)",
+        "url": "https://www.aps.dz/fr/elections-locales-2026/mwn9fw0v-la-campagne-electorale-entame-son-dernier-virage-dans-le-respect-des-regles-de-la-competition"
       },
       {
-        "short": "Reuters (Arab News)",
-        "name": "Reuters via Arab News, « Iraqi PM cracks down on Kurds' control of oil fields, Kurds reject risky move » (24 novembre 2026)",
-        "url": "https://www.arabnews.com/middle-east/iraqi-pm-cracks-down-on-kurds-control-of-oil-fields-kurds-reject-risky-move-3013810"
+        "short": "Express DZ",
+        "name": "L'Express DZ, « Élections locales : clôture de la campagne électorale mardi et entrée en vigueur du silence électoral » (24 novembre 2026)",
+        "url": "https://www.expressdz.dz/2026/11/24/elections-locales-cloture-de-la-campagne-electorale-mardi-et-entree-en-vigueur-du-silence-electoral/"
       },
       {
-        "short": "Turkish Minute",
-        "name": "Turkish Minute, « Iraqi PM orders federal control of Kurdish border crossings, oil fields » (24 novembre 2026)",
-        "url": "https://www.turkishminute.com/2026/11/24/iraqi-pm-orders-federal-control-of-kurdish-border-crossings-oil-fields/"
+        "short": "Le Courrier d'Algérie",
+        "name": "Le Courrier d'Algérie, « Campagne pour les élections locales du 28 novembre 2026 : encore un jour pour convaincre » (novembre 2026)",
+        "url": "https://lecourrier-dalgerie.com/campagne-pour-les-elections-locales-du-28-novembre-2026-encore-un-jour-pour-convaincre/"
       },
       {
-        "short": "964media",
-        "name": "964media, « Masrour Barzani rejects Zaidi's border and oil orders as 'unacceptable' » (24 novembre 2026)",
-        "url": "https://en.964media.com/56347/"
+        "short": "Rio Times",
+        "name": "The Rio Times, « Algeria Local Vote Draws 162,864 Candidates » (novembre 2026)",
+        "url": "https://www.riotimesonline.com/algeria-local-elections-162864-candidates-nov-28/"
       },
       {
-        "short": "Times of Israel",
-        "name": "The Times of Israel, « Iraq PM orders federal control of Kurdish border crossings, oil fields » (24 novembre 2026)",
-        "url": "https://www.timesofisrael.com/liveblog_entry/iraq-pm-orders-federal-control-of-kurdish-border-crossings-oil-fields/"
+        "short": "ISPI",
+        "name": "ISPI, « Boycott or Survive? Opposition Parties and Electoral Politics in Algeria » (2026)",
+        "url": "https://www.ispionline.it/en/publication/boycott-or-survive-opposition-parties-and-electoral-politics-in-algeria-240648"
       },
       {
-        "short": "964media",
-        "name": "964media, « Kurdish leaders close ranks against PM Zaidi's border and oil orders » (novembre 2026)",
-        "url": "https://en.964media.com/56387/"
+        "short": "Atalayar",
+        "name": "Atalayar, « Elections in Algeria: Plunge in turnout to 20.79% triggers a historic crisis of legitimacy » (3 juillet 2026)",
+        "url": "https://www.atalayar.com/en/articulo/politics/elections-in-algeria-plunge-in-turnout-to-2079-triggers-historic-crisis-of-legitimacy/20260703113824227376.html"
       },
       {
-        "short": "La Croix (Titres Presse)",
-        "name": "La Croix via Titres Presse, « Irak : le premier ministre ordonne de reprendre la main sur le pétrole et les frontières kurdes » (24 novembre 2026)",
-        "url": "https://www.titrespresse.com/30374082603/irak-kurdistan-ministre"
+        "short": "Arab Center Washington",
+        "name": "Arab Center Washington DC, « What Algeria's Elections Really Revealed » (2026)",
+        "url": "https://arabcenterdc.org/resource/what-algerias-elections-really-revealed/"
       },
       {
-        "short": "Argus Media",
-        "name": "Argus Media, « Northern Iraqi crude exports ramping up » (septembre 2025)",
-        "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2736693-northern-iraqi-crude-exports-ramping-up"
+        "short": "APA",
+        "name": "APA News, « Algérie : ouverture de la campagne pour les élections locales » (novembre 2026)",
+        "url": "https://fr.apanews.net/society/algerie-ouverture-de-la-campagne-pour-les-elections-locales/"
       },
       {
-        "short": "Rudaw",
-        "name": "Rudaw, « Iraq begins exporting an additional 90,000 barrels of oil per day through the Kurdistan Region's pipeline » (6 avril 2026)",
-        "url": "https://rudaw.net/english/middleeast/iraq/06042026"
+        "short": "APS",
+        "name": "Algérie Presse Service, « Élections locales du 28 novembre : l'ANIE dévoile le bilan provisoire des dossiers de candidature » (2026)",
+        "url": "https://www.aps.dz/fr/algerie/actualite-nationale/mvfpu2w3-l-anie-devoile-le-bilan-provisoire-des-dossiers-de-candidature"
       },
       {
-        "short": "World Oil (Reuters)",
-        "name": "World Oil, « Iraq-Kurd clash cuts crude oil output at disputed Kirkuk fields » (17 octobre 2017)",
-        "url": "https://worldoil.com/news/2017/10/17/iraq-kurd-clash-cuts-crude-oil-output-at-disputed-kirkuk-fields"
+        "short": "APS",
+        "name": "Algérie Presse Service, « Lancement du processus des élections locales dans le contexte du nouveau découpage territorial » (2026)",
+        "url": "https://www.aps.dz/fr/algerie/actualite-nationale/mtfx81d6-lancement-du-processus-des-elections-locales-dans-le-contexte-du-nouveau-decoupage-territorial"
+      },
+      {
+        "short": "Capmad",
+        "name": "Capmad, « Algérie : les locales du 28 novembre sous tension logistique après le nouveau découpage territorial » (2026)",
+        "url": "https://www.capmad.com/article/algerie-les-locales-du-28-novembre-sous-tension-logistique-apres-le-nouveau-decoupage-territorial"
       }
     ]
   },
@@ -1107,6 +1955,133 @@ window.GEOCO.news = [
         "short": "allAfrica",
         "name": "allAfrica, « Nigeria: CBN Reduces Interest Rate to 26.5 Percent » (24 février 2026)",
         "url": "https://allafrica.com/stories/202602240591.html"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-congres-maires-lisnard-amf-presidentielle",
+    "date": "2026-11-25",
+    "region": "Europe",
+    "theme": "mix",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          2.35,
+          48.86
+        ],
+        "name": "Paris, France",
+        "label": "France"
+      }
+    ],
+    "title": "Congrès des maires : candidat à l’Élysée, David Lisnard joue ce mercredi sa réélection à la tête de l’AMF, et sa double casquette fait grincer des dents",
+    "summary": "Le 108e Congrès des maires de France se tient à Paris du 24 au 26 novembre. Le vote pour la présidence de l’Association des maires de France (AMF) se clôt ce mercredi 25 novembre à 13 heures : le président sortant David Lisnard, aussi candidat à l’Élysée, affronte Philippe Laurent, maire de Sceaux [1][2][3].",
+    "points": [
+      "Le scrutin se fait entièrement en ligne, du lundi 23 novembre à 17 heures au mercredi 25 novembre à 13 heures. Il renouvelle aussi le Bureau et le Comité directeur de l’association [4]. Le résultat doit être connu mercredi à 14 heures [1].",
+      "David Lisnard, maire de Cannes, brigue un nouveau mandat alors qu’il est candidat du parti Nouvelle Énergie à la présidentielle de 2027 [3][5]. Il a déjà été élu à la tête de l’AMF en 2021, avec 62,3 % des voix [6].",
+      "Face à lui, un seul concurrent : Philippe Laurent, maire UDI de Sceaux, dans les Hauts-de-Seine [3].",
+      "Beaucoup d’élus y voient un « mélange des genres » [5]. « Il aurait fallu qu’il fasse la part des choses », résume un maire cité par Public Sénat [7]. David Lisnard dit qu’il se mettra si besoin en retrait de l’AMF pendant la campagne [3].",
+      "La plupart des candidats à la présidentielle ont prévu de venir au congrès, sauf Marine Le Pen et Jean-Luc Mélenchon [2]. Il est difficile de faire l’impasse sur « le plus grand rassemblement d’élus locaux d’Europe » quand on cherche les 500 parrainages nécessaires pour se présenter [1][2].",
+      "Le budget 2027 est au programme du congrès [4]. Face aux critiques des maires, le gouvernement veut mettre en avant son bilan sur la simplification des normes [1]."
+    ],
+    "why": [
+      "Ce qu’il faut retenir : le congrès des maires est devenu une étape de la course à l’Élysée, et le chef de leur association est lui-même candidat [1][5].",
+      "Les maires sont des acteurs clés de la présidentielle : leurs signatures, les « parrainages », sont indispensables pour se présenter [1]. Leur association, l’AMF, pèse aussi dans les débats sur l’argent des communes : l’AMF lance cette année « un nouvel appel aux libertés locales » [8].",
+      "Le dossier des normes est ancien. Au congrès de novembre 2025, le Premier ministre Sébastien Lecornu avait promis deux « méga-décrets » pour supprimer une centaine de normes [9][10]. Il avait aussi averti qu’une absence de budget signifierait « zéro péréquation de l’État, aucune dotation d’investissement » pour les communes [11].",
+      "Cette année, le Sénat a réduit l’effort demandé aux collectivités locales dans le projet de budget 2027 [12]. Le texte doit encore passer la navette parlementaire."
+    ],
+    "forMe": "Ce qui se joue au congrès touche ta commune : l’argent que l’État lui verse finance l’école, la cantine, les routes ou la crèche. Si les dotations baissent, ta mairie peut réduire certains services ou augmenter la taxe foncière. Et c’est aussi là que se décide en partie qui pourra se présenter à l’Élysée.",
+    "figures": [
+      {
+        "value": "2 candidats",
+        "label": "pour la présidence de l’AMF, résultat mercredi à 14 h",
+        "src": 1
+      },
+      {
+        "value": "500",
+        "label": "parrainages d’élus nécessaires pour se présenter à la présidentielle",
+        "src": 1
+      },
+      {
+        "value": "62,3 %",
+        "label": "le score de David Lisnard lors de sa première élection à l’AMF, en 2021",
+        "src": 6
+      }
+    ],
+    "culture": [],
+    "dossiers": [],
+    "next": [
+      {
+        "when": "25 novembre, 14 h",
+        "what": "Annonce du résultat de l’élection à la présidence de l’AMF [1]."
+      },
+      {
+        "when": "26 novembre",
+        "what": "Clôture du 108e Congrès des maires à Paris [1]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « Le congrès des maires de France s’ouvre sur fond de bataille pour l’Élysée » (24 novembre 2026)",
+        "url": "https://fr.euronews.com/2026/11/24/le-congres-des-maires-de-france-souvre-sur-fond-de-bataille-pour-lelysee"
+      },
+      {
+        "short": "Orange Actu",
+        "name": "Orange Actu, « Le Congrès des maires s’est ouvert sur fond de bataille pour l’Élysée » (24 novembre 2026)",
+        "url": "https://actu.orange.fr/france/le-congres-des-maires-s-est-ouvert-sur-fond-de-bataille-pour-l-elysee-CNT000002u1gQS.html"
+      },
+      {
+        "short": "franceinfo",
+        "name": "franceinfo, « La double candidature de David Lisnard, pour la tête de l’Association des maires de France et la présidentielle, fait grincer des dents » (novembre 2026)",
+        "url": "https://www.franceinfo.fr/politique/david-lisnard/la-double-candidature-de-david-lisnard-pour-la-tete-de-l-association-des-maires-de-france-et-la-presidentielle-fait-grincer-des-dents_8297235.html"
+      },
+      {
+        "short": "Bulletin des communes",
+        "name": "Bulletin des communes, « Congrès des maires 2026 : du 24 au 26 novembre à Paris, élection de l’AMF et budget 2027 au programme » (novembre 2026)",
+        "url": "https://bulletindescommunes.net/congres-des-maires-2026-programme/"
+      },
+      {
+        "short": "France-Guyane",
+        "name": "France-Guyane, « Le Congrès des maires s’est ouvert sur fond de bataille pour l’Élysée » (24 novembre 2026)",
+        "url": "https://www.franceguyane.fr/actualite/france/le-congres-des-maires-souvre-sur-fond-de-bataille-pour-lelysee-1100730.php"
+      },
+      {
+        "short": "AMF",
+        "name": "Association des maires de France, « David Lisnard élu à la présidence de l’AMF » (2021)",
+        "url": "https://www.amf.asso.fr/documents-david-lisnard-elu-la-presidence-amf/40989"
+      },
+      {
+        "short": "Public Sénat",
+        "name": "Public Sénat, « « Il aurait fallu qu’il fasse la part des choses » : les maires, premiers juges du cumul de candidatures de David Lisnard » (novembre 2026)",
+        "url": "https://www.publicsenat.fr/actualites/politique/il-aurait-fallu-quil-fasse-la-part-des-choses-les-maires-premiers-juges-du-cumul-de-candidatures-de-david-lisnard"
+      },
+      {
+        "short": "AMF",
+        "name": "Association des maires de France, « 108e Congrès des maires : un nouvel appel aux libertés locales » (novembre 2026)",
+        "url": "https://www.amf.asso.fr/documents-108e-congres-maires-un-nouvel-appel-aux-libertes-locales/43400"
+      },
+      {
+        "short": "Gouvernement (info.gouv.fr)",
+        "name": "info.gouv.fr, « Congrès des maires : Sébastien Lecornu promet un « méga-décret » avant Noël » (novembre 2025)",
+        "url": "https://www.info.gouv.fr/actualite/congres-des-maires-sebastien-lecornu-promet-un-mega-decret-avant-noel"
+      },
+      {
+        "short": "Weka",
+        "name": "Weka, « Congrès des maires : décentralisation et méga-décrets pour supprimer une centaine de normes » (novembre 2025)",
+        "url": "https://www.weka.fr/actualite/administration/article/congres-des-maires-les-promesses-de-sebastien-lecornu-sur-la-decentralisation-et-la-reduction-des-normes-207320/"
+      },
+      {
+        "short": "Public Sénat",
+        "name": "Public Sénat, « Primes, normes, décentralisation : ce qu’il faut retenir du discours de Sébastien Lecornu devant les maires » (novembre 2025)",
+        "url": "https://www.publicsenat.fr/actualites/politique/primes-normes-decentralisation-ce-quil-faut-retenir-du-discours-de-sebastien-lecornu-devant-les-maires"
+      },
+      {
+        "short": "Public Sénat",
+        "name": "Public Sénat, « Budget : le Sénat réduit l’effort demandé par le gouvernement aux collectivités locales » (novembre 2026)",
+        "url": "https://www.publicsenat.fr/actualites/economie/budget-le-senat-reduit-leffort-demande-par-le-gouvernement-aux-collectivites-locales"
       }
     ]
   },
@@ -1307,6 +2282,208 @@ window.GEOCO.news = [
     ]
   },
   {
+    "id": "2026-11-25-intesa-mps-opas-ouverte",
+    "date": "2026-11-25",
+    "region": "Europe",
+    "theme": "fin",
+    "zones": [
+      "Europe"
+    ],
+    "geo": [
+      {
+        "coords": [
+          9.19,
+          45.46
+        ],
+        "name": "Milan, Italie",
+        "label": "Italie"
+      },
+      {
+        "coords": [
+          11.33,
+          43.32
+        ],
+        "name": "Sienne, Italie",
+        "label": "Italie"
+      }
+    ],
+    "title": "Italie : Intesa ouvre son offre d'environ 34,5 milliards d'euros sur Monte dei Paschi, que le conseil de Sienne juge « équitable » sans la recommander",
+    "summary": "Depuis mardi 24 novembre à 8 h 30, les actionnaires de Monte dei Paschi (MPS) peuvent apporter leurs titres à l'offre d'Intesa Sanpaolo, première banque italienne. L'offre, valorisée environ 34,5 milliards d'euros par Reuters, court jusqu'au 22 janvier. Le conseil de MPS la juge « équitable », sans la recommander [1][2][4].",
+    "points": [
+      "Pour chaque action MPS apportée, Intesa verse 1,25 euro en espèces et 1,664 action Intesa nouvelle. Le rapport d'échange a été relevé pour compenser l'acompte sur dividende de 22 centimes versé par Intesa le 23 novembre [2].",
+      "Le calendrier, fixé avec Borsa Italiana, court de 8 h 30 le 24 novembre à 17 h 30 le 22 janvier 2027, sauf prolongation ; le paiement est prévu le 29 janvier [2].",
+      "Intesa vise 66,67 % du capital de MPS, mais pourra se contenter de 50 % plus une action ; en dessous, l'offre tombe [3].",
+      "Le 20 novembre, le conseil de MPS a jugé à l'unanimité le prix « congru » financièrement, conseillé par UBS et Bank of America, tout en estimant qu'il « ne reflète pas pleinement » la valeur et les perspectives du groupe ; il ne recommande ni d'accepter, ni de refuser [4][5][6].",
+      "Le conseil note que la prime offerte, 4,2 milliards d'euros, ne représente qu'environ 27 % des économies attendues de la fusion [6]. L'administrateur Corrado Passera a démissionné en pleine réunion, en « fort désaccord » avec l'offre [5].",
+      "Le courtier milanais Equita juge au contraire les conditions financières « pleinement » équitables [7].",
+      "Le premier actionnaire de MPS, la holding Delfin (17,6 %), s'est engagé à apporter ses titres [8]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : sauf surprise, MPS, sauvée par l'État en 2017, va passer sous le contrôle d'Intesa, et avec elle Mediobanca, qu'elle a avalée en 2025 [8][13][15].",
+      "L'offre est partie en juin d'Intesa, sans l'accord de MPS, pour 30,6 milliards d'euros [11]. MPS l'a d'abord jugée trop basse et a tenté de se défendre par d'autres opérations [9]. Mais le 29 octobre, ses actionnaires ont rejeté ce plan de défense de son directeur général Luigi Lovaglio, qui a assuré que la partie « n'était pas terminée » [9].",
+      "Pour rassurer les autorités de la concurrence, Intesa a promis de vendre à l'assureur Unipol, pour 3 à 3,5 milliards d'euros en espèces, une banque séparée regroupant environ 635 agences de MPS [10].",
+      "Le chiffre exact de l'opération varie selon le cours de Bourse d'Intesa, puisque l'essentiel est payé en actions : 30,6 milliards à l'annonce, environ 34,5 milliards selon Reuters aujourd'hui [4][11]."
+    ],
+    "forMe": "Si tu es client de MPS ou d'une banque rachetée par Unipol, rien ne change pour l'instant sur ton compte. Mais en Europe, les banques se regroupent : moins de concurrents peut, à terme, peser sur les frais et les taux qu'on te propose.",
+    "figures": [
+      {
+        "value": "1,25 € + 1,664 action",
+        "label": "offerts par Intesa pour chaque action MPS",
+        "src": 2
+      },
+      {
+        "value": "66,67 %",
+        "label": "du capital visé, 50 % + 1 action au minimum",
+        "src": 3
+      },
+      {
+        "value": "22 janvier",
+        "label": "dernier jour pour apporter ses actions, sauf prolongation",
+        "src": 2
+      }
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : une offre payée en actions et en espèces",
+        "text": "Dans une OPAS (offre publique d'achat et d'échange), l'acheteur paie surtout avec ses propres actions, créées pour l'occasion, plus un peu d'argent. Ici, chaque action MPS donne droit à 1,664 action Intesa et 1,25 euro [2]. La valeur de l'offre bouge donc chaque jour avec le cours d'Intesa : 30,6 milliards d'euros en juin, environ 34,5 milliards selon Reuters fin novembre [4][11]. L'actionnaire de MPS compare ce paquet au prix de l'action MPS en Bourse : si le paquet vaut plus, il a intérêt à apporter ses titres. Le seuil de 66,67 % compte, car il permet de faire voter seul les décisions importantes en assemblée ; Intesa a prévu de descendre jusqu'à 50 % plus une action, le contrôle simple [3]."
+      }
+    },
+    "past": {
+      "title": "Les précédents : Sienne, de la faillite évitée au rôle de chasseur",
+      "items": [
+        {
+          "when": "Juillet 2017",
+          "what": "Bruxelles autorise l'Italie à injecter 5,4 milliards d'euros dans Monte dei Paschi, qui n'avait pas réussi à lever 5 milliards sur le marché ; la banque transfère 26,1 milliards d'euros de créances douteuses hors de son bilan [13]. L'État prend le contrôle de la banque [14].",
+          "lesson": "Sans l'argent public, MPS aurait pu disparaître : c'est cette banque redressée qu'Intesa convoite."
+        },
+        {
+          "when": "22 septembre 2025",
+          "what": "MPS termine son offre sur Mediobanca avec 86,3 % du capital de la banque d'affaires milanaise [15][16].",
+          "lesson": "Le petit est devenu chasseur : en rachetant MPS, Intesa récupère aussi Mediobanca."
+        },
+        {
+          "when": "8 juin 2026",
+          "what": "Intesa lance son offre non sollicitée sur MPS, valorisée 30,6 milliards d'euros ; son patron Carlo Messina dit attendre le soutien des actionnaires de MPS [11][12].",
+          "lesson": "Cinq mois plus tard, l'offre a été relevée et le principal actionnaire a dit oui : le rapport de force a basculé."
+        }
+      ]
+    },
+    "culture": [],
+    "dossiers": [],
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "Intesa Sanpaolo",
+          "ticker": "ISP",
+          "why": "L'acheteur : il paie surtout en actions nouvelles, donc la valeur de son offre suit son propre cours [2][4]."
+        },
+        {
+          "name": "Banca Monte dei Paschi di Siena",
+          "ticker": "BMPS",
+          "why": "La cible : son conseil juge le prix équitable mais pas assez élevé pour le recommander [4][5]."
+        },
+        {
+          "name": "Unipol",
+          "ticker": "UNI",
+          "why": "L'assureur doit racheter environ 635 agences de MPS pour 3 à 3,5 milliards d'euros si l'opération aboutit [10]."
+        }
+      ]
+    },
+    "next": [
+      {
+        "when": "22 janvier 2027",
+        "what": "Fin de la période d'offre à 17 h 30, sauf prolongation [2]."
+      },
+      {
+        "when": "29 janvier 2027",
+        "what": "Paiement des actionnaires de MPS qui ont apporté leurs titres [2]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "Borsa Italiana (Teleborsa)",
+        "name": "Borsa Italiana / Teleborsa, « Intesa Sanpaolo, al via oggi l'OPAS su MPS » (24 novembre 2026)",
+        "url": "https://www.borsaitaliana.it/borsa/notizie/teleborsa/finanza/intesa-sanpaolo-al-via-oggi-l-opas-su-mps-39_2026-11-24_TLB.html"
+      },
+      {
+        "short": "Borsa Italiana (Teleborsa)",
+        "name": "Borsa Italiana / Teleborsa, « Intesa/MPS, via libera Consob al documento d'offerta: adesioni dal 24 novembre » (9 novembre 2026)",
+        "url": "https://www.borsaitaliana.it/borsa/notizie/teleborsa/finanza/intesamps-via-libera-consob-al-documento-d-offerta-adesioni-dal-24-novembre-7_2026-11-09_TLB.html"
+      },
+      {
+        "short": "Milano Finanza",
+        "name": "Milano Finanza, « All'Opas di Intesa Sanpaolo basta il 50% di Mps » (novembre 2026)",
+        "url": "https://www.milanofinanza.it/news/all-opas-di-intesa-sanpaolo-basta-il-50-di-mps-2723795"
+      },
+      {
+        "short": "Reuters (Euronext)",
+        "name": "Reuters via Euronext, « MPS says Intesa's bid 'financially fair' but does not fully reflect prospective value » (novembre 2026)",
+        "url": "https://live.euronext.com/en/financial-news/mps-says-intesas-bid-financially-fair-does-not-fully-reflect-prospective-value"
+      },
+      {
+        "short": "Il Sole 24 Ore",
+        "name": "Il Sole 24 Ore, « MPS deems Intesa's offer 'fair'. Passera resigns from the board ahead of the vote » (20 novembre 2026)",
+        "url": "https://en.ilsole24ore.com/art/passera-resigns-from-mps-board-first-vote-on-intesas-takeover-bid-AJ6VNeNC"
+      },
+      {
+        "short": "Milano Finanza",
+        "name": "Milano Finanza, « Mps, prezzo Intesa Sanpaolo ‹ congruo › ma non riflette tutte le prospettive del gruppo » (21 novembre 2026)",
+        "url": "https://www.milanofinanza.it/news/mps-prezzo-intesa-sanpaolo-congruo-ma-non-riflette-tutte-le-prospettive-del-gruppo-ecco-i-rilievi-di-202611210904116795"
+      },
+      {
+        "short": "Teleborsa",
+        "name": "Teleborsa, « Equita su Intesa-Mps: ‹ Piena congruità finanziaria dell'offerta › » (23 novembre 2026)",
+        "url": "https://teleborsa.it/News/2026/11/23/equita-su-intesa-mps-piena-congruita-finanziaria-dell-offerta-135.html"
+      },
+      {
+        "short": "Reuters (Euronext)",
+        "name": "Reuters via Euronext, « Intesa's €35 billion bid for MPS wins backing of top investor » (2026)",
+        "url": "https://live.euronext.com/en/financial-news/intesas-eu35-billion-bid-mps-wins-backing-top-investor"
+      },
+      {
+        "short": "Reuters (Euronext)",
+        "name": "Reuters via Euronext, « MPS investors sink CEO's defence plan against Intesa bid » (29 octobre 2026)",
+        "url": "https://live.euronext.com/en/financial-news/mps-investors-sink-ceos-defence-plan-against-intesa-bid"
+      },
+      {
+        "short": "Intesa Sanpaolo",
+        "name": "Intesa Sanpaolo, « Tender offer on MPS to create one of Europe's leading banking groups » (2026)",
+        "url": "https://group.intesasanpaolo.com/en/newsroom/all-news/news/2026/intesa-sanpaolo-tender-offer-on-mps"
+      },
+      {
+        "short": "The Irish Times",
+        "name": "The Irish Times, « Italy's biggest bank gatecrashes rival's bid for Monte dei Paschi with €30.6bn offer » (8 juin 2026)",
+        "url": "https://www.irishtimes.com/business/2026/06/08/intesa-gatecrashes-rivals-bid-for-monte-dei-paschi-with-306bn-offer/"
+      },
+      {
+        "short": "Reuters (Euronext)",
+        "name": "Reuters via Euronext, « Intesa launches 35 billion Monte dei Paschi bid to redraw Italy's financial map » (juin 2026)",
+        "url": "https://live.euronext.com/en/financial-news/intesa-launches-35-billion-monte-dei-paschi-bid-redraw-italys-financial-map"
+      },
+      {
+        "short": "Reuters (Investing.com)",
+        "name": "Reuters via Investing.com, « EU clears Monte Paschi precautionary recapitalization with overhaul » (juillet 2017)",
+        "url": "https://www.investing.com/news/stock-market-news/eu-clears-monte-paschi-precautionary-recapitalization-with-overhaul-501925"
+      },
+      {
+        "short": "Fox Business (Dow Jones)",
+        "name": "Fox Business / Dow Jones, « Italy Formally Takes Control of Monte dei Paschi » (2017)",
+        "url": "https://www.foxbusiness.com/features/italy-formally-takes-control-of-monte-dei-paschi-3rd-update"
+      },
+      {
+        "short": "Bloomberg",
+        "name": "Bloomberg, « Monte Paschi Ends Bid With Almost Full Control of Mediobanca » (22 septembre 2025)",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-22/monte-paschi-s-mediobanca-takeover-offer-ends-with-86-3-stake"
+      },
+      {
+        "short": "Il Sole 24 Ore",
+        "name": "Il Sole 24 Ore, « Mps rises to 86.3% of Mediobanca at the closing of the Opas » (septembre 2025)",
+        "url": "https://en.ilsole24ore.com/art/mps-rises-to-863-per-cent-mediobanca-closing-of-opas-AHPflHmC"
+      }
+    ]
+  },
+  {
     "id": "2026-11-25-dell-hpe-serveurs-ia-marges",
     "date": "2026-11-25",
     "region": "Amériques",
@@ -1496,6 +2673,324 @@ window.GEOCO.news = [
         "short": "FourWeekMBA",
         "name": "FourWeekMBA, « Dell Falls 11.5% Before Results, Half Its September Peak » (24 novembre 2026)",
         "url": "https://fourweekmba.com/ai-dell-falls-11-5-before-results-half-its-september-peak/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-aurubis-avertissement-richmond",
+    "date": "2026-11-25",
+    "region": "Europe",
+    "theme": "fin",
+    "zones": [
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "coords": [
+          9.99,
+          53.55
+        ],
+        "name": "Hambourg, Allemagne",
+        "label": "Allemagne"
+      },
+      {
+        "coords": [
+          -81.97,
+          33.47
+        ],
+        "name": "Augusta, États-Unis",
+        "label": "États-Unis"
+      }
+    ],
+    "title": "Cuivre : des fours à refaire dans son usine américaine, le géant allemand Aurubis prévient que ses profits vont baisser, l'action chute de plus de 10 %",
+    "summary": "Aurubis, premier producteur de cuivre d'Europe, a annoncé mardi 24 novembre un bénéfice 2026/27 inférieur aux attentes du marché, à cause de son usine de recyclage de Richmond, en Géorgie (États-Unis), dont les fours doivent être modifiés. L'action a perdu jusqu'à 13 % [1][2][3][8].",
+    "points": [
+      "Le groupe de Hambourg vise un bénéfice d'exploitation avant impôts de 430 à 530 millions d'euros pour l'exercice 2026/27, en dessous des attentes du marché, selon son communiqué réglementaire [1].",
+      "Le milieu de la fourchette, 480 millions, est inférieur au résultat de l'exercice qui vient de s'achever : 516 millions d'euros selon les chiffres provisoires, contre 355 millions un an plus tôt [1][2].",
+      "En cause, Richmond : « certains éléments des fours de fusion doivent être modifiés », explique Aurubis. Les travaux sur le système de suspension des fours prendront six mois [1][2].",
+      "L'usine pèsera encore sur les comptes en 2026/27, à peu près autant que l'an dernier, et n'atteindra sa pleine capacité technique qu'au second semestre 2028 [1].",
+      "L'action a perdu 13 % peu avant midi, puis environ 10 % ; les matières premières ont été le pire secteur d'un indice européen Stoxx 600 en léger recul [2][3]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : le pari américain d'Aurubis coûte plus cher et plus longtemps que prévu, et c'est la deuxième mauvaise nouvelle sur cette usine en quatre mois [1][5].",
+      "Richmond, près d'Augusta, a coûté environ 800 millions de dollars. Elle doit recycler jusqu'à 180 000 tonnes par an de matériaux de recyclage complexes pour en tirer du cuivre, du nickel, de l'étain et des métaux précieux [4]. Le patron Toralf Haag la présentait en 2025 comme le « pionnier du recyclage multimétaux aux États-Unis » [4].",
+      "Le marché visé est énorme : l'industrie américaine consomme environ 1,8 million de tonnes de cuivre par an et importe environ la moitié de ce qu'elle transforme, selon Aurubis [4].",
+      "En août, Aurubis avait déjà repoussé le démarrage de Richmond à cause de problèmes techniques et d'un mélange de déchets moins favorable, et réduit ce que l'usine doit rapporter à moyen terme [5][7]."
+    ],
+    "forMe": "Le cuivre est partout : fils électriques, voitures électriques, centres de données. Si ton épargne (assurance-vie, PEA) contient un fonds d'actions européennes, Aurubis y figure peut-être ; surtout, cette affaire rappelle que bâtir des usines aux États-Unis reste coûteux pour les groupes européens.",
+    "figures": [
+      {
+        "value": "430 à 530 M€",
+        "label": "bénéfice avant impôts visé en 2026/27, contre 516 M€ en 2025/26",
+        "src": 1
+      },
+      {
+        "value": "−13 %",
+        "label": "chute de l'action Aurubis mardi en fin de matinée",
+        "src": 3
+      },
+      {
+        "value": "2e semestre 2028",
+        "label": "pleine capacité technique de l'usine de Richmond",
+        "src": 1
+      }
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : l'« ad hoc » qui fait chuter une action",
+        "text": "En Allemagne, une entreprise cotée doit publier sans attendre, par un communiqué « ad hoc », toute information qui peut faire bouger son cours. C'est ce qu'a fait Aurubis : sa prévision de 430 à 530 millions d'euros était « inférieure aux attentes du marché » [1], c'est-à-dire à la moyenne des prévisions des analystes, sur laquelle le cours de Bourse était calé. L'écart se corrige donc d'un coup, ici jusqu'à 13 % de baisse [3]. Pour un fondeur et recycleur comme Aurubis, le bénéfice ne dépend pas que du prix du cuivre : il dépend aussi des frais qu'il facture pour traiter et raffiner les minerais et les déchets, et Aurubis a déjà cité des frais de traitement plus faibles comme un frein [10]. Une usine qui tourne mal, comme Richmond, fait monter les coûts sans rapporter ces frais [1]."
+      }
+    },
+    "past": {
+      "title": "Les précédents : les avertissements d'Aurubis",
+      "items": [
+        {
+          "when": "31 août 2023",
+          "what": "Aurubis découvre un important manque de métal dans son activité de recyclage, renonce à sa prévision de 450 à 550 millions d'euros de bénéfice, et son action plonge jusqu'à 18 % [8]. Le préjudice de cette escroquerie, impliquant des fournisseurs et des salariés, est ensuite chiffré à 198 millions de dollars [9].",
+          "lesson": "Le recyclage est un métier à risques : contrôler ce qu'on achète et ce qu'on produit est délicat."
+        },
+        {
+          "when": "24 septembre 2025",
+          "what": "Aurubis lance la production à Richmond, un investissement d'environ 800 millions de dollars et plus de 240 emplois en Géorgie [4].",
+          "lesson": "C'est la plus grosse mise du groupe hors d'Europe : ses retards pèsent lourd."
+        },
+        {
+          "when": "Août 2026",
+          "what": "Malgré un bénéfice en hausse et une prévision relevée à 425-525 millions d'euros, l'action recule : la montée en puissance de Richmond est retardée [5][7]. L'analyste Stefan Augustin, de Warburg Research, parle d'une « déception » [6].",
+          "lesson": "Le marché regarde l'avenir : un bon trimestre ne compense pas une usine en retard."
+        }
+      ]
+    },
+    "culture": [],
+    "dossiers": [],
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "Aurubis",
+          "ticker": "NDA",
+          "move": "−10 %",
+          "why": "L'action a perdu environ 10 % après l'annonce, selon Investing.com, et jusqu'à 13 % en fin de matinée selon MarketScreener [2][3]."
+        }
+      ]
+    },
+    "next": [
+      {
+        "when": "Dans six mois",
+        "what": "Fin prévue des six mois de travaux sur les fours de Richmond, annoncés le 24 novembre [1][2]."
+      },
+      {
+        "when": "Second semestre 2028",
+        "what": "Richmond doit atteindre sa pleine capacité technique, selon Aurubis [1]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "MarketScreener (communiqué Aurubis)",
+        "name": "MarketScreener, « Aurubis AG: Aurubis expects FY 2026/27 operating earnings before taxes below market expectations due to extended ramp-up of Richmond » (24 novembre 2026)",
+        "url": "https://www.marketscreener.com/news/aurubis-ag-aurubis-expects-fy-2026-27-operating-earnings-before-taxes-below-market-expectations-due-ce7851dad081f021"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Aurubis shares fall 10% on Richmond plant delays » (24 novembre 2026)",
+        "url": "https://www.investing.com/news/stock-market-news/aurubis-shares-fall-10-on-richmond-plant-delays-93CH-5047475"
+      },
+      {
+        "short": "MarketScreener",
+        "name": "MarketScreener, « European stock markets mostly lower, Aurubis plunges after profit warning » (24 novembre 2026)",
+        "url": "https://www.marketscreener.com/news/european-stock-markets-mostly-lower-aurubis-plunges-after-profit-warning-ce7851dbd98cf52c"
+      },
+      {
+        "short": "Aurubis",
+        "name": "Aurubis, « Aurubis Richmond: First U.S. multimetal recycling plant starts production of strategic metals » (24 septembre 2025)",
+        "url": "https://www.aurubis.com/richmond/media/Press-Releases/aurubis-richmond-first-us-multimetal-recycling-plant-starts-production-of-strategic-metals"
+      },
+      {
+        "short": "t-online (dpa-AFX)",
+        "name": "t-online / dpa-AFX, « Hoher Kupferpreis treibt Aurubis an - Verzögerungen im neuen US-Werk » (août 2026)",
+        "url": "https://www.t-online.de/finanzen/boerse/ticker/hoher-kupferpreis-treibt-aurubis-an-verzoegerungen-im-neuen-us-werk/0DBA0C00BA1F1C64/"
+      },
+      {
+        "short": "Börse Online (dpa-AFX)",
+        "name": "Börse Online / dpa-AFX, « ROUNDUP 2: Hoher Kupferpreis treibt Aurubis an - Verzögerungen im neuen US-Werk » (août 2026)",
+        "url": "https://www.boerse-online.de/dpa-afx/roundup-2-hoher-kupferpreis-treibt-aurubis-an-verzoegerungen-im-neuen-us-werk-543299.html"
+      },
+      {
+        "short": "MarketBeat",
+        "name": "MarketBeat, « Aurubis Q3 Earnings Call Highlights » (6 août 2026)",
+        "url": "https://www.marketbeat.com/instant-alerts/aurubis-q3-earnings-call-highlights-2026-08-06/"
+      },
+      {
+        "short": "Bloomberg",
+        "name": "Bloomberg, « Europe's Top Copper Producer Aurubis Hit by Huge Metals Scam » (31 août 2023)",
+        "url": "https://www.bloomberg.com/news/articles/2023-08-31/copper-producer-aurubis-warns-of-losses-from-missing-metal"
+      },
+      {
+        "short": "Fortune",
+        "name": "Fortune, « Europe's largest copper producer is the victim of metal swindle worth $198 million » (20 septembre 2023)",
+        "url": "https://fortune.com/europe/2023/09/20/europe-largest-copper-producer-aurubis-victim-metal-heist-worth-198-million-insiders-involved/"
+      },
+      {
+        "short": "Reuters (Mining.com)",
+        "name": "Reuters via Mining.com, « Aurubis sees lower profit on weak copper refining charges »",
+        "url": "https://www.mining.com/web/aurubis-sees-profit-decline-amid-lower-copper-refining-charges"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-analog-devices-record-action-chute",
+    "date": "2026-11-25",
+    "region": "Amériques",
+    "theme": "fin",
+    "zones": [
+      "Amérique du Nord"
+    ],
+    "geo": [
+      {
+        "coords": [
+          -71.17,
+          42.55
+        ],
+        "name": "Wilmington, États-Unis",
+        "label": "États-Unis"
+      }
+    ],
+    "title": "Analog Devices bat tous ses records, mais son action dégringole de plus de 10 % : le fabricant de puces annonce un trimestre à venir sans croissance",
+    "summary": "Mardi 24 novembre, l'américain Analog Devices a publié un chiffre d'affaires trimestriel record de 4,37 milliards de dollars, au-dessus des attentes. Mais sa prévision de bénéfice pour le trimestre suivant, inférieure au consensus, a fait chuter l'action de plus de 10 % avant l'ouverture de Wall Street [1][3][5].",
+    "points": [
+      "Sur le trimestre août-octobre, les ventes atteignent 4,37 milliards de dollars, en hausse de 42 % sur un an, contre 4,32 milliards attendus [1][3][5][7].",
+      "Le bénéfice par action ajusté ressort à 4,06 dollars, contre 3,89 dollars attendus par les analystes, selon Investing.com [3].",
+      "Sur l'exercice 2026, le chiffre d'affaires grimpe de 38 %, à 15,2 milliards de dollars, et 5,4 milliards ont été rendus aux actionnaires en dividendes et rachats d'actions [1].",
+      "Pour le trimestre qui finit le 30 janvier 2027, le groupe vise 4,4 milliards de dollars de ventes, à 150 millions près, et 3,82 dollars de bénéfice par action ajusté, à 20 cents près [1][2].",
+      "Cette prévision est inférieure aux attentes, autour de 3,86 à 3,89 dollars selon les médias [4][6]. Avant l'ouverture, l'action perdait 10,5 %, à 339,01 dollars, selon GuruFocus [5] ; d'autres relevés montrent une baisse plus forte [3]."
+    ],
+    "why": [
+      "Ce qu'il faut retenir : en Bourse, on achète l'avenir. Un record ne suffit pas quand le trimestre suivant s'annonce plat, après une croissance de 42 % [5].",
+      "Analog Devices fabrique des puces « analogiques », qui transforment des signaux du monde réel (son, température, courant électrique) en données numériques : on en trouve dans les usines, les voitures, les réseaux et les centres de données.",
+      "Son patron, Vincent Roche, souligne que « plus des deux tiers » de la croissance de 2026 viennent de marchés sans lien direct avec l'intelligence artificielle, même si les infrastructures d'IA ont dopé les ventes aux centres de données [1]. Une façon de dire que l'entreprise ne dépend pas seulement de la mode de l'IA.",
+      "Le scénario n'est pas nouveau : en mai, l'action avait déjà reculé malgré un trimestre et des prévisions supérieures aux attentes [8]."
+    ],
+    "forMe": "Si tu as un fonds indiciel sur le Nasdaq ou les valeurs technologiques américaines, ces chutes après de bons résultats se répètent cet automne. Elles montrent que les prix intègrent déjà beaucoup d'optimisme : la moindre déception se paie cher.",
+    "figures": [
+      {
+        "value": "4,37 Md$",
+        "label": "chiffre d'affaires trimestriel record, +42 % sur un an",
+        "src": 1
+      },
+      {
+        "value": "3,82 $",
+        "label": "bénéfice par action visé au trimestre suivant, contre 4,06 $ au dernier",
+        "src": 1
+      },
+      {
+        "value": "−10,5 %",
+        "label": "l'action avant l'ouverture de Wall Street mardi",
+        "src": 5
+      }
+    ],
+    "deep": {
+      "explainer": {
+        "title": "Comment ça marche : pourquoi une action baisse malgré de bons résultats",
+        "text": "Le cours d'une action reflète ce que les investisseurs attendent des bénéfices futurs. Les analystes publient des prévisions, dont la moyenne s'appelle le « consensus ». Le jour des résultats, deux chiffres comptent : le trimestre passé, comparé au consensus (ici 4,06 dollars de bénéfice par action contre 3,89 attendus [3]), et la prévision de l'entreprise pour le trimestre suivant, appelée « guidance ». Analog Devices vise 3,82 dollars [1], moins que les quelque 3,86 à 3,89 dollars espérés [4][6], et des ventes de 4,4 milliards, à peine plus que les 4,37 milliards du trimestre écoulé [1]. Comme le cours intégrait une croissance continue, il s'ajuste à la baisse, même après un record [5]."
+      }
+    },
+    "past": {
+      "title": "Les précédents : Analog Devices, des records mal récompensés",
+      "items": [
+        {
+          "when": "17 août 2022",
+          "what": "Analog Devices publie un trimestre record mais prévient que l'incertitude économique commence à peser sur les commandes : l'action chute de plus de 5 % [10][11].",
+          "lesson": "Le ton de la direction sur l'avenir pèse plus lourd que les chiffres passés."
+        },
+        {
+          "when": "20 mai 2026",
+          "what": "Après un trimestre et des prévisions au-dessus des attentes, et l'annonce du rachat d'Empower Semiconductor pour 1,5 milliard de dollars, l'action perd près de 6 % [8][9].",
+          "lesson": "Après une forte hausse, les investisseurs encaissent leurs gains même sur de bonnes nouvelles."
+        },
+        {
+          "when": "24 novembre 2026",
+          "what": "Un chiffre d'affaires record de 4,37 milliards de dollars, mais une prévision de 3,82 dollars par action sous le consensus : l'action recule de plus de 10 % avant l'ouverture [1][5].",
+          "lesson": "Troisième épisode du même scénario : le marché exige plus que des records."
+        }
+      ]
+    },
+    "culture": [],
+    "dossiers": [
+      "semi-conducteurs"
+    ],
+    "markets": {
+      "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+      "items": [
+        {
+          "name": "Analog Devices",
+          "ticker": "ADI",
+          "move": "−10,5 %",
+          "why": "Recul avant l'ouverture mardi, à 339,01 dollars, selon GuruFocus ; Investing.com a relevé des baisses plus fortes en séance [5][3]."
+        }
+      ]
+    },
+    "next": [
+      {
+        "when": "30 janvier 2027",
+        "what": "Fin du premier trimestre de l'exercice 2027, pour lequel Analog Devices vise 4,4 milliards de dollars de ventes [1]."
+      }
+    ],
+    "sources": [
+      {
+        "short": "SEC (Analog Devices)",
+        "name": "Analog Devices, communiqué des résultats du T4 et de l'exercice 2026, annexe 99.1 du formulaire 8-K déposé à la SEC (24 novembre 2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000006281/000000628126000087/adiq426exhibit991.htm"
+      },
+      {
+        "short": "PR Newswire (Analog Devices)",
+        "name": "PR Newswire, « Analog Devices Reports Record Fourth Quarter and Fiscal 2026 Financial Results » (24 novembre 2026)",
+        "url": "https://www.prnewswire.com/news-releases/analog-devices-reports-record-fourth-quarter-and-fiscal-2026-financial-results-302948778.html"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Earnings call transcript: Analog Devices beats Q4 2026 estimates, shares slide » (24 novembre 2026)",
+        "url": "https://ca.investing.com/news/stock-market-news/earnings-call-transcript-analog-devices-beats-q4-2026-estimates-shares-slide-93CH-4978795"
+      },
+      {
+        "short": "Reuters (Investing.com)",
+        "name": "Reuters via Investing.com, « Analog Devices unveils lower-than-expected first-quarter earnings forecast » (24 novembre 2026)",
+        "url": "https://www.investing.com/news/stock-market-news/analog-devices-unveils-lowerthanexpected-firstquarter-earnings-forecast-5047864"
+      },
+      {
+        "short": "GuruFocus",
+        "name": "GuruFocus, « Analog Devices Stocks Fall 10.49% as Flat First-Quarter Guide Follows Record 42% Growth » (24 novembre 2026)",
+        "url": "https://www.gurufocus.com/news/9217261/analog-devices-stocks-fall-1049-as-flat-firstquarter-guide-follows-record-42-growth"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « Analog Devices Shares Fall as First-Quarter Earnings Guidance Misses Expectations » (24 novembre 2026)",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-shares-fall-first-141723564.html"
+      },
+      {
+        "short": "Yahoo Finance",
+        "name": "Yahoo Finance, « What Analog Devices (ADI) Said on Its Q4 Earnings Call » (novembre 2026)",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-said-q4-171603665.html"
+      },
+      {
+        "short": "Seeking Alpha",
+        "name": "Seeking Alpha, « Analog Devices sinks even as Q2 results, guidance top estimates » (20 mai 2026)",
+        "url": "https://seekingalpha.com/news/4595243-analog-devices-slips-even-as-q2-results-guidance-top-estimates"
+      },
+      {
+        "short": "Invezz",
+        "name": "Invezz, « Why is Analog Devices stock falling despite strong earnings and AI deal? » (20 mai 2026)",
+        "url": "https://invezz.com/news/2026/05/20/why-is-analog-devices-stock-falling-despite-strong-earnings-and-ai-deal/"
+      },
+      {
+        "short": "BNN Bloomberg",
+        "name": "BNN Bloomberg, « Analog Devices falls after warning of economic uncertainty » (17 août 2022)",
+        "url": "https://www.bnnbloomberg.ca/analog-devices-falls-after-warning-of-economic-uncertainty-1.1807086"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Analog Devices tumbles as uncertainty begins to impact bookings » (17 août 2022)",
+        "url": "https://uk.investing.com/news/stock-market-news/analog-devices-tumbles-as-uncertainty-begins-to-impact-bookings-432SI-2725036"
       }
     ]
   },
