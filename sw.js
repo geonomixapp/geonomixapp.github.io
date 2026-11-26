@@ -1,6 +1,6 @@
 // Service worker : met l'application en cache pour qu'elle marche hors connexion.
 // Pense à changer la version quand tu modifies des fichiers, pour forcer la mise à jour.
-const CACHE = "geonomix-v133";
+const CACHE = "geonomix-v134";
 const FILES = [
   "./",
   "index.html",
@@ -19,6 +19,7 @@ const FILES = [
   "duel-db.js",
   "notifs.js",
   "compare.js",
+  "pdfview.js",
   "data/content.js",
   "data/news.js",
   "data/culture.js",
@@ -63,6 +64,8 @@ self.addEventListener("activate", (event) => {
 // Réseau d'abord (pour avoir le contenu le plus frais), cache en secours.
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
+  // Tuiles satellite du zoom (NASA GIBS) : pas de cache, il y en aurait des centaines.
+  if (event.request.url.includes("gibs.earthdata.nasa.gov")) return;
   event.respondWith(
     fetch(event.request)
       .then((res) => {

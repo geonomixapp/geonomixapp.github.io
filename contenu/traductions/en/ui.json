@@ -591,7 +591,11 @@
   "pour l'action": "for the stock",
   "Ce qu'il faut retenir.": "Key takeaways.",
   "Ce qu'on va regarder.": "What we'll be watching.",
-  "Les résultats d'entreprises sont compris dans l'abonnement : chiffres publiés face aux attentes, objectifs relevés ou abaissés, réaction de l'action.": "Company earnings are included in the subscription: reported figures vs expectations, guidance raised or cut, and the stock's reaction."
+  "Les résultats d'entreprises sont compris dans l'abonnement : chiffres publiés face aux attentes, objectifs relevés ou abaissés, réaction de l'action.": "Company earnings are included in the subscription: reported figures vs expectations, guidance raised or cut, and the stock's reaction.",
+  "Enregistrer le PDF": "Save the PDF",
+  "Chargement…": "Loading…",
+  "Impossible d'ouvrir ce PDF.": "This PDF can't be opened.",
+  "L'ouvrir quand même": "Open it anyway"
  },
  "months": {
   "janvier": "Jan.",

@@ -588,7 +588,11 @@
   "pour l'action": "per il titolo",
   "Ce qu'il faut retenir.": "Cosa ricordare.",
   "Ce qu'on va regarder.": "Cosa guarderemo.",
-  "Les résultats d'entreprises sont compris dans l'abonnement : chiffres publiés face aux attentes, objectifs relevés ou abaissés, réaction de l'action.": "I risultati aziendali sono inclusi nell'abbonamento: cifre pubblicate rispetto alle attese, obiettivi alzati o ridotti e reazione del titolo."
+  "Les résultats d'entreprises sont compris dans l'abonnement : chiffres publiés face aux attentes, objectifs relevés ou abaissés, réaction de l'action.": "I risultati aziendali sono inclusi nell'abbonamento: cifre pubblicate rispetto alle attese, obiettivi alzati o ridotti e reazione del titolo.",
+  "Enregistrer le PDF": "Salva il PDF",
+  "Chargement…": "Caricamento…",
+  "Impossible d'ouvrir ce PDF.": "Impossibile aprire questo PDF.",
+  "L'ouvrir quand même": "Aprilo comunque"
  },
  "months": {
   "janvier": "gennaio",

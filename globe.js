@@ -159,21 +159,123 @@
     go();
   }
 
-  // Ajoute une couche de nuages qui tourne lentement, en réutilisant les classes three.js du globe.
-  function addClouds(world) {
+  // La sphère du globe n'existe qu'après le premier rendu de globe.gl : on l'attend (5 s au plus).
+  function withGlobeMesh(world, cb, tries = 0) {
+    let mesh = null;
     try {
-      let globeMesh = null;
       world.scene().traverse((o) => {
-        if (!globeMesh && o.isMesh && o.geometry && o.geometry.type === "SphereGeometry") globeMesh = o;
+        if (!mesh && o.isMesh && o.geometry && o.geometry.type === "SphereGeometry" && o.material === world.globeMaterial()) mesh = o;
       });
-      if (!globeMesh) return;
+    } catch (e) {}
+    if (mesh) return cb(mesh);
+    if (tries < 50) setTimeout(() => withGlobeMesh(world, cb, tries + 1), 100);
+  }
+
+  // Plus on zoome, plus on a de détails (demande de l'auteur, 26 nov. 2026) : quand on s'approche, une pièce
+  // d'image satellite plus fine est posée sur la partie visible du globe. Tuiles NASA GIBS (Blue Marble avec
+  // relief et fonds marins, domaine public, projection géographique : 512 px par tuile, niveau 0 = 180° par tuile).
+  // L'image de base reste dessous : si une tuile manque ou que le réseau coupe, on voit simplement l'image 8K.
+  const GIBS = "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/BlueMarble_ShadedRelief_Bathymetry/default/500m/";
+  const GIBS_MAX = 7;
+  const tileCache = new Map();
+  function tileImg(z, y, x) {
+    const k = `${z}/${y}/${x}`;
+    if (!tileCache.has(k)) {
+      tileCache.set(k, new Promise((res) => {
+        const img = new Image();
+        img.crossOrigin = "anonymous";
+        img.onload = () => res(img);
+        img.onerror = () => { tileCache.delete(k); res(null); };
+        img.src = `${GIBS}${z}/${y}/${x}.jpeg`;
+      }));
+      if (tileCache.size > 400) tileCache.delete(tileCache.keys().next().value);
+    }
+    return tileCache.get(k);
+  }
+  function addDetail(world) { withGlobeMesh(world, (globeMesh) => detailOn(world, globeMesh)); }
+  function detailOn(world, globeMesh) {
+    try {
+      const Material = world.globeMaterial().constructor;
+      const R = globeMesh.geometry.parameters.radius;
+      const maxTex = Math.min(4096, world.renderer().capabilities.maxTextureSize || 4096);
+      let patch = null, job = 0, shown = "", zCap = GIBS_MAX;
+      const hide = () => { if (patch) patch.visible = false; shown = ""; };
+      const update = () => update0().catch(() => {});
+      const update0 = async () => {
+        if (!document.body.contains(world.renderer().domElement)) return;
+        const pov = world.pointOfView();
+        if (!pov || pov.altitude > 1.25) return hide();
+        // Étendue visible (en degrés) et niveau de tuiles qui donne au moins un pixel d'image par pixel d'écran.
+        const el = world.renderer().domElement;
+        const px = Math.max(el.width, el.height);
+        const span = Math.min(170, pov.altitude * 62);
+        let z = 0;
+        while (z < zCap && 180 / (Math.pow(2, z) * 512) > span / px) z++;
+        if (z <= 3) return hide(); // l'image 8K suffit à ce niveau
+        const deg = 180 / Math.pow(2, z);            // degrés couverts par une tuile
+        const nx = 2 * Math.pow(2, z), ny = Math.pow(2, z);
+        const cosLat = Math.max(0.2, Math.cos(pov.lat * Math.PI / 180));
+        const half = span * 0.85;
+        let y0 = Math.floor((90 - Math.min(89.9, pov.lat + half)) / deg), y1 = Math.floor((90 - Math.max(-89.9, pov.lat - half)) / deg);
+        let x0 = Math.floor((pov.lng - half / cosLat + 180) / deg), x1 = Math.floor((pov.lng + half / cosLat + 180) / deg);
+        // Pas plus que la taille de texture permise.
+        const maxT = Math.floor(maxTex / 512);
+        while (x1 - x0 + 1 > maxT) { x0++; if (x1 - x0 + 1 > maxT) x1--; }
+        while (y1 - y0 + 1 > maxT) { y0++; if (y1 - y0 + 1 > maxT) y1--; }
+        y0 = Math.max(0, y0); y1 = Math.min(ny - 1, y1);
+        const key = [z, x0, x1, y0, y1].join(",");
+        if (key === shown) return;
+        const my = ++job;
+        const W = x1 - x0 + 1, H = y1 - y0 + 1;
+        const tiles = [];
+        for (let y = y0; y <= y1; y++) for (let x = x0; x <= x1; x++) tiles.push(tileImg(z, y, ((x % nx) + nx) % nx).then((img) => ({ img, x, y })));
+        const got = await Promise.all(tiles);
+        if (my !== job) return;                       // un zoom plus récent a pris le relais
+        if (got.some((t) => !t.img)) {                // tuile manquante : un niveau de moins, sinon l'image de base
+          if (zCap > 4 && z > 4) { zCap = z - 1; shown = ""; return update0(); }
+          return;
+        }
+        const c = document.createElement("canvas");
+        c.width = W * 512; c.height = H * 512;
+        const g = c.getContext("2d");
+        got.forEach((t) => g.drawImage(t.img, (t.x - x0) * 512, (t.y - y0) * 512, 512, 512));
+        const base = world.globeMaterial().map;
+        const tex = new base.constructor(c);          // texture neuve (un clone partagerait l'image du globe)
+        tex.colorSpace = base.colorSpace;
+        tex.anisotropy = Math.min(16, world.renderer().capabilities.getMaxAnisotropy());
+        tex.needsUpdate = true;
+        const lonStart = x0 * deg - 180, latTop = 90 - y0 * deg;
+        const seg = Math.max(8, Math.ceil(W * deg / 2)), segH = Math.max(8, Math.ceil(H * deg / 2));
+        const geo = new globeMesh.geometry.constructor(R * 1.0006, seg, segH,
+          (lonStart + 180) * Math.PI / 180, W * deg * Math.PI / 180,
+          (90 - latTop) * Math.PI / 180, H * deg * Math.PI / 180);
+        if (!patch) {
+          patch = new globeMesh.constructor(geo, new Material({ map: tex }));
+          globeMesh.parent.add(patch);
+          patch.position.copy(globeMesh.position); patch.rotation.copy(globeMesh.rotation); patch.scale.copy(globeMesh.scale);
+        } else {
+          const old = patch.material.map; patch.geometry.dispose(); patch.geometry = geo;
+          patch.material.map = tex; patch.material.needsUpdate = true; if (old) old.dispose();
+        }
+        patch.visible = true;
+        shown = key;
+      };
+      // Au plus une mise à jour toutes les 400 ms (le globe qui tourne seul envoie un « change » à chaque image).
+      let t = null;
+      world.controls().addEventListener("change", () => { if (!t) t = setTimeout(() => { t = null; update(); }, 400); });
+    } catch (e) { /* bonus : l'image de base suffit si ça échoue */ }
+  }
+
+  // Ajoute une couche de nuages qui tourne lentement, en réutilisant les classes three.js du globe.
+  function addClouds(world) { withGlobeMesh(world, (globeMesh) => cloudsOn(world, globeMesh)); }
+  function cloudsOn(world, globeMesh) {
+    try {
       const Material = world.globeMaterial().constructor;
       const img = new Image();
       img.onload = () => {
         const tex = world.globeMaterial().map;
         if (!tex) return;
-        const alpha = tex.clone();
-        alpha.image = img;
+        const alpha = new tex.constructor(img);       // texture neuve (un clone partagerait l'image du globe)
         alpha.needsUpdate = true;
         const mat = new Material({ color: 0xffffff, alphaMap: alpha, transparent: true, depthWrite: false, opacity: 0.85 });
         const clouds = new globeMesh.constructor(globeMesh.geometry, mat);
@@ -423,6 +525,7 @@
     };
     window.addEventListener("resize", onResize);
     crisp(world);
+    addDetail(world);
     return { world, show, destroy() { try { world.pauseAnimation(); world.renderer().dispose(); } catch (e) {} } };
   }
 
@@ -530,8 +633,10 @@
         if (onOpen) onOpen(p);
       }
 
-      addClouds(world);
+      // Nuages (addClouds) : jamais affichés jusqu'ici (la sphère n'était pas encore créée), laissés éteints
+      // pour ne pas cacher les détails du zoom.
       crisp(world);
+      addDetail(world);
 
       // Anti-chevauchement : plusieurs fois par seconde, on masque les étiquettes qui en recouvrent
       // une autre plus importante (plus d'actus). Les points lumineux restent toujours visibles.

@@ -592,7 +592,11 @@
   "pour l'action": "für die Aktie",
   "Ce qu'il faut retenir.": "Das Wichtigste.",
   "Ce qu'on va regarder.": "Worauf wir achten.",
-  "Les résultats d'entreprises sont compris dans l'abonnement : chiffres publiés face aux attentes, objectifs relevés ou abaissés, réaction de l'action.": "Unternehmenszahlen sind im Abo enthalten: gemeldete Zahlen gegenüber den Erwartungen, angehobene oder gesenkte Prognosen und die Reaktion der Aktie."
+  "Les résultats d'entreprises sont compris dans l'abonnement : chiffres publiés face aux attentes, objectifs relevés ou abaissés, réaction de l'action.": "Unternehmenszahlen sind im Abo enthalten: gemeldete Zahlen gegenüber den Erwartungen, angehobene oder gesenkte Prognosen und die Reaktion der Aktie.",
+  "Enregistrer le PDF": "PDF speichern",
+  "Chargement…": "Wird geladen…",
+  "Impossible d'ouvrir ce PDF.": "Dieses PDF lässt sich nicht öffnen.",
+  "L'ouvrir quand même": "Trotzdem öffnen"
  },
  "months": {
   "janvier": "Januar",
