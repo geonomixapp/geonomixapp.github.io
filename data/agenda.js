@@ -8,48 +8,6 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.agenda = [
   {
-    "id": "2026-11-25-sommet-ue-balkans-occidentaux",
-    "date": "2026-11-25",
-    "theme": "geo",
-    "region": "Europe",
-    "place": "Bruxelles, Belgique",
-    "title": "Sommet entre l'UE et les six pays des Balkans occidentaux",
-    "why": "Les dirigeants de l'UE et des Balkans occidentaux se retrouvent à Bruxelles pour parler d'adhésion, du plan de croissance pour la région et de sécurité, après le sommet de Tivat en juin [1][2]. L'UE y teste la crédibilité de ses promesses d'élargissement, au moment où la Serbie s'éloigne de Bruxelles [2].",
-    "sources": [
-      {
-        "short": "New Union Post",
-        "name": "New Union Post, « EU-Western Balkans summit 2026 in Brussels » (23 octobre 2026)",
-        "url": "https://newunionpost.eu/2026/10/23/eu-western-balkans-summit-2026-brussels/"
-      },
-      {
-        "short": "Brussels Times",
-        "name": "The Brussels Times, « Western Balkans summit to test EU's resolve as membership pledges face scrutiny »",
-        "url": "https://www.brusselstimes.com/2374955/western-balkans-summit-to-test-eus-resolve-as-membership-pledges-face-scrutiny"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-25-etats-unis-pib-pce",
-    "date": "2026-11-25",
-    "theme": "eco",
-    "region": "Amériques",
-    "place": "Washington, États-Unis",
-    "title": "États-Unis : PIB du 3e trimestre et inflation PCE d'octobre",
-    "why": "Le même jour, le Bureau d'analyse économique publie la deuxième estimation de la croissance de juillet-septembre et les revenus et dépenses des ménages d'octobre, dont l'indice de prix PCE suivi par la Fed [1][2]. Ces chiffres arrivent deux semaines avant la réunion de la Fed du 8 décembre.",
-    "sources": [
-      {
-        "short": "BEA",
-        "name": "Bureau of Economic Analysis, calendrier des publications (Personal Income and Outlays, October 2026 ; GDP Second Estimate, 3rd Quarter 2026)",
-        "url": "https://www.bea.gov/news/schedule/"
-      },
-      {
-        "short": "Finance Calendar",
-        "name": "Finance Calendar, « US Gross Domestic Product November 2026 »",
-        "url": "https://www.financecalendar.com/?p=1310"
-      }
-    ]
-  },
-  {
     "id": "2026-11-26-argentine-deputes-budget-2027",
     "date": "2026-11-26",
     "theme": "eco",
@@ -131,6 +89,48 @@ window.GEOCO.agenda = [
         "short": "Insee",
         "name": "Insee, Informations rapides n° 271, « Indice des prix à la consommation, résultats définitifs, octobre 2026 » (13 nov. 2026), avec la date de la prochaine parution",
         "url": "https://insee.fr/fr/statistiques/9131332"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-allemagne-bundestag-budget-2027",
+    "date": "2026-11-27",
+    "theme": "eco",
+    "region": "Europe",
+    "place": "Berlin, Allemagne",
+    "title": "Allemagne : le Bundestag vote le budget fédéral 2027",
+    "why": "Les députés allemands votent en troisième lecture un budget d'environ 560,9 milliards d'euros de dépenses, adopté le 13 novembre en commission [1], avec une nouvelle dette qui monte à 210 milliards d'euros en comptant les fonds spéciaux [2]. Un vote qui fixe la dette de la première économie européenne pour 2027.",
+    "sources": [
+      {
+        "short": "Bundestag",
+        "name": "Bundestag, « Haushaltsgesetz 2027 : dritte Lesung » (textarchiv, semaine 48) et hib 939/2026 (13 novembre 2026)",
+        "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw48-de-haushaltsgesetz-2027-dritte-lesung-1232350"
+      },
+      {
+        "short": "Börsen-Zeitung",
+        "name": "Börsen-Zeitung, « Neuverschuldung steigt auf 210 Mrd. Euro » (novembre 2026)",
+        "url": "https://www.boersen-zeitung.de/konjunktur-politik/neuverschuldung-steigt-auf-210-mrd-euro"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-nouvelle-zelande-resultats-officiels",
+    "date": "2026-11-27",
+    "theme": "geo",
+    "region": "Asie",
+    "place": "Wellington, Nouvelle-Zélande",
+    "title": "Nouvelle-Zélande : résultats officiels des législatives",
+    "why": "La Commission électorale proclame les résultats définitifs du scrutin du 7 novembre, après le dépouillement des votes spéciaux [1]. Au décompte provisoire, la coalition sortante de Christopher Luxon n'avait qu'un siège de majorité, 67 sur 131 [2] : les votes spéciaux, traditionnellement plus favorables à la gauche, peuvent faire basculer le gouvernement.",
+    "sources": [
+      {
+        "short": "Elections NZ",
+        "name": "Electoral Commission (Te Kaitiaki Take Kōwhiri), « 2026 General Election media kit »",
+        "url": "https://elections.nz/assets/2026-Media-Kit-/2026-General-Election-media-kit.pdf"
+      },
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « New Zealand's governing coalition holds slim majority in preliminary count » (7 novembre 2026)",
+        "url": "https://www.aljazeera.com/news/2026/11/7/governing-party-leads-in-new-zealands-knife-edge-vote-early-results"
       }
     ]
   },
