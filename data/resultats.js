@@ -1290,21 +1290,25 @@ window.GEOCO.resultats = [
       {
         "label": "Chiffre d'affaires",
         "unit": "Md$",
-        "exp": 2.745,
-        "src": 2
+        "exp": 2.69,
+        "act": 2.705,
+        "src": 5
       },
       {
         "label": "Bénéfice par action ajusté",
         "unit": "$",
-        "exp": 2.8,
-        "src": 2
+        "exp": 2.74,
+        "act": 2.82,
+        "src": 5
       }
     ],
-    "summary": "Le spécialiste des logiciels de paie et de ressources humaines doit montrer que l'intelligence artificielle relance ses ventes, comme promis pour le second semestre [3].",
+    "summary": "Workday bat les attentes et relève son objectif annuel, mais l'action chute d'environ 9 % parce qu'il prévoit un ralentissement de la croissance de ses abonnements à 10 % au trimestre suivant [4][8][10].",
     "points": [
-      "Chartmill attend 2,80 dollars par action et 2,745 milliards de dollars de chiffre d'affaires [2] ; selon Earnings Whispers, le consensus est de 2,74 dollars et environ 2,69 milliards [3].",
-      "C'est le premier trimestre où l'envolée des contrats liés à l'IA promise pour le second semestre devra apparaître dans les chiffres, selon Earnings Whispers [3].",
-      "Conférence le mardi 24 novembre à 13 h 30, heure du Pacifique, après la clôture de Wall Street [1]."
+      "Chiffre d'affaires de 2,705 milliards de dollars, en hausse de 11,2 % sur un an, dont 2,532 milliards de revenus d'abonnement (+12,8 %) [4], contre 2,69 milliards attendus selon LSEG [5] ; Chartmill, qui attendait 2,745 milliards, parle de résultats simplement conformes [6].",
+      "Bénéfice par action ajusté de 2,82 dollars, contre 2,74 dollars attendus selon LSEG [5] ; selon les normes comptables américaines (GAAP), il est de 0,96 dollar, amputé de 0,21 dollar par des frais de restructuration [4]. La marge opérationnelle ajustée monte à 31,4 %, contre 28,5 % un an plus tôt [4].",
+      "L'intelligence artificielle décolle : les revenus récurrents annuels des produits d'IA dépassent 750 millions de dollars, en hausse de plus de 130 % sur un an [7], et l'IA a apporté près de 150 millions de dollars de nouveaux contrats annuels, plus du triple d'il y a un an, selon le patron [8].",
+      "Ce qui inquiète : la croissance des abonnements visée au quatrième trimestre, 10 %, est inférieure aux 10,6 % attendus selon une note d'analyste [8], et Morgan Stanley abaisse son objectif de cours à 175 dollars [9]. Le carnet de commandes à 12 mois atteint 9,216 milliards de dollars, en hausse de 12,3 % [4].",
+      "Le consensus de départ variait : 2,74 dollars par action et environ 2,69 milliards selon Earnings Whispers [3], 2,80 dollars et 2,745 milliards selon Chartmill [2]."
     ],
     "sources": [
       {
@@ -1321,8 +1325,57 @@ window.GEOCO.resultats = [
         "short": "Finviz (Earnings Whispers)",
         "name": "Finviz (Earnings Whispers), « Workday's promised second-half AI bookings surge faces its first real test », 16 nov. 2026",
         "url": "https://finviz.com/news/423401/workdays-promised-second-half-ai-bookings-surge-faces-its-first-real-test"
+      },
+      {
+        "short": "Workday",
+        "name": "Workday, « Workday Announces Fiscal 2027 Third Quarter Financial Results » (communiqué), 24 nov. 2026",
+        "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-Announces-Fiscal-2027-Third-Quarter-Financial-Results/default.aspx"
+      },
+      {
+        "short": "ScanX (LSEG)",
+        "name": "ScanX, « Workday Q3 Results: EPS est $2.74, revenue $2.69B; analysts cut targets », nov. 2026",
+        "url": "https://scanx.trade/stock-market-news/companies/workday-q3-results-eps-est-2-74-revenue-2-69b-analysts-cut-targets/57070029"
+      },
+      {
+        "short": "Chartmill",
+        "name": "Chartmill, « Workday (NASDAQ:WDAY) Posts In-Line Results but Shares Slide 7.1% After Hours », 24 nov. 2026",
+        "url": "https://www.chartmill.com/news/WDAY/Chartmill-59147-Workday-NASDAQWDAY-Posts-In-Line-Results-but-Shares-Slide-71-After-Hours"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com, « Workday Q3 FY27 slides: AI ARR surges 130% but stock falls on outlook », 24 nov. 2026",
+        "url": "https://www.investing.com/news/company-news/workday-q3-fy27-slides-ai-arr-surges-130-but-stock-falls-on-outlook-93CH-5049301"
+      },
+      {
+        "short": "The Company Chronicle",
+        "name": "The Company Chronicle, « Workday raises its year, but guides next quarter's subscription growth down to 10% », 24 nov. 2026",
+        "url": "https://thecompanychronicle.com/story/workday-q3-fy27-guide-10-percent-ai-acv-150-million-shares-fall-november-24-2026"
+      },
+      {
+        "short": "Longbridge (Morgan Stanley)",
+        "name": "Longbridge, « Morgan Stanley: Workday's Q3 Results Shine, but AI Struggles to Drive Overall Growth; Price Target Lowered to $175 », nov. 2026",
+        "url": "https://longbridge.com/en/news/306855527"
+      },
+      {
+        "short": "Wisevoter",
+        "name": "Wisevoter, « Workday Shares Fall 9% After Earnings Guidance », 25 nov. 2026",
+        "url": "https://wisevoter.com/world/us/2026/11/25/workday-shares-fall-after-subscription-guidance"
+      },
+      {
+        "short": "TradingView (Seeking Alpha)",
+        "name": "TradingView (Seeking Alpha), « Workday increases full-year subscription revenue well above estimates », 24 nov. 2026",
+        "url": "https://www.tradingview.com/news/seekingalpha:f56cc6898094b:0-workday-increases-full-year-subscription-revenue-well-above-estimates/"
       }
-    ]
+    ],
+    "verdict": "mieux",
+    "guidance": {
+      "dir": "releve",
+      "text": "Workday relève son objectif de revenus d'abonnement pour l'exercice 2027 à 9,958 milliards de dollars, soit 13 % de croissance, et sa marge opérationnelle ajustée visée à 31,5 % [4], contre 9,94 à 9,95 milliards auparavant [8][11]. Mais pour le quatrième trimestre (novembre-janvier), il ne vise qu'environ 2,6 milliards de dollars de revenus d'abonnement, en hausse de 10 %, contre 12,8 % ce trimestre [8]."
+    },
+    "move": {
+      "value": "≈ −9 %",
+      "text": "−7,1 % dans les échanges après la clôture mardi selon Chartmill [6], puis une baisse d'environ 9 % mercredi selon Wisevoter [10]"
+    }
   },
   {
     "id": "deere-t4-2026",
@@ -1334,24 +1387,34 @@ window.GEOCO.resultats = [
     "period": "T4 de l'exercice 2026 (août-octobre 2026)",
     "lines": [
       {
-        "label": "Chiffre d'affaires",
+        "label": "Ventes d'équipements",
         "unit": "Md$",
-        "exp": 10.677,
-        "src": 2
+        "exp": 10.34,
+        "act": 10.51,
+        "src": 6
       },
       {
         "label": "Bénéfice par action",
         "unit": "$",
-        "exp": 4.17,
-        "src": 2
+        "exp": 4.03,
+        "act": 3.89,
+        "src": 6
+      },
+      {
+        "label": "Objectif de bénéfice net 2027 (milieu de fourchette)",
+        "unit": "Md$",
+        "exp": 5.91,
+        "act": 4.875,
+        "src": 7
       }
     ],
-    "summary": "Le premier fabricant mondial de tracteurs dit comment vont les agriculteurs américains, dont le moral est en berne [4].",
+    "summary": "Deere rate les attentes de bénéfice et vise pour 2027 un profit bien inférieur au consensus, mais l'action, en baisse avant l'ouverture, finit la séance en hausse de 4,4 % [5][7][8][9].",
     "points": [
-      "Chartmill attend 4,17 dollars par action et 10,68 milliards de dollars de chiffre d'affaires, Hudson Labs 4,06 dollars et 10,35 milliards [2][3].",
-      "Les attentes ont baissé : selon Chartmill, l'estimation de chiffre d'affaires a été révisée en baisse de 5 % en trois mois [2].",
-      "Le plus regardé sera l'objectif de bénéfice pour l'exercice 2027, qui dira si le creux du marché agricole est passé [3][4].",
-      "Conférence le mercredi 25 novembre à 9 h, heure de Chicago [1]."
+      "Bénéfice net de 1,051 milliard de dollars au quatrième trimestre, soit 3,89 dollars par action, en baisse d'environ 1 % sur un an ; chiffre d'affaires total de 12,115 milliards, en recul de 2 % [5].",
+      "Le bénéfice par action rate de 14 cents les 4,03 dollars attendus [6] ; Chartmill attendait 4,17 dollars et Hudson Labs 4,06 dollars [2][3]. Les ventes d'équipements, 10,51 milliards de dollars, dépassent les 10,34 milliards attendus [6].",
+      "Sur l'ensemble de l'exercice 2026, Deere gagne 4,860 milliards de dollars, soit 17,95 dollars par action, contre 5,027 milliards en 2025 [5].",
+      "L'objectif 2027 (4,50 à 5,25 milliards de dollars de bénéfice net) déçoit face aux 5,91 milliards attendus selon LSEG [7] ; les gros tracteurs restent à la peine tandis que les petits repartent [11].",
+      "L'action, qui avait perdu 3 % la veille, à 613,76 dollars [9], a reculé de plus de 4 % avant l'ouverture [8] avant de se retourner en séance [10][9]."
     ],
     "sources": [
       {
@@ -1373,8 +1436,58 @@ window.GEOCO.resultats = [
         "short": "Stocktwits",
         "name": "Stocktwits, « Deere Q4 Earnings Seen Under Pressure Amid Weak Farmer Sentiment », nov. 2026",
         "url": "https://stocktwits.com/news-articles/markets/equity/deere-q4-earnings-seen-under-pressure-amid-weak-farmer-sentiment/cL5bdq0REfH"
+      },
+      {
+        "short": "Deere",
+        "name": "Deere & Company, « Deere Reports Net Income of $1.051 Billion for Fourth Quarter, $4.860 Billion for Fiscal Year » (communiqué via PR Newswire), 25 nov. 2026",
+        "url": "https://www.prnewswire.com/news-releases/deere-reports-net-income-of-1-051-billion-for-fourth-quarter-4-860-billion-for-fiscal-year-302950434.html"
+      },
+      {
+        "short": "Investing.com",
+        "name": "Investing.com Canada, « Deere&Company earnings missed by $0.14, revenue topped estimates », 25 nov. 2026",
+        "url": "https://ca.investing.com/news/earnings/deerecompany-earnings-missed-by-014-revenue-topped-estimates-4980513"
+      },
+      {
+        "short": "Startup Fortune (Reuters)",
+        "name": "Startup Fortune, « Deere forecasts 2027 profit well below Wall Street as shares slide », 25 nov. 2026",
+        "url": "https://startupfortune.com/deere-forecasts-2027-profit-well-below-wall-street-as-shares-slide/"
+      },
+      {
+        "short": "CNBC",
+        "name": "CNBC, « Stocks making the biggest moves Wednesday: HP Inc, Ambarella, Nvidia, Sandisk & more », 25 nov. 2026",
+        "url": "https://cnbc.com/2026/11/25/stocks-moving-the-most-today-live-updates.html"
+      },
+      {
+        "short": "AskTraders",
+        "name": "AskTraders, « Deere Shares Close 4.4% Higher on Fourth-Quarter Results Day », 25 nov. 2026",
+        "url": "https://www.asktraders.com/analysis/deere-shares-close-4-4-higher-on-fourth-quarter-results-day/"
+      },
+      {
+        "short": "Quad Cities Business",
+        "name": "Quad Cities Business, « Deere reports net income of $1.051B for fourth quarter », 25 nov. 2026",
+        "url": "https://quadcitiesbusiness.com/deere-reports-net-income-of-1-051b-for-fourth-quarter/"
+      },
+      {
+        "short": "The Company Chronicle",
+        "name": "The Company Chronicle, « Deere guides 2027 profit to $4.5 billion-$5.25 billion as big tractors stay weak but small ones rebound », 25 nov. 2026",
+        "url": "https://thecompanychronicle.com/story/deere-q4-fy26-net-income-1-05-billion-2027-outlook-large-ag-up-5-15-percent-november-25-2026"
+      },
+      {
+        "short": "Kalkine",
+        "name": "Kalkine, « Trading Attention on Deere (NYSE:DE) Stock: Fourth Quarter Results, Fiscal 2027 Net Income Outlook and Pension Settlement Charge », nov. 2026",
+        "url": "https://kalkine.com/news/industrials/trading-attention-on-deere-nysede-stock-fourth-quarter-results-fiscal-2027-net-income-outlook-and-pension-settlement-charge"
       }
-    ]
+    ],
+    "time": "open",
+    "verdict": "mitige",
+    "guidance": {
+      "dir": "abaisse",
+      "text": "Deere vise un bénéfice net de 4,50 à 5,25 milliards de dollars pour l'exercice 2027 [5][11], bien en dessous des 5,91 milliards attendus selon LSEG, cité par Reuters [7] : même le haut de la fourchette est sous le consensus. Elle inclut une charge comptable de retraite, sans sortie d'argent [12]. Les ventes de la division grandes cultures (Production & Precision Ag) devraient progresser de 5 à 15 % [11]."
+    },
+    "move": {
+      "value": "+4,4 %",
+      "text": "à la clôture mercredi, à 641,02 dollars, selon AskTraders [9], après une hausse de plus de 3 % vers midi selon Quad Cities Business [10] et une chute de plus de 4 % avant l'ouverture selon CNBC [8]"
+    }
   },
   {
     "id": "salesforce-t3-2027",
@@ -1484,6 +1597,230 @@ window.GEOCO.resultats = [
         "short": "TradingView (PR Newswire)",
         "name": "TradingView (PR Newswire), « Media Advisory - CIBC to Announce Fourth Quarter 2026 Results on December 3, 2026 »",
         "url": "https://www.tradingview.com/news/prnewswire:e5a2288ca9f06:0-media-advisory-cibc-to-announce-fourth-quarter-2026-results-on-december-3-2026/"
+      }
+    ]
+  },
+  {
+    "id": "bmo-t4-2026",
+    "company": "BMO Groupe financier (Banque de Montréal)",
+    "ticker": "BMO",
+    "country": "CA",
+    "sector": "Banque",
+    "date": "2026-12-02",
+    "time": "open",
+    "period": "T4 de l'exercice 2026 (août-octobre 2026)",
+    "lines": [
+      {
+        "label": "Bénéfice par action ajusté",
+        "unit": "$ CA",
+        "exp": 3.78,
+        "src": 3
+      }
+    ],
+    "guidance": {
+      "dir": "attendu",
+      "text": "BMO ne donne pas d'objectif chiffré trimestriel ; au troisième trimestre, son bénéfice par action ajusté avait atteint 3,96 dollars canadiens, en hausse de 22 % sur un an [4]."
+    },
+    "summary": "La Banque de Montréal publie ses comptes annuels le même jour que la Banque Scotia, après un bénéfice par action ajusté en hausse de 22 % sur un an au troisième trimestre [1][4].",
+    "points": [
+      "Communiqué vers 6 h, heure de Toronto, le mercredi 2 décembre, puis conférence avec les analystes à 8 h 15 [1][2].",
+      "Chartmill attend un bénéfice par action ajusté de 3,78 dollars canadiens et 10,03 milliards de revenus [3].",
+      "Au troisième trimestre, le bénéfice par action ajusté était de 3,96 dollars canadiens, en hausse de 22 % sur un an [4] ; au quatrième trimestre 2025, il était de 3,28 dollars [5].",
+      "On regardera les provisions pour pertes sur créances."
+    ],
+    "sources": [
+      {
+        "short": "BMO",
+        "name": "BMO Groupe financier, « Media Advisory - BMO Financial Group to Announce its Fourth Quarter and Fiscal 2026 Results » (via Placera), 5 nov. 2026",
+        "url": "https://www.placera.se/pressmeddelanden/bank-of-montreal-media-advisory-bmo-financial-group-to-announce-its-fourth-quarter-and-fiscal-2026-results-20261105"
+      },
+      {
+        "short": "BMO",
+        "name": "BMO, « Q4|26 Investor Community Conference Call » (invitation)",
+        "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q4/Q4_26_Invite.pdf"
+      },
+      {
+        "short": "Chartmill",
+        "name": "Chartmill, « Bank of Montreal (BMO.CA) Earnings & Revenue Estimates »",
+        "url": "https://www.chartmill.com/stock/quote/BMO.CA/estimates"
+      },
+      {
+        "short": "BMO (SEC)",
+        "name": "Banque de Montréal, communiqué du troisième trimestre 2026 (formulaire 6-K, sec.gov), août 2026",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000927971/000092797126000106/q32026earningsrelease.htm"
+      },
+      {
+        "short": "BMO",
+        "name": "BMO, « BMO Financial Group Reports Fourth Quarter and Fiscal 2025 Results », 4 déc. 2025",
+        "url": "https://newsroom.bmo.com/2025-12-04-BMO-Financial-Group-Reports-Fourth-Quarter-and-Fiscal-2025-Results"
+      }
+    ]
+  },
+  {
+    "id": "td-t4-2026",
+    "company": "Banque TD (Groupe Banque TD)",
+    "ticker": "TD",
+    "country": "CA",
+    "sector": "Banque",
+    "date": "2026-12-03",
+    "time": "open",
+    "period": "T4 de l'exercice 2026 (août-octobre 2026)",
+    "lines": [
+      {
+        "label": "Bénéfice par action ajusté",
+        "unit": "$ CA",
+        "exp": 2.61,
+        "src": 3
+      },
+      {
+        "label": "Revenus",
+        "unit": "Md$ CA",
+        "exp": 16.044,
+        "src": 3
+      }
+    ],
+    "guidance": {
+      "dir": "attendu",
+      "text": "La TD ne donne pas d'objectif trimestriel chiffré ; on regardera ses objectifs pour l'exercice 2027 et le dividende annoncé le même jour [2]."
+    },
+    "summary": "La Banque TD publie ses comptes annuels, avec en toile de fond la mise en conformité de ses contrôles anti-blanchiment [1][4].",
+    "points": [
+      "Communiqué vers 6 h 30, heure de Toronto, le jeudi 3 décembre, puis conférence à 9 h 30 [1][2].",
+      "Chartmill attend un bénéfice par action ajusté de 2,61 dollars canadiens et 16,04 milliards de revenus [3].",
+      "Il y a un an, au quatrième trimestre 2025, le bénéfice par action ajusté était de 2,18 dollars, contre 1,72 un an plus tôt [5].",
+      "Selon Kalkine, on regardera la qualité du crédit, la mise en conformité anti-blanchiment et les sinistres de l'assurance [4]. Le dividende du premier trimestre 2027 doit être annoncé le même jour [2]."
+    ],
+    "sources": [
+      {
+        "short": "TD",
+        "name": "Groupe Banque TD, « Media Advisory - TD Bank Group to Release Fourth Quarter 2026 Results », 12 nov. 2026",
+        "url": "https://stories.td.com/ca/en/news/2026-11-12-media-advisory---td-bank-group-to-release-fourth-quarter-202"
+      },
+      {
+        "short": "ScanX",
+        "name": "ScanX, « TD Bank Group Q4FY26 Results: Release date set for Dec 3, 2026 », nov. 2026",
+        "url": "https://scanx.trade/stock-market-news/companies/td-bank-group-q4fy26-results-release-date-set-dec-3-2026/56045352"
+      },
+      {
+        "short": "Chartmill",
+        "name": "Chartmill, « Toronto-Dominion Bank (TD.CA) Earnings & Revenue Estimates »",
+        "url": "https://www.chartmill.com/stock/quote/TD.CA/estimates"
+      },
+      {
+        "short": "Kalkine",
+        "name": "Kalkine, « WHAT Should Investors Watch When TD Bank (TSX:TD) Reports Q4 Results on December 3? », nov. 2026",
+        "url": "https://kalkine.ca/news/financial/what-should-investors-watch-when-td-bank-tsxtd-reports-q4-results-on-december-3"
+      },
+      {
+        "short": "TD",
+        "name": "Groupe Banque TD, « TD Bank Group Reports Fourth Quarter and Fiscal 2025 Results », 4 déc. 2025",
+        "url": "https://stories.td.com/ca/en/news/2025-12-04-td-bank-group-reports-fourth-quarter-and-fiscal-2025-results"
+      }
+    ]
+  },
+  {
+    "id": "banque-nationale-t4-2026",
+    "company": "Banque Nationale du Canada",
+    "ticker": "NA",
+    "country": "CA",
+    "sector": "Banque",
+    "date": "2026-12-04",
+    "time": "open",
+    "period": "T4 de l'exercice 2026 (août-octobre 2026)",
+    "lines": [],
+    "guidance": {
+      "dir": "attendu",
+      "text": "La banque présentera le même jour un plan stratégique pour faire grandir sa plateforme canadienne, après le rachat de la Banque canadienne de l'Ouest [1][3]."
+    },
+    "summary": "La Banque Nationale publie ses comptes annuels et dévoile en même temps sa stratégie pour les prochaines années [1].",
+    "points": [
+      "Documents publiés vers 5 h 30, heure de Montréal, le vendredi 4 décembre, puis conférence prolongée de 90 minutes à 8 h [1].",
+      "La banque a déjà retraité ses informations financières complémentaires depuis début 2024, sans effet sur ses résultats consolidés [1].",
+      "Il y a un an, la Banque Nationale avait dégagé 1,06 milliard de dollars canadiens de bénéfice au quatrième trimestre et relevé son dividende [4].",
+      "On regardera l'intégration de la Banque canadienne de l'Ouest et les objectifs du plan stratégique [1][3]."
+    ],
+    "sources": [
+      {
+        "short": "Banque Nationale",
+        "name": "Banque Nationale du Canada, « National Bank of Canada to Report Fourth Quarter and Fiscal 2026 Results and Provide Strategic Update on December 4, 2026 » (via Cantech Letter), 29 oct. 2026",
+        "url": "https://www.cantechletter.com/newswires/national-bank-of-canada-to-report-fourth-quarter-and-fiscal-2026-results-and-provide-strategic-update-on-december-4-2026-releases-changes-to-supplementary-financial-information-ahead-of-year-end-rep/"
+      },
+      {
+        "short": "Banque Nationale",
+        "name": "Banque Nationale du Canada, « Relations investisseurs »",
+        "url": "https://www.nbc.ca/about-us/investors.html"
+      },
+      {
+        "short": "Investment Executive",
+        "name": "Investment Executive, « National Bank profits up as it works to integrate Canadian Western Bank »",
+        "url": "https://www.investmentexecutive.com/?p=300"
+      },
+      {
+        "short": "Barchart",
+        "name": "Barchart, « National Bank reports $1.06B fourth-quarter profit, raises dividend », déc. 2025",
+        "url": "https://www.barchart.com/story/news/36428672/national-bank-reports-1-06b-fourth-quarter-profit-raises-dividend"
+      }
+    ]
+  },
+  {
+    "id": "broadcom-t4-2026",
+    "company": "Broadcom",
+    "ticker": "AVGO",
+    "country": "US",
+    "sector": "Puces et IA",
+    "date": "2026-12-09",
+    "time": "close",
+    "period": "T4 de l'exercice 2026 (août-octobre 2026)",
+    "lines": [
+      {
+        "label": "Chiffre d'affaires",
+        "unit": "Md$",
+        "exp": 35.03,
+        "src": 3
+      },
+      {
+        "label": "Bénéfice par action ajusté",
+        "unit": "$",
+        "exp": 3.79,
+        "src": 3
+      }
+    ],
+    "guidance": {
+      "dir": "attendu",
+      "text": "Broadcom vise environ 34,8 milliards de dollars de chiffre d'affaires au quatrième trimestre, en hausse de 93 % sur un an, dont 21,7 milliards de puces pour l'intelligence artificielle et environ 8,7 milliards de logiciels d'infrastructure [4]."
+    },
+    "summary": "Le fabricant américain de puces et de logiciels doit confirmer un quasi-doublement de son chiffre d'affaires sur un an [3][4].",
+    "points": [
+      "Résultats le mercredi 9 décembre après la clôture de Wall Street, conférence à 14 h, heure du Pacifique (23 h à Paris) [1][2].",
+      "Benzinga attend 3,79 dollars par action et 35,03 milliards de dollars de chiffre d'affaires [3] ; Chartmill est plus optimiste, à 3,90 dollars et 35,57 milliards [5].",
+      "Le chiffre clé : les ventes de puces pour l'IA, que Broadcom attend à 21,7 milliards de dollars ce trimestre [4].",
+      "On regardera aussi la marge opérationnelle, visée à environ 66 % [4], et le premier objectif pour l'exercice 2027."
+    ],
+    "sources": [
+      {
+        "short": "Broadcom",
+        "name": "Broadcom, « Broadcom Inc. to Announce Fourth Quarter and Fiscal Year 2026 Financial Results on Wednesday, December 9, 2026 »",
+        "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announce-fourth-quarter-and-fiscal-year-2026"
+      },
+      {
+        "short": "Broadcom",
+        "name": "Broadcom, « Q4 2026 Broadcom Earnings Conference Call » (relations investisseurs)",
+        "url": "https://investors.broadcom.com/events/event-details/q4-2026-broadcom-earnings-conference-call"
+      },
+      {
+        "short": "Benzinga",
+        "name": "Benzinga, « Broadcom (AVGO) Earnings Forecasts »",
+        "url": "https://www.benzinga.com/quote/AVGO/earnings-forecasts"
+      },
+      {
+        "short": "Broadcom",
+        "name": "Broadcom, « Broadcom Inc. Announces Third Quarter Fiscal Year 2026 Financial Results and Quarterly Dividend » (communiqué), sept. 2026",
+        "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial"
+      },
+      {
+        "short": "Chartmill",
+        "name": "Chartmill, « Broadcom Inc (AVGO) Earnings & Revenue Estimates »",
+        "url": "https://www.chartmill.com/stock/quote/AVGO/estimates"
       }
     ]
   },
