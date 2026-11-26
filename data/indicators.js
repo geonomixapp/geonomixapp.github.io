@@ -7,7 +7,7 @@
 
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.indicators = {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "latest": [
     {
       "group": "Économie",
@@ -645,6 +645,11 @@ window.GEOCO.indicators = {
           "short": "MAS",
           "name": "Autorité monétaire de Singapour (MAS) et ministère du Commerce (MTI), « Consumer Price Developments in September 2026 »",
           "url": "https://www.mas.gov.sg/-/media/mas-media-library/news/consumer-price-developments/2026/consumer-price-developments-in-september-2026.pdf"
+        },
+        {
+          "short": "Capital Brief",
+          "name": "Capital Brief, « CPI rose by 4.9% in 12 months to October » (25 nov. 2026, chiffres de l'Australian Bureau of Statistics) ; aussi Yahoo Finance, « Australia's inflation rate … 4.9% in October »",
+          "url": "https://www.capitalbrief.com/briefing/cpi-rose-by-49-in-12-months-to-october-4e5f0191-0a0e-4da5-9665-63055190ea45/"
         }
       ],
       "values": {
@@ -1499,9 +1504,9 @@ window.GEOCO.indicators = {
           "s": 41
         },
         "036": {
-          "v": 4.3,
-          "d": "sept. 2026",
-          "s": 43
+          "v": 4.9,
+          "d": "oct. 2026",
+          "s": 70
         },
         "040": {
           "v": 3.6,
