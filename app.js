@@ -1472,33 +1472,49 @@
     });
   }
 
-  function renderActuIndex() {
-    app.innerHTML = `
+  // Maquettes de la page Actu (demande de l'auteur, 26 nov. 2026 : « garde les pages Éco / Géopo / Finance et la
+  // mosaïque, mets-les juste plus haut ») : #/maquette/1 à 5 montrent la vraie page dans un autre ordre, avec un
+  // sélecteur en bas de l'écran ; #/actu reste la page actuelle (maquette 0) tant que l'auteur n'a pas choisi.
+  let actuVariant = 0;
+  const MAQUETTES = [
+    ["Actuelle", "Comme aujourd'hui"],
+    ["1", "Les actus tout en haut, le reste dessous"],
+    ["2", "Titre court, puis les actus"],
+    ["3", "Les actus en haut, « À venir » en une ligne au-dessus"],
+    ["4", "Les actus, avec lettre et dates après les 6 premières"],
+    ["5", "Les actus, onglets qui restent en haut, lettre et dates côte à côte"],
+  ];
+  function renderActuIndex(variant) {
+    const V = actuVariant = variant || 0;
+    const heroHTML = `
       <section class="wrap hero">
         <p class="eyebrow reveal">Actu</p>
         <h1 class="title reveal">L'actu éco et géopo.<br><span class="grad mix">Expliquée.</span></h1>
         <p class="lead reveal">L'économie et la géopolitique sont liées : un détroit bloqué fait flamber l'essence, une guerre commerciale change le prix de ton téléphone. Chaque jour, ce qui compte et pourquoi ça te concerne.</p>
-      </section>
-
-      ${lettres.length ? `<section class="wrap lettre-wrap">${lettreCard()}</section>` : ""}
-
+      </section>`;
+    const heroShort = `<section class="wrap hero hero-short"><p class="eyebrow reveal">Actu</p><h1 class="title reveal">L'actu éco et géopo. <span class="grad mix">Expliquée.</span></h1></section>`;
+    const lettreHTML = lettres.length ? `<section class="wrap lettre-wrap">${lettreCard()}</section>` : "";
+    const etudesHTML = `
       <section class="wrap etudes" aria-labelledby="etudes-title">
         <div class="etudes-head">
           <h2 class="title reveal" id="etudes-title">Étude de cas.</h2>
           <a class="more-link reveal" href="#/etudes">Tout voir ›</a>
         </div>
         ${etudesBlock(false)}
-      </section>
-
-      ${agenda.length ? `<section class="wrap agenda-wrap" aria-labelledby="ag-title">
+      </section>`;
+    const agendaBlock = agenda.length ? `<section class="wrap agenda-wrap" aria-labelledby="ag-title">
         <h2 class="title reveal" id="ag-title">${I18N.t("À venir.")}</h2>
         <p class="copy reveal">${I18N.t("Les dates qui vont compter : demain, cette semaine, ce mois-ci.")}</p>
         <div class="reveal" id="ag-box">${agendaHTML(4)}</div>
-      </section>` : ""}
-
-      <section class="wrap actu-days">
+      </section>` : "";
+    // « À venir » en une ligne (maquette 3) : le prochain rendez-vous, un toucher mène à l'agenda complet plus bas.
+    const nextAg = agenda.filter((a) => (a.end || a.date) >= new Date().toISOString().slice(0, 10)).sort((a, b) => (a.date < b.date ? -1 : 1))[0];
+    const agendaLine = nextAg ? `<a class="ag-line reveal" href="#ag-title" data-agline><b>${I18N.t("À venir")}</b><span>${new Date(nextAg.date + "T12:00:00").toLocaleDateString(LOCALE, { day: "numeric", month: "short" })} · ${nextAg.title}</span><i>›</i></a>` : "";
+    const newsHTML = `
+      <section class="wrap actu-days${V ? " actu-top" : ""}${V === 5 ? " cur-stick" : ""}">
         ${zoneAskHTML()}
-        <h2 class="title reveal">L'actu.</h2>
+        ${V === 3 ? agendaLine : ""}
+        ${V === 2 ? "" : `<h2 class="title reveal">L'actu.</h2>`}
         <div class="filters reveal">
           <div class="curtains" role="tablist" aria-label="${I18N.t("Rubriques")}">
             ${CURTAINS.map(([k, l]) => `<button role="tab" class="cur-${k}" data-atheme="${k}" aria-selected="${actuTheme === k}"><i aria-hidden="true"></i>${I18N.t(l)}${k === "fin" && !isPlus() ? " 🔒" : ""}<small></small></button>`).join("")}
@@ -1509,10 +1525,22 @@
           </div>
         </div>
         <div id="actu-list"></div>
-      </section>
-    `;
+      </section>`;
+    const pair = `<section class="wrap actu-pair">${lettres.length ? `<div>${lettreCard()}</div>` : ""}${agenda.length ? `<div class="agenda-wrap"><h2 class="title reveal" id="ag-title">${I18N.t("À venir.")}</h2><div class="reveal" id="ag-box">${agendaHTML(4)}</div></div>` : ""}</section>`;
+    const switcher = V || location.hash.startsWith("#/maquette") ? `<nav class="maq-switch" aria-label="Maquettes de la page Actu"><span class="maq-t">${MAQUETTES[V][1]}</span><span class="maq-b">${MAQUETTES.map(([l], i) => `<a href="#/maquette/${i}" aria-current="${i === V}">${l}</a>`).join("")}</span></nav>` : "";
+    const ORDER = {
+      0: [heroHTML, lettreHTML, etudesHTML, agendaBlock, newsHTML],
+      1: [newsHTML, agendaBlock, lettreHTML, etudesHTML],
+      2: [heroShort, newsHTML, agendaBlock, lettreHTML, etudesHTML],
+      3: [newsHTML, agendaBlock, lettreHTML, etudesHTML],
+      4: [newsHTML, etudesHTML],
+      5: [newsHTML, pair, etudesHTML],
+    };
+    app.innerHTML = ORDER[V].join("") + switcher;
     bindAgenda(app);
-    bindZoneAsk(renderActuIndex);
+    bindZoneAsk(() => renderActuIndex(V));
+    const agl = app.querySelector("[data-agline]");
+    if (agl) agl.addEventListener("click", (e) => { e.preventDefault(); const t = app.querySelector("#ag-title"); if (t) t.scrollIntoView({ behavior: "smooth", block: "start" }); });
     function drawList() {
       const list = news.filter((n) => inCurtain(n, actuTheme) && (actuRegion === "all" || n.region === actuRegion));
       const tabs = app.querySelectorAll(".curtains [data-atheme]");
@@ -1527,11 +1555,17 @@
       const today = news.filter((n) => inCurtain(n, actuTheme) && n.date === (news[0] || {}).date);
       const intro = curtainCover(today.length ? today : list.slice(0, 15), actuTheme) + (actuTheme === "fin" ? resultsHTML() + marchesHTML() : "");
       if (!sorted.length) { box.innerHTML = intro + `<p class="empty">${I18N.t("Aucune actu pour ce filtre.")}</p>`; bindMarches(box); return; }
+      if (actuVariant === 4) {
+        // Maquette 4 : la lettre et les dates arrivent entre les 6 premières actus et les suivantes.
+        const mid = `<div class="actu-mid">${lettres.length ? lettreCard() : ""}${agenda.length ? `<div class="agenda-wrap"><h2 class="title" id="ag-title">${I18N.t("À venir.")}</h2><div id="ag-box">${agendaHTML(4)}</div></div>` : ""}</div>`;
+        box.innerHTML = intro + `<div class="mosaic">${mosaicHTML(sorted.slice(0, 6))}</div>${mid}<div class="mosaic">${mosaicHTML(sorted.slice(6, STEP), 6)}</div>${sorted.length > STEP ? `<p class="mosaic-more"><button class="more-btn" type="button">${I18N.t("Voir les actus d'avant")}</button></p>` : ""}`;
+        bindAgenda(box);
+      } else
       box.innerHTML = intro + `<div class="mosaic">${mosaicHTML(sorted.slice(0, STEP))}</div>${sorted.length > STEP ? `<p class="mosaic-more"><button class="more-btn" type="button">${I18N.t("Voir les actus d'avant")}</button></p>` : ""}`;
       let shown = STEP;
       const more = box.querySelector(".mosaic-more button");
       if (more) more.onclick = () => {
-        box.querySelector(".mosaic").insertAdjacentHTML("beforeend", mosaicHTML(sorted.slice(shown, shown + STEP), shown));
+        [...box.querySelectorAll(".mosaic")].pop().insertAdjacentHTML("beforeend", mosaicHTML(sorted.slice(shown, shown + STEP), shown));
         shown += STEP; if (shown >= sorted.length) more.parentElement.remove();
       };
       app.querySelectorAll("#actu-list .reveal").forEach((el) => el.classList.add("in"));
@@ -3801,7 +3835,7 @@ function statGrid(figures, sources, theme = "geo") {
     if (currentGlobe) { currentGlobe.destroy(); currentGlobe = null; }
     citeFree();
     const [, section, param, extra] = (location.hash || "#/").split("/").map((s) => { try { return decodeURIComponent(s); } catch (e) { return s; } });
-    const tab = { dossier: "cours", culture: "articles", quiz: "cours", lexique: "cours", etudes: "actu", resultats: "actu", lettres: "actu", abonnement: "actu", enjeux: "focus" }[section] || section;
+    const tab = { dossier: "cours", culture: "articles", quiz: "cours", lexique: "cours", etudes: "actu", resultats: "actu", lettres: "actu", maquette: "actu", abonnement: "actu", enjeux: "focus" }[section] || section;
     document.querySelectorAll("[data-tab]").forEach((a) => a.classList.toggle("active", a.dataset.tab === tab));
     const activeTab = document.querySelector("[data-tab].active");
     if (activeTab && activeTab.parentElement.scrollWidth > activeTab.parentElement.clientWidth) {
@@ -3811,6 +3845,7 @@ function statGrid(figures, sources, theme = "geo") {
 
     if (section === "cours" || section === "dossier") param ? renderDossier(param) : renderCoursIndex();
     else if (section === "actu") param ? renderNews(param) : renderActuIndex();
+    else if (section === "maquette") renderActuIndex(Math.max(0, Math.min(5, parseInt(param, 10) || 0)));
     else if (section === "etudes") param ? renderCase(param) : renderEtudesIndex();
     else if (section === "resultats") renderResultats(param);
     else if (section === "articles" || section === "culture") param ? renderCulture(param, extra) : renderArticlesIndex();
