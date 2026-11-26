@@ -13,6 +13,10 @@
     clouds: "assets/earth/clouds-alpha.jpg"
   };
 
+  // Appareil tactile (iPhone, iPad, Android) : mémoire graphique limitée, Safari plante au-delà.
+  // Ni Terre en 8K ni pièces d'image fine trop grandes (l'auteur, 26 nov. 2026 : « le globe bug tellement »).
+  const LIGHT = (() => { try { return matchMedia("(pointer: coarse)").matches || /iPad|iPhone|Android/.test(navigator.userAgent) || (navigator.maxTouchPoints > 1 && /Mac/.test(navigator.platform)); } catch (e) { return true; } })();
+
   let libPromise = null;
   function loadLib() {
     if (window.Globe) return Promise.resolve();
@@ -148,7 +152,7 @@
         if ((!mat.map || !mat.map.image) && tries++ < 40) return setTimeout(go, 250);
         // Puis la Terre en 8K, quand l'appareil peut l'afficher (même image pour tous les globes ouverts).
         const map = mat.map;
-        if (map && map.image && !map.userData.hd && r.capabilities.maxTextureSize >= 8192 && (map.image.src || "").includes("earth-blue-marble")) {
+        if (!LIGHT && map && map.image && !map.userData.hd && r.capabilities.maxTextureSize >= 8192 && (map.image.src || "").includes("earth-blue-marble")) {
           map.userData.hd = true;
           const img = new Image();
           img.onload = () => { map.image = img; map.needsUpdate = true; };
@@ -178,6 +182,7 @@
   const GIBS = "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/BlueMarble_ShadedRelief_Bathymetry/default/500m/";
   const GIBS_MAX = 7;
   const tileCache = new Map();
+  let gibsFails = 0, gibsOff = false;
   function tileImg(z, y, x) {
     const k = `${z}/${y}/${x}`;
     if (!tileCache.has(k)) {
@@ -197,14 +202,14 @@
     try {
       const Material = world.globeMaterial().constructor;
       const R = globeMesh.geometry.parameters.radius;
-      const maxTex = Math.min(4096, world.renderer().capabilities.maxTextureSize || 4096);
+      const maxTex = Math.min(LIGHT ? 2048 : 4096, world.renderer().capabilities.maxTextureSize || 4096);
       let patch = null, job = 0, shown = "", zCap = GIBS_MAX;
       const hide = () => { if (patch) patch.visible = false; shown = ""; };
       const update = () => update0().catch(() => {});
       const update0 = async () => {
         if (!document.body.contains(world.renderer().domElement)) return;
         const pov = world.pointOfView();
-        if (!pov || pov.altitude > 1.25) return hide();
+        if (gibsOff || !pov || pov.altitude > 1.25) return hide();
         // Étendue visible (en degrés) et niveau de tuiles qui donne au moins un pixel d'image par pixel d'écran.
         const el = world.renderer().domElement;
         const px = Math.max(el.width, el.height);
@@ -232,7 +237,8 @@
         const got = await Promise.all(tiles);
         if (my !== job) return;                       // un zoom plus récent a pris le relais
         if (got.some((t) => !t.img)) {                // tuile manquante : un niveau de moins, sinon l'image de base
-          if (zCap > 4 && z > 4) { zCap = z - 1; shown = ""; return update0(); }
+          if (got.every((t) => !t.img) && ++gibsFails >= 2) gibsOff = true;   // le serveur ne répond pas : on arrête d'essayer
+          if (!gibsOff && zCap > 4 && z > 4) { zCap = z - 1; shown = ""; return update0(); }
           return;
         }
         const c = document.createElement("canvas");
@@ -260,9 +266,10 @@
         patch.visible = true;
         shown = key;
       };
-      // Au plus une mise à jour toutes les 400 ms (le globe qui tourne seul envoie un « change » à chaque image).
       let t = null;
-      world.controls().addEventListener("change", () => { if (!t) t = setTimeout(() => { t = null; update(); }, 400); });
+      // Une vérification par seconde au plus (le globe tourne lentement en continu) ; l'image n'est refabriquée
+      // que si les tuiles visibles changent (clé `shown`), pas à chaque petit mouvement.
+      world.controls().addEventListener("change", () => { if (!t) t = setTimeout(() => { t = null; update(); }, 1000); });
     } catch (e) { /* bonus : l'image de base suffit si ça échoue */ }
   }
 
@@ -465,7 +472,7 @@
     const world = new window.Globe(container, { animateIn: true })
       .backgroundColor("rgba(0,0,0,0)")
       .globeImageUrl(TEX.earth)
-      .globeCurvatureResolution(2)
+      .globeCurvatureResolution(3)
       .bumpImageUrl(TEX.bump)
       .showAtmosphere(true)
       .atmosphereColor("#5aa9ff")
@@ -559,7 +566,7 @@
       const world = new window.Globe(container, { animateIn: true })
         .backgroundColor("rgba(0,0,0,0)")
         .globeImageUrl(TEX.earth)
-        .globeCurvatureResolution(2)
+        .globeCurvatureResolution(3)
         .bumpImageUrl(TEX.bump)
         .showAtmosphere(true)
         .atmosphereColor("#5aa9ff")
