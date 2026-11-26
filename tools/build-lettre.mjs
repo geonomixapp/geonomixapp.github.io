@@ -26,7 +26,7 @@ try {
 
 const ctx = { window: {} };
 vm.createContext(ctx);
-for (const f of ["data/news.js", "data/indicators.js", "data/conflits.js", "data/world.js", "data/iso2.js", "data/anecdotes.js", "data/agenda.js"]) {
+for (const f of ["data/news.js", "data/indicators.js", "data/conflits.js", "data/world.js", "data/iso2.js", "data/anecdotes.js", "data/agenda.js", "data/resultats.js", "data/series.js"]) {
   if (fs.existsSync(f)) vm.runInContext(fs.readFileSync(f, "utf8"), ctx, { filename: f });
 }
 const G = ctx.window.GEOCO;
@@ -72,6 +72,21 @@ const data = { day, dateCap, items, fig, figSrc, C, latest, THEMES, strip, world
   agendaMore: (G.agenda || []).filter((a) => (a.end || a.date) >= day).sort((a, b) => (a.date < b.date ? -1 : 1)).slice(5, 14),
   briefs: todays.filter((n) => !items.includes(n) && n.theme !== "fin"),
   finTitles: todays.filter((n) => n.theme === "fin"),
+  // Blocs illustrés qui tournent d'un jour à l'autre (demande de l'auteur, 26 nov. 2026 : « change, innove à chaque fois ») :
+  // les cours qui bougent (champ markets des actus du jour, sinon de la veille), les résultats d'entreprises de la semaine,
+  // un « ça s'est déjà passé » (champ past d'une actu du jour), une courbe sur 15 ans (Banque mondiale).
+  moves: (() => {
+    for (const dd of [day, ...[1, 2].map((k) => new Date(Date.parse(day + "T12:00:00Z") - k * 864e5).toISOString().slice(0, 10))]) {
+      const seen = new Set();
+      const m = news.filter((n) => n.date === dd).flatMap((n) => ((n.markets && n.markets.items) || []).filter((i) => i.move && /^[+\-−]?\s*\d/.test(i.move)).map((i) => ({ ...i, src: (n.sources || []).map((s) => s.short || s.name).slice(0, 2).join(", ") })))
+        .filter((i) => !seen.has(i.name) && seen.add(i.name));
+      if (m.length >= 3) return { date: dd, items: m };
+    }
+    return null;
+  })(),
+  results: (G.resultats || []).filter((r) => r.verdict && r.date <= day && r.date >= new Date(Date.parse(day + "T12:00:00Z") - 8 * 864e5).toISOString().slice(0, 10)),
+  past: (() => { const P = todays.filter((n) => n.past && (n.past.items || []).length >= 2); return P.length ? P[Math.floor(Date.parse(day) / 864e5) % P.length] : null; })(),
+  series: G.series || null,
   number: Math.max(1, Math.round((Date.parse(day) - Date.parse("2026-10-07")) / 864e5) + 1) };
 const classicHtml = `<!doctype html><html lang="fr"><head><meta charset="utf-8"><style>
 @page { size: A4; margin: 0; }

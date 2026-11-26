@@ -44,12 +44,84 @@ const kicker = (d, n) => `${esc(d.THEMES[n.theme] || "")}${n.region ? " · " + e
 const shortDate = (a) => esc(new Date(a.date + "T12:00:00").toLocaleDateString("fr-FR", { day: "numeric", month: "short" }).toUpperCase());
 const placeName = (n) => esc(((n.geo && n.geo[0] && (n.geo[0].label || n.geo[0].name)) || n.region || "").split(",")[0]);
 const agendaFill = (d, zone, { p, b }, n = 4) => (d.agendaMore || []).slice(0, n).map((a) => `<div data-fill data-zone="${zone}" hidden><p ${p}><b ${b}>${shortDate(a)}</b> ${esc(a.title)}</p></div>`).join("");
-function fillers(d, zone, { h4, p, b, agenda = false, news = true }) {
+// Les blocs tournent : l'ordre change chaque jour (d.number), et seuls ceux qui tiennent sont montrés.
+// T : couleurs et polices du style (Journal clair ou version sombre).
+const pctOf = (s) => parseFloat(String(s).replace(/\s/g, "").replace("−", "-").replace(",", "."));
+function blockMoves(d, T) {
+  const m = d.moves; if (!m) return "";
+  const items = m.items.map((i) => ({ ...i, v: pctOf(i.move) })).filter((i) => isFinite(i.v)).sort((a, b) => b.v - a.v);
+  const pick = items.length > 6 ? [...items.slice(0, 3), ...items.slice(-3)] : items;
+  if (pick.length < 3) return "";
+  const max = Math.max(...pick.map((i) => Math.abs(i.v)), 1);
+  const rows = pick.map((i) => {
+    const w = Math.max(2, Math.abs(i.v) / max * 46), up = i.v >= 0;
+    return `<div style="display:grid;grid-template-columns:1fr 50%;align-items:center;gap:2mm;margin-top:1.3mm"><span style="font:${T.small};color:${T.ink};white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc(i.name)}</span>
+      <span style="position:relative;height:3.6mm;display:block"><span style="position:absolute;top:0;bottom:0;left:50%;width:.5px;background:${T.muted}"></span>
+      <span style="position:absolute;top:.5mm;bottom:.5mm;${up ? "left:50%" : "right:50%"};width:${w}%;background:${up ? T.up : T.down};border-radius:1px"></span>
+      <b style="position:absolute;top:-.2mm;${up ? `left:calc(50% + ${w}% + 1mm)` : `right:calc(50% + ${w}% + 1mm)`};font:${T.tiny};color:${up ? T.up : T.down};white-space:nowrap">${esc(i.move.replace(/\s+/g, " "))}</b></span></div>`;
+  }).join("");
+  return `<h4 ${T.h4}>Ça bouge en Bourse</h4><p style="font:${T.tiny};color:${T.muted};margin:1mm 0 0">Les plus fortes variations citées dans les actus ${m.date === d.day ? "du jour" : "de ces derniers jours"}</p>${rows}<div style="font:${T.tiny};color:${T.muted};margin-top:1.4mm">Sources : ${esc([...new Set(pick.map((i) => i.src))].join(" · ").slice(0, 120))}</div>`;
+}
+function blockResults(d, T) {
+  const R = (d.results || []).slice(0, 5); if (R.length < 2) return "";
+  const lab = { mieux: "Mieux que prévu", moins: "Moins bien que prévu", conforme: "Comme prévu", mitige: "Mitigé" };
+  const col = { mieux: T.up, moins: T.down, conforme: T.muted, mitige: T.muted };
+  const rows = R.map((r) => {
+    const l = (r.lines || []).find((x) => x.act != null && x.exp != null);
+    const gap = l && l.exp ? Math.round((l.act - l.exp) / Math.abs(l.exp) * 1000) / 10 : null;
+    return `<div style="display:flex;justify-content:space-between;gap:2mm;margin-top:1.3mm;font:${T.small};color:${T.ink}"><span><b>${esc(r.company)}</b>${l ? ` <span style="color:${T.muted}">· ${esc(l.label)}</span>` : ""}</span><span style="white-space:nowrap;font-weight:700;color:${col[r.verdict]}">${esc(lab[r.verdict] || "")}${gap != null ? ` (${gap > 0 ? "+" : ""}${String(gap).replace(".", ",")} %)` : ""}</span></div>`;
+  }).join("");
+  return `<h4 ${T.h4}>Résultats : face aux attentes</h4>${rows}<div style="font:${T.tiny};color:${T.muted};margin-top:1.4mm">Écart entre le chiffre publié et celui attendu par les analystes · détails dans l'appli</div>`;
+}
+function blockPast(d, T) {
+  const n = d.past; if (!n) return "";
+  const it = n.past.items.slice(0, 3);
+  const strip = (t) => esc(d.strip(t)).replace(/\s*\(([^)]{30,})\)/g, "");
+  return `<h4 ${T.h4}>L'histoire se répète</h4><p style="font:${T.small};color:${T.muted};margin:1mm 0 0">${esc(d.strip(n.past.title || n.title)).replace(/^Les précédents\s*:\s*/i, "")}</p>
+    <div style="margin-top:1.5mm;border-left:1.5px solid ${T.accent};padding-left:2.5mm">${it.map((x) => `<div style="margin:0 0 1.6mm;position:relative"><span style="position:absolute;left:-3.55mm;top:1.1mm;width:2mm;height:2mm;border-radius:50%;background:${T.accent}"></span><b style="font:${T.tiny};color:${T.ink};letter-spacing:.03em">${esc(String(x.when).toUpperCase())}</b><div style="font:${T.small};color:${T.ink}">${strip(x.lesson || x.what)}</div></div>`).join("")}</div>
+    <div style="font:${T.tiny};color:${T.muted}">Sources : ${esc(sourcesOfPast(n))}</div>`;
+}
+const sourcesOfPast = (n) => [...new Set((n.sources || []).map((s) => s.short || s.name))].slice(-3).join(", ");
+const CURVES = [["250", "France"], ["840", "États-Unis"], ["124", "Canada"], ["276", "Allemagne"], ["156", "Chine"], ["826", "Royaume-Uni"], ["392", "Japon"], ["356", "Inde"], ["76", "Brésil"], ["380", "Italie"], ["724", "Espagne"], ["710", "Afrique du Sud"]];
+const IND = [["inflation", "L'inflation", "% par an"], ["chomage", "Le chômage", "% de la population active"], ["croissance", "La croissance", "% du PIB par an"]];
+function blockCurve(d, T) {
+  const S = d.series && d.series.data; if (!S) return "";
+  const k = d.number;
+  for (let t = 0; t < CURVES.length; t++) {
+    const [iso, name] = CURVES[(k + t) % CURVES.length], [ind, label, unit] = IND[k % IND.length];
+    const row = S[iso] && S[iso][ind]; if (!row || row.length < 16) continue;
+    const y0 = row[0], vals = row.slice(1), n = Math.min(15, vals.length), v = vals.slice(-n), first = y0 + vals.length - n;
+    if (v.some((x) => x == null)) continue;
+    const W = 100, H = 34, lo = Math.min(0, ...v), hi = Math.max(...v), r = hi - lo || 1;
+    const pts = v.map((x, i) => `${(i / (n - 1) * W).toFixed(1)},${(H - (x - lo) / r * H).toFixed(1)}`).join(" ");
+    const zero = lo < 0 ? `<line x1="0" x2="${W}" y1="${H - (0 - lo) / r * H}" y2="${H - (0 - lo) / r * H}" stroke="${T.muted}" stroke-width=".3" stroke-dasharray="1 1"/>` : "";
+    const last = v[n - 1], peak = Math.max(...v), pi = v.indexOf(peak);
+    const f = (x) => String(Math.round(x * 10) / 10).replace(".", ",");
+    return `<h4 ${T.h4}>${label} ${/^[AEIOUÉ]/.test(name) ? "en" : "au"} ${esc(name)}</h4>`.replace("au États-Unis", "aux États-Unis").replace("en Inde", "en Inde").replace("au France", "en France").replace("au Chine", "en Chine").replace("au Allemagne", "en Allemagne").replace("au Italie", "en Italie").replace("au Espagne", "en Espagne").replace("au Afrique du Sud", "en Afrique du Sud")
+      + `<p style="font:${T.tiny};color:${T.muted};margin:1mm 0 1mm">${unit}, ${first}-${first + n - 1}</p>
+      <svg viewBox="-2 -4 ${W + 4} ${H + 8}" style="width:100%;height:auto;display:block">${zero}<polyline points="${pts}" fill="none" stroke="${T.accent}" stroke-width="1.2" stroke-linejoin="round"/>
+      <circle cx="${pi / (n - 1) * W}" cy="${H - (peak - lo) / r * H}" r="1.4" fill="${T.accent}"/><circle cx="${W}" cy="${H - (last - lo) / r * H}" r="1.4" fill="${T.ink}"/></svg>
+      <div style="display:flex;justify-content:space-between;font:${T.tiny};color:${T.muted}"><span>${first}</span><span>Plus haut : <b style="color:${T.ink}">${f(peak)} %</b> en ${first + pi} · ${first + n - 1} : <b style="color:${T.ink}">${f(last)} %</b></span></div>
+      <div style="font:${T.tiny};color:${T.muted};margin-top:.8mm">Source : Banque mondiale</div>`;
+  }
+  return "";
+}
+function fillers(d, zone, { h4, p, b, agenda = false, news = true, T = null }) {
   const f = (html) => `<div data-fill data-zone="${zone}" hidden>${html}</div>`;
   const box = (title, rows) => rows.length ? `<div class="fillbox"><h4 ${h4}>${title}</h4>${rows.map(f).join("")}</div>` : "";
-  return (agenda ? box("À venir", [...(d.agenda || []), ...(d.agendaMore || []).slice(0, 4)].map((a) => `<p ${p}><b ${b}>${shortDate(a)}</b> ${esc(a.title)}</p>`)) : "")
-    + (news ? box("En bref", (d.briefs || []).map((n) => `<p ${p}><b ${b}>${placeName(n).toUpperCase()}</b> ${esc(n.title)}</p>`))
-      + box("Finance · dans l'appli", (d.finTitles || []).map((n) => `<p ${p}>${esc(n.title)}</p>`)) : "");
+  const out = [];
+  if (agenda) out.push(box("À venir", [...(d.agenda || []), ...(d.agendaMore || []).slice(0, 4)].map((a) => `<p ${p}><b ${b}>${shortDate(a)}</b> ${esc(a.title)}</p>`)));
+  if (news) {
+    const blocks = [
+      () => box("En bref", (d.briefs || []).map((n) => `<p ${p}><b ${b}>${placeName(n).toUpperCase()}</b> ${esc(n.title)}</p>`)),
+      ...(T ? [() => { const h = blockMoves(d, T); return h ? f(h) : ""; }, () => { const h = blockResults(d, T); return h ? f(h) : ""; },
+        () => { const h = blockPast(d, T); return h ? f(h) : ""; }, () => { const h = blockCurve(d, T); return h ? f(h) : ""; }] : []),
+      () => box("Finance · dans l'appli", (d.finTitles || []).map((n) => `<p ${p}>${esc(n.title)}</p>`)),
+    ];
+    const k = (d.number || 0) % blocks.length;
+    blocks.slice(k).concat(blocks.slice(0, k)).forEach((g) => out.push(g()));
+  }
+  return out.join("");
 }
 
 // ---------- Illustrations ----------
@@ -202,7 +274,8 @@ td { padding: 1mm 0; border-bottom: .5px solid ${P.rule}; vertical-align: top; }
   <div class="side">
     ${df ? `<div><h4>Le chiffre du jour</h4><div class="big" style="color:${P.accent}">${esc(df.value)}</div><p>${esc(df.label)}${df.place ? ` (${esc(df.place)})` : ""}.</p>${df.src ? `<div class="src">Source : ${esc(df.src)}</div>` : ""}</div>` : ""}
     ${(d.agenda || []).length ? `<div><h4>À venir</h4><div style="margin-top:2mm">${d.agenda.map((a) => `<p style="margin:0 0 1.8mm"><b style="font-family:'Franklin',sans-serif;font-size:7.6pt;letter-spacing:.04em">${esc(new Date(a.date + "T12:00:00").toLocaleDateString("fr-FR", { day: "numeric", month: "short" }).toUpperCase())}</b> ${esc(a.title)}</p>`).join("")}${agendaFill(d, ".leadrow", { p: 'style="margin:0 0 1.8mm"', b: 'style="font-family:\'Franklin\',sans-serif;font-size:7.6pt;letter-spacing:.04em"' })}</div></div>` : ""}
-    ${fillers(d, ".leadrow", { h4: "", p: 'style="margin:1.8mm 0 0"', b: 'style="font-family:\'Franklin\',sans-serif;font-size:7.6pt;letter-spacing:.04em"' })}
+    ${fillers(d, ".leadrow", { h4: "", p: 'style="margin:1.8mm 0 0"', b: 'style="font-family:\'Franklin\',sans-serif;font-size:7.6pt;letter-spacing:.04em"',
+      T: { h4: 'style="margin-top:4.5mm"', ink: P.ink, muted: P.muted, accent: P.accent, up: "#2f6f4f", down: P.neg, small: "400 8.4pt/1.35 'Serif4',serif", tiny: "600 6.8pt/1.3 'Franklin',sans-serif" } })}
     ${false && d.C ? `<div><h4>Le point conflits · ${esc(d.C.barometre.month)}</h4><div class="counts" style="margin-top:2mm"><div><b style="color:${P.accent}">${d.C.barometre.counts.worse}</b>s'aggravent</div><div><b>${d.C.barometre.counts.better}</b>s'améliorent</div><div><b>${d.C.barometre.counts.alerts}</b>alertes</div></div><p>${esc(d.C.barometre.worse.map((x) => x.name).join(", "))}.</p><div class="src">Source : CrisisWatch</div></div>` : ""}
   </div>
 </div>
@@ -259,7 +332,8 @@ html, body { background: #000; } body { color: #f5f5f7; font-family: "Inter", sa
     <div class="kfill">${fillers(d, ".hero", { h4: 'class="k" style="margin:4mm 0 1mm"', p: 'style="margin:1.4mm 0 0;font:400 8.6pt/1.4 Inter;color:#d1d1d6"', b: 'style="font-weight:700;color:#f5f5f7;font-size:7.6pt;letter-spacing:.03em"', agenda: true, news: false })}</div></div>
 </div>
 <div class="grid">${rest.map((n, i) => { const art = pressIllustration(plan[i], d, n, P); return `<div class="card"><div class="k">${kicker(d, n)}</div><h3>${esc(n.title)}</h3>${art ? `<div style="margin:2mm 0 2.5mm">${art}</div>` : ""}<p>${dateline(n) ? `<b style="color:#f5f5f7;font-weight:600">${esc(dateline(n))} —</b> ` : ""}${esc(d.strip(n.summary))}</p>${read(n)}</div>`; }).join("")}</div>
-<div class="bottom"><div><div style="margin-bottom:5mm">${fillers(d, ".bottom", { h4: 'class="k" style="margin:3mm 0 1mm"', p: 'style="margin:1.4mm 0 0;font:400 8.6pt/1.4 Inter;color:#d1d1d6"', b: 'style="font-weight:700;color:#f5f5f7;font-size:7.6pt;letter-spacing:.03em"' })}</div><div class="k" style="margin-bottom:3mm">Les actus du jour, par région</div>${regionStrip(d.items, "100%", Object.assign({}, P, { accents: ["#64d2ff", "#bf5af2", "#ff9f0a", "#30d158", "#ff6961"], radius: 4 }))}</div><div class="nums">${latestRows(d).filter((x, i) => i < 3).map((x, i) => `<div class="num"><b>${esc(x.value)}</b><span>${esc(x.label)} · ${esc(x.source.short)}</span></div>`).join("")}</div></div>
+<div class="bottom"><div><div style="margin-bottom:5mm">${fillers(d, ".bottom", { h4: 'class="k" style="margin:3mm 0 1mm"', p: 'style="margin:1.4mm 0 0;font:400 8.6pt/1.4 Inter;color:#d1d1d6"', b: 'style="font-weight:700;color:#f5f5f7;font-size:7.6pt;letter-spacing:.03em"',
+  T: { h4: 'class="k" style="margin:3mm 0 0"', ink: "#f5f5f7", muted: "#8e8e93", accent: "#ff9f0a", up: "#30d158", down: "#ff6961", small: "400 8.4pt/1.35 Inter,sans-serif", tiny: "600 6.6pt/1.3 Inter,sans-serif" } })}</div><div class="k" style="margin-bottom:3mm">Les actus du jour, par région</div>${regionStrip(d.items, "100%", Object.assign({}, P, { accents: ["#64d2ff", "#bf5af2", "#ff9f0a", "#30d158", "#ff6961"], radius: 4 }))}</div><div class="nums">${latestRows(d).filter((x, i) => i < 3).map((x, i) => `<div class="num"><b>${esc(x.value)}</b><span>${esc(x.label)} · ${esc(x.source.short)}</span></div>`).join("")}</div></div>
 <div class="foot"><span>Toutes les actus dans l'application Geonomix.</span><span>${esc(d.day)}</span></div>
 </div>`);
 }
