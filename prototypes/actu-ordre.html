@@ -1,0 +1,139 @@
+<title>Actu : les actus d'abord</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Planche : 5 téléphones côte à côte ; la ligne pointillée = ce qu'on voit sans faire défiler. Style de l'appli (sombre unique). */
+:root {
+  color-scheme: dark;
+  --bg: #000; --surface: #1c1c1e; --surface-2: #2c2c2e; --hair: rgba(255,255,255,.12);
+  --text: #f5f5f7; --muted: #8e8e93; --blue: #2997ff; --gold: #f5c86b;
+  --eco: #ff8a3d; --geo: #8f7cff; --mix: #4cc3d9; --fin: #34d399; --red: #ff453a;
+  --serif: "Times New Roman", Times, "Tinos", "Liberation Serif", serif;
+  --font: -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+body { background: var(--bg); color: var(--text); font-family: var(--font); }
+.page { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 28px 60px; max-width: 1900px; margin: 0 auto; }
+h1 { font: 700 clamp(30px, 4vw, 46px)/1.05 var(--serif); margin: 0; text-wrap: balance; }
+.intro { color: var(--muted); font-size: 16px; line-height: 1.5; max-width: 70ch; margin: 10px 0 22px; }
+.intro b { color: var(--text); }
+.board { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 26px 22px; align-items: start; }
+.opt h2 { font: 700 22px/1.15 var(--serif); margin: 0 0 4px; display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.opt h2 .l { font: 700 13px var(--font); color: var(--bg); background: var(--text); border-radius: 6px; padding: 2px 7px; }
+.opt .reco { font: 700 11px var(--font); letter-spacing: .06em; text-transform: uppercase; color: var(--bg); background: var(--gold); border-radius: 99px; padding: 3px 9px; }
+.opt p.d { color: var(--muted); font-size: 14px; line-height: 1.45; margin: 0 0 12px; min-height: 3em; }
+.phone { position: relative; width: 100%; max-width: 360px; height: 700px; border-radius: 34px; border: 1px solid #3a3a3c; background: #000; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,.6); }
+.scr { position: absolute; inset: 0; overflow-y: auto; overflow-x: hidden; padding: 0 12px 30px; scrollbar-width: none; }
+.scr::-webkit-scrollbar { display: none; }
+.fold { position: absolute; left: 0; right: 0; top: 640px; border-top: 1.5px dashed rgba(245,200,107,.75); pointer-events: none; z-index: 5; }
+.fold span { position: absolute; right: 10px; top: -20px; font: 600 10px var(--font); color: var(--gold); background: rgba(0,0,0,.7); padding: 1px 6px; border-radius: 4px; }
+.count { margin-top: 10px; font-size: 13px; color: var(--muted); }
+.count b { color: var(--text); }
+/* --- éléments de l'appli, en petit --- */
+.nav { position: sticky; top: 0; z-index: 4; margin: 0 -12px 8px; padding: 10px 12px 8px; background: rgba(0,0,0,.86); backdrop-filter: blur(10px); display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--hair); }
+.nav b { font: 700 17px var(--serif); } .nav b i { color: var(--red); font-style: normal; }
+.nav span { font-size: 10px; color: var(--muted); display: flex; gap: 6px; }
+.nav span em { font-style: normal; padding: 2px 6px; border-radius: 99px; border: 1px solid var(--hair); }
+.nav span em.on { background: var(--blue); border-color: var(--blue); color: #fff; }
+.eyebrow { font: 600 10px var(--font); color: var(--muted); letter-spacing: .08em; text-transform: uppercase; }
+.ttl { font: 700 26px/1.05 var(--serif); margin: 4px 0 8px; }
+.ttl.sm { font-size: 22px; margin: 2px 0 8px; }
+.cur { display: grid; grid-template-columns: repeat(3, 1fr); border-bottom: 1px solid var(--hair); margin-bottom: 8px; position: relative; }
+.cur span { text-align: center; font: 600 12px var(--font); padding: 7px 0; color: var(--muted); }
+.cur span.on { color: var(--text); box-shadow: inset 0 -2px 0 var(--eco); }
+.cur span small { color: var(--muted); font-weight: 500; margin-left: 3px; }
+.sticky { position: sticky; top: 44px; z-index: 3; background: #000; margin: 0 -12px; padding: 0 12px; }
+.mos { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
+.card { background: var(--surface); border-radius: 12px; padding: 9px; border-left: 2.5px solid var(--eco); min-width: 0; }
+.card.geo { border-left-color: var(--geo); } .card.mix { border-left-color: var(--mix); } .card.fin { border-left-color: var(--fin); }
+.card.big { grid-column: 1 / -1; }
+.card .m { font: 600 9px var(--font); color: var(--muted); display: flex; gap: 4px; align-items: center; }
+.card .m i { width: 6px; height: 6px; border-radius: 50%; background: var(--eco); display: inline-block; }
+.card.geo .m i { background: var(--geo); } .card.mix .m i { background: var(--mix); }
+.card h3 { font: 700 13px/1.2 var(--serif); margin: 4px 0 0; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+.card.big h3 { font-size: 17px; }
+.card p { font-size: 10.5px; line-height: 1.35; color: var(--muted); margin: 4px 0 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.card .ill { height: 54px; border-radius: 8px; margin-top: 6px; background: linear-gradient(135deg, rgba(255,138,61,.28), rgba(255,138,61,.04)); display: flex; align-items: center; padding-left: 10px; font: 700 20px var(--serif); color: var(--eco); }
+.card.geo .ill { background: linear-gradient(135deg, rgba(143,124,255,.3), rgba(143,124,255,.04)); color: var(--geo); }
+.card.mix .ill { background: linear-gradient(135deg, rgba(76,195,217,.3), rgba(76,195,217,.04)); color: var(--mix); }
+.brk { color: var(--red); font-weight: 700; }
+.mod { background: var(--surface); border-radius: 12px; padding: 10px; margin-top: 8px; }
+.mod h4 { font: 700 15px var(--serif); margin: 0 0 6px; display: flex; justify-content: space-between; align-items: baseline; }
+.mod h4 a { font: 600 10px var(--font); color: var(--blue); text-decoration: none; }
+.ag { display: grid; grid-template-columns: 52px 1fr; gap: 6px; font-size: 11px; padding: 5px 0; border-top: 1px solid var(--hair); }
+.ag:first-of-type { border-top: 0; }
+.ag b { font: 700 10px var(--font); color: var(--gold); }
+.row { display: flex; gap: 8px; align-items: center; font-size: 11px; color: var(--muted); }
+.row .ic { flex: none; width: 34px; height: 34px; border-radius: 9px; background: var(--surface-2); display: grid; place-items: center; font-size: 15px; }
+.row b { display: block; color: var(--text); font-size: 12px; }
+.sec { font: 700 18px var(--serif); margin: 16px 0 2px; padding-top: 12px; border-top: 1px solid var(--hair); }
+.seg { display: grid; grid-template-columns: 1fr 1fr; background: var(--surface); border-radius: 10px; padding: 3px; margin: 2px 0 8px; }
+.seg span { text-align: center; font: 600 11.5px var(--font); padding: 7px 0; border-radius: 8px; color: var(--muted); }
+.seg span.on { background: var(--surface-2); color: var(--text); }
+.chips { display: flex; gap: 7px; overflow-x: auto; margin: 0 -12px 8px; padding: 2px 12px 4px; scrollbar-width: none; }
+.chips::-webkit-scrollbar { display: none; }
+.chip { flex: none; width: 128px; background: var(--surface); border-radius: 12px; padding: 8px; border: 1px solid var(--hair); }
+.chip .k { font: 700 9px var(--font); letter-spacing: .06em; text-transform: uppercase; color: var(--gold); }
+.chip .v { font: 600 11px/1.25 var(--font); margin-top: 3px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.chip.lettre .k { color: #ffd60a; } .chip.pod .k { color: #bf5af2; } .chip.etu .k { color: var(--mix); }
+.strip { display: flex; gap: 6px; overflow-x: auto; margin: 8px -12px 0; padding: 0 12px; scrollbar-width: none; grid-column: 1 / -1; }
+.strip::-webkit-scrollbar { display: none; }
+.strip .ag2 { flex: none; width: 140px; background: #141416; border: 1px solid rgba(245,200,107,.35); border-radius: 10px; padding: 7px; font-size: 10.5px; line-height: 1.3; }
+.strip .ag2 b { display: block; font: 700 9px var(--font); color: var(--gold); margin-bottom: 2px; }
+.inline { grid-column: 1 / -1; }
+.inline .eyebrow { margin: 4px 0 2px; }
+/* E : tablette, colonne à côté */
+.tab { max-width: 100%; height: 700px; border-radius: 22px; }
+.tab .scr { padding: 0 14px 30px; }
+.two { display: grid; grid-template-columns: minmax(0, 1fr) 150px; gap: 10px; align-items: start; }
+.two .side { position: sticky; top: 52px; }
+.two .side .mod { margin-top: 0; margin-bottom: 8px; }
+.wide { grid-column: 1 / -1; }
+@media (prefers-reduced-motion: no-preference) { .opt { animation: up .5s both; } .opt:nth-child(2){animation-delay:.05s}.opt:nth-child(3){animation-delay:.1s}.opt:nth-child(4){animation-delay:.15s}.opt:nth-child(5){animation-delay:.2s} @keyframes up { from { transform: translateY(8px); } to { transform: none; } } }
+</style>
+
+<div class="page">
+  <h1>Actu : les actus d'abord</h1>
+  <p class="intro">Aujourd'hui, sur la page Actu, il faut passer la lettre, l'étude de cas et l'agenda avant de voir une seule actu. Voici 5 façons de mettre <b>les actus en premier</b> et de ranger le reste (lettre du matin, dates importantes, étude de cas, podcast). Chaque téléphone se fait défiler ; <b>la ligne pointillée dorée</b> marque ce qu'on voit sans toucher l'écran. Les actus sont celles du 26 novembre.</p>
+  <div class="board" id="board"></div>
+</div>
+
+<script>
+const D = {"date":"2026-11-26","news":[{"t":"Pétrole : des drones sur Ras Tanura, la plus grande raffinerie saoudienne, et trois nouveaux navires minés à Ormuz selon l'Iran, le Brent bondit de 3,5 %","s":"Mercredi 25 novembre, l'Arabie saoudite a abattu quatre drones au-dessus de Ras Tanura, sa plus grande raffinerie, attaque revendiquée par les rebelles houthis du Yémen. ","th":"mix","r":"Moyen-Orient","p":"Ras Tanura","brk":false},{"t":"Inflation à 3,8 % aux États-Unis : la Fed va presque sûrement monter ses taux le 9 décembre, Wall Street plonge puis efface ses pertes avant Thanksgiving","s":"Mercredi 25 novembre, l'indice des prix préféré de la Réserve fédérale (Fed), le PCE, a grimpé à 3,8 % sur un an en octobre. Les marchés jugent désormais une hausse des t","th":"eco","r":"Amériques","p":"New York","brk":false},{"t":"« Surcapacités » : Washington propose de taxer 14 économies, de 15 % pour l'Europe à 35 % pour le Viêt Nam, la Chine et Bruxelles rejettent l'accusation","s":"Mercredi 25 novembre, le représentant américain au Commerce, Jamieson Greer, a proposé de nouveaux droits de douane contre 14 des 16 économies visées par une enquête sur ","th":"eco","r":"Amériques","p":"Washington","brk":false},{"t":"Sommet de Bruxelles : les 27 se disputent un budget de 1 780 milliards d'euros sur sept ans, Merz menace de tout bloquer si quatre pays refusent de payer pour l'Ukraine","s":"Les dirigeants des 27 pays de l'UE se retrouvent jeudi 26 et vendredi 27 novembre à Bruxelles pour un sommet spécial sur le budget européen 2028-2034. Sur la table : un c","th":"mix","r":"Europe","p":"Bruxelles","brk":false},{"t":"Budget 2027 : le Sénat rétablit la surtaxe sur les grandes entreprises que les députés avaient supprimée, 5 milliards d'euros à la clé","s":"Mercredi soir 25 novembre, le Sénat a voté à main levée la prolongation en 2027 de la surtaxe d'impôt sur les bénéfices des plus grands groupes, à un taux réduit. Elle do","th":"eco","r":"Europe","p":"Sénat","brk":false},{"t":"Smic : le décret est adopté, le salaire minimum passe à 1 502 euros nets dès le 1er décembre, « des miettes » pour la CGT","s":"Le Conseil des ministres du mercredi 25 novembre a adopté le décret qui augmente le Smic de 1,6 % dès le 1er décembre, un mois avant la hausse habituelle de janvier. Le s","th":"eco","r":"Europe","p":"Palais de l'Élysée","brk":false},{"t":"Crise au Parlement européen : socialistes et libéraux claquent la porte de la droite, qui a encore voté avec l'extrême droite, la réélection de Metsola en suspens","s":"Mercredi 25 novembre, les socialistes (S&D) et les libéraux de Renew ont suspendu leurs négociations de coalition avec la droite du PPE. En cause : le PPE a fait passer, ","th":"geo","r":"Europe","p":"Parlement européen","brk":false},{"t":"Égypte : Maersk annonce à Sissi son retour complet par le canal de Suez, dont les recettes ont doublé en novembre, et le norvégien Scatec promet 5 milliards de dollars","s":"Mercredi 25 novembre, le patron du géant danois du transport maritime Maersk a dit au président égyptien Abdel Fattah al-Sissi vouloir faire repasser tous ses services pa","th":"eco","r":"Afrique","p":"Le Caire","brk":false},{"t":"Maires de France : candidat à l'Élysée, David Lisnard réélu avec 72 % des voix, encore mieux qu'en 2021","s":"Mercredi 25 novembre, au 108e Congrès des maires à Paris, David Lisnard, maire de Cannes et candidat à la présidentielle de 2027, a été réélu à la tête de l'Association d","th":"geo","r":"Europe","p":"Paris","brk":false},{"t":"Canada : le gouverneur Tiff Macklem prévient qu'il faudra peut-être « relever les taux », les marchés parient à 80 % sur une hausse le 9 décembre","s":"Mardi 24 novembre à Toronto, le gouverneur de la Banque du Canada, Tiff Macklem, a averti que la flambée du pétrole risquait de se propager aux autres prix et qu'une haus","th":"eco","r":"Amériques","p":"Toronto","brk":false},{"t":"Afrique du Sud : la justice annule le rapport Phala Phala, Ramaphosa échappe pour l'instant à la destitution, l'opposition parle de faire appel","s":"Mercredi 25 novembre, la Haute Cour du Cap-Occidental a annulé le rapport qui ouvrait la voie à une procédure de destitution du président Cyril Ramaphosa, dans l'affaire ","th":"geo","r":"Afrique","p":"Le Cap","brk":false},{"t":"Argentine : « super jeudi » au Congrès, les députés votent le budget 2027 de Milei pendant que le Sénat veut suspendre les primaires","s":"Ce jeudi 26 novembre, la Chambre des députés argentine se réunit à midi pour voter le budget 2027 de Javier Milei, après une séance avortée faute de quorum. Le même jour,","th":"mix","r":"Amériques","p":"Buenos Aires","brk":false}],"agenda":[{"d":"2026-11-26","t":"Argentine : les députés débattent du budget 2027"},{"d":"2026-11-26","t":"Sommet européen extraordinaire sur le budget de l'UE 2028-2034"},{"d":"2026-11-26","t":"Corée du Sud : dernière décision de taux de l'année de la Banque de Corée"},{"d":"2026-11-27","t":"France : premier chiffre de l'inflation de novembre"}],"lettre":{"d":"2026-11-26","t":"Pétrole : des drones sur Ras Tanura, la plus grande raffinerie saoudienne, et trois nouveaux navires minés à Ormuz selon l'Iran, le Brent bondit de 3,5 %"}};
+const esc = (s) => String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;");
+const TH = { eco: "Éco", geo: "Géopo", mix: "Éco & Géopo", fin: "Finance" };
+const FIG = (t) => { const m = String(t).match(/[−-]?\d[\d\s,.]*\s?(?:%|dollars|euros|milliards)/); return m ? m[0].replace("dollars", "$").replace(" euros", " €") : ""; };
+const card = (n, big) => `<div class="card ${n.th}${big ? " big" : ""}"><div class="m"><i></i>${n.brk ? '<span class="brk">Dernière minute ·</span>' : ""} Aujourd'hui · ${esc(n.r)}</div><h3>${esc(n.t)}</h3>${big ? `<p>${esc(n.s)}</p>` : ""}${big || FIG(n.t) ? `<div class="ill">${esc(FIG(n.t) || n.p)}</div>` : ""}</div>`;
+const mos = (list, at = 0) => list.map((n, i) => card(n, (i + at) % 5 === 0)).join("");
+const N = D.news;
+const fmt = (d) => new Date(d + "T12:00:00").toLocaleDateString("fr-FR", { day: "numeric", month: "short" });
+const nav = `<div class="nav"><b>Ge<i>o</i>nomix</b><span><em class="on">Actu</em><em>Cours</em><em>Duel</em></span></div>`;
+const cur = `<div class="cur"><span class="on">Économie<small>9</small></span><span>Géopolitique<small>8</small></span><span>Finance 🔒</span></div>`;
+const agMod = `<div class="mod"><h4>À venir <a>Tout l'agenda ›</a></h4>${D.agenda.map((a) => `<div class="ag"><b>${fmt(a.d)}</b><span>${esc(a.t)}</span></div>`).join("")}</div>`;
+const lettreMod = `<div class="mod"><div class="row"><span class="ic">☀️</span><span><b>La lettre du matin</b>${fmt(D.lettre.d)} · 7 actus en une page (PDF)</span></div></div>`;
+const etuMod = `<div class="mod"><div class="row"><span class="ic">🔎</span><span><b>Étude de cas</b>Du détroit d'Ormuz à ton plein de gazole</span></div></div>`;
+const podMod = `<div class="mod"><div class="row"><span class="ic">🎧</span><span><b>Le podcast</b>L'actu de la semaine en 10 minutes</span></div></div>`;
+const chips = `<div class="chips"><div class="chip lettre"><div class="k">☀ La lettre</div><div class="v">${fmt(D.lettre.d)} · en une page</div></div><div class="chip"><div class="k">⏱ Demain</div><div class="v">${esc(D.agenda[0].t)}</div></div><div class="chip pod"><div class="k">🎧 Podcast</div><div class="v">L'actu de la semaine en 10 min</div></div><div class="chip etu"><div class="k">🔎 Étude de cas</div><div class="v">D'Ormuz à ton plein de gazole</div></div></div>`;
+
+const OPTS = [
+  { l: "A", name: "Le fil d'abord", d: "Titre sur une ligne, rubriques collées en haut, puis directement les actus. Tout le reste passe en bas, dans « À côté de l'actu ».",
+    html: () => nav + `<div class="eyebrow">Jeudi 26 novembre</div><div class="ttl sm">L'actu.</div><div class="sticky">${cur}</div><div class="mos">${mos(N.slice(0, 10))}</div><div class="sec">À côté de l'actu</div>${lettreMod}${agMod}${etuMod}${podMod}` },
+  { l: "B", name: "Deux onglets", d: "Un interrupteur sous le titre : « Les actus » (ouvert par défaut) ou « Dates, lettre et podcast ». La page Actu ne montre que l'un ou l'autre.",
+    html: () => nav + `<div class="ttl sm">L'actu.</div><div class="seg"><span class="on">Les actus</span><span>Dates, lettre et podcast</span></div>${cur}<div class="mos">${mos(N.slice(0, 10))}</div>` },
+  { l: "C", name: "Raccourcis en bandeau", reco: true, d: "Une seule rangée de petites cartes qui défilent de côté (lettre, demain, podcast, étude de cas), puis les actus. Tout reste à un toucher, et les actus sont visibles dès l'ouverture.",
+    html: () => nav + `<div class="ttl sm">L'actu.</div>${chips}<div class="sticky">${cur}</div><div class="mos">${mos(N.slice(0, 10))}</div>` },
+  { l: "D", name: "Glissé dans le fil", d: "On commence par les actus ; les dates arrivent en bandeau après 4 actus, la lettre et le podcast après 8. Comme un journal qui place ses encadrés entre les articles.",
+    html: () => nav + `<div class="ttl sm">L'actu.</div><div class="sticky">${cur}</div><div class="mos">${mos(N.slice(0, 4))}<div class="inline"><div class="eyebrow">À venir</div><div class="strip">${D.agenda.map((a) => `<div class="ag2"><b>${fmt(a.d)}</b>${esc(a.t)}</div>`).join("")}</div></div>${mos(N.slice(4, 8), 4)}<div class="inline">${lettreMod}${podMod}</div>${mos(N.slice(8, 12), 8)}</div>` },
+  { l: "E", name: "Colonne à côté", d: "Sur tablette et ordinateur : les actus à gauche, une colonne qui reste en place à droite avec les dates, la lettre et le podcast. Sur téléphone, la colonne passe sous les actus (comme A).", tab: true,
+    html: () => nav + `<div class="ttl sm">L'actu.</div><div class="two"><div><div class="sticky" style="top:44px">${cur}</div><div class="mos">${mos(N.slice(0, 10))}</div></div><div class="side">${agMod}${lettreMod}${podMod}${etuMod}</div></div>` },
+];
+document.getElementById("board").innerHTML = OPTS.map((o) => `<section class="opt"${o.tab ? ' style="grid-column: span 2"' : ""}><h2><span class="l">${o.l}</span>${o.name}${o.reco ? '<span class="reco">Mon conseil</span>' : ""}</h2><p class="d">${o.d}</p><div class="phone${o.tab ? " tab" : ""}"${o.tab ? ' style="max-width:620px"' : ""}><div class="scr">${o.html()}</div><div class="fold"><span>sans faire défiler</span></div></div><p class="count" data-c="${o.l}"></p></section>`).join("");
+// Combien d'actus on voit au premier écran.
+document.querySelectorAll(".opt").forEach((s) => {
+  const ph = s.querySelector(".phone"), top = ph.getBoundingClientRect().top;
+  const n = [...ph.querySelectorAll(".card")].filter((c) => c.getBoundingClientRect().top - top < 640 - 30).length;
+  s.querySelector(".count").innerHTML = `Au premier écran : <b>${n} actu${n > 1 ? "s" : ""}</b>`;
+});
+// Sur un écran étroit, la tablette prend toute la largeur.
+const mq = matchMedia("(max-width: 720px)");
+const fit = () => document.querySelectorAll('.opt[style]').forEach((s) => s.style.gridColumn = mq.matches ? "auto" : "span 2");
+mq.addEventListener("change", fit); fit();
+</script>
