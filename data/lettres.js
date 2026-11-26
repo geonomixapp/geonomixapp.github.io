@@ -2,12 +2,42 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-26",
+    "file": "lettres/2026-11-26.pdf",
+    "titles": [
+      "Pétrole : des drones sur Ras Tanura, la plus grande raffinerie saoudienne, et trois nouveaux navires minés à Ormuz selon l'Iran, le Brent bondit de 3,5 %",
+      "Inflation à 3,8 % aux États-Unis : la Fed va presque sûrement monter ses taux le 9 décembre, Wall Street plonge puis efface ses pertes avant Thanksgiving",
+      "« Surcapacités » : Washington propose de taxer 14 économies, de 15 % pour l'Europe à 35 % pour le Viêt Nam, la Chine et Bruxelles rejettent l'accusation"
+    ],
+    "fileDark": "lettres/2026-11-26-sombre.pdf"
+  },
+  {
+    "date": "2026-11-25",
+    "file": "lettres/2026-11-25.pdf",
+    "titles": [
+      "Ormuz : l'Iran promet de fermer le détroit « un peu plus chaque jour » et refuse toute négociation sans ses sept conditions, Washington s'attaque à sa « banque de l'ombre »",
+      "Wall Street : le Dow Jones repasse les 50 000 points, mais Nvidia rechute de 6 % et les marchés parient à 98 % sur une hausse des taux de la Fed",
+      "Séoul chute de plus de 5 %, Taïwan de plus de 6 % : les Bourses d'Asie rechutent alors que Washington s'apprête à taxer 16 économies pour « surcapacités »"
+    ],
+    "fileDark": "lettres/2026-11-25-sombre.pdf"
+  },
+  {
+    "date": "2026-11-24",
+    "file": "lettres/2026-11-24.pdf",
+    "titles": [
+      "Ormuz : l'Iran affirme que trois pétroliers escortés par les Américains ont sauté sur des mines, mais le Brent tombe à son plus bas depuis août",
+      "Wall Street signe sa meilleure séance depuis avril 2025, mais le patron de la Fed de New York prévient : l'inflation reste trop haute, une hausse des taux en décembre est jugée quasi certaine",
+      "Belgique : 50 000 manifestants, gaz lacrymogène à Bruxelles-Midi, et toujours pas de budget : De Wever prévient que sa coalition peut tomber au 1er janvier"
+    ],
+    "fileDark": "lettres/2026-11-24-sombre.pdf"
+  },
+  {
     "date": "2026-11-23",
     "file": "lettres/2026-11-23.pdf",
     "titles": [
+      "Volte-face chez Nvidia : Jensen Huang reprend la tête du groupe onze jours après sa démission, l'action bondit de plus de 30 % et le Nasdaq de 6 %",
       "Ormuz : Trump promet de couler les pétroliers iraniens qui forceraient le blocus et menace de frapper à nouveau l'Iran après le Nouvel An",
-      "COP31 : le sommet d'Antalya s'achève sans accord, l'UE refuse un texte qui ne cite même pas les énergies fossiles, une première depuis 2009",
-      "Dette : Macron envisage de réunir le Parlement à Versailles en janvier pour inscrire une « règle d'or » dans la Constitution"
+      "COP31 : le sommet d'Antalya s'achève sans accord, l'UE refuse un texte qui ne cite même pas les énergies fossiles, une première depuis 2009"
     ],
     "fileDark": "lettres/2026-11-23-sombre.pdf"
   },

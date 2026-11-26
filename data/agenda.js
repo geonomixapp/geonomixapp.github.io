@@ -8,141 +8,28 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.agenda = [
   {
-    "id": "2026-11-23-israel-banque-centrale-taux",
-    "date": "2026-11-23",
-    "theme": "eco",
-    "region": "Moyen-Orient",
-    "place": "Jérusalem, Israël",
-    "title": "Israël : la banque centrale décide de son taux",
-    "why": "La Banque d'Israël annonce sa décision le 23 novembre, avec un taux aujourd'hui à 3,25 % [1]. L'inflation est tombée à 1,1 % sur un an en octobre, ce qui rend plus probable une baisse d'un quart de point à 3 % [2] : emprunter coûterait un peu moins cher.",
-    "sources": [
-      {
-        "short": "Banque d'Israël",
-        "name": "Banque d'Israël (Bank of Israel), page d'accueil, « Next decision date: 23/11/2026 »",
-        "url": "https://www.boi.org.il/en/"
-      },
-      {
-        "short": "Calcalist",
-        "name": "Calcalist, « Israel's inflation falls to 1.1%, putting pressure on the Bank of Israel to cut rates » (nov. 2026)",
-        "url": "https://www.calcalistech.com/ctechnews/article/w7hqdh5of"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-23-nigeria-banque-centrale-taux",
-    "date": "2026-11-23",
-    "end": "2026-11-24",
-    "theme": "eco",
-    "region": "Afrique",
-    "place": "Abuja, Nigeria",
-    "title": "Nigeria : la banque centrale décide de son taux",
-    "why": "Le comité de politique monétaire de la Banque centrale du Nigeria se réunit les 23 et 24 novembre [1], deux mois après avoir baissé son taux de 26,5 % à 23 % [2]. L'inflation a encore reculé à 14,06 % en octobre [3], ce qui laisse de la place pour une nouvelle baisse.",
-    "sources": [
-      {
-        "short": "Banque centrale du Nigeria",
-        "name": "Banque centrale du Nigeria (CBN), déclarations personnelles des membres, 307e réunion du MPC (sept. 2026), date de la prochaine réunion",
-        "url": "https://www.cbn.gov.ng/Out/2026/CCD/Personal%20Statements%20of%20Members%20for%20the%20307th%20Meeting%20of%20the%20MPC_September%202026.pdf"
-      },
-      {
-        "short": "Daily Trust",
-        "name": "Daily Trust, annonce de la réunion du MPC des 23 et 24 novembre 2026",
-        "url": "https://dailytrust.com/?p=1974891"
-      },
-      {
-        "short": "Vanguard",
-        "name": "Vanguard, « Nigeria's inflation rate drops to 14.06% in October » (nov. 2026)",
-        "url": "https://www.vanguardngr.com/2026/11/nigerias-inflation-rate-drops-to-14-06-in-october/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-23-belgique-manifestation-nationale",
-    "date": "2026-11-23",
-    "theme": "eco",
-    "region": "Europe",
-    "place": "Bruxelles, Belgique",
-    "title": "Belgique : manifestation nationale des syndicats à Bruxelles",
-    "why": "Les syndicats ACV-CSC, FGTB-ABVV et SYNOVA attendent des milliers de personnes contre les coupes dans le budget social du gouvernement De Wever, avec des perturbations à Bruxelles [1][2]. L’ampleur de la mobilisation pèsera sur un gouvernement déjà fragilisé par son budget [3].",
-    "news": "2026-11-23-belgique-greve-nationale-aeroports-fermes",
-    "sources": [
-      {
-        "short": "Brussels Times",
-        "name": "The Brussels Times, « National strike on Monday: What disruptions are expected in Brussels? » (19 novembre 2026)",
-        "url": "https://www.brusselstimes.com/2412909/national-strike-on-monday-what-disruptions-are-expected-in-brussels"
-      },
-      {
-        "short": "Shortnews.be",
-        "name": "Shortnews.be, « National demonstration in Brussels (Monday 23 November) » (novembre 2026)",
-        "url": "https://shortnews.be/strike/19-national-demonstration-in-brussels-2026-11-23"
-      },
-      {
-        "short": "Eunews",
-        "name": "Eunews, « Belgian government in turmoil over budget: King puts Prime Minister De Wever’s resignation on hold » (2 novembre 2026)",
-        "url": "https://www.eunews.it/en/2026/11/02/belgian-government-in-turmoil-over-budget-king-puts-prime-minister-de-wevers-resignation-on-hold/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-24-portugal-budget-2027-vote-final",
-    "date": "2026-11-24",
-    "theme": "eco",
-    "region": "Europe",
-    "place": "Lisbonne",
-    "title": "Portugal : vote final du budget 2027",
-    "why": "Le Parlement portugais vote le budget 2027 dans son ensemble le 24 novembre, au terme de l'examen article par article [1][2]. En première lecture, le 28 octobre, le texte est passé grâce aux voix du PSD et du CDS-PP et à l'abstention du Parti socialiste [1].",
-    "news": "2026-11-23-portugal-budget-2027-vote-final",
-    "sources": [
-      {
-        "short": "ComparaJá",
-        "name": "ComparaJá, « Parlamento aprova Orçamento do Estado 2027 na generalidade » (oct. 2026)",
-        "url": "https://www.comparaja.pt/financas-pessoais/noticias/parlamento-aprova-orcamento-estado-2027-votacao-final-outubro-2026"
-      },
-      {
-        "short": "Economia & Finanças",
-        "name": "Economia & Finanças, « Proposta de Orçamento do Estado para 2027 e cenário macroeconómico » (calendrier de l'examen)",
-        "url": "https://economiafinancas.com/2026/proposta-de-orcamento-do-estado-para-2027-e-cenario-macroeconomico/"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-25-sommet-ue-balkans-occidentaux",
-    "date": "2026-11-25",
-    "theme": "geo",
-    "region": "Europe",
-    "place": "Bruxelles, Belgique",
-    "title": "Sommet entre l'UE et les six pays des Balkans occidentaux",
-    "why": "Les dirigeants de l'UE et des Balkans occidentaux se retrouvent à Bruxelles pour parler d'adhésion, du plan de croissance pour la région et de sécurité, après le sommet de Tivat en juin [1][2]. L'UE y teste la crédibilité de ses promesses d'élargissement, au moment où la Serbie s'éloigne de Bruxelles [2].",
-    "sources": [
-      {
-        "short": "New Union Post",
-        "name": "New Union Post, « EU-Western Balkans summit 2026 in Brussels » (23 octobre 2026)",
-        "url": "https://newunionpost.eu/2026/10/23/eu-western-balkans-summit-2026-brussels/"
-      },
-      {
-        "short": "Brussels Times",
-        "name": "The Brussels Times, « Western Balkans summit to test EU's resolve as membership pledges face scrutiny »",
-        "url": "https://www.brusselstimes.com/2374955/western-balkans-summit-to-test-eus-resolve-as-membership-pledges-face-scrutiny"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-25-etats-unis-pib-pce",
-    "date": "2026-11-25",
+    "id": "2026-11-26-argentine-deputes-budget-2027",
+    "date": "2026-11-26",
     "theme": "eco",
     "region": "Amériques",
-    "place": "Washington, États-Unis",
-    "title": "États-Unis : PIB du 3e trimestre et inflation PCE d'octobre",
-    "why": "Le même jour, le Bureau d'analyse économique publie la deuxième estimation de la croissance de juillet-septembre et les revenus et dépenses des ménages d'octobre, dont l'indice de prix PCE suivi par la Fed [1][2]. Ces chiffres arrivent deux semaines avant la réunion de la Fed du 8 décembre.",
+    "place": "Buenos Aires, Argentine",
+    "title": "Argentine : les députés débattent du budget 2027",
+    "why": "Le parti de Javier Milei, La Libertad Avanza, a obtenu avec ses alliés l'avis favorable de la commission du budget et voulait faire voter le texte en séance le 25 novembre [1] ; faute d'un quorum assuré, la séance est désormais visée le jeudi 26 novembre [3]. Pour obtenir ces signatures, le gouvernement a cédé sur le handicap, les routes et les universités, et cinq alliés ont signé avec des réserves [2] : un vote réussi montrerait aux marchés que Milei peut faire passer ses comptes publics.",
     "sources": [
       {
-        "short": "BEA",
-        "name": "Bureau of Economic Analysis, calendrier des publications (Personal Income and Outlays, October 2026 ; GDP Second Estimate, 3rd Quarter 2026)",
-        "url": "https://www.bea.gov/news/schedule/"
+        "short": "Parlamentario",
+        "name": "Parlamentario.com, « Presupuesto 2027: con la ayuda de aliados, LLA obtuvo dictamen de mayoría y se debate la próxima semana » (17 nov. 2026)",
+        "url": "https://www.parlamentario.com/2026/11/17/presupuesto-2027-con-la-ayuda-de-aliados-lla-obtuvo-dictamen-de-mayoria-y-se-debate-la-proxima-semana/"
       },
       {
-        "short": "Finance Calendar",
-        "name": "Finance Calendar, « US Gross Domestic Product November 2026 »",
-        "url": "https://www.financecalendar.com/?p=1310"
+        "short": "Perfil",
+        "name": "Perfil, « Discapacidad, rutas y universidades: el Gobierno cedió ante sus aliados para conseguir dictamen del Presupuesto 2027 » (nov. 2026)",
+        "url": "https://perfil.com/politica/discapacidad-rutas-y-universidades-el-gobierno-cedio-ante-sus-aliados-para-conseguir-dictamen-del-presupuesto-2027-avmeu3P1XoeP"
+      },
+      {
+        "short": "El Liberal",
+        "name": "El Liberal, « Semana clave en el Congreso: el oficialismo busca aprobar el Presupuesto 2027 » (23 nov. 2026)",
+        "url": "https://www.elliberal.com.ar/amp/2026/11/23/98832-semana-clave-en-el-congreso--el-oficialismo-busca-aprobar-el-presupuesto-2027-la-reforma-politica-y-recibe-a-diego-santilli.html"
       }
     ]
   },
@@ -186,6 +73,64 @@ window.GEOCO.agenda = [
         "short": "Kyunghyang Shinmun",
         "name": "Kyunghyang Shinmun (édition anglaise), sur la décision du 22 octobre 2026 de la Banque de Corée",
         "url": "https://www.khan.co.kr/en/article/202610221648047"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-france-inflation-novembre",
+    "date": "2026-11-27",
+    "theme": "eco",
+    "region": "Europe",
+    "place": "Paris (Insee)",
+    "title": "France : premier chiffre de l'inflation de novembre",
+    "why": "L'Insee publie le 27 novembre à 8 h 45 son estimation provisoire des prix de novembre [1]. En octobre, les prix avaient augmenté de 3,4 % sur un an, tirés par l'énergie (+24,1 %) [1] : une nouvelle accélération pèserait sur le pouvoir d'achat et sur les anticipations de taux de la BCE avant sa réunion du 17 décembre.",
+    "sources": [
+      {
+        "short": "Insee",
+        "name": "Insee, Informations rapides n° 271, « Indice des prix à la consommation, résultats définitifs, octobre 2026 » (13 nov. 2026), avec la date de la prochaine parution",
+        "url": "https://insee.fr/fr/statistiques/9131332"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-allemagne-bundestag-budget-2027",
+    "date": "2026-11-27",
+    "theme": "eco",
+    "region": "Europe",
+    "place": "Berlin, Allemagne",
+    "title": "Allemagne : le Bundestag vote le budget fédéral 2027",
+    "why": "Les députés allemands votent en troisième lecture un budget d'environ 560,9 milliards d'euros de dépenses, adopté le 13 novembre en commission [1], avec une nouvelle dette qui monte à 210 milliards d'euros en comptant les fonds spéciaux [2]. Un vote qui fixe la dette de la première économie européenne pour 2027.",
+    "sources": [
+      {
+        "short": "Bundestag",
+        "name": "Bundestag, « Haushaltsgesetz 2027 : dritte Lesung » (textarchiv, semaine 48) et hib 939/2026 (13 novembre 2026)",
+        "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw48-de-haushaltsgesetz-2027-dritte-lesung-1232350"
+      },
+      {
+        "short": "Börsen-Zeitung",
+        "name": "Börsen-Zeitung, « Neuverschuldung steigt auf 210 Mrd. Euro » (novembre 2026)",
+        "url": "https://www.boersen-zeitung.de/konjunktur-politik/neuverschuldung-steigt-auf-210-mrd-euro"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-27-nouvelle-zelande-resultats-officiels",
+    "date": "2026-11-27",
+    "theme": "geo",
+    "region": "Asie",
+    "place": "Wellington, Nouvelle-Zélande",
+    "title": "Nouvelle-Zélande : résultats officiels des législatives",
+    "why": "La Commission électorale proclame les résultats définitifs du scrutin du 7 novembre, après le dépouillement des votes spéciaux [1]. Au décompte provisoire, la coalition sortante de Christopher Luxon n'avait qu'un siège de majorité, 67 sur 131 [2] : les votes spéciaux, traditionnellement plus favorables à la gauche, peuvent faire basculer le gouvernement.",
+    "sources": [
+      {
+        "short": "Elections NZ",
+        "name": "Electoral Commission (Te Kaitiaki Take Kōwhiri), « 2026 General Election media kit »",
+        "url": "https://elections.nz/assets/2026-Media-Kit-/2026-General-Election-media-kit.pdf"
+      },
+      {
+        "short": "Al Jazeera",
+        "name": "Al Jazeera, « New Zealand's governing coalition holds slim majority in preliminary count » (7 novembre 2026)",
+        "url": "https://www.aljazeera.com/news/2026/11/7/governing-party-leads-in-new-zealands-knife-edge-vote-early-results"
       }
     ]
   },
@@ -361,6 +306,27 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-11-29-equateur-elections-locales",
+    "date": "2026-11-29",
+    "theme": "geo",
+    "region": "Amériques",
+    "place": "Équateur",
+    "title": "Équateur : élections locales et du Conseil de participation citoyenne",
+    "why": "Plus de 13,8 millions d'Équatoriens élisent leurs maires, préfets et conseillers, ainsi que sept membres du Conseil de participation citoyenne (CPCCS), un vote avancé de février 2027 au 29 novembre 2026 par le Conseil national électoral [1]. Avec 51 731 candidatures [2], le scrutin dira si le gouvernement de Daniel Noboa tient les grandes villes comme Quito et Guayaquil.",
+    "sources": [
+      {
+        "short": "Primicias",
+        "name": "Primicias, « CNE: elecciones seccionales en Ecuador el 29 de noviembre » (2026)",
+        "url": "https://www.primicias.ec/politica/cne-elecciones-seccionales-ecuador-29-noviembre-119142/"
+      },
+      {
+        "short": "Teleamazonas",
+        "name": "Teleamazonas, « 51 731 candidaturas en firme para las votaciones seccionales del 29 de noviembre » (nov. 2026)",
+        "url": "https://www.teleamazonas.com/actualidad/noticias/politica/51-731-candidaturas-firme-votaciones-seccionales-29-noviembre-132769/"
+      }
+    ]
+  },
+  {
     "id": "2026-11-30-chine-credit-marge-80",
     "date": "2026-11-30",
     "theme": "fin",
@@ -379,6 +345,54 @@ window.GEOCO.agenda = [
         "short": "investingLive",
         "name": "investingLive, « China cuts margin requirement to 80% in fresh market support push » (nov. 2026)",
         "url": "https://investinglive.com/stock-market-update/china-cuts-margin-requirement-to-80-in-fresh-market-support-push-but-will-it-work/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-30-inde-pib-t2",
+    "date": "2026-11-30",
+    "theme": "eco",
+    "region": "Asie",
+    "place": "New Delhi",
+    "title": "Inde : croissance du trimestre juillet-septembre",
+    "why": "Le ministère indien des Statistiques (MoSPI) publie le 30 novembre l'estimation du PIB du deuxième trimestre (juillet-septembre) de l'exercice 2026-2027 [1]. Le chiffre dira si la croissance indienne résiste au pétrole cher, quatre jours avant la décision de taux de la Banque de réserve d'Inde.",
+    "sources": [
+      {
+        "short": "PIB / MoSPI",
+        "name": "Press Information Bureau (gouvernement indien), communiqué du MoSPI annonçant la prochaine estimation trimestrielle du PIB le 30 novembre 2026",
+        "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2304949"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-30-chine-pmi-novembre",
+    "date": "2026-11-30",
+    "theme": "eco",
+    "region": "Asie",
+    "place": "Pékin",
+    "title": "Chine : les indices officiels d'activité de novembre (PMI)",
+    "why": "Le Bureau national des statistiques publie le 30 novembre ses indices PMI de novembre [1][2]. En octobre, l'indice manufacturier était tombé à 49,3, sous la barre des 50 qui sépare croissance et contraction [3][4] : un nouveau recul alimenterait les appels à une relance et pèserait sur les métaux et les monnaies asiatiques.",
+    "verify": "Date du 30 novembre donnée par Trading Economics ; la ligne PMI du calendrier officiel du NBS n'a pas pu être lue (dates « préliminaires » selon le NBS).",
+    "sources": [
+      {
+        "short": "NBS",
+        "name": "Bureau national des statistiques de Chine, « Regular Press Release Calendar of NBS in 2026 »",
+        "url": "https://www.stats.gov.cn/english/PressRelease/ReleaseCalendar/202512/t20251226_1962154.html"
+      },
+      {
+        "short": "Trading Economics",
+        "name": "Trading Economics, calendrier économique de la Chine (PMI NBS de novembre le 30 nov. 2026)",
+        "url": "https://tradingeconomics.com/china/calendar"
+      },
+      {
+        "short": "NBS",
+        "name": "Bureau national des statistiques de Chine, « Purchasing Managers' Index for October 2026 » (nov. 2026)",
+        "url": "https://www.stats.gov.cn/english/PressRelease/202611/t20261103_1965735.html"
+      },
+      {
+        "short": "Mysteel",
+        "name": "Mysteel, « NBS: China's Oct manufacturing PMI contracts to 49.3 » (2 nov. 2026)",
+        "url": "https://www.mysteel.net/news/5147011-nbs-chinas-oct-manufacturing-pmi-contracts-to-493"
       }
     ]
   },
@@ -511,7 +525,6 @@ window.GEOCO.agenda = [
     "place": "Banjul",
     "title": "Présidentielle en Gambie",
     "why": "Les Gambiens élisent leur président le samedi 5 décembre, date fixée par la commission électorale indépendante [1][2]. Le président sortant Adama Barrow brigue un troisième mandat, alors qu'il s'était d'abord engagé à n'en faire qu'un [3].",
-    "news": "2026-11-09-gambie-presidentielle-bensouda-candidature",
     "sources": [
       {
         "short": "Africa Center",
@@ -714,6 +727,27 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-12-09-adobe-resultats",
+    "date": "2026-12-09",
+    "theme": "fin",
+    "region": "Amériques",
+    "place": "San José, États-Unis",
+    "title": "Adobe publie ses résultats annuels",
+    "why": "Adobe présente le 9 décembre après la clôture de Wall Street ses comptes du quatrième trimestre et de l'exercice 2026 [1]. Le groupe vise 6,80 à 6,85 milliards de dollars de chiffre d'affaires sur le trimestre [2] ; ses objectifs 2027 diront si l'intelligence artificielle générative menace ou dope ses logiciels (Photoshop, Acrobat).",
+    "sources": [
+      {
+        "short": "Adobe",
+        "name": "Adobe, Investor Relations, calendrier des événements (conférence sur les résultats du T4 2026, 9 déc. 2026, 14 h heure du Pacifique)",
+        "url": "https://www.adobe.com/uk/investor-relations.html"
+      },
+      {
+        "short": "Morningstar (Business Wire)",
+        "name": "Morningstar, reprise du communiqué Business Wire « Adobe Reports Record Q3 Results » (10 sept. 2026)",
+        "url": "https://www.morningstar.com/news/business-wire/20260910832552/adobe-reports-record-q3-results"
+      }
+    ]
+  },
+  {
     "id": "2026-12-10-turquie-banque-centrale-taux",
     "date": "2026-12-10",
     "theme": "eco",
@@ -857,6 +891,23 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-12-15-indonesie-banque-centrale-taux",
+    "date": "2026-12-15",
+    "end": "2026-12-16",
+    "theme": "eco",
+    "region": "Asie",
+    "place": "Jakarta",
+    "title": "Indonésie : dernière décision de taux de l'année",
+    "why": "Le conseil des gouverneurs de Bank Indonesia tient sa réunion mensuelle les 15 et 16 décembre [1]. Sa décision compte pour la roupie, sous pression avec le dollar fort et le pétrole cher, et pour le coût du crédit dans la première économie d'Asie du Sud-Est.",
+    "sources": [
+      {
+        "short": "Bank Indonesia (banque centrale)",
+        "name": "Bank Indonesia, « Board of Governors Meeting Schedule » (calendrier 2026)",
+        "url": "https://www.bi.go.id/en/publikasi/kalender/"
+      }
+    ]
+  },
+  {
     "id": "2026-12-16-colombie-fin-session-loi-sauvetage",
     "date": "2026-12-16",
     "theme": "eco",
@@ -875,6 +926,27 @@ window.GEOCO.agenda = [
         "short": "Semana",
         "name": "Semana, « Sin reforma, Colombia entrará en default en 2027 »",
         "url": "https://www.semana.com/economia/macroeconomia/articulo/sin-reforma-colombia-entrara-en-default-en-2027-la-advertencia-del-vicepresidente-y-del-ministro-de-hacienda/202641/"
+      }
+    ]
+  },
+  {
+    "id": "2026-12-16-suede-riksbank-taux",
+    "date": "2026-12-16",
+    "theme": "eco",
+    "region": "Europe",
+    "place": "Stockholm",
+    "title": "Suède : la Riksbank décide de son taux",
+    "why": "La banque centrale suédoise publie sa décision le 16 décembre à 9 h 30, avec son rapport de politique monétaire [1]. Le 4 novembre, elle a relevé son taux à 2 % en citant les coûts de la guerre au Moyen-Orient, et jugé « probable » une nouvelle hausse dans l'année qui vient [2].",
+    "sources": [
+      {
+        "short": "Riksbank",
+        "name": "Sveriges Riksbank, calendrier 2026, 16 décembre : publication de la décision de politique monétaire",
+        "url": "https://www.riksbank.se/sv/press-och-publicerat/kalender/kalender-2026/2026-12-16/"
+      },
+      {
+        "short": "Riksbank",
+        "name": "Sveriges Riksbank, communiqué « Styrräntan höjs till 2 procent » (4 nov. 2026)",
+        "url": "https://www.riksbank.se/sv/press-och-publicerat/nyheter-och-pressmeddelanden/pressmeddelanden/2026/styrrantan-hojs-till-2-procent/"
       }
     ]
   },
@@ -991,6 +1063,32 @@ window.GEOCO.agenda = [
         "short": "Présidence irlandaise",
         "name": "Présidence irlandaise du Conseil de l'UE, « General Affairs Council », 15 déc. 2026",
         "url": "https://irish-presidency.consilium.europa.eu/en/events/general-affairs-council-1512/"
+      }
+    ]
+  },
+  {
+    "id": "2026-12-17-norvege-norges-bank-taux",
+    "date": "2026-12-17",
+    "theme": "eco",
+    "region": "Europe",
+    "place": "Oslo",
+    "title": "Norvège : la Norges Bank décide de son taux",
+    "why": "La banque centrale norvégienne annonce sa décision le 17 décembre à 10 h, avec son rapport de politique monétaire [1]. Le 5 novembre, elle a laissé son taux à 4,5 % après une hausse en septembre, en se disant prête à le relever encore [2][3] : une hausse renchérirait les crédits immobiliers et soutiendrait la couronne.",
+    "sources": [
+      {
+        "short": "Norges Bank",
+        "name": "Norges Bank, calendrier des décisions de taux : 17 décembre 2026",
+        "url": "https://www.norges-bank.no/en/news-events/calendar/policy-rate-decisions/26-12-17/"
+      },
+      {
+        "short": "Norges Bank",
+        "name": "Norges Bank, communiqué sur la décision de taux du 5 novembre 2026",
+        "url": "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-11-05-rate/"
+      },
+      {
+        "short": "Morningstar (Dow Jones)",
+        "name": "Morningstar (Dow Jones), « Norges Bank Holds Key Interest Rate, Signals Readiness to Tighten » (5 nov. 2026)",
+        "url": "https://www.morningstar.com/news/dow-jones/202611054081/norges-bank-holds-key-interest-rate-signals-readiness-to-tighten-update"
       }
     ]
   },

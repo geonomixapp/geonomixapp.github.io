@@ -7,7 +7,7 @@
 
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.indicators = {
-  "updated": "2026-11-23",
+  "updated": "2026-11-26",
   "latest": [
     {
       "group": "Économie",
@@ -635,6 +635,21 @@ window.GEOCO.indicators = {
           "short": "BSS (BBS)",
           "name": "BSS (agence de presse publique du Bangladesh), inflation de 8,27 % en octobre 2026 (Bangladesh Bureau of Statistics) ; voir aussi The Financial Express, « Inflation dips to 8.27pc in October »",
           "url": "https://www.bssnews.net/business/443836"
+        },
+        {
+          "short": "The Standard",
+          "name": "The Standard, « Hong Kong CPI rises 1.9pc in September » (octobre 2026), d’après le Census and Statistics Department",
+          "url": "https://www.thestandard.com.hk/finance/article/346236/Hong-Kong-CPI-rises-19pc-in-September"
+        },
+        {
+          "short": "MAS",
+          "name": "Autorité monétaire de Singapour (MAS) et ministère du Commerce (MTI), « Consumer Price Developments in September 2026 »",
+          "url": "https://www.mas.gov.sg/-/media/mas-media-library/news/consumer-price-developments/2026/consumer-price-developments-in-september-2026.pdf"
+        },
+        {
+          "short": "Capital Brief",
+          "name": "Capital Brief, « CPI rose by 4.9% in 12 months to October » (25 nov. 2026, chiffres de l'Australian Bureau of Statistics) ; aussi Yahoo Finance, « Australia's inflation rate … 4.9% in October »",
+          "url": "https://www.capitalbrief.com/briefing/cpi-rose-by-49-in-12-months-to-october-4e5f0191-0a0e-4da5-9665-63055190ea45/"
         }
       ],
       "values": {
@@ -889,9 +904,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "344": {
-          "v": 1.7,
-          "d": "août 2026",
-          "s": 1
+          "v": 1.9,
+          "d": "sept. 2026",
+          "s": 68
         },
         "348": {
           "v": 2,
@@ -1274,9 +1289,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "702": {
-          "v": 2.3,
-          "d": "août 2026",
-          "s": 1
+          "v": 2.2,
+          "d": "sept. 2026",
+          "s": 69
         },
         "703": {
           "v": 3.1,
@@ -1489,9 +1504,9 @@ window.GEOCO.indicators = {
           "s": 41
         },
         "036": {
-          "v": 4.3,
-          "d": "sept. 2026",
-          "s": 43
+          "v": 4.9,
+          "d": "oct. 2026",
+          "s": 70
         },
         "040": {
           "v": 3.6,
