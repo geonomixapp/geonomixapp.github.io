@@ -178,7 +178,7 @@ td { padding: 1mm 0; border-bottom: .5px solid ${P.rule}; vertical-align: top; }
 <div class="mast"><img src="assets/logo-clair.png" alt="Geonomix"></div>
 <div class="tag">L'économie et la géopolitique, expliquées chaque matin</div>
 <div class="rule2"></div>
-<div class="bar"><span>${d.items.length} actus</span><span>Toutes les sources sont dans l'application</span></div>
+<div class="bar"><span>${d.items.length} actus</span></div>
 <div class="leadrow">
   <div class="lead"><div class="k">${kicker(d, lead)}</div><h1>${esc(lead.title)}</h1><p class="deck">${esc(d.strip(lead.summary))}</p>
     <div class="body">${pts.map((t, i) => `<p>${i === 0 && dateline(lead) ? `<span class="dl">${esc(dateline(lead))} —</span> ` : ""}${t}</p>`).join("")}</div>
@@ -213,8 +213,9 @@ html, body { background: #000; } body { color: #f5f5f7; font-family: "Inter", sa
 .page { padding: 13mm 13mm 10mm; background: #000; }
 .top { display: flex; justify-content: space-between; font: 600 8.5pt "Inter"; color: #86868b; }
 .top b { color: #f5f5f7; font-weight: 700; }
-h1 { font: 800 46pt/1.02 "Inter"; letter-spacing: -.035em; margin: 6mm 0 0; }
-.lede { margin-top: 4mm; font: 400 12pt/1.45 "Inter"; color: #a1a1a6; max-width: 150mm; }
+.mast { margin: 7mm 0 1mm; padding-bottom: 4mm; border-bottom: 1px solid #3a3a3c; display: flex; align-items: flex-end; justify-content: space-between; gap: 8mm; }
+.mast img { height: 19mm; width: auto; display: block; }
+.tagl { font: 500 9.5pt/1.4 "Inter"; color: #a1a1a6; text-align: right; padding-bottom: 1.5mm; }
 .hero { display: grid; grid-template-columns: 1.35fr 1fr; gap: 7mm; margin-top: 5mm; align-items: end; }
 .k { font: 600 8pt "Inter"; color: #86868b; letter-spacing: .02em; }
 .no { color: #a78bfa; font-weight: 800; margin-right: 1.5mm; }
@@ -235,8 +236,7 @@ h1 { font: 800 46pt/1.02 "Inter"; letter-spacing: -.035em; margin: 6mm 0 0; }
 .foot { margin-top: auto; padding-top: 6mm; font: 400 7pt "Inter"; color: #6e6e73; display: flex; justify-content: space-between; }
 `, `<div class="page" id="page">
 <div class="top"><span><b>Geonomix</b> · La lettre du matin</span><span>${esc(d.dateCap)}</span></div>
-<h1>Le monde.<br><span style="color:#6e6e73">Ce matin.</span></h1>
-<div class="lede">${d.items.length} actus, expliquées simplement. Toutes les sources sont dans l'application.</div>
+<div class="mast"><img src="assets/logo-sombre-hd.png" alt="Geonomix"><div class="tagl">L'économie et la géopolitique, expliquées chaque matin · ${d.items.length} actus</div></div>
 <div class="hero">
   <div><div class="k">${kicker(d, lead)}</div><h2>${esc(lead.title)}</h2><p>${esc(d.strip(lead.summary))}</p>${canBars(lead) ? `<div style="margin-top:3mm">${pressChart(lead, P, { noSource: true })}</div>` : ""}<div class="src">Sources : ${esc(sourcesOf(lead))}</div>${read(lead)}</div>
   ${df ? `<div><div class="k">Le chiffre du jour${df.place ? " · " + esc(df.place) : ""}</div><div class="stat">${esc(df.value)}</div><div class="statl">${esc(df.label)}</div>${df.src ? `<div class="src">Source : ${esc(df.src)}</div>` : ""}</div>` : "<div></div>"}
