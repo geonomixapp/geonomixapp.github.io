@@ -132,6 +132,22 @@
     container.addEventListener("pointercancel", lift, { capture: true });
   }
 
+  // Texture plus nette : filtrage anisotrope au maximum de la carte graphique (la Terre reste fine
+  // vue en biais, vers les bords du globe) ; appliqué dès que les images sont chargées.
+  function crisp(world) {
+    let tries = 0;
+    const go = () => {
+      try {
+        const r = world.renderer(), mat = world.globeMaterial();
+        const max = Math.min(16, r.capabilities.getMaxAnisotropy ? r.capabilities.getMaxAnisotropy() : 1);
+        const texs = [mat.map, mat.bumpMap].filter((t) => t && t.image);
+        texs.forEach((t) => { if (t.anisotropy !== max) { t.anisotropy = max; t.needsUpdate = true; } });
+        if ((!mat.map || !mat.map.image) && tries++ < 40) setTimeout(go, 250);
+      } catch (e) { /* bonus : on s'en passe si ça échoue */ }
+    };
+    go();
+  }
+
   // Ajoute une couche de nuages qui tourne lentement, en réutilisant les classes three.js du globe.
   function addClouds(world) {
     try {
@@ -336,6 +352,7 @@
     const world = new window.Globe(container, { animateIn: true })
       .backgroundColor("rgba(0,0,0,0)")
       .globeImageUrl(TEX.earth)
+      .globeCurvatureResolution(2)
       .bumpImageUrl(TEX.bump)
       .showAtmosphere(true)
       .atmosphereColor("#5aa9ff")
@@ -394,6 +411,7 @@
       world.width(container.clientWidth).height(container.clientHeight);
     };
     window.addEventListener("resize", onResize);
+    crisp(world);
     return { world, show, destroy() { try { world.pauseAnimation(); world.renderer().dispose(); } catch (e) {} } };
   }
 
@@ -427,6 +445,7 @@
       const world = new window.Globe(container, { animateIn: true })
         .backgroundColor("rgba(0,0,0,0)")
         .globeImageUrl(TEX.earth)
+        .globeCurvatureResolution(2)
         .bumpImageUrl(TEX.bump)
         .showAtmosphere(true)
         .atmosphereColor("#5aa9ff")
@@ -501,6 +520,7 @@
       }
 
       addClouds(world);
+      crisp(world);
 
       // Anti-chevauchement : plusieurs fois par seconde, on masque les étiquettes qui en recouvrent
       // une autre plus importante (plus d'actus). Les points lumineux restent toujours visibles.
