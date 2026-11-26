@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-26",
+    "file": "lettres/2026-11-26.pdf",
+    "titles": [
+      "Pétrole : des drones sur Ras Tanura, la plus grande raffinerie saoudienne, et trois nouveaux navires minés à Ormuz selon l'Iran, le Brent bondit de 3,5 %",
+      "Inflation à 3,8 % aux États-Unis : la Fed va presque sûrement monter ses taux le 9 décembre, Wall Street plonge puis efface ses pertes avant Thanksgiving",
+      "« Surcapacités » : Washington propose de taxer 14 économies, de 15 % pour l'Europe à 35 % pour le Viêt Nam, la Chine et Bruxelles rejettent l'accusation"
+    ],
+    "fileDark": "lettres/2026-11-26-sombre.pdf"
+  },
+  {
     "date": "2026-11-25",
     "file": "lettres/2026-11-25.pdf",
     "titles": [
