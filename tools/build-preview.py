@@ -14,7 +14,7 @@ FILES = [
     "assets/vendor/three/OrbitControls.js", "assets/vendor/three/RoomEnvironment.js",
     "assets/vendor/three/BufferGeometryUtils.js",
     "data/countries.js", "data/world.js",
-    "assets/vendor/globe.gl.min.js", "assets/earth/earth-blue-marble.jpg",
+    "assets/vendor/globe.gl.min.js", "assets/earth/earth-blue-marble.jpg", "assets/earth/earth-8k.jpg",
     "assets/earth/earth-topology.png", "assets/earth/clouds-alpha.jpg", "assets/icon.svg",
     "assets/icon-180.png", "assets/icon-192.png", "assets/icon-512.png", "assets/og-image.jpg", "assets/auteur.jpg",
 ]

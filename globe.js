@@ -6,6 +6,9 @@
   const LIB = "assets/vendor/globe.gl.min.js";
   const TEX = {
     earth: "assets/earth/earth-blue-marble.jpg",
+    // 8K (terres NASA « Whole world - land and oceans », domaine public, Wikimedia Commons ; océans de l'image 4K) :
+    // chargée après coup, seulement si la carte graphique accepte une texture de 8192 px.
+    earthHD: "assets/earth/earth-8k.jpg",
     bump: "assets/earth/earth-topology.png",
     clouds: "assets/earth/clouds-alpha.jpg"
   };
@@ -142,7 +145,15 @@
         const max = Math.min(16, r.capabilities.getMaxAnisotropy ? r.capabilities.getMaxAnisotropy() : 1);
         const texs = [mat.map, mat.bumpMap].filter((t) => t && t.image);
         texs.forEach((t) => { if (t.anisotropy !== max) { t.anisotropy = max; t.needsUpdate = true; } });
-        if ((!mat.map || !mat.map.image) && tries++ < 40) setTimeout(go, 250);
+        if ((!mat.map || !mat.map.image) && tries++ < 40) return setTimeout(go, 250);
+        // Puis la Terre en 8K, quand l'appareil peut l'afficher (même image pour tous les globes ouverts).
+        const map = mat.map;
+        if (map && map.image && !map.userData.hd && r.capabilities.maxTextureSize >= 8192 && (map.image.src || "").includes("earth-blue-marble")) {
+          map.userData.hd = true;
+          const img = new Image();
+          img.onload = () => { map.image = img; map.needsUpdate = true; };
+          img.src = TEX.earthHD;
+        }
       } catch (e) { /* bonus : on s'en passe si ça échoue */ }
     };
     go();
