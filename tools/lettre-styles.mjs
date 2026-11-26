@@ -28,6 +28,8 @@ const FONTS = `
 html, body { margin: 0; }
 body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 .page { width: 210mm; min-height: 297mm; display: flex; flex-direction: column; }
+[hidden] { display: none !important; }
+.fillbox:not(:has(> [data-fill]:not([hidden]))) { display: none; }
 `;
 
 import { parseFig, topicOf, icon, hasShape, silhouette, figBlock, canBars, bars, picto, planIllustrations, illustration, regionStrip, sourcesOf,
@@ -36,6 +38,19 @@ import { parseFig, topicOf, icon, hasShape, silhouette, figBlock, canBars, bars,
 const doc = (css, body) => `<!doctype html><html lang="fr"><head><meta charset="utf-8"><style>${FONTS}${css}</style></head><body>${body}</body></html>`;
 const srcList = (n) => esc((n.sources || []).map((s) => s.short || s.name).join(", "));
 const kicker = (d, n) => `${esc(d.THEMES[n.theme] || "")}${n.region ? " · " + esc(n.region) : ""}`;
+
+
+// Blocs de remplissage (cachés ; build-lettre montre ceux qui tiennent dans le blanc de leur zone).
+const shortDate = (a) => esc(new Date(a.date + "T12:00:00").toLocaleDateString("fr-FR", { day: "numeric", month: "short" }).toUpperCase());
+const placeName = (n) => esc(((n.geo && n.geo[0] && (n.geo[0].label || n.geo[0].name)) || n.region || "").split(",")[0]);
+const agendaFill = (d, zone, { p, b }, n = 4) => (d.agendaMore || []).slice(0, n).map((a) => `<div data-fill data-zone="${zone}" hidden><p ${p}><b ${b}>${shortDate(a)}</b> ${esc(a.title)}</p></div>`).join("");
+function fillers(d, zone, { h4, p, b, agenda = false, news = true }) {
+  const f = (html) => `<div data-fill data-zone="${zone}" hidden>${html}</div>`;
+  const box = (title, rows) => rows.length ? `<div class="fillbox"><h4 ${h4}>${title}</h4>${rows.map(f).join("")}</div>` : "";
+  return (agenda ? box("À venir", [...(d.agenda || []), ...(d.agendaMore || []).slice(0, 4)].map((a) => `<p ${p}><b ${b}>${shortDate(a)}</b> ${esc(a.title)}</p>`)) : "")
+    + (news ? box("En bref", (d.briefs || []).map((n) => `<p ${p}><b ${b}>${placeName(n).toUpperCase()}</b> ${esc(n.title)}</p>`))
+      + box("Finance · dans l'appli", (d.finTitles || []).map((n) => `<p ${p}>${esc(n.title)}</p>`)) : "");
+}
 
 // ---------- Illustrations ----------
 const MM = 3.7795; // pixels par millimètre (96 dpi)
@@ -186,7 +201,8 @@ td { padding: 1mm 0; border-bottom: .5px solid ${P.rule}; vertical-align: top; }
     <div class="src">Sources : ${esc(sourcesOf(lead))}</div>${read(lead)}</div>
   <div class="side">
     ${df ? `<div><h4>Le chiffre du jour</h4><div class="big" style="color:${P.accent}">${esc(df.value)}</div><p>${esc(df.label)}${df.place ? ` (${esc(df.place)})` : ""}.</p>${df.src ? `<div class="src">Source : ${esc(df.src)}</div>` : ""}</div>` : ""}
-    ${(d.agenda || []).length ? `<div><h4>À venir</h4><div style="margin-top:2mm">${d.agenda.map((a) => `<p style="margin:0 0 1.8mm"><b style="font-family:'Franklin',sans-serif;font-size:7.6pt;letter-spacing:.04em">${esc(new Date(a.date + "T12:00:00").toLocaleDateString("fr-FR", { day: "numeric", month: "short" }).toUpperCase())}</b> ${esc(a.title)}</p>`).join("")}</div></div>` : ""}
+    ${(d.agenda || []).length ? `<div><h4>À venir</h4><div style="margin-top:2mm">${d.agenda.map((a) => `<p style="margin:0 0 1.8mm"><b style="font-family:'Franklin',sans-serif;font-size:7.6pt;letter-spacing:.04em">${esc(new Date(a.date + "T12:00:00").toLocaleDateString("fr-FR", { day: "numeric", month: "short" }).toUpperCase())}</b> ${esc(a.title)}</p>`).join("")}${agendaFill(d, ".leadrow", { p: 'style="margin:0 0 1.8mm"', b: 'style="font-family:\'Franklin\',sans-serif;font-size:7.6pt;letter-spacing:.04em"' })}</div></div>` : ""}
+    ${fillers(d, ".leadrow", { h4: "", p: 'style="margin:1.8mm 0 0"', b: 'style="font-family:\'Franklin\',sans-serif;font-size:7.6pt;letter-spacing:.04em"' })}
     ${false && d.C ? `<div><h4>Le point conflits · ${esc(d.C.barometre.month)}</h4><div class="counts" style="margin-top:2mm"><div><b style="color:${P.accent}">${d.C.barometre.counts.worse}</b>s'aggravent</div><div><b>${d.C.barometre.counts.better}</b>s'améliorent</div><div><b>${d.C.barometre.counts.alerts}</b>alertes</div></div><p>${esc(d.C.barometre.worse.map((x) => x.name).join(", "))}.</p><div class="src">Source : CrisisWatch</div></div>` : ""}
   </div>
 </div>
@@ -239,10 +255,11 @@ html, body { background: #000; } body { color: #f5f5f7; font-family: "Inter", sa
 <div class="mast"><img src="assets/logo-sombre-hd.png" alt="Geonomix"><div class="tagl">L'économie et la géopolitique, expliquées chaque matin · ${d.items.length} actus</div></div>
 <div class="hero">
   <div><div class="k">${kicker(d, lead)}</div><h2>${esc(lead.title)}</h2><p>${esc(d.strip(lead.summary))}</p>${canBars(lead) ? `<div style="margin-top:3mm">${pressChart(lead, P, { noSource: true })}</div>` : ""}<div class="src">Sources : ${esc(sourcesOf(lead))}</div>${read(lead)}</div>
-  ${df ? `<div><div class="k">Le chiffre du jour${df.place ? " · " + esc(df.place) : ""}</div><div class="stat">${esc(df.value)}</div><div class="statl">${esc(df.label)}</div>${df.src ? `<div class="src">Source : ${esc(df.src)}</div>` : ""}</div>` : "<div></div>"}
+  <div>${df ? `<div class="k">Le chiffre du jour${df.place ? " · " + esc(df.place) : ""}</div><div class="stat">${esc(df.value)}</div><div class="statl">${esc(df.label)}</div>${df.src ? `<div class="src">Source : ${esc(df.src)}</div>` : ""}` : ""}
+    <div class="kfill">${fillers(d, ".hero", { h4: 'class="k" style="margin:4mm 0 1mm"', p: 'style="margin:1.4mm 0 0;font:400 8.6pt/1.4 Inter;color:#d1d1d6"', b: 'style="font-weight:700;color:#f5f5f7;font-size:7.6pt;letter-spacing:.03em"', agenda: true, news: false })}</div></div>
 </div>
 <div class="grid">${rest.map((n, i) => { const art = pressIllustration(plan[i], d, n, P); return `<div class="card"><div class="k">${kicker(d, n)}</div><h3>${esc(n.title)}</h3>${art ? `<div style="margin:2mm 0 2.5mm">${art}</div>` : ""}<p>${dateline(n) ? `<b style="color:#f5f5f7;font-weight:600">${esc(dateline(n))} —</b> ` : ""}${esc(d.strip(n.summary))}</p>${read(n)}</div>`; }).join("")}</div>
-<div class="bottom"><div><div class="k" style="margin-bottom:3mm">Les actus du jour, par région</div>${regionStrip(d.items, "100%", Object.assign({}, P, { accents: ["#64d2ff", "#bf5af2", "#ff9f0a", "#30d158", "#ff6961"], radius: 4 }))}</div><div class="nums">${latestRows(d).filter((x, i) => i < 3).map((x, i) => `<div class="num"><b>${esc(x.value)}</b><span>${esc(x.label)} · ${esc(x.source.short)}</span></div>`).join("")}</div></div>
+<div class="bottom"><div><div style="margin-bottom:5mm">${fillers(d, ".bottom", { h4: 'class="k" style="margin:3mm 0 1mm"', p: 'style="margin:1.4mm 0 0;font:400 8.6pt/1.4 Inter;color:#d1d1d6"', b: 'style="font-weight:700;color:#f5f5f7;font-size:7.6pt;letter-spacing:.03em"' })}</div><div class="k" style="margin-bottom:3mm">Les actus du jour, par région</div>${regionStrip(d.items, "100%", Object.assign({}, P, { accents: ["#64d2ff", "#bf5af2", "#ff9f0a", "#30d158", "#ff6961"], radius: 4 }))}</div><div class="nums">${latestRows(d).filter((x, i) => i < 3).map((x, i) => `<div class="num"><b>${esc(x.value)}</b><span>${esc(x.label)} · ${esc(x.source.short)}</span></div>`).join("")}</div></div>
 <div class="foot"><span>Toutes les actus dans l'application Geonomix.</span><span>${esc(d.day)}</span></div>
 </div>`);
 }

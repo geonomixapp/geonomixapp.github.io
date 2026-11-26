@@ -67,6 +67,11 @@ const data = { day, dateCap, items, fig, figSrc, C, latest, THEMES, strip, world
   // Numéro de l'édition : compté depuis la première lettre (7 octobre 2026).
   // « À venir » : les 5 prochains rendez-vous de l'agenda.
   agenda: (G.agenda || []).filter((a) => (a.end || a.date) >= day).sort((a, b) => (a.date < b.date ? -1 : 1)).slice(0, 5),
+  // De quoi combler les blancs (demande de l'auteur, 26 nov. 2026) : d'autres rendez-vous, les autres actus du jour
+  // (« En bref ») et les titres Finance ; build-lettre n'en garde que ce qui tient sans agrandir la page.
+  agendaMore: (G.agenda || []).filter((a) => (a.end || a.date) >= day).sort((a, b) => (a.date < b.date ? -1 : 1)).slice(5, 14),
+  briefs: todays.filter((n) => !items.includes(n) && n.theme !== "fin"),
+  finTitles: todays.filter((n) => n.theme === "fin"),
   number: Math.max(1, Math.round((Date.parse(day) - Date.parse("2026-10-07")) / 864e5) + 1) };
 const classicHtml = `<!doctype html><html lang="fr"><head><meta charset="utf-8"><style>
 @page { size: A4; margin: 0; }
@@ -149,8 +154,19 @@ async function render(st, out) {
       let lo = 0.5, hi = 1;
       for (let i = 0; i < 12; i++) { const mid = (lo + hi) / 2; if (heightAt(mid) <= max) lo = mid; else hi = mid; }
       k = lo;
-      heightAt(k);
     }
+    heightAt(k);
+    // Combler les blancs, une fois la largeur finale fixée (la réduction change la longueur des lignes) :
+    // chaque bloc [data-fill] (caché au départ) est montré à son tour s'il n'agrandit pas sa zone
+    // (data-zone : la rangée dont la hauteur ne doit pas bouger) ; la page garde donc sa hauteur et sa réduction.
+    const H = new Map();
+    const height = (sel) => { const z = document.querySelector(sel); return z ? z.getBoundingClientRect().height : 0; };
+    document.querySelectorAll("[data-fill]").forEach((f) => {
+      const sel = f.dataset.zone;
+      if (!H.has(sel)) H.set(sel, height(sel));
+      f.hidden = false;
+      if (height(sel) > H.get(sel) + 0.5) f.hidden = true;
+    });
     el.style.zoom = k;
     el.style.minHeight = (297 / k) + "mm"; // le pied de page reste en bas de la feuille
     return k;

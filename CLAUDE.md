@@ -94,6 +94,7 @@ Auteur : Célestin Noury (étudiant en économie). On lui parle **en français**
   **un seul rouge d'accent** pour les infos importantes, colonne de droite : chiffre du jour, actus par région, point conflits ;
   derniers chiffres en bas. **Pas** de « Et toi, dans tout ça ? » ni de « Le saviez-vous ? » dans la lettre (le but : informer).
 - Code : `tools/lettre-styles.mjs` (`journal`, `keynote`) et `tools/lettre-illus.mjs`.
+- **Plus de grands blancs** (demande de l'auteur, 26 nov. 2026 : « une grosse partie blanche, comble-la à chaque fois ») : blocs cachés `[data-fill]` (`fillers` et `agendaFill` dans lettre-styles.mjs : dates de l'agenda en plus (`agendaMore`), « En bref » = les autres actus du jour (`briefs`), « Finance · dans l'appli » = titres Finance (`finTitles`)) ; build-lettre les montre un par un, une fois la réduction de la page fixée, tant qu'ils n'agrandissent pas leur zone (`data-zone` : `.leadrow` dans le Journal, colonne de droite ; `.hero` et `.bottom` dans la version sombre). Automatique pour chaque lettre. En tête de la version sombre : le logo (plus de « Le monde. Ce matin. »), et plus de « Toutes les sources sont dans l'application » nulle part.
 
 ## Geonomix+ (prototype d'abonnement)
 
