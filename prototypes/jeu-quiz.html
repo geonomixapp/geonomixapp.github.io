@@ -1136,6 +1136,24 @@ h1, h2, h3, .question, .splash .big, .sheet h3, .daily h2, .mode h3 { font-weigh
 .qz-card:active { transform: scale(.98); }
 .qz-card::after { content: "›"; position: absolute; right: 12px; top: 50%; transform: translateY(-50%); font-size: 22px; color: var(--accent); }
 .qz-card .qz-best { margin-right: 18px; }
+/* Ordinateur et tablette (demande de l'auteur, 26 nov. 2026 : « plus large, le téléphone c'est très bien ») :
+   page jusqu'à 1120 px, cartes sur deux colonnes ; les parties gardent une colonne de 760 px au plus. */
+@media (min-width: 760px) {
+  .wrap { max-width: 1120px; }
+  #play .wrap { max-width: 760px; }
+  #view > .stack { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; column-gap: 22px; }
+  #view > .stack > * { grid-column: 1 / -1; }
+  #view > .stack > .duel-card, #view > .stack > .td-card, #view > .stack > section.card ~ section.card:not(.qz-section) { grid-column: auto; }
+  #view > .stack > .qd-card { grid-column: 1 / -1; }
+  .qz-grid { grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+  .dhero { min-height: 460px; }
+  .dhero-globe { width: 520px; height: 520px; right: 2%; top: -40px; }
+}
+/* Grand écran : les trois façons de jouer contre quelqu'un côte à côte. */
+@media (min-width: 1100px) {
+  #view > .stack:has(> .qd-card) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  #view > .stack > .qd-card { grid-column: auto; }
+}
 </style>
 
 <!-- Arrière-plan : champ d'étoiles qui défile (duel-stars.js, three.js) -->
@@ -1897,9 +1915,9 @@ h1, h2, h3, .question, .splash .big, .sheet h3, .daily h2, .mode h3 { font-weigh
     if (rank >= 5 && rank < 20) return MORE_TITLES[rank - 5];
     return ""; // après la 20e place, pas de titre
   }
-  let preview = "";
+  // Style du Top 5 : mis tout seul selon le vrai rang au classement des points (plus d'aperçu à choisir).
   function applyStatus() {
-    const r = { master: 0, r2: 1, r3: 2, elite: 3, normal: -1 }[preview] ?? rankOf(me);
+    const r = rankOf(me);
     document.body.classList.toggle("elite", r >= 0 && r < 5);
     document.body.classList.toggle("master", r === 0);
     document.body.classList.toggle("rank2", r === 1);
@@ -2040,8 +2058,6 @@ h1, h2, h3, .question, .splash .big, .sheet h3, .daily h2, .mode h3 { font-weigh
         </ul>
         <p class="label" style="margin-top:14px">Places 6 à 20</p>
         <ol class="title-list" start="6">${MORE_TITLES.map((x) => `<li>${esc(x)}</li>`).join("")}</ol>
-        <p class="label" style="margin-top:14px">Aperçu</p>
-        <div class="seg">${[["normal", "Normal"], ["elite", "4ᵉ-5ᵉ"], ["r3", "3ᵉ"], ["r2", "2ᵉ"], ["master", "1ᵉʳ"]].map(([k, l]) => `<button data-preview="${k}" aria-pressed="${(preview || "normal") === k}">${l}</button>`).join("")}</div>
       </section>
       <section class="card"><p class="label">Tes chiffres${gradeOf(rankOf(me)) ? ` · ${esc(gradeOf(rankOf(me)))}` : ""}</p>
         <div class="stats" style="margin-top:12px">
@@ -2088,7 +2104,6 @@ h1, h2, h3, .question, .splash .big, .sheet h3, .daily h2, .mode h3 { font-weigh
     if (tab === "jouer") { qdBind(v); tdBind(v); }
     v.querySelectorAll("[data-qf]").forEach((b) => (b.onclick = () => { qzFilter = b.dataset.qf; const y = scrollY; render(); scrollTo(0, y); }));
     v.querySelectorAll("[data-match]").forEach((b) => (b.onclick = () => showMatch(b.dataset.match)));
-    v.querySelectorAll("[data-preview]").forEach((b) => (b.onclick = () => { preview = b.dataset.preview; render(); }));
     v.querySelectorAll("[data-ex]").forEach((b) => (b.onclick = () => {
       v.querySelectorAll("[data-ex]").forEach((x) => { x.disabled = true; x.classList.add(x.dataset.ex === "1" ? "good" : x === b ? "bad" : "dim"); });
       $("#ex-res").textContent = (b.dataset.ex === "1" ? "Exact. " : "Non. ") + "La Lune en 1969, la valise à roulettes en 1972 : on a marché sur la Lune avant de mettre des roues aux valises.";
