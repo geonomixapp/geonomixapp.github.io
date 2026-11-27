@@ -376,6 +376,28 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-12-01-ue-quotas-hybrides-importees",
+    "date": "2026-12-01",
+    "theme": "mix",
+    "region": "Europe",
+    "place": "Bruxelles, Belgique",
+    "title": "UE : entrée en vigueur des quotas sur les voitures hybrides importées",
+    "why": "Du 1er décembre 2026 au 18 juin 2027, les hybrides importées sont limitées par pays d'origine : 191 780 véhicules pour la Chine, 170 889 pour le Japon ; au-delà, elles sont bloquées [1]. Les constructeurs qui produisent hors de l'UE, y compris au Maroc, devront rester sous leur quota, et les prix des hybrides pourraient moins baisser [2].",
+    "news": "2026-11-27-stellantis-automobile-quotas-hybrides",
+    "sources": [
+      {
+        "short": "Eurometal",
+        "name": "Eurometal, « EU to impose quotas on hybrid car imports from 1 December » (novembre 2026)",
+        "url": "https://eurometal.net/eu-to-impose-quotas-on-hybrid-car-imports-from-1-december/"
+      },
+      {
+        "short": "Médias24",
+        "name": "Médias24, « En voulant freiner la Chine, Bruxelles pénalise l'automobile marocaine » (24 novembre 2026)",
+        "url": "https://medias24.com/2026/11/24/en-voulant-freiner-la-chine-bruxelles-penalise-lautomobile-marocaine-1794461"
+      }
+    ]
+  },
+  {
     "id": "2026-12-02-banques-canadiennes-resultats",
     "date": "2026-12-02",
     "end": "2026-12-03",
@@ -531,6 +553,40 @@ window.GEOCO.agenda = [
         "short": "APA",
         "name": "APA News, « Guinée-Bissau : élections fixées au 6 décembre 2026 »",
         "url": "https://fr.apanews.net/news/guinee-bissau-elections-fixees-au-6-decembre-2026/"
+      }
+    ]
+  },
+  {
+    "id": "2026-12-07-france-secu-nouvelle-lecture",
+    "date": "2026-12-07",
+    "theme": "eco",
+    "region": "Europe",
+    "place": "Paris, France",
+    "title": "France : le budget de la Sécurité sociale revient à l'Assemblée",
+    "why": "Après l'échec de la commission mixte paritaire du 26 novembre, le texte repart en nouvelle lecture à l'Assemblée nationale le 7 décembre [1]. Le gouvernement peut désormais aussi l'appliquer par ordonnances, ce qui éviterait qu'une motion de censure fasse tomber le budget [1].",
+    "news": "2026-11-27-budget-secu-echec-cmp-ordonnances",
+    "sources": [
+      {
+        "short": "Public Sénat",
+        "name": "Public Sénat, « Budget 2027 de la Sécurité sociale : députés et sénateurs échouent à trouver un compromis » (26 novembre 2026)",
+        "url": "https://www.publicsenat.fr/actualites/politique/budget-2027-de-la-securite-sociale-echec-de-la-tentative-de-compromis-entre-deputes-et-senateurs"
+      }
+    ]
+  },
+  {
+    "id": "2026-12-07-unicredit-commerzbank-reglement",
+    "date": "2026-12-07",
+    "theme": "fin",
+    "region": "Europe",
+    "place": "Francfort, Allemagne",
+    "title": "UniCredit livre ses actions aux actionnaires de Commerzbank",
+    "why": "Toutes les conditions de l'offre étant remplies depuis le 26 novembre, les nouvelles actions UniCredit doivent être créditées au plus tard le 7 décembre [1] : l'italien devient alors formellement le premier actionnaire de la deuxième banque privée allemande, avant la bataille pour son conseil de surveillance.",
+    "news": "2026-11-27-unicredit-commerzbank-feu-vert-final",
+    "sources": [
+      {
+        "short": "Euronews",
+        "name": "Euronews, « UniCredit secures final Polish approval for Commerzbank takeover bid » (26 novembre 2026)",
+        "url": "https://www.euronews.com/2026/11/26/unicredit-secures-final-polish-approval-for-commerzbank-takeover-bid"
       }
     ]
   },
@@ -1068,6 +1124,23 @@ window.GEOCO.agenda = [
         "short": "Universal Asset Owners",
         "name": "Universal Asset Owners, « Bank of Japan holds 1.25%: GPIF, insurers, yen carry »",
         "url": "https://www.universalassetowners.com/newsroom/bank-of-japan-holds-1-25-gpif-insurers-yen-carry/"
+      }
+    ]
+  },
+  {
+    "id": "2026-12-24-altria-imperial-date-limite",
+    "date": "2026-12-24",
+    "theme": "fin",
+    "region": "Europe",
+    "place": "Londres, Royaume-Uni",
+    "title": "Tabac : date limite pour une offre d'Altria sur Imperial Brands",
+    "why": "Selon les règles boursières britanniques, Altria a jusqu'au 24 décembre à 17 heures (Londres) pour déposer une offre ferme sur Imperial Brands ou y renoncer [1]. Une offre créerait un nouveau géant mondial du tabac ; un renoncement pourrait effacer le bond de 13,3 % de l'action Imperial du 26 novembre [1].",
+    "news": "2026-11-27-altria-imperial-brands-tabac",
+    "sources": [
+      {
+        "short": "Reuters (US News)",
+        "name": "Reuters (US News), « US Marlboro Maker Altria Explores Imperial Cash Bid, Possible Carve-Up » (26 novembre 2026)",
+        "url": "https://www.usnews.com/news/top-news/articles/2026-11-26/marlboro-maker-altria-explores-takeover-of-uks-imperial-brands"
       }
     ]
   },

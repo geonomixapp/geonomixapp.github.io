@@ -2,6 +2,16 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-27",
+    "file": "lettres/2026-11-27.pdf",
+    "titles": [
+      "Pétrole : deux pétroliers touchés près d'Ormuz, une raffinerie saoudienne frappée à Jazan, le Brent grimpe à 96,57 dollars avant la réunion de l'OPEP+ dimanche",
+      "Budget de l'UE : douze heures de dispute et « zéro résultat » à Bruxelles, Macron fixe un ultimatum à la fin décembre",
+      "Koweït : deux techniciens italiens tués par des drones, Rome et Koweït accusent l'Iran, qui dément, Bruxelles veut « accroître la pression » sur Téhéran"
+    ],
+    "fileDark": "lettres/2026-11-27-sombre.pdf"
+  },
+  {
     "date": "2026-11-26",
     "file": "lettres/2026-11-26.pdf",
     "titles": [
