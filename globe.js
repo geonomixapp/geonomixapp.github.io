@@ -86,7 +86,10 @@
     const box = document.createElement("div");
     box.className = "globe-zoom";
     // − en haut, + en bas (demande de l'auteur, 27 nov. 2026 : « les boutons doivent être inversés »).
-    box.innerHTML = '<button type="button" data-z="1.4" aria-label="Dézoomer">−</button><button type="button" data-z="0.7" aria-label="Zoomer">+</button>';
+    // Icônes dessinées (et non des caractères + / −, que chaque police place un peu plus haut ou plus bas) :
+    // parfaitement au centre de leur rond (demande de l'auteur, 27 nov. 2026).
+    const ico = (plus) => `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 12h12${plus ? "M12 6v12" : ""}"/></svg>`;
+    box.innerHTML = `<button type="button" data-z="1.4" aria-label="Dézoomer">${ico(false)}</button><button type="button" data-z="0.7" aria-label="Zoomer">${ico(true)}</button>`;
     box.addEventListener("pointerdown", (e) => e.stopPropagation());
     box.addEventListener("click", (e) => {
       const b = e.target.closest("button");

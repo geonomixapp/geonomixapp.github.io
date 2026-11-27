@@ -983,7 +983,8 @@ body.rank3 .grade-chip { background: var(--toxic); color: #062014; }
 .qz-pausebox h2 { margin: 0; }
 .qz-globe { position: relative; }
 .g-zoom { position: absolute; right: 4px; bottom: 6px; display: grid; gap: 6px; }
-.g-zoom button { width: 36px; height: 36px; border-radius: 50%; border: 1px solid rgba(255, 255, 255, .12); background: rgba(35, 27, 22, .88); color: var(--text); font: 700 18px/1 var(--body); cursor: pointer; }
+.g-zoom button { width: 36px; height: 36px; border-radius: 50%; border: 1px solid rgba(255, 255, 255, .12); background: rgba(35, 27, 22, .88); color: var(--text); font: 700 18px/1 var(--body); cursor: pointer; padding: 0; display: grid; place-items: center; }
+.g-zoom button svg { width: 18px; height: 18px; display: block; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; pointer-events: none; }
 .qz-globe.zoomed .g-land { stroke-width: .3; }
 .qz-timeup { margin: 8px 0; padding: 12px 14px; border-radius: 16px; background: rgba(255, 179, 64, .12); border: 1px solid rgba(255, 179, 64, .35); }
 .qz-timeup p { margin: 0 0 8px; }
@@ -2647,7 +2648,9 @@ h1, h2, h3, .question, .splash .big, .sheet h3, .daily h2, .mode h3 { font-weigh
     if (mark && mark.zoom) svg.call(zoom.scaleTo, mark.zoom); // repère petit (la Caspienne) : on part zoomé dessus
     const tools = document.createElement("div");
     tools.className = "g-zoom";
-    tools.innerHTML = `<button type="button" data-z="in" aria-label="Zoomer">+</button><button type="button" data-z="out" aria-label="Dézoomer">−</button><button type="button" data-z="reset" aria-label="Revoir tout le globe">⤢</button>`;
+    // Icônes dessinées, bien au centre de leur rond (demande de l'auteur, 27 nov. 2026).
+    const zi = (d) => `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${d}"/></svg>`;
+    tools.innerHTML = `<button type="button" data-z="in" aria-label="Zoomer">${zi("M6 12h12M12 6v12")}</button><button type="button" data-z="out" aria-label="Dézoomer">${zi("M6 12h12")}</button><button type="button" data-z="reset" aria-label="Revoir tout le globe">${zi("M14 4h6v6M10 20H4v-6M20 4l-6.5 6.5M4 20l6.5-6.5")}</button>`;
     host.appendChild(tools);
     tools.onclick = (e) => {
       const z = e.target.closest("[data-z]"); if (!z) return;

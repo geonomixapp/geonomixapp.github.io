@@ -1439,10 +1439,14 @@
     const bucket = (a) => { const d = days(a.date); return d <= 0 ? I18N.t("En cours") : d === 1 ? I18N.t("Demain") : d <= 7 ? I18N.t("Cette semaine") : d <= 31 ? I18N.t("Ce mois-ci") : I18N.t("Plus tard"); };
     const when = (a) => { const d = days(a.date); return d <= 0 ? I18N.t("En cours") : d === 1 ? I18N.t("Demain") : I18N.t("Dans {n} jours").replace("{n}", d); };
     const fmt = (d, o) => new Date(d + "T12:00:00").toLocaleDateString(LOCALE, o);
-    const list = max ? items.slice(0, max) : items;
+    // « week » (page Actu, demande de l'auteur du 27 nov. 2026 : « juste cette semaine, puis un bouton, pour moins
+    // d'entrave aux news ») : les rendez-vous des 7 prochains jours (6 au plus ; sinon les 2 prochains), puis « Tout l'agenda ».
+    const week = max === "week";
+    const list = week ? (items.filter((a) => days(a.date) <= 7).slice(0, 4).length ? items.filter((a) => days(a.date) <= 7).slice(0, 4) : items.slice(0, 2))
+      : max ? items.slice(0, max) : items;
     let last = "";
     return `
-      <div class="agenda">
+      <div class="agenda${week ? " ag-compact" : ""}">
         ${list.map((a) => {
           const b = bucket(a), head = b !== last ? `<p class="ag-bucket">${b}</p>` : ""; last = b;
           return `${head}
@@ -1457,7 +1461,7 @@
             </span>
           </button>`;
         }).join("")}
-        ${max && items.length > max ? `<button class="more-btn ag-more" type="button">${I18N.t("Tout l'agenda")} (${items.length})</button>` : ""}
+        ${max && items.length > list.length ? `<button class="more-btn ag-more" type="button">${I18N.t("Tout l'agenda")} (${items.length})</button>` : ""}
       </div>`;
   }
   function bindAgenda(root) {
@@ -1529,8 +1533,7 @@
       </section>`;
     const agendaBlock = agenda.length ? `<section class="wrap agenda-wrap" aria-labelledby="ag-title">
         <h2 class="title reveal" id="ag-title">${I18N.t("À venir.")}</h2>
-        <p class="copy reveal">${I18N.t("Les dates qui vont compter : demain, cette semaine, ce mois-ci.")}</p>
-        <div class="reveal" id="ag-box">${agendaHTML(4)}</div>
+        <div class="reveal" id="ag-box">${agendaHTML("week")}</div>
       </section>` : "";
     // « À venir » en une ligne (maquette 3) : le prochain rendez-vous, un toucher mène à l'agenda complet plus bas.
     const nextAg = agenda.filter((a) => (a.end || a.date) >= new Date().toISOString().slice(0, 10)).sort((a, b) => (a.date < b.date ? -1 : 1))[0];
@@ -1551,7 +1554,7 @@
         </div>
         <div id="actu-list"></div>
       </section>`;
-    const pair = `<section class="wrap actu-pair">${lettres.length ? `<div>${lettreCard()}</div>` : ""}${agenda.length ? `<div class="agenda-wrap"><h2 class="title reveal" id="ag-title">${I18N.t("À venir.")}</h2><div class="reveal" id="ag-box">${agendaHTML(4)}</div></div>` : ""}</section>`;
+    const pair = `<section class="wrap actu-pair">${lettres.length ? `<div>${lettreCard()}</div>` : ""}${agenda.length ? `<div class="agenda-wrap"><h2 class="title reveal" id="ag-title">${I18N.t("À venir.")}</h2><div class="reveal" id="ag-box">${agendaHTML("week")}</div></div>` : ""}</section>`;
     const switcher = V || location.hash.startsWith("#/maquette") ? `<nav class="maq-switch" aria-label="Maquettes de la page Actu"><span class="maq-t">${MAQUETTES[V][1]}</span><span class="maq-b">${MAQUETTES.map(([l], i) => `<a href="#/maquette/${i}" aria-current="${i === V}">${l}</a>`).join("")}</span></nav>` : "";
     const ORDER = {
       0: [heroHTML, lettreHTML, etudesHTML, agendaBlock, newsHTML],
@@ -1582,7 +1585,7 @@
       if (!sorted.length) { box.innerHTML = intro + `<p class="empty">${I18N.t("Aucune actu pour ce filtre.")}</p>`; bindMarches(box); return; }
       if (actuVariant === 4) {
         // Maquette 4 : la lettre et les dates arrivent entre les 6 premières actus et les suivantes.
-        const mid = `<div class="actu-mid">${lettres.length ? lettreCard() : ""}${agenda.length ? `<div class="agenda-wrap"><h2 class="title" id="ag-title">${I18N.t("À venir.")}</h2><div id="ag-box">${agendaHTML(4)}</div></div>` : ""}</div>`;
+        const mid = `<div class="actu-mid">${lettres.length ? lettreCard() : ""}${agenda.length ? `<div class="agenda-wrap"><h2 class="title" id="ag-title">${I18N.t("À venir.")}</h2><div id="ag-box">${agendaHTML("week")}</div></div>` : ""}</div>`;
         box.innerHTML = intro + `<div class="mosaic">${mosaicHTML(sorted.slice(0, 6))}</div>${mid}<div class="mosaic">${mosaicHTML(sorted.slice(6, STEP), 6)}</div>${sorted.length > STEP ? `<p class="mosaic-more"><button class="more-btn" type="button">${I18N.t("Voir les actus d'avant")}</button></p>` : ""}`;
         bindAgenda(box);
       } else
