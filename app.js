@@ -435,10 +435,13 @@
   // glisser vers le bas ou le haut, la page suit (au lieu de faire tourner la 3D) ; un toucher descend juste
   // après la zone, ou remonte en haut de la zone si on l'a déjà presque quittée (les flèches se retournent).
   const scrollRail = () => `<button type="button" class="scroll-rail" aria-label="Descendre"><span class="rail-thumb" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 6l5 5 5-5M7 13l5 5 5-5"/></svg></span></button>`;
+  const RAIL_TOP = 72;
+  // Progression de la zone (0 = son haut sous la barre, 1 = on l'a quittée) et position du défilement qui y correspond.
+  const railP = (host) => Math.min(1, Math.max(0, (RAIL_TOP - host.top) / Math.max(1, host.height - RAIL_TOP)));
   function updateRails() {
     document.querySelectorAll(".scroll-rail").forEach((rail) => {
-      const host = rail.parentElement.getBoundingClientRect();
-      const p = Math.min(1, Math.max(0, (72 - host.top) / Math.max(1, host.height - 72)));
+      if (railDrag && railDrag.rail === rail) return; // pendant le glissé, la pastille suit le doigt
+      const p = railP(rail.parentElement.getBoundingClientRect());
       rail.style.setProperty("--rail-p", p.toFixed(3));
       const up = p > 0.5;
       if (rail.classList.contains("up") !== up) {
@@ -460,24 +463,35 @@
   };
   // Glisser le curseur. Au doigt, on passe par les évènements tactiles (touchmove bloqué) : sur iPhone et iPad,
   // les évènements « pointer » laissent Safari faire défiler la page en même temps, d'où des sauts.
-  // Dès qu'on le touche, le curseur se fige à l'écran (comme une vraie barre de défilement) et la pastille suit le doigt.
+  // Dès qu'on le touche, le curseur se fige à l'écran ; la pastille reste exactement sous le doigt (27 nov. 2026 :
+  // avant, elle avançait 3 fois moins vite que le doigt quand la zone n'était pas encore en haut de l'écran),
+  // et la page défile en proportion : pastille en haut = haut de la zone, pastille en bas = juste après la zone.
   let railDrag = null, railDragged = false, railFrame = 0;
   function railStart(rail, y) {
-    // Course de la pastille (68 % du rail moins sa hauteur) ↔ hauteur de la zone à faire défiler.
     const track = Math.max(40, rail.clientHeight * 0.68 - 58);
     const host = rail.parentElement.getBoundingClientRect(), r = rail.getBoundingClientRect();
-    railDrag = { rail, y, from: window.scrollY, k: Math.max(1, host.height - 72) / track, moved: false, to: window.scrollY };
+    const s0 = window.scrollY, top = s0 + host.top - RAIL_TOP, end = top + host.height - RAIL_TOP;
+    const t0 = railP(host) * track;
+    railDrag = { rail, y, s0, t0, track, top: Math.min(top, s0), end: Math.max(end, s0), moved: false, to: s0 };
     railDragged = false;
     Object.assign(rail.style, { position: "fixed", top: r.top + "px", left: r.left + "px", width: r.width + "px", height: r.height + "px", right: "auto", bottom: "auto" });
   }
   function railMove(y) {
     if (!railDrag) return;
-    const dy = y - railDrag.y;
-    if (!railDrag.moved && Math.abs(dy) < 6) return;
-    railDrag.moved = true;
-    railDrag.rail.classList.add("dragging");
+    const d = railDrag, dy = y - d.y;
+    if (!d.moved && Math.abs(dy) < 6) return;
+    d.moved = true;
+    d.rail.classList.add("dragging");
+    const t = Math.max(0, Math.min(d.track, d.t0 + dy));
+    // Vers le bas : de la position de départ jusqu'à la fin de la zone ; vers le haut : jusqu'à son début.
+    const to = t >= d.t0
+      ? d.s0 + (d.track - d.t0 > 0.5 ? (t - d.t0) / (d.track - d.t0) : 0) * (d.end - d.s0)
+      : d.s0 - (d.t0 > 0.5 ? (d.t0 - t) / d.t0 : 0) * (d.s0 - d.top);
     const max = document.documentElement.scrollHeight - window.innerHeight;
-    railDrag.to = Math.max(0, Math.min(max, railDrag.from + dy * railDrag.k));
+    d.to = Math.max(0, Math.min(max, to));
+    d.rail.style.setProperty("--rail-p", (t / d.track).toFixed(3));
+    const up = t / d.track > 0.5;
+    d.rail.classList.toggle("up", up);
     // Une seule mise à jour par image, pour rester fluide.
     if (!railFrame) railFrame = requestAnimationFrame(() => { railFrame = 0; if (railDrag) window.scrollTo(0, railDrag.to); });
   }
@@ -766,19 +780,28 @@
       vp.addEventListener("touchend", () => hold(2500), { passive: true });
       vp.addEventListener("wheel", () => hold(2500), { passive: true });
       // Un défilement qui ne vient pas de l'animation (écart avec la position prévue) vient du doigt.
-      vp.addEventListener("scroll", () => { if (Math.abs(vp.scrollLeft - pos) > 3) { hold(2500); wrap(); pos = vp.scrollLeft; } }, { passive: true });
+      vp.addEventListener("scroll", () => { if (Math.abs(vp.scrollLeft - Math.floor(pos)) > 3) { hold(2500); wrap(); pos = vp.scrollLeft; } }, { passive: true });
       tk.addEventListener("mouseenter", () => { hover = true; });
       tk.addEventListener("mouseleave", () => { hover = false; });
+      // Fluidité (27 nov. 2026) : le défilement ne connaît que des pixels entiers, donc à 45 px/s il avançait par
+      // à-coups ; on défile de la partie entière et on décale le reste (moins d'un pixel) par transform.
+      // La largeur d'une copie est mise en cache (la relire à chaque image forçait un recalcul de la page).
+      const track = tk.querySelector(".tk-track");
+      let w = run.offsetWidth;
+      window.addEventListener("resize", () => { w = run.offsetWidth; }, { passive: true });
+      let frac = 0;
       const step = (t) => {
         if (!document.body.contains(tk)) return;
         const dt = last ? Math.min(0.1, (t - last) / 1000) : 0;
         last = t;
         if (!reduce && !hover && t > holdUntil && !document.hidden) {
           pos += SPEED * dt;
-          const w = run.offsetWidth;
           if (w && pos >= w) pos -= w;
-          vp.scrollLeft = pos;
-        }
+          const whole = Math.floor(pos);
+          if (vp.scrollLeft !== whole) vp.scrollLeft = whole;
+          const f = pos - whole;
+          if (Math.abs(f - frac) > 0.01) { frac = f; track.style.transform = `translate3d(${-f}px,0,0)`; }
+        } else if (frac) { frac = 0; track.style.transform = ""; }
         requestAnimationFrame(step);
       };
       requestAnimationFrame(step);

@@ -174,6 +174,8 @@ export async function mountCar(container, { src, hotspots = [], onHotspot, onPro
   function loop() {
     if (!running) return;
     if (!document.body.contains(container)) return destroy();
+    // Hors de l'écran ou page cachée : on ne redessine pas (sinon le défilement de la page saccade sur iPad).
+    if ((!onScreen || document.hidden) && !flight) { raf = requestAnimationFrame(loop); return; }
     if (flight) {
       const k = Math.min(1, (performance.now() - flight.t0) / flight.dur);
       const e = 1 - Math.pow(1 - k, 3);
@@ -185,6 +187,10 @@ export async function mountCar(container, { src, hotspots = [], onHotspot, onPro
     renderer.render(scene, camera);
     placeSpots();
     raf = requestAnimationFrame(loop);
+  }
+  let onScreen = true;
+  if ("IntersectionObserver" in window) {
+    new IntersectionObserver(([e]) => { onScreen = e.isIntersecting; }, { rootMargin: "60px" }).observe(container);
   }
   loop();
 

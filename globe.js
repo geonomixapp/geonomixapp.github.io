@@ -652,19 +652,21 @@
       // une autre plus importante (plus d'actus). Les points lumineux restent toujours visibles.
       const declutter = () => {
         if (!document.body.contains(container)) return clearInterval(timer);
+        if (document.hidden) return;
+        // Toutes les lectures d'abord, puis toutes les écritures : lire une position juste après avoir changé
+        // une classe oblige le navigateur à tout recalculer, étiquette par étiquette (saccades sur iPad).
         const labels = [...container.querySelectorAll(".globe-pin")]
           .map((pin) => ({ pin, label: pin.querySelector(".globe-label"), n: Number(pin.dataset.n) || 1 }))
-          .filter((x) => x.label && x.pin.offsetParent !== null && x.pin.style.opacity !== "0")
+          .filter((x) => x.label && x.pin.style.opacity !== "0")
+          .map((x) => ({ ...x, r: x.label.getBoundingClientRect() }))
+          .filter((x) => x.r.width)
           .sort((a, b) => b.n - a.n);
-        const placed = [];
-        labels.forEach(({ label }) => {
-          label.classList.remove("muted-label");
-          const r = label.getBoundingClientRect();
-          if (!r.width) return;
+        const placed = [], hide = new Set();
+        labels.forEach(({ label, r }) => {
           const hit = placed.some((q) => r.left < q.right + 4 && r.right + 4 > q.left && r.top < q.bottom + 2 && r.bottom + 2 > q.top);
-          if (hit) label.classList.add("muted-label");
-          else placed.push(r);
+          if (hit) hide.add(label); else placed.push(r);
         });
+        labels.forEach(({ label }) => { const h = hide.has(label); if (label.classList.contains("muted-label") !== h) label.classList.toggle("muted-label", h); });
       };
       const timer = setInterval(declutter, 250);
 
