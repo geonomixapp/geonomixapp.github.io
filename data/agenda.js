@@ -8,32 +8,6 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.agenda = [
   {
-    "id": "2026-11-26-argentine-deputes-budget-2027",
-    "date": "2026-11-26",
-    "theme": "eco",
-    "region": "Amériques",
-    "place": "Buenos Aires, Argentine",
-    "title": "Argentine : les députés débattent du budget 2027",
-    "why": "Le parti de Javier Milei, La Libertad Avanza, a obtenu avec ses alliés l'avis favorable de la commission du budget et voulait faire voter le texte en séance le 25 novembre [1] ; faute d'un quorum assuré, la séance est désormais visée le jeudi 26 novembre [3]. Pour obtenir ces signatures, le gouvernement a cédé sur le handicap, les routes et les universités, et cinq alliés ont signé avec des réserves [2] : un vote réussi montrerait aux marchés que Milei peut faire passer ses comptes publics.",
-    "sources": [
-      {
-        "short": "Parlamentario",
-        "name": "Parlamentario.com, « Presupuesto 2027: con la ayuda de aliados, LLA obtuvo dictamen de mayoría y se debate la próxima semana » (17 nov. 2026)",
-        "url": "https://www.parlamentario.com/2026/11/17/presupuesto-2027-con-la-ayuda-de-aliados-lla-obtuvo-dictamen-de-mayoria-y-se-debate-la-proxima-semana/"
-      },
-      {
-        "short": "Perfil",
-        "name": "Perfil, « Discapacidad, rutas y universidades: el Gobierno cedió ante sus aliados para conseguir dictamen del Presupuesto 2027 » (nov. 2026)",
-        "url": "https://perfil.com/politica/discapacidad-rutas-y-universidades-el-gobierno-cedio-ante-sus-aliados-para-conseguir-dictamen-del-presupuesto-2027-avmeu3P1XoeP"
-      },
-      {
-        "short": "El Liberal",
-        "name": "El Liberal, « Semana clave en el Congreso: el oficialismo busca aprobar el Presupuesto 2027 » (23 nov. 2026)",
-        "url": "https://www.elliberal.com.ar/amp/2026/11/23/98832-semana-clave-en-el-congreso--el-oficialismo-busca-aprobar-el-presupuesto-2027-la-reforma-politica-y-recibe-a-diego-santilli.html"
-      }
-    ]
-  },
-  {
     "id": "2026-11-26-conseil-europeen-budget-2028-2034",
     "date": "2026-11-26",
     "end": "2026-11-27",
@@ -52,27 +26,6 @@ window.GEOCO.agenda = [
         "short": "Agence Europe",
         "name": "Agence Europe, « António Costa plans extraordinary European summit in late November to reach agreement on EU's 2028-2034 budget by end of 2026 »",
         "url": "https://agenceurope.eu/en/bulletin/article/13798/21/antonio-costa-plans-extraordinary-european-summit-in-late-november-to-reach-agreement-on-eus-2028-2034-budget-by-end-of-2026"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-26-coree-du-sud-banque-centrale-taux",
-    "date": "2026-11-26",
-    "theme": "eco",
-    "region": "Asie",
-    "place": "Séoul, Corée du Sud",
-    "title": "Corée du Sud : dernière décision de taux de l'année de la Banque de Corée",
-    "why": "La Banque de Corée a laissé son taux à 3 % le 22 octobre en gardant la porte ouverte à une hausse ; Citibank et Morgan Stanley s'attendent à un quart de point de plus en novembre [1][2]. Une hausse renchérirait le crédit dans un pays très endetté et soutiendrait le won.",
-    "sources": [
-      {
-        "short": "Korea Times",
-        "name": "The Korea Times, « BOK keeps rate steady at 3%, but further hikes remain on table » (22 octobre 2026)",
-        "url": "https://www.koreatimes.co.kr/economy/20261022/bok-keeps-rate-steady-at-3-but-further-hikes-remain-on-table"
-      },
-      {
-        "short": "Kyunghyang Shinmun",
-        "name": "Kyunghyang Shinmun (édition anglaise), sur la décision du 22 octobre 2026 de la Banque de Corée",
-        "url": "https://www.khan.co.kr/en/article/202610221648047"
       }
     ]
   },
