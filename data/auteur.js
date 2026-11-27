@@ -12,10 +12,10 @@ window.GEOCO.auteur = {
   // Statistiques de visite GoatCounter (sans cookie) : le code du compte, ex. "geonomix" pour geonomix.goatcounter.com.
   // Vide = pas de statistiques. Ne compte pas dans l'aperçu claude.ai.
   goatcounter: "",
-  cursus: "Ancien élève de classe préparatoire économie-gestion (CPGE D2) à Strasbourg, où j'ai étudié la macroéconomie et la microéconomie. Je termine ma licence d'économie en échange à l'Université de Montréal (2026-2027).",
+  cursus: "Ancien élève de classe préparatoire économie-gestion (CPGE D2) à Strasbourg, je suis en dernière année de licence d'économie et relations internationales, en échange à l'Université de Montréal (2026-2027).",
+  // Texte revu par l'auteur le 27 nov. 2026 (licence économie et relations internationales ; pourquoi l'appli ; rigueur scientifique).
   texte: [
-    "J'ai créé Geonomix dans le prolongement de mes études. La prépa et la licence m'ont appris la rigueur scientifique : être logique, raisonner de façon rationnelle, partir des faits. J'ai voulu appliquer cette méthode à l'actualité économique et géopolitique, y compris celle qui fait rarement les gros titres. De la géopolitique, oui ; des opinions politiques, non.",
-    "Ici, chaque chiffre est sourcé, chaque sujet est expliqué simplement, et on parle aussi des sujets moins couverts : ce qui se passe en Afrique, en Asie, en Amérique latine.",
-    "L'objectif : que chacun puisse se faire son propre avis, avec les faits en main."
+    "La classe préparatoire et la licence m'ont apporté des connaissances et une méthode de réflexion. Pourtant, j'ai toujours eu des difficultés à comprendre les réels enjeux de l'actualité. Ainsi, j'ai souhaité créer une application qui réunit les informations et des pistes de réflexion sur la géopolitique, l'économie et la finance.",
+    "Avec une volonté de rigueur scientifique : être rationnel et partir des faits, pas seulement ceux qui font les gros titres, mais aussi ceux qui sont peu abordés."
   ]
 };
