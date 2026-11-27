@@ -85,7 +85,8 @@
     }, { capture: true });
     const box = document.createElement("div");
     box.className = "globe-zoom";
-    box.innerHTML = '<button type="button" data-z="0.7" aria-label="Zoomer">+</button><button type="button" data-z="1.4" aria-label="Dézoomer">−</button>';
+    // − en haut, + en bas (demande de l'auteur, 27 nov. 2026 : « les boutons doivent être inversés »).
+    box.innerHTML = '<button type="button" data-z="1.4" aria-label="Dézoomer">−</button><button type="button" data-z="0.7" aria-label="Zoomer">+</button>';
     box.addEventListener("pointerdown", (e) => e.stopPropagation());
     box.addEventListener("click", (e) => {
       const b = e.target.closest("button");
@@ -146,7 +147,7 @@
     const go = () => {
       try {
         const r = world.renderer(), mat = world.globeMaterial();
-        const max = Math.min(16, r.capabilities.getMaxAnisotropy ? r.capabilities.getMaxAnisotropy() : 1);
+        const max = Math.min(LIGHT ? 4 : 16, r.capabilities.getMaxAnisotropy ? r.capabilities.getMaxAnisotropy() : 1);
         const texs = [mat.map, mat.bumpMap].filter((t) => t && t.image);
         texs.forEach((t) => { if (t.anisotropy !== max) { t.anisotropy = max; t.needsUpdate = true; } });
         if ((!mat.map || !mat.map.image) && tries++ < 40) return setTimeout(go, 250);
@@ -197,7 +198,9 @@
     }
     return tileCache.get(k);
   }
-  function addDetail(world) { withGlobeMesh(world, (globeMesh) => detailOn(world, globeMesh)); }
+  // Pas sur tablette ni téléphone : fabriquer et envoyer ces images à la carte graphique fait saccader le globe
+  // et le rend moins réactif au doigt (l'auteur, 27 nov. 2026 : « peu tactile et bug énormément »).
+  function addDetail(world) { if (LIGHT) return; withGlobeMesh(world, (globeMesh) => detailOn(world, globeMesh)); }
   function detailOn(world, globeMesh) {
     try {
       const Material = world.globeMaterial().constructor;
@@ -472,7 +475,7 @@
     const world = new window.Globe(container, { animateIn: true })
       .backgroundColor("rgba(0,0,0,0)")
       .globeImageUrl(TEX.earth)
-      .globeCurvatureResolution(3)
+      .globeCurvatureResolution(LIGHT ? 4 : 3)
       .bumpImageUrl(TEX.bump)
       .showAtmosphere(true)
       .atmosphereColor("#5aa9ff")
@@ -566,7 +569,7 @@
       const world = new window.Globe(container, { animateIn: true })
         .backgroundColor("rgba(0,0,0,0)")
         .globeImageUrl(TEX.earth)
-        .globeCurvatureResolution(3)
+        .globeCurvatureResolution(LIGHT ? 4 : 3)
         .bumpImageUrl(TEX.bump)
         .showAtmosphere(true)
         .atmosphereColor("#5aa9ff")
