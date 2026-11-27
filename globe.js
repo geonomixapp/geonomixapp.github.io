@@ -5,7 +5,10 @@
 
   const LIB = "assets/vendor/globe.gl.min.js";
   const TEX = {
-    earth: "assets/earth/earth-blue-marble.jpg",
+    // Chargement rapide (27 nov. 2026, « le globe est tellement lent ») : une Terre légère en 2K (320 Ko) s'affiche
+    // d'abord, puis `crisp` la remplace par la 4K (1,5 Mo), et par la 8K sur ordinateur.
+    earth: "assets/earth/earth-2k.jpg",
+    earth4k: "assets/earth/earth-blue-marble.jpg",
     // 8K (terres NASA « Whole world - land and oceans », domaine public, Wikimedia Commons ; océans de l'image 4K) :
     // chargée après coup, seulement si la carte graphique accepte une texture de 8192 px.
     earthHD: "assets/earth/earth-8k.jpg",
@@ -154,13 +157,13 @@
         const texs = [mat.map, mat.bumpMap].filter((t) => t && t.image);
         texs.forEach((t) => { if (t.anisotropy !== max) { t.anisotropy = max; t.needsUpdate = true; } });
         if ((!mat.map || !mat.map.image) && tries++ < 40) return setTimeout(go, 250);
-        // Puis la Terre en 8K, quand l'appareil peut l'afficher (même image pour tous les globes ouverts).
+        // Puis la Terre en 4K, et en 8K quand l'appareil peut l'afficher (ordinateur).
         const map = mat.map;
-        if (!LIGHT && map && map.image && !map.userData.hd && r.capabilities.maxTextureSize >= 8192 && (map.image.src || "").includes("earth-blue-marble")) {
+        if (map && map.image && !map.userData.hd && (map.image.src || "").includes("earth-2k")) {
           map.userData.hd = true;
-          const img = new Image();
-          img.onload = () => { map.image = img; map.needsUpdate = true; };
-          img.src = TEX.earthHD;
+          const swap = (src, next) => { const img = new Image(); img.onload = () => { map.image = img; map.needsUpdate = true; if (next) next(); }; img.src = src; };
+          const want8k = !LIGHT && r.capabilities.maxTextureSize >= 8192;
+          swap(TEX.earth4k, want8k ? () => swap(TEX.earthHD) : null);
         }
       } catch (e) { /* bonus : on s'en passe si ça échoue */ }
     };
@@ -479,7 +482,7 @@
       .backgroundColor("rgba(0,0,0,0)")
       .globeImageUrl(TEX.earth)
       .globeCurvatureResolution(LIGHT ? 4 : 3)
-      .bumpImageUrl(TEX.bump)
+      .bumpImageUrl(LIGHT ? null : TEX.bump)
       .showAtmosphere(true)
       .atmosphereColor("#5aa9ff")
       .atmosphereAltitude(0.18)
@@ -573,7 +576,7 @@
         .backgroundColor("rgba(0,0,0,0)")
         .globeImageUrl(TEX.earth)
         .globeCurvatureResolution(LIGHT ? 4 : 3)
-        .bumpImageUrl(TEX.bump)
+        .bumpImageUrl(LIGHT ? null : TEX.bump)
         .showAtmosphere(true)
         .atmosphereColor("#5aa9ff")
         .atmosphereAltitude(0.2)

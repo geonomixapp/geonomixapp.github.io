@@ -1,6 +1,10 @@
 // Service worker : met l'application en cache pour qu'elle marche hors connexion.
 // Pense à changer la version quand tu modifies des fichiers, pour forcer la mise à jour.
-const CACHE = "geonomix-v142";
+const CACHE = "geonomix-v143";
+// Images, modèles 3D, polices et bibliothèques (dossier assets/) : cache à part, gardé d'une version à l'autre et
+// servi directement sans repasser par le réseau (le globe s'affiche bien plus vite). Si un fichier de assets/ est
+// remplacé sous le même nom, changer ce numéro pour forcer son retéléchargement.
+const ASSETS = "geonomix-assets-1";
 const FILES = [
   "./",
   "index.html",
@@ -50,31 +54,46 @@ const FILES = [
 ];
 
 self.addEventListener("install", (event) => {
-  event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(FILES)));
+  event.waitUntil(Promise.all([
+    caches.open(CACHE).then((cache) => cache.addAll(FILES)),
+    // Le globe de l'accueil, prêt dès la 2e ouverture (et sans réseau).
+    caches.open(ASSETS).then((cache) => cache.addAll(["assets/vendor/globe.gl.min.js", "assets/earth/earth-2k.jpg", "assets/earth/earth-blue-marble.jpg"]).catch(() => {})),
+  ]));
   self.skipWaiting();
 });
 
 self.addEventListener("activate", (event) => {
   event.waitUntil(
-    caches.keys().then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
+    caches.keys().then((keys) => Promise.all(keys.filter((k) => k !== CACHE && k !== ASSETS).map((k) => caches.delete(k))))
   );
   self.clients.claim();
 });
 
-// Réseau d'abord (pour avoir le contenu le plus frais), cache en secours.
+// assets/ : le cache d'abord (ces fichiers ne changent pas). Le reste : le réseau d'abord pour avoir les actus les plus
+// fraîches, mais au bout de 3 s sans réponse (réseau lent), la dernière version en cache ; sans réseau, le cache.
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
+  const url = new URL(event.request.url);
   // Tuiles satellite du zoom (NASA GIBS) : pas de cache, il y en aurait des centaines.
-  if (event.request.url.includes("gibs.earthdata.nasa.gov")) return;
-  event.respondWith(
-    fetch(event.request)
-      .then((res) => {
-        const copy = res.clone();
-        caches.open(CACHE).then((cache) => cache.put(event.request, copy));
-        return res;
-      })
-      .catch(() => caches.match(event.request))
-  );
+  if (url.hostname === "gibs.earthdata.nasa.gov") return;
+  if (url.origin === self.location.origin && url.pathname.includes("/assets/")) {
+    event.respondWith(caches.open(ASSETS).then((cache) => cache.match(event.request).then((hit) => hit || fetch(event.request).then((res) => {
+      if (res.ok) cache.put(event.request, res.clone());
+      return res;
+    }))));
+    return;
+  }
+  const net = fetch(event.request).then((res) => {
+    if (res.ok || res.type === "opaque") { const copy = res.clone(); caches.open(CACHE).then((cache) => cache.put(event.request, copy)); }
+    return res;
+  });
+  event.respondWith(new Promise((resolve) => {
+    let done = false;
+    const fromCache = () => caches.match(event.request).then((hit) => { if (hit && !done) { done = true; resolve(hit); } return hit; });
+    const timer = setTimeout(fromCache, 3000);
+    net.then((res) => { clearTimeout(timer); if (!done) { done = true; resolve(res); } })
+      .catch(() => { clearTimeout(timer); fromCache().then((hit) => { if (!done) { done = true; resolve(hit || Response.error()); } }); });
+  }));
 });
 
 // Notifications (notifs.js, fonction Supabase « notifier ») : { title, body, url, tag }.
