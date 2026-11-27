@@ -2516,7 +2516,7 @@ window.GEOCO.news = [
    "La gouverneure Destry Damayanti parlait alors d'un geste « préventif » avant une possible hausse des taux de la Fed en décembre [7]. Reuters reliait aussi la chute de la roupie à la démission du vice-président la semaine précédente [7]."
   ],
   "why": [
-   "Ce qu'il faut retenir : l'Indonésie paie à la fois le dollar fort et un doute sur la qualité de sa Bourse. Le 15 octobre, le fournisseur d'indices MSCI a proposé de la faire sortir des « marchés émergents » pour un statut « à part » [8]. Ce jour-là, les actions indonésiennes ont perdu environ 11 %, leur pire séance en 28 ans [9].",
+   "Ce qu'il faut retenir : l'Indonésie paie à la fois le dollar fort et un doute sur la qualité de sa Bourse. Le 15 octobre, le fournisseur d'indices MSCI a proposé de la faire sortir des « marchés émergents » pour un statut « à part » [8]. Le 16 octobre, les actions indonésiennes ont perdu environ 11 %, leur pire séance en 28 ans [9].",
    "MSCI dit qu'il ira au bout « sauf preuve claire d'améliorations importantes » de la gouvernance du marché [8]. Le 24 novembre, il a rappelé que rien n'avait changé, malgré des informations de presse contraires [10]. Or beaucoup de fonds suivent ces indices à la lettre : s'ils sortent, ils vendent les actions indonésiennes, puis les roupies obtenues.",
    "La hausse des taux n'a donc pas suffi : la menace d'un départ des fonds pèse plus lourd. Si la pression continue, la banque centrale devra choisir entre puiser davantage dans ses réserves et monter encore ses taux, au risque de freiner l'économie."
   ],
