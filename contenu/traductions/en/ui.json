@@ -595,7 +595,9 @@
   "Enregistrer le PDF": "Save the PDF",
   "Chargement…": "Loading…",
   "Impossible d'ouvrir ce PDF.": "This PDF can't be opened.",
-  "L'ouvrir quand même": "Open it anyway"
+  "L'ouvrir quand même": "Open it anyway",
+  "Mis à jour à {h}": "Updated at {h}",
+  "Mis à jour": "Updated"
  },
  "months": {
   "janvier": "Jan.",

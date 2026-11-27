@@ -1850,3 +1850,4 @@ html.pdfv-open, html.pdfv-open body { overflow: hidden; }
 .cur-stick .filters { display: contents; }
 .cur-stick .curtains { margin-top: 28px; }
 .cur-stick .chips-row { margin: 0 0 40px; }
+.upd-badge { color: var(--gold); font-weight: 600; }

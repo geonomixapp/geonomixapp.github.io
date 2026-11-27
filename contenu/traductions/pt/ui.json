@@ -592,7 +592,9 @@
   "Enregistrer le PDF": "Guardar o PDF",
   "Chargement…": "A carregar…",
   "Impossible d'ouvrir ce PDF.": "Não é possível abrir este PDF.",
-  "L'ouvrir quand même": "Abri-lo mesmo assim"
+  "L'ouvrir quand même": "Abri-lo mesmo assim",
+  "Mis à jour à {h}": "Atualizado às {h}",
+  "Mis à jour": "Atualizado"
  },
  "months": {
   "janvier": "janeiro",

@@ -1,0 +1,19 @@
+{
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.geo.0.name": "París, Francia",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.geo.0.label": "Francia",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.title": "El PIB francés cae un 0,2 % en el tercer trimestre: el Insee empeora su cifra y la palabra «recesión» se impone",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.summary": "El viernes 27 de noviembre, el Insee revisó a la baja el crecimiento francés de julio a septiembre: el PIB cae un 0,2 %, y no un 0,1 %, tras estancarse en primavera [1][2]. Varios medios hablan ya de recesión [4][5], cuando en octubre el FMI aún preveía un pequeño crecimiento del 0,4 % en el año [6].",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.points.0": "El producto interior bruto (PIB), el valor de todo lo que produce el país, baja un 0,2 % en el tercer trimestre de 2026 respecto al segundo, según los resultados detallados publicados el viernes por la mañana por el Insee [1].",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.points.1": "Es peor que la primera estimación del Insee, que daba −0,1 % [2][9]. En el segundo trimestre, el PIB no había crecido nada (0,0 %) [1][2].",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.points.2": "Buena noticia al mismo tiempo: el poder adquisitivo de los hogares rebota un 0,2 % por unidad de consumo, tras caer un 0,5 % el trimestre anterior [1].",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.points.3": "France 24 titula que «Francia entra en recesión» [4]; CNews habla de una «ligera recesión desde el segundo trimestre» [5]. La definición habitual, llamada «técnica», exige dos trimestres seguidos de caída: con una primavera en 0,0 %, Francia está en el límite [3][4].",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.points.4": "El FMI, en sus previsiones de octubre, esperaba un crecimiento del +0,4 % en 2026 y del +0,7 % en 2027, 0,2 puntos menos que en julio para cada año [6][7]. En julio aún preveía un 0,6 % para 2026 [8].",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.points.5": "El Fondo pedía entonces actuar «con urgencia» sobre las finanzas públicas y veía subir el paro al 8,4 %, frente al 7,7 % del año pasado [6].",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.why.0": "Lo esencial: la economía francesa no crece desde la primavera y retrocede al final del verano. El FMI no hablaba de recesión en octubre; es la cifra del Insee de este viernes la que recupera la palabra [1][4][6].",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.why.1": "Un PIB que baja significa menos actividad, y por tanto menos ingresos fiscales para el Estado, cuando el FMI ya pedía sanear «con urgencia» las finanzas públicas [6]. Cada décima de crecimiento perdida complica los presupuestos de 2027 que se debaten en el Parlamento.",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.why.2": "La palabra «recesión» es discutible: un trimestre en 0,0 % no es una caída. Pero el resultado es el mismo para empresas y asalariados: una economía parada, con un paro que el FMI ya veía subir [3][6].",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.forMe": "Una economía que retrocede suele implicar menos contrataciones y subidas salariales más escasas. El poder adquisitivo sí se recuperó algo este verano, pero el FMI espera más paro.",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.figures.0.label": "PIB de Francia en el 3.er trimestre de 2026, tras 0,0 % en el 2.º",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.figures.1.label": "primera estimación del Insee, revisada a la baja",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.figures.2.label": "crecimiento previsto para 2026 por el FMI en octubre"
+}

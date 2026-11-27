@@ -596,7 +596,9 @@
   "Enregistrer le PDF": "PDF speichern",
   "Chargement…": "Wird geladen…",
   "Impossible d'ouvrir ce PDF.": "Dieses PDF lässt sich nicht öffnen.",
-  "L'ouvrir quand même": "Trotzdem öffnen"
+  "L'ouvrir quand même": "Trotzdem öffnen",
+  "Mis à jour à {h}": "Aktualisiert um {h}",
+  "Mis à jour": "Aktualisiert"
  },
  "months": {
   "janvier": "Januar",

@@ -1,0 +1,19 @@
+{
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.geo.0.name": "Paris, France",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.geo.0.label": "France",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.title": "French GDP falls 0.2% in the third quarter: INSEE revises its figure down and the word \"recession\" takes hold",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.summary": "On Friday, November 27, INSEE revised down French growth for July to September: GDP fell 0.2%, not 0.1%, after stagnating in the spring [1][2]. Several media outlets now speak of a recession [4][5], while in October the IMF still expected modest growth of 0.4% for the year [6].",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.points.0": "Gross domestic product (GDP), the value of everything the country produces, fell 0.2% in the third quarter of 2026 compared with the second, according to the detailed results published by INSEE on Friday morning [1].",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.points.1": "That is worse than INSEE's first estimate, which showed −0.1% [2][9]. In the second quarter, GDP did not grow at all (0.0%) [1][2].",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.points.2": "Good news at the same time: household purchasing power rebounded 0.2% per consumption unit, after a 0.5% drop the previous quarter [1].",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.points.3": "France 24 headlines that \"France is entering a recession\" [4]; CNews speaks of a \"slight recession since the second quarter\" [5]. The usual \"technical\" definition requires two quarters of decline in a row: with a spring at 0.0%, France is on the borderline [3][4].",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.points.4": "In its October forecasts, the IMF expected growth of +0.4% in 2026 and +0.7% in 2027, 0.2 point less than in July for each year [6][7]. In July, it still forecast 0.6% for 2026 [8].",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.points.5": "The Fund then called for \"urgent\" action on public finances and expected unemployment to rise to 8.4%, from 7.7% last year [6].",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.why.0": "Key takeaway: the French economy has not grown since the spring and shrank at the end of summer. The IMF did not speak of a recession in October; it is this Friday's INSEE figure that brings the word back [1][4][6].",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.why.1": "Falling GDP means less activity, and so less tax revenue for the state, at a time when the IMF was already calling for \"urgent\" repair of public finances [6]. Every tenth of a point of growth lost complicates the 2027 budgets under discussion in Parliament.",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.why.2": "The word \"recession\" is debatable: a quarter at 0.0% is not a decline. But the result is the same for businesses and workers: a stalled economy, with unemployment the IMF already saw rising [3][6].",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.forMe": "A shrinking economy often means fewer hires and rarer pay rises. Purchasing power did recover a little this summer, but the IMF expects more unemployment.",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.figures.0.label": "France's GDP in Q3 2026, after 0.0% in Q2",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.figures.1.label": "INSEE's first estimate, revised down",
+ "news.2026-11-27-france-pib-recul-troisieme-trimestre-recession.figures.2.label": "growth forecast for 2026 by the IMF in October"
+}

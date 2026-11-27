@@ -591,7 +591,9 @@
   "Enregistrer le PDF": "Guardar el PDF",
   "Chargement…": "Cargando…",
   "Impossible d'ouvrir ce PDF.": "No se puede abrir este PDF.",
-  "L'ouvrir quand même": "Abrirlo de todos modos"
+  "L'ouvrir quand même": "Abrirlo de todos modos",
+  "Mis à jour à {h}": "Actualizado a las {h}",
+  "Mis à jour": "Actualizado"
  },
  "months": {
   "janvier": "enero",

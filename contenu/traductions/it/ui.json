@@ -592,7 +592,9 @@
   "Enregistrer le PDF": "Salva il PDF",
   "Chargement…": "Caricamento…",
   "Impossible d'ouvrir ce PDF.": "Impossibile aprire questo PDF.",
-  "L'ouvrir quand même": "Aprilo comunque"
+  "L'ouvrir quand même": "Aprilo comunque",
+  "Mis à jour à {h}": "Aggiornato alle {h}",
+  "Mis à jour": "Aggiornato"
  },
  "months": {
   "janvier": "gennaio",

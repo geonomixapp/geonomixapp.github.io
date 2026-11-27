@@ -17,6 +17,109 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.news = [
  {
+  "id": "2026-11-27-france-pib-recul-troisieme-trimestre-recession",
+  "date": "2026-11-27",
+  "region": "Europe",
+  "theme": "eco",
+  "zones": [
+   "Europe"
+  ],
+  "geo": [
+   {
+    "coords": [
+     2.35,
+     48.86
+    ],
+    "name": "Paris, France",
+    "label": "France"
+   }
+  ],
+  "title": "Le PIB français recule de 0,2 % au troisième trimestre : l'Insee aggrave son chiffre et le mot « récession » s'invite",
+  "summary": "Vendredi 27 novembre, l'Insee a révisé en baisse la croissance française de juillet à septembre : le PIB recule de 0,2 %, et non plus de 0,1 %, après une stagnation au printemps [1][2]. Plusieurs médias parlent désormais de récession [4][5], alors que le FMI prévoyait encore en octobre une petite croissance de 0,4 % sur l'année [6].",
+  "points": [
+   "Le produit intérieur brut (PIB), la valeur de tout ce que le pays produit, baisse de 0,2 % au troisième trimestre 2026 par rapport au deuxième, selon les résultats détaillés publiés vendredi matin par l'Insee [1].",
+   "C'est pire que la première estimation de l'Insee, qui donnait −0,1 % [2][9]. Au deuxième trimestre, le PIB n'avait pas progressé du tout (0,0 %) [1][2].",
+   "Bonne nouvelle dans le même temps : le pouvoir d'achat des ménages rebondit de 0,2 % par unité de consommation, après une chute de 0,5 % au trimestre précédent [1].",
+   "France 24 titre que « la France entre en récession » [4] ; CNews parle d'une « légère récession depuis le deuxième trimestre » [5]. La définition courante, dite « technique », demande deux trimestres de baisse de suite : avec un printemps à 0,0 %, la France est à la limite [3][4].",
+   "Le FMI, dans ses prévisions d'octobre, attendait +0,4 % de croissance en 2026 et +0,7 % en 2027, soit 0,2 point de moins qu'en juillet pour chaque année [6][7]. En juillet, il prévoyait encore 0,6 % pour 2026 [8].",
+   "Le Fonds appelait alors à agir « d'urgence » sur les finances publiques et voyait le chômage monter à 8,4 %, contre 7,7 % l'an dernier [6]."
+  ],
+  "why": [
+   "Ce qu'il faut retenir : l'économie française ne grandit plus depuis le printemps et recule à la rentrée. Le FMI ne parlait pas de récession en octobre ; c'est le chiffre de l'Insee de ce vendredi qui relance le mot [1][4][6].",
+   "Un PIB qui baisse veut dire moins d'activité, donc moins de recettes fiscales pour l'État, alors que le FMI appelait déjà à redresser « d'urgence » les finances publiques [6]. Chaque dixième de croissance perdu complique les budgets 2027 en discussion au Parlement.",
+   "Le mot « récession » se discute : un trimestre à 0,0 % n'est pas une baisse. Mais le résultat est le même pour les entreprises et les salariés : une économie à l'arrêt, avec un chômage que le FMI voyait déjà remonter [3][6]."
+  ],
+  "forMe": "Une économie qui recule, c'est souvent moins d'embauches et des hausses de salaire plus rares. Le pouvoir d'achat a quand même un peu remonté cet été, mais le FMI s'attend à plus de chômage.",
+  "figures": [
+   {
+    "value": "−0,2 %",
+    "label": "PIB de la France au 3e trimestre 2026, après 0,0 % au 2e",
+    "src": 1
+   },
+   {
+    "value": "−0,1 %",
+    "label": "première estimation de l'Insee, revue en baisse",
+    "src": 2
+   },
+   {
+    "value": "0,4 %",
+    "label": "croissance prévue en 2026 par le FMI en octobre",
+    "src": 6
+   }
+  ],
+  "culture": [],
+  "dossiers": [
+   "ecoles-economiques"
+  ],
+  "sources": [
+   {
+    "short": "Insee",
+    "name": "Insee, « Au troisième trimestre 2026, le PIB recule (-0,2 % après 0,0 %) et le pouvoir d'achat des ménages rebondit (+0,2 % par unité de consommation après -0,5 %) », Informations rapides n° 292 (27 novembre 2026)",
+    "url": "https://www.insee.fr/fr/statistiques/9165918"
+   },
+   {
+    "short": "Insee",
+    "name": "Insee, « Le PIB recule légèrement au troisième trimestre 2026 (-0,1 % après 0,0 %) », Informations rapides n° 263 (première estimation)",
+    "url": "https://www.insee.fr/fr/statistiques/9111036"
+   },
+   {
+    "short": "Moneyvox",
+    "name": "Moneyvox, « « On peut dire qu'on a une récession » : le PIB recule de 0,2 % au 3ème trimestre 2026 » (27 novembre 2026)",
+    "url": "https://www.moneyvox.fr/votre-argent/actualites/111451/on-peut-dire-quon-a-une-recession-le-pib-recule-de-0-2-au-3eme-trimestre-2026"
+   },
+   {
+    "short": "France 24",
+    "name": "France 24, « La France entre en récession, le PIB continue de reculer » (27 novembre 2026)",
+    "url": "https://www.france24.com/fr/france/20261127-la-france-entre-en-r%C3%A9cession-le-pib-continue-de-reculer"
+   },
+   {
+    "short": "CNews",
+    "name": "CNews, « Recul du PIB : la France est en légère récession depuis le deuxième trimestre » (27 novembre 2026)",
+    "url": "https://www.cnews.fr/france/2026-11-27/recul-du-pib-la-france-est-en-legere-recession-depuis-le-deuxieme-trimestre"
+   },
+   {
+    "short": "Bloomberg",
+    "name": "Bloomberg, « IMF Calls for Urgent Action to Fix Public Finances and Downgrades French Growth » (13 octobre 2026)",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-10-13/imf-calls-for-urgent-action-to-fix-public-finances-and-downgrades-french-growth"
+   },
+   {
+    "short": "BSS (AFP)",
+    "name": "BSS News, « Table of IMF economic growth forecasts » (octobre 2026)",
+    "url": "https://www.bssnews.net/business/434231"
+   },
+   {
+    "short": "Euronews",
+    "name": "Euronews, « IMF forecasts modest growth for Italy, cuts estimates for France and Germany » (8 juillet 2026)",
+    "url": "https://www.euronews.com/business/2026/07/08/economy-imf-forecasts-modest-growth-for-italy-cuts-estimates-for-france-and-germany"
+   },
+   {
+    "short": "Boursorama (AFP)",
+    "name": "Boursorama, « France: le PIB recule de 0,2 % au troisième trimestre, après révision à la baisse » (27 novembre 2026)",
+    "url": "https://www.boursorama.com/actualite-economique/actualites/france-le-pib-recule-de-0-2-au-troisieme-trimestre-apres-revision-a-la-baisse-581a5bf59c56bf1422978236076cb26b"
+   }
+  ]
+ },
+ {
   "id": "2026-11-27-petrole-brent-ormuz-jazan-opep",
   "date": "2026-11-27",
   "region": "Moyen-Orient",

@@ -295,6 +295,8 @@
   // « Dernière minute » (demande de l'auteur, 1er nov. 2026) : actu majeure publiée en cours de journée par les
   // passages de 13 h et 19 h ; champ `breaking: "HH:MM"` (heure de Paris). La pastille reste jusqu'au surlendemain midi (60 h après minuit du jour de l'actu).
   const isBreaking = (n) => !!n.breaking && Date.now() - Date.parse(n.date + "T00:00:00") < 60 * 3600 * 1000;
+  // « Mis à jour à HH:MM » (champ `updated`, mis par les passages qui complètent une actu qui évolue).
+  const updBadge = (n) => n.updated ? ` · <span class="upd-badge">${I18N.t("Mis à jour à {h}").replace("{h}", I18N.lang === "fr" ? String(n.updated).replace(":", " h ") : n.updated)}</span>` : "";
   const brkBadge = (n, short) => isBreaking(n) ? `<span class="brk-badge"><i aria-hidden="true"></i>${I18N.t("Dernière minute")}${short ? "" : " · " + (I18N.lang === "fr" ? String(n.breaking).replace(":", " h ") : n.breaking)}</span>` : "";
 
   // Pastille de thème des actus : orange = économie, bleu-violet = géopolitique, les deux couleurs = les deux.
@@ -324,7 +326,7 @@
       <a class="news-card mcard m-${size} ${n.theme}${isNear(n) ? " near" : ""}${isBreaking(n) ? " breaking" : ""}" href="#/actu/${n.id}" data-kind="${size === "text" ? "" : kind}">
         ${ill}
         <div class="mc-body">
-          <p class="mc-meta">${brkBadge(n, true)}<i class="mc-dot ${n.theme}" title="${THEMES[n.theme]}"></i>${relDay(n.date)}${n.region ? ` · ${n.region}` : ""}${n.verify ? ` <span class="verify-badge" title="${I18N.t("Source à vérifier")}">⚠️</span>` : ""}${finLocked(n) ? ` <span class="plus-lock" title="${offre.name}">🔒</span>` : ""}</p>
+          <p class="mc-meta">${brkBadge(n, true)}<i class="mc-dot ${n.theme}" title="${THEMES[n.theme]}"></i>${relDay(n.date)}${n.region ? ` · ${n.region}` : ""}${n.updated ? ` · <span class="upd-badge">${I18N.t("Mis à jour")}</span>` : ""}${n.verify ? ` <span class="verify-badge" title="${I18N.t("Source à vérifier")}">⚠️</span>` : ""}${finLocked(n) ? ` <span class="plus-lock" title="${offre.name}">🔒</span>` : ""}</p>
           <h3>${n.title}</h3>
           ${size === "big" || size === "text" ? `<p class="summary">${n.summary}</p>` : ""}
         </div>
@@ -2128,7 +2130,7 @@
     app.innerHTML = `
       <section class="wrap hero">
         <a class="back" href="#/actu">‹ Actu</a>
-        <p class="eyebrow reveal">${brkBadge(n)}${themeChip(n.theme)} ${formatDate(n.date)}</p>
+        <p class="eyebrow reveal">${brkBadge(n)}${themeChip(n.theme)} ${formatDate(n.date)}${updBadge(n)}</p>
         <h1 class="title reveal">${n.title}</h1>
         <p class="lead reveal">${n.summary}</p>
         ${!n.image && window.GeocoIllus ? `<figure class="news-illus reveal">${window.GeocoIllus.svg(n)}</figure>` : ""}
