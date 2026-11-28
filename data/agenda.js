@@ -8,107 +8,6 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.agenda = [
   {
-    "id": "2026-11-26-conseil-europeen-budget-2028-2034",
-    "date": "2026-11-26",
-    "end": "2026-11-27",
-    "theme": "mix",
-    "region": "Europe",
-    "place": "Bruxelles, Belgique",
-    "title": "Sommet européen extraordinaire sur le budget de l'UE 2028-2034",
-    "why": "António Costa, président du Conseil européen, prévoit un sommet extraordinaire les 26 et 27 novembre pour viser un accord politique d'ici fin 2026 sur le prochain budget pluriannuel, que la Commission propose à près de 2 000 milliards d'euros [1][2]. En jeu : l'argent de l'agriculture, de la défense, de la compétitivité et l'aide à l'Ukraine [2].",
-    "sources": [
-      {
-        "short": "Eunews",
-        "name": "Eunews, « 2028-2034 budget: plans for an extraordinary summit of leaders on 26 and 27 November » (13 octobre 2026)",
-        "url": "https://www.eunews.it/en/2026/10/13/2028-2034-budget-plans-for-an-extraordinary-summit-of-leaders-on-26-and-27-november/"
-      },
-      {
-        "short": "Agence Europe",
-        "name": "Agence Europe, « António Costa plans extraordinary European summit in late November to reach agreement on EU's 2028-2034 budget by end of 2026 »",
-        "url": "https://agenceurope.eu/en/bulletin/article/13798/21/antonio-costa-plans-extraordinary-european-summit-in-late-november-to-reach-agreement-on-eus-2028-2034-budget-by-end-of-2026"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-27-france-inflation-novembre",
-    "date": "2026-11-27",
-    "theme": "eco",
-    "region": "Europe",
-    "place": "Paris (Insee)",
-    "title": "France : premier chiffre de l'inflation de novembre",
-    "why": "L'Insee publie le 27 novembre à 8 h 45 son estimation provisoire des prix de novembre [1]. En octobre, les prix avaient augmenté de 3,4 % sur un an, tirés par l'énergie (+24,1 %) [1] : une nouvelle accélération pèserait sur le pouvoir d'achat et sur les anticipations de taux de la BCE avant sa réunion du 17 décembre.",
-    "sources": [
-      {
-        "short": "Insee",
-        "name": "Insee, Informations rapides n° 271, « Indice des prix à la consommation, résultats définitifs, octobre 2026 » (13 nov. 2026), avec la date de la prochaine parution",
-        "url": "https://insee.fr/fr/statistiques/9131332"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-27-allemagne-bundestag-budget-2027",
-    "date": "2026-11-27",
-    "theme": "eco",
-    "region": "Europe",
-    "place": "Berlin, Allemagne",
-    "title": "Allemagne : le Bundestag vote le budget fédéral 2027",
-    "why": "Les députés allemands votent en troisième lecture un budget d'environ 560,9 milliards d'euros de dépenses, adopté le 13 novembre en commission [1], avec une nouvelle dette qui monte à 210 milliards d'euros en comptant les fonds spéciaux [2]. Un vote qui fixe la dette de la première économie européenne pour 2027.",
-    "sources": [
-      {
-        "short": "Bundestag",
-        "name": "Bundestag, « Haushaltsgesetz 2027 : dritte Lesung » (textarchiv, semaine 48) et hib 939/2026 (13 novembre 2026)",
-        "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw48-de-haushaltsgesetz-2027-dritte-lesung-1232350"
-      },
-      {
-        "short": "Börsen-Zeitung",
-        "name": "Börsen-Zeitung, « Neuverschuldung steigt auf 210 Mrd. Euro » (novembre 2026)",
-        "url": "https://www.boersen-zeitung.de/konjunktur-politik/neuverschuldung-steigt-auf-210-mrd-euro"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-27-nouvelle-zelande-resultats-officiels",
-    "date": "2026-11-27",
-    "theme": "geo",
-    "region": "Asie",
-    "place": "Wellington, Nouvelle-Zélande",
-    "title": "Nouvelle-Zélande : résultats officiels des législatives",
-    "why": "La Commission électorale proclame les résultats définitifs du scrutin du 7 novembre, après le dépouillement des votes spéciaux [1]. Au décompte provisoire, la coalition sortante de Christopher Luxon n'avait qu'un siège de majorité, 67 sur 131 [2] : les votes spéciaux, traditionnellement plus favorables à la gauche, peuvent faire basculer le gouvernement.",
-    "sources": [
-      {
-        "short": "Elections NZ",
-        "name": "Electoral Commission (Te Kaitiaki Take Kōwhiri), « 2026 General Election media kit »",
-        "url": "https://elections.nz/assets/2026-Media-Kit-/2026-General-Election-media-kit.pdf"
-      },
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « New Zealand's governing coalition holds slim majority in preliminary count » (7 novembre 2026)",
-        "url": "https://www.aljazeera.com/news/2026/11/7/governing-party-leads-in-new-zealands-knife-edge-vote-early-results"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-28-palestine-legislatives",
-    "date": "2026-11-28",
-    "theme": "geo",
-    "region": "Moyen-Orient",
-    "place": "Territoires palestiniens",
-    "title": "Élections législatives palestiniennes",
-    "why": "Le président Mahmoud Abbas a fixé par décret les législatives au 28 novembre ; la présidentielle sera fixée plus tard, probablement au premier trimestre 2027 [1][2]. Ce serait le premier scrutin de ce type depuis 2006, un test pour l'avenir politique de Gaza et de la Cisjordanie.",
-    "sources": [
-      {
-        "short": "Report.az",
-        "name": "Report.az, « Abbas schedules Palestinian parliamentary elections for November 28 »",
-        "url": "https://report.az/en/other-countries/abbas-schedules-palestinian-parliamentary-elections-for-november-28"
-      },
-      {
-        "short": "TASS",
-        "name": "TASS, « Palestinian President schedules parliamentary elections for November 28, 2026 »",
-        "url": "https://tass.com/world/2158187"
-      }
-    ]
-  },
-  {
     "id": "2026-11-28-algerie-elections-locales",
     "date": "2026-11-28",
     "theme": "geo",
@@ -201,38 +100,17 @@ window.GEOCO.agenda = [
     "region": "Moyen-Orient",
     "place": "Vienne",
     "title": "Grande réunion de l'OPEP+ sur la production de 2027",
-    "why": "La 42e réunion ministérielle de l'OPEP et de ses alliés est fixée au 29 novembre [1][2] ; c'est elle qui fixe les grandes lignes de la production de l'année suivante, et donne le ton du prix du pétrole pour l'hiver.",
+    "why": "L'OPEP+ se réunit le dimanche 29 novembre pour fixer ses quotas de production de 2027 [1][2] : sans accord, le groupe n'a plus de cadre de production après le 31 décembre [2]. Avec des prix qui reculent par crainte d'un excès d'offre, des délégués évoquent une simple prolongation d'un mois des plafonds actuels [2] ; la décision donnera le ton du prix du pétrole pour l'hiver.",
     "sources": [
       {
         "short": "OPEP",
-        "name": "OPEP, communiqué de la 41e réunion ministérielle (7 juin 2026)",
-        "url": "https://www.opec.org/pr-detail/605-7-june-2026.html"
+        "name": "OPEP, communiqué du 1er novembre 2026 (prochaine réunion fixée au 29 novembre)",
+        "url": "https://www.opec.org/pr-detail/620-1-november-2026.html"
       },
       {
-        "short": "Arab News",
-        "name": "Arab News, « OPEC+ agrees to keep November oil output targets steady » (octobre 2026)",
-        "url": "https://www.arabnews.com/business/opec-agrees-to-keep-november-oil-output-targets-steady-3004571"
-      }
-    ]
-  },
-  {
-    "id": "2026-11-29-vietnam-enquete-301",
-    "date": "2026-11-29",
-    "theme": "geo",
-    "region": "Asie",
-    "place": "Washington",
-    "title": "Washington doit trancher sur l'enquête commerciale visant le Vietnam",
-    "why": "Les États-Unis ont jusqu'au 29 novembre pour rendre leur décision sur l'enquête « section 301 » sur la propriété intellectuelle au Vietnam [1][2]. Elle peut déboucher sur des droits de douane contre un pays dont les échanges ont dépassé 1 000 milliards de dollars en dix mois.",
-    "sources": [
-      {
-        "short": "KPMG",
-        "name": "KPMG, « USTR initiates Section 301 investigation into Vietnam's IP practices »",
-        "url": "https://kpmg.com/us/en/taxnewsflash/news/2026/06/ustr-vietnam-section-301-investigation.html"
-      },
-      {
-        "short": "Federal Register",
-        "name": "Federal Register, initiation de l'enquête section 301 sur le Vietnam (3 juin 2026)",
-        "url": "https://www.federalregister.gov/documents/2026/06/03/2026-11043/initiation-of-section-301-investigation-and-request-for-public-comments-vietnams-acts-policies-and"
+        "short": "ICIS",
+        "name": "ICIS, « Oil falls on supply glut concerns; eyes on 29 Nov OPEC+ meeting » (25 nov. 2026)",
+        "url": "https://www.icis.com/explore/resources/news/2026/11/25/11243387/oil-falls-on-supply-glut-concerns-eyes-on-29-nov-opec-meeting/"
       }
     ]
   },
@@ -350,13 +228,34 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-11-30-allemagne-inflation-novembre",
+    "date": "2026-11-30",
+    "theme": "eco",
+    "region": "Europe",
+    "place": "Wiesbaden, Allemagne (Destatis)",
+    "title": "Allemagne : premier chiffre de l'inflation de novembre",
+    "why": "L'office allemand de la statistique Destatis publie le lundi 30 novembre à 14 h son estimation provisoire des prix de novembre [1]. En octobre, la hausse des prix était retombée à 2,8 % sur un an, après 3,3 % en septembre [2] : avec la France et l'Espagne, ce chiffre donne la tendance de la zone euro avant la réunion de la BCE du 17 décembre.",
+    "sources": [
+      {
+        "short": "Aktiencheck",
+        "name": "Aktiencheck, « Inflation in Deutschland (vorläufig) : Termine und Werte » (prochaine publication le 30 nov. 2026 à 14 h)",
+        "url": "https://aktiencheck.de/boersentermine/deutschland-inflation"
+      },
+      {
+        "short": "Destatis",
+        "name": "Destatis, « Inflation rate of +2.8% expected in October 2026 » (communiqué n° 382)",
+        "url": "https://www.destatis.de/EN/Press/2026/10/PE26_382_611.html"
+      }
+    ]
+  },
+  {
     "id": "2026-12-01-zone-euro-inflation-novembre",
     "date": "2026-12-01",
     "theme": "eco",
     "region": "Europe",
     "place": "Luxembourg",
     "title": "Zone euro : première estimation de l'inflation de novembre",
-    "why": "Eurostat publie le 1er décembre son estimation rapide de la hausse des prix en novembre [1][2]. En octobre, l'inflation avait atteint 4,0 %, son plus haut niveau depuis trois ans [3] : c'est le dernier grand chiffre avant la réunion de la BCE du 17 décembre.",
+    "why": "Eurostat publie le 1er décembre son estimation rapide de la hausse des prix en novembre [1][2]. En octobre, l'inflation avait atteint 4,0 %, son plus haut niveau depuis trois ans [3] ; les premiers chiffres nationaux annoncent un ralentissement, à 2,9 % en France [4] et 4,1 % en Espagne [5], grâce aux carburants. C'est le dernier grand chiffre avant la réunion de la BCE du 17 décembre.",
     "sources": [
       {
         "short": "Finance Calendar",
@@ -372,6 +271,16 @@ window.GEOCO.agenda = [
         "short": "StockAnalysis",
         "name": "StockAnalysis, « Eurozone inflation rises to 4.0% in October, hitting highest level in 3 years » (nov. 2026)",
         "url": "https://stockanalysis.com/news/eurozone-inflation-rises-october-2026/"
+      },
+      {
+        "short": "Insee",
+        "name": "Insee, Informations rapides n° 295, « En novembre 2026, les prix à la consommation augmenteraient de 2,9 % sur un an » (27 nov. 2026)",
+        "url": "https://www.insee.fr/fr/statistiques/9161375"
+      },
+      {
+        "short": "INE",
+        "name": "INE (Espagne), « Indicador adelantado del IPC. Noviembre 2026 » (27 nov. 2026)",
+        "url": "https://www.ine.es/dyngs/Prensa/adIPC1126.htm"
       }
     ]
   },
@@ -525,36 +434,30 @@ window.GEOCO.agenda = [
     "region": "Moyen-Orient",
     "place": "Jérusalem, Israël",
     "title": "Israël : fin du délai initial de 28 jours donné à Gadi Eisenkot pour former un gouvernement",
-    "why": "Chargé le 8 novembre de former une coalition, Eisenkot dispose de 28 jours, prolongeables de 14 : sans majorité, Israël resterait sans nouveau gouvernement en pleine guerre avec l'Iran [1].",
+    "why": "Chargé le 8 novembre de former une coalition, Eisenkot dispose de 28 jours, prolongeables de 14 [1]. Il a signé un accord avec les Démocrates de Yair Golan [2][3] mais accuse le Likoud de Netanyahou de faire traîner les discussions [4] : sans majorité, Israël resterait sans nouveau gouvernement en pleine guerre avec l'Iran.",
     "sources": [
       {
         "short": "Al Jazeera",
         "name": "Al Jazeera, « Eisenkot open to Netanyahu joining Israel's next government » (8 novembre 2026)",
         "url": "https://www.aljazeera.com/news/2026/11/8/israels-president-tasks-eisenkot-to-form-new-coalition-government"
+      },
+      {
+        "short": "Arab News",
+        "name": "Arab News, « Israel's Eisenkot and left-wing party agree coalition deal » (nov. 2026)",
+        "url": "https://www.arabnews.com/middle-east/israels-eisenkot-and-left-wing-party-agree-coalition-deal-3014123"
+      },
+      {
+        "short": "The Jewish Chronicle",
+        "name": "The Jewish Chronicle, « Israel elections: Eisenkot secures coalition deal with Yair Golan's Democrats » (nov. 2026)",
+        "url": "https://www.thejc.com/news/israel/elections-2026/israel-elections-eisenkot-secures-coalition-deal-with-yair-golans-democrats-affbm77h"
+      },
+      {
+        "short": "NST (Reuters)",
+        "name": "New Straits Times, « Eisenkot accuses Netanyahu's Likud of stalling Israeli coalition talks » (nov. 2026)",
+        "url": "https://www.nst.com.my/world/world/2026/11/1587482/eisenkot-accuses-netanyahus-likud-stalling-israeli-coalition-talks"
       }
     ],
     "news": "2026-11-13-gaza-frappe-hopital-nasser-bebe-froid"
-  },
-  {
-    "id": "2026-11-14-guinee-bissau-elections",
-    "date": "2026-12-06",
-    "theme": "geo",
-    "region": "Afrique",
-    "place": "Bissau, Guinée-Bissau",
-    "title": "Guinée-Bissau : présidentielle et législatives après le coup d'État",
-    "why": "La junte au pouvoir depuis le coup d'État de novembre 2025, qui avait renversé le président Umaro Sissoco Embaló, a fixé par décret les deux scrutins au 6 décembre [1][2]. C'est le test du retour à l'ordre constitutionnel réclamé par la Cédéao.",
-    "sources": [
-      {
-        "short": "Al Jazeera",
-        "name": "Al Jazeera, « Guinea-Bissau sets election date following last year's coup » (22 janvier 2026)",
-        "url": "https://www.aljazeera.com/news/2026/1/22/guinea-bissau-sets-election-date-following-last-years-coup"
-      },
-      {
-        "short": "APA",
-        "name": "APA News, « Guinée-Bissau : élections fixées au 6 décembre 2026 »",
-        "url": "https://fr.apanews.net/news/guinee-bissau-elections-fixees-au-6-decembre-2026/"
-      }
-    ]
   },
   {
     "id": "2026-12-07-france-secu-nouvelle-lecture",
@@ -1128,6 +1031,28 @@ window.GEOCO.agenda = [
     ]
   },
   {
+    "id": "2026-12-23-belgique-inflation-decembre",
+    "date": "2026-12-23",
+    "theme": "eco",
+    "region": "Europe",
+    "place": "Bruxelles, Belgique (Statbel)",
+    "title": "Belgique : l'inflation de décembre et l'indexation des salaires",
+    "why": "Statbel publie le 23 décembre l'indice des prix de décembre ; une nouvelle indexation des salaires et allocations est attendue ce mois-ci [1]. En novembre, l'inflation belge est restée au-dessus de 5 % (5,09 %), tirée par l'énergie (+33,7 % sur un an) [2] : elle pèse sur le coût du travail des entreprises.",
+    "verify": "Date du 23 décembre et indexation attendue données par loonindex.be ; le calendrier officiel de Statbel n'a pas pu être consulté.",
+    "sources": [
+      {
+        "short": "Loonindex",
+        "name": "Loonindex.be, « Loonindex : volgende indexering verwacht in december 2026 » (prochain indice Statbel le 23 déc. 2026)",
+        "url": "https://www.loonindex.be/"
+      },
+      {
+        "short": "Brussels Times",
+        "name": "The Brussels Times, « Belgian inflation falls in November but remains above 5% » (27 nov. 2026)",
+        "url": "https://www.brusselstimes.com/belgium/2426047/belgian-inflation-falls-in-november-but-remains-above-5"
+      }
+    ]
+  },
+  {
     "id": "2026-12-24-altria-imperial-date-limite",
     "date": "2026-12-24",
     "theme": "fin",
@@ -1179,6 +1104,32 @@ window.GEOCO.agenda = [
         "short": "Reuters",
         "name": "Reuters (via The Korea Herald), course au secrétariat général de l'ONU (21 novembre 2026)",
         "url": "https://www.koreaherald.com/article/10943238"
+      }
+    ]
+  },
+  {
+    "id": "2027-02-28-vietnam-enquete-301",
+    "date": "2027-02-28",
+    "theme": "geo",
+    "region": "Asie",
+    "place": "Washington",
+    "title": "Washington doit trancher sur l'enquête commerciale visant le Vietnam (propriété intellectuelle)",
+    "why": "Les États-Unis ont repoussé de trois mois, au 28 février 2027, leur décision dans l'enquête « section 301 » sur la propriété intellectuelle au Vietnam [1][2]. Le Vietnam est déjà visé par une autre procédure, annoncée le 25 novembre, qui propose jusqu'à 35 % de droits de douane supplémentaires [3] : la menace sur ses exportations vers les États-Unis grandit.",
+    "sources": [
+      {
+        "short": "Federal Register",
+        "name": "Federal Register, « Notice of Determination To Extend Section 301 Investigation of Vietnam's Acts, Policies, and Practices Related to Intellectual Property Protection and Enforcement » (10 nov. 2026)",
+        "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22868/notice-of-determination-to-extend-section-301-investigation-of-vietnams-acts-policies-and-practices"
+      },
+      {
+        "short": "EY",
+        "name": "EY Tax News, « USTR extends Section 301 investigation into Vietnam's intellectual property practices; determinations now due by 28 February 2027 »",
+        "url": "https://taxnews.ey.com/news/2026-2406-ustr-extends-section-301-investigation-into-vietnams-intellectual-property-practices-determinations-now-due-by-28-february-2027"
+      },
+      {
+        "short": "USTR",
+        "name": "USTR, « USTR Makes Determinations and Proposes Actions in 14 Section 301 Investigations Relating to Structural Excess Capacity and Production in Manufacturing Sectors » (25 nov. 2026)",
+        "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
       }
     ]
   }

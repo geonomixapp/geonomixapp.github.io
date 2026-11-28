@@ -7,7 +7,7 @@
 
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.indicators = {
-  "updated": "2026-11-26",
+  "updated": "2026-11-28",
   "latest": [
     {
       "group": "Économie",
@@ -372,9 +372,9 @@ window.GEOCO.indicators = {
           "url": "https://www.tbsnews.net/economy/september-inflation-rises-slightly-834-1565311"
         },
         {
-          "short": "Qazinform",
-          "name": "Bureau national des statistiques du Kazakhstan, via Qazinform (consulté le 8 oct. 2026)",
-          "url": "https://qazinform.com/news/kazakhstans-inflation-eases-to-93-yoy-in-sept-2026-666326"
+          "short": "The Astana Times",
+          "name": "The Astana Times, « Kazakhstan's Annual Inflation Slows to 9.2% in October » (nov. 2026, Bureau national des statistiques)",
+          "url": "https://astanatimes.com/2026/11/kazakhstans-annual-inflation-slows-to-9-2-in-october/"
         },
         {
           "short": "KNBS",
@@ -388,18 +388,18 @@ window.GEOCO.indicators = {
         },
         {
           "short": "INE Uruguay / Infobae",
-          "name": "INE Uruguay, via Infobae, 5 oct. 2026 (consulté le 8 oct. 2026)",
-          "url": "https://www.infobae.com/america/agencias/2026/10/05/la-inflacion-interanual-en-uruguay-sube-al-468-en-septiembre/"
+          "name": "INE Uruguay, via Infobae (EFE), « La inflación interanual en Uruguay sube al 4,87 % en octubre » (6 nov. 2026)",
+          "url": "https://www.infobae.com/america/agencias/2026/11/06/la-inflacion-interanual-en-uruguay-sube-al-487-en-octubre/"
         },
         {
           "short": "BCP",
-          "name": "Banco Central del Paraguay (consulté le 8 oct. 2026)",
-          "url": "https://x.com/BCP_PY/status/2106027228312248811"
+          "name": "Banco Central del Paraguay, « Informe de Inflación - Octubre 2026 » (1,7 % sur un an)",
+          "url": "https://www.bcp.gov.py/web/institucional/w/informe-de-inflaci%C3%B3n-octubre-2026"
         },
         {
-          "short": "INE Bolivie / Infobae",
-          "name": "INE Bolivie, via Infobae, 6 oct. 2026 (consulté le 8 oct. 2026)",
-          "url": "https://www.infobae.com/america/agencias/2026/10/06/bolivia-acumula-una-inflacion-del-388-entre-enero-y-septiembre-de-2026/"
+          "short": "INE Bolivie / Éxito Noticias",
+          "name": "INE Bolivie, via Éxito Noticias, « INE: inflación anual de Bolivia baja al 7,08%, pero los precios subieron 2,07% en octubre » (nov. 2026)",
+          "url": "https://exitonoticias.com.bo/ine-inflacion-anual-de-bolivia-baja-al-708-pero-los-precios-subieron-207-en-octubre/409785/"
         },
         {
           "short": "KSH / BBJ",
@@ -433,8 +433,8 @@ window.GEOCO.indicators = {
         },
         {
           "short": "Insee",
-          "name": "Insee, Informations rapides n° 266, estimation provisoire de l'indice des prix d'octobre 2026 (30 oct. 2026)",
-          "url": "https://www.insee.fr/fr/statistiques/9107965"
+          "name": "Insee, Informations rapides n° 295, « En novembre 2026, les prix à la consommation augmenteraient de 2,9 % sur un an », estimation provisoire (27 nov. 2026)",
+          "url": "https://www.insee.fr/fr/statistiques/9161375"
         },
         {
           "short": "Istat",
@@ -472,9 +472,9 @@ window.GEOCO.indicators = {
           "url": "https://www.dhnet.be/dernieres-depeches/2026/11/03/turquie-linflation-quasi-stable-a-297-sur-un-an-en-octobre-6ZKKKFA2FVCWNLY5URE3CJAZXA/"
         },
         {
-          "short": "Interfax",
-          "name": "Interfax, Rosstat : inflation annuelle de 6,35 % en septembre 2026 (9 oct. 2026)",
-          "url": "https://interfax.com/newsroom/top-stories/119479/"
+          "short": "TASS",
+          "name": "TASS, « Annual inflation in Russia reached 6.87% in October — statistics » (Rosstat, nov. 2026)",
+          "url": "https://tass.com/economy/2224837"
         },
         {
           "short": "Bisnis (BPS)",
@@ -637,19 +637,29 @@ window.GEOCO.indicators = {
           "url": "https://www.bssnews.net/business/443836"
         },
         {
-          "short": "The Standard",
-          "name": "The Standard, « Hong Kong CPI rises 1.9pc in September » (octobre 2026), d’après le Census and Statistics Department",
-          "url": "https://www.thestandard.com.hk/finance/article/346236/Hong-Kong-CPI-rises-19pc-in-September"
+          "short": "Xinhua",
+          "name": "Xinhua, « Hong Kong's CPI up in October » (20 nov. 2026, chiffres du Census and Statistics Department : +2,2 % sur un an)",
+          "url": "https://english.news.cn/20261120/8a09b923542c43609a0e3b9d7353d610/c.html"
         },
         {
-          "short": "MAS",
-          "name": "Autorité monétaire de Singapour (MAS) et ministère du Commerce (MTI), « Consumer Price Developments in September 2026 »",
-          "url": "https://www.mas.gov.sg/-/media/mas-media-library/news/consumer-price-developments/2026/consumer-price-developments-in-september-2026.pdf"
+          "short": "Investing.com",
+          "name": "Investing.com, « Singapore October inflation cools to 1.9% as core prices ease further » (nov. 2026, chiffres MAS/MTI)",
+          "url": "https://uk.investing.com/news/economic-indicators/singapore-october-inflation-cools-to-19-as-core-prices-ease-further-4998256"
         },
         {
           "short": "Capital Brief",
           "name": "Capital Brief, « CPI rose by 4.9% in 12 months to October » (25 nov. 2026, chiffres de l'Australian Bureau of Statistics) ; aussi Yahoo Finance, « Australia's inflation rate … 4.9% in October »",
           "url": "https://www.capitalbrief.com/briefing/cpi-rose-by-49-in-12-months-to-october-4e5f0191-0a0e-4da5-9665-63055190ea45/"
+        },
+        {
+          "short": "INE",
+          "name": "INE (Espagne), « Indicador adelantado del IPC y del IPCA. Noviembre 2026 » (27 nov. 2026 : 4,1 % sur un an)",
+          "url": "https://www.ine.es/dyngs/Prensa/adIPC1126.htm"
+        },
+        {
+          "short": "Brussels Times",
+          "name": "The Brussels Times, « Belgian inflation falls in November but remains above 5% » (27 nov. 2026, chiffres de Statbel : 5,09 %) ; voir aussi VRT NWS",
+          "url": "https://www.brusselstimes.com/belgium/2426047/belgian-inflation-falls-in-november-but-remains-above-5"
         }
       ],
       "values": {
@@ -829,8 +839,8 @@ window.GEOCO.indicators = {
           "s": 2
         },
         "250": {
-          "v": 3.4,
-          "d": "oct. 2026",
+          "v": 2.9,
+          "d": "nov. 2026",
           "s": 27
         },
         "262": {
@@ -904,8 +914,8 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "344": {
-          "v": 1.9,
-          "d": "sept. 2026",
+          "v": 2.2,
+          "d": "oct. 2026",
           "s": 68
         },
         "348": {
@@ -969,8 +979,8 @@ window.GEOCO.indicators = {
           "s": 55
         },
         "398": {
-          "v": 9.3,
-          "d": "sept. 2026",
+          "v": 9.2,
+          "d": "oct. 2026",
           "s": 15
         },
         "400": {
@@ -1195,7 +1205,7 @@ window.GEOCO.indicators = {
         },
         "600": {
           "v": 1.7,
-          "d": "sept. 2026",
+          "d": "oct. 2026",
           "s": 19
         },
         "604": {
@@ -1244,8 +1254,8 @@ window.GEOCO.indicators = {
           "s": 56
         },
         "643": {
-          "v": 6.4,
-          "d": "sept. 2026",
+          "v": 6.9,
+          "d": "oct. 2026",
           "s": 35
         },
         "646": {
@@ -1289,8 +1299,8 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "702": {
-          "v": 2.2,
-          "d": "sept. 2026",
+          "v": 1.9,
+          "d": "oct. 2026",
           "s": 69
         },
         "703": {
@@ -1324,9 +1334,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "724": {
-          "v": 4.9,
-          "d": "oct. 2026",
-          "s": 26
+          "v": 4.1,
+          "d": "nov. 2026 (estimation rapide)",
+          "s": 71
         },
         "728": {
           "v": 41.6,
@@ -1439,8 +1449,8 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "858": {
-          "v": 4.7,
-          "d": "sept. 2026",
+          "v": 4.9,
+          "d": "oct. 2026",
           "s": 18
         },
         "860": {
@@ -1539,9 +1549,9 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "056": {
-          "v": 4.7,
-          "d": "sept. 2026",
-          "s": 1
+          "v": 5.1,
+          "d": "nov. 2026",
+          "s": 72
         },
         "060": {
           "v": 2.4,
@@ -1554,8 +1564,8 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "068": {
-          "v": 5.7,
-          "d": "sept. 2026",
+          "v": 7.1,
+          "d": "oct. 2026",
           "s": 20
         },
         "070": {
@@ -1747,14 +1757,14 @@ window.GEOCO.indicators = {
           "url": "https://www.itv.com/news/2026-10-20/uk-unemployment-falls-to-lowest-in-a-year-but-vacancies-slide-further"
         },
         {
-          "short": "Agência Gov (IBGE)",
-          "name": "Agência Gov, « Taxa de desemprego tem queda e alcança menor resultado para setembro em 14 anos » (30 oct. 2026, PNAD Contínua de l'IBGE)",
-          "url": "https://agenciagov.ebc.com.br/noticias/202610/taxa-de-desemprego-tem-queda-e-alcanca-menor-resultado-para-setembro-em-14-anos"
+          "short": "InfoMoney (IBGE)",
+          "name": "InfoMoney, « Com desemprego em 5,1%, renda em alta segura juros enquanto contratação esfria » (27 nov. 2026, PNAD Contínua de l'IBGE, trimestre août-octobre)",
+          "url": "https://www.infomoney.com.br/economia/taxa-de-desemprego-outubro-2026-ibge/"
         },
         {
-          "short": "MoSPI",
-          "name": "Ministère indien des Statistiques (MoSPI), PLFS, note mensuelle de septembre 2026 (15 oct. 2026)",
-          "url": "https://www.mospi.gov.in/uploads/latestReleases/latest_release_1792060004197_6c3ba64d-1853-4b3d-98fb-d750d5ec8a5d_Monthly_Press_note_PLFS_Sep_2026.pdf"
+          "short": "Forbes India (MoSPI)",
+          "name": "Forbes India, « Unemployment rate falls to 4.9 percent in October as women see sharpest drop » (nov. 2026, PLFS mensuelle du MoSPI publiée le 16 nov. 2026)",
+          "url": "https://www.forbesindia.com/business/economy/unemployment-rate-falls-to-4-9-percent-in-october-as-women-see-sharpest-drop-article/3000584"
         },
         {
           "short": "FXStreet",
@@ -1797,14 +1807,14 @@ window.GEOCO.indicators = {
           "url": "https://www.dane.gov.co/files/operaciones/GEIH/pres-GEIH-sep2026.pdf"
         },
         {
-          "short": "INEGI",
-          "name": "INEGI, Indicadores de ocupación y empleo, septembre 2026 (22 oct. 2026 : taux de chômage de 2,8 %)",
-          "url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/iooe/IOE2026_09.pdf"
+          "short": "Diario de Yucatán (INEGI)",
+          "name": "Diario de Yucatán, « Inegi: en octubre se crearon 738,285 empleos en México y el desempleo aumenta a 3% » (26 nov. 2026, chiffres de l'ENOE de l'INEGI)",
+          "url": "https://www.yucatan.com.mx/economia-2/2026/11/26/inegi-en-octubre-se-crearon-738285-empleos-en-mexico-y-el-desempleo-aumenta-a-3.html"
         },
         {
           "short": "INE Chile",
-          "name": "INE Chile, « La tasa de desocupación nacional fue 9,8% en el trimestre julio-septiembre de 2026 » (29 oct. 2026)",
-          "url": "https://www.ine.gob.cl/sala-de-prensa/prensa/general/noticia/2026/10/29/la-tasa-de-desocupaci%C3%B3n-nacional-fue-9-8-en-el-trimestre-julio-septiembre-de-2026"
+          "name": "INE Chile, « La tasa de desocupación nacional fue 10,0% en el trimestre agosto-octubre de 2026 » (27 nov. 2026)",
+          "url": "https://www.ine.gob.cl/sala-de-prensa/prensa/general/noticia/2026/11/27/la-tasa-de-desocupaci%C3%B3n-nacional-fue-10-0-en-el-trimestre-agosto-octubre-de-2026"
         }
       ],
       "values": {
@@ -1864,8 +1874,8 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "152": {
-          "v": 9.8,
-          "d": "juil.-sept. 2026",
+          "v": 10,
+          "d": "août-oct. 2026",
           "s": 39
         },
         "156": {
@@ -2059,8 +2069,8 @@ window.GEOCO.indicators = {
           "s": 2
         },
         "356": {
-          "v": 5,
-          "d": "sept. 2026",
+          "v": 4.9,
+          "d": "oct. 2026",
           "s": 29
         },
         "360": {
@@ -2219,8 +2229,8 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "484": {
-          "v": 2.8,
-          "d": "sept. 2026",
+          "v": 3,
+          "d": "oct. 2026",
           "s": 38
         },
         "496": {
@@ -2584,8 +2594,8 @@ window.GEOCO.indicators = {
           "s": 1
         },
         "076": {
-          "v": 5.2,
-          "d": "juil.-sept. 2026",
+          "v": 5.1,
+          "d": "août-oct. 2026",
           "s": 28
         },
         "032": {
