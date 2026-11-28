@@ -17,6 +17,128 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.news = [
  {
+  "id": "2026-11-27-bce-hernandez-de-cos-succede-lagarde",
+  "date": "2026-11-27",
+  "region": "Europe",
+  "theme": "eco",
+  "zones": [
+   "Europe"
+  ],
+  "geo": [
+   {
+    "coords": [
+     8.68,
+     50.11
+    ],
+    "name": "Francfort, Allemagne",
+    "label": "BCE"
+   },
+   {
+    "coords": [
+     4.35,
+     50.85
+    ],
+    "name": "Bruxelles, Belgique",
+    "label": "Belgique"
+   }
+  ],
+  "title": "BCE : l'Espagnol Pablo Hernández de Cos choisi pour succéder à Christine Lagarde, une Française et un Allemand entrent aussi à la direction",
+  "summary": "Réunis à Bruxelles jeudi 26 novembre, les pays de la zone euro ont choisi en majorité l'Espagnol Pablo Hernández de Cos, patron de la Banque des règlements internationaux, pour présider la Banque centrale européenne après Christine Lagarde, qui part le 7 février 2027 [1][5]. Il devance le Néerlandais Klaas Knot [1].",
+  "points": [
+   "Une majorité des pays de la zone euro a soutenu Pablo Hernández de Cos lors du sommet de Bruxelles du jeudi 26 novembre ; il a recueilli plus de soutiens que Klaas Knot, ancien gouverneur de la banque centrale des Pays-Bas [1]. Les Pays-Bas eux-mêmes ont fini par se rallier à lui [8].",
+   "Dans le même paquet, deux autres sièges du directoire de la BCE sont attribués : à la Française Laurence Boone et à l'Allemand Markus Brunnermeier [1]. Brunnermeier deviendrait chef économiste et Laurence Boone serait chargée des opérations de marché [2].",
+   "Économiste, Hernández de Cos a été gouverneur de la Banque d'Espagne de 2018 à 2024 et a présidé le Comité de Bâle, qui fixe les règles des banques du monde entier, de 2019 à 2024 [4]. Il dirige la Banque des règlements internationaux, la « banque des banques centrales », depuis le 1er juillet 2025 [4].",
+   "S'il est nommé, il sera le premier Espagnol à diriger la BCE depuis sa création en 1998 [2].",
+   "Christine Lagarde a annoncé le 29 octobre qu'elle quitterait la BCE le 7 février 2027, environ neuf mois avant la fin de son mandat prévue en octobre 2027, sans donner de raison officielle [5]. Ce calendrier permet à Emmanuel Macron de peser sur le choix de son successeur avant l'élection présidentielle française, relevait Al Jazeera [6].",
+   "La nomination n'est pas encore définitive : le Conseil européen doit trancher en décembre [3]. La réunion de la BCE du 17 décembre sera encore présidée par Christine Lagarde [3]."
+  ],
+  "why": [
+   "Ce qu'il faut retenir : la personne qui fixera le prix de l'argent dans la zone euro à partir de février est désormais presque connue, et elle passe pour une figure de continuité [3].",
+   "Le poste compte double en ce moment : l'inflation de la zone euro a atteint 4 % en octobre, le double de l'objectif de 2 %, et la BCE a déjà relevé ses taux deux fois cette année [3]. Les économistes voient Hernández de Cos un peu plus « colombe » (plus prudent avant de monter les taux) que Klaas Knot, mais d'abord comme un centriste pragmatique qui garderait la ligne de Christine Lagarde [3] ; la Commerzbank, qui a épluché ses discours, le range parmi les colombes [3].",
+   "Pour la suite, Capital Economics prévoit encore une seule hausse d'un quart de point avant des baisses d'ici fin 2027, et MUFG table sur +0,25 point en mars, à la première réunion qu'il présiderait [3]. Un économiste cité par Euronews prévient qu'un changement de tête, à lui seul, ne devrait pas changer la politique de taux [3].",
+   "Le choix se fait aussi entre pays : l'Espagne obtient la présidence, la France et l'Allemagne deux sièges clés du directoire, au terme d'une négociation menée en paquet [1][2]."
+  ],
+  "forMe": "Le patron de la BCE pèse sur le taux de ton futur crédit immobilier et sur la rémunération de ton épargne. Un président jugé plus prudent pourrait freiner les hausses de taux, mais l'inflation à 4 % dans la zone euro reste sa priorité.",
+  "figures": [
+   {
+    "value": "4 %",
+    "label": "inflation de la zone euro en octobre, deux fois l'objectif de la BCE",
+    "src": 3
+   },
+   {
+    "value": "7 févr. 2027",
+    "label": "départ de Christine Lagarde, neuf mois avant la fin de son mandat",
+    "src": 5
+   },
+   {
+    "value": "1998",
+    "label": "création de la BCE : jamais un Espagnol ne l'a présidée",
+    "src": 2
+   }
+  ],
+  "next": [
+   {
+    "when": "17 décembre 2026",
+    "what": "Dernière réunion de la BCE sur les taux présidée par Christine Lagarde [3]"
+   },
+   {
+    "when": "Décembre 2026",
+    "what": "Nomination officielle attendue au Conseil européen [3]"
+   },
+   {
+    "when": "7 février 2027",
+    "what": "Départ de Christine Lagarde ; son successeur prend la tête de la BCE [5]"
+   }
+  ],
+  "culture": [],
+  "dossiers": [
+   "inflation-taux",
+   "is-lm"
+  ],
+  "sources": [
+   {
+    "short": "Euronews",
+    "name": "Euronews, « Eurozone leaders back Hernández de Cos to succeed Lagarde at ECB » (26 novembre 2026)",
+    "url": "https://www.euronews.com/2026/11/26/eurozone-leaders-back-hernandez-de-cos-to-succeed-lagarde-at-ecb"
+   },
+   {
+    "short": "CNBC",
+    "name": "CNBC, « Pablo Hernández de Cos set to succeed Lagarde as ECB president » (26 novembre 2026)",
+    "url": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html"
+   },
+   {
+    "short": "Euronews",
+    "name": "Euronews, « What the ECB's new leadership could mean for interest rates » (27 novembre 2026)",
+    "url": "https://www.euronews.com/2026/11/27/what-the-ecbs-new-leadership-could-mean-for-interest-rates"
+   },
+   {
+    "short": "BRI",
+    "name": "Banque des règlements internationaux, « Pablo Hernández de Cos, General Manager » (biographie officielle)",
+    "url": "https://www.bis.org/about/biophdc.htm"
+   },
+   {
+    "short": "Euronews",
+    "name": "Euronews, « Christine Lagarde quittera la présidence de la BCE en février, avant la fin de son mandat » (29 octobre 2026)",
+    "url": "https://fr.euronews.com/video/2026/10/29/christine-lagarde-quittera-la-presidence-de-la-bce-en-fevrier-avant-la-fin-de-son-mandat"
+   },
+   {
+    "short": "Al Jazeera",
+    "name": "Al Jazeera, « European Central Bank President Lagarde to step down early » (29 octobre 2026)",
+    "url": "https://www.aljazeera.com/news/2026/10/29/european-central-bank-president-lagarde-to-step-down-early"
+   },
+   {
+    "short": "TVP World",
+    "name": "TVP World, « Eurozone leaders tap Spain's Pablo Hernández de Cos to lead European Central Bank » (26 novembre 2026)",
+    "url": "https://tvpworld.com/96708397/ecb-president-spains-hernndez-de-cos-to-replace-lagarde"
+   },
+   {
+    "short": "NL Times",
+    "name": "NL Times, « Fmr. Dutch bank head Klaas Knot loses ECB presidency bid to Spain's Hernández de Cos » (26 novembre 2026)",
+    "url": "https://nltimes.nl/2026/11/26/fmr-dutch-bank-head-klaas-knot-loses-ecb-presidency-bid-spains-hernandez-de-cos"
+   }
+  ]
+ },
+ {
   "id": "2026-11-27-france-pib-recul-troisieme-trimestre-recession",
   "date": "2026-11-27",
   "region": "Europe",
