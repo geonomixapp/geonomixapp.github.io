@@ -456,8 +456,7 @@ window.GEOCO.agenda = [
         "name": "New Straits Times, « Eisenkot accuses Netanyahu's Likud of stalling Israeli coalition talks » (nov. 2026)",
         "url": "https://www.nst.com.my/world/world/2026/11/1587482/eisenkot-accuses-netanyahus-likud-stalling-israeli-coalition-talks"
       }
-    ],
-    "news": "2026-11-13-gaza-frappe-hopital-nasser-bebe-froid"
+    ]
   },
   {
     "id": "2026-12-07-france-secu-nouvelle-lecture",

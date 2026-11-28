@@ -2,12 +2,22 @@
 window.GEOCO = window.GEOCO || {};
 window.GEOCO.lettres = [
   {
+    "date": "2026-11-28",
+    "file": "lettres/2026-11-28.pdf",
+    "titles": [
+      "Pétrole : un nouveau pétrolier aurait sauté sur une mine à Ormuz, le Brent finit sa première semaine de hausse de novembre, et l'OPEP+ s'oriente vers le statu quo dimanche",
+      "Wall Street : le Nasdaq bondit de 2,3 % le jour du Black Friday, Tesla prend plus de 5 %, la Bourse américaine signe sa meilleure semaine depuis avril 2025",
+      "Taxes américaines sur les « surcapacités » : Pékin dénonce un « prétexte protectionniste » et menace de riposter, Tokyo « regrette », Bangkok se contente de 18 %"
+    ],
+    "fileDark": "lettres/2026-11-28-sombre.pdf"
+  },
+  {
     "date": "2026-11-27",
     "file": "lettres/2026-11-27.pdf",
     "titles": [
-      "Pétrole : deux pétroliers touchés près d'Ormuz, une raffinerie saoudienne frappée à Jazan, le Brent grimpe à 96,57 dollars avant la réunion de l'OPEP+ dimanche",
-      "Budget de l'UE : douze heures de dispute et « zéro résultat » à Bruxelles, Macron fixe un ultimatum à la fin décembre",
-      "Koweït : deux techniciens italiens tués par des drones, Rome et Koweït accusent l'Iran, qui dément, Bruxelles veut « accroître la pression » sur Téhéran"
+      "BCE : l'Espagnol Pablo Hernández de Cos choisi pour succéder à Christine Lagarde, une Française et un Allemand entrent aussi à la direction",
+      "Le PIB français recule de 0,2 % au troisième trimestre : l'Insee aggrave son chiffre et le mot « récession » s'invite",
+      "Pétrole : deux pétroliers touchés près d'Ormuz, une raffinerie saoudienne frappée à Jazan, le Brent grimpe à 96,57 dollars avant la réunion de l'OPEP+ dimanche"
     ],
     "fileDark": "lettres/2026-11-27-sombre.pdf"
   },
