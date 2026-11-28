@@ -2376,6 +2376,337 @@ window.GEOCO.news = [
   ]
  },
  {
+  "id": "2026-11-28-rheinmetall-objectif-2030-abaisse-action-monte",
+  "date": "2026-11-28",
+  "region": "Europe",
+  "theme": "fin",
+  "zones": [
+   "Europe"
+  ],
+  "geo": [
+   {
+    "coords": [
+     6.78,
+     51.23
+    ],
+    "name": "Düsseldorf, Allemagne",
+    "label": "Allemagne"
+   }
+  ],
+  "title": "Rheinmetall rabote son rêve de 2030 de 45 à 33-37 milliards d'euros, et son action gagne 3,3 %",
+  "summary": "Vendredi 27 novembre, le géant allemand de l'armement Rheinmetall a abaissé son objectif de chiffre d'affaires pour 2030 à 33-37 milliards d'euros, contre environ 45 milliards auparavant. Paradoxe : l'action a fini en tête du DAX avec +3,3 %, car les investisseurs s'attendaient au pire après une chute de 16 % début novembre [1][2][5].",
+  "points": [
+   "Lors de sa journée investisseurs du 27 novembre, Rheinmetall vise désormais 33 à 37 milliards d'euros de ventes en 2030, sans compter les rachats, contre environ 45 milliards jusqu'ici sur la même base [2][3]. En novembre 2025, avec les rachats, le groupe parlait d'environ 50 milliards [9].",
+   "La marge opérationnelle visée, c'est-à-dire la part des ventes qui reste en bénéfice d'exploitation, passe à environ 20 %, contre « plus de 20 % » auparavant [3].",
+   "Le groupe explique ce recul par l'abandon par Berlin du programme de frégates F126, les retards du gros contrat de blindés Arminius (des véhicules Boxer) et des lenteurs dans l'homologation des munitions [2].",
+   "Le patron, Armin Papperger, assure que l'objectif plus bas de la division véhicules contient une marge de sécurité d'environ 2 milliards d'euros face aux retards et aux tensions sur les fournisseurs, et ne traduit pas une demande plus faible [2]. Il rejette aussi l'idée que les drones rendront les blindés classiques inutiles [2].",
+   "Pour 2026, rien ne change : environ 13,2 milliards d'euros de ventes et une marge d'environ 18,5 % [2].",
+   "En Bourse, le titre est monté au-dessus de 800 euros en séance [3] et a fini en hausse de 3,3 %, meilleure performance du DAX, qui gagne 0,90 % à 25 441,24 points [5].",
+   "Les analystes sont partagés : AlphaValue et Jefferies saluent un plan plus réaliste, JPMorgan reste sceptique sur les marges de la division armes et munitions [1]."
+  ],
+  "why": [
+   "Ce qu'il faut retenir : la Bourse ne réagit pas à une nouvelle, mais à l'écart entre la nouvelle et ce qu'elle attendait. Le 5 novembre, Rheinmetall avait déjà abaissé pour la deuxième fois sa prévision 2026, et l'action avait perdu jusqu'à 16,3 % en séance [6]. Une baisse des objectifs 2030 était donc déjà « dans les prix » [3].",
+   "Le titre revient de loin. Après des gains à trois chiffres en moyenne chaque année entre 2022 et 2025, il a perdu environ 49 % depuis janvier [2]. Le réarmement de l'Europe continue, mais il se heurte aux réalités : budgets votés lentement, contrats repoussés, choix politiques comme l'abandon des frégates [2][8].",
+   "Pour Rheinmetall, l'enjeu est la crédibilité : en moins de quatre mois, le groupe a corrigé trois fois ses chiffres, en août, en novembre pour 2026, puis pour 2030 [8][6][2]. Viser plus bas, c'est se donner une chance de tenir ses promesses, et c'est ce que les investisseurs ont récompensé vendredi [1]."
+  ],
+  "forMe": "Si tu détiens un fonds « défense » ou un ETF européen, Rheinmetall y pèse souvent lourd : sa chute de près de moitié en 2026 [2] a pesé sur ces placements, très populaires depuis 2022. L'épisode rappelle qu'une entreprise peut voir ses ventes grimper de 32 % sur un trimestre [6] et pourtant décevoir la Bourse si elle avait promis plus.",
+  "figures": [
+   {
+    "value": "33-37 Md€",
+    "label": "nouvel objectif de ventes 2030, contre environ 45 Md€",
+    "src": 2
+   },
+   {
+    "value": "+3,3 %",
+    "label": "hausse de l'action vendredi, 1re du DAX",
+    "src": 5
+   },
+   {
+    "value": "−49 %",
+    "label": "recul du titre depuis janvier 2026",
+    "src": 2
+   }
+  ],
+  "deep": {
+   "explainer": {
+    "title": "Comment ça marche : pourquoi une action peut monter quand l'entreprise promet moins",
+    "text": "Le prix d'une action reflète ce que les investisseurs attendent des bénéfices futurs. Avant une annonce, ils se font une idée, appelée « consensus ». Si l'entreprise annonce moins que prévu mais pas aussi mal que redouté, le prix peut monter : c'est le soulagement. Ici, après la deuxième baisse de prévision du 5 novembre [6] et la chute d'environ moitié depuis janvier [7], beaucoup s'attendaient à un objectif 2030 coupé, ce que le marché avait anticipé [3]. Un objectif plus prudent réduit aussi le risque de nouvelles déceptions : JPMorgan juge le chiffre de ventes nettement plus crédible [3]. Enfin, les investisseurs qui avaient parié sur la baisse de l'action (les « vendeurs à découvert ») doivent racheter des titres pour clore leur pari, ce qui accentue souvent la hausse un jour de soulagement."
+   }
+  },
+  "past": {
+   "title": "Les précédents : les valeurs de défense, de l'euphorie aux corrections",
+   "items": [
+    {
+     "when": "28 février 2022",
+     "what": "Au lendemain de l'annonce par Olaf Scholz d'un fonds de 100 milliards d'euros pour l'armée allemande, l'action Rheinmetall bondit d'environ 31 % à Francfort [10].",
+     "lesson": "Le début d'une envolée : les valeurs de défense ont ensuite enchaîné des gains à trois chiffres jusqu'en 2025 [2]."
+    },
+    {
+     "when": "22 juillet 2025",
+     "what": "L'américain Lockheed Martin annonce 1,6 milliard de dollars de pertes sur des programmes et abaisse sa prévision de bénéfice par action pour 2025 à 21,70-22 dollars, contre 27-27,30 ; l'action chute de près de 11 %, sa pire séance depuis octobre 2021 [11].",
+     "lesson": "Même avec des commandes qui affluent, les retards et dépassements de coûts sur les contrats d'armement coûtent cher en Bourse."
+    },
+    {
+     "when": "18 novembre 2025",
+     "what": "Rheinmetall vise environ 50 milliards d'euros de ventes en 2030, cinq fois ses 9,8 milliards de 2024, avec une marge de plus de 20 % [9].",
+     "lesson": "Un objectif très ambitieux qui a soutenu l'action, mais qu'il a fallu ramener à 33-37 milliards un an plus tard [2]."
+    },
+    {
+     "when": "6 août et 5 novembre 2026",
+     "what": "Rheinmetall abaisse deux fois sa prévision de ventes 2026 : de 14-14,5 à 13,7-14,2 milliards après l'abandon des frégates F126 (−1,2 % en matinée) [8], puis à environ 13,2 milliards à cause du report du contrat Arminius (jusqu'à −16,3 % en séance) [6].",
+     "lesson": "La deuxième déception a coûté bien plus cher que la première : les investisseurs pardonnent un retard, rarement une série."
+    }
+   ]
+  },
+  "culture": [],
+  "dossiers": [],
+  "markets": {
+   "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+   "items": [
+    {
+     "name": "Rheinmetall",
+     "ticker": "RHM",
+     "move": "+3,3 %",
+     "why": "Meilleure performance du DAX vendredi [5] malgré l'objectif 2030 abaissé à 33-37 milliards d'euros [2] ; le titre reste en baisse d'environ 49 % depuis janvier [2]."
+    }
+   ]
+  },
+  "sources": [
+   {
+    "short": "Boursorama",
+    "name": "Boursorama, « Rheinmetall revoit ses ambitions à la baisse pour gagner en crédibilité » (27 novembre 2026)",
+    "url": "https://www.boursorama.com/bourse/actualites/rheinmetall-revoit-ses-ambitions-a-la-baisse-pour-gagner-en-credibilite-80abbe9f61d158bd112a547ecfc1a7b0"
+   },
+   {
+    "short": "CNBC",
+    "name": "CNBC, « Rheinmetall reins in growth ambitions as Europe's rearmament boom hits hurdles » (27 novembre 2026)",
+    "url": "https://www.cnbc.com/2026/11/27/rheinmetall-stock-cmd-guidance-sales.html"
+   },
+   {
+    "short": "MarketScreener",
+    "name": "MarketScreener, « Rheinmetall targets meet expectations - stock up » (27 novembre 2026)",
+    "url": "https://www.marketscreener.com/news/rheinmetall-targets-meet-expectations-stock-up-ce7851d9dc88f621"
+   },
+   {
+    "short": "Investing.com",
+    "name": "Investing.com France, « Pourquoi l'action Rheinmetall progresse-t-elle aujourd'hui ? » (27 novembre 2026)",
+    "url": "https://fr.investing.com/news/stock-market-news/pourquoi-laction-rheinmetall-progressetelle-aujourdhui--93CH-3714416"
+   },
+   {
+    "short": "dpa-AFX (Ariva)",
+    "name": "Ariva (dpa-AFX), « ROUNDUP/Aktien Frankfurt Schluss: KI-Erholung zieht auch Dax weiter nach oben » (27 novembre 2026)",
+    "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-ki-erholung-zieht-auch-dax-12223147"
+   },
+   {
+    "short": "Investing.com",
+    "name": "Investing.com, « Rheinmetall shares slump 16% after second 2026 outlook cut in Q3 results » (5 novembre 2026)",
+    "url": "https://www.investing.com/news/earnings/rheinmetall-cuts-2026-sales-margin-goals-despite-q3-operating-profit-beat-5002376"
+   },
+   {
+    "short": "BFM Bourse",
+    "name": "BFM Bourse, « Nouvelle déception pour la star de la défense européenne Rheinmetall, qui plonge de 15 % et tombe de son piédestal en Bourse (-50 % en 2026) » (5 novembre 2026)",
+    "url": "https://www.tradingsat.com/actualites/informations-societes/qui-plonge-de-15-et-tombe-de-son-piedestal-en-bourse-50-en-2026-1173255.html"
+   },
+   {
+    "short": "Defense News (Reuters)",
+    "name": "Defense News, « Rheinmetall scales down 2026 sales outlook on scrapped frigate program » (6 août 2026)",
+    "url": "https://defensenews.com/global/europe/2026/08/06/rheinmetall-scales-down-2026-sales-outlook-on-scrapped-frigate-program"
+   },
+   {
+    "short": "Reuters (Yahoo Finance)",
+    "name": "Yahoo Finance (Reuters), « Germany's Rheinmetall aims to quintuple sales to €50 billion by 2030 » (18 novembre 2025)",
+    "url": "https://finance.yahoo.com/news/germanys-rheinmetall-aims-quintuple-sales-115631236.html"
+   },
+   {
+    "short": "Investing.com",
+    "name": "Investing.com, « Defense shares soar as Germany ups spend; Rheinmetall rises 31% » (28 février 2022)",
+    "url": "https://uk.investing.com/news/stock-market-news/defense-shares-soar-as-germany-ups-spend-rheinmetall-rises-31-2594000"
+   },
+   {
+    "short": "Bloomberg",
+    "name": "Bloomberg Law, « Lockheed Flags $1.6 Billion in Charges as New CFO Digs Deep » (22 juillet 2025)",
+    "url": "https://news.bloomberglaw.com/securities-law/lockheed-flags-1-6-billion-in-charges-under-new-cfo"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-28-deutsche-borse-allfunds-feu-vert-bruxelles",
+  "date": "2026-11-28",
+  "region": "Europe",
+  "theme": "fin",
+  "zones": [
+   "Europe"
+  ],
+  "geo": [
+   {
+    "coords": [
+     8.68,
+     50.11
+    ],
+    "name": "Francfort, Allemagne",
+    "label": "Allemagne"
+   },
+   {
+    "coords": [
+     -3.7,
+     40.42
+    ],
+    "name": "Madrid, Espagne",
+    "label": "Espagne"
+   }
+  ],
+  "title": "Bruxelles laisse Deutsche Börse avaler l'espagnol Allfunds, le plus gros rachat de son histoire à 5,3 milliards d'euros",
+  "summary": "Vendredi 27 novembre, la Commission européenne a autorisé sans conditions le rachat d'Allfunds, plateforme de distribution de fonds d'investissement, par Deutsche Börse, l'opérateur de la Bourse de Francfort. L'opération, d'environ 5,3 milliards d'euros, est la plus grosse de l'histoire du groupe allemand, deux fois bloqué par Bruxelles par le passé [1][2][8].",
+  "points": [
+   "La Commission a donné son feu vert dès la première phase d'examen, sans demander de cession ni d'engagement : elle estime que l'opération ne pose pas de problème de concurrence dans l'Espace économique européen [1][3].",
+   "Elle a pourtant relevé des activités qui se recoupent fortement, en Europe et en particulier en Allemagne, en Autriche, en Belgique, en Espagne et au Luxembourg. Mais plusieurs concurrents crédibles restent présents sur chaque marché, et la pression des clients doit empêcher Deutsche Börse d'augmenter ses tarifs ou de bloquer l'accès à ses services [1][3].",
+   "La commissaire à la Concurrence, Teresa Ribera, relie l'opération à l'« Union de l'épargne et de l'investissement », le projet européen de marchés financiers plus unifiés, car elle construit une infrastructure qui dépasse les frontières [2].",
+   "Les actionnaires d'Allfunds recevront 8,80 euros par action : 6 euros en espèces, une part en actions Deutsche Börse (0,0122 action nouvelle par titre) et un dividende autorisé allant jusqu'à 0,20 euro [4][6].",
+   "L'accord avait été signé le 21 janvier 2026 [7]. Le prix représente une prime de 32,5 % sur le cours d'Allfunds du 26 novembre 2025 (6,64 euros) [6].",
+   "Il reste d'autres feux verts de régulateurs et l'accord d'un tribunal anglais, car l'opération passe par une procédure de droit anglais (« scheme of arrangement ») ; la finalisation est attendue au premier trimestre 2027 [4].",
+   "Vendredi, l'action Deutsche Börse a terminé quasi stable à Francfort, +0,16 % à 317,80 euros [5]."
+  ],
+  "why": [
+   "Ce qu'il faut retenir : Deutsche Börse veut gagner de l'argent au-delà des échanges d'actions. Allfunds sert d'intermédiaire entre ceux qui créent des fonds d'investissement et les banques qui les vendent à leurs clients ; il administrait 1 700 milliards d'euros d'actifs fin septembre 2025 [6]. Son réseau s'ajoute à Clearstream, la filiale de Deutsche Börse qui conserve et règle les titres [3].",
+   "Le feu vert sans conditions est un tournant pour un groupe que Bruxelles a souvent arrêté : en 2012, son mariage avec NYSE Euronext a été interdit, puis en 2017 celui avec la Bourse de Londres, jugé capable de créer un « monopole de fait » sur une partie des marchés obligataires [8].",
+   "C'est aussi un signal politique : Teresa Ribera présente le rachat comme une brique de l'Union de l'épargne et de l'investissement, le projet de Bruxelles pour que l'épargne des Européens circule mieux d'un pays à l'autre et finance davantage les entreprises du continent [2]."
+  ],
+  "forMe": "Si tu as une assurance-vie ou un PEA avec des fonds, il y a des chances que ta banque passe par une plateforme comme Allfunds pour les proposer. Le rachat ne change rien pour toi à court terme ; Bruxelles a justement vérifié que Deutsche Börse ne pourrait pas faire grimper les frais facturés aux distributeurs [1][3].",
+  "figures": [
+   {
+    "value": "5,3 Md€",
+    "label": "valeur du rachat, record pour Deutsche Börse",
+    "src": 2
+   },
+   {
+    "value": "8,80 €",
+    "label": "prix par action Allfunds, contre 11,50 € à son entrée en Bourse en 2021",
+    "src": 6
+   },
+   {
+    "value": "1 700 Md€",
+    "label": "actifs administrés par Allfunds fin septembre 2025",
+    "src": 6
+   }
+  ],
+  "deep": {
+   "explainer": {
+    "title": "Comment ça marche : pourquoi Bruxelles peut bloquer ou laisser passer un rachat",
+    "text": "Au-delà d'une certaine taille, une fusion doit être notifiée à la Commission européenne avant d'être réalisée. Celle-ci mène d'abord un examen rapide, la « phase 1 ». Si elle ne voit pas de risque pour la concurrence, elle autorise, comme ici [1]. Sinon, elle ouvre une « phase 2 », plus longue, au terme de laquelle elle peut exiger des cessions ou interdire l'opération, comme pour Deutsche Börse et la Bourse de Londres en 2017 [8]. Le critère : les clients auront-ils encore le choix ? Ici, la Commission a jugé qu'il restait plusieurs concurrents crédibles [1][3]. Côté Bourse, une offre « en espèces et en actions » lie le sort des vendeurs à celui de l'acheteur : la part payée en actions Deutsche Börse vaut plus ou moins selon le cours de celle-ci le jour de la finalisation [4]."
+   }
+  },
+  "past": {
+   "title": "Les précédents : les Bourses européennes et leurs mariages",
+   "items": [
+    {
+     "when": "2012",
+     "what": "La Commission européenne bloque le projet de rapprochement entre Deutsche Börse et NYSE Euronext, propriétaire de la Bourse de New York et d'Euronext [8].",
+     "lesson": "Premier coup d'arrêt : la Commission montre qu'elle peut empêcher la naissance d'un géant des Bourses."
+    },
+    {
+     "when": "29 mars 2017",
+     "what": "Bruxelles interdit le rachat de la Bourse de Londres (LSE) par Deutsche Börse, une opération évaluée à 14 milliards de dollars, qui aurait créé un « monopole de fait » dans la compensation des obligations [9][8].",
+     "lesson": "Deuxième échec : depuis, Deutsche Börse grandit en rachetant des prestataires de services financiers plutôt que des Bourses rivales, comme SimCorp puis Allfunds [11][2]."
+    },
+    {
+     "when": "23 avril 2021",
+     "what": "Allfunds entre en Bourse à Amsterdam au prix de 11,50 euros par action, puis gagne 12,8 % à 12,97 euros dès le premier jour ; son propriétaire principal, le fonds Hellman & Friedman, vend une partie de ses titres [10].",
+     "lesson": "Cinq ans plus tard, Deutsche Börse paie 8,80 euros par action [6] : les actionnaires de l'introduction n'ont pas retrouvé leur prix de départ."
+    },
+    {
+     "when": "Septembre-novembre 2023",
+     "what": "Deutsche Börse rachète le danois SimCorp, éditeur de logiciels pour les gérants de fonds, pour 3,9 milliards d'euros [12] ; l'opération est bouclée fin septembre et SimCorp quitte la Bourse de Copenhague [11].",
+     "lesson": "Même stratégie qu'avec Allfunds : se renforcer dans les services aux gérants de fonds, moins dépendants des volumes d'échanges en Bourse."
+    }
+   ]
+  },
+  "culture": [],
+  "dossiers": [],
+  "markets": {
+   "text": "Pour comprendre, pas un conseil pour acheter ou vendre.",
+   "items": [
+    {
+     "name": "Deutsche Börse",
+     "ticker": "DB1",
+     "why": "Clôture à 317,80 euros vendredi [5] : l'acheteur réalise le plus gros rachat de son histoire [2]."
+    },
+    {
+     "name": "Allfunds",
+     "ticker": "ALLFG",
+     "why": "Cotée à Amsterdam [10] ; ses actionnaires recevront 8,80 euros par action à la finalisation, attendue début 2027 [4][6]."
+    }
+   ]
+  },
+  "next": [
+   {
+    "when": "Premier trimestre 2027",
+    "what": "Finalisation attendue du rachat, après les derniers feux verts et l'accord du tribunal anglais [4]."
+   }
+  ],
+  "sources": [
+   {
+    "short": "Commission européenne",
+    "name": "Commission européenne, « Commission unconditionally approves Deutsche Börse's acquisition of Allfunds », IP/26/2592 (27 novembre 2026)",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2592"
+   },
+   {
+    "short": "Reuters (Euronext)",
+    "name": "Euronext (Reuters), « Deutsche Boerse wins EU antitrust approval for Allfunds acquisition » (27 novembre 2026)",
+    "url": "https://live.euronext.com/en/financial-news/deutsche-boerse-wins-eu-antitrust-approval-allfunds-acquisition"
+   },
+   {
+    "short": "Yahoo Finance",
+    "name": "Yahoo Finance, « EU gives Deutsche Börse go-ahead to take over the Allfunds platform » (27 novembre 2026)",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/eu-gives-deutsche-b-rse-130335672.html"
+   },
+   {
+    "short": "Deutsche Börse (FX News Group)",
+    "name": "FX News Group, « Deutsche Börse Group secures European Commission approval of Allfunds acquisition » (27 novembre 2026)",
+    "url": "https://fxnewsgroup.com/forex-news/exchanges/deutsche-borse-group-secures-european-commission-approval-of-allfunds-acquisition/"
+   },
+   {
+    "short": "RTTNews",
+    "name": "RTTNews, « Deutsche Börse Wins EU Clearance For Allfunds Acquisition » (27 novembre 2026)",
+    "url": "https://www.rttnews.com/3718647/deutsche-b-rse-wins-eu-clearance-for-allfunds-acquisition.aspx"
+   },
+   {
+    "short": "Funds Europe",
+    "name": "Funds Europe, « Deutsche Boerse and Allfunds agree terms of acquisition » (janvier 2026)",
+    "url": "https://funds-europe.com/deutsche-boerse-and-allfunds-agree-terms-of-acquisition/"
+   },
+   {
+    "short": "Bloomberg",
+    "name": "Bloomberg, « Deutsche Boerse Reaches $6.2 Billion Buyout Deal of Allfunds » (21 janvier 2026)",
+    "url": "https://www.bloomberg.com/news/articles/2026-01-21/deutsche-boerse-reaches-5-3-billion-buyout-deal-of-allfunds"
+   },
+   {
+    "short": "CNN",
+    "name": "CNN Money, « Europe's huge stock exchange merger is dead » (29 mars 2017)",
+    "url": "https://money.cnn.com/2017/03/29/investing/lse-deutsche-boerse-stock-exchange-europe/index.html"
+   },
+   {
+    "short": "Bloomberg",
+    "name": "Bloomberg, « EU Blocks Deutsche Boerse's $14 Billion Takeover of Rival LSE » (29 mars 2017)",
+    "url": "https://www.bloomberg.com/news/articles/2017-03-29/eu-blocks-deutsche-boerse-s-14-billion-takeover-of-rival-lse"
+   },
+   {
+    "short": "Reuters (Investing.com)",
+    "name": "Investing.com (Reuters), « Allfunds surges after $2.3 billion IPO boosts Amsterdam's clout » (23 avril 2021)",
+    "url": "https://www.investing.com/news/stock-market-news/allfunds-surges-after-23-billion-ipo-boosts-amsterdams-clout-2483390"
+   },
+   {
+    "short": "Deutsche Börse",
+    "name": "Deutsche Börse, « Q3/2023: Deutsche Börse Group reports further growth and completes takeover of SimCorp » (2023)",
+    "url": "https://deutsche-boerse.com/dbg-en/media/press-releases/Q3-2023-Deutsche-B-rse-Group-reports-further-growth-and-completes-takeover-of-SimCorp-3711076"
+   },
+   {
+    "short": "Wikipedia",
+    "name": "Wikipedia, « SimCorp »",
+    "url": "https://en.wikipedia.org/wiki/SimCorp"
+   }
+  ]
+ },
+ {
   "id": "2026-11-28-mexique-plainte-dea-whatsapp",
   "date": "2026-11-28",
   "level": 2,
